@@ -1,0 +1,123 @@
+[
+  {
+    "id": "RT-C20-01",
+    "url": "https://www.chromaate.com/en/product/battery_cell_formation_system_17000_series_334",
+    "title": "Chroma 17000 Battery Cell Formation System (Discharge Energy Recycling Li-ion Cell Formation System)",
+    "publisher": "Chroma ATE",
+    "date": "n.d.",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-02",
+    "url": "https://www.chromausa.com/pdf/17010%20Battery%20Reliability%20Test%20System%20062023.pdf",
+    "title": "Chroma 17010 Battery Reliability Test System — regenerative AC/DC bi-directional series, ±0.01% FS, energy recycling during discharge",
+    "publisher": "Chroma ATE USA",
+    "date": "2023-06",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-03",
+    "url": "https://www.digatronsystems.com/product/laboratory/lithium-ion-machinery/pilot-assembly-equipment-for-pouch-cell-manufacturing/clean-room/lab-formation-unit/",
+    "title": "Lab Formation Unit (LFU) — pilot pouch-cell formation with regenerative power electronics",
+    "publisher": "Digatron Systems",
+    "date": "n.d.",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-04",
+    "url": "https://www.neware.com.cn/CE6000",
+    "title": "CE-6000系列 (能量回馈) — energy-feedback high-precision charge/discharge system, bidirectional HF DC topology, 24-bit sampling",
+    "publisher": "Neware 深圳市新威尔电子",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-05",
+    "url": "http://m.cbea.com/ldc/201906/854277.html",
+    "title": "杭可科技：激活锂电池 构建品牌与技术壁垒 — >80% discharge energy fed back to grid on formation/grading equipment",
+    "publisher": "电池中国网 (CBEA)",
+    "date": "2019-06",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-06",
+    "url": "https://finance.sina.com.cn/jjxw/2023-02-07/doc-imyewiys6491779.shtml",
+    "title": "杭可科技：钠离子电池生产对公司的后段设备在技术上影响很小，多数与锂离子电池设备通用",
+    "publisher": "新浪财经",
+    "date": "2023-02",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-07",
+    "url": "https://www.batterytechonline.com/automotive-mobility/11-battery-ev-companies-that-have-filed-for-bankruptcy",
+    "title": "11 Battery & EV Companies That Went Bankrupt",
+    "publisher": "Battery Technology (Informa)",
+    "date": "2025",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-08",
+    "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
+    "title": "Brutal times for the US battery industry",
+    "publisher": "MIT Technology Review",
+    "date": "2026-03-12",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-09",
+    "url": "https://techcrunch.com/2025/09/05/natrons-liquidation-shows-why-the-us-isnt-ready-to-make-its-own-batteries/",
+    "title": "Natron's liquidation shows why the US isn't ready to make its own batteries (UL certification delays blocked $25M in orders)",
+    "publisher": "TechCrunch",
+    "date": "2025-09-05",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-10",
+    "url": "https://www.automotivetestingtechnologyinternational.com/news/battery-powertrain-testing/unico-introduces-bat300-battery-cell-formation-and-testing-kit.html",
+    "title": "Unico introduces BAT300 battery cell formation and testing kit — bi-directional to grid, one to thousands of channels",
+    "publisher": "Automotive Testing Technology International",
+    "date": "2024",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  },
+  {
+    "id": "RT-C20-11",
+    "url": "https://www.arbin.com/overview-about-what-arbin-product-to-choose-regenerative-features.html/",
+    "title": "Arbin regenerative features overview — RBT series returns discharge energy to grid, high-precision cell testing",
+    "publisher": "Arbin Instruments",
+    "date": "n.d.",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C20.md"]
+  }
+]

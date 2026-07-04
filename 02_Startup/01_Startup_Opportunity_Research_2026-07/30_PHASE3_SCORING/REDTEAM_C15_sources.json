@@ -1,0 +1,171 @@
+[
+ {
+  "id": "RT-C15-01",
+  "url": "https://www.hts-110.com/",
+  "title": "HTS-110 - Cryogen-Free High-Tc Superconducting Magnet System Design and Manufacture",
+  "publisher": "HTS-110 (NZ)",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "NZ incumbent (founded 2004) designing and manufacturing cryogen-free HTS magnet systems for NMR, metrology (3 T), beamline; sells to labs and OEM partners — occupies C15's claimed whitespace."
+ },
+ {
+  "id": "RT-C15-02",
+  "url": "https://www.innovationnewsnetwork.com/hts-110-and-stelar-launch-compact-benchtop-nmr-instrument/69288/",
+  "title": "HTS-110 and Stelar launch compact benchtop NMR instrument",
+  "publisher": "Innovation News Network",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "3Tracer 2.0 FFC relaxometer: 56 kg benchtop cryogen-free HTS NMR magnet embedded in an OEM instrument; HTS-110 roadmap of catalog magnet family up to 400 MHz (9.4 T), all single-phase — exactly C15's product, already launched."
+ },
+ {
+  "id": "RT-C15-03",
+  "url": "https://cryomagnetics.com/products/cryogen-free-superconducting-magnet-systems/",
+  "title": "Cryogen Free Superconducting Magnet Systems",
+  "publisher": "Cryomagnetics",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "US catalog vendor; first commercial 4.2 K pulse-tube system in 1999; prior OEM supply agreements (magnetic separation, gyrotron); delivers complete turnkey systems incl. cryostat, cryocooler, supplies, software."
+ },
+ {
+  "id": "RT-C15-04",
+  "url": "https://magnetica.com/",
+  "title": "Magnetica - Australia's MRI System Original Equipment Manufacturer (OEM)",
+  "publisher": "Magnetica",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "Magnetica merged with Scientific Magnetics and Tecmag (Jan 2021) to form a compact-MRI OEM with in-house cryogen-free superconducting magnets (3 T extremity) — the one-pager's own beachhead-pricing source [S074] is a direct competitor."
+ },
+ {
+  "id": "RT-C15-05",
+  "url": "https://scientificmagnetics.co.uk/",
+  "title": "Scientific Magnetics - Superconducting magnet systems",
+  "publisher": "Scientific Magnetics (UK)",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "UK vendor with ~20 yrs of standard and bespoke wet/dry (cryogen-free) superconducting magnets for end-users and OEM partners; consultancy for Siemens, Rolls-Royce."
+ },
+ {
+  "id": "RT-C15-06",
+  "url": "http://www.tesla.co.uk/magnet/",
+  "title": "Tesla Engineering Ltd - Magnet Division",
+  "publisher": "Tesla Engineering (UK)",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "Established superconducting magnet manufacturer; expanded facilities to produce UHF MRI magnets for GE, other OEMs and end users — third-party magnet supply to OEMs already exists at scale."
+ },
+ {
+  "id": "RT-C15-07",
+  "url": "https://temagnetics.com/",
+  "title": "TE Magnetics (Tokamak Energy HTS magnet division)",
+  "publisher": "TE Magnetics",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": ">$60M invested; quench-safe, compact, cost-effective HTS magnets (Ultra Compact Insulation) marketed for science, medicine, data-centre power, propulsion — a heavily funded entrant into standardized HTS magnet modules."
+ },
+ {
+  "id": "RT-C15-08",
+  "url": "https://www.stcn.com/article/detail/3379579.html",
+  "title": "超导磁体龙头健信超导科创板IPO：推动国产替代，助力产业升级",
+  "publisher": "证券时报 (STCN)",
+  "date": "2025",
+  "tier": 2,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "宁波健信超导 (STAR 688805): world's largest independent MRI magnet supplier; 1.5T 无液氦 (zero-helium) magnet certified 国际首台(套); ~4.2% global superconducting-magnet share (#5 global, #2 domestic); customers Fujifilm, GE Healthcare, Esaote, 万东, 安科 — independent-magnet niche is thin and already led by a scaled, cheap Chinese player."
+ },
+ {
+  "id": "RT-C15-09",
+  "url": "https://www.bruker.com/en/products-and-solutions/mr/nmr/fourier80.html",
+  "title": "Fourier 80 — 80 MHz benchtop NMR with high-performance, cryogen-free permanent magnet",
+  "publisher": "Bruker",
+  "date": "n.d.",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-04",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "Vendor primary: benchtop NMR uses cryogen-free permanent magnet, no liquid He/N2. Replaces Wikipedia entry per audit fix #2.",
+  "verified": "fetched"
+ },
+ {
+  "id": "RT-C15-10",
+  "url": "https://www.mrsolutions.com/mr-imaging/mr-imaging/mr-dry-magnet-cryogen-free/",
+  "title": "Preclinical MRI 3T - 4.7T - 7T - 9.4T - Variable field - Cryogen-free",
+  "publisher": "MR Solutions (UK)",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "Catalog cryogen-free dry superconducting magnets 3-9.4 T shipping today in compact preclinical MRI — the 'catalog component' vision already exists commercially."
+ },
+ {
+  "id": "RT-C15-11",
+  "url": "https://www.cn-healthcare.com/articlewm/20230911/wap-content-1603943.html",
+  "title": "四家值得关注的国产磁共振核心硬件企业",
+  "publisher": "健康界 (cn-healthcare)",
+  "date": "2023",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "辰光医疗 (430300): MRI core-component supplier to Philips (~16 yr relationship), 万东, 朗润; custom 0.2-11 T magnets incl. 无液氦; domestic magnet component ecosystem already serves Chinese OEMs — undercuts C15's 'sell to Chinese importers' angle."
+ },
+ {
+  "id": "RT-C15-12",
+  "url": "https://www.cls.cn/detail/1422102",
+  "title": "联创超导：已在超导磁体及应用端装备集成上积累大量技术优势",
+  "publisher": "财联社 (CLS)",
+  "date": "2025",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C15.md"
+  ],
+  "note": "联创超导 claims capability to design/build >15 T large-bore HTS magnet systems (induction heating, MCZ crystal growth, compact fusion) on 上海超导 tape — Chinese HTS magnet integration capacity is funded and expanding."
+ }
+]

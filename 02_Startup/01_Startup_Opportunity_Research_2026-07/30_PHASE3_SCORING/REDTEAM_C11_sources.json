@@ -1,0 +1,112 @@
+[
+  {
+    "id": "RT-C11-01",
+    "url": "https://indico.cern.ch/event/1347361/contributions/6309789/attachments/3031512/5351932/2025-03-13%20CCA.pdf",
+    "title": "Quench protection methods and challenges (A. Verweij, CCA 2025)",
+    "publisher": "CERN Indico",
+    "date": "2025-03-13",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-02",
+    "url": "https://ieeexplore.ieee.org/document/9248383/",
+    "title": "Progress of DC Quench Protection Switch for Superconducting Fusion Reactors",
+    "publisher": "IEEE Xplore",
+    "date": "2020",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-03",
+    "url": "https://www.sciencedirect.com/science/article/pii/S092037962030288X",
+    "title": "Concept design of 100 kA hybrid DC breaker on China Fusion Engineering Test Reactor",
+    "publisher": "Fusion Engineering and Design (Elsevier)",
+    "date": "2020",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-04",
+    "url": "https://ieeexplore.ieee.org/document/6073779/",
+    "title": "The Fast Discharge System of ITER Superconducting Magnets (70 kA / 10 kV, 7.5-14 s discharge time constants)",
+    "publisher": "IEEE Xplore",
+    "date": "2011",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-05",
+    "url": "https://scibreak.com/technology/vsc-varc/",
+    "title": "VARC Circuit Breakers — 10 kA against 9 kV interrupted in 3 ms",
+    "publisher": "Scibreak AB",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-06",
+    "url": "https://www.businesswire.com/news/home/20230219005035/en",
+    "title": "Mitsubishi Electric Acquires DC Circuit Breaker Developer Scibreak",
+    "publisher": "Business Wire",
+    "date": "2023-02-19",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-07",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11190006",
+    "title": "US Patent 11,190,006 — Quench protection in superconducting magnets (Tokamak Energy Ltd)",
+    "publisher": "USPTO",
+    "date": "2021",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-08",
+    "url": "https://www.hts-110.com/products/",
+    "title": "HTS-110 Products — coil design incorporating quench protection (integrated, not bought-in)",
+    "publisher": "HTS-110 Ltd",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-09",
+    "url": "http://aset.ipp.ac.cn/m/display.php?id=68",
+    "title": "等离子体所自主研制的全REBCO高温超导磁体成功励磁至24.1T (ASIPP in-house all-REBCO magnet with self-developed monitoring & protection)",
+    "publisher": "中国科学院等离子体物理研究所 (ASIPP)",
+    "date": "2024",
+    "tier": 2,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  },
+  {
+    "id": "RT-C11-10",
+    "url": "https://www.cn-healthcare.com/articlewm/20230911/wap-content-1603943.html",
+    "title": "四家值得关注的国产磁共振核心硬件企业 (domestic MRI magnet makers 宁波健信/辰光医疗 vertically integrate magnet hardware)",
+    "publisher": "健康界",
+    "date": "2023-09-11",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C11.md"]
+  }
+]

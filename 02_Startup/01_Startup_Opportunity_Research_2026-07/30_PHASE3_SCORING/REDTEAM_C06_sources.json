@@ -1,0 +1,123 @@
+[
+ {
+  "id": "RT-C06-01",
+  "url": "https://new.abb.com/low-voltage/products/circuit-breakers/sace-infinitus-solid-state-circuit-breaker",
+  "title": "SACE Infinitus - solid-state circuit breaker",
+  "publisher": "ABB",
+  "date": "2025",
+  "tier": 2,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "First IEC-certified SSCB, 1000 V/2500 A; NVIDIA data-center adaptation announced Oct 2025"
+ },
+ {
+  "id": "RT-C06-02",
+  "url": "https://www.powerelectronicsnews.com/pcim-2026-infineons-peter-wawer-on-grid-resilience-solid-state-circuit-breakers-and-the-path-to-800v-data-centers/",
+  "title": "PCIM 2026: Infineon on SSCBs and 800V DC Grids",
+  "publisher": "Power Electronics News",
+  "date": "2026",
+  "tier": 2,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "Infineon CoolSiC JFET SSCB roadmap for 800 V data centers; Siemens collaboration"
+ },
+ {
+  "id": "RT-C06-03",
+  "url": "https://thedatacenterengineer.com/news/silicon-carbide-boosts-siemens-sentron-3qd2-solid-state-circuit-breaker-for-data-centers/",
+  "title": "Infineon's SiC boosts Siemens SENTRON 3QD2 solid-state circuit breaker for data centers",
+  "publisher": "The Data Center Engineer",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "Siemens SENTRON 3QD2 shipping SSCB with 1200 V CoolSiC modules, microsecond interruption, DC-grid data-center positioning"
+ },
+ {
+  "id": "RT-C06-04",
+  "url": "https://www.atompower.com/",
+  "title": "Atom Power - solid state circuit breakers",
+  "publisher": "Atom Power",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "First UL-listed digital SSCB; SiC module; data-center marketing; 1M-cycle testing"
+ },
+ {
+  "id": "RT-C06-05",
+  "url": "https://www.prnewswire.com/news-releases/infineon-and-blixt-strengthen-the-collaboration-to-accelerate-growth-of-solid-state-circuit-breakers-301371656.html",
+  "title": "Infineon and Blixt strengthen the collaboration to accelerate growth of solid state circuit breakers",
+  "publisher": "PR Newswire / Infineon",
+  "date": "2021",
+  "tier": 3,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "Blixt (Stockholm) AC/DC SSCB startup, Infineon-backed"
+ },
+ {
+  "id": "RT-C06-06",
+  "url": "https://caifuhao.eastmoney.com/news/20260525100633698962530",
+  "title": "良信800V HVDC国产核心配电+固态断路器+母线监测+整机柜配电方案商",
+  "publisher": "东方财富网 财富号 (stock commentary)",
+  "date": "2026-05-25",
+  "tier": 3,
+  "lang": "zh",
+  "verified": "snippet",
+  "used_for": "Liangxin (良信) SiC SSCB <100 us, GB200/GB300 adaptation, China Mobile Hohhot / China Unicom deployments; treat claims as promotional, unverified"
+ },
+ {
+  "id": "RT-C06-07",
+  "url": "https://caifuhao.eastmoney.com/news/20260518151256474230070",
+  "title": "泰永长征：固态断路器（SSCB）绝对龙头，800V算力时代的AIDC电力守护神",
+  "publisher": "东方财富网 财富号 (stock commentary)",
+  "date": "2026-05-18",
+  "tier": 3,
+  "lang": "zh",
+  "verified": "snippet",
+  "used_for": "TYT (泰永长征) as Delta's exclusive domestic SSCB supplier, NVIDIA Rubin / Google TPU chain claims, 2026 mass production; promotional source, claims unverified"
+ },
+ {
+  "id": "RT-C06-08",
+  "url": "https://www.datacenterfrontier.com/energy/article/55323139/preparing-for-800-vdc-data-centers-abb-eaton-support-nvidias-ai-infrastructure-evolution",
+  "title": "Preparing for 800 VDC Data Centers: ABB, Eaton Support NVIDIA's AI Infrastructure Evolution",
+  "publisher": "Data Center Frontier",
+  "date": "2025",
+  "tier": 2,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "ABB and Eaton 800 VDC reference architectures and NVIDIA collaboration"
+ },
+ {
+  "id": "RT-C06-09",
+  "url": "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/",
+  "title": "NVIDIA 800 VDC Architecture Will Power the Next Generation of AI Factories",
+  "publisher": "NVIDIA",
+  "date": "2025",
+  "tier": 2,
+  "lang": "en",
+  "verified": "fetched",
+  "used_for": "Protection = fuse-and-disconnect or emerging solid-state at row/hall boundaries; no protection partner named; fault detection called a key innovation area; ecosystem partner list"
+ },
+ {
+  "id": "RT-C06-10",
+  "url": "https://www.sinofuse.com/",
+  "title": "西安中熔电气 (Sinofuse Electric)",
+  "publisher": "Sinofuse",
+  "date": "2026",
+  "tier": 3,
+  "lang": "zh",
+  "verified": "snippet",
+  "used_for": "Chinese fuse leader covering data-center UPS/HVDC/SST protection, 500-1500 V product lines, >100 kA backup fuses"
+ },
+ {
+  "id": "RT-C06-11",
+  "url": "https://webstore.ansi.org/standards/ul/ul489ied2025",
+  "title": "UL 489I Ed. 1-2025 - Solid State Circuit Breakers",
+  "publisher": "ANSI Webstore / UL",
+  "date": "2025-10-22",
+  "tier": 2,
+  "lang": "en",
+  "verified": "snippet",
+  "used_for": "UL 489I Ed.1 published Oct 2025; covers SSCB/SSHCB to 1000 Vac / 1500 Vdc; requires integral galvanic isolation contacts"
+ }
+]

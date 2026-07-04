@@ -1,0 +1,21 @@
+{
+  "mission": "PENDING",
+  "round": 3,
+  "focus": ["C12_cluster (incl. C33 QC module, recipe software)", "C10 (incl. C11 protection line)"],
+  "phases": {
+    "phase0_init_ingest": "pending",
+    "phase1_competitors": "pending",
+    "phase2_patents": "pending",
+    "phase3_whitespace": "pending",
+    "phase4_inventions": "pending",
+    "phase5_strategy": "pending",
+    "phase6_audit": "pending"
+  },
+  "counters": {
+    "segments_done": 0, "unsolved_entries": 0,
+    "patent_clusters_done": 0, "patents_total": 0, "cn_patents": 0,
+    "whitespace_entries": 0, "disclosures_done": 0, "redteams_done": 0,
+    "file_candidates": 0, "sources_fresh": 0
+  },
+  "notes": "Round 3: C12+C10 strategy, competitor map, US+CN patent whitespace, invention disclosures, IP roadmap. Update after every phase and wave. Files are ground truth."
+}

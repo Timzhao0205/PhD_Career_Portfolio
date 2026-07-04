@@ -1,0 +1,122 @@
+[
+  {
+    "id": "RT-C30-01",
+    "url": "https://www.allegromicro.com/en/about-allegro/newsroom/press-releases/2025/industrys-first-production-ready-10-mhz-tmr-current-sensor",
+    "title": "Allegro MicroSystems Unveils Industry's First Production-Ready 10 MHz TMR Current Sensor (ACS37100)",
+    "publisher": "Allegro MicroSystems",
+    "date": "2025-10-21",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "Fetched. DC-10 MHz, 50 ns response, 26 mA RMS noise, in production; directly falsifies C30's 'unproductized combination' premise."
+  },
+  {
+    "id": "RT-C30-02",
+    "url": "https://www.lem.com/en/tunnel-magneto-resistance-tmr",
+    "title": "TMR Sensor Technology, High-Accuracy Current Sensing",
+    "publisher": "LEM International SA",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "LEM claims TMR accuracy better than 1% with >10 MHz bandwidth."
+  },
+  {
+    "id": "RT-C30-03",
+    "url": "https://www.lem.com/en/tdk-lem-collaborate-tmr-ics",
+    "title": "TDK and LEM Collaborate on TMR ICs",
+    "publisher": "LEM International SA",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "TDK develops TMR dies for LEM's integrated current sensor line — second incumbent on the same roadmap."
+  },
+  {
+    "id": "RT-C30-04",
+    "url": "https://www.hioki.com/us-en/products/current-probes/high-precision/id_471292",
+    "title": "AC/DC Current Sensor CT6904A (500 A, DC-4 MHz)",
+    "publisher": "Hioki",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "Fluxgate zero-flux, DC-4 MHz, ±0.02% rdg basic accuracy, ±5 ppm linearity — owns the accuracy flank of C30's target market."
+  },
+  {
+    "id": "RT-C30-05",
+    "url": "https://www.pemuk.com/products/cwt-range/cwtmini50hf",
+    "title": "CWTMini50HF AC Rogowski Coil Current Probe",
+    "publisher": "PEM UK",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "30-50 MHz Rogowski probe, default choice for SiC/GaN double-pulse testing — owns the speed flank."
+  },
+  {
+    "id": "RT-C30-06",
+    "url": "https://www.dowaytech.com/4408.html",
+    "title": "多维科技推出多系列高精度、高频响、高可靠性TMR电流传感器",
+    "publisher": "江苏多维科技 (MultiDimension Technology)",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "Chinese TMR incumbent; closed-loop TMR total temperature drift 0.1-0.2% (-40 to 85 C) — benchmark for realistic accuracy floor."
+  },
+  {
+    "id": "RT-C30-07",
+    "url": "https://sensor.ofweek.com/2025-08/ART-81012-8420-30669589.html",
+    "title": "安徽杀出超级隐形冠军：清华老师干传感器，年入7亿全国第一 (Sinomags profile)",
+    "publisher": "OFweek 传感器网",
+    "date": "2025-08",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "希磁科技 Sinomags: ¥703M 2024 revenue (+18.4%), #6 global / #1 Chinese magnetic-sensor IDM, own German wafer fab, IPO filing — fills the China import-substitution angle domestically."
+  },
+  {
+    "id": "RT-C30-08",
+    "url": "https://news.21dianyuan.com/detail/58714.html",
+    "title": "低阻抗、高通流、主打电源应用，纳芯微推出集成式电流传感器NSM2311",
+    "publisher": "世纪电源网 (NOVOSENSE product news)",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "纳芯微 NOVOSENSE NSM2311: 100 uOhm primary, 200 A continuous, 5 kVrms isolation — Chinese integrated current-sensor IC push."
+  },
+  {
+    "id": "RT-C30-09",
+    "url": "https://danisense.com/products/dt100id/",
+    "title": "DT100ID Fluxgate Current Transducer",
+    "publisher": "Danisense A/S",
+    "date": "n.d.",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "DT series: 2 MHz bandwidth with <1-2 ppm linearity, 50-200 A — the metrology tier C30 proposes to expand into already exists."
+  },
+  {
+    "id": "RT-C30-10",
+    "url": "https://www.semiconductorforu.com/melexis-tackles-signal-integrity-challenges-in-high-power-evs-with-digital-current-sensor/",
+    "title": "Melexis Tackles Signal Integrity Challenges in High-Power EVs with Digital Current Sensor (MLX91229)",
+    "publisher": "Semiconductor for You",
+    "date": "2026-06",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C30.md"],
+    "note": "MLX91229 sigma-delta digital-output sensor, 200-2000 A traction inverters — Melexis iterating in the same lane."
+  }
+]
