@@ -1,0 +1,6 @@
+# Assumptions Log (append-only)
+
+- [2026-07-03] A1: RID-051/081/088/115 are referenced in june25_research.md only as "borderline rows below top-25" with no names in the available corpus. Logged in exclusion ledger as unnamed borderline entries; any V-candidate resembling an unnamed RID will be judged by the drone/borderline cluster context instead.
+- [2026-07-03] A2: GEN3 SATURATION_REPORT has no section literally titled "gap register"; the brief itself asserts the 8 lanes were verified virgin. Cross-checked lane charters against all 273 ledger entries — no lane duplicates a prior charter; the excluded-neighbor lists in the brief match ledger IDs. Proceeding.
+- [2026-07-03] A3: Radar-wedge exclusions ledgered per company (23 wedges, W-*). The companies' primary US businesses are additionally treated as competitive context, not as excluded concepts per se (the brief excludes the China-wedge clones).
+- [2026-07-03] A4: Frozen incumbent scores taken from GEN3/02_FULL_RANKING.md exactly as the brief lists them (C12 83.6, C10 76.8, C06 74.8, C01/C03 69.6, C27 68.0). C33/C11/C15 are carried as C12-cluster modules (71.2/71.2/69.6) for reference in the merged ranking, not as separate incumbents in the showdown top set.
