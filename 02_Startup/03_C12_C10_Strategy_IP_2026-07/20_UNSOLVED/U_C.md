@@ -1,0 +1,15 @@
+# U_C — Unsolved problems evidenced in CS-C (vertical integrators & coils-as-product)
+
+Schema per DELIVERABLES_SPEC. Local ids U-C-n (renumber to U-### at Phase-1 merge). Evidence ids resolve in `10_COMPETITORS/CS_C_sources.json` (all cited refs verified:"fetched" unless noted).
+
+U-C-1 | lane C12 | No vendor-neutral HTS winding-machine or coil source in the West: sole merchant machine line is competitor-owned and does not disclose it. | Second-wave fusion startups without magnet teams (e.g., mirror/ST entrants post-Realta; university programs) | [CS-C-04][CS-C-07][CS-C-08] — TE cites Ridgway for its own "end-to-end capability" while Ridgway pages still sell externally, silent on ownership | 4 | Incentive: integrators monetize scarcity; buying reveals process intent to a rival | Y | P01,P05
+
+U-C-2 | lane C12 | Stellarator-grade non-planar cable/coil manufacturing has no merchant supplier: CFS cable tech contractually exclusive to Type One among stellarators. | Stellarator developers ex-Type One (named: Proxima — ordered its own in-house cable line 2025-09) | [CS-C-03][CS-C-09]; boutique fallback lacks fusion-scale references [CS-C-18] | 5 | Economic: non-planar NRE high, volumes low; exclusivity forecloses the one proven cable source | Y | P05,P01
+
+U-C-3 | lane C12 | Batch >20 T coil/sample test access: worldwide only a few big-science labs, "slow and expensive"; ES's commercial platform serves China, not Western producers. | HTS coil/tape QA teams, fusion magnet builders (e.g., NHMFL queue users) | [CS-C-13][CS-C-14] — incumbent claims solution (ES platform) while Western demand stays unserved; cite both sides | 4 | Economic/geopolitical: test magnets are costly; the one productized platform sits behind China's export wall | Y | P04
+
+U-C-4 | lane C10 | Coil-array architectures multiply precision bipolar channels (±140 A/coil, 9-coil Canis; hundreds at Eos scale) with no catalog multi-channel magnet supply. | Planar-array stellarator builders (named: Thea Energy — built Canis power/control in-house) | [CS-C-10][CS-C-11] | 4 | Market: converter vendors ignore sub-kA many-channel precision niche; integrators hand-build | Y | P08
+
+U-C-5 | lane C12 | Winding process knowledge (tension→Rc, insulated fast-ramp, LHe-free operation) is published as records, never sold as recipes; every entrant re-derives it. | New fusion entrants and labs (named: Startorus built two winding-machine generations in-house to learn the process) | [CS-C-14][CS-C-15][CS-C-17] | 4 | Incentive: process = the moat; integrators publicize results, withhold parameters | Y | P01,P02
+
+U-C-6 | lane C12 | Merchant coil buyers queue behind integrators' flagships: CFS factory serves SPARC + Realta simultaneously; TE booked on STEP/DARPA to 2029; no delivery SLA exists. | Labs and startups buying coils (e.g., WHAM-class projects, Realta itself pre-partnership) | [CS-C-01][CS-C-02][CS-C-04][CS-C-05] — Realta CEO values "magnets we need, when we need them", i.e., supply assurance was the pain | 3 | Economic: internal milestones dominate integrator capacity; merchant priority unenforceable | Y | P04,P01

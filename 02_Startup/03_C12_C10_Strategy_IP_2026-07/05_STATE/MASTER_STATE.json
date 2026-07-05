@@ -1,21 +1,47 @@
 {
-  "mission": "PENDING",
+  "mission": "IN_PROGRESS",
   "round": 3,
   "focus": ["C12_cluster (incl. C33 QC module, recipe software)", "C10 (incl. C11 protection line)"],
   "phases": {
-    "phase0_init_ingest": "pending",
-    "phase1_competitors": "pending",
-    "phase2_patents": "pending",
-    "phase3_whitespace": "pending",
-    "phase4_inventions": "pending",
+    "phase0_init_ingest": "complete",
+    "phase1_competitors": "complete",
+    "phase2_patents": "complete",
+    "phase3_whitespace": "complete",
+    "phase4_inventions": "D1_D2_D3_done_RT1_done__PAUSED_session_limit",
     "phase5_strategy": "pending",
     "phase6_audit": "pending"
   },
   "counters": {
-    "segments_done": 0, "unsolved_entries": 0,
-    "patent_clusters_done": 0, "patents_total": 0, "cn_patents": 0,
-    "whitespace_entries": 0, "disclosures_done": 0, "redteams_done": 0,
-    "file_candidates": 0, "sources_fresh": 0
+    "segments_done": 8, "unsolved_entries": 36,
+    "patent_clusters_done": 10, "patents_total": 216, "cn_patents": 105,
+    "whitespace_entries": 24, "disclosures_done": 12, "redteams_done": 5,
+    "file_candidates": 0, "sources_fresh": 173
   },
-  "notes": "Round 3: C12+C10 strategy, competitor map, US+CN patent whitespace, invention disclosures, IP roadmap. Update after every phase and wave. Files are ground truth."
+  "phase4_verdict_tracker": {
+    "ID_01": "FILE-CANDIDATE (re-verdict passed 2026-07-04; growing-ladder + azimuth-epoch claim clears 103)",
+    "ID_02": "rev2 done, re-verdict pending", "ID_03": "rev2 done, re-verdict pending", "ID_04": "rev2 done, re-verdict pending",
+    "ID_05": "rev2 done (two-protocol identifiability in claim 1; G0 gate), re-verdict pending",
+    "ID_06": "rev2 done (strain-envelope superposition in claim 1; non-optical primary; US5547532A/KIT NPL charted), re-verdict pending",
+    "ID_07": "rev2 done: STANDALONE FAMILY RETIRED -> 4 host-carried dependents (ID_01/ID_03) + defensive-publication schema + functional weight via ID_14; re-verdict pending (confirm redisposition)",
+    "ID_08": "REWORK (rework running: promote PWM-locked demod clock + ripple-null aperture to claim 1; chart JINST/PSI NPL; fix Rivas-adjacency contradiction)",
+    "ID_09": "REWORK (rework running: any-modality arm incl. Hall; latency self-measurement structural)",
+    "ID_10": "REWORK queue B2 (Lake Shore 625/AMI art: residue = kA-class + pre-ramp capacity verification structural + latency contract; fix enclosure squeeze)",
+    "ID_11": "RT3 running", "ID_12": "REWORK queue B2 (kill disjunctive claim: conjunctive L-aware state synthesis + divergence watchdog into claim 1; CN101507096B free art)",
+    "ID_13": "RT3 running",
+    "ID_14": "REWORK queue B2 (US6211639B1 Bosch nameplate frame: recite Rc-distribution/joint-inventory derivations algorithmically + enforce; kill weak branch; file before ID_07 schema publication)"
+  },
+  "resume_plan": {
+    "blocked_by": "API session limit hit 2026-07-04 during D3 (resets 17:50 America/Los_Angeles); ID_11/ID_12 designers died during cosmetic length-trim only — files verified complete on disk (11 sections + disclaimer + PASS verdicts). Do NOT redraft them.",
+    "next_waves_in_order": [
+      "ReworkA (4 designers): ID_01,ID_02,ID_03,ID_04 pass-2 applying the exact IPRT_01..04 fix lists; keep 900-1600 words; rework ONCE else demote DROP",
+      "RT2 (5 redteams): IPRT_06..IPRT_10 on ID_06,ID_07,ID_08,ID_09,ID_10",
+      "D4+rework (3 designers): ID_13=W-15 array drive (50_INVENTIONS/ID_13_array_drive.md), ID_14=W-19 coil-record-driven drive/seam (ID_14_coil_record_drive.md), ID_05 pass-2 per IPRT_05",
+      "RT3 (5): IPRT_11..IPRT_14 on ID_11,ID_12,ID_13,ID_14 + re-verdict of reworked ID_01 (update IPRT_01 verdict line)",
+      "RT4 (<=5): re-verdicts of reworked ID_02,ID_03,ID_04,ID_05; any RT2/RT3 REWORK gets its single rework then re-verdict; unresolved -> DROP; W-16 reserve enters only if selected slots drop below 10",
+      "Then Phase 5 (strategy files by orchestrator; merge segment sources.json into 90_BIBLIOGRAPHY/sources.json with S-### ids + sweep ID/IPRT NPL citations into bibliography; fetch USPTO/CNIPA/WIPO fee pages), then Phase 6 audit"
+    ],
+    "verdicts_so_far": "IPRT_01..05 all REWORK with actionable fix lists (see notes in PROGRESS_LOG and IPRT files). ID_01..ID_12 all wall-PASS (ID_05/08/09/10/12 conditional w/ tripwires).",
+    "tolerances": "ID_09..ID_12 run ~1.9-2.5K raw whitespace-split words (spec 900-1600 prose): substantively complete; trim only if Phase-6 audit flags. FPO-verified records per A-07 ruling. Ledger rows with cluster PH4/IPRT-03 are Phase-4 additions outside P01-P10 cluster quotas."
+  },
+  "notes": "Ledger after Phase-4 fragment merge: 216 records (P-001..P-216), 105 CN-family, 71 CN-jurisdiction; ids P-001..P-197 stable vs WHITESPACE_REGISTER/ID citations; tail P-198..P-216 = Phase-4 additions (US12196792B2 SJTU is the notable new blocker vs ID_01). P-064 family gained CN114667579B + no-continuations note; P-072 notes carry EP/JP sibling dead-status. sources_fresh=173 EXCLUDES ~15 NPL references cited in IPRT files - sweep them into sources.json at Phase 5."
 }
