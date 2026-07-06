@@ -1,1 +1,0 @@
-Phase 1 output: tiered map of the Ascend/Kunpeng compute supply chain. SEED_CHAIN_MAP.md is pre-loaded from the 2026-07-05 scoping session; Claude Code extends and re-verifies it, one file per tier if it grows.

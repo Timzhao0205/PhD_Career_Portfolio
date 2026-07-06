@@ -1,1 +1,0 @@
-Phase 2: one dossier per company using _TEMPLATE_dossier.md. Naming: D_<ticker>_<shortname>.md + D_<ticker>_sources.json. Only companies passing the exposure-verifier's DISCLOSED or REPORTED bar get full dossiers.

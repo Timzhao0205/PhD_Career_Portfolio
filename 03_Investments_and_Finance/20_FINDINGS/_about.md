@@ -1,1 +1,0 @@
-Cross-project synthesis that survives individual projects: WATCHLIST.md (tracked names + status) and FINDINGS_LEDGER.md (dated conclusions with confidence tags). Claude Code appends here at the end of every research run; human reviews before anything becomes actionable.
