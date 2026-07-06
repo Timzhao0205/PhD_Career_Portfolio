@@ -1,0 +1,1 @@
+Append-only decision journal. Every real-money (and paper) decision gets an entry BEFORE execution using _TEMPLATE_decision.md. Never edit past entries; corrections are new entries. This is the highest-value habit in the whole folder. PREDICTION_LOG.md and PAPER_PORTFOLIO.md hold learning-mode forecasts and simulated positions - same pre-registration discipline, no real money.

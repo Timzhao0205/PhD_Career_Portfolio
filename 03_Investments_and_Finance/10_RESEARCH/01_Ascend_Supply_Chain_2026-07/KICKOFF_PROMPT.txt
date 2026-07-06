@@ -1,0 +1,16 @@
+Read CLAUDE.md in this folder and ../../CLAUDE.md, then all files in 01_MISSION/ and
+10_CHAIN_MAP/SEED_CHAIN_MAP.md. Then execute the mission:
+
+Phase 1: Re-verify and extend the seed chain map per MISSION_BRIEF central question 1
+and 2. Upgrade/downgrade evidence tags with sources. Write 10_CHAIN_MAP/CHAIN_MAP_V1.md
++ tier source JSONs. Update 05_STATE and STOP for my review.
+
+After I approve: Phase 2 dossiers (parallel subagents allowed; exposure-verifier gate),
+Phase 3 scoring + SELECTION.md, Phase 4 red team then STOP for my review, Phase 5
+theses with kill criteria + compliance tables, then 99_AUDIT and append results to
+../../20_FINDINGS/WATCHLIST.md and FINDINGS_LEDGER.md (no 'actionable' statuses - I set
+those manually after compliance).
+
+Constraints: SOURCE_STANDARDS tiers strictly; minimum 60 Tier-1/2 sources; zero
+conclusions on [RUMOR]; bilingual names; every number sourced. Budget guidance: work
+in parallel, but Phase 1 first and alone.
