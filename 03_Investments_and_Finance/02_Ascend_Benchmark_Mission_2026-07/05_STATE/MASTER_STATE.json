@@ -1,11 +1,13 @@
 {
-  "mission": "NOT_STARTED",
-  "phase": 0,
-  "universe_size": 0,
-  "names_verified": 0,
-  "names_fundamentals": 0,
-  "names_valued": 0,
-  "redteams_done": 0,
-  "sources_total": 0,
-  "last_update": null
+  "mission": "COMPLETE",
+  "phase": 5,
+  "universe_size": 14,
+  "names_verified": 14,
+  "names_fundamentals": 14,
+  "names_valued": 14,
+  "redteams_done": 6,
+  "sources_total": 464,
+  "audit_verdict": "PASS",
+  "audit_fixes_applied": 1,
+  "last_update": "2026-07-07T10:30:00-07:00"
 }
