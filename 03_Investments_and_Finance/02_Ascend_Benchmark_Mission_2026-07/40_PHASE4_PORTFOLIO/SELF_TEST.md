@@ -89,3 +89,34 @@ Merge `PREDICTIONS_APPEND.csv` into the lab's `PREDICTIONS_LOG.csv` (schema note
 resolve (6-12 months), grade BOTH the key and your attempt on them — argument quality
 first, outcome second. A benchmark disagreement is not an error signal by itself; the
 mission says so about itself in ANSWER_KEY_BENCHMARK.md §5.
+
+---
+
+## 7. v2 ADDENDUM (accuracy patch, 2026-07-07) — which key to grade against
+
+**The blind attempt had not been made when the accuracy patch ran, so v2 IS the answer
+key.** Protocol changes vs §0–§6 above (which are otherwise unchanged):
+
+1. **Evidence base for the blind attempt = 10_/20_ including the five patch additions**
+   (688347, 688141, 002436, 688535, 688519 — 19 names total). Do not open `30_`/`40_`
+   until your MY_ATTEMPT.md is complete; that now includes the FR_/REDTEAM_*_v2 files.
+2. **Rank all 19 names.** Grade against `SCORES_v2.csv` (use its rank column — v2 has no
+   identical-vector ties; equal totals are already tiebroken by the rubric's W1→W4 rule,
+   documented per row). Spearman denominator for n=19: 19·(361−1) = 6,840
+   → ρ = 1 − 6·Σd²/6840.
+3. **Allocation overlap** uses the v2 key weights: 688629 12, 000034 8, 300308 8,
+   002916 8, 688981 6, CASH 58 (BENCHMARK_PORTFOLIO_v2.csv).
+4. **Extra credit (the patch's own test):** before opening 30_/40_, write one paragraph
+   answering: "Which of the five added names has the strongest Ascend case, and what
+   single piece of evidence would you check first?" Then compare against
+   ANSWER_KEY_BENCHMARK_v2.md §5's entries for 688347 (entity scope) and 688519
+   (marketing grammar). If your first-check instinct was the LEGAL ENTITY or the
+   customer table rather than the headline claim, the patch's lesson is already yours.
+5. **If you later also score against v1** (optional, instructive): the v1→v2 CHANGELOG
+   (ANSWER_KEY_BENCHMARK_v2.md §5) is a worked example of how better adjudication changes
+   conclusions with the SAME market data — every mover carries the exact evidence or
+   ruling that moved it. The most valuable single comparison: v1 ranked 600839 at #2 on
+   two pillars; name the two pillars and find, in REDTEAM_600839_v2/R5.1, the one segment
+   table that killed both.
+6. Predictions: merge BOTH `PREDICTIONS_APPEND.csv` (PB01–PB07, unchanged and live) and
+   `PREDICTIONS_APPEND_v2.csv` (PB08–PB14, patch-vintage) into the lab log.

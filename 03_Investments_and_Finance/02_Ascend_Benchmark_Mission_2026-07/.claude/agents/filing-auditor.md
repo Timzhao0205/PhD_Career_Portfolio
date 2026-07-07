@@ -27,3 +27,9 @@ Procedure:
 
 NUMBER TRUTH RULE is absolute: no figure without a fetched source. Return a one-line
 summary only; findings go to files.
+
+HARD BUDGET (binding): max 12 WebFetch/WebSearch calls per ticker. If any single fetch
+hangs or a fact resists confirmation after 3 attempts via different sources, STOP —
+record the best-supported tier with the uncertainty explicitly logged, and return.
+Prefer sse.com.cn / cninfo / sina vCI pages; avoid data.eastmoney.com/gdfx (hangs).
+An honestly-logged ambiguity is a valid audit result; an unbounded search is a defect.

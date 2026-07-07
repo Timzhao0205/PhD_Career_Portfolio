@@ -1,0 +1,23 @@
+{
+  "patch": "IN_PROGRESS",
+  "pp_phase": 4,
+  "pg3": "PASS (5 deliverables built; workbook round-trip + row-counts PASS; disclaimers 108/108; spoiler scan clean after 3 log redactions)",
+  "new_names": ["688347", "688141", "002436", "688535", "688519"],
+  "new_names_added": 5,
+  "pp1_p1_done": ["688347", "002436", "688535", "688519", "688141"],
+  "pp1_p2_done": ["688141", "002436", "688347", "688535", "688519"],
+  "pp1_p3_done": ["688535", "688347", "688141", "002436", "688519"],
+  "fable_reviews_deferred": 0,
+  "cr_done": ["all 19 FR reviews complete 2026-07-07; per-ticker deltas and totals live in 30_PHASE3_VALUATION_SCORING/SCORING_NOTES_v2.md §2 and SCORES_v2.csv only (spoiler boundary - do not restate here)"],
+  "fable_reviews_done": 18,
+  "re_redteams_done": 5,
+  "re_redteam_queue": ["600839:DONE+ANSWERED(R5.1)", "002156:DONE+ANSWERED(R5.2)", "688519:DONE+ANSWERED(R5.3)", "688347:DONE+ANSWERED(R5.4)", "688141:DONE+ANSWERED(R5.5)", "301236:trigger-satisfied-by-existing-coverage (v1 memo + R4 + FR, row unchanged - see REDTEAM_RESPONSES_v2 status note)"],
+  "pg2": "PASS (19 FR files, SCORES_v2 final, 26 challenges + 3 defect demands all answered in REDTEAM_RESPONSES_v2)",
+  "cr_flags": {
+    "688141": "For the FR_ reviewer (leads from an unpersisted worker corroboration, NOT ledger facts - re-fetch to use): (a) check current top-10 holder register: rank-3 云通大业产业投资有限公司 ~3.01% reportedly matches the Hubble share count within 8 shares (possible renamed Hubble vehicle, identity unsettled); (b) company 业绩快报 2026-02-28 + IR records 2025-08-12/2025-11-10 reportedly Huawei/Ascend-silent and frame server power in Intel VR14/IMVP9.3 terms - bears on W1 tier and the S924 anchor's weight.",
+    "688519": "Tier B rests on zero direct tier-1 fetches (documented WPS/FlateDecode failure trail; own-filing language via convergent dated tier-3 statutory relays) - reviewer should weigh whether relay-based tier B holds per SOURCE_STANDARDS.",
+    "688347": "F_688347.md documents an UNRESOLVED ~2x GM conflict: CNY-basis sources 17-27% (used in CSV) vs two agreeing USD-basis sources ~10-12% for FY24/25; likely COGS-definitional. Reviewer should adjudicate which basis the W3 cell may rely on.",
+    "688535": "FY2025 revenue includes ~2 months of 衡所华威 consolidation (from 2025-11-01) - FY25 vs FY24 not like-for-like (F_688535.md flags it); all 3 years show net DEBT post-IPO (IPO proceeds parked outside 货币资金 FY23; 2025 convertible bond funding M&A). Reviewer: weigh W3 growth/balance-sheet cells accordingly."
+  },
+  "last_update": "2026-07-07T10:05:00-07:00"
+}

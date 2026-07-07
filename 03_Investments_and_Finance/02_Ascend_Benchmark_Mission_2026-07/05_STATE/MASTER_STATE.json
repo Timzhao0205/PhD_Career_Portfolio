@@ -1,13 +1,14 @@
 {
   "mission": "COMPLETE",
   "phase": 5,
-  "universe_size": 14,
-  "names_verified": 14,
-  "names_fundamentals": 14,
-  "names_valued": 14,
+  "universe_size": 19,
+  "names_verified": 19,
+  "names_fundamentals": 19,
+  "names_valued": 19,
   "redteams_done": 6,
-  "sources_total": 464,
+  "sources_total": 632,
   "audit_verdict": "PASS",
   "audit_fixes_applied": 1,
-  "last_update": "2026-07-07T10:30:00-07:00"
+  "patch": "see PATCH_STATE.json (accuracy patch in progress; counters above include the 5 PP1 additions)",
+  "last_update": "2026-07-07T13:35:00-07:00"
 }

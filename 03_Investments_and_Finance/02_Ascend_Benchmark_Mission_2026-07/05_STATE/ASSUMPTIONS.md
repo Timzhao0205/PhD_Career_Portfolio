@@ -78,3 +78,43 @@
   FUNDAMENTALS.csv -> Fundamentals; VALUATION.csv -> Valuation; SCORES.csv -> Scores;
   BENCHMARK_PORTFOLIO.csv -> Portfolio; sources.json -> Sources. CSV consumers skip the
   A13 disclaimer line; every tab's A1 note carries the disclaimer + as-of date instead.
+
+## Patch assumptions (accuracy patch, PP0–PP4; A## numbering continues per KICKOFF_PATCH)
+
+- **A17 (patch S-ID blocks, 2026-07-07):** v1 ledger tops out at S747 (S800–S899 was
+  reserved by A2 for orchestrator/P4 but never used — grep confirms zero S8xx/S9xx
+  entries; the S800s stay unused to avoid ambiguity). Patch blocks: PP1 filing-auditors
+  688347 S900–S919, 688141 S920–S939, 002436 S940–S959, 688535 S960–S979, 688519
+  S980–S999. PP2-patch fundamentals-analysts: same ticker order, 20-ID blocks
+  S1000–S1099. PP3-patch valuation-analysts: same order, 10-ID blocks S1100–S1149.
+  critical-reviewers: 4-ID blocks S1150–S1249 assigned at launch in review order
+  (mapping recorded in each launch prompt; ≤2 fetches each per FABLE-FRUGALITY F1 means
+  4 IDs is generous). Re-red-team: 8-ID blocks S1250–S1299. PP4 auditor: S1300–S1349.
+  Orchestrator patch block: S1350+.
+- **A18 (patch transport + file conventions, 2026-07-07):** A1 fragment pattern reused:
+  PP1 rows to `10_PHASE1_VERIFICATION/rows/<ticker>.csv`, PP2 rows to
+  `20_PHASE2_FUNDAMENTALS/rows/<ticker>.csv`, PP3 rows to
+  `30_PHASE3_VALUATION_SCORING/rows/<ticker>.csv` (single data row, no header/disclaimer);
+  ledger frags to `90_BIBLIOGRAPHY/frags/pp1_|pp2_|pp3_|fr_|rt2_<ticker>.json`.
+  Orchestrator parse-validates every frag (A11 backslash-escaping binding on all patch
+  workers), merges, then deletes rows/ transport per A14 (frags retained as audit trail).
+  Appending patch rows to the v1 CSVs (VERIFIED_WATCHLIST/FUNDAMENTALS/VALUATION) is
+  sanctioned by PATCH_BRIEF PP1; line 1 keeps the verbatim A13 disclaimer opening the
+  file and gains a trailing patch note after it (rule 3 satisfied: the verbatim block
+  still opens the file). v1 SCORES.csv is NOT touched — new names score first in
+  SCORES_v2.csv (see A19).
+- **A19 (new-name baseline scoring, 2026-07-07):** The 5 PP1 names receive an
+  orchestrator (Fable) baseline score per SCORING_RUBRIC immediately after PP1, written
+  to `30_PHASE3_VALUATION_SCORING/SCORING_NOTES_v2.md`. The critical-reviewer's "v1"
+  column for these names = that baseline. In SCORES_v2.csv, total_v1="NEW" and
+  delta="" for the 5, so the v1→v2 CHANGELOG reports only true v1 names' movement;
+  the new names' baseline→reviewed delta lives in their FR_ files. Re-red-team trigger
+  for new names = |reviewed − baseline| ≥ 0.5 or entry into the v2 top 8.
+- **A20 (layer grouping for portfolio caps, 2026-07-07):** For the PP3 construction
+  rules (max 2 names/layer, ≤40%/layer), common-mode layer groups are fixed now to
+  avoid retro-fitting: {002916 深南电路, 002436 兴森科技, 688519 南亚新材} = one
+  "boards/substrate/laminate" group (shared PCB-chain demand common-mode);
+  {688981 中芯国际, 688347 华虹半导体} = one "foundry" group; {002281, 300308} remain
+  the "optical modules" group (as v1); {688535} packaging materials and {688141} power
+  ICs are distinct layers. Finer distinctions may be argued in ANSWER_KEY_v2 prose but
+  caps bind at the group level.

@@ -1,0 +1,10 @@
+This is the ACCURACY PATCH for the completed Ascend Benchmark Mission. Read CLAUDE.md
+(all v1 rules remain binding), then 01_MISSION/PATCH_BRIEF.md, then
+05_STATE/MASTER_STATE.json and 05_STATE/PATCH_STATE.json. Execute patch phases PP0
+through PP4 to completion. Zero questions; assume, log to 05_STATE/ASSUMPTIONS.md
+(continue the A## numbering), run until PATCH_STATE.json reads "patch":"COMPLETE".
+Never overwrite v1 artifacts — patch outputs use FR_/_v2 names per the brief. Enforce
+PAPER-ONLY, the NUMBER TRUTH RULE, the answer-key spoiler boundary, Chinese-language
+searching, and the FABLE-FRUGALITY rules in the brief. Bulk fetching stays on the
+sonnet-pinned workers; critical-reviewer and red-team-critic inherit the session model
+(Fable) — do not override any agent model pins.
