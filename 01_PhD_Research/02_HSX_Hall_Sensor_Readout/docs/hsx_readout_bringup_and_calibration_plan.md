@@ -100,7 +100,7 @@ Bias current is a free knob: raising I to 0.5–1 mA (the 2023 paper's 0.4 V bia
 - Scope the ±15 V rails AC-coupled: note DC/DC ripple amplitude and frequency (feeds §2.5 decision).
 
 **Day 2 — logic bring-up.**
-- Clock source: Raspberry Pi Pico 2, running `pico2_hsx_phase_clock.py` (PIO-generated a0/a1/a2 + sync, atomic single-edge updates; 3.3 V logic is fine — ADG1209/ADG5236 V_INH ≈ 2 V). Wiring: GP16/17/18→J3 pins 3/2/1 (a0/a1/a2), GP20→J3 pin 4 (en), GP19→scope sync/trigger, Pico GND→GND1. From the REPL: `start(40000)` raises EN then spins; `hold_state(n)` freezes any of the 8 codes for the manual survey; `stop()` drops EN before touching the DSUB. (Zero-code alternative: one wavegen at 40 kHz into a 74HC4040; Q0/Q1/Q2 = a0/a1/a2.)
+- Clock source: Raspberry Pi Pico 2, running `firmware/pico2/pico2_hsx_phase_clock.py` (PIO-generated a0/a1/a2 + sync, atomic single-edge updates; 3.3 V logic is fine — ADG1209/ADG5236 V_INH ≈ 2 V). Wiring: GP16/17/18→J3 pins 3/2/1 (a0/a1/a2), GP20→J3 pin 4 (en), GP19→scope sync/trigger, Pico GND→GND1. From the REPL: `start(40000)` raises EN then spins; `hold_state(n)` freezes any of the 8 codes for the manual survey; `stop()` drops EN before touching the DSUB. (Zero-code alternative: one wavegen at 40 kHz into a 74HC4040; Q0/Q1/Q2 = a0/a1/a2.)
 - **Bond logic ground to GND1** (§2.2). Verify clean 0→3.3 V edges at TP3(a0), TP2(a1), TP1(a2), TP4(en).
 
 **Day 3 — Hall-plate emulator + current source.**

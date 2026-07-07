@@ -9,13 +9,21 @@ machine so all four outputs update on the SAME clock edge -- no software
 GPIO skew between bits, which is what "atomic" meant in the bring-up plan.
 EN is driven from a plain GPIO, separately, with explicit sequencing.
 
-WIRING (change PIN_* below if you use different GPIOs)
-  Pico GP16 -> J3 pin 3 (a0)
-  Pico GP17 -> J3 pin 2 (a1)
-  Pico GP18 -> J3 pin 1 (a2)
-  Pico GP19 -> scope channel 2 / trigger input (sync pulse, NOT to J3)
-  Pico GP20 -> J3 pin 4 (en)
-  Pico GND  -> board GND1 (bond separately -- J3 has no ground pin)
+WIRING (change PIN_* below if you use different GPIOs; the four PIO
+outputs a0/a1/a2/sync MUST stay on contiguous GPIOs, EN can be any pin)
+
+  signal | Pico GPIO | Pico physical pin | goes to
+  -------+-----------+-------------------+----------------------------------
+  a0     | GP16      | 21                | J3 pin 3
+  a1     | GP17      | 22                | J3 pin 2
+  a2     | GP18      | 24                | J3 pin 1
+  sync   | GP19      | 25                | scope CH-b / ext trig (NOT to J3)
+  en     | GP20      | 26                | J3 pin 4 (on-board pulldown)
+  GND    | --        | 23 (or 28)        | board GND1 -- bond separately,
+         |           |                   | J3 has NO ground pin!
+
+  Convenient: every connection lands on one contiguous strip of the Pico
+  header, physical pins 21-26, with a ground pin (23) in the middle.
 
 SAFE SEQUENCE (matches the runbook)
   1. Power the board, confirm +-15V on the scope.
@@ -24,8 +32,10 @@ SAFE SEQUENCE (matches the runbook)
   4. To connect/disconnect the sensor or emulator plug: run stop() first,
      which stops the clock and drops EN before you touch the connector.
 
-USAGE (from the MicroPython REPL / Thonny Shell, after saving this file
-to the Pico as main.py or importing it interactively):
+USAGE (from the MicroPython REPL / Thonny Shell). Copy BOTH this file
+and the accompanying main.py to the Pico: main.py auto-runs the
+interactive menu at boot (safe -- EN stays low until you act). Or skip
+main.py and drive it from the REPL directly:
 
     >>> import pico2_hsx_phase_clock as pc
     >>> pc.start(40000)     # begin spinning at f = 40 kHz

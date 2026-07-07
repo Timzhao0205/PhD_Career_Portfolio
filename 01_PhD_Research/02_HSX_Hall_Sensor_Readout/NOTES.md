@@ -6,6 +6,20 @@ the current status without you re-explaining it.
 
 ---
 
+## 2026-07-06 — folder restructure
+- Project now lives inside the reorganized `01_PhD_Research/` tree with a
+  root-level CLAUDE.md, shared `.claude/` automation (`/log`, `/specs`,
+  `/deep`, `rsi-editor` agent), and budget defaults (opusplan + medium).
+- Firmware moved to `firmware/pico2/` — module unchanged, plus new
+  `main.py` (boots into the interactive menu) and `README.md` with the
+  full Pico-pin ↔ J3 ↔ test-point wiring table.
+- Added `docs/SPECS.md`: one-page quick reference (phase table, pin maps,
+  gains, expected numbers, cal targets). Check it before re-deriving.
+- New sibling project `03_HSX_Vector_Probe_RSI2026/` created for the 2–3
+  axis cube probe, second HSX campaign, and the RSI paper plan.
+- No functional changes to firmware or analysis code; only the firmware
+  path reference in the bring-up plan doc was updated.
+
 ## 2026-07-06
 - Verified `circuit/hsx_2026_v1.net` (KiCad) against
   `circuit/hall_sensor_measurement_system_v1.net` (LTspice) pin-by-pin:
