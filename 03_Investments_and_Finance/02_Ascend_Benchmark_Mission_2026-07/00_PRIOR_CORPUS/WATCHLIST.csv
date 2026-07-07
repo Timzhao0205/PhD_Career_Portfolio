@@ -1,0 +1,14 @@
+date_added,ticker,exchange,name,layer,evidence_tier,why_watching,source_ids,notes
+2026-07-05,688981,SSE-STAR,中芯国际 SMIC,foundry,B,Widely reported Ascend foundry (7nm-class DUV); capacity+yield = chain bottleneck,S010;S013;S016,Also listed 0981.HK; verify vs SMIC filings (they never name Huawei)
+2026-07-05,002156,SZSE,通富微电 TFME,advanced packaging,C,Forum-claimed 2.5D/3D packaging for Ascend,S009,Verify in TFME annual report + investor Q&A before any use
+2026-07-05,000628,SZSE,高新发展,server integrator,C,Forum-claimed control of 华鲲振宇 (top Ascend server maker),S009,Verify actual equity stake % in filings
+2026-07-05,600839,SSE,四川长虹,server integrator,C,Forum-claimed co-holder of 华鲲振宇,S009,Same verification as 000628
+2026-07-05,002261,SZSE,拓维信息,server integrator,B,Named in Ascend-384 chain by financial-media iFinD screen; Kunpeng+Ascend partner,S011,
+2026-07-05,000034,SZSE,神州数码,server distribution,C,Forum-claimed Ascend server distributor,S009,Distribution = thin margin; check segment mix
+2026-07-05,600498,SSE,烽火通信,server (长江计算) + optical,C,Forum-claimed Ascend server assembly via subsidiary 长江计算,S008;S009,Parent is state telecom-equipment group; check consolidation
+2026-07-05,300308,SZSE,中际旭创 Innolight,optical modules,B,Named in Ascend-384 chain by financial-media iFinD screen,S011,Global optics leader; bulk of revenue is overseas/Nvidia chain — separate the theses
+2026-07-05,002281,SZSE,光迅科技,optical modules,C,Forum-claimed supernode optics supplier,S009,
+2026-07-05,688629,SSE-STAR,华丰科技,high-speed connectors,C,Forum-claimed dominant share of Ascend backplane connectors,S009,Extraordinary claim -> needs filing-grade proof
+2026-07-05,002916,SZSE,深南电路,PCB / substrate,B,AI-server PCB exposure per research notes,S010,Huawei link generic not Ascend-specific
+2026-07-05,301018,SZSE,申菱环境,liquid cooling,C,Forum-claimed Huawei liquid-cooling share,S009,
+2026-07-05,002371,SZSE,北方华创 NAURA,fab equipment (2nd-order),B,If SMIC adds capacity for Ascend its capex flows to domestic tool makers,S013,Second-order thesis — different risk profile; mark clearly

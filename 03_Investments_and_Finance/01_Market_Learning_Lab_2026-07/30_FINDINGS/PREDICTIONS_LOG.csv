@@ -1,0 +1,3 @@
+pred_id,date,claim,p_true_pct,resolve_by,resolution,brier,notes
+P000,2026-07-05,EXAMPLE: claim must be binary and checkable by resolve_by date,60,2026-12-31,UNRESOLVED,,format demo only
+P001,2026-07-05,Huawei's FY2026 annual report (due ~2027-03) will still NOT disclose a standalone revenue line for the computing (计算) business,80,2027-04-30,UNRESOLVED,,tests whether the 70B/200B rumor can ever be officially confirmed

@@ -1,0 +1,9 @@
+Read CLAUDE.md, then 01_MISSION/MISSION_BRIEF.md, 01_MISSION/SCORING_RUBRIC.md and
+01_MISSION/SOURCE_STANDARDS.md, then 05_STATE/MASTER_STATE.json. Execute the mission
+Phase 0 through Phase 5 to completion. Zero questions to the user; assume, log to
+05_STATE/ASSUMPTIONS.md, continue until MASTER_STATE.json reads "mission":"COMPLETE".
+Absolute rules: PAPER-ONLY (no brokerage/trading connections of any kind), NUMBER TRUTH
+RULE (no unfetched figures), NOT-FINANCIAL-ADVICE disclaimers on every analytic file,
+answer-key spoiler boundary (rankings/allocations only inside 30_ and 40_), Chinese-
+language searching for all A-share/Huawei questions. Use the .claude/agents workers in
+parallel waves exactly as the brief assigns.
