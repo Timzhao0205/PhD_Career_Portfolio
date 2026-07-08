@@ -14,9 +14,17 @@ the current status without you re-explaining it.
   (mode 2 — muxes parked in states 2/3/6/7: external source biases
   p2 → p4, amp reads the p1/p3 difference, Pico ADC on GP26 ← J4
   digitizes; 4-state chop cancels amplifier offset, plate offset o does
-  NOT cancel — single-axis physics). `main.py` now boots into a mode
-  chooser (still safe, EN low). `pico2_hsx_phase_clock.py` kept as
+  NOT cancel — single-axis physics). `pico2_hsx_phase_clock.py` kept as
   heritage, unchanged.
+- `main.py` consolidated into a **self-contained single-file build**
+  carrying both modes: set `MODE = 1` or `2` (and `DEFAULT_FREQ`) at the
+  top, flash only that one file. Lights the onboard LED (alive
+  indicator), then runs the selected mode's menu; live object exposed as
+  `dev` for the REPL. Added a `predict`/`predict_offset` bridge-offset
+  helper to mode 2 (o = I·(R41·R23 − R12·R34)/ΣR → expected v_meas) for
+  the emulator plug. The two module files remain as importable libraries
+  (RSI 3-board work) mirroring the same logic. Smoke-tested both modes'
+  boot paths with the Pico hardware stubbed.
 - New doc `docs/second_test_setup_static_bias.md` — the second test
   setup: purpose (health checks, gen-2 raw-offset incoming inspection,
   2023-style continuity, fast-mode fallback), wiring incl. ADC tap and

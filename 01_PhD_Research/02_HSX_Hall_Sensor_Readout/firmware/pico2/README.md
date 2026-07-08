@@ -1,17 +1,39 @@
 # Pico 2 firmware — wiring, flashing, usage (two operating modes)
 
 This folder is the complete Pico 2 (RP2350) firmware for the HSX
-Hall-sensor readout board. Since 2026-07-08 it is organized as **two
-separate, self-contained mode files** plus a boot chooser:
+Hall-sensor readout board.
 
-| File | Mode | What it does | DAQ instrument |
-|---|---|---|---|
-| `pico2_spin_scope.py` | **1 — spin + scope** | Full current-spinning: PIO-generated a0/a1/a2 + sync (atomic single-edge updates), EN sequencing, static holds, guided 8-state survey | **Oscilloscope** (DSOX1204G): CH-a = v_meas, CH-b = sync; offline demod via `analysis/hsx_demod_scope_csv.py` |
-| `pico2_static_bias_p2p4.py` | **2 — static bias p2/p4** | Second test setup: parks the muxes so the **external current source biases p2 → p4** and the amp reads the **p1/p3 difference**; 4-state chop (states 2/3/6/7) cancels amplifier offset; CSV drift logging | **Pico ADC** (GP26/ADC0 ← J4), 256× oversampled — no scope needed |
-| `main.py` | boot entry | Asks which mode to run at power-up; safe boot (EN low) | — |
-| `pico2_hsx_phase_clock.py` | heritage | The original single-mode module (same API as mode 1). Kept so old notes/sessions still work; new work uses the mode files | scope |
+**Simplest path — flash one file.** `main.py` is a **self-contained,
+single-file build** containing both operating modes. Set the `MODE`
+variable at the top (`MODE = 1` or `MODE = 2`), copy just `main.py` to
+the Pico, and you're done — no other files required. It lights the
+onboard LED as a firmware-alive indicator, then runs the selected mode's
+menu; the live object is also exposed as `dev` for the REPL.
 
-Details of the second test setup (theory, expected numbers, limits):
+```python
+# top of main.py
+MODE = 2               # 1 = spin + scope DAQ ; 2 = static bias p2/p4
+DEFAULT_FREQ = 40_000  # MODE 1 phase rate [Hz]
+```
+
+| Mode | What it does | DAQ instrument |
+|---|---|---|
+| **1 — spin + scope** | Full current-spinning: PIO-generated a0/a1/a2 + sync (atomic single-edge updates), EN sequencing, static holds, guided 8-state survey | **Oscilloscope** (DSOX1204G): CH-a = v_meas, CH-b = sync; offline demod via `analysis/hsx_demod_scope_csv.py` |
+| **2 — static bias p2/p4** | Second test setup: parks the muxes so the **external current source biases p2 → p4** and the amp reads the **p1/p3 difference**; 4-state chop (states 2/3/6/7) cancels amplifier offset; `predict` bridge-offset helper; CSV drift logging | **Pico ADC** (GP26/ADC0 ← J4), 256× oversampled — no scope needed |
+
+The individual module files remain for the import-style / library use
+(e.g. the RSI 3-board work) and as heritage — they mirror the same logic
+but are **not needed if you flash `main.py`**:
+
+| File | Role |
+|---|---|
+| `pico2_spin_scope.py` | Mode 1 as an importable module (`import pico2_spin_scope as sp`) |
+| `pico2_static_bias_p2p4.py` | Mode 2 as an importable module |
+| `pico2_hsx_phase_clock.py` | Original single-mode clock module (same API as mode 1); heritage |
+
+For bench use, treat `main.py` as the file to edit and flash; if you
+change firmware behavior, change it there. Details of the second test
+setup (theory, expected numbers, limits):
 `../../docs/second_test_setup_static_bias.md`.
 
 ## Wiring table
@@ -50,20 +72,31 @@ a0). EN can move to any free GPIO; the ADC tap must stay on an ADC pin
    (grab the latest `.uf2`).
 2. Hold BOOTSEL while plugging the Pico into USB; it mounts as a drive.
    Drag the `.uf2` on; it reboots into MicroPython.
-3. Copy the firmware files to the Pico, either with Thonny
-   (https://thonny.org — open each file → "Save copy… → Raspberry Pi
-   Pico") or with mpremote:
+3. **Set `MODE` at the top of `main.py`** (1 or 2), then copy just that
+   one file to the Pico — Thonny (https://thonny.org — open `main.py` →
+   "Save copy… → Raspberry Pi Pico") or mpremote:
 
    ```bash
    pip install mpremote
-   mpremote cp pico2_spin_scope.py :pico2_spin_scope.py
-   mpremote cp pico2_static_bias_p2p4.py :pico2_static_bias_p2p4.py
    mpremote cp main.py :main.py
    mpremote repl        # Ctrl-] to exit
    ```
 
-4. Power-cycle. The mode chooser appears on the USB serial port
-   (115200 baud); Enter (or `1`) boots mode 1, `2` boots mode 2.
+   (To use the modules as importable libraries instead, copy the
+   `pico2_*.py` files too and `import` them from the REPL — not needed
+   for the single-file flow.)
+
+4. Power-cycle. The **onboard LED lights solid** as a firmware-alive
+   indicator (it means `main.py` ran — not the EN/bias state; check TP4
+   for EN), a banner prints on the USB serial port (115200 baud), and it
+   drops straight into the selected mode's menu (`spin>` or `static>`).
+   To switch modes later, edit `MODE`, re-copy `main.py`, power-cycle.
+
+> **Single-file `main.py` users:** the calls below are shown on the
+> module (`sp` / `sb`). With `main.py` the identical methods live on the
+> `dev` object it creates — Ctrl-C out of the menu and use e.g.
+> `dev.start(40000)` or `dev.measure_chopped()` (drop the `sp.`/`sb.`).
+> The menu commands (`start`, `chop`, `predict`, …) are the same either way.
 
 ## Using mode 1 — spinning + oscilloscope DAQ
 
