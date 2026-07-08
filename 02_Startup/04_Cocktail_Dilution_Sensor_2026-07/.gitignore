@@ -1,0 +1,15 @@
+# personal Claude Code overrides
+.claude/settings.local.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# bulky raw data: keep runs summarized in run logs; commit small CSVs only
+40_EXPERIMENTS/data/*.csv
+40_EXPERIMENTS/data/*.bin
+!40_EXPERIMENTS/data/.gitkeep
+
+# activity logs are local telemetry; commit only if you want history in git
+# 98_CLAUDE_METRICS/logs/*.jsonl

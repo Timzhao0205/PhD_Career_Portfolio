@@ -1,0 +1,11 @@
+# RUN_YYYYMMDD_n_slug
+- Protocol: (P0-E0 / E1 / E2 / E3 step ...)
+- Operator/date/time:
+- Hardware: coupon id + pitch, coating, NTC id, readout, firmware/GUI ver
+- Conditions: spirit + ABV, spirit temp, ice mass + type, ambient
+- Data files: data/....csv (sample rate, duration, channels)
+- Ground truth: masses (g): spirit __ , ice initial __ , ice final __ ,
+  -> melted __ -> dilution __ % -> final ABV __ %
+- Sensor result: converged ABV __ % at t=__ s; occlusion __ %; flags:
+- Verdict (1 paragraph):
+- Anomalies / follow-ups:
