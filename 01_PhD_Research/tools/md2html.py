@@ -38,6 +38,9 @@ DOCS = [
     ("03_HSX_Vector_Probe_RSI2026/docs/rsi_experiment_and_publication_plan.md",
      "RSI preparation",
      "Vector Hall probe, second HSX campaign, and the Review of Scientific Instruments paper plan (~Mar 2027)."),
+    ("02_HSX_Hall_Sensor_Readout/journal/2026-07-08_spinning_emulator_20mA.md",
+     "Journal 2026-07-08",
+     "First dynamic spinning run on the emulator (20 kHz, 20 mA): offset cancellation works; absolute-magnitude anomaly open; plan comparison."),
 ]
 
 INDEX = "reports_index.html"

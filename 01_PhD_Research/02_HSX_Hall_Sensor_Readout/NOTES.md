@@ -6,6 +6,47 @@ the current status without you re-explaining it.
 
 ---
 
+## 2026-07-08 — first dynamic spinning run on the emulator (20 kHz, 20 mA)
+Full session write-up: `journal/2026-07-08_spinning_emulator_20mA.md`.
+- Config: 20 mA bias, 20 kHz spin, emulator = 4×680 Ω ring + 2.2 kΩ across
+  p1–p2; R_G = 60.4 Ω (SMD "76X", confirmed) → gain 100.3; DSO-X 4022A,
+  v_meas only (no sync). Data: `data/2026-07-08_test_spin.csv`.
+- ✓ Clean 8-state staircase at 400 µs (muxes stepping correctly); raw
+  pattern + − − + − + + −. **R9 = R10 = 2.0 V → leakage check PASSED**
+  (20 mA reaches the bridge).
+- ✓ **Offset cancellation works**: demod collapses the 686 mV raw offset
+  to ≤ 5 mV (≥130×, limited by the scope's 8-bit quantization over 5
+  cycles), reconstructing phase from f since sync wasn't captured.
+- ◑ **OPEN ANOMALY**: with 680 Ω + 2.2 kΩ + 20 mA + gain 100.3 the output
+  should rail (~75 V); measured a clean 0.686 V — ~109× too small. R9=R10
+  rules out leakage; R_G present rules out a missing gain resistor. Left:
+  in-operation gain not ~100×, OR the 2.2 kΩ not electrically unbalancing
+  the bridge. **Resolve with the ΔV gain check (plan §4 Day 3–4) next
+  session — top priority.** Don't calibrate to these magnitudes yet.
+- New reusable tool: `analysis/spin_verify_nosync.py` (fold/demod/bridge-
+  consistency when only v_meas was captured).
+- Plan status (This Week §4/§6.1): done — logic bring-up, emulator+current
+  source, R9/R10 leakage check, dynamic spin+demod cancellation. Not done —
+  ΔV gain check, static 8-state survey, sync capture, noise floor PSD,
+  f-sweep, rail-ripple spectrum. Full table in the journal.
+
+## 2026-07-08 — MODE 1 low-frequency extension (delay cycles)
+- Extended the spin firmware's phase-rate range downward. Each phase is
+  now emitted as `CYCLES_PER_PHASE = 8` PIO cycles (a `[7]` delay on the
+  `set`), so the SM runs at 8·f. This decouples the phase rate from the
+  PIO clock-divider floor: a single-cycle phase can't go below ~2.3 kHz
+  at the Pico 2's 150 MHz sys clock (max divider 65536), but 8
+  cycles/phase drops the floor to **~290 Hz** — so f = 1 kHz now works.
+  Verified 1k/5k/40k/100k land on clean divisors; <290 Hz is rejected
+  with a clear message. `set_freq` reports the achieved *phase* rate.
+- Applied to both `main.py` and `pico2_spin_scope.py` (kept consistent).
+- Note: **5 kHz and above need no reflash** — they were always above the
+  floor; use `freq 5000` / `start 5000` on the existing firmware. The
+  reflash only matters for sub-2.3 kHz rates. Recommended demod range
+  (SPECS: 10k–100k for usable BW) is unchanged; the low end is for
+  bench visualization. Remember to pass the matching `--f` to
+  `hsx_demod_scope_csv.py`.
+
 ## 2026-07-08 — firmware split into two modes; second test setup defined
 - Firmware reorganized into two self-contained mode files (same J3 pin
   map, same verified phase table): `firmware/pico2/pico2_spin_scope.py`

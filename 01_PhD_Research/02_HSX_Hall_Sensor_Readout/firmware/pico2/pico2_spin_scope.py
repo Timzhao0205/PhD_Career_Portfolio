@@ -83,16 +83,24 @@ PIN_A2 = 18
 PIN_SYNC = 19
 PIN_EN = 20     # plain GPIO, controlled directly (not part of the PIO group)
 
-DEFAULT_FREQ = 40_000   # Hz, phase rate (bring-up plan nominal; 10k-100k usable)
+DEFAULT_FREQ = 40_000   # Hz, phase rate (bring-up plan nominal; ~290 Hz-1 MHz)
+
+# Each phase is emitted as CYCLES_PER_PHASE PIO cycles (a [delay] on the
+# set instruction) so the phase rate decouples from the PIO divider floor
+# (single-cycle phases can't go below ~2.3 kHz at 150 MHz sys clock; 8
+# cycles/phase drops the floor to ~290 Hz, so f = 1 kHz works). MUST equal
+# 1 + the [delay] literal in _phase_gen below.
+CYCLES_PER_PHASE = 8
 
 _SM_ID = 0
 
 
 # ------------------------------------------------------------ PIO program --
-# One "set pins" instruction per phase, 1 SM clock cycle each (no delay
-# field used), so running the state machine at freq=f makes every phase
-# last exactly 1/f seconds. wrap() loops back to state 0 for free (no
-# extra cycle cost), so the cycle is a clean, jitter-free 8/f seconds.
+# One "set pins" instruction per phase, CYCLES_PER_PHASE SM clock cycles
+# each (1 + [delay]), so running the state machine at CYCLES_PER_PHASE*f
+# makes every phase last exactly 1/f seconds. wrap() loops back to state 0
+# for free, so the cycle is a clean, jitter-free 8/f seconds. The [7]
+# delay literal MUST equal CYCLES_PER_PHASE - 1.
 #
 # Bit mapping within each 4-bit value (matches the demod convention
 # state = (a2<<2)|(a1<<1)|a0 from the bring-up plan):
@@ -102,14 +110,14 @@ _SM_ID = 0
 @rp2.asm_pio(set_init=(rp2.PIO.OUT_LOW,) * 4)
 def _phase_gen():
     wrap_target()
-    set(pins, 0b1000)   # state 0: a2,a1,a0 = 0,0,0   sync = 1
-    set(pins, 0b0001)   # state 1: a0 = 1
-    set(pins, 0b0010)   # state 2: a1 = 1
-    set(pins, 0b0011)   # state 3: a1,a0 = 1,1
-    set(pins, 0b0100)   # state 4: a2 = 1
-    set(pins, 0b0101)   # state 5: a2,a0 = 1,1
-    set(pins, 0b0110)   # state 6: a2,a1 = 1,1
-    set(pins, 0b0111)   # state 7: a2,a1,a0 = 1,1,1
+    set(pins, 0b1000) [7]   # state 0: a2,a1,a0 = 0,0,0   sync = 1
+    set(pins, 0b0001) [7]   # state 1: a0 = 1
+    set(pins, 0b0010) [7]   # state 2: a1 = 1
+    set(pins, 0b0011) [7]   # state 3: a1,a0 = 1,1
+    set(pins, 0b0100) [7]   # state 4: a2 = 1
+    set(pins, 0b0101) [7]   # state 5: a2,a0 = 1,1
+    set(pins, 0b0110) [7]   # state 6: a2,a1 = 1,1
+    set(pins, 0b0111) [7]   # state 7: a2,a1,a0 = 1,1,1
     wrap()
 
 
@@ -132,26 +140,36 @@ def en_state():
 
 
 # --------------------------------------------------------- state machine --
-_sm = rp2.StateMachine(_SM_ID, _phase_gen, freq=DEFAULT_FREQ,
+_sm = rp2.StateMachine(_SM_ID, _phase_gen,
+                       freq=int(CYCLES_PER_PHASE * DEFAULT_FREQ),
                        set_base=Pin(PIN_A0))
 _current_freq = DEFAULT_FREQ
 
 
 def set_freq(f):
     """Reconfigure the phase rate without starting/stopping EN. Returns the
-    achieved frequency (the RP2350 clock divider is 16.8 fixed-point, so
-    round target frequencies against machine.freq() -- e.g. 10k/40k/100k
-    against a 150 MHz sys clock -- land on an exact integer divisor)."""
+    achieved phase rate. Each phase is CYCLES_PER_PHASE PIO cycles, so the
+    SM runs at CYCLES_PER_PHASE*f; the RP2350 divider is 16.8 fixed-point.
+    Min phase rate = sys_clk / 65536 / CYCLES_PER_PHASE (~290 Hz at
+    150 MHz); 5k/10k/40k/100k all land on clean divisors."""
     global _current_freq
+    f_min = machine.freq() / 65536 / CYCLES_PER_PHASE
+    if f < f_min:
+        print("f too low: min phase rate ~{:.0f} Hz (sys {} Hz, "
+              "CYCLES_PER_PHASE {}) -- raise the [delay] literal to go lower"
+              .format(f_min, machine.freq(), CYCLES_PER_PHASE))
+        return None
     was_active = _sm.active()
     _sm.active(0)
-    _sm.init(_phase_gen, freq=int(f), set_base=Pin(PIN_A0))
+    sm_freq = int(CYCLES_PER_PHASE * f)
+    _sm.init(_phase_gen, freq=sm_freq, set_base=Pin(PIN_A0))
     _current_freq = f
     if was_active:
         _sm.active(1)
-    divider = round(machine.freq() / f)
-    achieved = machine.freq() / divider
-    print("target {:.1f} Hz -> achieved {:.3f} Hz (sys clock {} Hz, divider {})"
+    divider = round(machine.freq() / sm_freq)
+    achieved = machine.freq() / divider / CYCLES_PER_PHASE
+    print("target {:.1f} Hz -> achieved {:.3f} Hz phase rate "
+          "(sys clock {} Hz, SM divider {})"
           .format(f, achieved, machine.freq(), divider))
     return achieved
 

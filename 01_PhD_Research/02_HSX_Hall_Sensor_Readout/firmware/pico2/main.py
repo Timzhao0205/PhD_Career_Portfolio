@@ -28,7 +28,17 @@
 
 # ========================== USER SETTINGS ==========================
 MODE = 2               # 1 = spin + scope DAQ  ;  2 = static bias p2/p4
-DEFAULT_FREQ = 40_000  # MODE 1 phase rate [Hz]  (10k-100k usable)
+DEFAULT_FREQ = 40_000  # MODE 1 phase rate [Hz]  (nominal; ~290 Hz-1 MHz reachable)
+
+# MODE 1 timing granularity: each spin phase is emitted as this many PIO
+# clock cycles (a [delay] on the set instruction). Using >1 cycle/phase
+# decouples the phase rate from the PIO clock-divider floor so LOW rates
+# work: at the Pico 2's 150 MHz sys clock a single-cycle phase cannot go
+# below ~2.3 kHz (max divider 65536); 8 cycles/phase drops that floor to
+# ~290 Hz, so f = 1 kHz is fine. MUST equal 1 + the [delay] literal in
+# _phase_gen below. Raise both together (delay max 31 -> CPP 32, floor
+# ~72 Hz) if you ever want sub-300 Hz.
+CYCLES_PER_PHASE = 8
 # ===================================================================
 
 import machine
@@ -67,19 +77,21 @@ def alive_led():
 
 
 # ================================================== MODE 1: SPIN ===
-# One "set pins" per phase, 1 SM cycle each -> each phase lasts 1/f.
+# One "set pins" per phase, CYCLES_PER_PHASE SM cycles each (1 + delay),
+# so running the SM at CYCLES_PER_PHASE*f makes every phase last 1/f.
+# The [7] delay literal MUST equal CYCLES_PER_PHASE - 1.
 # bit0->a0 bit1->a1 bit2->a2 bit3->sync; sync high only in state 0.
 @rp2.asm_pio(set_init=(rp2.PIO.OUT_LOW,) * 4)
 def _phase_gen():
     wrap_target()
-    set(pins, 0b1000)   # state 0: a2,a1,a0 = 0,0,0  sync = 1
-    set(pins, 0b0001)   # state 1
-    set(pins, 0b0010)   # state 2
-    set(pins, 0b0011)   # state 3
-    set(pins, 0b0100)   # state 4
-    set(pins, 0b0101)   # state 5
-    set(pins, 0b0110)   # state 6
-    set(pins, 0b0111)   # state 7
+    set(pins, 0b1000) [7]   # state 0: a2,a1,a0 = 0,0,0  sync = 1
+    set(pins, 0b0001) [7]   # state 1
+    set(pins, 0b0010) [7]   # state 2
+    set(pins, 0b0011) [7]   # state 3
+    set(pins, 0b0100) [7]   # state 4
+    set(pins, 0b0101) [7]   # state 5
+    set(pins, 0b0110) [7]   # state 6
+    set(pins, 0b0111) [7]   # state 7
     wrap()
 
 
@@ -98,7 +110,8 @@ class SpinScope:
     def __init__(self, freq=DEFAULT_FREQ):
         self._en = Pin(PIN_EN, Pin.OUT, value=0)   # boot low = board pulldown
         self._freq = freq
-        self._sm = rp2.StateMachine(0, _phase_gen, freq=freq,
+        self._sm = rp2.StateMachine(0, _phase_gen,
+                                    freq=int(CYCLES_PER_PHASE * freq),
                                     set_base=Pin(PIN_A0))
 
     def enable(self):
@@ -108,16 +121,24 @@ class SpinScope:
         self._en.value(0)
 
     def set_freq(self, f):
+        f_min = machine.freq() / 65536 / CYCLES_PER_PHASE
+        if f < f_min:
+            print("f too low: min phase rate ~{:.0f} Hz (sys {} Hz, "
+                  "CYCLES_PER_PHASE {}) -- raise the [delay] literal to go lower"
+                  .format(f_min, machine.freq(), CYCLES_PER_PHASE))
+            return None
         was = self._sm.active()
         self._sm.active(0)
-        self._sm.init(_phase_gen, freq=int(f), set_base=Pin(PIN_A0))
+        sm_freq = int(CYCLES_PER_PHASE * f)
+        self._sm.init(_phase_gen, freq=sm_freq, set_base=Pin(PIN_A0))
         self._freq = f
         if was:
             self._sm.active(1)
-        div = round(machine.freq() / f)
-        print("target {:.1f} Hz -> achieved {:.3f} Hz (sys {} Hz, div {})"
-              .format(f, machine.freq() / div, machine.freq(), div))
-        return machine.freq() / div
+        div = round(machine.freq() / sm_freq)
+        achieved = machine.freq() / div / CYCLES_PER_PHASE
+        print("target {:.1f} Hz -> achieved {:.3f} Hz phase rate "
+              "(sys {} Hz, SM div {})".format(f, achieved, machine.freq(), div))
+        return achieved
 
     def start(self, f=None):
         if f is not None:
