@@ -6,6 +6,13 @@ in the HSX stellarator*
 
 **Target journal:** Review of Scientific Instruments (regular article).
 **Target submission:** ~March 2027. **First author:** Y. Zhao.
+**Revised:** July 8, 2026 — incoming-inspection tooling settled: the
+project-02 firmware now has a dedicated static-bias mode
+(`../02_HSX_Hall_Sensor_Readout/firmware/pico2/pico2_static_bias_p2p4.py`,
+setup doc `../02_.../docs/second_test_setup_static_bias.md`) that
+measures the raw plate offset at 100 µA scope-free — the §2.1 batch
+survey tool. Reader-friendly HTML versions of the plan docs now sit next
+to their markdown.
 
 **Scope statement (fixed):** this campaign measures plasma and magnetic
 fields inside HSX. No neutron or gamma irradiation experiments are
@@ -87,7 +94,13 @@ batch):
   expectation moves with them.**
 - 3-terminal contact-resistance estimate on a sample of pads.
 - Raw offset distribution at 100 µA across the batch (pick matched dies
-  for the cube).
+  for the cube). **Standard tool:** the second test setup from project
+  02 — static bias p2 → p4, sense p1/p3, Pico-ADC readout
+  (`../02_.../firmware/pico2/pico2_static_bias_p2p4.py`; procedure and
+  limits in `../02_.../docs/second_test_setup_static_bias.md`). One
+  packaged die in the LCC breakout, `measure_chopped()` per die
+  (amplifier offset cancels; at zero field the result *is* the raw
+  plate offset), log the distribution.
 - Spot-check S_I with the Helmholtz on one packaged sample; expect
   ≈ 60 V/A/T unchanged.
 
@@ -123,6 +136,12 @@ bring-up campaign of heritage by September, and channel isolation comes
 free (independent amps, independent floating supplies). A rev-B
 3-channel board is strictly nicer and strictly riskier before a travel
 date; park it as future work.
+
+Firmware: the project-02 Pico 2 firmware is already organized as two
+mode files — `pico2_spin_scope.py` (spinning, scope DAQ; the campaign
+workhorse) and `pico2_static_bias_p2p4.py` (static bias, Pico-ADC
+readout; incoming inspection and scope-free health checks at HSX). Both
+carry over unchanged — the fan-out below is electrical, not software.
 
 Synchronization: **one Pico 2 fans out the shared a0/a1/a2/EN** to all
 three boards (each line drives three CMOS mux inputs — trivial load).
@@ -280,7 +299,7 @@ TCAD modeling — cited, not performed). VII. Conclusion.
 
 | When | Work |
 |---|---|
-| Jul 2026 | 02 bring-up + calibration (running). **Send UW email: feedthrough pins, mount survey, vacuum-field calc, shot-list ask.** Order 2 more boards' parts. |
+| Jul 2026 | 02 bring-up + calibration (running). Firmware split into spin+scope / static-bias modes; second test setup (static raw-offset measurement) documented — the Sept incoming-inspection tool is ready early (Jul 8). **Send UW email: feedthrough pins, mount survey, vacuum-field calc, shot-list ask.** Order 2 more boards' parts. |
 | Aug 2026 | HSX campaign #1 (single axis) — doubles as method pathfinder. **Gate: single-axis calibration + in-vessel operation validated.** |
 | Sep 2026 | Gen-2 die incoming inspection; cube bond trial then assembly ×2 units; build boards 2–3; harness per UW answer. **Gate: 3 working channels on the bench; 2-vs-3-axis decision.** |
 | Oct 2026 | 3-channel bench bring-up, matrix calibration, thermal + drift, shot-replay rehearsal. **Gate: uncertainty budget ≤ targets; DAQ strategy fixed.** |

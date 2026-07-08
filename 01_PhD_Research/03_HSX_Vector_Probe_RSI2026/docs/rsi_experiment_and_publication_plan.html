@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSI 2026–27: Calibrated vector Hall probe in HSX - experiment &amp; publication plan</title>
+<style>
+:root{
+  --bg:#f7f8fa; --panel:#ffffff; --ink:#1c2430; --muted:#5b6673;
+  --accent:#1a56a7; --accent-soft:#e8f0fb; --border:#dde3ea;
+  --code-bg:#f0f2f5; --th-bg:#eef2f7; --mark:#fff3c4;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#12161c; --panel:#1a2029; --ink:#dfe6ee; --muted:#9aa7b5;
+    --accent:#7db3f0; --accent-soft:#1f2c3f; --border:#2c3542;
+    --code-bg:#232b36; --th-bg:#212936; --mark:#4a3f1a;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 "Charter","Georgia","Times New Roman",serif}
+.layout{display:flex;max-width:1240px;margin:0 auto;gap:0}
+nav.side{position:sticky;top:0;align-self:flex-start;flex:0 0 290px;
+  height:100vh;overflow-y:auto;padding:26px 20px 40px 24px;
+  border-right:1px solid var(--border);
+  font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;font-size:13.5px}
+nav.side .brand{font-weight:700;font-size:12px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+nav.side .doctitle{font-weight:700;font-size:15px;line-height:1.35;
+  color:var(--ink);margin-bottom:14px}
+nav.side .siblings{margin:0 0 16px;padding:10px 12px;background:var(--accent-soft);
+  border-radius:8px}
+nav.side .siblings b{display:block;font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+nav.side .siblings a{display:block;padding:2px 0;color:var(--accent);
+  text-decoration:none}
+nav.side .siblings a.current{color:var(--ink);font-weight:700;cursor:default}
+nav.side .toc-head{font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin:14px 0 6px}
+nav.side ul{list-style:none;margin:0;padding:0}
+nav.side li a{display:block;padding:3px 8px;border-left:2px solid transparent;
+  color:var(--muted);text-decoration:none;border-radius:0 6px 6px 0}
+nav.side li a:hover{color:var(--accent);background:var(--accent-soft)}
+nav.side li.lvl3 a{padding-left:22px;font-size:12.5px}
+main{flex:1;min-width:0;padding:34px 44px 90px;background:var(--panel)}
+main .meta{font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;
+  font-size:12.5px;color:var(--muted);border-bottom:1px solid var(--border);
+  padding-bottom:10px;margin-bottom:6px}
+h1,h2,h3,h4{font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;
+  line-height:1.25;scroll-margin-top:16px}
+h1{font-size:29px;margin:14px 0 10px}
+h2{font-size:21px;margin:40px 0 10px;padding-top:14px;
+  border-top:1px solid var(--border)}
+h3{font-size:17px;margin:28px 0 8px;color:var(--accent)}
+a{color:var(--accent)}
+p{margin:10px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+hr{border:none;border-top:1px solid var(--border);margin:30px 0}
+code{font-family:"SF Mono","Cascadia Code",Consolas,monospace;
+  font-size:.86em;background:var(--code-bg);padding:.12em .38em;
+  border-radius:4px}
+pre{background:var(--code-bg);border:1px solid var(--border);
+  border-radius:8px;padding:14px 16px;overflow-x:auto;line-height:1.5}
+pre code{background:none;padding:0;font-size:13px}
+.tablewrap{overflow-x:auto;margin:14px 0;border:1px solid var(--border);
+  border-radius:8px}
+table{border-collapse:collapse;width:100%;
+  font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;font-size:13.5px}
+th{background:var(--th-bg);text-align:left;font-weight:700}
+th,td{padding:7px 12px;border-bottom:1px solid var(--border);
+  vertical-align:top}
+tr:last-child td{border-bottom:none}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--th-bg) 45%,transparent)}
+blockquote{margin:14px 0;padding:8px 18px;border-left:3px solid var(--accent);
+  background:var(--accent-soft);border-radius:0 8px 8px 0;color:var(--muted)}
+.backtop{position:fixed;right:22px;bottom:22px;
+  font-family:system-ui,sans-serif;font-size:13px;text-decoration:none;
+  background:var(--accent);color:#fff;padding:8px 12px;border-radius:20px;
+  opacity:.85}
+.backtop:hover{opacity:1}
+@media (max-width:900px){
+  .layout{flex-direction:column}
+  nav.side{position:static;height:auto;flex:none;border-right:none;
+    border-bottom:1px solid var(--border)}
+  main{padding:24px 20px 70px}
+}
+@media print{
+  nav.side,.backtop{display:none}
+  main{padding:0}
+  body{background:#fff;color:#000}
+}
+</style>
+</head>
+<body id="top">
+<div class="layout">
+<nav class="side">
+  <div class="brand">01_PhD_Research · HSX GaN Hall sensing</div>
+  <div class="doctitle">RSI preparation</div>
+  <div class="siblings"><b>Reports</b><a href="../../reports_index.html">Report index</a><a href="../../02_HSX_Hall_Sensor_Readout/docs/hsx_readout_bringup_and_calibration_plan.html">Summer research plan</a><a href="../../02_HSX_Hall_Sensor_Readout/docs/second_test_setup_static_bias.html">Second test setup</a><a class="current">RSI preparation (this doc)</a></div>
+  <div class="toc-head">On this page</div>
+  <ul><li class="lvl2"><a href="#1-where-the-trajectory-stands-and-the-gap-this-paper-fills">1. Where the trajectory stands, and the gap this paper fills</a></li><li class="lvl2"><a href="#2-instrument">2. Instrument</a></li><li class="lvl3"><a href="#21-gen-2-sensor-dies-larger-bond-pads">2.1 Gen-2 sensor dies (larger bond pads)</a></li><li class="lvl3"><a href="#22-cube-module">2.2 Cube module</a></li><li class="lvl3"><a href="#23-readout-replicate-the-02-board-per-axis">2.3 Readout: replicate the 02 board per axis</a></li><li class="lvl3"><a href="#24-harness-and-feedthrough-open-item-1-ask-uw-early">2.4 Harness and feedthrough (open item #1 — ask UW early)</a></li><li class="lvl3"><a href="#25-daq-and-the-scope-memory-question-open-item-2">2.5 DAQ and the scope-memory question (open item #2)</a></li><li class="lvl2"><a href="#3-calibration-plan-the-heart-of-the-paper">3. Calibration plan (the heart of the paper)</a></li><li class="lvl3"><a href="#31-per-axis-scalar-calibration">3.1 Per-axis scalar calibration</a></li><li class="lvl3"><a href="#32-vector-matrix-calibration">3.2 Vector (matrix) calibration</a></li><li class="lvl3"><a href="#33-in-situ-absolute-anchor-the-rsi-centerpiece">3.3 In-situ absolute anchor (the RSI centerpiece)</a></li><li class="lvl3"><a href="#34-uncertainty-budget-drafted-now-filled-by-data">3.4 Uncertainty budget (drafted now, filled by data)</a></li><li class="lvl2"><a href="#4-hsx-campaign-2-target-november-2026">4. HSX campaign #2 (target November 2026)</a></li><li class="lvl2"><a href="#5-paper-skeleton-and-figure-plan">5. Paper skeleton and figure plan</a></li><li class="lvl2"><a href="#6-timeline-gates-in-bold">6. Timeline (gates in bold)</a></li><li class="lvl2"><a href="#7-risk-register">7. Risk register</a></li><li class="lvl2"><a href="#8-benchbom-additions-rough">8. Bench/BOM additions (rough)</a></li></ul>
+</nav>
+<main>
+  <div class="meta">Reader view generated 2026-07-08 from
+  <code>rsi_experiment_and_publication_plan.md</code> — the markdown is the source of truth
+  (regenerate with <code>python3 tools/md2html.py</code>).</div>
+  <h1 id="rsi-202627-calibrated-vector-hall-probe-in-hsx-experiment-publication-plan">RSI 2026–27: Calibrated vector Hall probe in HSX — experiment &amp; publication plan</h1>
+<p><strong>Working title:</strong> <em>A calibrated three-axis AlGaN/GaN Hall-effect probe
+with spinning-current readout for in-vessel magnetic field measurements
+in the HSX stellarator</em></p>
+<p><strong>Target journal:</strong> Review of Scientific Instruments (regular article).
+<strong>Target submission:</strong> ~March 2027. <strong>First author:</strong> Y. Zhao.
+<strong>Revised:</strong> July 8, 2026 — incoming-inspection tooling settled: the
+project-02 firmware now has a dedicated static-bias mode
+(<code>../02_HSX_Hall_Sensor_Readout/firmware/pico2/pico2_static_bias_p2p4.py</code>,
+setup doc <code>../02_.../docs/second_test_setup_static_bias.md</code>) that
+measures the raw plate offset at 100 µA scope-free — the §2.1 batch
+survey tool. Reader-friendly HTML versions of the plan docs now sit next
+to their markdown.</p>
+<p><strong>Scope statement (fixed):</strong> this campaign measures plasma and magnetic
+fields inside HSX. No neutron or gamma irradiation experiments are
+performed or claimed. Radiation response is covered by the co-authored
+TCAD modeling manuscript (Van Gorp, Dawes, Zhao, Senesky, in prep.),
+which is cited as complementary work; experimental radiation hardness
+appears, at most, as one sentence of outlook.</p>
+<hr />
+<h2 id="1-where-the-trajectory-stands-and-the-gap-this-paper-fills">1. Where the trajectory stands, and the gap this paper fills</h2>
+<p>The 2023 Sensors Letters paper established feasibility: a packaged
+AlGaN/GaN Hall sensor survived 68 consecutive HSX shots in-vessel and
+tracked plasma-dependent field dynamics in real time. Its own text
+concedes the limits — the sensor was voltage-biased with an uncalibrated
+offset V_off, produced a single axis, and validated only by <em>temporal
+correlation</em> with the diamagnetic loop. Its stated future work was
+absolute calibration against HSX magnetic diagnostics, extended-duration
+offset stability, and lower-noise readout.</p>
+<p>Project 02 (bench now, HSX install Aug 2026) already answers the
+single-axis half of that list: 100 µA current bias, four-phase
+spinning-current with polarity chopping (kills plate and amplifier
+offsets by construction), AD8429 readout, and a traceable Helmholtz +
+in-situ calibration path. What it does not do is measure a vector, and a
+single scalar component is a weak instrument in a machine whose whole
+identity is field <em>geometry</em> — HSX is the first quasi-helically
+symmetric stellarator, and its diagnostics literature (Pfirsch–Schlüter
+current measurements, equilibrium-reconstruction optimization) is about
+field direction and structure, not just magnitude.</p>
+<p>The lab lineage also points at RSI specifically: the group's
+high-temperature 2DEG sensitivity paper (Alpert et al. 2020) is an RSI
+article, and the canonical fusion-magnetics instrument papers (e.g.
+Strait's DIII-D magnetic diagnostic system) live there too. An
+instrument paper — <em>what was built, how it was calibrated, traceability,
+quantified in-machine performance</em> — is exactly RSI's format.</p>
+<p><strong>Thesis of the paper:</strong> the first absolutely calibrated, multi-axis
+(2–3 component) GaN Hall-effect probe operated inside a stellarator,
+with offset suppression by spinning-current demonstrated in-vessel, and
+vector output validated quantitatively against the computed vacuum field
+and HSX's standard diagnostics — upgrading 2023's "temporal correlation"
+to numbers with uncertainties.</p>
+<p>Contribution list (for the intro, and for reviewers):
+1. Vector measurement: 2–3 orthogonal AlGaN/GaN plates in one compact
+   UHV-compatible ceramic cube package.
+2. In-vessel spinning-current operation: offset-free readout at the
+   probe, with measured long-sequence offset stability vs the 2023
+   uncalibrated baseline.
+3. Absolute calibration chain: bench Helmholtz (matrix calibration,
+   traceable to geometry + 0.1 % shunt) anchored in situ by coil-only
+   shots against the computed vacuum field at a surveyed probe pose.
+4. Quantified plasma measurements: component-resolved ignition
+   transients and discharge dynamics with an uncertainty budget.</p>
+<hr />
+<h2 id="2-instrument">2. Instrument</h2>
+<h3 id="21-gen-2-sensor-dies-larger-bond-pads">2.1 Gen-2 sensor dies (larger bond pads)</h3>
+<p>Pad enlargement doesn't move first-order sensitivity: S_I ≈ r_n·G_H/(q·n_s)
+is set by the 2DEG sheet density and plate geometry, both unchanged. What
+it plausibly improves is exactly what a cube package stresses — wirebond
+yield (especially on non-horizontal faces), bond placement tolerance, and
+contact resistance (→ lower 1/f contact noise and raw offset). What it
+may quietly change is the terminal-to-terminal plate resistance and the
+effective shape factor if the metal encroaches on the octagon.</p>
+<p>Incoming inspection per die, before any packaging (half a day for a
+batch):
+- Full 2-terminal resistance map across all pin pairs; compare against
+  the 2023 signature (~650 Ω opposite-pair). <strong>If R changed, update the
+  emulator arm value (649 Ω today) and the bias-return loading factor
+  (0.83 today) in <code>../02_.../docs/SPECS.md</code> — the ±26 mV emulator
+  expectation moves with them.</strong>
+- 3-terminal contact-resistance estimate on a sample of pads.
+- Raw offset distribution at 100 µA across the batch (pick matched dies
+  for the cube). <strong>Standard tool:</strong> the second test setup from project
+  02 — static bias p2 → p4, sense p1/p3, Pico-ADC readout
+  (<code>../02_.../firmware/pico2/pico2_static_bias_p2p4.py</code>; procedure and
+  limits in <code>../02_.../docs/second_test_setup_static_bias.md</code>). One
+  packaged die in the LCC breakout, <code>measure_chopped()</code> per die
+  (amplifier offset cancels; at zero field the result <em>is</em> the raw
+  plate offset), log the distribution.
+- Spot-check S_I with the Helmholtz on one packaged sample; expect
+  ≈ 60 V/A/T unchanged.</p>
+<h3 id="22-cube-module">2.2 Cube module</h3>
+<p>Concept: the proven single-die process — die → LCC (Spectrum), Al wedge
+bonds, EPO-TEK 353ND encapsulation, 150 °C vacuum bake — repeated per
+face on a machinable ceramic (or zirconia, matching the 2023 holder)
+cube, LCCs on 2 or 3 mutually orthogonal faces. Nothing new is qualified
+except the cube itself and the face-mount adhesive/bake compatibility.</p>
+<p>Design points to settle in September:
+- Cube size: set by LCC footprint + routing clearance; keep the probe
+  head compact enough for the existing standoff/graphite-shield concept
+  (shield likely needs a resize, not a redesign).
+- Face flatness/orthogonality spec: the calibration matrix absorbs
+  fixed misalignment, so ±1° machining is acceptable — but it must be
+  <em>stable</em> through bake and thermal cycling.
+- Bond accessibility on vertical faces: this is the yield risk the
+  larger pads exist to mitigate. Plan a mechanical-sample bond trial
+  before committing flight dies.
+- 2 vs 3 axes: build for 3; if bond yield or feedthrough pins force it,
+  a 2-axis module is still a publishable vector instrument (state the
+  choice honestly in the paper).</p>
+<h3 id="23-readout-replicate-the-02-board-per-axis">2.3 Readout: replicate the 02 board per axis</h3>
+<p>Decision: <strong>three copies of <code>hsx_2026_v1</code></strong> rather than a new
+multi-channel board rev. Rationale: the gerber/order package already
+exists (<code>../02_.../circuit/hsx_setup_v1_Y23.zip</code>, hand-assembly — budget
+real bench days for two more builds), the design will have a full
+bring-up campaign of heritage by September, and channel isolation comes
+free (independent amps, independent floating supplies). A rev-B
+3-channel board is strictly nicer and strictly riskier before a travel
+date; park it as future work.</p>
+<p>Firmware: the project-02 Pico 2 firmware is already organized as two
+mode files — <code>pico2_spin_scope.py</code> (spinning, scope DAQ; the campaign
+workhorse) and <code>pico2_static_bias_p2p4.py</code> (static bias, Pico-ADC
+readout; incoming inspection and scope-free health checks at HSX). Both
+carry over unchanged — the fan-out below is electrical, not software.</p>
+<p>Synchronization: <strong>one Pico 2 fans out the shared a0/a1/a2/EN</strong> to all
+three boards (each line drives three CMOS mux inputs — trivial load).
+All axes spin in phase, so one sync line (GP19) timestamps all three
+demods and inter-axis phase skew is zero by construction. Grounds: each
+board's GND1 commons at the scope via its SMA shield; bond the Pico
+ground once, star-style, and verify no inter-board loop before the
+trip.</p>
+<p>Bias: one floating ~100 µA source <strong>per board</strong> (REF200-style or the
+battery box used in bring-up); do not share a source across plates —
+the spinning muxes would fight over it.</p>
+<h3 id="24-harness-and-feedthrough-open-item-1-ask-uw-early">2.4 Harness and feedthrough (open item #1 — ask UW early)</h3>
+<p>Three plates × 4 wires = <strong>12 signal conductors</strong> (plus shields). The
+2023 single-axis harness used 4 pins of a DSUB-9. Options: one DB-15
+(12 + spares/shield) or two DSUB-9s. <strong>Action, July:</strong> email Wayne/
+Thomas for the available feedthrough pin count and connector type on the
+intended port; this decides the harness build and possibly the 2-vs-3
+axis question. Keep per-plate pairs twisted; keep the 2023 pin
+convention (bias pair / sense pair) per plate so the boards drop on.</p>
+<h3 id="25-daq-and-the-scope-memory-question-open-item-2">2.5 DAQ and the scope-memory question (open item #2)</h3>
+<p>The DSOX1204G's four channels map perfectly: CH1–3 = v_x, v_y, v_z,
+CH4 = sync. Memory does not map perfectly: ~2 Mpts shared → ~500 kpts
+per channel with all four on. The demod wants ≥ ~10 samples per 25 µs
+phase (f = 40 kHz), i.e. ≥ ~0.4–1 MSa/s. So per shot, pick one:</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Strategy</th>
+<th>Settings</th>
+<th>Covers</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A. Ignition window</td>
+<td>1 MSa/s, ~300–500 ms capture, trigger near ECRH</td>
+<td>breakdown + discharge, misses coil ramp</td>
+<td>none — default</td>
+</tr>
+<tr>
+<td>B. Full shot, slower spin</td>
+<td>f = 10–20 kHz, 250–400 kSa/s, ~1.2 s</td>
+<td>whole shot incl. ramp</td>
+<td>demod BW drops to ~0.3–0.5 kHz</td>
+</tr>
+<tr>
+<td>C. HSX DAQ channels</td>
+<td>demod offline from their record</td>
+<td>whole shot, their timebase</td>
+<td>integration effort + their sampling limits</td>
+</tr>
+</tbody>
+</table></div>
+<p>Run A as the workhorse, B for a few dedicated ramp-study shots, and
+pursue C opportunistically — it also solves the ~30 ms trigger-offset
+annoyance from 2023 by putting everything on one clock. Decide by
+end of October bench work.</p>
+<hr />
+<h2 id="3-calibration-plan-the-heart-of-the-paper">3. Calibration plan (the heart of the paper)</h2>
+<h3 id="31-per-axis-scalar-calibration">3.1 Per-axis scalar calibration</h3>
+<p>Reuse the project-02 Week-3 protocol per channel: bipolar Helmholtz
+sweeps (±2.7 mT), sensitivity-vs-bias linearity at 50/100/200/500 µA,
+AC response 10 Hz–3 kHz, hotplate 25–100 °C coefficient, overnight
+drift. Targets unchanged: ~2 % absolute, &lt; 0.5 % linearity.</p>
+<h3 id="32-vector-matrix-calibration">3.2 Vector (matrix) calibration</h3>
+<p>Model: <strong>v = M·B + b</strong>, with v the three demodulated outputs, M a 3×3
+matrix (per-axis gains on the diagonal, misalignment + cross-sensitivity
+off-diagonal), b residual offsets (should be ~0 with spinning — measure
+it anyway; it's a headline number).</p>
+<p>Method: single-axis Helmholtz + a 3D-printed indexing cradle that holds
+the cube in each of the six ±face orientations (90° indexed) plus two
+45° checks. At each orientation, sweep B over ±2.5 mT and record all
+three channels. Least-squares fit of M and b (24+ sweep-orientation
+combinations, 12 unknowns — well over-determined; report residuals).
+Extract and report the misalignment angles from the polar decomposition
+of M — expect ~1–2° from assembly. Checks: planar-Hall cross-talk (drive
+B in-plane of each die, confirm second-order), per-die temperature
+coefficient (cube on hotplate), repeatability after a thermal cycle and
+after re-mounting in the cradle.</p>
+<h3 id="33-in-situ-absolute-anchor-the-rsi-centerpiece">3.3 In-situ absolute anchor (the RSI centerpiece)</h3>
+<p>HSX coil-only shots produce a vacuum field that is <em>computable</em> at any
+point from the coil currents and geometry. With the probe pose (position
++ orientation) surveyed on its mount, the predicted vector <strong>B_vac</strong> at
+the probe is compared against <strong>M⁻¹(v − b)</strong> — a quantitative,
+component-by-component absolute check inside the machine, at multiple
+field settings. This single figure upgrades the 2023 paper's
+correlation-only validation into calibration traceability, and it is
+what makes the paper an instruments paper rather than a demo. Requires:
+(a) surveyed mount pose (photogrammetry or fixture CAD + machinist
+survey; ±1 mm, ±0.5–1° is enough for a ~2 % / ~2° budget), (b) UW's
+vacuum-field computation at that pose for the requested settings — both
+go in the July email.</p>
+<h3 id="34-uncertainty-budget-drafted-now-filled-by-data">3.4 Uncertainty budget (drafted now, filled by data)</h3>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Expected size</th>
+<th>Comes from</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helmholtz field constant</td>
+<td>~1 %</td>
+<td>geometry + 0.1 % shunt, pickup-coil cross-check</td>
+</tr>
+<tr>
+<td>Matrix fit residuals</td>
+<td>&lt; 0.5 %</td>
+<td>§3.2 fit</td>
+</tr>
+<tr>
+<td>Pose survey → predicted B_vac</td>
+<td>~1 % / ~1°</td>
+<td>§3.3 survey</td>
+</tr>
+<tr>
+<td>Temperature coefficient over shot</td>
+<td>small; measured</td>
+<td>hotplate data + in-vessel ΔT</td>
+</tr>
+<tr>
+<td>Noise per axis</td>
+<td>25–30 µT rms @ 1 kHz ENBW</td>
+<td>bench PSD, re-verified in-vessel</td>
+</tr>
+<tr>
+<td><strong>Total (goal)</strong></td>
+<td><strong>≤ 2–3 % magnitude, ≤ 2° direction</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="4-hsx-campaign-2-target-november-2026">4. HSX campaign #2 (target November 2026)</h2>
+<p>Objectives, in priority order:
+1. <strong>Coil-only absolute validation</strong> at 2–3 field settings, repeated —
+   the §3.3 anchor. This is the must-have; everything else is upside.
+2. <strong>Vector plasma dynamics:</strong> component-resolved ignition transient and
+   discharge fluctuations across the same discharge taxonomy as 2023
+   (high-energy / late-breakdown / failed-breakdown) for continuity.
+3. <strong>Offset stability, spinning on:</strong> a long repeated-shot sequence (and
+   idle dwell between shots) tracking b(t) — the direct, quantified
+   answer to 2023's V_off problem.
+4. Opportunistic: compare measured field direction against
+   equilibrium-reconstruction expectations (Chlechowitz-style) with the
+   UW team — a physics hook, and co-author engagement.</p>
+<p>Shot-list request to Wayne/Thomas (send with the July email):</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Ask</th>
+<th>Shots</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coil-only, setting 1/2/3, ×3 each</td>
+<td>~9</td>
+<td>absolute anchor + repeatability</td>
+</tr>
+<tr>
+<td>Biased vs unbiased, per axis</td>
+<td>~6</td>
+<td>artifact check, continuity with 2023 Fig. 4</td>
+</tr>
+<tr>
+<td>High-energy discharge repeats</td>
+<td>~6</td>
+<td>vector dynamics statistics</td>
+</tr>
+<tr>
+<td>Late-/failed-breakdown</td>
+<td>~4</td>
+<td>taxonomy continuity</td>
+</tr>
+<tr>
+<td>Long sequence, fixed setting</td>
+<td>~10+</td>
+<td>offset stability</td>
+</tr>
+<tr>
+<td>Mount survey + vacuum-field calc at pose</td>
+<td>—</td>
+<td>§3.3</td>
+</tr>
+<tr>
+<td>Trigger/clock tie-in or offset characterization</td>
+<td>—</td>
+<td>fix the ~30 ms DAQ offset</td>
+</tr>
+</tbody>
+</table></div>
+<p>Plus a shot-replay rehearsal at Stanford in October (wavegen playback of
+2023 traces through the full 3-channel chain, long cable, EMI checks) so
+the trip burns zero shots on debugging — same philosophy as the Week-4
+rehearsal in the 02 plan.</p>
+<hr />
+<h2 id="5-paper-skeleton-and-figure-plan">5. Paper skeleton and figure plan</h2>
+<p>Skeleton (RSI conventions): I. Introduction (fusion magnetics drift
+problem → Hall alternative → GaN for in-vessel → 2023 demo and its
+gaps → this instrument). II. Probe design (dies, cube package,
+harness). III. Readout (spinning-current theory recap, per-axis boards,
+synchronization, DAQ). IV. Calibration (scalar, matrix, in-situ anchor,
+uncertainty budget). V. HSX results (coil-only validation, vector
+plasma dynamics, offset stability). VI. Discussion &amp; outlook (rev-B
+integrated multichannel readout; radiation response per the co-authored
+TCAD modeling — cited, not performed). VII. Conclusion.</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Fig.</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Cube module: photo + exploded schematic, die/LCC/faces, in-vessel mount</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3-channel readout architecture with shared clock fan-out + timing diagram</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Matrix calibration: orientation sweeps, fitted M, residuals; misalignment angles</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>In-situ anchor: measured vs computed vacuum field, per component, per setting</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Vector dynamics through ignition (three components + |B|), discharge taxonomy</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Offset stability over the shot sequence vs the 2023 uncalibrated baseline</td>
+</tr>
+<tr>
+<td>T1</td>
+<td>Uncertainty budget · T2</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="6-timeline-gates-in-bold">6. Timeline (gates in bold)</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>When</th>
+<th>Work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jul 2026</td>
+<td>02 bring-up + calibration (running). Firmware split into spin+scope / static-bias modes; second test setup (static raw-offset measurement) documented — the Sept incoming-inspection tool is ready early (Jul 8). <strong>Send UW email: feedthrough pins, mount survey, vacuum-field calc, shot-list ask.</strong> Order 2 more boards' parts.</td>
+</tr>
+<tr>
+<td>Aug 2026</td>
+<td>HSX campaign #1 (single axis) — doubles as method pathfinder. <strong>Gate: single-axis calibration + in-vessel operation validated.</strong></td>
+</tr>
+<tr>
+<td>Sep 2026</td>
+<td>Gen-2 die incoming inspection; cube bond trial then assembly ×2 units; build boards 2–3; harness per UW answer. <strong>Gate: 3 working channels on the bench; 2-vs-3-axis decision.</strong></td>
+</tr>
+<tr>
+<td>Oct 2026</td>
+<td>3-channel bench bring-up, matrix calibration, thermal + drift, shot-replay rehearsal. <strong>Gate: uncertainty budget ≤ targets; DAQ strategy fixed.</strong></td>
+</tr>
+<tr>
+<td>Nov 2026</td>
+<td>HSX campaign #2.</td>
+</tr>
+<tr>
+<td>Dec–Jan</td>
+<td>Analysis: M validation, vector reconstruction, stability stats.</td>
+</tr>
+<tr>
+<td>Feb 2027</td>
+<td>Full draft; internal review (Senesky + UW co-authors); <code>rsi-editor</code> passes.</td>
+</tr>
+<tr>
+<td>~Mar 2027</td>
+<td>Submit to RSI.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Slack: December–January absorb slip; the immovable object is the
+November machine time — protect the September/October gates.</p>
+<hr />
+<h2 id="7-risk-register">7. Risk register</h2>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>L</th>
+<th>I</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bond yield on cube faces</td>
+<td>M</td>
+<td>H</td>
+<td>larger pads (that's their job); bond trial on mechanical sample; spare dies; 2-axis fallback</td>
+</tr>
+<tr>
+<td>Feedthrough pins &lt; 12</td>
+<td>M</td>
+<td>M</td>
+<td>ask in July; 2-axis fallback; second connector</td>
+</tr>
+<tr>
+<td>Channel gain/phase skew</td>
+<td>L</td>
+<td>M</td>
+<td>shared clock kills phase skew; matrix cal absorbs gain; verify with emulator on all 3 inputs</td>
+</tr>
+<tr>
+<td>Alignment error dominates vector budget</td>
+<td>M</td>
+<td>M</td>
+<td>matrix cal + polar-decomposition report; pose survey; 45° check orientations</td>
+</tr>
+<tr>
+<td>Scope memory insufficient</td>
+<td>M</td>
+<td>M</td>
+<td>§2.5 strategies A/B/C; decide in October</td>
+</tr>
+<tr>
+<td>Plate R changed by pad redesign</td>
+<td>M</td>
+<td>L</td>
+<td>incoming inspection; update SPECS/emulator before bench work</td>
+</tr>
+<tr>
+<td>Schedule (hand assembly ×2 boards)</td>
+<td>M</td>
+<td>M</td>
+<td>order parts in July; assemble in September, not October</td>
+</tr>
+<tr>
+<td>Campaign #1 findings force readout changes</td>
+<td>L</td>
+<td>H</td>
+<td>that's why #1 precedes the board builds — fold fixes into boards 2–3</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="8-benchbom-additions-rough">8. Bench/BOM additions (rough)</h2>
+<p>Two more board builds (PCBs already designed; parts ~$120 ea), DB-15 (or
+2× DSUB-9) harness parts ~$40, 3D-printed indexing cradle ~$10, second
+and third floating 100 µA sources ~$30 ea, MLX90393 3-axis reference
+breakout ~$15 (cross-check on the Pico I²C bus, per the 02 Helmholtz
+traceability plan), ceramic cube machining — quote needed (the one real
+unknown). Everything else (Helmholtz, scope, Pico, shunt) carries over
+from project 02.</p>
+</main>
+</div>
+<a class="backtop" href="#top">&uarr; top</a>
+</body>
+</html>

@@ -6,6 +6,29 @@ the current status without you re-explaining it.
 
 ---
 
+## 2026-07-08 — firmware split into two modes; second test setup defined
+- Firmware reorganized into two self-contained mode files (same J3 pin
+  map, same verified phase table): `firmware/pico2/pico2_spin_scope.py`
+  (mode 1 — full current-spinning, scope as DAQ, adds `survey()` and
+  `scope_notes()`) and `firmware/pico2/pico2_static_bias_p2p4.py`
+  (mode 2 — muxes parked in states 2/3/6/7: external source biases
+  p2 → p4, amp reads the p1/p3 difference, Pico ADC on GP26 ← J4
+  digitizes; 4-state chop cancels amplifier offset, plate offset o does
+  NOT cancel — single-axis physics). `main.py` now boots into a mode
+  chooser (still safe, EN low). `pico2_hsx_phase_clock.py` kept as
+  heritage, unchanged.
+- New doc `docs/second_test_setup_static_bias.md` — the second test
+  setup: purpose (health checks, gen-2 raw-offset incoming inspection,
+  2023-style continuity, fast-mode fallback), wiring incl. ADC tap and
+  optional level-shift network, expected numbers, ADC limits (unipolar,
+  ~0.8 mV/LSB — health-check grade only).
+- Bring-up plan revised (Jul 8): Day-2/Day-3 firmware references, new
+  §6.3, fast-mode item §2.8, Week-3 drift note, risk register.
+- Reader-friendly HTML mirrors generated next to the plan docs
+  (`.html` beside `.md`); regenerate whenever the markdown changes.
+- No changes to any measured value, the phase table, or the demod sign
+  convention.
+
 ## 2026-07-06 — folder restructure
 - Project now lives inside the reorganized `01_PhD_Research/` tree with a
   root-level CLAUDE.md, shared `.claude/` automation (`/log`, `/specs`,

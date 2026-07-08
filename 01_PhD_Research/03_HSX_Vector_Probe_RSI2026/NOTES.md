@@ -5,6 +5,17 @@ entry. Claude Code reads this file every session (see CLAUDE.md).
 
 ---
 
+## 2026-07-08
+- RSI plan revised: the gen-2 die incoming-inspection raw-offset survey
+  (§2.1) now has its standard tool — project 02's new static-bias
+  firmware mode (`pico2_static_bias_p2p4.py`: bias p2 → p4 from the
+  external source, sense p1/p3 through the amp, Pico-ADC readout,
+  amplifier-offset-free via the 4-state chop). Procedure + limits in
+  `../02_HSX_Hall_Sensor_Readout/docs/second_test_setup_static_bias.md`.
+- §2.3 notes the two-mode firmware carries over unchanged to the
+  3-board fan-out; timeline July row records the tooling landing early.
+- Reader-friendly HTML mirror generated next to the plan markdown.
+
 ## 2026-07-06
 - Project created. Target: 2–3 axis (vector) AlGaN/GaN Hall probe in a
   ceramic cube package (same LCC per face), second HSX campaign, paper

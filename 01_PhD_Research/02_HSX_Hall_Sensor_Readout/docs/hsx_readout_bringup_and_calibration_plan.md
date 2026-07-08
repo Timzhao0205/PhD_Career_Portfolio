@@ -1,6 +1,6 @@
 # HSX Hall-Effect Readout Board — Bring-Up, Verification & Calibration Plan
 **Board:** `hsx_2026_v1` (4-layer, assembled) · **Sim:** `hall_sensor_measurement_system_v1.asc` · **Target:** sensor install at HSX, August 2026
-**Prepared:** July 6, 2026
+**Prepared:** July 6, 2026 · **Revised:** July 8, 2026 — firmware reorganized into two operating modes (spin + scope / static bias p2/p4); second test setup added as §6.3 with its own doc, `second_test_setup_static_bias.md`. Reader-friendly HTML versions of all docs now sit next to their markdown.
 
 ---
 
@@ -66,7 +66,7 @@ Caveat: the *absolute* polarity conventions of the physical ADG5236 truth table 
 5. **RS6-2415D is a switching converter** (isolated, 9–36 V in, ±15 V out). Expect ripple/spurs in the 100s-of-kHz range on the rails. AD8429 PSRR is high but falls with frequency; spurs can alias into your sampled demod band. Verify the output spectrum in Week 1; mitigations if needed: ferrite + electrolytic bodge on the rails, battery input, or accept (demod rejects out-of-band well). Note there is **no header to inject clean bench ±15 V** — the DC/DC is the only rail path, so characterize it early.
 6. **The 2.2 k bias-return resistors load the plate.** Differential source impedance ≈ plate (~650 Ω) + 2× ADG1209 Ron (~120 Ω each) ≈ 0.9 kΩ against a 4.4 kΩ differential load → the amp sees only ≈ 83 % of the open-circuit Hall voltage. This is *identical in sim and hardware* and is absorbed by end-to-end calibration — but remember it when comparing your bench slope to wafer-level S_I ≈ 60 V/A/T. Per-channel Ron mismatch also converts a small fraction of offset into residual after demod; you'll measure that in the sensorless test.
 7. **Output drives coax directly** (AD8429 → J4 SMA, 10 k shunt). Watch for ringing with long cables/high C-load; keep the bench cable short, and if you see peaking, add an inline attenuator or a short series-R adapter at the SMA.
-8. **Bandwidth trade vs. the 2023 deployment.** The published voltage-bias chain had 1 MHz bandwidth; the spun chain is ~1–2 kHz. Fine for coil ramp (800 ms) and stored-energy tracking (ms), not for fast MHD. Options if you want both in August: record the *raw* v_meas continuously and demodulate offline (keeps everything), and/or plan a static-phase "fast mode" you can toggle by freezing a0/a1/a2.
+8. **Bandwidth trade vs. the 2023 deployment.** The published voltage-bias chain had 1 MHz bandwidth; the spun chain is ~1–2 kHz. Fine for coil ramp (800 ms) and stored-energy tracking (ms), not for fast MHD. Options if you want both in August: record the *raw* v_meas continuously and demodulate offline (keeps everything), and/or use the static-phase "fast mode" — now implemented as the mode-2 firmware (`pico2_static_bias_p2p4.py`, §6.3), which freezes a0/a1/a2 on the p2/p4 axis; for fast events record v_meas on the scope rather than the Pico ADC.
 9. **DSUB harness pairing:** make the cable with twisted pairs DSUB(1,2) = sensor p1&p3 (bias pair) and DSUB(6,7) = p2&p4 (sense pair). That pairing minimizes pickup loop area; pins 3,4,5,8,9 are spare (consider grounding one to GND1 as a shield/drain later).
 
 ---
@@ -100,7 +100,7 @@ Bias current is a free knob: raising I to 0.5–1 mA (the 2023 paper's 0.4 V bia
 - Scope the ±15 V rails AC-coupled: note DC/DC ripple amplitude and frequency (feeds §2.5 decision).
 
 **Day 2 — logic bring-up.**
-- Clock source: Raspberry Pi Pico 2, running `firmware/pico2/pico2_hsx_phase_clock.py` (PIO-generated a0/a1/a2 + sync, atomic single-edge updates; 3.3 V logic is fine — ADG1209/ADG5236 V_INH ≈ 2 V). Wiring: GP16/17/18→J3 pins 3/2/1 (a0/a1/a2), GP20→J3 pin 4 (en), GP19→scope sync/trigger, Pico GND→GND1. From the REPL: `start(40000)` raises EN then spins; `hold_state(n)` freezes any of the 8 codes for the manual survey; `stop()` drops EN before touching the DSUB. (Zero-code alternative: one wavegen at 40 kHz into a 74HC4040; Q0/Q1/Q2 = a0/a1/a2.)
+- Clock source: Raspberry Pi Pico 2, running `firmware/pico2/pico2_spin_scope.py` — **mode 1** of the two-mode firmware (PIO-generated a0/a1/a2 + sync, atomic single-edge updates; 3.3 V logic is fine — ADG1209/ADG5236 V_INH ≈ 2 V). Wiring: GP16/17/18→J3 pins 3/2/1 (a0/a1/a2), GP20→J3 pin 4 (en), GP19→scope sync/trigger, Pico GND→GND1. From the REPL: `start(40000)` raises EN then spins; `hold_state(n)` freezes any of the 8 codes and `survey()` walks all 8 with prompts for the manual survey; `stop()` drops EN before touching the DSUB; `scope_notes()` prints the DSOX1204G capture checklist. The companion **mode 2**, `pico2_static_bias_p2p4.py`, is the scope-free static setup of §6.3. (Zero-code alternative: one wavegen at 40 kHz into a 74HC4040; Q0/Q1/Q2 = a0/a1/a2.)
 - **Bond logic ground to GND1** (§2.2). Verify clean 0→3.3 V edges at TP3(a0), TP2(a1), TP1(a2), TP4(en).
 
 **Day 3 — Hall-plate emulator + current source.**
@@ -108,7 +108,7 @@ Bias current is a free knob: raising I to 0.5–1 mA (the 2023 paper's 0.4 V bia
 - Expected at J4: the amp sees o × loading ≈ 0.315 mV × 0.83 (≈0.9 k bridge+Ron source vs 4.4 k bias-return load) → **steps of ≈ ±26 mV** at the output (0.31 × 100.3 ≈ 31 mV only if you ignore loading). With 1 % resistors the random bridge mismatch (±6.5 Ω/arm) is comparable to the intentional 12.5 Ω — so either use 0.1 % parts, or DMM-measure all four resistors before soldering and predict o exactly with the formula above (turns the emulator into a quantitative gain check).
 - Pre-plug DMM signature (with 33 k on p1–p2): opposite pairs pins 1–2 and 6–7 ≈ **646 Ω**; the tagged adjacent pair 1–6 ≈ **480 Ω**; the other three adjacent pairs ≈ **486 Ω**. Caution: solder-cup side of a DSUB is a mirror image of the mating face — go by the numbers molded next to the cups.
 - Hook up the current source through J2; verify 100 µA by the drop across R9 at TP6→TP5. **As-built: R9 = R10 = 100 Ω** (confirmed) → expect **10.0 mV per resistor at 100 µA**; 4-wire-measure each resistor's actual value first and divide by that, so current accuracy = DMM voltage accuracy. Measure with a floating DMM across the test points — not a grounded scope probe (the bias loop is referenced to GND1 through the 2.2 k returns; a probe ground clip diverts current). The drop is DC even while spinning (the chopper is downstream of R9/R10); brief spikes at phase edges are the source hitting compliance during break-before-make and are normal. Cross-check V(R9)/R9 = V(R10)/R10 — any mismatch means leakage. Confirm the a2 chopper actually reverses sensor-current direction (watch TP5/TP7 vs a2).
-- Static-state survey: hold (a0,a1,a2) at each of the 8 codes by hand (Pico held constant); record v_meas each state → must reproduce the sign pattern in the §1 table with amplitude G·o.
+- Static-state survey: hold (a0,a1,a2) at each of the 8 codes by hand (`survey()` in mode 1 steps through them with prompts); record v_meas each state → must reproduce the sign pattern in the §1 table with amplitude G·o. The four p2/p4-axis states (2/3/6/7) can additionally be taken scope-free with the mode-2 firmware and its ADC tap — a useful cross-check that the two acquisition paths agree (§6.3).
 
 **Day 3–4 — gain verification (ΔV method).**
 - With phases static, superimpose a known small differential on the selected sense pair (e.g., a 1.000 V source through a 10 kΩ:10 Ω divider across the correct DSUB pins → ~1 mV). Toggle it on/off; ΔV_out/ΔV_in = G. Target 100.3 ± ~1 %. This isolates gain from all offsets.
@@ -168,7 +168,7 @@ Determine the global sign once with a magnet of known polarity, then never touch
 - Repeat at I = 50/100/200/500 µA → confirm m ∝ I (current-scaled sensitivity assumption), pick HSX bias point.
 - AC response: sine-drive the coil 10 Hz → 3 kHz → measure the spun chain's transfer function; confirm usable BW and phase lag (matters for correlating with the diamagnetic loop).
 - Temperature: sensor (+ emulator as control) on hotplate/oven 25 → 100 °C: demod offset vs T (should now be flat — the headline improvement over the 2023 uncalibrated V_off) and m vs T (expect small; prior work shows S_I stable to 576 °C).
-- Overnight drift log at zero field: Allan-deviation-style plot; this is the "long-pulse credibility" figure for the next paper.
+- Overnight drift log at zero field: Allan-deviation-style plot; this is the "long-pulse credibility" figure for the next paper. (The mode-2 firmware's `log_csv` gives a cheap parallel drift record of the un-spun (s − o) channel — log both; the difference is what spinning buys, in one figure.)
 
 ### Week 4 (Jul 27–Aug 2): HSX integration rehearsal
 - Long-cable test: insert 10–20 m of the actual harness type + feedthrough-equivalent capacitance; re-check settling/blanking; drop f if needed.
@@ -201,6 +201,32 @@ Determine the global sign once with a magnet of known polarity, then never touch
 6. **Temperature run**: offset(T), sensitivity(T).
 7. **Drift log** overnight.
 8. **Shot rehearsal** end-to-end.
+
+### 6.3 Second test setup — static DC bias (p2 → p4), sense p1/p3, scope-free
+
+Full definition, wiring, theory and expected numbers:
+`second_test_setup_static_bias.md` (this is the summary). Firmware:
+`firmware/pico2/pico2_static_bias_p2p4.py` (mode 2).
+
+- The muxes are **parked** in the a1 = 1 states (2/3/6/7): external
+  100 µA source biases **p2 → p4**, the AD8429 reads the **p1/p3
+  difference**, and the **Pico's ADC** (GP26 ← J4) digitizes — no scope,
+  no spinning.
+- `measure_chopped()` averages the four states with signs {+, −, −, +}:
+  amplifier offset e cancels exactly; the result is (s − o)·loading·G.
+  The **plate offset o does not cancel** (single bias axis — that's the
+  physics; separating s from o is what the full 8-state spin is for).
+  At zero field the result *is* the raw plate offset — the incoming-
+  inspection number for the gen-2 dies (RSI plan §2.1).
+- Uses: 30-second sensor health checks without the scope cart; raw-offset
+  surveys; drift logging (`log_csv`) as a cheap complement to the Week-3
+  overnight run; continuity checks against the 2023 static-bias style;
+  and the "fast mode" fallback of §2.8 (static phase = full amplifier
+  bandwidth).
+- Limits: unipolar 0–3.3 V ADC (negative states clamp — firmware warns;
+  level-shift network documented in the setup doc) and ~0.8 mV/LSB
+  resolution (≈ sub-mV effective with 256× oversampling) — health-check
+  grade, never calibration grade.
 
 ---
 
@@ -249,7 +275,7 @@ Assumes existing: DSOX1204G scope/wavegen, bench supply, DMM.
 |---|---|
 | EN not driven → dead board at HSX | Runbook step 1; LED or scope check on TP4 |
 | Logic ground unbonded | Dedicated ground wire in harness; document it |
-| Demod BW (~1–2 kHz) hides ignition transient detail | Record raw v_meas at ≥1 MS/s and demod offline; optional static-phase fast mode |
+| Demod BW (~1–2 kHz) hides ignition transient detail | Record raw v_meas at ≥1 MS/s and demod offline; static-phase fast mode (mode-2 firmware, §6.3) |
 | DC/DC spurs alias into data | Week-1 spectrum check; ferrite/battery fallback |
 | Current source drift over a run day | REF200/SMU + log R9 drop each shot block |
 | Charge-injection residual at chosen f | Week-1 frequency study; freeze f + blanking before Week 3 calibration |
