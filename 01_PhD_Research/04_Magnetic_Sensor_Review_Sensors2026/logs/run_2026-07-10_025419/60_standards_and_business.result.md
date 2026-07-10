@@ -1,0 +1,1 @@
+﻿wrote outputs/60_standards_and_business.md — 11-row standards table + 15-family TRL ladder, 15 sources logged to refs_raw/60.jsonl (1 peer-reviewed metrology, 9 standards-body, 4 market/press grey-lit tagged)

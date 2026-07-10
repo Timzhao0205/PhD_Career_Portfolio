@@ -1,0 +1,10 @@
+{"stage":"00_target_journal_brief","model":"sonnet","effort":"low","status":"ok","cost_usd":0.62528880000000009,"seconds":119.8,"session_id":"a4ed65a9-3b12-496b-9eb0-fdeb2983e96e","subtype":"success"}
+{"stage":"10_titles","model":"claude-fable-5","effort":"high","status":"ok","cost_usd":0.624194,"seconds":60.2,"session_id":"75834a92-6788-47fc-adfd-344a683c463b","subtype":"success"}
+{"stage":"20_outlines","model":"claude-fable-5","effort":"high","status":"ok","cost_usd":1.490506,"seconds":205.5,"session_id":"7dff4787-24f9-4fc9-af77-00e0cddb0d9a","subtype":"success"}
+{"stage":"30_litreview_sensor_types","model":"claude-fable-5","effort":"high","status":"ok","cost_usd":7.193676,"seconds":869.8,"session_id":"ffa8c894-d84c-4a42-b2d7-4d535478f7f9","subtype":"success"}
+{"stage":"40_litreview_applications","model":"opus","effort":"high","status":"ok","cost_usd":3.4486849999999998,"seconds":454.6,"session_id":"2d3a2b38-4381-4989-9d2b-e05eddfd1680","subtype":"success"}
+{"stage":"50_litreview_future_methods","model":"claude-fable-5","effort":"high","status":"ok","cost_usd":5.1128670000000014,"seconds":561,"session_id":"52cb2104-1a87-4bcd-b96c-cb128b1179b4","subtype":"success"}
+{"stage":"60_standards_and_business","model":"opus","effort":"high","status":"ok","cost_usd":2.4152205,"seconds":329.3,"session_id":"ce2220c2-b255-4d64-a40c-dd42d91b64e1","subtype":"success"}
+{"stage":"70_bibliography","model":"sonnet","effort":"medium","status":"ok","cost_usd":2.94086375,"seconds":771.7,"session_id":"1ca8eccc-1bc1-424b-8091-26cc4e040f0d","subtype":"success"}
+{"stage":"80_assemble_deliverable","model":"claude-fable-5","effort":"high","status":"ok","cost_usd":4.0372540000000008,"seconds":265.3,"session_id":"600468e9-ec29-4884-8db0-83bac87623cd","subtype":"success"}
+{"stage":"90_patch_notes","model":"haiku","effort":"low","status":"ok","cost_usd":0.1174909,"seconds":85.5,"session_id":"0e528da3-5abd-4678-a74b-9f6763560a0a","subtype":"success"}
