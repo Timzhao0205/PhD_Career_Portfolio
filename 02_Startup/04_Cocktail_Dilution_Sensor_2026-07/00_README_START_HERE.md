@@ -23,5 +23,6 @@ Activity-recording hooks are ON (98_CLAUDE_METRICS/).
 progress, assumptions, decisions) · 10_SENSING_DESIGN (strategy,
 SPECS, estimator) · 20_HARDWARE (BOM, electrodes, readout) ·
 30_FIRMWARE · 40_EXPERIMENTS (protocols + data) · 50_ANALYSIS
-(python) · 90_REFERENCES · 98_CLAUDE_METRICS (Claude Code activity
-logs + analyzer).
+(python) · 60_RND_STRATEGY (R&D plan + 5.6 sol prompt pack) ·
+90_REFERENCES · 98_CLAUDE_METRICS (Claude Code activity logs +
+analyzer).
