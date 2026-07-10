@@ -87,3 +87,12 @@ follow-up patches without re-deriving the run.
   0 fallbacks on CAD tooling (OpenSCAD located + build123d font-bug patched), 1 in-place fix
   applied from red-team (RT-06), 1 back-annotation (ST6→ST5 addendum). Open user actions: 3
   decision gates, UW email, Accu-Glass call, ΔV gain anomaly bench check.
+- 2026-07-10 — POST-RUN, USER-FOUND DEFECT (Concept B): the six M1.6 through-bolt lines in
+  concept_B.scad (SX/SY/SZ offsets 4.95–5.20 mm) pairwise cross at only 0.15–0.20 mm axis
+  separation inside the cube (need ≥~3.3 mm for Ø1.8 holes + web) → holes merge, bolts collide;
+  four holes also nick adjacent pocket corners (0.46–0.64 mm < 0.9 mm hole radius). The scad's
+  "distinct magnitudes" rationale prevented exact intersection only, not clearance. Missed by
+  red-team wave 2 (RT-22 was close but didn't compute it). Threads-in-ceramic already zero (Ti
+  nuts) — defect is routing only. Proposed fixes: (a) 1 bolt/face + hook ledge (3 holes), or
+  (b) corner-crown + 1 body-diagonal bolt (1 hole). Concept B CAD rev + RED_TEAM/DECISION_GATES
+  update PENDING user go-ahead.
