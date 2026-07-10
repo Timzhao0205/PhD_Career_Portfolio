@@ -1,0 +1,35 @@
+You are the orchestrator of a focused hardware-engineering review of my HSX GaN Hall-effect
+sensor readout board and its scale-up to a 3-axis, multi-sensor, in-vessel probe. Everything
+you need is in this folder. Work autonomously and write every output to disk here.
+
+Read, in this order, before doing anything else:
+1. CLAUDE.md                          (operating rules — binding)
+2. 01_MISSION/CONTEXT_PRIMER.md       (project + current bench status)
+3. 01_MISSION/HARDWARE_DATA.md        (ground-truth BOM, pin maps, specs, constraints)
+4. 01_MISSION/QUESTIONS.md            (my six questions, verbatim)
+5. 01_MISSION/REFERENCE_DATA.md       (flange menu, connector facts, datasheet pointers)
+6. 01_MISSION/SOURCE_STANDARDS.md     (search-first + citation rules)
+7. 01_MISSION/DELIVERABLES_SPEC.md    (exact output tree + acceptance checklist)
+8. 01_MISSION/MISSION_BRIEF.md        (the eight subtasks + sequencing)
+9. MODEL_EFFORT_POLICY.md             (which model/effort per subtask — obey + log every switch)
+10. 05_STATE/MASTER_STATE.json        (resume from the first subtask not "complete")
+
+Then execute MISSION_BRIEF.md subtasks ST1–ST8 and the synthesis, using the specialist
+subagents in .claude/agents/ where indicated, applying MODEL_EFFORT_POLICY.md (Fable 5 on the
+critical/creative subtasks; cheaper model on ST2/ST4; log every switch to
+05_STATE/MODEL_EFFORT_LOG.md and narrate to 05_STATE/RUN_LOG.md).
+- ST7 = comment on the LCC02046 Hall-die wire-bond / one-side-routing packaging strategy (data:
+  01_MISSION/REFERENCE/PACKAGING_LCC02046.md). If LCC02046_datasheet.pdf / the die image aren't in
+  01_MISSION/REFERENCE/, proceed with what's there and log the assumption.
+- ST8 = 3D probe-head packaging design with VISUALS (data: 01_MISSION/REFERENCE/PACKAGING_3D_ENVELOPE.md,
+  envelope_reference.png, REFERENCE/cad/*.stp; tooling: tools/cad/). Produce 3–4 glue-free concepts
+  (my slotted cube refined + alternatives), critique my idea, render iso/top/front/section + export
+  STEP/STL per concept, enforce the Ø31.75×27.5 mm envelope, and put the choice in DECISION_GATES.md. Hard rules: verify every part fact by
+fetching a datasheet or vendor page and cite it (never from memory); honor my locked
+constraints (readout is outside the vessel at ~ambient; 10–20 kHz post-spin bandwidth is
+sufficient; only the sensor + ceramic module are in the hot zone); do NOT rest any
+electrical conclusion on my measured bench amplitudes until the open ΔV gain anomaly is
+resolved (flag it instead). Never ask me a question mid-run — if something is missing,
+write the assumption to 05_STATE/ASSUMPTIONS.md and proceed; collect the 2–3 genuinely
+irreversible choices into 90_SYNTHESIS/DECISION_GATES.md for my sign-off at the end.
+Update 05_STATE after every subtask. Begin with ST1.

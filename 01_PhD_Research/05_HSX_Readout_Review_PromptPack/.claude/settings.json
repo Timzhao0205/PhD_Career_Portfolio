@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": ["."],
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Task",
+      "WebFetch",
+      "WebSearch",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pip:*)",
+      "Bash(pip3:*)",
+      "Bash(openscad:*)",
+      "Bash(winget:*)",
+      "Bash(mkdir:*)",
+      "Bash(copy:*)",
+      "Bash(cp:*)",
+      "Bash(move:*)",
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(type:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(del /s:*)"
+    ]
+  },
+  "_comment": "Guarded-mode allow-list scoped to this folder for the HSX review run. 'full' mode (RUN.ps1 default) bypasses this with --dangerously-skip-permissions for zero prompts. Read/write is confined to this folder by CLAUDE.md instruction."
+}
