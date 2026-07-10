@@ -1,0 +1,312 @@
+{
+  "materials": {
+    "cu": {
+      "k": 400.0,
+      "rho_ct": 5e-09
+    },
+    "brass": {
+      "k": 120.0,
+      "rho_ct": 2e-08
+    },
+    "hast": {
+      "k": 9.0,
+      "rho_ct": 7e-07
+    },
+    "ss": {
+      "k": 3.0,
+      "rho_ct": 2e-06
+    }
+  },
+  "geom": {
+    "N": 30,
+    "r_in": 0.03,
+    "pitch": 0.00011,
+    "tape_t": 0.0001,
+    "w": 0.004
+  },
+  "KNOWN_ISSUES": [
+    {
+      "id": "tau_rc_narrative_direction",
+      "status": "FIXED_W2",
+      "description": "W0 demo() print text asserted uniform stainless (high rho_ct) gives the LONGEST tau, but the coupled formula always produced the shortest tau for stainless and the longest for copper -- the narrative contradicted its own printed numbers. Fixed: narrative now matches computed direction (higher Rc -> shorter charging tau, consistent with published metal-insulation/NI charging-delay results). G-PHYS must independently verify this direction before filing reliance -- a self-consistent fix is not proof of correctness."
+    }
+  ],
+  "cooling_levels": {
+    "20.0": {
+      "G_ch_W_per_K": 1.0,
+      "rows": [
+        {
+          "map": "uniform:cu",
+          "n_cu_drain": 0,
+          "tau_s": 0.5964,
+          "peak_dT_K": 0.5603,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:brass",
+          "n_cu_drain": 0,
+          "tau_s": 0.1491,
+          "peak_dT_K": 0.7012,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:hast",
+          "n_cu_drain": 0,
+          "tau_s": 0.0043,
+          "peak_dT_K": 3.182,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:ss",
+          "n_cu_drain": 0,
+          "tau_s": 0.0015,
+          "peak_dT_K": 8.5461,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[2]",
+          "n_cu_drain": 2,
+          "tau_s": 0.0015,
+          "peak_dT_K": 7.6707,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[4]",
+          "n_cu_drain": 4,
+          "tau_s": 0.0017,
+          "peak_dT_K": 5.911,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[6]",
+          "n_cu_drain": 6,
+          "tau_s": 0.0018,
+          "peak_dT_K": 4.1395,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[8]",
+          "n_cu_drain": 8,
+          "tau_s": 0.0019,
+          "peak_dT_K": 2.356,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[10]",
+          "n_cu_drain": 10,
+          "tau_s": 0.0021,
+          "peak_dT_K": 0.5603,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[12]",
+          "n_cu_drain": 12,
+          "tau_s": 0.0024,
+          "peak_dT_K": 0.5603,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        }
+      ],
+      "pareto_front": [
+        "spatial:ss-core/cu-drain[2]",
+        "spatial:ss-core/cu-drain[4]",
+        "spatial:ss-core/cu-drain[6]",
+        "spatial:ss-core/cu-drain[8]",
+        "spatial:ss-core/cu-drain[10]"
+      ]
+    },
+    "30.0": {
+      "G_ch_W_per_K": 4.0,
+      "rows": [
+        {
+          "map": "uniform:cu",
+          "n_cu_drain": 0,
+          "tau_s": 0.5964,
+          "peak_dT_K": 0.1853,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:brass",
+          "n_cu_drain": 0,
+          "tau_s": 0.1491,
+          "peak_dT_K": 0.3262,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:hast",
+          "n_cu_drain": 0,
+          "tau_s": 0.0043,
+          "peak_dT_K": 2.807,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:ss",
+          "n_cu_drain": 0,
+          "tau_s": 0.0015,
+          "peak_dT_K": 8.1711,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[2]",
+          "n_cu_drain": 2,
+          "tau_s": 0.0015,
+          "peak_dT_K": 7.2957,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[4]",
+          "n_cu_drain": 4,
+          "tau_s": 0.0017,
+          "peak_dT_K": 5.536,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[6]",
+          "n_cu_drain": 6,
+          "tau_s": 0.0018,
+          "peak_dT_K": 3.7645,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[8]",
+          "n_cu_drain": 8,
+          "tau_s": 0.0019,
+          "peak_dT_K": 1.981,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[10]",
+          "n_cu_drain": 10,
+          "tau_s": 0.0021,
+          "peak_dT_K": 0.1853,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[12]",
+          "n_cu_drain": 12,
+          "tau_s": 0.0024,
+          "peak_dT_K": 0.1853,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        }
+      ],
+      "pareto_front": [
+        "spatial:ss-core/cu-drain[2]",
+        "spatial:ss-core/cu-drain[4]",
+        "spatial:ss-core/cu-drain[6]",
+        "spatial:ss-core/cu-drain[8]",
+        "spatial:ss-core/cu-drain[10]"
+      ]
+    },
+    "50.0": {
+      "G_ch_W_per_K": 20.0,
+      "rows": [
+        {
+          "map": "uniform:cu",
+          "n_cu_drain": 0,
+          "tau_s": 0.5964,
+          "peak_dT_K": 0.0853,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:brass",
+          "n_cu_drain": 0,
+          "tau_s": 0.1491,
+          "peak_dT_K": 0.2262,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:hast",
+          "n_cu_drain": 0,
+          "tau_s": 0.0043,
+          "peak_dT_K": 2.707,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "uniform:ss",
+          "n_cu_drain": 0,
+          "tau_s": 0.0015,
+          "peak_dT_K": 8.0711,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[2]",
+          "n_cu_drain": 2,
+          "tau_s": 0.0015,
+          "peak_dT_K": 7.1957,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[4]",
+          "n_cu_drain": 4,
+          "tau_s": 0.0017,
+          "peak_dT_K": 5.436,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[6]",
+          "n_cu_drain": 6,
+          "tau_s": 0.0018,
+          "peak_dT_K": 3.6645,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[8]",
+          "n_cu_drain": 8,
+          "tau_s": 0.0019,
+          "peak_dT_K": 1.881,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[10]",
+          "n_cu_drain": 10,
+          "tau_s": 0.0021,
+          "peak_dT_K": 0.0853,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": true
+        },
+        {
+          "map": "spatial:ss-core/cu-drain[12]",
+          "n_cu_drain": 12,
+          "tau_s": 0.0024,
+          "peak_dT_K": 0.0853,
+          "cold_head_load_W": 0.5,
+          "on_pareto_front": false
+        }
+      ],
+      "pareto_front": [
+        "spatial:ss-core/cu-drain[2]",
+        "spatial:ss-core/cu-drain[4]",
+        "spatial:ss-core/cu-drain[6]",
+        "spatial:ss-core/cu-drain[8]",
+        "spatial:ss-core/cu-drain[10]"
+      ]
+    }
+  }
+}

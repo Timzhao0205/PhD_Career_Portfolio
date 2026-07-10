@@ -1,0 +1,175 @@
+{
+  "SIMULATED_prophetic": true,
+  "description": "Same total copper-bypass budget (n_cu turns), naive evenly-spaced placement vs thermally-steered placement concentrated at the inner (worst cooling-access) turns, fault injected at turn 2, swept over n_cu and cooling budget (20/30/50 K).",
+  "assumed_parameters": {
+    "q_spot_W": 0.5,
+    "spot_turn": 2,
+    "background_material": "ss",
+    "bypass_material": "cu",
+    "note": "illustrative, not measured; q_spot/spot_turn chosen to stress the inner/worst-cooled region where placement should matter most"
+  },
+  "rows": [
+    {
+      "T_cold_K": 20.0,
+      "n_cu": 2,
+      "naive_peak_dT_K": 25.4098,
+      "steered_peak_dT_K": 25.4098,
+      "peak_dT_reduction_pct": -0.0,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 20.0,
+      "n_cu": 4,
+      "naive_peak_dT_K": 25.4098,
+      "steered_peak_dT_K": 24.4515,
+      "peak_dT_reduction_pct": 3.77,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 20.0,
+      "n_cu": 6,
+      "naive_peak_dT_K": 25.4098,
+      "steered_peak_dT_K": 22.5453,
+      "peak_dT_reduction_pct": 11.27,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 20.0,
+      "n_cu": 8,
+      "naive_peak_dT_K": 25.4098,
+      "steered_peak_dT_K": 20.6528,
+      "peak_dT_reduction_pct": 18.72,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 20.0,
+      "n_cu": 10,
+      "naive_peak_dT_K": 25.4098,
+      "steered_peak_dT_K": 18.7739,
+      "peak_dT_reduction_pct": 26.12,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 20.0,
+      "n_cu": 12,
+      "naive_peak_dT_K": 25.4098,
+      "steered_peak_dT_K": 16.9082,
+      "peak_dT_reduction_pct": 33.46,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 30.0,
+      "n_cu": 2,
+      "naive_peak_dT_K": 25.0348,
+      "steered_peak_dT_K": 25.0348,
+      "peak_dT_reduction_pct": -0.0,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 30.0,
+      "n_cu": 4,
+      "naive_peak_dT_K": 25.0348,
+      "steered_peak_dT_K": 24.0765,
+      "peak_dT_reduction_pct": 3.83,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 30.0,
+      "n_cu": 6,
+      "naive_peak_dT_K": 25.0348,
+      "steered_peak_dT_K": 22.1703,
+      "peak_dT_reduction_pct": 11.44,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 30.0,
+      "n_cu": 8,
+      "naive_peak_dT_K": 25.0348,
+      "steered_peak_dT_K": 20.2778,
+      "peak_dT_reduction_pct": 19.0,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 30.0,
+      "n_cu": 10,
+      "naive_peak_dT_K": 25.0348,
+      "steered_peak_dT_K": 18.3989,
+      "peak_dT_reduction_pct": 26.51,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 30.0,
+      "n_cu": 12,
+      "naive_peak_dT_K": 25.0348,
+      "steered_peak_dT_K": 16.5332,
+      "peak_dT_reduction_pct": 33.96,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 50.0,
+      "n_cu": 2,
+      "naive_peak_dT_K": 24.9348,
+      "steered_peak_dT_K": 24.9348,
+      "peak_dT_reduction_pct": -0.0,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 50.0,
+      "n_cu": 4,
+      "naive_peak_dT_K": 24.9348,
+      "steered_peak_dT_K": 23.9765,
+      "peak_dT_reduction_pct": 3.84,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 50.0,
+      "n_cu": 6,
+      "naive_peak_dT_K": 24.9348,
+      "steered_peak_dT_K": 22.0703,
+      "peak_dT_reduction_pct": 11.49,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 50.0,
+      "n_cu": 8,
+      "naive_peak_dT_K": 24.9348,
+      "steered_peak_dT_K": 20.1778,
+      "peak_dT_reduction_pct": 19.08,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 50.0,
+      "n_cu": 10,
+      "naive_peak_dT_K": 24.9348,
+      "steered_peak_dT_K": 18.2989,
+      "peak_dT_reduction_pct": 26.61,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    },
+    {
+      "T_cold_K": 50.0,
+      "n_cu": 12,
+      "naive_peak_dT_K": 24.9348,
+      "steered_peak_dT_K": 16.4332,
+      "peak_dT_reduction_pct": 34.1,
+      "naive_cold_head_load_W": 0.5,
+      "steered_cold_head_load_W": 0.5
+    }
+  ]
+}

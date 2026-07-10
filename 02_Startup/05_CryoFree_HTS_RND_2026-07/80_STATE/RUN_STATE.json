@@ -1,0 +1,96 @@
+{
+  "project": "05_CryoFree_HTS_RND_2026-07",
+  "phase": "COMPLETE",
+  "wave": 5,
+  "budget_tokens": {
+    "ceiling": 2000000,
+    "used": 0,
+    "note": "Ceiling set from /autorun 2000000 argument at run start (2026-07-09)."
+  },
+  "models": {
+    "scaffold": "haiku",
+    "harvest": "sonnet",
+    "ideation": "sonnet",
+    "simulation": "sonnet",
+    "G-PHYS": "fable-5",
+    "G-NOVEL": "fable-5",
+    "G-CLAIM": "fable-5",
+    "drafting": "opus",
+    "synthesis": "opus"
+  },
+  "candidates": {
+    "CF-1": "seeded",
+    "CF-2": "seeded",
+    "CF-3": "seeded",
+    "CF-4": "seeded",
+    "CF-5": "seeded",
+    "CF-6": "seeded",
+    "CF-7": "seeded"
+  },
+  "gates": {
+    "CF-1": {
+      "G-PHYS": "REVISE (tau<->Rc direction independently verified CORRECT: W2 narrative fix right, formula matches MI/NI charging-delay literature, conservation exact [cold_head_load=q_spot for all G_ch/T_cold]. REVISE items: R1 Pareto rounding artifact -- unrounded uniform:ss is NOT dominated, restate claim as spatial maps dominating uniform cu/brass/hast + intermediate non-dominated points; R2 cooling budget units-conflated [W used as W/K] and never binds -- 'fixed cooling-W' claim not yet evidenced; R3 spot-location robustness -- inner-turn-5 disturbance gives 14.5 K vs 0.56 K, sweep worst-case)",
+      "G-NOVEL": "NARROW-NOVEL (genus of non-uniform/independent electro-thermal turn-to-turn interface engineering blocked by EP4078630A1 [EP, granted, in force] + US11101060B2 [US, granted, in force; family JP/KR/EP/AU] + Wang/Hahn graded-resistance IEEE TAS NPL [patentability only, no FTO]; the radial + coupled-single-material + cryocooler-cold-head-budget combination with Pareto evidence is not disclosed anywhere found. Preconditions before W4: close ledger gaps 1 [native CN/JP/KR portals], 2 [US12196792 OCR], 3 [CN115485868A claims], 5 [pin Wang/Hahn citation])",
+      "G-CLAIM": "SURVIVES-NARROWED (core: cryocooler-conduction-cooled NI coil, radially zoned co-wound metallic interlayer where Rc and k are coupled properties of a single material [no apertured insulators, no discrete bridges -- mechanism-distinct from Tokamak], continuous high-conductance drain to cold head, zone boundary set to meet tau + worst-case hot-spot dT within rated cooling capacity; primary = ladder rungs 1+2+3, rung 4 dependents, rung 5 parameter windows DEFERRED pending G-PHYS R1-R3, rung 6 FTO/CN-utility-model fallback; cost: surrenders bridge/perforation mechanisms, circumferential-only maps, bath-cooled uses)",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-1/gates.md"
+    },
+    "CF-3": {
+      "G-PHYS": "REVISE (headline is an artifact: min(k[i],k[i+1]) interface rule makes evenly-spaced copper thermally invisible so the naive baseline cannot improve by construction [naive peak dT constant across n_cu]; fault spot_turn=2 co-located with steered inner block; no electrical/current network simulated at all -- claimed current-steering mechanism untested; also W-vs-W/K units conflation in cooling_budget->G_ch. Fixes: per-interface material assignment, sweep spot_turn worst-case/expectation, couple electrical bypass network with Joule heating as load, fix cold-head boundary units)",
+      "G-NOVEL": "NARROW-NOVEL provisional (genus of spatially-engineered turn-to-turn bypass controlling current distribution blocked by Tokamak Energy EP4012730A1/KR102631117B1 [KR granted] + EP4078630B1 [EP granted, in force]; surviving species = proactive placement/active modulation driven by measured/known thermal-conduction-to-cold-head map under fixed cryocooler budget. REQUIRED FOLLOW-UP before reliance: pull EP4078630B1 granted claims + description + INPADOC family -- ledger has abstract paraphrase only; if bridges tied to cooling-path topology, passive species drops to DUPLICATED. Also close ledger Gaps 1 [US12,196,792 biblio] and 6 [arXiv 2604.15587])",
+      "G-CLAIM": "core: active spatially-resolved bypass-conductance modulation driven by stored thermal-conduction-to-cold-head map in cryocooler-cooled no-bath system (rungs 1+2), parallel rung-3 method claim (map->pattern transformation, not measurement); passive winding-time placement demoted to dependent pending EP4078630B1 claim review; rung-5 parameter windows BLOCKED until G-PHYS fixes rerun; cost: surrenders passive fixed placement as independent subject matter. Hall-sensing flag: W4 embodiments must sense via temperature/terminal-electrical only, no magnetic sensing",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-3/gates.md"
+    },
+    "CF-5": {
+      "G-PHYS": "PASS (illustrative-trend scope only; RPM-degradation is an input assumption -- no parameter-window criticality evidence; contact-joint architectures only)",
+      "G-NOVEL": "DUPLICATED (US 12,506,395 B2 Hinetics; CN 102840708 B Dongfang; WO 2013/133487 A1 HHI; plus expired AMSC/DE art on the stationary-cold-head variant)",
+      "G-CLAIM": "not reached (prerequisite failed); residue (NI-aware rotating-frame co-design / RPM-scheduled margin governor) proposed as new candidate CF-5b via W1",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-5/gates.md"
+    },
+    "CF-7": {
+      "G-PHYS": "PASS (no new physics claimed; conditions: minimal lead heat-load sim required before any prophetic example or parameter-window claim [W2 gap logged]; record schema must define zero-current vs under-load measurement states)",
+      "G-NOVEL": "NARROW-NOVEL (genus 'combined thermal+electrical qual test on one lead unit' dead over ASIPP S2-11/T3-1 NPL + US7,394,024 + CN101409127B; survives as narrow combination: integrated per-unit verification structures + machine-readable record consumed by system controller for cryocooler lift-budget allocation; FTO watch: GE US11,961,662/US12,537,121 active family; IBM US10,511,168 full-text pull mandatory)",
+      "G-CLAIM": "core survives: rung-3 apparatus (integrated verification structures + unit-specific co-verified record) + rung-1 system claim (controller consumes record) + rung-4 co-equal (calibrated demountable interface preserving factory cert through field install); rung-5 parameter windows BLOCKED pending sim; cost: surrenders broad 'ships with certificate' genus",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-7/gates.md"
+    },
+    "CF-2": {
+      "G-PHYS": "REVISE (effect real and local rule realizable, not information-cheating; fix inherited cooling_budget W-vs-W/K G_ch units conflation, add degraded-cooling + model-error sweeps -- cryocooler-telemetry claim element has no differential sim evidence yet; no numeric value filing-usable until regenerated)",
+      "G-NOVEL": "NARROW-NOVEL (conditional: IEEE Xplore #9893361 NPL fences the model-based cooling-aware trigger genus, FULL TEXT MANDATORY before reliance; gap = spatially-resolved per-location thresholds from a conduction model driven by live cryocooler-state telemetry; CN122194022A = FTO watch, CNIPA-direct verification required; CN/JP/KR direct-database refresh required pre-filing)",
+      "G-CLAIM": "combination independent claim: plural sensing locations + conduction thermal model + cryocooler-state telemetry input + per-location baseline+margin trip thresholds; dependents from ladder rungs 3/4/6 (incl. CF-1 interface-map co-design); parameter-window rung EMBARGOED pending sim criticality evidence; scope cost = surrenders lumped current-driven forecast genus",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-2/gates.md"
+    },
+    "CF-4": {
+      "G-PHYS": "REVISE (effect real: independently reproduced [t_wc=134.16s, t_dyn=94.7s, naive viol=784 all match], no acausal lookahead [governor uses hd[i] only], advantage is Jensen-robust for any time-varying headroom, and survives gate's robustness probe [20% margin + 2s sensor lag -> 21.5% saving, 0 violations]; BUT shipped artifact's dynamic 0-violation count is tautological zero-margin-by-construction and headroom is exogenous [no ramp-heat->cold-head feedback]. Fixes: govern to alpha*hd with alpha<1; close loop with first-order cold-head thermal ODE + load line; model sensor lag/error. No rung-5 parameter-window claim until fixed)",
+      "G-NOVEL": "NARROW-NOVEL (genus 'bound coil energization/ramp to refrigerator cooling capacity or temperature signal' blocked by US6094333A [Sumitomo, US, expired: precomputed rated-capacity 'effective cooling curve' + threshold-trip real-time variant] and JP2000012326A [Toshiba, JP, expired: temperature-feedback excitation control within non-quench range]. Surviving species: live watt-domain headroom ESTIMATOR [lift from measured cold-head state vs characterized load line, minus present load] + per-cycle inversion of stored q(dI/dt) loss model. Provisional pending flagged follow-ups [no native CNIPA/J-PlatPat/KIPRIS pass, no structured CPC walk, Fujikura/Furukawa/SuperPower/Bruker/Siemens/MIT unpassed]. FTO distinct: blocking refs expired = no infringement risk; FSU/NHMFL US11094438/US11551840B2/WO2017193129A1 ACTIVE to 2037-05-08 [fixed-rate NI field-tracking feedback] -- counsel claim read mandatory before any NI field-tracking implementation)",
+      "G-CLAIM": "core: controller that each cycle (i) computes live power-unit headroom estimate from measured cryocooler state + stored load-line characterization, (ii) predicts ramp dissipation via stored AC+eddy loss model, (iii) solves max ramp rate keeping predicted dissipation <= alpha*headroom, alpha<1 -- estimator and inversion as positive limitations (rungs 1+2+3); dependents: NI-loss-model variant (avoid field-tracking inner loop for FTO) and rotating-frame variant (rung 4); rung-5 alpha/update-rate windows DEFERRED until revised sim provides criticality evidence; cost: surrenders temperature-banded/staged rate tables and precomputed-curve schemes (expired-art territory). Hall-sensing adjacency flagged and bounded: core senses temperature/power/compressor state only, keep magnetic-field sensing out of core claims",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-4/gates.md"
+    },
+    "CF-6": {
+      "G-PHYS": "REVISE (labeling compliant; qualitative CTE-mismatch-degrades-faster direction defensible; CF-1 tau<->Rc inversion does not infect CF-6's thermal-only path; BUT dT-rise identical at all 3 cooling budgets so the cryogen-free-specific hook is unsupported by the sim, the ~17x headline is an assumed input not a finding, and US11,282,624's measured pressure-cycling Rc DROP contradicts the universal monotonic-decay proxy -- fixes in gates.md)",
+      "G-NOVEL": "NARROW-NOVEL conditional (genus duplicated: US11,282,624 B2 [US, in force] engineered interlayer + thermal/mechanical cycling Rc data; T3-4 SMI dual Rc+thermal under conduction cooling; T3-6 MIT CTE-mismatch recognition + partial-depth design-around; survives only as interlayer whose CTE match / compliant contact-pressure maintenance is itself the engineered variable bounding BOTH Rc and thermal-conductance drift over cryocooler cycles; conditional on live KIPRIS/J-PlatPat/CNIPA verification of T2-4/T2-5/T2-6/T4-4 which could demote to DUPLICATED; US11,282,624 also FTO watch distinct from patentability)",
+      "G-CLAIM": "rung-1 combination independent claim with rung-3 measurable integrated-contraction tolerance + method-of-making claim; compliant-element (rung 2, also the US11,282,624 FTO design-around) and radial-CTE-grading (rung 4) dependents; rung-5 parameter windows BLOCKED pending G-PHYS revisions; cost: non-matched routes (partial-depth impregnation, bath cooling, active management) stay open to competitors. Cross-candidate: US5,260,266A flagged to W5 for CF-7",
+      "model_intended": "GATE:fable-5",
+      "model_served_verified": false,
+      "ts": "2026-07-10",
+      "record": "60_PRIOR_ART/CF-6/gates.md"
+    }
+  },
+  "notes": "Autonomous mode enabled (bypassPermissions scoped to folder + /autorun + RUN.sh/RUN.ps1). One command runs W0->W5 hands-off with auto-resume. CF-1 sim starter carries a known tau<->Rc coupling bug for G-PHYS to catch."
+}
