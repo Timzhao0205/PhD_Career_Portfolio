@@ -27,8 +27,8 @@
 # use this single file is the one to flash and the one to edit.
 
 # ========================== USER SETTINGS ==========================
-MODE = 2               # 1 = spin + scope DAQ  ;  2 = static bias p2/p4
-DEFAULT_FREQ = 40_000  # MODE 1 phase rate [Hz]  (nominal; ~290 Hz-1 MHz reachable)
+MODE = 1               # 1 = spin + scope DAQ  ;  2 = static bias p2/p4
+DEFAULT_FREQ = 20_000  # MODE 1 phase rate [Hz]  (nominal; ~290 Hz-1 MHz reachable)
 
 # MODE 1 timing granularity: each spin phase is emitted as this many PIO
 # clock cycles (a [delay] on the set instruction). Using >1 cycle/phase

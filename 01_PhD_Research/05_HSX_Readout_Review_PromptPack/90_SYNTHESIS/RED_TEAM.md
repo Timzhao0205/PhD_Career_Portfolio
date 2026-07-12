@@ -318,3 +318,16 @@ force-deflection bench test closes RT-17 and RT-23; one green-machined chamfer c
   `user_cad_measured/user_assembled_iso.png`; `70_PACKAGING/PACKAGING_REVIEW.md`;
   `50_FLANGE/FLANGE_SELECTION.md` + addendum; `01_MISSION/REFERENCE/PACKAGING_3D_ENVELOPE.md`;
   `01_MISSION/REFERENCE/PACKAGING_LCC02046.md`.
+
+---
+
+## Post-run note (2026-07-10, not a red-team pass)
+
+The flange pick this wave reviewed (9C2-275, referenced throughout §§ above, e.g. RT-01, RT-16,
+RT-19) was **superseded** by a user-directed follow-up: **Accu-Glass 19C-275** (single-shell
+MIL-C-26482, 2.75″ CF) is now GATE 2's primary — see `FLANGE_SELECTION.md` §9,
+`DECISION_GATES.md` GATE 2. This file's findings are **not re-derived** against the new pick;
+every finding above that cites the 9C2-275's dual-tower geometry (RT-01 envelope-vs-towers,
+RT-16 height ledger, RT-19 mounting features) should be read as applying to the **fallback** path
+only, until a fresh pass re-derives them for a single-shell connector. No new red-team wave has
+been run on this change.

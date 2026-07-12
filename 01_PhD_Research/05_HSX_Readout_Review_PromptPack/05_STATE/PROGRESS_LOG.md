@@ -65,3 +65,12 @@
   board arch C; 9C2-275 PO w/ 2 preconditions; Concept B freeze w/ RT-16/17/18 + RT-02 bond
   sub-gate). Acceptance checklist: 15/15 deliverables present; 19 PNG / 8 STL / 2 STEP.
   MISSION = COMPLETE. Awaiting user sign-off on the 3 gates.
+- 2026-07-10 (POST-RUN) — FLANGE RE-PICK: user asked about Accu-Glass 19C-275 (MIL-C-26482,
+  19-pin single shell, 2.75″ CF, $434 — a family ST5 hadn't checked). Verified specs beat the
+  9C2-275 on every axis (cheaper by $427 system-wide, +7 vs +6 spare pins, single shell removes
+  A/B mis-mate risk entirely). Promoted to GATE 2 primary at user's direction; 9C2-275 demoted to
+  fallback. Updated FLANGE_SELECTION.md (§9), DECISION_GATES.md (GATE 2 + GATE 3 cross-ref),
+  MASTER_STATE.json, RECOMMENDATIONS.md (Q5 + build order), and flagged the now-stale 9C2-275
+  dual-tower geometry assumptions in WIRING_PLAN.md, PACKAGING_3D_DESIGN.md, and RED_TEAM.md as
+  reconciliation debt (NOT re-derived this pass). New UNVERIFIED: 19C-275 contact AWG, single-
+  shell protrusion height — folded into the existing UW/Accu-Glass outreach.

@@ -96,3 +96,19 @@ follow-up patches without re-deriving the run.
   nuts) — defect is routing only. Proposed fixes: (a) 1 bolt/face + hook ledge (3 holes), or
   (b) corner-crown + 1 body-diagonal bolt (1 hole). Concept B CAD rev + RED_TEAM/DECISION_GATES
   update PENDING user go-ahead.
+- 2026-07-10 — POST-RUN, USER-DIRECTED FLANGE RE-PICK: user asked whether Accu-Glass 19C-275
+  (https://www.accuglassproducts.com/mil-c-26482/cf-feedthroughs/19c-275, MIL-C-26482 circular,
+  19-pin, single shell, 2.75″ CF, $434) was feasible — a family ST5 never checked (it only
+  searched Sub-D and Sub-C). Fetched product + family pages: confirmed same 2.75″ CF / 1.45″ ID /
+  500 VDC / 5 A per pin / −200…250 °C / 1×10⁻¹⁰ Torr as the prior pick, pre-terminated mating
+  cables exist (110230 vacuum, 110232 air), system cost ≈ $1,145 (vs. $1,572 for 9C2-275), +7
+  spare pins (vs. +6), and — critically — a single shell removes the A/B mis-mate risk the
+  9C2-275's twin shells required a dedicated FMEA/labeling plan to manage. User confirmed:
+  promote to primary. Updated `50_FLANGE/FLANGE_SELECTION.md` (§9 addendum + BLUF/§1/§2/§4/§5/§6/
+  §7/§8/Sources), `90_SYNTHESIS/DECISION_GATES.md` (GATE 2 + GATE 3 cross-ref), and
+  `05_STATE/MASTER_STATE.json`. Did NOT re-run ST6 (`WIRING_PLAN.md`) or ST8
+  (`PACKAGING_3D_DESIGN.md`) — both were built around the 9C2-275's dual-tower geometry (pin
+  grouping across two shells, A/B swap FMEA, 8.2 mm height ledger) and are flagged as
+  reconciliation debt in all three updated files, not silently left inconsistent. New UNVERIFIED
+  items: 19C-275 contact AWG rating, single-shell protrusion height — same class of open item as
+  the prior pick's tower-height gap, folded into the same UW/Accu-Glass outreach.

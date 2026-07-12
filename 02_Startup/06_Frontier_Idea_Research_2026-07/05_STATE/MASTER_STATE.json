@@ -1,0 +1,9 @@
+{
+  "mission": "IN_PROGRESS",
+  "phase": "P3",
+  "phases": {"P0":"complete","P1":"complete","P2":"complete","P3":"in_progress","P4":"pending","P5":"pending","P6":"pending","P7":"pending","P8":"pending"},
+  "counters": {"sources_reviewed":1125,"sources_accepted":860,"peer_reviewed":484,"primary_demand":200,"asia_sources":314,"local_language_asia":100,"longlist_ideas":0,"final_ideas":0,"deep_dives":0},
+  "last_checkpoint": "2026-07-12 P2 COMPLETE: validate_sources PASS (860 accepted, T1 71.4%) + Fable ATLAS.md adjudication PASS",
+  "next_action": "P3: idea-architect batches A(process L01/L06/L07/L11) B(infrastructure L02/L03/L08/L14) C(scientific L05/L12/L13) D(transport-space L09/L10/L15) dispatched; then batch W(wildcards L16+cross-lane); orchestrator dedupes to >=48 longlist across >=14 lanes, appends founder-fit note, writes 20_OPPORTUNITY_POOL/LONGLIST.md+.json",
+  "failures": []
+}

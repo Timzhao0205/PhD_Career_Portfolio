@@ -1,5 +1,14 @@
 # ST8 — 3D PROBE-HEAD PACKAGING DESIGN (Q8) — concepts, critique, visuals, decision
 
+> **STALE FLANGE ASSUMPTION — 2026-07-10 post-run note.** GATE 2's primary flange changed to the
+> single-shell **Accu-Glass 19C-275** after this document was written; see
+> `50_FLANGE/FLANGE_SELECTION.md` §9 and `DECISION_GATES.md` GATE 2 (+ its RT-16 note). The
+> height ledger and standoff budget below (8.2 mm cap, "two Sub-C towers") were computed against
+> the 9C2-275's **dual-tower** stack, which is now the *fallback*, not the primary. A single
+> 19C-275 shell needs its own protrusion-height number (UNVERIFIED, `FLANGE_SELECTION.md` §7)
+> before this ledger can be trusted for the geometry freeze — do not assume 8.2 mm carries over.
+> If GATE 2 falls back to the 9C2-275, this document applies as written.
+
 Designer: packaging-3d-designer · 2026-07-10 · effort HIGH · **DECISION_GATE item**
 CAD pipeline used: OpenSCAD 2021.01 (PNG + STL, all four concepts) + build123d 0.11.1
 (STEP import of the user's CAD; STEP export of Concepts B and D). Red-team pass pending.

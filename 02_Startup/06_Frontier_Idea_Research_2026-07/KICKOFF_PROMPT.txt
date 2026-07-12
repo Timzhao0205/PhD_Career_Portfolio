@@ -1,0 +1,10 @@
+Execute the complete frontier startup opportunity mission in this folder. Read CLAUDE.md first,
+then every file in 01_MISSION in the order specified by MISSION_BRIEF.md, then MASTER_STATE.json.
+Use the defined subagents and model/effort routes. Search, fetch, verify, and accept at least 600
+unique high-quality sources; an academic/technical source is ineligible unless peer review is
+affirmatively verified. Generate at least 48 diverse candidates and deliver a final portfolio of
+at least 24. Keep the founder profile shallow and never use it to select lanes. Never ask the user
+a question: log assumptions and continue. Checkpoint after every wave. Do not claim completion
+until tools/validate_mission.py passes, the Fable adjudicator fixes all substantive failures,
+99_AUDIT/FINAL_AUDIT.md says PASS, and MASTER_STATE.json says COMPLETE.
+

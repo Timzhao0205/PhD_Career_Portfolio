@@ -30,11 +30,14 @@
   "model_effort_policy": "see MODEL_EFFORT_POLICY.md; Fable 5 on ST1/ST3/ST5/ST7/ST8/red-team/synthesis",
   "decision_gates_open": [
     "GATE 1 - board architecture: approve Option C (replicate x3, side-by-side rack)",
-    "GATE 2 - feedthrough PO ~$1,572: 9C2-275 after (a) UW confirms 2.75in CF port, (b) Accu-Glass confirms Sub-C tower protrusion fits envelope (RT-01/RT-16)",
-    "GATE 3 - Concept B geometry freeze + ceramics PO after RT-16/17/18 fixes; bond-blocking sub-gate: LCC numbering + die orientation (RT-02)"
+    "GATE 2 (REVISED 2026-07-10) - feedthrough PO ~$1,145: 19C-275 (110210, single-shell MIL-C-26482, 2.75in CF) primary after (a) UW confirms 2.75in CF port, (b) Accu-Glass confirms 19C-275 contact AWG + single-shell protrusion fits envelope; fallback 9C2-275 (~$1,572) if (b) fails, then 15D-450/25D-450 if port changes to 4.5in",
+    "GATE 3 - Concept B geometry freeze + ceramics PO after RT-16/17/18 fixes; bond-blocking sub-gate: LCC numbering + die orientation (RT-02). NOTE: RT-16 height ledger (8.2mm standoff) was computed against the now-superseded dual-tower 9C2-275 and needs recompute for the 19C-275 single shell before freeze."
   ],
-  "assumptions_count": 33,
-  "next_action": "USER: sign off the 3 gates in 90_SYNTHESIS/DECISION_GATES.md; send UW email + Accu-Glass call; close DV gain anomaly on bench",
+  "assumptions_count": 34,
+  "post_run_updates": [
+    "2026-07-10 - user asked about Accu-Glass 19C-275 (MIL-C-26482, 19-pin, 2.75in CF, $434). Verified feasible and superior to prior GATE 2 pick (9C2-275): cheaper, one more spare pin, single shell removes A/B mis-mate risk entirely. Promoted to primary in FLANGE_SELECTION.md/DECISION_GATES.md/MASTER_STATE.json. OPEN RECONCILIATION DEBT: WIRING_PLAN.md (ST6 pin grouping + A/B swap FMEA) and PACKAGING_3D_DESIGN.md (ST8 height ledger/standoff) were built for the 9C2-275 dual-tower geometry and have NOT been rerun for the 19C-275 single shell."
+  ],
+  "next_action": "USER: sign off the 3 gates in 90_SYNTHESIS/DECISION_GATES.md; send UW email + Accu-Glass call (now also covering 19C-275 contact AWG + protrusion height); close DV gain anomaly on bench; reconcile WIRING_PLAN.md/PACKAGING_3D_DESIGN.md to the 19C-275 single-shell geometry before freezing GATE 3",
   "redteam_wave1": "complete: 0 BLOCKER, 2 MAJOR (RT-01 envelope-vs-towers gate; RT-02 LCC numbering + die orientation gates), 9 MINOR, 4 NOTE; pin-map chain consistent; carry ST4 400 pF threshold",
   "redteam_wave2": "complete: 0 BLOCKER, 3 MAJOR (RT-16 height ledger/tower gate; RT-17 preload tolerance chain; RT-18 rotation key), 5 MINOR, 4 NOTE; Concept B survives weakened",
   "completed": "2026-07-10 13:20"

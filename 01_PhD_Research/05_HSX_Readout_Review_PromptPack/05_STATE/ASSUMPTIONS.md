@@ -51,4 +51,15 @@ Run assumptions (2026-07-10):
   force 0.3–0.6 N + stiffness (EJ pending photo-etch prototype); A6 head ≤~200 °C (else fuzz
   buttons replace BeCu leafs); A7 LCC bottom-pad flat area confirm on physical part; A8 generic
   socket dims in concept C. UNVERIFIED: tower protrusion, BeCu relaxation limit, HSX in-vessel
-  temp at probe. [ST8]
+  temp at probe. [ST8] **Note (2026-07-10 post-run): A2 and the derived 8.2 mm height ledger
+  (RED_TEAM.md RT-16) were computed against the 9C2-275's dual-tower geometry, now the flange
+  alternate rather than primary (see below) — not yet recomputed for a single-shell connector.**
+- 2026-07-10 (POST-RUN) — A5 (flange, new): the Accu-Glass 19C-275's mating contacts (110230
+  pre-terminated cable, 110240 bare connector) are assumed to accept ≥24 AWG, consistent with the
+  MIL-C-26482 family's 5 A/pin rating. Medium confidence, purchase-blocking — same tier as the
+  original A1 port-size assumption. Also unconfirmed: the 19C-275's single-shell protrusion
+  height above the flange face (no dimension on the fetched pages). Both close the same way A1
+  does — one Accu-Glass call/email, folded into the existing UW-Madison outreach. Promoted the
+  19C-275 to GATE 2 primary on the strength of every *other* spec being verified-equal-or-better
+  than the prior pick (9C2-275) despite these two gaps, per the user's explicit go-ahead.
+  See `50_FLANGE/FLANGE_SELECTION.md` §9. [post-run, user-directed]

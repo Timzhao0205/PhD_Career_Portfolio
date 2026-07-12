@@ -1,8 +1,19 @@
 # ST6 — Multi-sensor wiring & short-circuit safety plan (Q6)
 
+> **STALE FLANGE PICK — 2026-07-10 post-run note.** GATE 2's primary flange changed to the
+> single-shell **Accu-Glass 19C-275** after this document was written; see
+> `50_FLANGE/FLANGE_SELECTION.md` §9 and `DECISION_GATES.md` GATE 2. Everything below (the
+> per-connector pin grouping across two shells, the A/B swap FMEA, the anti-swap labeling/keying
+> plan) was designed for the 9C2-275's **two-shell** geometry, which is now the *fallback*, not
+> the primary. If the 19C-275 clears its contact-AWG/protrusion check, this plan needs
+> reconciliation to a single-shell layout — likely a simplification (no A/B swap class of fault
+> to design against) but not yet done. If GATE 2 falls back to the 9C2-275, this document applies
+> as written.
+
 **Date:** 2026-07-10 · **Scope:** 3 sensors × 4 plate terminals = 12 signal conductors, probe
 head → LCC02046 carriers → in-vessel harness → **Accu-Glass 9C2-275 (P/N 100012)** feedthrough
-(ST5 primary pick) → air harness → 3× `hsx_2026_v2` boards (J1 DSUB-9 each).
+(ST5 primary pick **at time of writing — since superseded, see note above**) → air harness →
+3× `hsx_2026_v2` boards (J1 DSUB-9 each).
 **This answers the user's #1 worry: wiring and short circuits across 3 sensors.**
 Red-team pass pending per MISSION_BRIEF.
 

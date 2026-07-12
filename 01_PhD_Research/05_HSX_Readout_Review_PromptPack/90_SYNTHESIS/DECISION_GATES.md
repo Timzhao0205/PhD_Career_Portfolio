@@ -32,32 +32,53 @@ with insulating standoffs** (not a face-to-face stack). `30_3AXIS_ARCH/ARCHITECT
 
 ---
 
-## GATE 2 — Feedthrough purchase (~$1,572; hard to undo once the port is committed)
+## GATE 2 — Feedthrough purchase (~$1,145; hard to undo once the port is committed) — REVISED 2026-07-10
 
-**Recommendation: Accu-Glass 9C2-275, P/N 100012** (18-pin, 2× 9-pin Sub-C, **2.75″ CF** —
-keeps the existing port) + 2× 100040 vacuum-side PEEK/Kapton assemblies + 2× 100020 shielded
-air-side assemblies. `50_FLANGE/FLANGE_SELECTION.md` (+ its 2026-07-10 addendum).
+**Recommendation (revised): Accu-Glass 19C-275, P/N 110210** (19-pin, single-shell MIL-C-26482
+circular, **2.75″ CF** — keeps the existing port) + 110230 pre-terminated vacuum-side PEEK/Kapton
+assembly + 110232 shielded air-side assembly. `50_FLANGE/FLANGE_SELECTION.md` §9 (2026-07-10
+addendum) — supersedes the prior 9C2-275 recommendation below it in the same file.
 
-**Two preconditions — BOTH must clear before the PO (red-team RT-01/RT-16):**
+Found in a user follow-up: a third connector family (MIL-C-26482) also fits the existing 2.75″ CF
+port, in a **single shell** (19 pins vs. the 9C2-275's 18 split across two shells), for **$427
+less** system cost, with **one more spare pin**. The single shell removes the A/B mis-mate risk
+that the prior pick (9C2-275) needed a dedicated FMEA/labeling plan to manage — it doesn't
+mitigate that risk better, it has no such risk to mitigate.
+
+**Two preconditions — BOTH must clear before the PO:**
 1. **UW-Madison confirms the probe port is 2.75″ CF** (assumption A1 — one email: port size,
    whether a 4.5″ alternative exists, bakeout plan, in-vessel temperature at the probe, and
    whether the Ø31.75 mm envelope derives from the port bore).
-2. **Accu-Glass confirms the Sub-C tower protrusion height** above the vacuum-side flange face
-   (spec PDF unreadable this run; catalog gave 0.750″ tower centers but not height). ST8's
-   height ledger caps the probe-head standoff at **8.2 mm** with the mated 100040 connector
-   stack included; towers >~10–15 mm breach the Ø31.75×27.5 mm envelope by 1.8–6.8 mm →
-   **this one phone call gates BOTH the feedthrough PO and the Gate-3 ceramics PO.**
+2. **Accu-Glass confirms (a) the 110230/110240 contacts accept the harness's 24–26 AWG gauge and
+   (b) the 19C-275's single-shell protrusion height** above the vacuum-side flange face — neither
+   is stated on the fetched product pages. This single-shell height must still clear ST8's
+   probe-head standoff budget (prior ledger capped it at **8.2 mm** against the *dual-tower*
+   9C2-275 stack; a single shell is expected to need less, but the ST8 height ledger has **not
+   been rerun** for a single-shell geometry — do not assume it clears without doing so).
 
-- **Runner-up:** 15D-450 (single 15-pin Sub-D, **4.5″ CF**, system ≈ $952); if the port changes
-  anyway, 25D-450 (+$32, 13 spare pins for guards) is the better buy.
-- **Flip condition:** precondition 1 returns "4.5″ available/preferred," or precondition 2
-  returns a tower height the envelope can't absorb → runner-up.
-- Also note: connectors may be factory-unmarked A/B — `WIRING_PLAN.md`'s pin map is
-  swap-tolerant by construction, and adds labeling; no extra risk carried.
-- **Failure mode if wrong:** feedthrough arrives and either doesn't fit the port (precondition
-  1 skipped) or leaves no height for the probe head (precondition 2 skipped) — $1,572 + weeks.
+**Fallback order if precondition 2 fails for the 19C-275:**
+1. **Accu-Glass 9C2-275, P/N 100012** (18-pin, 2× 9-pin Sub-C, 2.75″ CF, system ≈ $1,572) — the
+   prior primary; its own precondition (Sub-C tower protrusion height, same unread spec PDF) is
+   still open and still needed if this fallback is used. `WIRING_PLAN.md`'s existing swap-tolerant
+   pin map and anti-swap labeling plan apply here, not to the 19C-275.
+2. **15D-450** (single 15-pin Sub-D, **4.5″ CF**, system ≈ $952) if UW-Madison confirms a 4.5″
+   port is available/preferred; 25D-450 (+$32, 13 spare pins for guards) is the better buy if the
+   port change happens anyway.
 
-**Sign-off: ☐ approve 9C2-275 PO after both preconditions ☐ switch to 15D-450/25D-450**
+- **Flip condition:** precondition 1 returns "4.5″ available/preferred" → 15D-450/25D-450,
+  regardless of the 2.75″-path outcome. Precondition 2 fails for the 19C-275 → 9C2-275 (whose own
+  protrusion precondition then re-applies).
+- **Reconciliation debt (new):** `WIRING_PLAN.md` (ST6, per-connector pin grouping + A/B swap
+  FMEA) and `PACKAGING_3D_DESIGN.md` (ST8, height ledger, standoff design) were both built around
+  the 9C2-275's dual-tower geometry and have **not** been re-derived for the 19C-275's single
+  shell. This is cheap-desk-fix scale work (no new CAD, mostly deletion of the swap-risk
+  machinery + a height-ledger substitution) but is not yet done — treat as open before the
+  19C-275 path is signed off as final, not just before the PO.
+- **Failure mode if wrong:** feedthrough arrives and either doesn't fit the port (precondition 1
+  skipped), can't take the harness gauge or leaves no height for the probe head (precondition 2
+  skipped) — $434–1,572 + weeks depending on which pick was ordered.
+
+**Sign-off: ☐ approve 19C-275 PO after both preconditions ☐ fall back to 9C2-275 ☐ switch to 15D-450/25D-450**
 
 ---
 
@@ -70,8 +91,11 @@ drop-in pockets, PEEK inserts with 4 gold-plated BeCu (no-Ni) leaf springs on LC
 Runner-up: **Concept D "TriPlate"** (same contact interface on 3 flat plates — cheaper to make).
 
 **Preconditions before the RFQ/PO (red-team wave 2 — all cheap desk fixes):**
-1. **RT-16:** height ledger updated with the mated-connector stack + the Gate-2 tower answer
-   (until then, standoff budget is 8.2 mm, not "~10 mm").
+1. **RT-16:** height ledger updated with the mated-connector stack + the Gate-2 protrusion answer
+   (until then, standoff budget is 8.2 mm, not "~10 mm"). **Note (2026-07-10): GATE 2's primary
+   pick changed to the single-shell 19C-275** (`FLANGE_SELECTION.md` §9) — the 8.2 mm figure was
+   computed against the old dual-tower 9C2-275 stack and has not been recomputed for a single
+   shell; recompute once the 19C-275 protrusion height is known, don't reuse 8.2 mm as-is.
 2. **RT-17:** preload tolerance chain computed end-to-end; worst-case ±0.3 mm stack-up exits
    the 0.2–0.5 mm spring working band → mandate the pocket-floor lapping step (or lengthen the
    spring finger) in the drawing package. Zirconia "±1 % as-sintered" had no vendor backing —
