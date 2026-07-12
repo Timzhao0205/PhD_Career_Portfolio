@@ -105,7 +105,7 @@ seeds were frozen; founder_fit_note sentences were appended afterward in the JSO
 
 ## C13 — 4 K FDM readout front-end module (cryo LNA + mux + cal) (L13)
 - Product: 4 K module: qualified cryo LNA + frequency-division mux banks (~1 mW/qubit class) + calibration tone injector; one coax carries 8–16 channels to RT RFSoC digitizers.
-- Buyer: DOE QIS centers ($625M explicitly includes scaling-chip components, L13-028); qubit builders at the 256→4,096 channel wall (L13-042); Singapore NQPI call (L13-036).
+- Buyer: DOE QIS centers ($625M explicitly includes scaling-chip components, L13-028); qubit builders at the 256→4,096 channel wall (L13-042); Taiwan ITRI/SEEQC manufacturing-line ecosystem (L13-039).
 - Pain: cryo I/O density and cooling-power budgets are the acknowledged scaling bottlenecks (L13-042; L13-013/021/023) yet labs build competing point solutions instead of buying products.
 - Mechanism: microwave FDM per SQUID/TES playbook (L13-008) + 28nm 1.08 mW/qubit readout ASIC result (L13-023) + few-K-noise cryo LNAs (L13-021, L13-013).
 - Incumbents miss: RT-control vendors monetize per-channel racks; cryo-ASIC know-how trapped in academia; fridge vendors sell cooling not electronics.
@@ -122,7 +122,7 @@ seeds were frozen; founder_fit_note sentences were appended afterward in the JSO
 
 ## C15 — Two-personality direct-RF control instrument: accelerator LLRF + qubit control (L13, sec L05)
 - Product: RFSoC-based instrument with qualified LLRF (sub-sampling IQ, L13-002) and qubit (QICK/QubiC-class, L13-001/025) personalities, WR-disciplined multi-crate coherence, published acceptance tests.
-- Buyer: Singapore NQPI control-electronics grant call (L13-036), DOE QIS centers (L13-028), KRISS-class scaling programs (L13-040), mid-tier accelerator facilities (L13-051); Keysight/AIST delivery proves top-end demand (L13-037).
+- Buyer: DOE QIS centers (L13-028), Taiwan ITRI/SEEQC manufacturing-line ecosystem (L13-039), Japan AIST-class programs, and mid-tier accelerator facilities; Keysight/AIST delivery proves top-end demand (L13-037).
 - Pain: same silicon (L13-045), divergent one-off gateware everywhere; DOE had to broker Fermilab–Qblox just to make QICK supportable (L13-032); flagship pricing opaque ($1–3M estimates, L13-046).
 - Incumbents miss: Keysight targets flagships; QM/Qblox/QuEL are qubit-only; LLRF is too small for them but adjacent for a two-personality platform (cross-lane standardization echo: L05-009).
 - Experiment ($160k): one platform passing qubit benchmarks AND <0.1%/0.1 deg cavity regulation; two paid pilots. Vision: the oscilloscope of coherent control.

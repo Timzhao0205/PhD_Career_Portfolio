@@ -24,7 +24,7 @@ HTS magnets, magnetic sensing, GaN power, or fusion diagnostics.
    and accepted sources first, write and freeze seed records, and only then append a one-sentence
    generic EE/CE transfer note. The orchestrator checks architect outputs for premature founder
    references and regenerates any batch that violates this.
-4. **Hard 5/100 cap.** Founder skill transfer is scored last, capped at 5 points, and can never
+4. **Hard 2/100 cap.** Founder skill transfer is scored last, capped at 2 points, and can never
    offset a failed hard gate (G1–G6). Selection at P5 will be checked for stability with founder
    fit set to zero: if zeroing fit changes which ideas enter the final 24, the affected ranks are
    re-adjudicated on the other 95 points and the check is recorded in `99_AUDIT`.

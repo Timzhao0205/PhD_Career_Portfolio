@@ -51,16 +51,19 @@ def main():
     demand = sum(s.get("demand_evidence_type") in primary_demand_types for s in accepted)
     gov = sum(s.get("source_type") in ("government","national_lab","standard","regulator") for s in accepted)
     industry = sum(s.get("source_type") in ("market_industry","vendor_datasheet","trade_press") for s in accepted)
-    asia = sum(any(g in (s.get("geography") or []) for g in ("CN","JP","KR","TW","IN","SG")) for s in accepted)
-    local = sum(any(g in (s.get("geography") or []) for g in ("CN","JP","KR","TW","IN")) and s.get("language") not in ("en","English",None,"") for s in accepted)
+    us = sum("US" in (s.get("geography") or []) for s in accepted)
+    china = sum("CN" in (s.get("geography") or []) for s in accepted)
+    side = sum(any(g in (s.get("geography") or []) for g in ("JP","TW","KR")) for s in accepted)
+    asia = sum(any(g in (s.get("geography") or []) for g in ("CN","JP","TW","KR")) for s in accepted)
+    local = sum(any(g in (s.get("geography") or []) for g in ("CN","JP","TW","KR")) and s.get("language") in ("zh","ja","ko","Chinese","Japanese","Korean") for s in accepted)
     t1 = sum(s.get("tier") == "T1" for s in accepted); t12 = sum(s.get("tier") in ("T1","T2") for s in accepted)
-    thresholds = [(n,600,"accepted"),(peer,360,"peer-reviewed"),(demand,120,"primary demand"),(gov,60,"government/standards"),(industry,60,"market/industry"),(asia,80,"Asia"),(local,40,"local-language Asia")]
+    thresholds = [(n,600,"accepted"),(peer,360,"peer-reviewed"),(demand,120,"primary demand"),(gov,60,"government/standards"),(industry,60,"market/industry"),(us,150,"United States"),(china,100,"China"),(side,40,"Japan/Taiwan/South Korea"),(asia,80,"China/Japan/Taiwan/South Korea"),(local,40,"Asian local-language target-market")]
     for val, req, label in thresholds:
         if val < req: errors.append(f"{label} {val} < {req}")
     if n and t1/n < .70: errors.append(f"T1 share {t1/n:.1%} < 70%")
     if n and t12/n < .90: errors.append(f"T1+T2 share {t12/n:.1%} < 90%")
     if errors: return fail(errors[:100])
-    print(f"SOURCE VALIDATION PASS reviewed={len(data)} accepted={n} peer={peer} demand={demand} gov={gov} industry={industry} asia={asia} local_asia={local} T1={t1}")
+    print(f"SOURCE VALIDATION PASS reviewed={len(data)} accepted={n} peer={peer} demand={demand} gov={gov} industry={industry} US={us} CN={china} side={side} asia={asia} local_asia={local} T1={t1}")
     return 0
 
 if __name__ == "__main__": sys.exit(main())

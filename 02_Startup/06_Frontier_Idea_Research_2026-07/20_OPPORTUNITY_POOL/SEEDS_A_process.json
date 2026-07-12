@@ -541,14 +541,13 @@
     "product_role": "capital_equipment",
     "primary_customer_archetype": "fab facilities/subfab engineering teams and subfab OEM channels",
     "named_buyer_examples": [
-      "Fabs in Samsung Pyeongtaek-class expansions (facility-capex context: KRW 22-31B water/UPW EPC packages; L07-046, L07-047)",
-      "Subfab OEM channels: Edwards (US CHIPS-funded manufacturing, L06-033), Ebara (launching fossil-fuel-free ELF plasma abatement for mass production 2026, L07-051)"
+      "Subfab OEM channels serving US, Chinese, Japanese, and Taiwanese fabs: Edwards (US CHIPS-funded manufacturing, L06-033) and Ebara (launching fossil-fuel-free ELF plasma abatement for mass production 2026, L07-051)"
     ],
     "painful_job": "Etch/CVD exhaust carries PFCs (CF4, NF3, SF6) with huge GWP; incumbent point-of-use abatement burns fuel gas and consumes city water - infrastructure new fabs increasingly do not want. Ebara's move to a fossil-fuel-free plasma abatement product entering mass production in 2026 (L07-051) validates electrified abatement demand, but the fluorine still leaves as wet HF waste; nobody closes the fluorine loop at the point of use.",
     "product": "Compact 2.45 GHz atmospheric microwave-plasma abatement unit for per-tool exhaust: >95% destruction efficiency on CF4/NF3/SF6 without fuel gas or scrubber water, staged dry Ca(OH)2 beds capturing fluorine as exchangeable CaF2 cartridges for reuse as fluorspar feedstock.",
     "frontier_vision": "Fluorine-loop management for the fab industry under PFAS-era scrutiny of F-gases - then battery, solar, and specialty-chemical fabs; abatement as a materials-recovery node, not a cost center.",
     "extreme_edge": "Point-of-use fluorine circularity: F-gas in, reusable synthetic fluorspar out, with no fuel, no water, and telemetry-verified destruction per tool.",
-    "demand_source_ids": ["L07-051", "L07-046", "L07-047", "L06-033"],
+    "demand_source_ids": ["L07-051", "L06-033"],
     "technical_source_ids": ["L01-016", "L01-105", "L07-051"],
     "competitor_source_ids": ["L07-051", "L06-033"],
     "first_experiment": "Benchtop 2.45 GHz atmospheric torch on dilute CF4/NF3 streams; FTIR-verified >=95% destruction efficiency, kWh/Nm3 benchmark vs. published burn-wet specs, and HF capture efficiency to CaF2 cartridge.",

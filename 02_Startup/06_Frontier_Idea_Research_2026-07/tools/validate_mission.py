@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-import csv, json, pathlib, subprocess, sys
+import csv, json, pathlib, re, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+BANNED_MARKET_PATTERN = re.compile(r"\b(India|Indian|Singapore)\b", re.I)
 
 def main():
     errors = []
     source_result = subprocess.run([sys.executable, str(ROOT/"tools"/"validate_sources.py")], capture_output=True, text=True)
     if source_result.returncode: errors.append("source validator failed: " + source_result.stdout.strip().replace("\n", " | "))
     required = [
-        "10_SOURCE_ATLAS/ATLAS.md", "20_OPPORTUNITY_POOL/LONGLIST.md",
+        "10_SOURCE_ATLAS/ATLAS.md", "20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.md",
+        "20_OPPORTUNITY_POOL/LONGLIST.md",
         "20_OPPORTUNITY_POOL/ideas.json", "30_SCREENING/SCORING_MATRIX.csv",
         "30_SCREENING/SELECTION.md", "50_GEOGRAPHY/GEOGRAPHY_BRIEF.md",
         "60_FINAL_PORTFOLIO/00_EXECUTIVE_PORTFOLIO.md", "60_FINAL_PORTFOLIO/01_IDEA_CARDS.md",
@@ -24,18 +26,39 @@ def main():
         if not list((ROOT/"10_SOURCE_ATLAS").glob(f"L{n:02d}_*.md")): errors.append(f"missing lane brief L{n:02d}")
     deep = list((ROOT/"40_DEEP_DIVES").glob("DD_*.md"))
     if len(deep) < 10: errors.append(f"deep dives {len(deep)} < 10")
+    p3r2_ids=set()
+    for p in (ROOT/"20_OPPORTUNITY_POOL").glob("P3R2_*.json"):
+        if "ADJUDICATION" in p.name.upper(): continue
+        try:
+            payload=json.loads(p.read_text(encoding="utf-8-sig"))
+            records=payload if isinstance(payload,list) else payload.get("ideas",payload.get("seeds",[]))
+            for i in records:
+                if isinstance(i,dict) and i.get("idea_id"): p3r2_ids.add(i["idea_id"])
+        except Exception as e: errors.append(f"invalid P3R2 seed file {p.name}: {e}")
+    if len(p3r2_ids)<80: errors.append(f"P3 round-2 unique seeds {len(p3r2_ids)} < 80")
     ideas_path=ROOT/"20_OPPORTUNITY_POOL"/"ideas.json"
     if ideas_path.exists():
         try:
             ideas=json.loads(ideas_path.read_text(encoding="utf-8-sig"))
             if len(ideas)<48: errors.append(f"longlist {len(ideas)} < 48")
+            if BANNED_MARKET_PATTERN.search(json.dumps(ideas, ensure_ascii=False)):
+                errors.append("longlist contains excluded-market references (India/Singapore)")
+            truthy={True,"true","1","yes","y"}
+            us=sum(i.get("us_beachhead") in truthy for i in ideas)
+            cn=sum(i.get("china_beachhead") in truthy for i in ideas)
+            dual=sum(i.get("us_beachhead") in truthy and i.get("china_beachhead") in truthy for i in ideas)
+            side=sum(i.get("primary_market") in ("JP","TW","KR") for i in ideas)
+            if us<36: errors.append(f"longlist credible US cases {us} < 36")
+            if cn<36: errors.append(f"longlist credible China cases {cn} < 36")
+            if dual<24: errors.append(f"longlist US+China dual-market cases {dual} < 24")
+            if side>8: errors.append(f"longlist side-market-primary cases {side} > 8")
         except Exception as e: errors.append(f"ideas.json invalid: {e}")
     matrix=ROOT/"60_FINAL_PORTFOLIO"/"02_COMPARISON_MATRIX.csv"
     if matrix.exists():
         try:
             with matrix.open(encoding="utf-8-sig",newline="") as f: rows=list(csv.DictReader(f))
             if len(rows)<24: errors.append(f"final ideas {len(rows)} < 24")
-            required_cols={"idea_id","rank","concept","primary_lane","sector_cluster","product_role","primary_customer_archetype","first_experiment_budget_usd","us_beachhead","asia_beachhead","score_total","confidence"}
+            required_cols={"idea_id","rank","concept","primary_lane","sector_cluster","product_role","primary_customer_archetype","primary_market","first_experiment_budget_usd","us_beachhead","china_beachhead","secondary_markets","asia_beachhead","score_total","confidence"}
             missing=required_cols-set(rows[0] if rows else [])
             if missing: errors.append(f"comparison CSV missing columns {sorted(missing)}")
             lanes={r.get("primary_lane","") for r in rows if r.get("primary_lane")}
@@ -58,8 +81,14 @@ def main():
             if archetypes["scientific_big_physics"]<4: errors.append(f"scientific ideas {archetypes['scientific_big_physics']} < 4")
             if archetypes["infrastructure_utility_transport"]<4: errors.append(f"infrastructure/transport ideas {archetypes['infrastructure_utility_transport']} < 4")
             truthy={"true","1","yes","y"}
-            if sum(r.get("us_beachhead","").lower() in truthy for r in rows)<12: errors.append("credible US beachheads < 12")
-            if sum(r.get("asia_beachhead","").lower() in truthy for r in rows)<12: errors.append("credible Asia beachheads < 12")
+            us_count=sum(r.get("us_beachhead","").lower() in truthy for r in rows)
+            cn_count=sum(r.get("china_beachhead","").lower() in truthy for r in rows)
+            dual_count=sum(r.get("us_beachhead","").lower() in truthy and r.get("china_beachhead","").lower() in truthy for r in rows)
+            side_primary=sum(r.get("primary_market","").upper() in ("JP","TW","KR") for r in rows)
+            if us_count<18: errors.append(f"credible US beachheads {us_count} < 18")
+            if cn_count<18: errors.append(f"credible China beachheads {cn_count} < 18")
+            if dual_count<12: errors.append(f"credible US+China dual beachheads {dual_count} < 12")
+            if side_primary>4: errors.append(f"side-market-primary final ideas {side_primary} > 4")
             ledger_path=ROOT/"90_BIBLIOGRAPHY"/"sources.json"
             if ledger_path.exists():
                 ledger=[s for s in json.loads(ledger_path.read_text(encoding="utf-8-sig")) if s.get("accepted")]
@@ -73,6 +102,10 @@ def main():
         except Exception as e: errors.append(f"comparison CSV invalid: {e}")
     final=ROOT/"99_AUDIT"/"FINAL_AUDIT.md"
     if final.exists() and "PASS" not in final.read_text(encoding="utf-8-sig"): errors.append("FINAL_AUDIT lacks PASS")
+    for rel in ("50_GEOGRAPHY/GEOGRAPHY_BRIEF.md","60_FINAL_PORTFOLIO/00_EXECUTIVE_PORTFOLIO.md","60_FINAL_PORTFOLIO/01_IDEA_CARDS.md","60_FINAL_PORTFOLIO/02_COMPARISON_MATRIX.csv","60_FINAL_PORTFOLIO/03_FRONTIER_MAP.md","60_FINAL_PORTFOLIO/04_VALIDATION_ROADMAP_2026_2030.md"):
+        p=ROOT/rel
+        if p.exists() and BANNED_MARKET_PATTERN.search(p.read_text(encoding="utf-8-sig")):
+            errors.append(f"{rel} contains excluded-market references")
     state=ROOT/"05_STATE"/"MASTER_STATE.json"
     try:
         s=json.loads(state.read_text(encoding="utf-8-sig"))

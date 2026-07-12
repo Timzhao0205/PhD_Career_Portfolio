@@ -3,17 +3,17 @@
 Architect: claude-fable-5 / xhigh. Date: 2026-07-12. 16 seeds (D01–D16); more than the 12 minimum
 so weak concepts can be discarded. All demand/technical/competitor claims cite accepted ledger IDs
 only (rejected IDs L09-010/025/036/052, L10-037/038/047/049, L15-032/036/044/046 deliberately not
-used). Binding cautions respected: no IMO-timing-dependent maritime seed (D11 rests on Singapore's
-national MPA mandate, not IMO); Space Force EP content treated as inference and flagged (D04);
+used). Binding cautions respected: D11 is based on demonstrated Chinese vessel swapping and current
+classification rules rather than uncertain IMO timing; Space Force EP content treated as inference and flagged (D04);
 mining trial-stage economics flagged where load-bearing (D06–D08).
 
 ## D01 — Modular rad-tolerant GaN PPU brick for small-sat electric propulsion (L09)
 - Product: 300–1,500 W GaN anode-discharge power brick (28–100 V in, 200–600 V out) with ignition
   sequencing, breathing-mode-tolerant control, and a parallelable current-share bus.
-- Buyer: EP integrators and small-sat OEMs — Busek, Furukawa/JAXA, ISRO ecosystem, Rocket Lab-class channels.
+- Buyer: EP integrators and small-sat OEMs — Busek, Furukawa/JAXA, Rocket Lab-class channels, and Chinese commercial-space EP integrators.
 - Pain/demand: PPU non-convergence and per-generation NRE (L09-001..008, L09-011); small-sat PPU
   cost/mass pain is the explicit premise of JAXA/Furukawa J-SPARC (L09-042); NASA paid $67M/$18.4M
-  for bespoke PPU chains (L09-034, L09-012, L09-043); ISRO life-testing its own SPT (L09-035).
+  for bespoke PPU chains (L09-034, L09-012, L09-043).
 - Mechanism: 500 kHz–1 MHz GaN full-bridge/LLC + planar magnetics; SET clamping (L09-108); heavy-ion
   derating (L09-103/104); ECSS-E-ST-20-20C / AIAA S-122 interfaces (L09-111, L09-115).
 - Incumbents miss: Aerojet/L3Harris in missile-first parent (L09-041); Moog bespoke; VPT/EPC sell
@@ -26,9 +26,9 @@ mining trial-stage economics flagged where load-bearing (D06–D08).
 ## D02 — Hall-thruster electrical emulator (PHIL discharge load) (L09)
 - Product: 600 V/2 kW (parallelable to 20 kW) power-HIL load reproducing ignition inrush,
   negative-resistance V-I, breathing-mode spectra, and fault modes for PPU qualification without vacuum time.
-- Buyer: PPU/thruster developers and labs — Mitsubishi Electric, Busek, ISRO, NASA Glenn-class facilities.
+- Buyer: PPU/thruster developers and labs — Mitsubishi Electric, Busek, NASA Glenn-class facilities, CAST-adjacent groups, and Taiwanese space-electronics test groups.
 - Pain/demand: worldwide non-converged PPU programs each pay coupled vacuum-test cost (L09-001/002);
-  ISRO 1,000-h campaign (L09-035); NEXT-C built prototype PPU first (L09-012); JAXA/Furukawa (L09-042).
+  NEXT-C built prototype PPU first (L09-012); JAXA/Furukawa commercialization (L09-042).
 - Mechanism: >1 MHz-bandwidth bidirectional stage driven by FPGA 0-D discharge model built from
   published dynamics (L09-004/005/006, L09-008) incl. end-of-life signatures (L09-109, L09-110).
 - Incumbents miss: market too small for test majors; discharge models are thruster-house IP; skills span orgs.
@@ -162,22 +162,22 @@ mining trial-stage economics flagged where load-bearing (D06–D08).
 - Substitutes: new E-Hybrid cranes (L10-041); lane busbar electrification; CATL-OEM offerings (L10-036).
 - Uncertainty: grant administration politics; per-site variance vs kit margins. Confidence: medium.
 
-## D11 — TR136-compliant swappable harbour-craft battery module, Singapore (L10)
+## D11 — Standardized swappable battery module for Chinese inland/coastal workboats (L10)
 - Product: crane-handled ~250 kWh LFP swap module (blind-mate HV connector, runaway containment,
   coded keying) + quayside charge-and-swap cabinet serving 4–6 craft.
-- Buyer: Singapore harbour-craft operators and yards under MPA's firm 2030 all-electric new-build mandate.
-- Pain/demand: TR136 published Mar 2025 with mandate from 2030 — under five years of runway (L10-055);
-  swap proven at vessel scale in China (L10-040); class rules in force (L10-045). National mandate,
-  not IMO timing — compliant with the binding caution.
+- Buyer: Chinese inland-waterway operators, workboat yards, and port/canal charging-infrastructure operators.
+- Pain/demand: vessel-scale 15-minute swap operation is demonstrated in China (L10-040), and battery-ship
+  classification rules are in force (L10-045), but fragmented small craft lack an interoperable module interface.
 - Mechanism: IP67 module per swap-standard practice (L10-046); vent channeling/mist suppression for
   runaway; 0.5C cabinet recharge decouples turnaround from charge time (as in L10-040).
-- Incumbents miss: CATL-scale players chase big vessels/fleets (L10-036); segment too fragmented for
-  majors, too capital-heavy for local yards; TR136 too new for compliant incumbents.
-- Experiment: module + cabinet prototype, TR136 gap analysis with certifier, 100 swap cycles +
+- Incumbents miss: CATL-scale players chase big vessels/fleets (L10-036); fragmented small workboats
+  need open interfaces and multi-yard service economics that vertically integrated majors resist.
+- Experiment: module + cabinet prototype, China Classification Society gap analysis, 100 swap cycles +
   containment test — $180k.
-- Vision: SEA small-vessel swap standard; autonomous craft at unmanned pontoons at the edge.
-- Substitutes: fixed DC charging; the B100 compliance path (L10-055); adapted Chinese systems (L10-040).
-- Uncertainty: new-build-only mandate = slow fleet turnover; MPA execution; B100 leakage. Confidence: low.
+- Vision: Chinese inland/coastal small-vessel swap standard; autonomous craft at unmanned pontoons at the edge.
+- Substitutes: fixed DC charging; proprietary vertically integrated packs; ad hoc non-interoperable systems (L10-040).
+- Uncertainty: domestic ecosystems may favor proprietary interfaces; port-by-port ownership and classification
+  acceptance could fragment the standard. Confidence: low.
 
 ## D12 — 225 C IC obsolescence-bridge chipset on merchant SOI (L15)
 - Product: pin/function-compatible replacements for the discontinued CISSOID CHT / Honeywell 225 C

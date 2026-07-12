@@ -12,15 +12,18 @@ pd_types = {"buyer_tender", "buyer_specification", "procurement_award", "company
 demand = sum(s.get("demand_evidence_type") in pd_types for s in acc)
 gov = sum(s.get("source_type") in ("government", "national_lab", "standard", "regulator") for s in acc)
 industry = sum(s.get("source_type") in ("market_industry", "vendor_datasheet", "trade_press") for s in acc)
-asia = sum(any(g in (s.get("geography") or []) for g in ("CN", "JP", "KR", "TW", "IN", "SG")) for s in acc)
-local = sum(any(g in (s.get("geography") or []) for g in ("CN", "JP", "KR", "TW", "IN")) and s.get("language") not in ("en", "English", None, "") for s in acc)
+us = sum("US" in (s.get("geography") or []) for s in acc)
+china = sum("CN" in (s.get("geography") or []) for s in acc)
+side = sum(any(g in (s.get("geography") or []) for g in ("JP", "TW", "KR")) for s in acc)
+asia = sum(any(g in (s.get("geography") or []) for g in ("CN", "JP", "TW", "KR")) for s in acc)
+local = sum(any(g in (s.get("geography") or []) for g in ("CN", "JP", "TW", "KR")) and s.get("language") in ("zh", "ja", "ko", "Chinese", "Japanese", "Korean") for s in acc)
 t1 = sum(s.get("tier") == "T1" for s in acc)
 t12 = sum(s.get("tier") in ("T1", "T2") for s in acc)
 lanes = {}
 for s in acc:
     for l in s.get("lane_ids") or []:
         lanes[l] = lanes.get(l, 0) + 1
-print(f"reviewed={len(data)} accepted={n} peer={peer}/360 demand={demand}/120 gov={gov}/60 industry={industry}/60 asia={asia}/80 local={local}/40")
+print(f"reviewed={len(data)} accepted={n} peer={peer}/360 demand={demand}/120 gov={gov}/60 industry={industry}/60 US={us}/150 CN={china}/100 JP_TW_KR={side}/40 Asia={asia}/80 local_asia={local}/40")
 if n:
     print(f"T1={t1} ({t1/n:.1%} vs 70%) T1+T2={t12} ({t12/n:.1%} vs 90%)")
 print("per-lane accepted:", dict(sorted(lanes.items())))

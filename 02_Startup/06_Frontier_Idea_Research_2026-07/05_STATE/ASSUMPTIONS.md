@@ -3,12 +3,23 @@
 - “Reachable budget” starts with a decisive experiment of $25k–$250k and prefers a first sellable
   product before $5M cumulative outside capital. Ideas outside this range may survive only with a
   clearly smaller component/subsystem wedge.
-- Major Asian markets include China, Japan, South Korea, Taiwan, India, and Singapore; relevance
-  varies by lane and must be evidence-based.
+- Initial geography assumption included China, Japan, South Korea, Taiwan, India, and Singapore;
+  this was superseded by the user's 2026-07-12 directive recorded below.
 - The target company-formation horizon is approximately 2029–2030, consistent with prior work,
   but existing demand is preferred over forecasts.
 
 Agents append dated assumptions below. Never edit away earlier entries.
+
+- 2026-07-12 (user-directed scope patch, supersedes the initial geography assumption): target
+  markets are only the United States, China, Japan, and Taiwan. India, South Korea, and Singapore
+  are excluded from market analysis, buyer examples, market sizing, beachheads, entry routes, and
+  final recommendations. Existing publications from those countries may remain only as technical
+  evidence and do not count toward target-market quotas.
+
+- 2026-07-12 (latest user directive, supersedes the immediately preceding scope patch): weight the
+  United States and China much more heavily. Japan, Taiwan, and South Korea are optional small side
+  markets. India and Singapore remain excluded. P3 may be regenerated, so existing SEEDS_A-D are
+  preserved as drafts but cannot be directly promoted. Founder fit is reduced from 5% to 2%.
 
 - 2026-07-12 (P0, orchestrator): MISSION_BRIEF does not name a location for the anti-anchoring
   plan; conservatively placed at `05_STATE/ANTI_ANCHORING_PLAN.md`.
@@ -48,5 +59,3 @@ Agents append dated assumptions below. Never edit away earlier entries.
   locator), and (c) peer_review_evidence_url points to the publisher record, Crossref record, or
   venue peer-review policy supporting final peer-reviewed publication. Records failing all
   fetch routes are rejected as inaccessible and do not count toward 600.
-
-

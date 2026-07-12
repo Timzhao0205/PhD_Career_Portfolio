@@ -5,15 +5,15 @@ Score each criterion 0–5, then multiply by its weight/5. Cite evidence for eve
 | Criterion | Weight | Question |
 |---|---:|---|
 | Demonstrated demand | 18 | Are named buyers spending, tendering, piloting, or under a forced deadline? |
-| Frontier/coolness and vision | 15 | Is the technical leap genuinely exciting with a large expansion narrative? |
-| High-end niche quality | 12 | Is the beachhead narrow, valuable, reachable, and underserved? |
-| Competition whitespace | 11 | Are incumbents few/slow/misaligned, with a defendable wedge? |
-| Reachable validation budget | 11 | Can the key risk be tested for $25k–$250k and a sellable v1 plausibly reached before $5M cumulative capital? |
-| Technical elegance/controllability | 9 | Is the system measurable, modellable, testable, and engineerable in bounded steps? |
+| Frontier/coolness and vision | 17 | Is the technical leap genuinely exciting with a large expansion narrative? |
+| High-end niche quality | 11 | Is the beachhead narrow, valuable, reachable, and underserved? |
+| Competition whitespace | 10 | Are incumbents few/slow/misaligned, with a defendable wedge? |
+| Reachable validation budget | 10 | Can the key risk be tested for $25k–$250k and a sellable v1 plausibly reached before $5M cumulative capital? |
+| Technical elegance/controllability | 11 | Is the system measurable, modellable, testable, and engineerable in bounded steps? |
 | 10x technical edge | 7 | Is there a credible order-of-magnitude edge on a customer-valued dimension? |
-| US + major-Asia opportunity | 6 | Are there independent buyers/partners in both regions? |
-| Expansion economics | 6 | Can the niche become a platform or adjacent product family? |
-| Founder skill transfer | 5 | Do generic EE/CE skills shorten learning/build time? |
+| US–China dual-market leverage | 10 | Is there a credible independent beachhead in the US, China, or ideally both, supported country by country? |
+| Expansion economics | 4 | Can the niche become a platform or adjacent product family? |
+| Founder skill transfer | 2 | Do generic EE/CE skills shorten learning/build time? |
 
 Hard gates before scoring:
 
@@ -34,6 +34,7 @@ Portfolio diversity gates for the final 24:
 - at least 8 ideas with a <$100k decisive first experiment;
 - at least 8 primarily sold to industrial customers, 4 to scientific/big-physics customers, and
   4 to infrastructure/utility/transport customers;
-- at least 12 have credible US beachheads and at least 12 have credible major-Asia beachheads
-  (an idea may count for both).
-
+- at least 18 have credible US beachheads, at least 18 have credible China beachheads, and at
+  least 12 have both (an idea may count in all three);
+- no more than 4 may rely primarily on Japan, Taiwan, or South Korea; those markets may otherwise
+  appear as optional expansion routes. India and Singapore must not appear as markets.

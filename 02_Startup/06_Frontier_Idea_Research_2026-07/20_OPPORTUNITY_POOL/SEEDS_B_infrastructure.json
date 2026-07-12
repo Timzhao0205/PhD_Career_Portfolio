@@ -237,7 +237,7 @@
     "technical_mechanism": "Capacitor health is observable without extra sensors: switching-ripple voltage/current already measured for balancing control encodes ESR and capacitance, extracted by synchronized-demodulation estimators; IGBT Vce(on) trending (temperature-compensated) flags bond-wire fatigue (same physics as L02-010 capacitor-failure and L08-024 fault-tolerance literature); the bypass path uses a fast thyristor crowbar that seals in before the mechanical contactor latches.",
     "why_incumbents_miss": "Valve OEMs treat monitoring as an internal feature and disclose nothing (pricing/design opacity, L08-034 vs L08-029 asymmetry); their incentive is selling spare submodules and service contracts, not third-party prognostics; asset owners (Adani, POWERGRID) are newly large enough to demand vendor-independent fleet visibility.",
     "nearest_substitutes": "OEM-internal submodule monitoring inside GE/Hitachi valves (L08-052); scheduled preventive replacement; redundancy margin (extra submodules per arm) - all blunt instruments that do not localize incipient failure.",
-    "uncertainty": "Access: retrofitting third-party hardware into warranted valve halls needs OEM or owner sponsorship; the beachhead may have to be new-build design-in with one mid-tier valve vendor (e.g., Korean localization entrants) rather than the big three."
+    "uncertainty": "Access: retrofitting third-party hardware into warranted valve halls needs OEM or owner sponsorship; the beachhead may have to be new-build design-in with one mid-tier Chinese or Taiwanese valve/integration partner rather than the big three."
   },
   {
     "idea_id": "B09",
@@ -397,12 +397,12 @@
     "sector_cluster": "datacenter_liquid_cooling",
     "product_role": "infrastructure",
     "primary_customer_archetype": "industrial",
-    "named_buyer_examples": ["Server ODMs building to Google's Project Deschutes CDU ecosystem (Boyd, Delta, Envicool, Nidec, nVent, Vertiv)", "hyperscalers via OCP", "Singapore DC-CFA2 build-outs (PUE<=1.25 gate)"],
+    "named_buyer_examples": ["Server ODMs building to Google's Project Deschutes CDU ecosystem (Boyd, Delta, Envicool, Nidec, nVent, Vertiv)", "US hyperscalers via OCP", "Taiwanese server ODM and thermal-solution channels"],
     "painful_job": "Accelerator TDP is heading to 3-5kW with local heat flux of 800-1000W/cm2 (L14-010), beyond single-phase cold-plate comfort; simultaneously the two-phase field's fluid base collapsed (2025 literature still validates on Novec even as the family is discontinued, L14-022) while AIM Act HFC phasedown (L14-033) and EU F-gas 2024/573 (L14-034) squeeze from the refrigerant side - vendors and operators bear fluid-requalification risk on every roadmap.",
     "product": "A hermetic pumped two-phase loop: micro-gear/membrane pump, manifold-microchannel flow-boiling evaporator cold plate (design base L14-008, L14-009), rack-side brazed condenser rejecting to facility water per Deschutes interfaces - engineered from day one around a dual-fluid strategy: (1) low-pressure HCFO (R-1233zd(E)-class, nonflammable A1, low-GWP, the same class ITRI validated at 2.4kW, L14-053) as the qualification fluid, and (2) an intrinsically-safe micro-charge hydrocarbon variant (R-600a, <150g per sealed loop, distributed loops per shelf) as the PFAS-free endgame if EU TFA scrutiny reaches HCFOs.",
     "frontier_vision": "The thermal architecture for the 5kW-chip era: sealed two-phase loops per shelf replace single-phase water at the chip while coexisting with existing CDU/facility water - scaling from GPUs to power electronics (L02 SiC shelves) and edge sites where water chemistry is unmanageable.",
     "extreme_edge": "0.02 K/W-class junction-to-fluid resistance at 4kW with 250W/cm2 hotspot capability and a regulatory-proof fluid roadmap - performance two-phase competitors claim, minus the discontinued-fluid dependency most of them still carry.",
-    "demand_source_ids": ["L14-048", "L14-046", "L14-043", "L14-053", "L14-037"],
+    "demand_source_ids": ["L14-048", "L14-046", "L14-043", "L14-053"],
     "technical_source_ids": ["L14-009", "L14-010", "L14-008", "L14-001", "L14-002", "L14-033", "L14-034"],
     "competitor_source_ids": ["L14-046", "L14-045", "L14-051", "L14-053"],
     "first_experiment": "3.5kW thermal test vehicle (heater die emulating GB200-class footprint with 250W/cm2 hotspots): demonstrate stable flow boiling without dry-out across 20-100% load steps on R-1233zd(E), then repeat on a <150g R-600a sealed loop with flammability containment per IEC 60335-2-40 charge-limit logic; publish resistance and pumping-power curves vs single-phase water baseline.",

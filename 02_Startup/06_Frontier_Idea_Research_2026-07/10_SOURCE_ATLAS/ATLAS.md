@@ -5,7 +5,10 @@ Date: 2026-07-12. Inputs: all 16 lane briefs (`L01`–`L16`, including T1 top-up
 canonical ledger (`90_BIBLIOGRAPHY/sources.json`, 1,125 reviewed / 860 accepted), the stratified
 80-record sample (`05_STATE/P2_SAMPLE_80.json`, 5 records x 16 lanes, seeded 20260712), and the
 validator output (`SOURCE VALIDATION PASS reviewed=1125 accepted=860 peer=484 demand=200 gov=141
-industry=142 asia=314 local_asia=100 T1=614`).
+industry=142 T1=614`). After the P2 adjudication, the user narrowed the target markets to the US,
+China, Japan, and Taiwan. Under the revised market-only count, China/Japan/Taiwan coverage is
+228/80 and Chinese/Japanese-language coverage is 79/40. Other-country publications remain only as
+technical evidence and must not drive P3–P8 market selection.
 
 ## 1. Verdict
 
@@ -54,21 +57,21 @@ demand-bridge argument.
 | Lane | Demand | Anchor evidence | Enthusiasm zones / cautions |
 |---|---|---|---|
 | L01 plasma | MODERATE–STRONG | PyroGenesis $27M+$4.1M DoD torch + $2.25M PFAS delivered; ASIPP/AVIC tenders; Nitricity sold out to 2028 | Plasma gasification (documented failure graveyard); VOC abatement (no named buyer); N2/CO2 plasma chemistry pre-industrial |
-| L02 power electronics | STRONG | NVIDIA 800VDC ecosystem + OCP Mount Diablo (Google/Meta/Microsoft); Navitas 8-K; Wolfspeed earnings; Singapore DC-CFA2; SAM.gov converter tender | Design-in lists ≠ booked orders (Innoscience "no substantive orders"); MV SST 10+ yrs funded, still standards-blocked |
-| L03 superconducting | MODERATE | ITER/US-ITER completed procurements; DOE $415M fusion program; CFS magnet sales (Realta, WHAM); Furukawa–Tokamak Energy supply deal; KEPCO/LS datacenter-grid MOU | "Fully commercial" HTS cables are single state-directed installations; no repeat third-party orders shown; rotating-machine HTS dormant since 2007 |
-| L04 heat-to-power | STRONG | Fervo 1.75 GW Turboden order + $421M project debt; Google EGS offtake; Strathcona/Proman/SCG purchases; TerraPower BOP awards; CNNC 30 MW commercial sCO2; DOE LPO $1.76B A-CAES | sCO2 still demo-stage in US/KR; TPV cost claims vendor-only; single-source China retrofit TAM |
+| L02 power electronics | STRONG | NVIDIA 800VDC ecosystem + OCP Mount Diablo (Google/Meta/Microsoft); Navitas 8-K; Wolfspeed earnings; SAM.gov converter tender | Design-in lists ≠ booked orders (Innoscience "no substantive orders"); MV SST 10+ yrs funded, still standards-blocked |
+| L03 superconducting | MODERATE | ITER/US-ITER completed procurements; DOE $415M fusion program; CFS magnet sales (Realta, WHAM); Furukawa–Tokamak Energy supply deal | "Fully commercial" HTS cables are single state-directed installations; no repeat third-party orders shown; rotating-machine HTS dormant since 2007 |
+| L04 heat-to-power | STRONG | Fervo 1.75 GW Turboden order + $421M project debt; Google EGS offtake; Strathcona/Proman/SCG purchases; TerraPower BOP awards; CNNC 30 MW commercial sCO2; DOE LPO $1.76B A-CAES | sCO2 still demo-stage in the US; TPV cost claims vendor-only; single-source China retrofit TAM |
 | L05 pulsed power/RF/beam | MODERATE–STRONG | Varex $845M (+25% cargo segment); Comet CHF445M; CGN Dasheng RMB340M H1 orders; Thales EUR20M ITER gyrotrons; Jema/ESS modulators; IBA SteriLab contract | IBA/L3 backlog claim trade-sourced; klystron-efficiency gap (90% sim vs 78.5% hw) is open R&D, not product |
 | L06 semicon subsystems | STRONG | Advanced Energy $840M semi segment + new-platform ramp; Hengyunchang IPO (RMB1.5B) & Injet orders; AMEC +45% revenue; CHIPS $18M Edwards award; Wolfspeed/Axcelis shipment | China component localization (<12%) narrative runs ahead of reality; subfab power-quality "statistics" untraceable — excluded, keep excluded |
-| L07 vacuum/ultraclean | STRONG | ITER live tenders/awards; Samsung/DB HiTek ~KRW31B UPW EPC; Ebara–TSMC JDA; Ichor $947.7M (76% two customers); ULVAC ¥521B orders | Incumbent-dominated; dilution-fridge cooling power is a research frontier; 2x TAM disagreement |
+| L07 vacuum/ultraclean | STRONG | ITER live tenders/awards; Ebara–TSMC JDA; Ichor $947.7M (76% two customers); ULVAC ¥521B orders | Incumbent-dominated; dilution-fridge cooling power is a research frontier; 2x TAM disagreement |
 | L08 DC grids/protection | STRONG | POWERGRID ~$2.9B tender; Adani→GE Vernova & Hitachi/BHEL awards; GE Vernova ~$10B HVDC backlog + $2.4B/qtr datacenter orders; State Grid RMB1.275B tender; NKT ~EUR2B; Prysmian ~EUR850M | Grid-forming lost NESO Round 2 outright — pipeline share ≠ awarded contracts; DC breakers still a "showstopper"; standards lag |
-| L09 space power/EP | MODERATE | NASA $67M AEPS + $18.4M NEXT-C; Gateway PPE named chain; NASA SBIR awards ($850K/$900K); ISRO 1,000-hr SPT test; JAXA/Furukawa commercialization | Space Force $905M/$3.5B programs don't confirm EP content; China EP procurement opaque; consultancy TAMs differ 60% |
+| L09 space power/EP | MODERATE | NASA $67M AEPS + $18.4M NEXT-C; Gateway PPE named chain; NASA SBIR awards ($850K/$900K); JAXA/Furukawa commercialization | Space Force $905M/$3.5B programs don't confirm EP content; China EP procurement opaque; consultancy TAMs differ 60% |
 | L10 heavy electrification | MODERATE–STRONG | Fortescue 300–400 truck orders + 6 MW charger; UP/Vale Wabtec orders; EPA ~$3B Clean Ports awards; YILPORT 53 cranes; Chinese SOE tenders | Regulatory demand is fragile: CARB repeal, IMO adoption slip to ≥2028; three incompatible charging architectures; trials ≠ multi-year fleet economics |
-| L11 electrochemical/H2 | WEAK–MODERATE (electrolyzers) / STRONG (niches) | KPX clean-H2 auction; NEOM >2 GW award; Sinopec/China Energy tenders; Plug $187M electrolyzer revenue; Japan CfD winners | **Core finding: Western OEM order books are shrinking while subsidies grow; Chinese capacity ~2x demand.** Real niches: rectifier quality (13–14% energy lever), battery formation/cycling equipment (decoupled from H2 cycle). Seawater/CO2 electrolysis = lab-stage |
-| L12 photonics/lasers | STRONG (defense-led) | JLWS $86M/$847M ceiling awards (nLIGHT, LM Aculight); nLIGHT A&D revenue $175.3M; NNSA EYC CD-1 + $26M; DARPA AMPED/POWER; DRDO trials; TRUMPF/IPG/Coherent filings | China industrial-laser price war: Han's high-power revenue −6.6% on +30% units; share data 2021-vintage; CPO thermal unsettled |
-| L13 quantum/big-science | MODERATE–STRONG | DOE $625M QIS centers; Fermilab–Qblox QICK LOI; Keysight→AIST delivery; Singapore S$300M w/ control-electronics call; SEEQC–ITRI line; ITER I&C tenders | Buyer base is governments+labs; China "100% localization" claim unverified against two primary pages; pricing fully opaque |
-| L14 extreme thermal | STRONG (strongest in atlas) | Vertiv $15B backlog, +50% liquid-cooling orders; Google/Meta OCP specs adopted by 7+ vendors; M&A wave (Flex/JetCool, Schneider/Motivair, Trane/LiquidStack, ZutaCore $100M C); COOLERCHIPS $40M named awards; Singapore DC-CFA2 PUE≤1.25 gate; GS Caltex named customers; ITRI 2.4 kW cold plate | China "100% liquid-cooling mandate" is NOT in the primary text — verified contradiction; GB200 TDP/flow specs inconsistent; TAMs differ ~2x; PFAS/Novec fluid supply shock is both risk and opening |
+| L11 electrochemical/H2 | WEAK–MODERATE (electrolyzers) / STRONG (niches) | NEOM >2 GW award; Sinopec/China Energy tenders; Plug $187M electrolyzer revenue; Japan CfD winners | **Core finding: Western OEM order books are shrinking while subsidies grow; Chinese capacity ~2x demand.** Real niches: rectifier quality (13–14% energy lever), battery formation/cycling equipment (decoupled from H2 cycle). Seawater/CO2 electrolysis = lab-stage |
+| L12 photonics/lasers | STRONG (defense-led) | JLWS $86M/$847M ceiling awards (nLIGHT, LM Aculight); nLIGHT A&D revenue $175.3M; NNSA EYC CD-1 + $26M; DARPA AMPED/POWER; TRUMPF/IPG/Coherent filings | China industrial-laser price war: Han's high-power revenue −6.6% on +30% units; share data 2021-vintage; CPO thermal unsettled |
+| L13 quantum/big-science | MODERATE–STRONG | DOE $625M QIS centers; Fermilab–Qblox QICK LOI; Keysight→AIST delivery; SEEQC–ITRI line; ITER I&C tenders | Buyer base is governments+labs; China "100% localization" claim unverified against two primary pages; pricing fully opaque |
+| L14 extreme thermal | STRONG (strongest in atlas) | Vertiv $15B backlog, +50% liquid-cooling orders; Google/Meta OCP specs adopted by 7+ vendors; M&A wave (Flex/JetCool, Schneider/Motivair, Trane/LiquidStack, ZutaCore $100M C); COOLERCHIPS $40M named awards; GS Caltex named customers; ITRI 2.4 kW cold plate | China "100% liquid-cooling mandate" is NOT in the primary text — verified contradiction; GB200 TDP/flow specs inconsistent; TAMs differ ~2x; PFAS/Novec fluid supply shock is both risk and opening |
 | L15 harsh-env electronics | MODERATE–STRONG | DARPA THERMAL; FORGE $49M+$44M named awards; ARPA-E SUPERHOT $30M; NASA HOTTech; Baker Hughes $2.0B New Energy orders + 300 MW ORC contract; SLB–Ormat EGS pilot; Cat/Rio Tinto autonomous fleet | 250 °C+ electronics: 20 years of programs, no converged platform; CISSOID CHT obsolete + Honeywell exit = live supply gap with existing buyers; 40% TAM disagreement |
-| L16 wildcards | MODERATE (two clusters real) | Guangqi RMB516M orders (~RMB2.6B 2025 cum.); Jiaocheng/CATL/BYD ultrasonic welding; Piller flywheel for 400 MW AI datacenter; Army Ka-band metamaterial SBIR; KRISS→KER transfer; Honda→Enedym | EHD, acoustic levitation/sonochemistry, EM launch, electro/magnetocaloric cooling: strong physics, explicitly no industrial-scale deployment — enthusiasm zones by the lane's own honest account |
+| L16 wildcards | MODERATE (two clusters real) | Guangqi RMB516M orders (~RMB2.6B 2025 cum.); Jiaocheng/CATL/BYD ultrasonic welding; Piller flywheel for 400 MW AI datacenter; Army Ka-band metamaterial SBIR; Honda→Enedym | EHD, acoustic levitation/sonochemistry, EM launch, electro/magnetocaloric cooling: strong physics, explicitly no industrial-scale deployment — enthusiasm zones by the lane's own honest account |
 
 ## 4. Cross-lane patterns (load-bearing for P3)
 
@@ -85,7 +88,7 @@ demand-bridge argument.
    often already contracted.
 3. **Dated regulatory/procurement forcing functions exist — and can reverse.** Real: EtO
    replacement backlog (L05), PFAS exit + AIM Act + EU F-gas collision (L14), FuelEU 2030/2035
-   (L10), Singapore DC-CFA2 gates (L02/L14), NRC Part 53 (L04). Reversed/slipped: CARB drayage
+   (L10), NRC Part 53 (L04). Reversed/slipped: CARB drayage
    repeal, IMO Net-Zero adjournment (L10). P3 ideas premised on regulation must state which kind
    they depend on.
 4. **A recurring "lab-strong, industry-thin" failure signature** appears in at least eight
@@ -119,14 +122,12 @@ demand-bridge argument.
 
 ## 5. Thin-lane decision
 
-No lane is thin by the mission's gates (min accepted 43, all mixes met; Asia 314/80,
-local-language 100/40). The residual weaknesses are **geography-local, not lane-fatal**, and are
+No lane is thin by the mission's gates (min accepted 43, all mixes met; the revised target-market
+scope still has China/Japan/Taiwan 228/80 and Chinese/Japanese-language 79/40). The residual
+weaknesses are **geography-local, not lane-fatal**, and are
 documented inside the briefs for P4 follow-up rather than warranting a pre-P3 scout wave:
 
 - Taiwan is thin in L12/L16 (but strong in L02/L13/L14 — mission-level TW coverage exists).
-- Korea control-electronics detail is thin in L13; Korean laser industry thin in L12.
-- India appears as future triggers (Tata fab, DRDO, MeitY policy) rather than realized subsystem
-  demand in L06/L12/L14 — an accurate reflection of the market, not a collection failure.
 - L11's weak electrolyzer demand is an evidence-based market finding to be *used*, not re-scouted.
 
 Decision: **proceed to P3.** P4 demand-competitor analysts must close the specific flagged items

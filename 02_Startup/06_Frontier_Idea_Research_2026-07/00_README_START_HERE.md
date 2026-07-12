@@ -3,7 +3,7 @@
 This is a clean-slate, one-command Claude Code research mission. It accepts at least **600
 unique, quality-controlled sources**, creates at least **48 candidate concepts**, and delivers a
 diverse final portfolio of **24 startup ideas**. Your EE/Computer Engineering background is kept
-as a shallow feasibility prior worth only 5% of the score; it does not choose the search lanes.
+as a shallow feasibility prior worth only 2% of the score; it does not choose the search lanes.
 
 ## Run from Windows PowerShell
 
@@ -34,7 +34,8 @@ If Windows sleeps, a usage limit is reached, or the process stops, run:
 - `20_OPPORTUNITY_POOL/`: 48+ ideas generated from evidence, before founder-fit is considered.
 - `30_SCREENING/`: demand checks, competitor maps, physics checks, scoring, and red teams.
 - `40_DEEP_DIVES/`: 10 investment/engineering deep dives.
-- `50_GEOGRAPHY/`: US, China, Japan, South Korea, Taiwan, India, and Singapore demand/entry map.
+- `50_GEOGRAPHY/`: US/China-first demand and entry map, with Japan, Taiwan, and South Korea as
+  optional side-market analyses. India and Singapore are explicitly out of scope.
 - `60_FINAL_PORTFOLIO/`: final 24 ideas, ranked and clustered, plus a validation roadmap.
 - `90_BIBLIOGRAPHY/`: canonical 600+ accepted-source ledger and readable bibliography.
 - `98_RUN_LOGS/`: raw Claude output, routing decisions, downgrades, failures, and progress.
@@ -42,8 +43,9 @@ If Windows sleeps, a usage limit is reached, or the process stops, run:
 
 ## Model and cost policy
 
-The parent session is fixed to `claude-fable-5` at `xhigh`. Fable performs the critical judgment:
-anti-anchoring, idea synthesis, red-team adjudication, deep dives, and final portfolio. Sonnet 5
+The parent session is fixed to `claude-fable-5` at `xhigh`. P3 now uses two independent
+Fable/xhigh passes: broad idea architecture, then elegance/novelty adjudication. Fable also
+performs anti-anchoring, red-team adjudication, deep dives, and final portfolio. Sonnet 5
 handles search, source metadata, and repetitive verification at `high` or `medium`. This is an
 intentional economy route, not an undisclosed downgrade. Every dispatch is logged in
 `98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl`.
@@ -81,4 +83,3 @@ The run is complete only when `99_AUDIT/FINAL_AUDIT.md` says `PASS` and
 `05_STATE/MASTER_STATE.json` contains `"mission": "COMPLETE"`. Source count alone is not enough:
 academic sources must have peer-review evidence, demand claims need primary buyer/procurement
 evidence, and the final 24 must pass diversity and feasibility gates.
-

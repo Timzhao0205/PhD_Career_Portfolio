@@ -131,8 +131,8 @@ closes at realistic campus currents — decisive risk, honestly flagged. Confide
 Product: per-shelf sealed loop (micro-pump + manifold-microchannel flow-boiling evaporator + rack condenser
 to Deschutes-class facility water); fluid plan by design: R-1233zd(E)-class low-pressure HCFO qualification
 track (ITRI-validated class, L14-053) plus <150 g micro-charge R-600a PFAS-free endgame track (AIM Act
-L14-033, EU F-gas L14-034). Buyers: Deschutes-ecosystem ODMs/CDU vendors (L14-043), hyperscalers, Singapore
-DC-CFA2 builds (L14-037). Pain: 3–5 kW chips, 800–1000 W/cm² local flux (L14-009/010); field's fluid base
+L14-033, EU F-gas L14-034). Buyers: Deschutes-ecosystem ODMs/CDU vendors (L14-043), US hyperscalers,
+and Taiwanese server ODM/thermal channels. Pain: 3–5 kW chips, 800–1000 W/cm² local flux (L14-009/010); field's fluid base
 collapsed mid-literature (L14-022). Competitors: ZutaCore ($100M C, L14-046), Flex/JetCool (L14-045),
 Trane/LiquidStack (L14-051), ITRI (L14-053). Experiment ($130k): 3.5 kW test vehicle, both fluids, dry-out
 margin + resistance curves vs single-phase. Uncertainty: TFA scope creep onto HCFOs; single-phase keeps

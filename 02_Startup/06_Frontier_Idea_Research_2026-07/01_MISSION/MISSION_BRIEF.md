@@ -7,7 +7,7 @@ then state. `CLAUDE_CODE_REFERENCE.md` is operator documentation and not researc
 ## P0 — initialize
 
 Verify folder structure and model-probe records. Log assumptions. The orchestrator must write a
-one-page anti-anchoring plan explaining how lane independence and the 5% founder-fit cap will be
+one-page anti-anchoring plan explaining how lane independence and the 2% founder-fit cap will be
 enforced. Mark P0 only after files exist.
 
 ## P1 — collect a broad source atlas
@@ -15,7 +15,8 @@ enforced. Mark P0 only after files exist.
 Dispatch 16 `lane-scout` agents in four waves of four. A scout collects 45–55 candidates, fetches
 the best pages, and writes `10_SOURCE_ATLAS/Lxx_<slug>.md` plus `Lxx_raw_sources.json`. Require a
 mix of technical feasibility, customer pain/procurement, incumbent products, standards/policy,
-and US/Asian evidence. Scouts do not generate final startup ideas.
+and especially US/China evidence. Japan, Taiwan, and South Korea are secondary coverage; India
+and Singapore are excluded market evidence. Scouts do not generate final startup ideas.
 
 After each wave, dispatch `source-verifier` agents over its records. They verify peer review,
 canonical identity, fetch support, and acceptance/rejection. Merge into the canonical ledger and
@@ -31,15 +32,28 @@ If any lane is thin or demand-poor, send targeted scouts before proceeding.
 
 ## P3 — evidence-first opportunity generation
 
-Dispatch `idea-architect` (Fable/xhigh) in independent batches: process, infrastructure,
-scientific, transport/space, and wildcards. Produce at least 64 rough seeds. The orchestrator
-deduplicates and selects at least 48 distinct longlist ideas across at least 14 lanes. Only now
-append the shallow founder-fit note. Write markdown and JSON.
+Treat the existing `SEEDS_A` through `SEEDS_D` files as preserved prior drafts, not candidates for
+direct promotion. Regenerate P3 as round 2 from the accepted source atlas using five independent
+`idea-architect` dispatches, all Fable 5/xhigh:
+
+1. US industrial, infrastructure, and scientific pain (>=18 seeds).
+2. China industrial, infrastructure, and scientific pain, using Chinese primary evidence (>=18).
+3. US–China dual-market products with independent demand logic in each country (>=18).
+4. Frontier energy/physics wildcards optimized for coolness, elegance, and controllability (>=16).
+5. Optional Japan/Taiwan/South Korea side-market or cross-lane concepts (>=10, no forced quota).
+
+Produce at least 80 new `P3R2_*` seeds. Then dispatch `idea-elegance-judge` independently on the
+new seeds. It must critique non-obviousness, elegance, controllability, frontier vision, hidden
+commodity risk, and whether the US/China logic is truly independent. The judge cannot read the
+founder profile. After fixes, the orchestrator deduplicates and freezes at least 48 longlist ideas
+across at least 14 lanes. Longlist gates: >=36 credible US cases, >=36 credible China cases, >=24
+credible in both, and <=8 primarily dependent on Japan/Taiwan/South Korea. Only then append the
+shallow founder-fit note. Write markdown and JSON.
 
 ## P4 — reality checks and scoring
 
 For each longlist idea, dispatch `demand-competitor-analyst` in waves of four to find named buyers,
-procurement/filing evidence, closest global and Asian incumbents, pricing, regulation, and market
+procurement/filing evidence, closest global and in-scope Asian incumbents, pricing, regulation, and market
 arithmetic. Then Fable performs physics and build-path review, applies hard gates, scores with the
 rubric, and records uncertainty. Any idea without G1 demand is eliminated, not “promising.”
 
@@ -54,9 +68,12 @@ and reasons.
 
 Run 10 `deep-dive-analyst` agents in waves of at most four. Each report is 2,500–4,000 words and
 uses >=20 unique accepted sources, including >=7 peer-reviewed technical and >=5 primary demand/
-competitor/geography sources. In parallel, a geography analyst writes the cross-portfolio US,
-China, Japan, South Korea, Taiwan, India, and Singapore entry/constraint map using current primary
-sources. This is commercial/technical research, not legal advice.
+competitor/geography sources. In parallel, a geography analyst writes a cross-portfolio map that
+gives the United States and China full primary-market treatment. Japan, Taiwan, and South Korea
+receive shorter optional side-market sections only where relevant. India and Singapore must not
+appear as buyers, beachheads, market-size inputs, entry routes, or recommendations. Publications
+from any country may remain as technical evidence. This is commercial/technical research, not
+legal advice.
 
 ## P7 — Fable synthesis
 

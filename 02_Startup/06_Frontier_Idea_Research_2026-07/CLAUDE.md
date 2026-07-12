@@ -9,7 +9,7 @@ restart, reread those two files and continue from the first incomplete checkpoin
    append it to `05_STATE/ASSUMPTIONS.md`, and continue.
 3. Founder background is a shallow implementation prior only. Do not select lanes, seeds, or
    ideas because they resemble prior HTS/GaN work. Apply founder fit only after evidence-first
-   ideas exist, and cap its score at 5/100.
+   ideas exist, and cap its score at 2/100.
 4. Accepted-source count means unique canonical works, not URLs. Academic/technical work needs
    affirmative peer-review evidence. arXiv and other preprints are discovery leads only.
 5. Demand must exist now or have a documented procurement/regulatory/industrial trigger. A paper
@@ -32,3 +32,13 @@ restart, reread those two files and continue from the first incomplete checkpoin
     response, export controls, capex, service burden, and founder-access assumptions.
 13. Windows-safe UTF-8 filenames; relative paths use forward slashes; no reserved characters.
 14. Completion requires machine validation plus Fable substantive adjudication and fixes.
+15. Binding geography scope from the user (superseding the earlier 2026-07-12 directive): the
+    United States and China are the two primary markets and must dominate P3 generation, scoring,
+    and final market analysis. Japan, Taiwan, and South Korea are optional secondary/side markets;
+    they may improve an idea but may not substitute for a weak US/China case. India and Singapore
+    remain excluded from buyer examples, demand scoring, market sizing, competitor/entry routes,
+    geography analysis, and final outputs. Publications from any country may remain as technical
+    evidence. Never replace country-specific evidence with a generic “Asia” label.
+16. P3 round 2 is authoritative. Preserve `SEEDS_A` through `SEEDS_D` as prior drafts but do not
+    promote them directly. Regenerate from the accepted atlas using Fable 5/xhigh, then require an
+    independent Fable 5/xhigh elegance/novelty adjudication before the longlist is frozen.

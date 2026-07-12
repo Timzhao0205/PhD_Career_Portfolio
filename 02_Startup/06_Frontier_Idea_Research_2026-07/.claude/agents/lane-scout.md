@@ -14,7 +14,7 @@ incumbents/products/prices; standards/policy; United States; and relevant Asian 
 local-language searches. arXiv may reveal keywords but is discovery-only.
 
 Write `10_SOURCE_ATLAS/Lxx_<slug>.md` with: frontier state, bottlenecks, named buyers and spending
-signals, incumbent map, 2026â€“2031 triggers, US/Asia differences, unresolved contradictions, and
+signals, incumbent map, 2026–2031 triggers, separate US/China differences, optional JP/TW/KR notes, unresolved contradictions, and
 8â€“12 opportunity-shaped pain statements without turning them into startup pitches. Write raw
 records to the assigned JSON using the canonical schema. Mark uncertainty honestly. Return only:
 lane, reviewed count, likely accepted count, demand-primary count, and file paths.

@@ -21,7 +21,7 @@ if (-not (Get-Command claude -ErrorAction SilentlyContinue)) {
     exit 1
 }
 
-$required = @('CLAUDE.md','KICKOFF_PROMPT.txt','01_MISSION/MISSION_BRIEF.md','tools/validate_mission.py')
+$required = @('CLAUDE.md','KICKOFF_PROMPT.txt','01_MISSION/MISSION_BRIEF.md','tools/validate_mission.py','.claude/agents/idea-elegance-judge.md')
 foreach ($path in $required) {
     if (-not (Test-Path $path)) { throw "Missing required package file: $path" }
 }
@@ -88,9 +88,11 @@ $env:FRONTIER_CRITICAL_MODEL = $CriticalModel
 $env:FRONTIER_SCOUT_MODEL = $ScoutModel
 $env:FRONTIER_CRITICAL_EFFORT = $CriticalEffort
 $env:CLAUDE_CODE_EFFORT_LEVEL = $CriticalEffort
+$env:CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS = '0'
+$env:CLAUDE_CODE_RETRY_WATCHDOG = '1'
 
 if ($Resume) {
-    $prompt = 'Resume the frontier mission. Read CLAUDE.md, 01_MISSION/MISSION_BRIEF.md, and 05_STATE/MASTER_STATE.json. Continue from the first incomplete checkpoint. Do not ask questions. Do not lower source or model standards. Run until PASS and mission COMPLETE.'
+    $prompt = 'Resume the frontier mission. Read CLAUDE.md, 01_MISSION/MISSION_BRIEF.md, 05_STATE/P3_US_CHINA_WEIGHTING_PATCH_2026-07-12.md, and 05_STATE/MASTER_STATE.json. P0-P2 are complete. Regenerate P3 round 2: preserve SEEDS_A-D as prior drafts, create at least 80 new P3R2 seeds with the US and China heavily dominant, treat Japan/Taiwan/South Korea only as optional side markets, and exclude India/Singapore. Use Fable 5/xhigh for every idea-architecture batch and the independent idea-elegance-judge pass; log routing and do not downgrade. Enforce longlist and final geography quotas. Continue from the first incomplete checkpoint without asking questions. Run until PASS and mission COMPLETE.'
 } else {
     $prompt = (Get-Content -Raw '.\KICKOFF_PROMPT.txt').Trim()
 }

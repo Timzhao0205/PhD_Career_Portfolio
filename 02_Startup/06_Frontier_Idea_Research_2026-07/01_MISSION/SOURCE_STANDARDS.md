@@ -10,7 +10,9 @@ The mission must review more than it accepts. Target 720–800 collected records
   earnings transcripts, official project awards, or direct customer documentation.
 - 60 government, national-lab, standards-body, or regulator sources.
 - 60 credible market/industry sources; vendor marketing alone cannot establish demand or TAM.
-- 80 sources concerning major Asian markets, including at least 40 local-language primary sources.
+- 80 sources concerning China, Japan, Taiwan, or South Korea, including at least 40 local-language
+  primary sources. Within the total atlas, require at least 150 US records, 100 China records,
+  and 40 combined Japan/Taiwan/South Korea records so primary-market depth is not diluted.
 
 Categories may overlap, but one canonical work counts once toward 600. The ledger must report
 overlap transparently.
@@ -53,7 +55,10 @@ accessed_at, fetched, language, geography, peer_review_status, peer_review_evide
 demand_evidence_type, claim_supported, locator, accepted, rejection_reason, notes`.
 
 `lane_ids`, `idea_ids`, and `geography` are arrays. Geography uses ISO-like codes (`US`, `CN`,
-`JP`, `KR`, `TW`, `IN`, `SG`, etc.). `source_type` uses one of: `academic_peer_reviewed`,
+`JP`, `TW`, etc.). Technical publications retain objective origin metadata even when their origin
+is outside the target markets. `CN`, `JP`, `TW`, and `KR` count toward the Asia-market quota, but
+P3 and later must distinguish China from the three optional side markets.
+`source_type` uses one of: `academic_peer_reviewed`,
 `buyer_procurement`, `company_filing`, `government`, `national_lab`, `standard`, `regulator`,
 `market_industry`, `vendor_datasheet`, `trade_press`, `patent`, or `discovery_only`.
 
