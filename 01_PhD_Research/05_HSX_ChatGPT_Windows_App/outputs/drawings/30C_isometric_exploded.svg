@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#172033"/></marker>
+  <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c94141"/></marker>
+  <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#b7c0cf" stroke-width="2"/></pattern>
+  <style>
+    text { font-family: Segoe UI, Arial, sans-serif; fill:#172033; }
+    .t { font-size:22px; font-weight:700; } .s { font-size:12px; fill:#5c667a; }
+    .l { font-size:13px; } .sm { font-size:11px; } .dim { font-size:11px; fill:#5c667a; }
+    .outline { stroke:#172033; stroke-width:1.5; fill:none; }
+    .thin { stroke:#5c667a; stroke-width:1; fill:none; }
+    .dash { stroke:#c94141; stroke-width:1.5; stroke-dasharray:7 5; fill:none; }
+    .axis { stroke:#172033; stroke-width:1.5; marker-end:url(#arrow); fill:none; }
+  </style>
+</defs>
+<rect width="800" height="560" fill="#fbfcfe"/>
+<text x="32" y="38" class="t">Concept C — exploded split cassettes</text>
+<text x="32" y="59" class="s">10.50 mm core; zirconia rear datum + LCC + 0.50 mm Ti front guard</text>
+<rect x="621" y="22" width="147" height="28" rx="5" fill="#fff0d6" stroke="#d8841c"/>
+<text x="694.5" y="41" class="sm" text-anchor="middle" fill="#8b4d00">NOT FOR FABRICATION</text>
+<line x1="32" y1="72" x2="768" y2="72" stroke="#d8dee9"/>
+<g transform="translate(555 86)">
+<rect width="210" height="75" rx="6" fill="white" stroke="#d8dee9"/>
+<rect x="12" y="12" width="15" height="10" fill="#6dc5c1"/><text x="35" y="21" class="sm">zirconia / ceramic datum</text>
+<rect x="12" y="31" width="15" height="10" fill="#d7a85e"/><text x="35" y="40" class="sm">CP-Ti frame / retention</text>
+<rect x="12" y="50" width="15" height="10" fill="#d97745"/><text x="35" y="59" class="sm">bonded LCC cartridge</text></g><g transform="translate(85 70)">
+<polygon points="170,270 300,205 430,270 300,335" fill="#d7a85e" fill-opacity=".35" stroke="#8a5d20" stroke-width="2"/>
+<polygon points="170,270 170,286 300,352 300,335" fill="#d7a85e" stroke="#8a5d20"/>
+<polygon points="300,335 430,270 430,286 300,352" fill="#ba8439" stroke="#8a5d20"/>
+<g fill="#d7a85e" stroke="#8a5d20" stroke-width="1.5">
+<rect x="185" y="285" width="13" height="92"/><rect x="397" y="285" width="13" height="92"/>
+<rect x="255" y="327" width="13" height="78"/><rect x="330" y="327" width="13" height="78"/>
+</g>
+<text x="300" y="420" class="l" text-anchor="middle">connected CP-Ti base frame + four posts</text>
+<polygon points="263,157 335,121 407,157 335,193" fill="#6dc5c1" stroke="#277d7a" stroke-width="2"/>
+<polygon points="263,157 263,247 335,283 335,193" fill="#58aaa7" stroke="#277d7a" stroke-width="2"/>
+<polygon points="335,193 407,157 407,247 335,283" fill="#87d4d0" stroke="#277d7a" stroke-width="2"/>
+<g stroke-width="1.5"><path d="M255 205 L158 205" class="axis"/><rect x="129" y="179" width="24" height="52" fill="#d7a85e" stroke="#8a5d20"/><rect x="99" y="179" width="24" height="52" fill="#d97745" stroke="#8e3f1d"/><rect x="69" y="179" width="24" height="52" fill="#6dc5c1" stroke="#277d7a"/>
+<path d="M415 205 L512 205" class="axis"/><rect x="517" y="179" width="24" height="52" fill="#6dc5c1" stroke="#277d7a"/><rect x="547" y="179" width="24" height="52" fill="#d97745" stroke="#8e3f1d"/><rect x="577" y="179" width="24" height="52" fill="#d7a85e" stroke="#8a5d20"/>
+<path d="M335 120 L335 45" class="axis"/><rect x="309" y="13" width="52" height="18" fill="#d7a85e" stroke="#8a5d20"/></g>
+<text x="68" y="247" class="sm">rear / LCC / guard</text><text x="480" y="247" class="sm">shared Ti rail cage</text><text x="300" y="440" class="l" text-anchor="middle">three independently pinned cassettes</text></g><line x1="32" y1="526" x2="768" y2="526" stroke="#d8dee9"/>
+<text x="32" y="546" class="s">All dimensions mm. Geometry is conceptual pending Stage-40 red team and vendor DFM.</text></svg>

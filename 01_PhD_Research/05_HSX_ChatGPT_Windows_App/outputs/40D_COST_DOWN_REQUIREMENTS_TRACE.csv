@@ -1,0 +1,49 @@
+req_id,domain,requirement,source_or_artifact,evidence,red_team_status,finding_id,required_correction_or_closure
+R40D-001,envelope,Installed diameter <=31.750 mm,AGENTS.md/30D STEP,"independent conservative radius 14.778532 mm",PASS,F40D-N01,recalculate after final hardware additions
+R40D-002,envelope,Installed height <=27.500 mm,AGENTS.md/30D STEP,"independent zmax 26.250 mm",PASS,F40D-N01,recalculate after final hardware additions
+R40D-003,envelope,All installed hardware included,Stage-30 prompt,"post fasteners strain screws/nuts and nut lances absent",FAIL,F40D-B04/F40D-B05,model complete installed hardware in Stage 50D
+R40D-004,envelope,Harness keepouts included,AGENTS.md/30D CAD,"three 3.80-mm boxes included and clear bracket",CONDITIONAL,F40D-M07,add actual lay/bend/strain geometry after cable freeze
+R40D-005,collision,Zero unintended physical overlap,30D CAD report,"zero for 20 modeled envelopes",CONDITIONAL,F40D-B02,include separate guards and complete hardware in final collision set
+R40D-006,CAD,STEP export reimports with same bounds,30D CAD report,"0.000000-mm bound delta",PASS,F40D-N01,repeat on corrected final STEP
+R40D-007,CAD,Guard STL proves three identical parts,30D guard STL,"nonempty mesh only; face count 1",FAIL,F40D-M09,validate triangle count and per-guard STEP volume/hash
+R40D-008,structure,One folded bracket architecture,30D CAD,"one connected bracket solid",CONDITIONAL,F40D-M04,vendor-signed developable flat pattern and bend model
+R40D-009,structure,No fixed structural ceramic,30D report/CAD,"fixed seat count zero",PASS,F40D-N02,preserve in final
+R40D-010,ceramic,Zero tapped/internal ceramic threads,AGENTS.md/30D schedule,"all rows ceramic_thread_count zero",PASS,F40D-N02,preserve in final
+R40D-011,ceramic,One repeated flat guard geometry,30D report,"claimed one geometry; missing screw relief and orientation control",FAIL,F40D-B02/F40D-M02,one reference guard with two edge reliefs and rotations only
+R40D-012,ceramic,Guard material qualified for 250 C UHV,AGENTS.md/S056-S058,"process capability only",FAIL,F40D-B07/F40D-M08,parallel material RFQ plus first article and hot-UHV coupons
+R40D-013,ceramic,Guard edge/contact strength qualified,Stage-30 prompt,"no flaw/contact allowable",FAIL,F40D-M08,vendor edge limits and same-process proof/contact coupons
+R40D-014,reuse,Each bonded LCC independently removable,AGENTS.md/30D service,"neighbour removal zero by intent; hook motion impossible in modeled slot",FAIL,F40D-B01,correct open slot and pass service sweep
+R40D-015,reuse,Cartridge remains protected as a unit during service,AGENTS.md/Stage 10,"flat guard mechanical capture/caddy absent",FAIL,F40D-B03/F40D-B07,define formed perimeter caddy and handling jig
+R40D-016,load path,No load through electrical joints,AGENTS.md,"intent stated but caddy/rear datum absent",FAIL,F40D-B03,model caddy-only clamp/datum load path
+R40D-017,load path,Three hard-stop lands per face,30D report,"lands asserted but not modeled",FAIL,F40D-B03,model nine coined lands and contact distances
+R40D-018,retention,Two hooks engage each clamp,30D CAD,"T-hooks modeled but closed slots prevent insertion",FAIL,F40D-B01,true open U-slots and 1.4-mm slide
+R40D-019,retention,One screw provides stable preload,30D report,"no FEA/coupon/torsion evidence",FAIL,F40D-B06,three-force-pad model plus hot FEA/coupon; two-screw fallback
+R40D-020,retention,Screw-edge sheet ligament acceptable,30D ledger,"0.60 mm arithmetic only",CONDITIONAL,F40D-B06,stress/bearing FEA and same-process coupon
+R40D-021,retention,Hook/slot strength acceptable,30D ledger,"0.55-mm closed-edge ligament not applicable to corrected open slot",FAIL,F40D-B01/F40D-B06,recalculate open-slot side webs and prove strength
+R40D-022,nut capture,Nuts positively retained and replaceable,AGENTS.md/30D schedule,"nut solids present; lances absent",FAIL,F40D-M03,model and test open no-drop lances/pockets
+R40D-023,venting,No blind/trapped nut volume,AGENTS.md,"open nut concept only",CONDITIONAL,F40D-M03,final section/pump-down/borescope audit
+R40D-024,posts,Bracket attached to four posts,30D CAD,"zero-distance contact; no top hardware",FAIL,F40D-B05,model four top through fasteners and reaction
+R40D-025,feedthrough,Post radius clears provisional keepout,30D CAD,"11.578 vs 11.050 mm",PASS,F40D-N01,retain exact mated-datum gate
+R40D-026,feedthrough,Central hardware clears provisional keepout,30D ledger,"actual modeled Z nut bottom 11.50 mm",CONDITIONAL,F40D-M01,correct ledger and verify exact mated datum
+R40D-027,harness,Two 1.65-mm pairs fit 3.80-mm corridor,30D ledger,"3.30-mm width leaves 0.50 mm",CONDITIONAL,F40D-M07,delivered lay/bend/installation trial
+R40D-028,harness,Branch strain relief reacts into structure,AGENTS.md/30D CAD,"clips float over open notches",FAIL,F40D-B04,adjacent solid lugs plus clip/screw/nut/comb
+R40D-029,harness,No force reaches fanout/bonds,AGENTS.md,"intended but strain hardware incomplete",FAIL,F40D-B04,proof-load/continuity/loop-motion trial
+R40D-030,service,Straight +X/+Y/+Z driver axes,30D drawing,"axis intent present",CONDITIONAL,F40D-M06,model driver-body swept volumes and chamber mockup
+R40D-031,service,Clamp disengagement motion valid,30D report,"0.8 mm less than independent 1.30-mm minimum",FAIL,F40D-B01,1.4-mm nominal slide and physical coupon
+R40D-032,service,Cartridge withdrawal clears neighbours,30D CAD,"nominal static adjacency positive",CONDITIONAL,F40D-M06,model full normal withdrawal/jig sweep
+R40D-033,thermal,Representative CTE arithmetic correct,30D ledger,"0.005766 lateral and 0.001270 normal",PASS,F40D-N03,replace with actual lots before release
+R40D-034,thermal,Clamp retained force qualified at 250 C,AGENTS.md,"no exact formed-clamp data",FAIL,F40D-B06,20/250 C FEA/dwell/cycle coupons
+R40D-035,accuracy,Bends not assumed perfect orthogonality,30D report,"full matrix strategy stated",PASS,F40D-N03,carry into final controls
+R40D-036,accuracy,Axis matrix stable after hot cycles/service,User accuracy priority,"no measured budget or evidence",FAIL,F40D-B08,20/250 C pre/post service 3x3 calibration
+R40D-037,magnetic,Complete head meets signed perturbation budget,AGENTS.md,"CP Ti candidate only; no head map",FAIL,F40D-B08,delivered hardware screen and full field map
+R40D-038,electrical,No p1-p4 orientation guess,AGENTS.md/Stage 10,"Stage-30D retains parametric map",PASS,F40D-N04,microscope/traveler gate remains
+R40D-039,electrical,Pad 14/18 notation remains normalized,AGENTS.md/Stage 10,"no mechanical-stage remap",PASS,F40D-N04,preserve 14<->18 and rejected jumper disposition
+R40D-040,electrical,Three axes remain electrically isolated,AGENTS.md/Stage 50,"mechanical revision does not change isolated domains",CONDITIONAL,F40D-N04,final whole-package audit must preserve GND1_X/Y/Z
+R40D-041,cost,Cost scored after hard gates,AGENTS.md/30D matrix,"D3 rejected; D1/D2 conditional",PASS,F40D-N05,preserve ordering
+R40D-042,cost,No unsupported dollar savings claimed,30D report,"part/volume proxies labeled not prices",PASS,F40D-N03,keep final language narrow
+R40D-043,cost,Complete BOM basis compared,30D cost CSV,"caddy post and strain details incomplete",FAIL,F40D-M05,add complete hardware/caddy lines before quote
+R40D-044,cost,Comparable 1/3/10 live quotes,Stage-30 prompt,"no vendor quotes",FAIL,F40D-M05/G30D-08,drawing-identical RFQs with NRE/yield/inspection/qualification
+R40D-045,drawings,Drawing/table/CAD agree on hook slot,Stage-30 evidence,"drawing says open; CAD is closed",FAIL,F40D-B01,correct final drawing/CAD/ledger together
+R40D-046,drawings,Drawing/table/CAD agree on guard relief,Stage-30 evidence,"cartridge envelope relieved; guard not",FAIL,F40D-B02,include guard in final collision/drawing
+R40D-047,drawings,Load-path labels identify caddy not guard,Stage-30 selected drawing,"drawing loads guard",FAIL,F40D-m03,correct final section and report
+R40D-048,qualification,All fabrication details held pending evidence,30D gates,"G30D-01..08 explicit",PASS,F40D-N03,carry unresolved blockers into final checklist

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <defs>
+    <style>
+      .title{font:700 26px Arial,sans-serif;fill:#12202b}.sub{font:15px Arial,sans-serif;fill:#33434f}
+      .label{font:14px Arial,sans-serif;fill:#12202b}.small{font:12px Arial,sans-serif;fill:#33434f}
+      .pad{fill:#f5c451;stroke:#6f4d00;stroke-width:2}.body{fill:#e9eef1;stroke:#273640;stroke-width:4}
+      .cavity{fill:#fff;stroke:#607681;stroke-width:3}.die{fill:#dce9ff;stroke:#3164a8;stroke-width:3}
+      .bond{stroke:#d12f2f;stroke-width:5;fill:none;stroke-linecap:round}.lane{stroke:#236f42;stroke-width:5;fill:none;stroke-linecap:round}
+      .keep{fill:none;stroke:#c78016;stroke-width:2;stroke-dasharray:8 6}.datum{fill:#fff4db;stroke:#ad6a00;stroke-width:2}
+      .reject{stroke:#9b2a2a;stroke-width:3;stroke-dasharray:8 5;fill:none}.box{fill:#f7fafb;stroke:#9aaab3;stroke-width:2}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#33434f"/></marker>
+  </defs>
+
+  <rect width="1200" height="820" fill="#ffffff"/>
+  <text x="42" y="42" class="title">LCC02046 recommended physical bond map — cavity up</text>
+  <text x="42" y="68" class="sub">SCHEMATIC / HOLD — die p1–p4 identities remain orientation-parametric until signed microscope/GDS traveler</text>
+
+  <!-- LCC body with lower-right chamfer -->
+  <path class="body" d="M180 125 H590 V475 L560 505 H180 Z"/>
+  <rect class="cavity" x="248" y="193" width="274" height="244" rx="5"/>
+  <rect class="keep" x="268" y="213" width="234" height="204" rx="8"/>
+  <text x="279" y="235" class="small">bond/loop keep-out boundary — final from microscope + bonder program</text>
+
+  <!-- Top pads: 8 7 6 5 4 -->
+  <g text-anchor="middle">
+    <rect class="pad" x="205" y="111" width="48" height="34"/><text x="229" y="105" class="label">8</text>
+    <rect class="pad" x="275" y="111" width="48" height="34"/><text x="299" y="105" class="label">7</text>
+    <rect class="pad" x="345" y="111" width="48" height="34"/><text x="369" y="105" class="label">6</text>
+    <rect class="pad" x="415" y="111" width="48" height="34"/><text x="439" y="105" class="label">5</text>
+    <rect class="pad" x="485" y="111" width="48" height="34"/><text x="509" y="105" class="label">4</text>
+  </g>
+  <!-- Right pads top-down: 3 2 1 20 19 -->
+  <g text-anchor="start">
+    <rect class="pad" x="570" y="148" width="40" height="48"/><text x="618" y="177" class="label">3</text>
+    <rect class="pad" x="570" y="218" width="40" height="48"/><text x="618" y="247" class="label">2</text>
+    <rect class="pad" x="570" y="288" width="40" height="48"/><text x="618" y="317" class="label">1</text>
+    <rect class="pad" x="570" y="358" width="40" height="48"/><text x="618" y="387" class="label">20</text>
+    <rect class="pad" x="570" y="428" width="40" height="48"/><text x="618" y="457" class="label">19</text>
+  </g>
+  <!-- Bottom pads left-right: 14 15 16 17 18 -->
+  <g text-anchor="middle">
+    <rect class="pad" x="205" y="485" width="48" height="40"/><text x="229" y="545" class="label">14</text>
+    <rect class="pad" x="275" y="485" width="48" height="40"/><text x="299" y="545" class="label">15</text>
+    <rect class="pad" x="345" y="485" width="48" height="40"/><text x="369" y="545" class="label">16</text>
+    <rect class="pad" x="415" y="485" width="48" height="40"/><text x="439" y="545" class="label">17</text>
+    <rect class="pad" x="485" y="485" width="48" height="40"/><text x="509" y="545" class="label">18</text>
+  </g>
+  <!-- Left pads top-down: 9 10 11 12 13 -->
+  <g text-anchor="end">
+    <rect class="pad" x="160" y="148" width="40" height="48"/><text x="151" y="177" class="label">9</text>
+    <rect class="pad" x="160" y="218" width="40" height="48"/><text x="151" y="247" class="label">10</text>
+    <rect class="pad" x="160" y="288" width="40" height="48"/><text x="151" y="317" class="label">11</text>
+    <rect class="pad" x="160" y="358" width="40" height="48"/><text x="151" y="387" class="label">12</text>
+    <rect class="pad" x="160" y="428" width="40" height="48"/><text x="151" y="457" class="label">13</text>
+  </g>
+
+  <!-- Die and physical q terminals -->
+  <rect class="die" x="325" y="270" width="130" height="112" rx="4"/>
+  <text x="390" y="332" text-anchor="middle" class="label">AlGaN/GaN die</text>
+  <circle cx="355" cy="270" r="8" fill="#fff" stroke="#3164a8" stroke-width="3"/>
+  <circle cx="455" cy="300" r="8" fill="#fff" stroke="#3164a8" stroke-width="3"/>
+  <circle cx="425" cy="382" r="8" fill="#fff" stroke="#3164a8" stroke-width="3"/>
+  <circle cx="325" cy="352" r="8" fill="#fff" stroke="#3164a8" stroke-width="3"/>
+  <text x="343" y="260" class="label">q1 = P(q1)</text>
+  <text x="470" y="296" class="label">q2 = P(q2)</text>
+  <text x="437" y="402" class="label">q3 = P(q3)</text>
+  <text x="240" y="357" class="label">q4 = P(q4)</text>
+
+  <!-- Recommended inner bonds -->
+  <path class="bond" d="M355 270 C330 224 274 182 229 145"/>
+  <path class="bond" d="M455 300 C505 260 545 210 570 172"/>
+  <path class="bond" d="M425 382 C490 400 545 420 570 452"/>
+  <path class="bond" d="M325 352 C280 386 250 440 229 485"/>
+  <text x="690" y="120" class="label" fill="#d12f2f">SIGNED PHYSICAL MAP</text>
+  <text x="690" y="145" class="small">q1 → shelf/castellation 8</text>
+  <text x="690" y="166" class="small">q2 → shelf/castellation 3</text>
+  <text x="690" y="187" class="small">q3 → shelf/castellation 19</text>
+  <text x="690" y="208" class="small">q4 → shelf/castellation 14</text>
+  <text x="690" y="232" class="small">Only after P(q1…q4), clearance, tool and lot sign-off.</text>
+
+  <!-- Datum -->
+  <path d="M560 505 L590 475 L590 505 Z" fill="#ad6a00"/>
+  <rect class="datum" x="650" y="272" width="490" height="145" rx="8"/>
+  <text x="670" y="300" class="label">ORIENTATION RELEASE BOX — HOLD UNTIL SIGNED</text>
+  <text x="670" y="326" class="small">View: CAVITY UP    Datum A: LOWER-RIGHT CHAMFER</text>
+  <text x="670" y="350" class="small">P(q1)=_______  P(q2)=_______  P(q3)=_______  P(q4)=_______</text>
+  <text x="670" y="374" class="small">Die/GDS rev: ______  LCC lot/drawing rev: ______  NO MIRROR □</text>
+  <text x="670" y="398" class="small">Operator: __________  Independent verifier: __________  Date: ______</text>
+  <path d="M650 340 C625 360 608 420 580 485" stroke="#33434f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Rejected user jumper inset -->
+  <rect class="box" x="650" y="452" width="490" height="205" rx="8"/>
+  <text x="670" y="480" class="label">REJECTED EXTERNAL JUMPER NETWORK (comparison only)</text>
+  <path class="reject" d="M690 515 H820"/><text x="835" y="520" class="small">8 ↔ 4</text>
+  <path class="reject" d="M690 545 H820"/><text x="835" y="550" class="small">3 ↔ 9</text>
+  <path class="reject" d="M690 575 H820"/><text x="835" y="580" class="small">19 ↔ 13</text>
+  <path class="reject" d="M690 605 H820"/><text x="835" y="610" class="small">14 ↔ 18 (bottom-view line was written 18 → 14)</text>
+  <text x="670" y="640" class="small">No internal pad-to-pad LCC routing; spans add joints and do not create four lands on one side.</text>
+
+  <!-- Footer -->
+  <rect x="42" y="690" width="1098" height="92" class="datum" rx="8"/>
+  <text x="62" y="720" class="label">RECOMMENDED: same-numbered castellations 8 / 3 / 19 / 14 → protected fanout tongue → one-side pigtail.</text>
+  <text x="62" y="746" class="small">No pad-to-pad jumpers. No bond crossing. No structural load through die bonds, external microbonds, castellations or contacts.</text>
+  <text x="62" y="770" class="small">All geometry schematic; actual bond/guard clearances = ENGINEERING PROPOSAL - VALIDATE from microscope metrology and coupons.</text>
+</svg>

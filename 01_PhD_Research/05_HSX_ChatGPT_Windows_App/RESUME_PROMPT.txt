@@ -1,0 +1,2 @@
+/goal Resume this mission from the durable files in this opened folder. Read AGENTS.md, MISSION.md, EXECUTION_PLAN.md, CHECKPOINT_PROTOCOL.md, APP_MODEL_POLICY.md, state/PROJECT_STATE.md, and the latest valid entry in state/CHECKPOINT_INDEX.md. Inspect the required output markers in order, reconcile state against actual files, and resume the earliest incomplete or invalid stage without redoing valid completed work. Continue saving checkpoints and work autonomously until the stopping condition is met.
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="780" viewBox="0 0 1300 780">
+  <defs>
+    <style>
+      .title{font:700 26px Arial,sans-serif;fill:#12202b}.sub{font:15px Arial,sans-serif;fill:#33434f}
+      .label{font:14px Arial,sans-serif;fill:#12202b}.small{font:12px Arial,sans-serif;fill:#33434f}
+      .cer{fill:#e8eef1;stroke:#2f414c;stroke-width:3}.gold{fill:#f4c24d;stroke:#6f4d00;stroke-width:2}
+      .wire1{stroke:#3066be;stroke-width:7;fill:none}.wire2{stroke:#8a4eb0;stroke-width:7;fill:none}
+      .wire3{stroke:#2a8a58;stroke-width:7;fill:none}.wire4{stroke:#cf5c36;stroke-width:7;fill:none}
+      .micro{stroke:#d12f2f;stroke-width:4;fill:none}.load{stroke:#222;stroke-width:4;fill:none;stroke-dasharray:9 6}
+      .guard{fill:none;stroke:#78909c;stroke-width:3;stroke-dasharray:10 6}.vent{fill:#fff;stroke:#78909c;stroke-width:2}
+      .hold{fill:#fff3d6;stroke:#ad6a00;stroke-width:2}.ok{fill:#e8f5ea;stroke:#317a42;stroke-width:2}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker>
+  </defs>
+  <rect width="1300" height="780" fill="#fff"/>
+  <text x="40" y="42" class="title">Recommended removable cartridge and one-side external exit</text>
+  <text x="40" y="68" class="sub">Functional section / schematic — exact alloys, dimensions, microtransition and acceptance remain qualification-controlled</text>
+
+  <!-- Cartridge body and LCC -->
+  <path class="cer" d="M70 210 H390 V500 H70 Z"/>
+  <rect x="115" y="270" width="220" height="150" class="cer" rx="5"/>
+  <rect x="150" y="300" width="150" height="90" fill="#dce9ff" stroke="#3164a8" stroke-width="2"/>
+  <text x="225" y="348" text-anchor="middle" class="label">bonded die + LCC02046</text>
+  <text x="225" y="370" text-anchor="middle" class="small">open cavity; q→8/3/19/14 signed map</text>
+  <path class="guard" d="M95 235 H355 V445 H95 Z"/>
+  <circle cx="110" cy="250" r="8" class="vent"/><circle cx="340" cy="250" r="8" class="vent"/>
+  <circle cx="110" cy="430" r="8" class="vent"/><circle cx="340" cy="430" r="8" class="vent"/>
+  <text x="225" y="228" text-anchor="middle" class="label">removable vented zirconia bond guard</text>
+  <text x="82" y="530" class="small">Guard clearance from measured loop envelope</text>
+  <text x="82" y="550" class="small">ENGINEERING PROPOSAL - VALIDATE</text>
+
+  <!-- Fanout tongue -->
+  <path class="cer" d="M390 245 H770 V465 H390 Z"/>
+  <text x="500" y="190" class="label">mechanically co-captured nickel-free ceramic fanout tongue</text>
+  <g>
+    <rect x="420" y="278" width="70" height="28" class="gold"/><text x="455" y="270" text-anchor="middle" class="small">lane L1 / pad 8</text>
+    <rect x="420" y="325" width="70" height="28" class="gold"/><text x="455" y="317" text-anchor="middle" class="small">lane L2 / pad 3</text>
+    <rect x="420" y="372" width="70" height="28" class="gold"/><text x="455" y="364" text-anchor="middle" class="small">lane L3 / pad 19</text>
+    <rect x="420" y="419" width="70" height="28" class="gold"/><text x="455" y="411" text-anchor="middle" class="small">lane L4 / pad 14</text>
+  </g>
+  <!-- Microtransitions -->
+  <path class="micro" d="M335 292 C365 270 390 280 420 292"/>
+  <path class="micro" d="M335 330 C365 310 390 326 420 339"/>
+  <path class="micro" d="M335 370 C365 360 390 374 420 386"/>
+  <path class="micro" d="M335 410 C365 410 390 423 420 433"/>
+  <text x="345" y="150" class="small">short redundant Al wedge/ribbon candidate</text>
+  <text x="345" y="168" class="small">or direct-tab DOE arm — HOLD until coupons pass</text>
+
+  <!-- Robust lane terminals -->
+  <path class="wire1" d="M490 292 H690"/><path class="wire2" d="M490 339 H690"/>
+  <path class="wire3" d="M490 386 H690"/><path class="wire4" d="M490 433 H690"/>
+  <g>
+    <rect x="675" y="276" width="55" height="32" class="gold"/>
+    <rect x="675" y="323" width="55" height="32" class="gold"/>
+    <rect x="675" y="370" width="55" height="32" class="gold"/>
+    <rect x="675" y="417" width="55" height="32" class="gold"/>
+  </g>
+  <text x="702" y="268" text-anchor="middle" class="label">supported robust terminals</text>
+  <text x="620" y="485" text-anchor="middle" class="small">qualified resistance weld or exact-contact crimp</text>
+
+  <!-- Strain relief comb -->
+  <rect x="785" y="245" width="90" height="220" class="cer" rx="8"/>
+  <circle cx="830" cy="292" r="12" fill="#fff" stroke="#2f414c" stroke-width="3"/>
+  <circle cx="830" cy="339" r="12" fill="#fff" stroke="#2f414c" stroke-width="3"/>
+  <circle cx="830" cy="386" r="12" fill="#fff" stroke="#2f414c" stroke-width="3"/>
+  <circle cx="830" cy="433" r="12" fill="#fff" stroke="#2f414c" stroke-width="3"/>
+  <text x="830" y="205" text-anchor="middle" class="label">ceramic strain-relief comb</text>
+
+  <!-- One-side pigtail and connector -->
+  <path class="wire1" d="M730 292 H818 Q900 292 960 330 H1050"/>
+  <path class="wire2" d="M730 339 H818 Q900 339 960 350 H1050"/>
+  <path class="wire3" d="M730 386 H818 Q900 386 960 370 H1050"/>
+  <path class="wire4" d="M730 433 H818 Q900 433 960 390 H1050"/>
+  <rect x="1050" y="300" width="130" height="120" class="ok" rx="8"/>
+  <text x="1115" y="330" text-anchor="middle" class="label">remote service</text>
+  <text x="1115" y="350" text-anchor="middle" class="label">disconnect</text>
+  <text x="1115" y="376" text-anchor="middle" class="small">accessible; keyed;</text>
+  <text x="1115" y="394" text-anchor="middle" class="small">250°C UHV qualified</text>
+  <path class="wire1" d="M1180 330 H1260"/><path class="wire2" d="M1180 350 H1260"/>
+  <path class="wire3" d="M1180 370 H1260"/><path class="wire4" d="M1180 390 H1260"/>
+  <text x="1260" y="445" text-anchor="end" class="small">to 19C feedthrough</text>
+  <text x="930" y="275" class="label">one-side 4-conductor exit</text>
+  <text x="930" y="295" class="small">300°C UHV Kapton/SP-Cu candidate</text>
+
+  <!-- Load path -->
+  <path class="load" d="M1250 520 H900 Q830 520 830 465" marker-end="url(#arrow)"/>
+  <path class="load" d="M785 500 H390 V465" marker-end="url(#arrow)"/>
+  <text x="650" y="548" class="label">HANDLING / HARNESS LOAD PATH</text>
+  <text x="650" y="570" class="small">feedthrough support → accessible clamp → ceramic comb → cartridge structure</text>
+  <text x="650" y="591" class="small">does not pass through service contacts, welds/crimps, tongue lanes, castellations or microbonds</text>
+
+  <!-- Callouts -->
+  <rect x="55" y="610" width="1190" height="120" class="hold" rx="8"/>
+  <text x="75" y="640" class="label">HOLD / RELEASE CONDITIONS</text>
+  <text x="75" y="666" class="small">1. P(q1…q4), cavity-up datum and LCC lot signed.  2. No-Ni tongue/contact/terminal material and UHV cleaning declared.</text>
+  <text x="75" y="690" class="small">3. Microtransition + robust joint pass unaged/aged resistance, pull/shear, microscopy and 250°C thermal-vacuum qualification.</text>
+  <text x="75" y="714" class="small">4. Guard/comb clearances and proof load = ENGINEERING PROPOSAL - VALIDATE.  5. No solder, PEEK preload, hidden bolt or internal zirconia thread.</text>
+</svg>

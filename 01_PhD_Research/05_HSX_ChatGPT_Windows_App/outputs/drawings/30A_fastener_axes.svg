@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#172033"/></marker>
+  <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c94141"/></marker>
+  <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#b7c0cf" stroke-width="2"/></pattern>
+  <style>
+    text { font-family: Segoe UI, Arial, sans-serif; fill:#172033; }
+    .t { font-size:22px; font-weight:700; } .s { font-size:12px; fill:#5c667a; }
+    .l { font-size:13px; } .sm { font-size:11px; } .dim { font-size:11px; fill:#5c667a; }
+    .outline { stroke:#172033; stroke-width:1.5; fill:none; }
+    .thin { stroke:#5c667a; stroke-width:1; fill:none; }
+    .dash { stroke:#c94141; stroke-width:1.5; stroke-dasharray:7 5; fill:none; }
+    .axis { stroke:#172033; stroke-width:1.5; marker-end:url(#arrow); fill:none; }
+  </style>
+</defs>
+<rect width="800" height="560" fill="#fbfcfe"/>
+<text x="32" y="38" class="t">Concept A — fastener and tool axes</text>
+<text x="32" y="59" class="s">All retention axes are external; no crossed bolts, hidden nuts, or zirconia threads</text>
+<rect x="621" y="22" width="147" height="28" rx="5" fill="#fff0d6" stroke="#d8841c"/>
+<text x="694.5" y="41" class="sm" text-anchor="middle" fill="#8b4d00">NOT FOR FABRICATION</text>
+<line x1="32" y1="72" x2="768" y2="72" stroke="#d8dee9"/>
+<g transform="translate(55 105)"><rect width="410" height="350" rx="8" fill="white" stroke="#d8dee9"/>
+<rect x="140" y="95" width="150" height="150" fill="#6dc5c1" fill-opacity=".6" stroke="#277d7a" stroke-width="2"/>
+<rect x="130" y="85" width="170" height="170" fill="none" stroke="#8a5d20" stroke-width="5"/>
+<text x="215" y="175" class="l" text-anchor="middle">+Z face</text><text x="310" y="177" class="sm">+X sensor</text><text x="185" y="74" class="sm">+Y sensor</text>
+<circle cx="143" cy="170" r="8" fill="white" stroke="#c94141" stroke-width="3"/><circle cx="215" cy="242" r="8" fill="white" stroke="#c94141" stroke-width="3"/>
+<path d="M143 170 L78 170" stroke="#c94141" stroke-width="2" marker-end="url(#arrowRed)"/><path d="M215 242 L215 315" stroke="#c94141" stroke-width="2" marker-end="url(#arrowRed)"/>
+<text x="54" y="161" class="sm">Z-F1</text><text x="224" y="318" class="sm">Z-F2</text>
+<text x="45" y="340" class="sm">Top fasteners occupy only −X and −Y edges.</text></g><g transform="translate(500 105)"><rect width="245" height="350" rx="8" fill="white" stroke="#d8dee9"/>
+<text x="18" y="30" class="l">Straight tool access</text><rect x="62" y="85" width="95" height="145" fill="#6dc5c1" fill-opacity=".55" stroke="#277d7a"/>
+<path d="M158 130 L225 130" class="axis"/><path d="M158 180 L225 180" class="axis"/><path d="M98 85 L98 44" class="axis"/>
+<text x="169" y="120" class="sm">+X</text><text x="169" y="170" class="sm">+Y</text><text x="108" y="54" class="sm">+Z</text>
+<text x="18" y="264" class="sm">Ø3.0 driver/pull corridor</text><text x="18" y="284" class="sm">ENGINEERING PROPOSAL - VALIDATE</text>
+<text x="18" y="316" class="sm" fill="#258552">Kernel pairwise overlap: 0.000000 mm³</text><text x="18" y="336" class="sm">X/Y axis levels are staggered.</text></g>
+<text x="55" y="486" class="sm">X-F1/F2: u=−6.50, z=cz±2.00 | Y-F1/F2: u=−6.50, z=cz∓2.00 | Z-F1: (−6.50,0) | Z-F2: (0,−6.50)</text><text x="55" y="509" class="sm">Assembly order: base frame → ceramic/core → guarded cartridges → external retainers → pigtail strain relief; removal reverses one branch only.</text><line x1="32" y1="526" x2="768" y2="526" stroke="#d8dee9"/>
+<text x="32" y="546" class="s">All dimensions mm. Geometry is conceptual pending Stage-40 red team and vendor DFM.</text></svg>

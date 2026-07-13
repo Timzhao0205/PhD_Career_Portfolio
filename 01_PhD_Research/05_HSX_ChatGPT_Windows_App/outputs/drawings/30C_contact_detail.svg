@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#172033"/></marker>
+  <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c94141"/></marker>
+  <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#b7c0cf" stroke-width="2"/></pattern>
+  <style>
+    text { font-family: Segoe UI, Arial, sans-serif; fill:#172033; }
+    .t { font-size:22px; font-weight:700; } .s { font-size:12px; fill:#5c667a; }
+    .l { font-size:13px; } .sm { font-size:11px; } .dim { font-size:11px; fill:#5c667a; }
+    .outline { stroke:#172033; stroke-width:1.5; fill:none; }
+    .thin { stroke:#5c667a; stroke-width:1; fill:none; }
+    .dash { stroke:#c94141; stroke-width:1.5; stroke-dasharray:7 5; fill:none; }
+    .axis { stroke:#172033; stroke-width:1.5; marker-end:url(#arrow); fill:none; }
+  </style>
+</defs>
+<rect width="800" height="560" fill="#fbfcfe"/>
+<text x="32" y="38" class="t">Concept C — split-cassette contact detail</text>
+<text x="32" y="59" class="s">Mechanical preload bypasses all electrical joints; bond-wire guard remains installed during service</text>
+<rect x="621" y="22" width="147" height="28" rx="5" fill="#fff0d6" stroke="#d8841c"/>
+<text x="694.5" y="41" class="sm" text-anchor="middle" fill="#8b4d00">NOT FOR FABRICATION</text>
+<line x1="32" y1="72" x2="768" y2="72" stroke="#d8dee9"/>
+<g transform="translate(70 105)"><rect x="0" y="0" width="660" height="340" rx="8" fill="white" stroke="#d8dee9"/>
+<rect x="55" y="225" width="520" height="36" fill="#6dc5c1" stroke="#277d7a" stroke-width="2"/>
+<text x="65" y="250" class="l">zirconia hard-stop datum</text>
+<rect x="180" y="195" width="270" height="30" fill="#6dc5c1" stroke="#277d7a" stroke-width="2"/>
+<rect x="200" y="130" width="230" height="65" fill="#d97745" stroke="#8e3f1d" stroke-width="2"/>
+<path d="M240 137 Q275 82 310 137 Q345 82 380 137" fill="none" stroke="#c5c9d0" stroke-width="2"/>
+<rect x="170" y="78" width="290" height="18" fill="#d7a85e" stroke="#8a5d20" stroke-width="2"/>
+<rect x="135" y="70" width="16" height="165" fill="#d7a85e" stroke="#8a5d20"/><circle cx="143" cy="112" r="8" fill="white" stroke="#8a5d20" stroke-width="3"/>
+<path d="M210 164 L95 164 L70 186" stroke="#7b61b8" stroke-width="5" fill="none"/>
+<text x="480" y="88" class="sm">0.50 Ti front guard</text><text x="480" y="112" class="sm">1.00 zirconia rear datum</text><text x="480" y="136" class="sm">1.65 LCC + 0.10 axial clearance</text><text x="480" y="168" class="sm">pin captures external rail only</text><text x="480" y="188" class="sm">no pin through ceramic</text><path d="M515 215 L515 262" stroke="#258552" stroke-width="5" marker-end="url(#arrow)"/><text x="535" y="244" class="sm" fill="#258552">load path to hard stop</text>
+<path d="M105 300 L520 300" stroke="#7b61b8" stroke-width="4" marker-end="url(#arrow)"/><text x="312" y="324" class="sm" text-anchor="middle" fill="#7b61b8">electrical path is strain-relieved separately; zero retention load</text></g>
+<text x="70" y="475" class="l">Release tests</text><text x="70" y="497" class="sm">formed-flexure force at 20/250 °C after dwell • 25 service cycles • loop/guard optical clearance • hot contact resistance</text><line x1="32" y1="526" x2="768" y2="526" stroke="#d8dee9"/>
+<text x="32" y="546" class="s">All force limits are ENGINEERING PROPOSAL - VALIDATE; CP-Ti creep/relaxation coupon is mandatory.</text></svg>

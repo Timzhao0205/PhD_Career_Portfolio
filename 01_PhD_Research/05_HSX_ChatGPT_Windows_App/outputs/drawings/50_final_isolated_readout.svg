@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+  <defs>
+    <style>
+      .title{font:700 28px Arial;fill:#12243a}.h{font:700 17px Arial;fill:#12243a}.t{font:14px Arial;fill:#1f2937}.s{font:12px Arial;fill:#475569}.shared{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.domain{fill:#f8fafc;stroke:#334155;stroke-width:2}.iso{fill:#fef3c7;stroke:#b45309;stroke-width:2;stroke-dasharray:6 4}.board{fill:#dcfce7;stroke:#15803d;stroke-width:2}.daq{fill:#ede9fe;stroke:#6d28d9;stroke-width:2}.hold{fill:#fff7ed;stroke:#c2410c;stroke-width:2}.wire{stroke:#0f766e;stroke-width:3;fill:none}.sync{stroke:#2563eb;stroke-width:3;fill:none}.power{stroke:#a16207;stroke-width:3;fill:none}.forbid{stroke:#dc2626;stroke-width:5}.shield{stroke:#64748b;stroke-width:2;stroke-dasharray:6 4}.thin{stroke:#94a3b8;stroke-width:1.3}
+    </style>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#0f766e"/></marker>
+    <marker id="b" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="1500" height="900" fill="white"/>
+  <text x="45" y="48" class="title">FINAL AMBIENT ARCHITECTURE — THREE GALVANICALLY SEPARATE BOARD DOMAINS</text>
+  <text x="45" y="76" class="t">This supersedes the Stage-20 AGND_STAR/common-BNC baseline. GND1_X, GND1_Y and GND1_Z have no intentional DC tie.</text>
+
+  <rect x="45" y="115" width="250" height="175" rx="10" class="shared"/>
+  <text x="65" y="145" class="h">Shared input-side resources</text>
+  <text x="65" y="175" class="t">• Pico phase word a0/a1/a2/EN</text>
+  <text x="65" y="202" class="t">• frame sync / one timebase</text>
+  <text x="65" y="229" class="t">• protected 24-V input star</text>
+  <text x="65" y="256" class="t">• chassis / vessel / CF flange</text>
+  <text x="65" y="280" class="s">Shared only before isolation barriers.</text>
+
+  <rect x="1180" y="115" width="275" height="175" rx="10" class="daq"/>
+  <text x="1200" y="145" class="h">Common acquisition side</text>
+  <text x="1200" y="175" class="t">3 simultaneous isolated/differential</text>
+  <text x="1200" y="198" class="t">measurement channels + sync</text>
+  <text x="1200" y="226" class="t">One timebase; aperture skew bounded</text>
+  <text x="1200" y="253" class="t">No board BNC shell connects to DAQ</text>
+  <text x="1200" y="278" class="s">Exact hardware: HOLD — DO NOT ORDER.</text>
+
+  <!-- three rows -->
+  <g>
+    <rect x="345" y="115" width="785" height="205" rx="12" class="domain"/>
+    <text x="365" y="142" class="h">D50-X / GND1_X</text>
+    <rect x="365" y="160" width="130" height="65" rx="7" class="iso"/><text x="430" y="187" class="t" text-anchor="middle">4-line control</text><text x="430" y="210" class="t" text-anchor="middle">barrier X</text>
+    <rect x="520" y="160" width="120" height="65" rx="7" class="iso"/><text x="580" y="187" class="t" text-anchor="middle">RS6_X</text><text x="580" y="210" class="s" text-anchor="middle">local rails</text>
+    <rect x="670" y="150" width="205" height="85" rx="7" class="board"/><text x="772" y="177" class="h" text-anchor="middle">Board X</text><text x="772" y="201" class="t" text-anchor="middle">J1.1/.2/.6/.7 ⇄ X sensor</text><text x="772" y="222" class="s" text-anchor="middle">local 100 µA source</text>
+    <rect x="905" y="160" width="170" height="65" rx="7" class="iso"/><text x="990" y="187" class="t" text-anchor="middle">isolated J4_X</text><text x="990" y="210" class="t" text-anchor="middle">measurement</text>
+    <text x="365" y="266" class="s">12 in-vessel nets remain unique; X uses V1–V4. Screens stop at flange. No GND1_X crosses vacuum.</text>
+    <line x1="295" y1="185" x2="365" y2="185" class="sync" marker-end="url(#b)"/><line x1="295" y1="240" x2="520" y2="210" class="power"/>
+    <line x1="495" y1="192" x2="670" y2="192" class="wire" marker-end="url(#a)"/><line x1="640" y1="205" x2="670" y2="205" class="power"/>
+    <line x1="875" y1="192" x2="905" y2="192" class="wire" marker-end="url(#a)"/><line x1="1075" y1="192" x2="1180" y2="175" class="wire" marker-end="url(#a)"/>
+  </g>
+  <g transform="translate(0,235)">
+    <rect x="345" y="115" width="785" height="205" rx="12" class="domain"/>
+    <text x="365" y="142" class="h">D50-Y / GND1_Y</text>
+    <rect x="365" y="160" width="130" height="65" rx="7" class="iso"/><text x="430" y="187" class="t" text-anchor="middle">4-line control</text><text x="430" y="210" class="t" text-anchor="middle">barrier Y</text>
+    <rect x="520" y="160" width="120" height="65" rx="7" class="iso"/><text x="580" y="187" class="t" text-anchor="middle">RS6_Y</text><text x="580" y="210" class="s" text-anchor="middle">local rails</text>
+    <rect x="670" y="150" width="205" height="85" rx="7" class="board"/><text x="772" y="177" class="h" text-anchor="middle">Board Y</text><text x="772" y="201" class="t" text-anchor="middle">J1.1/.2/.6/.7 ⇄ Y sensor</text><text x="772" y="222" class="s" text-anchor="middle">local 100 µA source</text>
+    <rect x="905" y="160" width="170" height="65" rx="7" class="iso"/><text x="990" y="187" class="t" text-anchor="middle">isolated J4_Y</text><text x="990" y="210" class="t" text-anchor="middle">measurement</text>
+    <text x="365" y="266" class="s">Y uses V5–V8. The output domain is not joined to X or Z through logic, supply, USB, probe or chassis.</text>
+    <line x1="295" y1="185" x2="365" y2="185" class="sync" marker-end="url(#b)"/><line x1="295" y1="240" x2="520" y2="210" class="power"/>
+    <line x1="495" y1="192" x2="670" y2="192" class="wire" marker-end="url(#a)"/><line x1="640" y1="205" x2="670" y2="205" class="power"/>
+    <line x1="875" y1="192" x2="905" y2="192" class="wire" marker-end="url(#a)"/><line x1="1075" y1="192" x2="1180" y2="175" class="wire" marker-end="url(#a)"/>
+  </g>
+  <g transform="translate(0,470)">
+    <rect x="345" y="115" width="785" height="205" rx="12" class="domain"/>
+    <text x="365" y="142" class="h">D50-Z / GND1_Z</text>
+    <rect x="365" y="160" width="130" height="65" rx="7" class="iso"/><text x="430" y="187" class="t" text-anchor="middle">4-line control</text><text x="430" y="210" class="t" text-anchor="middle">barrier Z</text>
+    <rect x="520" y="160" width="120" height="65" rx="7" class="iso"/><text x="580" y="187" class="t" text-anchor="middle">RS6_Z</text><text x="580" y="210" class="s" text-anchor="middle">local rails</text>
+    <rect x="670" y="150" width="205" height="85" rx="7" class="board"/><text x="772" y="177" class="h" text-anchor="middle">Board Z</text><text x="772" y="201" class="t" text-anchor="middle">J1.1/.2/.6/.7 ⇄ Z sensor</text><text x="772" y="222" class="s" text-anchor="middle">local 100 µA source</text>
+    <rect x="905" y="160" width="170" height="65" rx="7" class="iso"/><text x="990" y="187" class="t" text-anchor="middle">isolated J4_Z</text><text x="990" y="210" class="t" text-anchor="middle">measurement</text>
+    <text x="365" y="266" class="s">Z uses V9–V12. A common frame sync is permitted only across qualified isolation barriers.</text>
+    <line x1="295" y1="185" x2="365" y2="185" class="sync" marker-end="url(#b)"/><line x1="295" y1="240" x2="520" y2="210" class="power"/>
+    <line x1="495" y1="192" x2="670" y2="192" class="wire" marker-end="url(#a)"/><line x1="640" y1="205" x2="670" y2="205" class="power"/>
+    <line x1="875" y1="192" x2="905" y2="192" class="wire" marker-end="url(#a)"/><line x1="1075" y1="192" x2="1180" y2="175" class="wire" marker-end="url(#a)"/>
+  </g>
+
+  <line x1="1135" y1="320" x2="1135" y2="350" class="forbid"/><line x1="1118" y1="335" x2="1152" y2="335" class="forbid"/>
+  <line x1="1135" y1="555" x2="1135" y2="585" class="forbid"/><line x1="1118" y1="570" x2="1152" y2="570" class="forbid"/>
+  <text x="1165" y="340" class="s" fill="#dc2626">NO GND1 cross-tie</text><text x="1165" y="575" class="s" fill="#dc2626">NO grounded BNC bridge</text>
+
+  <rect x="45" y="825" width="1410" height="52" rx="8" class="hold"/>
+  <text x="65" y="848" class="h">HOLD — DO NOT CONNECT REAL SENSORS:</text>
+  <text x="460" y="848" class="t">Select exact isolators, sources and DAQ; close the 109× anomaly; prove isolation and simultaneous skew with all cables installed.</text>
+  <text x="45" y="895" class="s">Drawing 50_final_isolated_readout.svg — control/acquisition functional architecture; exact ambient BOM and schematic remain release gates.</text>
+</svg>

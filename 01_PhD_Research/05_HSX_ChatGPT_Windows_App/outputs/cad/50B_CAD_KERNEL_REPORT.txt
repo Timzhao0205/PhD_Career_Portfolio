@@ -1,0 +1,26 @@
+HSX Stage-50D corrected cost-down package CAD -- NOT FOR FABRICATION
+hard envelope: radius<=15.875 mm height<=27.500 mm
+physical bbox=(-10.150,10.550)x(-10.150,10.550) z=(0.000,26.250) mm
+conservative bbox-corner radial=14.920 mm margin=0.955 mm height_margin=1.250 mm
+physical envelopes=48; bbox-overlap Boolean pairs=128; unintended overlap=0.000000 mm3 (none)
+folded bracket solids=1; volume=200.945 mm3; intended main bends=2; exact flat pattern/bend relief HOLD
+folded bracket plus four vented posts volume=324.222 mm3 vs prior cage=440.917 mm3; geometric reduction=26.5 percent (not price)
+true open U-slot: local end=-7.150 vs face edge=-6.800 mm; edge overtravel=0.350 mm
+hook release: lip requires 1.300 mm center motion; service sweep=1.400 mm; margin=0.100 mm; slot/stem lateral clearance=0.250 mm
+cartridge: caddy=11.30 square x 2.45 deep; LCC envelope=8.89 square x 1.35; guard=10.90 square x 0.635; no adhesive
+guard reference: local pigtail notch=-X; screw relief=-Y; three volumes=[46.867852, 46.867852, 46.867852]; identity delta=0.000000000 mm3
+guard arrangement: one reference profile, rotation-only X/Y/Z face frames, never mirrored; LCC chamfer/orientation traveler remains controlling
+explicit reactions: lands=9; post=[0.0, 0.0, 0.0, 0.0]; post-head=[0.0, 0.0, 0.0, 0.0]; face-nut=[0.0, 0.0, 0.0]; nut-lance=[8.881784197001252e-16, 8.881784197001252e-16, 0.0]
+land-bracket=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]; land-caddy=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]; clamp-caddy=[0.0, 0.0, 0.0]; clip-bracket=[0.0, 0.0, 0.0]; strain-nut=[0.0, 0.0, 0.0] mm
+feedthrough keepout: post_min_radius=11.578 vs 11.050 mm; lowest face/strain hardware=11.500 vs 10.410 mm; clearance=1.090 mm
+3x cable keepouts=3.80-mm square; cable-to-bracket overlap=0.000000 mm3; clips deliberately cross cable keepouts and react at adjacent lugs
+service checks (non-target hardware): [('X', [], [], []), ('Y', [], [], []), ('Z', [], [], [])]
+STEP reimport bound delta=0.000000 mm; assembly binary STL triangles=32838; guard binary STL triangles=296
+fixed structural ceramic count=0; flat guard geometry count=1; guard quantity=3; tapped/internal ceramic threads=0
+guard material is intentionally neutral: quote 99.6% alumina and flat ZTA/zirconia; select only after edge/contact/UHV/hot coupons
+first-order Ti-minus-alumina displacement 20-to-250C: lateral over 10.90 mm=0.005766 mm; normal over 2.45 mm=0.001296 mm; force not qualified
+one-screw/two-hook baseline is HOLD pending FEA and hot-cycle coupons; use two-screw-per-face fallback if it fails
+formed-axis release requires measured lands/planes, full 3x3 calibration at 20/250C, repeat after bake/hot/service, and complete-head magnetic field map
+physical item names: folded_bracket, post_1, post_2, post_3, post_4, post_bolt_1, post_bolt_2, post_bolt_3, post_bolt_4, X_land_1, X_land_2, X_land_3, X_caddy, X_lcc_envelope, X_guard, X_clamp, X_face_nut, X_nut_lance, X_face_bolt, Y_land_1, Y_land_2, Y_land_3, Y_caddy, Y_lcc_envelope, Y_guard, Y_clamp, Y_face_nut, Y_nut_lance, Y_face_bolt, Z_land_1, Z_land_2, Z_land_3, Z_caddy, Z_lcc_envelope, Z_guard, Z_clamp, Z_face_nut, Z_nut_lance, Z_face_bolt, strain_clip_1, strain_clip_2, strain_clip_3, strain_nut_1, strain_nut_2, strain_nut_3, strain_bolt_1, strain_bolt_2, strain_bolt_3
+exports: 50B_COST_DOWN_NFF.step; 50B_COST_DOWN_NFF.stl; 50B_BRACKET_NFF.step; 50B_CADDY_NFF.step; 50B_GUARD_NFF.stl; 50B_SERVICE_KEEPOUTS_NFF.step
+release holds: material lots and 250C UHV life; laser/formed edges; bend/developable flat pattern/GD&T; caddy assembly method; clamp load/fatigue; nut-lance forming; post thread/vent detail; exact delivered cable/strain hardware; feedthrough datum; magnetic error budget; full hot-UHV qualification
