@@ -9,7 +9,9 @@ def main():
     source_result = subprocess.run([sys.executable, str(ROOT/"tools"/"validate_sources.py")], capture_output=True, text=True)
     if source_result.returncode: errors.append("source validator failed: " + source_result.stdout.strip().replace("\n", " | "))
     required = [
-        "10_SOURCE_ATLAS/ATLAS.md", "20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.md",
+        "10_SOURCE_ATLAS/ATLAS.md", "05_STATE/INDIA_SOURCE_ORIGIN_AUDIT.md",
+        "05_STATE/INDIA_SOURCE_ORIGIN_AUDIT.json", "99_AUDIT/P2A_FABLE_ORIGIN_ADJUDICATION.md",
+        "20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.md",
         "20_OPPORTUNITY_POOL/LONGLIST.md",
         "20_OPPORTUNITY_POOL/ideas.json", "30_SCREENING/SCORING_MATRIX.csv",
         "30_SCREENING/SELECTION.md", "50_GEOGRAPHY/GEOGRAPHY_BRIEF.md",
@@ -48,17 +50,22 @@ def main():
             cn=sum(i.get("china_beachhead") in truthy for i in ideas)
             dual=sum(i.get("us_beachhead") in truthy and i.get("china_beachhead") in truthy for i in ideas)
             side=sum(i.get("primary_market") in ("JP","TW","KR") for i in ideas)
+            timing_fields=("current_trl","precompany_plan_2026_2029","launch_2030_timing_thesis",
+                           "demand_trigger_2030_2034","competition_outlook_2030","timing_window_risk",
+                           "commercial_readiness_kill_date")
+            timing_complete=sum(all(i.get(k) not in (None,"") for k in timing_fields) for i in ideas)
             if us<36: errors.append(f"longlist credible US cases {us} < 36")
             if cn<36: errors.append(f"longlist credible China cases {cn} < 36")
             if dual<24: errors.append(f"longlist US+China dual-market cases {dual} < 24")
             if side>8: errors.append(f"longlist side-market-primary cases {side} > 8")
+            if timing_complete<48: errors.append(f"longlist complete 2030 timing records {timing_complete} < 48")
         except Exception as e: errors.append(f"ideas.json invalid: {e}")
     matrix=ROOT/"60_FINAL_PORTFOLIO"/"02_COMPARISON_MATRIX.csv"
     if matrix.exists():
         try:
             with matrix.open(encoding="utf-8-sig",newline="") as f: rows=list(csv.DictReader(f))
             if len(rows)<24: errors.append(f"final ideas {len(rows)} < 24")
-            required_cols={"idea_id","rank","concept","primary_lane","sector_cluster","product_role","primary_customer_archetype","primary_market","first_experiment_budget_usd","us_beachhead","china_beachhead","secondary_markets","asia_beachhead","score_total","confidence"}
+            required_cols={"idea_id","rank","concept","primary_lane","sector_cluster","product_role","primary_customer_archetype","primary_market","current_trl","precompany_validation_by_2029","launch_2030_fit","timing_window","first_experiment_budget_usd","us_beachhead","china_beachhead","secondary_markets","asia_beachhead","score_total","confidence"}
             missing=required_cols-set(rows[0] if rows else [])
             if missing: errors.append(f"comparison CSV missing columns {sorted(missing)}")
             lanes={r.get("primary_lane","") for r in rows if r.get("primary_lane")}
@@ -85,10 +92,15 @@ def main():
             cn_count=sum(r.get("china_beachhead","").lower() in truthy for r in rows)
             dual_count=sum(r.get("us_beachhead","").lower() in truthy and r.get("china_beachhead","").lower() in truthy for r in rows)
             side_primary=sum(r.get("primary_market","").upper() in ("JP","TW","KR") for r in rows)
+            launch_fit=sum(r.get("launch_2030_fit","").lower() in truthy for r in rows)
+            precompany=sum(r.get("precompany_validation_by_2029","").lower() in truthy for r in rows)
             if us_count<18: errors.append(f"credible US beachheads {us_count} < 18")
             if cn_count<18: errors.append(f"credible China beachheads {cn_count} < 18")
             if dual_count<12: errors.append(f"credible US+China dual beachheads {dual_count} < 12")
             if side_primary>4: errors.append(f"side-market-primary final ideas {side_primary} > 4")
+            if launch_fit<24: errors.append(f"final ideas passing 2030 launch fit {launch_fit} < 24")
+            if precompany<12: errors.append(f"final ideas with pre-company validation by 2029 {precompany} < 12")
+            if sum(bool(r.get("timing_window","").strip()) for r in rows)<24: errors.append("final ideas missing timing-window analysis")
             ledger_path=ROOT/"90_BIBLIOGRAPHY"/"sources.json"
             if ledger_path.exists():
                 ledger=[s for s in json.loads(ledger_path.read_text(encoding="utf-8-sig")) if s.get("accepted")]

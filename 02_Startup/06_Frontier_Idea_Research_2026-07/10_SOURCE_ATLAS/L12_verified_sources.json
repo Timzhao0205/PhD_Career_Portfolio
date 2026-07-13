@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1038/s44172-025-00562-8",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.nature.com/nature/editorial-policies/peer-review",
     "doi": "10.1038/s44172-025-00562-8",
@@ -22,7 +26,26 @@
     "locator": "Crossref API record for 10.1038/s44172-025-00562-8, confirmed type=journal-article, container-title=Communications Engineering, publisher=Springer Science and Business Media LLC, published 2025-12-02 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref confirms journal-article status in Communications Engineering (Nature Portfolio, peer-reviewed). Full article text not independently fetched this session (nature.com gated a direct scrape in the raw pass); DOI/venue/type verified via Crossref, which is sufficient for venue-identity confirmation per standards. Author names still unconfirmed -- left as 'Unconfirmed authors' rather than invented."
+    "notes": "Crossref confirms journal-article status in Communications Engineering (Nature Portfolio, peer-reviewed). Full article text not independently fetched this session (nature.com gated a direct scrape in the raw pass); DOI/venue/type verified via Crossref, which is sufficient for venue-identity confirmation per standards. Author names still unconfirmed -- left as 'Unconfirmed authors' rather than invented.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Southampton",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s44172-025-00562-8"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors (Xie, Grant-Jacob, Praeger, Zervas, Mills) resolve to University of Southampton, UK. No Indian affiliation. Raw record had 'Unconfirmed authors' -- now fully resolved via OpenAlex."
+    }
   },
   {
     "id": "L12-002",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.1007/s12200-024-00107-5",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.springer.com/gp/editorial-policies/peer-review-process",
     "doi": "10.1007/s12200-024-00107-5",
@@ -47,7 +74,26 @@
     "locator": "Crossref API record for 10.1007/s12200-024-00107-5, confirmed type=journal-article, container-title=Frontiers of Optoelectronics, publisher=Higher Education Press, published 2024-01-22 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref. Primary experimental result, not a review. Full text not independently re-fetched this session."
+    "notes": "DOI/venue confirmed via Crossref. Primary experimental result, not a review. Full text not independently re-fetched this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Wuhan National Laboratory for Optoelectronics / Huazhong University of Science and Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s12200-024-00107-5"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Huazhong University of Science and Technology / Wuhan National Lab, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-003",
@@ -58,12 +104,16 @@
     "canonical_key": "doi:10.1063/5.0174149",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://publishing.aip.org/resources/researchers/peer-review/",
     "doi": "10.1063/5.0174149",
@@ -72,7 +122,26 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1063/5.0174149 (journal-article, Applied Physics Letters, AIP Publishing), fetched this session; raw record's DOI field was blank and is now corrected/filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IMPORTANT CORRECTION: raw record had no DOI; resolved via Crossref bibliographic search this session. An erratum exists (DOI 10.1063/5.0258427, 'Erratum: Production of 13.5 nm light...') -- verifier flags this for the idea/deep-dive stage to check the erratum's content before quoting the 5% figure as final."
+    "notes": "IMPORTANT CORRECTION: raw record had no DOI; resolved via Crossref bibliographic search this session. An erratum exists (DOI 10.1063/5.0258427, 'Erratum: Production of 13.5 nm light...') -- verifier flags this for the idea/deep-dive stage to check the erratum's content before quoting the 5% figure as final.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Advanced Research Center for Nanolithography (ARCNL) / Vrije Universiteit Amsterdam",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0174149"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolve to ARCNL / VU Amsterdam, Netherlands. No Indian affiliation."
+    }
   },
   {
     "id": "L12-004",
@@ -83,12 +152,16 @@
     "canonical_key": "doi:10.1063/5.0228383",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://publishing.aip.org/resources/researchers/peer-review/",
     "doi": "10.1063/5.0228383",
@@ -97,7 +170,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Applied Physics Reviews, publisher=AIP Publishing, print date 2025-09-01 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Tiered T2 (review article) per SOURCE_STANDARDS despite peer-reviewed venue. DOI/venue confirmed via Crossref."
+    "notes": "Tiered T2 (review article) per SOURCE_STANDARDS despite peer-reviewed venue. DOI/venue confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Guangxi University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0228383"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Guangxi University, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-005",
@@ -108,12 +200,16 @@
     "canonical_key": "doi:10.1088/2631-7990/ad943e",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://ioppublishing.org/peer-review/",
     "doi": "10.1088/2631-7990/ad943e",
@@ -122,7 +218,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=International Journal of Extreme Manufacturing, publisher=IOP Publishing, online 2024-12-12/print 2025-04-01 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Tiered T2 (explicit review, 'from fundamental to applications'). DOI/venue confirmed via Crossref."
+    "notes": "Tiered T2 (explicit review, 'from fundamental to applications'). DOI/venue confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Shanghai for Science and Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/2631-7990/ad943e"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolve to University of Shanghai for Science and Technology, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-006",
@@ -133,12 +248,16 @@
     "canonical_key": "doi:10.1038/s41467-020-15678-y",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.nature.com/nature/editorial-policies/peer-review",
     "doi": "10.1038/s41467-020-15678-y",
@@ -147,7 +266,34 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Nature Communications, publisher=Springer Science and Business Media LLC, published 2020-05-11 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref this session."
+    "notes": "DOI/venue confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Advanced Research Center for Nanolithography (ARCNL) / VU Amsterdam / U Twente / U Groningen",
+          "country": "NL"
+        },
+        {
+          "name": "Keldysh Institute of Applied Mathematics",
+          "country": "RU"
+        },
+        {
+          "name": "Los Alamos National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 12,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-020-15678-y"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 12 authors resolve to Netherlands (ARCNL/VU/Twente/Groningen), Russia (Keldysh Institute), or US (LANL) institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L12-007",
@@ -158,12 +304,16 @@
     "canonical_key": "doi:10.1088/1361-6595/ab3302",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://ioppublishing.org/peer-review/",
     "doi": "10.1088/1361-6595/ab3302",
@@ -172,7 +322,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Plasma Sources Science and Technology, publisher=IOP Publishing, print 2019-08-01/online 2019-08-19 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref's top-level 'type' field does not distinguish research vs. topical-review sub-type; kept at T2 per the raw scout's conservative reading of this as a broad tutorial-style treatment. Not independently re-classified this session -- flagged for idea-stage double-check of article vs. review status if this becomes load-bearing."
+    "notes": "Crossref's top-level 'type' field does not distinguish research vs. topical-review sub-type; kept at T2 per the raw scout's conservative reading of this as a broad tutorial-style treatment. Not independently re-classified this session -- flagged for idea-stage double-check of article vs. review status if this becomes load-bearing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Advanced Research Center for Nanolithography (ARCNL)",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1361-6595/ab3302"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole listed author (Versolato) resolves to ARCNL, Netherlands. No Indian affiliation."
+    }
   },
   {
     "id": "L12-008",
@@ -183,12 +352,16 @@
     "canonical_key": "doi:10.1088/2040-8986/ac5a7e",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://ioppublishing.org/peer-review/",
     "doi": "10.1088/2040-8986/ac5a7e",
@@ -197,7 +370,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Journal of Optics, publisher=IOP Publishing, online 2022-04-22/print 2022-05-01 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Explicitly labeled 'Topical Review' by the venue itself -- T2 per SOURCE_STANDARDS."
+    "notes": "Explicitly labeled 'Topical Review' by the venue itself -- T2 per SOURCE_STANDARDS.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "ARCNL / Vrije Universiteit Amsterdam / University of Groningen",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/2040-8986/ac5a7e"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to Dutch institutions (ARCNL/VU Amsterdam/U Groningen). No Indian affiliation."
+    }
   },
   {
     "id": "L12-009",
@@ -208,12 +400,16 @@
     "canonical_key": "doi:10.2514/1.j061766",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://aiaa.org/publications/journals/Journal-Author/journal-acceptance-procedure/",
     "doi": "10.2514/1.J061766",
@@ -222,7 +418,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=AIAA Journal, publisher=AIAA, published 2022-10 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "YEAR CORRECTED from 2023 (raw record) to 2022 -- Crossref's published-print date is October 2022; no 2023 date found. AIAA journal peer-review confirmed: single-blind expert review plus Editor-in-Chief screening per AIAA's journal acceptance procedure. Direct arc.aiaa.org fetch still returns 403 (paywall) this session; not independently re-attempted."
+    "notes": "YEAR CORRECTED from 2023 (raw record) to 2022 -- Crossref's published-print date is October 2022; no 2023 date found. AIAA journal peer-review confirmed: single-blind expert review plus Editor-in-Chief screening per AIAA's journal acceptance procedure. Direct arc.aiaa.org fetch still returns 403 (paywall) this session; not independently re-attempted.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Innoven Energy, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.researchgate.net/publication/361926577_Adaptive_Optics_for_Directed_Energy_Fundamentals_and_Methodology"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex had no institution for the sole author (Richard B. Holmes); AIAA Xplore page paywalled. Independent web search confirms affiliation as Innoven Energy, Inc., Solana Beach, California, US (per AIAA Journal vol 60 no 10, 2022, author byline). No Indian affiliation."
+    }
   },
   {
     "id": "L12-010",
@@ -233,12 +448,16 @@
     "canonical_key": "doi:10.18287/2412-6179-co-1352",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["RU"],
+    "geography": [
+      "RU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.scopus.com/sourceid/21100203110",
     "doi": "10.18287/2412-6179-CO-1352",
@@ -247,7 +466,30 @@
     "locator": "Crossref bibliographic search resolved DOI 10.18287/2412-6179-co-1352 (journal-article, Computer Optics, Samara National Research University), fetched this session; raw record's blank DOI is now filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and filled this session (raw had none). Computer Optics is Scopus Q1-indexed (Engineering, miscellaneous) and Web of Science ESCI-indexed, confirming an active peer-review process; confirmed via WebSearch this session (Scopus source page + Samara University journal description)."
+    "notes": "DOI resolved and filled this session (raw had none). Computer Optics is Scopus Q1-indexed (Engineering, miscellaneous) and Web of Science ESCI-indexed, confirming an active peer-review process; confirmed via WebSearch this session (Scopus source page + Samara University journal description).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "M.A. Sadovskii Institute of Geosphere Dynamics, Russian Academy of Sciences",
+          "country": "RU"
+        },
+        {
+          "name": "Moscow Polytechnic University",
+          "country": "RU"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://computeroptics.ru/eng/KO/Annot/KO48-4/480405e.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex had no institutions for any of the 5 authors. Independent web search confirms Rukosuev/Kudryashov et al. are affiliated with M.A. Sadovskii Institute of Geosphere Dynamics RAS and Moscow Polytechnic University, Russia. No Indian affiliation."
+    }
   },
   {
     "id": "L12-011",
@@ -258,12 +500,17 @@
     "canonical_key": "doi:10.1017/hpl.2025.16",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR", "multinational"],
+    "geography": [
+      "FR",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/information/peer-review-information/instructions-for-peer-reviewers",
     "doi": "10.1017/hpl.2025.16",
@@ -272,7 +519,38 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1017/hpl.2025.16 (journal-article, HPLSE, Cambridge University Press), fetched this session; raw record's blank DOI is now filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and filled this session. An erratum exists (DOI 10.1017/hpl.2025.10039) -- flagged for downstream checking. Journal uses Cambridge's Online Peer Review Service; Gold OA, joint CUP/Chinese Laser Press venture confirmed."
+    "notes": "DOI resolved and filled this session. An erratum exists (DOI 10.1017/hpl.2025.10039) -- flagged for downstream checking. Journal uses Cambridge's Online Peer Review Service; Gold OA, joint CUP/Chinese Laser Press venture confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Ecole Polytechnique / Laboratoire pour l'Utilisation des Lasers Intenses",
+          "country": "FR"
+        },
+        {
+          "name": "GSI Helmholtz Centre for Heavy Ion Research",
+          "country": "DE"
+        },
+        {
+          "name": "National Astronomical Observatory of Japan",
+          "country": "JP"
+        },
+        {
+          "name": "University of Arizona",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1017/hpl.2025.16"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolve to French, German, Japanese, or US institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L12-012",
@@ -283,12 +561,16 @@
     "canonical_key": "doi:10.1002/lpor.202300951",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:17:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://authorservices.wiley.com/Reviewers/journal-reviewers/what-is-peer-review/index.html",
     "doi": "10.1002/lpor.202300951",
@@ -297,7 +579,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Laser & Photonics Reviews, publisher=Wiley, online 2024-03-10/print 2024-07 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Original research report (Wiley's 'Laser & Photonics Reviews' publishes both original 'Research Articles' and reviews as separate article types; this is a primary result, not a review) -- tiered T1."
+    "notes": "Original research report (Wiley's 'Laser & Photonics Reviews' publishes both original 'Research Articles' and reviews as separate article types; this is a primary result, not a review) -- tiered T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Nankai University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 10,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1002/lpor.202300951"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 10 authors resolve to Nankai University, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-013",
@@ -308,12 +609,16 @@
     "canonical_key": "doi:10.1002/adpr.202500012",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://authorservices.wiley.com/Reviewers/journal-reviewers/what-is-peer-review/index.html",
     "doi": "10.1002/adpr.202500012",
@@ -322,7 +627,34 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Advanced Photonics Research, publisher=Wiley, online 2025-08-24/print 2025-12 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Explicitly a review ('Recent Advances in...') -- T2 per SOURCE_STANDARDS."
+    "notes": "Explicitly a review ('Recent Advances in...') -- T2 per SOURCE_STANDARDS.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Northeastern University (China)",
+          "country": "CN"
+        },
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        },
+        {
+          "name": "China Academy of Engineering Physics",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 11,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1002/adpr.202500012"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 11 authors resolve to Chinese institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L12-014",
@@ -333,12 +665,16 @@
     "canonical_key": "doi:10.1038/s41377-025-01788-z",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:19:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.nature.com/nature/editorial-policies/peer-review",
     "doi": "10.1038/s41377-025-01788-z",
@@ -347,7 +683,30 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Light: Science & Applications, publisher=Springer Science and Business Media LLC, published 2025-04-02 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref this session."
+    "notes": "DOI/venue confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Technion - Israel Institute of Technology",
+          "country": "IL"
+        },
+        {
+          "name": "Purdue University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41377-025-01788-z"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "5 authors at Technion (Israel), 1 at Purdue (US). No Indian affiliation."
+    }
   },
   {
     "id": "L12-015",
@@ -358,12 +717,16 @@
     "canonical_key": "doi:10.1364/ol.507932",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://opg.optica.org/submit/review/peer_review.cfm",
     "doi": "10.1364/OL.507932",
@@ -372,7 +735,34 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1364/ol.507932 (journal-article, Optics Letters, Optica Publishing Group), fetched this session; raw record's blank DOI is now filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and filled this session (raw explicitly withheld an invented 10.1364/OL.* guess; now confirmed via Crossref as 10.1364/OL.507932)."
+    "notes": "DOI resolved and filled this session (raw explicitly withheld an invented 10.1364/OL.* guess; now confirmed via Crossref as 10.1364/OL.507932).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shandong University",
+          "country": "CN"
+        },
+        {
+          "name": "Shanghai Institute of Optics and Fine Mechanics",
+          "country": "CN"
+        },
+        {
+          "name": "Academia Sinica",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1364/ol.507932"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Chinese mainland or Taiwan institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L12-016",
@@ -383,12 +773,16 @@
     "canonical_key": "doi:10.3390/mi15101237",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:21:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/mi15101237",
@@ -397,7 +791,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Micromachines, publisher=MDPI AG, published 2024-10-07 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref this session."
+    "notes": "DOI/venue confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National University of Defense Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/mi15101237"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolve to National University of Defense Technology, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-017",
@@ -408,12 +821,16 @@
     "canonical_key": "doi:10.1063/5.0206859",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://publishing.aip.org/resources/researchers/peer-review/",
     "doi": "10.1063/5.0206859",
@@ -422,7 +839,26 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1063/5.0206859 (journal-article, APL Photonics, AIP Publishing), fetched this session; raw record's blank DOI is now filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and filled this session."
+    "notes": "DOI resolved and filled this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Yale University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0206859"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolve to Yale University, US. No Indian affiliation."
+    }
   },
   {
     "id": "L12-018",
@@ -433,12 +869,16 @@
     "canonical_key": "doi:10.1016/j.rinp.2022.106098",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:23:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.elsevier.com/reviewers/what-is-peer-review",
     "doi": "10.1016/j.rinp.2022.106098",
@@ -447,7 +887,34 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1016/j.rinp.2022.106098 (journal-article, Results in Physics, Elsevier), fetched this session; confirms the raw scout's tentative journal guess ('likely Results in Physics').",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal identity CONFIRMED as Results in Physics (raw record had marked this uncertain); DOI resolved and filled."
+    "notes": "Journal identity CONFIRMED as Results in Physics (raw record had marked this uncertain); DOI resolved and filled.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        },
+        {
+          "name": "Xi'an Institute of Optics and Precision Mechanics",
+          "country": "CN"
+        },
+        {
+          "name": "Shanxi University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.rinp.2022.106098"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Chinese institutions. Journal identity (Results in Physics) also confirmed this session. No Indian affiliation."
+    }
   },
   {
     "id": "L12-019",
@@ -458,12 +925,16 @@
     "canonical_key": "doi:10.1364/ao.547110",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://opg.optica.org/submit/review/peer_review.cfm",
     "doi": "10.1364/AO.547110",
@@ -472,7 +943,30 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1364/ao.547110 (journal-article, Applied Optics, Optica Publishing Group), fetched this session; raw record's blank DOI is now filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and filled this session."
+    "notes": "DOI resolved and filled this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Chongqing Normal University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1364/ao.547110"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "9 of 12 authors resolve to Chinese institutions (UCAS, Chongqing Normal University); 3 unresolved but same single-country research group. No Indian affiliation."
+    }
   },
   {
     "id": "L12-020",
@@ -483,12 +977,16 @@
     "canonical_key": "doi:10.1364/oe.21.014698",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:25:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://opg.optica.org/submit/review/peer_review.cfm",
     "doi": "10.1364/OE.21.014698",
@@ -497,7 +995,26 @@
     "locator": "Crossref bibliographic search CONFIRMED DOI 10.1364/oe.21.014698 (journal-article, Optics Express, Optica Publishing Group), fetched this session -- this exactly matches the raw scout's plausible-but-unverified guess, now independently confirmed.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed and filled this session; the raw scout correctly withheld it pending verification rather than inventing it -- good practice rewarded."
+    "notes": "DOI confirmed and filled this session; the raw scout correctly withheld it pending verification rather than inventing it -- good practice rewarded.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institut Fresnel, CNRS, Aix-Marseille Universite, Ecole Centrale Marseille",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1364/oe.21.014698"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors resolve to Institut Fresnel, France. No Indian affiliation."
+    }
   },
   {
     "id": "L12-021",
@@ -508,12 +1025,16 @@
     "canonical_key": "doi:10.1109/jetcas.2025.3590744",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:26:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics-for-ieee-journals/",
     "doi": "10.1109/JETCAS.2025.3590744",
@@ -522,7 +1043,30 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=IEEE Journal on Emerging and Selected Topics in Circuits and Systems, publisher=IEEE, published September 2025 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IEEE Xplore document ID (11087222) and DOI cross-confirmed via Crossref this session, satisfying the standards' requirement to verify the actual IEEE Xplore record rather than trusting 'IEEE' appearing in search results."
+    "notes": "IEEE Xplore document ID (11087222) and DOI cross-confirmed via Crossref this session, satisfying the standards' requirement to verify the actual IEEE Xplore record rather than trusting 'IEEE' appearing in search results.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "MediaTek (China)",
+          "country": "CN"
+        },
+        {
+          "name": "MediaTek (Taiwan)",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/jetcas.2025.3590744"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors resolve to MediaTek entities (mainland China / Taiwan). No Indian affiliation. IEEE Xplore document ID cross-confirmed."
+    }
   },
   {
     "id": "L12-022",
@@ -533,12 +1077,16 @@
     "canonical_key": "doi:10.1117/1.apn.5.3.034001",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:27:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/author-guidelines",
     "doi": "10.1117/1.APN.5.3.034001",
@@ -547,7 +1095,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Advanced Photonics Nexus, publisher=SPIE, published 2026-03-19 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Tiered T2 as an explicit review; Gold OA SPIE journal with formal Co-EiC + editorial-board peer-review screening confirmed via WebSearch this session."
+    "notes": "Tiered T2 as an explicit review; Gold OA SPIE journal with formal Co-EiC + editorial-board peer-review screening confirmed via WebSearch this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Electronic Science and Technology of China",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1117/1.apn.5.3.034001"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to UESTC, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-023",
@@ -558,12 +1125,16 @@
     "canonical_key": "doi:10.3390/mi16091037",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/mi16091037",
@@ -572,7 +1143,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Micromachines, publisher=MDPI AG, published 2025-09-10 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Tiered T2 (review). English-language despite Chinese-affiliated authorship -- does not count toward local-language quota, only CN geography, consistent with raw scout's flag."
+    "notes": "Tiered T2 (review). English-language despite Chinese-affiliated authorship -- does not count toward local-language quota, only CN geography, consistent with raw scout's flag.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xiamen University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/mi16091037"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolve to Xiamen University of Technology, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-024",
@@ -583,12 +1173,16 @@
     "canonical_key": "doi:10.1007/s12200-025-00156-4",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:29:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.springer.com/gp/editorial-policies/peer-review-process",
     "doi": "10.1007/s12200-025-00156-4",
@@ -597,7 +1191,30 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Frontiers of Optoelectronics, publisher=Springer, published 2025-05-14 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref this session. Primary experimental+simulation study, T1."
+    "notes": "DOI/venue confirmed via Crossref this session. Primary experimental+simulation study, T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences, Institute of Microelectronics",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Microelectronics",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s12200-025-00156-4"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Chinese Academy of Sciences (China) and Institute of Microelectronics (Singapore) nodes of the same institution. No Indian affiliation."
+    }
   },
   {
     "id": "L12-025",
@@ -608,12 +1225,16 @@
     "canonical_key": "doi:10.1002/cta.70354",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://authorservices.wiley.com/Reviewers/journal-reviewers/what-is-peer-review/index.html",
     "doi": "10.1002/cta.70354",
@@ -622,7 +1243,30 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=International Journal of Circuit Theory and Applications, publisher=Wiley, published 2026-02-06 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref this session."
+    "notes": "DOI/venue confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Yildiz Technical University",
+          "country": "TR"
+        },
+        {
+          "name": "Abdullah Gul University",
+          "country": "TR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1002/cta.70354"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolve to Turkish institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L12-026",
@@ -633,12 +1277,16 @@
     "canonical_key": "doi:10.3390/electronics15010210",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/electronics15010210",
@@ -647,7 +1295,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Electronics, publisher=MDPI AG, published 2026-01-01 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI/venue confirmed via Crossref this session."
+    "notes": "DOI/venue confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Warsaw University of Technology",
+          "country": "PL"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/electronics15010210"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolve to Warsaw University of Technology, Poland. No Indian affiliation."
+    }
   },
   {
     "id": "L12-027",
@@ -658,12 +1325,16 @@
     "canonical_key": "doi:10.3390/photonics9090652",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/photonics9090652",
@@ -672,7 +1343,34 @@
     "locator": "Crossref bibliographic search CONFIRMED DOI 10.3390/photonics9090652 (journal-article, Photonics, MDPI), fetched this session -- matches the raw scout's plausible-but-withheld guess.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed and filled this session; raw scout correctly withheld the guessed DOI pending verification."
+    "notes": "DOI confirmed and filled this session; raw scout correctly withheld the guessed DOI pending verification.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Yang Ming Chiao Tung University",
+          "country": "TW"
+        },
+        {
+          "name": "Industrial Technology Research Institute",
+          "country": "TW"
+        },
+        {
+          "name": "Taiwan Forestry Research Institute",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/photonics9090652"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolve to Taiwanese institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L12-028",
@@ -683,12 +1381,16 @@
     "canonical_key": "doi:10.37188/lam.2024.035",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:33:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.light-am.com/",
     "doi": "10.37188/lam.2024.035",
@@ -697,7 +1399,26 @@
     "locator": "Crossref API record confirmed type=journal-article, container-title=Light: Advanced Manufacturing, publisher=Changchun Institute of Optics/CAS, published 2024 (fetched this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETIERED from T1 (raw) to T2 and CONFIRMED via WebSearch this session (EurekAlert/Guangdong University of Technology press-release synthesis explicitly states 'This is a review article' by Prof. Lin Ma's team, first author Shijie Du) -- not just title-based inference. Authors filled in (raw had 'Unconfirmed authors'). Journal peer review confirmed via WebSearch ('rigorous yet objective peer-review process', Diamond OA, ScholarOne tracking, ~22-week submission-to-publication). English-language despite CN publisher -- CN geography only, no local-language credit."
+    "notes": "RETIERED from T1 (raw) to T2 and CONFIRMED via WebSearch this session (EurekAlert/Guangdong University of Technology press-release synthesis explicitly states 'This is a review article' by Prof. Lin Ma's team, first author Shijie Du) -- not just title-based inference. Authors filled in (raw had 'Unconfirmed authors'). Journal peer review confirmed via WebSearch ('rigorous yet objective peer-review process', Diamond OA, ScholarOne tracking, ~22-week submission-to-publication). English-language despite CN publisher -- CN geography only, no local-language credit.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Guangdong University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.light-am.com/article/doi/10.37188/lam.2024.035"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex had no institutions listed. Publisher page (light-am.com) directly enumerates all 3 authors as School of Physics & Photoelectric Engineering / Guangdong Provincial Key Laboratories, Guangdong University of Technology, Guangzhou, China. No Indian affiliation."
+    }
   },
   {
     "id": "L12-029",
@@ -708,12 +1429,20 @@
     "canonical_key": "doi:10.1038/s41378-024-00736-y",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN", "JP", "KR", "TW", "SG"],
+    "geography": [
+      "CN",
+      "JP",
+      "KR",
+      "TW",
+      "SG"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.nature.com/nature/editorial-policies/peer-review",
     "doi": "10.1038/s41378-024-00736-y",
@@ -722,7 +1451,38 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1038/s41378-024-00736-y (journal-article, Microsystems & Nanoengineering, a Nature Portfolio journal), fetched this session; raw record's container-title (only 'PMC-indexed') and blank DOI are now corrected/filled.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VENUE CORRECTED: raw record described this only as a generic 'review, PMC-indexed' source; it is in fact published in Microsystems & Nanoengineering (Nature Portfolio), now confirmed via Crossref. Tiered T2 (explicit review). English-language, does not count toward local-language quota; used for broad Asia-geography context."
+    "notes": "VENUE CORRECTED: raw record described this only as a generic 'review, PMC-indexed' source; it is in fact published in Microsystems & Nanoengineering (Nature Portfolio), now confirmed via Crossref. Tiered T2 (explicit review). English-language, does not count toward local-language quota; used for broad Asia-geography context.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Pohang University of Science and Technology",
+          "country": "KR"
+        },
+        {
+          "name": "RIKEN Center for Advanced Photonics / Tokushima University",
+          "country": "JP"
+        },
+        {
+          "name": "Hunan University",
+          "country": "CN"
+        },
+        {
+          "name": "Dalian University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41378-024-00736-y"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to Korean, Japanese, or Chinese institutions. Article's geography tags (CN/JP/KR/TW/SG) reflect the review's coverage of Asian photonics hubs broadly, not author affiliation; no author affiliation is Indian or Indian-content-relevant."
+    }
   },
   {
     "id": "L12-030",
@@ -733,12 +1493,16 @@
     "canonical_key": "doi:10.3807/kjop.2024.35.2.061",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:36:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "http://koreascience.or.kr/journal/view.jsp?kj=KGHHBU&py=2024&vnc=v35n2&sp=61",
     "doi": "10.3807/KJOP.2024.35.2.061",
@@ -747,7 +1511,26 @@
     "locator": "DOI resolved via doi.org redirect to koreascience.or.kr journal page, fetched directly this session; confirms title (translated slightly differently as 'Development of Laser Power Meter Calibration System with 12-diode Laser Sources'), authors, volume/issue, and bilingual (Korean+English) presentation.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "AUTHORS CONFIRMED this session (raw had 'Unconfirmed authors'): Kanghee Lee, Jae-Keun Yoo, In-Ho Bae, Seongchong Park, Dong-Hoon Lee, KRISS. Article confirmed bilingual (English text first, Korean translation follows) -- counted toward the Asia local-language quota (language set to 'ko') since substantive Korean-language content is present, consistent with the mission's >=3 local-language target; verifier should note the bilingual nature if a stricter Korean-only count is later required. Peer review (2+ reviewers) confirmed via WebSearch of OSK/KJOP editorial policy."
+    "notes": "AUTHORS CONFIRMED this session (raw had 'Unconfirmed authors'): Kanghee Lee, Jae-Keun Yoo, In-Ho Bae, Seongchong Park, Dong-Hoon Lee, KRISS. Article confirmed bilingual (English text first, Korean translation follows) -- counted toward the Asia local-language quota (language set to 'ko') since substantive Korean-language content is present, consistent with the mission's >=3 local-language target; verifier should note the bilingual nature if a stricter Korean-only count is later required. Peer review (2+ reviewers) confirmed via WebSearch of OSK/KJOP editorial policy.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Research Institute of Standards and Science (KRISS)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "http://koreascience.or.kr/journal/view.jsp?kj=KGHHBU&py=2024&vnc=v35n2&sp=61"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Not indexed in OpenAlex. Publisher page (koreascience.or.kr) directly confirms all 5 authors are affiliated with Division of Physical Metrology, Korea Research Institute of Standards and Science, South Korea. No Indian affiliation."
+    }
   },
   {
     "id": "L12-031",
@@ -758,12 +1541,16 @@
     "canonical_key": "title-year:department-of-war-awards-joint-laser-weapon-system-jlws-agreements-2026",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T09:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1559,26 @@
     "locator": "DefenseScoop article, July 9, 2026, paragraphs on award value and program office (fetched by raw scout this session; internally consistent with nLIGHT's own $44M/$627M company-specific figures verified independently below -- $86M-$44M=$42M and $847M-$627M=$220M implied for Lockheed Martin Aculight, arithmetically consistent).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Retained raw scout's direct fetch (this record was not independently re-fetched by the verifier, but its combined figures were cross-checked for internal consistency against nLIGHT's own $44M/$627M breakdown confirmed independently via BusinessWire/defence-industry.eu -- the arithmetic is consistent, corroborating both records."
+    "notes": "Retained raw scout's direct fetch (this record was not independently re-fetched by the verifier, but its combined figures were cross-checked for internal consistency against nLIGHT's own $44M/$627M breakdown confirmed independently via BusinessWire/defence-industry.eu -- the arithmetic is consistent, corroborating both records.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of War, Office of the Under Secretary for Research and Engineering (SCADE CTA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://defensescoop.com/2026/07/09/pentagon-joint-laser-weapon-system-defeat-drone-swarms/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government (Department of War / Pentagon) announcement, reported by DefenseScoop, a US defense trade publication. Unambiguous major institution."
+    }
   },
   {
     "id": "L12-032",
@@ -783,12 +1589,16 @@
     "canonical_key": "title-year:nlight-awarded-627-million-joint-laser-weapon-system-jlws-contract-2026",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1607,26 @@
     "locator": "Direct WebFetch of defence-industry.eu (July 10, 2026 republication quoting the BusinessWire release verbatim) this session, confirming '$44 million' initial / 'up to $627 million' ceiling; corroborated by independent WebSearch synthesis across simplywall.st, pulse2.com, wallstreetreporter.com, ts2.tech, ir-ia.com, benzinga.com.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Direct WebFetch of the exact businesswire.com URL failed 3 times this session (timeout/ECONNRESET) -- re-attempted per the mission's instruction to retry failed DoD-related announcement fetches; satisfied instead via a direct fetch of a corroborating republication (defence-industry.eu) that quotes the release verbatim, plus 6 independent secondary sources agreeing on the exact $44M/$627M figures. Fetched=true is based on this corroborating direct fetch, not the original businesswire.com URL."
+    "notes": "Direct WebFetch of the exact businesswire.com URL failed 3 times this session (timeout/ECONNRESET) -- re-attempted per the mission's instruction to retry failed DoD-related announcement fetches; satisfied instead via a direct fetch of a corroborating republication (defence-industry.eu) that quotes the release verbatim, plus 6 independent secondary sources agreeing on the exact $44M/$627M figures. Fetched=true is based on this corroborating direct fetch, not the original businesswire.com URL.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "nLIGHT, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.businesswire.com/news/home/20260709375006/en/nLIGHT-Awarded-$627-Million-Joint-Laser-Weapon-System-JLWS-Contract"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "nLIGHT, Inc., Nasdaq-listed, headquartered in Camas, Washington, US. Unambiguous major company."
+    }
   },
   {
     "id": "L12-033",
@@ -808,12 +1637,16 @@
     "canonical_key": "https://www.sec.gov/archives/edgar/data/1124796/000112479626000012/lasr-20251231.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1655,26 @@
     "locator": "Direct WebFetch of stocktitan.net's 10-K analysis page (stocktitan.net/sec-filings/LASR/10-k-nlight-inc-files-annual-report-3af7e0cd6594.html) this session, confirming total revenue, Aerospace & Defense revenue, backlog ($161.6M), and unfunded government value ($184.4M) figures exactly as in the raw record.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Direct SEC.gov fetch returned HTTP 403 three times this session (SEC EDGAR blocks non-compliant User-Agent headers); re-attempted via a secondary aggregator per the mission's re-fetch instruction and confirmed exact figures. Internal consistency check: $179.236M / $261.3M = 68.59% ~ 68.6% stated -- confirms the raw scout's correction of an earlier 'billion' mis-render is arithmetically sound. Canonical sec.gov URL retained since it is the true primary filing; verifier recommends a future session attempt fetch with a compliant User-Agent to obtain a clean primary-source fetch."
+    "notes": "Direct SEC.gov fetch returned HTTP 403 three times this session (SEC EDGAR blocks non-compliant User-Agent headers); re-attempted via a secondary aggregator per the mission's re-fetch instruction and confirmed exact figures. Internal consistency check: $179.236M / $261.3M = 68.59% ~ 68.6% stated -- confirms the raw scout's correction of an earlier 'billion' mis-render is arithmetically sound. Canonical sec.gov URL retained since it is the true primary filing; verifier recommends a future session attempt fetch with a compliant User-Agent to obtain a clean primary-source fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "nLIGHT, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1124796/000112479626000012/lasr-20251231.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEC EDGAR filing (CIK 1124796) for nLIGHT, Inc., a US-headquartered, Nasdaq-listed company. Unambiguous major company."
+    }
   },
   {
     "id": "L12-034",
@@ -833,12 +1685,17 @@
     "canonical_key": "https://www.sec.gov/archives/edgar/data/1111928/000111192826000040/ipgp-20251231.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "CN"],
+    "geography": [
+      "US",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1704,26 @@
     "locator": "Direct WebFetch of stocktitan.net's 10-K analysis page (stocktitan.net/sec-filings/IPGP/10-k-ipg-photonics-corp-files-annual-report-6a0e52b36c35.html) this session, quoting the exact competitor-pricing sentence and confirming total net sales ($1,003,777,000), product-line percentages, and China exposure (29%).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The raw record's specific dollar figures ($308.8M/$88.2M/$143.3M) are internally consistent with the percentages independently confirmed this session (308.8/1003.8=30.76%~31%; 88.2/1003.8=8.79%~8.78%; 143.3/1003.8=14.28%~14%). Gross margin (~38%) and inventory-provision figures ($82.5M to $30M) from the raw record were not independently re-confirmed this session but are not contradicted."
+    "notes": "The raw record's specific dollar figures ($308.8M/$88.2M/$143.3M) are internally consistent with the percentages independently confirmed this session (308.8/1003.8=30.76%~31%; 88.2/1003.8=8.79%~8.78%; 143.3/1003.8=14.28%~14%). Gross margin (~38%) and inventory-provision figures ($82.5M to $30M) from the raw record were not independently re-confirmed this session but are not contradicted.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "IPG Photonics Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1111928/000111192826000040/ipgp-20251231.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEC EDGAR filing (CIK 1111928) for IPG Photonics Corporation, headquartered in Marlborough, Massachusetts, US (Nasdaq-listed). Record's geography tag 'CN' reflects China revenue/competitor disclosures in the filing content, not the filer's location. Unambiguous major company."
+    }
   },
   {
     "id": "L12-035",
@@ -858,12 +1734,16 @@
     "canonical_key": "https://www.sec.gov/archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1752,26 @@
     "locator": "Direct WebFetch of stocktitan.net's Q4/FY2025 earnings-results article (stocktitan.net/news/COHR/coherent-corp-reports-fourth-quarter-and-full-year-fiscal-2025-12sikxrj07sy.html) this session, confirming total revenue ($5.81B vs $4.71B) and exact Lasers segment figures ($1.435B vs $1.395B, +3%, +$40M).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "ENRICHED vs. raw record: raw only had 'Lasers segment revenue increased 3%' without a dollar figure; this session's direct fetch adds the exact $1.435B/$1.395B figures and the $317M/$207M segment-profit figures. Direct sec.gov fetch failed (403); Coherent's own investor-relations PDF earnings release also failed to parse (binary/garbled); resolved via stocktitan.net secondary aggregator per mission re-fetch instruction."
+    "notes": "ENRICHED vs. raw record: raw only had 'Lasers segment revenue increased 3%' without a dollar figure; this session's direct fetch adds the exact $1.435B/$1.395B figures and the $317M/$207M segment-profit figures. Direct sec.gov fetch failed (403); Coherent's own investor-relations PDF earnings release also failed to parse (binary/garbled); resolved via stocktitan.net secondary aggregator per mission re-fetch instruction.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Coherent Corp.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Coherent Corp. is a Nasdaq-listed US company (Saxonburg, PA); official SEC EDGAR 10-K filing."
+    }
   },
   {
     "id": "L12-036",
@@ -883,12 +1782,16 @@
     "canonical_key": "https://www.coherent.com/news/press-releases/2025-analyst-investor-day",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:20:44Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1800,26 @@
     "locator": "coherent.com press release 'Coherent Corp. 2025 Analyst and Investor Day' -- sections: Financial Performance (CEO Jim Anderson); Executive Presentations (CTO Dr. Julie Sheridan Eng on optical transceivers/CPO; EVP Lasers Dr. Chris Dorman on Industrial markets; CFO Sherri Luther on financial priorities/target model); Resources (webcast replay/deck link). Full press-release text fetched directly this session (2026-07-12), superseding the prior session's JS-shell-only attempt.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CLAIM SOFTENED (retained from prior session): the raw record's specific '$4B datacenter-interconnect transceiver market' TAM figure and the '1.6T transceiver ramp on schedule in 2025' detail could NOT be confirmed in the fetched press-release text and remain excluded from claim_supported per the no-invented-figures rule; the full investor-day slide deck PDF was not independently parsed. fetched=true as of this session: direct WebFetch of the coherent.com press-release URL returned full article text (not the prior JS-loaded shell), confirming date/location/executives/segment content above."
+    "notes": "CLAIM SOFTENED (retained from prior session): the raw record's specific '$4B datacenter-interconnect transceiver market' TAM figure and the '1.6T transceiver ramp on schedule in 2025' detail could NOT be confirmed in the fetched press-release text and remain excluded from claim_supported per the no-invented-figures rule; the full investor-day slide deck PDF was not independently parsed. fetched=true as of this session: direct WebFetch of the coherent.com press-release URL returned full article text (not the prior JS-loaded shell), confirming date/location/executives/segment content above.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Coherent Corp.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.coherent.com/news/press-releases/2025-analyst-investor-day"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Coherent Corp.'s own press release; US company, event held at NYSE."
+    }
   },
   {
     "id": "L12-037",
@@ -908,12 +1830,16 @@
     "canonical_key": "https://www.laserfair.com/m/news/202604/21/90443.html",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:05:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1848,26 @@
     "locator": "laserfair.com article '营收逼近188亿...大族激光2025财报拆解', April 21, 2026, quoting the official 2025 annual report figures (fetched by raw scout this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Retained raw scout's unit-conversion correction (187.59 yi = RMB 18.759 billion, not 187.59 billion) -- independently sanity-checked against this session's Raycus figures (see L12-038 notes) which surfaced an ANALOGOUS but distinct 万-unit conversion error, reinforcing that this class of error is systematic across this lane's Chinese-language sources and must always be hand-verified. Official hanslaser.com PDF still not independently fetched this session."
+    "notes": "Retained raw scout's unit-conversion correction (187.59 yi = RMB 18.759 billion, not 187.59 billion) -- independently sanity-checked against this session's Raycus figures (see L12-038 notes) which surfaced an ANALOGOUS but distinct 万-unit conversion error, reinforcing that this class of error is systematic across this lane's Chinese-language sources and must always be hand-verified. Official hanslaser.com PDF still not independently fetched this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Han's Laser Technology Industry Group Co., Ltd.",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.laserfair.com/m/news/202604/21/90443.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Shenzhen Stock Exchange-listed Chinese company (002008.SZ); China-based, not India."
+    }
   },
   {
     "id": "L12-038",
@@ -933,12 +1878,16 @@
     "canonical_key": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-23/fd0eb7a0-53c8-4ddf-a758-fc5086284917.pdf",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:30:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +1896,26 @@
     "locator": "Direct WebFetch of laserfair.com article (laserfair.com/news/202604/23/90467.html, '营收34.67亿！锐科激光万瓦激光器销量暴增26%') this session; cross-checked against WebSearch synthesis quoting the underlying Chinese-language figures verbatim ('营业收入34.67亿元'; '公司激光器整机销量达18.60万台，同比增长6.47%'; '其中万瓦以上激光器销量8561台，同比增幅26%'; '手持焊出货5.19万台，同比增长66.22%').",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SYSTEMATIC UNIT-CONVERSION ERROR CAUGHT AND CORRECTED (exactly the risk class flagged in this verification task's briefing): (1) raw ledger's '1.86 million' total unit sales is 10x too high -- correct value is 186,000 units (18.60万台, where 万=10,000, not 100,000); (2) raw ledger's '>1000 W' high-power threshold is a mistranslation of '万瓦以上' (>10,000 W = >10 kW) -- an unrelated but compounding error, since 万瓦 literally means '10,000 watts', not '1,000 watts'. NOTABLY, when this verifier's own WebFetch tool was asked to summarize the same laserfair.com page directly, its underlying small model ALSO mis-rendered '34.67亿' as '34.67 billion' (should be RMB 3.467 billion) and repeated the '1.86 million units' and '519,000 handheld exports' errors -- demonstrating the tool itself is prone to this exact 万/亿 conversion failure mode. Final figures above were derived by manually converting the verbatim Chinese numerals quoted in a separate WebSearch pass, not by trusting either automated summary. The official SZSE-hosted PDF (canonical URL) returned unreadable binary content on two direct-fetch attempts this session; verified via an HTML mirror (laserfair.com) instead, consistent with prior lane methodology of treating this as a company filing regardless of which mirror was read."
+    "notes": "SYSTEMATIC UNIT-CONVERSION ERROR CAUGHT AND CORRECTED (exactly the risk class flagged in this verification task's briefing): (1) raw ledger's '1.86 million' total unit sales is 10x too high -- correct value is 186,000 units (18.60万台, where 万=10,000, not 100,000); (2) raw ledger's '>1000 W' high-power threshold is a mistranslation of '万瓦以上' (>10,000 W = >10 kW) -- an unrelated but compounding error, since 万瓦 literally means '10,000 watts', not '1,000 watts'. NOTABLY, when this verifier's own WebFetch tool was asked to summarize the same laserfair.com page directly, its underlying small model ALSO mis-rendered '34.67亿' as '34.67 billion' (should be RMB 3.467 billion) and repeated the '1.86 million units' and '519,000 handheld exports' errors -- demonstrating the tool itself is prone to this exact 万/亿 conversion failure mode. Final figures above were derived by manually converting the verbatim Chinese numerals quoted in a separate WebSearch pass, not by trusting either automated summary. The official SZSE-hosted PDF (canonical URL) returned unreadable binary content on two direct-fetch attempts this session; verified via an HTML mirror (laserfair.com) instead, consistent with prior lane methodology of treating this as a company filing regardless of which mirror was read.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Wuhan Raycus Fiber Laser Technologies Co., Ltd.",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-23/fd0eb7a0-53c8-4ddf-a758-fc5086284917.PDF"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SZSE-listed Wuhan (China) company filing; China-based, not India."
+    }
   },
   {
     "id": "L12-039",
@@ -958,12 +1926,16 @@
     "canonical_key": "title-year:trumpf-group-fy2024-25-annual-report-laser-technology-division-revenue-2025",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE"],
+    "geography": [
+      "DE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1944,26 @@
     "locator": "WebSearch synthesis this session of optics.org ('Trumpf's annual sales drop 17% to EUR4.3 billion') and surface-technology.info reporting, both quoting TRUMPF's own fiscal-year-figures press release (trumpf.com/en_US/newsroom/fiscal-year-figures-2024-25/).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Total-sales and Laser Technology division figures now independently corroborated via two independent trade outlets this session (optics.org, surface-technology.info), both quoting TRUMPF's own announcement; consistent with the raw record. TRUMPF is a privately held SE & Co. KG, so 'company_filing' refers to its own published annual/fiscal-year report rather than an SEC filing."
+    "notes": "Total-sales and Laser Technology division figures now independently corroborated via two independent trade outlets this session (optics.org, surface-technology.info), both quoting TRUMPF's own announcement; consistent with the raw record. TRUMPF is a privately held SE & Co. KG, so 'company_filing' refers to its own published annual/fiscal-year report rather than an SEC filing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "TRUMPF SE + Co. KG",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.trumpf.com/en_US/newsroom/global-press-releases/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Privately held German company (Ditzingen, Germany)."
+    }
   },
   {
     "id": "L12-040",
@@ -983,12 +1974,16 @@
     "canonical_key": "https://www.darpa.mil/research/programs/amped",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +1992,26 @@
     "locator": "Direct WebFetch of darpa.mil/research/programs/amped this session, confirming program description, PM name, and solicitation numbers/dates; the darpa.mil page itself discloses no dollar figures.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "PARTIAL RE-VERIFICATION: darpa.mil's own program page (fetched directly this session) confirms the program's existence, technical scope, and solicitation timeline, but does NOT show the $39M/$14M/$53M figures the raw record cited from a federal-contracts aggregator (sweetspotgov.com). A follow-up WebSearch this session found multiple aggregators (sam.gov, highergov.com, govtribe.com, bidscopeai.com) listing the same solicitation but none surfaced the specific dollar breakdown in accessible snippets. Flagged: the $39M/$14M/$53M figures should be treated as single-source (sweetspotgov.com) until independently corroborated -- downgrade confidence on the specific dollar amounts while the program's existence and scope remain solidly confirmed."
+    "notes": "PARTIAL RE-VERIFICATION: darpa.mil's own program page (fetched directly this session) confirms the program's existence, technical scope, and solicitation timeline, but does NOT show the $39M/$14M/$53M figures the raw record cited from a federal-contracts aggregator (sweetspotgov.com). A follow-up WebSearch this session found multiple aggregators (sam.gov, highergov.com, govtribe.com, bidscopeai.com) listing the same solicitation but none surfaced the specific dollar breakdown in accessible snippets. Flagged: the $39M/$14M/$53M figures should be treated as single-source (sweetspotgov.com) until independently corroborated -- downgrade confidence on the specific dollar amounts while the program's existence and scope remain solidly confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Defense Advanced Research Projects Agency (DARPA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.darpa.mil/research/programs/amped"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US Department of War agency, official .mil domain."
+    }
   },
   {
     "id": "L12-041",
@@ -1008,12 +2022,16 @@
     "canonical_key": "https://www.darpa.mil/research/programs/modular-efficient-laser-technology",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2040,26 @@
     "locator": "darpa.mil MELT program overview page (fetched by raw scout this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Retained raw scout's direct fetch; not independently re-fetched this session. The $8M/Northrop Grumman claim from militaryaerospace.com remains UNCONFIRMED (correctly excluded from claim_supported) -- still flagged pending direct verifier fetch."
+    "notes": "Retained raw scout's direct fetch; not independently re-fetched this session. The $8M/Northrop Grumman claim from militaryaerospace.com remains UNCONFIRMED (correctly excluded from claim_supported) -- still flagged pending direct verifier fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Defense Advanced Research Projects Agency (DARPA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.darpa.mil/research/programs/modular-efficient-laser-technology"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US government agency, official .mil domain."
+    }
   },
   {
     "id": "L12-042",
@@ -1033,12 +2070,16 @@
     "canonical_key": "https://www.energy.gov/nnsa/articles/nnsa-and-lawrence-livermore-national-laboratory-advance-laser-upgrade-nuclear-0",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2088,30 @@
     "locator": "energy.gov/NNSA article, April 2026 (fetched by raw scout this session); cost-growth context added this session from GAO-25-107204 (files.gao.gov/reports/GAO-25-107204/index.html, fetched directly this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "ENRICHED: added independent GAO cost-estimate corroboration/context this session (does not contradict the $26M FY2026 appropriation, which is a single-year budget line within a much larger multi-year project). No conflict found between the two sources; both retained per the mission's 'show conflicts, don't average' rule (here there is no real conflict, just complementary detail)."
+    "notes": "ENRICHED: added independent GAO cost-estimate corroboration/context this session (does not contradict the $26M FY2026 appropriation, which is a single-year budget line within a much larger multi-year project). No conflict found between the two sources; both retained per the mission's 'show conflicts, don't average' rule (here there is no real conflict, just complementary detail).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Nuclear Security Administration",
+          "country": "US"
+        },
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.energy.gov/nnsa/articles/nnsa-and-lawrence-livermore-national-laboratory-advance-laser-upgrade-nuclear-0"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US DOE/NNSA official .gov domain."
+    }
   },
   {
     "id": "L12-043",
@@ -1056,23 +2120,36 @@
     "year": 2025,
     "url": "https://thedefensepost.com/2025/04/14/india-30kw-laser-weapon-drone/",
     "canonical_key": "title-year:india-drdo-mk-ii-a-30-kw-laser-directed-energy-weapon-successful-trial-2025",
-    "source_type": "trade_press",
-    "tier": "T2",
-    "lane_ids": ["L12"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:45:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "official_project_award",
     "claim_supported": "On April 13, 2025, DRDO's Centre for High Energy Systems and Sciences (CHESS, Hyderabad) successfully trialed its Mk-II(A) laser directed-energy weapon (30 kW, combining six 5 kW lasers, ~3.5-5 km range against drones/fixed-wing aircraft/swarms) at the National Open Air Range, Kurnool, Andhra Pradesh, tracking and destroying a moving drone target; India is separately developing a 300 kW, 20 km-range system ('Surya'), with DRDO subsequently announcing plans to transfer Mk-II(A) technology to private-sector partners to scale production amid Indian Army interest.",
     "locator": "Direct WebFetch of thedefensepost.com/2025/04/14/india-30kw-laser-weapon-drone/ this session, confirming power/range/date/location and the 300 kW/20 km future-system detail; corroborated via WebSearch across idrw.org, armyrecognition.com, overtdefense.com (paywalled, HTTP 402 on direct fetch), dharmakshethra.com.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "The official DRDO/PIB primary source (drdo.gov.in) still returns 404 this session, as in the raw record; upgraded confidence via a successful direct fetch of an independent trade-press mirror (thedefensepost.com) plus corroboration from 4 additional independent outlets, all agreeing on power/date/location. Kept as T2 trade_press pending a true PIB/DRDO primary fetch."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "The official DRDO/PIB source document (drdo.gov.in/drdo/sites/default/files/drdo-news-documents/NPC12to15Apr2025.pdf) returned HTTP 404 on direct fetch this session; this record instead cites a defense-trade-press report of the official DRDO announcement, tiered T2 pending verifier location of the primary PIB/DRDO release. | The official DRDO/PIB primary source (drdo.gov.in) still returns 404 this session, as in the raw record; upgraded confidence via a successful direct fetch of an independent trade-press mirror (thedefensepost.com) plus corroboration from 4 additional independent outlets, all agreeing on power/date/location. Kept as T2 trade_press pending a true PIB/DRDO primary fetch. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.049522+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://thedefensepost.com/2025/04/14/india-30kw-laser-weapon-drone/"
+      ],
+      "original_source_type": "trade_press"
+    }
   },
   {
     "id": "L12-044",
@@ -1083,12 +2160,16 @@
     "canonical_key": "https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG"],
+    "geography": [
+      "SG"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2178,30 @@
     "locator": "Direct WebFetch of gf.com's own press release this session, confirming acquisition date, AMF details, A*STAR collaboration focus (400 Gbps materials), and CEO quote.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SOURCE_TYPE AND URL CHANGED from the raw record: raw cited an A*STAR government press release (a-star.edu.sg) that returned HTTP 404 on three separate direct-fetch attempts this session (including a Singapore government press-centre mirror, sgpc.gov.sg, whose PDF and HTML both failed to yield readable content). Verified instead via GlobalFoundries' own press release (successfully fetched), reclassified source_type from 'government' to 'market_industry' (company announcement) and demand_evidence_type from 'official_project_award' to 'none' since this is a research/foundry-acquisition partnership announcement, not a specific dollar-denominated demand signal. Flagged for a future session to retry the A*STAR primary government source."
+    "notes": "SOURCE_TYPE AND URL CHANGED from the raw record: raw cited an A*STAR government press release (a-star.edu.sg) that returned HTTP 404 on three separate direct-fetch attempts this session (including a Singapore government press-centre mirror, sgpc.gov.sg, whose PDF and HTML both failed to yield readable content). Verified instead via GlobalFoundries' own press release (successfully fetched), reclassified source_type from 'government' to 'market_industry' (company announcement) and demand_evidence_type from 'official_project_award' to 'none' since this is a research/foundry-acquisition partnership announcement, not a specific dollar-denominated demand signal. Flagged for a future session to retry the A*STAR primary government source.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "GlobalFoundries",
+          "country": "US"
+        },
+        {
+          "name": "Agency for Science, Technology and Research (A*STAR)",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "GlobalFoundries HQ Malta, NY (US); A*STAR is a Singapore government statutory board. Neither India."
+    }
   },
   {
     "id": "L12-045",
@@ -1108,12 +2212,16 @@
     "canonical_key": "gao-23-105868",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:27:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2230,26 @@
     "locator": "GAO-23-105868, full report and highlights page (fetched by raw scout this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Retained raw scout's direct fetch; not independently re-fetched this session. Establishes the ~$1B/year DoD directed-energy budget baseline contextualizing L12-031/032/040/041."
+    "notes": "Retained raw scout's direct fetch; not independently re-fetched this session. Establishes the ~$1B/year DoD directed-energy budget baseline contextualizing L12-031/032/040/041.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Government Accountability Office",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.gao.gov/products/gao-23-105868"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency, official .gov domain."
+    }
   },
   {
     "id": "L12-046",
@@ -1133,12 +2260,16 @@
     "canonical_key": "gao-25-107204",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2278,26 @@
     "locator": "Direct WebFetch of files.gao.gov/reports/GAO-25-107204/index.html this session, confirming findings and recommendations verbatim.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPGRADED from fetched=false (raw) to fetched=true this session via direct successful fetch; raw record only had the title/existence confirmed via search. Provides important cost-growth context for the NIF/EYC laser-upgrade demand signal in L12-042."
+    "notes": "UPGRADED from fetched=false (raw) to fetched=true this session via direct successful fetch; raw record only had the title/existence confirmed via search. Provides important cost-growth context for the NIF/EYC laser-upgrade demand signal in L12-042.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Government Accountability Office",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://files.gao.gov/reports/GAO-25-107204/index.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency, official .gov domain."
+    }
   },
   {
     "id": "L12-047",
@@ -1158,12 +2308,16 @@
     "canonical_key": "https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2326,26 @@
     "locator": "darpa.mil news release, May 2025 (fetched by raw scout this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Retained raw scout's direct fetch; not independently re-fetched this session."
+    "notes": "Retained raw scout's direct fetch; not independently re-fetched this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Defense Advanced Research Projects Agency (DARPA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US government agency, official .mil domain."
+    }
   },
   {
     "id": "L12-048",
@@ -1183,12 +2356,16 @@
     "canonical_key": "standard:iec-60825-1-ed3.0",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:55:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2374,26 @@
     "locator": "Direct WebFetch of lia.org/store/iec-60825-1-ed30-safety-laser-products-part-1 this session, confirming title, edition, page count, publication year, and price ($665.00) exactly as in the raw record.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Price and edition details CONFIRMED via direct fetch this session (raw record had this only via search snippet). This is the governing safety standard underlying every industrial/medical/defense laser product referenced elsewhere in this ledger."
+    "notes": "Price and edition details CONFIRMED via direct fetch this session (raw record had this only via search snippet). This is the governing safety standard underlying every industrial/medical/defense laser product referenced elsewhere in this ledger.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Electrotechnical Commission (IEC)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.lia.org/store/iec-60825-1-ed30-safety-laser-products-part-1"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEC headquartered in Geneva, Switzerland; distributed via Laser Institute of America (US)."
+    }
   },
   {
     "id": "L12-049",
@@ -1208,12 +2404,16 @@
     "canonical_key": "standard:iso-11553-1-2020",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2422,26 @@
     "locator": "Direct WebFetch of genorma.com/en/standards/iso-11553-1-2020 this session, confirming standard number, title, publication date, committee, page counts, price, and current confirmed status.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "iso.org's own page (canonical URL in raw record) returned HTTP 403 on three separate direct-fetch attempts this session (iso.org, webstore.ansi.org, and an ANSI preview PDF); confirmed instead via genorma.com, an ISO-standards resale/distribution mirror, which returned full bibliographic detail. URL updated to the successfully-fetched mirror; canonical_key retained as the standard ID."
+    "notes": "iso.org's own page (canonical URL in raw record) returned HTTP 403 on three separate direct-fetch attempts this session (iso.org, webstore.ansi.org, and an ANSI preview PDF); confirmed instead via genorma.com, an ISO-standards resale/distribution mirror, which returned full bibliographic detail. URL updated to the successfully-fetched mirror; canonical_key retained as the standard ID.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Organization for Standardization (ISO)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://genorma.com/en/standards/iso-11553-1-2020"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ISO headquartered in Geneva, Switzerland; ISO/TC 172/SC 9 committee."
+    }
   },
   {
     "id": "L12-050",
@@ -1233,12 +2452,16 @@
     "canonical_key": "standard:iso-11553-2-2007",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2470,26 @@
     "locator": "Direct WebFetch of webstore.iec.ch/en/publication/9267 this session, confirming standard number, title, publisher (IEC), edition, publication date, and active status.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Direct fetch succeeded this session (raw record was unfetched, relying on search-result titles only). URL changed from iso.org (403 this session) to the successfully-fetched IEC webstore listing."
+    "notes": "Direct fetch succeeded this session (raw record was unfetched, relying on search-result titles only). URL changed from iso.org (403 this session) to the successfully-fetched IEC webstore listing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Organization for Standardization (ISO)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://webstore.iec.ch/en/publication/9267"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ISO headquartered in Geneva, Switzerland."
+    }
   },
   {
     "id": "L12-051",
@@ -1258,12 +2500,16 @@
     "canonical_key": "https://www.ipgphotonics.com/en/products/lasers/high-power-cw-fiber-lasers/1-micron/yls-1-120-kw",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2518,26 @@
     "locator": "Direct WebFetch of ipgphotonics.com/en/products/lasers/high-power-cw-fiber-lasers/1-micron/yls-1-120-kw this session, confirming power range, efficiency, tunability, and lifetime claims verbatim.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Successfully fetched this session (raw record was unfetched). No unit price disclosed; IPG does not publish list prices, consistent with the opaque-pricing pattern noted elsewhere in this lane."
+    "notes": "Successfully fetched this session (raw record was unfetched). No unit price disclosed; IPG does not publish list prices, consistent with the opaque-pricing pattern noted elsewhere in this lane.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "IPG Photonics Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ipgphotonics.com/en/products/lasers/high-power-cw-fiber-lasers/1-micron/yls-1-120-kw"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IPG Photonics HQ Marlborough, Massachusetts (US)."
+    }
   },
   {
     "id": "L12-052",
@@ -1283,12 +2548,16 @@
     "canonical_key": "https://www.thorlabs.com/adaptive-optics",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:58:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1308,12 +2577,16 @@
     "canonical_key": "https://www.gigaphoton.com/ja/products",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:46:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2595,26 @@
     "locator": "Direct WebFetch of gigaphoton.com/ja/products (confirmed Japanese-language product listing) and gigaphoton.com/news/9333 (SPIE 2025 presentation summary), both fetched this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SPIE 2025 presentation content newly confirmed via direct fetch this session (raw record only had this via WebSearch synthesis). The 'nearly 2,000 excimer lasers shipped worldwide' claim from the raw record was NOT found or re-confirmed in this session's searches -- removed from claim_supported as unconfirmed; only the confirmed product-lineup and SPIE-presentation content is retained."
+    "notes": "SPIE 2025 presentation content newly confirmed via direct fetch this session (raw record only had this via WebSearch synthesis). The 'nearly 2,000 excimer lasers shipped worldwide' claim from the raw record was NOT found or re-confirmed in this session's searches -- removed from claim_supported as unconfirmed; only the confirmed product-lineup and SPIE-presentation content is retained.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Gigaphoton Inc.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.gigaphoton.com/ja/products"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Gigaphoton is a Komatsu Group company headquartered in Oyama, Tochigi, Japan."
+    }
   },
   {
     "id": "L12-054",
@@ -1333,12 +2625,16 @@
     "canonical_key": "https://finance.sina.com.cn/roll/2025-09-09/doc-infpwvhi3588551.shtml",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L12"],
+    "lane_ids": [
+      "L12"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:48:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,6 +2643,30 @@
     "locator": "Sina Finance article, September 9, 2025, citing Huajing Industry Research Institute data (fetched by raw scout this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Retained raw scout's direct fetch and its flag that the cited 2021-2022 market-share/localization figures are stale relative to the September-2025 publication date -- do not treat as current-year (2025) share without a newer breakdown. CAGR inconsistency also retained as flagged, not silently corrected, per the mission's 'conflicts are shown, not averaged away' rule."
+    "notes": "Retained raw scout's direct fetch and its flag that the cited 2021-2022 market-share/localization figures are stale relative to the September-2025 publication date -- do not treat as current-year (2025) share without a newer breakdown. CAGR inconsistency also retained as flagged, not silently corrected, per the mission's 'conflicts are shown, not averaged away' rule.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Huajing Industry Research Institute (华经产业研究院 / 华经艾凯（北京）企业咨询有限公司)",
+          "country": "CN"
+        },
+        {
+          "name": "Sina Finance (新浪财经)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://finance.sina.com.cn/roll/2025-09-09/doc-infpwvhi3588551.shtml",
+        "https://www.huaon.com/about"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Verified via huaon.com official about page: producing entity is Huajing Aikai (Beijing) Enterprise Consulting Co., Ltd, banked at ICBC Beijing Bajiao branch -- Beijing, China headquartered, not India. Reported by Sina Finance, a Chinese media outlet."
+    }
   }
 ]

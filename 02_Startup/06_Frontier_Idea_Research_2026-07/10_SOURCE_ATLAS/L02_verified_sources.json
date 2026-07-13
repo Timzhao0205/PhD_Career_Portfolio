@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1109/tpel.2017.2774440",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpel.2017.2774440",
     "doi": "10.1109/TPEL.2017.2774440",
@@ -22,7 +26,26 @@
     "locator": "Crossref metadata record: IEEE Transactions on Power Electronics, vol. 33, issue 9, 2018",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and venue confirmed via Crossref API this session (type=journal-article). Original design/data paper -> T1."
+    "notes": "DOI and venue confirmed via Crossref API this session (type=journal-article). Original design/data paper -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Virginia Tech CPES (OpenAlex-resolved)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.tsf.2013.02.125|10.1039/d4tc03615h|10.1016/j.ijhydene.2024.12.502|10.1109/tpel.2017.2774440|10.1109/jestpe.2013.2277917|10.3390/en18082140|10.1109/ted.2023.3346369|10.1063/5.0061354|10.3390/mi14112045|10.1049/rpg2.70111|10.1109/tia.2014.2308357|10.1007/s43236-022-00470-6|10.3390/mi12010065|10.1109/tpel.2013.2271977&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors US-affiliated per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L02-002",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.1109/jestpe.2013.2277917",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:00:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/jestpe.2013.2277917",
     "doi": "10.1109/JESTPE.2013.2277917",
@@ -47,7 +74,26 @@
     "locator": "Crossref metadata record: IEEE JESTPE, vol. 1, issue 3, 2013",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Review article -> T2."
+    "notes": "DOI confirmed via Crossref. Review article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "NC State University (OpenAlex-resolved)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/jestpe.2013.2277917&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors US-affiliated per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L02-003",
@@ -56,23 +102,37 @@
     "year": 2021,
     "url": "https://doi.org/10.1109/TIE.2020.3038091",
     "canonical_key": "doi:10.1109/tie.2020.3038091",
-    "source_type": "academic_peer_reviewed",
-    "tier": "T1",
-    "lane_ids": ["L02"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:01:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tie.2020.3038091",
     "doi": "10.1109/TIE.2020.3038091",
     "demand_evidence_type": "none",
     "claim_supported": "SST-based fast charging station architecture for three EV categories with vastly different battery ratings, using delta-connected cascaded H-bridge (CHB) active front end and quad active bridges (QAB) isolated DC-DC stage with balancing windings for medium-frequency transformers; integrates to MV grid without a line-frequency transformer.",
     "locator": "IEEE Transactions on Industrial Electronics, vol. 68, issue 11, pp. 10400-10411 (2021); Crossref metadata record",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "CORRECTION: scout's original DOI (10.1109/tte.2024.3462920) was WRONG for this title -- that DOI actually resolves to a different paper (see L02-029). Correct DOI for THIS title found via Crossref bibliographic search: 10.1109/TIE.2020.3038091, IEEE Trans. Industrial Electronics, 2021. Authors confirmed IIT Bombay (faculty page, dblp). Geography corrected US->IN. Year corrected 2024->2021."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "CORRECTION: scout's original DOI (10.1109/tte.2024.3462920) was WRONG for this title -- that DOI actually resolves to a different paper (see L02-029). Correct DOI for THIS title found via Crossref bibliographic search: 10.1109/TIE.2020.3038091, IEEE Trans. Industrial Electronics, 2021. Authors confirmed IIT Bombay (faculty page, dblp). Geography corrected US->IN. Year corrected 2024->2021. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:37.998741+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://doi.org/10.1109/TIE.2020.3038091",
+        "https://api.crossref.org/works/10.1109/tie.2020.3038091"
+      ],
+      "original_source_type": "academic_peer_reviewed"
+    }
   },
   {
     "id": "L02-004",
@@ -83,12 +143,16 @@
     "canonical_key": "doi:10.3390/en18082140",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:01:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["PT"],
+    "geography": [
+      "PT"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18082140",
     "doi": "10.3390/en18082140",
@@ -97,7 +161,26 @@
     "locator": "Crossref metadata record: Energies, vol. 18, issue 8, article 2140 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Review article -> T2."
+    "notes": "DOI confirmed via Crossref. Review article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Univ. Tras-os-Montes e Alto Douro / INESC-TEC (OpenAlex-resolved)",
+          "country": "PT"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en18082140&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors PT-affiliated per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L02-005",
@@ -108,12 +191,16 @@
     "canonical_key": "doi:10.1109/ted.2023.3346369",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT"],
+    "geography": [
+      "IT"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ted.2023.3346369",
     "doi": "10.1109/TED.2023.3346369",
@@ -122,7 +209,26 @@
     "locator": "Crossref metadata record: IEEE Trans. Electron Devices, vol. 71, issue 3, 2024",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Review article -> T2."
+    "notes": "DOI confirmed via Crossref. Review article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Univ. Padova (OpenAlex-resolved)",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/ted.2023.3346369&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors IT-affiliated per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L02-006",
@@ -133,12 +239,17 @@
     "canonical_key": "doi:10.1063/5.0061354",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:02:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT", "CH"],
+    "geography": [
+      "IT",
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0061354",
     "doi": "10.1063/5.0061354",
@@ -147,7 +258,34 @@
     "locator": "Journal of Applied Physics, vol. 130, issue 18, article 181101 (2021); Crossref metadata record",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref (type=journal-article, vol 130 issue 18, published 2021-11). Crossref record has an empty container-title field, but volume/issue and the original AIP URL path (aip/jap/...) confirm venue is Journal of Applied Physics, not Applied Physics Reviews. Tutorial/review -> T2."
+    "notes": "DOI confirmed via Crossref (type=journal-article, vol 130 issue 18, published 2021-11). Crossref record has an empty container-title field, but volume/issue and the original AIP URL path (aip/jap/...) confirm venue is Journal of Applied Physics, not Applied Physics Reviews. Tutorial/review -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Univ. Padova (OpenAlex-resolved)",
+          "country": "IT"
+        },
+        {
+          "name": "IEMN CNRS (OpenAlex-resolved)",
+          "country": "FR"
+        },
+        {
+          "name": "EPFL (OpenAlex-resolved)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 14,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0061354&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "14 authors: IT x9, FR x2, CH x3 per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L02-007",
@@ -158,12 +296,16 @@
     "canonical_key": "doi:10.3390/mi14112045",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:03:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/mi14112045",
     "doi": "10.3390/mi14112045",
@@ -172,32 +314,80 @@
     "locator": "Crossref metadata record: Micromachines, vol. 14, issue 11, article 2045 (2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Review article -> T2."
+    "notes": "DOI confirmed via Crossref. Review article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Florida International University (OpenAlex-resolved)",
+          "country": "US"
+        },
+        {
+          "name": "Bangladeshi co-author institutions (OpenAlex-resolved)",
+          "country": "BD"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/mi14112045&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US x2 (Rafin, Mohammed), BD x4 co-authors per OpenAlex. No IN affiliation (Bangladesh, not India)."
+    }
   },
   {
     "id": "L02-008",
     "title": "A strategic review on gallium oxide based power electronics: Recent progress and future prospects",
-    "authors_or_org": "Shivani, Damanpreet Kaur, Anupam Ghosh, Mukesh Kumar (IIT Ropar, India)",
+    "authors_or_org": "Unconfirmed authors; e-Prime journal (Elsevier)",
     "year": 2022,
     "url": "https://www.sciencedirect.com/science/article/pii/S2352492822010935",
-    "canonical_key": "doi:10.1016/j.mtcomm.2022.104244",
-    "source_type": "academic_peer_reviewed",
+    "canonical_key": "url:sciencedirect.com/science/article/pii/s2352492822010935",
+    "source_type": "discovery_only",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
-    "accessed_at": "2026-07-12T19:03:30Z",
-    "fetched": true,
+    "accessed_at": "2026-07-12T18:08:00Z",
+    "fetched": false,
     "language": "en",
-    "geography": ["IN"],
-    "peer_review_status": "verified",
-    "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.mtcomm.2022.104244",
-    "doi": "10.1016/j.mtcomm.2022.104244",
+    "geography": [
+      "US"
+    ],
+    "peer_review_status": "unverified",
+    "peer_review_evidence_url": "https://www.sciencedirect.com/science/article/pii/S2352492822010935",
+    "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Reviews Ga2O3 (ultra-wide bandgap) power device progress: 8 MV/cm critical field, Baliga FOM >3000, melt-grown substrate cost advantage.",
-    "locator": "Materials Today Communications, vol. 33, article 104244 (Dec 2022); Crossref metadata record",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "CORRECTION: actual venue is Materials Today Communications (Elsevier), NOT 'e-Prime' as scout originally labeled. Confirmed via Crossref DOI resolution and independent WebSearch corroboration of PII S2352492822010935. Authors and IIT Ropar affiliation confirmed via WebSearch. Direct ScienceDirect fetch returned 403 this session; identity confirmed via Crossref + search triangulation. Geography corrected US->IN."
+    "locator": "e-Prime - Advances in Electrical Engineering, Electronics and Energy, 2022",
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "DOI not confirmed this session (only PII located); author affiliations and geography not confirmed -- flagged for verifier. Review -> T2. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T02:30:00+00:00",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Indian Institute of Technology Ropar",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.mtcomm.2022.104244&select=doi,authorships",
+        "https://api.crossref.org/works/10.1016/j.mtcomm.2022.104244"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "notes": "Encoded during Fable-5 P2A origin adjudication (2026-07-13): the 2026-07-12 prefilter flipped accepted=false but never recorded the quarantine encoding; origin independently verified by the adjudicator. All 4 authors (Shivani, Kaur, Ghosh, Kumar) carry the raw affiliation \"FREM Laboratory, Department of Physics, Indian Institute of Technology Ropar, Punjab, India\" per OpenAlex. DOI 10.1016/j.mtcomm.2022.104244; Crossref registers the container as Materials Today Communications (the ledger's \"e-Prime journal\" attribution was inaccurate)."
+    }
   },
   {
     "id": "L02-009",
@@ -208,12 +398,16 @@
     "canonical_key": "doi:10.1049/rpg2.70111",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TR"],
+    "geography": [
+      "TR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/rpg2.70111",
     "doi": "10.1049/rpg2.70111",
@@ -222,7 +416,26 @@
     "locator": "Crossref metadata record: IET Renewable Power Generation, vol. 19, issue 1 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref; author affiliation confirmed via WebSearch (Marmara University, Turkey). Geography confirmed TR. Review -> T2."
+    "notes": "DOI confirmed via Crossref; author affiliation confirmed via WebSearch (Marmara University, Turkey). Geography confirmed TR. Review -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Marmara University, Istanbul (OpenAlex-resolved)",
+          "country": "TR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1049/rpg2.70111&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors TR-affiliated per OpenAlex, matching ledger's WebSearch-confirmed Marmara University attribution. No IN affiliation."
+    }
   },
   {
     "id": "L02-010",
@@ -233,12 +446,16 @@
     "canonical_key": "doi:10.1109/tia.2014.2308357",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:04:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DK"],
+    "geography": [
+      "DK"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tia.2014.2308357",
     "doi": "10.1109/TIA.2014.2308357",
@@ -247,7 +464,26 @@
     "locator": "Crossref metadata record: IEEE Trans. Industry Applications, 2014",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref bibliographic search this session (scout had no DOI). Review/overview -> T2."
+    "notes": "DOI resolved via Crossref bibliographic search this session (scout had no DOI). Review/overview -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Aalborg University (OpenAlex-resolved)",
+          "country": "DK"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tia.2014.2308357&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors DK-affiliated per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L02-011",
@@ -258,12 +494,18 @@
     "canonical_key": "doi:10.1007/s43236-022-00470-6",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["MY", "KR", "US"],
+    "geography": [
+      "MY",
+      "KR",
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s43236-022-00470-6",
     "doi": "10.1007/s43236-022-00470-6",
@@ -272,7 +514,34 @@
     "locator": "Crossref metadata record: Journal of Power Electronics, vol. 22, issue 8 (2022)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Author affiliations show conflicting sources (Asia Pacific University Malaysia vs. Dankook University Korea for lead authors); Homer Alan Mantooth confirmed Univ. of Arkansas (US). Geography flagged as approximate mix MY/KR/US pending fuller confirmation."
+    "notes": "DOI confirmed via Crossref. Author affiliations show conflicting sources (Asia Pacific University Malaysia vs. Dankook University Korea for lead authors); Homer Alan Mantooth confirmed Univ. of Arkansas (US). Geography flagged as approximate mix MY/KR/US pending fuller confirmation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Asia Pacific University / UCSI (OpenAlex-resolved)",
+          "country": "MY"
+        },
+        {
+          "name": "Dankook University (OpenAlex-resolved)",
+          "country": "KR"
+        },
+        {
+          "name": "Univ. of Arkansas (OpenAlex-resolved)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s43236-022-00470-6&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "MY x4, KR x2, US x1 per OpenAlex -- resolves ledger's flagged MY/KR ambiguity; Mantooth confirmed US (Univ. Arkansas). No IN affiliation."
+    }
   },
   {
     "id": "L02-012",
@@ -283,12 +552,16 @@
     "canonical_key": "doi:10.3390/mi12010065",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:05:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW"],
+    "geography": [
+      "TW"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/mi12010065",
     "doi": "10.3390/mi12010065",
@@ -297,7 +570,26 @@
     "locator": "Crossref metadata record: Micromachines, vol. 12, issue 1, article 65 (2021)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Author affiliation confirmed via WebSearch/PubMed: National United University, Taiwan. Geography corrected US->TW."
+    "notes": "DOI confirmed via Crossref. Author affiliation confirmed via WebSearch/PubMed: National United University, Taiwan. Geography corrected US->TW.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National United University, Taiwan (OpenAlex-resolved)",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/mi12010065&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors TW-affiliated per OpenAlex, matching ledger's PubMed-confirmed Taiwan attribution. No IN affiliation."
+    }
   },
   {
     "id": "L02-013",
@@ -308,12 +600,17 @@
     "canonical_key": "doi:10.1109/tpel.2013.2271977",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT", "BE"],
+    "geography": [
+      "IT",
+      "BE"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpel.2013.2271977",
     "doi": "10.1109/TPEL.2013.2271977",
@@ -322,7 +619,30 @@
     "locator": "IEEE Trans. Power Electronics, vol. 29, issue 5 (2014); Crossref metadata record",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref bibliographic search this session (scout had only IEEE doc number, no DOI). Authors include imec (Belgium) and Univ. Padova (Italy) co-authors -> geography IT+BE. Original data paper -> T1."
+    "notes": "DOI resolved via Crossref bibliographic search this session (scout had only IEEE doc number, no DOI). Authors include imec (Belgium) and Univ. Padova (Italy) co-authors -> geography IT+BE. Original data paper -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Univ. Padova (OpenAlex-resolved)",
+          "country": "IT"
+        },
+        {
+          "name": "imec (OpenAlex-resolved)",
+          "country": "BE"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2013.2271977&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IT x4, BE x5 per OpenAlex, matching ledger's imec/Padova attribution. No IN affiliation."
+    }
   },
   {
     "id": "L02-014",
@@ -333,12 +653,16 @@
     "canonical_key": "doi:10.3390/electronics14142791",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:06:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT"],
+    "geography": [
+      "IT"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/electronics14142791",
     "doi": "10.3390/electronics14142791",
@@ -347,7 +671,26 @@
     "locator": "Crossref metadata record: Electronics, vol. 14, issue 14, article 2791 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Author names suggest Italian affiliation; not independently confirmed via an affiliation page this session -- geography IT is a name-based inference, flagged for further confirmation (corrected from an equally-unconfirmed US guess). Original experimental paper -> T1."
+    "notes": "DOI confirmed via Crossref. Author names suggest Italian affiliation; not independently confirmed via an affiliation page this session -- geography IT is a name-based inference, flagged for further confirmation (corrected from an equally-unconfirmed US guess). Original experimental paper -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Palermo",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/electronics14142791"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Cusumano, Sirchia, Vella) resolved to University of Palermo, Italy via OpenAlex. No India affiliation."
+    }
   },
   {
     "id": "L02-015",
@@ -358,12 +701,17 @@
     "canonical_key": "doi:10.1016/j.mssp.2017.10.009",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT", "BE"],
+    "geography": [
+      "IT",
+      "BE"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works?query.bibliographic=Trapping+phenomena+and+degradation+mechanisms+in+GaN-based+power+HEMTs",
     "doi": "10.1016/j.mssp.2017.10.009",
@@ -372,7 +720,30 @@
     "locator": "Materials Science in Semiconductor Processing (published online Oct 2017 / print 2018); Crossref metadata record",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: actual venue is Materials Science in Semiconductor Processing, NOT Microelectronics Reliability as scout's authors_or_org/locator fields labeled it (the URL/PII itself was already correct -- PII prefix S1369800 matches this journal's ISSN 1369-8001; only the venue label was wrong). Authors and DOI confirmed via Crossref bibliographic search this session. Direct ScienceDirect fetch returned 403; identity resolved via Crossref instead. Overview -> T2."
+    "notes": "CORRECTION: actual venue is Materials Science in Semiconductor Processing, NOT Microelectronics Reliability as scout's authors_or_org/locator fields labeled it (the URL/PII itself was already correct -- PII prefix S1369800 matches this journal's ISSN 1369-8001; only the venue label was wrong). Authors and DOI confirmed via Crossref bibliographic search this session. Direct ScienceDirect fetch returned 403; identity resolved via Crossref instead. Overview -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Padua",
+          "country": "IT"
+        },
+        {
+          "name": "ON Semiconductor (Belgium)",
+          "country": "BE"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.mssp.2017.10.009"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "4 authors Univ Padua (IT), 2 authors ON Semiconductor (BE) incl. Abhishek Banerjee -- affiliation (not name) confirms BE, not India."
+    }
   },
   {
     "id": "L02-016",
@@ -383,12 +754,16 @@
     "canonical_key": "doi:10.1016/j.microrel.2017.10.006",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:07:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.microrel.2017.10.006",
     "doi": "10.1016/j.microrel.2017.10.006",
@@ -397,7 +772,26 @@
     "locator": "Microelectronics Reliability, 2017/2018; Crossref metadata record",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and authors confirmed via Crossref bibliographic search. Author affiliation confirmed via WebSearch (University of Bristol Centre for Device Thermography and Reliability) -- geography corrected BE->GB (scout's Belgium inference, based on a co-cited JEDEC paper, was incorrect). Original data paper -> T1."
+    "notes": "DOI and authors confirmed via Crossref bibliographic search. Author affiliation confirmed via WebSearch (University of Bristol Centre for Device Thermography and Reliability) -- geography corrected BE->GB (scout's Belgium inference, based on a co-cited JEDEC paper, was incorrect). Original data paper -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Bristol",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.microrel.2017.10.006"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors (incl. single-name author 'Manikant') resolved to University of Bristol, UK via OpenAlex. Affiliation-based, not name-based."
+    }
   },
   {
     "id": "L02-017",
@@ -408,12 +802,18 @@
     "canonical_key": "doi:10.1049/pel2.12141",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "QA", "CN"],
+    "geography": [
+      "US",
+      "QA",
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/pel2.12141",
     "doi": "10.1049/pel2.12141",
@@ -422,7 +822,38 @@
     "locator": "Crossref metadata record: IET Power Electronics, vol. 14, issue 9 (2021)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and authors confirmed via Crossref. Author affiliations span Texas A&M (US), Qatar University (QA), and Tsinghua University (CN) per WebSearch corroboration -- geography corrected from US-only to multi-country. Review -> T2."
+    "notes": "DOI and authors confirmed via Crossref. Author affiliations span Texas A&M (US), Qatar University (QA), and Tsinghua University (CN) per WebSearch corroboration -- geography corrected from US-only to multi-country. Review -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Engineering and Technology Taxila",
+          "country": "PK"
+        },
+        {
+          "name": "Texas A&M University",
+          "country": "US"
+        },
+        {
+          "name": "Qatar University",
+          "country": "QA"
+        },
+        {
+          "name": "Tsinghua-Berkeley Shenzhen Institute",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1049/pel2.12141"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Authors resolved to Pakistan (UET Taxila), US (Texas A&M), Qatar (Qatar University), China (Tsinghua-Berkeley). No India despite South-Asian-sounding names (Irfan Khan, Atif Iqbal, etc.) -- verified via institutional affiliation only."
+    }
   },
   {
     "id": "L02-018",
@@ -433,12 +864,16 @@
     "canonical_key": "doi:10.3390/electronics13224363",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:08:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/electronics13224363",
     "doi": "10.3390/electronics13224363",
@@ -447,7 +882,34 @@
     "locator": "Crossref metadata record: Electronics, vol. 13, issue 22, article 4363 (2024)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Co-author Qiao Zhang confirmed at Xi'an Jiaotong University; Desheng Zhang associated with Wuhan University of Technology per WebSearch -- geography corrected US->CN. Original design paper -> T1."
+    "notes": "DOI confirmed via Crossref. Co-author Qiao Zhang confirmed at Xi'an Jiaotong University; Desheng Zhang associated with Wuhan University of Technology per WebSearch -- geography corrected US->CN. Original design paper -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Wuhan University of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Shanghai Micro Satellite Engineering Center",
+          "country": "CN"
+        },
+        {
+          "name": "Huazhong University of Science and Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/electronics13224363"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to Chinese institutions via OpenAlex."
+    }
   },
   {
     "id": "L02-019",
@@ -458,12 +920,16 @@
     "canonical_key": "doi:10.1007/s43236-022-00540-9",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s43236-022-00540-9",
     "doi": "10.1007/s43236-022-00540-9",
@@ -472,7 +938,30 @@
     "locator": "Crossref metadata record: Journal of Power Electronics, vol. 23, issue 2 (2022)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Author affiliation confirmed via WebSearch: Chaohu University, Hefei, China (not Korean-venue-based guess) -- geography corrected KR->CN. Original design method -> T1."
+    "notes": "DOI confirmed via Crossref. Author affiliation confirmed via WebSearch: Chaohu University, Hefei, China (not Korean-venue-based guess) -- geography corrected KR->CN. Original design method -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Hebei University of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Chaohu University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s43236-022-00540-9"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved to Chinese institutions via OpenAlex."
+    }
   },
   {
     "id": "L02-020",
@@ -483,12 +972,16 @@
     "canonical_key": "doi:10.1007/s43236-024-00804-6",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:09:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s43236-024-00804-6",
     "doi": "10.1007/s43236-024-00804-6",
@@ -497,7 +990,30 @@
     "locator": "Crossref metadata record: Journal of Power Electronics, vol. 24, issue 6 (2024)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Author affiliations confirmed via WebSearch: Seoul National University and a Suwon-based company (South Korea). Geography KR confirmed. Original analysis -> T1."
+    "notes": "DOI confirmed via Crossref. Author affiliations confirmed via WebSearch: Seoul National University and a Suwon-based company (South Korea). Geography KR confirmed. Original analysis -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chung-Ang University",
+          "country": "KR"
+        },
+        {
+          "name": "Seoul National University",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s43236-024-00804-6"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved to South Korean institutions via OpenAlex."
+    }
   },
   {
     "id": "L02-021",
@@ -508,12 +1024,16 @@
     "canonical_key": "doi:10.1109/apec43580.2023.10131285",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/apec43580.2023.10131285",
     "doi": "10.1109/APEC43580.2023.10131285",
@@ -522,7 +1042,26 @@
     "locator": "Crossref metadata record: 2023 IEEE APEC, Orlando FL, pp. 1528-1535",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI, proceedings identity, and authors confirmed via Crossref this session."
+    "notes": "DOI, proceedings identity, and authors confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "North Carolina State University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/apec43580.2023.10131285"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors (incl. Md Rashed Hasan Bipu, Iqbal Husain -- South-Asian-sounding names) resolved to NC State University, US. Affiliation, not name, confirms non-India."
+    }
   },
   {
     "id": "L02-022",
@@ -533,12 +1072,16 @@
     "canonical_key": "doi:10.1109/apec48143.2025.10977131",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:10:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/apec48143.2025.10977131",
     "doi": "10.1109/APEC48143.2025.10977131",
@@ -547,7 +1090,30 @@
     "locator": "Crossref metadata record: 2025 IEEE APEC, Atlanta GA",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and full proceedings title confirmed via Crossref. Title expanded per Crossref record."
+    "notes": "DOI and full proceedings title confirmed via Crossref. Title expanded per Crossref record.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of California, Berkeley",
+          "country": "US"
+        },
+        {
+          "name": "University of California, Santa Cruz",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/apec48143.2025.10977131"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to UC Berkeley / UC Santa Cruz, US."
+    }
   },
   {
     "id": "L02-023",
@@ -558,12 +1124,16 @@
     "canonical_key": "doi:10.1109/tpel.2024.3403670",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpel.2024.3403670",
     "doi": "10.1109/TPEL.2024.3403670",
@@ -572,7 +1142,26 @@
     "locator": "IEEE Transactions on Power Electronics, vol. 39, issue 9 (2024); Crossref metadata record. Companion conference version: 2024 IEEE APEC, DOI 10.1109/apec48139.2024.10509247.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Merged conference/journal preprint-final pair per dedup rule -- using final journal DOI (IEEE TPEL) as canonical instead of the APEC conference DOI or the eScholarship copy. Confirmed via Crossref."
+    "notes": "Merged conference/journal preprint-final pair per dedup rule -- using final journal DOI (IEEE TPEL) as canonical instead of the APEC conference DOI or the eScholarship copy. Confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of California, Berkeley",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2024.3403670"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to UC Berkeley, US."
+    }
   },
   {
     "id": "L02-024",
@@ -583,12 +1172,16 @@
     "canonical_key": "url:ieee-ecce.org/2024/48v-to-0.7v-2000a-power-conversion",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:11:30Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "unverified",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -608,12 +1201,16 @@
     "canonical_key": "doi:10.1109/med.2024.3456301",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "10.1109/MED.2024.3456301",
@@ -622,7 +1219,26 @@
     "locator": "IEEE Electron Devices Magazine, vol. 2, issue 4, pp. 42-C3 (Dec 2024); Crossref metadata record",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED from academic_peer_reviewed to trade_press per SOURCE_STANDARDS rule on magazines: IEEE Electron Devices Magazine (EDM) is an invited-overview magazine, not a rigorously peer-reviewed original/review journal; does not count toward the peer-reviewed quota. Single author confirmed via Crossref. Year corrected 2025->2024."
+    "notes": "RETYPED from academic_peer_reviewed to trade_press per SOURCE_STANDARDS rule on magazines: IEEE Electron Devices Magazine (EDM) is an invited-overview magazine, not a rigorously peer-reviewed original/review journal; does not count toward the peer-reviewed quota. Single author confirmed via Crossref. Year corrected 2025->2024.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Osaka Metropolitan University",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/med.2024.3456301"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Single author Masataka Higashiwaki resolved to Osaka Metropolitan University, Japan via OpenAlex; publisher is IEEE (US)."
+    }
   },
   {
     "id": "L02-026",
@@ -633,12 +1249,16 @@
     "canonical_key": "doi:10.1109/access.2023.3277200",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:12:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/access.2023.3277200",
     "doi": "10.1109/ACCESS.2023.3277200",
@@ -647,7 +1267,26 @@
     "locator": "Crossref metadata record: IEEE Access (2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. IEEE Access is a peer-reviewed (single-blind) open-access journal -- accepted as academic_peer_reviewed despite OA/rapid-review model. Authors not independently confirmed this session; geography US retained as unconfirmed approximation."
+    "notes": "DOI confirmed via Crossref. IEEE Access is a peer-reviewed (single-blind) open-access journal -- accepted as academic_peer_reviewed despite OA/rapid-review model. Authors not independently confirmed this session; geography US retained as unconfirmed approximation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Mondragon Unibertsitatea",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/access.2023.3277200"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CORRECTION: raw record listed authors as 'Unconfirmed'. OpenAlex resolves actual authors as Ander Udabe, Igor Baraia-Etxaburu, David Garrido, all Mondragon Unibertsitatea, Spain. No India."
+    }
   },
   {
     "id": "L02-027",
@@ -658,12 +1297,16 @@
     "canonical_key": "doi:10.1088/1674-4926/40/1/011803",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1674-4926/40/1/011803",
     "doi": "10.1088/1674-4926/40/1/011803",
@@ -672,7 +1315,26 @@
     "locator": "Crossref metadata record: Journal of Semiconductors, vol. 40, issue 1, article 011803 (2019)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and authors confirmed via Crossref. Journal of Semiconductors is the Chinese Institute of Electronics journal, hosted via IOP. Review -> T2."
+    "notes": "DOI and authors confirmed via Crossref. Journal of Semiconductors is the Chinese Institute of Electronics journal, hosted via IOP. Review -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Xidian University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://www.jos.ac.cn/en/article/doi/10.1088/1674-4926/40/1/011803"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned empty affiliations for all 7 authors; publisher page (jos.ac.cn) confirms all authors at Key Laboratory of Wide Band Gap Semiconductor Materials and Devices, Xidian University, China."
+    }
   },
   {
     "id": "L02-028",
@@ -683,12 +1345,16 @@
     "canonical_key": "doi:10.3390/en15186670",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:13:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en15186670",
     "doi": "10.3390/en15186670",
@@ -697,7 +1363,26 @@
     "locator": "Crossref metadata record: Energies, vol. 15, issue 18, article 6670 (2022)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI confirmed via Crossref. Author affiliation confirmed via WebSearch: Shanghai Jiao Tong University, China. Geography corrected US->CN."
+    "notes": "DOI confirmed via Crossref. Author affiliation confirmed via WebSearch: Shanghai Jiao Tong University, China. Geography corrected US->CN.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en15186670"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Shanghai Jiao Tong University, China."
+    }
   },
   {
     "id": "L02-029",
@@ -708,12 +1393,16 @@
     "canonical_key": "doi:10.1109/tte.2024.3462920",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tte.2024.3462920",
     "doi": "10.1109/TTE.2024.3462920",
@@ -722,7 +1411,26 @@
     "locator": "IEEE Transactions on Transportation Electrification, vol. 11, issue 1 (2025); Crossref metadata record",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IDENTITY RESOLVED this session: the scout's OSTI biblio record lacked a confirmed DOI/venue. Independent Crossref bibliographic search for the OSTI title returned DOI 10.1109/tte.2024.3462920 -- the SAME DOI the scout had incorrectly attached to a different-titled record, L02-003. Cross-checking both titles against Crossref confirms this title (13.2kV/1MVA SST design paper) is the correct match for this DOI. L02-003's DOI has been corrected separately. Year corrected 2024->2025 per Crossref."
+    "notes": "IDENTITY RESOLVED this session: the scout's OSTI biblio record lacked a confirmed DOI/venue. Independent Crossref bibliographic search for the OSTI title returned DOI 10.1109/tte.2024.3462920 -- the SAME DOI the scout had incorrectly attached to a different-titled record, L02-003. Cross-checking both titles against Crossref confirms this title (13.2kV/1MVA SST design paper) is the correct match for this DOI. L02-003's DOI has been corrected separately. Year corrected 2024->2025 per Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "North Carolina State University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tte.2024.3462920"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors (incl. Md Rashed Hassan Bipu, Iqbal Husain) resolved to NC State University, US."
+    }
   },
   {
     "id": "L02-030",
@@ -733,12 +1441,16 @@
     "canonical_key": "url:osti.gov/biblio/1987553",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:14:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "10.2172/1987553",
@@ -747,7 +1459,26 @@
     "locator": "OSTI biblio 1987553 / DOI 10.2172/1987553, abstract and technical summary sections, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched successfully this session (previously fetched=false). Retyped national_lab->government: author organization is Delta Electronics (Americas) Ltd., a private DOE-funded contractor, not a national laboratory; report is DOE-funded technical work indexed via OSTI."
+    "notes": "Fetched successfully this session (previously fetched=false). Retyped national_lab->government: author organization is Delta Electronics (Americas) Ltd., a private DOE-funded contractor, not a national laboratory; report is DOE-funded technical work indexed via OSTI.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Delta Electronics (Americas) Ltd. / U.S. DOE (OSTI)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.osti.gov/biblio/1987553"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOE-funded technical report published via OSTI (osti.gov, U.S. government registry); contracting organization Delta Electronics Americas Ltd. is a U.S. subsidiary. Not India."
+    }
   },
   {
     "id": "L02-031",
@@ -758,12 +1489,16 @@
     "canonical_key": "url:sandia.gov/app/uploads/sites/145/2021/11/power-electronics-fact-sheet.pdf",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1507,26 @@
     "locator": "Sandia National Laboratories fact sheet SAND2012-0923P, body text, read directly via PDF this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: report number SAND2012-0923P indicates this fact sheet is from 2012, not 2021 (the URL's /2021/11/ path is a later re-hosting date, not the document's origin). Original claim overstated scope (Ga2O3/diamond/AlN not mentioned in the actual text). Fetched and read directly this session via PDF extraction (WebFetch's HTML converter had failed on the binary PDF)."
+    "notes": "CORRECTION: report number SAND2012-0923P indicates this fact sheet is from 2012, not 2021 (the URL's /2021/11/ path is a later re-hosting date, not the document's origin). Original claim overstated scope (Ga2O3/diamond/AlN not mentioned in the actual text). Fetched and read directly this session via PDF extraction (WebFetch's HTML converter had failed on the binary PDF).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sandia National Laboratories",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sandia.gov/app/uploads/sites/145/2021/11/Power-Electronics-Fact-Sheet.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sandia National Laboratories, official U.S. DOE national lab, sandia.gov domain. Not India."
+    }
   },
   {
     "id": "L02-032",
@@ -783,12 +1537,16 @@
     "canonical_key": "url:energy.gov/sites/default/files/2025-01/ammto-draft-wbg-pe-strategic-framework_final.pdf",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:15:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1555,26 @@
     "locator": "DOE AMMTO news/RFI page (energy.gov/cmei/ammto/articles/doe-seeks-input-strengthening-americas-power-electronics-sector), body text, fetched directly this session; primary PDF is password-protected/returns non-extractable binary this session -- content corroborated via the companion DOE page instead",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary PDF could not be read directly this session (password-protected per Read tool; WebFetch returned garbled binary twice). Content and existence independently confirmed via a directly-fetched DOE companion page and a WebSearch-located grants.gov RFI listing. Treating as fetched=true on the strength of this corroborating direct fetch."
+    "notes": "Primary PDF could not be read directly this session (password-protected per Read tool; WebFetch returned garbled binary twice). Content and existence independently confirmed via a directly-fetched DOE companion page and a WebSearch-located grants.gov RFI listing. Treating as fetched=true on the strength of this corroborating direct fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. DOE Advanced Materials and Manufacturing Technologies Office",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/sites/default/files/2025-01/AMMTO%20Draft%20WBG%20PE%20Strategic%20Framework_FINAL.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "U.S. Department of Energy office, energy.gov domain. Not India."
+    }
   },
   {
     "id": "L02-033",
@@ -808,12 +1585,16 @@
     "canonical_key": "url:electronicdesign.com/technologies/power/alternative-energy/article/21199440",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1603,26 @@
     "locator": "Electronic Design article, body paragraphs, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED government->trade_press: this is secondary trade-press reporting ON a government program (ARPA-E CIRCUITS), not a primary government document itself. Content ($30M, 21 projects) confirmed via direct fetch this session."
+    "notes": "RETYPED government->trade_press: this is secondary trade-press reporting ON a government program (ARPA-E CIRCUITS), not a primary government document itself. Content ($30M, 21 projects) confirmed via direct fetch this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Electronic Design (Endeavor Business Media)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.electronicdesign.com/technologies/power/alternative-energy/article/21199440/arpae-funds-projects-using-wide-bandgap-semiconductors-for-power-conversion"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Electronic Design is a U.S. trade publication (Endeavor Business Media). Not India."
+    }
   },
   {
     "id": "L02-034",
@@ -833,12 +1633,16 @@
     "canonical_key": "url:ece.osu.edu/news/2026/05/arpa-e-project-improve-nations-power-grid",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:16:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1651,26 @@
     "locator": "Ohio State ECE news article, body paragraphs, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED government->trade_press: secondary university-news reporting on a government program (ARPA-E DC-GRIDS), not a primary government document. Content ($35M, 12 projects) confirmed via direct fetch this session."
+    "notes": "RETYPED government->trade_press: secondary university-news reporting on a government program (ARPA-E DC-GRIDS), not a primary government document. Content ($35M, 12 projects) confirmed via direct fetch this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Ohio State University, ECE Dept.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ece.osu.edu/news/2026/05/arpa-e-project-improve-nations-power-grid"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Ohio State University, osu.edu domain, U.S. public university. Not India."
+    }
   },
   {
     "id": "L02-035",
@@ -858,12 +1681,16 @@
     "canonical_key": "url:arpa-e.energy.gov/programs-and-initiatives/search-all-projects/modular-solid-state-transformers",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:17:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -883,12 +1710,16 @@
     "canonical_key": "standard:iec-60076-24-2020",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:17:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1728,26 @@
     "locator": "IEC webstore publication 30367 (IEC 60076-24:2020), page header/scope text, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: scout's title ('Gas-filled fluid power transformers') did NOT match the actual publication at this URL/publication number. Confirmed live fetch this session shows the real title is 'Power transformers - Part 24: Specification of voltage regulating distribution transformers (VRDT)'. The original claim about an SST/IEC-60076-3 compliance gap (attributed to an uncited 'TU Eindhoven study') is NOT independently verified and is flagged as unconfirmed inference. Kept accepted as a genuine, live, T1 standards-body primary record, but claim narrowed to what was actually confirmed."
+    "notes": "CORRECTION: scout's title ('Gas-filled fluid power transformers') did NOT match the actual publication at this URL/publication number. Confirmed live fetch this session shows the real title is 'Power transformers - Part 24: Specification of voltage regulating distribution transformers (VRDT)'. The original claim about an SST/IEC-60076-3 compliance gap (attributed to an uncited 'TU Eindhoven study') is NOT independently verified and is flagged as unconfirmed inference. Kept accepted as a genuine, live, T1 standards-body primary record, but claim narrowed to what was actually confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Electrotechnical Commission (IEC)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://webstore.iec.ch/en/publication/30367"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEC is headquartered in Geneva, Switzerland (iec.ch). Standard is globally adopted but publishing organization is Swiss. Not India."
+    }
   },
   {
     "id": "L02-037",
@@ -908,12 +1758,16 @@
     "canonical_key": "url:deltaww.com/en-us/press/40334",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:37:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW"],
+    "geography": [
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1776,27 @@
     "locator": "Delta press release, deltaww.com/en-US/press/40334 (headline + product captions)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched successfully by scout (confirmed live this session). Vendor product marketing -- accepted as T2 context source, demand_evidence_type none."
+    "notes": "Fetched successfully by scout (confirmed live this session). Vendor product marketing -- accepted as T2 context source, demand_evidence_type none.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Delta Electronics, Inc.",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.deltaww.com/en-US/press/40334",
+        "https://www.deltaww.com/en-US/about/Global-Operations"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Delta Electronics Inc. headquartered in Neihu, Taipei, Taiwan (confirmed via WebSearch corroboration of official HQ address). Not India."
+    }
   },
   {
     "id": "L02-038",
@@ -933,12 +1807,16 @@
     "canonical_key": "url:navitassemi.com/wp-content/uploads/2025/10/redefining-data-center-power-gan-and-sic-technologies-for-next-gen-800-vdc-infrastructure.pdf",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +1825,26 @@
     "locator": "Navitas whitepaper PDF, pages 1-4 and 11-16, read directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched successfully this session via direct PDF read (WebFetch's HTML conversion failed on the binary PDF twice; Read tool successfully extracted full text/figures). Vendor marketing document; NVIDIA collaboration is a vendor self-claim, not independently documented -- demand_evidence_type kept as 'none' per rule requiring a documented customer purchase, not a claimed collaboration."
+    "notes": "Fetched successfully this session via direct PDF read (WebFetch's HTML conversion failed on the binary PDF twice; Read tool successfully extracted full text/figures). Vendor marketing document; NVIDIA collaboration is a vendor self-claim, not independently documented -- demand_evidence_type kept as 'none' per rule requiring a documented customer purchase, not a claimed collaboration.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Navitas Semiconductor Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://navitassemi.com/wp-content/uploads/2025/10/Redefining-Data-Center-Power-GaN-and-SiC-Technologies-for-Next-Gen-800-VDC-Infrastructure.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Navitas Semiconductor is headquartered at 3520 Challenger St, Torrance, CA, USA (confirmed via WebSearch corroboration). Not India."
+    }
   },
   {
     "id": "L02-039",
@@ -958,12 +1855,16 @@
     "canonical_key": "url:eaton.com/content/dam/eaton/markets/data-center/the-impact-of-ai/whitepapers/eaton-deploying-800vdc-architecture-whitepaper-en-us.pdf",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:18:30Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -983,12 +1884,16 @@
     "canonical_key": "url:se.com/ww/en/insights/ai-and-technology/artificial-intelligence/vdc-powering-the-future-of-ai-data-centers",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:19:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1008,12 +1913,16 @@
     "canonical_key": "url:powerelectronicsnews.com/the-evolution-in-data-center-power-distribution-pcim-panel-part-1-the-transition-to-800-v",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:19:30Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1033,12 +1942,16 @@
     "canonical_key": "url:irsglobal.com/bbs/rwdboard/28126",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:20:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +1960,26 @@
     "locator": "IRS Global market report page, fetched directly (Korean) this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Local-language (Korean) source confirmed live and fetched this session. Company-level 2023 SiC market-share figures verified directly; scout's original country-level breakdown could not be corroborated this session and has been flagged, not asserted as fact."
+    "notes": "Local-language (Korean) source confirmed live and fetched this session. Company-level 2023 SiC market-share figures verified directly; scout's original country-level breakdown could not be corroborated this session and has been flagged, not asserted as fact.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "IRS Global",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.irsglobal.com/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Directly fetched irsglobal.com this session: contact address is Incheon Metropolitan City, South Korea. Not India."
+    }
   },
   {
     "id": "L02-043",
@@ -1058,12 +1990,16 @@
     "canonical_key": "url:developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:00:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2008,26 @@
     "locator": "developer.nvidia.com blog post, published 2025-05-20, body paragraphs on efficiency/copper/TCO gains and named partner list",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. NVIDIA acts as the buyer/architecture-setter for its supply chain -- a genuine buyer specification."
+    "notes": "Directly fetched by scout. NVIDIA acts as the buyer/architecture-setter for its supply chain -- a genuine buyer specification.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NVIDIA Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "NVIDIA Corporation is headquartered in Santa Clara, California, USA; developer.nvidia.com is NVIDIA's own domain. Not India."
+    }
   },
   {
     "id": "L02-044",
@@ -1083,12 +2038,16 @@
     "canonical_key": "url:datacenterdynamics.com/en/news/ocp-members-tout-dc-power-in-the-data-center-to-meet-growing-ai-power-demands",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:01:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2056,26 @@
     "locator": "DCD article dated 2026-05-01, paragraphs on Mount Diablo spec, voltage targets, and timeline",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. Primary OCP whitepaper PDF returned HTTP 403 on direct fetch; this DCD secondary report is used for the load-bearing quote."
+    "notes": "Directly fetched by scout. Primary OCP whitepaper PDF returned HTTP 403 on direct fetch; this DCD secondary report is used for the load-bearing quote.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "DatacenterDynamics (Data Centre Dynamics Ltd)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.datacenterdynamics.com/en/news/ocp-members-tout-dc-power-in-the-data-center-to-meet-growing-ai-power-demands/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DatacenterDynamics (Data Centre Dynamics Ltd) is headquartered at 102-108 Clifton Street, London, UK per UK Companies House record (confirmed via WebSearch this session). Record's geography tag says US but publisher is actually UK; either way not India."
+    }
   },
   {
     "id": "L02-045",
@@ -1108,12 +2086,16 @@
     "canonical_key": "url:sec.gov/archives/edgar/data/1821769/000162828025027705/ex9912025-05x21prrenvidiac.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:21:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1133,12 +2115,17 @@
     "canonical_key": "url:globenewswire.com/news-release/2026/06/03/3306044/0/en/navitas-collaborates-with-nvidia-mgx-ecosystem-to-accelerate-800-vdc-ai-infrastructure.html",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:02:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "TW"],
+    "geography": [
+      "US",
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2134,26 @@
     "locator": "GlobeNewswire press release, 2026-06-03, product-spec and executive-quote paragraphs",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. Company press release, not an audited filing -- tier T2."
+    "notes": "Directly fetched by scout. Company press release, not an audited filing -- tier T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Navitas Semiconductor Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.globenewswire.com/news-release/2026/06/03/3306044/0/en/Navitas-Collaborates-with-NVIDIA-MGX-Ecosystem-to-Accelerate-800-VDC-AI-Infrastructure.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same Navitas Semiconductor entity as L02-038, HQ Torrance, CA, USA. Not India."
+    }
   },
   {
     "id": "L02-047",
@@ -1158,12 +2164,16 @@
     "canonical_key": "url:fool.com/earnings/call-transcripts/2026/05/05/wolfspeed-wolf-q3-2026-earnings-transcript",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:03:30Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2182,26 @@
     "locator": "Motley Fool transcript, 2026-05-05, management remarks on AI data center segment",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. Earnings call transcript is a primary corporate disclosure but not an audited filing -- tier T2."
+    "notes": "Directly fetched by scout. Earnings call transcript is a primary corporate disclosure but not an audited filing -- tier T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Wolfspeed, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.fool.com/earnings/call-transcripts/2026/05/05/wolfspeed-wolf-q3-2026-earnings-transcript/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Wolfspeed, Inc. headquartered at 4600 Silicon Drive, Durham, NC, USA (confirmed via WebSearch this session). Not India."
+    }
   },
   {
     "id": "L02-048",
@@ -1183,12 +2212,17 @@
     "canonical_key": "url:delta-china.com.cn/zh-cn/news/19212",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:22:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN", "TW"],
+    "geography": [
+      "CN",
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2231,30 @@
     "locator": "Delta China news release, 2019-11-20, product description paragraphs, fetched directly (Chinese) this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched directly (Chinese) this session. NOTE: this session's fetch states the output voltage as 240VDC, while the scout's original claim said 400VDC -- flagging this voltage discrepancy for the orchestrator/idea team to resolve against the primary source if this figure becomes load-bearing."
+    "notes": "Fetched directly (Chinese) this session. NOTE: this session's fetch states the output voltage as 240VDC, while the scout's original claim said 400VDC -- flagging this voltage discrepancy for the orchestrator/idea team to resolve against the primary source if this figure becomes load-bearing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Delta Electronics (China)",
+          "country": "CN"
+        },
+        {
+          "name": "Alibaba",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.delta-china.com.cn/zh-cn/news/19212"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Delta Electronics (China) subsidiary and Alibaba, both China-based. Not India."
+    }
   },
   {
     "id": "L02-049",
@@ -1208,12 +2265,16 @@
     "canonical_key": "url:cls.cn/detail/1955903",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:22:30Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2283,26 @@
     "locator": "Cailianshe (cls.cn) article, fetched directly (Chinese) this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched directly (Chinese) this session; confirms named customer (Alibaba) via the company's own investor disclosure, but with minimal detail."
+    "notes": "Fetched directly (Chinese) this session; confirms named customer (Alibaba) via the company's own investor disclosure, but with minimal detail.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Cailianshe (Shanghai Newspaper Group)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cls.cn/detail/1955903"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Cailianshe (cls.cn) is a financial news service supervised by Shanghai Newspaper Group, HQ Shanghai, China (confirmed via WebSearch this session). Not India."
+    }
   },
   {
     "id": "L02-050",
@@ -1233,12 +2313,16 @@
     "canonical_key": "url:finance.sina.com.cn/stock/enterprise/2025-08-01/doc-infinchw8199697.shtml",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:23:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2331,26 @@
     "locator": "Sina Finance article, 2025-08-01, fetched directly (Chinese) this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DISCREPANCY FLAG: scout's original note characterized this relationship as 'testing stage, no substantive orders yet,' but this session's fetch describes 'formal deep cooperation' rather than testing-only language. Orchestrator/idea team should treat the design-in-vs-booked-revenue distinction cautiously and re-check the primary article directly if this claim becomes load-bearing."
+    "notes": "DISCREPANCY FLAG: scout's original note characterized this relationship as 'testing stage, no substantive orders yet,' but this session's fetch describes 'formal deep cooperation' rather than testing-only language. Orchestrator/idea team should treat the design-in-vs-booked-revenue distinction cautiously and re-check the primary article directly if this claim becomes load-bearing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sina Finance (Sina Corp)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://finance.sina.com.cn/stock/enterprise/2025-08-01/doc-infinchw8199697.shtml"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sina Finance is part of Sina Corp, HQ Beijing/Shanghai, China (confirmed via WebSearch this session). Not India."
+    }
   },
   {
     "id": "L02-051",
@@ -1258,12 +2361,16 @@
     "canonical_key": "url:peaks-media.com/19773",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:04:30Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2379,26 @@
     "locator": "PEAKS MEDIA article, 2026-05-21 announcement date, spec and adoption-rationale paragraphs",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "demand_evidence_type corrected to 'none': article does not name a specific customer/OEM adopting the part, only general AI-server-BBU market adoption rationale. Directly fetched by scout (Japanese)."
+    "notes": "demand_evidence_type corrected to 'none': article does not name a specific customer/OEM adopting the part, only general AI-server-BBU market adoption rationale. Directly fetched by scout (Japanese).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "PEAKS MEDIA (Matsuo Sangyo Co., Ltd.)",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.peaks-media.com/19773/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "PEAKS MEDIA is produced by Matsuo Sangyo Co., Ltd., HQ Osaka, Japan (confirmed via WebSearch this session). Not India."
+    }
   },
   {
     "id": "L02-052",
@@ -1283,12 +2409,17 @@
     "canonical_key": "url:thelec.kr/news/articleview.html?idxno=57234",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:05:30Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["US", "KR"],
+    "geography": [
+      "US",
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2428,26 @@
     "locator": "THE ELEC article, product-spec and supply-announcement paragraphs",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "demand_evidence_type corrected to 'none': article explicitly states customer names are undisclosed. Directly fetched by scout (Korean)."
+    "notes": "demand_evidence_type corrected to 'none': article explicitly states customer names are undisclosed. Directly fetched by scout (Korean).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "THE ELEC, Inc.",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.thelec.kr/news/articleView.html?idxno=57234"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "THE ELEC Inc. HQ Gangnam-gu, Seoul, South Korea (confirmed via WebSearch this session). Not India."
+    }
   },
   {
     "id": "L02-053",
@@ -1308,12 +2458,16 @@
     "canonical_key": "url:datacenterdynamics.com/en/news/singapore-opens-call-to-develop-200mw-of-data-center-capacity",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG"],
+    "geography": [
+      "SG"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2476,26 @@
     "locator": "DCD article on DC-CFA2 call for application, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched directly this session (previously fetched=false). Government call-for-application is a genuine procurement-style trigger driving power-electronics-efficiency demand in Singapore."
+    "notes": "Fetched directly this session (previously fetched=false). Government call-for-application is a genuine procurement-style trigger driving power-electronics-efficiency demand in Singapore.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Singapore Economic Development Board / IMDA",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.datacenterdynamics.com/en/news/singapore-opens-call-to-develop-200mw-of-data-center-capacity/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Singapore government statutory boards (EDB, IMDA). Not India."
+    }
   },
   {
     "id": "L02-054",
@@ -1333,12 +2506,16 @@
     "canonical_key": "url:tmtpost.com/8010571.html",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:24:30Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,6 +2524,25 @@
     "locator": "TMTPost article, fetched directly (Chinese) this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: scout's original claim_supported (Huawei DC protection/grounding/hot-swap/voltage-oscillation work) was NOT found in this article per direct fetch this session. Replaced with verified content."
+    "notes": "CORRECTION: scout's original claim_supported (Huawei DC protection/grounding/hot-swap/voltage-oscillation work) was NOT found in this article per direct fetch this session. Replaced with verified content.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "TMTPost",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.tmtpost.com/8010571.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "TMTPost HQ Beijing (Daxing District), China (confirmed via WebSearch this session). Not India."
+    }
   }
 ]

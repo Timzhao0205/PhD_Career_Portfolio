@@ -5,6 +5,7 @@
 | P0 | state, assumptions, routing log | preflight and model probes recorded |
 | P1 | 16 lane briefs + 16 raw ledgers | >=720 reviewed; every lane complete |
 | P2 | canonical ledger + source atlas | >=600 accepted; mix and peer-review gates pass |
+| P2A | full source-origin audit + repaired atlas + Fable adjudication | every accepted source cleared; replacements restore every gate |
 | P3 | round-2 seeds + longlist markdown/json | >=80 regenerated seeds; >=48 distinct ideas, >=14 lanes; US/China quotas pass |
 | P4 | demand/competition/physics checks + scores | every idea passes/fails explicit gates |
 | P5 | red teams + selection | top 24 compliant; top 10 selected for deep dives |
@@ -17,9 +18,12 @@ edge; current demand proof; niche size by bottom-up arithmetic; competition; tec
 decisive experiment and budget; v1 capital/time; risks and kill criteria; US route; China route;
 optional Japan/Taiwan/South Korea routes; expansion; founder-fit note (last); score; confidence;
 citations.
+Each card also requires current TRL, 2026–2029 pre-company plan, 2030 launch thesis, 2030–2034
+demand trigger, 2030 competitor outlook, timing-window risk, and a commercial-readiness kill date.
 
 The final comparison CSV must contain: `idea_id, rank, concept, primary_lane, sector_cluster,
-product_role, primary_customer_archetype, primary_market, first_experiment_budget_usd, us_beachhead,
+product_role, primary_customer_archetype, primary_market, current_trl,
+precompany_validation_by_2029, launch_2030_fit, timing_window, first_experiment_budget_usd, us_beachhead,
 china_beachhead, secondary_markets, asia_beachhead, score_total, confidence`. Values for
 `product_role` are `process_output`,
 `infrastructure`, `scientific_system`, or `diagnostic_test`. Customer archetypes are `industrial`,

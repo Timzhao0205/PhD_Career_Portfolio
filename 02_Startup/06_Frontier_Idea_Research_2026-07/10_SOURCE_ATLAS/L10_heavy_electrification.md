@@ -358,3 +358,12 @@ Presented as pain + who pays + evidence -- not startup pitches.
     ag-equipment OEMs and early-adopting farmers currently lack independent field-validated economic
     evidence (beyond vendor claims and single-study estimates) to justify battery-electric tractor
     capex. **Evidence:** L10-016, L10-019, L10-020.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: none — no L10 record was quarantined by the 2026-07-12 prefilter or the 2026-07-13
+  full India-origin audit; every accepted L10 record carries a completed
+  `india_origin_audit.status = verified_non_india_origin` in the canonical and lane ledgers.
+- removed/trimmed claims: none required. (Section added 2026-07-13 during Fable-5 P2A
+  adjudication so that every lane brief carries an explicit origin-audit disposition; the
+  original repair wave skipped this lane because it had no exclusions.)

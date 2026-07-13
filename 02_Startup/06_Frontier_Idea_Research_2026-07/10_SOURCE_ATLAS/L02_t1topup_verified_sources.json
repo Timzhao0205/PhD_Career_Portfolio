@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1109/tpel.2023.3273570",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TPEL.2023.3273570",
     "doi": "10.1109/TPEL.2023.3273570",
@@ -22,7 +26,26 @@
     "locator": "Crossref API record for 10.1109/TPEL.2023.3273570 (type=journal-article, container-title=IEEE Trans. Power Electronics, vol.38 issue.8 pp.9685-9694) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: re-fetched Crossref API (title/venue/volume/issue/pages match exactly); direct IEEE Xplore document page fetch attempted this session and returned empty/blocked content (confirms prior scout note that Xplore blocks automated fetches for this lane). Per ASSUMPTIONS.md peer-review ruling, DOI-resolved Crossref record + successful Crossref fetch this session satisfies acceptance; peer_review_evidence_url repointed to the Crossref API URL actually fetched rather than the unreachable Xplore page. New sub-niche vs. existing L02 ledger (EV traction-inverter power-module packaging/double-side cooling). ACCEPTED, T1 academic."
+    "notes": "Verifier pass: re-fetched Crossref API (title/venue/volume/issue/pages match exactly); direct IEEE Xplore document page fetch attempted this session and returned empty/blocked content (confirms prior scout note that Xplore blocks automated fetches for this lane). Per ASSUMPTIONS.md peer-review ruling, DOI-resolved Crossref record + successful Crossref fetch this session satisfies acceptance; peer_review_evidence_url repointed to the Crossref API URL actually fetched rather than the unreachable Xplore page. New sub-niche vs. existing L02 ledger (EV traction-inverter power-module packaging/double-side cooling). ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Virginia Tech (Center for Power Electronics Systems)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2023.3273570"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolved to Virginia Tech, US."
+    }
   },
   {
     "id": "L02-102",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.1109/ecce53617.2023.10361985",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.ornl.gov/publication/high-power-density-segmented-traction-drive-inverter",
     "doi": "10.1109/ECCE53617.2023.10361985",
@@ -47,7 +74,26 @@
     "locator": "ORNL publication page (authors/venue/abstract) and Crossref API record for 10.1109/ecce53617.2023.10361985, both fetched successfully this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: dual confirmation via ORNL's own hosted publication page (national-lab primary mirror) and Crossref (peer-reviewed IEEE ECCE proceedings). National-lab-authored, peer-reviewed conference paper -- distinct sub-niche (segmented traction-inverter topology / capacitor reduction) from existing L02 records. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: dual confirmation via ORNL's own hosted publication page (national-lab primary mirror) and Crossref (peer-reviewed IEEE ECCE proceedings). National-lab-authored, peer-reviewed conference paper -- distinct sub-niche (segmented traction-inverter topology / capacitor reduction) from existing L02 records. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Oak Ridge National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/ecce53617.2023.10361985"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to ORNL, US."
+    }
   },
   {
     "id": "L02-103",
@@ -58,12 +104,16 @@
     "canonical_key": "doi:10.1109/tpel.2022.3203855",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TPEL.2022.3203855",
     "doi": "10.1109/TPEL.2022.3203855",
@@ -72,7 +122,26 @@
     "locator": "Crossref API record for 10.1109/TPEL.2022.3203855 (container-title, vol.38 issue.1 pp.739-749, and author affiliation array) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: IEEE Xplore document page fetch attempted this session and returned empty/blocked content; Crossref fetch (with affiliation data this time) satisfies acceptance and closes scout's affiliation flag. New high-density-DC-DC/magnetics sub-niche (multiphase VRM coupled-inductor design) distinct from existing L02 planar-transformer and 48V bus-converter records. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: IEEE Xplore document page fetch attempted this session and returned empty/blocked content; Crossref fetch (with affiliation data this time) satisfies acceptance and closes scout's affiliation flag. New high-density-DC-DC/magnetics sub-niche (multiphase VRM coupled-inductor design) distinct from existing L02 planar-transformer and 48V bus-converter records. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Virginia Tech (Center for Power Electronics Systems)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2022.3203855"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors resolved to Virginia Tech, US."
+    }
   },
   {
     "id": "L02-104",
@@ -83,12 +152,16 @@
     "canonical_key": "doi:10.1109/tpel.2023.3294471",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TPEL.2023.3294471",
     "doi": "10.1109/TPEL.2023.3294471",
@@ -97,7 +170,26 @@
     "locator": "Crossref API record for 10.1109/TPEL.2023.3294471 (container-title, vol.39 issue.1 pp.1103-1114, and author affiliation array) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: confirmed distinct DOI/volume/pages from L02-103 (a genuine follow-on design, not a mirror or preprint/final pair) -- correctly kept as a separate canonical work per dedupe-by-canonical-key rule. IEEE Xplore fetch blocked this session (consistent pattern across this batch); Crossref fetch satisfies acceptance. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: confirmed distinct DOI/volume/pages from L02-103 (a genuine follow-on design, not a mirror or preprint/final pair) -- correctly kept as a separate canonical work per dedupe-by-canonical-key rule. IEEE Xplore fetch blocked this session (consistent pattern across this batch); Crossref fetch satisfies acceptance. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Virginia Tech (Center for Power Electronics Systems)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2023.3294471"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Virginia Tech, US."
+    }
   },
   {
     "id": "L02-105",
@@ -108,12 +200,16 @@
     "canonical_key": "doi:10.1109/access.2022.3173606",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW"],
+    "geography": [
+      "TW"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ACCESS.2022.3173606",
     "doi": "10.1109/ACCESS.2022.3173606",
@@ -122,7 +218,30 @@
     "locator": "Crossref API record for 10.1109/ACCESS.2022.3173606 (container-title, vol.10 pp.50278-50287, license, and author affiliation array) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: TW affiliations now Crossref-confirmed (not ResearchGate-inferred as scout noted). New datacenter sub-niche (upstream AC-DC PFC stage) vs. existing L02 800VDC/48V-PoL records. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: TW affiliations now Crossref-confirmed (not ResearchGate-inferred as scout noted). New datacenter sub-niche (upstream AC-DC PFC stage) vs. existing L02 800VDC/48V-PoL records. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Cheng Kung University",
+          "country": "TW"
+        },
+        {
+          "name": "National Kaohsiung University of Science and Technology",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/access.2022.3173606"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Taiwanese institutions."
+    }
   },
   {
     "id": "L02-106",
@@ -133,12 +252,16 @@
     "canonical_key": "doi:10.1109/wipda56483.2022.9955248",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/WiPDA56483.2022.9955248",
     "doi": "10.1109/WiPDA56483.2022.9955248",
@@ -147,7 +270,26 @@
     "locator": "Crossref API record for 10.1109/WiPDA56483.2022.9955248 (container-title, pp.192-197, event details) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: IEEE Xplore fetch not independently re-tested for this record but consistent with confirmed block pattern elsewhere in this batch; Crossref fetch alone satisfies acceptance per ASSUMPTIONS.md ruling. Victor Veliadis/PowerAmerica affiliation is public-bio-sourced (unchanged from scout), not a load-bearing identity fact since primary authors' NC State affiliation is what is claimed in-text. New EV-drivetrain sub-niche (3L GaN traction inverter, 800V bus). ACCEPTED, T1 academic."
+    "notes": "Verifier pass: IEEE Xplore fetch not independently re-tested for this record but consistent with confirmed block pattern elsewhere in this batch; Crossref fetch alone satisfies acceptance per ASSUMPTIONS.md ruling. Victor Veliadis/PowerAmerica affiliation is public-bio-sourced (unchanged from scout), not a load-bearing identity fact since primary authors' NC State affiliation is what is claimed in-text. New EV-drivetrain sub-niche (3L GaN traction inverter, 800V bus). ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "North Carolina State University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/wipda56483.2022.9955248"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (incl. Subhransu Satpathy, Partha Pratim Das -- South-Asian-sounding names) resolved to NC State University, US via OpenAlex; Veliadis publicly known as PowerAmerica CTO (NC State-affiliated manufacturing institute). Affiliation-based, not name-based."
+    }
   },
   {
     "id": "L02-107",
@@ -158,12 +300,17 @@
     "canonical_key": "doi:10.1109/tpel.2025.3609543",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN", "DK"],
+    "geography": [
+      "CN",
+      "DK"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TPEL.2025.3609543",
     "doi": "10.1109/TPEL.2025.3609543",
@@ -172,7 +319,34 @@
     "locator": "Crossref API record for 10.1109/TPEL.2025.3609543 (container-title, vol.41 issue.2 pp.2847-2859, print/online publication dates) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: year ambiguity resolved -- 2026 confirmed as the true final-publication year via Crossref print/online date fields, consistent with the record's stated year (no correction needed). New grid-scale MVDC-interconnection SST sub-niche vs. existing EV-charging/MV-AC-to-400VDC SST records. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: year ambiguity resolved -- 2026 confirmed as the true final-publication year via Crossref print/online date fields, consistent with the record's stated year (no correction needed). New grid-scale MVDC-interconnection SST sub-niche vs. existing EV-charging/MV-AC-to-400VDC SST records. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "crossref"
+      ],
+      "institutions": [
+        {
+          "name": "Northeast Electric Power University",
+          "country": "CN"
+        },
+        {
+          "name": "Dalian University of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Technical University of Denmark",
+          "country": "DK"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1109/TPEL.2025.3609543"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Not yet indexed in OpenAlex (0 results); Crossref record gives explicit author affiliations: China (Northeast Electric Power University, Dalian University of Technology) and Denmark (DTU). No India."
+    }
   },
   {
     "id": "L02-108",
@@ -183,12 +357,16 @@
     "canonical_key": "doi:10.1109/tpel.2024.3408798",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TPEL.2024.3408798",
     "doi": "10.1109/TPEL.2024.3408798",
@@ -197,7 +375,38 @@
     "locator": "Crossref API record for 10.1109/TPEL.2024.3408798 (container-title, vol.39 issue.9 pp.10638-10650, and author affiliation array) fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: JP lead affiliation now Crossref-confirmed (not inferred from public bio as scout noted); co-author institutions span additional geographies not added to the geography array since the lane's primary attribution is the Osaka/SANKEN lead group -- verifier judgment, flagged for orchestrator if multi-geography tagging is desired. New die-attach/packaging failure-mode sub-niche. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: JP lead affiliation now Crossref-confirmed (not inferred from public bio as scout noted); co-author institutions span additional geographies not added to the geography array since the lane's primary attribution is the Osaka/SANKEN lead group -- verifier judgment, flagged for orchestrator if multi-geography tagging is desired. New die-attach/packaging failure-mode sub-niche. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Osaka University / SANKEN",
+          "country": "JP"
+        },
+        {
+          "name": "Korea Institute of Industrial Technology",
+          "country": "KR"
+        },
+        {
+          "name": "Jiangnan University",
+          "country": "CN"
+        },
+        {
+          "name": "Yamato University",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 12,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2024.3408798"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 12 authors resolved to Japan/Korea/China institutions via OpenAlex. No India."
+    }
   },
   {
     "id": "L02-109",
@@ -208,12 +417,16 @@
     "canonical_key": "doi:10.1109/iecon43393.2020.9254560",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/IECON43393.2020.9254560",
     "doi": "10.1109/IECON43393.2020.9254560",
@@ -222,7 +435,30 @@
     "locator": "Crossref API record for 10.1109/IECON43393.2020.9254560 (container-title, pp.1129-1135) fetched this session; Oxford Dept. of Engineering Science staff page (eng.ox.ac.uk/people/dan-rogers, eng.ox.ac.uk/power-electronics-group/people) fetched via search this session for affiliation corroboration",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: IEEE Xplore document page fetch attempted this session and returned empty/blocked content. Affiliation gap in Crossref closed via an independent university staff-page source rather than left as an inference. New bidirectional (V2G-capable) OBC DC-DC sub-niche. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: IEEE Xplore document page fetch attempted this session and returned empty/blocked content. Affiliation gap in Crossref closed via an independent university staff-page source rather than left as an inference. New bidirectional (V2G-capable) OBC DC-DC sub-niche. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Technical University of Denmark",
+          "country": "DK"
+        },
+        {
+          "name": "University of Oxford",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon43393.2020.9254560"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Authors resolved to DTU (Denmark) and Oxford (UK). No India."
+    }
   },
   {
     "id": "L02-110",
@@ -233,12 +469,16 @@
     "canonical_key": "doi:10.1109/ecce47101.2021.9595320",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ECCE47101.2021.9595320",
     "doi": "10.1109/ECCE47101.2021.9595320",
@@ -247,7 +487,30 @@
     "locator": "Crossref API record for 10.1109/ECCE47101.2021.9595320 (container-title, event/date) fetched this session; page range field absent from Crossref, noted as a data gap rather than fabricated",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: IEEE Xplore document page fetch attempted this session and returned empty/blocked content; Crossref fetch (proceedings-article type, correct venue/date) satisfies acceptance despite the missing page-range field. Industry co-authorship (EPC Corp., a GaN vendor) noted but record is peer-reviewed IEEE proceedings, not vendor marketing -- treated as academic per scout's original reasoning, unchanged. Bridges planar-magnetics and 400V-to-48V datacenter-bus sub-niches. ACCEPTED, T1 academic."
+    "notes": "Verifier pass: IEEE Xplore document page fetch attempted this session and returned empty/blocked content; Crossref fetch (proceedings-article type, correct venue/date) satisfies acceptance despite the missing page-range field. Industry co-authorship (EPC Corp., a GaN vendor) noted but record is peer-reviewed IEEE proceedings, not vendor marketing -- treated as academic per scout's original reasoning, unchanged. Bridges planar-magnetics and 400V-to-48V datacenter-bus sub-niches. ACCEPTED, T1 academic.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Texas at Austin",
+          "country": "US"
+        },
+        {
+          "name": "Efficient Power Conversion Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/ecce47101.2021.9595320"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Authors resolved to UT Austin and EPC Corp, both US. No India."
+    }
   },
   {
     "id": "L02-111",
@@ -258,12 +521,16 @@
     "canonical_key": "url:energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -272,7 +539,26 @@
     "locator": "Article body, FITT project list and SiC Packaging Prize Phase 1 winners paragraphs, re-fetched and quoted this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: direct fetch confirmed this session, matching scout's original quotes. Official DOE government primary record -- distinct program (Office of Electricity grid-modernization/transformer line) from ARPA-E CIRCUITS/DC-GRIDS already in the L02 ledger; no canonical-key collision found in 90_BIBLIOGRAPHY/sources.json. ACCEPTED, T1 government."
+    "notes": "Verifier pass: direct fetch confirmed this session, matching scout's original quotes. Official DOE government primary record -- distinct program (Office of Electricity grid-modernization/transformer line) from ARPA-E CIRCUITS/DC-GRIDS already in the L02 ledger; no canonical-key collision found in 90_BIBLIOGRAPHY/sources.json. ACCEPTED, T1 government.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of Energy, Office of Electricity",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "U.S. DOE, energy.gov domain. Not India."
+    }
   },
   {
     "id": "L02-112",
@@ -283,12 +569,22 @@
     "canonical_key": "standard:iec-62477-1-2022",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "CN", "JP", "KR", "TW", "SG", "IN"],
+    "geography": [
+      "US",
+      "CN",
+      "JP",
+      "KR",
+      "TW",
+      "SG",
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -297,7 +593,26 @@
     "locator": "IEC webstore publication page 28936, scope/edition/date fields, re-fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: direct fetch confirmed this session. Official IEC standard, horizontal safety requirement distinct from the existing IEC 60076-24 (transformer-test-specific) record already in the L02 ledger; no canonical-key collision found in 90_BIBLIOGRAPHY/sources.json. Geography listed as a multi-market IEC-adoption set per scout's original judgment, retained as-is. ACCEPTED, T1 standard."
+    "notes": "Verifier pass: direct fetch confirmed this session. Official IEC standard, horizontal safety requirement distinct from the existing IEC 60076-24 (transformer-test-specific) record already in the L02 ledger; no canonical-key collision found in 90_BIBLIOGRAPHY/sources.json. Geography listed as a multi-market IEC-adoption set per scout's original judgment, retained as-is. ACCEPTED, T1 standard.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Electrotechnical Commission (IEC)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://webstore.iec.ch/en/publication/28936"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEC, Geneva, Switzerland. Record's geography array lists IN among many multi-national adoption markets (not origin) -- publishing organization itself is Swiss, not India."
+    }
   },
   {
     "id": "L02-113",
@@ -308,12 +623,16 @@
     "canonical_key": "url:sec.gov/archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -322,7 +641,26 @@
     "locator": "StockTitan reproduction of Vicor FY2025 10-K (Item 1 Business product-line descriptions and revenue-mix percentages, licensing-revenue figures) fetched directly this session; SEC.gov URL existence corroborated via web search this session; direct SEC.gov render blocked (HTTP 403) both by the scout and independently by the verifier",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: SEC.gov 403-block independently reproduced (not taken on faith from the scout), and the filing's existence/content corroborated via two independent fetches this session (search-engine index confirmation of the exact accession URL + direct StockTitan re-derivation of the same figures). Audited 10-K company filing is unambiguously T1 by type; fetch-accessibility handled per the same publisher-block logic as the ASSUMPTIONS.md academic ruling, extended here to a blocked-but-independently-corroborated primary filing. New company-filing sub-niche (high-density modular-power/DC-DC specialist) vs. existing Navitas 8-K / Wolfspeed transcript records. ACCEPTED, T1 company_filing."
+    "notes": "Verifier pass: SEC.gov 403-block independently reproduced (not taken on faith from the scout), and the filing's existence/content corroborated via two independent fetches this session (search-engine index confirmation of the exact accession URL + direct StockTitan re-derivation of the same figures). Audited 10-K company filing is unambiguously T1 by type; fetch-accessibility handled per the same publisher-block logic as the ASSUMPTIONS.md academic ruling, extended here to a blocked-but-independently-corroborated primary filing. New company-filing sub-niche (high-density modular-power/DC-DC specialist) vs. existing Navitas 8-K / Wolfspeed transcript records. ACCEPTED, T1 company_filing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Vicor Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Vicor Corporation HQ Andover, MA, USA (NASDAQ: VICR), confirmed via WebSearch this session. SEC EDGAR is the authoritative registry for the filing. Not India."
+    }
   },
   {
     "id": "L02-114",
@@ -333,12 +671,16 @@
     "canonical_key": "tender:w50s81-25-q-a013",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -347,7 +689,26 @@
     "locator": "HigherGov contract-opportunity page fields (solicitation number, item description, NAICS, value, dates, contact), re-fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier pass: all core solicitation facts (number/item/NAICS/value/dates) reconfirmed identical to scout's record. Minor discrepancy: HigherGov's own agency-classification field displayed 'Department of the Army' as a parent bucket, but the listed contact email (104.fw.msc@us.af.mil) confirms the issuing unit is the 104th Fighter Wing (Air National Guard/Air Force), consistent with the raw record's authors_or_org -- treated as a HigherGov categorization artifact, not a factual error in the underlying solicitation; does not block acceptance. Direct sam.gov page not independently re-fetched this session (same limitation as scout). Genuine primary federal buyer/procurement notice for defense/aerospace power-conversion equipment. ACCEPTED, T1 buyer_procurement."
+    "notes": "Verifier pass: all core solicitation facts (number/item/NAICS/value/dates) reconfirmed identical to scout's record. Minor discrepancy: HigherGov's own agency-classification field displayed 'Department of the Army' as a parent bucket, but the listed contact email (104.fw.msc@us.af.mil) confirms the issuing unit is the 104th Fighter Wing (Air National Guard/Air Force), consistent with the raw record's authors_or_org -- treated as a HigherGov categorization artifact, not a factual error in the underlying solicitation; does not block acceptance. Direct sam.gov page not independently re-fetched this session (same limitation as scout). Genuine primary federal buyer/procurement notice for defense/aerospace power-conversion equipment. ACCEPTED, T1 buyer_procurement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Massachusetts Air National Guard (104th Fighter Wing) / U.S. DoD",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.highergov.com/contract-opportunity/aircraft-power-converters-ground-power-systems-w50s81-25-q-a013-o-1fb15/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "U.S. federal/state defense procurement (Westfield, MA). Not India."
+    }
   },
   {
     "id": "L02-115",
@@ -358,12 +719,18 @@
     "canonical_key": "url:gevernova.com/news/press-releases/ge-vernova-seatrium-secure-major-contract-tennet",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L02"],
+    "lane_ids": [
+      "L02"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE", "US", "SG"],
+    "geography": [
+      "DE",
+      "US",
+      "SG"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -372,6 +739,33 @@
     "locator": "GE Vernova press-release body (project scope, rating, framework paragraphs) re-fetched this session; cross-corroboration via web search this session against Seatrium IR PDF and multiple independent trade-press outlets",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "TIER DOWNGRADE (verifier judgment): the raw record classified this as tier T1 / source_type buyer_procurement / demand_evidence_type buyer_tender, but the fetched document is a company (GE Vernova) press release reporting a contract, not the buyer's (TenneT) own tender/procurement/award document -- per SOURCE_STANDARDS and this wave's explicit tier-discipline instruction, 'company press releases... are T2 at best,' and per the mission-binding demand-evidence rule, vendor-authored reports of their own wins are not treated as primary buyer/tender documents even when the underlying deal is real and independently corroborated. Downgraded: tier T1->T2, source_type buyer_procurement->trade_press, demand_evidence_type buyer_tender->none. Retained as ACCEPTED (T2) rather than rejected because the transaction, scope, and figures are genuine and multiply corroborated -- useful T2 context/geography evidence (DE grid-scale HVDC procurement activity) but must not be counted toward the T1 or demand-primary quotas."
+    "notes": "TIER DOWNGRADE (verifier judgment): the raw record classified this as tier T1 / source_type buyer_procurement / demand_evidence_type buyer_tender, but the fetched document is a company (GE Vernova) press release reporting a contract, not the buyer's (TenneT) own tender/procurement/award document -- per SOURCE_STANDARDS and this wave's explicit tier-discipline instruction, 'company press releases... are T2 at best,' and per the mission-binding demand-evidence rule, vendor-authored reports of their own wins are not treated as primary buyer/tender documents even when the underlying deal is real and independently corroborated. Downgraded: tier T1->T2, source_type buyer_procurement->trade_press, demand_evidence_type buyer_tender->none. Retained as ACCEPTED (T2) rather than rejected because the transaction, scope, and figures are genuine and multiply corroborated -- useful T2 context/geography evidence (DE grid-scale HVDC procurement activity) but must not be counted toward the T1 or demand-primary quotas.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "GE Vernova",
+          "country": "US"
+        },
+        {
+          "name": "TenneT TSO GmbH",
+          "country": "DE"
+        },
+        {
+          "name": "Seatrium",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.gevernova.com/news/press-releases/ge-vernova-seatrium-secure-major-contract-tennet"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "GE Vernova HQ Cambridge, MA, USA (confirmed via WebSearch this session); buyer TenneT is German/Dutch TSO; consortium partner Seatrium is Singapore-based. None are India."
+    }
   }
 ]

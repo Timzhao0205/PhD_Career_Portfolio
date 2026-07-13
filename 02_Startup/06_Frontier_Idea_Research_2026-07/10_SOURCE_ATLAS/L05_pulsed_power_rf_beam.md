@@ -15,7 +15,7 @@ pulsed-power/RF drive chain** for klystrons, magnetrons, and cavity amplifiers, 
 across at least four independent research communities:
 
 - **Solid-state Marx/klystron modulators**: a deep, multi-decade literature (JEMA/ESS
-  Bilbao/SNS-ORNL 100 kV/60 A design, `L05-003`; 100 kV/20 A/1 ms design, `L05-001`; 6 MW
+  Bilbao/SNS-ORNL 100 kV/60 A design, `L05-003`; 6 MW
   medical-linac design, `L05-004`; 1.7 MW X-band magnetron modulator, `L05-005`; medical
   electron-gun modulator, `L05-006`) shows solid-state IGBT-based IGBT/Marx modulators have
   displaced or are displacing legacy PFN (pulse-forming-network)/thyratron modulators across
@@ -308,3 +308,10 @@ use.)
 - CPI's financial profile (`L05-050`) is explicitly downgraded to T2 because the figures originate
   from a third-party data aggregator rather than an audited company filing -- CPI has had no public
   10-K since its 2011 take-private transaction.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L05-001, L05-025, L05-051
+- removed/trimmed claims:
+  - Dropped the "100 kV/20 A/1 ms design, `L05-001`" example from the solid-state Marx/klystron-modulator literature list (Sec. "Frontier state") — needs a re-sourced example design from an eligible provider if retained.
+  - No other inline claim in this brief cited `L05-001` individually. `L05-025` was not cited by any specific inline claim in the running text (it only fell inside the general "IDs L05-001...L05-050" range-description sentence describing the raw-source-file's ID numbering, which is not itself a technical/market/demand claim and was left unchanged). `L05-051` likewise only appears in that same methodological range-description sentence ("plus three supplementary peer-reviewed records `L05-051`...`L05-053`"), not as a citation supporting any specific claim, and was left unchanged for the same reason — flagged here for the verifier's awareness rather than edited.

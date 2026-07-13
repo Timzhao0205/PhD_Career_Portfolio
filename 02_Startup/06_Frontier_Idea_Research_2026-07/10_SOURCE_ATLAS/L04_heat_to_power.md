@@ -287,23 +287,20 @@ Sub-niches newly covered:
 2. **Component-level Brayton-cycle controls.** A Tianjin University valve-by-valve dynamic-performance
    comparison (`L04-111`), complementing but distinct from the existing system-level dynamics
    (`L04-007`) and control-strategy review (`L04-022`) records.
-3. **PCHE structural durability.** An India-based (Kumaraguru College of Technology) thermostructural
-   analysis of airfoil-fin PCHE design (`L04-105`) — the lane's first India-geography sCO2-hardware
-   primary paper.
-4. **Allam-cycle-adjacent oxy-fuel combustion NOx behavior**, from Huazhong University of Science and
+3. **Allam-cycle-adjacent oxy-fuel combustion NOx behavior**, from Huazhong University of Science and
    Technology (`L04-104`), partially filling a gap this lane's own brief had flagged as under-studied.
-5. **TPV beyond the grid-scale thermal-battery story**: a radioisotope-TPV (RTPV) space-power design
+4. **TPV beyond the grid-scale thermal-battery story**: a radioisotope-TPV (RTPV) space-power design
    paper from MIT (`L04-107`) and an NREL near-field, low-temperature (460C) large-area TPV device
    (`L04-110`) — both materially different technical approaches from the high-temperature
    tandem/air-bridge cells already in the base ledger.
-6. **Thermal-battery balance-of-plant hardware**: an MIT (Asegun Henry group) paper on high-temperature
+5. **Thermal-battery balance-of-plant hardware**: an MIT (Asegun Henry group) paper on high-temperature
    molten-silicon pumping for grid-scale thermal storage (`L04-108`), the mechanical enabling
    component underlying silicon-based TPV thermal batteries.
-7. **Materials/standards infrastructure**: a Sandia National Laboratories 2016 technical report on five
+6. **Materials/standards infrastructure**: a Sandia National Laboratories 2016 technical report on five
    named sCO2 materials challenges — alloys, turbine degradation, gas-foil bearings, corrosion
    (`L04-113`) — and the current ASTM E139-24 creep/stress-rupture test-method standard (`L04-112`)
    relevant to qualifying high-temperature alloys for this hardware.
-8. **Financing-side demand signals**: DOE's $1.76B loan-guarantee conditional commitment for the
+7. **Financing-side demand signals**: DOE's $1.76B loan-guarantee conditional commitment for the
    Willow Rock A-CAES long-duration storage project (`L04-114`), and Fervo Energy's $421M non-recourse
    project-debt close for Cape Station (`L04-115`), which pairs with the existing 1.75 GW
    Fervo-Turboden turbine order (`L04-044`) to show the turbine procurement is now debt-financed.
@@ -313,3 +310,12 @@ vendors — was found and corroborated via WebSearch but could not be directly f
 serves a JavaScript-rendered shell to automated fetches) and was deliberately left out of the
 15-record file rather than included as an unfetchable, likely-rejected entry; it is noted in
 `L04-113`'s notes field as context for a future scout with browser-level access.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L04-105
+- removed/trimmed claims: deleted T1 top-up sub-niche item "PCHE structural durability" (the
+  India-based Kumaraguru College of Technology airfoil-fin PCHE thermostructural-analysis paper),
+  which rested solely on L04-105; remaining T1 top-up sub-niche items renumbered 3-7 (previously
+  4-8) to close the gap. No other claim in this file cited L04-105, L04-024, or L04-037 (the
+  latter two do not appear anywhere in this file).

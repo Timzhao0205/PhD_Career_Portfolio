@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1115/1.4064442",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:01:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1115/1.4064442",
     "doi": "10.1115/1.4064442",
@@ -22,7 +26,26 @@
     "locator": "Crossref REST API record confirms: ASME Journal of Heat and Mass Transfer (journal renamed from 'Journal of Heat Transfer'), vol 146, issue 4, article 041601, published 2024-01-29, publisher ASME International.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier (2026-07-12): direct ASME publisher fetch still returns HTTP 403 (paywall), but the Crossref REST API record was fetched successfully this session and confirms exact title/venue/year match, satisfying the mission's academic-acceptance rule. Full author list still not independently confirmed; scout's tentative list retained and flagged unconfirmed."
+    "notes": "Verifier (2026-07-12): direct ASME publisher fetch still returns HTTP 403 (paywall), but the Crossref REST API record was fetched successfully this session and confirms exact title/venue/year match, satisfying the mission's academic-acceptance rule. Full author list still not independently confirmed; scout's tentative list retained and flagged unconfirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Worcester Polytechnic Institute",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1115/1.4064442&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (O'Connor, Talmor, Yagoobi) resolved to Worcester Polytechnic Institute, US. No IN affiliation."
+    }
   },
   {
     "id": "L16-002",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.2514/1.T6931",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.2514/1.T6931",
     "doi": "10.2514/1.T6931",
@@ -47,7 +74,30 @@
     "locator": "Crossref REST API record confirms: Journal of Thermophysics and Heat Transfer, vol 38, issue 3, pp 360-367, published 2024-07, publisher AIAA.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier (2026-07-12): direct AIAA fetch returned HTTP 403 (paywall); Crossref REST API record fetched successfully this session confirms identity. Full author list not independently confirmed."
+    "notes": "Verifier (2026-07-12): direct AIAA fetch returned HTTP 403 (paywall); Crossref REST API record fetched successfully this session confirms identity. Full author list not independently confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Pingtung University of Science and Technology",
+          "country": "TW"
+        },
+        {
+          "name": "University of Oklahoma",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.2514/1.T6931&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Authors Cheng, Leong (Taiwan) and Lai (University of Oklahoma, US). No IN affiliation."
+    }
   },
   {
     "id": "L16-003",
@@ -58,12 +108,17 @@
     "canonical_key": "doi:10.1016/j.rser.2025.116032",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:03:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN", "multinational"],
+    "geography": [
+      "CN",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.rser.2025.116032",
     "doi": "10.1016/j.rser.2025.116032",
@@ -72,7 +127,26 @@
     "locator": "Crossref REST API record confirms: Renewable and Sustainable Energy Reviews, vol 224, article 116032, published 2025-12, Elsevier BV; full author list (Gao, Liu, Wu [ORCID 0000-0002-3072-1648], Luo, Yi) matches scout's citation exactly.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Scout fetched the RePEc bibliographic record; verifier independently confirmed via Crossref REST API this session (title, DOI, full author list, venue all match)."
+    "notes": "Scout fetched the RePEc bibliographic record; verifier independently confirmed via Crossref REST API this session (title, DOI, full author list, venue all match).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Harbin Institute of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.rser.2025.116032&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to Harbin Institute of Technology, China. No IN affiliation."
+    }
   },
   {
     "id": "L16-004",
@@ -83,12 +157,16 @@
     "canonical_key": "doi:10.1016/j.elstat.2025.104151",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.elstat.2025.104151",
     "doi": "10.1016/j.elstat.2025.104151",
@@ -97,7 +175,30 @@
     "locator": "Crossref bibliographic search this session found exact title match: Journal of Electrostatics, vol 137, article 104151, published Sept 2025, Elsevier BV.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: scout guessed the journal was 'International Communications in Heat and Mass Transfer' from a search snippet; verifier's Crossref bibliographic search this session found the exact title match is actually in the Journal of Electrostatics (DOI 10.1016/j.elstat.2025.104151), not the guessed venue. DOI, canonical_key, and journal name updated accordingly. Direct ScienceDirect fetch still 403; Crossref record fetch satisfies acceptance rule."
+    "notes": "CORRECTION: scout guessed the journal was 'International Communications in Heat and Mass Transfer' from a search snippet; verifier's Crossref bibliographic search this session found the exact title match is actually in the Journal of Electrostatics (DOI 10.1016/j.elstat.2025.104151), not the guessed venue. DOI, canonical_key, and journal name updated accordingly. Direct ScienceDirect fetch still 403; Crossref record fetch satisfies acceptance rule.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Guilan",
+          "country": "IR"
+        },
+        {
+          "name": "University of Science and Technology of Mazandaran",
+          "country": "IR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.elstat.2025.104151&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved to Iranian universities. No IN affiliation."
+    }
   },
   {
     "id": "L16-005",
@@ -108,12 +209,16 @@
     "canonical_key": "doi:10.1016/j.ijheatmasstransfer.2024.125643",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijheatmasstransfer.2024.125643",
     "doi": "10.1016/j.ijheatmasstransfer.2024.125643",
@@ -122,7 +227,26 @@
     "locator": "Crossref REST API record confirms: International Journal of Heat and Mass Transfer, vol 228, article 125643, published 2024-08, Elsevier BV -- matches scout's originally guessed journal exactly.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier found DOI via Crossref bibliographic search this session; identity/venue/year confirmed. The specific '158% HTER improvement' figure remains unconfirmed (search-snippet-derived only, full text not fetched this session either) -- flagged as an open item; do not treat that specific number as independently verified."
+    "notes": "Verifier found DOI via Crossref bibliographic search this session; identity/venue/year confirmed. The specific '158% HTER improvement' figure remains unconfirmed (search-snippet-derived only, full text not fetched this session either) -- flagged as an open item; do not treat that specific number as independently verified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Jiangsu University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.ijheatmasstransfer.2024.125643&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors resolved to Jiangsu University, China. No IN affiliation."
+    }
   },
   {
     "id": "L16-006",
@@ -133,12 +257,17 @@
     "canonical_key": "doi:10.1007/s12206-024-2101-x",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR", "multinational"],
+    "geography": [
+      "KR",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s12206-024-2101-x",
     "doi": "10.1007/s12206-024-2101-x",
@@ -147,7 +276,26 @@
     "locator": "Crossref REST API record confirms: Journal of Mechanical Science and Technology, vol 38, issue 8, pp 3869-3879, published 2024-06-22, Springer.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref REST API this session. Direct Springer fetch not attempted (Crossref record sufficient per acceptance rule)."
+    "notes": "Verifier confirmed via Crossref REST API this session. Direct Springer fetch not attempted (Crossref record sufficient per acceptance rule).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sungkyunkwan University",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s12206-024-2101-x&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Sungkyunkwan University, South Korea. No IN affiliation."
+    }
   },
   {
     "id": "L16-007",
@@ -158,12 +306,16 @@
     "canonical_key": "doi:10.1038/s41586-018-0707-9",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41586-018-0707-9",
     "doi": "10.1038/s41586-018-0707-9",
@@ -172,7 +324,30 @@
     "locator": "Crossref REST API record confirms: Nature, vol 563, issue 7732, pp 532-535, published 2018-11-21; full 10-author list confirmed.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed full author list via Crossref this session (Xu, He, Strobel, Gilmore, Kelley, Hennick, Sebastian, Woolston, Perreault, Barrett), replacing scout's placeholder. Included despite 2018 date as foundational/still-cited technical basis for later EHD-propulsion work; flagged as older than lane's typical 2024-2026 window."
+    "notes": "Verifier confirmed full author list via Crossref this session (Xu, He, Strobel, Gilmore, Kelley, Hennick, Sebastian, Woolston, Perreault, Barrett), replacing scout's placeholder. Included despite 2018 date as foundational/still-cited technical basis for later EHD-propulsion work; flagged as older than lane's typical 2024-2026 window.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "country": "US"
+        },
+        {
+          "name": "MIT Lincoln Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 10,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41586-018-0707-9&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 10 authors resolved to MIT / MIT Lincoln Laboratory, US. No IN affiliation."
+    }
   },
   {
     "id": "L16-008",
@@ -181,23 +356,49 @@
     "year": 2021,
     "url": "https://link.springer.com/article/10.1007/s12046-021-01687-0",
     "canonical_key": "doi:10.1007/s12046-021-01687-0",
-    "source_type": "academic_peer_reviewed",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN", "multinational"],
+    "geography": [
+      "IN",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s12046-021-01687-0",
     "doi": "10.1007/s12046-021-01687-0",
     "demand_evidence_type": "none",
     "claim_supported": "Review of ionic-wind (corona-discharge EHD) research through 2020 and its applications in electronics thermal management, summarizing device configurations and performance trends.",
     "locator": "Crossref REST API record confirms: Sadhana (Sadhana), vol 46, issue 3, article 165, published 2021-08-13, Springer.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session. Sadhana is published by the Indian Academy of Sciences; geography IN tag is editorial/journal-origin based, not confirmed author nationality."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "Verifier confirmed via Crossref this session. Sadhana is published by the Indian Academy of Sciences; geography IN tag is editorial/journal-origin based, not confirmed author nationality. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Indian Institute of Technology Kharagpur",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s12046-021-01687-0&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "useful_lead": "Review of ionic-wind (corona-discharge EHD) thermal-management research through 2020; if this survey's technical summary is useful, independently confirm the underlying claims via the primary papers it cites or an equivalent non-Indian-authored review.",
+      "notes": "All 4 authors (Venkatesh, Kumar, Bhattacharya, Pramanik) resolved to Indian Institute of Technology Kharagpur, India. No non-Indian affiliation found; the record's own notes already flagged Sadhana as an Indian Academy of Sciences venue but this now confirms author-level Indian origin too. Downgraded to discovery_only per binding rule."
+    }
   },
   {
     "id": "L16-009",
@@ -208,12 +409,16 @@
     "canonical_key": "url:epa.gov/air-emissions-monitoring-knowledge-base/monitoring-control-technique-electrostatic-precipitators",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -222,7 +427,26 @@
     "locator": "EPA Air Emissions Monitoring Knowledge Base, Electrostatic Precipitators monitoring page (fetched directly by verifier, 2026-07-12).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier fetched directly this session (succeeded). CORRECTED claim_supported: removed scout's implication of specific cited numeric emission limits, since the page does not display any; the >99% collection-efficiency figure and CAM Rule citation are the load-bearing facts actually present. No publication date shown on the page."
+    "notes": "Verifier fetched directly this session (succeeded). CORRECTED claim_supported: removed scout's implication of specific cited numeric emission limits, since the page does not display any; the >99% collection-efficiency figure and CAM Rule citation are the load-bearing facts actually present. No publication date shown on the page.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Environmental Protection Agency (EPA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.epa.gov/air-emissions-monitoring-knowledge-base/monitoring-control-technique-electrostatic-precipitators"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official epa.gov domain. Unambiguous US federal agency."
+    }
   },
   {
     "id": "L16-010",
@@ -233,12 +457,16 @@
     "canonical_key": "doi:10.1109/maes.2025.3526134",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/maes.2025.3526134",
     "doi": "10.1109/maes.2025.3526134",
@@ -247,7 +475,30 @@
     "locator": "Crossref bibliographic search this session found exact title match: IEEE Aerospace and Electronic Systems Magazine, vol 41, issue 4, pp 4-30, formally published April 2026 (early access ~Dec 2025); authors confirmed Shittu, Abou-Khousa, Viegas (Khalifa University, UAE), Hernandez-Figueroa (University of Campinas, Brazil), Elfadel (Khalifa University, UAE).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: scout had no DOI and a tentative author-order guess; verifier found DOI via Crossref bibliographic search and confirmed exact author list matches scout's guess. Year corrected from 2025 to 2026 to reflect Crossref's formal issue date (article was in IEEE early-access in late 2025, matching scout's original year tag); both dates noted."
+    "notes": "CORRECTION: scout had no DOI and a tentative author-order guess; verifier found DOI via Crossref bibliographic search and confirmed exact author list matches scout's guess. Year corrected from 2025 to 2026 to reflect Crossref's formal issue date (article was in IEEE early-access in late 2025, matching scout's original year tag); both dates noted.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Khalifa University of Science and Technology",
+          "country": "AE"
+        },
+        {
+          "name": "Universidade Estadual de Campinas (UNICAMP)",
+          "country": "BR"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/maes.2025.3526134&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "4 authors (Shittu, Abou-Khousa, Viegas, Elfadel) resolved to Khalifa University, UAE; 1 author (Hernandez-Figueroa) to UNICAMP, Brazil. No IN affiliation; names were not used to infer origin."
+    }
   },
   {
     "id": "L16-011",
@@ -258,12 +509,16 @@
     "canonical_key": "doi:10.1063/5.0258293",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0258293",
     "doi": "10.1063/5.0258293",
@@ -272,7 +527,34 @@
     "locator": "Crossref REST API record confirms: Journal of Applied Physics, vol 137, issue 15, article 153106, published 2025-04-17 (online)/2025-04-21 (print), AIP Publishing.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session. Direct AIP fetch not attempted (Crossref record sufficient)."
+    "notes": "Verifier confirmed via Crossref this session. Direct AIP fetch not attempted (Crossref record sufficient).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Nanjing University",
+          "country": "CN"
+        },
+        {
+          "name": "Suzhou Research Institute",
+          "country": "CN"
+        },
+        {
+          "name": "Composite Components (Czechia) [likely OpenAlex disambiguation artifact]",
+          "country": "CZ"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0258293&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Predominantly Nanjing University, China; one author's institution resolved to a Czech entity, possibly an OpenAlex disambiguation error, but not IN regardless. No IN affiliation."
+    }
   },
   {
     "id": "L16-012",
@@ -281,23 +563,52 @@
     "year": 2023,
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924424723001322",
     "canonical_key": "doi:10.1016/j.sna.2023.114283",
-    "source_type": "academic_peer_reviewed",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.sna.2023.114283",
     "doi": "10.1016/j.sna.2023.114283",
     "demand_evidence_type": "none",
     "claim_supported": "Review of metamaterial-based RF/microwave absorber design approaches, broader than radar-cross-section/stealth applications alone (covers general EMI and microwave-absorption use cases).",
     "locator": "Crossref bibliographic search this session found exact title match: Sensors and Actuators A: Physical, vol 354, article 114283, published 2023-05, Elsevier BV.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Verifier found DOI and confirmed exact journal (Sensors and Actuators A: Physical -- scout's guess of a 'Sensors and Actuators-family' journal was directionally correct)."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "Verifier found DOI and confirmed exact journal (Sensors and Actuators A: Physical -- scout's guess of a 'Sensors and Actuators-family' journal was directionally correct). | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Motilal Nehru National Institute of Technology",
+          "country": "IN"
+        },
+        {
+          "name": "Defence Materials and Stores Research and Development Establishment",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.sna.2023.114283&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "useful_lead": "Review of metamaterial-based RF/microwave absorber design approaches; if useful for the RCS/stealth-metamaterials thread, cross-check its claims against the batch's other already-accepted non-Indian metamaterial-RCS academic sources (e.g., L16-010, L16-011) rather than citing this record directly.",
+      "notes": "All 4 authors (Jorwal, Dubey, Gupta, Agarwal) resolved to Motilal Nehru National Institute of Technology and a DRDO establishment (Defence Materials and Stores R&D Establishment), both India. No non-Indian affiliation found. Downgraded to discovery_only."
+    }
   },
   {
     "id": "L16-013",
@@ -308,12 +619,16 @@
     "canonical_key": "doi:10.11999/JEIT240601",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:13:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT240601",
     "doi": "10.11999/JEIT240601",
@@ -322,7 +637,34 @@
     "locator": "电子与信息学报 (Journal of Electronics & Information Technology), vol 47, issue 4 (2025), pp 991-1003, DOI 10.11999/JEIT240601; publisher page fetched directly this session and states an explicit peer-review/publication-ethics policy (出版道德声明). Online 2024-11-29, formal print 2025-04-01.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref REST API returned 404 for this DOI (Chinese DOI registration agency not mirrored in Crossref), but doi.org resolved the DOI correctly to the publisher page (jeit.ac.cn), which was fetched directly this session and confirms title/venue/year/full author list and an explicit peer-review-policy statement -- satisfies the mission's 'publisher record + peer-review-evidence-url' acceptance path even without Crossref coverage. Full author list now confirmed (was previously first-author-only)."
+    "notes": "Crossref REST API returned 404 for this DOI (Chinese DOI registration agency not mirrored in Crossref), but doi.org resolved the DOI correctly to the publisher page (jeit.ac.cn), which was fetched directly this session and confirms title/venue/year/full author list and an explicit peer-review-policy statement -- satisfies the mission's 'publisher record + peer-review-evidence-url' acceptance path even without Crossref coverage. Full author list now confirmed (was previously first-author-only).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Army Engineering University of PLA",
+          "country": "CN"
+        },
+        {
+          "name": "Rocket Force University of Engineering",
+          "country": "CN"
+        },
+        {
+          "name": "Southeast University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT240601"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not indexed in Crossref/OpenAlex (Chinese DOI registration agency not mirrored); fetched publisher page (jeit.ac.cn) directly, confirming all 6 authors at PLA/Chinese-military-affiliated and Southeast University institutions in Nanjing/Xi'an, China. No IN affiliation."
+    }
   },
   {
     "id": "L16-014",
@@ -333,12 +675,16 @@
     "canonical_key": "doi:10.12000/JR24259",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:14:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://radars.ac.cn/cn/article/doi/10.12000/JR24259",
     "doi": "10.12000/JR24259",
@@ -347,7 +693,26 @@
     "locator": "雷达学报 (Journal of Radars), vol 14, issue 3 (2025), pp 664-696, DOI 10.12000/JR24259; publisher page fetched directly this session and explicitly states open-access policy (开放获取政策) and peer-review policy (同行评议政策). Online 2025-04-18, print 2025-06-28.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref REST API returned 404 for this DOI; doi.org resolved correctly to radars.ac.cn, fetched directly this session confirming full author list, venue, and explicit peer-review policy statement. Journal of Radars is published by the Institute of Electronics, Chinese Academy of Sciences (national-lab-affiliated venue)."
+    "notes": "Crossref REST API returned 404 for this DOI; doi.org resolved correctly to radars.ac.cn, fetched directly this session confirming full author list, venue, and explicit peer-review policy statement. Journal of Radars is published by the Institute of Electronics, Chinese Academy of Sciences (national-lab-affiliated venue).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Air Force Engineering University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://radars.ac.cn/cn/article/doi/10.12000/JR24259"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not indexed in Crossref/OpenAlex; fetched publisher page (radars.ac.cn) directly, confirming all 8 authors at Air Force Engineering University, Xi'an, China. No IN affiliation."
+    }
   },
   {
     "id": "L16-015",
@@ -358,12 +723,18 @@
     "canonical_key": "doi:10.1093/nsr/nwac246",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "CN", "multinational"],
+    "geography": [
+      "US",
+      "CN",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1093/nsr/nwac246",
     "doi": "10.1093/nsr/nwac246",
@@ -372,7 +743,38 @@
     "locator": "Crossref REST API record confirms: National Science Review, vol 10, issue 6, article nwac246, publisher Oxford University Press; advance-access published 2022-11-03, assigned to the 2023 vol 10 issue 6; full 6-author list confirmed.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed full author list and venue via Crossref this session; noted the advance-online (2022) vs formal-issue (2023) date discrepancy, keeping the scout's 2023 issue-year designation."
+    "notes": "Verifier confirmed full author list and venue via Crossref this session; noted the advance-online (2022) vs formal-issue (2023) date discrepancy, keeping the scout's 2023 issue-year designation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xiamen University",
+          "country": "CN"
+        },
+        {
+          "name": "Jiangsu University",
+          "country": "CN"
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "country": "US"
+        },
+        {
+          "name": "University of Hong Kong",
+          "country": "HK"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1093/nsr/nwac246&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Mixed CN/US/HK affiliations, including MIT (Nicholas Fang). No IN affiliation."
+    }
   },
   {
     "id": "L16-016",
@@ -383,12 +785,16 @@
     "canonical_key": "doi:10.1038/s41598-025-11501-0",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-11501-0",
     "doi": "10.1038/s41598-025-11501-0",
@@ -397,7 +803,26 @@
     "locator": "Crossref REST API record confirms: Scientific Reports, vol 15, issue 1, article 25623, published 2025-07-15, Springer Nature.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session; article number 25623 identified (not shown in scout's record)."
+    "notes": "Verifier confirmed via Crossref this session; article number 25623 identified (not shown in scout's record).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sahand University of Technology",
+          "country": "IR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41598-025-11501-0&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Ahmadzadeh, Bahrami, Zaremanesh) resolved to Sahand University of Technology, Iran. No IN affiliation."
+    }
   },
   {
     "id": "L16-017",
@@ -408,12 +833,16 @@
     "canonical_key": "url:stcn.com/article/detail/3375883.html",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:17:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -422,7 +851,26 @@
     "locator": "stcn.com article (scout-fetched); verifier this session independently corroborated the same RMB 516m / RMB 2.574bn figures via multiple additional Chinese financial-press outlets (sina.com.cn finance x2, 10jqka.com.cn, cnstock.com, cls.cn) all reporting the same underlying SZSE voluntary-disclosure announcement.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier corroborated via 4 additional independent Chinese financial-news outlets this session, all consistent on the RMB 516m/2.574bn figures -- strong secondary triangulation of a genuine signed-contract disclosure event (not a marketing claim). Still not the primary cninfo.com.cn/SZSE exchange filing itself; a future verifier should fetch that primary filing to upgrade source_type toward company_filing/T1. Company-level FY2025 revenue figures mentioned in some articles remain unconfirmed and are not part of this record's claim."
+    "notes": "Verifier corroborated via 4 additional independent Chinese financial-news outlets this session, all consistent on the RMB 516m/2.574bn figures -- strong secondary triangulation of a genuine signed-contract disclosure event (not a marketing claim). Still not the primary cninfo.com.cn/SZSE exchange filing itself; a future verifier should fetch that primary filing to upgrade source_type toward company_filing/T1. Company-level FY2025 revenue figures mentioned in some articles remain unconfirmed and are not part of this record's claim.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Shenzhen Securities Times Co., Ltd. (stcn.com)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://stcn.com/article/detail/3375883.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Securities Times / stcn.com is published by Shenzhen Securities Times Co., Ltd., China. Unambiguous CN origin."
+    }
   },
   {
     "id": "L16-018",
@@ -433,12 +881,16 @@
     "canonical_key": "url:sciencetimes.co.kr/nscvrg/view/menu/250-nscvrgSn-260690",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T09:49:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -447,7 +899,26 @@
     "locator": "sciencetimes.co.kr article body, paragraphs describing the FSS technology, the KRW 500 million transfer fee, and the KER technology transfer (fetched by scout).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Not re-fetched by verifier this session; scout's fetch (fetched=true) accepted as-is. Publication date remains unresolved (unconfirmed item) -- a future verifier should locate KRISS's own dated press release."
+    "notes": "Not re-fetched by verifier this session; scout's fetch (fetched=true) accepted as-is. Publication date remains unresolved (unconfirmed item) -- a future verifier should locate KRISS's own dated press release.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Research Institute of Standards and Science (KRISS); ScienceTimes / Korea Foundation for the Advancement of Science and Creativity",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sciencetimes.co.kr/nscvrg/view/menu/250?searchCategory=222&nscvrgSn=260690"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ScienceTimes (sciencetimes.co.kr) is operated by the Korea Foundation for the Advancement of Science and Creativity, Seoul. Unambiguous KR origin."
+    }
   },
   {
     "id": "L16-019",
@@ -458,12 +929,16 @@
     "canonical_key": "url:docomo.ne.jp/english/info/media_center/pr/2021/1112_00.html",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -472,7 +947,26 @@
     "locator": "NTT DOCOMO official press release, docomo.ne.jp/english/info/media_center/pr/2021/1112_00.html; fetched directly by verifier this session (succeeded).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier fetched directly this session, confirming trial dates and the 20 dB improvement figure not previously captured by the scout. Dated 2021 -- older than lane's typical window but retained as the direct technical predecessor to Japan's ongoing 6G RIS work; no 2025-2026 DOCOMO/NTT RIS follow-up found this session either."
+    "notes": "Verifier fetched directly this session, confirming trial dates and the 20 dB improvement figure not previously captured by the scout. Dated 2021 -- older than lane's typical window but retained as the direct technical predecessor to Japan's ongoing 6G RIS work; no 2025-2026 DOCOMO/NTT RIS follow-up found this session either.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NTT / NTT DOCOMO",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.docomo.ne.jp/english/info/media_center/pr/2021/1112_00.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official docomo.ne.jp domain. Unambiguous Japan origin."
+    }
   },
   {
     "id": "L16-020",
@@ -483,12 +977,16 @@
     "canonical_key": "tender:ArmySBIR-A254-049",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:19:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -497,7 +995,26 @@
     "locator": "armysbir.army.mil topic page A254-049; re-fetched directly by verifier this session, confirming topic number, funding, key dates, and technical requirements exactly.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier independently re-fetched and confirmed all figures this session."
+    "notes": "Verifier independently re-fetched and confirmed all figures this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of the Army (Army SBIR/STTR Program)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://armysbir.army.mil/topics/affordable-ka-band-metamaterial-based-electronically-scanned-array-radar-test-training/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official armysbir.army.mil domain. Unambiguous US federal agency."
+    }
   },
   {
     "id": "L16-021",
@@ -506,23 +1023,36 @@
     "year": 2018,
     "url": "https://thebetterindia.com/166010/iit-kanpur-india-innovation-invention-army-stealth-news/",
     "canonical_key": "url:thebetterindia.com/166010/iit-kanpur-india-innovation-invention-army-stealth-news",
-    "source_type": "trade_press",
-    "tier": "T3",
-    "lane_ids": ["L16"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Describes DST/DRDO-backed IIT Kanpur research (led by K.V. Srivastava and J. Ramkumar, work begun 2010) on textile-based radar-absorbing metamaterials for soldier uniforms and ground-vehicle concealment, plus a transparent variant for aircraft windshields; as of the article's Dec-2018 vintage, lab testing was complete and field testing was planned.",
     "locator": "thebetterindia.com article body; fetched directly by verifier this session (succeeded). Year corrected to 2018 (article vintage) from the scout's 'null'.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "General-audience T3 outlet (context only, capped at <=15% of accepted ledger per SOURCE_STANDARDS); accepted since fetched and relevant. IMPORTANT UNRESOLVED ITEM: search this session surfaced substantially more current (Nov-Dec 2024) reporting (business-standard.com, theprint.in, swarajyamag.com) describing a named successor system ('Analaksya' Metamaterial Surface Cloaking System) claimed to be 'under acquisition by the Indian armed forces' -- these 2024 articles were NOT independently fetched this session and their claims are NOT part of this record; a follow-up verifier should fetch one of them directly and, if confirmed, replace this dated 2018 record with the more current one."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "General-audience news outlet (T3, not independently fetched this session); no dates, funding figures, or named DRDO program/contract were found. Included only as a directional India-coverage data point; a verifier should seek a DRDO or DST primary source (press release, annual report) to upgrade or replace this record. | General-audience T3 outlet (context only, capped at <=15% of accepted ledger per SOURCE_STANDARDS); accepted since fetched and relevant. IMPORTANT UNRESOLVED ITEM: search this session surfaced substantially more current (Nov-Dec 2024) reporting (business-standard.com, theprint.in, swarajyamag.com) describing a named successor system ('Analaksya' Metamaterial Surface Cloaking System) claimed to be 'under acquisition by the Indian armed forces' -- these 2024 articles were NOT independently fetched this session and their claims are NOT part of this record; a follow-up verifier should fetch one of them directly and, if confirmed, replace this dated 2018 record with the more current one. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.066937+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://thebetterindia.com/166010/iit-kanpur-india-innovation-invention-army-stealth-news/"
+      ],
+      "original_source_type": "trade_press"
+    }
   },
   {
     "id": "L16-022",
@@ -533,12 +1063,16 @@
     "canonical_key": "doi:10.1063/5.0271688",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:21:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0271688",
     "doi": "10.1063/5.0271688",
@@ -547,7 +1081,26 @@
     "locator": "Crossref REST API record confirms: Applied Physics Reviews, vol 12, issue 3, article 031305, published 2025-07-01, AIP Publishing; all 6 authors affiliated with UCL Department of Computer Science.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed full author list and affiliation via Crossref/publisher metadata this session."
+    "notes": "Verifier confirmed full author list and affiliation via Crossref/publisher metadata this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University College London",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0271688&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors, including Sriram Subramanian (name superficially India-associated but affiliation NOT inferred from name), resolved to University College London, UK. No IN affiliation."
+    }
   },
   {
     "id": "L16-023",
@@ -558,12 +1111,16 @@
     "canonical_key": "doi:10.1063/5.0221899",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0221899",
     "doi": "10.1063/5.0221899",
@@ -572,7 +1129,26 @@
     "locator": "Crossref bibliographic search this session found exact title match: Review of Scientific Instruments, vol 95, issue 10, article 103903, published 2024-10-01, AIP Publishing.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier found DOI via Crossref bibliographic search this session (scout had none); canonical_key updated from url-based to doi-based."
+    "notes": "Verifier found DOI via Crossref bibliographic search this session (scout had none); canonical_key updated from url-based to doi-based.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Bristol",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0221899&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to University of Bristol, UK. No IN affiliation."
+    }
   },
   {
     "id": "L16-024",
@@ -583,12 +1159,17 @@
     "canonical_key": "doi:10.1115/1.4066335",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:23:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU", "multinational"],
+    "geography": [
+      "EU",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1115/1.4066335",
     "doi": "10.1115/1.4066335",
@@ -597,7 +1178,38 @@
     "locator": "Crossref REST API record confirms: Journal of Manufacturing Science and Engineering, vol 146, issue 12, article 121001, published online 2024-09-19, ASME International.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session."
+    "notes": "Verifier confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Leibniz University Hannover",
+          "country": "DE"
+        },
+        {
+          "name": "Laser Zentrum Hannover",
+          "country": "DE"
+        },
+        {
+          "name": "Technische Universitat Braunschweig",
+          "country": "DE"
+        },
+        {
+          "name": "Purdue University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1115/1.4066335&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 of 8 authors resolved to German institutions (Leibniz Univ Hannover, Laser Zentrum Hannover, TU Braunschweig); OpenAlex left co-author Ajay P. Malshe's institution blank, so a targeted web search was run and confirmed Malshe is affiliated with Purdue University, West Lafayette, Indiana, USA (US state 'Indiana', not the country India) -- no IN affiliation."
+    }
   },
   {
     "id": "L16-025",
@@ -608,12 +1220,16 @@
     "canonical_key": "doi:10.1021/acs.chemrev.1c00438",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1021/acs.chemrev.1c00438",
     "doi": "10.1021/acs.chemrev.1c00438",
@@ -622,7 +1238,34 @@
     "locator": "Crossref REST API record confirms: Chemical Reviews, vol 122, issue 3, pp 3219-3258, online 2021-11-24 / print year 2022, American Chemical Society.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session; kept scout's year (2022, print) noting the 2021 online-first date."
+    "notes": "Verifier confirmed via Crossref this session; kept scout's year (2022, print) noting the 2021 online-first date.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Milan",
+          "country": "IT"
+        },
+        {
+          "name": "University of Melbourne",
+          "country": "AU"
+        },
+        {
+          "name": "Polytechnique Montreal",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1021/acs.chemrev.1c00438&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Authors at Univ Milan (IT), Univ Melbourne (AU) -- including Muthupandian Ashokkumar, an India-associated name whose resolved institution is Melbourne, Australia, not inferred from name -- and Polytechnique Montreal (CA). No IN affiliation."
+    }
   },
   {
     "id": "L16-026",
@@ -633,12 +1276,16 @@
     "canonical_key": "standard:ASTM-E2700-20",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:25:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -658,12 +1305,17 @@
     "canonical_key": "standard:ISO-13588-2019",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:26:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU", "multinational"],
+    "geography": [
+      "EU",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -672,7 +1324,26 @@
     "locator": "iso.org listing page (403 direct, scout/verifier); successfully fetched via en-standard.eu mirror this session, confirming title, 2nd-edition status, release date 2019-02-04, and scope (>=6mm thickness).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier succeeded via the en-standard.eu mirror this session after iso.org itself returned 403 -- satisfies the fetch requirement unlike the ASTM record (L16-026), where every mirror failed. 2012 predecessor edition not logged separately to avoid double-counting the same standard lineage."
+    "notes": "Verifier succeeded via the en-standard.eu mirror this session after iso.org itself returned 403 -- satisfies the fetch requirement unlike the ASTM record (L16-026), where every mirror failed. 2012 predecessor edition not logged separately to avoid double-counting the same standard lineage.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Organization for Standardization (ISO)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iso.org/standard/72747.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ISO headquartered Geneva, Switzerland. Unambiguous."
+    }
   },
   {
     "id": "L16-028",
@@ -683,12 +1354,16 @@
     "canonical_key": "url:stcn.com/stock/djjd/202209/t20220916_4862188",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:27:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -697,7 +1372,26 @@
     "locator": "stcn.com article, fetched directly by verifier this session, confirming named per-customer revenue breakdown (CATL/Corun/BYD) not present in the scout's original summary.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: verifier's fetch this session surfaced far more granular named-customer revenue figures than the scout's aggregate '20-30% share' estimate; note the automated fetch tool's summary stated '1.96 billion yuan' for the segment, which is very likely a mistranslation of '1.96亿元' (亿 = 100 million, i.e., RMB 196 million) -- consistent with the scout's original RMB 196m figure. Verifier corrected the claim_supported to use RMB 196 million (not 1.96 billion) and flag this unit-conversion risk explicitly. Underlying prospectus (招股说明书) still not directly fetched; recommend a future verifier retrieve it to upgrade toward company_filing/T1."
+    "notes": "CORRECTION: verifier's fetch this session surfaced far more granular named-customer revenue figures than the scout's aggregate '20-30% share' estimate; note the automated fetch tool's summary stated '1.96 billion yuan' for the segment, which is very likely a mistranslation of '1.96亿元' (亿 = 100 million, i.e., RMB 196 million) -- consistent with the scout's original RMB 196m figure. Verifier corrected the claim_supported to use RMB 196 million (not 1.96 billion) and flag this unit-conversion risk explicitly. Underlying prospectus (招股说明书) still not directly fetched; recommend a future verifier retrieve it to upgrade toward company_filing/T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Shenzhen Securities Times Co., Ltd. (stcn.com)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.stcn.com/stock/djjd/202209/t20220916_4862188.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same publisher as L16-017: Shenzhen Securities Times Co., Ltd., China. Unambiguous CN origin."
+    }
   },
   {
     "id": "L16-029",
@@ -708,12 +1402,16 @@
     "canonical_key": "url:dbpia.co.kr/journal/articleDetail-NODE12157543",
     "source_type": "discovery_only",
     "tier": "Discovery-only",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:28:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -733,12 +1431,17 @@
     "canonical_key": "doi:10.3390/met15060619",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:29:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU", "multinational"],
+    "geography": [
+      "EU",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/met15060619",
     "doi": "10.3390/met15060619",
@@ -747,7 +1450,34 @@
     "locator": "Crossref REST API record confirms: Metals (MDPI), vol 15, issue 6, article 619, published 2025-05-30.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session and obtained the specific 900-1200 m/s impact-velocity weldability window not previously captured."
+    "notes": "Verifier confirmed via Crossref this session and obtained the specific 900-1200 m/s impact-velocity weldability window not previously captured.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of the Basque Country",
+          "country": "ES"
+        },
+        {
+          "name": "Universite de Bordeaux",
+          "country": "FR"
+        },
+        {
+          "name": "Ikerbasque",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/met15060619&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors at Spanish (Univ Basque Country, Ikerbasque) and French (Univ Bordeaux group) institutions. No IN affiliation."
+    }
   },
   {
     "id": "L16-031",
@@ -758,12 +1488,16 @@
     "canonical_key": "doi:10.1007/s00161-025-01409-5",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s00161-025-01409-5",
     "doi": "10.1007/s00161-025-01409-5",
@@ -772,7 +1506,26 @@
     "locator": "Crossref REST API record confirms: Continuum Mechanics and Thermodynamics, vol 37, issue 5, article 76, published 2025-08-04, Springer.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session."
+    "notes": "Verifier confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Jijel",
+          "country": "DZ"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s00161-025-01409-5&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole resolved author (Boutana) at University of Jijel, Algeria. No IN affiliation."
+    }
   },
   {
     "id": "L16-032",
@@ -783,12 +1536,16 @@
     "canonical_key": "doi:10.1016/j.jmatprotec.2010.12.012",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.jmatprotec.2010.12.012",
     "doi": "10.1016/j.jmatprotec.2010.12.012",
@@ -797,7 +1554,30 @@
     "locator": "Crossref bibliographic search this session found exact title match: Journal of Materials Processing Technology, vol 211, issue 5, pp 787-829, published May 2011, Elsevier BV; full 5-author list confirmed (Psyk, Risch, Kinsey, Tekkaya, Kleiner).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier found DOI and full author list via Crossref this session (scout had neither). Included despite 2011 date as the still-cited foundational review anchoring the 'EMF renaissance' claim."
+    "notes": "Verifier found DOI and full author list via Crossref this session (scout had neither). Included despite 2011 date as the still-cited foundational review anchoring the 'EMF renaissance' claim.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "TU Dortmund University",
+          "country": "DE"
+        },
+        {
+          "name": "University of New Hampshire",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.jmatprotec.2010.12.012&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Predominantly TU Dortmund (DE); co-author Kinsey at University of New Hampshire (US). No IN affiliation."
+    }
   },
   {
     "id": "L16-033",
@@ -808,12 +1588,17 @@
     "canonical_key": "doi:10.1007/s42154-020-00103-3",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN", "multinational"],
+    "geography": [
+      "CN",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s42154-020-00103-3",
     "doi": "10.1007/s42154-020-00103-3",
@@ -822,7 +1607,26 @@
     "locator": "Crossref REST API record confirms: Automotive Innovation, vol 3, issue 3, pp 195-209, published 2020-07-31, Springer (China Society of Automotive Engineers-affiliated).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session."
+    "notes": "Verifier confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "TU Dortmund University",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s42154-020-00103-3&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to TU Dortmund University, Germany, despite the journal's China Society of Automotive Engineers editorial affiliation. No IN affiliation."
+    }
   },
   {
     "id": "L16-034",
@@ -833,12 +1637,16 @@
     "canonical_key": "tender:EU-FP5-EMF-84246",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:33:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1655,26 @@
     "locator": "CORDIS project results page id 84246; re-fetched directly by verifier this session, confirming all funding figures and dates exactly.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier independently re-confirmed via direct fetch this session."
+    "notes": "Verifier independently re-confirmed via direct fetch this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Commission (CORDIS); Volvo Cars Body Components AB",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://cordis.europa.eu/article/id/84246-electromagnetic-forming-shapes-ecofriendly-vehicles"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official cordis.europa.eu domain; project coordinator Volvo Cars Body Components AB, Sweden. Unambiguous EU origin."
+    }
   },
   {
     "id": "L16-035",
@@ -858,12 +1685,16 @@
     "canonical_key": "doi:10.1109/20.22590",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/20.22590",
     "doi": "10.1109/20.22590",
@@ -872,7 +1703,26 @@
     "locator": "Crossref REST API record confirms DOI 10.1109/20.22590: IEEE Transactions on Magnetics, vol 25, issue 1, pp 504-507, 1989; NASA NTRS citation 19890044698 (re-fetched directly by verifier this session, confirming title/authors/abstract).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPGRADE: scout assumed this 1989 paper pre-dated the DOI system and left DOI blank/peer_review_status unverified; verifier's Crossref bibliographic search this session found IEEE has retroactively assigned DOI 10.1109/20.22590 to this article, with an exact title/author match, allowing full verification. Both NASA NTRS and Crossref independently confirm identity."
+    "notes": "UPGRADE: scout assumed this 1989 paper pre-dated the DOI system and left DOI blank/peer_review_status unverified; verifier's Crossref bibliographic search this session found IEEE has retroactively assigned DOI 10.1109/20.22590 to this article, with an exact title/author match, allowing full verification. Both NASA NTRS and Crossref independently confirm identity.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Texas at Austin",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/20.22590&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to University of Texas at Austin, US. No IN affiliation."
+    }
   },
   {
     "id": "L16-036",
@@ -883,12 +1733,16 @@
     "canonical_key": "url:scmp.com/news/china/science/article/3303761",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1751,26 @@
     "locator": "South China Morning Post article 3303761, fetched directly by verifier this session; corroborates and supersedes the original orbitaltoday.com source (which returned HTTP 403 to both scout and verifier fetch attempts this session).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SOURCE SWAP: original url (orbitaltoday.com) could not be fetched by either the scout or verifier (403 both times); verifier located and fetched an SCMP article covering the same event with matching facts (test date, institute, 2028 target), and substituted it as the primary citation since it is both higher-quality (major international newspaper, T2 vs the original T3) and independently fetched. Tier upgraded T3->T2 accordingly. No official Chinese-government or CASIC primary source was found/fetched this session."
+    "notes": "SOURCE SWAP: original url (orbitaltoday.com) could not be fetched by either the scout or verifier (403 both times); verifier located and fetched an SCMP article covering the same event with matching facts (test date, institute, 2028 target), and substituted it as the primary citation since it is both higher-quality (major international newspaper, T2 vs the original T3) and independently fetched. Tier upgraded T3->T2 accordingly. No official Chinese-government or CASIC primary source was found/fetched this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "South China Morning Post",
+          "country": "HK"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.scmp.com/news/china/science/article/3303761/china-bid-challenge-giant-spacex-deploying-maglev-rocket-launch-pad-2028"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SCMP is a Hong Kong-headquartered newspaper. Unambiguous, not India."
+    }
   },
   {
     "id": "L16-037",
@@ -908,12 +1781,16 @@
     "canonical_key": "doi:10.1109/tia.2023.3258933",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tia.2023.3258933",
     "doi": "10.1109/tia.2023.3258933",
@@ -922,7 +1799,30 @@
     "locator": "Crossref REST API record confirms: IEEE Transactions on Industry Applications, vol 59, issue 4, pp 3920-3933, published July 2023; authors Nishanth Gadiyar and Eric L. Severson (University of Wisconsin-Madison), Joachim Van Verdeghem (UC Louvain).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: scout's authors_or_org listed 'Nishanth, F.' -- verifier's Crossref confirmation shows the correct name is 'Nishanth Gadiyar' (family name Gadiyar, not 'Nishanth'); corrected."
+    "notes": "CORRECTION: scout's authors_or_org listed 'Nishanth, F.' -- verifier's Crossref confirmation shows the correct name is 'Nishanth Gadiyar' (family name Gadiyar, not 'Nishanth'); corrected.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Wisconsin-Madison",
+          "country": "US"
+        },
+        {
+          "name": "UCLouvain",
+          "country": "BE"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tia.2023.3258933&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Lead author's OpenAlex-listed given name is 'FNU Nishanth' (surname Gadiyar per Crossref correction elsewhere in the ledger) at University of Wisconsin-Madison, US; co-author Van Verdeghem at UCLouvain, Belgium; Severson also Univ Wisconsin-Madison. Affiliation resolved from institution records, not inferred from the surname's apparent origin. No IN affiliation."
+    }
   },
   {
     "id": "L16-038",
@@ -933,12 +1833,16 @@
     "canonical_key": "doi:10.1109/TTE.2023.3242698",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:37:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TTE.2023.3242698",
     "doi": "10.1109/TTE.2023.3242698",
@@ -947,7 +1851,26 @@
     "locator": "Crossref REST API record confirms: IEEE Transactions on Transportation Electrification, vol 9, issue 3, pp 4380-4405, published Sept 2023.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session (initial attempt returned 429 rate-limit; retry succeeded)."
+    "notes": "Verifier confirmed via Crossref this session (initial attempt returned 429 rate-limit; retry succeeded).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "McMaster University",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/TTE.2023.3242698&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolved to McMaster University, Canada. No IN affiliation."
+    }
   },
   {
     "id": "L16-039",
@@ -958,12 +1881,16 @@
     "canonical_key": "doi:10.3390/app15116275",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:38:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/app15116275",
     "doi": "10.3390/app15116275",
@@ -972,7 +1899,26 @@
     "locator": "Crossref REST API record confirms: Applied Sciences (MDPI), vol 15, issue 11, article 6275, published 2025-06-03.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session."
+    "notes": "Verifier confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Democritus University of Thrace",
+          "country": "GR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/app15116275&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Democritus University of Thrace, Greece. No IN affiliation."
+    }
   },
   {
     "id": "L16-040",
@@ -983,12 +1929,16 @@
     "canonical_key": "doi:10.1016/j.fraope.2025.100474",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:39:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fraope.2025.100474",
     "doi": "10.1016/j.fraope.2025.100474",
@@ -997,7 +1947,26 @@
     "locator": "Crossref REST API record confirms: Franklin Open (Elsevier, gold-OA), vol 14, article 100474, formal Crossref-published date March 2026 (DOI issued under 2025 numbering).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year updated from scout's 2025 to 2026 to match Crossref's authoritative published-date field (formal issue date March 2026); DOI/article numbering still reflects 2025. Franklin Open is gold open-access; full text was not independently re-fetched this session (Crossref record deemed sufficient)."
+    "notes": "Year updated from scout's 2025 to 2026 to match Crossref's authoritative published-date field (formal issue date March 2026); DOI/article numbering still reflects 2025. Franklin Open is gold open-access; full text was not independently re-fetched this session (Crossref record deemed sufficient).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Budapest University of Technology and Economics",
+          "country": "HU"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fraope.2025.100474&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Oloo, Szamel) resolved to Budapest University of Technology and Economics, Hungary; first author's name not used to infer origin. No IN affiliation."
+    }
   },
   {
     "id": "L16-041",
@@ -1008,12 +1977,16 @@
     "canonical_key": "doi:10.3390/app15105759",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/app15105759",
     "doi": "10.3390/app15105759",
@@ -1022,7 +1995,30 @@
     "locator": "Crossref REST API record confirms exact DOI match: Applied Sciences (MDPI), vol 15, issue 10, article 5759, published 2025-05-21.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Scout's DOI was an unconfirmed inference from MDPI's numbering convention; verifier independently confirmed via direct Crossref lookup this session that the DOI is correct and matches the title exactly -- caveat removed."
+    "notes": "Scout's DOI was an unconfirmed inference from MDPI's numbering convention; verifier independently confirmed via direct Crossref lookup this session that the DOI is correct and matches the title exactly -- caveat removed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Gedik University",
+          "country": "TR"
+        },
+        {
+          "name": "Marmara University",
+          "country": "TR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/app15105759&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors resolved to Turkish universities. No IN affiliation."
+    }
   },
   {
     "id": "L16-042",
@@ -1033,12 +2029,16 @@
     "canonical_key": "doi:10.1080/14686996.2025.2546287",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:41:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/14686996.2025.2546287",
     "doi": "10.1080/14686996.2025.2546287",
@@ -1047,7 +2047,34 @@
     "locator": "Crossref REST API record confirms: Science and Technology of Advanced Materials, vol 26, issue 1, article 2546287, published 2025-09-08, Informa UK (Taylor & Francis).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session."
+    "notes": "Verifier confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of South Florida",
+          "country": "US"
+        },
+        {
+          "name": "University of Da Nang",
+          "country": "VN"
+        },
+        {
+          "name": "VinUniversity",
+          "country": "VN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1080/14686996.2025.2546287&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Co-author 'H. Srikanth' (name superficially India-associated) resolved via institution records to University of South Florida, US -- affiliation not inferred from name. Other authors at Univ South Florida (US) and Vietnamese institutions (Univ Da Nang, VinUniversity). No IN affiliation."
+    }
   },
   {
     "id": "L16-043",
@@ -1058,12 +2085,16 @@
     "canonical_key": "doi:10.1016/j.ijrefrig.2025.08.007",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:42:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijrefrig.2025.08.007",
     "doi": "10.1016/j.ijrefrig.2025.08.007",
@@ -1072,7 +2103,28 @@
     "locator": "Crossref bibliographic search this session found exact title match: International Journal of Refrigeration, vol 179, pp 184-203, published Nov 2025, Elsevier BV.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier found DOI via Crossref bibliographic search this session (scout had none)."
+    "notes": "Verifier found DOI via Crossref bibliographic search this session (scout had none).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "University of Naples Federico II",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.ijrefrig.2025.08.007&select=doi,ids,authorships",
+        "https://www.researchgate.net/profile/Claudia-Masselli",
+        "https://www.researchgate.net/profile/Luca-Cirillo-3"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned all 6 authors (Cirillo, Gargiulo, Greco, Masselli, Orabona, Verneau) with empty institution lists; a targeted web search independently confirmed the group (Masselli, Cirillo, and the wider magnetocaloric-cooling research group they publish with) is based at the University of Naples Federico II, Italy. No IN affiliation found."
+    }
   },
   {
     "id": "L16-044",
@@ -1083,12 +2135,16 @@
     "canonical_key": "doi:10.1039/D5TC02482J",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:43:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1039/D5TC02482J",
     "doi": "10.1039/D5TC02482J",
@@ -1097,32 +2153,95 @@
     "locator": "Crossref REST API record confirms: Journal of Materials Chemistry C, vol 13, issue 35, pp 18009-18030, published 2025, Royal Society of Chemistry.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier confirmed via Crossref this session (initial attempt 429 rate-limited; retry succeeded)."
+    "notes": "Verifier confirmed via Crossref this session (initial attempt 429 rate-limited; retry succeeded).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shandong University",
+          "country": "CN"
+        },
+        {
+          "name": "University of Jinan",
+          "country": "CN"
+        },
+        {
+          "name": "City University of Hong Kong, Shenzhen Research Institute",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Engineering Thermophysics, CAS",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1039/D5TC02482J&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to Chinese institutions. No IN affiliation."
+    }
   },
   {
     "id": "L16-045",
     "title": "A high-performance solid-state electrocaloric cooling system",
-    "authors_or_org": "Qian, Suxin et al. (unconfirmed full author list; UCLA-affiliated)",
+    "authors_or_org": "Yunda Wang; Ziyang Zhang; Tomoyasu Usui; Michael Benedict; Sakyo Hirose; Joseph Lee; Jamie Kalb; David Schwartz (PARC, A Xerox Company, Palo Alto, US; Murata Manufacturing Co., Ltd., Kyoto, JP)",
     "year": 2020,
     "url": "https://www.science.org/doi/10.1126/science.aba2648",
     "canonical_key": "doi:10.1126/science.aba2648",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:44:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1126/science.aba2648",
     "doi": "10.1126/science.aba2648",
     "demand_evidence_type": "none",
-    "claim_supported": "Science-journal demonstration of a high-performance solid-state electrocaloric cooling system (UCLA). NOTE: this is a separate, later (2020) milestone from ARPA-E's much earlier (2010-2012) 'Compact MEMS Electrocaloric Cooling Module' award (see L16-046) -- the two are related-topic but not directly sequential as originally framed.",
+    "claim_supported": "Science-journal demonstration of a high-performance solid-state electrocaloric cooling system (PARC, A Xerox Company + Murata Manufacturing). NOTE: this is a separate, later (2020) milestone from ARPA-E's much earlier (2010-2012) 'Compact MEMS Electrocaloric Cooling Module' award (see L16-046) -- the two are related-topic but not directly sequential as originally framed.",
     "locator": "Crossref REST API record confirms: Science, vol 370, issue 6512, pp 129-133, published 2020-10-02.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTIONS: (1) year updated from scout's 2019 to 2020 per Crossref's published date. (2) Scout's claim_supported framed this paper as the technology base 'underlying ARPA-E's subsequent' Compact Solid State Cooling Systems program -- but verifier's research this session found the ARPA-E award for that program (OSTI biblio 1046625, $520,547, term 10/2010-09/2012, BEETIT program) actually predates this 2020 Science paper by roughly a decade. The 'subsequent' framing was factually backwards and has been corrected/removed."
+    "notes": "CORRECTIONS: (1) year updated from scout's 2019 to 2020 per Crossref's published date. (2) Scout's claim_supported framed this paper as the technology base 'underlying ARPA-E's subsequent' Compact Solid State Cooling Systems program -- but verifier's research this session found the ARPA-E award for that program (OSTI biblio 1046625, $520,547, term 10/2010-09/2012, BEETIT program) actually predates this 2020 Science paper by roughly a decade. The 'subsequent' framing was factually backwards and has been corrected/removed. | P2A adjudication correction (2026-07-13): Crossref and OpenAlex both register DOI 10.1126/science.aba2648 with authors Wang, Zhang, Usui, Benedict, Hirose, Lee, Kalb, Schwartz (PARC, A Xerox Company, US + Murata Manufacturing, JP). The prior 'Qian, Suxin et al. (UCLA-affiliated)' attribution was a conflation with other caloric-cooling literature and has been corrected. Origin verdict unaffected (US/JP).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "PARC, A Xerox Company",
+          "country": "US"
+        },
+        {
+          "name": "Murata Manufacturing Co., Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1126/science.aba2648&select=doi,ids,authorships",
+        "https://api.crossref.org/works/10.1126/science.aba2648"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DATA-QUALITY FLAG (not an origin issue): both OpenAlex and Crossref register this DOI's title as 'A high-performance solid-state electrocaloric cooling system' with all 8 authors at PARC/Xerox (Palo Alto, US) and Murata Manufacturing (Kyoto, Japan) -- this does not match the ledger's listed authorship 'Qian, Suxin et al.; UCLA-affiliated.' Flagging for the orchestrator to reconcile the authorship field separately; the origin verdict is unaffected either way, since neither the Crossref-registered authors (US/Japan) nor a UCLA-based author set would be Indian."
+    }
   },
   {
     "id": "L16-046",
@@ -1133,12 +2252,16 @@
     "canonical_key": "url:arpa-e.energy.gov/programs-and-initiatives/search-all-projects/compact-solid-state-cooling-systems",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:45:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2270,26 @@
     "locator": "arpa-e.energy.gov program page (partial JS-rendered fetch, program name and performer confirmed) cross-referenced this session with OSTI.GOV biblio record 1046625 ('Compact Solid State Cooling Systems: Compact MEMS Electrocaloric Module,' Program Document), which supplied the confirmed award amount and dates.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from scout's 'null' to 2010 (project start) and funding amount ($520,547) confirmed via OSTI.GOV this session -- resolving the scout's flagged open item. This program is materially older (2010-2012) than the lane's typical 2024-2026 window and PRE-DATES the 2020 Science paper (L16-045), not the reverse as the scout's L16-045 record implied; see correction note on L16-045."
+    "notes": "Year corrected from scout's 'null' to 2010 (project start) and funding amount ($520,547) confirmed via OSTI.GOV this session -- resolving the scout's flagged open item. This program is materially older (2010-2012) than the lane's typical 2024-2026 window and PRE-DATES the 2020 Science paper (L16-045), not the reverse as the scout's L16-045 record implied; see correction note on L16-045.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. DOE / Advanced Research Projects Agency-Energy (ARPA-E); performer UCLA",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/compact-solid-state-cooling-systems"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official arpa-e.energy.gov domain. Unambiguous US federal agency."
+    }
   },
   {
     "id": "L16-047",
@@ -1158,12 +2300,16 @@
     "canonical_key": "url:energy.gov/cmei/buildings/articles/magnetocaloric-refrigeratorfreezer",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:46:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2318,26 @@
     "locator": "energy.gov CMEI project article (scout-fetched); verifier independently corroborated the $2,105,000 figure and Aug-2013/Sept-2016 CRADA term via ornl.gov news articles and energy.gov this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier corroborated scout's funding figures via independent ORNL.gov sourcing this session (search-level confirmation, not a fresh direct fetch of energy.gov itself since the scout's fetch was already successful)."
+    "notes": "Verifier corroborated scout's funding figures via independent ORNL.gov sourcing this session (search-level confirmation, not a fresh direct fetch of energy.gov itself since the scout's fetch was already successful).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Oak Ridge National Laboratory; General Electric; U.S. Department of Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/cmei/buildings/articles/magnetocaloric-refrigeratorfreezer"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official energy.gov domain. Unambiguous US federal/national-lab origin."
+    }
   },
   {
     "id": "L16-048",
@@ -1183,12 +2348,16 @@
     "canonical_key": "url:astemo.com/en/news/20251027-01",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2366,26 @@
     "locator": "Astemo official news release, astemo.com/en/news/20251027-01/ (fetched by scout).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Not re-fetched by verifier this session; scout's successful direct fetch accepted as-is."
+    "notes": "Not re-fetched by verifier this session; scout's successful direct fetch accepted as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hitachi Astemo, Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.astemo.com/en/news/20251027-01/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official astemo.com domain. Unambiguous Japan origin."
+    }
   },
   {
     "id": "L16-049",
@@ -1208,12 +2396,17 @@
     "canonical_key": "url:businesswire.com/news/home/20251020765704/en/Enedym-Inc-Secures-Investment-from-Honda-Motor-Co-Ltd",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:47:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CA", "JP"],
+    "geography": [
+      "CA",
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2415,30 @@
     "locator": "BusinessWire release could not be re-fetched by verifier (ECONNRESET both attempts); verifier instead fetched Enedym's own primary press release (enedym.com/enedym-inc-secures-investment-from-honda-motor-co-ltd/) this session, which independently confirms the same facts and adds the exact date (Oct 21, 2025) and confirms the amount is undisclosed.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier could not directly fetch the originally-cited BusinessWire URL (connection reset on two attempts) but successfully fetched Enedym's own company press release confirming identical facts -- satisfies the fetch requirement via an equally-primary alternate source. Dollar amount confirmed as genuinely undisclosed (not merely unfound)."
+    "notes": "Verifier could not directly fetch the originally-cited BusinessWire URL (connection reset on two attempts) but successfully fetched Enedym's own company press release confirming identical facts -- satisfies the fetch requirement via an equally-primary alternate source. Dollar amount confirmed as genuinely undisclosed (not merely unfound).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Enedym Inc.",
+          "country": "CA"
+        },
+        {
+          "name": "Honda Motor Co., Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.businesswire.com/news/home/20251020765704/en/Enedym-Inc.-Secures-Investment-from-Honda-Motor-Co.-Ltd."
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Enedym Inc. is based at McMaster Innovation Park, Hamilton, Ontario, Canada; Honda Motor Co. is Japan-headquartered. Distributed via BusinessWire (US newswire) but the reporting organizations are Canadian/Japanese. No IN affiliation."
+    }
   },
   {
     "id": "L16-050",
@@ -1233,12 +2449,16 @@
     "canonical_key": "url:sumitomoelectric.com/jp/products/powdermagneticcore/axialgapmotor",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:48:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2467,26 @@
     "locator": "Sumitomo Electric official Japanese-language product page; fetched directly by verifier this session (succeeded).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier fetched directly this session, obtaining more specific technical detail (20kW motor spec, three trial-model sizes) than the scout's search-snippet-derived summary. Vendor's own technical claims, not independently validated performance data."
+    "notes": "Verifier fetched directly this session, obtaining more specific technical detail (20kW motor spec, three trial-model sizes) than the scout's search-snippet-derived summary. Vendor's own technical claims, not independently validated performance data.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sumitomo Electric Industries, Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://sumitomoelectric.com/jp/products/powdermagneticcore/axialgapmotor"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official sumitomoelectric.com domain. Unambiguous Japan origin."
+    }
   },
   {
     "id": "L16-051",
@@ -1258,12 +2497,16 @@
     "canonical_key": "url:bookpark.ne.jp/cm/ieej/detail/IEEJ-20230809X10301-004-PDF",
     "source_type": "discovery_only",
     "tier": "Discovery-only",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:49:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1283,12 +2526,16 @@
     "canonical_key": "url:piller.com/bergen-engines-secures-400mw-contract-for-us-ai-data-center-power-plant",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2544,28 @@
     "locator": "Piller Power Systems official press release (fetched by scout).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Not re-fetched by verifier this session; scout's successful direct fetch of the vendor's own press release accepted as-is."
+    "notes": "Not re-fetched by verifier this session; scout's successful direct fetch of the vendor's own press release accepted as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Piller Power Systems (Langley Holdings Plc); Bergen Engines",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.piller.com/bergen-engines-secures-400mw-contract-for-us-ai-data-center-power-plant/",
+        "https://www.piller.com/about/",
+        "https://www.langleyholdings.com/news/2026/06/29/langley-hosts-third-global-power-solutions-symposium-at-piller-headquarters/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Piller Power Systems is headquartered in Osterode am Harz, Germany, a wholly-owned subsidiary of Langley Holdings Plc (UK); Bergen Engines is Norwegian. No IN affiliation regardless of which entity is treated as primary."
+    }
   },
   {
     "id": "L16-053",
@@ -1308,12 +2576,16 @@
     "canonical_key": "url:amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2594,26 @@
     "locator": "Amber Kinetics official press release, amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution/; fetched directly by verifier this session (succeeded).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MAJOR CORRECTION: scout's source (a greyb.com blog aggregator, not independently fetched) described this as a finalized 'partnership' for deployment 'across US tribal reservations' and classified it as demand_evidence_type procurement_award. Verifier located and fetched Amber Kinetics' own primary press release this session, which reveals the actual transaction is a non-binding Letter of Support plus a single commissioned unit -- not a binding multi-site procurement contract. url/canonical_key updated to the primary source; source_type upgraded from trade_press to vendor_datasheet (company's own release); demand_evidence_type downgraded from procurement_award to none since a non-binding letter of support is not primary procurement evidence. Date corrected to August 6, 2025 (scout said 'reported October 2025', which appears to conflate this with unrelated October 2025 secondary blog coverage)."
+    "notes": "MAJOR CORRECTION: scout's source (a greyb.com blog aggregator, not independently fetched) described this as a finalized 'partnership' for deployment 'across US tribal reservations' and classified it as demand_evidence_type procurement_award. Verifier located and fetched Amber Kinetics' own primary press release this session, which reveals the actual transaction is a non-binding Letter of Support plus a single commissioned unit -- not a binding multi-site procurement contract. url/canonical_key updated to the primary source; source_type upgraded from trade_press to vendor_datasheet (company's own release); demand_evidence_type downgraded from procurement_award to none since a non-binding letter of support is not primary procurement evidence. Date corrected to August 6, 2025 (scout said 'reported October 2025', which appears to conflate this with unrelated October 2025 secondary blog coverage).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Amber Kinetics, Inc.; Indian Energy, LLC",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both organizations are US-based: Amber Kinetics (California) and 'Indian Energy, LLC' (a Native American tribal-owned microgrid developer -- the name refers to Native American identity, not the country India; not misclassified based on the name). No IN-country affiliation."
+    }
   },
   {
     "id": "L16-054",
@@ -1333,12 +2624,16 @@
     "canonical_key": "url:hiwin.com/linear-motors",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L16"],
+    "lane_ids": [
+      "L16"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T15:51:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW"],
+    "geography": [
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,6 +2642,25 @@
     "locator": "HIWIN official product page (hiwin.com/linear-motors/); fetched directly by verifier this session (succeeded).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: the scout's claim that HIWIN markets itself as 'No. 2 globally' in ball-screw/linear-guideway technology was NOT present on the specific page fetched this session (which covers only linear motors, no ranking claim, no direct-drive-motor content either); that ranking claim is unverified this session and has been removed from claim_supported pending confirmation elsewhere. Retained the record and technical specs, which the fetched page does support. Included primarily for Taiwan geographic coverage."
+    "notes": "CORRECTION: the scout's claim that HIWIN markets itself as 'No. 2 globally' in ball-screw/linear-guideway technology was NOT present on the specific page fetched this session (which covers only linear motors, no ranking claim, no direct-drive-motor content either); that ranking claim is unverified this session and has been removed from claim_supported pending confirmation elsewhere. Retained the record and technical specs, which the fetched page does support. Included primarily for Taiwan geographic coverage.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "HIWIN Mikrosystem Corp.",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://hiwin.com/linear-motors/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "HIWIN Mikrosystem Corp. is Taiwan-headquartered. Unambiguous, not India."
+    }
   }
 ]

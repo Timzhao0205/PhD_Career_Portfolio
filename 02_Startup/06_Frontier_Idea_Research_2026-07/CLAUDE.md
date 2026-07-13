@@ -42,3 +42,17 @@ restart, reread those two files and continue from the first incomplete checkpoin
 16. P3 round 2 is authoritative. Preserve `SEEDS_A` through `SEEDS_D` as prior drafts but do not
     promote them directly. Regenerate from the accepted atlas using Fable 5/xhigh, then require an
     independent Fable 5/xhigh elegance/novelty adjudication before the longlist is frozen.
+17. Binding source-origin rule (latest user directive): a source located in India or produced by
+    an India-based lab, university, government, company, media outlet, publisher, consultancy, or
+    organization cannot support technical, demand, market, competitor, policy, or geography
+    claims. Keep it only as `discovery_only` and independently confirm any useful lead with an
+    eligible source. Exception: an academic paper with Indian co-authors is eligible when at least
+    one co-author has a verified non-Indian institutional affiliation and the paper otherwise
+    passes peer-review rules. Never infer affiliation from a person's name. Complete P2A and
+    repair the atlas before P3; existing A-D seeds remain non-authoritative drafts.
+18. The founder plans to start the company in 2030. Treat 2026 evidence as the baseline, not the
+    launch date. P3 ideas need a credible 2026–2029 pre-company learning/de-risk path, a concrete
+    2030–2034 demand/procurement/regulatory/capacity trigger, and an opportunity window still open
+    in 2030. Reject ideas likely to commoditize before launch or remain science-only well beyond
+    2030. Reuse durable technical sources; refresh time-sensitive market, price, policy,
+    competition, supply-chain, and procurement claims before final scoring.

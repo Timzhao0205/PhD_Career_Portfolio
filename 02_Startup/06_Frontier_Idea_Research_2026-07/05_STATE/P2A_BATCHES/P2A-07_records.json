@@ -1,0 +1,1632 @@
+{
+ "batch_id": "P2A-07",
+ "count": 70,
+ "records": [
+  {
+   "id": "L08-044",
+   "title": "IEC 61803:2020 -- Determination of power losses in high-voltage direct current (HVDC) converter stations with line-commutated converters",
+   "authors_or_org": "International Electrotechnical Commission (IEC)",
+   "year": 2020,
+   "url": "https://webstore.iec.ch/publication/62197",
+   "canonical_key": "standard:iec-61803-2020",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "https://webstore.iec.ch/publication/62197",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEC 61803:2020 (Edition 2.0, published Oct 19, 2020) standardizes procedures for determining total power losses of line-commutated HVDC converter stations (12-pulse thyristor converters primarily); updated from the 1999 first edition to allow manufacturer production records for loss calculation.",
+   "notes": "Geography CH reflects IEC headquarters (Geneva), not a restriction on the standard's international applicability."
+  },
+  {
+   "id": "L08-045",
+   "title": "IEC TS 63102:2021 -- Grid code compliance assessment methods for grid connection of wind and PV power plants",
+   "authors_or_org": "International Electrotechnical Commission (IEC)",
+   "year": 2021,
+   "url": "https://webstore.iec.ch/en/publication/31475",
+   "canonical_key": "standard:iec-ts-63102-2021",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "https://webstore.iec.ch/en/publication/31475",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEC TS 63102:2021 (Edition 1.0, published Sept 3, 2021) specifies recommended technical methods (compliance testing, simulation, and monitoring) for grid-code compliance assessment of wind/PV plant grid connections, covering frequency/voltage range, reactive power capability, active/reactive control performance, fault ride-through, and power quality -- relevant baseline for grid-forming inverter-based-resource compliance frameworks.",
+   "notes": "Not directly fetched this session; details from search-result synthesis of the IEC/en-standard.eu listing pages. | UPGRADED: raw record had fetched=false (search-synthesis only); direct fetch succeeded this session confirming edition, publication date, and scope."
+  },
+  {
+   "id": "L08-046",
+   "title": "Commission Regulation (EU) 2016/1447 establishing a network code on requirements for grid connection of high voltage direct current systems and direct current-connected power park modules",
+   "authors_or_org": "European Commission",
+   "year": 2016,
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/1447/oj",
+   "canonical_key": "standard:eu-2016-1447",
+   "source_type": "regulator",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "EU Network Code on HVDC Connections (adopted 26 Aug 2016, entered into force 8 Sept 2016) sets binding technical requirements for HVDC systems and DC-connected power-park-module grid connections (frequency range, voltage control, fault ride-through, reactive power, protection); ACER published Recommendation 01/2024 (Dec 19, 2024) proposing amendments to expand scope to offshore demand facilities, electrolysers, offshore storage, and HVDC links to isolated AC networks.",
+   "notes": "Geography 'EU' used as a supranational quasi-ISO code for a regulation applicable across all EU member states, not a single country. | Geography 'EU' used as a supranational quasi-ISO code for a regulation applicable across all EU member states."
+  },
+  {
+   "id": "L08-048",
+   "title": "Voluntary Specification for Grid-forming Inverters: Core Requirements Test Framework",
+   "authors_or_org": "Australian Energy Market Operator (AEMO)",
+   "year": 2024,
+   "url": "https://www.aemo.com.au/-/media/files/initiatives/engineering-framework/2023/grid-forming-inverters-jan-2024.pdf",
+   "canonical_key": "standard:aemo-gfm-voluntary-spec-2024",
+   "source_type": "regulator",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "AU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "AEMO's Voluntary Specification for Grid-forming Inverters (published Jan 17, 2024) sets a voluntary simulation-based test/verification framework -- performance-assessment protocols, grid-fault-interaction scenarios, technical parameters -- for pre-deployment validation of grid-forming inverters in Australia's National Electricity Market.",
+   "notes": "AEMO is Australia's national market and system operator; this specification functions as a quasi-regulatory technical framework even though 'voluntary' by name."
+  },
+  {
+   "id": "L08-049",
+   "title": "National Transmission Planning Study",
+   "authors_or_org": "U.S. Department of Energy Grid Deployment Office; National Renewable Energy Laboratory (NREL); Pacific Northwest National Laboratory (PNNL)",
+   "year": 2024,
+   "url": "https://www.energy.gov/oe/national-transmission-planning-study-0",
+   "canonical_key": "https://www.energy.gov/oe/national-transmission-planning-study-0",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "DOE Grid Deployment Office, with NREL and PNNL, ran a multi-year (launched March 15 2022, published Oct 3 2024) National Transmission Planning Study analyzing 96 scenarios of contiguous-US transmission needs through 2050. A comparative HVDC-vs-AC buildout savings figure (~$490bn HVDC-centric vs ~$270bn AC vs ~$380bn point-to-point by 2050) is cited in secondary Utility Dive reporting but was NOT independently confirmed in the fetched DOE landing page text this session -- treat as provisional/unconfirmed until the primary NTPS report PDF is opened directly.",
+   "notes": "The DOE landing page fetched this session did not itself contain the HVDC-vs-AC savings comparison; that figure is flagged as provisional/second-hand (Utility Dive) rather than directly sourced -- verifier must open the full NTPS report PDF to confirm before this becomes a load-bearing claim. | The underlying study record (existence, scope, DOE/NREL/PNNL authorship) is independently fetched and confirmed -- accepted on that basis. The specific $490bn/$270bn/$380bn comparative savings figure remains a flagged, unconfirmed secondary claim and must not be treated as load-bearing without opening the full NTPS PDF."
+  },
+  {
+   "id": "L08-051",
+   "title": "SCR-based Medium Voltage DC Solid-State Circuit Breaker",
+   "authors_or_org": "Rajendra P. Kandula, Marcio L. Magri Kimpara (Oak Ridge National Laboratory)",
+   "year": 2024,
+   "url": "https://ieeexplore.ieee.org/document/10860928/",
+   "canonical_key": "doi:10.1109/ecce55643.2024.10860928",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ecce55643.2024.10860928",
+   "doi": "10.1109/ECCE55643.2024.10860928",
+   "demand_evidence_type": "none",
+   "claim_supported": "ORNL researchers built and tested an SCR-based solid-state DC circuit-breaker prototype for MVDC applications, presented as a peer-reviewed conference paper at IEEE ECCE 2024 (Phoenix, Oct 20-24, 2024), pp. 699-706.",
+   "notes": "RECLASSIFIED: raw record typed this as national_lab (institutional repository record only) and did not attempt to confirm a peer-reviewed conference/journal placement. This session confirmed via direct fetch of the ORNL IMPACT page plus Crossref that this is in fact a peer-reviewed IEEE ECCE 2024 conference paper -- source_type upgraded to academic_peer_reviewed, T1, with confirmed DOI and named authors (Kandula, Kimpara)."
+  },
+  {
+   "id": "L08-052",
+   "title": "Hybrid HVDC breaker (product page)",
+   "authors_or_org": "Hitachi Energy",
+   "year": 2026,
+   "url": "https://www.hitachienergy.com/products-and-solutions/hvdc/hybrid-hvdc-breaker",
+   "canonical_key": "https://www.hitachienergy.com/products-and-solutions/hvdc/hybrid-hvdc-breaker",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Hitachi Energy markets a commercial Hybrid HVDC Breaker as part of its HVDC portfolio, evolving from ABB's original hybrid-breaker demonstration; page fetched did not contain specific voltage/current/interruption-time ratings or pricing.",
+   "notes": "Vendor marketing page only; no price signal captured despite fetch -- gap for the deep-dive stage to close via a technical datasheet PDF or distributor quote. Geography CH reflects Hitachi Energy's registered HQ (Zurich, Switzerland), not Japanese parent ownership (Hitachi Ltd.). | Vendor marketing page only; no price signal captured despite fetch -- gap for the deep-dive stage to close via a technical datasheet PDF or distributor quote."
+  },
+  {
+   "id": "L08-053",
+   "title": "525 kV HVDC New Cable Systems (technical brochure)",
+   "authors_or_org": "Prysmian Group",
+   "year": 2025,
+   "url": "https://www.prysmian.com/staticres/525-kv-hvdc-new-cable-systems/index.html",
+   "canonical_key": "https://www.prysmian.com/staticres/525-kv-hvdc-new-cable-systems/index.html",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "IT"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Prysmian's 525kV HVDC cable systems (XLPE, P-Laser, and MIND technologies) support submarine bipole capacity up to 2.5GW, nearly double comparable 320kV DC systems; conductor cross-sections range 1200-3500mm2 depending on technology/conductor material; no pricing information published.",
+   "notes": "Vendor technical brochure -- capacity/technology claims are vendor-stated, not independently validated; no price signal available."
+  },
+  {
+   "id": "L09-001",
+   "title": "大功率电推进电源处理单元技术 (Technology for Power Processing Unit Used in High-Power Electric Propulsion)",
+   "authors_or_org": "Li Feng, Kang Qing, Xing Jie, Li Yalin (Institute of Telecommunication of Satellite, China Academy of Space Technology, Beijing; Joint Laboratory of Technology Innovation for Space Power Supply System, Beijing)",
+   "year": 2016,
+   "url": "https://bhxb.buaa.edu.cn/fileBJHKHTDXXB//journal/article/bjhkhtdxxb/html/2016/8/20160803.htm",
+   "canonical_key": "doi:10.13700/j.bh.1001-5965.2015.0531",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://sns.wanfangdata.com.cn/perio/bjhkhtdxxb",
+   "doi": "10.13700/j.bh.1001-5965.2015.0531",
+   "demand_evidence_type": "none",
+   "claim_supported": "Surveys international and Chinese state-of-the-art in high-power (5kW-class) electric-propulsion PPU topologies, semiconductor devices, and control strategies aimed at GEO communication satellites and deep-space missions.",
+   "notes": "Publisher page (BUAA journal official host) fetched successfully this session; DOI, author list, affiliations, and page range confirmed directly from the article page. | VERIFIED: Publisher page (BUAA journal official host) fetched directly; DOI, author list, affiliations, and page range confirmed. Re-tiered T1->T2 this session: claim_supported explicitly describes a state-of-the-art survey, which is a review under SOURCE_STANDARDS, not primary original research. Peer-review evidence is indexing-based (WanFang Data indexing record for this Ministry-of-Industry-supervised Chinese core journal with a named editorial board) rather than an explicit venue peer-review-policy statement -- no such statement was present on the article page itself."
+  },
+  {
+   "id": "L09-002",
+   "title": "ホールスラスタの振動マップの規格化と電力制御技術 (Normalization of Hall Thruster Oscillation-Mode Map and Power Control Technology)",
+   "authors_or_org": "Osuga Hiroyuki (Mitsubishi Electric Corp., Kamakura Works), Kurokawa Fujio (Nagasaki University), Tamida Taiichiro (Mitsubishi Electric Advanced Technology R&D Center), Yamamoto Naoji (Kyushu University), Miura Sueshi (USEF)",
+   "year": 2011,
+   "url": "https://www.jstage.jst.go.jp/article/astj/10/0/10_0_19/_article/-char/ja",
+   "canonical_key": "doi:10.2322/astj.10.19",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.jsass.or.jp/webe/publications/84/",
+   "doi": "10.2322/astj.10.19",
+   "demand_evidence_type": "none",
+   "claim_supported": "Defines an 'equivalent energy density' parameter to normalize Hall-thruster low-frequency oscillation-mode maps, enabling optimized PPU power-control design across operating points.",
+   "notes": "J-STAGE article page fetched successfully this session; authors, affiliations, DOI, and venue confirmed directly. Two of the same authors (Osuga, Tamida) recur in Mitsubishi Electric/Kyushu University Hall-thruster PPU work, indicating a sustained Japanese research program. | VERIFIED: J-STAGE article page fetched directly; authors, affiliations, DOI, venue confirmed. Aerospace Technology Japan is the official peer-reviewed journal of the Japan Society for Aeronautical and Space Sciences (JSASS); JSASS publications page confirms 'Full Articles and Research Notes are fully peer-reviewed.' Original technical contribution (new normalization parameter), not a review -> T1 confirmed. Author overlap (Osuga, Tamida) with L09-007/L09-008 confirms a sustained Japanese Hall-thruster PPU research program (Mitsubishi Electric/Kyushu University/JAXA)."
+  },
+  {
+   "id": "L09-003",
+   "title": "Characterization of a 6-kW-class Hall-thruster subsystem: basic performance and transient behaviors",
+   "authors_or_org": "Ikkoh Funaki, Daiki Koda, Shunichiro Ide, Yasuyoshi Hisamoto, Yuta Nakajima, Hiroaki Kusawake, Tadahiko Sano, Tsutomu Fukatsu, Mineko Minami, Akira Ogawa, Shinatora Cho, Hiroki Watanabe, Yoshiki Matsunaga, Yasushi Ohkawa, Shun Imai, Yoshitaka Tani, Yosuke Tashiro, Yasushi Odawara",
+   "year": 2026,
+   "url": "https://link.springer.com/article/10.1007/s44205-026-00178-w",
+   "canonical_key": "doi:10.1007/s44205-026-00178-w",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "JP",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
+   "doi": "10.1007/s44205-026-00178-w",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports basic performance and transient behaviors of a 6-kW-class Hall-thruster subsystem (Journal of Electric Propulsion, Vol.5, article 6, published Feb 2026), journal-article type confirmed.",
+   "notes": "WebFetch redirected to a Springer/IDP authentication wall this session; metadata taken from WebSearch result snippet only, not independently verified from the article page itself. Geography (US) is an inferred proxy based on the journal's typical US-based EP research author base, not confirmed. Flag for verifier. | RESCUED via Crossref API (api.crossref.org/works/10.1007/s44205-026-00178-w) after Springer/IDP paywall blocked direct WebFetch. Full author list (18 authors, all Japanese institutional pattern matching JAXA/industry) confirmed via Crossref, type=journal-article, container-title=Journal of Electric Propulsion. GEOGRAPHY CORRECTED from 'US' (raw record's unconfirmed proxy guess) to 'JP': author list matches the same Japanese Hall-thruster/JAXA research community as L09-002/L09-006/L09-007/L09-008. Journal of Electric Propulsion (Springer, since 2022) confirmed single-blind peer-reviewed, minimum two referees per submission per its submission-guidelines page."
+  },
+  {
+   "id": "L09-004",
+   "title": "12-kW advanced electric propulsion system hall current thruster qualification and production status",
+   "authors_or_org": "Rohit Shastry, Hani Kamhawi, Jason D. Frieman, George C. Soulas, Timothy G. Gray, Timothy R. Verhey, Clayton D. Kachele, George J. Williams, Nagual A. Simmons, Robert B. Lobbia, Steven M. Arestie, Vernon H. Chaplin, Jack Fisher, Gabriella Blackner, Eleanor Forbes, Jack Hondagneu, Nicholas A. Branch, Jonathan M. Zubair, Hannah Watts",
+   "year": 2025,
+   "url": "https://link.springer.com/article/10.1007/s44205-025-00130-4",
+   "canonical_key": "doi:10.1007/s44205-025-00130-4",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
+   "doi": "10.1007/s44205-025-00130-4",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports qualification and production status of the 12-kW Advanced Electric Propulsion System (AEPS) Hall-current thruster (Journal of Electric Propulsion, Vol.4, article 61, Sept 2025); author roster (NASA GRC + Aerojet Rocketdyne staff) confirms this is the NASA/Aerojet AEPS flight-hardware program.",
+   "notes": "ResearchGate mirror returned HTTP 403 and the NTRS PDF version of a related conference paper could not be parsed as text this session; Springer publisher page not independently fetched. DOI taken from WebSearch result URL only. Cross-reference: L09-032 (NTRS PPE/Gateway status report) and L09-034 (AEPS contract) cover the demand/program side of this same program. | RESCUED via Crossref API after ResearchGate 403 / NTRS PDF parse failure this session. Full author list confirmed (Shastry, Kamhawi, Soulas = NASA GRC; multiple Aerojet Rocketdyne staff) -- direct primary-research confirmation of the same AEPS program documented in L09-034 (contract award) and L09-043 (Gateway PPE integration status). Cross-reference retained."
+  },
+  {
+   "id": "L09-005",
+   "title": "The H10 high power density hall thruster",
+   "authors_or_org": "Richard R. Hofer, Jacob B. Simmonds, Dan M. Goebel, Joel M. Steinkraus, Adele R. Payman",
+   "year": 2025,
+   "url": "https://link.springer.com/article/10.1007/s44205-025-00129-x",
+   "canonical_key": "doi:10.1007/s44205-025-00129-x",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
+   "doi": "10.1007/s44205-025-00129-x",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes design/performance of the 'H10' high power density Hall thruster (Journal of Electric Propulsion, Vol.4, article 35, May 2025); authorship (Hofer, Goebel et al.) confirms JPL/NASA-affiliated origin.",
+   "notes": "Not independently fetched this session (title/DOI from WebSearch result only). Geography US is an unconfirmed proxy inference; flag for verifier. | RESCUED via Crossref API this session; full author list, volume/issue/article-number confirmed (previously WebSearch-title-only)."
+  },
+  {
+   "id": "L09-006",
+   "title": "Control algorithm for a 6 kW hall thruster",
+   "authors_or_org": "Yoshiki Matsunaga, Hiroki Watanabe, Shinatora Cho, Ikkoh Funaki, Hiroaki Kusawake, Kazuhiro Kajiwara, Fujio Kurokawa, Toru Takahashi",
+   "year": 2022,
+   "url": "https://link.springer.com/article/10.1007/s44205-022-00033-8",
+   "canonical_key": "doi:10.1007/s44205-022-00033-8",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "JP",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
+   "doi": "10.1007/s44205-022-00033-8",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a control algorithm for 6kW-class Hall thruster/PPU operation (Journal of Electric Propulsion, Vol.1, article/p.29, Dec 2022); author list (Matsunaga, Watanabe, Cho, Funaki, Kusawake, Kajiwara, Kurokawa, Takahashi) confirms JAXA/Nagasaki University/Japanese-industry authorship.",
+   "notes": "Not independently fetched this session. Geography US is an unconfirmed proxy inference. | RESCUED via Crossref API this session; full author list confirmed, matches same Japanese Hall-thruster PPU research program as L09-002/L09-003/L09-007/L09-008."
+  },
+  {
+   "id": "L09-007",
+   "title": "Development of a Novel Power Processing Unit for Hall Thrusters",
+   "authors_or_org": "N. Yamamoto, H. Takegahara, J. Aoyagi, K. Kuriki, T. Tamida, H. Osuga",
+   "year": 2015,
+   "url": "https://ieeexplore.ieee.org/abstract/document/6971216/",
+   "canonical_key": "doi:10.1109/tps.2014.2370066",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/",
+   "doi": "10.1109/tps.2014.2370066",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports a novel PPU for Hall thrusters achieving smaller size/lighter weight than conventional units and an improved thrust-to-power ratio of 58 mN/kW at 150V discharge voltage, 1.0 mg/s anode xenon flow.",
+   "notes": "IEEE Xplore abstract page not independently fetched this session (title/authors/DOI/venue taken from WebSearch synthesis, which explicitly quoted the DOI string). Author overlap (Osuga, Tamida) with L09-002 indicates continuity of a Japanese Hall-thruster PPU research program across Mitsubishi Electric and Kyushu University. | RESCUED via Crossref API this session (title/authors/container-title/volume/pages confirmed directly, superseding WebSearch-only synthesis). IEEE journal peer-review policy confirmed via IEEE Author Center (minimum two qualified reviewers). Author overlap (Osuga, Tamida) with L09-002 confirms continuity of Japanese Hall-thruster PPU research program."
+  },
+  {
+   "id": "L09-008",
+   "title": "Wide-Output Range Power Processing Unit for 6-kW Hall Thruster",
+   "authors_or_org": "Yoshiki Matsunaga, Toru Takahashi, Hiroki Watanabe, Daisuke Goto, Shinatora Cho, Hiroaki Kusawake, Fujio Kurokawa, Kazuhiro Kajiwara, Ikkoh Funaki",
+   "year": 2022,
+   "url": "https://ieeexplore.ieee.org/document/9557812/",
+   "canonical_key": "doi:10.1109/taes.2021.3117520",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/",
+   "doi": "10.1109/taes.2021.3117520",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a wide-output-voltage/current-range PPU topology for a 6kW-class Hall thruster (published in IEEE Transactions on Aerospace and Electronic Systems, Vol.58 No.3, pp.1609-1620, June 2022). Author list is the same JAXA/Japanese-industry Hall-thruster PPU team as L09-006.",
+   "notes": "MAJOR CORRECTION: original record had no DOI and listed the venue only as 'IEEE Journals & Magazine' (unconfirmed journal vs conference status), geography 'unconfirmed'. Rescued via Crossref bibliographic search (query.bibliographic) this session, which resolved DOI 10.1109/taes.2021.3117520, container-title IEEE Transactions on Aerospace and Electronic Systems (a bona fide peer-reviewed IEEE journal, not a conference), full 9-author list, and exact volume/issue/pages. Geography corrected to JP (author affiliations match L09-006's confirmed JAXA/Japan-industry team)."
+  },
+  {
+   "id": "L09-009",
+   "title": "BHT-6000 Hall Effect Thruster datasheet",
+   "authors_or_org": "Busek Co. Inc.",
+   "year": null,
+   "url": "https://www.busek.com/bht6000",
+   "canonical_key": "https://www.busek.com/bht6000",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "BHT-6000 is a Hall-effect thruster with a High Thrust Mode (5,000W, 300V, 320mN, 2,029s Isp) and High Impulse Mode (6,000W, 600V, 288mN, 2,600s Isp); predicted total impulse >8.5 MN-s; runs on xenon, krypton, or iodine; total efficiency exceeds 64% at nominal conditions; optimized for high-power all-electric orbit-raising, station-keeping, de-orbit, Lunar Gateway, GEO comsats, and solar-electric space tugs. No public price listed. Vendor claim, not independently validated.",
+   "notes": "PDF datasheet WebFetch returned only raw binary/font-stream data (not parseable text) this session; specifications above are drawn from a WebSearch summary of the same datasheet, not independently confirmed by reading the document body. Directly relevant: four BHT-6000 units fly on NASA's Gateway PPE per L09-043. | RESCUED: direct WebFetch of the HTML product page succeeded this session (prior PDF-datasheet attempt returned unparseable binary). Note the High-Impulse-Mode Isp figure (2,600s) confirmed here differs slightly from the raw record's earlier WebSearch-derived figure (2,708s) -- the HTML page figure is treated as authoritative since it was directly fetched. Four BHT-6000 units fly on NASA's Gateway PPE per L09-043 (unchanged cross-reference)."
+  },
+  {
+   "id": "L09-011",
+   "title": "Sequential Switching Shunt Regulator Parallel Power Processing Control for High Capacitance Solar Arrays",
+   "authors_or_org": "Jose M. Blanes, Jose A. Carrasco, Ausias Garrigos, David Marroqui, Cristian Torres (Industrial Electronics Group, Miguel Hernandez University of Elche, Spain)",
+   "year": 2021,
+   "url": "https://www.mdpi.com/1996-1073/14/2/429",
+   "canonical_key": "doi:10.3390/en14020429",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "ES",
+    "unconfirmed"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
+   "doi": "10.3390/en14020429",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes control strategies dividing solar-array sections by capacitance (high-frequency switching for low-capacitance sections, connect/disconnect only for high-capacitance sections) to reduce switching losses in Sequential Switching Shunt Regulators (S3R) for high-power GEO satellite solar arrays.",
+   "notes": "WebFetch returned HTTP 403 this session. DOI inferred from MDPI's deterministic volume/issue/article-number DOI-numbering convention (10.3390/en + vol14 + issue02 + article0429), consistent with the precedent set in the L02/L08 lane notes; not independently resolved via doi.org. Flag for verifier. | RESCUED: full metadata confirmed via Crossref API this session (author list, container-title, DOI -- previously only inferred from MDPI's numbering convention). Geography corrected from 'unconfirmed' to ES: authors independently confirmed via sciprofiles.com/Google Scholar as the Industrial Electronics Group, Miguel Hernandez University of Elche, Spain. MDPI editorial-process peer-review policy page (mdpi.com/editorial_process) returned HTTP 403 to direct WebFetch this session but is MDPI's standard, publicly documented peer-review policy URL; WebSearch corroborated its content (single-blind peer review, minimum two independent reviewers)."
+  },
+  {
+   "id": "L09-012",
+   "title": "NASA Awards Contract for Next Generation Electric Propulsion Components (NEXT-C thrusters + PPUs)",
+   "authors_or_org": "NASA (Glenn Research Center) / Aerojet Rocketdyne, Inc. / ZIN Technologies, Inc.",
+   "year": 2015,
+   "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-next-generation-electric-propulsion-components/",
+   "canonical_key": "https://www.nasa.gov/news-release/nasa-awards-contract-for-next-generation-electric-propulsion-components/",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "NASA awarded Aerojet Rocketdyne, Inc. (Redmond, WA) an $18,410,242 cost-share contract (awarded April 1, 2015, five-year period of performance) to design, fabricate, and test two NASA Evolutionary Xenon Thruster-Commercial (NEXT-C) ion thrusters and two power processing units for flight, with subcontractor ZIN Technologies (Middleburg Heights, OH) building a prototype PPU first to demonstrate design maturity before flight-unit production; NEXT-C evolves ion-propulsion technology previously flown on NASA's Dawn spacecraft, for use on Discovery-class and future missions.",
+   "notes": "Directly fetched NASA.gov press release this session; contract value, contractor/subcontractor, dates, and technical scope confirmed directly. A distinct, earlier/smaller-value program from the same contractor than the AEPS contract in L09-034 -- both real, separate NASA electric-propulsion PPU procurements. | Directly fetched NASA.gov press release in the scout session; contract value, contractor/subcontractor, dates, and technical scope confirmed directly. Verified unchanged this session. A distinct, earlier/smaller-value program from the same contractor than the AEPS contract in L09-034."
+  },
+  {
+   "id": "L09-013",
+   "title": "Noble-Gas Binary Mixtures for Closed-Brayton-Cycle Space Reactor Power Systems",
+   "authors_or_org": "Mohamed S. El-Genk, Jean-Michel Tournier (University of New Mexico)",
+   "year": 2007,
+   "url": "https://arc.aiaa.org/doi/10.2514/1.27664",
+   "canonical_key": "doi:10.2514/1.27664",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://arc.aiaa.org/jpp/about",
+   "doi": "10.2514/1.27664",
+   "demand_evidence_type": "none",
+   "claim_supported": "Evaluates noble-gas binary working-fluid mixtures for closed-Brayton-cycle power conversion in space nuclear reactor systems (Journal of Propulsion and Power, Vol.23, No.4, pp.863-873, July 2007).",
+   "notes": "Not independently fetched this session; year not confirmed and left null. Geography US inferred from NASA/DOE Brayton-cycle research program context, not confirmed from the article itself. | RESCUED via Crossref API this session; author list, exact volume/issue/pages, and year (previously left null) confirmed. AIAA arc.aiaa.org/jpp/about page returned 403 to direct WebFetch but is AIAA's standard journal-about page; AIAA's general policy (single-blind peer review by field experts) corroborated via WebSearch."
+  },
+  {
+   "id": "L09-014",
+   "title": "Radiation damage in GaN/AlGaN and SiC electronic and photonic devices (review)",
+   "authors_or_org": "S. J. Pearton, Xinyi Xia, Fan Ren, Md Abu Jafar Rasel, Sergei Stepanoff, Nahid Al-Mamun, Aman Haque, Douglas E. Wolfe",
+   "year": 2023,
+   "url": "https://pubs.aip.org/avs/jvb/article/41/3/030802/2884489/Radiation-damage-in-GaN-AlGaN-and-SiC-electronic",
+   "canonical_key": "doi:10.1116/6.0002628",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://pubs.aip.org/avs/jvb/pages/policies",
+   "doi": "10.1116/6.0002628",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews radiation-damage mechanisms in GaN/AlGaN and SiC electronic and photonic devices; notes heavy-ion-induced catastrophic single-event burnout in SiC/GaN power devices commonly occurs at ~50% of rated voltage despite inherent radiation hardness from larger defect-formation threshold energies -- directly relevant to qualifying wide-bandgap power devices for space power converters.",
+   "notes": "Review article -> T2 per SOURCE_STANDARDS. Not independently fetched (403-prone AIP paywall not attempted); geography US is an unconfirmed proxy (AVS/AIP publisher and typical US national-lab authorship for this topic area). | RESCUED via Crossref API this session (full 8-author list confirmed; Pearton and Ren are University of Florida wide-bandgap-device researchers, confirming US geography). Review article -> T2 per SOURCE_STANDARDS. AIP/AVS JVST-B editorial-policies page confirms independent peer review with reviewer conflict-of-interest disclosure requirements."
+  },
+  {
+   "id": "L09-015",
+   "title": "Overview on Radiation Damage Effects and Protection Techniques in Microelectronic Devices (review)",
+   "authors_or_org": "Yanru Ren, Min Zhu, Dongyu Xu, Minghui Liu, Xuehui Dai, Shengao Wang, Longxian Li",
+   "year": 2024,
+   "url": "https://onlinelibrary.wiley.com/doi/10.1155/2024/3616902",
+   "canonical_key": "doi:10.1155/2024/3616902",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.hindawi.com/journals/stni/ethics/",
+   "doi": "10.1155/2024/3616902",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews radiation damage effects (TID, displacement damage, single-event effects) and protection/hardening techniques in microelectronic devices, relevant to spacecraft power controller reliability.",
+   "notes": "Review article -> T2. Geography CN is inferred from the lead-author surname pattern seen in search results ('Ren'), not independently confirmed from the fetched article -- flag for verifier. | RESCUED via Crossref API this session; full 7-author list confirmed (all Chinese-institution author-name pattern, confirming CN geography, previously an inferred guess). Review article -> T2. Hindawi/Wiley journal ethics page confirms single-anonymized peer review with a research-integrity escalation process for sensitive submissions."
+  },
+  {
+   "id": "L09-016",
+   "title": "电负性射频离子推力器研究现状及关键技术综述 (Research Status and Key Technologies of Electronegative RF Ion Thrusters: A Review)",
+   "authors_or_org": "Han Yajie, Liu Xuan, Li Jiahui, et al.",
+   "year": 2025,
+   "url": "https://aca.spacejournal.cn/cn/article/pdf/preview/10.3969/j.issn.1674-1579.2025.02.001.pdf",
+   "canonical_key": "doi:10.3969/j.issn.1674-1579.2025.02.001",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://aca.spacejournal.cn/",
+   "doi": "10.3969/j.issn.1674-1579.2025.02.001",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews research status and key technologies (including power supply/discharge control) of electronegative RF ion thrusters -- adjacent power-electronics niche to Hall-thruster PPUs.",
+   "notes": "Review (综述) -> T2. Only the citation string and abstract-adjacent search snippet were seen this session; the PDF itself was not fetched. | RE-VERIFIED: PDF re-fetched this session; this ISSN (1674-1579, prefix 10.3969, not registered with Crossref) is a CNKI-style DOI used by many Chinese aerospace core journals rather than a Crossref DOI -- not a defect in isolation. Venue confirmed as 空间控制技术与应用 (Aerospace Control and Application), hosted on the China Aerospace Journal Digital Publishing platform (spacejournal.cn), a CAST (China Academy of Space Technology)-affiliated indexed core-journal platform. Review (综述) -> T2. Peer-review evidence is platform/indexing-based rather than an explicit dedicated policy statement; flagged as the weaker end of 'verified' evidence."
+  },
+  {
+   "id": "L09-017",
+   "title": "空间电推进技术发展及应用展望 (Development and Application Prospects of Space Electric Propulsion Technology)",
+   "authors_or_org": "Geng Hai, Li Jing, Wu Chenchen, Sun Xinfeng, Wang Zitong, Jia Yanhui, Wang Shangmin, Li Xingda, Pu Yanxu",
+   "year": 2023,
+   "url": "https://pubs.cstam.org.cn/article/doi/10.19527/j.cnki.2096-1642.0977",
+   "canonical_key": "doi:10.19527/j.cnki.2096-1642.0977",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://pubs.cstam.org.cn/",
+   "doi": "10.19527/j.cnki.2096-1642.0977",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews development trends and application prospects for space electric propulsion technology (China-focused perspective piece), published in 气体物理 (Physics of Gases), Vol.8 No.1 (2023), pp.1-16; received March 3, 2022, revised March 10, 2022, published January 20, 2023.",
+   "notes": "Perspective/outlook piece (展望) -> T2. Only found via search snippet; not fetched. Year and author list not confirmed this session, left blank/null rather than guessed. | MAJOR CORRECTION: venue re-fetched and identified this session as 气体物理 (Physics of Gases) journal, Vol.8 No.1, pp.1-16 -- the original record left year null and described the venue only ambiguously as a 'CSTAM-hosted journal.' Full 9-author byline also newly confirmed (previously 'unconfirmed authors'). Perspective/outlook piece (展望) -> T2. Hosted on the Chinese Society of Theoretical and Applied Mechanics (CSTAM) publication platform, which follows standard submitted-revised-published editorial workflow shown on the article page (proxy evidence for peer review, not an explicit policy statement)."
+  },
+  {
+   "id": "L09-018",
+   "title": "空间堆技术发展分析与展望 (Analysis and Outlook of Space Nuclear Reactor Technology Development)",
+   "authors_or_org": "Zhao Shouzhi, Xie Jiachun, Lu Zheng, Gao Feng, An Weijian, Hou Cheng, Huo Honglei",
+   "year": 2025,
+   "url": "https://yznkxjs.xml-journal.net/cn/article/pdf/preview/10.7538/yzk.2025.youxian.0586.pdf",
+   "canonical_key": "doi:10.7538/yzk.2025.youxian.0586",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://yznkxjs.xml-journal.net/",
+   "doi": "10.7538/yzk.2025.youxian.0586",
+   "demand_evidence_type": "none",
+   "claim_supported": "Analyzes development status and outlook for space nuclear reactor (space fission power) technology, a China-side counterpart to the US Fission Surface Power program.",
+   "notes": "Author list captured from search-result byline text only, not from a fetched full article; treat author affiliations as tentative pending verifier confirmation. Analysis/outlook framing suggests T2 review-style piece rather than primary experimental data. | RE-VERIFIED: PDF re-fetch this session still returned unparseable binary/font streams, but WebSearch confirmed 原子能科学技术 is a Chinese-core, EI/CSCD-indexed journal (entered EI Compendex; core-journal listing since 1992) whose own site explicitly states articles undergo '同行评议' (peer review) before formal acceptance -- direct textual confirmation of a peer-review policy, stronger evidence than most other Chinese-venue records in this lane. Analysis/outlook (展望) framing -> T2 review-style piece."
+  },
+  {
+   "id": "L09-019",
+   "title": "정지궤도위성의 완전 전기추진시스템 적용방안 연구 (Study on Application of Fully Electric Propulsion System for Geostationary Satellites)",
+   "authors_or_org": "Choi Jae-Dong, Park Bong-Kyu (Korea Aerospace Research Institute, KARI)",
+   "year": 2022,
+   "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11193418",
+   "canonical_key": "title-year:정지궤도위성의-완전-전기추진시스템-적용방안-연구-2022",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=SER000010502",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Analyzes design considerations for applying a fully electric propulsion system (replacing chemical propulsion) on GEO satellites, finding payload capacity could increase ~40%, while flagging operational constraints: contamination effects, radiation-driven component placement, and floating-ground design requirements for the high-voltage control unit.",
+   "notes": "DBpia abstract/detail page fetched successfully this session; no DOI was displayed on the page, so canonical_key falls back to title-year per SOURCE_STANDARDS priority order. | VERIFIED: DBpia abstract/detail page fetched directly in scout session; no DOI displayed, canonical_key falls back to title-year per SOURCE_STANDARDS priority order (unchanged). Peer-review status upgraded to verified this session: confirmed via KCI (Korea Citation Index) portal that this journal is 'KCI 등재' (KCI-registered) since Jan 2017 with tracked Impact Factor and ~970 published papers -- KCI registration requires an established peer-review process, providing indexing-based peer-review evidence."
+  },
+  {
+   "id": "L09-020",
+   "title": "Research on the Synergistic Effect of Total Ionization and Displacement Dose in GaN HEMT Using Neutron and Gamma-Ray Irradiation",
+   "authors_or_org": "Rui Chen et al. (National Space Science Center, Chinese Academy of Sciences, Beijing; Institute of Astronomy and Space, University of Chinese Academy of Sciences, Beijing)",
+   "year": 2022,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9268257/",
+   "canonical_key": "doi:10.3390/nano12132126",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
+   "doi": "10.3390/nano12132126",
+   "demand_evidence_type": "none",
+   "claim_supported": "At 800 krad(Si) cumulative gamma dose, combined neutron+gamma leakage-current degradation in both p-GaN-gate and cascode GaN HEMTs was lower than the sum of the two separate effects, but threshold-voltage shift in cascode devices showed synergistic amplification -- directly relevant to radiation qualification of GaN power devices for space power converters.",
+   "notes": "PMC full-text page fetched successfully this session; title, authors, affiliations, journal, DOI, and key findings confirmed directly. | VERIFIED unchanged this session: PMC full-text page fetched directly in scout session; title, authors, affiliations, journal, DOI, and key findings confirmed. Nanomaterials is an MDPI journal; peer-review evidence url added this session (MDPI editorial-process policy)."
+  },
+  {
+   "id": "L09-022",
+   "title": "A Review of Low-Power Electric Propulsion Research at the Space Propulsion Centre Singapore",
+   "authors_or_org": "George-Cristian Potrivitu, Yufei Sun, Muhammad Wisnuh Aggriawan bin Rohaizat, Oleksii Cherkun, Luxiang Xu, Shiyong Huang, Shuyan Xu (Space Propulsion Centre / National Institute of Education, Nanyang Technological University, Singapore)",
+   "year": 2020,
+   "url": "https://www.mdpi.com/2226-4310/7/6/67",
+   "canonical_key": "doi:10.3390/aerospace7060067",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "SG"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
+   "doi": "10.3390/aerospace7060067",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews low-power electric propulsion R&D (thruster and associated power-electronics work) conducted at Singapore's Space Propulsion Centre, NTU.",
+   "notes": "Review article -> T2. DOI inferred from MDPI's deterministic volume/issue/article-number convention (10.3390/aerospace + vol07 + issue06 + article0067), not independently resolved via doi.org; not fetched this session (403 pattern observed on other MDPI URLs). | RESCUED via Crossref API this session; full 7-author list confirmed directly (previously DOI was an inferred guess from MDPI's numbering convention -- now independently confirmed as correct). Review article -> T2."
+  },
+  {
+   "id": "L09-023",
+   "title": "Recent innovations to advance space electric propulsion technologies (review)",
+   "authors_or_org": "Igor Levchenko, Dan Goebel, Daniela Pedrini, Riccardo Albertoni, Oleg Baranov, Igal Kronhaus, Dan Lev, Mitchell L.R. Walker, Shuyan Xu, Kateryna Bazaka",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376042123000167",
+   "canonical_key": "doi:10.1016/j.paerosci.2023.100900",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "SG",
+    "US",
+    "IT",
+    "IL",
+    "AU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.sciencedirect.com/journal/progress-in-aerospace-sciences/publish/guide-for-authors",
+   "doi": "10.1016/j.paerosci.2023.100900",
+   "demand_evidence_type": "none",
+   "claim_supported": "Surveys recent innovations across space electric propulsion technologies (Hall thrusters, ion engines, helicon sources, iodine-fueled and atmosphere-breathing concepts), 219 references, Progress in Aerospace Sciences Vol.152 (Jan 2025).",
+   "notes": "RESCUED via Crossref bibliographic search this session (DOI, full author list, volume/page confirmed; publisher-abstract page remained paywalled). GEOGRAPHY CORRECTED from 'NL' (an invalid Elsevier-HQ proxy) to a multi-country author set: Levchenko/Xu/Bazaka (Singapore, NTU/Curtin), Goebel/Walker (US, JPL/Georgia Tech), Pedrini/Albertoni (Italy), Kronhaus/Lev (Israel), Baranov (Australia, per known co-affiliation) -- flagged that Baranov's exact affiliation was not independently re-confirmed this session. Progress in Aerospace Sciences is Elsevier's invitation-only critical-review journal; guide-for-authors page and WebSearch corroborate blind peer review by >=2 external reviewers even for invited reviews. Review article -> T2."
+  },
+  {
+   "id": "L09-024",
+   "title": "Perspectives, frontiers, and new horizons for plasma-based space electric propulsion (review)",
+   "authors_or_org": "I. Levchenko, S. Xu, S. Mazouffre, D. Lev, D. Pedrini, D. Goebel, L. Garrigues, F. Taccogna, K. Bazaka",
+   "year": 2020,
+   "url": "https://pubs.aip.org/aip/pop/article/27/2/020601/841896/Perspectives-frontiers-and-new-horizons-for-plasma",
+   "canonical_key": "doi:10.1063/1.5109141",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "SG",
+    "FR",
+    "IL",
+    "IT",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://pubs.aip.org/aip/pop/pages/policies",
+   "doi": "10.1063/1.5109141",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews frontiers of plasma-based space electric propulsion, including discussion of a lab-prototype Rotamak system explored at NTU Singapore's Space Propulsion Centre.",
+   "notes": "RESCUED via Crossref API this session; DOI, full 9-author list confirmed (previously DOI blank/not confirmed). GEOGRAPHY EXPANDED from single 'SG' to multi-country: Levchenko/Xu/Bazaka (Singapore), Mazouffre/Garrigues (France, CNRS/ICARE), Lev (Israel, Technion), Pedrini/Taccogna (Italy), Goebel (US, JPL). AIP Physics of Plasmas editorial-policies page confirms rigorous peer review by editor-in-chief and associate editors. Review/perspective article -> T2."
+  },
+  {
+   "id": "L09-026",
+   "title": "Design of closed Brayton cycle power generation system for megawatt-scale space nuclear reactor",
+   "authors_or_org": "Xiangrong Tang, Zongxin Yang, ChuangKan Liu, Linyu Huang, Haosen Liu, Qian Ning",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360544225036205",
+   "canonical_key": "doi:10.1016/j.energy.2025.137978",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.elsevier.com/about/policies-and-standards/peer-review",
+   "doi": "10.1016/j.energy.2025.137978",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents a closed Brayton-cycle power-generation system design for a megawatt-scale space nuclear reactor, funded by China's National Natural Science Foundation (grant 62373262); per WebSearch summary of the original record, radiator areas as low as ~650 m^2/MWe achievable with ~20% thermal efficiency for a He-Xe working fluid (published in Energy, Vol.335, article 137978, Oct 2025).",
+   "notes": "RESCUED via Crossref bibliographic search this session; DOI, exact journal (Energy, not the originally-guessed 'Nuclear Engineering and Technology'), full 6-author list, and NNSF-China grant funding confirmed -- also confirms CN geography (was 'unconfirmed'). Original research design study, not a review -> T1."
+  },
+  {
+   "id": "L09-027",
+   "title": "Experimental Study on Operating Range Extension of Hall Thrusters under Pulsating Mode",
+   "authors_or_org": "Haochen Ma, Liqiu Wei, Haikuo Cai, Shangmin Wang, Liang Han, Yongfeng He, Hong Li, Yongjie Ding",
+   "year": 2023,
+   "url": "https://ascelibrary.org/doi/10.1061/JAEEEZ.ASENG-4949",
+   "canonical_key": "doi:10.1061/jaeeez.aseng-4949",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "unconfirmed"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://ascelibrary.org/author-center/submission-peer-review",
+   "doi": "10.1061/jaeeez.aseng-4949",
+   "demand_evidence_type": "none",
+   "claim_supported": "Experimentally studies extending Hall-thruster stable operating range via pulsating-mode (power-modulated) operation (Journal of Aerospace Engineering, Vol.36 No.4, article 04023018, July 2023).",
+   "notes": "Not independently fetched this session; year and author affiliation not confirmed and left null/unconfirmed. | RESCUED via Crossref API this session; full 8-author list confirmed (Chinese-institution name pattern, consistent with a Harbin Institute of Technology-type plasma-propulsion group) -- geography corrected from 'unconfirmed' to CN. ASCE's peer-review page (single-anonymous review, COPE member) returned 403 to direct WebFetch but content confirmed via WebSearch synthesis. Original experimental study, not a review -> T1."
+  },
+  {
+   "id": "L09-028",
+   "title": "离子推力器工作性能参数控制模型 (Control Model for Ion Thruster Operating Performance Parameters)",
+   "authors_or_org": "Sun Mingming, Zhang Tianping, Guo Weilong, Long Jianfei",
+   "year": 2017,
+   "url": "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB201729.160485",
+   "canonical_key": "doi:10.11884/hplpb201729.160485",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.hplpb.com.cn/",
+   "doi": "10.11884/HPLPB201729.160485",
+   "demand_evidence_type": "none",
+   "claim_supported": "Establishes a Simulink control model examining how ion-thruster operating parameters affect output characteristics; validated against 30cm and 20cm-diameter thruster experimental thrust measurements, achieving <1 mN calculation error after correcting for doubly-charged xenon ions and beam-current density distribution.",
+   "notes": "DOI confirmed directly from the URL structure; full article body not fetched this session, only the citation/DOI page path was seen via search. Author-institution link to Lanzhou Institute of Physics is inferred from surrounding search context, not independently confirmed from the article itself. | RE-VERIFIED this session: journal page fetched directly, confirming full 4-author list (adds 'Long Jianfei', previously omitted) and a live '同行评议政策' (peer review policy) navigation link on the journal's own site. Independently confirmed via WebSearch that 强激光与粒子束 is an EI-Compendex-indexed (since 1993), Chinese-core journal published by the China Academy of Engineering Physics / Chinese Nuclear Society -- strong indexing-based peer-review evidence. Original control-model study, not a review -> T1."
+  },
+  {
+   "id": "L09-029",
+   "title": "射频离子推力器研究进展 (Research Progress of RF Ion Thrusters, review)",
+   "authors_or_org": "Ma Longfei, He Jianwu, Luo Jun, Zhang Chu, Yang Chao, Fu Jiahao, Duan Li, Kang Qi",
+   "year": 2024,
+   "url": "https://jdse.bit.edu.cn/sktcxb/article/doi/10.15982/j.issn.2096-9287.2024.20230036",
+   "canonical_key": "doi:10.15982/j.issn.2096-9287.2024.20230036",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://jdse.bit.edu.cn/sktcxb/news/jibenqingkuang.htm",
+   "doi": "10.15982/j.issn.2096-9287.2024.20230036",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews research progress in RF ion thrusters spanning ~60 years of history and achievements: propellant selection, RF circuit impedance matching, gas-flow control, electrical neutralization, and longevity -- an adjacent electric-propulsion power-electronics niche to Hall-thruster PPUs.",
+   "notes": "Review (研究进展) -> T2. Not fetched this session; author list from search-result byline text, not independently confirmed from full article. | RE-VERIFIED this session: journal page fetched directly, confirming full 8-author list. Independently confirmed the hosting journal is 深空探测学报（中英文） (Journal of Deep Space Exploration), jointly run by Beijing Institute of Technology and the Chinese Astronautical Society's Deep Space Exploration Technology Professional Committee, and listed in the 2020-edition Core Journal Index of Chinese Periodicals for aviation/aerospace -- resolves the original record's blank venue field. Review (研究进展) -> T2."
+  },
+  {
+   "id": "L09-030",
+   "title": "Scalable power processing units for hall-effect thruster propulsion systems and terrestrial systems",
+   "authors_or_org": "Gabriel F. Benavides, Luis R. Pinero, Corey R. Rhodes, Arthur Birchenough; Assignee: National Aeronautics and Space Administration (NASA)",
+   "year": 2023,
+   "url": "https://patents.google.com/patent/US11815074B1/en",
+   "canonical_key": "patent:US11815074B1",
+   "source_type": "patent",
+   "tier": "T3",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "US Patent 11,815,074 B1 (filed June 26, 2020; granted Nov 14, 2023; assignee NASA) claims a scalable Hall-effect-thruster PPU architecture: (1) current-estimation via primary current signals + output-voltage feedback across parallel discharge-supply modules without added sensors, (2) a dual-function flyback supply serving as both cathode ignitor and sustainer (~150V DC no-load), and (3) an optional parallel Cockcroft-Walton multiplier for 300-600V end-of-life conditions -- reducing component count and enabling scalable small-spacecraft PPU designs.",
+   "notes": "RESCUED via Google Patents page this session (uspto.gov PDF binary and Google's B2 variant both failed; the correct grant document is B1). Inventors and NASA assignee now confirmed directly (previously 'unconfirmed inventors/assignee'). Patent, not peer-reviewed academic work -- does not count toward the academic quota; T3 per conservative lane convention (patents are primary IP disclosure but not independently reviewed for technical validity)."
+  },
+  {
+   "id": "L09-031",
+   "title": "NASA Announces Artemis Concept Awards for Nuclear Power on Moon (Fission Surface Power)",
+   "authors_or_org": "NASA (Glenn Research Center) / U.S. Department of Energy",
+   "year": 2022,
+   "url": "https://www.nasa.gov/news-release/nasa-announces-artemis-concept-awards-for-nuclear-power-on-moon/",
+   "canonical_key": "https://www.nasa.gov/news-release/nasa-announces-artemis-concept-awards-for-nuclear-power-on-moon/",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "NASA/DOE awarded three ~$5M, 12-month Phase 1 fission-surface-power concept-design contracts (June 21, 2022) to Lockheed Martin (with BWXT, Creare), Westinghouse (with Aerojet Rocketdyne), and IX (Intuitive Machines/X-energy JV, with Maxar and Boeing), for a 40-kWe reactor rated for >=10 years on the lunar surface, targeting launch readiness by end of decade. Idaho National Laboratory administers the contracts.",
+   "notes": "Direct NASA.gov press release fetched successfully; power/timeline specifics confirmed directly. Note the 40-kWe figure here is the original 2022 baseline, later superseded by a 100-kWe requirement per L09-033. | VERIFIED unchanged this session: direct NASA.gov press release fetched in scout session; power/timeline specifics confirmed directly. Note the 40-kWe figure is the original 2022 baseline, superseded by a 100-kWe requirement per L09-033."
+  },
+  {
+   "id": "L09-032",
+   "title": "Westinghouse Awarded NASA-DOE Contract to Continue Development of Space Microreactor Concept",
+   "authors_or_org": "Westinghouse Electric Company",
+   "year": 2025,
+   "url": "https://info.westinghousenuclear.com/news/westinghouse-awarded-nasa-doe-contract-to-continue-development-of-space-microreactor-concept",
+   "canonical_key": "https://info.westinghousenuclear.com/news/westinghouse-awarded-nasa-doe-contract-to-continue-development-of-space-microreactor-concept",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Westinghouse announced (Jan 7, 2025) a continuation contract from NASA/DOE, administered via Idaho National Laboratory, to advance its eVinci-based space microreactor design (up to 40kWe) toward Fission Surface Power lunar demonstration; contract dollar value not disclosed.",
+   "notes": "Vendor/company press release describing a real government contract -- treated as company_filing per established mission convention (see L08 lane precedent for vendor press releases about contract awards), not an audited SEC filing. | VERIFIED unchanged this session. Vendor/company press release describing a real government contract -- treated as company_filing per established mission convention, not an audited SEC filing."
+  },
+  {
+   "id": "L09-033",
+   "title": "NASA/DOE Solidify Collaboration on a Lunar Surface Reactor (Fission Surface Power 100-kWe requirement)",
+   "authors_or_org": "American Nuclear Society (staff) / NASA / U.S. Department of Energy",
+   "year": 2026,
+   "url": "https://www.ans.org/news/article-7674/nasa-doe-solidify-collaboration-on-a-lunar-surface-reactor/",
+   "canonical_key": "https://www.ans.org/news/article-7674/nasa-doe-solidify-collaboration-on-a-lunar-surface-reactor/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "NASA and DOE signed a memorandum of understanding (Jan 8, 2026) reaffirming collaboration on a lunar-surface fission reactor, specifying a 100-kWe electrical output requirement using a closed Brayton-cycle power-conversion system, and targeting launch readiness in Q1 FY2030 (per a Dec 18, 2025 executive order calling for permanent lunar-outpost elements by 2030). The article explicitly notes significant uncertainty on whether the reactor will actually be operating on the Moon, versus merely constructed, by that date.",
+   "notes": "This record synthesizes multiple WebSearch results (ans.org, nasa.gov, spacenews.com); no single page was independently fetched and verified this session -- treat the specific dates/figures as provisional pending direct fetch of the NASA RFI text or the NSTM-3 memorandum itself. Strong dated-trigger demand signal if confirmed (100kWe spec increase from the original 40kWe baseline, L09-031). | RESCUED: article fetched directly this session (previously WebSearch-synthesis only). CORRECTION: the raw record's claimed 'April 14, 2026' memorandum date and the 'NSTM-3' memorandum name are NOT confirmed by this source -- the article states the MOU was signed January 8, 2026 and does not use the term 'NSTM-3' anywhere; claim_supported has been rewritten to remove the unconfirmed name/date and retain only what this fetch directly supports. Strong dated demand signal (100kWe spec increase from the 40kWe 2022 baseline, L09-031) confirmed."
+  },
+  {
+   "id": "L09-034",
+   "title": "NASA Works to Improve Solar Electric Propulsion for Deep Space Exploration (AEPS $67M contract award)",
+   "authors_or_org": "NASA (Glenn Research Center, with JPL technical support) / Aerojet Rocketdyne, Inc.",
+   "year": 2016,
+   "url": "https://www.nasa.gov/news-release/nasa-works-to-improve-solar-electric-propulsion-for-deep-space-exploration/",
+   "canonical_key": "https://www.nasa.gov/news-release/nasa-works-to-improve-solar-electric-propulsion-for-deep-space-exploration/",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "NASA awarded Aerojet Rocketdyne (Redmond, WA) a 36-month, $67M cost-plus-fixed-fee (with performance incentive) contract, April 2016, for the Advanced Electric Propulsion System (AEPS): an integrated thruster, power processing unit (PPU), low-pressure xenon flow controller, and electrical harness, using a NASA-provided prototype thruster/PPU as the reference design; optional follow-on period covers four flight units. Stated goals: 10x fuel efficiency over chemical propulsion and >2x thrust vs. then-current EP systems, supporting the Asteroid Redirect Mission and Journey to Mars.",
+   "notes": "Directly fetched NASA.gov press release this session, superseding the earlier ambiguous $65-67M trade-press figure with the confirmed official $67M contract value. Cross-reference L09-004, L09-043, L09-044(now L09-057 NEXT-C) for related program threads; SEC 8-K exhibit corroborating this contract (sec.gov/Archives/edgar/data/0000040888/000117184316011633/exh_991.htm) returned HTTP 403 to WebFetch this session and was not independently confirmed. | VERIFIED unchanged this session. Cross-reference: L09-004 and L09-043 independently confirm the same AEPS program from the primary-research and integration-status angles respectively."
+  },
+  {
+   "id": "L09-037",
+   "title": "Space Force Maneuverable GEO program ($905M planned commercial satellite fleet)",
+   "authors_or_org": "U.S. Space Force / Space Systems Command",
+   "year": 2026,
+   "url": "https://www.airandspaceforces.com/space-force-plans-905m-maneuverable-geo/",
+   "canonical_key": "https://www.airandspaceforces.com/space-force-plans-905m-maneuverable-geo/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_specification",
+   "claim_supported": "The Space Force plans to award $905M over five years (competition opening early 2026, award expected June 2026) for a commercial fleet of maneuverable GEO communication satellites able to shift orbital slots for coverage/debris avoidance; the article itself does not specify propulsion technology, though maneuverable-GEO requirements are commonly met with solar electric propulsion (see L09-038 for a specific SEP vendor's stated interest in this mission class).",
+   "notes": "Contract not yet awarded as of this session (expected June 2026) -- demand_evidence_type set to buyer_specification (a budgeted, competed program) rather than official_project_award. Program was previously delayed from a July 2025 target award date. | VERIFIED unchanged this session. Contract not yet awarded as of this session (expected June 2026) -- demand_evidence_type buyer_specification (budgeted, competed program) rather than official_project_award."
+  },
+  {
+   "id": "L09-038",
+   "title": "Phase Four SBIR/STTR award portfolio, incl. Low-cost High-power Solar Electric Propulsion for Enhanced In-Space Maneuverability",
+   "authors_or_org": "Phase Four, Inc. / U.S. Air Force (SBIR/STTR program)",
+   "year": 2021,
+   "url": "https://www.sbir.gov/portfolio/1158459",
+   "canonical_key": "https://www.sbir.gov/portfolio/1158459",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Federal SBIR.gov award database confirms Phase Four, Inc. (Hawthorne, CA) received a $45,795 USAF SBIR Phase I award (2021) for 'Low-cost High-power Solar Electric Propulsion for Enhanced In-Space Maneuverability,' scaling its propellant-agnostic Maxwell RF-thruster technology (claimed 10x materials-cost savings vs. legacy EP, non-noble-gas propellant operation) toward high-power SEP for national-security maneuverable-satellite missions. The same portfolio lists 5 further USAF SBIR/STTR awards to Phase Four (2020-2025) totaling $6,121,560 across related multimode/high-delta-V electric-propulsion topics.",
+   "notes": "RESCUED and RECLASSIFIED this session: the raw record's legacy node URL (sbir.gov/node/2169577) 404'd on repeated attempts (including a reader-proxy retry), but the company's official SBIR.gov portfolio page fetched successfully and yields a confirmed dollar figure the original record lacked. Source_type changed from 'market_industry' (vendor positioning claim) to 'government' (this is now an official federal award record, not a vendor marketing claim) and tier upgraded T2->T1 accordingly. This change removes one previously-assumed market_industry record from that sub-count for this lane -- see final report for the resulting market/industry gap."
+  },
+  {
+   "id": "L09-039",
+   "title": "SDA Tranche 3 Tracking Layer: $3.5B contracts to Lockheed Martin, Rocket Lab, L3Harris, Northrop Grumman for 72 missile-tracking satellites",
+   "authors_or_org": "Space Development Agency (U.S. Space Force)",
+   "year": 2025,
+   "url": "https://www.airandspaceforces.com/sda-tranche-3-new-missile-tracking-defense-satellites/",
+   "canonical_key": "https://www.airandspaceforces.com/sda-tranche-3-new-missile-tracking-defense-satellites/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "SDA awarded (announced Dec 19, 2025) a combined $3.5B across four companies -- Lockheed Martin ($1.1B), L3Harris ($843M), Rocket Lab ($805M), Northrop Grumman ($764M) -- to build 18 satellites each (72 total) for Tranche 3 missile-warning/tracking, launching FY2029. The article does not specify propulsion or power-subsystem technical details.",
+   "notes": "Included as a large, dated satellite-bus procurement signal in the buyer set this lane serves (Space Force/SDA), but the source itself does NOT confirm electric-propulsion or power-processing content on these specific satellites -- flagged as an indirect/contextual demand record, not a direct EP/power-hardware award, pending verifier judgment on relevance. | VERIFIED unchanged this session. Included as a large, dated satellite-bus procurement signal for the buyer set this lane serves (Space Force/SDA); the source does NOT itself confirm electric-propulsion or power-processing content on these satellites -- flagged as an indirect/contextual demand record, not a direct EP/power-hardware award."
+  },
+  {
+   "id": "L09-040",
+   "title": "Phase Four Wins U.S. Space Force Contract at SpaceWERX Pitch Day",
+   "authors_or_org": "Phase Four, Inc. / U.S. Space Force (SpaceWERX)",
+   "year": 2021,
+   "url": "https://www.prnewswire.com/news-releases/phase-four-wins-us-space-force-contract-at-spacewerx-pitch-day-301361886.html",
+   "canonical_key": "https://www.prnewswire.com/news-releases/phase-four-wins-us-space-force-contract-at-spacewerx-pitch-day-301361886.html",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Phase Four won a U.S. Space Force contract at SpaceWERX Pitch Day (Aug 18, 2021, announced Aug 25, 2021) to demonstrate its propellant-agnostic Maxwell RF electric thruster operating on ASCENT green propellant (developed by AFRL), enabling multi-mode (chemical+electric) propulsion from a single propellant source; contract dollar value not disclosed in this release.",
+   "notes": "Company/vendor press release describing a confirmed government contract -- source_type company_filing per established mission convention; contract value withheld. | VERIFIED unchanged this session. Company/vendor press release describing a confirmed government contract."
+  },
+  {
+   "id": "L09-041",
+   "title": "L3Harris Closes $1B Investment from Department of War in Missile Solutions Business (includes former Aerojet Rocketdyne electric propulsion/power operations)",
+   "authors_or_org": "L3Harris Technologies, Inc. / U.S. Department of War",
+   "year": 2026,
+   "url": "https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-closes-1b-investment-department-war-missile-solutions",
+   "canonical_key": "https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-closes-1b-investment-department-war-missile-solutions",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "The U.S. Department of War closed a $1B convertible-preferred-stock-plus-warrants investment (April 23, 2026) in L3Harris's new Missile Solutions (MSL) business -- which consolidates legacy Aerojet Rocketdyne operations, the company that builds the AEPS Hall-thruster PPUs -- to expand/modernize facilities and production capacity; MSL plans an IPO in H2 2026. The press release itself frames this around missile programs (PAC-3, THAAD, Tomahawk, Standard Missile), not electric propulsion or space power specifically.",
+   "notes": "Relevance to this lane is indirect/tangential: MSL's stated investment focus is missile propulsion, not space electric propulsion or power electronics, even though Aerojet Rocketdyne (the AEPS PPU supplier) sits inside the same corporate umbrella. Flagged for verifier judgment on whether to retain as lane-relevant demand evidence. | VERIFIED unchanged this session. Relevance to this lane is indirect/tangential: MSL's stated investment focus is missile propulsion, not space electric propulsion or power electronics, even though Aerojet Rocketdyne (the AEPS PPU supplier) sits inside the same corporate umbrella. Retained accepted (real, dated, directly fetched record) but flagged for downstream idea-scoring judgment on relevance weight."
+  },
+  {
+   "id": "L09-042",
+   "title": "JAXA and Furukawa Electric begin co-creation activity on next-generation Hall-thruster power supplies for small satellites (J-SPARC)",
+   "authors_or_org": "JAXA (Japan Aerospace Exploration Agency) / Furukawa Electric Co., Ltd.",
+   "year": 2021,
+   "url": "https://www.jaxa.jp/press/2021/03/20210315-1_j.html",
+   "canonical_key": "https://www.jaxa.jp/press/2021/03/20210315-1_j.html",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "Announced March 15, 2021: under the JAXA Space Innovation Partnership (J-SPARC) framework, Furukawa Electric will commercialize a Hall-thruster power supply combining GaN power devices and thermal-design techniques to reduce weight/cost for small satellites, with JAXA defining real-load power specifications and identifying barriers to applying consumer-grade technology in space; targeting on-orbit demonstration in FY2025 and commercialization from FY2026 onward. No contract dollar figure disclosed.",
+   "notes": "Direct government-industry co-development program announcement; budget/contract value not disclosed in the release. | VERIFIED unchanged this session. Direct government-industry co-development program announcement; budget/contract value not disclosed."
+  },
+  {
+   "id": "L09-043",
+   "title": "Development and Qualification Status of the Electric Propulsion Systems for the NASA PPE Mission and Gateway Program",
+   "authors_or_org": "Daniel A. Herman, Timothy Gray (NASA Glenn Research Center); Ian Johnson, Sarah Hussein, Taylor Winkelmann (Maxar Technologies)",
+   "year": 2022,
+   "url": "https://ntrs.nasa.gov/citations/20220008636",
+   "canonical_key": "https://ntrs.nasa.gov/citations/20220008636",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "Maxar Technologies is building the 50kW-class Power and Propulsion Element (PPE) for NASA's Gateway, integrating three 12kW Advanced Electric Propulsion System (AEPS) thrusters from Aerojet Rocketdyne and four BHT-6000 thrusters from Busek, with power electronics and xenon flow controllers from Moog; as of this 2022 status report, qualification/flight hardware fabrication had begun, targeting a co-manifested 2024 launch.",
+   "notes": "NTRS conference-paper citation page fetched successfully (abstract-level detail); the full PDF was not text-extractable this session. Names specific suppliers (Aerojet Rocketdyne, Busek, Moog) and prime (Maxar) for the Gateway PPE electric-propulsion/power system -- valuable competitor-map/demand cross-reference for L09-004 and L09-034. | VERIFIED unchanged this session. NTRS conference-paper citation page (abstract-level); full PDF not text-extractable. Names specific suppliers (Aerojet Rocketdyne, Busek, Moog) and prime (Maxar) for Gateway PPE -- valuable competitor-map/demand cross-reference for L09-004, L09-009, L09-034."
+  },
+  {
+   "id": "L09-044",
+   "title": "ECSS-E-ST-20C Rev.2 -- Space engineering: Electrical and electronic",
+   "authors_or_org": "European Cooperation for Space Standardization (ECSS) / European Space Agency",
+   "year": 2022,
+   "url": "https://ecss.nl/standard/ecss-e-st-20c-rev-2-electrical-and-electronic-8-april-2022/",
+   "canonical_key": "standard:ECSS-E-ST-20C-Rev.2",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Official ECSS standard (Rev.2, 8 April 2022, supersedes Rev.1 Oct 2019) establishing basic rules, terminology, and design/performance requirements for electrical, electronic, electromagnetic, and microwave engineering processes on European space programs, published via ESA/ESTEC.",
+   "notes": "Official standard, directly fetched and confirmed. Companion standard ECSS-E-ST-20-20C addresses power-supply electrical interface requirements specifically (referenced but not independently fetched this session). | VERIFIED unchanged this session. Official standard, directly fetched and confirmed."
+  },
+  {
+   "id": "L09-045",
+   "title": "Radiation-Tolerant DC-DC Converters",
+   "authors_or_org": "Skutt, Glenn; Sable, Dan; Leslie, Leonard; Graham, Shawn (VPT, Inc.; NASA Johnson Space Center)",
+   "year": 2012,
+   "url": "https://ntrs.nasa.gov/citations/20120016273",
+   "canonical_key": "https://ntrs.nasa.gov/citations/20120016273",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes a methodology for certifying commercial electronic components in DC-DC converters to DSCC MIL-PRF-38534 Appendix G radiation-hardness-assurance level P, validating hybrid converters to 30 kRad total dose while reducing cost/lead-time versus traditional full rad-hard qualification.",
+   "notes": "NTRS citation page (abstract-level) fetched successfully this session; authors, affiliations, and summary confirmed directly. | VERIFIED unchanged this session. NTRS citation page (abstract-level) fetched directly; authors, affiliations, and summary confirmed."
+  },
+  {
+   "id": "L09-046",
+   "title": "Body of Knowledge (BOK): Gallium Nitride (GaN) Power Electronics for Space Applications",
+   "authors_or_org": "Kristen Boomer (NASA Glenn Research Center), Leif Scheick (Jet Propulsion Laboratory / Caltech), Ahmad Hammoud (Vantage Partners, LLC)",
+   "year": 2019,
+   "url": "https://ntrs.nasa.gov/citations/20190033097",
+   "canonical_key": "https://ntrs.nasa.gov/citations/20190033097",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "NASA NEPP program Body of Knowledge document surveying GaN wide-bandgap power-electronics development status, manufacturer/stakeholder landscape, and reliability concerns/technological limitations for space applications; presented at the NASA Electronic Parts and Packaging Program Electronics Technology Workshop, Greenbelt, MD.",
+   "notes": "CORRECTED AND RESCUED this session: the raw record's exact citation (NTRS 20205007412, single-author 2020 PDF filename 'NEPP-BOK-2020--Boomer...') returned a 404 NTRS citation page and an unparseable PDF-binary download on repeated attempts. A closely-related, directly fetchable NTRS record on the identical topic (BOK: GaN Power Electronics for Space Applications, Boomer as lead author with Scheick/Hammoud, NEPP ETW 2019) was substituted per SOURCE_STANDARDS 'correct wrong metadata from the authoritative response, never invent' -- this is treated as the verifiable predecessor/companion edition of the same NEPP BOK series rather than the exact 2020 single-author document originally cited. Flagged for the orchestrator: if the exact 2020 edition is specifically needed, it remains unconfirmed."
+  },
+  {
+   "id": "L09-047",
+   "title": "Fission Surface Power (FSP) program page",
+   "authors_or_org": "Idaho National Laboratory (INL)",
+   "year": null,
+   "url": "https://inl.gov/fsp/",
+   "canonical_key": "https://inl.gov/fsp/",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "INL's official FSP program page describes INL as a technical-leadership partner (with NASA and DOE) providing: material-property studies and instrumentation/control testing to advance fission-reactor capabilities for space; project management and industry-engagement coordination; nuclear reactor design/testing expertise including oversight of qualification-unit ground-based demonstrations required before flight deployment; and industry-coordination webinars/info sessions on technology-development-unit solicitations. Confirms INL as the administering national lab for the NASA-DOE FSP contracts (Lockheed Martin, Westinghouse, IX) referenced in L09-031/L09-032.",
+   "notes": "WebFetch returned HTTP 403 this session; content is WebSearch-snippet synthesis only. Flag for verifier retry via an alternate access method. | RESCUED this session: direct WebFetch returned HTTP 403 on two attempts (with/without trailing slash); a reader-proxy fetch (r.jina.ai) successfully retrieved and rendered the page text this session, counted as fetched=true per the rescue-route instructions (Crossref/agency-mirror/alternate-access routes)."
+  },
+  {
+   "id": "L09-048",
+   "title": "Nuclear Electric Propulsion Brayton Power Conversion Working Fluid Considerations",
+   "authors_or_org": "Rodger Dyson, D.V. Rao, Matthew Duchek, Christopher Harnack, Robert Scheidegger, Lee Mason, Al Juhasz, Luis Rodriguez, Ronald Leibach, Steven Geng, Daniel Goodell",
+   "year": 2022,
+   "url": "https://ntrs.nasa.gov/citations/20220002293",
+   "canonical_key": "https://ntrs.nasa.gov/citations/20220002293",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Examines working-fluid tradeoffs for closed-Brayton-cycle power conversion in nuclear electric propulsion (NEP) systems, presented at Nuclear and Emerging Technologies for Space (NETS-2022), Cleveland, OH; concludes a single-spool supercritical Xe-He radial-flux Brayton heat engine with a permanent-magnet synchronous alternator is the most technically feasible path to meet 2025-2027 readiness targets while minimizing mass per unit output.",
+   "notes": "Not independently fetched this session (PDF version returned unparseable binary on a related attempt); year taken from the NTRS record-ID prefix convention, not independently confirmed from the document body. | RESCUED this session: NTRS citation page fetched directly, confirming full 11-author list, conference venue (NETS-2022), and year (previously only inferred from the record-ID prefix)."
+  },
+  {
+   "id": "L09-049",
+   "title": "Bi-Axial Solar Array Drive Mechanism: Design, Build and Environmental Testing",
+   "authors_or_org": "Noemy Scheidegger, Mark Ferris, Nigel Phillips (Surrey Satellite Technology Ltd., Guildford, United Kingdom)",
+   "year": 2014,
+   "url": "https://ntrs.nasa.gov/citations/20150004055",
+   "canonical_key": "https://ntrs.nasa.gov/citations/20150004055",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "GB",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Documents Surrey Satellite Technology Ltd's (SSTL) development of a dual-axis solar array drive mechanism (one axis tracks the sun, the other compensates for orbital/attitude variation); seven flight units manufactured in 1.5 years by reusing qualified component-families from other proven SSTL mechanisms; an Engineering Qualification Model was completed within eight months and underwent environmental (vibration/thermal-vacuum) testing. Presented at the 42nd Aerospace Mechanisms Symposium.",
+   "notes": "Not fetched this session; year inferred from NTRS record-ID prefix convention (common but not fully reliable), flagged for verifier confirmation. | RESCUED AND CORRECTED this session: NTRS citation page fetched directly, revealing the actual authors/organization (Surrey Satellite Technology Ltd, UK) -- NOT a NASA-authored paper as the raw record's 'unconfirmed authors (NASA...)' framing implied. GEOGRAPHY CORRECTED from US to GB. YEAR CORRECTED from 2015 (inferred from the NTRS record-ID prefix) to 2014 (the actual AMS symposium year; the NTRS record ID reflects the 2015 database-entry date, not the paper's origin year). Retained as source_type government since NTRS is a US-government archival record, though the underlying work is UK-industry authored -- flagged for the orchestrator in case a stricter source_type (e.g., recharacterizing as company/industry) is preferred downstream."
+  },
+  {
+   "id": "L09-050",
+   "title": "Electric Thruster Based on Plasma Propulsion including Power Processing Unit (PPS(R)5000 pre-development, ARTES 4.0)",
+   "authors_or_org": "Snecma Moteurs; ETCA; Alcatel Space; Astrium (platform integrators) -- European Space Agency programme",
+   "year": 2004,
+   "url": "https://resilience.esa.int/projects/electric-thruster-based-plasma-propulsion-including-power-processing-unit",
+   "canonical_key": "https://resilience.esa.int/projects/electric-thruster-based-plasma-propulsion-including-power-processing-unit",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "ESA-funded pre-development project (March 2003-Dec 2004, ARTES 4.0/Large Platform Mission) delivered the PPS(R)5000 Hall-effect thruster (200mN thrust, Isp>2200s, 5kW, up to 1000V discharge demonstrated) with its associated HPPU (5kW output, up to 95% efficiency, tested to 800V/6kW), and completed a then-record 1000-hour endurance test at 550V discharge voltage.",
+   "notes": "Demand_evidence_type set to 'none' because this is a historical (2003-2004) completed pre-development project, not a current or dated-future demand trigger; retained as a technical baseline/incumbent-technology record (PPS5000 is the ancestor of today's fielded Safran Hall thrusters). Original URL redirected once (connectivity.esa.int -> resilience.esa.int); redirect followed successfully. | VERIFIED unchanged this session. Demand_evidence_type 'none' because this is a historical (2003-2004) completed pre-development project, retained as a technical baseline/incumbent-technology record (PPS5000 is the ancestor of today's fielded Safran Hall thrusters)."
+  },
+  {
+   "id": "L09-051",
+   "title": "Satellite Propulsion Market by Platform, System, Propulsion Technology, End User, and Region - Global Forecast to 2031",
+   "authors_or_org": "Research and Markets (via GlobeNewswire distribution)",
+   "year": 2026,
+   "url": "https://www.globenewswire.com/news-release/2026/07/06/3322229/0/en/Satellite-Propulsion-Market-by-Platform-System-Propulsion-Technology-End-User-and-Region-Global-Forecast-to-2031.html",
+   "canonical_key": "https://www.globenewswire.com/news-release/2026/07/06/3322229/0/en/Satellite-Propulsion-Market-by-Platform-System-Propulsion-Technology-End-User-and-Region-Global-Forecast-to-2031.html",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "global"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Forecasts the global satellite-propulsion market growing from USD2.07bn (2026) to USD4.66bn (2031), 17.6% CAGR, with electric propulsion as the dominant segment; names Northrop Grumman, Safran, Thales Alenia Space, L3Harris, Airbus, Lockheed Martin, OHB, Boeing, Moog, IHI, Busek, ArianeGroup, Enpulsion, ThrustMe, Orbion, Phase Four, Benchmark Space Systems, and others as key players.",
+   "notes": "Consultancy/market-research forecast, not independently triangulated with bottom-up arithmetic this session -- tier T3 per SOURCE_STANDARDS. Geography marked 'global' as this is an explicitly worldwide market-sizing report, not attributable to one country. | VERIFIED unchanged this session. Consultancy/market-research forecast, not independently triangulated with bottom-up arithmetic -- T3 per SOURCE_STANDARDS. Contradicts L09-052's rejected/inaccessible USD1.28bn figure and a WebSearch-only MarketsandMarkets figure of USD5.19bn by 2030 seen this session (not in ledger) -- flagging persistent wide divergence across consultancy market-size estimates for this category; conflicts shown, not averaged away."
+  },
+  {
+   "id": "L09-053",
+   "title": "SVGA Series Point-of-Load Rad-Hard DC-DC Converter (100krad TID)",
+   "authors_or_org": "VPT, Inc.",
+   "year": 2010,
+   "url": "https://www.vptpower.com/newsroom/press-releases/vpt-introduces-the-first-100k-rad-hard-point-of-load-dc-dc-converter",
+   "canonical_key": "https://www.vptpower.com/newsroom/press-releases/vpt-introduces-the-first-100k-rad-hard-point-of-load-dc-dc-converter",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "VPT's SVGA-series non-isolated point-of-load DC-DC converter (5V nominal in, 0.8-3.4V adjustable out, up to 10A/33W, 250kHz, >100W/in^3 power density) is rated to 100krad(Si) TID and 85.4 MeV-cm^2/mg SEE, up to 94% efficiency, priced from US$2,100 in OEM quantities (per related SVR-series press material, pricing 'beginning at $1,500'); hermetically sealed, MIL-PRF-38534 Class H/K qualified.",
+   "notes": "Vendor claims (efficiency, radiation ratings, customer list including NASA/Lockheed Martin/Boeing/Raytheon 'rely on similar solutions') are vendor-stated, not independently validated -- labeled as vendor claims per SOURCE_STANDARDS claim discipline. | VERIFIED unchanged this session. Vendor claims (efficiency, radiation ratings, customer list including NASA/Lockheed Martin/Boeing/Raytheon) are vendor-stated, not independently validated -- labeled as vendor claims per SOURCE_STANDARDS."
+  },
+  {
+   "id": "L09-054",
+   "title": "EPCSC401 Radiation-Tolerant GaN DC-DC Buck Converter",
+   "authors_or_org": "EPC Space",
+   "year": 2026,
+   "url": "https://epc.space/2026/03/exploring-the-epcsc401-a-radiation-hardened-gan-dc-dc-converter-for-space-applications/",
+   "canonical_key": "https://epc.space/2026/03/exploring-the-epcsc401-a-radiation-hardened-gan-dc-dc-converter-for-space-applications/",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "EPC Space's EPCSC401 (announced March 18, 2026) is a GaN-based, radiation-tolerant DC-DC buck converter using a CERN-derived controller, converting a 20-50V spacecraft bus to a regulated 12V output at up to 5A, for spacecraft electronics/high-density space power systems. Price not listed.",
+   "notes": "Vendor claims (radiation tolerance, thermal/efficiency performance) not independently validated this session; no TID/SEE numeric ratings or price were present on the fetched page. | VERIFIED unchanged this session. Vendor claims (radiation tolerance, thermal/efficiency performance) not independently validated; no TID/SEE numeric ratings or price were present on the fetched page."
+  },
+  {
+   "id": "L09-055",
+   "title": "EPCS4001 Radiation-Hardened DC-DC Controller ASIC with Reference Design",
+   "authors_or_org": "EPC Space (co-developed with CERN)",
+   "year": 2025,
+   "url": "https://epc.space/2025/04/epc-space-launches-a-high-performance-radiation-hardened-dc-dc-controller-with-matching-reference-design/",
+   "canonical_key": "https://epc.space/2025/04/epc-space-launches-a-high-performance-radiation-hardened-dc-dc-controller-with-matching-reference-design/",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "EPC Space's EPCS4001 (launched April 2025) is a radiation-hardened, high-frequency (0.5-3 MHz adjustable) buck-converter controller ASIC co-developed with CERN, covering an 18-50V input range regulated to a ~12V output, with integrated 12V/5V linear regulators, under-voltage lockout, over-temperature protection, and Power Good fault signaling; operates reliably above 40,000 Gauss magnetic fields; paired with the EPCSC401 (L09-054) as a complete 48V-to-12V reference design.",
+   "notes": "Not fetched this session; content from WebSearch summary only. Notable CERN/space power-electronics technology-transfer pattern worth flagging for the deep-dive stage. | RESCUED this session: direct WebFetch succeeded (previously not attempted/fetched). Notable CERN/space power-electronics technology-transfer pattern, shared with L09-054."
+  },
+  {
+   "id": "L09-056",
+   "title": "太空光伏大有可为，卫星太阳翼市场持续扩容 (Space Photovoltaics Have Great Potential: Satellite Solar Wing Market Continues to Expand)",
+   "authors_or_org": "中泰证券研究所 (Zhongtai Securities Research Institute)",
+   "year": 2026,
+   "url": "https://upload.chongnengjihua.com/production/2026/1/23/20/d8e26976b97c68_1769170431083.pdf",
+   "canonical_key": "title-year:太空光伏大有可为卫星太阳翼市场持续扩容-2026",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Securities-analyst research report (dated Jan 20/23, 2026): global flexible solar-array market ~USD1.12bn (2024) projected to reach USD4.36bn by 2033 (16.4% CAGR); solar arrays represent 12%-24% of satellite value; ~60,000 LEO satellites currently, projected 5.7 million low-orbit satellites by 2029 (vendor/analyst projection, not independently corroborated in this session); flexible arrays reduce stowed volume to ~1/10 of rigid designs at 33 kW/m^3 power density vs. 4 kW/m^3 for rigid; perovskite cells claimed at 23 W/g specific power, ~6x gallium-arsenide. Recommends Shanghai Harbor (上海港湾), Maiwe (迈为股份), Jolywood (钧达股份), and others across equipment/component/cabling sectors.",
+   "notes": "PDF fetched but content could not be text-extracted (binary/compressed stream); only metadata (title, publisher, date, page count) was machine-readable. Flag for verifier re-fetch with an OCR/text-extraction capable tool before using any numeric claims from this report. | RESCUED this session via reader-proxy fetch (r.jina.ai), which extracted full readable text where the raw PDF fetch previously returned only binary/font-stream data. Numeric claims are consultancy/sell-side analyst estimates (T3), not independently triangulated; the 5.7-million-satellite 2029 projection in particular looks implausibly high against known constellation filings and should be treated as an unverified vendor/analyst extrapolation, not a load-bearing figure, pending independent triangulation at the idea-scoring stage."
+  },
+  {
+   "id": "L09-101",
+   "title": "Accelerator Grid Life Modeling of T6 Ion Thruster for BepiColombo",
+   "authors_or_org": "Vernon H. Chaplin, Dan M. Goebel (NASA Jet Propulsion Laboratory / Caltech), Rhodri A. Lewis, Francis Lockwood Estrin, Peter N. Randall (QinetiQ, Farnborough, UK, per independent WebSearch corroboration this session)",
+   "year": 2021,
+   "url": "https://arc.aiaa.org/doi/10.2514/1.B37938",
+   "canonical_key": "doi:10.2514/1.b37938",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "GB",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.2514/1.B37938",
+   "doi": "10.2514/1.B37938",
+   "demand_evidence_type": "none",
+   "claim_supported": "Models accelerator-grid erosion/life for QinetiQ/Airbus's T6 Kaufman-type ion thruster (5kW-class, powered by a dedicated PPU) as qualified for ESA's BepiColombo mission to Mercury, a distinct thruster/grid-life sub-niche from this lane's existing Hall-thruster-PPU-heavy record set.",
+   "notes": "Metadata (full author list, container-title, volume/issue/pages, year, type=journal-article) confirmed directly via Crossref API (api.crossref.org/works/10.2514/1.B37938) this session; the AIAA arc.aiaa.org abstract page itself was not separately fetched. Geography GB is inferred from the T6/QinetiQ-Airbus EP-program heritage for the non-JPL co-authors, not independently confirmed from an affiliation list this session -- flag for verifier. New sub-niche vs. existing ledger: European (ESA/Airbus) ion-thruster grid-life modeling, distinct from L09-002/L09-006/L09-007/L09-008 (Japanese Hall-thruster PPU topology) and L09-013 (Brayton-cycle nuclear power). | SCOUT: Metadata confirmed via Crossref API; AIAA arc.aiaa.org abstract page not separately fetched. VERIFIER: Independently re-fetched Crossref API this session (api.crossref.org/works/10.2514/1.B37938) -- confirms container-title 'Journal of Propulsion and Power', vol.37/issue.3/pp.436-449/2021, type=journal-article, publisher=AIAA; matches title/author list exactly. Direct AIAA arc.aiaa.org page returned HTTP 403 this session (consistent anti-bot block). Journal of Propulsion and Power is AIAA's established peer-reviewed journal (not a conference proceeding) -- final-venue peer-review criteria satisfied per ASSUMPTIONS.md ruling (Crossref-record route). GB geography flag resolved: independent WebSearch this session confirms Rhodri A. Lewis is affiliated with QinetiQ, Farnborough, Hampshire, UK (SEPS Thruster Lead Engineer), corroborating the scout's heritage-based GB inference beyond mere program-heritage guesswork. ACCEPTED T1 academic_peer_reviewed."
+  },
+  {
+   "id": "L09-102",
+   "title": "Improved control architecture and strategy for iodine ion thruster following in-orbit demonstration and system-level radiation testing",
+   "authors_or_org": "A. Bore, P. Proynov, D. Rafalskyi (ThrustMe, Massy, France)",
+   "year": 2023,
+   "url": "https://link.springer.com/article/10.1007/s44205-023-00041-2",
+   "canonical_key": "doi:10.1007/s44205-023-00041-2",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "FR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s44205-023-00041-2",
+   "doi": "10.1007/s44205-023-00041-2",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes control-architecture and control-strategy improvements for ThrustMe's NPT30-I2 iodine-fueled ion-thruster/PPU system, informed directly by in-orbit flight demonstration data and a dedicated system-level radiation-test campaign -- a distinct propellant (iodine, not xenon) and power-control sub-niche versus this lane's existing xenon Hall/ion-thruster PPU records.",
+   "notes": "Full author list, container-title, volume/issue/article-number, year confirmed directly via Crossref API this session. Geography FR based on ThrustMe's Massy, France headquarters (standard company location, not independently re-verified from the article's own affiliation block this session). New sub-niche: iodine-propellant EP power/control with radiation-test data, not previously represented in the L09 ledger (existing iodine mentions were none). | SCOUT: Metadata confirmed via Crossref API; Springer submission-guidelines URL used as evidence. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Journal of Electric Propulsion', vol.2/issue.1/article 7/2023, type=journal-article, publisher=Springer; matches exactly. Direct link.springer.com article page and springer.com/journal/44205 page both redirected into an idp.springer.com cookie/login wall this session (paywall, not content-bearing) -- could not independently fetch publisher page content. Journal of Electric Propulsion is Springer's dedicated peer-reviewed electric-propulsion journal (est. 2022). Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c), since the Springer submission-guidelines URL could not be confirmed reachable this session. ACCEPTED T1 academic_peer_reviewed."
+  },
+  {
+   "id": "L09-103",
+   "title": "Heavy-Ion Irradiation Response of Gallium Nitride High-Electron-Mobility Transistors with Reduced Surface Field Technology",
+   "authors_or_org": "Wiley Yu, Jeong-Kyu Kim, Thomas Andres Rodriguez, Rohith Soman, Srabanti Chowdhury (Stanford University, Stanford, California, USA)",
+   "year": 2026,
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/pssa.202500589",
+   "canonical_key": "doi:10.1002/pssa.202500589",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/pssa.202500589",
+   "doi": "10.1002/pssa.202500589",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports heavy-ion (single-event-effect-relevant) irradiation response of GaN HEMTs built with RESURF (reduced-surface-field) technology -- a device-architecture-specific primary radiation-test result distinct from this lane's existing GaN records, addressing the single-event side of the GaN space-qualification gap flagged in this lane's prior scout notes.",
+   "notes": "Full author list, container-title, volume/issue, year confirmed directly via Crossref API this session. Geography US inferred from Srabanti Chowdhury's known Stanford University GaN-power-device lab affiliation; not independently re-confirmed from the article's own affiliation block this session -- flag for verifier. | SCOUT: Metadata confirmed via Crossref API; geography inferred from Chowdhury's known Stanford affiliation, not independently confirmed. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'physica status solidi (a)', vol.223/issue.1/article e202500589/2026, type=journal-article, publisher=Wiley, AND this pass returned full author-affiliation data: all 5 authors listed as Stanford University, Stanford, California, USA -- resolves the scout's geography flag with direct Crossref-sourced confirmation (US only, no additional geography). Direct onlinelibrary.wiley.com article page returned HTTP 402 Payment Required (paywall, confirms the article exists but content inaccessible). physica status solidi (a) is a long-established Wiley peer-reviewed physics journal. ACCEPTED T1 academic_peer_reviewed; authors_or_org updated to reflect confirmed all-Stanford affiliation."
+  },
+  {
+   "id": "L09-104",
+   "title": "Single Event Effects of SiC Power MOSFETs: From Neutron Interaction to Destruction at the Die Level",
+   "authors_or_org": "Rosine Coq Germanicus, Mahima Chaudhary (Univ. Caen Normandie, CRISMAT UMR6508, Caen, France); Alain Michez, Frederic Wrobel, Jerome Boch (Institute of Electronics and Systems, Univ. Montpellier, France); Kimmo Niskanen (Dept. of Physics, Accelerator Laboratory, Univ. of Jyvaskyla, Finland); Guillaume Bascoul, Vanessa Chazal (CNES Toulouse, France)",
+   "year": 2025,
+   "url": "https://ieeexplore.ieee.org/document/10967044/",
+   "canonical_key": "doi:10.1109/tns.2025.3561583",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "FI",
+    "FR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/",
+   "doi": "10.1109/TNS.2025.3561583",
+   "demand_evidence_type": "none",
+   "claim_supported": "Combines heavy-ion and neutron-secondary-ion TCAD single-event-effect simulation with experimental irradiation (ChipIr, Rutherford Appleton Laboratory) of a commercial 4H-SiC power MOSFET, characterizing single-event burnout/gate-rupture destruction mechanisms at the die level -- a primary (non-review) SiC radiation-reliability study directly relevant to qualifying SiC power converters for spacecraft power electronics, complementing this lane's GaN-focused radiation records.",
+   "notes": "IEEE Xplore abstract page returned blank content to direct WebFetch this session; full author list, container-title (confirmed as the IEEE Transactions on Nuclear Science journal, not a conference), volume/issue/pages, and year were independently confirmed via Crossref API (api.crossref.org/works/10.1109/TNS.2025.3561583). Geography FR inferred from author-institution pattern (Coq Germanicus/Michez at Univ. Caen Normandie-ENSICAEN/CIMAP; Boch at Aix-Marseille Universite/IM2NP -- both established French radiation-effects-testing groups); not independently re-confirmed from the paper's own affiliation block this session -- flag for verifier. | SCOUT: IEEE Xplore returned blank content; metadata confirmed via Crossref API; geography inferred as FR from Caen/Montpellier author pattern. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'IEEE Transactions on Nuclear Science' (journal, not conference), vol.72/issue.8/pp.2368-2376/2025, type=journal-article; this pass returned full affiliation data including one co-author (Kimmo Niskanen) at University of Jyvaskyla, Finland, not previously flagged -- geography updated FR->[FR,FI]. Note: affiliation-level detail from this WebFetch-summarized Crossref call could not be independently cross-checked against raw API JSON (small-model summarization risk), so this addition is flagged as session-derived, moderate confidence. Direct IEEE Xplore document page returned HTTP 403 this session (same block pattern). Independently fetched and confirmed IEEE's peer-review policy page this session (journals.ieeeauthorcenter.ieee.org) -- quotes 'IEEE policy requires at least two qualified reviewers evaluate a submitted article before the editor can accept that article for publication,' applicable to IEEE Transactions journals. ACCEPTED T1 academic_peer_reviewed."
+  },
+  {
+   "id": "L09-105",
+   "title": "Kilopower Project: The KRUSTY Fission Power Experiment and Potential Missions",
+   "authors_or_org": "Patrick R. McClure, David I. Poston (Los Alamos National Laboratory), Marc A. Gibson, Lee S. Mason (NASA Glenn Research Center), R. Chris Robinson",
+   "year": 2020,
+   "url": "https://www.tandfonline.com/doi/full/10.1080/00295450.2020.1722554",
+   "canonical_key": "doi:10.1080/00295450.2020.1722554",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.ans.org/pubs/journals/nt/",
+   "doi": "10.1080/00295450.2020.1722554",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes the Kilopower Reactor Using Stirling TechnologY (KRUSTY) ground nuclear-test campaign (completed March 2018 at the Nevada National Security Site) -- a 1kWe-class fission power system using Stirling-cycle power conversion, a distinct fission-power architecture/power-conversion technology (Stirling, not Brayton) and power scale from this lane's 40-100kWe Fission Surface Power program records.",
+   "notes": "Direct WebFetch of the tandfonline.com article page returned HTTP 403 this session; full author list, container-title, volume/issue, year, and type=journal-article confirmed independently via Crossref API. Nuclear Technology is the American Nuclear Society's flagship peer-reviewed journal. Complements L09-047 (INL FSP program page, not independently fetched in the prior scout session) and L09-031/L09-033 (NASA/DOE FSP program awards) with a primary, named-author technical paper on the lower-power Kilopower/KRUSTY precursor demonstration. | SCOUT: tandfonline.com returned HTTP 403; metadata confirmed via Crossref API. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Nuclear Technology', vol.206/issue.sup1/2020, type=journal-article, publisher=Informa UK Limited (Taylor & Francis, ANS's publishing partner). This pass's affiliation summary listed R. Chris Robinson at 'Y-12 National Security Complex, Oak Ridge, Tennessee' rather than NASA Glenn as in the raw record's authors_or_org grouping -- flagged but NOT used to overwrite authors_or_org this session, since single-pass WebFetch affiliation summaries carry a real risk of small-model inference/hallucination on granular per-author detail not central to the prompt, and this does not affect geography (US either way) or the accept/reject determination; left for a future dedicated affiliation-audit pass. Direct tandfonline.com fetch re-attempted this session, again returned HTTP 403 (confirms scout's finding, persistent block). Independently fetched ans.org/pubs/journals/nt/ this session, confirming Nuclear Technology as ANS's flagship journal with editorial board/reviewer infrastructure. ACCEPTED T1 academic_peer_reviewed."
+  },
+  {
+   "id": "L09-106",
+   "title": "Space Demonstration of All-Solid-State Lithium-Ion Batteries Aboard the International Space Station",
+   "authors_or_org": "Yu Miyazawa, Takanobu Shimada, Tetsuhito Fuse, Takeshi Hoshino, Osamu Kawasaki (JAXA, Sagamihara, Kanagawa); Shuhei Shimada, Hitoshi Naito (JAXA, Tsukuba, Ibaraki); Sousuke Nishiura, Hidetake Okamoto, Tetsuya Okawa (Kanadevia Corporation, Osaka)",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2226-4310/12/6/514",
+   "canonical_key": "doi:10.3390/aerospace12060514",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/aerospace12060514",
+   "doi": "10.3390/aerospace12060514",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports an in-space demonstration of all-solid-state lithium-ion batteries mounted on the ISS Exposed Facility for 434 days (562 charge-discharge cycles), showing no significant degradation and confirming ground-based charge-discharge characterization can estimate on-orbit lifetime -- opens a new power-storage sub-niche (batteries) not previously represented in this lane's ledger.",
+   "notes": "Direct WebFetch of the mdpi.com article page returned HTTP 403 this session; full 10-author list, container-title, volume/issue/pages, year, and type=journal-article confirmed independently via Crossref API. Geography JP inferred from the all-Japanese author-name pattern and ISS Exposed Facility experiment context (a JAXA-operated platform); not independently confirmed from an affiliation list this session -- flag for verifier. | SCOUT: mdpi.com returned HTTP 403; metadata confirmed via Crossref API; geography inferred JP. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Aerospace', vol.12/issue.6/article 514/2025, type=journal-article, publisher=MDPI AG; this pass returned full affiliation data confirming all 10 authors at JAXA (Sagamihara/Tsukuba) or Kanadevia Corporation (formerly IHI Corporation), Osaka -- geography JP fully confirmed, no correction needed. Direct mdpi.com article-page re-fetch this session returned an empty/non-content response (consistent inaccessibility, different failure mode than scout's 403 but same net result: no independent publisher-page content obtained). mdpi.com/editorial_process page also returned HTTP 403 this session. Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed; authors_or_org updated with confirmed affiliations."
+  },
+  {
+   "id": "L09-107",
+   "title": "Iodine Electric Propulsion System Thrust Validation: From Numerical Modeling to In-Space Testing",
+   "authors_or_org": "Oliver Jia-Richards (University of Michigan, Ann Arbor), Trevor Lafleur (University of New South Wales, Canberra)",
+   "year": 2023,
+   "url": "https://arc.aiaa.org/doi/full/10.2514/1.B39198",
+   "canonical_key": "doi:10.2514/1.b39198",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "AU",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.2514/1.B39198",
+   "doi": "10.2514/1.B39198",
+   "demand_evidence_type": "none",
+   "claim_supported": "Validates thrust output of an iodine-fueled gridded-ion-thruster electric-propulsion system (ThrustMe's NPT30-I2 class) by combining numerical/plasma modeling with in-space test data -- an independent-academic (non-vendor) counterpart to L09-102's ThrustMe-authored control-architecture paper, both covering the same iodine-EP sub-niche from complementary angles.",
+   "notes": "Full author list, container-title, volume/issue/pages, year, type=journal-article confirmed directly via Crossref API this session; AIAA arc.aiaa.org page itself not separately fetched. Geography: Jia-Richards (University of Michigan, US), Lafleur (UNSW Canberra, Australia) -- both affiliations taken from the authors' known university homes, not independently re-confirmed from the paper's own affiliation block this session. | SCOUT: Metadata confirmed via Crossref API; AIAA page not separately fetched. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Journal of Propulsion and Power', vol.39/issue.6/pp.896-904/2023, type=journal-article, publisher=AIAA; this pass confirmed author-affiliation data matching University of Michigan (US) and UNSW Canberra (AU) exactly as scout recorded. Direct arc.aiaa.org page returned HTTP 403 this session (same block as L09-101). Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed."
+  },
+  {
+   "id": "L09-108",
+   "title": "Radiation-Hardened DC-DC Converter Design: Systematic Analysis of Single-Event Transient Effects and Voltage Clamping Mitigation Strategy",
+   "authors_or_org": "Zhongjie Guo, Yapeng Wang, Bin Wen, Hongpeng Dai, Xiaojing Qiang (Xi'an University of Technology, China)",
+   "year": 2025,
+   "url": "https://www.tandfonline.com/doi/abs/10.1080/00295639.2025.2568299",
+   "canonical_key": "doi:10.1080/00295639.2025.2568299",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.ans.org/pubs/journals/nse/",
+   "doi": "10.1080/00295639.2025.2568299",
+   "demand_evidence_type": "none",
+   "claim_supported": "Systematically analyzes single-event-transient (SET) effects in radiation-hardened DC-DC converter designs and proposes a voltage-clamping mitigation strategy -- a primary rad-hard power-converter design/mitigation study filling a converter-circuit-level gap versus this lane's existing device-level GaN/SiC radiation papers.",
+   "notes": "Direct WebFetch of the tandfonline.com abstract page was not attempted (anticipating the same 403 pattern seen on the related L09-105 Nuclear Technology tandfonline URL this session); full author list, container-title, pages, year, and type=journal-article, plus explicit confirmation that all authors are affiliated with Xi'an University of Technology, China, were obtained directly via Crossref API. Nuclear Science and Engineering is the American Nuclear Society's other flagship peer-reviewed journal (companion to Nuclear Technology, L09-105). | SCOUT: tandfonline.com fetch not attempted (anticipated 403); metadata + all-Xi'an-University-of-Technology affiliation confirmed via Crossref API. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Nuclear Science and Engineering', pp.1-14/2025, type=journal-article, publisher=Informa UK Limited; author affiliations confirmed all Xi'an University of Technology, China, matching scout exactly. Direct tandfonline.com re-attempt this session again returned HTTP 403 (confirms persistent block). Independently fetched ans.org/pubs/journals/nse/ this session -- explicitly quotes 'NSE is the first and oldest peer-reviewed journal in its field, published by ANS since 1956.' ACCEPTED T1 academic_peer_reviewed."
+  },
+  {
+   "id": "L09-109",
+   "title": "Life test research of a 1.35 kW magnetically shielded Hall thruster",
+   "authors_or_org": "Nan Wu, Qi Liu, Wei Mao, Yanlin Hu, Zhaopu Yao, Yanming Wei",
+   "year": 2025,
+   "url": "https://iopscience.iop.org/article/10.1088/2058-6272/ade421",
+   "canonical_key": "doi:10.1088/2058-6272/ade421",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/2058-6272/ade421",
+   "doi": "10.1088/2058-6272/ade421",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports life-test results for a 1.35kW-class magnetically shielded Hall thruster -- a specific thruster-architecture (magnetic-shielding, erosion-mitigation) and power class not previously represented in this lane's ledger.",
+   "notes": "Full author list, container-title, volume/issue/pages, year, type=journal-article confirmed directly via Crossref API this session; the IOPscience article page itself was not separately fetched. Geography CN inferred from the all-Chinese author-name pattern and the journal's hosting institution (Chinese Academy of Sciences-affiliated Hefei Institutes of Physical Science / ASIPP); not independently confirmed from an affiliation list this session -- flag for verifier. | SCOUT: Metadata confirmed via Crossref API; IOPscience page not separately fetched; geography inferred CN from all-Chinese author-name pattern. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Plasma Science and Technology', vol.27/issue.6/article 064012/2025, type=journal-article, publisher=IOP Publishing; no affiliation data returned by Crossref for this record, so geography CN remains an inference (not independently upgraded to confirmed), consistent with scout's original flag. Direct iopscience.iop.org article page returned HTTP 403 this session; iopscience.iop.org/journal/2058-6272 (main journal page) also 403; iopscience.iop.org/journal/2058-6272/page/editorial-board returned HTTP 404. Plasma Science and Technology is a CAS/Hefei-Institutes-affiliated, IOP-co-published, SCI-indexed peer-reviewed journal. Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed; geography CN retained as inference, not independently re-confirmed."
+  },
+  {
+   "id": "L09-110",
+   "title": "12.5 kW霍尔推力器热设计措施的有效性分析研究 (Effectiveness Analysis of Thermal Design Methods for a 12.5 kW Hall Thruster)",
+   "authors_or_org": "Sun Mingming, Kong Fanting, Yang Juntai, Li Pei, Wang Shangmin",
+   "year": 2025,
+   "url": "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202537.250172?viewType=HTML",
+   "canonical_key": "doi:10.11884/hplpb202537.250172",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.hplpb.com.cn/",
+   "doi": "10.11884/HPLPB202537.250172",
+   "demand_evidence_type": "none",
+   "claim_supported": "Evaluates six thermal-design approaches for a 12.5kW-class Hall thruster via finite-element simulation plus experimental validation, finding that combining radiation-heat-exchange blocking with increased emission coefficients ('Method 4 and 6') is the most effective thermal-design optimization -- a thermal-management sub-niche directly relevant to high-power PPU/thruster power-density limits.",
+   "notes": "Publisher page (hplpb.com.cn, the same EI-Compendex-indexed Chinese-core journal already established as legitimate for this lane via L09-028) fetched directly this session; title, author list, and key finding confirmed directly from the article page. Author Sun Mingming also appears on L09-028 (2017, ion-thruster control model), indicating a sustained individual research program spanning both ion- and Hall-thruster power/thermal topics. | SCOUT: Publisher page (hplpb.com.cn) fetched directly; title/authors/finding confirmed. VERIFIER: This DOI does NOT resolve via Crossref API this session (api.crossref.org/works/10.11884/HPLPB202537.250172 returned HTTP 404) -- Chinese-domestic journal DOIs are frequently registered outside Crossref (e.g., via a domestic DOI agency) or not registered at all; this is expected and does not itself indicate a problem. Independently re-fetched the publisher journal homepage (hplpb.com.cn) this session -- confirms explicit peer-review-policy infrastructure: navigation includes '同行评议政策' (Peer Review Policy) as a dedicated page, plus an editorial-committee page, and the 'Latest Accepted' section is explicitly captioned '经同行评议确定正式录用的文章' ('articles formally accepted following peer review'). This journal (强激光与粒子束) is already an established, EI-Compendex-indexed Chinese-core journal in this lane's ledger via L09-028. Direct fetch of the specific /peer-review-policy sub-path returned only navigation chrome, not the policy text itself -- used the homepage URL (successfully fetched with explicit peer-review quote) as the evidence URL instead. ACCEPTED T1 academic_peer_reviewed via the direct-publisher-page route (not Crossref) per ASSUMPTIONS.md ruling."
+  },
+  {
+   "id": "L09-111",
+   "title": "ECSS-E-ST-20-20C -- Space engineering: Electrical design and interface requirements for power supply",
+   "authors_or_org": "European Cooperation for Space Standardization (ECSS) / European Space Agency",
+   "year": 2016,
+   "url": "https://ecss.nl/standard/ecss-e-st-20-20c-space-engineering-electrical-design-and-interface-requirements-for-power-supply-15-april-2016-2/",
+   "canonical_key": "standard:ECSS-E-ST-20-20C",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Official ECSS standard (15 April 2016) establishing electrical design and interface requirements for spacecraft power-supply/distribution systems using Latching Current Limiters/Resettable LCLs (LCLs/RLCLs), covering main-bus power distribution to external loads and Heater LCL protection, for science/earth-observation/navigation missions (excludes fuse-based GEO-telecom power distribution). Supported by companion handbook ECSS-E-HB-20-20A.",
+   "notes": "Directly fetched and confirmed this session -- fills a documented gap explicitly flagged in this lane's prior scout notes/PROGRESS: 'Standards specific to power (ECSS-E-ST-20-20C) were not independently confirmed this session -- only the general electrical/electronic standard (ECSS-E-ST-20C Rev.2, L09-044) was fetched.' This record directly closes that gap with the power-supply-specific companion standard. | SCOUT: Directly fetched and confirmed; fills documented gap versus general ECSS-E-ST-20C (L09-044). VERIFIER: Independently re-fetched the official ecss.nl standard page this session -- confirms title, 15 April 2016 publication date, ECSS as issuing body, and scope description (LCL/RLCL power distribution, science/EO/navigation missions, GEO-telecom fuse-based systems excluded) matching the scout's record exactly. Official standards-body primary record; no peer-review applicable. ACCEPTED T1 standard."
+  },
+  {
+   "id": "L09-112",
+   "title": "NASA SBIR Award: Low Cost Radiation-Hardened Cryocooler Control Electronics for Space Missions",
+   "authors_or_org": "CREARE LLC (Hanover, NH) / NASA",
+   "year": 2023,
+   "url": "https://www.sbir.gov/awards/204151",
+   "canonical_key": "https://www.sbir.gov/awards/204151",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "NASA awarded CREARE LLC $849,950 (period of performance June 13, 2023 - June 12, 2025) to develop affordable, radiation-resistant brushless-DC-motor-drive control electronics for spacecraft cryocooler compressors, targeting lunar/LEO mission reliability/hardness specifications at lower cost than fully custom rad-hard parts -- a power/control-electronics sub-niche not previously represented in this lane's ledger.",
+   "notes": "Directly fetched sbir.gov award page this session; awardee, agency, dollar amount, award period, and abstract confirmed directly. Distinct sub-niche from this lane's existing NASA EP-hardware contracts (AEPS $67M, L09-034; NEXT-C $18.4M, L09-012): this is spacecraft-instrument power/control electronics, not thruster PPU hardware. | SCOUT: Directly fetched sbir.gov award page; awardee/agency/amount/period/abstract confirmed. VERIFIER: Independently re-fetched sbir.gov/awards/204151 this session -- confirms award title, awardee (Creare LLC), agency (NASA), total amount ($849,950), and period of performance (June 13, 2023 - June 12, 2025) exactly matching the scout's record. Official government primary award record. ACCEPTED T1 government, demand_evidence_type=official_project_award."
+  }
+ ]
+}

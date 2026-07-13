@@ -1,9 +1,9 @@
 {
   "mission": "IN_PROGRESS",
-  "phase": "P3",
-  "phases": {"P0":"complete","P1":"complete","P2":"complete","P3":"in_progress","P4":"pending","P5":"pending","P6":"pending","P7":"pending","P8":"pending"},
-  "counters": {"sources_reviewed":1125,"sources_accepted":860,"peer_reviewed":484,"primary_demand":200,"asia_sources":314,"local_language_asia":100,"longlist_ideas":0,"final_ideas":0,"deep_dives":0},
-  "last_checkpoint": "2026-07-12 P3 US/China weighting patch installed; P0-P2 remain complete; prior SEEDS_A-D preserved as non-authoritative drafts",
-  "next_action": "Read P3_US_CHINA_WEIGHTING_PATCH_2026-07-12.md. Regenerate P3 round 2 from the accepted atlas with five independent Fable 5/xhigh idea-architect batches (>=80 new P3R2 seeds), then run the independent Fable 5/xhigh idea-elegance-judge. Ignore SEEDS_A-D for direct promotion. Repair/dedupe to >=48 longlist across >=14 lanes with >=36 US, >=36 CN, >=24 dual US+CN, <=8 side-market-primary; append founder fit only after freeze.",
+  "phase": "P4",
+  "phases": {"P0":"complete","P1":"complete","P2":"complete","P2A":"complete","P3":"complete","P4":"in_progress","P5":"pending","P6":"pending","P7":"pending","P8":"pending"},
+  "counters": {"sources_reviewed":1118,"sources_accepted":818,"peer_reviewed":468,"primary_demand":190,"asia_sources":264,"local_language_asia":99,"longlist_ideas":65,"final_ideas":0,"deep_dives":0},
+  "last_checkpoint": "2026-07-13 P3 COMPLETE: longlist frozen at 65 ideas (16 lanes, US 54, CN 38, dual 27, JP/TW/KR 0) after three Fable/xhigh elegance adjudications; founder-fit appended post-freeze",
+  "next_action": "P4: dispatch demand-competitor analysts (Sonnet 5/high) in waves of 4 over 13 groups of 5 longlist ideas; honor binding pre-promotion conditions recorded in seeds; refresh mutable 2026 claims; two independent 2030-timing sources per idea incl one primary 2028-2035 trigger; then Fable/xhigh physics/build review, hard gates G1-G7, rubric scoring.",
   "failures": []
 }

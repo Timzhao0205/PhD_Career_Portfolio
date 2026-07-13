@@ -11,9 +11,9 @@ Vacuum/cryogenic/ultra-clean hardware is a mature engineering discipline experie
 re-shape rather than a technology discontinuity. Four demand fronts are pulling on the same
 supplier base at once: (1) semiconductor fabs pushing sub-3nm etch/deposition processes that need
 higher-flow, higher-reliability dry vacuum pumps and tighter ultra-high-purity (UHP) gas/water
-delivery (L07-030, L07-031, L07-039, L07-049, L07-051, L07-052); (2) big-science facilities
+delivery (L07-030, L07-031, L07-049, L07-051, L07-052); (2) big-science facilities
 (ITER, JT-60SA, HEPS) procuring vacuum vessels, cryostats, and pressure-suppression hardware at
-hundred-million-dollar-class scale (L07-033, L07-034, L07-041 through L07-045); (3) quantum
+hundred-million-dollar-class scale (L07-034, L07-041 through L07-045); (3) quantum
 computing scale-up pushing dilution-refrigerator cooling power and vibration performance well
 beyond historical scientific-instrument norms (L07-014 through L07-017); and (4) continued
 incremental gains in the decades-old core physics of UHV/XHV — outgassing control, NEG coatings,
@@ -52,13 +52,10 @@ quantum computing).
   contract package at one fab phase runs into the tens of billions of KRW (L07-046, L07-047), and
   gas-delivery-subsystem suppliers report customer concentration above 75% in just two OEM
   customers (L07-049) — a fragile, thin supplier base relative to fab-expansion pace.
-- **Vacuum-pump vendor market-size estimates disagree by nearly 2x across consultancies with no
-  disclosed bottom-up methodology** (L07-038), undermining capital-planning confidence for new
-  entrants or investors sizing this space.
 - **Cryostat/vacuum-vessel manufacturing for big science remains a single-supplier-chain
-  dependency in several countries** — e.g., India's ITER cryostat work is effectively sole-sourced
-  through INOXCVA/L&T (L07-033, L07-048), and China's HEPS insertion-device vacuum chambers must
-  be sourced from China-registered manufacturers only, by tender rule (L07-045).
+  dependency in at least one major national program** — e.g., China's HEPS insertion-device
+  vacuum chambers must be sourced from China-registered manufacturers only, by tender rule
+  (L07-045).
 
 ## Named buyers and spending signals
 
@@ -67,10 +64,6 @@ quantum computing).
   Suppression System (VVPSS) instrumentation and valves contracts, each in the €300K-€2M range,
   both awarded in 2025 (L07-042, L07-043); and a VVPSS cooler-condenser contract (up to €400K)
   awarded to Spain's MAP Industrial Projects, S.L. (L07-044).
-- **India's Department of Atomic Energy / Institute for Plasma Research (ITER-India)** — delivered
-  the 3,850-tonne ITER cryostat (completed 2022, manufactured by L&T in Gujarat) as its flagship
-  procurement package (L07-033), and INOX India (INOXCVA) separately booked a ₹145 crore
-  (~USD 17M) FY25 repair order for the ITER Cryostat Thermal Shield (L07-048).
 - **Japan's JAEA/QST and the EU's Fusion for Energy** — split JT-60SA vacuum-vessel (Toshiba-built,
   10 sectors, ~17 tonnes each) and cryostat procurement under the Japan-EU Broader Approach
   Agreement (L07-034).
@@ -104,17 +97,14 @@ quantum computing).
 | MKS Inc. | US | Vacuum Solutions Division (pumps, gauges, subsystems) | Total FY2025 revenue $3,931M (+9.6% YoY); semiconductor revenue $432M in Q2 2025 alone (L07-050) |
 | Ichor Holdings | US | Gas/fluid delivery subsystems for semiconductor capital equipment | FY2025 revenue $947.7M; Lam Research + Applied Materials = 76% of sales (L07-049) |
 | INFICON | CH | Leak detection, gas analysis, vacuum gauges ("Semi & Vacuum Coating" segment) | FY2025 sales $673.7M; APAC +19.2% to ~$169M, Americas -12.4% to ~$156M (L07-053) |
-| Edwards Vacuum (Atlas Copco) | GB/SE | Dry vacuum pumps, abatement | 2024 revenue ~$2.10B per market-report aggregation (not independently fetched); part of "top 6" holding ~62% of global semiconductor vacuum-pump revenue (L07-039) |
-| Pfeiffer Vacuum | DE | Turbo pumps, backing pumps, leak detection | Named among top-6 global vendors (L07-039); revenue figures found this session were consultancy-aggregated only, not independently fetched |
-| Busch Vacuum Solutions | DE | Dry/oil-sealed vacuum pumps | Named among top-6 global vendors; "entrenched OEM relationships" per market aggregation (L07-039) |
-| INOX India (INOXCVA) | IN | Cryogenic tanks, ITER cryostat/cryoline systems | Largest Indian cryogenic-tank exporter; one of <10 companies globally certified for full cryogenic-equipment range; ₹145 crore FY25 ITER repeat order (L07-040, L07-048) |
+| INOX India (INOXCVA) | IN | Cryogenic tanks, ITER cryostat/cryoline systems | Largest Indian cryogenic-tank exporter; one of <10 companies globally certified for full cryogenic-equipment range; ₹145 crore FY25 ITER repeat order (L07-040) |
 | SAES Getters | IT | NEG-coating solutions (IntegraTorr) for accelerators | Vendor claim; commercializes the same NEG-coating physics studied in L07-001 |
 | Kurt J. Lesker Company | US | CF flanges, feedthroughs, vacuum components | 1,200+ feedthrough variants catalogued; pricing is quote-on-request, not list-priced (L07-036) |
 | Forward Science Corp. | TW | AI-monitored ("V-pro") vacuum pumps | Reported new orders from PSMC and Macronix (2025); order size not disclosed (paywalled trade press, not independently verified this session) |
 
 Price signals are thin and mostly quote-on-request in this lane (L07-036). The clearest hard
 dollar figures found are project/contract values (ITER tender cost bands L07-041 to L07-044; Korean
-water-treatment EPC contracts L07-046/L07-047; INOX India's ₹145 crore ITER order L07-048) rather
+water-treatment EPC contracts L07-046/L07-047) rather
 than unit prices for pumps, gauges, or feedthroughs — consistent with an industry that sells
 mostly through negotiated system contracts, not catalog list price.
 
@@ -129,11 +119,6 @@ mostly through negotiated system contracts, not catalog list price.
   L07-049) is a dated internal capacity-realignment response to semiconductor-cycle volatility —
   a signal that even top-tier gas-delivery suppliers see near-term demand as uncertain despite
   headline AI-driven fab capex growth.
-- **2030-2031**: Consultancy-estimated market-size horizon for both the general vacuum-pump market
-  (USD 7.56B to 10.81B, or alternative estimates of USD 6.5B to 8.4B / USD 5.73B(2022) to
-  8.75B(2030), depending on source, L07-038) and the semiconductor dry-vacuum-pump sub-market
-  (USD 1.46B(2024) to 3.12B(2033), L07-039) — flagged as unreconciled consultancy estimates, not
-  independently triangulated in this pass.
 - **Ongoing/undated**: China's HEPS program (vacuum-closed-loop completed 2024, process
   acceptance passed October 2025 per background search) suggests further Chinese synchrotron/
   accelerator vacuum-hardware tenders are likely but no specific dated follow-on tender was found
@@ -154,9 +139,9 @@ mostly through negotiated system contracts, not catalog list price.
   regional customers locally (L07-051) — the opposite direction of a "US demand, Asia supply"
   simplification; Asia is both the largest incumbent producer and a fast-growing buyer.
 - **Big-science vacuum-hardware procurement is nationally protectionist in China, internationally
-  distributed in Japan/EU/India.** China's HEPS tender explicitly restricts bidding to China-
-  registered manufacturers (L07-045), while JT-60SA (Japan/EU) and ITER (global, India delivering
-  the cryostat) show cross-border procurement as the norm (L07-033, L07-034, L07-041 to L07-044).
+  distributed in Japan/EU.** China's HEPS tender explicitly restricts bidding to China-
+  registered manufacturers (L07-045), while JT-60SA (Japan/EU) and ITER (global) show
+  cross-border procurement as the norm (L07-034, L07-041 to L07-044).
 - **US strength in this pass is concentrated in components/subsystems and government facilities**
   (Ichor gas-delivery subsystems, MKS vacuum solutions, Kurt J. Lesker components, NASA space-
   simulation facilities and leak-detection methodology, L07-049, L07-050, L07-036, L07-032,
@@ -170,19 +155,11 @@ mostly through negotiated system contracts, not catalog list price.
 
 ## Unresolved contradictions
 
-- **Vacuum-pump and semiconductor-dry-vacuum-pump market-size estimates disagree by up to ~2x
-  across consultancy sources with no disclosed bottom-up methodology** (L07-038, L07-039) —
-  flagged as unverified and not usable for capital-allocation decisions without independent
-  triangulation.
 - **Is EBARA's $200M Korea/Taiwan investment and TSMC joint-development claim a confirmed near-
   term revenue driver or an aspirational press-release framing?** The only source for this claim
   is EBARA's own press release, aggregated via search snippet; direct WebFetch of the release was
   blocked (HTTP 403), so the figure could not be cross-checked against EBARA's investor-relations
   disclosures this session (L07-051).
-- **INOX India's ₹145 crore ITER Cryostat Thermal Shield repair-order figure could not be traced
-  to a specific primary-document page this session** — it appears in trade-press aggregation of
-  INOX India's own disclosures, but the underlying FY2025-26 annual report PDF was not
-  independently searched line-by-line to confirm the figure (L07-048).
 - **Is the dilution-refrigerator scaling bottleneck (µW-to-mW cooling power at ~100 mK) close to
   resolved or still fundamentally limiting?** Recent primary papers report ~2 mW cooling power
   near 100 mK as a new achievement (L07-016) alongside separate ultra-low-vibration split-cryostat
@@ -234,33 +211,29 @@ Pain statements only — no startup pitches, no product framing.
    the OEM relationships that control fab-tool sales. Who pays (risk-bearer): incumbent and
    prospective gas-delivery subsystem suppliers. Evidence: L07-049.
 7. **Big-science vacuum-vessel/cryostat manufacturing is effectively sole-sourced in several
-   national programs** (India's ITER cryostat work through INOXCVA/L&T; China's HEPS tender
-   restricted to China-registered manufacturers), leaving no qualified alternate supplier if the
-   incumbent has a capacity or quality problem. Who pays: national fusion/accelerator programs
-   and, ultimately, their government funders. Evidence: L07-033, L07-040, L07-045, L07-048.
-8. **Vacuum-pump and semiconductor-dry-vacuum-pump market-size estimates disagree by up to ~2x
-   across consultancies with no disclosed bottom-up methodology**, leaving investors and new
-   entrants without a trustworthy total-addressable-market baseline. Who pays (information gap
-   cost): investors, new entrants, and incumbent strategic planners relying on these figures.
-   Evidence: L07-038, L07-039.
-9. **Export-control-driven revenue divergence is already a measured FY2025 financial fact for at
+   national programs** (India's ITER cryostat work is effectively sole-sourced through
+   INOXCVA/L&T; China's HEPS tender restricted to China-registered manufacturers), leaving no
+   qualified alternate supplier if the incumbent has a capacity or quality problem. Who pays:
+   national fusion/accelerator programs and, ultimately, their government funders. Evidence:
+   L07-040, L07-045.
+8. **Export-control-driven revenue divergence is already a measured FY2025 financial fact for at
    least one named vacuum/leak-detection incumbent** (INFICON: Americas -12.4% vs Asia-Pacific
    +19.2%), indicating firms serving both US and Chinese/Asian semiconductor customers face a
    live, ongoing geographic bifurcation of demand rather than a future risk. Who pays: vacuum/
    leak-detection/instrumentation vendors with US-and-China-exposed product lines. Evidence:
    L07-053.
-10. **Pharmaceutical freeze-drying (lyophilization) vacuum/thermal process control remains a
-    recurring source of FDA manufacturing-inspection findings**, per review-level evidence,
-    indicating existing validation/monitoring practice does not fully close the gap between
-    lyophilizer vacuum-control capability and regulatory expectations. Who pays: pharmaceutical
-    manufacturers and their quality/regulatory-affairs functions. Evidence: L07-020, L07-021.
-11. **NEG-coating and other distributed-pumping technologies studied academically since the
+9. **Pharmaceutical freeze-drying (lyophilization) vacuum/thermal process control remains a
+   recurring source of FDA manufacturing-inspection findings**, per review-level evidence,
+   indicating existing validation/monitoring practice does not fully close the gap between
+   lyophilizer vacuum-control capability and regulatory expectations. Who pays: pharmaceutical
+   manufacturers and their quality/regulatory-affairs functions. Evidence: L07-020, L07-021.
+10. **NEG-coating and other distributed-pumping technologies studied academically since the
     1990s-2010s are still marketed by essentially a single named vendor (SAES Getters) in the
     sources gathered here**, with no second/third independent commercial NEG-coating supplier
     surfaced in this pass — a potential single-point-of-supply risk for accelerator builders
     relying on this pumping architecture. Who pays: accelerator/synchrotron builders specifying
     NEG-coated beam pipe. Evidence: L07-001, L07-037.
-12. **Vacuum-component pricing (feedthroughs, flanges, custom chambers) is almost entirely
+11. **Vacuum-component pricing (feedthroughs, flanges, custom chambers) is almost entirely
     quote-on-request rather than published**, making early-stage cost estimation for new
     vacuum-hardware projects (academic labs, startups, new fab lines) slow and dependent on
     vendor sales-cycle timing rather than self-service catalog pricing. Who pays: any buyer
@@ -282,9 +255,9 @@ Pain statements only — no startup pitches, no product framing.
   metadata (title, journal, volume/issue/page) rather than full-text extraction; their
   peer-review status is inferred from the hosting journal's general editorial policy, not
   confirmed per-article.
-- The INOX India ₹145 crore ITER figure (L07-048) and the EBARA $200M Korea/Taiwan investment
-  figure (L07-051) both rely on secondary aggregation of primary company disclosures rather than
-  a directly fetched primary-document page; both are flagged for verifier re-confirmation.
+- The EBARA $200M Korea/Taiwan investment figure (L07-051) relies on secondary aggregation of
+  primary company disclosures rather than a directly fetched primary-document page; it is
+  flagged for verifier re-confirmation.
 - The SBIR award record (L07-054) was directly fetched but turned out to be a 2003 DOD/Missile
   Defense Agency award rather than the intended "recent DOE grant" — kept with corrected facts
   as an honest, on-topic government-funding data point rather than discarded or mislabeled.
@@ -292,3 +265,22 @@ Pain statements only — no startup pitches, no product framing.
   because the ITER procurement portal does not expose individual permalinks per tender in the
   fetched view; each record's `canonical_key` uses the unique tender ID to avoid false
   deduplication.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L07-033, L07-038, L07-039, L07-048
+- removed/trimmed claims:
+  - Trimmed demand-front-1 (semiconductor fab) and demand-front-2 (big-science) citation lists in the frontier-state paragraph to drop L07-039 and L07-033 respectively (Sec. "Frontier state").
+  - Deleted the "Vacuum-pump vendor market-size estimates disagree by nearly 2x" bottleneck bullet in full (Sec. "Bottlenecks") — needs a re-sourced vacuum-pump-market TAM/consultancy-disagreement claim from an eligible provider.
+  - Trimmed the "Cryostat/vacuum-vessel manufacturing... single-supplier-chain dependency" bottleneck bullet to drop the India/INOXCVA/L&T clause (solely cited by L07-033, L07-048 at that specific citation point), keeping only the China/HEPS example; adjusted "in several countries" to "in at least one major national program" (Sec. "Bottlenecks").
+  - Deleted the "India's Department of Atomic Energy / Institute for Plasma Research (ITER-India)" named-buyer entry in full (Sec. "Named buyers and spending signals").
+  - Deleted the Edwards Vacuum, Pfeiffer Vacuum, and Busch Vacuum Solutions incumbent-table rows in full (each cited solely to L07-039) — needs re-sourced top-6-vendor market-share/revenue evidence from an eligible provider if retained (Sec. "Incumbent map").
+  - Trimmed the INOX India (INOXCVA) incumbent-table row to drop the L07-048 citation, keeping the co-supporting L07-040 citation for the ₹145 crore FY25 ITER repeat-order figure — flagged for verifier: confirm L07-040 actually substantiates the specific ₹145 crore figure, since that figure's sole citation elsewhere in the pre-repair document was L07-048 (Sec. "Incumbent map").
+  - Dropped the "INOX India's ₹145 crore ITER order L07-048" item from the price-signals paragraph's project/contract-value list (Sec. "Incumbent map").
+  - Deleted the "2030-2031: Consultancy-estimated market-size horizon" triggers bullet in full (general vacuum-pump and semiconductor-dry-vacuum-pump TAM claims) (Sec. "2026-2031 triggers").
+  - Trimmed the "Big-science vacuum-hardware procurement is nationally protectionist..." bullet to drop L07-033 and the "India delivering the cryostat" detail it solely supported, keeping the China/HEPS and JT-60SA/ITER cross-border-procurement claims (Sec. "US vs Asia differences").
+  - Deleted the "Vacuum-pump and semiconductor-dry-vacuum-pump market-size estimates disagree by up to ~2x" contradiction bullet in full (Sec. "Unresolved contradictions").
+  - Deleted the "INOX India's ₹145 crore ITER Cryostat Thermal Shield repair-order figure could not be traced..." contradiction bullet in full (Sec. "Unresolved contradictions").
+  - Trimmed pain-statement item 7 (big-science sole-sourcing) evidence list to drop L07-033 and L07-048, keeping L07-040 and L07-045 (Sec. "Opportunity-shaped pain statements").
+  - Deleted pain-statement item 8 ("Vacuum-pump and semiconductor-dry-vacuum-pump market-size estimates disagree...") in full and renumbered subsequent items 9-12 to 8-11 (Sec. "Opportunity-shaped pain statements").
+  - Trimmed the evidence-quality note comparing the INOX India and EBARA figures to drop the INOX India/L07-048 clause, keeping only the EBARA/L07-051 note (Sec. "Notes on evidence quality").

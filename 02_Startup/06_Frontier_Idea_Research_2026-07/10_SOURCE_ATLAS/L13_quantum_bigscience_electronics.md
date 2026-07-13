@@ -109,8 +109,7 @@ was not used to select topics within this lane. Uncertainty is flagged explicitl
 - **ITER Organization** -- live open tenders as of this session include a EUR 4-12M liquid/gaseous
   helium supply contract (PIN deadline 24 July 2026) and a CATIA/ENOVIA engineering-software
   maintenance contract (L13-030, directly fetched); China (ASIPP, all 31 magnet feeders, L13-035)
-  and India (Institute for Plasma Research via Larsen & Toubro, the 3,850-tonne cryostat, L13-034)
-  hold major national procurement packages.
+  holds a major national procurement package.
 - **Japan's AIST (National Institute of Advanced Industrial Science and Technology), G-QuAT
   center** -- took delivery of the world's first commercially delivered 1,000+-qubit-capable
   quantum control system from Keysight, July 29, 2025 (L13-037, directly fetched); no price
@@ -146,7 +145,7 @@ was not used to select topics within this lane. Uncertainty is flagged explicitl
 | Quantum Machines (Israel) | OPX+/OPX1000 control hardware | MOUs with Korea's KRISS/QCILA (L13-039); no public pricing found (L13-046) |
 | Zurich Instruments (Switzerland) | SHFQC qubit controller | Up to 6-qubit control/readout in one instrument, scaling to 100+ qubit systems; no public pricing found (search only, not logged as a separate raw-source record) |
 | Qblox (Netherlands) | Q1ASM control hardware; now QICK manufacturing partner | DOE/Fermilab CRADA Letter of Intent, Nov 2025 (L13-032) |
-| Bluefors (Finland) | Dilution refrigerators | Largest North American producer after Sept 2024 Syracuse expansion (L13-041); market estimated ~34%+ global share (L13-050, T3, unverified) |
+| Bluefors (Finland) | Dilution refrigerators | Largest North American producer after Sept 2024 Syracuse expansion (L13-041) |
 | Delft Circuits (Netherlands) | Cri/oFlex cryogenic cabling | Roadmap: 256 to 4,096 channels/loader, 2025-2029 (L13-042, vendor claim) |
 | AMD/Xilinx (US) | Zynq UltraScale+ RFSoC (RF-ADC/DAC silicon) | Underlies QICK, QubiC, and multiple commercial control systems (L13-045) |
 | SEEQC (US) | Single Flux Quantum (SFQ) superconducting control chips | Taiwan (ITRI) manufacturing-line partnership, Dec 2025 (L13-038) |
@@ -190,10 +189,6 @@ documented in this project's L06 and L12 lane briefs.
 - **Singapore:** the National Quantum Processor Initiative's control-electronics-specific grant
   call (L13-036) is a live, near-term (2024-2029, within the S$300M/5-year window) funding trigger
   explicitly naming this lane's technology.
-- **India:** ITER-India's cryostat delivery (L13-034, completed 2022) and RRCAT's ongoing
-  Indus-1/Indus-2 accelerator-control operations (L13-051) show sustained facility-hardware
-  activity, but no dated 2026-2031 upgrade/expansion trigger with a specific budget was found this
-  session -- flagged as a coverage gap.
 - **Standards/policy:** IEEE 1588-2019 (L13-026) and the White Rabbit open-hardware collaboration's
   2024 formal launch (L13-027) suggest a 2026-2031 window in which facility-timing technology
   standardizes and commercializes further beyond its CERN/GSI origin; US export-control scope
@@ -237,12 +232,6 @@ documented in this project's L06 and L12 lane briefs.
   call) is the most explicitly funding-programmatic of any Asian market in this lane -- Singapore's
   angle is government-directed ecosystem-building via targeted grant calls rather than either a
   national champion (China, Japan) or semiconductor-fab leverage (Taiwan) strategy.
-- **India** evidence (ITER cryostat delivery, RRCAT accelerator operations) is real, dated, and
-  government-funded, but this session found no quantum-computing-specific control-electronics
-  signal for India at all -- India's L13 presence in this session is entirely big-science-facility
-  (fusion, accelerator) rather than quantum-computing-control-electronics, a notably different
-  profile from every other geography in this lane.
-
 ## 7. Unresolved contradictions
 
 1. **China's widely-repeated claim that Zuchongzhi 3.0 achieved "100% domestic localization"
@@ -359,14 +348,7 @@ documented in this project's L06 and L12 lane briefs.
     settled. **Who pays:** every big-science facility (accelerators, telescopes, fusion
     experiments) depending on White-Rabbit-class timing for procurement and long-term maintenance
     planning. **Evidence:** L13-026, 027.
-11. **Pain:** India's presence in this lane is entirely fusion/accelerator-facility-hardware
-    (ITER cryostat, RRCAT synchrotron controls) with zero quantum-computing-specific
-    control-electronics signal found this session, despite India's stated national quantum
-    mission ambitions elsewhere in the broader research landscape -- suggesting either a genuine
-    current-day gap or simply a discovery gap in this session's search strategy. **Who pays:**
-    unclear; flagged as a follow-up scouting priority rather than a confirmed market absence.
-    **Evidence:** L13-034, 051.
-12. **Pain:** Japan is the only geography in this session's evidence base clearly running both an
+11. **Pain:** Japan is the only geography in this session's evidence base clearly running both an
     indigenous-startup strategy (QuEL Inc./RIKEN) and a foreign-vendor-adoption strategy (Keysight/
     AIST) at the same time for the same underlying control-hardware problem, without any found
     source explaining Japan's institutional rationale for hedging across both approaches
@@ -389,7 +371,8 @@ documented in this project's L06 and L12 lane briefs.
   DOIs and would not change the tier count (they are already counted as T1) but would substantially
   increase confidence and reduce the number of "not independently fetched" notes.
 - T3 count: 1 record (L13-050, a market-research aggregator report), well within the 2-3 record
-  cap. No arXiv/preprint/thesis/slide-deck was included as a record; several were explicitly
+  cap. [Update 2026-07-13: L13-050 was quarantined by the P2A India-origin audit and no longer
+  counts; the lane T3 count is now 0.] No arXiv/preprint/thesis/slide-deck was included as a record; several were explicitly
   identified during search and excluded per the discovery-only rule (e.g. CEPC clock-synchronization
   arXiv paper 2606.11590, CO-QLink arXiv 2511.22920, Qibosoq arXiv 2310.05851).
 - Demand-primary count: 12 records carry a non-"none" `demand_evidence_type` (L13-028, 030, 032,
@@ -425,3 +408,18 @@ documented in this project's L06 and L12 lane briefs.
   product/news page to substantiate or correct the "本源天机4.0" claims (Contradiction 5); (7)
   locating and fetching the original ncsti.gov.cn (or equivalent primary) source of the "100%
   domestic localization" claim for Zuchongzhi 3.0, to resolve Contradiction 1.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L13-034, L13-050, L13-051
+- removed/trimmed claims: trimmed the ITER Organization named-buyer bullet (Section 3) to remove
+  the India/Institute for Plasma Research cryostat clause (L13-034), keeping the eligible China/
+  ASIPP clause; trimmed the Bluefors incumbent-map row (Section 4) to remove the "~34%+ global
+  share" market-share estimate sourced solely to L13-050, keeping the eligible Syracuse-facility
+  fact; deleted the India 2026-2031 trigger bullet (Section 5, ITER cryostat + RRCAT) sourced
+  solely to L13-034/051; deleted the India paragraph in "US vs. Asia differences" (Section 6),
+  same underlying evidence; deleted pain statement 11 (Section 8, India fusion/accelerator
+  presence) sourced solely to L13-034/051 and renumbered the following item to 11. No eligible
+  India-sourced control-electronics or big-science-facility claim remained after removal; any
+  future India evidence in this lane must come from an eligible non-India source and remains
+  excluded from demand/market/geography scoring per the binding geography-scope rule regardless.

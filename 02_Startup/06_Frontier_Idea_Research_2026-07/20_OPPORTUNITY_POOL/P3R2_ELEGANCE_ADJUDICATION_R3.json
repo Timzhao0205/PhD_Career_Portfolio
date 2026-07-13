@@ -1,0 +1,110 @@
+{
+  "adjudication": "P3R2 elegance/novelty third pass (micro-wave G + fix verification + longlist quota reckoning)",
+  "adjudicator_model": "claude-fable-5",
+  "adjudicator_effort": "xhigh",
+  "date": "2026-07-13",
+  "firewall": "Founder profile and SEEDS_A-D not read; no founder-fit content; no seed files modified.",
+  "compliance_checks": {
+    "quarantine_intersections": 0,
+    "rejected_ledger_records_cited": 0,
+    "external_verification": "ccnta.cn HEPS tender (L07-045) fetched independently: PRC-registration + manufacturer eligibility clause confirmed in primary document; ledger claim_supported omits it (repair task assigned).",
+    "evidence_defects_found": [
+      "G-01: L07-053 'bifurcation constrains Western metrology imports' over-reads a source showing APAC sales +19.2% (growth, not constraint).",
+      "G-02: 'ISO 11137-1:2025 forcing fleet-wide re-qualification' over-claims a permissive energy-limit increase (10->11 MeV e-beam, 5->7.5 MeV X-ray).",
+      "G-03: '~12% HVDC vs 78% UPS' penetration figure is NOT in the verified L02-048 record; it exists only as un-fetched raw-ledger WebSearch synthesis (rule-10 violation as written); 8-12-year refresh cycle is unsourced inference."
+    ],
+    "datacenter_cap": "G-03 only; declared retrofit-slice framing; within cap."
+  },
+  "g_seeds": [
+    {
+      "idea_id": "P3R2-G-01",
+      "scores": {"novelty": 7, "elegance": 7, "controllability": 6, "vision": 6, "timing_robustness": 5},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Delete/reframe the L07-053 'trade bifurcation constrains Western metrology' inference in painful_job and competition fields; keep INFICON as market-structure context only (source shows APAC +19.2% growth).",
+        "Binding 2028 gate: documented facility acceptance requirements imposed on fabricators at delivery (tender technical annex, facility vacuum-acceptance spec, or fabricator quality requirement) as buyer-existence proof preceding the 2029 paid pilot.",
+        "Binding P4 pre-promotion task: re-date L07-045 AND evidence >=2 additional CN chamber-class tenders (HEPS follow-on/CSNS/ASIPP-pattern) to establish procurement cadence beyond CEPC.",
+        "Ledger repair: update L07-045 claim_supported/locator to record the verified PRC-registration + manufacturer eligibility clause (verified 2026-07-13 at ccnta.cn)."
+      ],
+      "duplicate_of": null,
+      "notes": "Genuinely non-obvious (no prior seed in 146 touched conditioning/acceptance equipment); B-12 defects engineered out (no recipe licensing; moat in calibrated standards + updating models; multi-facility cadence requirement); central tender-rule wedge independently verified in primary document; CN-primary status rests on verified country-specific evidence. Name a metrology anchor (NIM-class) for witness-standard traceability in P4."
+    },
+    {
+      "idea_id": "P3R2-G-02",
+      "scores": {"novelty": 6, "elegance": 6, "controllability": 6, "vision": 6, "timing_robustness": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Restate the ISO 11137-1:2025 trigger as PERMISSIVE uprating with a 2028 evidence gate (named operators/OEMs uprating to 11 MeV/7.5 MeV), else de-weight to CN consumables + localization demand only.",
+        "P4 merchant-targetry incumbency map (ARTMS/Comecer/IBA-targets class) becomes PRE-PROMOTION binding for the cyclotron-target leg; if merchant targetry is already served, re-scope to the e-beam/X-ray window+converter leg.",
+        "Declare the surrogate-heat-flux validity limit in first_experiment (thermo-mechanics + interlock only; no radiation-driven foil degradation) and add beam-time validation to the 2028 co-development gate.",
+        "Portfolio pre-agreement: join the R2 beam-components portfolio evaluation (F-09/F-20 with C-09/D-07 adjacency) at P4 - at most one funded beam-components company."
+      ],
+      "duplicate_of": null,
+      "notes": "Distinct from C-09 (drives the beam vs owns the beam exit; evidence overlap not concept overlap, F-10/F-11 precedent) and F-09 (particle-beam foil thermo-mechanics vs RF dielectric windows; operators/aftermarket vs tube primes; consumables vs internals). CN anchors verified (L05-036 named tender; L05-035 identity-level, figures honestly quarantined). Honest inferred-economics gap already gated at 2028. Bottom-up fleet-count sizing stays binding pre-scale."
+    },
+    {
+      "idea_id": "P3R2-G-03",
+      "scores": {"novelty": 5, "elegance": 7, "controllability": 7, "vision": 7, "timing_robustness": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Reclassify the ~12%/78% HVDC-vs-UPS figure as UNVERIFIED and not load-bearing (raw-ledger WebSearch synthesis only; not in verified L02-048); P4 must re-source an eligible CN installed-base/penetration figure before final scoring; label the 8-12-year refresh-cycle assumption as inference and evidence it.",
+        "Split the 2029 frame-agreement gate per market: no US frame agreement by end-2029 -> US folds to niche lab tooling; no CN integrator frame agreement by end-2029 -> CN downgrades to license-only with honest flag change (F-06 precedent).",
+        "P4 pre-promotion competitor map: instrument majors' DC-acceptance roadmaps (Keysight/Chroma/Hioki/Fluke) and CN certification institutes (CQC/CEPREI-class service-only testing); the third-party-acceptance willingness thesis must survive it."
+      ],
+      "duplicate_of": null,
+      "notes": "Best-shaped of the wave: genuine dual (verified US anchors L02-043/044/046/047; verified CN buyers L02-048 Panama deployments, L02-049 Autrans/Alibaba, L02-054 corrected content, L14-036 verified policy); commercial CN buyers deliberately avoid F-06's State-Grid trap; third protection-vs-measurement complement in the pool caps novelty; $300k for a 100 kW 800VDC testbed is optimistic - assume loaner/partner hardware or restate."
+    }
+  ],
+  "wave_g_totals": {"promote": 0, "fix": 3, "reject": 0},
+  "fix_verification": [
+    {"item": "P3R2-F-04", "type": "FIX_APPLIED sample", "result": "VERIFIED", "detail": "2028 paid OEM eval binding; SKF S2M/Calnetix/Waukesha P4 teardown; CN leg conditional (named CN design-in channel or downgrade to US, INFICON-attribution caveat verbatim); 2032 internal kill retained."},
+    {"item": "P3R2-F-05", "type": "FIX_APPLIED sample", "result": "VERIFIED", "detail": "Defensible core restated as UL/IEC/GB cert matrix + dual-personality interface; kit-existence claim downgraded to judgment; 2028 CN export-certification LOI binding; unsubsidized repower economics by 2028; B-14 interface bought as module."},
+    {"item": "P3R2-F-06", "type": "FIX_APPLIED sample + flag downgrade", "result": "VERIFIED", "detail": "primary_market='US', china_beachhead=false; CN relabeled license-royalty upside (not counted market leg) in demand_trigger and product; 2029 eval binding paired with E-14-class traction; Hitachi/ABB optical-CT P4 map present."},
+    {"item": "P3R2-F-10", "type": "FIX_APPLIED sample", "result": "VERIFIED", "detail": "2028 battery-equipment OEM LOI binding; pipeline leg de-weighted; POD-at-speed end-2029 kill binding in kill-date field; L16-028 refresh required; Tecnar-class P4 check present."},
+    {"item": "P3R2-F-23", "type": "FIX_APPLIED sample", "result": "VERIFIED", "detail": "Binding 2029 lender-requirement/developer-LOI + OEM design-in; A/B degradation-rate reduction as binding existence proof in first_experiment; C-22 data-interface pre-agreement; battery/fuel-cell hedge scoped by 2029."},
+    {"item": "F-21 -> F-02 merge", "type": "merge", "result": "VERIFIED", "detail": "F-21 MERGED_INTO_P3R2-F-02 with duplicate_of; F-02 carries entry SKU (binary leads 0.5-20 kA, instrumented feedthroughs, certified heat-load datasheets), entry-SKU plan track, end-2031 >=$1M gate in kill-date field; imports L03-052/L07-009 eligible."},
+    {"item": "F-18 -> F-03 merge", "type": "merge", "result": "VERIFIED", "detail": "F-18 MERGED_INTO_P3R2-F-03 with duplicate_of; F-03 carries EPC co-bidding memorandum, Xinjiang first-set timeline (~2028), rollout-industrialization framing; no new source IDs required."},
+    {"item": "F-08 -> A-02 import", "type": "cross-file import", "result": "VERIFIED", "detail": "F-08 REJECT with duplicate_of=P3R2-A-02; A-02 merge_import_notes carry the 2027 SiC interruption-duty die-characterization study and fail-short press-pack qualification concept; non-accepted L08-016 NOT imported (A-02 cites only eligible L08-001/003/004/017)."}
+  ],
+  "fix_verification_outcome": "5/5 sampled FIX_APPLIED seeds faithful; F-06 downgrade correct; 3/3 merges/imports correct; 0 ineligible source IDs imported; application log matches file state everywhere sampled.",
+  "quota_reckoning": {
+    "survivor_convention": "PROMOTE + FIX/FIX_APPLIED canonicals after all merges; merged and rejected records not counted; wave-G FIX seeds counted pending fix application (same convention as prior waves).",
+    "total_distinct_concepts": 65,
+    "by_wave": {"A": 10, "B": 4, "C": 13, "D": 13, "E": 4, "F": 18, "G": 3},
+    "lanes_covered": 16,
+    "us_legs": 54,
+    "cn_legs": 38,
+    "dual_us_cn": 27,
+    "jp_tw_kr_primary": 0,
+    "gates": {
+      "total_min_48": {"count": 65, "result": "PASS"},
+      "lanes_min_14": {"count": 16, "result": "PASS"},
+      "us_min_36": {"count": 54, "result": "PASS"},
+      "cn_min_36": {"count": 38, "result": "PASS"},
+      "dual_min_24": {"count": 27, "result": "PASS"},
+      "jptwkr_primary_max_8": {"count": 0, "result": "PASS"}
+    },
+    "cn_gate_sensitivity": "Margin +2. Conditional CN legs P4 could remove: F-04 (CN OEM design-in channel), F-20 (CN outsourcing channel), G-02 (CN-primary; merchant-socket gate failure kills the seed). Worst case all three fail: 35 (<36). P4 must resolve at least one affirmatively or the orchestrator re-opens a targeted top-up. Re-flagging F-06/C-12/C-21 or resurrecting rejected seeds is not a permitted remedy.",
+    "freeze_conditions": [
+      "Wave-G fix application logged (FIX_APPLIED marks + all required_fixes in substantive fields) before the longlist is declared frozen.",
+      "Ledger repair: L07-045 claim_supported updated with the verified PRC-registration/manufacturer clause.",
+      "G-03 12%/78% figure demoted to unverified pending re-source; rule-18 refreshes: L16-028 (F-10/F-11), L07-045 re-dating (G-01).",
+      "Concentration caps at portfolio selection: L06 RF chain; L11 max two; L10 heavy electrification; fusion-correlated BOP; beam-components portfolio (F-09/F-20/G-02, at most one funded); instrument/acceptance archetype not to dominate the final slate."
+    ]
+  },
+  "longlist_eligible_ids": [
+    "P3R2-A-02", "P3R2-A-03", "P3R2-A-05", "P3R2-A-10", "P3R2-A-11", "P3R2-A-13", "P3R2-A-14",
+    "P3R2-A-16", "P3R2-A-21", "P3R2-A-22",
+    "P3R2-B-01", "P3R2-B-06", "P3R2-B-14", "P3R2-B-22",
+    "P3R2-C-01", "P3R2-C-02", "P3R2-C-03", "P3R2-C-04", "P3R2-C-05", "P3R2-C-07", "P3R2-C-08",
+    "P3R2-C-09", "P3R2-C-12", "P3R2-C-13", "P3R2-C-19", "P3R2-C-21", "P3R2-C-22",
+    "P3R2-D-01", "P3R2-D-02", "P3R2-D-07", "P3R2-D-08", "P3R2-D-09", "P3R2-D-10", "P3R2-D-11",
+    "P3R2-D-12", "P3R2-D-13", "P3R2-D-16", "P3R2-D-18", "P3R2-D-19", "P3R2-D-20",
+    "P3R2-E-02", "P3R2-E-04", "P3R2-E-11", "P3R2-E-14",
+    "P3R2-F-01", "P3R2-F-02", "P3R2-F-03", "P3R2-F-04", "P3R2-F-05", "P3R2-F-06", "P3R2-F-07",
+    "P3R2-F-09", "P3R2-F-10", "P3R2-F-11", "P3R2-F-12", "P3R2-F-15", "P3R2-F-16", "P3R2-F-17",
+    "P3R2-F-19", "P3R2-F-20", "P3R2-F-22", "P3R2-F-23",
+    "P3R2-G-01", "P3R2-G-02", "P3R2-G-03"
+  ],
+  "longlist_gates": "PASS"
+}

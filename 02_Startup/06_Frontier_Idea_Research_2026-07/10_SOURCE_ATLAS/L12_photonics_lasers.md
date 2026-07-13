@@ -150,11 +150,6 @@ flagged explicitly throughout rather than smoothed over.
 - **TRUMPF (Germany)** — FY2024/25 total sales EUR 4,329 million; Laser Technology division
   revenue declined to EUR 1.2 billion (from an adjusted EUR 1.4 billion); holds roughly a 6% share
   of the global laser-processing market bundling lasers, machine tools, and software (L12-039).
-- **DRDO (India)** — successfully trialed its Mk-II(A) 30 kW laser directed-energy weapon (5 km
-  range vs. drones/aircraft/swarms) on April 13, 2025 at Kurnool, Andhra Pradesh, and is separately
-  developing a 300 kW, 20 km-range "Surya" system with trials anticipated by mid-2026 (L12-043,
-  trade-press report of the official DRDO announcement; primary PIB/DRDO document returned HTTP 404
-  this session).
 - **A*STAR / GlobalFoundries (Singapore)** — signed a Master Research Collaboration Agreement in
   November 2025 to build a GF silicon-photonics R&D Center of Excellence in Singapore targeting
   400 Gbps data-transfer materials, alongside a late-2025 upgrade of A*STAR IME's 12-inch
@@ -202,10 +197,6 @@ the same pattern observed in the L06 (semiconductor RF-power subsystem) lane.
   next-generation ArF immersion and EUV sources, L12-053) positions it as a 2026-2031 candidate
   to capture share if ASML/Cymer's architecture-change risk (2-micron drive laser, L12-003)
   materializes or if EUV/DUV supply diversification becomes a policy priority.
-- **India:** DRDO's 300 kW "Surya" directed-energy weapon is targeting comprehensive trials by
-  mid-2026 and mobile-platform field trials by 2027 (L12-043) — a dated, concrete 2026-2027
-  trigger for India's domestic high-power-laser and beam-control subsystem supply chain, though no
-  subsystem-level supplier names were identified this session.
 - **Singapore:** The A*STAR-GlobalFoundries silicon-photonics collaboration (Nov 2025) and IME's
   12-inch silicon-photonics pilot-line upgrade are ongoing through at least 2026-2027, targeting
   400 Gbps materials and 3D-integration prototyping for global chipmakers — a live but
@@ -250,12 +241,6 @@ the same pattern observed in the L06 (semiconductor RF-power subsystem) lane.
   photonics-manufacturing-ecosystem capability-building (silicon photonics, not high-power lasers
   specifically) rather than either weapons-program-scale spending (US) or price-war dynamics
   (China).
-- **India** evidence (DRDO) is real, dated, and government-funded, structurally similar to India's
-  L06 semiconductor-fab-construction signal (Tata-PSMC) in that it represents strong forward
-  momentum on a national strategic-technology program without yet showing a named subsystem-level
-  commercial supply chain (which laser gain-medium, beam-combining, or beam-control component
-  suppliers DRDO is actually sourcing from was not identified this session).
-
 ## 7. Unresolved contradictions
 
 1. **Han's Laser's overall 2025 revenue grew 27% while its high-power laser-equipment segment
@@ -367,13 +352,7 @@ the same pattern observed in the L06 (semiconductor RF-power subsystem) lane.
     consumers of industrial and processing lasers. **Who pays:** unclear from this session's
     evidence; this is a coverage gap, not a confirmed absence of activity. **Evidence:** L12-030,
     053 (present but thin); absence otherwise noted in Section 6.
-11. **Pain:** India's DRDO has a real, dated, government-funded directed-energy-weapons program
-    (Mk-II(A) fielded tests, "Surya" 300 kW system targeting mid-2026 trials) but no subsystem-level
-    supplier relationship (gain medium, beam combining, beam control, driver electronics) was
-    identified this session — India's L12 demand is a well-evidenced future trigger without a
-    visible current commercial supply chain. **Who pays:** DRDO / Indian Ministry of Defence
-    (eventual subsystem buyer, suppliers not yet named). **Evidence:** L12-043.
-12. **Pain:** Essentially no vendor in this lane (fiber lasers, diode lasers, EUV sources,
+11. **Pain:** Essentially no vendor in this lane (fiber lasers, diode lasers, EUV sources,
     adaptive-optics components) discloses unit pricing in open sources — the only directly-priced
     item found this session was a $665 safety-standard document (IEC 60825-1) — meaning any
     idea premised on price-elasticity or cost-down competitive dynamics in this lane requires
@@ -422,3 +401,16 @@ the same pattern observed in the L06 (semiconductor RF-power subsystem) lane.
   announcement of its individual JLWS award figure, to resolve Contradiction 5; (7) confirmation of
   whether the Korean Journal of Optics and Photonics article (L12-030) is published in Korean or
   English, to firm up the local-language quota count.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L12-043
+- removed/trimmed claims: deleted the DRDO named-buyer bullet (Section 3, Mk-II(A)/"Surya"
+  directed-energy trials) sourced solely to L12-043; deleted the India 2026-2031 trigger bullet
+  (Section 5) sourced solely to L12-043; deleted the India paragraph in "US vs. Asia differences"
+  (Section 6), which rested on the same India/DRDO evidence with no eligible ID; deleted pain
+  statement 11 (Section 8, DRDO subsystem-supply-chain gap) sourced solely to L12-043 and
+  renumbered the following item to 11. No other India-sourced claim remained in this lane after
+  removal. Any future India-market laser/DEW evidence must come from an eligible non-India source
+  per the binding geography-scope rule, which already excludes India from demand/market/geography
+  scoring in this project.

@@ -15,7 +15,10 @@ def load_records(path):
     return [x for x in obj if isinstance(x, dict) and x.get("canonical_key")]
 
 def quality(s):
-    return (bool(s.get("accepted")), bool(s.get("fetched")), s.get("tier")=="T1",
+    status=(s.get("india_origin_audit") or {}).get("status")
+    audit_rank={"verified_non_india_origin":3,"verified_multinational_allowed":3,
+                "excluded_india_origin":2,"pending":1}.get(status,0)
+    return (audit_rank, bool(s.get("accepted")), bool(s.get("fetched")), s.get("tier")=="T1",
             s.get("peer_review_status")=="verified", len(str(s.get("claim_supported", ""))))
 
 def merge(a,b):
@@ -48,4 +51,3 @@ def main():
     return 0
 
 if __name__ == "__main__": sys.exit(main())
-

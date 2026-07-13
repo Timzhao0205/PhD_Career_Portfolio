@@ -24,11 +24,11 @@ Underneath this systems-level shift, three technical fronts are advancing in par
 (1) wide-bandgap (SiC, GaN) device performance and reliability (L02-004, L02-005, L02-006,
 L02-013, L02-014, L02-015, L02-016), (2) medium-voltage solid-state transformers that could
 eventually replace line-frequency transformers in both grid distribution and EV fast-charging
-(L02-001, L02-002, L02-003, L02-017, L02-021, L02-029, L02-030), and (3) extreme point-of-load
+(L02-001, L02-002, L02-017, L02-021, L02-029, L02-030), and (3) extreme point-of-load
 conversion (48V-to-<1V at 1500-2000A) to feed GPU/CPU/FPGA dies directly (L02-022, L02-023,
 L02-024). Ultra-wide-bandgap materials (Ga2O3, diamond, AlN) remain earlier-stage, with Sandia
 explicitly researching them alongside SiC/GaN (L02-031) and multiple 2019-2025 reviews tracking
-Ga2O3's high Baliga figure-of-merit (>3000) but immature device/reliability base (L02-008, L02-025,
+Ga2O3's high Baliga figure-of-merit (>3000) but immature device/reliability base (L02-025,
 L02-027).
 
 ## Bottlenecks
@@ -291,3 +291,11 @@ locator; two (L02-113 Vicor 10-K, L02-115 TenneT/GE Vernova) note honestly where
 SEC.gov/TenneT.eu fetch was blocked (HTTP 403) and a secondary fetch was used instead to confirm the
 same underlying facts. No canonical-key or title collisions were found against the existing 54
 L02 raw/verified records.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L02-003, L02-008
+- removed/trimmed claims: none deleted outright -- both citations were co-supported by other
+  eligible IDs, so only the excluded ID was trimmed from each citation list (MV-SST claim in
+  Frontier state para 2, still supported by L02-001/002/017/021/029/030; Ga2O3 Baliga-FOM claim
+  in Frontier state para 2, still supported by L02-025/027).

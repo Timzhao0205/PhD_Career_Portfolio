@@ -4,6 +4,7 @@ This is a clean-slate, one-command Claude Code research mission. It accepts at l
 unique, quality-controlled sources**, creates at least **48 candidate concepts**, and delivers a
 diverse final portfolio of **24 startup ideas**. Your EE/Computer Engineering background is kept
 as a shallow feasibility prior worth only 2% of the score; it does not choose the search lanes.
+The portfolio is optimized for company formation/launch in **2030**, not immediate formation.
 
 ## Run from Windows PowerShell
 
@@ -28,6 +29,14 @@ If Windows sleeps, a usage limit is reached, or the process stops, run:
 .\RUN_FRONTIER_RESEARCH.ps1 -Resume
 ```
 
+This build resumes at mandatory phase P2A, not P3. It first audits all accepted source origins,
+quarantines India-origin sources as discovery-only, permits mixed academic papers only with a
+verified non-Indian co-author affiliation, replaces evidence if a threshold fails, and repairs the
+atlas. It then continues automatically into the Fable 5/xhigh two-pass P3 round.
+The P3 round assumes company launch in 2030. Existing technical sources are reused as the 2026
+baseline; mutable commercial evidence is refreshed, and every idea is tested against a 2026–2029
+preparation plan and 2030–2034 market window.
+
 ## What the run produces
 
 - `10_SOURCE_ATLAS/`: 16 independent frontier-lane maps and their source ledgers.
@@ -40,6 +49,10 @@ If Windows sleeps, a usage limit is reached, or the process stops, run:
 - `90_BIBLIOGRAPHY/`: canonical 600+ accepted-source ledger and readable bibliography.
 - `98_RUN_LOGS/`: raw Claude output, routing decisions, downgrades, failures, and progress.
 - `99_AUDIT/`: machine and Fable adjudication reports.
+
+P2A records are written to `05_STATE/INDIA_SOURCE_ORIGIN_AUDIT.*` and
+`99_AUDIT/P2A_FABLE_ORIGIN_ADJUDICATION.md`. The existing 27-source prefilter is documented in
+`05_STATE/INDIA_SOURCE_ORIGIN_PREFILTER.*`.
 
 ## Model and cost policy
 

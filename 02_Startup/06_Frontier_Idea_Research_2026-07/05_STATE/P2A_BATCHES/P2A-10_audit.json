@@ -1,0 +1,828 @@
+{
+ "batch_id": "P2A-10",
+ "audited_at": "2026-07-12T00:00:00Z",
+ "model": "claude-sonnet-5",
+ "effort": "high",
+ "entries": [
+  {
+   "id": "L12-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Coherent Corp.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm"],
+   "useful_lead": "",
+   "notes": "Coherent Corp. is a Nasdaq-listed US company (Saxonburg, PA); official SEC EDGAR 10-K filing."
+  },
+  {
+   "id": "L12-036",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Coherent Corp.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.coherent.com/news/press-releases/2025-analyst-investor-day"],
+   "useful_lead": "",
+   "notes": "Coherent Corp.'s own press release; US company, event held at NYSE."
+  },
+  {
+   "id": "L12-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Han's Laser Technology Industry Group Co., Ltd.", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.laserfair.com/m/news/202604/21/90443.html"],
+   "useful_lead": "",
+   "notes": "Shenzhen Stock Exchange-listed Chinese company (002008.SZ); China-based, not India."
+  },
+  {
+   "id": "L12-038",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Wuhan Raycus Fiber Laser Technologies Co., Ltd.", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-23/fd0eb7a0-53c8-4ddf-a758-fc5086284917.PDF"],
+   "useful_lead": "",
+   "notes": "SZSE-listed Wuhan (China) company filing; China-based, not India."
+  },
+  {
+   "id": "L12-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "TRUMPF SE + Co. KG", "country": "DE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.trumpf.com/en_US/newsroom/global-press-releases/"],
+   "useful_lead": "",
+   "notes": "Privately held German company (Ditzingen, Germany)."
+  },
+  {
+   "id": "L12-040",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Defense Advanced Research Projects Agency (DARPA)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.darpa.mil/research/programs/amped"],
+   "useful_lead": "",
+   "notes": "US Department of War agency, official .mil domain."
+  },
+  {
+   "id": "L12-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Defense Advanced Research Projects Agency (DARPA)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.darpa.mil/research/programs/modular-efficient-laser-technology"],
+   "useful_lead": "",
+   "notes": "US government agency, official .mil domain."
+  },
+  {
+   "id": "L12-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "National Nuclear Security Administration", "country": "US"}, {"name": "Lawrence Livermore National Laboratory", "country": "US"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.energy.gov/nnsa/articles/nnsa-and-lawrence-livermore-national-laboratory-advance-laser-upgrade-nuclear-0"],
+   "useful_lead": "",
+   "notes": "US DOE/NNSA official .gov domain."
+  },
+  {
+   "id": "L12-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "GlobalFoundries", "country": "US"}, {"name": "Agency for Science, Technology and Research (A*STAR)", "country": "SG"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/"],
+   "useful_lead": "",
+   "notes": "GlobalFoundries HQ Malta, NY (US); A*STAR is a Singapore government statutory board. Neither India."
+  },
+  {
+   "id": "L12-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. Government Accountability Office", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.gao.gov/products/gao-23-105868"],
+   "useful_lead": "",
+   "notes": "US federal government agency, official .gov domain."
+  },
+  {
+   "id": "L12-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. Government Accountability Office", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://files.gao.gov/reports/GAO-25-107204/index.html"],
+   "useful_lead": "",
+   "notes": "US federal government agency, official .gov domain."
+  },
+  {
+   "id": "L12-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Defense Advanced Research Projects Agency (DARPA)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming"],
+   "useful_lead": "",
+   "notes": "US government agency, official .mil domain."
+  },
+  {
+   "id": "L12-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Electrotechnical Commission (IEC)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.lia.org/store/iec-60825-1-ed30-safety-laser-products-part-1"],
+   "useful_lead": "",
+   "notes": "IEC headquartered in Geneva, Switzerland; distributed via Laser Institute of America (US)."
+  },
+  {
+   "id": "L12-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Organization for Standardization (ISO)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://genorma.com/en/standards/iso-11553-1-2020"],
+   "useful_lead": "",
+   "notes": "ISO headquartered in Geneva, Switzerland; ISO/TC 172/SC 9 committee."
+  },
+  {
+   "id": "L12-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Organization for Standardization (ISO)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://webstore.iec.ch/en/publication/9267"],
+   "useful_lead": "",
+   "notes": "ISO headquartered in Geneva, Switzerland."
+  },
+  {
+   "id": "L12-051",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "IPG Photonics Corporation", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.ipgphotonics.com/en/products/lasers/high-power-cw-fiber-lasers/1-micron/yls-1-120-kw"],
+   "useful_lead": "",
+   "notes": "IPG Photonics HQ Marlborough, Massachusetts (US)."
+  },
+  {
+   "id": "L12-053",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Gigaphoton Inc.", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.gigaphoton.com/ja/products"],
+   "useful_lead": "",
+   "notes": "Gigaphoton is a Komatsu Group company headquartered in Oyama, Tochigi, Japan."
+  },
+  {
+   "id": "L12-054",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Huajing Industry Research Institute (华经产业研究院 / 华经艾凯（北京）企业咨询有限公司)", "country": "CN"}, {"name": "Sina Finance (新浪财经)", "country": "CN"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://finance.sina.com.cn/roll/2025-09-09/doc-infpwvhi3588551.shtml", "https://www.huaon.com/about"],
+   "useful_lead": "",
+   "notes": "Verified via huaon.com official about page: producing entity is Huajing Aikai (Beijing) Enterprise Consulting Co., Ltd, banked at ICBC Beijing Bajiao branch -- Beijing, China headquartered, not India. Reported by Sina Finance, a Chinese media outlet."
+  },
+  {
+   "id": "L13-001",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Fermi National Accelerator Laboratory", "country": "US"},
+    {"name": "Princeton University", "country": "US"},
+    {"name": "Argonne National Laboratory", "country": "US"},
+    {"name": "University of Chicago", "country": "US"},
+    {"name": "Balseiro Institute", "country": "AR"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1063/5.0076249"],
+   "useful_lead": "",
+   "notes": "17 authors, all institutions resolved (US national labs/universities + one Argentina institute). No India affiliation."
+  },
+  {
+   "id": "L13-002",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Warsaw University of Technology", "country": "PL"},
+    {"name": "National Centre for Nuclear Research", "country": "PL"},
+    {"name": "University of Bologna", "country": "IT"},
+    {"name": "Marconi University", "country": "IT"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/s22010038"],
+   "useful_lead": "",
+   "notes": "All authors Poland/Italy institutions. No India affiliation."
+  },
+  {
+   "id": "L13-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Science and Technology of China", "country": "CN"},
+    {"name": "QuantumCTek Co., Ltd", "country": "CN"},
+    {"name": "Xidian University", "country": "CN"},
+    {"name": "Jinan Institute of Quantum Technology", "country": "CN"},
+    {"name": "State Key Laboratory of Cryptology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 229,
+   "evidence_urls": ["https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.134.090601"],
+   "useful_lead": "",
+   "notes": "Verified full authorship list (229 authorships) programmatically -- unique institution country codes are CN only. No India affiliation."
+  },
+  {
+   "id": "L13-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Delft University of Technology", "country": "NL"},
+    {"name": "University College Dublin", "country": "IE"},
+    {"name": "Institut Superieur d'Electronique de Paris", "country": "FR"},
+    {"name": "UC Berkeley", "country": "US"},
+    {"name": "EPFL", "country": "CH"},
+    {"name": "Intel", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/JSSC.2017.2737549"],
+   "useful_lead": "",
+   "notes": "TU Delft-led cryo-CMOS paper; all institutions NL/IE/FR/US/CH. No India affiliation."
+  },
+  {
+   "id": "L13-005",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Delft University of Technology", "country": "NL"},
+    {"name": "Intel", "country": "US"},
+    {"name": "EPFL", "country": "CH"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1145/3061639.3072948"],
+   "useful_lead": "",
+   "notes": "All authors TU Delft/Intel/EPFL. No India affiliation."
+  },
+  {
+   "id": "L13-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "CEA Grenoble", "country": "FR"},
+    {"name": "Institut Polytechnique de Grenoble", "country": "FR"},
+    {"name": "Universite Grenoble Alpes", "country": "FR"},
+    {"name": "STMicroelectronics (France)", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.23919/SNW.2017.8242338"],
+   "useful_lead": "",
+   "notes": "All 11 authors France-based (CEA/Grenoble INP/STMicroelectronics France). No India affiliation."
+  },
+  {
+   "id": "L13-007",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of New Mexico", "country": "US"},
+    {"name": "Sandia National Laboratories", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/TQE.2023.3238670"],
+   "useful_lead": "",
+   "notes": "University of New Mexico + Sandia National Laboratories, both US. No India affiliation."
+  },
+  {
+   "id": "L13-008",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "National Institute of Standards and Technology", "country": "US"},
+    {"name": "Lawrence Berkeley National Laboratory", "country": "US"},
+    {"name": "SLAC National Accelerator Laboratory", "country": "US"},
+    {"name": "Yale University", "country": "US"},
+    {"name": "University of Colorado Boulder", "country": "US"},
+    {"name": "Stanford University", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s10909-024-03126-w"],
+   "useful_lead": "",
+   "notes": "All 8 authors US institutions (NIST/LBNL/SLAC/Yale/CU Boulder/Stanford). No India affiliation. Resolves the raw record's previously-unconfirmed author-list flag."
+  },
+  {
+   "id": "L13-009",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "CERN", "country": "CH"},
+    {"name": "INFN (various sections)", "country": "IT"},
+    {"name": "Lawrence Berkeley National Laboratory", "country": "US"},
+    {"name": "University of Bonn", "country": "DE"},
+    {"name": "University of Oxford", "country": "GB"},
+    {"name": "CNRS / Aix-Marseille Universite", "country": "FR"},
+    {"name": "Universidad de Sevilla", "country": "ES"},
+    {"name": "Institute of High Energy Physics", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 151,
+   "evidence_urls": ["https://api.openalex.org/works/https://doi.org/10.1088/1748-0221/20/03/P03024"],
+   "useful_lead": "",
+   "notes": "Verified full authorship list (151 authorships) programmatically -- unique institution country codes: IT, FR, ES, CH, GB, DE, US, NL, GR, NO, CN, CZ. No India affiliation."
+  },
+  {
+   "id": "L13-010",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Science and Technology of China", "country": "CN"},
+    {"name": "Chinese Academy of Sciences", "country": "CN"},
+    {"name": "Hefei Institutes of Physical Science", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1088/1741-4326/ad933e"],
+   "useful_lead": "",
+   "notes": "All 7 authors China (USTC/CAS/Hefei). No India affiliation."
+  },
+  {
+   "id": "L13-011",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Korea Institute of Fusion Energy", "country": "KR"},
+    {"name": "General Atomics", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.fusengdes.2018.02.066"],
+   "useful_lead": "",
+   "notes": "All authors Korea Institute of Fusion Energy + General Atomics (US). No India affiliation."
+  },
+  {
+   "id": "L13-012",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Novosibirsk State Technical University", "country": "RU"},
+    {"name": "Bauman Moscow State Technical University", "country": "RU"},
+    {"name": "All Russia Research Institute of Automatics", "country": "RU"},
+    {"name": "Leibniz Institute of Photonic Technology", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3762/bjnano.11.131"],
+   "useful_lead": "",
+   "notes": "All authors Russia/Germany institutions. No India affiliation."
+  },
+  {
+   "id": "L13-013",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "RISE Research Institutes of Sweden", "country": "SE"},
+    {"name": "Nanosc AB", "country": "SE"},
+    {"name": "Chalmers University of Technology", "country": "SE"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1002/pssa.202501018"],
+   "useful_lead": "",
+   "notes": "All 5 authors Sweden institutions (RISE/Nanosc/Chalmers). No India affiliation."
+  },
+  {
+   "id": "L13-014",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Duke University", "country": "US"},
+    {"name": "The Ohio State University", "country": "US"},
+    {"name": "IonQ", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1063/1.5018179"],
+   "useful_lead": "",
+   "notes": "All 3 authors US institutions. No India affiliation."
+  },
+  {
+   "id": "L13-015",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Brookhaven National Laboratory", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/https://doi.org/10.1016/j.nima.2018.11.110"],
+   "useful_lead": "",
+   "notes": "All 10 authors Brookhaven National Laboratory (US). No India affiliation."
+  },
+  {
+   "id": "L13-016",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Science and Technology of China", "country": "CN"},
+    {"name": "University of Macau", "country": "MO"},
+    {"name": "Institute of Microelectronics", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/jssc.2025.3530472"],
+   "useful_lead": "",
+   "notes": "USTC + University of Macau authors. No India affiliation."
+  },
+  {
+   "id": "L13-017",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Delft University of Technology", "country": "NL"},
+    {"name": "EPFL", "country": "CH"},
+    {"name": "University of Neuchatel", "country": "CH"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/LSSC.2020.3017705"],
+   "useful_lead": "",
+   "notes": "TU Delft/EPFL authors. No India affiliation."
+  },
+  {
+   "id": "L13-018",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Kobe University", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1145/3658617.3703141"],
+   "useful_lead": "",
+   "notes": "Lead/confirmed author Kobe University, Japan. No India affiliation found; other co-authors not individually enumerated by OpenAlex metadata but geography correctly narrowed to JP per record's own verifier correction."
+  },
+  {
+   "id": "L13-019",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Delft University of Technology", "country": "NL"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1145/2903150.2906828"],
+   "useful_lead": "",
+   "notes": "TU Delft-led continuity paper with L13-004/005/017 team. No India affiliation."
+  },
+  {
+   "id": "L13-020",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Tsinghua Shenzhen International Graduate School", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1063/5.0225000"],
+   "useful_lead": "",
+   "notes": "Both authors Tsinghua Shenzhen International Graduate School (China). No India affiliation."
+  },
+  {
+   "id": "L13-021",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Southern University of Science and Technology", "country": "CN"},
+    {"name": "Beijing Academy of Quantum Information Sciences", "country": "CN"},
+    {"name": "Ningxia University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.chip.2025.100146"],
+   "useful_lead": "",
+   "notes": "All 19 authors China institutions (SUSTech/BAQIS/Ningxia University). No India affiliation."
+  },
+  {
+   "id": "L13-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Electronic Science and Technology of China", "country": "CN"},
+    {"name": "Southern University of Science and Technology", "country": "CN"},
+    {"name": "Chengdu Data Automation System Technologies", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/isscc49661.2025.10904579"],
+   "useful_lead": "",
+   "notes": "All 4 resolved authors China institutions (UESTC/SUSTech/Chengdu Data Automation). No India affiliation."
+  },
+  {
+   "id": "L13-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Tsinghua University", "country": "CN"},
+    {"name": "Nanyang Technological University", "country": "SG"},
+    {"name": "Beijing Academy of Quantum Information Sciences", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.23919/vlsitechnologyandcir65189.2025.11074904"],
+   "useful_lead": "",
+   "notes": "11 authors: Tsinghua University (China) + Nanyang Technological University (Singapore) + BAQIS (China). No India affiliation."
+  },
+  {
+   "id": "L13-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Chinese Academy of Sciences", "country": "CN"},
+    {"name": "Xinjiang Astronomical Observatory", "country": "CN"},
+    {"name": "National Space Science Center", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/electronics14081572"],
+   "useful_lead": "",
+   "notes": "Both authors CAS/Xinjiang Astronomical Observatory/National Space Science Center (China). No India affiliation; raw record's 'multinational' geography narrows to CN."
+  },
+  {
+   "id": "L13-025",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Science and Technology of China", "country": "CN"},
+    {"name": "Alibaba Group", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1063/5.0085467"],
+   "useful_lead": "",
+   "notes": "USTC + Alibaba Quantum Laboratory (China) -- corroborates the record's own verifier correction from an assumed-LBNL geography to CN. No India affiliation."
+  },
+  {
+   "id": "L13-026",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "IEEE Standards Association", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://standards.ieee.org/ieee/1588/6825/"],
+   "useful_lead": "",
+   "notes": "IEEE Standards Association HQ Piscataway, NJ (US)."
+  },
+  {
+   "id": "L13-027",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "CERN", "country": "CH"}, {"name": "GSI Helmholtz Centre for Heavy Ion Research", "country": "DE"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://white-rabbit.web.cern.ch/"],
+   "useful_lead": "",
+   "notes": "CERN (Geneva, Switzerland) / GSI (Darmstadt, Germany) official domain."
+  },
+  {
+   "id": "L13-028",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. Department of Energy", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.energy.gov/articles/energy-department-announces-625-million-advance-next-phase-national-quantum-information"],
+   "useful_lead": "",
+   "notes": "US federal government agency, official .gov domain."
+  },
+  {
+   "id": "L13-030",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ITER Organization", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iter.org/industry/procurement/overview-tenders/open-tenders"],
+   "useful_lead": "",
+   "notes": "ITER Organization headquartered in Saint-Paul-lez-Durance, France."
+  },
+  {
+   "id": "L13-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "National Quantum Initiative / U.S. Department of Commerce, Bureau of Industry and Security", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.quantum.gov/department-of-commerce-releases-export-controls-on-quantum-technologies/"],
+   "useful_lead": "",
+   "notes": "quantum.gov is a US federal government site summarizing US Commerce Dept action."
+  },
+  {
+   "id": "L13-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Fermi National Accelerator Laboratory", "country": "US"},
+    {"name": "U.S. Department of Energy", "country": "US"},
+    {"name": "Qblox", "country": "NL"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://news.fnal.gov/2025/11/energy-department-announces-partnership-with-fermilab-and-qblox-to-manufacture-foundational-quantum-control-platform-for-u-s-research-and-innovation/"],
+   "useful_lead": "",
+   "notes": "Fermilab (US) / DOE (US) / Qblox (Netherlands-headquartered). No India."
+  },
+  {
+   "id": "L13-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "National Institutes for Quantum Science and Technology (QST)", "country": "JP"},
+    {"name": "Fusion for Energy (F4E)", "country": "EU"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://fusionforenergy.europa.eu/news/europe-and-japan-complete-jt-60sa-the-most-powerful-tokamak-in-the-world/"],
+   "useful_lead": "",
+   "notes": "QST (Japan) / F4E (EU agency, Barcelona). No India."
+  },
+  {
+   "id": "L13-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Institute of Plasma Physics, Chinese Academy of Sciences (ASIPP)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.cas.cn/cm/202504/t20250414_5063986.shtml"],
+   "useful_lead": "",
+   "notes": "ASIPP is a CAS institute in Hefei, China. No India."
+  },
+  {
+   "id": "L13-036",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Centre for Quantum Technologies / National Research Foundation / National Quantum Office", "country": "SG"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.cqt.sg/highlight/2024-05-singapore-national-quantum-strategy/"],
+   "useful_lead": "",
+   "notes": "Singapore government/NRF-affiliated body, cqt.sg official domain. No India."
+  },
+  {
+   "id": "L13-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Keysight Technologies", "country": "US"}, {"name": "Stock Titan (distribution platform)", "country": "US"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.stocktitan.net/news/KEYS/keysight-installs-world-s-largest-commercial-quantum-control-system-l5s2ihpugjz9.html", "https://www.stocktitan.net/privacy"],
+   "useful_lead": "",
+   "notes": "Keysight Technologies HQ Santa Rosa, CA (US); named customer AIST/G-QuAT is Japan. Distribution platform Stock Titan's privacy policy confirms 'primary servers are in the United States' with California CPRA disclosures and no India signal found in any search of the platform's ownership/registration."
+  },
+  {
+   "id": "L13-038",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "SEEQC, Inc.", "country": "US"}, {"name": "Industrial Technology Research Institute (ITRI)", "country": "TW"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.prnewswire.com/news-releases/seeqc-partners-with-itri-to-build-advanced-superconducting-electronic-chip-manufacturing-line-302629459.html"],
+   "useful_lead": "",
+   "notes": "SEEQC HQ Elmsford, NY (US); ITRI is Taiwan's national research institute; distributed via PR Newswire (Cision, US). No India."
+  },
+  {
+   "id": "L13-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Quantum Machines", "country": "IL"}, {"name": "KRISS", "country": "KR"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.prnewswire.com/news-releases/quantum-machines-forges-strategic-partnerships-with-leading-korean-research-and-investment-groups-301864490.html"],
+   "useful_lead": "",
+   "notes": "Quantum Machines HQ Tel Aviv (Israel); KRISS is Korea's national metrology institute; distributed via PR Newswire (US). No India."
+  },
+  {
+   "id": "L13-040",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Businesskorea", "country": "KR"}, {"name": "KRISS", "country": "KR"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.businesskorea.co.kr/news/articleView.html?idxno=237878"],
+   "useful_lead": "",
+   "notes": "Businesskorea HQ confirmed Seoul, South Korea (301 Samdo Building, Yeoido-dong, Yeongdeungpo-gu, Seoul) via web search. No India."
+  },
+  {
+   "id": "L13-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Bluefors Oy", "country": "FI"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://bluefors.com/press-releases/bluefors-opens-expanded-u-s-production-facilities-becomes-biggest-producer-of-dilution-refrigerators-in-north-america/"],
+   "useful_lead": "",
+   "notes": "Bluefors Oy headquartered in Helsinki, Finland."
+  },
+  {
+   "id": "L13-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Delft Circuits", "country": "NL"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://delft-circuits.com/delft-circuits-presents-its-i-o-roadmap-for-scaling-quantum-computers-towards-thousands-of-qubits/"],
+   "useful_lead": "",
+   "notes": "Delft Circuits is a Netherlands (Delft) company."
+  },
+  {
+   "id": "L13-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "QuEL, Inc.", "country": "JP"}, {"name": "RIKEN", "country": "JP"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://quel-inc.com/ja/2023/03/27/riken/"],
+   "useful_lead": "",
+   "notes": "QuEL, Inc. is an Osaka University spinout, Japan. RIKEN is a Japanese national lab. No India."
+  },
+  {
+   "id": "L13-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "AMD (Xilinx)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://docs.amd.com/r/en-US/ds926-zynq-ultrascale-plus-rfsoc"],
+   "useful_lead": "",
+   "notes": "AMD headquartered in Santa Clara, CA (US); Xilinx is an AMD subsidiary."
+  },
+  {
+   "id": "L13-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Quantum Machines", "country": "IL"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.quantum-machines.co/products/opx1000/"],
+   "useful_lead": "",
+   "notes": "Quantum Machines HQ Tel Aviv, Israel."
+  },
+  {
+   "id": "L13-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.cas.cn/yw/202503/t20250304_5048593.shtml"],
+   "useful_lead": "",
+   "notes": "CAS official domain, Beijing, China."
+  },
+  {
+   "id": "L13-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "University of Science and Technology of China", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://news.ustc.edu.cn/info/1056/90742.htm"],
+   "useful_lead": "",
+   "notes": "USTC official news domain, Hefei, China."
+  },
+  {
+   "id": "L13-050",
+   "verdict": "discovery_only",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Valuates Reports", "country": "IN"}, {"name": "QYResearch", "country": "US"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": [
+    "https://reports.valuates.com/market-reports/QYRE-Auto-24T19077/global-dilution-refrigerator-for-quantum-computing",
+    "https://www.facebook.com/valuates/",
+    "https://in.linkedin.com/company/valuatesreports",
+    "https://inc42.com/company/valuates-reports/"
+   ],
+   "useful_lead": "Dilution-refrigerator-for-quantum-computing market estimated at roughly US$72.6M (2024) growing to US$193M by 2031 (~15% CAGR); lists 9 major vendors (Bluefors, ULVAC, Oxford Instruments, Cryoconcept, FormFactor, Maybell Quantum, Zero Point Cryogenics, Benyuan Quantum Computing/Hefei, Hefei QuantumCTek). Independently confirm market-size/vendor-share figures via a non-India-based market-research source (e.g., a QYResearch report published/sold directly by QYResearch's own US entity, or vendor-disclosed figures from Bluefors/Oxford Instruments) before use in demand or market-size claims.",
+   "notes": "The record's accessed/canonical URL (reports.valuates.com) is published by Valuates Reports, confirmed headquartered in Bangalore/Bengaluru, Karnataka, India (per Facebook, LinkedIn, and Inc42 company-profile listings) -- exactly the India-registered market-research-consultancy pattern flagged in the audit brief. Although the underlying research house cited in authors_or_org is 'QYResearch' (confirmed US-headquartered, City of Industry, CA, per qyresearch.com/about-us and multiple business-directory listings), the actual source being cited and fetched (reports.valuates.com) is India-published and therefore excluded from supporting technical/demand/market claims per the binding source-origin rule. Downgraded from verified to discovery_only; record was already T3/context-only per its own notes."
+  },
+  {
+   "id": "L14-001",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Zhejiang University", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.ijheatmasstransfer.2024.126575"],
+   "useful_lead": "",
+   "notes": "All 8 authors Zhejiang University (China) -- resolves the raw record's 'unconfirmed authors' placeholder. No India affiliation."
+  },
+  {
+   "id": "L14-002",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Alexandria University", "country": "EG"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s10973-025-14006-0"],
+   "useful_lead": "",
+   "notes": "All 4 authors Alexandria University, Egypt -- resolves the raw record's 'unconfirmed authors' placeholder. No India affiliation."
+  },
+  {
+   "id": "L14-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Tongji University", "country": "CN"},
+    {"name": "Hong Kong Polytechnic University", "country": "HK"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.rser.2025.115994"],
+   "useful_lead": "",
+   "notes": "Authors from Tongji University (China) and Hong Kong Polytechnic University -- resolves the raw record's 'unconfirmed authors' placeholder. No India affiliation."
+  },
+  {
+   "id": "L14-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Xi'an Jiaotong University", "country": "CN"},
+    {"name": "ZTE", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.applthermaleng.2025.126385"],
+   "useful_lead": "",
+   "notes": "All 10 authors Xi'an Jiaotong University / ZTE (China). No India affiliation; author list already confirmed in raw record."
+  },
+  {
+   "id": "L14-005",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Hefei General Machinery Research Institute Co., Ltd.", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.stet-review.org/articles/stet/full_html/2024/01/stet20240005/stet20240005.html"],
+   "useful_lead": "",
+   "notes": "All 5 authors Hefei General Machinery Research Institute (China), confirmed directly on the publisher's (STET/EDP Sciences) own open-access article page per the record's existing verifier notes. No India affiliation."
+  },
+  {
+   "id": "L14-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Nanjing Tech University", "country": "CN"},
+    {"name": "ZTT", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/buildings15060905"],
+   "useful_lead": "",
+   "notes": "All 8 authors Nanjing Tech University / ZTT (China) -- resolves the raw record's 'unconfirmed authors' placeholder. No India affiliation."
+  }
+ ]
+}

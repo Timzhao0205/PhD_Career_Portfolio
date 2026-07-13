@@ -5,6 +5,8 @@
 | Orchestration, anti-anchoring, phase gates | `claude-fable-5` | xhigh | Long-horizon judgment | Critical |
 | Lane/source discovery | `claude-sonnet-5` | medium | Search breadth dominates | Economy route |
 | Peer-review and claim verification | `claude-sonnet-5` | high | Repetitive but accuracy-sensitive | Economy route |
+| P2A India source-origin audit | `claude-sonnet-5` | high | Full-ledger affiliation and organization verification | Economy route |
+| P2A origin adjudication | inherit Fable 5 | xhigh | Critical sampling, exception review, and atlas sign-off | Critical |
 | Demand/competitor evidence | `claude-sonnet-5` | high | Primary-source retrieval | Economy route |
 | P3 round-2 idea architecture | inherit Fable 5 | xhigh | Five independent geographic/technical synthesis batches | Critical |
 | P3 elegance/novelty adjudication | inherit Fable 5 | xhigh | Independent second pass before longlist freeze | Critical |

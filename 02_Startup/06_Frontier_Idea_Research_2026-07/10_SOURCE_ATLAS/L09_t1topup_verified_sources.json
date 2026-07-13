@@ -8,12 +8,17 @@
     "canonical_key": "doi:10.2514/1.b37938",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "GB"],
+    "geography": [
+      "US",
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.2514/1.B37938",
     "doi": "10.2514/1.B37938",
@@ -22,7 +27,30 @@
     "locator": "Journal of Propulsion and Power (AIAA), Vol.37, No.3, pp.436-449 (2021)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Metadata confirmed via Crossref API; AIAA arc.aiaa.org abstract page not separately fetched. VERIFIER: Independently re-fetched Crossref API this session (api.crossref.org/works/10.2514/1.B37938) -- confirms container-title 'Journal of Propulsion and Power', vol.37/issue.3/pp.436-449/2021, type=journal-article, publisher=AIAA; matches title/author list exactly. Direct AIAA arc.aiaa.org page returned HTTP 403 this session (consistent anti-bot block). Journal of Propulsion and Power is AIAA's established peer-reviewed journal (not a conference proceeding) -- final-venue peer-review criteria satisfied per ASSUMPTIONS.md ruling (Crossref-record route). GB geography flag resolved: independent WebSearch this session confirms Rhodri A. Lewis is affiliated with QinetiQ, Farnborough, Hampshire, UK (SEPS Thruster Lead Engineer), corroborating the scout's heritage-based GB inference beyond mere program-heritage guesswork. ACCEPTED T1 academic_peer_reviewed."
+    "notes": "SCOUT: Metadata confirmed via Crossref API; AIAA arc.aiaa.org abstract page not separately fetched. VERIFIER: Independently re-fetched Crossref API this session (api.crossref.org/works/10.2514/1.B37938) -- confirms container-title 'Journal of Propulsion and Power', vol.37/issue.3/pp.436-449/2021, type=journal-article, publisher=AIAA; matches title/author list exactly. Direct AIAA arc.aiaa.org page returned HTTP 403 this session (consistent anti-bot block). Journal of Propulsion and Power is AIAA's established peer-reviewed journal (not a conference proceeding) -- final-venue peer-review criteria satisfied per ASSUMPTIONS.md ruling (Crossref-record route). GB geography flag resolved: independent WebSearch this session confirms Rhodri A. Lewis is affiliated with QinetiQ, Farnborough, Hampshire, UK (SEPS Thruster Lead Engineer), corroborating the scout's heritage-based GB inference beyond mere program-heritage guesswork. ACCEPTED T1 academic_peer_reviewed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Jet Propulsion Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "QinetiQ",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.2514/1.b37938"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to JPL (US) or QinetiQ (UK)."
+    }
   },
   {
     "id": "L09-102",
@@ -33,12 +61,16 @@
     "canonical_key": "doi:10.1007/s44205-023-00041-2",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s44205-023-00041-2",
     "doi": "10.1007/s44205-023-00041-2",
@@ -47,7 +79,26 @@
     "locator": "Journal of Electric Propulsion (Springer), Vol.2, No.1, article 7 (2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Metadata confirmed via Crossref API; Springer submission-guidelines URL used as evidence. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Journal of Electric Propulsion', vol.2/issue.1/article 7/2023, type=journal-article, publisher=Springer; matches exactly. Direct link.springer.com article page and springer.com/journal/44205 page both redirected into an idp.springer.com cookie/login wall this session (paywall, not content-bearing) -- could not independently fetch publisher page content. Journal of Electric Propulsion is Springer's dedicated peer-reviewed electric-propulsion journal (est. 2022). Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c), since the Springer submission-guidelines URL could not be confirmed reachable this session. ACCEPTED T1 academic_peer_reviewed."
+    "notes": "SCOUT: Metadata confirmed via Crossref API; Springer submission-guidelines URL used as evidence. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Journal of Electric Propulsion', vol.2/issue.1/article 7/2023, type=journal-article, publisher=Springer; matches exactly. Direct link.springer.com article page and springer.com/journal/44205 page both redirected into an idp.springer.com cookie/login wall this session (paywall, not content-bearing) -- could not independently fetch publisher page content. Journal of Electric Propulsion is Springer's dedicated peer-reviewed electric-propulsion journal (est. 2022). Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c), since the Springer submission-guidelines URL could not be confirmed reachable this session. ACCEPTED T1 academic_peer_reviewed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "ThrustMe",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1007/s44205-023-00041-2"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolve to ThrustMe, Massy, France."
+    }
   },
   {
     "id": "L09-103",
@@ -58,12 +109,16 @@
     "canonical_key": "doi:10.1002/pssa.202500589",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/pssa.202500589",
     "doi": "10.1002/pssa.202500589",
@@ -72,7 +127,26 @@
     "locator": "physica status solidi (a), Vol.223, Issue 1, article e202500589 (2026)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Metadata confirmed via Crossref API; geography inferred from Chowdhury's known Stanford affiliation, not independently confirmed. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'physica status solidi (a)', vol.223/issue.1/article e202500589/2026, type=journal-article, publisher=Wiley, AND this pass returned full author-affiliation data: all 5 authors listed as Stanford University, Stanford, California, USA -- resolves the scout's geography flag with direct Crossref-sourced confirmation (US only, no additional geography). Direct onlinelibrary.wiley.com article page returned HTTP 402 Payment Required (paywall, confirms the article exists but content inaccessible). physica status solidi (a) is a long-established Wiley peer-reviewed physics journal. ACCEPTED T1 academic_peer_reviewed; authors_or_org updated to reflect confirmed all-Stanford affiliation."
+    "notes": "SCOUT: Metadata confirmed via Crossref API; geography inferred from Chowdhury's known Stanford affiliation, not independently confirmed. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'physica status solidi (a)', vol.223/issue.1/article e202500589/2026, type=journal-article, publisher=Wiley, AND this pass returned full author-affiliation data: all 5 authors listed as Stanford University, Stanford, California, USA -- resolves the scout's geography flag with direct Crossref-sourced confirmation (US only, no additional geography). Direct onlinelibrary.wiley.com article page returned HTTP 402 Payment Required (paywall, confirms the article exists but content inaccessible). physica status solidi (a) is a long-established Wiley peer-reviewed physics journal. ACCEPTED T1 academic_peer_reviewed; authors_or_org updated to reflect confirmed all-Stanford affiliation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Stanford University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1002/pssa.202500589"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to Stanford University, USA."
+    }
   },
   {
     "id": "L09-104",
@@ -83,12 +157,17 @@
     "canonical_key": "doi:10.1109/tns.2025.3561583",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR", "FI"],
+    "geography": [
+      "FR",
+      "FI"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/",
     "doi": "10.1109/TNS.2025.3561583",
@@ -97,7 +176,38 @@
     "locator": "IEEE Transactions on Nuclear Science, Vol.72, Issue 8, pp.2368-2376 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: IEEE Xplore returned blank content; metadata confirmed via Crossref API; geography inferred as FR from Caen/Montpellier author pattern. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'IEEE Transactions on Nuclear Science' (journal, not conference), vol.72/issue.8/pp.2368-2376/2025, type=journal-article; this pass returned full affiliation data including one co-author (Kimmo Niskanen) at University of Jyvaskyla, Finland, not previously flagged -- geography updated FR->[FR,FI]. Note: affiliation-level detail from this WebFetch-summarized Crossref call could not be independently cross-checked against raw API JSON (small-model summarization risk), so this addition is flagged as session-derived, moderate confidence. Direct IEEE Xplore document page returned HTTP 403 this session (same block pattern). Independently fetched and confirmed IEEE's peer-review policy page this session (journals.ieeeauthorcenter.ieee.org) -- quotes 'IEEE policy requires at least two qualified reviewers evaluate a submitted article before the editor can accept that article for publication,' applicable to IEEE Transactions journals. ACCEPTED T1 academic_peer_reviewed."
+    "notes": "SCOUT: IEEE Xplore returned blank content; metadata confirmed via Crossref API; geography inferred as FR from Caen/Montpellier author pattern. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'IEEE Transactions on Nuclear Science' (journal, not conference), vol.72/issue.8/pp.2368-2376/2025, type=journal-article; this pass returned full affiliation data including one co-author (Kimmo Niskanen) at University of Jyvaskyla, Finland, not previously flagged -- geography updated FR->[FR,FI]. Note: affiliation-level detail from this WebFetch-summarized Crossref call could not be independently cross-checked against raw API JSON (small-model summarization risk), so this addition is flagged as session-derived, moderate confidence. Direct IEEE Xplore document page returned HTTP 403 this session (same block pattern). Independently fetched and confirmed IEEE's peer-review policy page this session (journals.ieeeauthorcenter.ieee.org) -- quotes 'IEEE policy requires at least two qualified reviewers evaluate a submitted article before the editor can accept that article for publication,' applicable to IEEE Transactions journals. ACCEPTED T1 academic_peer_reviewed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Universite de Caen Normandie / CRISMAT",
+          "country": "FR"
+        },
+        {
+          "name": "Universite de Montpellier / Institut d'Electronique et des Systemes",
+          "country": "FR"
+        },
+        {
+          "name": "University of Jyvaskyla",
+          "country": "FI"
+        },
+        {
+          "name": "Centre National d'Etudes Spatiales (CNES)",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/tns.2025.3561583"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolve to French or Finnish institutions."
+    }
   },
   {
     "id": "L09-105",
@@ -108,12 +218,16 @@
     "canonical_key": "doi:10.1080/00295450.2020.1722554",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.ans.org/pubs/journals/nt/",
     "doi": "10.1080/00295450.2020.1722554",
@@ -122,7 +236,34 @@
     "locator": "Nuclear Technology (American Nuclear Society / Taylor & Francis), Vol.206, Issue sup1 (2020)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: tandfonline.com returned HTTP 403; metadata confirmed via Crossref API. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Nuclear Technology', vol.206/issue.sup1/2020, type=journal-article, publisher=Informa UK Limited (Taylor & Francis, ANS's publishing partner). This pass's affiliation summary listed R. Chris Robinson at 'Y-12 National Security Complex, Oak Ridge, Tennessee' rather than NASA Glenn as in the raw record's authors_or_org grouping -- flagged but NOT used to overwrite authors_or_org this session, since single-pass WebFetch affiliation summaries carry a real risk of small-model inference/hallucination on granular per-author detail not central to the prompt, and this does not affect geography (US either way) or the accept/reject determination; left for a future dedicated affiliation-audit pass. Direct tandfonline.com fetch re-attempted this session, again returned HTTP 403 (confirms scout's finding, persistent block). Independently fetched ans.org/pubs/journals/nt/ this session, confirming Nuclear Technology as ANS's flagship journal with editorial board/reviewer infrastructure. ACCEPTED T1 academic_peer_reviewed."
+    "notes": "SCOUT: tandfonline.com returned HTTP 403; metadata confirmed via Crossref API. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Nuclear Technology', vol.206/issue.sup1/2020, type=journal-article, publisher=Informa UK Limited (Taylor & Francis, ANS's publishing partner). This pass's affiliation summary listed R. Chris Robinson at 'Y-12 National Security Complex, Oak Ridge, Tennessee' rather than NASA Glenn as in the raw record's authors_or_org grouping -- flagged but NOT used to overwrite authors_or_org this session, since single-pass WebFetch affiliation summaries carry a real risk of small-model inference/hallucination on granular per-author detail not central to the prompt, and this does not affect geography (US either way) or the accept/reject determination; left for a future dedicated affiliation-audit pass. Direct tandfonline.com fetch re-attempted this session, again returned HTTP 403 (confirms scout's finding, persistent block). Independently fetched ans.org/pubs/journals/nt/ this session, confirming Nuclear Technology as ANS's flagship journal with editorial board/reviewer infrastructure. ACCEPTED T1 academic_peer_reviewed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Los Alamos National Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "NASA Glenn Research Center",
+          "country": "US"
+        },
+        {
+          "name": "Oak Ridge National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1080/00295450.2020.1722554"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to US national laboratories."
+    }
   },
   {
     "id": "L09-106",
@@ -133,12 +274,16 @@
     "canonical_key": "doi:10.3390/aerospace12060514",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/aerospace12060514",
     "doi": "10.3390/aerospace12060514",
@@ -147,7 +292,30 @@
     "locator": "Aerospace (MDPI), Vol.12, Issue 6, article 514 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: mdpi.com returned HTTP 403; metadata confirmed via Crossref API; geography inferred JP. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Aerospace', vol.12/issue.6/article 514/2025, type=journal-article, publisher=MDPI AG; this pass returned full affiliation data confirming all 10 authors at JAXA (Sagamihara/Tsukuba) or Kanadevia Corporation (formerly IHI Corporation), Osaka -- geography JP fully confirmed, no correction needed. Direct mdpi.com article-page re-fetch this session returned an empty/non-content response (consistent inaccessibility, different failure mode than scout's 403 but same net result: no independent publisher-page content obtained). mdpi.com/editorial_process page also returned HTTP 403 this session. Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed; authors_or_org updated with confirmed affiliations."
+    "notes": "SCOUT: mdpi.com returned HTTP 403; metadata confirmed via Crossref API; geography inferred JP. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Aerospace', vol.12/issue.6/article 514/2025, type=journal-article, publisher=MDPI AG; this pass returned full affiliation data confirming all 10 authors at JAXA (Sagamihara/Tsukuba) or Kanadevia Corporation (formerly IHI Corporation), Osaka -- geography JP fully confirmed, no correction needed. Direct mdpi.com article-page re-fetch this session returned an empty/non-content response (consistent inaccessibility, different failure mode than scout's 403 but same net result: no independent publisher-page content obtained). mdpi.com/editorial_process page also returned HTTP 403 this session. Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed; authors_or_org updated with confirmed affiliations.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Japan Aerospace Exploration Agency (JAXA)",
+          "country": "JP"
+        },
+        {
+          "name": "Kanadevia Corporation",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3390/aerospace12060514"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 10 authors resolve to JAXA or Kanadevia Corporation (formerly IHI Corporation), Japan."
+    }
   },
   {
     "id": "L09-107",
@@ -158,12 +326,17 @@
     "canonical_key": "doi:10.2514/1.b39198",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "AU"],
+    "geography": [
+      "US",
+      "AU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.2514/1.B39198",
     "doi": "10.2514/1.B39198",
@@ -172,7 +345,30 @@
     "locator": "Journal of Propulsion and Power (AIAA), Vol.39, No.6, pp.896-904 (2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Metadata confirmed via Crossref API; AIAA page not separately fetched. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Journal of Propulsion and Power', vol.39/issue.6/pp.896-904/2023, type=journal-article, publisher=AIAA; this pass confirmed author-affiliation data matching University of Michigan (US) and UNSW Canberra (AU) exactly as scout recorded. Direct arc.aiaa.org page returned HTTP 403 this session (same block as L09-101). Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed."
+    "notes": "SCOUT: Metadata confirmed via Crossref API; AIAA page not separately fetched. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Journal of Propulsion and Power', vol.39/issue.6/pp.896-904/2023, type=journal-article, publisher=AIAA; this pass confirmed author-affiliation data matching University of Michigan (US) and UNSW Canberra (AU) exactly as scout recorded. Direct arc.aiaa.org page returned HTTP 403 this session (same block as L09-101). Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Michigan",
+          "country": "US"
+        },
+        {
+          "name": "University of New South Wales (UNSW Canberra)",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.2514/1.b39198"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Two authors resolve to University of Michigan (US) and UNSW Canberra (AU)."
+    }
   },
   {
     "id": "L09-108",
@@ -183,12 +379,16 @@
     "canonical_key": "doi:10.1080/00295639.2025.2568299",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.ans.org/pubs/journals/nse/",
     "doi": "10.1080/00295639.2025.2568299",
@@ -197,7 +397,26 @@
     "locator": "Nuclear Science and Engineering (American Nuclear Society / Taylor & Francis), published online 28 Oct 2025, pp.1-14",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: tandfonline.com fetch not attempted (anticipated 403); metadata + all-Xi'an-University-of-Technology affiliation confirmed via Crossref API. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Nuclear Science and Engineering', pp.1-14/2025, type=journal-article, publisher=Informa UK Limited; author affiliations confirmed all Xi'an University of Technology, China, matching scout exactly. Direct tandfonline.com re-attempt this session again returned HTTP 403 (confirms persistent block). Independently fetched ans.org/pubs/journals/nse/ this session -- explicitly quotes 'NSE is the first and oldest peer-reviewed journal in its field, published by ANS since 1956.' ACCEPTED T1 academic_peer_reviewed."
+    "notes": "SCOUT: tandfonline.com fetch not attempted (anticipated 403); metadata + all-Xi'an-University-of-Technology affiliation confirmed via Crossref API. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Nuclear Science and Engineering', pp.1-14/2025, type=journal-article, publisher=Informa UK Limited; author affiliations confirmed all Xi'an University of Technology, China, matching scout exactly. Direct tandfonline.com re-attempt this session again returned HTTP 403 (confirms persistent block). Independently fetched ans.org/pubs/journals/nse/ this session -- explicitly quotes 'NSE is the first and oldest peer-reviewed journal in its field, published by ANS since 1956.' ACCEPTED T1 academic_peer_reviewed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1080/00295639.2025.2568299"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to Xi'an University of Technology, China."
+    }
   },
   {
     "id": "L09-109",
@@ -208,12 +427,16 @@
     "canonical_key": "doi:10.1088/2058-6272/ade421",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/2058-6272/ade421",
     "doi": "10.1088/2058-6272/ade421",
@@ -222,7 +445,34 @@
     "locator": "Plasma Science and Technology (IOP Publishing), Vol.27, No.6, article 064012 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Metadata confirmed via Crossref API; IOPscience page not separately fetched; geography inferred CN from all-Chinese author-name pattern. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Plasma Science and Technology', vol.27/issue.6/article 064012/2025, type=journal-article, publisher=IOP Publishing; no affiliation data returned by Crossref for this record, so geography CN remains an inference (not independently upgraded to confirmed), consistent with scout's original flag. Direct iopscience.iop.org article page returned HTTP 403 this session; iopscience.iop.org/journal/2058-6272 (main journal page) also 403; iopscience.iop.org/journal/2058-6272/page/editorial-board returned HTTP 404. Plasma Science and Technology is a CAS/Hefei-Institutes-affiliated, IOP-co-published, SCI-indexed peer-reviewed journal. Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed; geography CN retained as inference, not independently re-confirmed."
+    "notes": "SCOUT: Metadata confirmed via Crossref API; IOPscience page not separately fetched; geography inferred CN from all-Chinese author-name pattern. VERIFIER: Independently re-fetched Crossref API this session -- confirms container-title 'Plasma Science and Technology', vol.27/issue.6/article 064012/2025, type=journal-article, publisher=IOP Publishing; no affiliation data returned by Crossref for this record, so geography CN remains an inference (not independently upgraded to confirmed), consistent with scout's original flag. Direct iopscience.iop.org article page returned HTTP 403 this session; iopscience.iop.org/journal/2058-6272 (main journal page) also 403; iopscience.iop.org/journal/2058-6272/page/editorial-board returned HTTP 404. Plasma Science and Technology is a CAS/Hefei-Institutes-affiliated, IOP-co-published, SCI-indexed peer-reviewed journal. Peer-review-evidence URL changed to the successfully-fetched Crossref API record per ASSUMPTIONS.md ruling clause (c). ACCEPTED T1 academic_peer_reviewed; geography CN retained as inference, not independently re-confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Beijing Research Institute of Mechanical and Electrical Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Beijing University of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Space Engineering University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1088/2058-6272/ade421"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Chinese institutions (Crossref/OpenAlex returned no explicit institution IDs but the container venue and author-name pattern were independently corroborated; institution names above are from the WebFetch-summarized affiliation data)."
+    }
   },
   {
     "id": "L09-110",
@@ -233,12 +483,16 @@
     "canonical_key": "doi:10.11884/hplpb202537.250172",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:14:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.hplpb.com.cn/",
     "doi": "10.11884/HPLPB202537.250172",
@@ -247,7 +501,27 @@
     "locator": "强激光与粒子束 (High Power Laser and Particle Beams), 2025, article 094005",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Publisher page (hplpb.com.cn) fetched directly; title/authors/finding confirmed. VERIFIER: This DOI does NOT resolve via Crossref API this session (api.crossref.org/works/10.11884/HPLPB202537.250172 returned HTTP 404) -- Chinese-domestic journal DOIs are frequently registered outside Crossref (e.g., via a domestic DOI agency) or not registered at all; this is expected and does not itself indicate a problem. Independently re-fetched the publisher journal homepage (hplpb.com.cn) this session -- confirms explicit peer-review-policy infrastructure: navigation includes '同行评议政策' (Peer Review Policy) as a dedicated page, plus an editorial-committee page, and the 'Latest Accepted' section is explicitly captioned '经同行评议确定正式录用的文章' ('articles formally accepted following peer review'). This journal (强激光与粒子束) is already an established, EI-Compendex-indexed Chinese-core journal in this lane's ledger via L09-028. Direct fetch of the specific /peer-review-policy sub-path returned only navigation chrome, not the policy text itself -- used the homepage URL (successfully fetched with explicit peer-review quote) as the evidence URL instead. ACCEPTED T1 academic_peer_reviewed via the direct-publisher-page route (not Crossref) per ASSUMPTIONS.md ruling."
+    "notes": "SCOUT: Publisher page (hplpb.com.cn) fetched directly; title/authors/finding confirmed. VERIFIER: This DOI does NOT resolve via Crossref API this session (api.crossref.org/works/10.11884/HPLPB202537.250172 returned HTTP 404) -- Chinese-domestic journal DOIs are frequently registered outside Crossref (e.g., via a domestic DOI agency) or not registered at all; this is expected and does not itself indicate a problem. Independently re-fetched the publisher journal homepage (hplpb.com.cn) this session -- confirms explicit peer-review-policy infrastructure: navigation includes '同行评议政策' (Peer Review Policy) as a dedicated page, plus an editorial-committee page, and the 'Latest Accepted' section is explicitly captioned '经同行评议确定正式录用的文章' ('articles formally accepted following peer review'). This journal (强激光与粒子束) is already an established, EI-Compendex-indexed Chinese-core journal in this lane's ledger via L09-028. Direct fetch of the specific /peer-review-policy sub-path returned only navigation chrome, not the policy text itself -- used the homepage URL (successfully fetched with explicit peer-review quote) as the evidence URL instead. ACCEPTED T1 academic_peer_reviewed via the direct-publisher-page route (not Crossref) per ASSUMPTIONS.md ruling.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Lanzhou Institute of Space Technology and Physics",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202537.250172?viewType=HTML",
+        "https://www.researching.cn/ArticlePdf/m00012/2025/37/9/094005.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not registered in OpenAlex/Crossref. Independent search confirms lead author (Sun Mingming, also author of L09-028) affiliated with Lanzhou Institute of Space Technology and Physics, Gansu, China."
+    }
   },
   {
     "id": "L09-111",
@@ -258,12 +532,16 @@
     "canonical_key": "standard:ECSS-E-ST-20-20C",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -272,7 +550,26 @@
     "locator": "ECSS-E-ST-20-20C standard page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Directly fetched and confirmed; fills documented gap versus general ECSS-E-ST-20C (L09-044). VERIFIER: Independently re-fetched the official ecss.nl standard page this session -- confirms title, 15 April 2016 publication date, ECSS as issuing body, and scope description (LCL/RLCL power distribution, science/EO/navigation missions, GEO-telecom fuse-based systems excluded) matching the scout's record exactly. Official standards-body primary record; no peer-review applicable. ACCEPTED T1 standard."
+    "notes": "SCOUT: Directly fetched and confirmed; fills documented gap versus general ECSS-E-ST-20C (L09-044). VERIFIER: Independently re-fetched the official ecss.nl standard page this session -- confirms title, 15 April 2016 publication date, ECSS as issuing body, and scope description (LCL/RLCL power distribution, science/EO/navigation missions, GEO-telecom fuse-based systems excluded) matching the scout's record exactly. Official standards-body primary record; no peer-review applicable. ACCEPTED T1 standard.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Cooperation for Space Standardization (ECSS) / European Space Agency",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ecss.nl/standard/ecss-e-st-20-20c-space-engineering-electrical-design-and-interface-requirements-for-power-supply-15-april-2016-2/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ECSS/ESA European standards body."
+    }
   },
   {
     "id": "L09-112",
@@ -283,12 +580,16 @@
     "canonical_key": "https://www.sbir.gov/awards/204151",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -297,7 +598,30 @@
     "locator": "SBIR.gov award page 204151, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Directly fetched sbir.gov award page; awardee/agency/amount/period/abstract confirmed. VERIFIER: Independently re-fetched sbir.gov/awards/204151 this session -- confirms award title, awardee (Creare LLC), agency (NASA), total amount ($849,950), and period of performance (June 13, 2023 - June 12, 2025) exactly matching the scout's record. Official government primary award record. ACCEPTED T1 government, demand_evidence_type=official_project_award."
+    "notes": "SCOUT: Directly fetched sbir.gov award page; awardee/agency/amount/period/abstract confirmed. VERIFIER: Independently re-fetched sbir.gov/awards/204151 this session -- confirms award title, awardee (Creare LLC), agency (NASA), total amount ($849,950), and period of performance (June 13, 2023 - June 12, 2025) exactly matching the scout's record. Official government primary award record. ACCEPTED T1 government, demand_evidence_type=official_project_award.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "CREARE LLC",
+          "country": "US"
+        },
+        {
+          "name": "NASA",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.sbir.gov/awards/204151"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CREARE LLC is headquartered in Hanover, New Hampshire, USA; NASA is the awarding US federal agency (sbir.gov official domain)."
+    }
   },
   {
     "id": "L09-113",
@@ -308,12 +632,16 @@
     "canonical_key": "https://www.sbir.gov/awards/212066",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:17:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -322,7 +650,26 @@
     "locator": "SBIR.gov award page 212066, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Directly fetched sbir.gov award page; awardee/agency/amount/period/abstract confirmed. VERIFIER: Independently re-fetched sbir.gov/awards/212066 this session -- confirms award title, awardee (Alphacore, Inc.), agency (NASA), total amount ($899,958), and period of performance (July 27, 2024 - July 26, 2026) exactly matching the scout's record. Official government primary award record. ACCEPTED T1 government, demand_evidence_type=official_project_award."
+    "notes": "SCOUT: Directly fetched sbir.gov award page; awardee/agency/amount/period/abstract confirmed. VERIFIER: Independently re-fetched sbir.gov/awards/212066 this session -- confirms award title, awardee (Alphacore, Inc.), agency (NASA), total amount ($899,958), and period of performance (July 27, 2024 - July 26, 2026) exactly matching the scout's record. Official government primary award record. ACCEPTED T1 government, demand_evidence_type=official_project_award.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA (funding agency) / Alphacore, Inc., Tempe, AZ (awardee)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sbir.gov/awards/212066"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official US government (NASA) SBIR award page; awardee Alphacore, Inc. headquartered Tempe, Arizona, US. No India connection."
+    }
   },
   {
     "id": "L09-114",
@@ -333,12 +680,16 @@
     "canonical_key": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -347,7 +698,27 @@
     "locator": "Rocket Lab USA, Inc. Form 10-K (FY2025, filed 2026-02-26 per SEC EDGAR acceptance stamp cited by the aggregator), Space Systems segment description, as reproduced via StockTitan SEC-filing summary; primary filing itself inaccessible this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT/ORCHESTRATOR FLAG: direct WebFetch of sec.gov 10-K returned HTTP 403; only stocktitan.net third-party aggregator was fetchable. VERIFIER TIER-DISCIPLINE DETERMINATION: Made an aggressive, multi-route re-fetch attempt this session specifically targeting SEC/primary-source identity: (1) sec.gov/cgi-bin/browse-edgar company-search -- HTTP 403; (2) data.sec.gov/submissions/CIK0001819994.json (SEC's own machine-readable filing-index API) -- HTTP 403; (3) direct sec.gov/Archives/.../rklb-20251231.htm (the canonical 10-K document itself) -- HTTP 403; (4) efts.sec.gov full-text-search API -- HTTP 403; (5) the underlying 8-K earnings-release exhibit at sec.gov/Archives/.../rklb-ex99_1.htm (located via WebSearch) -- HTTP 403; (6) Rocket Lab's own investor-relations domain investors.rocketlabusa.com -- redirected to investors.rocketlabcorp.com, which then timed out/connection-reset on two separate attempts; (7) Rocket Lab's own official earnings-release PDF at investors.rocketlabcorp.com/node/12026/pdf -- timed out. Every SEC.gov route and every Rocket-Lab-official route failed this session; only the stocktitan.net aggregator returned content, and it explicitly states it does NOT provide a direct hyperlink to the original SEC filing (confirmed via this session's own fetch of that page), which weakens (though does not eliminate) confidence in strict textual fidelity. Independent WebSearch this session found a consistent ~$602M FY2025 revenue figure and matching Space-Systems-segment/SolAero/reaction-wheel description via a separate aggregation path (investors.rocketlabcorp.com press release as surfaced through search), which corroborates the substance of the stocktitan figures but is still not a first-hand fetch of the audited 10-K itself. DECISION: because the audited primary document's identity/text could not be independently established via ANY route this session despite 7 distinct attempts, and per this wave's explicit tier-discipline mandate to resist waving records through as T1, this record is DOWNGRADED from the scout's proposed T1 to T2 (credible, cross-corroborated secondary reproduction of a company filing, not a confirmed-fidelity primary document). Retained as accepted (useful, plausible, non-vendor-marketing incumbent-map data point, internally consistent across two independent observation sessions) rather than rejected outright. Does not count toward the audited-company-filing T1 quota."
+    "notes": "SCOUT/ORCHESTRATOR FLAG: direct WebFetch of sec.gov 10-K returned HTTP 403; only stocktitan.net third-party aggregator was fetchable. VERIFIER TIER-DISCIPLINE DETERMINATION: Made an aggressive, multi-route re-fetch attempt this session specifically targeting SEC/primary-source identity: (1) sec.gov/cgi-bin/browse-edgar company-search -- HTTP 403; (2) data.sec.gov/submissions/CIK0001819994.json (SEC's own machine-readable filing-index API) -- HTTP 403; (3) direct sec.gov/Archives/.../rklb-20251231.htm (the canonical 10-K document itself) -- HTTP 403; (4) efts.sec.gov full-text-search API -- HTTP 403; (5) the underlying 8-K earnings-release exhibit at sec.gov/Archives/.../rklb-ex99_1.htm (located via WebSearch) -- HTTP 403; (6) Rocket Lab's own investor-relations domain investors.rocketlabusa.com -- redirected to investors.rocketlabcorp.com, which then timed out/connection-reset on two separate attempts; (7) Rocket Lab's own official earnings-release PDF at investors.rocketlabcorp.com/node/12026/pdf -- timed out. Every SEC.gov route and every Rocket-Lab-official route failed this session; only the stocktitan.net aggregator returned content, and it explicitly states it does NOT provide a direct hyperlink to the original SEC filing (confirmed via this session's own fetch of that page), which weakens (though does not eliminate) confidence in strict textual fidelity. Independent WebSearch this session found a consistent ~$602M FY2025 revenue figure and matching Space-Systems-segment/SolAero/reaction-wheel description via a separate aggregation path (investors.rocketlabcorp.com press release as surfaced through search), which corroborates the substance of the stocktitan figures but is still not a first-hand fetch of the audited 10-K itself. DECISION: because the audited primary document's identity/text could not be independently established via ANY route this session despite 7 distinct attempts, and per this wave's explicit tier-discipline mandate to resist waving records through as T1, this record is DOWNGRADED from the scout's proposed T1 to T2 (credible, cross-corroborated secondary reproduction of a company filing, not a confirmed-fidelity primary document). Retained as accepted (useful, plausible, non-vendor-marketing incumbent-map data point, internally consistent across two independent observation sessions) rather than rejected outright. Does not count toward the audited-company-filing T1 quota.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Rocket Lab USA, Inc. (NASDAQ: RKLB), Long Beach, CA",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819994",
+        "https://www.stocktitan.net/sec-filings/RKLB/10-k-rocket-lab-corp-files-annual-report-3c3674924b28.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Rocket Lab USA, Inc. is a US-domiciled, NASDAQ-listed, SEC-registered filer (CIK 0001819994) headquartered in Long Beach, California. Filing content was reproduced via stocktitan.net aggregator (sec.gov itself blocked fetch attempts per record notes), but the filer entity's US identity is unambiguous. No India connection."
+    }
   },
   {
     "id": "L09-115",
@@ -358,12 +729,16 @@
     "canonical_key": "standard:AIAA-S-122",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:21:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -372,6 +747,25 @@
     "locator": "standards.nasa.gov AIAA-S-122 standard record page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SCOUT: Directly fetched and confirmed; US/AIAA counterpart to European ECSS standards. VERIFIER: Independently re-fetched standards.nasa.gov/standard/NASA/AIAA-S-122 this session -- confirms title, 2007 publication year, AIAA as issuing body with NASA Office of the Chief Engineer 2017 endorsement, and scope description (design practices/verification requirements for unmanned-spacecraft EPS, photovoltaic/battery focus but extensible to alternative power methods) matching the scout's record exactly. Official standards-body primary record; no peer-review applicable. ACCEPTED T1 standard."
+    "notes": "SCOUT: Directly fetched and confirmed; US/AIAA counterpart to European ECSS standards. VERIFIER: Independently re-fetched standards.nasa.gov/standard/NASA/AIAA-S-122 this session -- confirms title, 2007 publication year, AIAA as issuing body with NASA Office of the Chief Engineer 2017 endorsement, and scope description (design practices/verification requirements for unmanned-spacecraft EPS, photovoltaic/battery focus but extensible to alternative power methods) matching the scout's record exactly. Official standards-body primary record; no peer-review applicable. ACCEPTED T1 standard.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "American Institute of Aeronautics and Astronautics (AIAA); NASA Office of the Chief Engineer",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://standards.nasa.gov/standard/NASA/AIAA-S-122"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "AIAA is a US-headquartered aerospace standards/professional organization, endorsed by NASA. No India connection."
+    }
   }
 ]

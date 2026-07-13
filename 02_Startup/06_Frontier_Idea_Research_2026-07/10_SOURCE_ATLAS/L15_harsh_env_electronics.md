@@ -75,10 +75,6 @@ operating at scale (L15-018, L15-042) under a dedicated ISO safety standard (L15
   L15-032), API 17F/SIIS (subsea control, L15-033), or IEC 60751 (platinum resistance thermometers,
   L15-034) due to paywall/403/binary-parsing failures -- each is flagged for the verifier to
   re-attempt with authenticated or purchased access.
-- **Market-size estimates for adjacent categories disagree by roughly 40%.** Research and Markets
-  (L15-045, $5.79bn 2025 / $6.07bn 2026) and Fortune Business Insights (L15-046, $4.10bn 2025 /
-  $4.31bn 2026) both size the "downhole tools" market for the same forecast years with materially
-  different results -- not reconciled here.
 - **Vendor pricing is almost entirely undisclosed.** Neither CISSOID (L15-043) nor Honeywell HTMOS
   (L15-044, itself not independently fetched this session) publish list pricing for high-temperature
   ICs, consistent with the pricing-opacity pattern documented in other lanes (e.g., L09) for
@@ -210,29 +206,25 @@ operating at scale (L15-018, L15-042) under a dedicated ISO safety standard (L15
 
 ## Unresolved contradictions
 
-1. Two consultancy reports size the same "downhole tools" market for the same forecast years
-   (2025/2026) roughly 40% apart: Research and Markets ($5.79bn 2025 / $6.07bn 2026, L15-045) vs.
-   Fortune Business Insights ($4.10bn 2025 / $4.31bn 2026, L15-046). Neither is reconciled here;
-   both are T3 consultancy estimates requiring independent bottom-up triangulation.
-2. SiC and GaN are simultaneously described as more radiation-tolerant than silicon in a general
+1. SiC and GaN are simultaneously described as more radiation-tolerant than silicon in a general
    sense (per total-ionizing-dose framing, L15-013) and as measurably degraded by neutron/heavy-ion
    exposure in device-specific studies (L15-020 for SiC leakage current; L15-014 for GaN
    threshold-voltage shift) -- "more radiation-tolerant than silicon" should not be read as
    "radiation-immune" or "space-qualified," a distinction also flagged in the L09 lane for the same
    device classes used in a different (space electric-propulsion) context.
-3. This lane's active-cooling literature (L15-023, L15-024) and native-high-temperature-device
+2. This lane's active-cooling literature (L15-023, L15-024) and native-high-temperature-device
    literature (L15-001, L15-004, L15-009) do not cite or compare against each other within the
    sources collected this session, despite addressing the identical downhole-electronics-survival
    problem -- it is unclear from available sources whether the field considers these complementary
    or competing approaches, or whether this is simply a citation-network gap in this session's
    search coverage.
-4. CISSOID markets itself as a direct replacement for "Honeywell's obsoleted High Temperature
+3. CISSOID markets itself as a direct replacement for "Honeywell's obsoleted High Temperature
    Microelectronics Products" (per WebSearch snippet, cross-referenced in L15-043/L15-044 notes),
    implying Honeywell has exited or is exiting a product line CISSOID's own CHT family (the
    closest like-for-like competitor) has now also marked obsolete/last-time-buy -- suggesting either
    a genuine shrinking addressable market for this specific product class, or a supply-chain
    consolidation this session could not further characterize from public sources.
-5. DOE's own high-temperature-electronics program lineage shows apparent target stagnation rather
+4. DOE's own high-temperature-electronics program lineage shows apparent target stagnation rather
    than steady progress: Deep Trek (2003-2007) and FORGE Solicitation 2020-1 (2021) both cite
    essentially the same ~225C target roughly 15-18 years apart (L15-031 vs. L15-027), while
    ARPA-E's SUPERHOT (2025, L15-029) and DARPA's THERMAL (2026, L15-026) then jump to 375C+ and
@@ -244,8 +236,9 @@ operating at scale (L15-018, L15-042) under a dedicated ISO safety standard (L15
 
 Of the 46 collected records, 34 were independently fetched (full text, official standards-body
 page, government program page, or Crossref bibliographic metadata) this session; the remainder
-(L15-015, L15-022's affiliation only, L15-032, L15-033, L15-034, L15-036, L15-044, L15-045,
-L15-046) rely on WebSearch-synthesized titles/snippets or partial fetches, each flagged
+(L15-015, L15-022's affiliation only, L15-032, L15-033, L15-034, L15-036, L15-044, L15-045
+[since quarantined by the 2026-07-13 P2A India-origin audit], L15-046) rely on
+WebSearch-synthesized titles/snippets or partial fetches, each flagged
 individually in its own `notes` field. WebFetch was blocked (HTTP 403), returned an
 authentication-wall redirect loop, timed out, or returned unreadable binary/PDF content for a
 substantial share of publisher pages this session: IEEE Xplore abstract pages (L15-004, L15-011,
@@ -266,7 +259,9 @@ from author-name conventions or a single supplementary WebSearch rather than con
 article's own affiliation line, and are flagged as inferences in their respective notes for the
 verifier to confirm or correct. The lane's overall T1 share is approximately 91% (42/46), well
 above the mission's 70% floor; T3 records are capped at 2 (L15-045, L15-046), both market-size
-estimates, consistent with the "at most 2-3" T3 ceiling in the wave-4 mandate.
+estimates, consistent with the "at most 2-3" T3 ceiling in the wave-4 mandate. [Update
+2026-07-13: L15-045 was quarantined by the P2A India-origin audit; only L15-046 remains counted,
+so the lane's T3 count is now 1.]
 
 ## Opportunity-shaped pain statements
 
@@ -306,12 +301,7 @@ Presented as pain + who pays + evidence -- not startup pitches.
    IPP customers bear technology-availability risk if downhole electronics cannot reach the
    reservoir temperatures the drilling/completion technology is being funded to access. **Evidence:**
    L15-029, L15-043, L15-044.
-6. **Pain:** Two independent consultancy market-size estimates for the same "downhole tools"
-   market and forecast years disagree by roughly 40%, with no bottom-up reconciliation available
-   from either source. **Who pays:** investors and strategic planners sizing this market must
-   choose between materially different TAM anchors without independent triangulation. **Evidence:**
-   L15-045 vs. L15-046.
-7. **Pain:** Radiation-hardened-robotics qualification for nuclear decommissioning shows a
+6. **Pain:** Radiation-hardened-robotics qualification for nuclear decommissioning shows a
    philosophical split -- Japan and China both empirically gamma-ray-test off-the-shelf robot
    electronics before deployment, while UK academic work argues planned replacement of standard
    components can beat specialized rad-hard design on cost -- with no session-found synthesis
@@ -319,7 +309,7 @@ Presented as pain + who pays + evidence -- not startup pitches.
    decommissioning program operators (analogous to Japan's IRID/Fukushota Daiichi effort and
    China's domestic nuclear-emergency-response programs) who must choose a qualification philosophy
    without an independent cost-effectiveness comparison. **Evidence:** L15-002, L15-011, L15-012.
-8. **Pain:** China's substantial state-affiliated research base in this lane (CAS Institute of
+7. **Pain:** China's substantial state-affiliated research base in this lane (CAS Institute of
    Microelectronics, China Aerospace Components Engineering Center, China University of Petroleum,
    Xi'an Jiaotong University) produced no session-locatable tender or procurement-award document
    with a disclosed contract value, in contrast to the US's explicitly dollar-figured DOE/DARPA/
@@ -327,14 +317,14 @@ Presented as pain + who pays + evidence -- not startup pitches.
    effort. **Who pays:** non-Chinese competitors, investors, and analysts face a harder
    competitive-intelligence problem sizing Chinese state demand in this lane. **Evidence:** L15-013,
    L15-020, L15-021, L15-006, L15-007.
-9. **Pain:** Singapore (A*STAR) and Korea (KOSEF-funded Chungbuk National University, Korea
+8. **Pain:** Singapore (A*STAR) and Korea (KOSEF-funded Chungbuk National University, Korea
    Aerospace University) are both making steady, government-linked capability investments in SiC
    fabrication and radiation-tolerant space electronics respectively, but neither discloses a
    dollar figure comparable to the US's named program budgets, making relative investment-intensity
    comparison difficult. **Who pays:** regional semiconductor-strategy planners in Singapore/Korea,
    and investors trying to benchmark government commitment levels across geographies. **Evidence:**
    L15-038, L15-039, L15-022.
-10. **Pain:** Autonomous mining haulage is commercially mature and ISO-standardized, but this
+9. **Pain:** Autonomous mining haulage is commercially mature and ISO-standardized, but this
     session found no equivalent standard or comparably mature commercial deployment record for
     autonomous control in other harsh/hazardous industrial settings within this lane (subsea,
     downhole, nuclear-decommissioning robotics remain at pilot/qualification-testing stage rather
@@ -343,13 +333,13 @@ Presented as pain + who pays + evidence -- not startup pitches.
     per-operation human-exposure and qualification cost than mining operators who have already
     industrialized autonomous control. **Evidence:** L15-018, L15-032, L15-042, contrast with
     L15-002, L15-011, L15-012, L15-033.
-11. **Pain:** Vendor pricing for high-temperature ICs and power modules is almost entirely
+10. **Pain:** Vendor pricing for high-temperature ICs and power modules is almost entirely
     undisclosed (neither CISSOID nor Honeywell publish list pricing), making cost-competitiveness
     benchmarking difficult for new entrants or downstream integrators. **Who pays:** anyone
     (integrator, investor, new entrant) trying to assess the addressable cost structure of
     high-temperature electronics in this lane must rely on scattered, non-comparable figures.
     **Evidence:** L15-043, L15-044.
-12. **Pain:** Several standards central to this lane's autonomous-control and subsea-control scope
+11. **Pain:** Several standards central to this lane's autonomous-control and subsea-control scope
     (ISO 17757, API 17F/SIIS, IEC 60751) could not be independently fetched/verified in full text
     this session due to paywalls, while others (MIL-STD-883, DO-160G) were confirmed current --
     creating an uneven public-documentation base for a would-be entrant trying to understand
@@ -357,3 +347,16 @@ Presented as pain + who pays + evidence -- not startup pitches.
     without standards-subscription budgets face a higher research cost understanding compliance
     requirements than incumbents with existing standards-body relationships. **Evidence:** L15-032,
     L15-033, L15-034 (not independently fetched) vs. L15-035, L15-036 (confirmed).
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L15-045
+- removed/trimmed claims: deleted the Bottlenecks bullet ("Market-size estimates for adjacent
+  categories disagree by roughly 40%") comparing Research and Markets (L15-045, a quarantined
+  producer-name source) against Fortune Business Insights (L15-046) — the comparison claim cannot
+  stand on the single remaining eligible estimate, so the whole comparison was removed rather than
+  trimmed to one figure; deleted Unresolved Contradiction 1 (same Research-and-Markets-vs-Fortune-
+  Business-Insights 40% comparison) and renumbered the remaining contradictions 2-5 down to 1-4;
+  deleted pain statement 6 (same 40% TAM-disagreement claim) and renumbered pain statements 7-12
+  down to 6-11. The L15-046 (Fortune Business Insights) $4.10-4.31bn figures remain in the ledger
+  as a standalone, non-comparative estimate but are no longer paired against the excluded source.

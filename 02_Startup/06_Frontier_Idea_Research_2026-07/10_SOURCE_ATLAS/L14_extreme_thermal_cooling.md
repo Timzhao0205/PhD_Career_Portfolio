@@ -36,14 +36,14 @@ Uncertainty is flagged explicitly throughout rather than smoothed over.
   least five 2025-2026 peer-reviewed papers independently advance microchannel cold-plate designs
   (orthogonal-test optimization, embedded/CPU-package integration, enhanced flow boiling, review
   syntheses) (L14-006, 007, 008, 009, 010), and jet-impingement cooling for power electronics
-  continues to see both nanofluid-enhancement and automotive-specific reviews (L14-011, 012, 013),
+  continues to see both nanofluid-enhancement and automotive-specific reviews (L14-012, 013),
   with next-generation wide-bandgap power devices flagged as needing to manage heat flux
   "well above 1,000 W/cm2" (L14-012).
 - **Thermal interface materials are a live materials-science frontier, not a mature commodity.**
   2025-2026 reviews describe liquid-metal, graphene-based, and highly crystalline polymer TIM
   formulations as active research fronts specifically because 2.5D/3D chiplet integration creates
   hundreds-of-watts-per-package hotspots that existing TIM1/TIM1.5 materials cannot adequately
-  address (L14-014, 015, 016, 017, 018).
+  address (L14-014, 015, 016, 018).
 - **EV fast-charging thermal management is a distinct, fast-moving sub-frontier.** Five
   2023-2025 peer-reviewed papers this session independently addressed heat-pipe, liquid-metal,
   liquid-cooled cable-core, and immersion-cooling approaches to megawatt-class EV charging
@@ -53,7 +53,7 @@ Uncertainty is flagged explicitly throughout rather than smoothed over.
   liquid-cooling charging system in 2025 (context, not independently fetched this session).
 - **Aerospace/defense two-phase thermal control is a mature but still-evolving discipline.**
   Loop heat pipes and oscillating heat pipes remain active peer-reviewed research areas for
-  satellite thermal control (L14-023, 024), phased-array radar thermal-electromagnetic-structural
+  satellite thermal control (L14-024), phased-array radar thermal-electromagnetic-structural
   co-design is an ongoing peer-reviewed topic (L14-027), and a 2025 ASME retrospective explicitly
   frames DARPA as having run three consecutive decades of thermal-management research programs
   for defense electronics (L14-025) -- this is not a solved, legacy problem for the defense
@@ -174,10 +174,6 @@ Uncertainty is flagged explicitly throughout rather than smoothed over.
   green-power-direct-connection framework, though without the specific liquid-cooling percentage
   mandate that secondary media attributes to it (L14-036, directly fetched, with the media-vs-primary
   gap flagged as Contradiction 1 in Section 7).
-- **India (MeitY)** — held an industry consultation on its draft National Data Centre Policy 2025
-  on August 5, 2025 at Vigyan Bhawan, New Delhi (L14-052, directly fetched); secondary trade
-  reporting (not independently confirmed) describes a 2,000 MW-by-2027 capacity ambition with
-  energy-efficiency/green-design emphasis.
 
 ## 4. Incumbent map (companies, products, price/share signals)
 
@@ -246,12 +242,6 @@ session.
   PUE <=1.25 / Green Mark Platinum / SS 715:2025 gating requirements make 2026-2027 the
   concrete build-out window for Singapore's next generation of liquid-cooling-equipped data
   centers (L14-037).
-- **India:** MeitY's National Data Centre Policy 2025 consultation (Aug. 2025) is expected to
-  finalize into a formal policy; if the frequently-cited (but not independently confirmed) 2,000
-  MW-by-2027 capacity target holds, India's data-center buildout -- much of it in a
-  high-ambient-temperature climate -- represents a substantial 2026-2029 liquid-cooling demand
-  trigger without yet having a named domestic cooling-technology supply chain identified in this
-  session (L14-052).
 
 ## 6. US vs. Asia differences
 
@@ -291,12 +281,6 @@ session.
   geography in this lane matches: DC-CFA2's explicit PUE <=1.25, >=50% green-power, and named
   Singapore Standard (SS 715:2025) compliance requirements (L14-037) make Singapore the most
   legible, directly-quantified regulatory buyer signal in the entire lane, US included.
-- **India** evidence is the thinnest and least commercially specific of the geographies covered:
-  a confirmed government consultation event (L14-052) but no identified domestic cooling-technology
-  vendor, no confirmed PUE or liquid-cooling percentage requirement, and no named hyperscale
-  buyer-specification analogous to Singapore's DC-CFA2 -- India is a well-evidenced future
-  capacity-growth market without yet a visible domestic thermal-management supply chain, a
-  coverage gap a future scout wave should prioritize.
 
 ## 7. Unresolved contradictions
 
@@ -365,7 +349,7 @@ session.
    conductivity, low bond-line resistance, and long-term mechanical reliability under thermal
    cycling, and this gap is now a first-order constraint on chiplet-based AI accelerator design,
    not a peripheral packaging detail. **Who pays:** chip packagers and AI-accelerator vendors
-   absorbing yield/reliability risk from inadequate TIMs. **Evidence:** L14-014, 015, 016, 017,
+   absorbing yield/reliability risk from inadequate TIMs. **Evidence:** L14-014, 015, 016,
    018.
 5. **Pain:** Government efficiency standards and technical specifications for liquid cooling are
    proliferating faster than open-source technical-press coverage can accurately track them --
@@ -388,34 +372,27 @@ session.
    technology -- meaning every new satellite or radar program inherits fresh thermal-design risk
    rather than reusing a stable, off-the-shelf solution. **Who pays:** satellite/radar-system
    primes and their government customers absorbing schedule and reliability risk. **Evidence:**
-   L14-023, 024, 025, 027.
+   L14-024, 025, 027.
 8. **Pain:** Market-size estimates for data-center liquid cooling are so divergent across credible
    research firms (nearly 2x spread at the same approximate base year) that they provide little
    real capital-allocation guidance without bottom-up reconstruction -- yet these same inconsistent
    figures are widely cited in vendor and investor communications as if settled. **Who pays:**
    investors and strategic planners at cooling vendors and their customers making sizing decisions
    off unreconciled numbers. **Evidence:** L14-054.
-9. **Pain:** India's data-center buildout is proceeding in a high-ambient-temperature climate
-   where liquid cooling is expected to become dominant, but this session found no identified
-   domestic cooling-technology supply chain, no confirmed PUE or liquid-cooling regulatory
-   requirement, and no named hyperscale buyer specification comparable to Singapore's DC-CFA2 --
-   India's thermal-management demand is real and growing but structurally under-served by visible
-   local supply. **Who pays:** Indian data-center operators and (eventually) MeitY as policy
-   sponsor; specific suppliers not yet identified. **Evidence:** L14-052.
-10. **Pain:** Company-filing-derived demand evidence throughout this lane (Vertiv, Schneider
+9. **Pain:** Company-filing-derived demand evidence throughout this lane (Vertiv, Schneider
     Electric/Motivair) relies on secondary financial-press aggregation because SEC EDGAR and
     several vendor press-release pages actively blocked direct automated fetch this session -- a
     real due-diligence friction point that pushes analysts toward unverified secondary summaries
     of primary financial disclosures. **Who pays:** N/A (a research-process constraint, not a
     customer pain), but it is a genuine verification burden for any investor or founder assessing
     named-incumbent financial claims in this lane. **Evidence:** L14-047, 048.
-11. **Pain:** Standards governing thermal-test methodology (JEDEC JESD51 series) have an
+10. **Pain:** Standards governing thermal-test methodology (JEDEC JESD51 series) have an
     unconfirmed current revision status relative to liquid-cooled and two-phase test conditions,
     creating a plausible mismatch between how the industry is now cooling chips and how it is
     still formally measuring/reporting thermal resistance. **Who pays:** semiconductor packagers
     and cooling-system qualifiers relying on possibly air-cooling-era test methodology for
     liquid/two-phase products. **Evidence:** L14-040.
-12. **Pain:** Taiwan's ODM ecosystem (Foxconn/Ingrasys, Inventec, Quanta) and ITRI are rapidly
+11. **Pain:** Taiwan's ODM ecosystem (Foxconn/Ingrasys, Inventec, Quanta) and ITRI are rapidly
     building both patent portfolios and a from-scratch two-phase cold-plate supply chain
     (announced literally the day before this scouting session), but no independent verification
     of commercialization timeline, pricing, or export availability was found -- a live, fast-moving
@@ -471,3 +448,18 @@ session.
   of Samsung's liquid/immersion-cooling market entry (found via search but not independently
   fetched this session); (7) direct fetch of Singapore's SS 715:2025 standard text and the
   specific "20% liquid-cooled above 30 MW" requirement to fully corroborate L14-037.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L14-011, L14-017, L14-023, L14-052
+- removed/trimmed claims: trimmed the L14-011 citation from the jet-impingement-cooling review
+  sentence (Section 1), keeping the eligible L14-012/013 support; trimmed the L14-017 citation
+  from the TIM-materials frontier sentence (Section 1) and the matching pain-statement-4 evidence
+  list (Section 8), keeping the eligible L14-014/015/016/018 support; trimmed the L14-023 citation
+  from the aerospace/defense loop-heat-pipe sentence (Section 1) and the matching pain-statement-7
+  evidence list (Section 8), keeping the eligible L14-024/025/027 support; deleted the India (MeitY)
+  named-buyer bullet (Section 3), the India 2026-2029 trigger bullet (Section 5), the India
+  paragraph in "US vs. Asia differences" (Section 6), and pain statement 9 (Section 8,
+  India data-center thermal-management gap) — all sourced solely to L14-052 — and renumbered the
+  following Section 8 items down by one (old 10-12 -> new 9-11). No eligible India-sourced claim
+  remained in this lane after removal.

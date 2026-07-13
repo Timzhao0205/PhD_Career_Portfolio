@@ -14,6 +14,8 @@ not read the founder profile or prior `SEEDS_A-D` drafts.
 Adversarially score every new seed for: non-obviousness, technical elegance, controllability,
 frontier vision, real present demand, high-end niche quality, reachable decisive experiment,
 hidden commodity/consulting risk, incumbent response, and independent US and China market logic.
+Also adjudicate 2030 launch timing: pre-company feasibility through 2029, 2030–2034 trigger,
+readiness trajectory, commoditization risk, and whether incumbents close the window before launch.
 Japan, Taiwan, and South Korea are optional side markets. India and Singapore are excluded.
 
 Reject elegant science without a buyer, demand without a defendable technical wedge, and concepts

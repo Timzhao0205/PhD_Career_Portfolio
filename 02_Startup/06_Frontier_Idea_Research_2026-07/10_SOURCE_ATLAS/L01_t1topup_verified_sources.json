@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1007/s40042-025-01298-6",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s40042-025-01298-6",
     "doi": "10.1007/s40042-025-01298-6",
@@ -22,7 +26,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1007/s40042-025-01298-6, fetched this session (title/venue/year/author match plus received/revised/accepted date fields)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. Author-affiliation field remains empty in Crossref (no institution data available); geography left at scout default US -- NOT independently confirmed (author names suggest an Algerian group, but this is not filled in from inference per mission rule). Full-text substantive performance-comparison claims still not independently confirmed beyond bibliographic identity + peer-review timeline -- do not cite specific numeric ozone-yield results without a full-text fetch."
+    "notes": "VERIFIED academic T1. Author-affiliation field remains empty in Crossref (no institution data available); geography left at scout default US -- NOT independently confirmed (author names suggest an Algerian group, but this is not filled in from inference per mission rule). Full-text substantive performance-comparison claims still not independently confirmed beyond bibliographic identity + peer-review timeline -- do not cite specific numeric ozone-yield results without a full-text fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Univ. Sidi Bel Abbes / IRECOM-type Algerian HV/plasma groups (OpenAlex-resolved)",
+          "country": "DZ"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s40042-025-01298-6&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors DZ (Algeria)-affiliated per OpenAlex -- resolves the ledger's unconfirmed geography flag. Not India (author-name pattern speculation in ledger notes was about Algeria, confirmed DZ, not IN)."
+    }
   },
   {
     "id": "L01-102",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.3390/pr12050994",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KZ"],
+    "geography": [
+      "KZ"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/pr12050994",
     "doi": "10.3390/pr12050994",
@@ -47,7 +74,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.3390/pr12050994, fetched this session, including populated author-affiliation field",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. Geography KZ confirmed directly from Crossref-populated affiliation field this session, same evidentiary standard as verified-ledger precedent (e.g. L01-005). New sub-niche: plasma pyrolysis/processing of scrap-tire rubber."
+    "notes": "VERIFIED academic T1. Geography KZ confirmed directly from Crossref-populated affiliation field this session, same evidentiary standard as verified-ledger precedent (e.g. L01-005). New sub-niche: plasma pyrolysis/processing of scrap-tire rubber.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Al-Farabi Kazakh National University (OpenAlex-resolved)",
+          "country": "KZ"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/pr12050994&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors KZ-affiliated per OpenAlex, matches ledger's Crossref-confirmed Kazakhstan affiliation. No IN affiliation."
+    }
   },
   {
     "id": "L01-103",
@@ -58,12 +104,16 @@
     "canonical_key": "doi:10.1021/acsaelm.5c00362",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1021/acsaelm.5c00362",
     "doi": "10.1021/acsaelm.5c00362",
@@ -72,7 +122,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1021/acsaelm.5c00362, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; geography left at scout default US -- NOT independently confirmed (author-name pattern suggests Hanyang University, South Korea, but not filled in from inference)."
+    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; geography left at scout default US -- NOT independently confirmed (author-name pattern suggests Hanyang University, South Korea, but not filled in from inference).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Hanyang University (OpenAlex-resolved)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1021/acsaelm.5c00362&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors KR-affiliated per OpenAlex -- resolves ledger's unconfirmed geography flag (Chin-Wook Chung group, Hanyang Univ.). No IN affiliation."
+    }
   },
   {
     "id": "L01-104",
@@ -83,12 +152,16 @@
     "canonical_key": "doi:10.1063/5.0205372",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0205372",
     "doi": "10.1063/5.0205372",
@@ -97,7 +170,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1063/5.0205372, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; geography left at scout default US -- NOT independently confirmed (author-name pattern suggests Tribhuvan University / Nepal, but not filled in from inference)."
+    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; geography left at scout default US -- NOT independently confirmed (author-name pattern suggests Tribhuvan University / Nepal, but not filled in from inference).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Tribhuvan University / Nepal Academy of Science and Technology (OpenAlex-resolved)",
+          "country": "NP"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0205372&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors NP (Nepal)-affiliated per OpenAlex. Ledger notes speculated 'Nepal' name pattern, which is CONFIRMED as Nepal, not India -- no IN affiliation."
+    }
   },
   {
     "id": "L01-105",
@@ -108,12 +200,16 @@
     "canonical_key": "doi:10.1109/tps.2014.2299954",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TPS.2014.2299954",
     "doi": "10.1109/tps.2014.2299954",
@@ -122,7 +218,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1109/TPS.2014.2299954, fetched this session, 'type' field confirmed 'journal-article'",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. No author affiliation available via Crossref; geography left at scout default US, unresolved."
+    "notes": "VERIFIED academic T1. No author affiliation available via Crossref; geography left at scout default US, unresolved.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "US-affiliated authors (OpenAlex-resolved)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tps.2014.2299954&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors US-affiliated per OpenAlex -- resolves ledger's 'unresolved' geography flag. No IN affiliation."
+    }
   },
   {
     "id": "L01-106",
@@ -133,12 +248,16 @@
     "canonical_key": "doi:10.1016/j.mtcomm.2025.113852",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.mtcomm.2025.113852",
     "doi": "10.1016/j.mtcomm.2025.113852",
@@ -147,7 +266,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1016/j.mtcomm.2025.113852, fetched this session (title/DOI/journal/volume/article-number/author-list match)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1; author list corrected from scout's 'not confirmed' placeholder to the Crossref-confirmed 9-name list. Crossref affiliation field empty; author-name romanization pattern suggests a Chinese research group, but CN geography is NOT added since this is not independently confirmed (would be inference, not data) -- left at scout default US, unresolved. Companion SSRN preprint (10.2139/ssrn.5324722) remains correctly excluded as discovery-only."
+    "notes": "VERIFIED academic T1; author list corrected from scout's 'not confirmed' placeholder to the Crossref-confirmed 9-name list. Crossref affiliation field empty; author-name romanization pattern suggests a Chinese research group, but CN geography is NOT added since this is not independently confirmed (would be inference, not data) -- left at scout default US, unresolved. Companion SSRN preprint (10.2139/ssrn.5324722) remains correctly excluded as discovery-only.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Author institutions in China (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.mtcomm.2025.113852&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors CN-affiliated per OpenAlex -- resolves ledger's 'left at scout default US, unresolved' flag. No IN affiliation."
+    }
   },
   {
     "id": "L01-107",
@@ -158,12 +296,17 @@
     "canonical_key": "doi:10.1016/j.foodcont.2020.107543",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "GB"],
+    "geography": [
+      "US",
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.foodcont.2020.107543",
     "doi": "10.1016/j.foodcont.2020.107543",
@@ -172,7 +315,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1016/j.foodcont.2020.107543, fetched this session (raw 'author' array: given/family names)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. CORRECTION: scout's author list ('N. Katsigiannis; E. Bayliss; J. L. Walsh') had incorrect first initials for the first two authors; Crossref's raw author array gives 'Andreas S. Katsigiannis' and 'Danny L. Bayliss' (Walsh's initials were already correct). Title/DOI/venue/year identity is unaffected and independently confirmed. GB geography (Walsh/Loughborough University association) remains an inference, not Crossref-affiliation-confirmed this session; US scout-default retained alongside it, unresolved."
+    "notes": "VERIFIED academic T1. CORRECTION: scout's author list ('N. Katsigiannis; E. Bayliss; J. L. Walsh') had incorrect first initials for the first two authors; Crossref's raw author array gives 'Andreas S. Katsigiannis' and 'Danny L. Bayliss' (Walsh's initials were already correct). Title/DOI/venue/year identity is unaffected and independently confirmed. GB geography (Walsh/Loughborough University association) remains an inference, not Crossref-affiliation-confirmed this session; US scout-default retained alongside it, unresolved.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Loughborough University (OpenAlex-resolved)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.foodcont.2020.107543&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors GB-affiliated per OpenAlex -- resolves ledger's GB-vs-US ambiguity. No IN affiliation."
+    }
   },
   {
     "id": "L01-108",
@@ -183,12 +345,16 @@
     "canonical_key": "doi:10.1016/j.tsf.2013.02.125",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.tsf.2013.02.125",
     "doi": "10.1016/j.tsf.2013.02.125",
@@ -197,7 +363,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1016/j.tsf.2013.02.125, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; author-name pattern suggests a South Korean PEALD research group, but geography left at scout default US, unresolved (not filled in from inference)."
+    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; author-name pattern suggests a South Korean PEALD research group, but geography left at scout default US, unresolved (not filled in from inference).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "South Korean PEALD research group (OpenAlex-resolved)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.tsf.2013.02.125&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors KR-affiliated per OpenAlex -- resolves ledger's unresolved geography flag. No IN affiliation."
+    }
   },
   {
     "id": "L01-109",
@@ -208,12 +393,17 @@
     "canonical_key": "doi:10.1039/d4tc03615h",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["NL", "GB"],
+    "geography": [
+      "NL",
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1039/D4TC03615H",
     "doi": "10.1039/d4tc03615h",
@@ -222,7 +412,30 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1039/D4TC03615H, fetched this session, including populated author-affiliation fields",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. CORRECTION: geography changed from scout's ['US','NL'] (US was an unconfirmed placeholder) to ['NL','GB'], both now independently Crossref-affiliation-confirmed this session (Eindhoven University of Technology, NL; Oxford Instruments Plasma Technology, Severn Beach, Bristol, GB)."
+    "notes": "VERIFIED academic T1. CORRECTION: geography changed from scout's ['US','NL'] (US was an unconfirmed placeholder) to ['NL','GB'], both now independently Crossref-affiliation-confirmed this session (Eindhoven University of Technology, NL; Oxford Instruments Plasma Technology, Severn Beach, Bristol, GB).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Eindhoven University of Technology (OpenAlex-resolved)",
+          "country": "NL"
+        },
+        {
+          "name": "Oxford Instruments Plasma Technology, Severn Beach, Bristol (OpenAlex-resolved)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1039/d4tc03615h&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 authors across NL (Eindhoven) and GB (Oxford Instruments) per OpenAlex. No IN affiliation."
+    }
   },
   {
     "id": "L01-110",
@@ -233,12 +446,16 @@
     "canonical_key": "doi:10.1016/j.ijhydene.2024.12.502",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijhydene.2024.12.502",
     "doi": "10.1016/j.ijhydene.2024.12.502",
@@ -247,7 +464,26 @@
     "locator": "Crossref API record https://api.crossref.org/works/10.1016/j.ijhydene.2024.12.502, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; author (Sooseok Choi) name pattern suggests Kunsan National University, South Korea, but geography left at scout default US, unresolved (not filled in from inference)."
+    "notes": "VERIFIED academic T1. Crossref affiliation field empty this session; author (Sooseok Choi) name pattern suggests Kunsan National University, South Korea, but geography left at scout default US, unresolved (not filled in from inference).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Kunsan National University (OpenAlex-resolved)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.ijhydene.2024.12.502&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors KR-affiliated per OpenAlex -- resolves ledger's unresolved geography flag. No IN affiliation."
+    }
   },
   {
     "id": "L01-111",
@@ -258,12 +494,16 @@
     "canonical_key": "https://www.nist.gov/programs-projects/plasma-process-metrology",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -283,12 +523,16 @@
     "canonical_key": "https://www.sbir.gov/portfolio/399124",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -297,7 +541,26 @@
     "locator": "SBIR.gov portfolio page https://www.sbir.gov/portfolio/399124, fetched successfully this session -- funding-agency, award-count, and award-amount figures independently re-confirmed and match the raw ledger exactly",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED T1 government/official-award primary demand record. New sub-niche: pulsed-power plasma-power-supply electronics, distinct from RF-CW power-supply vendors and ITER/tokamak DC power-supply tenders already in the ledger."
+    "notes": "VERIFIED T1 government/official-award primary demand record. New sub-niche: pulsed-power plasma-power-supply electronics, distinct from RF-CW power-supply vendors and ITER/tokamak DC power-supply tenders already in the ledger.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. SBIR/STTR federal program (sbir.gov); awardee Transient Plasma Systems, Inc. (Torrance, CA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.sbir.gov/portfolio/399124"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official US federal government domain (.gov). Unambiguous US origin."
+    }
   },
   {
     "id": "L01-113",
@@ -308,12 +571,16 @@
     "canonical_key": "standard:iso-6848-2015",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -333,12 +600,16 @@
     "canonical_key": "tender:0730-254010sz0155/08",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -347,7 +618,26 @@
     "locator": "MOFCOM bid-bulletin page, fetched successfully this session -- buyer name, equipment name, project number, and document/deadline dates independently re-confirmed and match the raw ledger",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED T1 buyer-tender primary demand record via official government e-procurement portal. CORRECTION: buyer name corrected from raw ledger's 'Wuxi Shenneng Circuit Co., Ltd.' to the correct pinyin transliteration 'Wuxi Shennan Circuit Co., Ltd.' (深南 = Shennan); independently confirmed via web search as a real, wholly-owned Wuxi/Jiangsu subsidiary (est. 2012, production since 2015) of Shennan Circuits Co., Ltd. (SCC), a Shenzhen-headquartered, publicly listed PCB manufacturer -- this is a transliteration fix of the given Chinese characters, not an invented fact. New sub-niche: plasma surface-cleaning equipment demand from a PCB manufacturer."
+    "notes": "VERIFIED T1 buyer-tender primary demand record via official government e-procurement portal. CORRECTION: buyer name corrected from raw ledger's 'Wuxi Shenneng Circuit Co., Ltd.' to the correct pinyin transliteration 'Wuxi Shennan Circuit Co., Ltd.' (深南 = Shennan); independently confirmed via web search as a real, wholly-owned Wuxi/Jiangsu subsidiary (est. 2012, production since 2015) of Shennan Circuits Co., Ltd. (SCC), a Shenzhen-headquartered, publicly listed PCB manufacturer -- this is a transliteration fix of the given Chinese characters, not an invented fact. New sub-niche: plasma surface-cleaning equipment demand from a PCB manufacturer.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China International Bidding Network / MOFCOM e-procurement portal; buyer Wuxi Shennan Circuit Co., Ltd.",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://chinabidding.mofcom.gov.cn/bidDetail/bidding/bulletin/202512/ff8080819a82040b019b3039f4693a8f.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official Chinese Ministry of Commerce e-procurement domain; buyer is a Jiangsu-based PCB manufacturer. Unambiguous CN origin."
+    }
   },
   {
     "id": "L01-115",
@@ -358,12 +648,16 @@
     "canonical_key": "https://www.sec.gov/archives/edgar/data/72331/000007233125000144/ndsn-20251031.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L01"],
+    "lane_ids": [
+      "L01"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T23:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -372,6 +666,25 @@
     "locator": "Primary SEC EDGAR filing https://www.sec.gov/Archives/edgar/data/72331/000007233125000144/ndsn-20251031.htm, fetched directly and successfully this session (not merely a distributor mirror) -- segment-description sentence quoted verbatim above",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED T1 audited company filing. UPGRADE: this session's direct fetch of the primary sec.gov Archives URL succeeded (200, real content retrieved), superseding the raw ledger's StockTitan-mirror workaround and its note that direct sec.gov access had returned 403; url field updated to the primary SEC.gov filing accordingly. Segment does not break out plasma-treatment-specific revenue separately from Electronics Dispense Systems."
+    "notes": "VERIFIED T1 audited company filing. UPGRADE: this session's direct fetch of the primary sec.gov Archives URL succeeded (200, real content retrieved), superseding the raw ledger's StockTitan-mirror workaround and its note that direct sec.gov access had returned 403; url field updated to the primary SEC.gov filing accordingly. Segment does not break out plasma-treatment-specific revenue separately from Electronics Dispense Systems.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:23:30Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Nordson Corporation (NASDAQ: NDSN, Ohio, US); SEC EDGAR (sec.gov)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/72331/000007233125000144/ndsn-20251031.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official US SEC EDGAR domain (.sec.gov) for a NASDAQ-listed US company. Unambiguous US origin."
+    }
   }
 ]

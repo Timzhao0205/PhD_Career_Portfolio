@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.17775/cseejpes.2021.05040",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.17775/CSEEJPES.2021.05040",
     "doi": "10.17775/CSEEJPES.2021.05040",
@@ -22,7 +26,26 @@
     "locator": "CSEE Journal of Power and Energy Systems, vol. 9, issue 5, pp. 1732-1742 (Sept 2023); Crossref record confirms title/container-title/type/year this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verified via Crossref works API this session: title, journal, journal-article type, and 2023 year confirmed exact match. Publisher (sciOpen) page also fetched by scout."
+    "notes": "Verified via Crossref works API this session: title, journal, journal-article type, and 2023 year confirmed exact match. Publisher (sciOpen) page also fetched by scout.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Electrical Engineering, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors at CAS/UCAS, China."
+    }
   },
   {
     "id": "L08-002",
@@ -33,12 +56,16 @@
     "canonical_key": "title-year:development-in-hvdc-circuit-breaker-a-review-2024",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:02:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "unverified",
     "peer_review_evidence_url": "https://journal.esrgroups.org/jes/article/view/4968",
     "doi": "",
@@ -58,12 +85,16 @@
     "canonical_key": "doi:10.1038/s41598-025-27261-w",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:03:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-27261-w",
     "doi": "10.1038/s41598-025-27261-w",
@@ -72,7 +103,54 @@
     "locator": "Scientific Reports, article s41598-025-27261-w (2025); Crossref record confirms title, journal-article type, and author list this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors' in raw record); title matches exactly. Geography remains publisher-HQ (Springer Nature, UK) proxy, not author nationality."
+    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors' in raw record); title matches exactly. Geography remains publisher-HQ (Springer Nature, UK) proxy, not author nationality.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Zhejiang Medicine",
+          "country": "CN"
+        },
+        {
+          "name": "Western Caspian University",
+          "country": "AZ"
+        },
+        {
+          "name": "University of Tabuk",
+          "country": "SA"
+        },
+        {
+          "name": "University of Lahore",
+          "country": "PK"
+        },
+        {
+          "name": "Universitat Politecnica de Catalunya",
+          "country": "ES"
+        },
+        {
+          "name": "Zhejiang University",
+          "country": "CN"
+        },
+        {
+          "name": "Nanjing University of Aeronautics and Astronautics",
+          "country": "CN"
+        },
+        {
+          "name": "Hawassa University",
+          "country": "ET"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "6 co-authors, affiliations span China, Azerbaijan, Saudi Arabia, Pakistan, Spain, Ethiopia -- none Indian. Author 'Rajkumar Sivanraju' has an Indian-sounding name but is resolved to Hawassa University, Ethiopia; not inferred from name."
+    }
   },
   {
     "id": "L08-004",
@@ -83,12 +161,16 @@
     "canonical_key": "doi:10.3390/en18051147",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18051147",
     "doi": "10.3390/en18051147",
@@ -97,7 +179,30 @@
     "locator": "Energies (MDPI), vol. 18, issue 5, article 1147; Crossref record confirms title/journal/type/authors this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session. Geography is MDPI publisher-HQ proxy, not author nationality."
+    "notes": "Author list resolved via Crossref this session. Geography is MDPI publisher-HQ proxy, not author nationality.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Staffordshire",
+          "country": "GB"
+        },
+        {
+          "name": "Tallinn University of Technology",
+          "country": "EE"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors at UK (Staffordshire) or Estonia (Tallinn). Author 'Jashandeep Kaur' has an Indian-sounding name but is affiliated with University of Staffordshire, UK; not inferred from name."
+    }
   },
   {
     "id": "L08-005",
@@ -108,12 +213,16 @@
     "canonical_key": "doi:10.1038/s41598-025-19589-0",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-19589-0",
     "doi": "10.1038/s41598-025-19589-0",
@@ -122,7 +231,42 @@
     "locator": "Scientific Reports, article s41598-025-19589-0 (2025); Crossref record confirms title/journal/type/authors this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session. Geography is publisher-HQ proxy."
+    "notes": "Author list resolved via Crossref this session. Geography is publisher-HQ proxy.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Engineering and Technology Lahore",
+          "country": "PK"
+        },
+        {
+          "name": "Huanjiang Laboratory / Zhejiang University",
+          "country": "CN"
+        },
+        {
+          "name": "Nanjing University of Aeronautics and Astronautics",
+          "country": "CN"
+        },
+        {
+          "name": "Western Caspian University",
+          "country": "AZ"
+        },
+        {
+          "name": "Hawassa University",
+          "country": "ET"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 co-authors across Pakistan, China, Azerbaijan, Saudi Arabia, Ethiopia -- none Indian."
+    }
   },
   {
     "id": "L08-006",
@@ -133,12 +277,16 @@
     "canonical_key": "doi:10.1049/rpg2.12903",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/rpg2.12903",
     "doi": "10.1049/rpg2.12903",
@@ -147,7 +295,38 @@
     "locator": "IET Renewable Power Generation (2023 online / 2024 print); Crossref record confirms title/journal/type/authors this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list resolved via Crossref this session; geography is publisher (Wiley/IET, UK) proxy."
+    "notes": "Full author list resolved via Crossref this session; geography is publisher (Wiley/IET, UK) proxy.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Aalborg University",
+          "country": "DK"
+        },
+        {
+          "name": "Equinor",
+          "country": "NO"
+        },
+        {
+          "name": "Siemens Gamesa Renewable Energy",
+          "country": "DK"
+        },
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors Denmark/Norway/China; none Indian."
+    }
   },
   {
     "id": "L08-007",
@@ -158,12 +337,16 @@
     "canonical_key": "doi:10.3390/app16115186",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/app16115186",
     "doi": "10.3390/app16115186",
@@ -172,7 +355,30 @@
     "locator": "Applied Sciences (MDPI), vol. 16, issue 11, article 5186; Crossref record confirms title/journal/type/authors this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session; geography is MDPI publisher-HQ proxy."
+    "notes": "Author list resolved via Crossref this session; geography is MDPI publisher-HQ proxy.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Staffordshire",
+          "country": "GB"
+        },
+        {
+          "name": "Tallinn University of Technology",
+          "country": "EE"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 authors at UK (Staffordshire) and Estonia (Tallinn). Authors 'Akash Sovis' and 'Rana Arslan Qadar' have Indian/Pakistani-sounding names but institutional affiliations are UK/Estonia; not inferred from name."
+    }
   },
   {
     "id": "L08-008",
@@ -183,12 +389,16 @@
     "canonical_key": "doi:10.3390/en15228406",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en15228406",
     "doi": "10.3390/en15228406",
@@ -197,7 +407,34 @@
     "locator": "Energies (MDPI), vol. 15, issue 22, article 8406 (Nov 2022); Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review article -> T2. Author list resolved via Crossref this session."
+    "notes": "Review article -> T2. Author list resolved via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sultan Qaboos University",
+          "country": "OM"
+        },
+        {
+          "name": "Arab Open University",
+          "country": "OM"
+        },
+        {
+          "name": "Memorial University of Newfoundland",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors at Oman/Canada institutions; none Indian."
+    }
   },
   {
     "id": "L08-009",
@@ -208,12 +445,16 @@
     "canonical_key": "doi:10.3390/en18030587",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18030587",
     "doi": "10.3390/en18030587",
@@ -222,7 +463,30 @@
     "locator": "Energies (MDPI), vol. 18, issue 3, article 587; Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (Liserre = Univ. of Kiel, well-known power electronics researcher)."
+    "notes": "Author list resolved via Crossref this session (Liserre = Univ. of Kiel, well-known power electronics researcher).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Christian-Albrechts-Universitat zu Kiel",
+          "country": "DE"
+        },
+        {
+          "name": "University of Trento",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors at Germany/Italy institutions."
+    }
   },
   {
     "id": "L08-010",
@@ -233,12 +497,16 @@
     "canonical_key": "doi:10.3390/en11010027",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en11010027",
     "doi": "10.3390/en11010027",
@@ -247,7 +515,26 @@
     "locator": "Energies (MDPI), vol. 11, issue 1, article 27 (Dec 2017); Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session; authors affiliated with Incheon National University, Korea per name/topic match (unconfirmed institutionally)."
+    "notes": "Author list resolved via Crossref this session; authors affiliated with Incheon National University, Korea per name/topic match (unconfirmed institutionally).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Incheon National University",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors at Incheon National University, South Korea."
+    }
   },
   {
     "id": "L08-011",
@@ -258,12 +545,16 @@
     "canonical_key": "doi:10.3390/en18215560",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18215560",
     "doi": "10.3390/en18215560",
@@ -272,7 +563,34 @@
     "locator": "Energies (MDPI), vol. 18, issue 21, article 5560; Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (authors appear PUCP, Peru-affiliated based on names, unconfirmed institutionally)."
+    "notes": "Author list resolved via Crossref this session (authors appear PUCP, Peru-affiliated based on names, unconfirmed institutionally).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Laboratory of the Rockies (US)",
+          "country": "US"
+        },
+        {
+          "name": "Universidad Tecnologica del Peru",
+          "country": "PE"
+        },
+        {
+          "name": "CNRS / LAAS",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 authors span US/Peru/France; none Indian."
+    }
   },
   {
     "id": "L08-012",
@@ -283,12 +601,16 @@
     "canonical_key": "doi:10.1049/rpg2.12991",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/rpg2.12991",
     "doi": "10.1049/rpg2.12991",
@@ -297,7 +619,34 @@
     "locator": "IET Renewable Power Generation, vol. 18, pp. 887-907 (2024); Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review article -> T2. Author list confirmed via Crossref this session; geography is publisher (Wiley/IET) proxy."
+    "notes": "Review article -> T2. Author list confirmed via Crossref this session; geography is publisher (Wiley/IET) proxy.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Cardiff University",
+          "country": "GB"
+        },
+        {
+          "name": "Tsinghua University",
+          "country": "CN"
+        },
+        {
+          "name": "University of Technology Sydney",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 authors span UK/China/Australia. Author 'Musa Khan' has a Pakistani-sounding name but is affiliated with Cardiff University (GB) and Tsinghua University (CN); not inferred from name."
+    }
   },
   {
     "id": "L08-013",
@@ -308,12 +657,16 @@
     "canonical_key": "doi:10.1109/iecon.2019.8927420",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/IECON.2019.8927420",
     "doi": "10.1109/IECON.2019.8927420",
@@ -322,7 +675,26 @@
     "locator": "IECON 2019 - 45th Annual Conference of the IEEE Industrial Electronics Society, proceedings-article; Crossref record resolved and confirmed this session (DOI was missing in raw record)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI located and confirmed via Crossref this session, satisfying the IEEE-conference-paper verification rule (final IECON 2019 proceedings identity confirmed). Authors identified: Sheng Wang, Wenlong Ming, Jun Liang (Cardiff University). Geography corrected to GB (author institution) from prior US default."
+    "notes": "DOI located and confirmed via Crossref this session, satisfying the IEEE-conference-paper verification rule (final IECON 2019 proceedings identity confirmed). Authors identified: Sheng Wang, Wenlong Ming, Jun Liang (Cardiff University). Geography corrected to GB (author institution) from prior US default.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Cardiff University",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors at Cardiff University, Wales, UK."
+    }
   },
   {
     "id": "L08-014",
@@ -333,12 +705,16 @@
     "canonical_key": "doi:10.1016/j.egyr.2021.11.052",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["NL"],
+    "geography": [
+      "NL"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.egyr.2021.11.052",
     "doi": "10.1016/j.egyr.2021.11.052",
@@ -347,7 +723,26 @@
     "locator": "Energy Reports (Elsevier), DOI 10.1016/j.egyr.2021.11.052; Crossref record resolved this session (raw record had no DOI)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref search this session; corrected year from 2021 (raw) to 2022 (Crossref-confirmed publication year; article was first available online 2021). Direct ScienceDirect fetch returned HTTP 403 this session, but Crossref record fetch succeeded and satisfies the fetched=true/peer-review-verified criteria. Geography is publisher (Elsevier, NL) proxy; journal is genuinely China Electric Power Research Institute co-published per raw notes."
+    "notes": "DOI resolved via Crossref search this session; corrected year from 2021 (raw) to 2022 (Crossref-confirmed publication year; article was first available online 2021). Direct ScienceDirect fetch returned HTTP 403 this session, but Crossref record fetch succeeded and satisfies the fetched=true/peer-review-verified criteria. Geography is publisher (Elsevier, NL) proxy; journal is genuinely China Electric Power Research Institute co-published per raw notes.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "China Three Gorges University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors at China Three Gorges University; resolves the raw record's 'unconfirmed authors' placeholder."
+    }
   },
   {
     "id": "L08-015",
@@ -358,12 +753,16 @@
     "canonical_key": "doi:10.1016/j.ijepes.2022.107996",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["NL"],
+    "geography": [
+      "NL"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijepes.2022.107996",
     "doi": "10.1016/j.ijepes.2022.107996",
@@ -372,7 +771,34 @@
     "locator": "International Journal of Electrical Power & Energy Systems, DOI 10.1016/j.ijepes.2022.107996; Crossref record resolved this session (raw record had no DOI)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref search this session, exact title/container/year match. Direct ScienceDirect fetch returned HTTP 403 this session; Crossref record fetch satisfies verification criteria."
+    "notes": "DOI resolved via Crossref search this session, exact title/container/year match. Direct ScienceDirect fetch returned HTTP 403 this session; Crossref record fetch satisfies verification criteria.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Huaneng Clean Energy Research Institute",
+          "country": "CN"
+        },
+        {
+          "name": "University of Bath",
+          "country": "GB"
+        },
+        {
+          "name": "Beijing Jiaotong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 authors span China and UK (University of Bath); resolves the raw record's 'unconfirmed authors' placeholder."
+    }
   },
   {
     "id": "L08-016",
@@ -383,12 +809,16 @@
     "canonical_key": "https://ieeexplore.ieee.org/document/8515381",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:16:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["NO"],
+    "geography": [
+      "NO"
+    ],
     "peer_review_status": "unverified",
     "peer_review_evidence_url": "https://ieeexplore.ieee.org/document/8515381/",
     "doi": "",
@@ -408,12 +838,16 @@
     "canonical_key": "doi:10.3390/en18143613",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:17:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18143613",
     "doi": "10.3390/en18143613",
@@ -422,7 +856,30 @@
     "locator": "Energies (MDPI), vol. 18, issue 14, article 3613; Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (authors' names suggest Chinese institution). Directly relevant to the datacenter-DC-distribution sub-scope of L08."
+    "notes": "Author list resolved via Crossref this session (authors' names suggest Chinese institution). Directly relevant to the datacenter-DC-distribution sub-scope of L08.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "East China Jiaotong University",
+          "country": "CN"
+        },
+        {
+          "name": "Electric Power Research Institute (EPRI)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 authors: 6 at East China Jiaotong University (CN), 1 at EPRI (US); none Indian."
+    }
   },
   {
     "id": "L08-018",
@@ -433,12 +890,16 @@
     "canonical_key": "doi:10.3390/mi10050314",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/mi10050314",
     "doi": "10.3390/mi10050314",
@@ -447,7 +908,30 @@
     "locator": "Micromachines (MDPI), vol. 10, issue 5, article 314 (May 2019); Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list and DOI reconfirmed via Crossref this session (matches raw record). Author affiliation indicates Chinese institution."
+    "notes": "Author list and DOI reconfirmed via Crossref this session (matches raw record). Author affiliation indicates Chinese institution.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chongqing University",
+          "country": "CN"
+        },
+        {
+          "name": "Chongqing University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors at Chongqing-area universities, China."
+    }
   },
   {
     "id": "L08-019",
@@ -458,12 +942,16 @@
     "canonical_key": "doi:10.3390/fire9020084",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:19:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/fire9020084",
     "doi": "10.3390/fire9020084",
@@ -472,7 +960,34 @@
     "locator": "Fire (MDPI), vol. 9, issue 2, article 84; Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (Chi-Min Shu is a known fire-safety researcher, National Yunlin University of Science and Technology, Taiwan -- suggests TW co-authorship, unconfirmed institutionally)."
+    "notes": "Author list resolved via Crossref this session (Chi-Min Shu is a known fire-safety researcher, National Yunlin University of Science and Technology, Taiwan -- suggests TW co-authorship, unconfirmed institutionally).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology Beijing",
+          "country": "CN"
+        },
+        {
+          "name": "Yangtze River Pharmaceutical Group",
+          "country": "CN"
+        },
+        {
+          "name": "National Yunlin University of Science and Technology",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "6 authors span mainland China and Taiwan; none Indian."
+    }
   },
   {
     "id": "L08-020",
@@ -483,12 +998,16 @@
     "canonical_key": "doi:10.1007/s43236-024-00840-2",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s43236-024-00840-2",
     "doi": "10.1007/s43236-024-00840-2",
@@ -497,7 +1016,34 @@
     "locator": "Journal of Power Electronics (Springer, journal of the Korean Institute of Power Electronics), 2024; Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (Chinese author names; journal is the official KIPE, Korea, journal -- geography reflects publishing-society venue)."
+    "notes": "Author list resolved via Crossref this session (Chinese author names; journal is the official KIPE, Korea, journal -- geography reflects publishing-society venue).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "North China Electric Power University",
+          "country": "CN"
+        },
+        {
+          "name": "China Electric Power Research Institute",
+          "country": "CN"
+        },
+        {
+          "name": "Hebei University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors at Chinese institutions despite publication in a Korean (KIPE) journal."
+    }
   },
   {
     "id": "L08-021",
@@ -508,12 +1054,16 @@
     "canonical_key": "doi:10.1109/jphotov.2020.2998868",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:21:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/jphotov.2020.2998868",
     "doi": "10.1109/JPHOTOV.2020.2998868",
@@ -522,7 +1072,30 @@
     "locator": "IEEE Journal of Photovoltaics, vol. 10, issue 5, 2020; DOI resolved and Crossref record confirmed this session (raw record had no DOI)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and author list resolved via Crossref search this session. Authors affiliated with Griffith University / QUT, Australia -- geography corrected to AU from prior US default."
+    "notes": "DOI and author list resolved via Crossref search this session. Authors affiliated with Griffith University / QUT, Australia -- geography corrected to AU from prior US default.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Papua New Guinea University of Technology",
+          "country": "PG"
+        },
+        {
+          "name": "Queensland University of Technology",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 authors span Papua New Guinea and Australia (QUT, corrects prior 'Griffith University' guess to QUT). Author 'Yateendra Mishra' has an Indian-sounding name but is affiliated with QUT, Australia; not inferred from name."
+    }
   },
   {
     "id": "L08-022",
@@ -533,12 +1106,16 @@
     "canonical_key": "doi:10.1109/tpel.2024.3510792",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpel.2024.3510792",
     "doi": "10.1109/TPEL.2024.3510792",
@@ -547,32 +1124,79 @@
     "locator": "IEEE Transactions on Power Electronics, vol. 40, issue 4 (2025); DOI resolved and Crossref record confirmed this session (raw record had no DOI)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and author list resolved via Crossref this session; author (Yun Yang) affiliated with NTU Singapore per cross-reference to author's own publication list found in search -- geography set to CN pending confirmation of exact institutional split (co-authors appear China-affiliated)."
+    "notes": "DOI and author list resolved via Crossref this session; author (Yun Yang) affiliated with NTU Singapore per cross-reference to author's own publication list found in search -- geography set to CN pending confirmation of exact institutional split (co-authors appear China-affiliated).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        },
+        {
+          "name": "Nanyang Technological University",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 authors: 5 at Sichuan University (CN), 2 at NTU Singapore (SG); none Indian."
+    }
   },
   {
     "id": "L08-023",
     "title": "The Enhanced Modular Multilevel Converter With DC Fault Blocking Capability",
-    "authors_or_org": "Govind Avinash Reddy, Anshuman Shukla",
+    "authors_or_org": "unconfirmed authors (IEEE journal)",
     "year": 2023,
     "url": "https://ieeexplore.ieee.org/document/10086620/",
-    "canonical_key": "doi:10.1109/tpel.2023.3263004",
-    "source_type": "academic_peer_reviewed",
+    "canonical_key": "https://ieeexplore.ieee.org/document/10086620",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
-    "accessed_at": "2026-07-12T21:23:00Z",
-    "fetched": true,
+    "accessed_at": "2026-07-12T19:15:00Z",
+    "fetched": false,
     "language": "en",
-    "geography": ["IN"],
-    "peer_review_status": "verified",
-    "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpel.2023.3263004",
-    "doi": "10.1109/TPEL.2023.3263004",
+    "geography": [
+      "US"
+    ],
+    "peer_review_status": "unverified",
+    "peer_review_evidence_url": "https://ieeexplore.ieee.org/document/10086620/",
+    "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Proposes an enhanced MMC topology providing DC fault-blocking capability without full-bridge submodule cost penalty.",
-    "locator": "IEEE Transactions on Power Electronics, vol. 38, issue 7 (2023); DOI resolved and Crossref record confirmed this session (raw record had no DOI)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "DOI and author list resolved via Crossref this session; Anshuman Shukla is IIT Bombay faculty -- geography corrected to IN from prior US default."
+    "locator": "IEEE Xplore journal document 10086620",
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "DOI not located this session; IEEE Xplore is the confirmed publisher domain. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T02:30:00+00:00",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Indian Institute of Technology Bombay",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tpel.2023.3263004&select=doi,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "notes": "Encoded during Fable-5 P2A origin adjudication (2026-07-13): the 2026-07-12 prefilter flipped accepted=false but never recorded the quarantine encoding; origin independently verified by the adjudicator. Both authors (G. A. Reddy, A. Shukla) resolve to IIT Bombay (IN) per OpenAlex. DOI 10.1109/tpel.2023.3263004 (IEEE Trans. Power Electronics 2023) identified via OpenAlex title search (record carried only the IEEE Xplore document number 10086620)."
+    }
   },
   {
     "id": "L08-024",
@@ -583,12 +1207,16 @@
     "canonical_key": "doi:10.1049/pel2.70104",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/pel2.70104",
     "doi": "10.1049/pel2.70104",
@@ -597,7 +1225,26 @@
     "locator": "IET Power Electronics (2025); Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list resolved via Crossref this session; geography is publisher (Wiley/IET) proxy; author names suggest Chinese institution."
+    "notes": "Full author list resolved via Crossref this session; geography is publisher (Wiley/IET) proxy; author names suggest Chinese institution.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors at Xi'an Jiaotong University, China."
+    }
   },
   {
     "id": "L08-025",
@@ -608,12 +1255,16 @@
     "canonical_key": "doi:10.11930/j.issn.1004-9649.202006024",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:25:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://base4zgdl.xml-journal.net/article/doi/10.11930/j.issn.1004-9649.202006024",
     "doi": "10.11930/j.issn.1004-9649.202006024",
@@ -622,7 +1273,26 @@
     "locator": "中国电力 (Electric Power), vol. 54, no. 4, pp. 168-174 (2021) -- corrected venue/year; article landing page fetched directly this session confirming authors",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: raw record misattributed this article to '高电压技术 (High Voltage Engineering, ISSN 1003-6520)'. ISSN cross-check this session confirms DOI prefix ISSN 1004-9649 belongs to '中国电力 (Electric Power / China Electric Power)' journal, State Grid/China Electricity Council affiliated, Vol. 54 No. 4 pp.168-174 (2021), not Vol.46 No.5 (2020) of 高电压技术 as implied by the raw locator. Author names confirmed matching via direct fetch of base4zgdl.xml-journal.net article page this session. Year corrected from 2020 to 2021 (actual publication year; DOI suffix '202006024' reflects June 2020 submission/manuscript ID, not publication date). Chinese-language primary academic source -- counts toward local-language quota."
+    "notes": "CORRECTION: raw record misattributed this article to '高电压技术 (High Voltage Engineering, ISSN 1003-6520)'. ISSN cross-check this session confirms DOI prefix ISSN 1004-9649 belongs to '中国电力 (Electric Power / China Electric Power)' journal, State Grid/China Electricity Council affiliated, Vol. 54 No. 4 pp.168-174 (2021), not Vol.46 No.5 (2020) of 高电压技术 as implied by the raw locator. Author names confirmed matching via direct fetch of base4zgdl.xml-journal.net article page this session. Year corrected from 2020 to 2021 (actual publication year; DOI suffix '202006024' reflects June 2020 submission/manuscript ID, not publication date). Chinese-language primary academic source -- counts toward local-language quota.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Electric Power Research Institute / State Grid-affiliated (中国电力 journal)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://base4zgdl.xml-journal.net/article/doi/10.11930/j.issn.1004-9649.202006024"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Chinese-domestic journal not indexed with structured affiliations in OpenAlex; author names and Chinese State Grid/China Electricity Council-affiliated venue confirmed via direct publisher-page fetch (already performed in the raw ledger session)."
+    }
   },
   {
     "id": "L08-026",
@@ -633,12 +1303,16 @@
     "canonical_key": "doi:10.3390/su12187771",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:26:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/su12187771",
     "doi": "10.3390/su12187771",
@@ -647,7 +1321,38 @@
     "locator": "Sustainability (MDPI), vol. 12, issue 18, article 7771 (Sept 20, 2020); Crossref record confirms this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED from discovery_only: the raw record only located a ResearchGate mirror with no confirmed final venue. WebSearch plus Crossref bibliographic search this session located the actual peer-reviewed final publication (MDPI Sustainability, not the ResearchGate-listed venue), with matching title, author list (Senjyu = Univ. of the Ryukyus, Okinawa, Japan -- well-known grid-forming/microgrid researcher), and DOI. Geography set to JP based on lead-author group affiliation (Univ. of the Ryukyus), not independently fetched this session -- flag for confirmation. Canonical key and URL updated to the publisher record; ResearchGate mirror superseded per dedupe rule (final peer-reviewed version preferred over preprint/mirror)."
+    "notes": "RESCUED from discovery_only: the raw record only located a ResearchGate mirror with no confirmed final venue. WebSearch plus Crossref bibliographic search this session located the actual peer-reviewed final publication (MDPI Sustainability, not the ResearchGate-listed venue), with matching title, author list (Senjyu = Univ. of the Ryukyus, Okinawa, Japan -- well-known grid-forming/microgrid researcher), and DOI. Geography set to JP based on lead-author group affiliation (Univ. of the Ryukyus), not independently fetched this session -- flag for confirmation. Canonical key and URL updated to the publisher record; ResearchGate mirror superseded per dedupe rule (final peer-reviewed version preferred over preprint/mirror).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of the Ryukyus",
+          "country": "JP"
+        },
+        {
+          "name": "Osaka Institute of Technology",
+          "country": "JP"
+        },
+        {
+          "name": "Fuji Electric",
+          "country": "JP"
+        },
+        {
+          "name": "Aswan University",
+          "country": "EG"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Confirms record's tentative JP lead-author guess (University of the Ryukyus); 6 authors span Japan and Egypt, none Indian."
+    }
   },
   {
     "id": "L08-027",
@@ -658,12 +1363,16 @@
     "canonical_key": "doi:10.1109/tpwrd.2021.3083642",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:27:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpwrd.2021.3083642",
     "doi": "10.1109/TPWRD.2021.3083642",
@@ -672,7 +1381,30 @@
     "locator": "IEEE Transactions on Power Delivery (2022); Crossref record confirms this session (raw record only located the arXiv preprint, 2006.16165)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED from discovery_only: the raw record logged only the 2020 arXiv preprint. WebSearch plus Crossref bibliographic search this session located the final peer-reviewed publication (IEEE Trans. Power Delivery, 2022, DOI 10.1109/TPWRD.2021.3083642) with matching title and authors (Debnath = Oak Ridge National Laboratory; Bloch, Saeedifard = Georgia Tech). Year corrected from 2020 (preprint) to 2022 (final publication); URL/canonical_key updated to the IEEE Xplore/DOI record, superseding the arXiv preprint per dedupe rule."
+    "notes": "RESCUED from discovery_only: the raw record logged only the 2020 arXiv preprint. WebSearch plus Crossref bibliographic search this session located the final peer-reviewed publication (IEEE Trans. Power Delivery, 2022, DOI 10.1109/TPWRD.2021.3083642) with matching title and authors (Debnath = Oak Ridge National Laboratory; Bloch, Saeedifard = Georgia Tech). Year corrected from 2020 (preprint) to 2022 (final publication); URL/canonical_key updated to the IEEE Xplore/DOI record, superseding the arXiv preprint per dedupe rule.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Georgia Institute of Technology",
+          "country": "US"
+        },
+        {
+          "name": "Oak Ridge National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "4 authors at Georgia Tech (US) and Oak Ridge National Laboratory (US). Author 'Suman Debnath' has an Indian-sounding name but is affiliated with ORNL, USA; not inferred from name."
+    }
   },
   {
     "id": "L08-028",
@@ -681,23 +1413,36 @@
     "year": 2026,
     "url": "https://hvdcworld.com/news/india-issues-pre-bid-tender-for-barmer-south-kalamb-hvdc-link",
     "canonical_key": "tender:powergrid-barmer-south-kalamb-hvdc-2026",
-    "source_type": "trade_press",
-    "tier": "T2",
-    "lane_ids": ["L08"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "buyer_tender",
     "claim_supported": "POWERGRID pre-bid tender for a new 6,000 MW, +/-800kV Barmer-II LCC-HVDC terminal station (Rajasthan) to South Kalamb (Maharashtra), ~900km line, tender sale 10-30 March 2026, bids due 1 April 2026, estimated project cost ~Rs. 24,974 crore (~USD 2.9bn), first pole due 48 months from zero date via Tariff Based Competitive Bidding (TBCB).",
     "locator": "HVDC World news article, fetched in full (tender dates, cost, technical scope)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "RETYPED/RETIERED: this is a trade-press article reporting on a genuine government-utility tender, not the primary POWERGRID/REC tender document itself -- source_type corrected from buyer_procurement to trade_press and tier downgraded from T1 to T2 for honest tiering (per SOURCE_STANDARDS T1='tender/procurement/specification' primary document; T2='trade press with primary links'). The underlying demand signal (buyer_tender) is still valid and retained. Verifier could not independently locate/fetch the official TBCB bid portal this session; recommend future retry."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Trade-press report of a genuine government-utility tender; underlying primary tender documents (POWERGRID/REC portal) not directly fetched -- verifier should cross-check against the official TBCB bid portal if higher-tier sourcing is required. | RETYPED/RETIERED: this is a trade-press article reporting on a genuine government-utility tender, not the primary POWERGRID/REC tender document itself -- source_type corrected from buyer_procurement to trade_press and tier downgraded from T1 to T2 for honest tiering (per SOURCE_STANDARDS T1='tender/procurement/specification' primary document; T2='trade press with primary links'). The underlying demand signal (buyer_tender) is still valid and retained. Verifier could not independently locate/fetch the official TBCB bid portal this session; recommend future retry. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.027103+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://hvdcworld.com/news/india-issues-pre-bid-tender-for-barmer-south-kalamb-hvdc-link"
+      ],
+      "original_source_type": "trade_press"
+    }
   },
   {
     "id": "L08-029",
@@ -708,12 +1453,17 @@
     "canonical_key": "https://www.gevernova.com/news/press-releases/ge-vernova-awarded-major-contract-deliver-hvdc",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:29:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN", "US"],
+    "geography": [
+      "IN",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -722,7 +1472,26 @@
     "locator": "GE Vernova press release, fetched in full (primary company domain)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor/company press release, fetched directly from gevernova.com -- treated as a project-award record, not independent validation of technology performance claims."
+    "notes": "Vendor/company press release, fetched directly from gevernova.com -- treated as a project-award record, not independent validation of technology performance claims.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "GE Vernova",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.gevernova.com/news/press-releases/ge-vernova-awarded-major-contract-deliver-hvdc"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Publishing organization GE Vernova is US-headquartered (Cambridge, MA); origin verdict is about the publisher, not the content. The record's underlying content concerns an India demand corridor (Adani Khavda-South Olpad); per mission geography rule 15 that content may be out of scope for demand/market claims regardless of this origin verdict -- flagged for the orchestrator's downstream content review, not decided here."
+    }
   },
   {
     "id": "L08-030",
@@ -733,12 +1502,17 @@
     "canonical_key": "https://www.hitachienergy.com/news-and-events/press-releases/2025/04/hitachi-energy-selected-for-950-km-hvdc-transmission-system-to-deliver-6-gw-of-renewable-energy-in-india",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN", "CH"],
+    "geography": [
+      "IN",
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1521,26 @@
     "locator": "Hitachi Energy press release, fetched in full (primary company domain)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor/consortium press release, fetched directly; contract dollar value not disclosed."
+    "notes": "Vendor/consortium press release, fetched directly; contract dollar value not disclosed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hitachi Energy Ltd",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hitachienergy.com/news-and-events/press-releases/2025/04/hitachi-energy-selected-for-950-km-hvdc-transmission-system-to-deliver-6-gw-of-renewable-energy-in-india"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Publishing organization Hitachi Energy is Switzerland-headquartered (Cham/Zurich); origin verdict is about the publisher, not content. Content concerns an India project (Bhadla-Fatehpur) with an Indian consortium partner (BHEL) -- flagged for the orchestrator's downstream content-geography review per mission rule 15, not decided here."
+    }
   },
   {
     "id": "L08-031",
@@ -758,12 +1551,17 @@
     "canonical_key": "https://www.nkt.com/news-press-releases/nkt-awarded-record-orders-for-worlds-first-525-kv-xlpe-hvdc-submarine-cable-projects-for-offshore-wind",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["NL", "DK"],
+    "geography": [
+      "NL",
+      "DK"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1570,26 @@
     "locator": "NKT press release, fetched in full (primary company domain)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Company announcement, not an audited filing; contract value stated by NKT itself."
+    "notes": "Company announcement, not an audited filing; contract value stated by NKT itself.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NKT A/S",
+          "country": "DK"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nkt.com/news-press-releases/nkt-awarded-record-orders-for-worlds-first-525-kv-xlpe-hvdc-submarine-cable-projects-for-offshore-wind"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "NKT HQ Brondby, Denmark."
+    }
   },
   {
     "id": "L08-032",
@@ -783,12 +1600,17 @@
     "canonical_key": "https://www.oceannews.com/news/subsea-cable/prysmian-to-deliver-the-first-525-kv-hvdc-xlpe-submarine-cable-system-in-the-uk",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB", "IT"],
+    "geography": [
+      "GB",
+      "IT"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1619,27 @@
     "locator": "Ocean News & Technology trade article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETIERED: fetched from a trade-press domain (oceannews.com), not Prysmian's own site -- source_type corrected from company_filing to trade_press and tier downgraded from T1 to T2 for honest tiering. Underlying commercial contract not independently fetched."
+    "notes": "RETIERED: fetched from a trade-press domain (oceannews.com), not Prysmian's own site -- source_type corrected from company_filing to trade_press and tier downgraded from T1 to T2 for honest tiering. Underlying commercial contract not independently fetched.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Technology Systems Corporation (Ocean News & Technology publisher)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://oceannews.com/",
+        "https://oceannews.com/contact/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Ocean News & Technology is published by Technology Systems Corporation, Stuart, Florida, USA."
+    }
   },
   {
     "id": "L08-033",
@@ -808,12 +1650,16 @@
     "canonical_key": "https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:33:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1668,30 @@
     "locator": "Motley Fool earnings-call transcript, fetched in full, direct quotes captured",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Earnings-call transcript = verbatim management disclosure (subject to Reg FD/materiality obligations), reproduced by a third-party financial-media transcription service rather than GE Vernova's own investor-relations page; retained at T1 given it is management's own verbatim words on a primary demand signal, not third-party analysis. Not an audited filing (10-Q/10-K)."
+    "notes": "Earnings-call transcript = verbatim management disclosure (subject to Reg FD/materiality obligations), reproduced by a third-party financial-media transcription service rather than GE Vernova's own investor-relations page; retained at T1 given it is management's own verbatim words on a primary demand signal, not third-party analysis. Not an audited filing (10-Q/10-K).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "The Motley Fool (fool.com)",
+          "country": "US"
+        },
+        {
+          "name": "GE Vernova Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "The Motley Fool HQ Alexandria, Virginia, USA; underlying company GE Vernova also US."
+    }
   },
   {
     "id": "L08-034",
@@ -833,12 +1702,16 @@
     "canonical_key": "tender:state-grid-2026-uhv-first-batch-dc-transmission-xj-electric",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:34:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1720,26 @@
     "locator": "National Business Daily (每经网) article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Chinese-language primary demand source (State Grid procurement tender result), sourced via financial media republishing the listed company's mandatory exchange disclosure; no specific transmission-corridor name disclosed in this announcement."
+    "notes": "Chinese-language primary demand source (State Grid procurement tender result), sourced via financial media republishing the listed company's mandatory exchange disclosure; no specific transmission-corridor name disclosed in this announcement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Business Daily (每日经济新闻)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nbd.com.cn/articles/2026-05-07/4382365.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "National Business Daily is a Chinese financial newspaper (Chengdu/Shanghai), reporting on a State Grid China procurement disclosure."
+    }
   },
   {
     "id": "L08-035",
@@ -858,12 +1750,16 @@
     "canonical_key": "https://www.energy-storage.news/uk-grid-forming-batteries-miss-out-in-system-stability-tender-as-synchronous-condensers-gas-get-contracts",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1768,27 @@
     "locator": "Energy-Storage.News trade article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED for consistency: source_type corrected from buyer_procurement to trade_press (fetched from a trade-press domain, not NESO's own tender-result publication). Tier T2 unchanged. Directly relevant to the 'synchronous condenser alternatives' sub-scope of L08 and shows incumbent-technology resilience against grid-forming challengers."
+    "notes": "RETYPED for consistency: source_type corrected from buyer_procurement to trade_press (fetched from a trade-press domain, not NESO's own tender-result publication). Tier T2 unchanged. Directly relevant to the 'synchronous condenser alternatives' sub-scope of L08 and shows incumbent-technology resilience against grid-forming challengers.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Solar Media Ltd (publisher of Energy-Storage.News)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy-storage.news/contact/",
+        "https://www.solarmedia.co.uk/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Solar Media Ltd HQ London, UK (part of Informa)."
+    }
   },
   {
     "id": "L08-036",
@@ -883,12 +1799,17 @@
     "canonical_key": "https://www.energy-storage.news/siemens-energy-to-deploy-first-synchronous-condenser-bess-hybrid-project-in-ireland",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IE", "DE"],
+    "geography": [
+      "IE",
+      "DE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1818,27 @@
     "locator": "Energy-Storage.News trade article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETIERED: fetched from a trade-press domain, not siemens-energy.com -- source_type corrected from company_filing to trade_press and tier downgraded from T1 to T2. Independent utility-side confirmation not separately fetched."
+    "notes": "RETIERED: fetched from a trade-press domain, not siemens-energy.com -- source_type corrected from company_filing to trade_press and tier downgraded from T1 to T2. Independent utility-side confirmation not separately fetched.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Solar Media Ltd (publisher of Energy-Storage.News)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy-storage.news/contact/",
+        "https://www.solarmedia.co.uk/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Solar Media Ltd HQ London, UK."
+    }
   },
   {
     "id": "L08-037",
@@ -908,12 +1849,17 @@
     "canonical_key": "https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-partners-with-acerez-on-nsw-renewable-energy-zone.html",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:37:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU", "DE"],
+    "geography": [
+      "AU",
+      "DE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1868,26 @@
     "locator": "Siemens Energy press release, fetched directly in full this session (siemens-energy.com)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPGRADED: raw record could not fetch this page (fetched=false, relied on trade-press synthesis); direct fetch succeeded this session confirming scope of work. Tier confirmed T1 (primary company domain). Contract dollar value remains undisclosed -- trade-press speculative estimates (e.g. '$500m+') are still excluded as unconfirmed."
+    "notes": "UPGRADED: raw record could not fetch this page (fetched=false, relied on trade-press synthesis); direct fetch succeeded this session confirming scope of work. Tier confirmed T1 (primary company domain). Contract dollar value remains undisclosed -- trade-press speculative estimates (e.g. '$500m+') are still excluded as unconfirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Siemens Energy AG",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.siemens-energy.com/global/en/home/press-releases/Siemens-Energy-partners-with-ACEREZ-on-NSW-Renewable-Energy-Zone.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Siemens Energy AG HQ Munich, Germany."
+    }
   },
   {
     "id": "L08-038",
@@ -933,12 +1898,16 @@
     "canonical_key": "title-year:서해안-hvdc-에너지-고속도로-project-overview-2026",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:38:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +1916,30 @@
     "locator": "Dealsite.co.kr Korean-language trade article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED for consistency: source_type corrected from buyer_procurement to trade_press (dealsite.co.kr is a business/deal news outlet, not KEPCO's own publication) and tier downgraded from T1 to T2. Korean-language primary demand signal (2026 tender, 2030 completion); not yet a signed contract -- classified as buyer_specification/pre-tender."
+    "notes": "RETYPED for consistency: source_type corrected from buyer_procurement to trade_press (dealsite.co.kr is a business/deal news outlet, not KEPCO's own publication) and tier downgraded from T1 to T2. Korean-language primary demand signal (2026 tender, 2030 completion); not yet a signed contract -- classified as buyer_specification/pre-tender.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Dealsite.co.kr",
+          "country": "KR"
+        },
+        {
+          "name": "Korea Electric Power Corporation (KEPCO)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://dealsite.co.kr/articles/150180"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Dealsite.co.kr is a Korean business/deal news outlet; reports on KEPCO, a Korean state utility."
+    }
   },
   {
     "id": "L08-039",
@@ -958,12 +1950,16 @@
     "canonical_key": "title-year:서해안-hvdc-에너지-고속도로-건설-착수-2026",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:39:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1968,30 @@
     "locator": "ZDNet Korea article, fetched in full this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPGRADED: raw record could not fetch this page (fetched=false); direct fetch succeeded this session, corroborating and extending the KEPCO West Coast HVDC project timeline in L08-038 with additional specifics (8 converter stations sited, cable-route design underway)."
+    "notes": "UPGRADED: raw record could not fetch this page (fetched=false); direct fetch succeeded this session, corroborating and extending the KEPCO West Coast HVDC project timeline in L08-038 with additional specifics (8 converter stations sited, cable-route design underway).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ZDNet Korea",
+          "country": "KR"
+        },
+        {
+          "name": "Korea Electric Power Corporation (KEPCO)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://zdnet.co.kr/view/?no=20260320123044"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ZDNet Korea is a South Korean licensed tech/business news outlet (Seoul)."
+    }
   },
   {
     "id": "L08-040",
@@ -983,12 +2002,17 @@
     "canonical_key": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/sp-partners-edf-on-subsea-cables-to-facilitate-green-energy-import-from-indonesia",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG", "ID"],
+    "geography": [
+      "SG",
+      "ID"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +2021,30 @@
     "locator": "SP Group media release, fetched directly in full this session (spgroup.com.sg)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION + UPGRADE: raw record listed year 2023 and could not fetch this page (DNS timeout, fetched=false). Direct fetch succeeded this session from the primary company/utility domain, confirming the MOU was actually signed Oct 11, 2021 (year corrected 2023->2021) and that the announcement also covers a 1,000MWp Indonesian solar PV plant (EDF Renewables) not mentioned in the raw record. Tier upgraded to T1 (primary utility source, directly fetched). Still MOU/feasibility-study stage only, not a signed EPC contract."
+    "notes": "CORRECTION + UPGRADE: raw record listed year 2023 and could not fetch this page (DNS timeout, fetched=false). Direct fetch succeeded this session from the primary company/utility domain, confirming the MOU was actually signed Oct 11, 2021 (year corrected 2023->2021) and that the announcement also covers a 1,000MWp Indonesian solar PV plant (EDF Renewables) not mentioned in the raw record. Tier upgraded to T1 (primary utility source, directly fetched). Still MOU/feasibility-study stage only, not a signed EPC contract.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "SP Group",
+          "country": "SG"
+        },
+        {
+          "name": "EDF Group",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/SP-Partners-EDF-on-Subsea-Cables-to-Facilitate-Green-Energy-Import-from-Indonesia"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SP Group HQ Singapore (Temasek-linked utility); EDF Group HQ France."
+    }
   },
   {
     "id": "L08-041",
@@ -1008,12 +2055,16 @@
     "canonical_key": "https://patternenergy.com/projects/southern-spirit-transmission",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:41:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2073,30 @@
     "locator": "Pattern Energy project page, fetched in full; DOE support figure corroborated via Utility Dive and Smart Energy International (not independently re-fetched this session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "First-of-a-kind US interconnect between ERCOT (islanded grid) and the Eastern Interconnection -- directly evidences US demand for HVDC as an interregional-interconnection tool."
+    "notes": "First-of-a-kind US interconnect between ERCOT (islanded grid) and the Eastern Interconnection -- directly evidences US demand for HVDC as an interregional-interconnection tool.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Pattern Energy",
+          "country": "US"
+        },
+        {
+          "name": "US Department of Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://patternenergy.com/projects/southern-spirit-transmission/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Pattern Energy HQ San Francisco, California, USA; DOE is a US federal agency."
+    }
   },
   {
     "id": "L08-042",
@@ -1033,12 +2107,16 @@
     "canonical_key": "standard:ferc-order-2023",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:42:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1058,12 +2136,16 @@
     "canonical_key": "standard:nerc-prc-029-1-ferc-order-909",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:43:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2154,30 @@
     "locator": "Federal Register API record (federalregister.gov/api/v1/documents/2025-14304.json), fetched directly and successfully this session -- title, date, agency, and abstract confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPGRADED: raw record's direct fetch of the HTML page was blocked (redirect to unblock.federalregister.gov, confirmed again this session). Using the Federal Register's public JSON API endpoint (not the HTML page) succeeded this session, providing an independently confirmed primary-source fetch."
+    "notes": "UPGRADED: raw record's direct fetch of the HTML page was blocked (redirect to unblock.federalregister.gov, confirmed again this session). Using the Federal Register's public JSON API endpoint (not the HTML page) succeeded this session, providing an independently confirmed primary-source fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "North American Electric Reliability Corporation (NERC)",
+          "country": "US"
+        },
+        {
+          "name": "Federal Energy Regulatory Commission (FERC)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.federalregister.gov/documents/2025/07/29/2025-14304/reliability-standards-for-frequency-and-voltage-protection-settings-and-ride-through-for"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "NERC HQ Atlanta, Georgia, USA; FERC is a US federal regulatory agency (Washington, DC)."
+    }
   },
   {
     "id": "L08-044",
@@ -1083,12 +2188,16 @@
     "canonical_key": "standard:iec-61803-2020",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:44:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "https://webstore.iec.ch/publication/62197",
     "doi": "",
@@ -1097,7 +2206,27 @@
     "locator": "IEC Webstore publication page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography CH reflects IEC headquarters (Geneva), not a restriction on the standard's international applicability."
+    "notes": "Geography CH reflects IEC headquarters (Geneva), not a restriction on the standard's international applicability.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Electrotechnical Commission (IEC)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://webstore.iec.ch/publication/62197",
+        "https://www.iec.ch/who-we-are"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEC is headquartered in Geneva, Switzerland; international standards body, not India-based."
+    }
   },
   {
     "id": "L08-045",
@@ -1108,12 +2237,16 @@
     "canonical_key": "standard:iec-ts-63102-2021",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:45:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "https://webstore.iec.ch/en/publication/31475",
     "doi": "",
@@ -1122,7 +2255,27 @@
     "locator": "IEC Webstore publication page, fetched in full this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPGRADED: raw record had fetched=false (search-synthesis only); direct fetch succeeded this session confirming edition, publication date, and scope."
+    "notes": "UPGRADED: raw record had fetched=false (search-synthesis only); direct fetch succeeded this session confirming edition, publication date, and scope.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Electrotechnical Commission (IEC)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://webstore.iec.ch/en/publication/31475",
+        "https://www.iec.ch/who-we-are"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEC is headquartered in Geneva, Switzerland; international standards body, not India-based."
+    }
   },
   {
     "id": "L08-046",
@@ -1133,12 +2286,16 @@
     "canonical_key": "standard:eu-2016-1447",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:46:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2304,27 @@
     "locator": "EUR-Lex official regulation text, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography 'EU' used as a supranational quasi-ISO code for a regulation applicable across all EU member states."
+    "notes": "Geography 'EU' used as a supranational quasi-ISO code for a regulation applicable across all EU member states.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Commission",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://eur-lex.europa.eu/eli/reg/2016/1447/oj",
+        "https://commission.europa.eu/about_en"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "European Commission is headquartered in Brussels, Belgium (EU institution); not India-based."
+    }
   },
   {
     "id": "L08-047",
@@ -1158,12 +2335,16 @@
     "canonical_key": "standard:ieee-2800-2022",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:47:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "https://ieeexplore.ieee.org/document/9762253/",
     "doi": "",
@@ -1183,12 +2364,16 @@
     "canonical_key": "standard:aemo-gfm-voluntary-spec-2024",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:48:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2382,27 @@
     "locator": "AEMO PDF document, fetched in full (2.8MB)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "AEMO is Australia's national market and system operator; this specification functions as a quasi-regulatory technical framework even though 'voluntary' by name."
+    "notes": "AEMO is Australia's national market and system operator; this specification functions as a quasi-regulatory technical framework even though 'voluntary' by name.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Australian Energy Market Operator (AEMO)",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.aemo.com.au/-/media/files/initiatives/engineering-framework/2023/grid-forming-inverters-jan-2024.pdf",
+        "https://aemo.com.au/en/about-aemo"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "AEMO is Australia's national electricity/gas market and system operator, headquartered in Melbourne, Australia."
+    }
   },
   {
     "id": "L08-049",
@@ -1208,12 +2413,16 @@
     "canonical_key": "https://www.energy.gov/oe/national-transmission-planning-study-0",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:49:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2431,34 @@
     "locator": "DOE GDO study landing page, fetched in full; comparative HVDC/AC savings figures sourced from Utility Dive trade reporting found via WebSearch, not confirmed in the fetched DOE page itself",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The underlying study record (existence, scope, DOE/NREL/PNNL authorship) is independently fetched and confirmed -- accepted on that basis. The specific $490bn/$270bn/$380bn comparative savings figure remains a flagged, unconfirmed secondary claim and must not be treated as load-bearing without opening the full NTPS PDF."
+    "notes": "The underlying study record (existence, scope, DOE/NREL/PNNL authorship) is independently fetched and confirmed -- accepted on that basis. The specific $490bn/$270bn/$380bn comparative savings figure remains a flagged, unconfirmed secondary claim and must not be treated as load-bearing without opening the full NTPS PDF.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of Energy Grid Deployment Office",
+          "country": "US"
+        },
+        {
+          "name": "National Renewable Energy Laboratory (NREL)",
+          "country": "US"
+        },
+        {
+          "name": "Pacific Northwest National Laboratory (PNNL)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.energy.gov/oe/national-transmission-planning-study-0"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal agency (DOE) and two US DOE national laboratories (NREL, PNNL); official .gov/.energy.gov domains confirm US origin."
+    }
   },
   {
     "id": "L08-050",
@@ -1233,12 +2469,16 @@
     "canonical_key": "standard:tepco-grid-interconnection-technical-requirements-2023",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:50:00Z",
     "fetched": false,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1258,12 +2498,16 @@
     "canonical_key": "doi:10.1109/ecce55643.2024.10860928",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:51:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ecce55643.2024.10860928",
     "doi": "10.1109/ECCE55643.2024.10860928",
@@ -1272,7 +2516,30 @@
     "locator": "2024 IEEE Energy Conversion Congress and Exposition (ECCE), DOI 10.1109/ECCE55643.2024.10860928; Crossref record confirmed and ORNL IMPACT repository page fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RECLASSIFIED: raw record typed this as national_lab (institutional repository record only) and did not attempt to confirm a peer-reviewed conference/journal placement. This session confirmed via direct fetch of the ORNL IMPACT page plus Crossref that this is in fact a peer-reviewed IEEE ECCE 2024 conference paper -- source_type upgraded to academic_peer_reviewed, T1, with confirmed DOI and named authors (Kandula, Kimpara)."
+    "notes": "RECLASSIFIED: raw record typed this as national_lab (institutional repository record only) and did not attempt to confirm a peer-reviewed conference/journal placement. This session confirmed via direct fetch of the ORNL IMPACT page plus Crossref that this is in fact a peer-reviewed IEEE ECCE 2024 conference paper -- source_type upgraded to academic_peer_reviewed, T1, with confirmed DOI and named authors (Kandula, Kimpara).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Oak Ridge National Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "National Transportation Research Center",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/ECCE55643.2024.10860928"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Kandula, Kimpara) resolved to Oak Ridge National Laboratory / National Transportation Research Center, US. No Indian affiliations."
+    }
   },
   {
     "id": "L08-052",
@@ -1283,12 +2550,16 @@
     "canonical_key": "https://www.hitachienergy.com/products-and-solutions/hvdc/hybrid-hvdc-breaker",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:52:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2568,27 @@
     "locator": "Hitachi Energy product page, fetched -- no quantitative specs or price extracted",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor marketing page only; no price signal captured despite fetch -- gap for the deep-dive stage to close via a technical datasheet PDF or distributor quote."
+    "notes": "Vendor marketing page only; no price signal captured despite fetch -- gap for the deep-dive stage to close via a technical datasheet PDF or distributor quote.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hitachi Energy Ltd",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hitachienergy.com/products-and-solutions/hvdc/hybrid-hvdc-breaker",
+        "https://www.hitachienergy.com/about-us"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Hitachi Energy Ltd is registered/headquartered in Zurich, Switzerland (Hitachi Ltd is the Japanese parent, also non-India). Not India-based despite having India operations/offices elsewhere."
+    }
   },
   {
     "id": "L08-053",
@@ -1308,12 +2599,16 @@
     "canonical_key": "https://www.prysmian.com/staticres/525-kv-hvdc-new-cable-systems/index.html",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:53:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT"],
+    "geography": [
+      "IT"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2617,27 @@
     "locator": "Prysmian technical brochure page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor technical brochure -- capacity/technology claims are vendor-stated, not independently validated; no price signal available."
+    "notes": "Vendor technical brochure -- capacity/technology claims are vendor-stated, not independently validated; no price signal available.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Prysmian Group",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.prysmian.com/staticres/525-kv-hvdc-new-cable-systems/index.html",
+        "https://www.prysmiangroup.com/en/group/about-us"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Prysmian Group is headquartered in Milan, Italy."
+    }
   },
   {
     "id": "L08-054",
@@ -1333,12 +2648,16 @@
     "canonical_key": "https://www.te.com/en/products/connectors/power-connectors/busbar-connectors.html",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:54:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1358,12 +2677,16 @@
     "canonical_key": "https://www.molex.com/en-us/industries-applications/power-for-data-center",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L08"],
+    "lane_ids": [
+      "L08"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:55:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",

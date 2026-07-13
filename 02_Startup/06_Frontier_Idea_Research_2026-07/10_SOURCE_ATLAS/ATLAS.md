@@ -70,7 +70,7 @@ demand-bridge argument.
 | L12 photonics/lasers | STRONG (defense-led) | JLWS $86M/$847M ceiling awards (nLIGHT, LM Aculight); nLIGHT A&D revenue $175.3M; NNSA EYC CD-1 + $26M; DARPA AMPED/POWER; TRUMPF/IPG/Coherent filings | China industrial-laser price war: Han's high-power revenue −6.6% on +30% units; share data 2021-vintage; CPO thermal unsettled |
 | L13 quantum/big-science | MODERATE–STRONG | DOE $625M QIS centers; Fermilab–Qblox QICK LOI; Keysight→AIST delivery; SEEQC–ITRI line; ITER I&C tenders | Buyer base is governments+labs; China "100% localization" claim unverified against two primary pages; pricing fully opaque |
 | L14 extreme thermal | STRONG (strongest in atlas) | Vertiv $15B backlog, +50% liquid-cooling orders; Google/Meta OCP specs adopted by 7+ vendors; M&A wave (Flex/JetCool, Schneider/Motivair, Trane/LiquidStack, ZutaCore $100M C); COOLERCHIPS $40M named awards; GS Caltex named customers; ITRI 2.4 kW cold plate | China "100% liquid-cooling mandate" is NOT in the primary text — verified contradiction; GB200 TDP/flow specs inconsistent; TAMs differ ~2x; PFAS/Novec fluid supply shock is both risk and opening |
-| L15 harsh-env electronics | MODERATE–STRONG | DARPA THERMAL; FORGE $49M+$44M named awards; ARPA-E SUPERHOT $30M; NASA HOTTech; Baker Hughes $2.0B New Energy orders + 300 MW ORC contract; SLB–Ormat EGS pilot; Cat/Rio Tinto autonomous fleet | 250 °C+ electronics: 20 years of programs, no converged platform; CISSOID CHT obsolete + Honeywell exit = live supply gap with existing buyers; 40% TAM disagreement |
+| L15 harsh-env electronics | MODERATE–STRONG | DARPA THERMAL; FORGE $49M+$44M named awards; ARPA-E SUPERHOT $30M; NASA HOTTech; Baker Hughes $2.0B New Energy orders + 300 MW ORC contract; SLB–Ormat EGS pilot; Cat/Rio Tinto autonomous fleet | 250 °C+ electronics: 20 years of programs, no converged platform; CISSOID CHT obsolete + Honeywell exit = live supply gap with existing buyers |
 | L16 wildcards | MODERATE (two clusters real) | Guangqi RMB516M orders (~RMB2.6B 2025 cum.); Jiaocheng/CATL/BYD ultrasonic welding; Piller flywheel for 400 MW AI datacenter; Army Ka-band metamaterial SBIR; Honda→Enedym | EHD, acoustic levitation/sonochemistry, EM launch, electro/magnetocaloric cooling: strong physics, explicitly no industrial-scale deployment — enthusiasm zones by the lane's own honest account |
 
 ## 4. Cross-lane patterns (load-bearing for P3)
@@ -106,7 +106,7 @@ demand-bridge argument.
    accelerator pulsed-power standard; IEC 61803 assumes LCC; JESD51 vs liquid cooling; ISO
    11553-2 (2007) vs handheld lasers; MCS vs Chinese swap standards) — both a risk and a wedge.
 7. **Market-size figures are systematically unreliable in these industries** (40%–10x
-   consultancy disagreements documented in L01, L03, L07, L09, L10, L12, L14, L15). P4 must do
+   consultancy disagreements documented in L01, L03, L07, L09, L10, L12, L14). P4 must do
    bottom-up arithmetic from contract values, filings, and unit counts; the atlas provides those
    primitives (this is why pricing opacity, documented in 10+ lanes, matters).
 8. **China evidence has category-dependent transparency:** precise RMB tender disclosure in
@@ -141,5 +141,16 @@ share; stale China market-share data) for any idea that relies on them.
 - Respect negative findings: no electrolyzer-stack plays priced against Chinese overcapacity; no
   grid-forming-services plays that ignore NESO's procurement outcome; no maritime plays that
   assume IMO timing; no two-phase-cooling plays without a post-Novec fluid plan.
-- Founder fit is applied only after evidence-first ideas exist, capped at 5/100 per CLAUDE.md
+- Founder fit is applied only after evidence-first ideas exist, capped at 2/100 per CLAUDE.md
   rule 3; lane independence per `05_STATE/ANTI_ANCHORING_PLAN.md` remains binding.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: none cited directly in this file (ATLAS.md does not inline-cite L12-043,
+  L13-034/050/051, L14-011/017/023/052, L15-045, or L16-008/012/021)
+- removed/trimmed claims: removed "; 40% TAM disagreement" from the L15 per-lane row (Section 3
+  table) and removed "L15" from the cross-lane pattern-7 list of consultancy-disagreement lanes
+  (Section 4) — both derived, uncredited, from the L15 brief's Research-and-Markets-vs-Fortune-
+  Business-Insights comparison, which itself was removed in `L15_harsh_env_electronics.md` because
+  it rested on quarantined source L15-045 (a "Research and Markets" record). No other market-size
+  or demand statement in this file was traced to a quarantined ID or producer name.

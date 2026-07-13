@@ -26,7 +26,7 @@ inverters and incumbent rotating-machine stability services. Third, **HVDC trans
 itself is in a global build-out supercycle**: GE Vernova alone carries a ~$10bn HVDC backlog
 concentrated in Europe with new large Asian orders booked in Q1 2026 (L08-033); India, China, and
 the EU/UK offshore-wind corridor are simultaneously running multi-billion-dollar HVDC procurement
-programs (L08-028, L08-029, L08-030, L08-031, L08-032, L08-034).
+programs (L08-029, L08-030, L08-031, L08-032, L08-034).
 
 ## Bottlenecks
 
@@ -45,7 +45,7 @@ programs (L08-028, L08-029, L08-030, L08-031, L08-032, L08-034).
   synchronous condensers remain the incumbent's default answer to inertia/short-circuit-level needs.
 - **MMC submodule fault tolerance and DC fault-blocking** add cost/complexity: full-bridge and
   hybrid submodule topologies trade DC fault-blocking capability against higher device count and
-  loss (L08-022, L08-023, L08-024, L08-046).
+  loss (L08-022, L08-024, L08-046).
 - **DC arc-fault detection** for PV/DC distribution is still a live AI/signal-processing research
   area (L08-018 [sic, see L08-019 through L08-021]; multiple 2019-2026 papers), indicating DC
   distribution fire-safety detection is not a solved problem even at low voltage.
@@ -60,9 +60,6 @@ programs (L08-028, L08-029, L08-030, L08-031, L08-032, L08-034).
 
 ## Named buyers and spending signals
 
-- **POWERGRID (India)** issued a pre-bid tender (10-30 March 2026, bids due 1 April 2026) for a new
-  6,000MW, +/-800kV Barmer-II LCC-HVDC terminal, ~900km line, estimated cost ~Rs.24,974 crore
-  (~USD2.9bn) (L08-028).
 - **Adani Energy Solutions** is the largest visible private Indian HVDC buyer: it awarded GE Vernova
   a 2,500MW, +/-500kV VSC-HVDC contract for the Khavda-South Olpad corridor (Dec 2025, described as
   India's highest-rated VSC-HVDC system to date, L08-029) and awarded a Hitachi Energy/BHEL
@@ -121,8 +118,7 @@ generally opaque in public sources.
 
 ## 2026-2031 triggers
 
-- **2026 (now):** POWERGRID Barmer-South Kalamb bid submission (1 April 2026, L08-028); State
-  Grid's multi-round 2026 UHV equipment tenders ongoing (L08-034); KEPCO expected to open West Coast
+- **2026 (now):** State Grid's multi-round 2026 UHV equipment tenders ongoing (L08-034); KEPCO expected to open West Coast
   HVDC procurement tenders (L08-038, L08-039); NERC PRC-029-1 ride-through standard newly approved
   (FERC Order 909, July 24 2025, compliance work ongoing through 2026, L08-043); GE Vernova
   reporting new large Asian HVDC order momentum in Q1 2026 (L08-033).
@@ -153,8 +149,8 @@ generally opaque in public sources.
   captured this session -- Chinese evidence gathered was tender/procurement and academic only
   (L08-034, L08-001, L08-025), a gap flagged for the verifier.
 - **Deployment scale and pace:** China and India are running the largest simultaneous
-  multi-gigawatt HVDC build-outs captured this session (India: L08-028, L08-029, L08-030 alone
-  total >14.5GW of HVDC capacity under tender/award; China: L08-034 plus prior-lane evidence of
+  multi-gigawatt HVDC build-outs captured this session (India: L08-029, L08-030 alone
+  total >8.5GW of HVDC capacity under tender/award; China: L08-034 plus prior-lane evidence of
   Gansu-Zhejiang UHVDC). Anglophone markets (UK, Australia, Ireland) are comparatively focused on
   grid-stability hardware (synchronous condensers, grid-forming inverters) rather than new
   long-distance bulk HVDC corridors, reflecting more mature transmission networks needing inertia
@@ -193,7 +189,7 @@ generally opaque in public sources.
 4. DC circuit breakers have been called a commercialization "showstopper" since at least 2018
    (L08-016), and 2023-2025 literature (L08-001, L08-003, L08-004, L08-006, L08-013 through L08-018)
    shows continued active topology research rather than convergence on a dominant, standardized
-   design -- yet multi-billion-dollar HVDC transmission contracts (L08-028 through L08-032) are
+   design -- yet multi-billion-dollar HVDC transmission contracts (L08-029 through L08-032) are
    being awarded and built now, implying either that breaker technology is more mature in practice
    than the academic literature suggests, or that current multi-terminal/meshed-DC-grid projects are
    being architected to minimize reliance on fast DC breakers (e.g., via point-to-point rather than
@@ -245,7 +241,7 @@ Presented as pain + who pays + evidence -- not startup pitches.
    and loss (full-bridge/hybrid topologies), and submodule-failure fault-tolerance control is a live
    2024-2025 research area, not a solved reliability problem. **Who pays:** HVDC converter-station
    vendors (GE Vernova, Hitachi Energy, Siemens Energy) and ultimately the TSO/developer bearing
-   warranty and downtime risk. **Evidence:** L08-022, L08-023, L08-024, L08-046.
+   warranty and downtime risk. **Evidence:** L08-022, L08-024, L08-046.
 5. **Pain:** DC arc-fault detection for PV/DC distribution remains an active AI/signal-processing
    research problem well into 2026, indicating DC distribution fire-safety detection is not
    commodity technology even at low voltage, let alone at the MVDC datacenter-distribution voltages
@@ -299,3 +295,20 @@ Presented as pain + who pays + evidence -- not startup pitches.
     cost-per-MVAr benchmark for this hardware category. **Who pays:** anyone underwriting investment,
     supply, or competitive-positioning decisions against this market currently pays an
     information-asymmetry cost. **Evidence:** L08-030, L08-037, L08-029.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L08-023, L08-028
+- removed/trimmed claims: deleted the "POWERGRID (India) Barmer-II LCC-HVDC pre-bid tender"
+  buyer-signal bullet from "Named buyers and spending signals" (rested solely on L08-028); trimmed
+  the "POWERGRID Barmer-South Kalamb bid submission" clause out of the "2026 (now)" trigger
+  sentence in "2026-2031 triggers" (same sole-source dependency, remaining clauses in that
+  sentence unaffected); recomputed the India HVDC capacity-total claim in "US vs Asia differences"
+  from ">14.5GW" (L08-028+L08-029+L08-030) down to ">8.5GW" (L08-029+L08-030 only) now that
+  L08-028's 6,000MW contribution is excluded; trimmed L08-028 out of the multi-country HVDC
+  procurement-programs citation list in "Frontier state" and out of the "L08-028 through L08-032"
+  contract-award range in "Unresolved contradictions" #4 (both claims remain co-supported by the
+  other listed IDs); trimmed L08-023 out of two co-supported MMC-submodule citation lists
+  (Bottlenecks and pain statement #4) with no claim text deleted. P4 must re-source any
+  India-specific HVDC procurement/tender figure (POWERGRID Barmer-II, ~USD2.9bn) from an eligible
+  (non-India-origin) provider before reuse.

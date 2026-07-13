@@ -47,7 +47,7 @@ inflated to hit a target; every T2/T3 downgrade is explained in that record's `n
   still pre-commercial: NTT DOCOMO's 2021 metasurface-reflector trial (L16-019) remains the most
   concrete deployed technical demonstration found this session, while 2025 Chinese academic work
   (L16-013, 014) and reviews of RCS-reduction and multispectral-stealth metamaterials (L16-010,
-  011, 012) show the physics is still being actively extended, not commoditized.
+  011) show the physics is still being actively extended, not commoditized.
 - **Acoustic process tools are bifurcating into a mature high-volume manufacturing niche (EV
   battery-tab ultrasonic welding) and a still-emerging contactless-manufacturing research frontier
   (acoustic levitation/additive manufacturing).** A 2025 Applied Physics Reviews survey (L16-022)
@@ -210,9 +210,6 @@ mission.
 - **Taiwan:** HIWIN's continued motion-control/linear-motor product expansion (L16-054) is a steady-
   state signal, not a step-change trigger; no Taiwan-specific 2026-2031 program was identified this
   session in any of this lane's four clusters — a coverage gap (see Section 9).
-- **India:** DST/DRDO-supported IIT Kanpur textile-metamaterial stealth research (L16-021) is
-  real but undated and unquantified in this session's sources — a directional signal only, not a
-  scheduled 2026-2031 trigger.
 - **Standards:** ISO 13588's 2019 edition (L16-027) supersedes a 2012 edition, suggesting roughly
   seven-year revision cycles; a next revision plausibly falls within 2026-2031 but was not
   independently confirmed as scheduled this session.
@@ -247,12 +244,6 @@ mission.
   line (L16-054) was identified, with no metamaterial, EHD, acoustic-process, or EM-forming
   activity found despite Taiwan's large precision-manufacturing and semiconductor-equipment base — a
   clear coverage gap, consistent with the pattern noted in the L12 lane brief for this same country.
-- **India** evidence (DST/DRDO/IIT Kanpur textile metamaterials, L16-021) is real but the weakest-
-  sourced record in the entire lane (T3, undated, unquantified) — a coverage gap rather than a
-  confirmed absence of activity, since India's DRDO is independently known (per other lanes of this
-  mission, e.g., L12's directed-energy coverage) to run substantial indigenous defense-technology
-  programs.
-
 ## 7. Unresolved contradictions
 
 1. **Guangqi Technology's specific order-announcement figures (L16-017) were fetched directly and
@@ -369,12 +360,12 @@ mission.
     endpoint. **Who pays:** DOE/ARPA-E (program risk); appliance and cooling-equipment
     manufacturers who would eventually need to retool for a fundamentally different refrigeration
     architecture. **Evidence:** L16-041, 042, 043, 044, 045, 046, 047.
-11. **Pain:** Taiwan and India are the weakest-evidenced Asian markets across every cluster in this
-    lane despite both countries having large relevant industrial bases (Taiwan: precision motion
-    control/semiconductor equipment; India: defense-electronics/DRDO) — this is a coverage gap in
-    this session's research, not a confirmed absence of activity, and should be a priority for a
-    follow-up scouting wave. **Who pays:** unclear from this session's evidence. **Evidence:**
-    L16-021, 054 (present but thin); absence otherwise noted in Section 6.
+11. **Pain:** Taiwan is among the weakest-evidenced Asian markets across every cluster in this
+    lane despite having a large relevant industrial base (precision motion control/semiconductor
+    equipment) — this is a coverage gap in this session's research, not a confirmed absence of
+    activity, and should be a priority for a follow-up scouting wave. **Who pays:** unclear from
+    this session's evidence. **Evidence:** L16-054 (present but thin); absence otherwise noted in
+    Section 6.
 12. **Pain:** Essentially no vendor across all four wildcard clusters in this lane (EHD pumps,
     metamaterial panels, acoustic levitators/PAUT systems, axial-flux/reluctance motors) discloses
     open-source unit pricing — only the ASTM/ISO PAUT standards documents themselves are
@@ -406,7 +397,9 @@ mission.
   government, 047 national_lab), exceeding a reasonable floor for this lane.
 - Asian-market coverage: 15+ records carry an Asia geography tag (CN x7: L16-013, 014, 015, 017,
   028, 033/036, plus underwater-acoustic-metamaterials L16-015's CN co-tag; JP x6: L16-006, 019,
-  048, 049, 050, 051; KR x2: L16-018, 029; TW x1: L16-054; IN x2: L16-008, 021), exceeding the >=8
+  048, 049, 050, 051; KR x2: L16-018, 029; TW x1: L16-054; IN x2: L16-008, 021 [update 2026-07-13:
+  L16-008 and L16-021 were quarantined by the P2A India-origin audit and no longer count toward
+  coverage; India is also out of market scope per the geography directive]), exceeding the >=8
   floor. 8 are local-language primary sources (zh x4: L16-013, 014, 017, 028; ko x2: L16-018, 029;
   ja x2: L16-050, 051), exceeding the >=3 floor specified in the role instructions.
 - **Two records' load-bearing performance figures could not be fetched and should be treated as
@@ -421,7 +414,9 @@ mission.
   any source this session and should not be assumed to exist.
 - **Weakest coverage / follow-up priorities for a future scout wave:** (1) Taiwan — only one record
   (HIWIN, L16-054) was found across all four clusters despite Taiwan's large precision-manufacturing
-  and semiconductor-equipment base; (2) India — only two records (L16-008, 021), both thin or dated;
+  and semiconductor-equipment base; (2) India — no longer a follow-up target: its only two records (L16-008, 021) were quarantined by
+  the 2026-07-13 P2A India-origin audit and India is excluded from market scope per the geography
+  directive;
   (3) direct fetch of Guangqi Technology's own cninfo.com.cn regulatory filing or annual report to
   upgrade L16-017 toward genuine audited-filing (T1) status and confirm the FY2025 revenue figures
   flagged as unconfirmed in Contradiction 1; (4) direct fetch of the Jiaocheng Ultrasonic STAR
@@ -433,3 +428,17 @@ mission.
   (8) a primary Evolito/Vertical Aerospace/Airbus press release for the axial-flux eVTOL/electric-
   taxi design win discussed in Section 1 and Section 5, which was identified via search but not
   separately logged as a raw-source record this session due to time constraints.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L16-008, L16-012, L16-021
+- removed/trimmed claims: trimmed the L16-012 citation from the RIS/metasurface frontier-state
+  sentence (Section 1), keeping the eligible L16-010/011 support; deleted the India 2026-2031
+  trigger bullet (Section 5, DST/DRDO/IIT Kanpur textile-metamaterial stealth research) sourced
+  solely to L16-021; deleted the India paragraph in "US vs. Asia differences" (Section 6), same
+  underlying evidence; trimmed pain statement 11 (Section 8) from a joint "Taiwan and India"
+  weakest-coverage claim down to Taiwan-only, removing the India/L16-021 clause since it had no
+  eligible co-support, and kept the Taiwan/L16-054 clause intact. L16-008 had no removable inline
+  claim — it appeared only in this brief's own methodology bookkeeping (Asian-market-coverage
+  record counts), which is left as a historical count of records collected, not a usable claim; no
+  eligible India-sourced claim remains anywhere in this lane after removal.

@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1149/1945-7111/ae1cf1",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1149/1945-7111/ae1cf1",
     "doi": "10.1149/1945-7111/ae1cf1",
@@ -22,7 +26,27 @@
     "locator": "Crossref metadata record (type=journal-article, container-title 'Journal of The Electrochemical Society' confirmed; DOI resolves via doi.org), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IOPscience full-text still returns 403 to direct WebFetch; acceptance rests on Crossref-confirmed final-venue identity per the verifier's Crossref rescue path. Authors now confirmed (raw record had 'Unconfirmed this session')."
+    "notes": "IOPscience full-text still returns 403 to direct WebFetch; acceptance rests on Crossref-confirmed final-venue identity per the verifier's Crossref rescue path. Authors now confirmed (raw record had 'Unconfirmed this session').",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Technical University of Munich (TUM), TUM School of Natural Sciences, Chair of Technical Electrochemistry, Garching",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1149/1945-7111/ae1cf1",
+        "https://www.researchgate.net/profile/Hubert-Gasteiger"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex and Crossref returned no affiliation strings for any of the 5 authors; direct IOPscience page fetch was blocked (403). Independent WebSearch corroboration (ResearchGate profile of senior/corresponding author Hubert A. Gasteiger, and multiple secondary listings) confirms the group is Technical University of Munich, Chair of Technical Electrochemistry, Garching, Germany. No IN affiliations found."
+    }
   },
   {
     "id": "L11-002",
@@ -33,12 +57,16 @@
     "canonical_key": "doi:10.1016/j.fuel.2025.137919",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:01:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.fuel.2025.137919",
     "doi": "10.1016/j.fuel.2025.137919",
@@ -47,7 +75,26 @@
     "locator": "Crossref bibliographic search + direct DOI metadata confirmation (journal-article, container-title 'Fuel'), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref this session (raw record had no DOI and 'Unconfirmed' authors). Year corrected from 2025 to 2026 per confirmed journal issue date."
+    "notes": "DOI resolved via Crossref this session (raw record had no DOI and 'Unconfirmed' authors). Year corrected from 2025 to 2026 per confirmed journal issue date.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "UY"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fuel.2025.137919&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved Uruguay (UY) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-003",
@@ -58,12 +105,16 @@
     "canonical_key": "doi:10.1149/1945-7111/add184",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1149/1945-7111/add184",
     "doi": "10.1149/1945-7111/add184",
@@ -72,7 +123,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors now confirmed via Crossref (raw record had 'Unconfirmed this session')."
+    "notes": "Authors now confirmed via Crossref (raw record had 'Unconfirmed this session').",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved), incl. NREL",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1149/1945-7111/add184&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors (Padgett, Yu, Blair, Cullen, Ahluwalia, Myers, Pivovar, Alia) resolved US via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-004",
@@ -83,12 +153,16 @@
     "canonical_key": "doi:10.1016/j.rser.2025.116170",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:03:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.rser.2025.116170",
     "doi": "10.1016/j.rser.2025.116170",
@@ -97,7 +171,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Explicitly a review -- T2 per source standards regardless of journal. Authors and DOI now confirmed (raw record had neither). Year corrected 2025 -> 2026."
+    "notes": "Explicitly a review -- T2 per source standards regardless of journal. Authors and DOI now confirmed (raw record had neither). Year corrected 2025 -> 2026.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.rser.2025.116170&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved France (FR) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-005",
@@ -108,12 +201,16 @@
     "canonical_key": "doi:10.1038/s41467-024-49095-2",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41467-024-49095-2",
     "doi": "10.1038/s41467-024-49095-2",
@@ -122,7 +219,26 @@
     "locator": "Crossref metadata record (journal-article, container-title 'Nature Communications' confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Nature.com direct fetch still blocked; acceptance via Crossref rescue path. Full author list now confirmed."
+    "notes": "Nature.com direct fetch still blocked; acceptance via Crossref rescue path. Full author list now confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 13,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-024-49095-2&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 13 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-006",
@@ -133,12 +249,16 @@
     "canonical_key": "doi:10.1038/s41467-024-45538-y",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41467-024-45538-y",
     "doi": "10.1038/s41467-024-45538-y",
@@ -147,7 +267,34 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref."
+    "notes": "Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "CA"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "NZ"
+        }
+      ],
+      "non_indian_affiliation_count": 17,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-024-45538-y&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "17 authors resolved across CN/CA/NZ via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-007",
@@ -158,12 +305,16 @@
     "canonical_key": "doi:10.1038/s41467-026-69506-w",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41467-026-69506-w",
     "doi": "10.1038/s41467-026-69506-w",
@@ -172,7 +323,26 @@
     "locator": "Crossref metadata record confirms real, published journal-article (not a hallucinated/future-dated placeholder); container-title 'Nature Communications', fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier explicitly checked this record for existence given its forward publication date relative to the raw scout's session; Crossref confirms it is a genuine published article."
+    "notes": "Verifier explicitly checked this record for existence given its forward publication date relative to the raw scout's session; Crossref confirms it is a genuine published article.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-026-69506-w&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-008",
@@ -183,12 +353,16 @@
     "canonical_key": "doi:10.1038/s41467-019-11599-7",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41467-019-11599-7",
     "doi": "10.1038/s41467-019-11599-7",
@@ -197,7 +371,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref."
+    "notes": "Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-019-11599-7&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-009",
@@ -208,12 +401,16 @@
     "canonical_key": "doi:10.1021/acsenergylett.3c01866",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1021/acsenergylett.3c01866",
     "doi": "10.1021/acsenergylett.3c01866",
@@ -222,7 +419,30 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref."
+    "notes": "Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CH"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1021/acsenergylett.3c01866&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "6 authors resolved across CH (Switzerland, EPFL-pattern)/CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-010",
@@ -233,12 +453,16 @@
     "canonical_key": "doi:10.1021/acs.chemrev.4c00466",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1021/acs.chemrev.4c00466",
     "doi": "10.1021/acs.chemrev.4c00466",
@@ -247,7 +471,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Chemical Reviews is a review-only journal -- T2 regardless of prestige. Year corrected 2024 -> 2025 per confirmed publication date; full author list now confirmed."
+    "notes": "Chemical Reviews is a review-only journal -- T2 regardless of prestige. Year corrected 2024 -> 2025 per confirmed publication date; full author list now confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "multiple institutions (Politecnico di Milano/Milano-Bicocca IT pattern, US DOE labs, Technion IL, DTU DK, CNRS FR, and others)",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 18,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1021/acs.chemrev.4c00466&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "21-author multinational review; 18 authors resolved across IT/US/IL/DK/FR/GB via OpenAlex, 3 (Lindquist, Twight, Kwak) had no institution data. No IN affiliations found among any resolved author."
+    }
   },
   {
     "id": "L11-011",
@@ -258,12 +501,16 @@
     "canonical_key": "doi:10.1038/s44172-023-00070-7",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s44172-023-00070-7",
     "doi": "10.1038/s44172-023-00070-7",
@@ -272,7 +519,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session; PMC mirror PMC10956030 available for open-access full text",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "China-origin academic work relevant to Asian-market tier balance."
+    "notes": "China-origin academic work relevant to Asian-market tier balance.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s44172-023-00070-7&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (Xia, Cheng, He, Wei) resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-012",
@@ -283,12 +549,16 @@
     "canonical_key": "doi:10.1016/j.enconman.2023.117955",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.enconman.2023.117955",
     "doi": "10.1016/j.enconman.2023.117955",
@@ -297,7 +567,26 @@
     "locator": "Crossref bibliographic search + direct DOI metadata confirmation (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and full author list now confirmed via Crossref. Year corrected 2023 -> 2024 per confirmed publication date."
+    "notes": "DOI and full author list now confirmed via Crossref. Year corrected 2023 -> 2024 per confirmed publication date.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.enconman.2023.117955&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-013",
@@ -308,12 +597,16 @@
     "canonical_key": "doi:10.1016/j.jpowsour.2023.233222",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.jpowsour.2023.233222",
     "doi": "10.1016/j.jpowsour.2023.233222",
@@ -322,7 +615,34 @@
     "locator": "Crossref bibliographic search + direct DOI metadata confirmation, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and full author list now confirmed via Crossref."
+    "notes": "DOI and full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "DE"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "MO"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.jpowsour.2023.233222&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "6 authors resolved across CN/DE(TU Clausthal)/MO(Macau) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-014",
@@ -333,12 +653,16 @@
     "canonical_key": "doi:10.1039/d5ta03711e",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1039/d5ta03711e",
     "doi": "10.1039/d5ta03711e",
@@ -347,7 +671,26 @@
     "locator": "Crossref metadata record (type=journal-article, no review/perspective subtype), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RSC PDF endpoint still 403s; acceptance via Crossref rescue path. Full author list now confirmed."
+    "notes": "RSC PDF endpoint still 403s; acceptance via Crossref rescue path. Full author list now confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1039/d5ta03711e&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-015",
@@ -358,12 +701,16 @@
     "canonical_key": "doi:10.1016/j.ecmx.2024.100653",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.ecmx.2024.100653",
     "doi": "10.1016/j.ecmx.2024.100653",
@@ -372,7 +719,26 @@
     "locator": "Crossref bibliographic search + direct DOI metadata confirmation, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and full author list now confirmed via Crossref."
+    "notes": "DOI and full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved), Technical University of Denmark pattern",
+          "country": "DK"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.ecmx.2024.100653&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved Denmark (DK) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-016",
@@ -383,12 +749,16 @@
     "canonical_key": "doi:10.3390/en17092188",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/en17092188",
     "doi": "10.3390/en17092188",
@@ -397,7 +767,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref."
+    "notes": "Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en17092188&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Huang, Tan, Meng) resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L11-017",
@@ -408,12 +797,16 @@
     "canonical_key": "doi:10.3390/en18010048",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/en18010048",
     "doi": "10.3390/en18010048",
@@ -422,7 +815,30 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Companion piece to L11-016. Full author list now confirmed via Crossref."
+    "notes": "Companion piece to L11-016. Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "China Huadian Corporation",
+          "country": "CN"
+        },
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en18010048"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Gao, Wang, Meng) resolve to Chinese institutions (China Huadian Corp; Sichuan University). No Indian affiliation."
+    }
   },
   {
     "id": "L11-018",
@@ -433,12 +849,16 @@
     "canonical_key": "doi:10.1016/j.ijhydene.2022.08.073",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:17:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.ijhydene.2022.08.073",
     "doi": "10.1016/j.ijhydene.2022.08.073",
@@ -447,7 +867,30 @@
     "locator": "Crossref bibliographic search + direct DOI metadata confirmation, fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and full author list now confirmed via Crossref."
+    "notes": "DOI and full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Universite du Quebec a Trois-Rivieres",
+          "country": "CA"
+        },
+        {
+          "name": "Air Liquide",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.ijhydene.2022.08.073"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Keddar/Doumbia at UQTR (Canada); Zhang/Periasamy at Air Liquide (US). No Indian affiliation."
+    }
   },
   {
     "id": "L11-019",
@@ -458,12 +901,16 @@
     "canonical_key": "doi:10.1016/j.jpowsour.2020.228075",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.jpowsour.2020.228075",
     "doi": "10.1016/j.jpowsour.2020.228075",
@@ -472,7 +919,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI now confirmed via Crossref (raw record had no DOI). Directly load-bearing for L11's precision-power-delivery pain point."
+    "notes": "DOI now confirmed via Crossref (raw record had no DOI). Directly load-bearing for L11's precision-power-delivery pain point.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Lappeenranta-Lahti University of Technology",
+          "country": "FI"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.jpowsour.2020.228075"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "5 of 6 authors resolve to LUT (Finland); Hamalainen has no OpenAlex institution but paper is a single LUT-group Finnish study. No Indian affiliation."
+    }
   },
   {
     "id": "L11-020",
@@ -483,12 +949,16 @@
     "canonical_key": "doi:10.1016/j.jpowsour.2019.227603",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:19:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.jpowsour.2019.227603",
     "doi": "10.1016/j.jpowsour.2019.227603",
@@ -497,7 +967,30 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI now confirmed via Crossref. Companion methodology paper to L11-019, same LUT/Finnish research cluster."
+    "notes": "DOI now confirmed via Crossref. Companion methodology paper to L11-019, same LUT/Finnish research cluster.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Lappeenranta-Lahti University of Technology",
+          "country": "FI"
+        },
+        {
+          "name": "Forschungszentrum Julich",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.jpowsour.2019.227603"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolve to LUT (Finland) or Forschungszentrum Julich (Germany). No Indian affiliation."
+    }
   },
   {
     "id": "L11-021",
@@ -508,12 +1001,16 @@
     "canonical_key": "doi:10.3390/membranes12020109",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/membranes12020109",
     "doi": "10.3390/membranes12020109",
@@ -522,7 +1019,30 @@
     "locator": "PMC page metadata + Crossref DOI confirmation (journal-article, container-title 'Membranes'), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal/DOI/authors now fully confirmed via PMC citation metadata and Crossref (raw record had DOI unresolved)."
+    "notes": "Journal/DOI/authors now fully confirmed via PMC citation metadata and Crossref (raw record had DOI unresolved).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CNRS / Universite Toulouse III - Paul Sabatier / INP Toulouse",
+          "country": "FR"
+        },
+        {
+          "name": "Air Liquide",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/membranes12020109"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolve to CNRS/Toulouse academic cluster or Air Liquide, France. No Indian affiliation."
+    }
   },
   {
     "id": "L11-022",
@@ -533,12 +1053,16 @@
     "canonical_key": "doi:10.1038/s41467-024-53335-w",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:21:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41467-024-53335-w",
     "doi": "10.1038/s41467-024-53335-w",
@@ -547,7 +1071,34 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref."
+    "notes": "Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shenzhen University",
+          "country": "CN"
+        },
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        },
+        {
+          "name": "Yalong Hydro",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 11,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-024-53335-w"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 11 authors resolve to Chinese institutions (Shenzhen University, Sichuan University, Yalong Hydro). No Indian affiliation."
+    }
   },
   {
     "id": "L11-023",
@@ -558,12 +1109,16 @@
     "canonical_key": "doi:10.1038/s41467-024-49639-6",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41467-024-49639-6",
     "doi": "10.1038/s41467-024-49639-6",
@@ -572,7 +1127,42 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref. Same research group as L11-022 (Xie, H. et al.)."
+    "notes": "Full author list now confirmed via Crossref. Same research group as L11-022 (Xie, H. et al.).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shenzhen University",
+          "country": "CN"
+        },
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        },
+        {
+          "name": "Dongfang Electric Corporation",
+          "country": "CN"
+        },
+        {
+          "name": "China Three Gorges Corporation",
+          "country": "CN"
+        },
+        {
+          "name": "Shenzhen University Health Science Center",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 15,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41467-024-49639-6"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 15 authors resolve to Chinese institutions. Same research cluster as L11-022. No Indian affiliation."
+    }
   },
   {
     "id": "L11-024",
@@ -583,12 +1173,16 @@
     "canonical_key": "doi:10.1038/s41578-025-00826-x",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:23:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1038/s41578-025-00826-x",
     "doi": "10.1038/s41578-025-00826-x",
@@ -597,7 +1191,30 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review-tier T2; state-of-field synthesis for the seawater-electrolysis sub-cluster (L11-022, L11-023). Full author list now confirmed via Crossref."
+    "notes": "Review-tier T2; state-of-field synthesis for the seawater-electrolysis sub-cluster (L11-022, L11-023). Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Houston",
+          "country": "US"
+        },
+        {
+          "name": "The University of Texas Health Science Center at Houston",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41578-025-00826-x"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to University of Houston / UT Health Science Center Houston (US). No Indian affiliation."
+    }
   },
   {
     "id": "L11-025",
@@ -608,12 +1225,16 @@
     "canonical_key": "doi:10.1021/acs.iecr.2c00383",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1021/acs.iecr.2c00383",
     "doi": "10.1021/acs.iecr.2c00383",
@@ -622,7 +1243,30 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref."
+    "notes": "Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Deutsches Zentrum fur Luft- und Raumfahrt (DLR)",
+          "country": "DE"
+        },
+        {
+          "name": "University of Stuttgart",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1021/acs.iecr.2c00383"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolve to DLR and University of Stuttgart, Germany. No Indian affiliation."
+    }
   },
   {
     "id": "L11-026",
@@ -633,12 +1277,16 @@
     "canonical_key": "doi:10.1007/bf03355931",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:25:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1007/bf03355931",
     "doi": "10.1007/BF03355931",
@@ -647,7 +1295,31 @@
     "locator": "Crossref metadata record (journal-article, container-title 'JOM' confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from null to 1975 (confirmed via Crossref); authors now confirmed."
+    "notes": "Year corrected from null to 1975 (confirmed via Crossref); authors now confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "EIC Laboratories",
+          "country": "US"
+        },
+        {
+          "name": "Unnamed (Massachusetts, US, per co-filed 1975 patent)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/bf03355931",
+        "https://patents.google.com/patent/US3928152A"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex resolves only first author (Harvey, EIC Laboratories, US); Randlett/Bangerskis have no OpenAlex institution. Corroborated via a co-filed Dec-1975 US patent by the same three named inventors (Harvey of Bedford MA, Randlett of Burlington MA, Bangerskis of Walpole MA, all US) covering the same electrowinning technology -- confirms all three were Massachusetts-based. No Indian affiliation."
+    }
   },
   {
     "id": "L11-027",
@@ -658,12 +1330,16 @@
     "canonical_key": "doi:10.3390/ma17061262",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:26:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/ma17061262",
     "doi": "10.3390/ma17061262",
@@ -672,7 +1348,30 @@
     "locator": "PMC page metadata + Crossref DOI confirmation (journal-article, container-title 'Materials'), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal/DOI/authors now fully confirmed (raw record had all unresolved)."
+    "notes": "Journal/DOI/authors now fully confirmed (raw record had all unresolved).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Silesian University of Technology",
+          "country": "PL"
+        },
+        {
+          "name": "Lukasiewicz Research Network - Institute of Non-Ferrous Metals",
+          "country": "PL"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/ma17061262"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolve to Polish institutions. No Indian affiliation."
+    }
   },
   {
     "id": "L11-028",
@@ -683,12 +1382,16 @@
     "canonical_key": "doi:10.3390/met15101123",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:27:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/met15101123",
     "doi": "10.3390/met15101123",
@@ -697,7 +1400,26 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Explicitly framed as review -- T2. Full author list now confirmed via Crossref."
+    "notes": "Explicitly framed as review -- T2. Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Politecnico di Milano",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/met15101123"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to Politecnico di Milano, Italy. No Indian affiliation."
+    }
   },
   {
     "id": "L11-029",
@@ -708,12 +1430,16 @@
     "canonical_key": "doi:10.3390/met15010029",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/met15010029",
     "doi": "10.3390/met15010029",
@@ -722,7 +1448,31 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary experimental study, not a review, distinguishing it from L11-028 and L11-030. Full author list now confirmed via Crossref."
+    "notes": "Primary experimental study, not a review, distinguishing it from L11-028 and L11-030. Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Dalhousie University",
+          "country": "CA"
+        },
+        {
+          "name": "National Research Council Canada",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/met15010029",
+        "https://www.researchgate.net/profile/Tahrim-Alam"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex resolves 3 of 4 authors (Ghadiani/Farhat -> Dalhousie University; Islam -> National Research Council Canada). Fourth author Tahrim Alam confirmed via independent web search to be a Dalhousie University (Halifax, Canada) researcher with NRC-Canada collaboration, not India. No Indian affiliation."
+    }
   },
   {
     "id": "L11-030",
@@ -733,12 +1483,16 @@
     "canonical_key": "doi:10.3390/met16040433",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:29:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/met16040433",
     "doi": "10.3390/met16040433",
@@ -747,7 +1501,34 @@
     "locator": "Crossref metadata record (journal-article, container-title confirmed), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review-tier T2. Full author list now confirmed via Crossref."
+    "notes": "Review-tier T2. Full author list now confirmed via Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Karamay Central Hospital",
+          "country": "CN"
+        },
+        {
+          "name": "University of Science and Technology Beijing",
+          "country": "CN"
+        },
+        {
+          "name": "Shanghai Technical Institute of Electronics & Information",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/met16040433"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Chinese institutions (OpenAlex author-disambiguation for 3 of them points to a Karamay hospital record, likely an imperfect name match, but the resolved country is CN regardless). No Indian affiliation."
+    }
   },
   {
     "id": "L11-031",
@@ -758,12 +1539,16 @@
     "canonical_key": "doi:10.3390/membranes13030348",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.3390/membranes13030348",
     "doi": "10.3390/membranes13030348",
@@ -772,7 +1557,26 @@
     "locator": "PMC page metadata + Crossref DOI confirmation (journal-article, container-title 'Membranes'), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal/DOI/authors now fully confirmed (raw record had all unresolved; had replaced an arXiv discovery-only placeholder per scout notes)."
+    "notes": "Journal/DOI/authors now fully confirmed (raw record had all unresolved; had replaced an arXiv discovery-only placeholder per scout notes).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Graz University of Technology",
+          "country": "AT"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/membranes13030348"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "4 of 5 authors resolve to Graz University of Technology, Austria; Sandu unresolved but same single-institution Austrian group. No Indian affiliation."
+    }
   },
   {
     "id": "L11-032",
@@ -783,12 +1587,16 @@
     "canonical_key": "url:energy.gov/articles/biden-harris-administration-announces-awards-22-billion-two-regional-clean-hydrogen-hubs",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1605,26 @@
     "locator": "Full press release body, fetched directly (carried over from raw scout session; re-verified this session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "One of seven total H2Hubs awarded under the Bipartisan Infrastructure Law's up-to-$7B program."
+    "notes": "One of seven total H2Hubs awarded under the Bipartisan Infrastructure Law's up-to-$7B program.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/articles/biden-harris-administration-announces-awards-22-billion-two-regional-clean-hydrogen-hubs"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official energy.gov (US federal government) domain; unambiguous major institution."
+    }
   },
   {
     "id": "L11-033",
@@ -808,12 +1635,16 @@
     "canonical_key": "url:osti.gov/biblio/2522763",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1653,26 @@
     "locator": "OSTI biblio record abstract, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Original docs.nrel.gov PDF and research-hub.nrel.gov / www.nrel.gov all failed DNS resolution across multiple attempts this session (nrel.gov domain appears blocked in this sandboxed environment); replaced with the equivalent OSTI.GOV conference record for the same report (matching NREL report number PR-6A20-92558) per verifier substitution allowance. The raw scout's specific $/kW capital-cost figures ($2,000/kW, $1,500-2,500/kW range) were NOT present in the fetched OSTI abstract and are dropped pending independent confirmation -- not invented."
+    "notes": "Original docs.nrel.gov PDF and research-hub.nrel.gov / www.nrel.gov all failed DNS resolution across multiple attempts this session (nrel.gov domain appears blocked in this sandboxed environment); replaced with the equivalent OSTI.GOV conference record for the same report (matching NREL report number PR-6A20-92558) per verifier substitution allowance. The raw scout's specific $/kW capital-cost figures ($2,000/kW, $1,500-2,500/kW range) were NOT present in the fetched OSTI abstract and are dropped pending independent confirmation -- not invented.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Renewable Energy Laboratory / U.S. DOE Office of Scientific and Technical Information",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.osti.gov/biblio/2522763"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OSTI.gov is the official U.S. Department of Energy scientific/technical information repository; NREL is a US national laboratory. Unambiguous major institution."
+    }
   },
   {
     "id": "L11-034",
@@ -833,12 +1683,16 @@
     "canonical_key": "doi:10.1016/j.enconman.2024.118950",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:33:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.1016/j.enconman.2024.118950",
     "doi": "10.1016/j.enconman.2024.118950",
@@ -847,7 +1701,38 @@
     "locator": "OSTI biblio record + Crossref DOI metadata confirmation (journal-article, container-title 'Energy Conversion and Management'), fetched this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RECLASSIFIED from source_type 'national_lab'/peer_review_status 'not_applicable' (raw scout classification) to 'academic_peer_reviewed'/'verified' this session: the OSTI record is a repository mirror of a genuine Elsevier journal article (DOI confirmed via Crossref), not merely a lab report. Authors are NETL/West Virginia University/Carnegie Mellon University researchers."
+    "notes": "RECLASSIFIED from source_type 'national_lab'/peer_review_status 'not_applicable' (raw scout classification) to 'academic_peer_reviewed'/'verified' this session: the OSTI record is a repository mirror of a genuine Elsevier journal article (DOI confirmed via Crossref), not merely a lab report. Authors are NETL/West Virginia University/Carnegie Mellon University researchers.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "West Virginia University",
+          "country": "US"
+        },
+        {
+          "name": "National Energy Technology Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "Carnegie Mellon University",
+          "country": "US"
+        },
+        {
+          "name": "Defense Logistics Agency",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.enconman.2024.118950"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to US institutions (WVU, NETL, CMU, DLA). No Indian affiliation."
+    }
   },
   {
     "id": "L11-035",
@@ -858,12 +1743,17 @@
     "canonical_key": "url:iea.org/reports/global-hydrogen-review-2025",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["global", "CN"],
+    "geography": [
+      "global",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1762,26 @@
     "locator": "Executive summary and production-prospects pages, fetched directly (carried over from raw scout session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Central annual benchmark report for the whole lane; load-bearing for market-size and China-dominance claims."
+    "notes": "Central annual benchmark report for the whole lane; load-bearing for market-size and China-dominance claims.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Energy Agency",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEA is an intergovernmental organization headquartered in Paris, France. Official iea.org domain; unambiguous major institution."
+    }
   },
   {
     "id": "L11-036",
@@ -881,23 +1790,36 @@
     "year": 2025,
     "url": "https://www.mercomindia.com/mnre-electrolyzer-manufacturing-sight-ii-program",
     "canonical_key": "url:mercomindia.com/mnre-electrolyzer-manufacturing-sight-ii-program",
-    "source_type": "government",
-    "tier": "T1",
-    "lane_ids": ["L11"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "procurement_award",
     "claim_supported": "India's SIGHT II electrolyzer manufacturing incentive program allocates ~Rs 44.4 billion (~$535.6M) for 1,500 MW of competitive-bid manufacturing capacity (Bucket 1: 1,100 MW; Bucket 2A: 300 MW; Bucket 2B: 100 MW) for 2025-26 through 2029-30, base incentive ~Rs 4,440/kW year one (declining), requiring <=56 kWh/kg specific energy consumption and >=60,000-hour stack lifespan, plus 30-40% local value-addition minimums. SIGHT-I Tranche 1 (Jan 2024) awarded 1.5 GW to Reliance, John Cockerill/Greenko, Jindal (300 MW each), plus Ohmium, Advait, and L&T Electrolysers.",
     "locator": "Full article body, fetched directly (carried over from raw scout session)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Combines SIGHT-I and SIGHT-II reporting into one canonical record since both are tranches of the same underlying government incentive program."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Combines SIGHT-I and SIGHT-II reporting into one canonical record since both are tranches of the same underlying government incentive program (MNRE/SECI). India government/demand primary source. | Combines SIGHT-I and SIGHT-II reporting into one canonical record since both are tranches of the same underlying government incentive program. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.043678+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.mercomindia.com/mnre-electrolyzer-manufacturing-sight-ii-program"
+      ],
+      "original_source_type": "government"
+    }
   },
   {
     "id": "L11-037",
@@ -908,12 +1830,16 @@
     "canonical_key": "url:jogmec.go.jp/news/release/news_10_00211.html",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:36:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1848,26 @@
     "locator": "Press release body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Japanese-language primary government source (local-language primary #1). The aggregate JPY 3 trillion (~$19-20B) figure cited in secondary English-language reporting was not stated on this specific page and should be attributed to that separate coverage, not this canonical record directly. JOGMEC's English organization name updated to reflect its 2024 rename."
+    "notes": "Japanese-language primary government source (local-language primary #1). The aggregate JPY 3 trillion (~$19-20B) figure cited in secondary English-language reporting was not stated on this specific page and should be attributed to that separate coverage, not this canonical record directly. JOGMEC's English organization name updated to reflect its 2024 rename.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "JOGMEC (Japan Organization for Metals and Energy Security) / METI",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.jogmec.go.jp/news/release/news_10_00211.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official .go.jp (Japan government) domain; unambiguous Japanese government agency."
+    }
   },
   {
     "id": "L11-038",
@@ -933,12 +1878,16 @@
     "canonical_key": "url:kpx.or.kr/board.es-mid-a11201000000-bid-0042-list_no-75084",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:37:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +1896,26 @@
     "locator": "Bulletin board announcement page, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Korean-language primary government tender source (local-language primary #2). Specific procurement-volume figures were not visible in the fetched bulletin summary (require a linked attachment); the raw scout's cited 0.22/3.9/27.9 Mt/yr national hydrogen-supply trajectory figures come from separate government planning documents, not this specific tender notice, and are dropped from the confirmed claim."
+    "notes": "Korean-language primary government tender source (local-language primary #2). Specific procurement-volume figures were not visible in the fetched bulletin summary (require a linked attachment); the raw scout's cited 0.22/3.9/27.9 Mt/yr national hydrogen-supply trajectory figures come from separate government planning documents, not this specific tender notice, and are dropped from the confirmed claim.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Power Exchange (KPX)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.kpx.or.kr/board.es?mid=a11201000000&bid=0042&act=view&list_no=75084"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Korea Power Exchange, official .or.kr domain; unambiguous South Korean government-affiliated organization."
+    }
   },
   {
     "id": "L11-039",
@@ -958,12 +1926,16 @@
     "canonical_key": "url:cinea.ec.europa.eu/news-events/news/six-winners-2024-innovation-fund-hydrogen-auction-sign-grant-agreements",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:38:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1944,26 @@
     "locator": "Press release body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "This record narrowly covers Round 1 (IF24) grant-agreement signing only, the specific event described in the fetched URL. The raw scout's claims about a second EUR992M/15-project round (closed Feb 2025) and a third >EUR1B/9-project round (Dec2025-Feb2026) were not verified on this specific page this session and are not part of this record's confirmed claim -- flagged as needing separate sourcing if cited later, per 'conflicts shown, not averaged away.'"
+    "notes": "This record narrowly covers Round 1 (IF24) grant-agreement signing only, the specific event described in the fetched URL. The raw scout's claims about a second EUR992M/15-project round (closed Feb 2025) and a third >EUR1B/9-project round (Dec2025-Feb2026) were not verified on this specific page this session and are not part of this record's confirmed claim -- flagged as needing separate sourcing if cited later, per 'conflicts shown, not averaged away.'",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Climate, Infrastructure and Environment Executive Agency (CINEA) / European Commission",
+          "country": "BE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://cinea.ec.europa.eu/news-events/news/six-winners-2024-innovation-fund-hydrogen-auction-sign-grant-agreements-advancing-renewable-hydrogen-2026-01-20_en"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official EU executive agency (europa.eu domain), headquartered in Brussels, Belgium. Unambiguous major institution."
+    }
   },
   {
     "id": "L11-040",
@@ -983,12 +1974,18 @@
     "canonical_key": "url:siemens-energy.com/us/en/home/products-services/product-offerings/hydrogen-solutions",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:39:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "DE", "AT"],
+    "geography": [
+      "multinational",
+      "DE",
+      "AT"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +1994,26 @@
     "locator": "Official product page, fetched directly this session (replaces the original vendor datasheet PDF, which returned unreadable binary content on two direct-fetch attempts)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Product renamed Silyzer 300 -> Elyzer P-300 per this session's research. The raw scout's specific Silyzer 300 performance figures (17.5 MW/24-stack array, 335 kg H2/hour, >75.5% plant efficiency) originate from Siemens' own datasheet PDF (assets.siemens-energy.com), corroborated only by WebSearch synthesis of that PDF, not independently machine-read as text this session -- retained as an unconfirmed vendor claim, not asserted as directly verified."
+    "notes": "Product renamed Silyzer 300 -> Elyzer P-300 per this session's research. The raw scout's specific Silyzer 300 performance figures (17.5 MW/24-stack array, 335 kg H2/hour, >75.5% plant efficiency) originate from Siemens' own datasheet PDF (assets.siemens-energy.com), corroborated only by WebSearch synthesis of that PDF, not independently machine-read as text this session -- retained as an unconfirmed vendor claim, not asserted as directly verified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Siemens Energy AG",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.siemens-energy.com/us/en/home/products-services/product-offerings/hydrogen-solutions.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Siemens Energy AG, headquartered in Munich, Germany. Official siemens-energy.com domain; unambiguous major multinational."
+    }
   },
   {
     "id": "L11-041",
@@ -1008,12 +2024,16 @@
     "canonical_key": "url:accelerazero.com/electrolyzers/products/hylyzer-1000",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2042,26 @@
     "locator": "Official product page, fetched directly this session (replaces the original vendor spec-sheet PDF, which returned unreadable binary content on direct fetch)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The raw scout's broader claims (1.25 MW-200+ MW product-line span across HyLYZER-500/1000/5000, ISO 22734 compliance, ATEX rating, >500,000 cumulative operating hours) were not present on this specific product page and are dropped from the confirmed claim, pending future re-verification against the unreadable PDF or another source. Cummins/Accelera manufactures in Fridley, Minnesota per prior (not re-confirmed this session) press coverage."
+    "notes": "The raw scout's broader claims (1.25 MW-200+ MW product-line span across HyLYZER-500/1000/5000, ISO 22734 compliance, ATEX rating, >500,000 cumulative operating hours) were not present on this specific product page and are dropped from the confirmed claim, pending future re-verification against the unreadable PDF or another source. Cummins/Accelera manufactures in Fridley, Minnesota per prior (not re-confirmed this session) press coverage.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Cummins Inc. (Accelera by Cummins)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.accelerazero.com/electrolyzers/products/HyLYZER-1000"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Cummins Inc., headquartered in Columbus, Indiana, US; Accelera is its zero-emissions technologies brand. Unambiguous major multinational."
+    }
   },
   {
     "id": "L11-042",
@@ -1033,12 +2072,18 @@
     "canonical_key": "url:argusmedia.com/en/news-and-insights/latest-market-news/2380788",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:41:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "CN", "IN"],
+    "geography": [
+      "multinational",
+      "CN",
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2092,27 @@
     "locator": "Article body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The raw scout's claim of a July 2025 McPhy-asset acquisition was NOT found in this fetched article and is dropped from the confirmed claim pending separate verification -- a correction, not an invention."
+    "notes": "The raw scout's claim of a July 2025 McPhy-asset acquisition was NOT found in this fetched article and is dropped from the confirmed claim pending separate verification -- a correction, not an invention.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Argus Media Limited",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.argusmedia.com/en/about-argus",
+        "https://find-and-update.company-information.service.gov.uk/company/01642534"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Argus Media Limited, UK Companies House registration 01642534, registered office London, UK (Lacon House, Theobald's Road). Record's geography tags (CN/IN/multinational) reflect content coverage of the article, not publisher location. Publisher confirmed UK, not India."
+    }
   },
   {
     "id": "L11-043",
@@ -1058,12 +2123,18 @@
     "canonical_key": "url:bestmag.co.uk/battery-machinery-from-gigascale-down-to-precision-manufacturing",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:42:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW", "JP", "multinational"],
+    "geography": [
+      "TW",
+      "JP",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2143,26 @@
     "locator": "Article body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Chroma ATE's specific product portfolio was named but not detailed with quantitative specs in this fetch; the raw scout's broader claim about deployment 'at major Asian and international battery makers' is a reasonable general characterization but not independently itemized here."
+    "notes": "Chroma ATE's specific product portfolio was named but not detailed with quantitative specs in this fetch; the raw scout's broader claim about deployment 'at major Asian and international battery makers' is a reasonable general characterization but not independently itemized here.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Energy Storage Publishing Ltd (publisher of BEST Magazine)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.bestmag.co.uk/about-best-magazine/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "BEST Magazine is published by Energy Storage Publishing Ltd, registered and based in West Sussex, UK."
+    }
   },
   {
     "id": "L11-044",
@@ -1083,12 +2173,17 @@
     "canonical_key": "url:avrionlabs.com/cell-testing-equipment",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:43:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "multinational"],
+    "geography": [
+      "US",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2192,26 @@
     "locator": "Official product page, fetched directly this session (301-redirected from the original novonixgroup.com/cell-testing-equipment/ URL)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The novonixgroup.com URL now redirects to avrionlabs.com, indicating a corporate rebrand or divestiture of NOVONIX's cell-testing-equipment business between the raw scout's session and this verification pass -- flagged for idea-generation/red-team awareness since it affects incumbent-mapping accuracy for L11's battery-formation-equipment sub-scope."
+    "notes": "The novonixgroup.com URL now redirects to avrionlabs.com, indicating a corporate rebrand or divestiture of NOVONIX's cell-testing-equipment business between the raw scout's session and this verification pass -- flagged for idea-generation/red-team awareness since it affects incumbent-mapping accuracy for L11's battery-formation-equipment sub-scope.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Avrion Labs (Avrion Battery Labs Inc.)",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://avrionlabs.com/news/advanced-cell-testing-for-battery-rd-at-avrion-battery-labs/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Avrion Battery Labs Inc. is based in Halifax, Nova Scotia, Canada (formerly a NOVONIX division, divested April 2026). Not India."
+    }
   },
   {
     "id": "L11-045",
@@ -1108,12 +2222,17 @@
     "canonical_key": "url:theadvint.com/insights/copper-electrowinning-advanced-rectifier-systems-and-power-supplies",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:44:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "multinational"],
+    "geography": [
+      "US",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2241,26 @@
     "locator": "Article body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor content -- context only, not independent validation, per source standards. The raw scout's specific 200-375 A/m^2 current-density figure was not located in this fetch and is dropped from the confirmed claim."
+    "notes": "Vendor content -- context only, not independent validation, per source standards. The raw scout's specific 200-375 A/m^2 current-density figure was not located in this fetch and is dropped from the confirmed claim.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Advint Incorporated",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://theadvint.com/contact"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Checked carefully per the India-registered-consultancy watch instruction because the founder's name (Venkat Raja) could otherwise prompt a name-based inference. Advint Incorporated's own contact page states its Corporate Headquarters is in Kitchener, Ontario, Canada, and it is registered as a Canadian federal corporation. Never inferred from name; verified via the org's own official contact page. Not India."
+    }
   },
   {
     "id": "L11-046",
@@ -1133,12 +2271,17 @@
     "canonical_key": "url:ir.plugpower.com/press-releases/news-details/2026/plug-power-reports-q4-and-full-year-2025-results",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:45:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "multinational"],
+    "geography": [
+      "US",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2290,26 @@
     "locator": "Press release body, fetched directly (carried over from raw scout session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Company self-reported filing/press release -- treat revenue and backlog figures as company claims pending cross-check against the 10-K."
+    "notes": "Company self-reported filing/press release -- treat revenue and backlog figures as company claims pending cross-check against the 10-K.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Plug Power Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ir.plugpower.com/press-releases/news-details/2026/Plug-Power-Reports-Q4-and-Full-Year-2025-Results-with-Strong-Sales-Growth-and-Margin-Expansion/default.aspx"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Plug Power Inc., Nasdaq-listed, headquartered in Latham, New York, US. Unambiguous major company."
+    }
   },
   {
     "id": "L11-047",
@@ -1158,12 +2320,16 @@
     "canonical_key": "url:nelhydrogen.com/press-release/nel-asa-fourth-quarter-2025-financial-results",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:46:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2338,26 @@
     "locator": "Press release HTML page, fetched directly and successfully text-extracted this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Replaces the raw scout's unreadable PDF fetch with a directly-readable HTML press release for the same reporting period, resolving the raw record's PDF-extraction failure. Confirms 18% y/y backlog decline (supporting the lane brief's 'hydrogen boom vs. shrinking order books' contradiction) while also showing a 34% quarter-over-quarter uptick -- both true simultaneously, preserved rather than reconciled."
+    "notes": "Replaces the raw scout's unreadable PDF fetch with a directly-readable HTML press release for the same reporting period, resolving the raw record's PDF-extraction failure. Confirms 18% y/y backlog decline (supporting the lane brief's 'hydrogen boom vs. shrinking order books' contradiction) while also showing a 34% quarter-over-quarter uptick -- both true simultaneously, preserved rather than reconciled.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Nel ASA",
+          "country": "NO"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://nelhydrogen.com/press-release/nel-asa-fourth-quarter-2025-financial-results/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Nel ASA, Oslo Stock Exchange-listed, headquartered in Norway. Unambiguous major company."
+    }
   },
   {
     "id": "L11-048",
@@ -1183,12 +2368,17 @@
     "canonical_key": "url:thyssenkrupp-nucera.com/thyssenkrupp-nucera-returns-to-profit-in-2024-2025-despite-decline-in-sales",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:47:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "IN"],
+    "geography": [
+      "multinational",
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2387,26 @@
     "locator": "Press release body, fetched directly (carried over from raw scout session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Strong contradictory demand signal: chlor-alkali is profitable and growing while green-hydrogen electrolyzer order intake collapsed ~96% y/y for this major OEM."
+    "notes": "Strong contradictory demand signal: chlor-alkali is profitable and growing while green-hydrogen electrolyzer order intake collapsed ~96% y/y for this major OEM.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "thyssenkrupp nucera AG & Co. KGaA",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.thyssenkrupp-nucera.com/thyssenkrupp-nucera-returns-to-profit-in-2024-2025-despite-decline-in-sales/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "thyssenkrupp nucera is headquartered in Dortmund/Frankfurt, Germany (thyssenkrupp AG subsidiary, dual-listed). Record's geography tag 'IN' reflects a named Indian customer contract (TGV SRAAC) within the content, not the publisher's location. Publisher confirmed Germany, not India."
+    }
   },
   {
     "id": "L11-049",
@@ -1208,12 +2417,16 @@
     "canonical_key": "url:woodmac.com/news/opinion/hydrogen-case-study-sinopec-kuqa-project",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:48:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2435,26 @@
     "locator": "Article body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The raw scout's additional figures (14,900 t cumulative delivery over 800+ operating days by September 2025; the specific 260 MW/13-electrolyzer/LONGi-Peric-Cockerill-Jingli supplier breakdown) were NOT present in this specific fetched article and are dropped from the confirmed claim, likely originating from a separate PRNewswire/Sinopec release not fetched this session."
+    "notes": "The raw scout's additional figures (14,900 t cumulative delivery over 800+ operating days by September 2025; the specific 260 MW/13-electrolyzer/LONGi-Peric-Cockerill-Jingli supplier breakdown) were NOT present in this specific fetched article and are dropped from the confirmed claim, likely originating from a separate PRNewswire/Sinopec release not fetched this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Wood Mackenzie",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.woodmac.com/news/opinion/hydrogen-case-study-sinopec-kuqa-project/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Wood Mackenzie is headquartered in Edinburgh, Scotland, UK (part of Verisk Analytics, a US-listed parent). Not India."
+    }
   },
   {
     "id": "L11-050",
@@ -1233,12 +2465,16 @@
     "canonical_key": "url:finance.sina.com.cn/roll/2025-03-05/doc-inenqpat1980896.shtml",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:49:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2483,26 @@
     "locator": "Article body (Chinese-language), fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The raw scout's claim that 'LONGi Hydrogen ranked first...to win Sinopec's Uxin Banner tender, supplying 24 sets of 1,000 Nm3/h alkaline electrolyzers' was NOT found in this fetched article and is dropped from the confirmed claim -- possibly conflated from a different article; flagged as unconfirmed rather than invented or silently retained. Chinese-language primary-market trade reporting (local-language primary #1 of 2)."
+    "notes": "The raw scout's claim that 'LONGi Hydrogen ranked first...to win Sinopec's Uxin Banner tender, supplying 24 sets of 1,000 Nm3/h alkaline electrolyzers' was NOT found in this fetched article and is dropped from the confirmed claim -- possibly conflated from a different article; flagged as unconfirmed rather than invented or silently retained. Chinese-language primary-market trade reporting (local-language primary #1 of 2).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sina Corp (Sina Finance)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://finance.sina.com.cn/roll/2025-03-05/doc-inenqpat1980896.shtml"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sina Finance is a property of Sina Corp, headquartered in Beijing, China. Not India."
+    }
   },
   {
     "id": "L11-051",
@@ -1258,12 +2513,16 @@
     "canonical_key": "url:h2.solarbe.com/news/20241105/4113.html",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:50:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2531,26 @@
     "locator": "Article body (Chinese-language), fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "REPLACES the raw scout's original canonical record (BJX News, m.bjx.com.cn/mnews/20250225/1428871.shtml), which could not be fetched this session (mobile URL returned encrypted/obfuscated content; desktop www.bjx.com.cn mirror 404'd; web.archive.org unavailable in this environment). This substitute source directly CONTRADICTS the raw scout's specific claim that 'LONGi Hydrogen ranked first...to win' a 125-set tender with named RMB values (7.26M/7.18M/6.276M) -- LONGi does NOT appear among the confirmed winners of the actual disclosed 64-set Songyuan tender in this fetched source. Per source-standards discipline, this conflict is preserved and flagged, not averaged away or silently corrected to match the unverifiable original claim. Chinese-language primary-market trade reporting (local-language primary #2 of 2)."
+    "notes": "REPLACES the raw scout's original canonical record (BJX News, m.bjx.com.cn/mnews/20250225/1428871.shtml), which could not be fetched this session (mobile URL returned encrypted/obfuscated content; desktop www.bjx.com.cn mirror 404'd; web.archive.org unavailable in this environment). This substitute source directly CONTRADICTS the raw scout's specific claim that 'LONGi Hydrogen ranked first...to win' a 125-set tender with named RMB values (7.26M/7.18M/6.276M) -- LONGi does NOT appear among the confirmed winners of the actual disclosed 64-set Songyuan tender in this fetched source. Per source-standards discipline, this conflict is preserved and flagged, not averaged away or silently corrected to match the unverifiable original claim. Chinese-language primary-market trade reporting (local-language primary #2 of 2).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "TansuoH2 / Carbon-Hydrogen Energy Network (solarbe.com)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://h2.solarbe.com/news/20241105/4113.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Publisher registered address confirmed at Daxing District, Beijing, China (Tiantong Taitech Finance Valley). Not India."
+    }
   },
   {
     "id": "L11-052",
@@ -1283,12 +2561,17 @@
     "canonical_key": "url:thyssenkrupp-nucera.com/newsroom/stories-press-releases/one-of-the-largest-green-hydrogen-projects-in-the-world",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:51:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SA", "multinational"],
+    "geography": [
+      "SA",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2580,26 @@
     "locator": "Press release body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "This specific press release does not itself state quantified hydrogen (600 t/day) or ammonia (1.2 Mt/yr) output targets, nor the ~4 GW renewable-capacity figure cited in the raw scout record and later secondary reporting -- those figures are dropped from this record's confirmed claim pending a separately-fetched source, per 'correct wrong metadata, never invent.'"
+    "notes": "This specific press release does not itself state quantified hydrogen (600 t/day) or ammonia (1.2 Mt/yr) output targets, nor the ~4 GW renewable-capacity figure cited in the raw scout record and later secondary reporting -- those figures are dropped from this record's confirmed claim pending a separately-fetched source, per 'correct wrong metadata, never invent.'",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "thyssenkrupp nucera AG & Co. KGaA",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.thyssenkrupp-nucera.com/newsroom/stories-press-releases/one-of-the-largest-green-hydrogen-projects-in-the-world-thyssenkrupp-signs-contract-to-install-over-2gw-electrolysis-plant-for-air-products-in-neom"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same publisher as L11-048; headquartered Germany. Not India."
+    }
   },
   {
     "id": "L11-053",
@@ -1306,23 +2608,36 @@
     "year": 2024,
     "url": "https://www.pv-magazine.com/2024/07/23/ohmium-opens-second-electrolyzer-gigafactory-in-india/",
     "canonical_key": "url:pv-magazine.com/2024/07/23/ohmium-opens-second-electrolyzer-gigafactory-in-india",
-    "source_type": "market_industry",
-    "tier": "T2",
-    "lane_ids": ["L11"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:52:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "procurement_award",
     "claim_supported": "pv magazine article (fetched): Ohmium opened its second India gigafactory (Doddaballapura, near Bengaluru) in July 2024 with 2 GW/yr PEM-electrolyzer manufacturing capacity (expandable to 4 GW), producing fully assembled/tested PEM systems; named partnerships/contracts include a 400 MW deal with NTPC (2023, majority state-owned Indian utility), a 2024 strategic partnership with Tata Projects, and selection under India's MNRE SIGHT incentive program; also references a CSIR-CECRI/IIT Madras Research Park technology-transfer collaboration.",
     "locator": "Article body, fetched directly this session",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "The raw scout's more specific SECI-SIGHT sub-claim (137 MW manufacturing plant, INR 202.76 crore / ~USD24.3M incentive) was not independently re-confirmed within this specific fetched article (which references SIGHT selection only in general terms) -- retained as unconfirmed supplementary detail from the scout's broader multi-source synthesis, not verified against a primary document this session."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Named-buyer (NTPC, a majority state-owned Indian power utility) procurement evidence plus government incentive-program participation -- India market primary demand signal. | The raw scout's more specific SECI-SIGHT sub-claim (137 MW manufacturing plant, INR 202.76 crore / ~USD24.3M incentive) was not independently re-confirmed within this specific fetched article (which references SIGHT selection only in general terms) -- retained as unconfirmed supplementary detail from the scout's broader multi-source synthesis, not verified against a primary document this session. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.045198+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.pv-magazine.com/2024/07/23/ohmium-opens-second-electrolyzer-gigafactory-in-india/"
+      ],
+      "original_source_type": "market_industry"
+    }
   },
   {
     "id": "L11-054",
@@ -1333,12 +2648,16 @@
     "canonical_key": "url:ammoniaenergy.org/articles/first-projects-awarded-funding-under-japanese-cfd-scheme",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:53:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,7 +2666,26 @@
     "locator": "Article body, fetched directly this session (substitutes for the raw scout's original fuelcellsworks.com URL, which returned HTTP 403 on repeated attempts this session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Original raw URL (fuelcellsworks.com) blocked (403) on two direct-fetch attempts; hydrogeninsight.com alternate coverage was paywall/SSO-gated. This substitute independently confirms the same underlying award event (same two named winners, same CfD program). Note: this source's '$51B of $1T GX scheme' framing differs from the JPY3T (~$19-20B), 15-year, hydrogen/ammonia-specific CfD figure cited via JOGMEC/METI reporting in L11-037 -- both figures are preserved rather than reconciled, per source-standards conflict discipline."
+    "notes": "Original raw URL (fuelcellsworks.com) blocked (403) on two direct-fetch attempts; hydrogeninsight.com alternate coverage was paywall/SSO-gated. This substitute independently confirms the same underlying award event (same two named winners, same CfD program). Note: this source's '$51B of $1T GX scheme' framing differs from the JPY3T (~$19-20B), 15-year, hydrogen/ammonia-specific CfD figure cited via JOGMEC/METI reporting in L11-037 -- both figures are preserved rather than reconciled, per source-standards conflict discipline.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Ammonia Energy Association",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ammoniaenergy.org/about/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Ammonia Energy Association is a US-registered nonprofit (EIN 26-0821492) headquartered in Brooklyn, New York, US. Not India."
+    }
   },
   {
     "id": "L11-055",
@@ -1358,12 +2696,16 @@
     "canonical_key": "url:qcintel.com/hydrogen/article/sungrow-hydrogen-secures-45-mw-electrolyser-order-from-china-68036",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L11"],
+    "lane_ids": [
+      "L11"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T16:54:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",

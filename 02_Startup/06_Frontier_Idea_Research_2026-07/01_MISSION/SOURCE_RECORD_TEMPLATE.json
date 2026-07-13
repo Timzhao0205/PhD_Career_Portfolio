@@ -23,6 +23,13 @@
     "accepted": false,
     "rejection_reason": "",
     "notes": ""
+    ,"india_origin_audit": {
+      "status": "pending|verified_non_india_origin|verified_multinational_allowed|excluded_india_origin",
+      "audited_at": "",
+      "methods": [],
+      "institutions": [],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": []
+    }
   }
 ]
-

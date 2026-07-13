@@ -11,10 +11,14 @@ Return configured model/effort for orchestrator logging. Run both validators. In
 accepted counts and overlaps, peer-review evidence failures, type/tier/geography mix, final-idea
 source quotas, citation IDs without records, and deliverable/diversity failures. Re-fetch a
 stratified 20-source sample biased to load-bearing claims. Verify that final market outputs contain
-no excluded-market cases and that the Asia quota/beachhead fields count only China, Japan, or
-Taiwan. You may repair only mechanical issues;
+no excluded-market cases, that country fields distinguish China from JP/TW/KR, and that every
+accepted/cited source has a passing `india_origin_audit`. Sample every multinational exception;
+confirm at least one non-Indian co-author affiliation and ensure India-origin discovery leads do
+not support claims. You may repair only mechanical issues;
 do not change scores or analytical verdicts. Write `99_AUDIT/MECHANICAL_AUDIT.md` with PASS or a
 numbered fix list. Return PASS/FAIL and counts only.
+
+
 
 
 

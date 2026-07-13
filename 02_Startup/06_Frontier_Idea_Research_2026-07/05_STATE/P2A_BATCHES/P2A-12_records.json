@@ -1,0 +1,1466 @@
+{
+ "batch_id": "P2A-12",
+ "count": 63,
+ "records": [
+  {
+   "id": "L15-030",
+   "title": "HOTTech: High Operating Temperature Technology program (NASA Glenn Research Center / GEER facility)",
+   "authors_or_org": "NASA Science Mission Directorate, Planetary Science Division; NASA Glenn Research Center",
+   "year": 2023,
+   "url": "https://science.nasa.gov/science-research/science-enabling-technology/hottech-attempts-to-tackle-venus/",
+   "canonical_key": "government:NASA-HOTTech",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "NASA's HOTTech program targets technology (SiC/diamond/GaN electronics, batteries, power generation, actuators, seals) able to survive at least 60 days on the Venus surface, tested in the Glenn Extreme Environment Rig (GEER, ~900F/~90x Earth atmospheric pressure, corrosive-gas injection). December 2022-February 2023 collaborative testing produced a 30-day diamond-diode demonstration and vermiculite-gasket corrosion-resistance results. Named performer institutions confirmed on re-fetch: University of Dayton (battery technology), Arizona State University (diamond and GaN electronics), NASA Glenn Research Center (SiC memory), plus Stanford University, Penn State University, Boeing, and Makel Engineering (components), and University of Arkansas.",
+   "notes": "Page fetched directly this session; named PI institutions and GEER facility specs confirmed from the fetched page itself. | Verifier independently re-fetched this page directly this session; performer-institution list and GEER facility specs confirmed and slightly expanded (Makel Engineering named, plus specific technology-per-institution breakdown) versus the scout's original summary."
+  },
+  {
+   "id": "L15-031",
+   "title": "Deep Trek High Temperature Electronics Project (DOE Award DE-FC26-03NT41834 to Honeywell)",
+   "authors_or_org": "U.S. Department of Energy / National Energy Technology Laboratory (NETL); Honeywell International Inc. (Aerospace D&S, Plymouth, MN)",
+   "year": 2007,
+   "url": "https://netl.doe.gov/files/oil-gas/NT41834_FinalReport.pdf",
+   "canonical_key": "government:DOE-DE-FC26-03NT41834",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "DOE's Deep Trek program (award DE-FC26-03NT41834, 2003-2007) funded Honeywell to apply SOI CMOS technology to build reliable >225C electronic components (EEPROM, FPGA, precision op-amp, sigma-delta ADC) for deep (>20,000 ft) 'smart drilling' tools -- a direct, dated, government-funded buyer/technology-development record predating the current DARPA THERMAL/ARPA-E SUPERHOT programs by two decades.",
+   "notes": "Project metadata (award number, contractor, report date) fetched from the NETL project page this session; the PDF final report itself returned a certificate/binary-parsing issue and its narrative content (deliverables list) is drawn from a WebSearch synthesis of the same document rather than independently re-read in full -- flagged for verifier to re-fetch the PDF directly. | UNRESOLVED VERIFICATION GAP CARRIED FORWARD: project metadata (award number, contractor, report date) was fetched from the NETL project page by the scout, but the PDF final report itself returned a certificate/binary-parsing issue in the scout's session and was not re-attempted by the verifier this session given time constraints across 46 records; the deliverables-list narrative remains sourced from WebSearch synthesis of the same document, not independently re-read in full. Accepted as T1 government record on the strength of the confirmed award metadata (award number/contractor/agency/date), but the specific deliverables list should be treated as a secondary-source claim pending a direct PDF re-read."
+  },
+  {
+   "id": "L15-033",
+   "title": "API Standard 17F -- Subsea Production Control Systems (incorporating SIIS interface annexes)",
+   "authors_or_org": "American Petroleum Institute (API); Subsea Instrumentation Interface Standardization (SIIS) initiative",
+   "year": 2017,
+   "url": "https://www.api.org/~/media/files/publications/whats%20new/17f%20e3%20pa.pdf",
+   "canonical_key": "standard:API-Std-17F",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Governs design, fabrication, testing, installation, and operation of subsea production/processing control systems (SPCS); incorporates SIIS-developed interface protocols for analog (Annex D/Level 1), digital serial (Annex E/Level 2), and Ethernet TCP/IP (Annex G/Level 3) subsea sensor communication -- relevant standards baseline for autonomous/remote subsea control electronics in harsh (high-pressure, corrosive, remote) environments.",
+   "notes": "Standard-store listing page not independently fetched (search-snippet only, from a commercial standards reseller, not api.org itself); flagged for verifier to obtain the official API-hosted record. | URL UPDATED by verifier: raw record cited a commercial reseller listing (store.accuristech.com) that was never fetched; verifier located and fetched an official api.org-hosted PDF this session (binary content retrieved, XMP metadata readable, full body text not extractable). EDITION/YEAR AMBIGUITY FLAGGED (unresolved): WebSearch indicates a Third Edition published May 2014, a Third Edition reaffirmation dated November 1, 2017, and a separate Fourth Edition published December 2017 (with Errata 1/2 in 2018-2019). The raw record's year (2017) is plausible under either the 3rd-edition reaffirmation or the 4th edition, but which specific edition this record refers to is not resolved -- do not cite an edition number without further confirmation."
+  },
+  {
+   "id": "L15-034",
+   "title": "IEC 60751:2022 -- Industrial platinum resistance thermometers and platinum temperature sensors",
+   "authors_or_org": "International Electrotechnical Commission (IEC)",
+   "year": 2022,
+   "url": "https://webstore.iec.ch/en/publication/63753",
+   "canonical_key": "standard:IEC-60751:2022",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Edition 3.0 (2022-01-27) of the international standard for industrial platinum resistance thermometers/temperature sensors, specifying resistance-vs-temperature requirements referencing ITS-90; a baseline reference for temperature-sensor accuracy and interchangeability specifications relevant to high-temperature downhole/industrial instrumentation.",
+   "notes": "PDF sample fetched this session but returned unreadable binary/encoded content (not extractable text); edition/date confirmed via WebSearch snippet of the same document title, not independently read. Flag for verifier to obtain a text-readable copy. | URL UPDATED by verifier: raw record cited an unofficial PDF-sample mirror (cdn.standards.iteh.ai) that returned unreadable binary content in the scout's session. Verifier located the correct official IEC Webstore publication page (an earlier guessed publication-ID URL 404'd; the correct ID 63753 was found via WebSearch) and fetched it successfully this session, confirming edition, exact publication date, and scope directly from the standards body's own site -- a strictly stronger evidence base than the raw record had."
+  },
+  {
+   "id": "L15-035",
+   "title": "MIL-STD-883L Change 1 -- Test Method Standard, Microcircuits",
+   "authors_or_org": "U.S. Department of Defense / Defense Logistics Agency (DLA)",
+   "year": 2025,
+   "url": "https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36028",
+   "canonical_key": "standard:MIL-STD-883L-Ch1",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Establishes uniform methods, controls, and procedures (environmental, mechanical, electrical, workmanship, quality) for testing monolithic/multichip/film/hybrid microcircuits for military and aerospace electronic systems; current revision is Revision L with Change 1, dated June 27, 2025.",
+   "notes": "Official DLA ASSIST-QuickSearch page fetched directly this session, confirming current revision letter/change/date and scope statement. | Verifier independently re-fetched the official DLA ASSIST-QuickSearch page this session, confirming Revision L Change 1 dated 27-JUN-2025 matches the scout's original record exactly."
+  },
+  {
+   "id": "L15-037",
+   "title": "Status of the DARPA WBST High Power Electronics Program in SiC Device Development and Technology Transition",
+   "authors_or_org": "Allen R. Hefner Jr., Sharon Beermann-Curtin (NIST)",
+   "year": 2007,
+   "url": "https://www.nist.gov/publications/status-darpa-wbst-high-power-electronics-program-sic-device-development-and-technology",
+   "canonical_key": "government:NIST-DARPA-WBST-2007",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes DARPA's Wide Bandgap Semiconductor Technology (WBST) High-Voltage High-Frequency SiC power program status, including plans for a prototype 2.7 MVA Solid State Power Substation (SSPS) and reliability/manufacturability qualification work -- an early (2007) precedent for the current DARPA THERMAL program's approach to SiC/GaN qualification.",
+   "notes": "NIST publications page fetched directly this session. This is a government-technical-conference presentation summary hosted by NIST, not a peer-reviewed journal article, and is categorized as source_type government rather than academic. | Verifier independently re-fetched the NIST publications page this session, confirming title, authors, venue (GOMACTech 2007), and scope match. Categorized as source_type government (NIST-hosted publications-database record of a government-conference presentation), not academic_peer_reviewed, per scout's original correct classification -- retained."
+  },
+  {
+   "id": "L15-038",
+   "title": "고온용 SiC CMOS 소자 기술 연구 (Study of the SiC CMOS device technology for high temperature applications)",
+   "authors_or_org": "Park Geun-hyung (PI), Lee Hyung-gyu, Kim Young-seok, Kim Ki-ho (Chungbuk National University); funded by Korea Science and Engineering Foundation, Ministry of Science and Technology",
+   "year": 2003,
+   "url": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO200800068965",
+   "canonical_key": "government:KR-KOSEF-SiC-CMOS-2003",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Korea Science and Engineering Foundation-funded project (2002-2003) reports the first domestically fabricated Korean SiC NMOS and PMOS devices and basic logic-circuit libraries (inverters, NAND, NOR); n-channel threshold voltage fell from 7.8V at room temperature to 5.4V at 250C, attributed to SiC-SiO2 interface charge density; peak carrier mobility 36.3 cm2/V-s (NMOS) at 200C, minimum contact resistance 1.3x10^-3 ohm-cm^2 using molybdenum contacts; demonstrated inverter/NAND/NOR logic circuits.",
+   "notes": "Official Korean government science-report repository (KISTI) fetched directly this session; a 2003 program (predating this lane's other Korean record, the 2025 Aerospace/MDPI paper) providing a KR local-language primary source with concrete device numbers. | Verifier independently re-fetched the official Korean government science-report repository (KISTI) this session, confirming title, authors, funding organization, and key numeric findings match (and adding the molybdenum-contact-resistance detail). A 2003 program providing a KR local-language primary source with concrete device numbers."
+  },
+  {
+   "id": "L15-039",
+   "title": "A*STAR launches industry-grade 200mm silicon carbide Open R&D Line (Innovate Together, SEMICON Southeast Asia 2025)",
+   "authors_or_org": "Agency for Science, Technology and Research (A*STAR), Institute of Microelectronics (IME), Singapore",
+   "year": 2025,
+   "url": "https://www.semiconductor-today.com/news_items/2025/may/a-star-230525.shtml",
+   "canonical_key": "trade_press:ASTAR-SiC-Open-RD-Line-2025",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "SG"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "A*STAR launched (announced May 23, 2025, at the Innovate Together event) what it describes as the world's first industry-grade 200mm SiC Open R&D Line, consolidating materials growth, defect analysis, device fabrication, and testing under one roof; named equipment/materials partners include ASM, centrotherm, Nissin, Soitec, and Toray, with STMicroelectronics, an unnamed 'top foundry,' and local startup WaferLead as facility users -- signals Singapore state investment to close SiC wide-bandgap capability gaps versus the US/China/Japan/Korea/Taiwan.",
+   "notes": "TIER/SOURCE_TYPE DOWNGRADED by verifier: raw record classified this as source_type=government/T1, but the actually-fetched document is a trade-press article (semiconductor-today.com), not a primary A*STAR/government page. Verifier attempted to locate and fetch A*STAR's own official press release (a-star.edu.sg) this session; the specific URL found via WebSearch returned HTTP 404. Reclassified as trade_press/T2 per SOURCE_STANDARDS ('high-quality trade press with primary links'), supported by independent corroboration across four outlets (semiconductor-today.com, EE Times, dqindia.com, Yahoo News Singapore) all describing the same primary event with consistent details."
+  },
+  {
+   "id": "L15-040",
+   "title": "Baker Hughes 2025 Digital Annual Report -- R&D spend, New Energy/geothermal bookings, and ORC power-plant equipment award",
+   "authors_or_org": "Baker Hughes Company",
+   "year": 2026,
+   "url": "https://www.bakerhughes.com/company/digital-annual-report",
+   "canonical_key": "company_filing:BakerHughes-AnnualReport-FY2025",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "US",
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Baker Hughes reports $600 million in FY2025 R&D spend and $2.0 billion in New Energy orders (exceeding a $1.4-1.6 billion internal target), including a named geothermal contract to supply equipment for five Organic Rankine Cycle power plants (300 MW total) plus subsurface drilling/production-technology awards for the same project, and >1,400 patents granted worldwide in 2025.",
+   "notes": "Digital annual-report landing page fetched directly this session; the formal SEC Form 10-K (bkr-20251231.htm) returned HTTP 403 on direct fetch and was not independently cross-checked against this summary -- flagged for verifier to reconcile against the audited 10-K text. | Verifier independently re-fetched the annual-report landing page this session, confirming all figures ($600M R&D, $2.0B New Energy orders, 300MW ORC award, 1,400+ patents) exactly. UNRESOLVED RECONCILIATION GAP CARRIED FORWARD: the formal SEC Form 10-K (bkr-20251231.htm) returned HTTP 403 on direct fetch in the scout's session; verifier attempted both the SEC EDGAR company-search page and the ticker-based browse-edgar endpoint this session, both also returned HTTP 403 (SEC EDGAR appears to be blocking automated fetches entirely in this environment). The annual-report summary figures have not been independently cross-checked against the audited 10-K text -- flagged for any downstream idea/financial analysis relying on these figures."
+  },
+  {
+   "id": "L15-041",
+   "title": "SLB and Ormat Partner to Accelerate Integrated Geothermal Asset Development and Enhanced Geothermal Systems",
+   "authors_or_org": "SLB; Ormat Technologies, Inc.",
+   "year": 2025,
+   "url": "https://www.globenewswire.com/news-release/2025/10/27/3174636/0/en/SLB-and-Ormat-Partner-to-Accelerate-Integrated-Geothermal-Asset-Development-and-Enhanced-Geothermal-Systems.html",
+   "canonical_key": "company_filing:SLB-Ormat-EGS-2025-10-27",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "October 27, 2025: SLB and Ormat announced a partnership to design/construct an Enhanced Geothermal Systems (EGS) pilot at an existing Ormat site, with SLB contributing subsurface/reservoir/well-construction expertise (i.e., high-temperature downhole tool capability) and Ormat contributing power-plant design/operations, explicitly to 'de-risk' commercial-scale EGS deployment, and explicitly citing AI/data-center power demand as a driver.",
+   "notes": "Official joint press release fetched directly this session via GlobeNewswire; quoted named executives (Ormat CEO Doron Blachar; SLB New Energy president Gavin Rennick) confirmed from the fetched text. | Verifier independently re-fetched the press release this session, confirming date, named executives (Ormat CEO Doron Blachar; SLB New Energy president Gavin Rennick), and quotes match exactly, including the AI/data-center demand framing."
+  },
+  {
+   "id": "L15-042",
+   "title": "Caterpillar to provide autonomous machinery to Rio Tinto (Koodaideri iron-ore project)",
+   "authors_or_org": "Caterpillar Inc.; Rio Tinto; WesTrac",
+   "year": 2019,
+   "url": "https://www.mining-technology.com/news/caterpillar-to-provide-autonomous-machinery-to-rio-tinto/",
+   "canonical_key": "trade_press:Caterpillar-RioTinto-Koodaideri-2019",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_specification",
+   "claim_supported": "Announced May 7, 2019: Caterpillar and WesTrac agreed to supply Rio Tinto's Koodaideri iron-ore project (Pilbara, Western Australia) with 20 autonomous 793F haul trucks, 4 autonomous blast drills, plus loaders/dozers/diggers, integrated with Rio Tinto's mine-automation system as part of its 'Mine of the Future' initiative (launched 2008); Rio Tinto projected the site would reach 43 million tonnes/year production from 2021; no dollar figure disclosed.",
+   "notes": "Trade-press article fetched directly this session; a named, quantified buyer specification (unit counts) even without disclosed contract value, so classified demand_evidence_type as buyer_specification rather than none. | Verifier independently re-fetched this article this session, confirming equipment counts, dates, and named quotes (Rio Tinto iron-ore chief executive) match. A named, quantified buyer specification (unit counts) even without disclosed contract value, so classified demand_evidence_type as buyer_specification rather than none."
+  },
+  {
+   "id": "L15-043",
+   "title": "CISSOID high-temperature semiconductor product line (CHT/CMT/CXT families)",
+   "authors_or_org": "CISSOID SA",
+   "year": 2026,
+   "url": "https://www.cissoid.com/products/high-temperature-products",
+   "canonical_key": "vendor:Cissoid-HighTemp-ProductLine",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "CISSOID offers three high-temperature product families (CHT -55 to +225C, CMT -55 to +175C, CXT -40 to +175C) across ADCs/comparators, amplifiers, DC-DC converters, SiC/GaN gate drivers (to 1700V), logic gates, oscillators, 1200V SiC/IGBT power modules (20-550A), and discrete SiC/NMOS/PMOS devices, rated 15-year life at 175C / 5-year life at 225C; states independent NASA and Sandia National Labs testing down to -195C and up to +400C. The vendor page itself now marks this product family as obsolete (last-time-buy), indicating a supply discontinuity in this market segment. No public pricing was found.",
+   "notes": "Vendor page fetched directly this session; a vendor claim (not independently validated) per SOURCE_STANDARDS claim discipline. The 'now obsolete' status is a directly-quoted vendor statement and is itself a notable bottleneck signal for this lane. | Verifier independently re-fetched this vendor page this session, confirming all temperature ranges, lifetime figures, and the 'now obsolete' notice match exactly. Labeled a vendor claim (not independently validated) per SOURCE_STANDARDS claim discipline; the obsolescence notice is itself a notable bottleneck/supply-discontinuity signal for this lane, not merely a marketing claim."
+  },
+  {
+   "id": "L15-045",
+   "title": "Downhole Tools Market Report 2026 (Research and Markets)",
+   "authors_or_org": "Research and Markets",
+   "year": 2026,
+   "url": "https://www.researchandmarkets.com/reports/5767011/downhole-tools-market-report",
+   "canonical_key": "market:ResearchAndMarkets-DownholeTools-2026",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L15"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Values the global downhole tools market at $5.79 billion in 2025, rising to $6.07 billion in 2026 (2025-2026 CAGR 4.7%), reaching $7.33 billion by 2030 (2026-2030 CAGR 4.8%), driven by unconventional-resource investment, shale drilling, enhanced oil recovery, and offshore redevelopment.",
+   "notes": "Consultancy market-size estimate, T3 by SOURCE_STANDARDS definition; not fetched this session (listing page only, no purchase). See L15-046 for a conflicting estimate from a different consultancy for the same market/year -- an unresolved contradiction, not averaged. | Consultancy market-size estimate, T3 by SOURCE_STANDARDS definition -- kept in the ledger per explicit instruction to preserve both conflicting T3 downhole-tools market reports rather than reject one for access difficulty (T3 sources are context-only and capped at 15% of the accepted ledger, not held to the same fetch rigor as T1). UNRESOLVED CONFLICT PRESERVED: disagrees with L15-046 (Fortune Business Insights) by roughly 30-40% on 2025/2026 base-year figures ($5.79B/$6.07B here vs. $4.10B/$4.31B there) despite both claiming to cover the same 'downhole tools' market and both citing a similar $7.33B 2030 endpoint -- the underlying market-definition scope is not reconciled and the conflict is shown, not averaged. SOURCE-VERIFIER UPDATE (2026-07-12): L15-046 (Fortune Business Insights) was rejected this session as unfetchable (fortunebusinessinsights.com returned HTTP 403 on every route tried: report landing page, alternate /industry-reports/ path, bare-domain path, and companion press release). Its claim (~$4.10B 2025 / ~$4.31B 2026 / $7.33B by 2030) is no longer in the accepted ledger, but the ~40% disagreement with this record's $5.79B/$6.07B/$7.33B figures for the same nominal market is preserved here as an open flag: even a single accepted T3 estimate for 'downhole tools market size' should be treated as a wide-uncertainty-band placeholder, not a precise figure, given the magnitude of divergence observed between the two consultancy reports that were both live this session."
+  },
+  {
+   "id": "L16-001",
+   "title": "Upstream Electrohydrodynamic Conduction Pumping for Flow Distribution Control of Parallel Microchannel Evaporators",
+   "authors_or_org": "O'Connor, N.; Talmor, M.; Yagoobi, J. (unconfirmed full author list)",
+   "year": 2024,
+   "url": "https://asmedigitalcollection.asme.org/heattransfer/article/146/4/041601/1193878/Upstream-Electrohydrodynamic-Conduction-Pumping",
+   "canonical_key": "doi:10.1115/1.4064442",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1115/1.4064442",
+   "doi": "10.1115/1.4064442",
+   "demand_evidence_type": "none",
+   "claim_supported": "Demonstrates electrohydrodynamic (EHD) conduction pumping used upstream of parallel meso-scale evaporators to actively control flow distribution between channels without mechanical moving parts, relevant to two-phase electronics thermal management.",
+   "notes": "Direct fetch returned HTTP 403 (ASME paywall). DOI confirmed via search cross-reference. Full author list and abstract not independently verified this session; verifier should confirm via institutional access. | Verifier (2026-07-12): direct ASME publisher fetch still returns HTTP 403 (paywall), but the Crossref REST API record was fetched successfully this session and confirms exact title/venue/year match, satisfying the mission's academic-acceptance rule. Full author list still not independently confirmed; scout's tentative list retained and flagged unconfirmed."
+  },
+  {
+   "id": "L16-002",
+   "title": "On Electronics Cooling Using an Electrohydrodynamic Gas Pump with Aligned Electrodes",
+   "authors_or_org": "Unconfirmed authors (AIAA Journal of Thermophysics and Heat Transfer)",
+   "year": 2024,
+   "url": "https://arc.aiaa.org/doi/10.2514/1.T6931",
+   "canonical_key": "doi:10.2514/1.T6931",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.2514/1.T6931",
+   "doi": "10.2514/1.T6931",
+   "demand_evidence_type": "none",
+   "claim_supported": "Studies EHD gas-pump-driven forced convection with aligned electrode geometry for electronics cooling, part of an active research stream on solid-state (no-moving-parts) EHD cooling as an alternative to fans.",
+   "notes": "Direct fetch returned HTTP 403 (AIAA paywall). DOI embedded in URL and confirmed via arc.aiaa.org structure. Full text/authors not independently confirmed this session. | Verifier (2026-07-12): direct AIAA fetch returned HTTP 403 (paywall); Crossref REST API record fetched successfully this session confirms identity. Full author list not independently confirmed."
+  },
+  {
+   "id": "L16-003",
+   "title": "Review of fluid transmission and heat transfer enhancement by EHD pumps under DC electric fields: recent developments and applications",
+   "authors_or_org": "Gao, Xue-Lin; Liu, Dong-Lin; Wu, Jian; Luo, Kang; Yi, Hong-Liang",
+   "year": 2025,
+   "url": "https://ideas.repec.org/a/eee/rensus/v224y2025ics1364032125007051.html",
+   "canonical_key": "doi:10.1016/j.rser.2025.116032",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.rser.2025.116032",
+   "doi": "10.1016/j.rser.2025.116032",
+   "demand_evidence_type": "none",
+   "claim_supported": "Comprehensive 2025 review of EHD-pump fluid transmission and heat-transfer-enhancement mechanisms, theory, and numerical methods under DC electric fields, covering single-phase, two-phase/phase-change, and microgravity applications.",
+   "notes": "Fetched RePEc bibliographic record (not the ScienceDirect article itself, which requires subscription). DOI and author list confirmed directly from this fetch. | Scout fetched the RePEc bibliographic record; verifier independently confirmed via Crossref REST API this session (title, DOI, full author list, venue all match)."
+  },
+  {
+   "id": "L16-004",
+   "title": "A review of recent advancements in electrohydrodynamic heat transfer enhancement",
+   "authors_or_org": "Unconfirmed authors (Journal of Electrostatics, Elsevier)",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304388625001238",
+   "canonical_key": "doi:10.1016/j.elstat.2025.104151",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.elstat.2025.104151",
+   "doi": "10.1016/j.elstat.2025.104151",
+   "demand_evidence_type": "none",
+   "claim_supported": "2025 literature review of EHD heat-transfer-enhancement techniques, concluding EHD has potential as an effective thermal-management approach but that industrial-scale deployment remains limited.",
+   "notes": "CORRECTION: scout guessed the journal was 'International Communications in Heat and Mass Transfer' from a search snippet; verifier's Crossref bibliographic search this session found the exact title match is actually in the Journal of Electrostatics (DOI 10.1016/j.elstat.2025.104151), not the guessed venue. DOI, canonical_key, and journal name updated accordingly. Direct ScienceDirect fetch still 403; Crossref record fetch satisfies acceptance rule."
+  },
+  {
+   "id": "L16-005",
+   "title": "Heat transfer performance and electrohydrodynamic characteristics optimization of a dividing-wall-type ionic wind heat exchanger",
+   "authors_or_org": "Unconfirmed authors (International Journal of Heat and Mass Transfer)",
+   "year": 2024,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0017931024004745",
+   "canonical_key": "doi:10.1016/j.ijheatmasstransfer.2024.125643",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijheatmasstransfer.2024.125643",
+   "doi": "10.1016/j.ijheatmasstransfer.2024.125643",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports a dividing-wall-type ionic-wind (corona-discharge EHD) heat exchanger combining active and passive heat-transfer mechanisms; an optimized four-wire electrode configuration reportedly raised heat-transfer-effectiveness ratio (HTER), targeting air-to-air applications.",
+   "notes": "Verifier found DOI via Crossref bibliographic search this session; identity/venue/year confirmed. The specific '158% HTER improvement' figure remains unconfirmed (search-snippet-derived only, full text not fetched this session either) -- flagged as an open item; do not treat that specific number as independently verified."
+  },
+  {
+   "id": "L16-006",
+   "title": "Heat transfer enhancement of electrohydrodynamic (EHD) cooling system with magnetic field",
+   "authors_or_org": "Unconfirmed authors (Journal of Mechanical Science and Technology, Springer)",
+   "year": 2024,
+   "url": "https://link.springer.com/article/10.1007/s12206-024-2101-x",
+   "canonical_key": "doi:10.1007/s12206-024-2101-x",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "KR",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s12206-024-2101-x",
+   "doi": "10.1007/s12206-024-2101-x",
+   "demand_evidence_type": "none",
+   "claim_supported": "Investigates combining an applied magnetic field with EHD cooling to further enhance convective heat transfer, an example of hybrid-field active thermal management research.",
+   "notes": "Not independently fetched this session (search-derived only). Journal is Korean Society of Mechanical Engineers-affiliated (Springer-published); geography tagged KR as likely institutional origin but not confirmed. | Verifier confirmed via Crossref REST API this session. Direct Springer fetch not attempted (Crossref record sufficient per acceptance rule)."
+  },
+  {
+   "id": "L16-007",
+   "title": "Flight of an aeroplane with solid-state propulsion",
+   "authors_or_org": "Xu, Haofeng; He, Yiou; Strobel, Kieran L.; Gilmore, Christopher K.; Kelley, Sean P.; Hennick, Cooper C.; Sebastian, Thomas; Woolston, Mark R.; Perreault, David J.; Barrett, Steven R. H.",
+   "year": 2018,
+   "url": "https://www.nature.com/articles/s41586-018-0707-9",
+   "canonical_key": "doi:10.1038/s41586-018-0707-9",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41586-018-0707-9",
+   "doi": "10.1038/s41586-018-0707-9",
+   "demand_evidence_type": "none",
+   "claim_supported": "First demonstration of sustained, steady-level powered flight of a fixed-wing (5 m wingspan) aeroplane using electroaerodynamic (ion-wind/EHD) solid-state propulsion with no moving parts, flown ten times; foundational proof-of-concept underpinning the ongoing EHD-propulsion research area.",
+   "notes": "Not independently fetched this session; DOI and author list confirmed via search cross-reference (MIT press coverage + Nature News & Views companion piece). Included as foundational/dated (2018) but still the technical basis cited by later EHD-propulsion and EHD-thrust modeling work; flagged as older than the lane's typical 2024-2026 window. | Verifier confirmed full author list via Crossref this session (Xu, He, Strobel, Gilmore, Kelley, Hennick, Sebastian, Woolston, Perreault, Barrett), replacing scout's placeholder. Included despite 2018 date as foundational/still-cited technical basis for later EHD-propulsion work; flagged as older than lane's typical 2024-2026 window."
+  },
+  {
+   "id": "L16-008",
+   "title": "Ionic wind review-2020: advancement and application in thermal management",
+   "authors_or_org": "Unconfirmed authors (Sadhana, Springer, Indian Academy of Sciences)",
+   "year": 2021,
+   "url": "https://link.springer.com/article/10.1007/s12046-021-01687-0",
+   "canonical_key": "doi:10.1007/s12046-021-01687-0",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "IN",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s12046-021-01687-0",
+   "doi": "10.1007/s12046-021-01687-0",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of ionic-wind (corona-discharge EHD) research through 2020 and its applications in electronics thermal management, summarizing device configurations and performance trends.",
+   "notes": "Not independently fetched this session. Sadhana is published by the Indian Academy of Sciences; geography tagged IN as likely but not confirmed institutional origin. | Verifier confirmed via Crossref this session. Sadhana is published by the Indian Academy of Sciences; geography IN tag is editorial/journal-origin based, not confirmed author nationality."
+  },
+  {
+   "id": "L16-009",
+   "title": "Monitoring by Control Technique - Electrostatic Precipitators",
+   "authors_or_org": "U.S. Environmental Protection Agency (EPA)",
+   "year": null,
+   "url": "https://www.epa.gov/air-emissions-monitoring-knowledge-base/monitoring-control-technique-electrostatic-precipitators",
+   "canonical_key": "url:epa.gov/air-emissions-monitoring-knowledge-base/monitoring-control-technique-electrostatic-precipitators",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Official EPA guidance page describing electrostatic precipitators (an industrial EHD/corona-discharge application) as a particulate-matter control technique; states ESPs are 'capable of collection efficiencies greater than 99 percent' and references the CAM (Compliance Assurance Monitoring) Rule of October 22, 1997 as the governing monitoring framework. Page lists monitoring indicators (PM outlet concentration via CEMS, opacity, secondary corona power, voltage, current, spark rate) but does not itself state specific numeric emission limits.",
+   "notes": "Not independently fetched this session (search-snippet-derived summary only); no publication year shown on the page. Verifier should fetch directly to confirm current content and any cited emission-limit figures before treating specific numeric limits as load-bearing. | Verifier fetched directly this session (succeeded). CORRECTED claim_supported: removed scout's implication of specific cited numeric emission limits, since the page does not display any; the >99% collection-efficiency figure and CAM Rule citation are the load-bearing facts actually present. No publication date shown on the page."
+  },
+  {
+   "id": "L16-010",
+   "title": "Radar Cross Section Reduction Metamaterials: A Review of Principles, Design Methods, and Applications Beyond",
+   "authors_or_org": "Shittu, Ismail; Abou-Khousa, Mohamed; Viegas, Jaime; Hernandez-Figueroa, Hugo Enrique; Elfadel, Ibrahim M.",
+   "year": 2026,
+   "url": "https://ieeexplore.ieee.org/document/10829729",
+   "canonical_key": "doi:10.1109/maes.2025.3526134",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/maes.2025.3526134",
+   "doi": "10.1109/maes.2025.3526134",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of electromagnetic metamaterial radar-cross-section-reduction techniques (beam diffusion, field cancellation, polarization conversion, wave absorption), stating no prior unified review had covered both theoretical foundations and practical design guidelines for this application space.",
+   "notes": "CORRECTION: scout had no DOI and a tentative author-order guess; verifier found DOI via Crossref bibliographic search and confirmed exact author list matches scout's guess. Year corrected from 2025 to 2026 to reflect Crossref's formal issue date (article was in IEEE early-access in late 2025, matching scout's original year tag); both dates noted."
+  },
+  {
+   "id": "L16-011",
+   "title": "A hybrid metamaterial with broadband radar cross section reduction and low infrared emissivity for multispectral stealth",
+   "authors_or_org": "Unconfirmed authors (Journal of Applied Physics, AIP Publishing)",
+   "year": 2025,
+   "url": "https://pubs.aip.org/aip/jap/article/137/15/153106/3344376/A-hybrid-metamaterial-with-broadband-radar-cross",
+   "canonical_key": "doi:10.1063/5.0258293",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0258293",
+   "doi": "10.1063/5.0258293",
+   "demand_evidence_type": "none",
+   "claim_supported": "Two-dimensional random-array hybrid metamaterial (magnetic absorbing layer + resistive metasurfaces + dielectric foam + IR stealth layer) achieving RCS reduction greater than 10 dB from 2.15-18 GHz and IR emissivity below 0.2 in the 3-14 micron band at 6 mm total thickness, targeting simultaneous radar/infrared multispectral stealth.",
+   "notes": "Not independently fetched this session (AIP typically paywalled based on prior lane experience). DOI confirmed via search cross-reference. | Verifier confirmed via Crossref this session. Direct AIP fetch not attempted (Crossref record sufficient)."
+  },
+  {
+   "id": "L16-012",
+   "title": "A review: Advancement in metamaterial based RF and microwave absorbers",
+   "authors_or_org": "Unconfirmed authors (Sensors and Actuators A: Physical, Elsevier)",
+   "year": 2023,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924424723001322",
+   "canonical_key": "doi:10.1016/j.sna.2023.114283",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.sna.2023.114283",
+   "doi": "10.1016/j.sna.2023.114283",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of metamaterial-based RF/microwave absorber design approaches, broader than radar-cross-section/stealth applications alone (covers general EMI and microwave-absorption use cases).",
+   "notes": "Verifier found DOI and confirmed exact journal (Sensors and Actuators A: Physical -- scout's guess of a 'Sensors and Actuators-family' journal was directionally correct)."
+  },
+  {
+   "id": "L16-013",
+   "title": "具有可移动阵元的同时透射和反射可重构智能超表面辅助隐蔽通感一体系统：联合主动和柔性被动波束成形优化 (Movable-Element Simultaneously Transmitting and Reflecting Reconfigurable Intelligent Surface-Assisted Integrated Sensing and Covert Communication System: Joint Active and Flexible Passive Beamforming Design)",
+   "authors_or_org": "Zhou Tao; Xu Kui; Xia Xiaochen; Hu Guojie; Li Chunguo; Xie Wei",
+   "year": 2025,
+   "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT240601",
+   "canonical_key": "doi:10.11999/JEIT240601",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT240601",
+   "doi": "10.11999/JEIT240601",
+   "demand_evidence_type": "none",
+   "claim_supported": "Chinese-language peer-reviewed paper proposing a movable-element, simultaneously transmissive-and-reflective reconfigurable intelligent surface (RIS) for covert integrated-sensing-and-communication (ISAC), with joint active/flexible-passive beamforming optimization -- direct evidence of active Chinese academic RIS/metasurface research beyond the RIS-market English-language literature.",
+   "notes": "Not independently fetched (Chinese-language academic paywall/CNKI access not attempted this session). Journal is a core Chinese EI-indexed venue (中国科学院主管，中国电子学会/中科院电子学研究所主办). Full author list beyond first author not confirmed. | Crossref REST API returned 404 for this DOI (Chinese DOI registration agency not mirrored in Crossref), but doi.org resolved the DOI correctly to the publisher page (jeit.ac.cn), which was fetched directly this session and confirms title/venue/year/full author list and an explicit peer-review-policy statement -- satisfies the mission's 'publisher record + peer-review-evidence-url' acceptance path even without Crossref coverage. Full author list now confirmed (was previously first-author-only)."
+  },
+  {
+   "id": "L16-014",
+   "title": "基于超表面的动态电磁调控技术及应用研究 (Dynamic Electromagnetic Control Technology and Its Application Based on Metasurface)",
+   "authors_or_org": "Li Yuxi; Zhu Ruichao; Sui Sai; Jia Yuxiang; Ding Chang; Han Yajuan; Qu Shaobo; Wang Jiafu",
+   "year": 2025,
+   "url": "https://radars.ac.cn/cn/article/doi/10.12000/JR24259",
+   "canonical_key": "doi:10.12000/JR24259",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://radars.ac.cn/cn/article/doi/10.12000/JR24259",
+   "doi": "10.12000/JR24259",
+   "demand_evidence_type": "none",
+   "claim_supported": "Chinese-language peer-reviewed paper on metasurface-based dynamic electromagnetic modulation technology and applications, published in China's leading radar-technology journal, indicating active domestic (likely defense-adjacent) metasurface R&D distinct from the telecom-RIS literature.",
+   "notes": "Not independently fetched this session. Journal of Radars is published by the Institute of Electronics, Chinese Academy of Sciences (中国科学院电子学研究所) -- a national-lab-affiliated venue; author affiliations not independently confirmed. | Crossref REST API returned 404 for this DOI; doi.org resolved correctly to radars.ac.cn, fetched directly this session confirming full author list, venue, and explicit peer-review policy statement. Journal of Radars is published by the Institute of Electronics, Chinese Academy of Sciences (national-lab-affiliated venue)."
+  },
+  {
+   "id": "L16-015",
+   "title": "Underwater acoustic metamaterials",
+   "authors_or_org": "Dong, Erqian; Cao, Peizheng; Zhang, Jinhu; Zhang, Sai; Fang, Nicholas X.; Zhang, Yu",
+   "year": 2023,
+   "url": "https://academic.oup.com/nsr/article/10/6/nwac246/6795304",
+   "canonical_key": "doi:10.1093/nsr/nwac246",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "US",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1093/nsr/nwac246",
+   "doi": "10.1093/nsr/nwac246",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of underwater acoustic metamaterials showing capabilities beyond conventional-material limits (negative refraction, cloaking, beamforming, super-resolution imaging), co-authored by MIT (Nicholas Fang) and Chinese-affiliated researchers.",
+   "notes": "Not independently fetched this session (open-access per PMC listing, but full text not pulled). DOI, authors, volume/issue confirmed via search cross-reference including PMC record. | Verifier confirmed full author list and venue via Crossref this session; noted the advance-online (2022) vs formal-issue (2023) date discrepancy, keeping the scout's 2023 issue-year designation."
+  },
+  {
+   "id": "L16-016",
+   "title": "Large-scale underwater acoustic cloak based on honeycomb lattice pentamode metamaterials",
+   "authors_or_org": "Unconfirmed authors (Scientific Reports, Nature Portfolio)",
+   "year": 2025,
+   "url": "https://www.nature.com/articles/s41598-025-11501-0",
+   "canonical_key": "doi:10.1038/s41598-025-11501-0",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-11501-0",
+   "doi": "10.1038/s41598-025-11501-0",
+   "demand_evidence_type": "none",
+   "claim_supported": "Models/develops a large-scale underwater acoustic cloak using honeycomb-lattice pentamode metamaterials designed to acoustically mimic water and guide sound waves around a target object, addressing prior scale limitations in acoustic cloaking research.",
+   "notes": "Not independently fetched this session (search-derived summary only). DOI confirmed via Nature URL convention. | Verifier confirmed via Crossref this session; article number 25623 identified (not shown in scout's record)."
+  },
+  {
+   "id": "L16-017",
+   "title": "Guangqi Technology (光启技术, SZSE:002625) metamaterial order announcements",
+   "authors_or_org": "Guangqi Technology Co., Ltd. (光启技术股份有限公司); reported by 证券时报网 (Securities Times) and corroborating outlets",
+   "year": 2025,
+   "url": "https://stcn.com/article/detail/3375883.html",
+   "canonical_key": "url:stcn.com/article/detail/3375883.html",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "Guangqi Technology (a listed Shenzhen Stock Exchange metamaterial manufacturer) disclosed two contracts on October 12, 2025 totaling RMB 516 million (RMB 272m + RMB 244m) for metamaterial aviation structural products with delivery by June 30, 2026; cumulative 2025 order disclosures reached RMB 2.574 billion through Q3/October, a new annual order record, with flagship products described as metamaterial aviation structural components for 'cutting-edge military equipment' (aerospace, aviation, maritime).",
+   "notes": "Fetched directly this session; figures are quoted from the news article's report of official exchange (SZSE) disclosure announcements, not the primary cninfo.com.cn filing itself -- a verifier should locate and fetch the canonical SZSE/cninfo announcement for full T1 audited-filing status. No revenue/profit figures were in this specific article (order-pipeline focus only); company-level FY2025 revenue (RMB 20.46bn, +31.32% YoY) and metamaterial-segment revenue (RMB 17.96bn, +41.46%) were seen in search snippets of other articles this session but not independently fetched/confirmed -- treat those broader financial figures as unconfirmed pending direct fetch. | Verifier corroborated via 4 additional independent Chinese financial-news outlets this session, all consistent on the RMB 516m/2.574bn figures -- strong secondary triangulation of a genuine signed-contract disclosure event (not a marketing claim). Still not the primary cninfo.com.cn/SZSE exchange filing itself; a future verifier should fetch that primary filing to upgrade source_type toward company_filing/T1. Company-level FY2025 revenue figures mentioned in some articles remain unconfirmed and are not part of this record's claim."
+  },
+  {
+   "id": "L16-018",
+   "title": "KRISS radar-stealth (frequency-selective-surface metamaterial) technology transfer to KER",
+   "authors_or_org": "Korea Research Institute of Standards and Science (한국표준과학연구원, KRISS); reported by Science Times Korea",
+   "year": null,
+   "url": "https://www.sciencetimes.co.kr/nscvrg/view/menu/250?searchCategory=222&nscvrgSn=260690",
+   "canonical_key": "url:sciencetimes.co.kr/nscvrg/view/menu/250-nscvrgSn-260690",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "KRISS (Korea's national metrology institute) developed a frequency-selective-surface (FSS) radar-stealth metamaterial technology, including proprietary design software reported to run 50x faster than commercial alternatives, and transferred/licensed it to defense-electronics company KER (케이이알) for approximately KRW 500 million -- a concrete South Korean government-to-industry stealth-metamaterial technology-transfer transaction supporting indigenous defense self-sufficiency.",
+   "notes": "Fetched directly this session. No publication date visible in the fetched content; article appears current but exact year not confirmed -- verifier should locate KRISS's own press release for a dated primary record. Article is a science-news outlet report of an official government-research-institute action, not KRISS's own primary release. | Not re-fetched by verifier this session; scout's fetch (fetched=true) accepted as-is. Publication date remains unresolved (unconfirmed item) -- a future verifier should locate KRISS's own dated press release."
+  },
+  {
+   "id": "L16-019",
+   "title": "NTT and NTT DOCOMO Trial First Use of User-tracking Metasurface Reflector for Extreme Mobile Coverage in Current 5G and Coming 6G Era",
+   "authors_or_org": "NTT / NTT DOCOMO",
+   "year": 2021,
+   "url": "https://www.docomo.ne.jp/english/info/media_center/pr/2021/1112_00.html",
+   "canonical_key": "url:docomo.ne.jp/english/info/media_center/pr/2021/1112_00.html",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Official NTT/NTT DOCOMO press release describing what the companies state was the world's first trial of a user-tracking reconfigurable-intelligent-surface (metasurface) reflector dynamically redirecting 28 GHz millimeter-wave radio to follow mobile devices indoors, conducted at NTT's Yokosuka R&D Center October 8-22, 2021; received 28 GHz signal strength reportedly improved by up to 20 dB versus no-RIS baseline.",
+   "notes": "Not independently fetched this session (search-snippet summary of an official company press release; the release itself is a primary corporate source). Dated 2021 -- older than the lane's typical 2024-2026 window but included as the direct technical predecessor to Japan's ongoing 6G RIS work; a follow-up scout should look for a 2025-2026 DOCOMO/NTT RIS update, which was not found this session despite searching. | Verifier fetched directly this session, confirming trial dates and the 20 dB improvement figure not previously captured by the scout. Dated 2021 -- older than lane's typical window but retained as the direct technical predecessor to Japan's ongoing 6G RIS work; no 2025-2026 DOCOMO/NTT RIS follow-up found this session either."
+  },
+  {
+   "id": "L16-020",
+   "title": "Affordable Ka-Band Metamaterial-Based Electronically Scanned Array Radar for Test and Training (Army SBIR Topic A254-049)",
+   "authors_or_org": "U.S. Department of the Army (Army SBIR/STTR Program)",
+   "year": 2025,
+   "url": "https://armysbir.army.mil/topics/affordable-ka-band-metamaterial-based-electronically-scanned-array-radar-test-training/",
+   "canonical_key": "tender:ArmySBIR-A254-049",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "U.S. Army SBIR Topic A254-049 solicits a low-cost, high-performance metamaterial-based electronically-scanned Ka-band (30-40 GHz) radar for test/training use, requiring 10-20 microsecond beam switching, switchable circular polarization, 20 km range (0 dBsm target), and a $300,000 target unit production cost; Phase I awards up to $250,000 for a 1-6 month period. Released September 3, 2025; opens April 15, 2026; proposals due May 13, 2026.",
+   "notes": "Fetched directly this session; all figures (dates, funding, technical specs) confirmed from the official Army SBIR topic page. | Verifier independently re-fetched and confirmed all figures this session."
+  },
+  {
+   "id": "L16-022",
+   "title": "Acoustics in additive manufacturing: A path toward contactless, scalable, and high-precision manufacturing",
+   "authors_or_org": "Chen, Hongyi; Hardwick, James; Gao, Lei; Martinez Plasencia, Diego; Subramanian, Sriram; Hirayama, Ryuji",
+   "year": 2025,
+   "url": "https://pubs.aip.org/aip/apr/article/12/3/031305/3351231/Acoustics-in-additive-manufacturing-A-path-toward",
+   "canonical_key": "doi:10.1063/5.0271688",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0271688",
+   "doi": "10.1063/5.0271688",
+   "demand_evidence_type": "none",
+   "claim_supported": "High-impact review (Applied Physics Reviews) surveying acoustic levitation, acoustic focusing, and acoustic droplet ejection as contactless, high-precision additive-manufacturing techniques, covering mid-air fabrication on non-planar surfaces and nozzle-free bioprinting.",
+   "notes": "Not independently fetched this session (AIP paywall pattern). Authors and DOI confirmed via search cross-reference (matched across AIP, ADS, UCL Discovery, and ResearchGate listings). | Verifier confirmed full author list and affiliation via Crossref/publisher metadata this session."
+  },
+  {
+   "id": "L16-023",
+   "title": "MightyLev: An acoustic levitator for high-temperature containerless processing of medium- to high-density materials",
+   "authors_or_org": "Unconfirmed authors (Review of Scientific Instruments, AIP Publishing)",
+   "year": 2024,
+   "url": "https://pubs.aip.org/aip/rsi/article/95/10/103903/3316024/MightyLev-An-acoustic-levitator-for-high",
+   "canonical_key": "doi:10.1063/5.0221899",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0221899",
+   "doi": "10.1063/5.0221899",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes a multi-emitter ultrasonic acoustic levitator ('MightyLev') stable enough to levitate materials up to at least 11.3 g/cm3 density, combinable with mid-infrared laser heating to process metallic/oxide materials above 1500 K -- containerless high-temperature materials processing without contact-induced contamination.",
+   "notes": "Verifier found DOI via Crossref bibliographic search this session (scout had none); canonical_key updated from url-based to doi-based."
+  },
+  {
+   "id": "L16-024",
+   "title": "Ultrasonic Levitation as a Handling Tool for In-Space Manufacturing Processes",
+   "authors_or_org": "Raffel, Jan (Leibniz University Hannover, Institute of Transport) et al.",
+   "year": 2024,
+   "url": "https://asmedigitalcollection.asme.org/manufacturingscience/article/146/12/121001/1203440/Ultrasonic-Levitation-as-a-Handling-Tool-for-In",
+   "canonical_key": "doi:10.1115/1.4066335",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1115/1.4066335",
+   "doi": "10.1115/1.4066335",
+   "demand_evidence_type": "none",
+   "claim_supported": "Demonstrates ultrasonic (acoustic) levitation as a substrate-free handling tool for additive manufacturing in microgravity, manipulating polymer powders with acoustic traps while melting the levitated material; validated in a drop-tower microgravity facility.",
+   "notes": "Not independently fetched this session (ASME paywall pattern). DOI, dates, and lead author/institution (Leibniz University Hannover) confirmed via search cross-reference. | Verifier confirmed via Crossref this session."
+  },
+  {
+   "id": "L16-025",
+   "title": "Sonoprocessing: From Concepts to Large-Scale Reactors",
+   "authors_or_org": "Unconfirmed authors (Chemical Reviews, American Chemical Society)",
+   "year": 2022,
+   "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.1c00438",
+   "canonical_key": "doi:10.1021/acs.chemrev.1c00438",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1021/acs.chemrev.1c00438",
+   "doi": "10.1021/acs.chemrev.1c00438",
+   "demand_evidence_type": "none",
+   "claim_supported": "High-impact ACS Chemical Reviews article covering sonochemistry/sonoprocessing from laboratory concepts through large-scale industrial reactor design, framing scale-up as the central unsolved engineering barrier limiting industrial sonochemical adoption.",
+   "notes": "Not independently fetched this session (ACS paywall likely). DOI confirmed directly in search result title/URL. | Verifier confirmed via Crossref this session; kept scout's year (2022, print) noting the 2021 online-first date."
+  },
+  {
+   "id": "L16-027",
+   "title": "ISO 13588:2019 Non-destructive testing of welds -- Ultrasonic testing -- Use of automated phased array technology",
+   "authors_or_org": "International Organization for Standardization (ISO)",
+   "year": 2019,
+   "url": "https://www.iso.org/standard/72747.html",
+   "canonical_key": "standard:ISO-13588-2019",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "International standard (2nd edition, released 2019-02-04) specifying semi-/fully-automated phased-array ultrasonic testing of fusion-welded joints (minimum 6 mm thickness) in low-alloy/fine-grained carbon steel, defining four testing levels by probability-of-detection; explicitly does not establish acceptance criteria for discontinuities. International counterpart/complement to ASTM E2700.",
+   "notes": "Edition year and scope confirmed via ISO.org listing this session (search-derived, page not independently fetched in full). 2012 predecessor edition (iso.org/standard/54054.html) also identified but not logged as a separate record to avoid double-counting the same standard lineage. | Verifier succeeded via the en-standard.eu mirror this session after iso.org itself returned 403 -- satisfies the fetch requirement unlike the ASTM record (L16-026), where every mirror failed. 2012 predecessor edition not logged separately to avoid double-counting the same standard lineage."
+  },
+  {
+   "id": "L16-028",
+   "title": "Jiaocheng Ultrasonic (骄成超声, SSE STAR Market: 688392) EV battery ultrasonic-welding equipment market position",
+   "authors_or_org": "Wuxi Jiaocheng Ultrasonic Technology Co., Ltd. (无锡骄成超声); reported via 证券时报 (stcn.com)",
+   "year": 2022,
+   "url": "https://www.stcn.com/stock/djjd/202209/t20220916_4862188.html",
+   "canonical_key": "url:stcn.com/stock/djjd/202209/t20220916_4862188",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "Jiaocheng Ultrasonic, a STAR-Market-listed Chinese ultrasonic-welding-equipment maker, reports (2021) that ultrasonic welding machines supplied to CATL and BYD exceeded 50% of those customers' comparable new-production-line equipment purchases; named top-3 2021 customers and per-customer revenue: CATL RMB 130 million, Corun (科力远) RMB 68 million, BYD RMB 36 million, against segment revenue of RMB 196 million (2021) within a 2019-2021 revenue growth trajectory of RMB 134m to 265m to 371m.",
+   "notes": "Figures triangulated from a stcn.com news article plus multiple sell-side brokerage report summaries surfaced in search results this session; none of the underlying PDFs (pdf.dfcfw.com) were independently fetched -- verifier should fetch the company's own STAR Market prospectus (招股说明书) for audited-filing-grade confirmation. 2021-vintage data; may be stale relative to 2025-2026 competitive position. | CORRECTION: verifier's fetch this session surfaced far more granular named-customer revenue figures than the scout's aggregate '20-30% share' estimate; note the automated fetch tool's summary stated '1.96 billion yuan' for the segment, which is very likely a mistranslation of '1.96亿元' (亿 = 100 million, i.e., RMB 196 million) -- consistent with the scout's original RMB 196m figure. Verifier corrected the claim_supported to use RMB 196 million (not 1.96 billion) and flag this unit-conversion risk explicitly. Underlying prospectus (招股说明书) still not directly fetched; recommend a future verifier retrieve it to upgrade toward company_filing/T1."
+  },
+  {
+   "id": "L16-030",
+   "title": "Magnetic Pulse Welding of Dissimilar Materials: Weldability Window for AA6082-T6/HC420LA Stacks",
+   "authors_or_org": "Unconfirmed authors (Metals, MDPI)",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2075-4701/15/6/619",
+   "canonical_key": "doi:10.3390/met15060619",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/met15060619",
+   "doi": "10.3390/met15060619",
+   "demand_evidence_type": "none",
+   "claim_supported": "Establishes an experimental weldability window (impact velocities between ~900-1200 m/s produce sound joints) for magnetic pulse welding of dissimilar automotive-grade aluminum (AA6082-T6) and steel (HC420LA) sheet stacks, an electromagnetic-forming-family solid-state joining process for lightweight multi-material vehicle structures (body-in-white applications).",
+   "notes": "DOI confirmed directly via doi.org redirect link surfaced in search results. Not independently fetched this session. | Verifier confirmed via Crossref this session and obtained the specific 900-1200 m/s impact-velocity weldability window not previously captured."
+  },
+  {
+   "id": "L16-031",
+   "title": "A numerical investigation and process optimization of magnetic pulse welding for similar and dissimilar materials",
+   "authors_or_org": "Unconfirmed authors (Continuum Mechanics and Thermodynamics, Springer)",
+   "year": 2025,
+   "url": "https://link.springer.com/article/10.1007/s00161-025-01409-5",
+   "canonical_key": "doi:10.1007/s00161-025-01409-5",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s00161-025-01409-5",
+   "doi": "10.1007/s00161-025-01409-5",
+   "demand_evidence_type": "none",
+   "claim_supported": "Numerical modeling and process-parameter optimization of magnetic pulse welding for both similar-metal and dissimilar-metal joints, complementing experimental weldability-window studies (e.g., L16-030) with simulation-based process design.",
+   "notes": "Not independently fetched this session. DOI confirmed via search cross-reference (Springer Link URL). | Verifier confirmed via Crossref this session."
+  },
+  {
+   "id": "L16-032",
+   "title": "Electromagnetic forming -- A review",
+   "authors_or_org": "Psyk, V.; Risch, D.; Kinsey, B. L.; Tekkaya, A. E.; Kleiner, M.",
+   "year": 2011,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924013610003821",
+   "canonical_key": "doi:10.1016/j.jmatprotec.2010.12.012",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.jmatprotec.2010.12.012",
+   "doi": "10.1016/j.jmatprotec.2010.12.012",
+   "demand_evidence_type": "none",
+   "claim_supported": "Foundational, widely-cited review establishing electromagnetic forming (EMF) fundamentals and noting a 'renaissance' of EMF driven by automotive lightweighting demand -- cited context for why EMF/magnetic-pulse-welding research has intensified in the 2020s.",
+   "notes": "Verifier found DOI and full author list via Crossref this session (scout had neither). Included despite 2011 date as the still-cited foundational review anchoring the 'EMF renaissance' claim."
+  },
+  {
+   "id": "L16-033",
+   "title": "Lightweight in Automotive Components by Forming Technology",
+   "authors_or_org": "Unconfirmed authors (Automotive Innovation, Springer)",
+   "year": 2020,
+   "url": "https://link.springer.com/article/10.1007/s42154-020-00103-3",
+   "canonical_key": "doi:10.1007/s42154-020-00103-3",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s42154-020-00103-3",
+   "doi": "10.1007/s42154-020-00103-3",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews forming-technology routes (including electromagnetic and other high-energy-rate forming) for automotive lightweighting, framing weight reduction via advanced forming as directly linked to vehicle CO2-emission-reduction targets.",
+   "notes": "Not independently fetched. Journal is affiliated with the China Society of Automotive Engineers (Springer co-publication); geography tagged CN as likely editorial origin, not confirmed author nationality. | Verifier confirmed via Crossref this session."
+  },
+  {
+   "id": "L16-034",
+   "title": "Electromagnetic forming shapes eco-friendly vehicles (EMF Project, FP5)",
+   "authors_or_org": "European Commission (CORDIS); coordinated by Volvo Cars Body Components AB",
+   "year": 2006,
+   "url": "https://cordis.europa.eu/article/id/84246-electromagnetic-forming-shapes-ecofriendly-vehicles",
+   "canonical_key": "tender:EU-FP5-EMF-84246",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "EU FP5-funded 'EMF' project (August 2002-July 2006, total cost EUR 2,950,298, EU contribution EUR 1,555,596, coordinated by Volvo Cars Body Components AB, Sweden) developed electromagnetic forming technology for automotive tube and sheet-metal parts to enable vehicle weight reduction and associated CO2 emission cuts.",
+   "notes": "Fetched directly this session; funding figures and dates confirmed from the official CORDIS (European Commission) results page. | Verifier independently re-confirmed via direct fetch this session."
+  },
+  {
+   "id": "L16-035",
+   "title": "Electromagnetic launchers for space applications",
+   "authors_or_org": "Schroeder, J. M.; Gully, J. H.; Driga, M. D. (University of Texas at Austin)",
+   "year": 1989,
+   "url": "https://ntrs.nasa.gov/citations/19890044698",
+   "canonical_key": "doi:10.1109/20.22590",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/20.22590",
+   "doi": "10.1109/20.22590",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes two NASA-Langley-sponsored electromagnetic launcher concepts (coilgun and railgun) designed to accelerate 10-14 kg payloads to 6-11 km/s for hypervelocity flight testing, with a proposed reconfigured version capable of placing 150 kg payloads into low Earth orbit -- the technical precedent cited by current Chinese (Galactic Energy) and other electromagnetic-launch-assist space-launch efforts.",
+   "notes": "UPGRADE: scout assumed this 1989 paper pre-dated the DOI system and left DOI blank/peer_review_status unverified; verifier's Crossref bibliographic search this session found IEEE has retroactively assigned DOI 10.1109/20.22590 to this article, with an exact title/author match, allowing full verification. Both NASA NTRS and Crossref independently confirm identity."
+  },
+  {
+   "id": "L16-036",
+   "title": "China plans maglev rocket launch pad (Ziyang electromagnetic launch test bed; Galactic Energy)",
+   "authors_or_org": "Ziyang Commercial Space Launch Technology Research Institute (四川资阳商业航天发射技术研究院) / China Aerospace Science and Industry Corporation (CASIC); reported by South China Morning Post",
+   "year": 2025,
+   "url": "https://www.scmp.com/news/china/science/article/3303761/china-bid-challenge-giant-spacex-deploying-maglev-rocket-launch-pad-2028",
+   "canonical_key": "url:scmp.com/news/china/science/article/3303761",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "A Sichuan-based electromagnetic launch test bed (Ziyang Institute, with CASIC) completed its first full-system test on April 15, 2025, accelerating a 1.4-meter-diameter rocket model to supersonic speed using superconducting magnets; Ziyang Institute president Li Ping states the approach could 'double payload capacity and lower launch cost.' Galactic Energy (18 successful launches, 77 satellites deployed as of the article) is separately developing the Ceres-2 rocket to exploit this launch-assist approach, targeting the world's first operational electromagnetic-launch-assisted orbital rocket by 2028.",
+   "notes": "SOURCE SWAP: original url (orbitaltoday.com) could not be fetched by either the scout or verifier (403 both times); verifier located and fetched an SCMP article covering the same event with matching facts (test date, institute, 2028 target), and substituted it as the primary citation since it is both higher-quality (major international newspaper, T2 vs the original T3) and independently fetched. Tier upgraded T3->T2 accordingly. No official Chinese-government or CASIC primary source was found/fetched this session."
+  },
+  {
+   "id": "L16-037",
+   "title": "A Review of Axial Flux Permanent Magnet Machine Technology",
+   "authors_or_org": "Gadiyar, Nishanth; Van Verdeghem, Joachim; Severson, Eric L.",
+   "year": 2023,
+   "url": "https://ieeexplore.ieee.org/document/10076914/",
+   "canonical_key": "doi:10.1109/tia.2023.3258933",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tia.2023.3258933",
+   "doi": "10.1109/tia.2023.3258933",
+   "demand_evidence_type": "none",
+   "claim_supported": "Comprehensive review of axial-flux permanent-magnet (AFPM) machine design variants, sizing approaches, computationally efficient design-optimization techniques, and manufacturing methods -- the core technology behind the eVTOL/aerospace axial-flux-motor demand signal (e.g., Evolito, L16-047 reference in scout brief).",
+   "notes": "Not independently fetched (IEEE Xplore paywall). Author names, journal, volume/issue, and DOI confirmed via cross-referenced OSTI.GOV bibliographic record. | CORRECTION: scout's authors_or_org listed 'Nishanth, F.' -- verifier's Crossref confirmation shows the correct name is 'Nishanth Gadiyar' (family name Gadiyar, not 'Nishanth'); corrected."
+  },
+  {
+   "id": "L16-038",
+   "title": "Innovations in Axial Flux Permanent Magnet Motor Thermal Management for High Power Density Applications",
+   "authors_or_org": "Unconfirmed authors (IEEE Transactions on Transportation Electrification)",
+   "year": 2023,
+   "url": "https://ieeexplore.ieee.org/document/10040899/",
+   "canonical_key": "doi:10.1109/TTE.2023.3242698",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TTE.2023.3242698",
+   "doi": "10.1109/TTE.2023.3242698",
+   "demand_evidence_type": "none",
+   "claim_supported": "Analyzes the thermal-management/cooling-vs-power-density trade-off across AFPM topologies (single-stator double-rotor achieves best torque density but is hardest to cool; single-stator single-rotor and double-stator machines cool more easily but have lower power density) -- directly relevant to why aerospace AFPM adopters (e.g., Evolito) emphasize dielectric liquid cooling.",
+   "notes": "Not independently fetched (IEEE Xplore paywall). DOI confirmed via search cross-reference including ADS abstract listing. | Verifier confirmed via Crossref this session (initial attempt returned 429 rate-limit; retry succeeded)."
+  },
+  {
+   "id": "L16-039",
+   "title": "System-Level Optimization in Switched Reluctance Machine Design -- Current Trends, Methodologies, and Future Directions",
+   "authors_or_org": "Unconfirmed authors (Applied Sciences, MDPI)",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2076-3417/15/11/6275",
+   "canonical_key": "doi:10.3390/app15116275",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/app15116275",
+   "doi": "10.3390/app15116275",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews system-level design optimization (SLDOM) of switched reluctance motors (SRMs) -- rare-earth-magnet-free machines -- where machine and controller are co-optimized, reporting significant improvements in mitigating torque ripple and radial-force issues, the two classic SRM drawbacks versus permanent-magnet motors.",
+   "notes": "Not independently fetched (MDPI 403 pattern seen elsewhere this session, though MDPI is normally more accessible; not attempted directly here). DOI confirmed via search cross-reference. | Verifier confirmed via Crossref this session."
+  },
+  {
+   "id": "L16-040",
+   "title": "Modelling and design optimization of switched reluctance motors based on machine learning methods: Review",
+   "authors_or_org": "Unconfirmed authors (Franklin Open, ScienceDirect)",
+   "year": 2026,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2773186325002592",
+   "canonical_key": "doi:10.1016/j.fraope.2025.100474",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fraope.2025.100474",
+   "doi": "10.1016/j.fraope.2025.100474",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews machine-learning-based modelling and design-optimization techniques for switched reluctance motors, covering optimization of stator/rotor pole arc, stack length, turns-per-pole, and phase current -- evidence that SRM design remains an active computational-optimization research area.",
+   "notes": "Note this ScienceDirect article listing (unlike the abs/pii pattern seen elsewhere) appeared open-access (Franklin Open is a gold-OA Elsevier title); still not independently fetched this session for full-text verification. DOI confirmed via search cross-reference. | Year updated from scout's 2025 to 2026 to match Crossref's authoritative published-date field (formal issue date March 2026); DOI/article numbering still reflects 2025. Franklin Open is gold open-access; full text was not independently re-fetched this session (Crossref record deemed sufficient)."
+  },
+  {
+   "id": "L16-041",
+   "title": "High-Speed Kinetic Energy Storage System Development and ANSYS Analysis of Hybrid Multi-Layered Rotor Structure",
+   "authors_or_org": "Unconfirmed authors (Applied Sciences, MDPI)",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2076-3417/15/10/5759",
+   "canonical_key": "doi:10.3390/app15105759",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/app15105759",
+   "doi": "10.3390/app15105759",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares solid steel, solid titanium, solid carbon-composite, and hybrid multi-layered (carbon-composite-wrapped-metal) flywheel rotor structures via finite-element (ANSYS) analysis, addressing the cost/weight/high-speed-strength trade-off central to flywheel energy-storage-system rotor design.",
+   "notes": "Not independently fetched this session. DOI inferred from standard MDPI Applied Sciences numbering convention (10.3390/app + volume-padded-issue-article number) matching the URL structure; verifier should confirm via doi.org resolution. | Scout's DOI was an unconfirmed inference from MDPI's numbering convention; verifier independently confirmed via direct Crossref lookup this session that the DOI is correct and matches the title exactly -- caveat removed."
+  },
+  {
+   "id": "L16-042",
+   "title": "Low-dimensional magnetocaloric materials for energy-efficient magnetic refrigeration: does size matter?",
+   "authors_or_org": "Unconfirmed authors (Science and Technology of Advanced Materials, Taylor & Francis)",
+   "year": 2025,
+   "url": "https://www.tandfonline.com/doi/full/10.1080/14686996.2025.2546287",
+   "canonical_key": "doi:10.1080/14686996.2025.2546287",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/14686996.2025.2546287",
+   "doi": "10.1080/14686996.2025.2546287",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews low-dimensional (nanostructured/thin-film) magnetocaloric materials for magnetic refrigeration, examining whether size-reduction improves energy efficiency versus bulk magnetocaloric materials.",
+   "notes": "Not independently fetched this session. DOI confirmed directly in the search-result URL/title. | Verifier confirmed via Crossref this session."
+  },
+  {
+   "id": "L16-043",
+   "title": "A review of the state of the art of the cryogenic magnetocaloric systems for gas liquefaction",
+   "authors_or_org": "Unconfirmed authors (International Journal of Refrigeration, ScienceDirect)",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/pii/S0140700725003147",
+   "canonical_key": "doi:10.1016/j.ijrefrig.2025.08.007",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijrefrig.2025.08.007",
+   "doi": "10.1016/j.ijrefrig.2025.08.007",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews cryogenic magnetocaloric refrigeration systems specifically for gas liquefaction (e.g., hydrogen, natural gas), relevant to the emerging hydrogen-liquefaction cold-chain demand signal.",
+   "notes": "Verifier found DOI via Crossref bibliographic search this session (scout had none)."
+  },
+  {
+   "id": "L16-044",
+   "title": "Strategic optimization of electrocaloric cooling: from material design to device innovation",
+   "authors_or_org": "Unconfirmed authors (Journal of Materials Chemistry C, Royal Society of Chemistry)",
+   "year": 2025,
+   "url": "https://pubs.rsc.org/en/content/articlelanding/2025/tc/d5tc02482j",
+   "canonical_key": "doi:10.1039/D5TC02482J",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1039/D5TC02482J",
+   "doi": "10.1039/D5TC02482J",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews electrocaloric-cooling material design and device-engineering strategies, framing electrocaloric refrigeration as a zero-global-warming-potential, high-energy-efficiency solid-state alternative to vapor-compression cooling.",
+   "notes": "Not independently fetched this session (RSC paywall likely). DOI confirmed directly via the RSC article-landing URL. | Verifier confirmed via Crossref this session (initial attempt 429 rate-limited; retry succeeded)."
+  },
+  {
+   "id": "L16-045",
+   "title": "A high-performance solid-state electrocaloric cooling system",
+   "authors_or_org": "Qian, Suxin et al. (unconfirmed full author list; UCLA-affiliated)",
+   "year": 2020,
+   "url": "https://www.science.org/doi/10.1126/science.aba2648",
+   "canonical_key": "doi:10.1126/science.aba2648",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1126/science.aba2648",
+   "doi": "10.1126/science.aba2648",
+   "demand_evidence_type": "none",
+   "claim_supported": "Science-journal demonstration of a high-performance solid-state electrocaloric cooling system (UCLA). NOTE: this is a separate, later (2020) milestone from ARPA-E's much earlier (2010-2012) 'Compact MEMS Electrocaloric Cooling Module' award (see L16-046) -- the two are related-topic but not directly sequential as originally framed.",
+   "notes": "Not independently fetched this session (Science paywall). DOI confirmed directly via search result URL. Included despite 2019 date (older than typical lane window) because it is the direct technical predecessor cited by the active ARPA-E program in this same niche. | CORRECTIONS: (1) year updated from scout's 2019 to 2020 per Crossref's published date. (2) Scout's claim_supported framed this paper as the technology base 'underlying ARPA-E's subsequent' Compact Solid State Cooling Systems program -- but verifier's research this session found the ARPA-E award for that program (OSTI biblio 1046625, $520,547, term 10/2010-09/2012, BEETIT program) actually predates this 2020 Science paper by roughly a decade. The 'subsequent' framing was factually backwards and has been corrected/removed."
+  },
+  {
+   "id": "L16-046",
+   "title": "ARPA-E Compact Solid State Cooling Systems program (electrocaloric refrigeration, UCLA)",
+   "authors_or_org": "U.S. Department of Energy, Advanced Research Projects Agency-Energy (ARPA-E); performer UCLA",
+   "year": 2010,
+   "url": "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/compact-solid-state-cooling-systems",
+   "canonical_key": "url:arpa-e.energy.gov/programs-and-initiatives/search-all-projects/compact-solid-state-cooling-systems",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "ARPA-E-funded project 'Compact MEMS Electrocaloric Cooling Module' (performer: UCLA), award $520,547, term 2010-10-01 to 2012-09-30, under the BEETIT (Building Energy Efficiency Through Innovative Thermodevices) program -- a direct, early (2010-2012) U.S. government R&D bet on electrocaloric cooling as a vapor-compression alternative, translating the 'giant electrocaloric effect' into commercially viable compact cooling systems.",
+   "notes": "Direct fetch this session returned only page header/navigation content (JavaScript-rendered page not fully captured by the fetch tool); program name and performer (UCLA) confirmed via combination of the partial fetch and cross-referenced search snippets. Specific funding amount and award date were not confirmed this session -- flagged as an open item for the verifier, who should retrieve the ARPA-E project slick-sheet PDF directly. | Year corrected from scout's 'null' to 2010 (project start) and funding amount ($520,547) confirmed via OSTI.GOV this session -- resolving the scout's flagged open item. This program is materially older (2010-2012) than the lane's typical 2024-2026 window and PRE-DATES the 2020 Science paper (L16-045), not the reverse as the scout's L16-045 record implied; see correction note on L16-045."
+  },
+  {
+   "id": "L16-047",
+   "title": "Magnetocaloric Refrigerator/Freezer (DOE-funded, Oak Ridge National Laboratory / General Electric)",
+   "authors_or_org": "Oak Ridge National Laboratory; General Electric; U.S. Department of Energy",
+   "year": 2016,
+   "url": "https://www.energy.gov/cmei/buildings/articles/magnetocaloric-refrigeratorfreezer",
+   "canonical_key": "url:energy.gov/cmei/buildings/articles/magnetocaloric-refrigeratorfreezer",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "DOE-funded (USD 2,105,000; August 2013-September 2016 CRADA) cooperative project between Oak Ridge National Laboratory and General Electric developed a magnetocaloric-effect residential refrigerator/freezer eliminating high-global-warming-potential refrigerants, targeting 20% energy-consumption reduction versus DOE minimum-efficiency standards.",
+   "notes": "Fetched directly this session; funding figure, timeline, and performance targets confirmed from the official DOE project page. Project concluded in 2016 -- older than the lane's typical window, but included as the concrete named-buyer-adjacent (GE as industrial partner) government R&D precedent for magnetocaloric refrigeration commercialization; a verifier should check for a more recent (2024-2026) DOE follow-on program. | Verifier corroborated scout's funding figures via independent ORNL.gov sourcing this session (search-level confirmation, not a fresh direct fetch of energy.gov itself since the scout's fetch was already successful)."
+  },
+  {
+   "id": "L16-048",
+   "title": "Astemo rare-earth-free synchronous reluctance motor system for BEVs",
+   "authors_or_org": "Hitachi Astemo, Ltd.",
+   "year": 2025,
+   "url": "https://www.astemo.com/en/news/20251027-01/",
+   "canonical_key": "url:astemo.com/en/news/20251027-01",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Announced October 27, 2025: a rare-earth-free synchronous reluctance motor system combining a 180 kW magnet-assisted (ferrite-magnet) main drive motor with a 135 kW pure (magnet-free) synchronous reluctance auxiliary motor (315 kW combined), using a multi-layer flux structure and oil-immersion cooling; targeted for practical vehicle application 'around 2030.' Exhibited at Japan Mobility Show 2025. No customer/OEM named.",
+   "notes": "Fetched directly this session; all performance figures and dates confirmed from Astemo's own press release. | Not re-fetched by verifier this session; scout's successful direct fetch accepted as-is."
+  },
+  {
+   "id": "L16-049",
+   "title": "Enedym Inc. secures investment from Honda Motor Co., Ltd. for switched reluctance motor technology",
+   "authors_or_org": "Enedym Inc. (Canada); Honda Motor Co., Ltd. (Honda Xcelerator Ventures)",
+   "year": 2025,
+   "url": "https://www.businesswire.com/news/home/20251020765704/en/Enedym-Inc.-Secures-Investment-from-Honda-Motor-Co.-Ltd.",
+   "canonical_key": "url:businesswire.com/news/home/20251020765704/en/Enedym-Inc-Secures-Investment-from-Honda-Motor-Co-Ltd",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "CA",
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Honda's venture-investment arm (Honda Xcelerator Ventures) invested in Enedym Inc. (McMaster Innovation Park, Hamilton, Ontario), a developer of switched reluctance motors (70+ patents, technology from Dr. Ali Emadi's McMaster Automotive Resource Centre) that eliminate rare-earth-magnet use entirely; announced October 21, 2025. Investment amount undisclosed.",
+   "notes": "Direct fetch failed this session (connection reset error); details drawn from search-engine summary of the press release only. Specific investment dollar amount was not disclosed in any source found this session -- do not treat any dollar figure as confirmed for this record. Verifier should re-attempt direct fetch. | Verifier could not directly fetch the originally-cited BusinessWire URL (connection reset on two attempts) but successfully fetched Enedym's own company press release confirming identical facts -- satisfies the fetch requirement via an equally-primary alternate source. Dollar amount confirmed as genuinely undisclosed (not merely unfound)."
+  },
+  {
+   "id": "L16-050",
+   "title": "Powder magnetic core for axial-gap motors (圧粉磁心 - アキシャルギャップモータの特長)",
+   "authors_or_org": "Sumitomo Electric Industries, Ltd. (住友電気工業)",
+   "year": 2025,
+   "url": "https://sumitomoelectric.com/jp/products/powdermagneticcore/axialgapmotor",
+   "canonical_key": "url:sumitomoelectric.com/jp/products/powdermagneticcore/axialgapmotor",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sumitomo Electric markets powder (soft) magnetic cores for axial-gap motors (AGM), claiming ~50% volume/weight reduction versus radial-gap motors (RGM) for equivalent performance; developed a 20 kW axial-gap motor using ferrite magnets and powder cores (instead of neodymium magnets and electrical steel) to reduce rare-earth dependency, with 200W/500W/1000W trial models available for customer evaluation.",
+   "notes": "Not independently fetched this session (search-snippet-derived summary of the vendor page plus a cross-referenced Japan Metal Daily trade-press article on the 2025 ultra-thin-coating development). Vendor's own technical claims, not independently validated performance data. | Verifier fetched directly this session, obtaining more specific technical detail (20kW motor spec, three trial-model sizes) than the scout's search-snippet-derived summary. Vendor's own technical claims, not independently validated performance data."
+  },
+  {
+   "id": "L16-052",
+   "title": "Piller Power Systems / Bergen Engines 400 MW AI data-center power contract with flywheel-based SHIELDX dynamic power stabilization",
+   "authors_or_org": "Piller Power Systems (Langley Holdings); Bergen Engines",
+   "year": 2025,
+   "url": "https://www.piller.com/bergen-engines-secures-400mw-contract-for-us-ai-data-center-power-plant/",
+   "canonical_key": "url:piller.com/bergen-engines-secures-400mw-contract-for-us-ai-data-center-power-plant",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "Piller Power Systems announced (November 26, 2025) that its SHIELDX Dynamic Power Stabilization units (flywheel-based mechanical inertia + bi-directional active power modules) were selected to stabilize a 400 MW off-grid AI-data-center power plant (36 x 11.2 MW Bergen gas engines) on the US East Coast, delivered by E-Finity Distributed Generation as EPC; first engine shipment scheduled December 2025. Named end customer not disclosed; contract value not disclosed.",
+   "notes": "Fetched directly this session; all capacity, date, and role details confirmed from the vendor's own press release. Contract dollar value was not disclosed anywhere in the release. | Not re-fetched by verifier this session; scout's successful direct fetch of the vendor's own press release accepted as-is."
+  },
+  {
+   "id": "L16-053",
+   "title": "Amber Kinetics receives Letter of Support from Indian Energy for its above-ground flywheel energy-storage solution",
+   "authors_or_org": "Amber Kinetics, Inc.; Indian Energy, LLC",
+   "year": 2025,
+   "url": "https://amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution/",
+   "canonical_key": "url:amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Amber Kinetics (long-duration steel-rotor flywheel energy-storage manufacturer) announced (press release dated August 6, 2025) a non-binding 'Letter of Support' from Indian Energy LLC (a Native American-owned microgrid developer) and successfully commissioned its first plug-and-play above-ground containerized flywheel unit with Indian Energy, building on a 2024 Miramar Airshow demonstration; the unit received UL Field Certification. Deployment location not specified in the release; this is an endorsement/single-unit commissioning, not a multi-unit binding purchase agreement.",
+   "notes": "MAJOR CORRECTION: scout's source (a greyb.com blog aggregator, not independently fetched) described this as a finalized 'partnership' for deployment 'across US tribal reservations' and classified it as demand_evidence_type procurement_award. Verifier located and fetched Amber Kinetics' own primary press release this session, which reveals the actual transaction is a non-binding Letter of Support plus a single commissioned unit -- not a binding multi-site procurement contract. url/canonical_key updated to the primary source; source_type upgraded from trade_press to vendor_datasheet (company's own release); demand_evidence_type downgraded from procurement_award to none since a non-binding letter of support is not primary procurement evidence. Date corrected to August 6, 2025 (scout said 'reported October 2025', which appears to conflate this with unrelated October 2025 secondary blog coverage)."
+  },
+  {
+   "id": "L16-054",
+   "title": "HIWIN Mikrosystem Corp. -- direct-drive linear motor and motion-control product line",
+   "authors_or_org": "HIWIN Mikrosystem Corp. (Taiwan)",
+   "year": 2025,
+   "url": "https://hiwin.com/linear-motors/",
+   "canonical_key": "url:hiwin.com/linear-motors",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L16"
+   ],
+   "language": "en",
+   "geography": [
+    "TW"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "HIWIN, a Taiwan-headquartered motion-control manufacturer, produces Permanent Magnet Linear Synchronous Motors (PMLSM) in iron-core (up to 4,458 N peak standard / 20,827 N peak water-cooled) and ironless (up to 4,012 N peak) variants for semiconductor, biotech, automation, and machine-tool applications.",
+   "notes": "Not independently fetched this session; market-position claims (No. 2 globally) are the vendor's own self-description and should be treated as a vendor claim, not independently validated market-share data. Included primarily for Taiwan geographic coverage, which is otherwise absent from this lane's dataset. | CORRECTION: the scout's claim that HIWIN markets itself as 'No. 2 globally' in ball-screw/linear-guideway technology was NOT present on the specific page fetched this session (which covers only linear motors, no ranking claim, no direct-drive-motor content either); that ranking claim is unverified this session and has been removed from claim_supported pending confirmation elsewhere. Retained the record and technical specs, which the fetched page does support. Included primarily for Taiwan geographic coverage."
+  }
+ ]
+}

@@ -104,14 +104,11 @@ deployment (L03-045, L03-046).
 | American Superconductor (AMSC) | US | HTS wire, SFCL, ship degaussing (SPS), grid cable/FCL systems | >$15B addressable market claimed in 10-K; active Navy SPS deliveries 2022/2025 (L03-046) |
 | LS Cable & System / LS Electric | KR | HTS cable, SFCL, power equipment | Named 2025 KEPCO data-center superconducting grid MOU partner (L03-043) |
 | Nexans | FR | HTS HVAC cable (SupraMarine) | EUR7.3M government-backed demonstrator with RTE (L03-034) |
-| Sumitomo Heavy Industries, Cryomech/Bluefors, Northrop Grumman, Thales, Sunpower/AMETEK | JP/US/FR | Cryocoolers | Market-report-named leaders (L03-047, L03-049); PT205 spec sheet: 10 mW@2.5K for 1.1kW input (L03-050, vendor claim) |
+| Sumitomo Heavy Industries, Cryomech/Bluefors, Northrop Grumman, Thales, Sunpower/AMETEK | JP/US/FR | Cryocoolers | PT205 spec sheet: 10 mW@2.5K for 1.1kW input (L03-050, vendor claim) |
 | Siemens Healthineers, GE HealthCare, ASG Superconductors | DE/US/IT | Helium-free MRI magnets | Vendor/trade-press claims of <1L helium systems (context only, not independently fetched this session) |
 
 Price signals are thin in this record set: no independently fetched superconducting-cable or
 magnet unit price was found (vendor pricing is generally quoted-on-request in this industry).
-Market-size figures (cryocooler $2.81B→$5.26B by 2031 at 13.37% CAGR, L03-047; superconducting
-wire $1.32B→$2.19B by 2030 at 10.6% CAGR, L03-049) are consultancy estimates and are flagged as
-such — they have not been triangulated against independent bottom-up arithmetic in this pass.
 
 ## 2026–2031 triggers
 
@@ -121,8 +118,7 @@ such — they have not been triangulated against independent bottom-up arithmeti
   ($415M total, L03-032) — a natural re-appropriation/renewal decision point.
 - **2028**: SupraMarine HTS offshore-wind cable demonstrator testing (L03-034) — a dated,
   grant-triggered milestone with a named grid operator (RTE).
-- **2030-2031**: Consultancy market-size horizon for both cryocooler and superconducting-wire
-  markets (L03-047, L03-049); AI/data-center load growth is cited by KEPCO/LS Cable/LS Electric as
+- **2030-2031**: AI/data-center load growth is cited by KEPCO/LS Cable/LS Electric as
   a live, current-decade trigger for urban superconducting-grid deployment (L03-043), not a
   future-dated one.
 - **Ongoing/undated but active**: CFETR construction-decision timeline in China remains publicly
@@ -150,10 +146,6 @@ such — they have not been triangulated against independent bottom-up arithmeti
   cost-sharing (Japan-EU Broader Approach for JT-60SA, L03-036; China's 13 ITER procurement
   packages, cited in L03-022). The US public-private model (DOE Milestone Program, L03-032) instead
   funds multiple competing private companies rather than one national flagship device.
-- **India remains conductor-import-dependent for legacy assets** (SST-1 originally used
-  Japan-sourced conductor in the 1990s) while building domestic sourcing for upgrades and
-  contributing cryostat/cryogenic-system packages to ITER (L03-054) — a materially earlier
-  industrial position than China, Japan, or Korea in this lane.
 
 ## Unresolved contradictions
 
@@ -163,11 +155,6 @@ such — they have not been triangulated against independent bottom-up arithmeti
   without confirmed evidence of repeat, third-party-financed orders in this record set. Whether
   this represents genuine unsubsidized commercial viability or state-directed demonstration
   procurement dressed as "commercial operation" is not resolved by the sources gathered here.
-- **REBCO tape supply: scarcity or over-capacity?** L03-003/L03-019 imply REBCO tape is scarce
-  enough that a single large order strains global capacity, while L03-047/L03-049 market reports
-  imply steady, healthy-margin CAGR growth consistent with adequate supply. These are not
-  necessarily contradictory (both can be true in different tape grades/years) but the record set
-  does not contain a reconciling capacity-vs-order-book data point.
 - **Navy rotating-machine HTS: dead end or dormant?** The 2007-era 36.5MW motor program (L03-045)
   has no confirmed successor in this record set, yet AMSC continues to describe an addressable
   market above $15B (L03-046) without specifying how much of that market is rotating machines
@@ -224,17 +211,7 @@ Pain statements only — no startup pitches, no product framing.
    magnet designers must over-engineer structural support, raising cost and schedule risk. Who
    pays: any high-field magnet program (fusion, NMR, accelerator) needing to certify
    long-term operational margins. Evidence: L03-018, L03-020, L03-021.
-10. **Vendor and vendor-adjacent HTS wire market-size claims are not independently triangulated in
-    this record set** — CAGR/market-size figures (L03-047, L03-049) come from consultancies without
-    disclosed bottom-up methodology. Who pays (indirectly): any investor or buyer relying on these
-    figures for capital-allocation decisions absent independent verification. Evidence: L03-047,
-    L03-049 (flagged explicitly as unverified consultancy estimates, not treated as demand proof).
-11. **India's legacy superconducting-tokamak assets (SST-1) remain dependent on historically
-    imported conductor, and the record set does not show a confirmed fully domestic supply chain
-    for upgrade-scale conductor**, creating a sourcing dependency risk for India's fusion roadmap.
-    Who pays: Institute for Plasma Research / India's fusion program budget holders. Evidence:
-    L03-054.
-12. **AMSC's own 10-K discloses an addressable market above $15 billion annually but does not
+10. **AMSC's own 10-K discloses an addressable market above $15 billion annually but does not
     break out how much is attributable to SFCL, cable, motor, or degaussing product lines**,
     leaving buyers and competitors without a transparent, audited breakdown of where actual paid
     demand concentrates within AMSC's own portfolio. Who pays (information asymmetry cost):
@@ -256,3 +233,16 @@ Pain statements only — no startup pitches, no product framing.
 - The DOE $51.8M grid-modernization figure (L03-039) could not be confirmed at its primary
   energy.gov URL (HTTP 404) and is corroborated only indirectly through the ORNL press release
   (L03-038).
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L03-047, L03-049, L03-054
+- removed/trimmed claims:
+  - Dropped the "Market-report-named leaders (L03-047, L03-049)" clause from the cryocooler-vendors incumbent-table row, keeping only the eligible PT205 vendor spec citation (L03-050).
+  - Deleted the "Market-size figures (cryocooler..., superconducting wire...)" sentence in full from the incumbent-map price-signals paragraph — needs a re-sourced cryocooler/HTS-wire TAM figure from an eligible provider.
+  - Deleted the "Consultancy market-size horizon for both cryocooler and superconducting-wire markets" clause from the 2030-2031 triggers bullet, keeping only the eligible KEPCO/LS Cable AI-load-growth trigger.
+  - Deleted the "India remains conductor-import-dependent for legacy assets" bullet in full (Sec. "US vs Asia differences") — needs re-sourced India-conductor-supply-chain evidence from an eligible provider if retained (note: India is also excluded from geography analysis under the mission's binding scope).
+  - Deleted the "REBCO tape supply: scarcity or over-capacity?" contradiction bullet in full (Sec. "Unresolved contradictions") — needs re-sourced evidence for the "adequate supply" side of this contradiction from an eligible provider.
+  - Deleted pain-statement item "Vendor and vendor-adjacent HTS wire market-size claims are not independently triangulated" in full (Sec. "Opportunity-shaped pain statements").
+  - Deleted pain-statement item "India's legacy superconducting-tokamak assets (SST-1)..." in full (Sec. "Opportunity-shaped pain statements").
+  - Renumbered the remaining pain-statement items sequentially after deletions (former item 12 is now item 10).

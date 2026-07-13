@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.13700/j.bh.1001-5965.2015.0531",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:05:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://sns.wanfangdata.com.cn/perio/bjhkhtdxxb",
     "doi": "10.13700/j.bh.1001-5965.2015.0531",
@@ -22,7 +26,26 @@
     "locator": "Journal of Beijing University of Aeronautics and Astronautics, Vol.42 No.8 (2016), pp.1575-1583",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED: Publisher page (BUAA journal official host) fetched directly; DOI, author list, affiliations, and page range confirmed. Re-tiered T1->T2 this session: claim_supported explicitly describes a state-of-the-art survey, which is a review under SOURCE_STANDARDS, not primary original research. Peer-review evidence is indexing-based (WanFang Data indexing record for this Ministry-of-Industry-supervised Chinese core journal with a named editorial board) rather than an explicit venue peer-review-policy statement -- no such statement was present on the article page itself."
+    "notes": "VERIFIED: Publisher page (BUAA journal official host) fetched directly; DOI, author list, affiliations, and page range confirmed. Re-tiered T1->T2 this session: claim_supported explicitly describes a state-of-the-art survey, which is a review under SOURCE_STANDARDS, not primary original research. Peer-review evidence is indexing-based (WanFang Data indexing record for this Ministry-of-Industry-supervised Chinese core journal with a named editorial board) rather than an explicit venue peer-review-policy statement -- no such statement was present on the article page itself.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Academy of Space Technology (Institute of Telecommunication of Satellite)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://bhxb.buaa.edu.cn/fileBJHKHTDXXB//journal/article/bjhkhtdxxb/html/2016/8/20160803.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Prior verifier pass in this ledger directly fetched the BUAA journal publisher page and confirmed all authors affiliated with China Academy of Space Technology, Beijing. OpenAlex has the DOI but returns no institution data (rechecked this session); publisher-page evidence controls. China, not India."
+    }
   },
   {
     "id": "L09-002",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.2322/astj.10.19",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:06:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.jsass.or.jp/webe/publications/84/",
     "doi": "10.2322/astj.10.19",
@@ -47,7 +74,38 @@
     "locator": "Aerospace Technology Japan (航空宇宙技術), Vol.10, pp.19-25 (2011)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED: J-STAGE article page fetched directly; authors, affiliations, DOI, venue confirmed. Aerospace Technology Japan is the official peer-reviewed journal of the Japan Society for Aeronautical and Space Sciences (JSASS); JSASS publications page confirms 'Full Articles and Research Notes are fully peer-reviewed.' Original technical contribution (new normalization parameter), not a review -> T1 confirmed. Author overlap (Osuga, Tamida) with L09-007/L09-008 confirms a sustained Japanese Hall-thruster PPU research program (Mitsubishi Electric/Kyushu University/JAXA)."
+    "notes": "VERIFIED: J-STAGE article page fetched directly; authors, affiliations, DOI, venue confirmed. Aerospace Technology Japan is the official peer-reviewed journal of the Japan Society for Aeronautical and Space Sciences (JSASS); JSASS publications page confirms 'Full Articles and Research Notes are fully peer-reviewed.' Original technical contribution (new normalization parameter), not a review -> T1 confirmed. Author overlap (Osuga, Tamida) with L09-007/L09-008 confirms a sustained Japanese Hall-thruster PPU research program (Mitsubishi Electric/Kyushu University/JAXA).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Mitsubishi Electric Corp.",
+          "country": "JP"
+        },
+        {
+          "name": "Nagasaki University",
+          "country": "JP"
+        },
+        {
+          "name": "Kyushu University",
+          "country": "JP"
+        },
+        {
+          "name": "USEF",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://www.jstage.jst.go.jp/article/astj/10/0/10_0_19/_article/-char/ja"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Prior verifier pass directly fetched the J-STAGE article page and confirmed all-Japanese author affiliations. OpenAlex (rechecked this session) returns the DOI but no institution data for any of the 5 authors; publisher-page evidence controls. Japan, not India."
+    }
   },
   {
     "id": "L09-003",
@@ -58,12 +116,16 @@
     "canonical_key": "doi:10.1007/s44205-026-00178-w",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
     "doi": "10.1007/s44205-026-00178-w",
@@ -72,7 +134,26 @@
     "locator": "Journal of Electric Propulsion (Springer), Vol.5, No.1, article 6 (2026)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API (api.crossref.org/works/10.1007/s44205-026-00178-w) after Springer/IDP paywall blocked direct WebFetch. Full author list (18 authors, all Japanese institutional pattern matching JAXA/industry) confirmed via Crossref, type=journal-article, container-title=Journal of Electric Propulsion. GEOGRAPHY CORRECTED from 'US' (raw record's unconfirmed proxy guess) to 'JP': author list matches the same Japanese Hall-thruster/JAXA research community as L09-002/L09-006/L09-007/L09-008. Journal of Electric Propulsion (Springer, since 2022) confirmed single-blind peer-reviewed, minimum two referees per submission per its submission-guidelines page."
+    "notes": "RESCUED via Crossref API (api.crossref.org/works/10.1007/s44205-026-00178-w) after Springer/IDP paywall blocked direct WebFetch. Full author list (18 authors, all Japanese institutional pattern matching JAXA/industry) confirmed via Crossref, type=journal-article, container-title=Journal of Electric Propulsion. GEOGRAPHY CORRECTED from 'US' (raw record's unconfirmed proxy guess) to 'JP': author list matches the same Japanese Hall-thruster/JAXA research community as L09-002/L09-006/L09-007/L09-008. Journal of Electric Propulsion (Springer, since 2022) confirmed single-blind peer-reviewed, minimum two referees per submission per its submission-guidelines page.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Japan Aerospace Exploration Agency (JAXA)",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1007/s44205-026-00178-w"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 18 authors resolve to JAXA (with two co-authors also linked to a China-based space-utilization center, and one to Mitsubishi Electric); no Indian affiliations."
+    }
   },
   {
     "id": "L09-004",
@@ -83,12 +164,16 @@
     "canonical_key": "doi:10.1007/s44205-025-00130-4",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
     "doi": "10.1007/s44205-025-00130-4",
@@ -97,7 +182,34 @@
     "locator": "Journal of Electric Propulsion (Springer), Vol.4, No.1, article 61 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API after ResearchGate 403 / NTRS PDF parse failure this session. Full author list confirmed (Shastry, Kamhawi, Soulas = NASA GRC; multiple Aerojet Rocketdyne staff) -- direct primary-research confirmation of the same AEPS program documented in L09-034 (contract award) and L09-043 (Gateway PPE integration status). Cross-reference retained."
+    "notes": "RESCUED via Crossref API after ResearchGate 403 / NTRS PDF parse failure this session. Full author list confirmed (Shastry, Kamhawi, Soulas = NASA GRC; multiple Aerojet Rocketdyne staff) -- direct primary-research confirmation of the same AEPS program documented in L09-034 (contract award) and L09-043 (Gateway PPE integration status). Cross-reference retained.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "NASA Glenn Research Center",
+          "country": "US"
+        },
+        {
+          "name": "Jet Propulsion Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "Aerojet Rocketdyne (OpenAlex mismapped several co-authors to 'General Tire', a US entity)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1007/s44205-025-00130-4"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 18 authors resolve to US institutions (NASA GRC, JPL, and Aerojet Rocketdyne staff -- the latter mismapped by OpenAlex to an unrelated US company 'General Tire'; country code US is correct regardless of the institution-name mismap). No Indian affiliations."
+    }
   },
   {
     "id": "L09-005",
@@ -108,12 +220,16 @@
     "canonical_key": "doi:10.1007/s44205-025-00129-x",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
     "doi": "10.1007/s44205-025-00129-x",
@@ -122,7 +238,26 @@
     "locator": "Journal of Electric Propulsion (Springer), Vol.4, No.1, article 35 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; full author list, volume/issue/article-number confirmed (previously WebSearch-title-only)."
+    "notes": "RESCUED via Crossref API this session; full author list, volume/issue/article-number confirmed (previously WebSearch-title-only).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Jet Propulsion Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1007/s44205-025-00129-x"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors (Hofer, Simmonds, Goebel, Steinkraus, Payman) resolve to JPL, US."
+    }
   },
   {
     "id": "L09-006",
@@ -133,12 +268,16 @@
     "canonical_key": "doi:10.1007/s44205-022-00033-8",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://link.springer.com/journal/44205/submission-guidelines",
     "doi": "10.1007/s44205-022-00033-8",
@@ -147,7 +286,30 @@
     "locator": "Journal of Electric Propulsion (Springer), Vol.1, No.1, p.29 (2022)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; full author list confirmed, matches same Japanese Hall-thruster PPU research program as L09-002/L09-003/L09-007/L09-008."
+    "notes": "RESCUED via Crossref API this session; full author list confirmed, matches same Japanese Hall-thruster PPU research program as L09-002/L09-003/L09-007/L09-008.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Japan Aerospace Exploration Agency (JAXA)",
+          "country": "JP"
+        },
+        {
+          "name": "Nagasaki Institute of Applied Science",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1007/s44205-022-00033-8"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All resolved authors are JAXA / Nagasaki Institute of Applied Science, Japan (one author, Takahashi, has no institution listed but matches the same sustained Japanese Hall-thruster PPU research team as L09-002/L09-007/L09-008)."
+    }
   },
   {
     "id": "L09-007",
@@ -158,12 +320,16 @@
     "canonical_key": "doi:10.1109/tps.2014.2370066",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/",
     "doi": "10.1109/tps.2014.2370066",
@@ -172,7 +338,34 @@
     "locator": "IEEE Transactions on Plasma Science, Vol.43 No.1, pp.158-164 (2015)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session (title/authors/container-title/volume/pages confirmed directly, superseding WebSearch-only synthesis). IEEE journal peer-review policy confirmed via IEEE Author Center (minimum two qualified reviewers). Author overlap (Osuga, Tamida) with L09-002 confirms continuity of Japanese Hall-thruster PPU research program."
+    "notes": "RESCUED via Crossref API this session (title/authors/container-title/volume/pages confirmed directly, superseding WebSearch-only synthesis). IEEE journal peer-review policy confirmed via IEEE Author Center (minimum two qualified reviewers). Author overlap (Osuga, Tamida) with L09-002 confirms continuity of Japanese Hall-thruster PPU research program.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Kyushu University",
+          "country": "JP"
+        },
+        {
+          "name": "Tokyo Metropolitan University",
+          "country": "JP"
+        },
+        {
+          "name": "Mitsubishi Electric",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/tps.2014.2370066"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Japanese institutions."
+    }
   },
   {
     "id": "L09-008",
@@ -183,12 +376,16 @@
     "canonical_key": "doi:10.1109/taes.2021.3117520",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/",
     "doi": "10.1109/taes.2021.3117520",
@@ -197,7 +394,30 @@
     "locator": "IEEE Transactions on Aerospace and Electronic Systems, Vol.58, No.3, pp.1609-1620 (2022)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MAJOR CORRECTION: original record had no DOI and listed the venue only as 'IEEE Journals & Magazine' (unconfirmed journal vs conference status), geography 'unconfirmed'. Rescued via Crossref bibliographic search (query.bibliographic) this session, which resolved DOI 10.1109/taes.2021.3117520, container-title IEEE Transactions on Aerospace and Electronic Systems (a bona fide peer-reviewed IEEE journal, not a conference), full 9-author list, and exact volume/issue/pages. Geography corrected to JP (author affiliations match L09-006's confirmed JAXA/Japan-industry team)."
+    "notes": "MAJOR CORRECTION: original record had no DOI and listed the venue only as 'IEEE Journals & Magazine' (unconfirmed journal vs conference status), geography 'unconfirmed'. Rescued via Crossref bibliographic search (query.bibliographic) this session, which resolved DOI 10.1109/taes.2021.3117520, container-title IEEE Transactions on Aerospace and Electronic Systems (a bona fide peer-reviewed IEEE journal, not a conference), full 9-author list, and exact volume/issue/pages. Geography corrected to JP (author affiliations match L09-006's confirmed JAXA/Japan-industry team).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Japan Aerospace Exploration Agency (JAXA)",
+          "country": "JP"
+        },
+        {
+          "name": "Nagasaki Institute of Applied Science",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/taes.2021.3117520"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All resolved authors are JAXA / Nagasaki Institute of Applied Science, Japan."
+    }
   },
   {
     "id": "L09-009",
@@ -208,12 +428,16 @@
     "canonical_key": "https://www.busek.com/bht6000",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -222,7 +446,27 @@
     "locator": "busek.com/bht6000 product page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED: direct WebFetch of the HTML product page succeeded this session (prior PDF-datasheet attempt returned unparseable binary). Note the High-Impulse-Mode Isp figure (2,600s) confirmed here differs slightly from the raw record's earlier WebSearch-derived figure (2,708s) -- the HTML page figure is treated as authoritative since it was directly fetched. Four BHT-6000 units fly on NASA's Gateway PPE per L09-043 (unchanged cross-reference)."
+    "notes": "RESCUED: direct WebFetch of the HTML product page succeeded this session (prior PDF-datasheet attempt returned unparseable binary). Note the High-Impulse-Mode Isp figure (2,600s) confirmed here differs slightly from the raw record's earlier WebSearch-derived figure (2,708s) -- the HTML page figure is treated as authoritative since it was directly fetched. Four BHT-6000 units fly on NASA's Gateway PPE per L09-043 (unchanged cross-reference).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Busek Co. Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.busek.com/bht6000",
+        "https://www.busek.com/index_htm_files/AboutUs.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Busek Co. Inc. is headquartered in Natick, Massachusetts, USA."
+    }
   },
   {
     "id": "L09-010",
@@ -233,12 +477,16 @@
     "canonical_key": "doi:10.11648/j.ijass.20251304.11",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["ET"],
+    "geography": [
+      "ET"
+    ],
     "peer_review_status": "unverified",
     "peer_review_evidence_url": "",
     "doi": "10.11648/j.ijass.20251304.11",
@@ -258,12 +506,16 @@
     "canonical_key": "doi:10.3390/en14020429",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["ES"],
+    "geography": [
+      "ES"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/en14020429",
@@ -272,7 +524,26 @@
     "locator": "Energies, Vol.14, Issue 2, article 429 (2021)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED: full metadata confirmed via Crossref API this session (author list, container-title, DOI -- previously only inferred from MDPI's numbering convention). Geography corrected from 'unconfirmed' to ES: authors independently confirmed via sciprofiles.com/Google Scholar as the Industrial Electronics Group, Miguel Hernandez University of Elche, Spain. MDPI editorial-process peer-review policy page (mdpi.com/editorial_process) returned HTTP 403 to direct WebFetch this session but is MDPI's standard, publicly documented peer-review policy URL; WebSearch corroborated its content (single-blind peer review, minimum two independent reviewers)."
+    "notes": "RESCUED: full metadata confirmed via Crossref API this session (author list, container-title, DOI -- previously only inferred from MDPI's numbering convention). Geography corrected from 'unconfirmed' to ES: authors independently confirmed via sciprofiles.com/Google Scholar as the Industrial Electronics Group, Miguel Hernandez University of Elche, Spain. MDPI editorial-process peer-review policy page (mdpi.com/editorial_process) returned HTTP 403 to direct WebFetch this session but is MDPI's standard, publicly documented peer-review policy URL; WebSearch corroborated its content (single-blind peer review, minimum two independent reviewers).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Universitat Miguel Hernandez d'Elx",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3390/en14020429"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolve to Miguel Hernandez University of Elche, Spain."
+    }
   },
   {
     "id": "L09-012",
@@ -283,12 +554,16 @@
     "canonical_key": "https://www.nasa.gov/news-release/nasa-awards-contract-for-next-generation-electric-propulsion-components/",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -297,7 +572,26 @@
     "locator": "NASA news release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched NASA.gov press release in the scout session; contract value, contractor/subcontractor, dates, and technical scope confirmed directly. Verified unchanged this session. A distinct, earlier/smaller-value program from the same contractor than the AEPS contract in L09-034."
+    "notes": "Directly fetched NASA.gov press release in the scout session; contract value, contractor/subcontractor, dates, and technical scope confirmed directly. Verified unchanged this session. A distinct, earlier/smaller-value program from the same contractor than the AEPS contract in L09-034.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA (Glenn Research Center)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nasa.gov/news-release/nasa-awards-contract-for-next-generation-electric-propulsion-components/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency (nasa.gov official domain)."
+    }
   },
   {
     "id": "L09-013",
@@ -308,12 +602,16 @@
     "canonical_key": "doi:10.2514/1.27664",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://arc.aiaa.org/jpp/about",
     "doi": "10.2514/1.27664",
@@ -322,7 +620,26 @@
     "locator": "Journal of Propulsion and Power (AIAA), Vol.23 No.4, pp.863-873 (2007)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; author list, exact volume/issue/pages, and year (previously left null) confirmed. AIAA arc.aiaa.org/jpp/about page returned 403 to direct WebFetch but is AIAA's standard journal-about page; AIAA's general policy (single-blind peer review by field experts) corroborated via WebSearch."
+    "notes": "RESCUED via Crossref API this session; author list, exact volume/issue/pages, and year (previously left null) confirmed. AIAA arc.aiaa.org/jpp/about page returned 403 to direct WebFetch but is AIAA's standard journal-about page; AIAA's general policy (single-blind peer review by field experts) corroborated via WebSearch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of New Mexico",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.2514/1.27664"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (El-Genk, Tournier) resolve to University of New Mexico, US."
+    }
   },
   {
     "id": "L09-014",
@@ -333,12 +650,16 @@
     "canonical_key": "doi:10.1116/6.0002628",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:17:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://pubs.aip.org/avs/jvb/pages/policies",
     "doi": "10.1116/6.0002628",
@@ -347,7 +668,30 @@
     "locator": "Journal of Vacuum Science & Technology B, Vol.41 Issue 3, article 030802 (2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session (full 8-author list confirmed; Pearton and Ren are University of Florida wide-bandgap-device researchers, confirming US geography). Review article -> T2 per SOURCE_STANDARDS. AIP/AVS JVST-B editorial-policies page confirms independent peer review with reviewer conflict-of-interest disclosure requirements."
+    "notes": "RESCUED via Crossref API this session (full 8-author list confirmed; Pearton and Ren are University of Florida wide-bandgap-device researchers, confirming US geography). Review article -> T2 per SOURCE_STANDARDS. AIP/AVS JVST-B editorial-policies page confirms independent peer review with reviewer conflict-of-interest disclosure requirements.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Florida",
+          "country": "US"
+        },
+        {
+          "name": "Pennsylvania State University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1116/6.0002628"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolve to University of Florida or Penn State, US."
+    }
   },
   {
     "id": "L09-015",
@@ -358,12 +702,16 @@
     "canonical_key": "doi:10.1155/2024/3616902",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.hindawi.com/journals/stni/ethics/",
     "doi": "10.1155/2024/3616902",
@@ -372,7 +720,26 @@
     "locator": "Science and Technology of Nuclear Installations, 2024, article 3616902",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; full 7-author list confirmed (all Chinese-institution author-name pattern, confirming CN geography, previously an inferred guess). Review article -> T2. Hindawi/Wiley journal ethics page confirms single-anonymized peer review with a research-integrity escalation process for sensitive submissions."
+    "notes": "RESCUED via Crossref API this session; full 7-author list confirmed (all Chinese-institution author-name pattern, confirming CN geography, previously an inferred guess). Review article -> T2. Hindawi/Wiley journal ethics page confirms single-anonymized peer review with a research-integrity escalation process for sensitive submissions.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Naval University of Engineering",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1155/2024/3616902"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolve to Naval University of Engineering / Sanya University, China."
+    }
   },
   {
     "id": "L09-016",
@@ -383,12 +750,16 @@
     "canonical_key": "doi:10.3969/j.issn.1674-1579.2025.02.001",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:19:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://aca.spacejournal.cn/",
     "doi": "10.3969/j.issn.1674-1579.2025.02.001",
@@ -397,7 +768,27 @@
     "locator": "空间控制技术与应用 (Aerospace Control and Application), Vol.51 No.2 (2025), pp.1-15",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RE-VERIFIED: PDF re-fetched this session; this ISSN (1674-1579, prefix 10.3969, not registered with Crossref) is a CNKI-style DOI used by many Chinese aerospace core journals rather than a Crossref DOI -- not a defect in isolation. Venue confirmed as 空间控制技术与应用 (Aerospace Control and Application), hosted on the China Aerospace Journal Digital Publishing platform (spacejournal.cn), a CAST (China Academy of Space Technology)-affiliated indexed core-journal platform. Review (综述) -> T2. Peer-review evidence is platform/indexing-based rather than an explicit dedicated policy statement; flagged as the weaker end of 'verified' evidence."
+    "notes": "RE-VERIFIED: PDF re-fetched this session; this ISSN (1674-1579, prefix 10.3969, not registered with Crossref) is a CNKI-style DOI used by many Chinese aerospace core journals rather than a Crossref DOI -- not a defect in isolation. Venue confirmed as 空间控制技术与应用 (Aerospace Control and Application), hosted on the China Aerospace Journal Digital Publishing platform (spacejournal.cn), a CAST (China Academy of Space Technology)-affiliated indexed core-journal platform. Review (综述) -> T2. Peer-review evidence is platform/indexing-based rather than an explicit dedicated policy statement; flagged as the weaker end of 'verified' evidence.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Dalian University of Technology (National Key Laboratory for Industrial Equipment Structural Analysis Optimization and CAE Software; Liaoning Province Key Laboratory of Frontier Technology for Aerospace Vehicle)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://aca.spacejournal.cn/cn/article/pdf/preview/10.3969/j.issn.1674-1579.2025.02.001.pdf",
+        "https://www.spacejournal.cn/sktcxb/cn/article/id/800bbc7e-e6c1-4e7f-8ad6-a95c32f6c9e8"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not registered in OpenAlex/Crossref (Chinese-domestic journal DOI). Independent search of the publisher/citation record confirms all authors (Han Yajie, Liu Xuan/Liu Xuan, Li Jiahui, et al.) affiliated with Dalian University of Technology, Dalian, China."
+    }
   },
   {
     "id": "L09-017",
@@ -408,12 +799,16 @@
     "canonical_key": "doi:10.19527/j.cnki.2096-1642.0977",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:20:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://pubs.cstam.org.cn/",
     "doi": "10.19527/j.cnki.2096-1642.0977",
@@ -422,7 +817,26 @@
     "locator": "气体物理 (Physics of Gases), Vol.8 No.1 (2023), pp.1-16",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MAJOR CORRECTION: venue re-fetched and identified this session as 气体物理 (Physics of Gases) journal, Vol.8 No.1, pp.1-16 -- the original record left year null and described the venue only ambiguously as a 'CSTAM-hosted journal.' Full 9-author byline also newly confirmed (previously 'unconfirmed authors'). Perspective/outlook piece (展望) -> T2. Hosted on the Chinese Society of Theoretical and Applied Mechanics (CSTAM) publication platform, which follows standard submitted-revised-published editorial workflow shown on the article page (proxy evidence for peer review, not an explicit policy statement)."
+    "notes": "MAJOR CORRECTION: venue re-fetched and identified this session as 气体物理 (Physics of Gases) journal, Vol.8 No.1, pp.1-16 -- the original record left year null and described the venue only ambiguously as a 'CSTAM-hosted journal.' Full 9-author byline also newly confirmed (previously 'unconfirmed authors'). Perspective/outlook piece (展望) -> T2. Hosted on the Chinese Society of Theoretical and Applied Mechanics (CSTAM) publication platform, which follows standard submitted-revised-published editorial workflow shown on the article page (proxy evidence for peer review, not an explicit policy statement).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Lanzhou Institute of Physics (Science and Technology on Vacuum Technology and Physics Laboratory; Key Laboratory of Space Electric Propulsion of Gansu)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://pubs.cstam.org.cn/article/doi/10.19527/j.cnki.2096-1642.0977"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Directly fetched the CSTAM publisher article page this session; all 9 authors affiliated with Lanzhou Institute of Physics and affiliated Gansu-province key laboratories, Lanzhou, China."
+    }
   },
   {
     "id": "L09-018",
@@ -433,12 +847,16 @@
     "canonical_key": "doi:10.7538/yzk.2025.youxian.0586",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:21:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://yznkxjs.xml-journal.net/",
     "doi": "10.7538/yzk.2025.youxian.0586",
@@ -447,7 +865,31 @@
     "locator": "原子能科学技术 (Atomic Energy Science and Technology), 2025, article DOI 10.7538/yzk.2025.youxian.0586",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RE-VERIFIED: PDF re-fetch this session still returned unparseable binary/font streams, but WebSearch confirmed 原子能科学技术 is a Chinese-core, EI/CSCD-indexed journal (entered EI Compendex; core-journal listing since 1992) whose own site explicitly states articles undergo '同行评议' (peer review) before formal acceptance -- direct textual confirmation of a peer-review policy, stronger evidence than most other Chinese-venue records in this lane. Analysis/outlook (展望) framing -> T2 review-style piece."
+    "notes": "RE-VERIFIED: PDF re-fetch this session still returned unparseable binary/font streams, but WebSearch confirmed 原子能科学技术 is a Chinese-core, EI/CSCD-indexed journal (entered EI Compendex; core-journal listing since 1992) whose own site explicitly states articles undergo '同行评议' (peer review) before formal acceptance -- direct textual confirmation of a peer-review policy, stronger evidence than most other Chinese-venue records in this lane. Analysis/outlook (展望) framing -> T2 review-style piece.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Institute of Atomic Energy",
+          "country": "CN"
+        },
+        {
+          "name": "China Academy of Space Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://yznkxjs.xml-journal.net/cn/article/pdf/preview/10.7538/yzk.2025.youxian.0586.pdf",
+        "https://yznkxjs.xml-journal.net/article/doi/10.7538/yzk.2025.youxian.0586?viewType=HTML"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not registered in OpenAlex/Crossref. Independent search of the publisher record confirms authors affiliated with China Institute of Atomic Energy (Beijing) and China Academy of Space Technology (Beijing)."
+    }
   },
   {
     "id": "L09-019",
@@ -458,12 +900,16 @@
     "canonical_key": "title-year:정지궤도위성의-완전-전기추진시스템-적용방안-연구-2022",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:22:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=SER000010502",
     "doi": "",
@@ -472,7 +918,27 @@
     "locator": "항공우주시스템공학회지 (Journal of the Korean Society for Aeronautical and Space System Engineering), Vol.16 No.5 (Oct 2022), pp.26-34",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED: DBpia abstract/detail page fetched directly in scout session; no DOI displayed, canonical_key falls back to title-year per SOURCE_STANDARDS priority order (unchanged). Peer-review status upgraded to verified this session: confirmed via KCI (Korea Citation Index) portal that this journal is 'KCI 등재' (KCI-registered) since Jan 2017 with tracked Impact Factor and ~970 published papers -- KCI registration requires an established peer-review process, providing indexing-based peer-review evidence."
+    "notes": "VERIFIED: DBpia abstract/detail page fetched directly in scout session; no DOI displayed, canonical_key falls back to title-year per SOURCE_STANDARDS priority order (unchanged). Peer-review status upgraded to verified this session: confirmed via KCI (Korea Citation Index) portal that this journal is 'KCI 등재' (KCI-registered) since Jan 2017 with tracked Impact Factor and ~970 published papers -- KCI registration requires an established peer-review process, providing indexing-based peer-review evidence.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Aerospace Research Institute (KARI)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11193418",
+        "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=SER000010502"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "No DOI (record already carries a title-year canonical key). Prior verifier pass directly fetched the DBpia publisher page; authors Choi Jae-Dong and Park Bong-Kyu are explicitly listed as Korea Aerospace Research Institute (KARI), South Korea's national space agency. Not India."
+    }
   },
   {
     "id": "L09-020",
@@ -483,12 +949,16 @@
     "canonical_key": "doi:10.3390/nano12132126",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:55:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/nano12132126",
@@ -497,7 +967,34 @@
     "locator": "Nanomaterials (Basel), Vol.12, Issue 13, article 2126 (2022), full text",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session: PMC full-text page fetched directly in scout session; title, authors, affiliations, journal, DOI, and key findings confirmed. Nanomaterials is an MDPI journal; peer-review evidence url added this session (MDPI editorial-process policy)."
+    "notes": "VERIFIED unchanged this session: PMC full-text page fetched directly in scout session; title, authors, affiliations, journal, DOI, and key findings confirmed. Nanomaterials is an MDPI journal; peer-review evidence url added this session (MDPI editorial-process policy).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences / National Space Science Center",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Yangzhou University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3390/nano12132126"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolve to Chinese institutions."
+    }
   },
   {
     "id": "L09-022",
@@ -508,12 +1005,16 @@
     "canonical_key": "doi:10.3390/aerospace7060067",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:23:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG"],
+    "geography": [
+      "SG"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/editorial_process",
     "doi": "10.3390/aerospace7060067",
@@ -522,7 +1023,30 @@
     "locator": "Aerospace (MDPI), Vol.7, Issue 6, article 67 (2020)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; full 7-author list confirmed directly (previously DOI was an inferred guess from MDPI's numbering convention -- now independently confirmed as correct). Review article -> T2."
+    "notes": "RESCUED via Crossref API this session; full 7-author list confirmed directly (previously DOI was an inferred guess from MDPI's numbering convention -- now independently confirmed as correct). Review article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Nanyang Technological University",
+          "country": "SG"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3390/aerospace7060067"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolve to Nanyang Technological University, Singapore (two co-authors dually affiliated with University of Chinese Academy of Sciences). No Indian affiliations."
+    }
   },
   {
     "id": "L09-023",
@@ -533,12 +1057,20 @@
     "canonical_key": "doi:10.1016/j.paerosci.2023.100900",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG", "US", "IT", "IL", "AU"],
+    "geography": [
+      "SG",
+      "US",
+      "IT",
+      "IL",
+      "AU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.sciencedirect.com/journal/progress-in-aerospace-sciences/publish/guide-for-authors",
     "doi": "10.1016/j.paerosci.2023.100900",
@@ -547,7 +1079,54 @@
     "locator": "Progress in Aerospace Sciences (Elsevier), Vol.152, article 100900 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref bibliographic search this session (DOI, full author list, volume/page confirmed; publisher-abstract page remained paywalled). GEOGRAPHY CORRECTED from 'NL' (an invalid Elsevier-HQ proxy) to a multi-country author set: Levchenko/Xu/Bazaka (Singapore, NTU/Curtin), Goebel/Walker (US, JPL/Georgia Tech), Pedrini/Albertoni (Italy), Kronhaus/Lev (Israel), Baranov (Australia, per known co-affiliation) -- flagged that Baranov's exact affiliation was not independently re-confirmed this session. Progress in Aerospace Sciences is Elsevier's invitation-only critical-review journal; guide-for-authors page and WebSearch corroborate blind peer review by >=2 external reviewers even for invited reviews. Review article -> T2."
+    "notes": "RESCUED via Crossref bibliographic search this session (DOI, full author list, volume/page confirmed; publisher-abstract page remained paywalled). GEOGRAPHY CORRECTED from 'NL' (an invalid Elsevier-HQ proxy) to a multi-country author set: Levchenko/Xu/Bazaka (Singapore, NTU/Curtin), Goebel/Walker (US, JPL/Georgia Tech), Pedrini/Albertoni (Italy), Kronhaus/Lev (Israel), Baranov (Australia, per known co-affiliation) -- flagged that Baranov's exact affiliation was not independently re-confirmed this session. Progress in Aerospace Sciences is Elsevier's invitation-only critical-review journal; guide-for-authors page and WebSearch corroborate blind peer review by >=2 external reviewers even for invited reviews. Review article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Nanyang Technological University",
+          "country": "SG"
+        },
+        {
+          "name": "Jet Propulsion Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "SITAEL Space Division",
+          "country": "IT"
+        },
+        {
+          "name": "Airbus Defence & Space",
+          "country": "FR"
+        },
+        {
+          "name": "National Aerospace University / Jozef Stefan Institute",
+          "country": "UA/SI"
+        },
+        {
+          "name": "Technion - Israel Institute of Technology",
+          "country": "IL"
+        },
+        {
+          "name": "Georgia Institute of Technology",
+          "country": "US"
+        },
+        {
+          "name": "Australian National University",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1016/j.paerosci.2023.100900"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IMPORTANT CORRECTION: OpenAlex's disambiguated institution field mislabels co-author Daniela Pedrini as 'Department of Space (IN)' -- an institution-matching error. Her raw_affiliation_string in the same OpenAlex record reads verbatim 'SITAEL Space Division, Pisa, 56121, Italy', matching her affiliation in the companion paper L09-024 (SITAEL, IT). Per the binding rule against inferring from names, the raw affiliation text (not the mismapped institution ID) was used: Pedrini is Italy-affiliated, not India. No genuine Indian co-author on this multinational review. Verdict: verified_non_india_origin (all 10 co-authors resolve to SG/US/IT/FR/UA/SI/IL/AU)."
+    }
   },
   {
     "id": "L09-024",
@@ -558,12 +1137,20 @@
     "canonical_key": "doi:10.1063/1.5109141",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:25:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG", "FR", "IL", "IT", "US"],
+    "geography": [
+      "SG",
+      "FR",
+      "IL",
+      "IT",
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://pubs.aip.org/aip/pop/pages/policies",
     "doi": "10.1063/1.5109141",
@@ -572,7 +1159,50 @@
     "locator": "Physics of Plasmas, Vol.27, Issue 2, article 020601 (2020)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; DOI, full 9-author list confirmed (previously DOI blank/not confirmed). GEOGRAPHY EXPANDED from single 'SG' to multi-country: Levchenko/Xu/Bazaka (Singapore), Mazouffre/Garrigues (France, CNRS/ICARE), Lev (Israel, Technion), Pedrini/Taccogna (Italy), Goebel (US, JPL). AIP Physics of Plasmas editorial-policies page confirms rigorous peer review by editor-in-chief and associate editors. Review/perspective article -> T2."
+    "notes": "RESCUED via Crossref API this session; DOI, full 9-author list confirmed (previously DOI blank/not confirmed). GEOGRAPHY EXPANDED from single 'SG' to multi-country: Levchenko/Xu/Bazaka (Singapore), Mazouffre/Garrigues (France, CNRS/ICARE), Lev (Israel, Technion), Pedrini/Taccogna (Italy), Goebel (US, JPL). AIP Physics of Plasmas editorial-policies page confirms rigorous peer review by editor-in-chief and associate editors. Review/perspective article -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Nanyang Technological University",
+          "country": "SG"
+        },
+        {
+          "name": "Universite d'Orleans / CNRS / ICARE",
+          "country": "FR"
+        },
+        {
+          "name": "Rafael Advanced Defense Systems",
+          "country": "IL"
+        },
+        {
+          "name": "SITAEL",
+          "country": "IT"
+        },
+        {
+          "name": "Jet Propulsion Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "CNRS / Universite Toulouse III / Laplace",
+          "country": "FR"
+        },
+        {
+          "name": "Institute for the Science and Technology of Plasmas",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1063/1.5109141"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolve cleanly to SG/FR/IL/IT/US institutions (this record correctly maps Pedrini to SITAEL, IT -- confirming the L09-023 mismap was record-specific). No Indian affiliations."
+    }
   },
   {
     "id": "L09-025",
@@ -583,12 +1213,16 @@
     "canonical_key": "title-year:offset-solar-array-assembly-deployment-test-shanghai",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:26:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "unverified",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -608,12 +1242,16 @@
     "canonical_key": "doi:10.1016/j.energy.2025.137978",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:27:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.elsevier.com/about/policies-and-standards/peer-review",
     "doi": "10.1016/j.energy.2025.137978",
@@ -622,7 +1260,26 @@
     "locator": "Energy (Elsevier), Vol.335, article 137978 (2025)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref bibliographic search this session; DOI, exact journal (Energy, not the originally-guessed 'Nuclear Engineering and Technology'), full 6-author list, and NNSF-China grant funding confirmed -- also confirms CN geography (was 'unconfirmed'). Original research design study, not a review -> T1."
+    "notes": "RESCUED via Crossref bibliographic search this session; DOI, exact journal (Energy, not the originally-guessed 'Nuclear Engineering and Technology'), full 6-author list, and NNSF-China grant funding confirmed -- also confirms CN geography (was 'unconfirmed'). Original research design study, not a review -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1016/j.energy.2025.137978"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolve to Sichuan University, China."
+    }
   },
   {
     "id": "L09-027",
@@ -633,12 +1290,16 @@
     "canonical_key": "doi:10.1061/jaeeez.aseng-4949",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://ascelibrary.org/author-center/submission-peer-review",
     "doi": "10.1061/jaeeez.aseng-4949",
@@ -647,7 +1308,38 @@
     "locator": "Journal of Aerospace Engineering (ASCE), Vol.36, No.4, article 04023018 (2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Crossref API this session; full 8-author list confirmed (Chinese-institution name pattern, consistent with a Harbin Institute of Technology-type plasma-propulsion group) -- geography corrected from 'unconfirmed' to CN. ASCE's peer-review page (single-anonymous review, COPE member) returned 403 to direct WebFetch but content confirmed via WebSearch synthesis. Original experimental study, not a review -> T1."
+    "notes": "RESCUED via Crossref API this session; full 8-author list confirmed (Chinese-institution name pattern, consistent with a Harbin Institute of Technology-type plasma-propulsion group) -- geography corrected from 'unconfirmed' to CN. ASCE's peer-review page (single-anonymous review, COPE member) returned 403 to direct WebFetch but content confirmed via WebSearch synthesis. Original experimental study, not a review -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Harbin Institute of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Ministry of Industry and Information Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Beijing Institute of Power Machinery",
+          "country": "CN"
+        },
+        {
+          "name": "Lanzhou University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1061/jaeeez.aseng-4949"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolve to Chinese institutions."
+    }
   },
   {
     "id": "L09-028",
@@ -658,12 +1350,16 @@
     "canonical_key": "doi:10.11884/hplpb201729.160485",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:29:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.hplpb.com.cn/",
     "doi": "10.11884/HPLPB201729.160485",
@@ -672,7 +1368,26 @@
     "locator": "强激光与粒子束 (High Power Laser and Particle Beams), Vol.29 (2017)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RE-VERIFIED this session: journal page fetched directly, confirming full 4-author list (adds 'Long Jianfei', previously omitted) and a live '同行评议政策' (peer review policy) navigation link on the journal's own site. Independently confirmed via WebSearch that 强激光与粒子束 is an EI-Compendex-indexed (since 1993), Chinese-core journal published by the China Academy of Engineering Physics / Chinese Nuclear Society -- strong indexing-based peer-review evidence. Original control-model study, not a review -> T1."
+    "notes": "RE-VERIFIED this session: journal page fetched directly, confirming full 4-author list (adds 'Long Jianfei', previously omitted) and a live '同行评议政策' (peer review policy) navigation link on the journal's own site. Independently confirmed via WebSearch that 强激光与粒子束 is an EI-Compendex-indexed (since 1993), Chinese-core journal published by the China Academy of Engineering Physics / Chinese Nuclear Society -- strong indexing-based peer-review evidence. Original control-model study, not a review -> T1.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Lanzhou Institute of Physics (National Key Laboratory of Vacuum and Cryogenic Technology and Physics)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB201729.160485"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not registered in OpenAlex/Crossref (Chinese-domestic journal). Search of the publisher record confirms lead authors (Sun Mingming, Zhang Tianping) affiliated with Lanzhou Institute of Physics (China Academy of Space Technology subsidiary), Gansu, China."
+    }
   },
   {
     "id": "L09-029",
@@ -683,12 +1398,16 @@
     "canonical_key": "doi:10.15982/j.issn.2096-9287.2024.20230036",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:30:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://jdse.bit.edu.cn/sktcxb/news/jibenqingkuang.htm",
     "doi": "10.15982/j.issn.2096-9287.2024.20230036",
@@ -697,7 +1416,30 @@
     "locator": "深空探测学报 (中英文) / Journal of Deep Space Exploration (Beijing Institute of Technology), 2024",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RE-VERIFIED this session: journal page fetched directly, confirming full 8-author list. Independently confirmed the hosting journal is 深空探测学报（中英文） (Journal of Deep Space Exploration), jointly run by Beijing Institute of Technology and the Chinese Astronautical Society's Deep Space Exploration Technology Professional Committee, and listed in the 2020-edition Core Journal Index of Chinese Periodicals for aviation/aerospace -- resolves the original record's blank venue field. Review (研究进展) -> T2."
+    "notes": "RE-VERIFIED this session: journal page fetched directly, confirming full 8-author list. Independently confirmed the hosting journal is 深空探测学报（中英文） (Journal of Deep Space Exploration), jointly run by Beijing Institute of Technology and the Chinese Astronautical Society's Deep Space Exploration Technology Professional Committee, and listed in the 2020-edition Core Journal Index of Chinese Periodicals for aviation/aerospace -- resolves the original record's blank venue field. Review (研究进展) -> T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Mechanics, Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://jdse.bit.edu.cn/sktcxb/article/doi/10.15982/j.issn.2096-9287.2024.20230036"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not registered in OpenAlex/Crossref. Search of publisher/citation records confirms authors affiliated with the Microgravity Key Laboratory, Institute of Mechanics, Chinese Academy of Sciences (Beijing), and School of Engineering Sciences, University of Chinese Academy of Sciences."
+    }
   },
   {
     "id": "L09-030",
@@ -708,12 +1450,16 @@
     "canonical_key": "patent:US11815074B1",
     "source_type": "patent",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -722,7 +1468,26 @@
     "locator": "USPTO/Google Patents record US11815074B1, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED via Google Patents page this session (uspto.gov PDF binary and Google's B2 variant both failed; the correct grant document is B1). Inventors and NASA assignee now confirmed directly (previously 'unconfirmed inventors/assignee'). Patent, not peer-reviewed academic work -- does not count toward the academic quota; T3 per conservative lane convention (patents are primary IP disclosure but not independently reviewed for technical validity)."
+    "notes": "RESCUED via Google Patents page this session (uspto.gov PDF binary and Google's B2 variant both failed; the correct grant document is B1). Inventors and NASA assignee now confirmed directly (previously 'unconfirmed inventors/assignee'). Patent, not peer-reviewed academic work -- does not count toward the academic quota; T3 per conservative lane convention (patents are primary IP disclosure but not independently reviewed for technical validity).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "National Aeronautics and Space Administration (NASA), assignee",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://patents.google.com/patent/US11815074B1/en"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US Patent 11,815,074 B1; assignee NASA (US government agency); named inventors (Benavides, Pinero, Rhodes, Birchenough) are NASA Glenn Research Center engineers per the patent record. Patent, not a peer-reviewed academic work; verified via the Google Patents/USPTO assignee record."
+    }
   },
   {
     "id": "L09-031",
@@ -733,12 +1498,16 @@
     "canonical_key": "https://www.nasa.gov/news-release/nasa-announces-artemis-concept-awards-for-nuclear-power-on-moon/",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1516,30 @@
     "locator": "NASA news release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session: direct NASA.gov press release fetched in scout session; power/timeline specifics confirmed directly. Note the 40-kWe figure is the original 2022 baseline, superseded by a 100-kWe requirement per L09-033."
+    "notes": "VERIFIED unchanged this session: direct NASA.gov press release fetched in scout session; power/timeline specifics confirmed directly. Note the 40-kWe figure is the original 2022 baseline, superseded by a 100-kWe requirement per L09-033.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA (Glenn Research Center)",
+          "country": "US"
+        },
+        {
+          "name": "U.S. Department of Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.nasa.gov/news-release/nasa-announces-artemis-concept-awards-for-nuclear-power-on-moon/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal agencies (nasa.gov official domain)."
+    }
   },
   {
     "id": "L09-032",
@@ -758,12 +1550,16 @@
     "canonical_key": "https://info.westinghousenuclear.com/news/westinghouse-awarded-nasa-doe-contract-to-continue-development-of-space-microreactor-concept",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1568,26 @@
     "locator": "Westinghouse press release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Vendor/company press release describing a real government contract -- treated as company_filing per established mission convention, not an audited SEC filing."
+    "notes": "VERIFIED unchanged this session. Vendor/company press release describing a real government contract -- treated as company_filing per established mission convention, not an audited SEC filing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Westinghouse Electric Company",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://info.westinghousenuclear.com/news/westinghouse-awarded-nasa-doe-contract-to-continue-development-of-space-microreactor-concept"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Westinghouse Electric Company is headquartered in Cranberry Township, Pennsylvania, USA."
+    }
   },
   {
     "id": "L09-033",
@@ -783,12 +1598,16 @@
     "canonical_key": "https://www.ans.org/news/article-7674/nasa-doe-solidify-collaboration-on-a-lunar-surface-reactor/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1616,27 @@
     "locator": "American Nuclear Society (ans.org) news article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED: article fetched directly this session (previously WebSearch-synthesis only). CORRECTION: the raw record's claimed 'April 14, 2026' memorandum date and the 'NSTM-3' memorandum name are NOT confirmed by this source -- the article states the MOU was signed January 8, 2026 and does not use the term 'NSTM-3' anywhere; claim_supported has been rewritten to remove the unconfirmed name/date and retain only what this fetch directly supports. Strong dated demand signal (100kWe spec increase from the 40kWe 2022 baseline, L09-031) confirmed."
+    "notes": "RESCUED: article fetched directly this session (previously WebSearch-synthesis only). CORRECTION: the raw record's claimed 'April 14, 2026' memorandum date and the 'NSTM-3' memorandum name are NOT confirmed by this source -- the article states the MOU was signed January 8, 2026 and does not use the term 'NSTM-3' anywhere; claim_supported has been rewritten to remove the unconfirmed name/date and retain only what this fetch directly supports. Strong dated demand signal (100kWe spec increase from the 40kWe 2022 baseline, L09-031) confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "American Nuclear Society (ANS)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ans.org/news/article-7674/nasa-doe-solidify-collaboration-on-a-lunar-surface-reactor/",
+        "https://www.ans.org/about/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "American Nuclear Society is headquartered in La Grange Park, Illinois, USA; trade-press article reporting on a NASA/DOE MOU."
+    }
   },
   {
     "id": "L09-034",
@@ -808,12 +1647,16 @@
     "canonical_key": "https://www.nasa.gov/news-release/nasa-works-to-improve-solar-electric-propulsion-for-deep-space-exploration/",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1665,26 @@
     "locator": "NASA news release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Cross-reference: L09-004 and L09-043 independently confirm the same AEPS program from the primary-research and integration-status angles respectively."
+    "notes": "VERIFIED unchanged this session. Cross-reference: L09-004 and L09-043 independently confirm the same AEPS program from the primary-research and integration-status angles respectively.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA (Glenn Research Center)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nasa.gov/news-release/nasa-works-to-improve-solar-electric-propulsion-for-deep-space-exploration/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency (nasa.gov official domain)."
+    }
   },
   {
     "id": "L09-035",
@@ -831,23 +1693,36 @@
     "year": 2025,
     "url": "https://www.isro.gov.in/ISRO_successfully_conducts_1000hrs_life_test_of_SPT.html",
     "canonical_key": "https://www.isro.gov.in/ISRO_successfully_conducts_1000hrs_life_test_of_SPT.html",
-    "source_type": "government",
-    "tier": "T1",
-    "lane_ids": ["L09"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:59:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "official_project_award",
     "claim_supported": "ISRO completed (announced March 28, 2025; test concluded March 27, 2025) a 1000-hour vacuum-chamber life test of a 300mN, 5.4kW-class Xenon Stationary Plasma Thruster, with erosion monitoring supporting future lifespan qualification; the thruster is slated for in-orbit validation on Technology Demonstration Satellite (TDS-01) for GEO orbit-raising, targeting eventual replacement of chemical propulsion on Indian communication satellites.",
     "locator": "ISRO official website press item, fetched in full",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Direct ISRO.gov.in page; PPU is not explicitly named in this announcement (inferred to exist given the 5.4kW power figure) -- flagged as an inference, not a direct quote."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Direct ISRO.gov.in page fetched successfully; power/thrust/duration figures confirmed directly. PPU is not explicitly named in this announcement (inferred to exist given the 5.4kW power figure) -- flagged as an inference, not a direct quote. | VERIFIED unchanged this session. Direct ISRO.gov.in page; PPU is not explicitly named in this announcement (inferred to exist given the 5.4kW power figure) -- flagged as an inference, not a direct quote. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.032273+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.isro.gov.in/ISRO_successfully_conducts_1000hrs_life_test_of_SPT.html"
+      ],
+      "original_source_type": "government"
+    }
   },
   {
     "id": "L09-036",
@@ -858,12 +1733,16 @@
     "canonical_key": "https://sbir.gsfc.nasa.gov/content/space-electric-propulsion-component-technologies",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:33:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -883,12 +1762,16 @@
     "canonical_key": "https://www.airandspaceforces.com/space-force-plans-905m-maneuverable-geo/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:25:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1780,27 @@
     "locator": "Air & Space Forces Magazine article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Contract not yet awarded as of this session (expected June 2026) -- demand_evidence_type buyer_specification (budgeted, competed program) rather than official_project_award."
+    "notes": "VERIFIED unchanged this session. Contract not yet awarded as of this session (expected June 2026) -- demand_evidence_type buyer_specification (budgeted, competed program) rather than official_project_award.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Air & Space Forces Magazine (Air & Space Forces Association)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.airandspaceforces.com/space-force-plans-905m-maneuverable-geo/",
+        "https://www.airandspaceforces.com/about-us/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Air & Space Forces Magazine is published by the Air & Space Forces Association, headquartered in Arlington, Virginia, USA."
+    }
   },
   {
     "id": "L09-038",
@@ -908,12 +1811,16 @@
     "canonical_key": "https://www.sbir.gov/portfolio/1158459",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1829,26 @@
     "locator": "SBIR.gov official award portfolio page for Phase Four, Inc., fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED and RECLASSIFIED this session: the raw record's legacy node URL (sbir.gov/node/2169577) 404'd on repeated attempts (including a reader-proxy retry), but the company's official SBIR.gov portfolio page fetched successfully and yields a confirmed dollar figure the original record lacked. Source_type changed from 'market_industry' (vendor positioning claim) to 'government' (this is now an official federal award record, not a vendor marketing claim) and tier upgraded T2->T1 accordingly. This change removes one previously-assumed market_industry record from that sub-count for this lane -- see final report for the resulting market/industry gap."
+    "notes": "RESCUED and RECLASSIFIED this session: the raw record's legacy node URL (sbir.gov/node/2169577) 404'd on repeated attempts (including a reader-proxy retry), but the company's official SBIR.gov portfolio page fetched successfully and yields a confirmed dollar figure the original record lacked. Source_type changed from 'market_industry' (vendor positioning claim) to 'government' (this is now an official federal award record, not a vendor marketing claim) and tier upgraded T2->T1 accordingly. This change removes one previously-assumed market_industry record from that sub-count for this lane -- see final report for the resulting market/industry gap.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "SBIR.gov / U.S. Air Force",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sbir.gov/portfolio/1158459"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government award database (sbir.gov official domain)."
+    }
   },
   {
     "id": "L09-039",
@@ -933,12 +1859,16 @@
     "canonical_key": "https://www.airandspaceforces.com/sda-tranche-3-new-missile-tracking-defense-satellites/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:29:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +1877,26 @@
     "locator": "Air & Space Forces Magazine article, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Included as a large, dated satellite-bus procurement signal for the buyer set this lane serves (Space Force/SDA); the source does NOT itself confirm electric-propulsion or power-processing content on these satellites -- flagged as an indirect/contextual demand record, not a direct EP/power-hardware award."
+    "notes": "VERIFIED unchanged this session. Included as a large, dated satellite-bus procurement signal for the buyer set this lane serves (Space Force/SDA); the source does NOT itself confirm electric-propulsion or power-processing content on these satellites -- flagged as an indirect/contextual demand record, not a direct EP/power-hardware award.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Air & Space Forces Magazine (Air & Space Forces Association)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.airandspaceforces.com/sda-tranche-3-new-missile-tracking-defense-satellites/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same publisher as L09-037 (Air & Space Forces Association), Arlington, Virginia, USA."
+    }
   },
   {
     "id": "L09-040",
@@ -958,12 +1907,16 @@
     "canonical_key": "https://www.prnewswire.com/news-releases/phase-four-wins-us-space-force-contract-at-spacewerx-pitch-day-301361886.html",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1925,26 @@
     "locator": "PR Newswire press release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Company/vendor press release describing a confirmed government contract."
+    "notes": "VERIFIED unchanged this session. Company/vendor press release describing a confirmed government contract.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Phase Four, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.prnewswire.com/news-releases/phase-four-wins-us-space-force-contract-at-spacewerx-pitch-day-301361886.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Phase Four, Inc. is headquartered in Hawthorne/El Segundo, California, USA; PRNewswire is only the distribution wire service."
+    }
   },
   {
     "id": "L09-041",
@@ -983,12 +1955,16 @@
     "canonical_key": "https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-closes-1b-investment-department-war-missile-solutions",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:33:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +1973,26 @@
     "locator": "L3Harris press release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Relevance to this lane is indirect/tangential: MSL's stated investment focus is missile propulsion, not space electric propulsion or power electronics, even though Aerojet Rocketdyne (the AEPS PPU supplier) sits inside the same corporate umbrella. Retained accepted (real, dated, directly fetched record) but flagged for downstream idea-scoring judgment on relevance weight."
+    "notes": "VERIFIED unchanged this session. Relevance to this lane is indirect/tangential: MSL's stated investment focus is missile propulsion, not space electric propulsion or power electronics, even though Aerojet Rocketdyne (the AEPS PPU supplier) sits inside the same corporate umbrella. Retained accepted (real, dated, directly fetched record) but flagged for downstream idea-scoring judgment on relevance weight.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "L3Harris Technologies, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-closes-1b-investment-department-war-missile-solutions"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "L3Harris Technologies is headquartered in Melbourne, Florida, USA (l3harris.com official domain)."
+    }
   },
   {
     "id": "L09-042",
@@ -1008,12 +2003,16 @@
     "canonical_key": "https://www.jaxa.jp/press/2021/03/20210315-1_j.html",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:35:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2021,30 @@
     "locator": "JAXA press release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Direct government-industry co-development program announcement; budget/contract value not disclosed."
+    "notes": "VERIFIED unchanged this session. Direct government-industry co-development program announcement; budget/contract value not disclosed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Japan Aerospace Exploration Agency (JAXA)",
+          "country": "JP"
+        },
+        {
+          "name": "Furukawa Electric Co., Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.jaxa.jp/press/2021/03/20210315-1_j.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "JAXA is Japan's national space agency (jaxa.jp official domain); Furukawa Electric is a Japanese company."
+    }
   },
   {
     "id": "L09-043",
@@ -1033,12 +2055,16 @@
     "canonical_key": "https://ntrs.nasa.gov/citations/20220008636",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:37:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2073,30 @@
     "locator": "37th International Electric Propulsion Conference (IEPC-2022), Boston, MA; NASA NTRS citation record fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. NTRS conference-paper citation page (abstract-level); full PDF not text-extractable. Names specific suppliers (Aerojet Rocketdyne, Busek, Moog) and prime (Maxar) for Gateway PPE -- valuable competitor-map/demand cross-reference for L09-004, L09-009, L09-034."
+    "notes": "VERIFIED unchanged this session. NTRS conference-paper citation page (abstract-level); full PDF not text-extractable. Names specific suppliers (Aerojet Rocketdyne, Busek, Moog) and prime (Maxar) for Gateway PPE -- valuable competitor-map/demand cross-reference for L09-004, L09-009, L09-034.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA Glenn Research Center",
+          "country": "US"
+        },
+        {
+          "name": "Maxar Technologies",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://ntrs.nasa.gov/citations/20220008636"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "NASA NTRS (US federal document repository); Maxar Technologies headquartered in Westminster, Colorado, USA."
+    }
   },
   {
     "id": "L09-044",
@@ -1058,12 +2107,16 @@
     "canonical_key": "standard:ECSS-E-ST-20C-Rev.2",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:03:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2125,26 @@
     "locator": "ECSS-E-ST-20C Rev.2 standard page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Official standard, directly fetched and confirmed."
+    "notes": "VERIFIED unchanged this session. Official standard, directly fetched and confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Cooperation for Space Standardization (ECSS) / European Space Agency",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ecss.nl/standard/ecss-e-st-20c-rev-2-electrical-and-electronic-8-april-2022/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ECSS/ESA is a European standards body (ESA technical secretariat at ESTEC, Noordwijk, Netherlands)."
+    }
   },
   {
     "id": "L09-045",
@@ -1083,12 +2155,16 @@
     "canonical_key": "https://ntrs.nasa.gov/citations/20120016273",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:39:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2173,30 @@
     "locator": "NASA Technical Reports Server citation 20120016273, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. NTRS citation page (abstract-level) fetched directly; authors, affiliations, and summary confirmed."
+    "notes": "VERIFIED unchanged this session. NTRS citation page (abstract-level) fetched directly; authors, affiliations, and summary confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "VPT, Inc.",
+          "country": "US"
+        },
+        {
+          "name": "NASA Johnson Space Center",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://ntrs.nasa.gov/citations/20120016273"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "VPT, Inc. is a US power-electronics company (Blacksburg, Virginia); NASA JSC is a US federal facility."
+    }
   },
   {
     "id": "L09-046",
@@ -1108,12 +2207,16 @@
     "canonical_key": "https://ntrs.nasa.gov/citations/20190033097",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2225,34 @@
     "locator": "NASA Technical Reports Server citation 20190033097, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTED AND RESCUED this session: the raw record's exact citation (NTRS 20205007412, single-author 2020 PDF filename 'NEPP-BOK-2020--Boomer...') returned a 404 NTRS citation page and an unparseable PDF-binary download on repeated attempts. A closely-related, directly fetchable NTRS record on the identical topic (BOK: GaN Power Electronics for Space Applications, Boomer as lead author with Scheick/Hammoud, NEPP ETW 2019) was substituted per SOURCE_STANDARDS 'correct wrong metadata from the authoritative response, never invent' -- this is treated as the verifiable predecessor/companion edition of the same NEPP BOK series rather than the exact 2020 single-author document originally cited. Flagged for the orchestrator: if the exact 2020 edition is specifically needed, it remains unconfirmed."
+    "notes": "CORRECTED AND RESCUED this session: the raw record's exact citation (NTRS 20205007412, single-author 2020 PDF filename 'NEPP-BOK-2020--Boomer...') returned a 404 NTRS citation page and an unparseable PDF-binary download on repeated attempts. A closely-related, directly fetchable NTRS record on the identical topic (BOK: GaN Power Electronics for Space Applications, Boomer as lead author with Scheick/Hammoud, NEPP ETW 2019) was substituted per SOURCE_STANDARDS 'correct wrong metadata from the authoritative response, never invent' -- this is treated as the verifiable predecessor/companion edition of the same NEPP BOK series rather than the exact 2020 single-author document originally cited. Flagged for the orchestrator: if the exact 2020 edition is specifically needed, it remains unconfirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA Glenn Research Center",
+          "country": "US"
+        },
+        {
+          "name": "Jet Propulsion Laboratory / Caltech",
+          "country": "US"
+        },
+        {
+          "name": "Vantage Partners, LLC",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://ntrs.nasa.gov/citations/20190033097"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All US institutions/companies (NASA GRC, JPL/Caltech, Vantage Partners)."
+    }
   },
   {
     "id": "L09-047",
@@ -1133,12 +2263,16 @@
     "canonical_key": "https://inl.gov/fsp/",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2281,26 @@
     "locator": "inl.gov/fsp/ official program page, retrieved via reader-proxy fetch after direct access returned HTTP 403",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED this session: direct WebFetch returned HTTP 403 on two attempts (with/without trailing slash); a reader-proxy fetch (r.jina.ai) successfully retrieved and rendered the page text this session, counted as fetched=true per the rescue-route instructions (Crossref/agency-mirror/alternate-access routes)."
+    "notes": "RESCUED this session: direct WebFetch returned HTTP 403 on two attempts (with/without trailing slash); a reader-proxy fetch (r.jina.ai) successfully retrieved and rendered the page text this session, counted as fetched=true per the rescue-route instructions (Crossref/agency-mirror/alternate-access routes).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Idaho National Laboratory (INL)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://inl.gov/fsp/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US DOE national laboratory, Idaho Falls, Idaho, USA."
+    }
   },
   {
     "id": "L09-048",
@@ -1158,12 +2311,16 @@
     "canonical_key": "https://ntrs.nasa.gov/citations/20220002293",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:37:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2329,26 @@
     "locator": "NASA Technical Reports Server citation 20220002293, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED this session: NTRS citation page fetched directly, confirming full 11-author list, conference venue (NETS-2022), and year (previously only inferred from the record-ID prefix)."
+    "notes": "RESCUED this session: NTRS citation page fetched directly, confirming full 11-author list, conference venue (NETS-2022), and year (previously only inferred from the record-ID prefix).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA (Glenn Research Center, presented at NETS-2022)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ntrs.nasa.gov/citations/20220002293"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "NASA NTRS US federal document repository; all 11 named authors are US national-lab/NASA-program researchers per the NTRS record."
+    }
   },
   {
     "id": "L09-049",
@@ -1183,12 +2359,16 @@
     "canonical_key": "https://ntrs.nasa.gov/citations/20150004055",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:38:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2377,26 @@
     "locator": "NASA Technical Reports Server citation 20150004055 (paper originally presented at the 42nd Aerospace Mechanisms Symposium, 2014)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED AND CORRECTED this session: NTRS citation page fetched directly, revealing the actual authors/organization (Surrey Satellite Technology Ltd, UK) -- NOT a NASA-authored paper as the raw record's 'unconfirmed authors (NASA...)' framing implied. GEOGRAPHY CORRECTED from US to GB. YEAR CORRECTED from 2015 (inferred from the NTRS record-ID prefix) to 2014 (the actual AMS symposium year; the NTRS record ID reflects the 2015 database-entry date, not the paper's origin year). Retained as source_type government since NTRS is a US-government archival record, though the underlying work is UK-industry authored -- flagged for the orchestrator in case a stricter source_type (e.g., recharacterizing as company/industry) is preferred downstream."
+    "notes": "RESCUED AND CORRECTED this session: NTRS citation page fetched directly, revealing the actual authors/organization (Surrey Satellite Technology Ltd, UK) -- NOT a NASA-authored paper as the raw record's 'unconfirmed authors (NASA...)' framing implied. GEOGRAPHY CORRECTED from US to GB. YEAR CORRECTED from 2015 (inferred from the NTRS record-ID prefix) to 2014 (the actual AMS symposium year; the NTRS record ID reflects the 2015 database-entry date, not the paper's origin year). Retained as source_type government since NTRS is a US-government archival record, though the underlying work is UK-industry authored -- flagged for the orchestrator in case a stricter source_type (e.g., recharacterizing as company/industry) is preferred downstream.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Surrey Satellite Technology Ltd (SSTL)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ntrs.nasa.gov/citations/20150004055"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Document authored by Surrey Satellite Technology Ltd, Guildford, United Kingdom (an Airbus subsidiary), archived in the US NASA NTRS repository. UK, not India."
+    }
   },
   {
     "id": "L09-050",
@@ -1208,12 +2407,16 @@
     "canonical_key": "https://resilience.esa.int/projects/electric-thruster-based-plasma-propulsion-including-power-processing-unit",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2425,26 @@
     "locator": "ESA resilience.esa.int project page, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Demand_evidence_type 'none' because this is a historical (2003-2004) completed pre-development project, retained as a technical baseline/incumbent-technology record (PPS5000 is the ancestor of today's fielded Safran Hall thrusters)."
+    "notes": "VERIFIED unchanged this session. Demand_evidence_type 'none' because this is a historical (2003-2004) completed pre-development project, retained as a technical baseline/incumbent-technology record (PPS5000 is the ancestor of today's fielded Safran Hall thrusters).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Space Agency (ESA) programme; Snecma Moteurs, ETCA, Alcatel Space, Astrium",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://resilience.esa.int/projects/electric-thruster-based-plasma-propulsion-including-power-processing-unit"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ESA-funded programme with French/European industrial partners (Snecma, ETCA, Alcatel Space, Astrium)."
+    }
   },
   {
     "id": "L09-051",
@@ -1233,12 +2455,16 @@
     "canonical_key": "https://www.globenewswire.com/news-release/2026/07/06/3322229/0/en/Satellite-Propulsion-Market-by-Platform-System-Propulsion-Technology-End-User-and-Region-Global-Forecast-to-2031.html",
     "source_type": "market_industry",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["global"],
+    "geography": [
+      "global"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2473,26 @@
     "locator": "GlobeNewswire press release republishing Research and Markets report summary, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Consultancy/market-research forecast, not independently triangulated with bottom-up arithmetic -- T3 per SOURCE_STANDARDS. Contradicts L09-052's rejected/inaccessible USD1.28bn figure and a WebSearch-only MarketsandMarkets figure of USD5.19bn by 2030 seen this session (not in ledger) -- flagging persistent wide divergence across consultancy market-size estimates for this category; conflicts shown, not averaged away."
+    "notes": "VERIFIED unchanged this session. Consultancy/market-research forecast, not independently triangulated with bottom-up arithmetic -- T3 per SOURCE_STANDARDS. Contradicts L09-052's rejected/inaccessible USD1.28bn figure and a WebSearch-only MarketsandMarkets figure of USD5.19bn by 2030 seen this session (not in ledger) -- flagging persistent wide divergence across consultancy market-size estimates for this category; conflicts shown, not averaged away.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Research and Markets (ResearchAndMarkets.com)",
+          "country": "IE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.globenewswire.com/news-release/2026/07/06/3322229/0/en/Satellite-Propulsion-Market-by-Platform-System-Propulsion-Technology-End-User-and-Region-Global-Forecast-to-2031.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Directly fetched the GlobeNewswire press release this session. The 'About ResearchAndMarkets.com' boilerplate and dateline confirm the publisher is headquartered in Dublin, Ireland, and that ResearchAndMarkets.com itself (not a hidden India-based sub-contracted analyst firm) produced/aggregates this report. Checked specifically per the audit's market-research-consultancy screening guidance; no India registration found."
+    }
   },
   {
     "id": "L09-052",
@@ -1258,12 +2503,16 @@
     "canonical_key": "https://www.fortunebusinessinsights.com/electric-propulsion-satellite-market-105552",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:39:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["global"],
+    "geography": [
+      "global"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1283,12 +2532,16 @@
     "canonical_key": "https://www.vptpower.com/newsroom/press-releases/vpt-introduces-the-first-100k-rad-hard-point-of-load-dc-dc-converter",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:55:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2550,26 @@
     "locator": "VPT, Inc. press release, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Vendor claims (efficiency, radiation ratings, customer list including NASA/Lockheed Martin/Boeing/Raytheon) are vendor-stated, not independently validated -- labeled as vendor claims per SOURCE_STANDARDS."
+    "notes": "VERIFIED unchanged this session. Vendor claims (efficiency, radiation ratings, customer list including NASA/Lockheed Martin/Boeing/Raytheon) are vendor-stated, not independently validated -- labeled as vendor claims per SOURCE_STANDARDS.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "VPT, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.vptpower.com/newsroom/press-releases/vpt-introduces-the-first-100k-rad-hard-point-of-load-dc-dc-converter"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "VPT, Inc. is headquartered in Blacksburg, Virginia, USA."
+    }
   },
   {
     "id": "L09-054",
@@ -1308,12 +2580,16 @@
     "canonical_key": "https://epc.space/2026/03/exploring-the-epcsc401-a-radiation-hardened-gan-dc-dc-converter-for-space-applications/",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T20:57:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2598,26 @@
     "locator": "EPC Space product blog post, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIED unchanged this session. Vendor claims (radiation tolerance, thermal/efficiency performance) not independently validated; no TID/SEE numeric ratings or price were present on the fetched page."
+    "notes": "VERIFIED unchanged this session. Vendor claims (radiation tolerance, thermal/efficiency performance) not independently validated; no TID/SEE numeric ratings or price were present on the fetched page.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "EPC Space",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://epc.space/2026/03/exploring-the-epcsc401-a-radiation-hardened-gan-dc-dc-converter-for-space-applications/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "EPC Space is headquartered in El Segundo, California, USA (subsidiary of Efficient Power Conversion, Inc.)."
+    }
   },
   {
     "id": "L09-055",
@@ -1333,12 +2628,16 @@
     "canonical_key": "https://epc.space/2025/04/epc-space-launches-a-high-performance-radiation-hardened-dc-dc-controller-with-matching-reference-design/",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,7 +2646,26 @@
     "locator": "EPC Space product announcement, fetched in full",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED this session: direct WebFetch succeeded (previously not attempted/fetched). Notable CERN/space power-electronics technology-transfer pattern, shared with L09-054."
+    "notes": "RESCUED this session: direct WebFetch succeeded (previously not attempted/fetched). Notable CERN/space power-electronics technology-transfer pattern, shared with L09-054.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "EPC Space",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://epc.space/2025/04/epc-space-launches-a-high-performance-radiation-hardened-dc-dc-controller-with-matching-reference-design/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "EPC Space, El Segundo, California, USA (co-development partner CERN is headquartered in Geneva, Switzerland; also non-India)."
+    }
   },
   {
     "id": "L09-056",
@@ -1358,12 +2676,16 @@
     "canonical_key": "title-year:太空光伏大有可为卫星太阳翼市场持续扩容-2026",
     "source_type": "market_industry",
     "tier": "T3",
-    "lane_ids": ["L09"],
+    "lane_ids": [
+      "L09"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:41:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1372,6 +2694,25 @@
     "locator": "中泰证券研究报告 (Zhongtai Securities research report), 31 pages, generated 2026-01-23",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESCUED this session via reader-proxy fetch (r.jina.ai), which extracted full readable text where the raw PDF fetch previously returned only binary/font-stream data. Numeric claims are consultancy/sell-side analyst estimates (T3), not independently triangulated; the 5.7-million-satellite 2029 projection in particular looks implausibly high against known constellation filings and should be treated as an unverified vendor/analyst extrapolation, not a load-bearing figure, pending independent triangulation at the idea-scoring stage."
+    "notes": "RESCUED this session via reader-proxy fetch (r.jina.ai), which extracted full readable text where the raw PDF fetch previously returned only binary/font-stream data. Numeric claims are consultancy/sell-side analyst estimates (T3), not independently triangulated; the 5.7-million-satellite 2029 projection in particular looks implausibly high against known constellation filings and should be treated as an unverified vendor/analyst extrapolation, not a load-bearing figure, pending independent triangulation at the idea-scoring stage.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:36:23Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Zhongtai Securities Research Institute",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://upload.chongnengjihua.com/production/2026/1/23/20/d8e26976b97c68_1769170431083.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Zhongtai Securities is a Chinese securities firm headquartered in Jinan, Shandong, China. China, not India."
+    }
   }
 ]

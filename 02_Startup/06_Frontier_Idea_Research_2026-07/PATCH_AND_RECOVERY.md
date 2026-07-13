@@ -9,6 +9,11 @@ Normal recovery is one command:
 The launcher starts a fresh non-interactive Claude session, but the mission state and all evidence
 remain on disk. Claude resumes the first incomplete phase rather than repeating completed waves.
 
+This build's first incomplete phase is P2A. If usage stops during the 12 source-origin batches,
+run `-Resume` again; completed batch ledgers remain checkpoints. Do not manually advance state to
+P3. P3 is unlocked only after every accepted source has a passing `india_origin_audit`, all source
+gates pass, the atlas is repaired, and Fable 5/xhigh writes a P2A PASS.
+
 ## Where to diagnose a weak or stopped run
 
 1. `05_STATE/MASTER_STATE.json`: last completed phase, counters, and next action.
@@ -41,4 +46,3 @@ Use launcher parameters; do not hand-edit agent files. Example:
 The launcher rewrites source-agent frontmatter to the requested scout model and records the
 override. A critical model other than Fable 5, or critical effort below xhigh, is logged as a
 downgrade. No unavailable model is silently replaced.
-

@@ -29,3 +29,23 @@
 - Critical override from Fable 5: False
 - Scout override from Sonnet 5: False
 - Transcript: .\98_RUN_LOGS\claude_20260712_105503.jsonl
+
+## 2026-07-12T17:12:40.5699889-07:00
+- Claude Code: 2.1.206 (Claude Code)
+- Root: D:\timzhao\Downloads\PhD_Career_Portfolio\02_Startup\06_Frontier_Idea_Research_2026-07
+- Resume: True
+- Critical: claude-fable-5 / xhigh
+- Scout: claude-sonnet-5 / high-medium
+- Critical override from Fable 5: False
+- Scout override from Sonnet 5: False
+- Transcript: .\98_RUN_LOGS\claude_20260712_171240.jsonl
+
+## 2026-07-13T09:07:37.4281721-07:00
+- Claude Code: 2.1.206 (Claude Code)
+- Root: D:\timzhao\Downloads\PhD_Career_Portfolio\02_Startup\06_Frontier_Idea_Research_2026-07
+- Resume: True
+- Critical: claude-fable-5 / xhigh
+- Scout: claude-sonnet-5 / high-medium
+- Critical override from Fable 5: False
+- Scout override from Sonnet 5: False
+- Transcript: .\98_RUN_LOGS\claude_20260713_090735.jsonl

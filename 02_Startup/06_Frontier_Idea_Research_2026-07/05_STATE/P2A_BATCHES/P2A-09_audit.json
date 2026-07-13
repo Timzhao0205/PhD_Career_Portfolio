@@ -1,0 +1,899 @@
+{
+ "batch_id": "P2A-09",
+ "audited_at": "2026-07-12T20:00:00Z",
+ "model": "claude-sonnet-5",
+ "effort": "high",
+ "entries": [
+  {
+   "id": "L11-017",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "China Huadian Corporation", "country": "CN"},
+    {"name": "Sichuan University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/en18010048"],
+   "useful_lead": "",
+   "notes": "All 3 authors (Gao, Wang, Meng) resolve to Chinese institutions (China Huadian Corp; Sichuan University). No Indian affiliation."
+  },
+  {
+   "id": "L11-018",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Universite du Quebec a Trois-Rivieres", "country": "CA"},
+    {"name": "Air Liquide", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.ijhydene.2022.08.073"],
+   "useful_lead": "",
+   "notes": "Keddar/Doumbia at UQTR (Canada); Zhang/Periasamy at Air Liquide (US). No Indian affiliation."
+  },
+  {
+   "id": "L11-019",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Lappeenranta-Lahti University of Technology", "country": "FI"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.jpowsour.2020.228075"],
+   "useful_lead": "",
+   "notes": "5 of 6 authors resolve to LUT (Finland); Hamalainen has no OpenAlex institution but paper is a single LUT-group Finnish study. No Indian affiliation."
+  },
+  {
+   "id": "L11-020",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Lappeenranta-Lahti University of Technology", "country": "FI"},
+    {"name": "Forschungszentrum Julich", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.jpowsour.2019.227603"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolve to LUT (Finland) or Forschungszentrum Julich (Germany). No Indian affiliation."
+  },
+  {
+   "id": "L11-021",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "CNRS / Universite Toulouse III - Paul Sabatier / INP Toulouse", "country": "FR"},
+    {"name": "Air Liquide", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 9,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/membranes12020109"],
+   "useful_lead": "",
+   "notes": "All 9 authors resolve to CNRS/Toulouse academic cluster or Air Liquide, France. No Indian affiliation."
+  },
+  {
+   "id": "L11-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Shenzhen University", "country": "CN"},
+    {"name": "Sichuan University", "country": "CN"},
+    {"name": "Yalong Hydro", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 11,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41467-024-53335-w"],
+   "useful_lead": "",
+   "notes": "All 11 authors resolve to Chinese institutions (Shenzhen University, Sichuan University, Yalong Hydro). No Indian affiliation."
+  },
+  {
+   "id": "L11-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Shenzhen University", "country": "CN"},
+    {"name": "Sichuan University", "country": "CN"},
+    {"name": "Dongfang Electric Corporation", "country": "CN"},
+    {"name": "China Three Gorges Corporation", "country": "CN"},
+    {"name": "Shenzhen University Health Science Center", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 15,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41467-024-49639-6"],
+   "useful_lead": "",
+   "notes": "All 15 authors resolve to Chinese institutions. Same research cluster as L11-022. No Indian affiliation."
+  },
+  {
+   "id": "L11-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Houston", "country": "US"},
+    {"name": "The University of Texas Health Science Center at Houston", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41578-025-00826-x"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to University of Houston / UT Health Science Center Houston (US). No Indian affiliation."
+  },
+  {
+   "id": "L11-025",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Deutsches Zentrum fur Luft- und Raumfahrt (DLR)", "country": "DE"},
+    {"name": "University of Stuttgart", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1021/acs.iecr.2c00383"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolve to DLR and University of Stuttgart, Germany. No Indian affiliation."
+  },
+  {
+   "id": "L11-026",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [
+    {"name": "EIC Laboratories", "country": "US"},
+    {"name": "Unnamed (Massachusetts, US, per co-filed 1975 patent)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": [
+    "https://api.openalex.org/works?filter=doi:10.1007/bf03355931",
+    "https://patents.google.com/patent/US3928152A"
+   ],
+   "useful_lead": "",
+   "notes": "OpenAlex resolves only first author (Harvey, EIC Laboratories, US); Randlett/Bangerskis have no OpenAlex institution. Corroborated via a co-filed Dec-1975 US patent by the same three named inventors (Harvey of Bedford MA, Randlett of Burlington MA, Bangerskis of Walpole MA, all US) covering the same electrowinning technology -- confirms all three were Massachusetts-based. No Indian affiliation."
+  },
+  {
+   "id": "L11-027",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Silesian University of Technology", "country": "PL"},
+    {"name": "Lukasiewicz Research Network - Institute of Non-Ferrous Metals", "country": "PL"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/ma17061262"],
+   "useful_lead": "",
+   "notes": "All 4 authors resolve to Polish institutions. No Indian affiliation."
+  },
+  {
+   "id": "L11-028",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Politecnico di Milano", "country": "IT"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/met15101123"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to Politecnico di Milano, Italy. No Indian affiliation."
+  },
+  {
+   "id": "L11-029",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [
+    {"name": "Dalhousie University", "country": "CA"},
+    {"name": "National Research Council Canada", "country": "CA"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": [
+    "https://api.openalex.org/works?filter=doi:10.3390/met15010029",
+    "https://www.researchgate.net/profile/Tahrim-Alam"
+   ],
+   "useful_lead": "",
+   "notes": "OpenAlex resolves 3 of 4 authors (Ghadiani/Farhat -> Dalhousie University; Islam -> National Research Council Canada). Fourth author Tahrim Alam confirmed via independent web search to be a Dalhousie University (Halifax, Canada) researcher with NRC-Canada collaboration, not India. No Indian affiliation."
+  },
+  {
+   "id": "L11-030",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Karamay Central Hospital", "country": "CN"},
+    {"name": "University of Science and Technology Beijing", "country": "CN"},
+    {"name": "Shanghai Technical Institute of Electronics & Information", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/met16040433"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Chinese institutions (OpenAlex author-disambiguation for 3 of them points to a Karamay hospital record, likely an imperfect name match, but the resolved country is CN regardless). No Indian affiliation."
+  },
+  {
+   "id": "L11-031",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Graz University of Technology", "country": "AT"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/membranes13030348"],
+   "useful_lead": "",
+   "notes": "4 of 5 authors resolve to Graz University of Technology, Austria; Sandu unresolved but same single-institution Austrian group. No Indian affiliation."
+  },
+  {
+   "id": "L11-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "U.S. Department of Energy", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.energy.gov/articles/biden-harris-administration-announces-awards-22-billion-two-regional-clean-hydrogen-hubs"],
+   "useful_lead": "",
+   "notes": "Official energy.gov (US federal government) domain; unambiguous major institution."
+  },
+  {
+   "id": "L11-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "National Renewable Energy Laboratory / U.S. DOE Office of Scientific and Technical Information", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.osti.gov/biblio/2522763"],
+   "useful_lead": "",
+   "notes": "OSTI.gov is the official U.S. Department of Energy scientific/technical information repository; NREL is a US national laboratory. Unambiguous major institution."
+  },
+  {
+   "id": "L11-034",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "West Virginia University", "country": "US"},
+    {"name": "National Energy Technology Laboratory", "country": "US"},
+    {"name": "Carnegie Mellon University", "country": "US"},
+    {"name": "Defense Logistics Agency", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.enconman.2024.118950"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to US institutions (WVU, NETL, CMU, DLA). No Indian affiliation."
+  },
+  {
+   "id": "L11-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "International Energy Agency", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary"],
+   "useful_lead": "",
+   "notes": "IEA is an intergovernmental organization headquartered in Paris, France. Official iea.org domain; unambiguous major institution."
+  },
+  {
+   "id": "L11-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "JOGMEC (Japan Organization for Metals and Energy Security) / METI", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.jogmec.go.jp/news/release/news_10_00211.html"],
+   "useful_lead": "",
+   "notes": "Official .go.jp (Japan government) domain; unambiguous Japanese government agency."
+  },
+  {
+   "id": "L11-038",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Korea Power Exchange (KPX)", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.kpx.or.kr/board.es?mid=a11201000000&bid=0042&act=view&list_no=75084"],
+   "useful_lead": "",
+   "notes": "Korea Power Exchange, official .or.kr domain; unambiguous South Korean government-affiliated organization."
+  },
+  {
+   "id": "L11-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "European Climate, Infrastructure and Environment Executive Agency (CINEA) / European Commission", "country": "BE"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://cinea.ec.europa.eu/news-events/news/six-winners-2024-innovation-fund-hydrogen-auction-sign-grant-agreements-advancing-renewable-hydrogen-2026-01-20_en"],
+   "useful_lead": "",
+   "notes": "Official EU executive agency (europa.eu domain), headquartered in Brussels, Belgium. Unambiguous major institution."
+  },
+  {
+   "id": "L11-040",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Siemens Energy AG", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.siemens-energy.com/us/en/home/products-services/product-offerings/hydrogen-solutions.html"],
+   "useful_lead": "",
+   "notes": "Siemens Energy AG, headquartered in Munich, Germany. Official siemens-energy.com domain; unambiguous major multinational."
+  },
+  {
+   "id": "L11-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Cummins Inc. (Accelera by Cummins)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.accelerazero.com/electrolyzers/products/HyLYZER-1000"],
+   "useful_lead": "",
+   "notes": "Cummins Inc., headquartered in Columbus, Indiana, US; Accelera is its zero-emissions technologies brand. Unambiguous major multinational."
+  },
+  {
+   "id": "L11-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Argus Media Limited", "country": "GB"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": [
+    "https://www.argusmedia.com/en/about-argus",
+    "https://find-and-update.company-information.service.gov.uk/company/01642534"
+   ],
+   "useful_lead": "",
+   "notes": "Argus Media Limited, UK Companies House registration 01642534, registered office London, UK (Lacon House, Theobald's Road). Record's geography tags (CN/IN/multinational) reflect content coverage of the article, not publisher location. Publisher confirmed UK, not India."
+  },
+  {
+   "id": "L11-043",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Energy Storage Publishing Ltd (publisher of BEST Magazine)", "country": "GB"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.bestmag.co.uk/about-best-magazine/"],
+   "useful_lead": "",
+   "notes": "BEST Magazine is published by Energy Storage Publishing Ltd, registered and based in West Sussex, UK."
+  },
+  {
+   "id": "L11-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Avrion Labs (Avrion Battery Labs Inc.)", "country": "CA"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://avrionlabs.com/news/advanced-cell-testing-for-battery-rd-at-avrion-battery-labs/"],
+   "useful_lead": "",
+   "notes": "Avrion Battery Labs Inc. is based in Halifax, Nova Scotia, Canada (formerly a NOVONIX division, divested April 2026). Not India."
+  },
+  {
+   "id": "L11-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Advint Incorporated", "country": "CA"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://theadvint.com/contact"],
+   "useful_lead": "",
+   "notes": "Checked carefully per the India-registered-consultancy watch instruction because the founder's name (Venkat Raja) could otherwise prompt a name-based inference. Advint Incorporated's own contact page states its Corporate Headquarters is in Kitchener, Ontario, Canada, and it is registered as a Canadian federal corporation. Never inferred from name; verified via the org's own official contact page. Not India."
+  },
+  {
+   "id": "L11-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Plug Power Inc.", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.ir.plugpower.com/press-releases/news-details/2026/Plug-Power-Reports-Q4-and-Full-Year-2025-Results-with-Strong-Sales-Growth-and-Margin-Expansion/default.aspx"],
+   "useful_lead": "",
+   "notes": "Plug Power Inc., Nasdaq-listed, headquartered in Latham, New York, US. Unambiguous major company."
+  },
+  {
+   "id": "L11-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Nel ASA", "country": "NO"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://nelhydrogen.com/press-release/nel-asa-fourth-quarter-2025-financial-results/"],
+   "useful_lead": "",
+   "notes": "Nel ASA, Oslo Stock Exchange-listed, headquartered in Norway. Unambiguous major company."
+  },
+  {
+   "id": "L11-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "thyssenkrupp nucera AG & Co. KGaA", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.thyssenkrupp-nucera.com/thyssenkrupp-nucera-returns-to-profit-in-2024-2025-despite-decline-in-sales/"],
+   "useful_lead": "",
+   "notes": "thyssenkrupp nucera is headquartered in Dortmund/Frankfurt, Germany (thyssenkrupp AG subsidiary, dual-listed). Record's geography tag 'IN' reflects a named Indian customer contract (TGV SRAAC) within the content, not the publisher's location. Publisher confirmed Germany, not India."
+  },
+  {
+   "id": "L11-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Wood Mackenzie", "country": "GB"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.woodmac.com/news/opinion/hydrogen-case-study-sinopec-kuqa-project/"],
+   "useful_lead": "",
+   "notes": "Wood Mackenzie is headquartered in Edinburgh, Scotland, UK (part of Verisk Analytics, a US-listed parent). Not India."
+  },
+  {
+   "id": "L11-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Sina Corp (Sina Finance)", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://finance.sina.com.cn/roll/2025-03-05/doc-inenqpat1980896.shtml"],
+   "useful_lead": "",
+   "notes": "Sina Finance is a property of Sina Corp, headquartered in Beijing, China. Not India."
+  },
+  {
+   "id": "L11-051",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "TansuoH2 / Carbon-Hydrogen Energy Network (solarbe.com)", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://h2.solarbe.com/news/20241105/4113.html"],
+   "useful_lead": "",
+   "notes": "Publisher registered address confirmed at Daxing District, Beijing, China (Tiantong Taitech Finance Valley). Not India."
+  },
+  {
+   "id": "L11-052",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "thyssenkrupp nucera AG & Co. KGaA", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.thyssenkrupp-nucera.com/newsroom/stories-press-releases/one-of-the-largest-green-hydrogen-projects-in-the-world-thyssenkrupp-signs-contract-to-install-over-2gw-electrolysis-plant-for-air-products-in-neom"],
+   "useful_lead": "",
+   "notes": "Same publisher as L11-048; headquartered Germany. Not India."
+  },
+  {
+   "id": "L11-054",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Ammonia Energy Association", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://ammoniaenergy.org/about/"],
+   "useful_lead": "",
+   "notes": "Ammonia Energy Association is a US-registered nonprofit (EIN 26-0821492) headquartered in Brooklyn, New York, US. Not India."
+  },
+  {
+   "id": "L12-001",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Southampton", "country": "GB"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s44172-025-00562-8"],
+   "useful_lead": "",
+   "notes": "All 5 authors (Xie, Grant-Jacob, Praeger, Zervas, Mills) resolve to University of Southampton, UK. No Indian affiliation. Raw record had 'Unconfirmed authors' -- now fully resolved via OpenAlex."
+  },
+  {
+   "id": "L12-002",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Wuhan National Laboratory for Optoelectronics / Huazhong University of Science and Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s12200-024-00107-5"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Huazhong University of Science and Technology / Wuhan National Lab, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Advanced Research Center for Nanolithography (ARCNL) / Vrije Universiteit Amsterdam", "country": "NL"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/5.0174149"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolve to ARCNL / VU Amsterdam, Netherlands. No Indian affiliation."
+  },
+  {
+   "id": "L12-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Guangxi University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/5.0228383"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Guangxi University, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-005",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Shanghai for Science and Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1088/2631-7990/ad943e"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolve to University of Shanghai for Science and Technology, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Advanced Research Center for Nanolithography (ARCNL) / VU Amsterdam / U Twente / U Groningen", "country": "NL"},
+    {"name": "Keldysh Institute of Applied Mathematics", "country": "RU"},
+    {"name": "Los Alamos National Laboratory", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 12,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41467-020-15678-y"],
+   "useful_lead": "",
+   "notes": "All 12 authors resolve to Netherlands (ARCNL/VU/Twente/Groningen), Russia (Keldysh Institute), or US (LANL) institutions. No Indian affiliation."
+  },
+  {
+   "id": "L12-007",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Advanced Research Center for Nanolithography (ARCNL)", "country": "NL"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1088/1361-6595/ab3302"],
+   "useful_lead": "",
+   "notes": "Sole listed author (Versolato) resolves to ARCNL, Netherlands. No Indian affiliation."
+  },
+  {
+   "id": "L12-008",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "ARCNL / Vrije Universiteit Amsterdam / University of Groningen", "country": "NL"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1088/2040-8986/ac5a7e"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to Dutch institutions (ARCNL/VU Amsterdam/U Groningen). No Indian affiliation."
+  },
+  {
+   "id": "L12-009",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [
+    {"name": "Innoven Energy, Inc.", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.researchgate.net/publication/361926577_Adaptive_Optics_for_Directed_Energy_Fundamentals_and_Methodology"],
+   "useful_lead": "",
+   "notes": "OpenAlex had no institution for the sole author (Richard B. Holmes); AIAA Xplore page paywalled. Independent web search confirms affiliation as Innoven Energy, Inc., Solana Beach, California, US (per AIAA Journal vol 60 no 10, 2022, author byline). No Indian affiliation."
+  },
+  {
+   "id": "L12-010",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [
+    {"name": "M.A. Sadovskii Institute of Geosphere Dynamics, Russian Academy of Sciences", "country": "RU"},
+    {"name": "Moscow Polytechnic University", "country": "RU"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://computeroptics.ru/eng/KO/Annot/KO48-4/480405e.html"],
+   "useful_lead": "",
+   "notes": "OpenAlex had no institutions for any of the 5 authors. Independent web search confirms Rukosuev/Kudryashov et al. are affiliated with M.A. Sadovskii Institute of Geosphere Dynamics RAS and Moscow Polytechnic University, Russia. No Indian affiliation."
+  },
+  {
+   "id": "L12-011",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Ecole Polytechnique / Laboratoire pour l'Utilisation des Lasers Intenses", "country": "FR"},
+    {"name": "GSI Helmholtz Centre for Heavy Ion Research", "country": "DE"},
+    {"name": "National Astronomical Observatory of Japan", "country": "JP"},
+    {"name": "University of Arizona", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1017/hpl.2025.16"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolve to French, German, Japanese, or US institutions. No Indian affiliation."
+  },
+  {
+   "id": "L12-012",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Nankai University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 10,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1002/lpor.202300951"],
+   "useful_lead": "",
+   "notes": "All 10 authors resolve to Nankai University, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-013",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Northeastern University (China)", "country": "CN"},
+    {"name": "Sichuan University", "country": "CN"},
+    {"name": "China Academy of Engineering Physics", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 11,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1002/adpr.202500012"],
+   "useful_lead": "",
+   "notes": "All 11 authors resolve to Chinese institutions. No Indian affiliation."
+  },
+  {
+   "id": "L12-014",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Technion - Israel Institute of Technology", "country": "IL"},
+    {"name": "Purdue University", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41377-025-01788-z"],
+   "useful_lead": "",
+   "notes": "5 authors at Technion (Israel), 1 at Purdue (US). No Indian affiliation."
+  },
+  {
+   "id": "L12-015",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Shandong University", "country": "CN"},
+    {"name": "Shanghai Institute of Optics and Fine Mechanics", "country": "CN"},
+    {"name": "Academia Sinica", "country": "TW"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1364/ol.507932"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Chinese mainland or Taiwan institutions. No Indian affiliation."
+  },
+  {
+   "id": "L12-016",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "National University of Defense Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 8,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/mi15101237"],
+   "useful_lead": "",
+   "notes": "All 8 authors resolve to National University of Defense Technology, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-017",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Yale University", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/5.0206859"],
+   "useful_lead": "",
+   "notes": "All 4 authors resolve to Yale University, US. No Indian affiliation."
+  },
+  {
+   "id": "L12-018",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Xi'an Jiaotong University", "country": "CN"},
+    {"name": "Xi'an Institute of Optics and Precision Mechanics", "country": "CN"},
+    {"name": "Shanxi University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.rinp.2022.106098"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Chinese institutions. Journal identity (Results in Physics) also confirmed this session. No Indian affiliation."
+  },
+  {
+   "id": "L12-019",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Chinese Academy of Sciences", "country": "CN"},
+    {"name": "Chongqing Normal University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 9,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1364/ao.547110"],
+   "useful_lead": "",
+   "notes": "9 of 12 authors resolve to Chinese institutions (UCAS, Chongqing Normal University); 3 unresolved but same single-country research group. No Indian affiliation."
+  },
+  {
+   "id": "L12-020",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Institut Fresnel, CNRS, Aix-Marseille Universite, Ecole Centrale Marseille", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1364/oe.21.014698"],
+   "useful_lead": "",
+   "notes": "Both authors resolve to Institut Fresnel, France. No Indian affiliation."
+  },
+  {
+   "id": "L12-021",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "MediaTek (China)", "country": "CN"},
+    {"name": "MediaTek (Taiwan)", "country": "TW"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/jetcas.2025.3590744"],
+   "useful_lead": "",
+   "notes": "Both authors resolve to MediaTek entities (mainland China / Taiwan). No Indian affiliation. IEEE Xplore document ID cross-confirmed."
+  },
+  {
+   "id": "L12-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Electronic Science and Technology of China", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1117/1.apn.5.3.034001"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to UESTC, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Xiamen University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/mi16091037"],
+   "useful_lead": "",
+   "notes": "All 4 authors resolve to Xiamen University of Technology, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Chinese Academy of Sciences, Institute of Microelectronics", "country": "CN"},
+    {"name": "Institute of Microelectronics", "country": "SG"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s12200-025-00156-4"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Chinese Academy of Sciences (China) and Institute of Microelectronics (Singapore) nodes of the same institution. No Indian affiliation."
+  },
+  {
+   "id": "L12-025",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Yildiz Technical University", "country": "TR"},
+    {"name": "Abdullah Gul University", "country": "TR"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1002/cta.70354"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolve to Turkish institutions. No Indian affiliation."
+  },
+  {
+   "id": "L12-026",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Warsaw University of Technology", "country": "PL"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/electronics15010210"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolve to Warsaw University of Technology, Poland. No Indian affiliation."
+  },
+  {
+   "id": "L12-027",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "National Yang Ming Chiao Tung University", "country": "TW"},
+    {"name": "Industrial Technology Research Institute", "country": "TW"},
+    {"name": "Taiwan Forestry Research Institute", "country": "TW"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/photonics9090652"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolve to Taiwanese institutions. No Indian affiliation."
+  },
+  {
+   "id": "L12-028",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [
+    {"name": "Guangdong University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://www.light-am.com/article/doi/10.37188/lam.2024.035"],
+   "useful_lead": "",
+   "notes": "OpenAlex had no institutions listed. Publisher page (light-am.com) directly enumerates all 3 authors as School of Physics & Photoelectric Engineering / Guangdong Provincial Key Laboratories, Guangdong University of Technology, Guangzhou, China. No Indian affiliation."
+  },
+  {
+   "id": "L12-029",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Pohang University of Science and Technology", "country": "KR"},
+    {"name": "RIKEN Center for Advanced Photonics / Tokushima University", "country": "JP"},
+    {"name": "Hunan University", "country": "CN"},
+    {"name": "Dalian University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41378-024-00736-y"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to Korean, Japanese, or Chinese institutions. Article's geography tags (CN/JP/KR/TW/SG) reflect the review's coverage of Asian photonics hubs broadly, not author affiliation; no author affiliation is Indian or Indian-content-relevant."
+  },
+  {
+   "id": "L12-030",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [
+    {"name": "Korea Research Institute of Standards and Science (KRISS)", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["http://koreascience.or.kr/journal/view.jsp?kj=KGHHBU&py=2024&vnc=v35n2&sp=61"],
+   "useful_lead": "",
+   "notes": "Not indexed in OpenAlex. Publisher page (koreascience.or.kr) directly confirms all 5 authors are affiliated with Division of Physical Metrology, Korea Research Institute of Standards and Science, South Korea. No Indian affiliation."
+  },
+  {
+   "id": "L12-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "U.S. Department of War, Office of the Under Secretary for Research and Engineering (SCADE CTA)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://defensescoop.com/2026/07/09/pentagon-joint-laser-weapon-system-defeat-drone-swarms/"],
+   "useful_lead": "",
+   "notes": "US federal government (Department of War / Pentagon) announcement, reported by DefenseScoop, a US defense trade publication. Unambiguous major institution."
+  },
+  {
+   "id": "L12-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "nLIGHT, Inc.", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.businesswire.com/news/home/20260709375006/en/nLIGHT-Awarded-$627-Million-Joint-Laser-Weapon-System-JLWS-Contract"],
+   "useful_lead": "",
+   "notes": "nLIGHT, Inc., Nasdaq-listed, headquartered in Camas, Washington, US. Unambiguous major company."
+  },
+  {
+   "id": "L12-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "nLIGHT, Inc.", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sec.gov/Archives/edgar/data/1124796/000112479626000012/lasr-20251231.htm"],
+   "useful_lead": "",
+   "notes": "SEC EDGAR filing (CIK 1124796) for nLIGHT, Inc., a US-headquartered, Nasdaq-listed company. Unambiguous major company."
+  },
+  {
+   "id": "L12-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "IPG Photonics Corporation", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sec.gov/Archives/edgar/data/1111928/000111192826000040/ipgp-20251231.htm"],
+   "useful_lead": "",
+   "notes": "SEC EDGAR filing (CIK 1111928) for IPG Photonics Corporation, headquartered in Marlborough, Massachusetts, US (Nasdaq-listed). Record's geography tag 'CN' reflects China revenue/competitor disclosures in the filing content, not the filer's location. Unambiguous major company."
+  }
+ ]
+}

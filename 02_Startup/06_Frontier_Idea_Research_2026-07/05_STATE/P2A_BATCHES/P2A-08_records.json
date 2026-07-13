@@ -1,0 +1,1626 @@
+{
+ "batch_id": "P2A-08",
+ "count": 70,
+ "records": [
+  {
+   "id": "L09-113",
+   "title": "NASA SBIR Award: Radiation Hardened, Programmable Battery Analog Front-End ASIC",
+   "authors_or_org": "Alphacore, Inc. (Tempe, AZ) / NASA",
+   "year": 2024,
+   "url": "https://www.sbir.gov/awards/212066",
+   "canonical_key": "https://www.sbir.gov/awards/212066",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "NASA awarded Alphacore, Inc. $899,958 (period of performance July 27, 2024 - July 26, 2026) to develop a radiation-hardened, high-accuracy Battery Analog Front-End (B-AFE) ASIC for spacecraft power systems, incorporating Coulomb counting and electrochemical impedance spectroscopy on SOI process technology rated to exceed 300 krad(Si) -- a battery-management/state-estimation power-electronics sub-niche, complementing L09-106's battery hardware-demonstration record.",
+   "notes": "Directly fetched sbir.gov award page this session; awardee, agency, dollar amount, award period, and abstract confirmed directly. Alphacore also holds a separate, distinct NASA SBIR award for radiation-tolerant high-voltage (100-1000Vdc) DC-DC converters for lunar/Mars missions per WebSearch context this session, but that award's specific sbir.gov page/ID and dollar figure could not be independently located/fetched this session (a 404 was returned for one candidate award ID) -- not included as a separate record to avoid an unconfirmed entry. | SCOUT: Directly fetched sbir.gov award page; awardee/agency/amount/period/abstract confirmed. VERIFIER: Independently re-fetched sbir.gov/awards/212066 this session -- confirms award title, awardee (Alphacore, Inc.), agency (NASA), total amount ($899,958), and period of performance (July 27, 2024 - July 26, 2026) exactly matching the scout's record. Official government primary award record. ACCEPTED T1 government, demand_evidence_type=official_project_award."
+  },
+  {
+   "id": "L09-114",
+   "title": "Rocket Lab USA, Inc. Form 10-K -- Space Systems segment (SolAero solar power products, reaction wheels, spacecraft battery power systems)",
+   "authors_or_org": "Rocket Lab USA, Inc.",
+   "year": 2026,
+   "url": "https://www.stocktitan.net/sec-filings/RKLB/10-k-rocket-lab-corp-files-annual-report-3c3674924b28.html",
+   "canonical_key": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Rocket Lab's FY2025 Form 10-K describes its Space Systems reportable segment (part of $601.8M FY2025 total revenue, vs. $436.2M FY2024 and $244.6M FY2023) as including vertically-integrated space solar cells/CICs/solar-array products (via the Jan 2022 SolAero Technologies Corp. acquisition) plus reaction-wheel flywheels and high-capacity, high-voltage spacecraft batteries -- an incumbent-map data point (vertically-integrated commercial supplier of spacecraft power hardware) not previously in this lane's ledger. NOTE: identity of the primary audited document could not be independently established this session (see notes); treat the specific dollar figures/segment wording as company-reported and not independently confirmed against the primary filing.",
+   "notes": "IMPORTANT LIMITATION: direct WebFetch of the primary SEC.gov 10-K filing (sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm) returned HTTP 403 this session (SEC.gov blocks the fetch tool's request pattern); the quoted text above was obtained by fetching a third-party SEC-filing-aggregator page (stocktitan.net) that reproduces verbatim passages from the primary 10-K. This is disclosed transparently per claim-discipline rules; canonical_key points to the primary SEC filing for identity purposes, while the fetched/evidentiary url is the stocktitan page actually retrieved this session. Verifier should attempt an independent primary-source fetch (e.g., via an authenticated tool) before treating financial figures as fully confirmed. | SCOUT/ORCHESTRATOR FLAG: direct WebFetch of sec.gov 10-K returned HTTP 403; only stocktitan.net third-party aggregator was fetchable. VERIFIER TIER-DISCIPLINE DETERMINATION: Made an aggressive, multi-route re-fetch attempt this session specifically targeting SEC/primary-source identity: (1) sec.gov/cgi-bin/browse-edgar company-search -- HTTP 403; (2) data.sec.gov/submissions/CIK0001819994.json (SEC's own machine-readable filing-index API) -- HTTP 403; (3) direct sec.gov/Archives/.../rklb-20251231.htm (the canonical 10-K document itself) -- HTTP 403; (4) efts.sec.gov full-text-search API -- HTTP 403; (5) the underlying 8-K earnings-release exhibit at sec.gov/Archives/.../rklb-ex99_1.htm (located via WebSearch) -- HTTP 403; (6) Rocket Lab's own investor-relations domain investors.rocketlabusa.com -- redirected to investors.rocketlabcorp.com, which then timed out/connection-reset on two separate attempts; (7) Rocket Lab's own official earnings-release PDF at investors.rocketlabcorp.com/node/12026/pdf -- timed out. Every SEC.gov route and every Rocket-Lab-official route failed this session; only the stocktitan.net aggregator returned content, and it explicitly states it does NOT provide a direct hyperlink to the original SEC filing (confirmed via this session's own fetch of that page), which weakens (though does not eliminate) confidence in strict textual fidelity. Independent WebSearch this session found a consistent ~$602M FY2025 revenue figure and matching Space-Systems-segment/SolAero/reaction-wheel description via a separate aggregation path (investors.rocketlabcorp.com press release as surfaced through search), which corroborates the substance of the stocktitan figures but is still not a first-hand fetch of the audited 10-K itself. DECISION: because the audited primary document's identity/text could not be independently established via ANY route this session despite 7 distinct attempts, and per this wave's explicit tier-discipline mandate to resist waving records through as T1, this record is DOWNGRADED from the scout's proposed T1 to T2 (credible, cross-corroborated secondary reproduction of a company filing, not a confirmed-fidelity primary document). Retained as accepted (useful, plausible, non-vendor-marketing incumbent-map data point, internally consistent across two independent observation sessions) rather than rejected outright. Does not count toward the audited-company-filing T1 quota."
+  },
+  {
+   "id": "L09-115",
+   "title": "AIAA S-122 -- Electrical Power Systems for Unmanned Spacecraft",
+   "authors_or_org": "American Institute of Aeronautics and Astronautics (AIAA); endorsed by NASA Office of the Chief Engineer",
+   "year": 2007,
+   "url": "https://standards.nasa.gov/standard/NASA/AIAA-S-122",
+   "canonical_key": "standard:AIAA-S-122",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L09"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "AIAA S-122 (published 2007; endorsed by NASA's Office of the Chief Engineer on November 3, 2017, as a non-mandatory reference standard) establishes design practices and verification/validation requirements for unmanned-spacecraft electrical power systems, primarily targeting earth-orbiting satellites using photovoltaic/battery power while remaining applicable to alternative power-generation/storage methods.",
+   "notes": "Directly fetched and confirmed this session. This is the US/AIAA-side counterpart to the European ECSS-E-ST-20-20C (L09-111) and ECSS-E-ST-20C Rev.2 (L09-044) power-system standards -- a useful US-vs-Europe standards-regime comparison point for this lane's 'US vs Asia/Europe differences' section, not previously represented (this ledger had only the European ECSS standards before this session). | SCOUT: Directly fetched and confirmed; US/AIAA counterpart to European ECSS standards. VERIFIER: Independently re-fetched standards.nasa.gov/standard/NASA/AIAA-S-122 this session -- confirms title, 2007 publication year, AIAA as issuing body with NASA Office of the Chief Engineer 2017 endorsement, and scope description (design practices/verification requirements for unmanned-spacecraft EPS, photovoltaic/battery focus but extensible to alternative power methods) matching the scout's record exactly. Official standards-body primary record; no peer-review applicable. ACCEPTED T1 standard."
+  },
+  {
+   "id": "L10-001",
+   "title": "Optimal economic sizing of energy storage system for trolley assisted battery electric mining haul truck considering battery degradation",
+   "authors_or_org": "Lepeng Wei, Qiang Liu, Bo Liu, Yanbiao Feng",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959652625018025",
+   "canonical_key": "doi:10.1016/j.jclepro.2025.146452",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.jclepro.2025.146452",
+   "doi": "10.1016/j.jclepro.2025.146452",
+   "demand_evidence_type": "none",
+   "claim_supported": "Optimal-sizing model for trolley-assisted battery electric mining haul truck energy storage, reporting up to ~20.5% CO2 reduction potential vs. diesel while accounting for battery degradation.",
+   "notes": "DOI resolved via Crossref bibliographic search this session (raw record had no DOI). ScienceDirect article page itself still paywall-gated (not re-fetched), but Crossref works-API record is a successful fetch this session confirming canonical identity, journal-article type, and container-title. Same author trio (Liu Qiang, Liu Bo, Feng Yanbiao) also appears on L10-015 (Wiley Energy Technology) -- likely the same research group publishing related mining-haul-truck sizing work, not a duplicate (different journals/papers)."
+  },
+  {
+   "id": "L10-002",
+   "title": "Performance Evaluation of Alternative Configurations of Battery Electric Mining Haul Trucks",
+   "authors_or_org": "Haiming Bao, Peter Knights, Mehmet Kizil, Micah Nehring (University of Queensland, School of Mechanical & Mining Engineering)",
+   "year": 2025,
+   "url": "https://ieeexplore.ieee.org/document/11079972/",
+   "canonical_key": "doi:10.1109/access.2025.3588871",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "AU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/access.2025.3588871",
+   "doi": "10.1109/access.2025.3588871",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares three battery-electric mining truck configurations (battery-only, battery+stationary trolley charging, battery+dynamic trolley charging) for productivity/energy tradeoffs; finds the dynamic-trolley configuration needs the smallest battery and delivers the most favourable energy efficiency and productivity.",
+   "notes": "DOI resolved via WebSearch + confirmed via Crossref this session. Author affiliation independently confirmed via WebSearch this session: all four authors (Bao, Knights, Kizil, Nehring) are affiliated with the University of Queensland School of Mechanical & Mining Engineering (Australia) -- geography corrected from raw's 'unspecified' to AU based on direct institutional confirmation, not inference."
+  },
+  {
+   "id": "L10-003",
+   "title": "Productivity estimation of battery trolley mining truck fleets",
+   "authors_or_org": "Haiming Bao, Peter Knights, Mehmet Kizil, Micah Nehring (University of Queensland, School of Mechanical & Mining Engineering)",
+   "year": 2023,
+   "url": "https://www.tandfonline.com/doi/full/10.1080/17480930.2023.2278013",
+   "canonical_key": "doi:10.1080/17480930.2023.2278013",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "AU",
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/17480930.2023.2278013",
+   "doi": "10.1080/17480930.2023.2278013",
+   "demand_evidence_type": "none",
+   "claim_supported": "Models fleet-level productivity impacts of introducing battery-trolley mining trucks compared to conventional diesel haulage.",
+   "notes": "WebFetch returned HTTP 403 (paywall); DOI confirmed directly from the article URL. Author affiliation/country not confirmed this session. | CORRECTION: raw record mistitled the venue as 'Mining Technology, Taylor & Francis'; Crossref confirms the actual container-title is 'International Journal of Mining, Reclamation and Environment' (also Taylor & Francis / Informa UK). Author affiliation confirmed via WebSearch this session (same UQ team as L10-002) -- geography corrected from 'unspecified' to AU."
+  },
+  {
+   "id": "L10-004",
+   "title": "Electrification of Inland Waterway Ships Considering Power System Lifetime Emissions and Costs",
+   "authors_or_org": "Maja Perčić, Nikola Vladimir, Marija Korićan",
+   "year": 2021,
+   "url": "https://www.mdpi.com/1996-1073/14/21/7046",
+   "canonical_key": "doi:10.3390/en14217046",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "HR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en14217046",
+   "doi": "10.3390/en14217046",
+   "demand_evidence_type": "none",
+   "claim_supported": "Lifetime-emissions and lifetime-cost model for alternative inland-waterway-ship power system configurations (cargo, passenger, dredger) using a Croatian case study; identifies most cost-effective electrification options under different emission-policy scenarios.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI confirmed directly in search result text. Geography = case-study country (Croatia), not necessarily all authors' institutional country. | Verified via Crossref works API this session (author list matches raw record exactly). Geography (HR) reflects the Croatian case-study setting, not necessarily all authors' institutional country."
+  },
+  {
+   "id": "L10-005",
+   "title": "Comprehensive Design of DC Shipboard Power Systems for Pure Electric Propulsion Ship Based on Battery Energy Storage System",
+   "authors_or_org": "Ye-Rin Kim, Jae-Myeong Kim, Jae-Jung Jung, So-Yeon Kim, Jae-Hak Choi, Hyun-Goo Lee",
+   "year": 2021,
+   "url": "https://www.mdpi.com/1996-1073/14/17/5264",
+   "canonical_key": "doi:10.3390/en14175264",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en14175264",
+   "doi": "10.3390/en14175264",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents a comprehensive DC shipboard power system design for pure battery-electric propulsion vessels.",
+   "notes": "WebFetch on doi.org redirected correctly to the MDPI article page (confirming the DOI resolves) but the page content itself returned HTTP 403 on the follow-up fetch; content taken from WebSearch synthesis. Author affiliation/country unconfirmed. | Author list resolved via Crossref this session (was 'unconfirmed authors' in raw). Author names are Korean; institutional affiliation not independently confirmed this session, so geography left unspecified rather than guessed."
+  },
+  {
+   "id": "L10-006",
+   "title": "Accelerating Efficient Installation and Optimization of Battery Energy Storage System Operations Onboard Vessels",
+   "authors_or_org": "Wei He, Olve Mo, Alfred Remøy, Lars O. Valøen, Helge Sætendal, Aaron Howie, Preben J. S. Vie",
+   "year": 2022,
+   "url": "https://www.mdpi.com/1996-1073/15/13/4908",
+   "canonical_key": "doi:10.3390/en15134908",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en15134908",
+   "doi": "10.3390/en15134908",
+   "demand_evidence_type": "none",
+   "claim_supported": "Addresses installation and operational optimization methods for large battery energy storage systems (BESS) onboard vessels as an emerging maritime decarbonization enabler.",
+   "notes": "WebFetch returned HTTP 403 this session; DOI confirmed directly in search result text. Author affiliation/country unconfirmed. | Author list resolved via Crossref this session. Several author names (Sætendal, Valøen) are consistent with Norwegian battery/maritime-industry researchers, but institutional affiliation not independently confirmed this session -- geography left unspecified rather than guessed."
+  },
+  {
+   "id": "L10-007",
+   "title": "Environmental and economic analysis of cold ironing using renewable hybrid systems",
+   "authors_or_org": "Onur Yuksel, Murat Bayraktar, Alper Seyhan",
+   "year": 2024,
+   "url": "https://link.springer.com/article/10.1007/s10098-024-03065-w",
+   "canonical_key": "doi:10.1007/s10098-024-03065-w",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s10098-024-03065-w",
+   "doi": "10.1007/s10098-024-03065-w",
+   "demand_evidence_type": "none",
+   "claim_supported": "Techno-economic and environmental analysis of shore-based photovoltaic/fuel-cell and photovoltaic/battery hybrid renewable systems supplying cold-ironing (shore power) at berth.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI given directly in search results. Author affiliation/country unconfirmed. | Author list resolved via Crossref this session (was 'unconfirmed authors'). Author names are Turkish; institutional affiliation not independently confirmed -- geography left unspecified."
+  },
+  {
+   "id": "L10-008",
+   "title": "Plugging into Onshore Power Supply System Innovation: A Review from Standards and Patents to Port Deployment",
+   "authors_or_org": "Daniel Jesus, Tiago Oliveira, Marina Perdigão, André Mendes",
+   "year": 2025,
+   "url": "https://www.mdpi.com/1996-1073/18/20/5449",
+   "canonical_key": "doi:10.3390/en18205449",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18205449",
+   "doi": "10.3390/en18205449",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of onshore power supply (shore power) standards, patents, and port-deployment status.",
+   "notes": "Review article -> T2 per SOURCE_STANDARDS. WebFetch returned HTTP 403; DOI inferred from MDPI's deterministic numbering convention (en+volume+2-digit issue+article number), not independently resolved via doi.org this session. | Review article -> T2 per SOURCE_STANDARDS regardless of venue. Author list resolved via Crossref this session (was 'unconfirmed authors'); DOI now independently confirmed via Crossref (was inferred from MDPI numbering in raw record)."
+  },
+  {
+   "id": "L10-009",
+   "title": "Cold Ironing Integration in City Port Distribution Grids: Sustainable electrification of port infrastructures between technical and economic constraints",
+   "authors_or_org": "Daniele Bosich, Massimiliano Chiandone, Marco Dalle Feste, Giorgio Sulligoi",
+   "year": 2023,
+   "url": "https://ieeexplore.ieee.org/document/10059252/",
+   "canonical_key": "doi:10.1109/mele.2022.3232965",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "10.1109/MELE.2022.3232965",
+   "demand_evidence_type": "none",
+   "claim_supported": "Analyzes technical and economic constraints of integrating cold-ironing (shore power) loads into city port distribution grids, including renewable-resource and storage integration.",
+   "notes": "RETYPED per SOURCE_STANDARDS: Crossref confirms this is an IEEE Electrification MAGAZINE piece, not a peer-reviewed research journal article -- 'Editorials, standards, magazines, and Spectrum articles may be useful but must be typed correctly and do not count toward peer-reviewed quota.' Reclassified from academic_peer_reviewed/T1 to trade_press/T2, peer_review_status not_applicable. Content and author list otherwise confirmed via Crossref this session."
+  },
+  {
+   "id": "L10-010",
+   "title": "Battery only electric traction for freight trains - A technical and operational assessment",
+   "authors_or_org": "Fabio C. Barbosa",
+   "year": 2023,
+   "url": "https://journals.sagepub.com/doi/10.1177/09544097231160613",
+   "canonical_key": "doi:10.1177/09544097231160613",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "BR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1177/09544097231160613",
+   "doi": "10.1177/09544097231160613",
+   "demand_evidence_type": "none",
+   "claim_supported": "Technical and operational assessment of battery-only electric traction as an alternative to diesel and full catenary electrification for freight trains.",
+   "notes": "WebFetch returned HTTP 403 (SAGE paywall); DOI confirmed directly from URL. Geography (BR) based on author being a recognized Brazil-based rail engineering consultant; institutional affiliation not independently verified this session. | Verified via Crossref works API this session. Year corrected to 2023 (Crossref published_year) vs. raw record's 2024. Geography (BR) based on author being a recognized Brazil-based rail engineering consultant; institutional affiliation not independently re-verified this session."
+  },
+  {
+   "id": "L10-011",
+   "title": "Intermittent Electrification with Battery Locomotives and the Post-Diesel Future of North American Freight Railroads",
+   "authors_or_org": "Alex Lu, John G. Allen",
+   "year": 2024,
+   "url": "https://journals.sagepub.com/doi/10.1177/03611981241245996",
+   "canonical_key": "doi:10.1177/03611981241245996",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1177/03611981241245996",
+   "doi": "10.1177/03611981241245996",
+   "demand_evidence_type": "none",
+   "claim_supported": "Models 7.2 MWh battery-electric locomotives powering 8,000-ton trains up to 230 mainline miles unassisted (~12.5 Wh/ton-mile average consumption), as an alternative to full catenary electrification for North American freight.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI given directly. Geography inferred from North American freight railroad focus and author naming, not independently confirmed institutional affiliation. | Verified via Crossref works API this session; author list and container-title match raw record exactly."
+  },
+  {
+   "id": "L10-012",
+   "title": "Sensitivity of Potential Battery Electric Locomotive Energy Benefits to Freight Railway Operating Characteristics and Charging Strategies",
+   "authors_or_org": "Diwen Shi, Michael J. Copley, C. Tyler Dick",
+   "year": 2026,
+   "url": "https://journals.sagepub.com/doi/10.1177/03611981251414676",
+   "canonical_key": "doi:10.1177/03611981251414676",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1177/03611981251414676",
+   "doi": "10.1177/03611981251414676",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sensitivity analysis of battery-electric-locomotive (BEL) energy benefits across multiple US rail corridors, comparing diesel consumption to hybrid consists supplemented with one BEL under varying operating and charging-strategy parameters.",
+   "notes": "doi.org redirect confirmed resolution to the SAGE article page; page content itself not retrieved this session (SAGE access gate). C. Tyler Dick is a recognized US (University of Illinois) rail engineering researcher; institutional affiliation not independently re-verified this session. | Verified via Crossref works API this session; author list matches raw record exactly. C. Tyler Dick is a recognized US (University of Illinois) rail engineering researcher."
+  },
+  {
+   "id": "L10-013",
+   "title": "A hierarchical optimization model for off-peak battery swapping scheduling of electric trucks in open-pit mines",
+   "authors_or_org": "Chaoli Mao, Yonghong Tan, Shuangbo Xie, Xuebin Zhou, Xianren Zeng, Linhui Wang",
+   "year": 2025,
+   "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1729185/full",
+   "canonical_key": "doi:10.3389/fcomp.2025.1729185",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3389/fcomp.2025.1729185",
+   "doi": "10.3389/fcomp.2025.1729185",
+   "demand_evidence_type": "none",
+   "claim_supported": "Two-layer optimization framework (Mixed-Integer Linear Programming + Bayesian Optimization) reduces battery-swapping queuing/delay for electric mining trucks in open-pit mines by up to 94.5%.",
+   "notes": "Publisher page fetched successfully this session; title, authors, DOI, and venue confirmed directly. Geography (CN) inferred from author names/topic (open-pit mine battery swapping is a predominantly Chinese research/deployment context) but institutional affiliation not explicitly re-confirmed from the fetched text. | Publisher page fetched successfully by scout; Crossref record confirmed independently this session. Geography (CN) inferred from author names/topic, not an explicit affiliation line -- kept per raw record's reasoning but flagged as inference."
+  },
+  {
+   "id": "L10-014",
+   "title": "Trolley-Assisted Charging for Full-Shift Operation of Battery-Electric Load-Haul-Dump in Underground Mining",
+   "authors_or_org": "Lukas Gleisner J., Diego Troncoso-Kurtovic, Ricardo Salas-Espineira, Jorge E. Garcia Bustos, Bruno Masserano, Benjamin Brito Schiele, Francisco Jaramillo-Montoya, Heraldo Rozas, Angela Flores-Quiroz, Luis F. Orellana, Jorge F. Silva, Gonzalo Monsalve, Gonzalo Ramirez, Marcos E. Orchard, Javier Ruiz-del-Solar",
+   "year": 2026,
+   "url": "https://papers.phmsociety.org/index.php/phme/article/view/5024",
+   "canonical_key": "doi:10.36001/phme.2026.v9i1.5024",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CL"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://phm-europe.org/instructions-to-authors",
+   "doi": "10.36001/phme.2026.v9i1.5024",
+   "demand_evidence_type": "none",
+   "claim_supported": "Simulation-based framework showing trolley-assisted charging (overhead catenary dynamic charging + static connection at dump points) can eliminate mid-shift battery swaps and cut energy costs by up to 75% vs. diesel LHD operation in underground mining.",
+   "notes": "Publisher page fetched successfully this session; author list, DOI, and venue confirmed directly. Geography (CL, Chile) inferred from author-name/institution patterns typical of Chilean mining-engineering research groups; not independently confirmed via an explicit affiliation line in the fetched text. | This DOI returns HTTP 404 on Crossref's public works API this session (PHM Society's DOI prefix 36001 may not be a Crossref-API-indexed participant, or the specific record is not yet indexed) -- canonical identity instead confirmed via direct publisher-page fetch (title/authors/venue match exactly) plus the PHM Society's documented conference peer-review process. Geography (CL) inferred from author-name/institution patterns typical of Chilean mining-engineering research groups; not an explicit affiliation line."
+  },
+  {
+   "id": "L10-015",
+   "title": "Optimal Sizing, Gear Ratios, and Shifting Schedule of Battery-Electric Mining Haul Trucks to Enhance Energy Efficiency",
+   "authors_or_org": "Qiang Liu, Yanbiao Feng, Bo Liu, Jue Yang, Zuomin Dong",
+   "year": 2024,
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/ente.202301123",
+   "canonical_key": "doi:10.1002/ente.202301123",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/ente.202301123",
+   "doi": "10.1002/ente.202301123",
+   "demand_evidence_type": "none",
+   "claim_supported": "Uses an improved differential-evolutionary-algorithm optimization platform to jointly determine component sizing, gear ratio, and shifting schedule for battery-electric mining haul trucks to maximize energy efficiency.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI confirmed directly from URL. Author affiliation/country not confirmed. | Author list resolved via Crossref this session (was 'Liu et al.'). Shares two authors (Liu Qiang, Liu Bo) and one (Feng Yanbiao) with L10-001, suggesting the same research group publishing related mining-truck sizing work across two journals -- not a duplicate record."
+  },
+  {
+   "id": "L10-016",
+   "title": "Usable time estimation and suitable battery selection for electric tractor considering agricultural operational load",
+   "authors_or_org": "Md. Abu Ayub Siddique, Cheol-Woo Yang, Nyunki Chung, Seung-Min Baek, Seung-Yun Baek, Hyeon-Ho Jeon, Yeon-Soo Kim, Wan-Soo Kim, Yong-Joo Kim",
+   "year": 2025,
+   "url": "https://www.nature.com/articles/s41598-025-20517-5",
+   "canonical_key": "doi:10.1038/s41598-025-20517-5",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-20517-5",
+   "doi": "10.1038/s41598-025-20517-5",
+   "demand_evidence_type": "none",
+   "claim_supported": "Dynamometer and field-test (rotary tillage) study estimating usable battery time/discharge rate for a single-motor electric tractor; finds a 900 Ah (64.8 kWh) battery sufficient for full 8-hour operation at the fastest low-gear tillage setting.",
+   "notes": "WebFetch was redirected to a Nature/Springer login-wall (idp.nature.com) this session and not completed; DOI inferred from Nature's standard deterministic article-ID convention, not independently resolved via doi.org. Author affiliation/country unconfirmed. | Original Nature/Springer article page hit a login-wall redirect (idp.nature.com) this session and was not independently re-fetched, but the Crossref works-API record was fetched successfully this session and independently confirms canonical identity (previously the DOI was only inferred from Nature's deterministic article-ID pattern) -- satisfies fetched=true via a successful fetch this session. Author names are Korean (Kongju National University pattern); institutional affiliation not independently confirmed -- geography left unspecified."
+  },
+  {
+   "id": "L10-017",
+   "title": "Research on energy management strategy of hybrid electric mining trucks based on Soft Actor-Critic (SAC)",
+   "authors_or_org": "Weiwei Yang, Wenming Zhang, Nong Zhang",
+   "year": 2025,
+   "url": "https://www.tandfonline.com/doi/full/10.1080/15435075.2025.2460061",
+   "canonical_key": "doi:10.1080/15435075.2025.2460061",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/15435075.2025.2460061",
+   "doi": "10.1080/15435075.2025.2460061",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a deep-reinforcement-learning (Soft Actor-Critic) energy-management control strategy for a 150-ton series hybrid-electric mining truck.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI confirmed directly from URL. Author affiliation/country unconfirmed. | Author list resolved via Crossref this session (was 'unconfirmed authors'). Author names suggest a Chinese/Australian research collaboration (Nong Zhang is a recognized University of Technology Sydney vehicle-engineering researcher); institutional affiliation not independently confirmed this session -- geography left unspecified."
+  },
+  {
+   "id": "L10-018",
+   "title": "Optimization of Energy Balance and Powertrain for Electric Mining Dump Trucks in Coal Mine Reclamation Operations",
+   "authors_or_org": "Pavel V. Shishkin, Boris V. Malozyomov, Nikita V. Martyushev, Viktor V. Kondratiev, Evgeniy M. Dorofeev, Roman V. Kononenko, Galina Yu. Vitkina",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2032-6653/16/11/601",
+   "canonical_key": "doi:10.3390/wevj16110601",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/wevj16110601",
+   "doi": "10.3390/wevj16110601",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares NMC/NCA battery, LiFePO4 battery, and hybrid LFP+supercapacitor energy-storage configurations for electric mining dump trucks used in coal-mine reclamation operations.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI inferred from MDPI's deterministic numbering convention (wevj+volume+2-digit issue+3-digit article), not independently resolved via doi.org. | DOI independently confirmed via Crossref this session (was inferred from MDPI's numbering convention in raw record). Author names are Russian (pattern consistent with Novosibirsk/Tomsk technical-university mining-engineering research); institutional affiliation not independently confirmed -- geography left unspecified."
+  },
+  {
+   "id": "L10-019",
+   "title": "A review on the powertrains and energy management strategies of electric tractors",
+   "authors_or_org": "Qiang Yu, Xionglin He, Longze Liu, Yilin Tan, Zihong Jiang, Xinjia Pan, Man Zhang, Zhao Zhang, Bin Xie, Changkai Wen, Rui Fan, Jun Chen, Fuxi Shi, Shanjun Li, Xiaohua Zhang, Haihua Chen",
+   "year": 2025,
+   "url": "https://www.the-innovation.org/article/doi/10.59717/j.xinn-energy.2024.100064",
+   "canonical_key": "doi:10.59717/j.xinn-energy.2024.100064",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.59717/j.xinn-energy.2024.100064",
+   "doi": "10.59717/j.xinn-energy.2024.100064",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of electric-tractor powertrain architectures (single-energy, diesel-electric hybrid, hybrid energy storage) and rule-based/optimization-based/learning-based energy management strategies.",
+   "notes": "Review article -> T2 per SOURCE_STANDARDS. Publisher page fetched successfully this session; title, full author list, DOI, and venue confirmed directly. Geography (CN) inferred from author-name conventions, not from an explicit affiliation statement in the fetched text. | Review article -> T2 per SOURCE_STANDARDS. Publisher page fetched successfully by scout; Crossref record independently confirmed this session. Geography (CN) inferred from author-name conventions, not an explicit affiliation statement."
+  },
+  {
+   "id": "L10-020",
+   "title": "Research progress and development trend of electric agricultural equipments (电动农业装备研究进展与发展趋势)",
+   "authors_or_org": "Haolu Liu, Cheng Shen, Lianglong Hu, Chun Chang, Guangqiao Cao",
+   "year": 2024,
+   "url": "https://www.sciopen.com/article/10.11975/j.issn.1002-6819.202404176",
+   "canonical_key": "doi:10.11975/j.issn.1002-6819.202404176",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "http://www.tcsae.org/cn/article/doi/10.11975/j.issn.1002-6819.202404176",
+   "doi": "10.11975/j.issn.1002-6819.202404176",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews progress in pure-electric, hybrid, and alternative-power farm machinery in China; identifies battery endurance and cost as primary adoption barriers and recommends higher energy density and multi-functional designs.",
+   "notes": "Review/survey article -> T2 per SOURCE_STANDARDS. Publisher page (sciOpen) fetched successfully this session in Chinese; title (EN/CN), authors, DOI, and venue confirmed directly. Chinese-language local primary academic source. | Review/survey article -> T2 per SOURCE_STANDARDS. Publisher page (sciOpen) fetched successfully by scout in Chinese. This session, doi.org resolution independently confirmed the DOI redirects correctly to the journal's own tcsae.org platform (direct content fetch on tcsae.org failed with a connection error this session, but the redirect confirms canonical DOI identity). Chinese-language local primary academic source."
+  },
+  {
+   "id": "L10-021",
+   "title": "A Comparative Study of Energy Storage Systems and Active Front Ends for Networks of Two Electrified RTG Cranes",
+   "authors_or_org": "Feras Alasali, Antonio Luque, Rayner Mayer, William Holderbaum",
+   "year": 2019,
+   "url": "https://www.mdpi.com/1996-1073/12/9/1771",
+   "canonical_key": "doi:10.3390/en12091771",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en12091771",
+   "doi": "10.3390/en12091771",
+   "demand_evidence_type": "none",
+   "claim_supported": "Comparative technical study of energy storage system and active-front-end configurations for networks of electrified rubber-tyred gantry (RTG) port cranes.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI derived from MDPI's deterministic numbering convention, not independently resolved via doi.org. | DOI independently confirmed via Crossref this session (previously derived only from MDPI's numbering convention). Author list resolved via Crossref (was 'unconfirmed authors')."
+  },
+  {
+   "id": "L10-022",
+   "title": "Development of an Optimal Port Crane Trajectory for Reduced Energy Consumption",
+   "authors_or_org": "Rofhiwa Lutendo Edward Takalani, Lesedi Masisi",
+   "year": 2023,
+   "url": "https://www.mdpi.com/1996-1073/16/20/7172",
+   "canonical_key": "doi:10.3390/en16207172",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en16207172",
+   "doi": "10.3390/en16207172",
+   "demand_evidence_type": "none",
+   "claim_supported": "Develops an optimal load-handling trajectory for electrified port cranes to minimize cycle time and reduce energy consumption.",
+   "notes": "Not independently fetched this session (WebSearch synthesis only); DOI derived from MDPI's deterministic numbering convention, not independently resolved via doi.org. | DOI independently confirmed via Crossref this session (previously derived only from MDPI's numbering convention). Author names suggest a South African research group; institutional affiliation not independently confirmed -- geography left unspecified."
+  },
+  {
+   "id": "L10-023",
+   "title": "Regulatory improvement of a marine electric propulsion system based on an IEC standard and domestic-foreign classification rules",
+   "authors_or_org": "Yong-Woo Lee, Jongsu Kim, Hyeonmin Jeon, Seongwan Kim, Heemoon Kim",
+   "year": 2024,
+   "url": "https://www.tandfonline.com/doi/full/10.1080/20464177.2024.2436725",
+   "canonical_key": "doi:10.1080/20464177.2024.2436725",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/20464177.2024.2436725",
+   "doi": "10.1080/20464177.2024.2436725",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes regulatory improvements for marine electric-propulsion systems by reconciling an IEC standard with domestic (Korean) and foreign classification-society rules.",
+   "notes": "WebFetch returned HTTP 403 (paywall) this session; DOI confirmed directly from URL. Geography (KR) inferred from 'domestic classification rules' framing typical of Korean Register-affiliated research; not independently confirmed via an explicit affiliation line. | CORRECTION: raw record listed the venue as 'Ships and Offshore Structures'; Crossref confirms the actual container-title is 'Journal of Marine Engineering & Technology' (also Taylor & Francis / Informa UK). Full Korean author list now confirmed via Crossref, further supporting the raw record's KR geography inference."
+  },
+  {
+   "id": "L10-024",
+   "title": "Battery electric vehicles in underground mines: Insights from industry",
+   "authors_or_org": "Jenni Hooli, Adrianus Halim",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/pii/S1364032124007500",
+   "canonical_key": "doi:10.1016/j.rser.2024.115024",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.rser.2024.115024",
+   "doi": "10.1016/j.rser.2024.115024",
+   "demand_evidence_type": "none",
+   "claim_supported": "Industry survey (53 tracked BEV units; 86% of respondents reporting positive experience; LHDs 55% and trucks 25% of fleet by machine type; fast charging the most common strategy at 43%, followed by battery swapping) of battery-electric-vehicle adoption in underground mines, covering operational, ventilation, and fleet-transition considerations current battery technology cannot yet fully solve for a full production shift.",
+   "notes": "DOI and author list independently confirmed via Crossref + WebSearch this session (raw record had no DOI, 'unconfirmed authors'). TIERING JUDGMENT: although published in a journal branded 'Reviews', WebSearch confirms the paper reports new primary survey data (industry questionnaire of BEV operators, specific unit/respondent counts) rather than a synthesis of prior literature -- tiered T1 (primary technical paper) on content grounds per SOURCE_STANDARDS' distinction between primary and review articles, not T2. Flagged for verifier/idea-architect awareness given the venue's review-journal branding."
+  },
+  {
+   "id": "L10-025",
+   "title": "Megawatt-Level Charging for Mining Trucks: Operational Demonstration and Effectiveness Evaluation",
+   "authors_or_org": "Wu Dan, Li Lili, Chen Ruirui, Xiang Yaxuan, Cao Xi, Zhang Kaiyu, Shi Shanshan",
+   "year": 2024,
+   "url": "https://ieeexplore.ieee.org/document/10738557/",
+   "canonical_key": "doi:10.1109/itecasia-pacific63159.2024.10738557",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/itecasia-pacific63159.2024.10738557",
+   "doi": "10.1109/itecasia-pacific63159.2024.10738557",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports an operational demonstration and lifecycle-economics evaluation of megawatt-level (MCS-class) charging for electric mining trucks based on the Ordos mining demonstration in Inner Mongolia, China, comparing investment, time, and fuel costs of electric vs. diesel mining trucks.",
+   "notes": "DOI resolved and identity confirmed via Crossref bibliographic search + works API this session (raw record had no DOI, 'unconfirmed authors'). Geography (CN) confirmed via WebSearch describing the Ordos, Inner Mongolia demonstration site, consistent with the all-Chinese author list."
+  },
+  {
+   "id": "L10-026",
+   "title": "대용량 배터리 기반 전기추진선박 현황 및 운용 유의점에 대한 초기 고찰 (Initial review of large-capacity battery-based electric propulsion ship status and operational considerations)",
+   "authors_or_org": "Kim Yun-ho, Ahn Chi-young, Park Jeong-hyung, Sung So-young, Shim Hyung-won (Korea Research Institute of Ships and Ocean Engineering, KRISO)",
+   "year": 2022,
+   "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11175456",
+   "canonical_key": "title-year:large-capacity-battery-based-electric-propulsion-ship-initial-review-2022",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.kipe.or.kr/pages/journal.vm",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Preliminary review of the status of large-capacity battery-based electric propulsion ships and key operational considerations, in the Korean Institute of Power Electronics' Korean-language transactions journal.",
+   "notes": "DBpia page fetched directly and successfully this session, resolving full author list (Kim Yun-ho, Ahn Chi-young, Park Jeong-hyung, Sung So-young, Shim Hyung-won; KRISO affiliation), exact volume/issue/pages, and correcting the year from raw's 2023 to the confirmed 2022. No DOI displayed on the fetched page or located this session. Explicitly self-titled a preliminary review ('초기 고찰') -> T2. The Korean Institute of Power Electronics (KIPE) states via its own journal-info page that submissions undergo peer review; this is used as the peer_review_evidence_url for KIPE's journal family (KIPE publishes both an English JPE and this Korean-language transactions journal) -- treated as reasonable but not court-grade confirmation specific to this exact journal title. Korean-language local primary academic source."
+  },
+  {
+   "id": "L10-027",
+   "title": "Evaluating costs and potential emission reductions from electrification of cargo handling equipment in a seaport",
+   "authors_or_org": "Joonas Sorjamäki, Jukka Lassila, Juha Haakana, Pertti Kauranen",
+   "year": 2026,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2772783126000336",
+   "canonical_key": "doi:10.1016/j.cles.2026.100263",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "unspecified"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.cles.2026.100263",
+   "doi": "10.1016/j.cles.2026.100263",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares the equivalent annual cost (EAC) of a fully electric cargo-handling-equipment fleet against a diesel-powered fleet at the Mussalo harbour, Port of HaminaKotka, Finland, evaluating cost and emission-reduction potential of seaport electrification.",
+   "notes": "DOI resolved via Crossref bibliographic search + confirmed via works API this session (raw record had no DOI). Author names (Sorjamäki, Lassila, Haakana, Kauranen) are consistent with LUT University (Finland) energy-systems researchers and the Finnish case-study site (Port of HaminaKotka); institutional affiliation not independently confirmed on the fetched Crossref record -- geography left unspecified rather than guessed."
+  },
+  {
+   "id": "L10-028",
+   "title": "Fortescue orders up to 400 giant electric dump trucks from XCMG",
+   "authors_or_org": "Fortescue Metals Group; XCMG (via electrive.com reporting)",
+   "year": 2025,
+   "url": "https://www.electrive.com/2025/09/26/fortescue-orders-up-to-400-giant-electric-dump-trucks-from-xcmg/",
+   "canonical_key": "https://www.electrive.com/2025/09/26/fortescue-orders-up-to-400-giant-electric-dump-trucks-from-xcmg/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "AU",
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Fortescue and XCMG signed an agreement under which XCMG is expected to supply up to half of Fortescue's future 300-400-truck fleet of zero-emission 240t haul trucks (XDE240 BEV), with phased deliveries planned 2028-2030, alongside a separate Liebherr T264 BEV order.",
+   "notes": "Trade-press article fetched successfully this session; reports on a primary corporate announcement (Fortescue/XCMG) but the primary company press release itself was not independently fetched -> tiered T2 rather than T1 to be conservative. | Trade-press article fetched successfully by scout; reports on a primary corporate announcement (Fortescue/XCMG) but the primary company press release itself was not independently fetched -> tiered T2 rather than T1 to be conservative. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-029",
+   "title": "Fortescue fits out first 240 tonne electric haul truck, and rolls out first 6 MW fast charger",
+   "authors_or_org": "Fortescue / Fortescue Zero (via thedriven.io reporting)",
+   "year": 2026,
+   "url": "https://thedriven.io/2026/05/25/fortescue-fits-out-first-240-tonne-electric-haul-truck-and-rolls-out-first-6-mw-fast-charger/",
+   "canonical_key": "https://thedriven.io/2026/05/25/fortescue-fits-out-first-240-tonne-electric-haul-truck-and-rolls-out-first-6-mw-fast-charger/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "AU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Fortescue commissioned its first in-house-developed 6 MW fast charger (approx. 30-minute full charge) for its 240-tonne, 2.6 MWh-battery Liebherr T264 Battery Electric haul truck, targeting operational status in the Pilbara before end of 2026 as part of a 300+ truck fleet plan.",
+   "notes": "Trade-press article fetched successfully this session with direct quotes; primary Fortescue investor/media release not independently fetched -> tiered T2. | Trade-press article fetched successfully by scout with direct quotes; primary Fortescue investor/media release not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-030",
+   "title": "Rio Tinto and BHP collaborate on battery-electric haul truck trials in the Pilbara",
+   "authors_or_org": "Rio Tinto; BHP; Caterpillar; Komatsu",
+   "year": 2024,
+   "url": "https://www.riotinto.com/en/news/releases/2024/rio-tinto-and-bhp-collaborate-on-battery-electric-haul-truck-trials-in-the-pilbara",
+   "canonical_key": "https://www.riotinto.com/en/news/releases/2024/rio-tinto-and-bhp-collaborate-on-battery-electric-haul-truck-trials-in-the-pilbara",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "AU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Announced 27 May 2024: BHP will trial two Caterpillar 793 battery-electric haul trucks (trials beginning second half of 2024) and Rio Tinto will trial two Komatsu 930 battery-electric haul trucks (trials beginning 2026), both in the Pilbara region of Western Australia, as a joint industry collaboration toward zero-emissions haulage.",
+   "notes": "Primary company press release URL identified via WebSearch but not independently WebFetched this session (confirmed via search snippet synthesis and cross-referenced trade-press reporting: SME Mining Engineering Online, Electrek, Skillings). Tiered T1 as an official company/customer project announcement. | CORRECTION: primary press release fetched directly and successfully this session (raw record was WebSearch-synthesis only). The raw record's claim that 'two Cat 793 XE trucks' were trialed at BHP's Jimblebar mine by both companies is INCORRECT -- the actual fetched page states BHP tests Caterpillar 793 trucks while Rio Tinto separately tests Komatsu 930 trucks (4 trucks total, 2 manufacturers, 2 companies). The raw record's 'Jimblebar' mine name and '100+ operating hours / 200+ test laps by late 2025' figures were NOT present in the content fetched this session and are not re-confirmed -- removed from claim_supported rather than carried forward unverified."
+  },
+  {
+   "id": "L10-031",
+   "title": "Rio Tinto and China's State Power Investment Corporation launch battery swap truck trial fleet at Oyu Tolgoi mine",
+   "authors_or_org": "Rio Tinto; State Power Investment Corporation (SPIC) Qiyuan",
+   "year": 2025,
+   "url": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-and-chinas-state-power-investment-corporation-launch-battery-swap-truck-trial-fleet-at-oyu-tolgoi-mine",
+   "canonical_key": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-and-chinas-state-power-investment-corporation-launch-battery-swap-truck-trial-fleet-at-oyu-tolgoi-mine",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "MN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Rio Tinto and China's SPIC Qiyuan deployed 8 battery-swap-electric Tonly haul trucks (91-tonne) with 13 x 800kWh batteries, a swap station, and static charger at the Oyu Tolgoi copper mine (Mongolia), announced 27 October 2025, with swap times under 7 minutes and testing running through end of 2026.",
+   "notes": "Primary company press release fetched successfully this session; all figures (fleet size, battery count/capacity, swap time) confirmed directly from the page. Geography includes Mongolia (mine location) and China (SPIC, technology/equipment origin). | Primary company press release fetched successfully by scout; all figures confirmed directly from the page. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-032",
+   "title": "Union Pacific Railroad Invests in Wabtec's FLXdrive Battery-Electric Locomotive",
+   "authors_or_org": "Union Pacific Railroad",
+   "year": 2022,
+   "url": "https://www.up.com/press-releases/service/wabtec-battery-electric-nr220128",
+   "canonical_key": "https://www.up.com/press-releases/service/wabtec-battery-electric-nr220128",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "Union Pacific ordered 10 Wabtec FLXdrive battery-electric locomotives (~2.5 MWh each, ~7,000 cells) on 28 January 2022, described as the largest North American railroad investment in battery technology, targeting zero-emission yard operations and projected to eliminate 4,000 tons of carbon annually.",
+   "notes": "Primary company press release fetched successfully this session; figures confirmed directly. | Primary company press release fetched successfully by scout; figures confirmed directly. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-033",
+   "title": "Vale Partners with Wabtec on Alternative Fuels Study and Orders Three FLXdrive Battery-Electric Locomotives",
+   "authors_or_org": "Wabtec Corporation; Vale S.A.",
+   "year": 2023,
+   "url": "https://www.wabteccorp.com/newsroom/press-releases/vale-partners-with-wabtec-on-alternative-fuels-study-and-orders-three-flxdrive-battery-electric-locomotives",
+   "canonical_key": "https://www.wabteccorp.com/newsroom/press-releases/vale-partners-with-wabtec-on-alternative-fuels-study-and-orders-three-flxdrive-battery-electric-locomotives",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "BR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "Vale ordered 3 Wabtec FLXdrive battery-electric locomotives (13 July 2023) to replace diesel 'dynamic helper' units on the Carajas Railroad (EFC), the world's largest iron-ore train (330 railcars, 45,000 tons); Wabtec estimates ~25 million litres of diesel saved and ~63,000 tons CO2 avoided annually; delivery expected 2026 from Wabtec's Contagem, Brazil plant.",
+   "notes": "Primary company press release fetched successfully this session; figures confirmed directly. | Primary company press release fetched successfully by scout; figures confirmed directly. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-034",
+   "title": "内蒙古太平2026-2028年露天采剥铲装运输设备租赁 (Inner Mongolia Taiping 2026-2028 Open-Pit Mining Stripping/Loading/Transport Equipment Leasing Tender)",
+   "authors_or_org": "中国黄金集团建设有限公司内蒙古乌拉特中旗分公司 (China Gold Group Construction Co., Ltd., Inner Mongolia Urad Middle Banner Branch)",
+   "year": 2026,
+   "url": "https://jzcg.chinagoldgroup.com/portal/detail?docid=7cd7cbf4108546bba70c79752ea8f8b6&chnlcode=tender&objtype=7",
+   "canonical_key": "tender:chinagoldgroup-7cd7cbf4108546bba70c79752ea8f8b6",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "China Gold Group's Inner Mongolia branch issued an open-pit mining equipment leasing tender (2026-2028, mining volume 5.31M m3, requiring a minimum fleet of 60 dump trucks [40x70t + 15x60t] plus 9 excavators); registration deadline 2 Feb 2026, bids due 27 Feb 2026, contract through end-2028 -- a live conventional-equipment tender that establishes baseline fleet-size/spec demand against which electrification alternatives can be benchmarked.",
+   "notes": "Fetched directly from the official state-owned-enterprise e-tender portal this session; content in Chinese. Note this specific tender is for conventional (not explicitly battery-electric) equipment leasing -- included as a primary demand/fleet-scale baseline record for China's open-pit mining equipment market, not as direct electrification-specific demand evidence. | Fetched directly from the official state-owned-enterprise e-tender portal by scout; content in Chinese. This is a conventional (not explicitly battery-electric) equipment leasing tender -- included as a primary demand/fleet-scale baseline record, not direct electrification-specific demand evidence. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-035",
+   "title": "巴润分公司露天矿5G+工程机械远程智能化控制项目 (Barun Branch Open-Pit Mine 5G + Construction Machinery Remote Intelligent Control Project)",
+   "authors_or_org": "内蒙古包钢钢联股份有限公司 (Inner Mongolia Baogang Steel Union Co., Ltd., Barun Mining Branch)",
+   "year": 2026,
+   "url": "https://www.nmggcpt.com/bids/show.php?itemid=1034",
+   "canonical_key": "tender:nmggcpt-baogang-barun-5g-itemid-1034",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "Baogang Steel Union's open-pit Barun mine tendered a phase-two 5G + remote-intelligent-control retrofit for 4 dozers and 1 roller (procurement estimate ~RMB3.75M of ~RMB18.06M total project investment); tender documents available 3-8 July 2026, bids due 29 July 2026 09:30 -- evidence of active remote/autonomous-control retrofit investment in Chinese open-pit mining construction machinery (an adjacent enabling technology to electrification).",
+   "notes": "Fetched directly from the official Inner Mongolia public-tender platform this session; content in Chinese. Tender is for remote-control retrofit, not battery-electric conversion specifically -- included as adjacent-technology demand evidence for the same buyer/site category as battery-electric mining equipment. | Fetched directly from the official Inner Mongolia public-tender platform by scout; content in Chinese. Tender is for remote-control retrofit, not battery-electric conversion specifically. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-036",
+   "title": "Ports as Power Plants: Inside the Maersk-CATL Alliance for Maritime Decarbonization",
+   "authors_or_org": "Maersk; CATL (via CleanTechnica reporting)",
+   "year": 2025,
+   "url": "https://cleantechnica.com/2025/10/15/ports-as-power-plants-inside-the-maersk-catl-alliance-for-maritime-decarbonization/",
+   "canonical_key": "https://cleantechnica.com/2025/10/15/ports-as-power-plants-inside-the-maersk-catl-alliance-for-maritime-decarbonization/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "DK"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Maersk and CATL signed an MOU (10 October 2025) to collaborate on decarbonizing logistics, port operations, and supply chains, targeting electrification of yard tractors, reach stackers, and cranes with battery support/recycling, building on a June 2025 CATL-APM Terminals agreement to electrify port equipment and deploy large battery systems (potentially serving as port power buffers/grid services).",
+   "notes": "Trade-press article fetched successfully this session; reports on a primary corporate MOU but the primary Maersk/CATL press releases were not independently fetched -> tiered T2. | Trade-press article fetched successfully by scout; reports on a primary corporate MOU but the primary Maersk/CATL press releases were not independently fetched -> tiered T2. RECLASSIFIED demand_evidence_type from 'direct_customer_documentation' to 'official_project_award' this session -- an announced MOU/partnership is more accurately an official project announcement than direct customer-facing documentation."
+  },
+  {
+   "id": "L10-039",
+   "title": "Norway Orders World's First Battery-Power Autonomous Ferries (Fjord1 / Tersan Shipyard, Sognefjorden route)",
+   "authors_or_org": "Fjord1; Norwegian Public Roads Administration; Tersan Shipyard (via Maritime Executive reporting)",
+   "year": 2024,
+   "url": "https://maritime-executive.com/article/norway-orders-world-s-first-battery-power-autonomous-ferries",
+   "canonical_key": "https://maritime-executive.com/article/norway-orders-world-s-first-battery-power-autonomous-ferries",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "NO",
+    "TR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "Fjord1, under a Norwegian Public Roads Administration development contract, ordered 4 fully battery-electric double-ended RoRo ferries (120 vehicles each) from Turkey's Tersan Shipyard for the Lavik-Oppedal (Sognefjorden) route, announced 28 February 2024, with service entry planned Sept 2026 and full autonomous navigation by 2028.",
+   "notes": "Trade-press article fetched successfully this session; reports a government-contracted procurement but the primary Norwegian Public Roads Administration/Fjord1 contract documentation was not independently fetched -> tiered T2. | Trade-press article fetched successfully by scout; reports a government-contracted procurement but the primary Norwegian Public Roads Administration/Fjord1 contract documentation was not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-040",
+   "title": "Jining '6006' Pure Electric Cargo Ship Selected as a National Benchmark",
+   "authors_or_org": "CATL (Contemporary Amperex Technology Co., Limited)",
+   "year": 2025,
+   "url": "https://www.catl.com/en/news/6592.html",
+   "canonical_key": "https://www.catl.com/en/news/6592.html",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "The Jining '6006' pure-electric multi-purpose cargo ship (67.6m, ~2,000t capacity, 2 x containerized power sources totaling 3,919 kWh, 230km range, 15-min battery swap) operates on the Beijing-Hangzhou Grand Canal and was named a 'Landmark Case of National Transportation and Energy Integration Innovation Development in 2025' by the China Communications and Transportation Association -- China's first battery-swap cargo-ship demonstration with independent ship-station delivery, saving 50.4 tons of fuel annually.",
+   "notes": "Primary company (vendor) press release fetched successfully this session; fetched page was the English-language version of CATL's site (language recorded as 'en', not 'zh', reflecting the specific page fetched) even though the underlying vessel/geography/benchmark designation is Chinese. | Primary company (vendor) press release fetched successfully by scout. RECLASSIFIED demand_evidence_type from 'direct_customer_documentation' to 'official_project_award' this session -- the load-bearing 'official' hook is the third-party national-benchmark designation by the China Communications and Transportation Association, not vendor-customer documentation per se."
+  },
+  {
+   "id": "L10-041",
+   "title": "YILPORT Places Order for 53 E-Hybrid RTG Cranes from Konecranes",
+   "authors_or_org": "YILPORT Holding; Konecranes (via Container News reporting)",
+   "year": 2026,
+   "url": "https://container-news.com/yilport-orders-53-konecranes-e-hybrid-rtg-cranes-for-four-terminals/",
+   "canonical_key": "https://container-news.com/yilport-orders-53-konecranes-e-hybrid-rtg-cranes-for-four-terminals/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "GH",
+    "PT",
+    "SV",
+    "TR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "YILPORT Holding ordered 53 Konecranes E-Hybrid RTG cranes (20 automated + 33 manual) for terminals in Portugal (Liscont, Leixoes), El Salvador (Acajutla), and Ghana (Takoradi), recorded Q2 2026, with delivery in batches over the following two years -- a multi-country port-electrification procurement signal from a single terminal operator group.",
+   "notes": "Trade-press article fetched successfully this session with full order breakdown by terminal; primary Konecranes/YILPORT press release not independently fetched -> tiered T2. YILPORT is Turkish-headquartered (Yildirim Group). | Trade-press article fetched successfully by scout with full order breakdown by terminal; primary Konecranes/YILPORT press release not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-042",
+   "title": "IMO approves net-zero regulations for global shipping; adoption session subsequently adjourned to October 2026",
+   "authors_or_org": "International Maritime Organization (IMO)",
+   "year": 2025,
+   "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-approves-netzero-regulations.aspx",
+   "canonical_key": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-approves-netzero-regulations.aspx",
+   "source_type": "regulator",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "IMO's MEPC 83 (7-11 April 2025) approved the Net-Zero Framework: mandatory well-to-wake GHG fuel-intensity limits plus a global pricing/reward mechanism for ships over 5,000 GT (85% of international shipping CO2). A subsequent extraordinary MEPC session (14-17 October 2025), convened to formally adopt the framework, was instead adjourned by member-state vote; IMO's own press page confirms the session 'has agreed to adjourn' and 'will be reconvened in 12 months' time' (i.e., October 2026), pushing possible entry into force to 2027-2028 at the earliest.",
+   "notes": "Official IMO page fetched successfully this session. Note: as of this session, formal adoption remained adjourned to October 2026 per subsequent WebSearch results (zerocarbonshipping.com, DNV) -- the IMO page itself frames approval as of April 2025; the adjournment/entry-into-force slippage to 'at the earliest 1 March 2028' is cross-referenced from a separate source and should be reconciled by the verifier. | RESOLVED: the raw record's flagged tension between the April 2025 'approval' framing and the October 2025 adjournment (previously only cross-referenced from non-IMO sources) is now confirmed directly from a second official IMO press page fetched this session, removing the prior reconciliation caveat."
+  },
+  {
+   "id": "L10-043",
+   "title": "Renewable and low-carbon fuels in maritime transport (FuelEU Maritime Regulation (EU) 2023/1805)",
+   "authors_or_org": "European Union (European Parliament and Council)",
+   "year": 2023,
+   "url": "https://eur-lex.europa.eu/EN/legal-content/summary/renewable-and-low-carbon-fuels-in-maritime-transport.html",
+   "canonical_key": "standard:eu-regulation-2023-1805-fueleu-maritime",
+   "source_type": "regulator",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Regulation (EU) 2023/1805 'FuelEU Maritime' (adopted 13 Sept 2023, applied from 1 Jan 2025) requires passenger and container ships to use onshore power supply (OPS) or a zero-emission alternative for all electricity needs while moored at major EU (TEN-T core) ports from 1 January 2030 (extending to all ports from 2035), with penalty revenue required to fund maritime decarbonization projects, alongside a GHG-intensity reduction trajectory (2% in 2025 rising to 80% by 2050).",
+   "notes": "Official EUR-Lex summary fetched successfully this session; specific penalty rate (EUR1.50/unused kWh, per cross-referenced trade sources) not independently confirmed on this specific fetched page -- flagged for verifier to confirm against the full regulation text or a class-society summary (e.g., DNV, LR). | Official EUR-Lex summary fetched successfully by scout. Specific penalty rate (EUR1.50/unused kWh, per cross-referenced trade sources) still not independently confirmed on this fetched page -- flagged for idea-architect stage to confirm against full regulation text if load-bearing. Not independently re-verified this session."
+  },
+  {
+   "id": "L10-044",
+   "title": "CARB to repeal Advanced Clean Fleets' High Priority Fleet and Drayage Fleet zero-emission provisions",
+   "authors_or_org": "California Renewable Transportation Alliance (ca-rta.org), reporting on California Air Resources Board (CARB) action",
+   "year": 2025,
+   "url": "https://ca-rta.org/carb-to-repeal-high-priority-and-drayage-fleet-provisions-in-acf/",
+   "canonical_key": "https://ca-rta.org/carb-to-repeal-high-priority-and-drayage-fleet-provisions-in-acf/",
+   "source_type": "market_industry",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "CARB's Advanced Clean Fleets regulation required newly registering drayage trucks at California seaports/intermodal railyards to be zero-emission from 1 Jan 2024, with a full zero-emission drayage fleet target by 2035. Following a legal settlement with a 17-state coalition (led by Nebraska) and trucking-industry groups, CARB voted (25 Sept 2025) to repeal the High-Priority Fleet and Drayage Fleet provisions, with repeal expected to take effect 1 January 2027 (formal action required by 31 August 2026); CARB separately withdrew its EPA waiver request for the ACF's 2036 100%-ZEV-sales mandate in January 2025 and cannot enforce that mandate without a new waiver -- a live, confirmed regulatory reversal directly affecting port/drayage equipment electrification demand.",
+   "notes": "RECLASSIFIED: the primary regulator page (ww2.arb.ca.gov) returned HTTP 405 Method Not Allowed on every fetch attempt across both the scout and this verifier session (2 separate attempts, same and different CARB URLs) -- fetch routes on the official CARB domain are exhausted. Instead, California Renewable Transportation Alliance (a recognized industry trade association per SOURCE_STANDARDS' T2 definition) was fetched successfully this session, providing more precise and more current detail (Sept 25 2025 vote; Jan 1 2027 effective repeal; Jan 2025 EPA waiver withdrawal) than the raw record. Source_type changed from 'regulator' to 'market_industry' and tier confirmed T2 to honestly reflect that the CARB page itself was never independently fetched, only trade-association reporting on the CARB action."
+  },
+  {
+   "id": "L10-045",
+   "title": "船舶应用电池动力规范 2025年版 (Rules for Battery-Powered Ships, 2025 edition)",
+   "authors_or_org": "中国船级社 China Classification Society (CCS)",
+   "year": 2025,
+   "url": "https://www.ccs.org.cn/ccswz/articleDetail?id=202601060114611630&columnId=201900002000000398",
+   "canonical_key": "standard:ccs-battery-powered-ship-rules-2025",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "China Classification Society's 2025-edition 'Rules for Battery-Powered Ships' (effective 31 Dec 2025, superseding the 2023 version and 2024 amendments) governs design/construction/inspection of vessels using rechargeable batteries as part or all of propulsion power, adding digital inspection verification, shore-based monitoring platforms, containerized mobile power source inspection, automated system specs, and online monitoring data-exchange protocols.",
+   "notes": "Official classification-society (standards-body) page fetched successfully this session in Chinese; effective date and scope confirmed directly. | Official classification-society (standards-body) page fetched successfully by scout in Chinese. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-046",
+   "title": "土方机械 纯电动液压挖掘机换电系统 通用要求 (GB/T 45926-2025: Earth-moving machinery -- Battery swap system of electric hydraulic excavators -- General requirements)",
+   "authors_or_org": "国家标准化管理委员会 Standardization Administration of China (SAC), via openstd.samr.gov.cn",
+   "year": 2025,
+   "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C86AB4A02E32B53A950DDF9B6E5BAB2F",
+   "canonical_key": "standard:gb-t-45926-2025",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "China's national standard GB/T 45926-2025, 'Earth-moving machinery -- Battery swap system of electric hydraulic excavators -- General requirements,' was published 30 June 2025 and takes effect 1 January 2026, specifying general requirements for battery-swap systems on pure-electric hydraulic excavators -- confirming standards-body-level formalization of battery-swap infrastructure for electric construction/mining equipment in China.",
+   "notes": "MAJOR UPDATE: the raw record's original URL (kass.sacinfo.org.cn) failed with an SSL/protocol error in both the scout and this verifier session (2 independent attempts), and the formal standard number was unconfirmed. This session, a WebSearch located and a WebFetch successfully confirmed the correct official record on openstd.samr.gov.cn (China's national standards public-service platform), resolving the exact standard number (GB/T 45926-2025), publication date (30 June 2025), and effective date (1 January 2026) directly from an authoritative government source. URL and canonical_key updated accordingly."
+  },
+  {
+   "id": "L10-048",
+   "title": "EPA Clean Ports Program",
+   "authors_or_org": "US Environmental Protection Agency (EPA)",
+   "year": 2024,
+   "url": "https://www.epa.gov/ports-initiative/clean-ports-program",
+   "canonical_key": "https://www.epa.gov/ports-initiative/clean-ports-program",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "EPA's Clean Ports Program, funded with $3 billion under the Inflation Reduction Act, awarded 53 grants totaling nearly $3 billion (notified Oct 2024, finalized Dec 2024-Jan 2025) across 26 states/territories to fund zero-emission port equipment, infrastructure, and climate/air-quality planning, with 3-4 year implementation windows.",
+   "notes": "Official EPA page fetched successfully this session; a separate awardee-detail page (referenced but not fetched) would be needed to confirm the specific Port of Oakland $322m figure cited in earlier WebSearch synthesis -- that specific dollar figure is NOT independently confirmed from this fetched page and should be treated as unconfirmed until the awards page is fetched directly. | Official EPA page fetched successfully by scout. The specific Port of Oakland $322m figure cited in earlier WebSearch synthesis was NOT independently confirmed on this fetched page and remains excluded from claim_supported. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-050",
+   "title": "Megawatt Charging System (MCS) technology page and IEC TS 63379 standardization",
+   "authors_or_org": "CharIN e.V. (Charging Interface Initiative); International Electrotechnical Commission (IEC)",
+   "year": 2026,
+   "url": "https://www.charin.global/technology/mcs/",
+   "canonical_key": "standard:iec-ts-63379-megawatt-charging-system",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "DE"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "The Megawatt Charging System (MCS) standard supports up to 1,250V/3,000A DC (over 3.75 MW peak), with CharIN-member contributions formalized in IEC TS 63379 (published Feb 2026) for global interoperability; targeted at Class 6-8 trucks, buses, ferries/marine vessels, light electric aircraft, and heavy-duty mining equipment.",
+   "notes": "Official CharIN consortium page fetched successfully this session. Reclassified from 'market_industry' to 'standard' / T1 because IEC TS 63379 is a formally published IEC technical specification (not merely vendor marketing), consistent with SOURCE_STANDARDS' T1 definition covering official standards. Geography (DE) reflects CharIN e.V.'s German registered-association headquarters, not a claim about IEC's or the standard's true multinational origin. | Official CharIN consortium page fetched successfully by scout; formally published IEC technical specification, not vendor marketing. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-051",
+   "title": "FLXdrive Battery-Electric Locomotive (product page)",
+   "authors_or_org": "Wabtec Corporation",
+   "year": 2026,
+   "url": "https://www.wabteccorp.com/locomotive/alternative-fuel-locomotives/FLXdrive",
+   "canonical_key": "https://www.wabteccorp.com/locomotive/alternative-fuel-locomotives/flxdrive",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Wabtec's FLXdrive product line spans Heavy-Haul (7.0 MWh battery / 3.2 MW traction), Switcher (2.7 MWh / 1.7 MW), Shunter (1.2 MWh / 0.7 MW), and a European Dual-Mode variant (1.5-2.0 MWh / 0.8-5.5 MW), using liquid-cooled batteries with a proprietary thermal-management system, regenerative braking, and DC fast-charging via stationary pantograph; marketed as the world's first 100% battery-electric heavy-haul locomotive. No public pricing is disclosed.",
+   "notes": "Vendor product page fetched successfully this session; no price data was available on the page (a recurring pattern for heavy-electrification hardware, consistent with the L02/L08 lanes' prior findings of opaque vendor pricing). | Vendor product page fetched successfully by scout; no price data available (recurring opacity pattern across this lane). Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L10-052",
+   "title": "T 264 Battery Electric mining truck (product page)",
+   "authors_or_org": "Liebherr Mining Equipment",
+   "year": 2026,
+   "url": "https://www.liebherr.com/en-int/mining-equipment/equipment/mining-trucks/t264-battery-electric-7508154",
+   "canonical_key": "https://www.liebherr.com/en-int/mining-equipment/equipment/mining-trucks/t264-battery-electric-7508154",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "DE"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Liebherr's T264 Battery Electric mining truck offers 240t payload, static charging in under an hour, compatibility with a Trolley Assist overhead-pantograph system and 'Liebherr Power Rail' side-mounted dynamic-charging technology, and a claimed 86% reduction in energy cost per tonne versus diesel for a full electric fleet. Battery capacity (3.2 MWh, per raw record's WebSearch synthesis) and exact charge-time range (12-58 minutes) were not visible on the specific page content fetched this session -- fetched content confirmed 'under an hour' generically. No public price is disclosed.",
+   "notes": "Not independently WebFetched this session (details from WebSearch synthesis of the Liebherr product page and Equipment World reporting). Geography (DE) reflects Liebherr's German/Swiss group headquarters, not necessarily the truck's manufacturing site. | UPDATE: fetched directly and successfully this session (raw record was WebSearch-synthesis only, fetched:false). Payload, static-charge claim, Trolley Assist/Power Rail compatibility, and 86% energy-cost-reduction claim all confirmed directly from the live page. Battery-capacity figure (3.2 MWh) and precise 12-58 minute charge-time range from the raw record were not reconfirmed on this specific fetch and are flagged as unconfirmed-this-session rather than re-asserted as fact."
+  },
+  {
+   "id": "L10-053",
+   "title": "R1700 XE Underground Battery-Electric LHD Loader (product specifications)",
+   "authors_or_org": "Caterpillar Inc.",
+   "year": 2026,
+   "url": "https://www.cat.com/en_US/products/new/equipment/underground-hard-rock/underground-mining-load-haul-dump-lhd-loaders/112700.html",
+   "canonical_key": "https://www.cat.com/en_us/products/new/equipment/underground-hard-rock/underground-mining-load-haul-dump-lhd-loaders/112700.html",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Caterpillar's R1700 XE is a zero-tailpipe-emission battery-electric underground LHD loader: 715V nominal lithium-ion battery pack, 213 kWh total energy capacity, switched-reluctance traction motor (335 hp peak / 295 hp nominal), charges in under 20 minutes with two Cat MEC500 chargers (840 kW combined) or under 30 minutes with one (500 kW), liquid (chilled coolant) battery cooling, rated operating range -20C to 50C. No public price is disclosed.",
+   "notes": "WebFetch failed with a connection reset error this session; details taken from WebSearch synthesis (cat.com and Foley Equipment dealer listing snippets). | UPDATE: fetched=true this session via an authorized-dealer mirror (Blanchard Machinery) of Caterpillar's own published specifications, since cat.com itself has been unreachable (connection reset) across all three fetch attempts spanning scout and verifier sessions. Canonical url retained as cat.com's own product page (the authoritative source), with the dealer-mirror locator documented for traceability."
+  },
+  {
+   "id": "L10-054",
+   "title": "Hitachi Construction Machinery / ABB full-battery mining dump truck (EH4000) reaches commissioning at Kansanshi mine, Zambia",
+   "authors_or_org": "Hitachi Construction Machinery; ABB; First Quantum Minerals (via International Mining trade-press reporting)",
+   "year": 2026,
+   "url": "https://im-mining.com/2026/04/16/first-quantum-and-hitachi-commission-worlds-first-battery-electric-mining-truck-at-kansanshi-mine-in-zambia/",
+   "canonical_key": "https://im-mining.com/2026/04/16/first-quantum-and-hitachi-commission-worlds-first-battery-electric-mining-truck-at-kansanshi-mine-in-zambia/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "JP",
+    "CH",
+    "ZM"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "ABB and Hitachi Construction Machinery jointly developed (since June 2021) the Hitachi EH4000 'Full Battery Dump Truck,' the world's first ultra-large fully electric haul truck, using a hybrid battery + trolley-assist (overhead power line) + regenerative-braking system. A technological feasibility trial ran at First Quantum Minerals' Kansanshi copper-gold mine (Zambia) from June 2024 to August 2025, during which the truck covered over 4,000 km and transported more than 30,000 tonnes; a follow-on 'Battery Truck & Electrification Showcase' technical demonstration for mining customers was held at Kansanshi on 15-16 April 2026, with commercial deployment targeted for fiscal year 2027.",
+   "notes": "RECLASSIFIED and UPDATED: the primary ABB press release (new.abb.com) failed to fetch (timeout, then socket error) across two attempts in two sessions; a direct Hitachi Construction Machinery press-release page (hitachicm.com) also returned HTTP 403 this session. Instead, International Mining trade-press reporting was fetched successfully this session, providing more current and more precise detail (EH4000 model name, exact trial distance/tonnage, FY2027 commercial-deployment target) than the raw record's ABB-sourced claim. Source_type changed from 'market_industry' to 'trade_press' to honestly reflect the actually-fetched source."
+  },
+  {
+   "id": "L10-055",
+   "title": "Singapore Introduces New Standard for Electric Harbour Craft (e-HC) Charging Infrastructure (Technical Reference TR 136)",
+   "authors_or_org": "Maritime and Port Authority of Singapore (MPA); Enterprise Singapore",
+   "year": 2025,
+   "url": "https://www.mpa.gov.sg/media-centre/details/singapore-introduces-new-standard-for-electric-harbour-craft-(e-hc)-charging-infrastructure",
+   "canonical_key": "standard:sg-tr136-electric-harbour-craft-charging",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L10"
+   ],
+   "language": "en",
+   "geography": [
+    "SG"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "MPA and Enterprise Singapore published Technical Reference (TR) 136 (25 March 2025) establishing safety requirements for charging infrastructure and battery-swap systems for electric harbour craft (e-HC), protecting personnel/property from electrical and mechanical hazards and promoting interoperability (aligned with CCS, IEC 61851, IEC 62840); from 2030 all new harbour craft operating in the Port of Singapore must be fully electric, B100-biofuel-capable, or compatible with net-zero fuels.",
+   "notes": "Official MPA (Singapore government statutory board) page fetched successfully this session; TR136 scope, date, and the 2030 all-electric-harbour-craft requirement confirmed directly from the fetched page. | Official MPA (Singapore government statutory board) page fetched successfully by scout. Not independently re-verified this session; carried forward unchanged."
+  },
+  {
+   "id": "L11-001",
+   "title": "Analysis of the Cause for the Performance Degradation of PEM Water Electrolyzers upon Intermittent Operation at Different Operating Conditions",
+   "authors_or_org": "Kornherr, M.; Schramm, C.; Ernst, M. F.; Müller, M.; Gasteiger, H. A.",
+   "year": 2025,
+   "url": "https://iopscience.iop.org/article/10.1149/1945-7111/ae1cf1",
+   "canonical_key": "doi:10.1149/1945-7111/ae1cf1",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1149/1945-7111/ae1cf1",
+   "doi": "10.1149/1945-7111/ae1cf1",
+   "demand_evidence_type": "none",
+   "claim_supported": "Journal of The Electrochemical Society (vol. 172, issue 12, Dec 2025) primary study by Kornherr et al.: aging of IrO2/TiO2 anode catalyst during intermittent PEM electrolyzer operation using galvanostatic accelerated stress tests with open-circuit intervals; initial activity improvement over the first ten cycles followed by pronounced degradation on further cycling.",
+   "notes": "Direct WebFetch returned HTTP 403 (IOP paywall gate); DOI resolves via standard J. Electrochem. Soc. 1945-7111 series pattern. Verifier should confirm full text and authors. | IOPscience full-text still returns 403 to direct WebFetch; acceptance rests on Crossref-confirmed final-venue identity per the verifier's Crossref rescue path. Authors now confirmed (raw record had 'Unconfirmed this session')."
+  },
+  {
+   "id": "L11-002",
+   "title": "Degradation pathways in PEM water electrolyzers: Insights from Nafion N115 membranes with Pt black and Ir-Ru oxide catalysts",
+   "authors_or_org": "Tejera, G.; Teliz, E.; Faccio, R.; Fernández-Werner, L.; Diaz, V.",
+   "year": 2026,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016236125036452",
+   "canonical_key": "doi:10.1016/j.fuel.2025.137919",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.fuel.2025.137919",
+   "doi": "10.1016/j.fuel.2025.137919",
+   "demand_evidence_type": "none",
+   "claim_supported": "Fuel (Elsevier, vol. 410, Apr 2026) primary research by Tejera et al. comparing degradation of Nafion N115-membrane PEM electrolyzers using Pt black vs. Ir-Ru oxide anode catalysts.",
+   "notes": "DOI resolved via Crossref this session (raw record had no DOI and 'Unconfirmed' authors). Year corrected from 2025 to 2026 per confirmed journal issue date."
+  },
+  {
+   "id": "L11-003",
+   "title": "Quantifying Sources of Voltage Decay in Long-Term Durability Testing for PEM Water Electrolysis",
+   "authors_or_org": "Padgett, E.; Yu, H.; Blair, S. J.; Cullen, D. A.; Ahluwalia, R. K.; Myers, D. J.; Pivovar, B.; Alia, S. M.",
+   "year": 2025,
+   "url": "https://iopscience.iop.org/article/10.1149/1945-7111/add184",
+   "canonical_key": "doi:10.1149/1945-7111/add184",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1149/1945-7111/add184",
+   "doi": "10.1149/1945-7111/add184",
+   "demand_evidence_type": "none",
+   "claim_supported": "Journal of The Electrochemical Society (vol. 172, issue 5, 2025) primary study decomposing long-term voltage-decay contributions (membrane, catalyst layer, PTL, contact resistance) in PEM electrolyzer durability tests.",
+   "notes": "Not directly fetched; DOI pattern consistent with J. Electrochem. Soc. 2025 volume. | Authors now confirmed via Crossref (raw record had 'Unconfirmed this session')."
+  },
+  {
+   "id": "L11-004",
+   "title": "Dynamic electrical degradation of PEM electrolyzers under renewable energy intermittency: Mechanisms, diagnostics, and mitigation strategies -- A comprehensive review",
+   "authors_or_org": "Maoulida, F.; Guilbert, D.; Camara, M.-B.; Dakyo, B.",
+   "year": 2026,
+   "url": "https://www.sciencedirect.com/science/article/pii/S1364032125008433",
+   "canonical_key": "doi:10.1016/j.rser.2025.116170",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.rser.2025.116170",
+   "doi": "10.1016/j.rser.2025.116170",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review article in Renewable and Sustainable Energy Reviews (vol. 225, Jan 2026) by Maoulida et al. synthesizing degradation mechanisms specific to intermittent/renewable-coupled PEM electrolyzer operation.",
+   "notes": "Explicitly a review -- T2 per source standards regardless of journal. Authors and DOI now confirmed (raw record had neither). Year corrected 2025 -> 2026."
+  },
+  {
+   "id": "L11-005",
+   "title": "CO electrolysis to multicarbon products over grain boundary-rich Cu nanoparticles in membrane electrode assembly electrolyzers",
+   "authors_or_org": "Li, H.; Wei, P.; Liu, T.; Li, M.; Wang, C.; Li, R.; Ye, J.; Zhou, Z.-Y.; Sun, S.-G.; Fu, Q.; Gao, D.; Wang, G.; Bao, X.",
+   "year": 2024,
+   "url": "https://www.nature.com/articles/s41467-024-49095-2",
+   "canonical_key": "doi:10.1038/s41467-024-49095-2",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1038/s41467-024-49095-2",
+   "doi": "10.1038/s41467-024-49095-2",
+   "demand_evidence_type": "none",
+   "claim_supported": "Nature Communications (vol. 15, 2024-05-30) primary research: grain boundary-rich Cu nanoparticle catalyst in an alkaline MEA electrolyzer achieved C2+ partial current density up to 4.35 +/- 0.07 A/cm^2 at 2.78 +/- 0.01 V cell voltage with 87 +/- 1% C2+ Faradaic efficiency.",
+   "notes": "Nature.com fetch attempted twice; both times looped through idp.nature.com cookie-consent redirect without reaching article body. DOI and headline result confirmed via independent search aggregation. | Nature.com direct fetch still blocked; acceptance via Crossref rescue path. Full author list now confirmed."
+  },
+  {
+   "id": "L11-006",
+   "title": "In situ copper faceting enables efficient CO2/CO electrolysis",
+   "authors_or_org": "Yao, K.; Li, J.; Ozden, A.; Wang, H.; Sun, N.; Liu, P.; Zhong, W.; Zhou, W.; Zhou, J.; Wang, X.; Liu, H.; Liu, Y.; Chen, S.; Hu, Y.; Wang, Z.; Sinton, D.; Liang, H.",
+   "year": 2024,
+   "url": "https://www.nature.com/articles/s41467-024-45538-y",
+   "canonical_key": "doi:10.1038/s41467-024-45538-y",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1038/s41467-024-45538-y",
+   "doi": "10.1038/s41467-024-45538-y",
+   "demand_evidence_type": "none",
+   "claim_supported": "Nature Communications (vol. 15, article 1749, 2024-02-26) primary research: in-situ electrochemical reduction with a phosphate ligand steers Cu surface reconstruction toward Cu(100) facets, achieving >500 mA/cm^2 current density and >83% Faradaic efficiency toward C2+ products in CO2/CO electrolysis.",
+   "notes": "Same Nature.com fetch obstacle as L11-005. | Full author list now confirmed via Crossref."
+  },
+  {
+   "id": "L11-007",
+   "title": "Synergistic electrode design for efficient CO2 electrolysis to multicarbon products at elevated temperatures",
+   "authors_or_org": "Hu, L.; Yang, Y.; Wang, J.; Zhang, D.; Huang, J.; Zhang, Y.; Yi, X.; Wang, G.; Chen, Z.",
+   "year": 2026,
+   "url": "https://www.nature.com/articles/s41467-026-69506-w",
+   "canonical_key": "doi:10.1038/s41467-026-69506-w",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1038/s41467-026-69506-w",
+   "doi": "10.1038/s41467-026-69506-w",
+   "demand_evidence_type": "none",
+   "claim_supported": "Nature Communications (vol. 17, 2026-02-12) primary research on electrode design for elevated-temperature CO2 electrolysis to multicarbon products.",
+   "notes": "Most recent of the CO2-electrolysis cluster; treat cautiously since full text unreviewed this session. | Verifier explicitly checked this record for existence given its forward publication date relative to the raw scout's session; Crossref confirms it is a genuine published article."
+  },
+  {
+   "id": "L11-008",
+   "title": "Carbon dioxide electroreduction to C2 products over copper-cuprous oxide derived from electrosynthesized copper complex",
+   "authors_or_org": "Zhu, Q.; Sun, X.; Yang, D.; Ma, J.; Kang, X.; Zheng, L.; Zhang, J.; Wu, Z.; Han, B.",
+   "year": 2019,
+   "url": "https://www.nature.com/articles/s41467-019-11599-7",
+   "canonical_key": "doi:10.1038/s41467-019-11599-7",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1038/s41467-019-11599-7",
+   "doi": "10.1038/s41467-019-11599-7",
+   "demand_evidence_type": "none",
+   "claim_supported": "Nature Communications (vol. 10, 2019-08-26) primary research: a Cu2O/Cu catalyst derived from an electrosynthesized copper complex drives CO2 electroreduction toward C2 products, an early foundational result in the Cu multicarbon-CO2RR catalyst design lineage that L11-005/006/007 build on.",
+   "notes": "Replaces a review-tier placeholder (Nature Reviews Materials copper-stability piece) with a primary research paper to raise the T1 share of this lane's set; the review angle on copper instability is still available via L11-024's seawater-adjacent synthesis discussion and should be re-added by the verifier if a dedicated copper-stability review is needed. | Full author list now confirmed via Crossref."
+  },
+  {
+   "id": "L11-009",
+   "title": "Anion Exchange Ionomers Enable Sustained Pure-Water Electrolysis Using Platinum-Group-Metal-Free Electrocatalysts",
+   "authors_or_org": "Zheng, Y.; Serban, A.; Zhang, H.; Chen, N.; Song, F.; Hu, X.",
+   "year": 2023,
+   "url": "https://pubs.acs.org/doi/abs/10.1021/acsenergylett.3c01866",
+   "canonical_key": "doi:10.1021/acsenergylett.3c01866",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1021/acsenergylett.3c01866",
+   "doi": "10.1021/acsenergylett.3c01866",
+   "demand_evidence_type": "none",
+   "claim_supported": "ACS Energy Letters (vol. 8, issue 12, 2023-11-06) primary research: PGM-free AEM water electrolysis MEA sustained pure-water electrolysis for >550 hours at 1 A/cm^2 with 1.82 V cell voltage.",
+   "notes": "Directly relevant to cost-reduction pathway (removing Ir/Pt) for AEM electrolyzer stacks. | Full author list now confirmed via Crossref."
+  },
+  {
+   "id": "L11-010",
+   "title": "Anion-Exchange-Membrane Electrolysis with Alkali-Free Water Feed",
+   "authors_or_org": "Muhyuddin, M.; Santoro, C.; Osmieri, L.; Ficca, V. C. A.; Friedman, A.; Yassin, K.; Pagot, G.; Negro, E.; Konovalova, A.; Lindquist, G.; Twight, L.; Kwak, M.; Berretti, E.; Di Noto, V.; Jaouen, F.; Elbaz, L.; Dekel, D. R.; Mustarelli, P.; Boettcher, S. W.; Lavacchi, A.; Atanassov, P.",
+   "year": 2025,
+   "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00466",
+   "canonical_key": "doi:10.1021/acs.chemrev.4c00466",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1021/acs.chemrev.4c00466",
+   "doi": "10.1021/acs.chemrev.4c00466",
+   "demand_evidence_type": "none",
+   "claim_supported": "Chemical Reviews (vol. 125, issue 15, 2025-08-13) review synthesizing AEM electrolysis with alkali-free (pure water) feed, covering membrane degradation, ionomer oxidation, and metal dissolution-redeposition as durability limiters.",
+   "notes": "Chemical Reviews is a review-only journal -- T2 regardless of prestige. | Chemical Reviews is a review-only journal -- T2 regardless of prestige. Year corrected 2024 -> 2025 per confirmed publication date; full author list now confirmed."
+  },
+  {
+   "id": "L11-011",
+   "title": "Efficiency and consistency enhancement for alkaline electrolyzers driven by renewable energy sources",
+   "authors_or_org": "Xia, Y.; Cheng, H.; He, H.; Wei, W.",
+   "year": 2023,
+   "url": "https://www.nature.com/articles/s44172-023-00070-7",
+   "canonical_key": "doi:10.1038/s44172-023-00070-7",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1038/s44172-023-00070-7",
+   "doi": "10.1038/s44172-023-00070-7",
+   "demand_evidence_type": "none",
+   "claim_supported": "Communications Engineering (Nature Portfolio, vol. 2, issue 1, 2023-05-03) primary research improving efficiency and load-following consistency of renewable-driven alkaline electrolyzer stacks.",
+   "notes": "nature.com direct fetch blocked by cookie redirect loop this session; PMC mirror should be fetched by verifier for full text. China-origin academic work relevant to Asian-market tier balance. | China-origin academic work relevant to Asian-market tier balance."
+  },
+  {
+   "id": "L11-012",
+   "title": "Size design strategy for scaling up alkaline water electrolysis stack integrated with renewable energy source: A multiphysics modeling approach",
+   "authors_or_org": "Huang, D.; Zhong, Z.; Ai, X.; Hu, K.; Xiong, B.; Wen, Q.; Fang, J.; Cheng, S.",
+   "year": 2024,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0196890423013018",
+   "canonical_key": "doi:10.1016/j.enconman.2023.117955",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.enconman.2023.117955",
+   "doi": "10.1016/j.enconman.2023.117955",
+   "demand_evidence_type": "none",
+   "claim_supported": "Energy Conversion and Management (vol. 300, Jan 2024) primary multiphysics-modeling study on alkaline electrolysis stack scale-up sizing strategy, analyzing energy-efficiency vs. current-density trade-offs for renewable-coupled operation.",
+   "notes": "DOI and full author list now confirmed via Crossref. Year corrected 2023 -> 2024 per confirmed publication date."
+  },
+  {
+   "id": "L11-013",
+   "title": "Channel design optimization of alkaline electrolysis stacks considering the trade-off between current efficiency and pressure drop",
+   "authors_or_org": "Qi, R.; Becker, M.; Brauns, J.; Turek, T.; Lin, J.; Song, Y.",
+   "year": 2023,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775323005980",
+   "canonical_key": "doi:10.1016/j.jpowsour.2023.233222",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.jpowsour.2023.233222",
+   "doi": "10.1016/j.jpowsour.2023.233222",
+   "demand_evidence_type": "none",
+   "claim_supported": "Journal of Power Sources (vol. 579, Sept 2023) primary study showing alkaline electrolysis scale-up is restricted by current-efficiency losses from stray/shunt currents as cell counts increase, and proposing channel-design mitigations.",
+   "notes": "DOI and full author list now confirmed via Crossref."
+  },
+  {
+   "id": "L11-014",
+   "title": "Towards longevity in solid oxide electrolysis cells: multi-scale modeling and machine learning for degradation diagnosis and mitigation",
+   "authors_or_org": "Fan, G.; Chen, H.; Wu, T.; Wang, L.; Xu, X.",
+   "year": 2025,
+   "url": "https://pubs.rsc.org/en/content/articlepdf/2025/ta/d5ta03711e",
+   "canonical_key": "doi:10.1039/d5ta03711e",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1039/d5ta03711e",
+   "doi": "10.1039/d5ta03711e",
+   "demand_evidence_type": "none",
+   "claim_supported": "Journal of Materials Chemistry A (vol. 13, issue 33, 2025) primary research (confirmed NOT a review via Crossref type/abstract check) combining multi-scale modeling and machine learning to diagnose and mitigate SOEC degradation; notes industrial SOEC systems require overall degradation rates of <=0.75%/kh (ideally <=0.5%/kh) to hold performance loss to ~20% over 5 years.",
+   "notes": "RSC 'd5' DOI prefix confirms 2025 publication per RSC's year-coding convention. | RSC PDF endpoint still 403s; acceptance via Crossref rescue path. Full author list now confirmed."
+  },
+  {
+   "id": "L11-015",
+   "title": "Degradation modeling in solid oxide electrolysis systems: A comparative analysis of operation modes",
+   "authors_or_org": "Beyrami, J.; Nogueira Nakashima, R.; Nemati, A.; Lund Frandsen, H.",
+   "year": 2024,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2590174524001314",
+   "canonical_key": "doi:10.1016/j.ecmx.2024.100653",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.ecmx.2024.100653",
+   "doi": "10.1016/j.ecmx.2024.100653",
+   "demand_evidence_type": "none",
+   "claim_supported": "Energy Conversion and Management: X (vol. 23, article 100653, Jul 2024) primary comparative-modeling research on SOEC degradation under different operation modes; reports that potentio-galvanostatic operation consistently maintains stable efficiency across the cell lifetime versus alternative modes.",
+   "notes": "DOI and full author list now confirmed via Crossref."
+  },
+  {
+   "id": "L11-016",
+   "title": "Hybrid Rectifier for High Power Electrolytic Hydrogen Production Based on Modular Multilevel Converter",
+   "authors_or_org": "Huang, C.; Tan, Y.; Meng, X.",
+   "year": 2024,
+   "url": "https://www.mdpi.com/1996-1073/17/9/2188",
+   "canonical_key": "doi:10.3390/en17092188",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L11"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.3390/en17092188",
+   "doi": "10.3390/en17092188",
+   "demand_evidence_type": "none",
+   "claim_supported": "Energies (MDPI, vol. 17, issue 9, 2024-05-02) primary research proposing a hybrid rectifier -- cascaded modular multilevel converter plus input-series-output-parallel phase-shifted full-bridge stage -- to jointly mitigate AC-side harmonics and DC-side ripple for high-power electrolytic hydrogen production.",
+   "notes": "DOI independently confirmed via doi.org 302 redirect to the exact MDPI article URL -- strong evidence DOI is genuine even though full text fetch failed. | Full author list now confirmed via Crossref."
+  }
+ ]
+}

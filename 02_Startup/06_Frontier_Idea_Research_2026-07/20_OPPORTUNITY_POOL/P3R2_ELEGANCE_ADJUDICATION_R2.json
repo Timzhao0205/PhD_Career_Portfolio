@@ -1,0 +1,344 @@
+{
+  "adjudication_pass": "P3R2 second pass (wave F + fix verification)",
+  "adjudicator_model": "claude-fable-5",
+  "adjudicator_effort": "xhigh",
+  "date": "2026-07-13",
+  "firewall": "Founder profile and prior SEEDS_A-D drafts not read; no founder-fit content; seed files not modified.",
+  "compliance": {
+    "quarantine_check": "All 42 quarantined India-origin IDs grepped against P3R2_F_cn_topup.json: zero matches.",
+    "debunked_claims_check": "No F seed relies on the L13 '100% localization' or L14 '100% liquid-cooling mandate' media claims; F-19 explicitly disclaims L14-036.",
+    "cn_source_spot_checks": "L06-042/043/044/048/051/052/054, L01-037/038, L04-048/051, L05-012/013/035/036/038, L08-034, L10-028/031/034/035/040/045/046, L11-049/050/051, L16-026..033, L01-114/115, L12-037/038/050, L14-035/039/043/048, L03-031/032/035/050/052, L07-010..013/053 all verified present, accepted, country-specific, non-quarantined in lane ledgers.",
+    "datacenter_cap": "1/23 (F-19), within cap."
+  },
+  "f_seed_adjudication": [
+    {
+      "idea_id": "P3R2-F-01",
+      "scores": {"novelty": 6, "elegance": 7, "controllability": 7, "vision": 7, "timing": 7},
+      "verdict": "PROMOTE",
+      "required_fixes": [],
+      "duplicate_of": null,
+      "notes": "Strongest new dual seed. Genuinely non-obvious by convergence test (matching documented unresolved in atlas, absent from all 100 prior seeds). Clean complement to A-10 (impedance delivery vs process control). CN leg eligible and country-specific (<12% localization L06-054, named buyers, mature-node scope, 2027 export gate). Absorb F-14's licensing-with-golden-reference mechanics as CN-chapter IP structure. Absorption risk (Comet Synertia) covered by kill trigger; 60 MHz voltage/Q parity is the honest key uncertainty."
+    },
+    {
+      "idea_id": "P3R2-F-02",
+      "scores": {"novelty": 5, "elegance": 7, "controllability": 7, "vision": 7, "timing": 7},
+      "verdict": "PROMOTE",
+      "required_fixes": [
+        "P4 pre-promotion: map OCEM/Danfysik-class catalog magnet-PSU incumbency; restate white space as the integrated extraction/dump + leads + acceptance-protocol island, not converter novelty.",
+        "Absorb F-21 as entry SKU (catalog leads/feedthroughs, certified heat-load data, end-2031 <$1M entry milestone).",
+        "CFS bundling remains the named US ceiling; monitor."
+      ],
+      "duplicate_of": null,
+      "notes": "Merchant-magnet commerce (L03-035) is a real structural change; ASIPP tenders (L01-037/038) are dated CN evidence with honest big-science-only access. D-01 complement split mirrors the endorsed A-02/E-14 pattern."
+    },
+    {
+      "idea_id": "P3R2-F-03",
+      "scores": {"novelty": 5, "elegance": 6, "controllability": 5, "vision": 7, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "P4 incumbent map centered on Calnetix-class merchant high-speed PM+converter suppliers and turbine-OEM in-house before promotion; white-space claim must survive it.",
+        "2029 machine-builder co-development agreement becomes a binding gate.",
+        "Triangulate the single-source CN retrofit TAM (L04-051) from eligible sources before any scale assumption.",
+        "Absorb F-18 as the CN plant-integration/licensing chapter.",
+        "Stage the $900k experiment behind requirements-interview findings."
+      ],
+      "duplicate_of": null,
+      "notes": "Fills a real in-pool gap (electrical half of heat-to-power machines) with dual dated anchors (Fervo-Turboden; Chaotan One + first-set)."
+    },
+    {
+      "idea_id": "P3R2-F-04",
+      "scores": {"novelty": 5, "elegance": 6, "controllability": 6, "vision": 6, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "2028 paid OEM evaluation proving pump OEMs will externalize AMB electronics (the thesis's stated key uncertainty).",
+        "P4 teardown of SKF S2M/Calnetix/Waukesha merchant controllers vs the semiconductor-grade duty claim.",
+        "CN leg conditional: name a CN pump/tool-OEM design-in channel in P4 or downgrade primary_market to US (INFICON APAC revenue attribution is not buyer evidence).",
+        "Keep the 2032 internal kill."
+      ],
+      "duplicate_of": null,
+      "notes": "Real 30-year documented reliability gap (L07-010..013); thinnest CN leg among surviving dual seeds - counted dual-conditional in quota."
+    },
+    {
+      "idea_id": "P3R2-F-05",
+      "scores": {"novelty": 5, "elegance": 5, "controllability": 6, "vision": 6, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "P4 competitive teardown vs Danfoss Editron/Dana TM4/BAE off-highway electrics; restate defensible core as UL/IEC/GB certification matrix + dual-personality interface, not kit existence.",
+        "CN OEM export-certification engagement LOI by 2028 (the genuinely novel leg: Western-cert competence sold to XCMG-class exporters).",
+        "Unsubsidized repower economics model by 2028; the repower inference from EPA grants must be evidenced.",
+        "Buy B-14's interface personality as a module; do not rebuild."
+      ],
+      "duplicate_of": null,
+      "notes": "US 'no standardized kit' claim likely overstated; CN certification-demand leg is honest and distinctive."
+    },
+    {
+      "idea_id": "P3R2-F-06",
+      "scores": {"novelty": 5, "elegance": 7, "controllability": 7, "vision": 6, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Honesty flag change: primary_market US+CN -> US, china_beachhead -> false (seed's own text: State Grid domestic-only, CN revenue 'license royalties at best' - same condition that downgraded C-12/C-21). Keep CN license chapter in text; do not count toward CN quota.",
+        "2029 OEM/EPC evaluation agreement binding; pair go/no-go with E-14-class third-party protection traction.",
+        "P4 map of Hitachi/ABB optical-CT incumbency; wedge is the demonstrated combined accuracy+bandwidth+open-protocol result of the round-robin, not an assertion."
+      ],
+      "duplicate_of": null,
+      "notes": "Elegant measurement-layer complement to E-14 with a cheap decisive experiment; structurally dependent on third-party protection winning sockets."
+    },
+    {
+      "idea_id": "P3R2-F-07",
+      "scores": {"novelty": 6, "elegance": 6, "controllability": 6, "vision": 6, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "P4 confirmation that CN swap-equipment component procurement is open to licensed outsiders - binding gate for the CN leg (self-flagged: no eligible source documents CN conductive MW-charging demand).",
+        "2028 charger-OEM co-development binding.",
+        "Connector-major incumbent map (Staubli/Phoenix/Huber+Suhner); wedge proven by the 10,000-mate-cycle duty dataset.",
+        "Sequence port/mining (funded) before trucking (MCS volume risk)."
+      ],
+      "duplicate_of": null,
+      "notes": "Genuine no-man's-land between EVSE OEMs and connector vendors; CN swap evidence country-specific (SPIC, GB/T 45926, CCS)."
+    },
+    {
+      "idea_id": "P3R2-F-08",
+      "scores": {"novelty": 5, "elegance": 6, "controllability": 4, "vision": 7, "timing": 3},
+      "verdict": "REJECT",
+      "required_fixes": [],
+      "duplicate_of": null,
+      "notes": "Double contingency: component supplier to breaker/valve OEMs whose own market (meshed MVDC) is the atlas's documented unconverged showstopper. Offered demand anchors do not hold (GEV datacenter electrification orders are not MVDC-protection procurement; State Grid valves license-out only). If meshed DC arrives, Infineon/Hitachi/Fuji press-pack scale absorbs the socket before a 2030 entrant qualifies breaker-grade die. IMPORT into A-02: 2027 SiC interruption-duty die-characterization study and fail-short press-pack qualification concept as A-02's device-strategy workstream."
+    },
+    {
+      "idea_id": "P3R2-F-09",
+      "scores": {"novelty": 5, "elegance": 6, "controllability": 6, "vision": 5, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "2028 evaluation windows inside one named rebuild program (ARDAP channel) as binding gate.",
+        "P4 evidence on whether tube primes buy reliability-critical components merchant; if negative, re-scope to lab spares/aftermarket and size honestly.",
+        "Keep the two-paying-customers-by-2032 kill.",
+        "Evaluate one beam-components portfolio company with C-09/D-07 adjacency at P4."
+      ],
+      "duplicate_of": null,
+      "notes": "Documented failure mode (L05-014), honest small-TAM admission; prime internalization is the killer question."
+    },
+    {
+      "idea_id": "P3R2-F-10",
+      "scores": {"novelty": 7, "elegance": 7, "controllability": 6, "vision": 6, "timing": 5},
+      "verdict": "FIX",
+      "required_fixes": [
+        "CN demand bridge binding: battery-equipment OEM co-development/design-in LOI by 2028 (inline volumetric QC demand is inferential; only the equipment channel is documented).",
+        "Refresh L16-028 (2022-vintage buyer concentration) with a current filing.",
+        "De-weight the US pipeline leg until a named operator/NDT-service evaluation exists by 2028 (standards-cycle timing is not a procurement trigger).",
+        "POD-at-speed kill (end-2029) binding.",
+        "P4 incumbent check incl. Tecnar-class industrial laser-UT and Evident/Baker Hughes production NDT."
+      ],
+      "duplicate_of": null,
+      "notes": "Highest-novelty dual seed (first NDT play in the pool); physics risk on thin reflective Al-Cu at line rate honestly named."
+    },
+    {
+      "idea_id": "P3R2-F-11",
+      "scores": {"novelty": 7, "elegance": 7, "controllability": 6, "vision": 6, "timing": 5},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Coil-life gate (>=10,000 shots at spec by end-2028) binding - the entire engineering thesis.",
+        "CN integrator co-development agreement by 2028 with contractualized IP split (founder retains pulsed power + recipes; integrator sells).",
+        "Cost-per-joint and line-rate model vs ultrasonic AND laser welding by 2028 (laser is the real substitute).",
+        "Refresh L16-028 (2022) evidence."
+      ],
+      "duplicate_of": null,
+      "notes": "Genuinely non-obvious productization of a 15-year non-productized process; correctly identifies coil economics as blocker-turned-wedge; technology-push honestly gated."
+    },
+    {
+      "idea_id": "P3R2-F-12",
+      "scores": {"novelty": 6, "elegance": 6, "controllability": 7, "vision": 6, "timing": 7},
+      "verdict": "PROMOTE",
+      "required_fixes": [],
+      "duplicate_of": null,
+      "notes": "Best CN-primary seed of the wave: dated country-specific regulatory trigger (CCS Rules 2025 edition effective 2025-12-31, ~2-year revision cadence), national-benchmark vessel class, type-approval-dossier moat, honest JV structure (concede manufacturing, retain protection IP + type approval), clever $300k class-design-appraisal experiment, named CATL-bundling kill. P4: confirm non-CATL integrator/shipyard share, map CSSC-affiliated suppliers, scope DNV/ABS export hedge."
+    },
+    {
+      "idea_id": "P3R2-F-13",
+      "scores": {"novelty": 5, "elegance": 4, "controllability": 6, "vision": 5, "timing": 5},
+      "verdict": "REJECT",
+      "required_fixes": [],
+      "duplicate_of": null,
+      "notes": "Demand real and dated (Baogang tender July 2026) but structurally captured: Huawei-ecosystem integrators self-supply, CRRC-class suppliers replicate the kit fast (no hard physics), foreign content in SOE mine-safety chains politically fragile (self-flagged), RMB3.75M tender scale implies project-shaped thin-margin revenue, atlas technical base admittedly thin. Demand without a defendable technical wedge in the hardest-access market."
+    },
+    {
+      "idea_id": "P3R2-F-14",
+      "scores": {"novelty": 4, "elegance": 5, "controllability": 5, "vision": 5, "timing": 4},
+      "verdict": "REJECT",
+      "required_fixes": [],
+      "duplicate_of": null,
+      "notes": "B-12 precedent: in license-into-China know-how models the licensee is the accumulating asset. Seed names its own central mechanism as the kill risk (licensee R&D, poached teams); Hengyunchang's RMB1.5B IPO proceeds fund in-house capability; golden-reference retention does not survive the seed's own 2032 absorption horizon. IMPORT into F-01: licensing-with-golden-reference/test-bench structure and Hengyunchang/Injet buyer evidence as F-01's CN-chapter mechanics."
+    },
+    {
+      "idea_id": "P3R2-F-15",
+      "scores": {"novelty": 6, "elegance": 7, "controllability": 6, "vision": 6, "timing": 5},
+      "verdict": "FIX",
+      "required_fixes": [
+        "2028 EPC retrofit-study partnership is the binding demand gate: measured park-level imbalance/stray-current losses must justify skid cost (>=3% gain target).",
+        "Keep the Sungrow/LONGi verticalization kill trigger (equivalent product before a 2031 pilot = kill).",
+        "P4: evidence that a licensed JV can win park-management retrofit scope at one named SOE park (no such tender exists yet; the audit-pressure trigger is inferential).",
+        "Boundary coordination with C-07 (rectifier) and F-23 (stack envelope): one L11 power story, three sockets, at most two funded."
+      ],
+      "duplicate_of": null,
+      "notes": "Most elegant CN-primary framing ('string-inverter moment for hydrogen'); respects the L11 stack-overcapacity negative finding."
+    },
+    {
+      "idea_id": "P3R2-F-16",
+      "scores": {"novelty": 5, "elegance": 6, "controllability": 7, "vision": 6, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "2028 beta must carry a paid premium commitment - the >=30% premium thesis is tested before the 2030 gate, not at it (documented evidence is category procurement, not metrology-premium demand).",
+        "2027 experiment must validate inline surface-energy proxy robustness at line rate (the stated key uncertainty).",
+        "P4: Nordson MARCH/Panasonic/Samco roadmap check - closed-loop treat-to-spec is absorbable by the incumbent premium tier."
+      ],
+      "duplicate_of": null,
+      "notes": "Converts the rejected B-15 knife-fight into a treat-to-spec premium position with a documented open procurement channel (L01-114) and durable category (L01-115)."
+    },
+    {
+      "idea_id": "P3R2-F-17",
+      "scores": {"novelty": 6, "elegance": 6, "controllability": 7, "vision": 5, "timing": 4},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Hold as a priced option: cap pre-company spend at the $150k prototype until a dated signal exists.",
+        "2028 gate: a documented ISO/IEC revision work-item, an EU/US market-surveillance action on handheld Class-4 welders, or an insurer/OEM requirement - one of the three, or kill at the existing end-2030 trigger.",
+        "P4 discovery lead: European welding-association handheld-laser safety materials (found by judge's external check; no dated enforcement found) - chase for an eligible dated anchor.",
+        "OEM design-in LOI remains the second gate."
+      ],
+      "duplicate_of": null,
+      "notes": "Real gap (ISO 11553-2 dated 2007 vs documented export explosion) but the entire demand thesis is an undated regulatory contingency; adjudicated as an honest option purchase, D-16-style."
+    },
+    {
+      "idea_id": "P3R2-F-18",
+      "scores": {"novelty": 4, "elegance": 5, "controllability": 5, "vision": 6, "timing": 5},
+      "verdict": "REJECT",
+      "required_fixes": [],
+      "duplicate_of": "P3R2-F-03",
+      "notes": "Self-flagged merge candidate: CN-primary licensing variant of F-03's cartridge in the same CNNC ecosystem with the same single-source TAM. IMPORT into F-03: EPC co-bidding memorandum concept, Xinjiang first-set timeline alignment, rollout-industrialization framing."
+    },
+    {
+      "idea_id": "P3R2-F-19",
+      "scores": {"novelty": 6, "elegance": 6, "controllability": 6, "vision": 7, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "P4 must source operator incident/warranty data (seed's own flag: pain evidence is inference from spec structure + fleet scale).",
+        "2028 colocation pilot + one operator LOI binding.",
+        "The 12-month aging study must produce the failure-signature dataset that IS the moat; existing kill trigger (CDU vendors bundle equivalent monitoring before a 2030 design win) stands.",
+        "Boundary with C-05 confirmed (lab qualification vs in-service operations + consumables): pair commercially, do not merge prematurely."
+      ],
+      "duplicate_of": null,
+      "notes": "Water-treatment-industry archetype applied to DLC fleets; the only F datacenter-correlated seed and partially downturn-resistant (installed fluid ages regardless). Counted against the datacenter cap (1/4)."
+    },
+    {
+      "idea_id": "P3R2-F-20",
+      "scores": {"novelty": 4, "elegance": 5, "controllability": 6, "vision": 5, "timing": 5},
+      "verdict": "FIX",
+      "required_fixes": [
+        "P4 competitor map is a pre-promotion requirement: Spellman AND Advanced Energy (HiTek/UltraVolt), AMETEK/Glassman, Matsusada, iseg, Heinzinger, Technix, XP Power, CN HV makers - the 'effectively one dominant vendor' thesis must survive it or the seed collapses to niche lab supply.",
+        "Two paid OEM evaluations by 2028 binding.",
+        "CN leg reduced pending evidence: no eligible source shows CN accelerator OEMs outsourcing precision HV; name a CN OEM/tender channel in P4 or the CN chapter becomes license notes.",
+        "Pre-agree fold-down of the DC-HV line into C-09's platform family if OEM appetite fails."
+      ],
+      "duplicate_of": null,
+      "notes": "The thesis rests on a competitive claim held only as judgment; highest hidden-commodity risk among surviving F seeds."
+    },
+    {
+      "idea_id": "P3R2-F-21",
+      "scores": {"novelty": 4, "elegance": 6, "controllability": 7, "vision": 5, "timing": 6},
+      "verdict": "REJECT",
+      "required_fixes": [],
+      "duplicate_of": "P3R2-F-02",
+      "notes": "Self-flagged fold candidate. IMPORT into F-02: catalog binary-lead SKU as entry product, instrumented feedthrough line, certified heat-load datasheets, end-2031 <$1M standalone milestone (becomes F-02's entry-SKU gate)."
+    },
+    {
+      "idea_id": "P3R2-F-22",
+      "scores": {"novelty": 5, "elegance": 5, "controllability": 6, "vision": 5, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Vacuum-components manufacturing-partner route becomes a binding 2027 gate (precision brazing/bellows craft is both moat and barrier; a $450k experiment does not make a qualified line).",
+        "P4 must map existing CN vacuum-capacitor makers - if credible domestic caps exist, the CN licensing leg collapses; also verify the Comet/Jennings supply structure.",
+        "One OEM paid qualification by 2029.",
+        "Portfolio pre-agreement: if F-01 and F-22 both survive P4, merge into one RF-components company - two L06 RF-chain startups is one too many."
+      ],
+      "duplicate_of": null,
+      "notes": "Single-source arbitrage (Comet 23.8% single-customer concentration, L05-034) with a sensible solid-state dual-track hedge bridging to F-01."
+    },
+    {
+      "idea_id": "P3R2-F-23",
+      "scores": {"novelty": 6, "elegance": 7, "controllability": 7, "vision": 7, "timing": 6},
+      "verdict": "FIX",
+      "required_fixes": [
+        "Binding 2029 gate: one named H2Hub lender/financier technical requirement or a developer LOI referencing instrumented warranty evidence, plus one OEM design-in agreement (the demand mechanism is anticipatory - developers buy only if lenders force).",
+        "The 2,000h A/B envelope-efficacy experiment must show a measurable degradation-rate reduction - the product's existence proof; binding.",
+        "Data-interface pre-agreement with C-22 (its benches calibrate F-23's maps); no duplicate bench build.",
+        "Scope (not assert) the battery/fuel-cell warranty retarget hedge by 2029."
+      ],
+      "duplicate_of": null,
+      "notes": "Most intelligent new L11 seed: converts published stress-degradation science into bankability hardware with genuinely independent US (H2Hub lender exposure) and CN (Kuqa-class utilization audits) legs."
+    }
+  ],
+  "f_verdict_totals": {"PROMOTE": 3, "FIX": 15, "REJECT": 5},
+  "f_merge_instructions": [
+    {"from": "P3R2-F-21", "into": "P3R2-F-02", "content": "entry SKU: catalog leads/feedthroughs, certified heat-load data, end-2031 <$1M milestone"},
+    {"from": "P3R2-F-18", "into": "P3R2-F-03", "content": "CN plant-integration/licensing chapter: EPC co-bidding memorandum, Xinjiang first-set alignment"},
+    {"from": "P3R2-F-14", "into": "P3R2-F-01", "content": "CN-chapter licensing mechanics: golden-reference + test-bench retention, Hengyunchang/Injet buyer evidence"},
+    {"from": "P3R2-F-08", "into": "P3R2-A-02", "content": "device-strategy workstream: 2027 SiC interruption-duty die characterization, fail-short press-pack qualification"}
+  ],
+  "fix_verification": [
+    {"idea_id": "P3R2-A-03", "ruling": "VERIFIED", "detail": "2027 written-guidance/LOI demand gate present; GFM leg dropped citing NESO negative finding with AEMO demoted to watch-item; E-14 complement positioning present."},
+    {"idea_id": "P3R2-A-16", "ruling": "VERIFIED", "detail": "Product rewritten as SKU family + licensed dispensing/containment process package with services bounded; 2028 anchor-packager LOI gate and head-to-head reliability kill gate present verbatim."},
+    {"idea_id": "P3R2-B-14", "ruling": "VERIFIED", "detail": "2028 named-export-program procurement-evidence gate present; pre-agreed fold-in to A-21 present; certification-burden moat argument retained; demand honestly reclassified as contingent option."},
+    {"idea_id": "P3R2-B-22", "ruling": "VERIFIED", "detail": "Retrofit SKU + cross-vendor failure-database moat in product; 2028 named design-win LOI gate in plan; US market kept active in risk field."},
+    {"idea_id": "P3R2-C-04", "ruling": "VERIFIED", "detail": "B-01 negative-pressure mechanism adopted as primary variant (L14-053 added); fluid-menu qualification dataset named as second moat; 2031 fluid kill retained and extended; confidence downgraded high->medium."},
+    {"idea_id": "P3R2-C-12", "ruling": "VERIFIED", "detail": "P4 competitor-map pre-promotion requirement present; CN license-only with flags changed (US, china_beachhead false); staged capex rule present; D-03/B-11 imports applied."},
+    {"idea_id": "P3R2-D-11", "ruling": "VERIFIED", "detail": "Kill date moved 2032-12 -> 2033-12 with imported CE>=4% gate; no-capital-before-gate rule and open acqui-license exit statement present; Gigaphoton second-buyer hedge (L12-053) added."},
+    {"idea_id": "P3R2-E-02", "ruling": "VERIFIED", "detail": "HARD GATE 2028 (two OEM development agreements, secured as consultant/licensor pre-company); fallback merge into B-01/C-04 loop stack present; shipment-share kill trigger made binding."}
+  ],
+  "fix_verification_summary": {"sampled": 8, "verified": 8, "incomplete": 0},
+  "market_flag_verification": [
+    {"idea_id": "P3R2-A-10", "expected": "US -> US+CN, china_beachhead true", "observed": "US+CN / true", "ruling": "MATCHES", "detail": "Partitioned >=28nm entity, B-05/C-06 imports, eligible CN sources (L06-042/043/044/054) added."},
+    {"idea_id": "P3R2-C-12", "expected": "US+CN -> US, china_beachhead false", "observed": "US / false", "ruling": "MATCHES"},
+    {"idea_id": "P3R2-C-21", "expected": "US+CN -> US, china_beachhead false", "observed": "US / false", "ruling": "MATCHES", "detail": "v1 capex also capped $12-30M -> $10-25M per ruling."}
+  ],
+  "new_flag_rulings_from_this_pass": [
+    {"idea_id": "P3R2-F-06", "ruling": "primary_market US+CN -> US, china_beachhead -> false", "reason": "Seed's own text: State Grid domestic-only, CN revenue 'license royalties at best' - same honesty condition that downgraded C-12/C-21. CN license chapter stays in text."},
+    {"idea_id": "P3R2-F-04", "ruling": "dual retained CONDITIONALLY", "reason": "CN leg thin (revenue attribution, not buyer evidence); P4 must name a CN pump/tool-OEM design-in channel or downgrade to US."},
+    {"idea_id": "P3R2-F-20", "ruling": "dual retained CONDITIONALLY", "reason": "No eligible evidence CN accelerator OEMs outsource precision HV; P4 must name a CN OEM/tender channel or reduce CN chapter to license notes."}
+  ],
+  "quota_reckoning": {
+    "survivor_set_a_to_e": ["P3R2-A-02", "P3R2-A-03", "P3R2-A-05", "P3R2-A-10", "P3R2-A-11", "P3R2-A-13", "P3R2-A-14", "P3R2-A-16", "P3R2-A-21", "P3R2-A-22", "P3R2-B-01", "P3R2-B-06", "P3R2-B-14", "P3R2-B-22", "P3R2-C-01", "P3R2-C-02", "P3R2-C-03", "P3R2-C-04", "P3R2-C-05", "P3R2-C-07", "P3R2-C-08", "P3R2-C-09", "P3R2-C-12", "P3R2-C-13", "P3R2-C-19", "P3R2-C-21", "P3R2-C-22", "P3R2-D-01", "P3R2-D-02", "P3R2-D-07", "P3R2-D-08", "P3R2-D-09", "P3R2-D-10", "P3R2-D-11", "P3R2-D-12", "P3R2-D-13", "P3R2-D-16", "P3R2-D-18", "P3R2-D-19", "P3R2-D-20", "P3R2-E-02", "P3R2-E-04", "P3R2-E-11", "P3R2-E-14"],
+    "survivor_set_f": ["P3R2-F-01", "P3R2-F-02", "P3R2-F-03", "P3R2-F-04", "P3R2-F-05", "P3R2-F-06", "P3R2-F-07", "P3R2-F-09", "P3R2-F-10", "P3R2-F-11", "P3R2-F-12", "P3R2-F-15", "P3R2-F-16", "P3R2-F-17", "P3R2-F-19", "P3R2-F-20", "P3R2-F-22", "P3R2-F-23"],
+    "counts": {
+      "total_distinct_concepts": 62,
+      "lanes_covered": 16,
+      "credible_us_legs": 53,
+      "credible_cn_legs": 35,
+      "dual_us_cn": 26,
+      "jp_tw_kr_primary": 0
+    },
+    "cn_leg_membership": {
+      "a_to_e_cn_primary": ["P3R2-B-01", "P3R2-B-06", "P3R2-B-14", "P3R2-B-22"],
+      "a_to_e_dual": ["P3R2-A-10", "P3R2-C-01", "P3R2-C-02", "P3R2-C-03", "P3R2-C-04", "P3R2-C-05", "P3R2-C-07", "P3R2-C-08", "P3R2-C-09", "P3R2-C-13", "P3R2-C-19", "P3R2-C-22", "P3R2-D-02", "P3R2-D-12"],
+      "f_dual": ["P3R2-F-01", "P3R2-F-02", "P3R2-F-03", "P3R2-F-04", "P3R2-F-05", "P3R2-F-07", "P3R2-F-09", "P3R2-F-10", "P3R2-F-19", "P3R2-F-20", "P3R2-F-22", "P3R2-F-23"],
+      "f_cn_primary": ["P3R2-F-11", "P3R2-F-12", "P3R2-F-15", "P3R2-F-16", "P3R2-F-17"],
+      "excluded_by_this_ruling": ["P3R2-F-06 (downgraded to US)"]
+    },
+    "gates": {
+      "total_ge_48": {"required": 48, "actual": 62, "result": "PASS"},
+      "lanes_ge_14": {"required": 14, "actual": 16, "result": "PASS"},
+      "us_ge_36": {"required": 36, "actual": 53, "result": "PASS"},
+      "cn_ge_36": {"required": 36, "actual": 35, "result": "FAIL_BY_1"},
+      "dual_ge_24": {"required": 24, "actual": 26, "result": "PASS"},
+      "jptwkr_le_8": {"required": 8, "actual": 0, "result": "PASS"}
+    },
+    "overall": "NOT YET PASSING - CN gate at 35/36. The swing item is the honesty downgrade of F-06; reversing it to hit quota would fabricate CN credibility and is refused. Sensitivity: if F-04 or F-20 CN gates fail in P4, CN drops to 33-34; if F-17's undated trigger is disqualified at freeze, 34.",
+    "remedies_in_preference_order": [
+      "Targeted micro-wave G of 2-3 CN-credible seeds in eligible-evidenced spaces no survivor uses: (a) CN big-science vacuum/components vs HEPS tender cadence (L07-045); (b) CN accelerator/cyclotron component localization vs mofcom centralized procurement (L05-036) beyond F-20's HV slice; (c) CN 800VDC conversion-base retrofit/commissioning instrumentation vs documented integration pain (L02-054), distinct from C-01's protection product. Route wave G through this judge before the longlist freeze.",
+      "P4-conditional upgrades already wired: evidencing F-04's named CN OEM channel or F-20's named CN OEM/tender channel lifts CN to 36-37 without new seeds.",
+      "Prohibited: resurrecting F-13/F-14, re-flagging F-06, or counting license-only CN chapters - quota-driven fabrication."
+    ],
+    "additional_flags": [
+      "Stale source: L16-028 (2022) carries both F-10 and F-11 CN channels - refresh before final scoring (rule 18).",
+      "Single-source TAM: RMB100B sintering retrofit (L04-051) touches F-03/F-18 - triangulation is a pre-scale gate.",
+      "Concentration caps at portfolio selection: L06 RF chain (A-10/F-01/F-22/B-06); L11 max two of (C-07/C-22/F-15/F-23); L10 (A-21/B-14/F-05/F-07/F-12); fusion-correlated BOP (D-01/D-02/F-02/C-12)."
+    ]
+  }
+}

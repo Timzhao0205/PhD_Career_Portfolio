@@ -87,9 +87,6 @@ is pursuing a parallel, less-transparent space-reactor development track (L09-01
   thrusters (Aerojet Rocketdyne), four BHT-6000 thrusters (Busek), and PPU/xenon-flow-controller
   power electronics (Moog); qualification/flight hardware fabrication had begun as of the 2022
   status report (L09-043).
-- **ISRO** -- completed a 1000-hour vacuum life test (announced March 28, 2025) of a 300mN,
-  5.4kW-class Xenon Stationary Plasma Thruster, targeting in-orbit validation on Technology
-  Demonstration Satellite (TDS-01) for GEO orbit-raising (L09-035).
 - **JAXA + Furukawa Electric (J-SPARC)** -- co-development announcement (March 15, 2021) to
   commercialize a GaN-based Hall-thruster power supply for small satellites, targeting FY2025
   on-orbit demonstration and FY2026+ commercialization (L09-042).
@@ -131,7 +128,6 @@ is pursuing a parallel, less-transparent space-reactor development track (L09-01
 | Furukawa Electric | JP | GaN-based Hall-thruster power supply, JAXA J-SPARC co-development, targeting FY2026+ commercialization | L09-042 |
 | Korea Aerospace Research Institute (KARI) | KR | Full-electric-propulsion GEO satellite design-study (R&D stage, not yet flying) | L09-019 |
 | Space Propulsion Centre, NTU | SG | Low-power EP research niche (reviews only found this session, no hardware/procurement signal) | L09-022, L09-024 |
-| ISRO | IN | 300mN/5.4kW Stationary Plasma Thruster, 1000hr life-tested, targeting TDS-01 flight | L09-035 |
 
 ## 2026-2031 triggers
 
@@ -179,9 +175,8 @@ is pursuing a parallel, less-transparent space-reactor development track (L09-01
 - **Flight heritage vs. R&D stage:** China (indigenous magnetic-anode Hall thruster, first flight
   reported ~Dec 2024 per this session's WebSearch context) and the US (AEPS, NEXT-C, BHT-6000, all
   flight-qualified or flying) both have operational Hall/ion EP hardware in orbit today. Korea
-  (L09-019) and India (L09-035) are each one step behind -- Korea at the design-study stage for
-  full-EP GEO satellites, India having just completed ground life-testing ahead of a planned
-  technology-demonstration flight (TDS-01) -- while Singapore's contribution found this session was
+  (L09-019) is one step behind -- at the design-study stage for
+  full-EP GEO satellites -- while Singapore's contribution found this session was
   limited to academic review literature (L09-022, L09-024) with no hardware-procurement signal.
 - **Radiation-hardening research leadership:** the strongest primary (non-review) GaN
   radiation-effects paper found this session was Chinese (National Space Science Center, CAS,
@@ -366,3 +361,17 @@ power-hardware business (L09-114, fetched via a third-party SEC-filing aggregato
 itself returned HTTP 403 to direct fetch -- flagged transparently in that record's notes). No record
 in this addendum duplicates a canonical_key, DOI, or title already present in
 `L09_raw_sources.json` or `L09_verified_sources.json`.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L09-035
+- removed/trimmed claims: deleted the "ISRO 1000-hour vacuum life test / TDS-01" buyer-signal
+  bullet from "Named buyers and spending signals" (rested solely on L09-035); deleted the ISRO
+  table row from "Incumbent map" (rested solely on L09-035); trimmed the India/ISRO clause out of
+  the Korea-vs-India "Flight heritage vs. R&D stage" comparison sentence in "US vs Asia
+  differences," leaving the Korea (L09-019) comparison intact. Note: L09-051's "Research and
+  Markets" citation (line ~196, Unresolved contradictions #1) was checked and is NOT excluded --
+  its verified-sources record confirms Research and Markets/ResearchAndMarkets.com is Dublin,
+  Ireland-headquartered, independently checked and cleared under the India-origin audit, so it was
+  left unchanged. P4 must re-source any ISRO/TDS-01 electric-propulsion demand or flight-heritage
+  claim from an eligible (non-India-origin) provider before reuse.

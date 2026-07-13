@@ -11,16 +11,14 @@ Industrial plasma splits into four evidence clusters found this session:
 
 - **Plasma chemistry / electrification of chemical conversion.** Non-thermal and gliding-arc
   plasma for N2 fixation (ammonia/NOx fertilizer), CO2 conversion (to CO, methanol, higher
-  hydrocarbons), and VOC/odor abatement is a large, active peer-reviewed literature (L01-001–010,
-  014–021, 025–029). Reactor engineering has moved from single-cell demonstrations toward
+  hydrocarbons), and VOC/odor abatement is a large, active peer-reviewed literature (L01-001–005,
+  007–009, 014–021, 025, 027–029). Reactor engineering has moved from single-cell demonstrations toward
   numbering-up/sizing-up strategies (L01-014, 015, 016) explicitly aimed at industrial throughput,
   but review articles as recent as 2020–2024 still describe the technology as pre-industrial
   (L01-009, L01-028: "currently only performed on lab-scale... not yet implemented in industrial
   processes").
 - **Atmospheric-pressure surface treatment.** A mature, already-commercial equipment category
-  (textiles, packaging, electronics, medical, automotive) with two consultancy market-size
-  estimates that disagree by ~73% (L01-051 vs. L01-052) — see contradictions below. Equipment
-  unit price is consistently cited around $5,000–$8,000 (L01-052), i.e., low capex per tool but a
+  (textiles, packaging, electronics, medical, automotive), i.e., low capex per tool but a
   large *installed base* opportunity.
 - **RF/pulsed power supplies and matching networks.** A duopoly-like vendor structure (Advanced
   Energy, MKS/Plasmart, Comet, TRUMPF Hüttinger) supplies 13–60 MHz, sub-kW to tens-of-kW RF
@@ -33,8 +31,7 @@ Industrial plasma splits into four evidence clusters found this session:
   non-semiconductor industrial plasma too.
 - **Plasma torches and thermal plasma processing** (waste gasification, metal cutting, PFAS
   destruction, vitrification). This is where the clearest *paid, delivered* US demand sits
-  (PyroGenesis contracts, L01-034/035/036), alongside the clearest *repeated commercial failures*
-  (Air Products, Thermoselect, Plasco, Pune — L01-042, L01-054).
+  (PyroGenesis contracts, L01-034/035/036).
 
 ## 2. Bottlenecks
 
@@ -50,13 +47,6 @@ Industrial plasma splits into four evidence clusters found this session:
   Non-thermal plasma physics (short-timescale, non-equilibrium electron energy distribution) does
   not scale the way thermal reactors do — bigger volumes lose the non-equilibrium character that
   makes selective chemistry work.
-- **Feedstock heterogeneity and tar/contamination management** repeatedly blamed for plasma
-  gasification project failures (L01-042, L01-054): "waste is too heterogeneous to be able to
-  treat... using current technology."
-- **Market-sizing itself is unreliable** in this space: two named consultancies estimate the same
-  2025 plasma-surface-treatment market at $4.5B and $2.6B respectively (L01-051 vs. L01-052) — a
-  73% spread with no visible bottom-up reconciliation. Any TAM claim sourced only from one
-  consultancy report in this lane should be treated as unverified.
 - **RF/matching-network engineering complexity** rises with multi-frequency "tailored voltage
   waveform" plasma control (L01-012, 013) — a real, active area of publication, meaning
   state-of-the-art matching is still a research problem, not a solved commodity, at the frontier
@@ -82,10 +72,6 @@ Industrial plasma splits into four evidence clusters found this session:
   Institute** — awarded a PECVD (plasma-enhanced CVD) equipment contract via China's official
   MOFCOM e-procurement portal, announced 2026-03-19 (L01-039). Defense-industrial buyer of
   plasma-deposition equipment.
-- **NTPC (National Thermal Power Corporation, India)**, via its NETRA R&D arm — building a
-  demonstration plasma-oxy-gasification plant converting ~25 t/day MSW/agri-waste to ~1 t/day
-  green H2 (L01-041). Majority government-owned; treat as a government-adjacent buyer signal, not
-  yet a scaled commercial order.
 - **NEDO (Japan)** — funding a FY2025–2027 "ammonia and plasma" carbon-recycling R&D project
   (Tokai National Universities + Kawada Industries) under its CO2 Effective Utilization Hub,
   targeting practical implementation ~2030 (L01-043).
@@ -111,16 +97,14 @@ Industrial plasma splits into four evidence clusters found this session:
 | Comet Group / Comet PCT (Switzerland) | Synertia, cito Plus, cito RF generators | 13–60 MHz, 0.6–6 kW, pulsing to 100 kHz (L01-050); no price disclosed |
 | TRUMPF Hüttinger (Germany) | TruPlasma RF Series 1000/3000 | Claims up to 80% efficiency, 50% energy-cost cut vs. conventional (L01-049, vendor claim) |
 | PyroGenesis Canada Inc. | MW-class plasma torches (1MW–20MW) | $4.1M/$27M/$2.25M US contracts (L01-034/035/036) |
-| Westinghouse Plasma Company (US) | Plasma gasification torches | Full-scale plants built in Japan (2002-03) and India (2009); legacy tech (L01-054) |
-| InEnTec (US) | Plasma Enhanced Melter (PEM) | 13 facilities worldwide (per search synthesis, L01-053/054 context) |
+| InEnTec (US) | Plasma Enhanced Melter (PEM) | 13 facilities worldwide (per search synthesis, L01-053 context) |
 | OMNI Conversion Technologies | OMNI200 GPRS plasma-refining gasifier | 200 t/day capacity claim, "99.95% tar removal" (L01-053, vendor claim via industry association) |
 | Nitricity, Inc. (US) | Non-thermal plasma N-fixation reactor | $50M Series B (L01-032); Delhi, CA plant sold out through 2028 (L01-031) |
 | N2 Applied AS (Norway) | Plasma-treated slurry fertilizer unit | €10M raised, GEA distribution partnership (L01-033) |
 | KIMM (Korea, government institute) | Full-spectrum plasma equipment (vacuum→atmospheric) | "World-first" semiconductor-contamination-removal plasma equipment commercialized 2013 (L01-047) |
 | NAURA / Piotech / ACM Research (China) | Plasma etch/deposition tools | Q1 2026 revenue +26–57% YoY (L01-044) |
 
-**Pricing signals found:** atmospheric plasma surface-treatment tools ~$5,000–$8,000/unit
-(L01-052, one consultancy only); RF generators 0.6–6 kW commodity-priced but undisclosed
+**Pricing signals found:** RF generators 0.6–6 kW commodity-priced but undisclosed
 (L01-049, 050); MW-class plasma torches run into the multi-million-dollar range per unit
 (L01-034/035 implied by $4.1M/$27M contract values, though contracts likely bundle engineering,
 integration, and multi-year service, not a single unit price).
@@ -135,10 +119,6 @@ integration, and multi-year service, not a single unit price).
   US EPA-driven PFAS regulation (not independently confirmed this session — flagged for
   government/regulator lane cross-check) is the most likely regulatory trigger multiplying this
   demand 2026–2031.
-- **India:** National Green Hydrogen Mission subsidy decisions are a live trigger/anti-trigger —
-  it already declined to fund the Pune project (L01-042) but NTPC/NETRA continues a smaller
-  demonstration (L01-041); mission subsidy policy shifts 2026-2028 will determine whether India's
-  plasma-gasification-to-hydrogen efforts scale or repeat the Pune outcome.
 - **China:** Two live 2025/2026 ASIPP tenders (L01-037, 038) plus a March 2026 AVIC PECVD award
   (L01-039) show continued state-institute capital deployment into plasma power electronics;
   China's VOCs emissions-standards regime (2020 Management Plan, per search synthesis around
@@ -160,18 +140,10 @@ integration, and multi-year service, not a single unit price).
   (AVIC/Xi'an institute, L01-039), plus commercial semiconductor-equipment vendor growth
   (NAURA/Piotech/ACM, L01-044) — i.e., government and quasi-government buyers dominate the
   Chinese evidence trail collected here, more than commercial industrial end-users.
-- **Japan** evidence centers on a government-funded (NEDO) long-horizon (2030) carbon-recycling
-  R&D bet (L01-043) and historical Westinghouse-licensed plasma-gasification plant construction
-  (2002-03, L01-054) — i.e., Japan has already tried thermal-plasma waste treatment at scale
-  historically, which should inform skepticism about "new" pitches in that specific niche.
 - **Korea** evidence (KIMM, L01-047) shows a government research institute that has already
   achieved a "world-first" plasma-equipment commercialization (semiconductor contamination
   removal, 2013) — Korea's plasma-equipment ecosystem appears semiconductor-anchored, similar to
   the US MKS/Advanced Energy pattern, but state-research-institute-led rather than pure-private.
-- **India** evidence (NTPC/NETRA, L01-041; Pune failure, L01-042) shows a government-linked buyer
-  actively experimenting with plasma gasification for hydrogen, but with a very recent, well
-  documented public failure (Pune) that should heavily discount near-term optimism about
-  India-specific plasma-gasification demand.
 - **Singapore** evidence (A*STAR SIMTech, L01-055) is older (2013) and research-stage
   (roll-to-roll PET activation for solar coatings) with no confirmed commercialization outcome —
   weakest demand signal of the Asian sources collected.
@@ -181,20 +153,7 @@ integration, and multi-year service, not a single unit price).
 
 ## 7. Unresolved contradictions
 
-1. **Market size for plasma surface-treatment equipment**: Growth Market Reports says $4.5B
-   (2025) → $8.2B (2034); Persistence Market Research says $2.6B (2025) → $3.9B (2032) — a ~73%
-   discrepancy in the *same-year* estimate for what appears to be the same market definition
-   (L01-051 vs. L01-052). Neither shows bottom-up arithmetic. Do not use either figure as a TAM
-   without independent triangulation.
-2. **Plasma gasification: vendor optimism vs. graveyard of failures.** GSTC/OMNI CT (L01-053)
-   and NTPC/NETRA (L01-041) present plasma gasification as viable, cost-competitive, and
-   commercially maturing ("mature gasification process on the market today"). Meanwhile,
-   CleanTechnica (L01-042) and AII (L01-054) document Air Products' $900M–$1B write-off (2016),
-   Thermoselect's >$500M loss, Plasco Energy's 2015 bankruptcy, and Pune's 2025 collapse before a
-   single kilogram of product was made. Both sets of sources are contemporaneous or near-
-   contemporaneous (2024-2026) — this is a live, unresolved credibility gap, not an old-vs-new
-   story.
-3. **ARPA-E/Nitricity award details are unconfirmed.** The only mention of a specific ARPA-E
+1. **ARPA-E/Nitricity award details are unconfirmed.** The only mention of a specific ARPA-E
    dollar figure and "10x efficiency" target for plasma nitrogen fixation (L01-030) could not be
    verified by direct fetch this session (page returned only navigation chrome). Nitricity's own
    $50M Series B announcement (L01-032) does not mention any ARPA-E/DOE award at all. This
@@ -213,58 +172,47 @@ integration, and multi-year service, not a single unit price).
    conversion) cannot scale as single large units — the whole field is stuck "numbering up" many
    small cells, each needing its own power supply and matching network, which multiplies capital
    and reliability burden. **Who pays:** distributed-fertilizer and carbon-recycling project
-   developers (Nitricity, N2 Applied, NEDO-funded consortia). **Evidence:** L01-006, 014, 015,
+   developers (Nitricity, N2 Applied, NEDO-funded consortia). **Evidence:** L01-014, 015,
    016, 031, 033, 043.
 2. **Pain:** RF plasma power supplies for advanced multi-frequency "tailored voltage waveform"
    processes still require bespoke, actively-researched impedance-matching solutions — commodity
    matching networks do not cover the frontier use case. **Who pays:** semiconductor-adjacent and
    advanced-materials plasma-process developers licensing from Advanced Energy/MKS/Comet/TRUMPF.
    **Evidence:** L01-012, 013, 040, 049, 050.
-3. **Pain:** Plasma-gasification waste-to-fuel/hydrogen projects keep failing on feedstock
-   heterogeneity, tar/contamination control, and underestimated system-level energy balance —
-   yet government buyers (India's NTPC, historically Japan) keep re-attempting the same basic
-   architecture. **Who pays:** government-linked utilities and municipal waste authorities.
-   **Evidence:** L01-041, 042, 053, 054.
-4. **Pain:** PFAS ("forever chemical") remediation has an actively growing, currently-funded US
+3. **Pain:** PFAS ("forever chemical") remediation has an actively growing, currently-funded US
    federal buyer (DoD) willing to pay multi-million-dollar contracts for plasma-torch-based
    destruction, but only one confirmed vendor (PyroGenesis) with delivered contracts found this
    session — a thin, concentrated supplier base against a reportedly $200B+ addressable
    remediation market. **Who pays:** US DoD and (per vendor claims) broader industrial/
    environmental-remediation buyers. **Evidence:** L01-036.
-5. **Pain:** Market-size estimates for even a "mature," already-commercial plasma-equipment
-   category (atmospheric surface treatment) disagree by ~73% between named consultancies with no
-   visible bottom-up reconciliation — anyone underwriting a plasma-equipment business plan off a
-   single market report is working from unverified numbers. **Who pays:** N/A (this is a
-   diligence/analysis gap, not itself a paying customer) — but it is a real constraint on how
-   confidently any TAM claim in this lane can be used. **Evidence:** L01-051, 052.
-6. **Pain:** Defense/aerospace primes are already paying tens of millions of dollars for
+4. **Pain:** Defense/aerospace primes are already paying tens of millions of dollars for
    ever-larger (4.5MW → 20MW) commercial plasma torches from a single small-cap Canadian supplier,
    implying an internal need (described only as "critical defense, military, and aeronautics
    challenges," confidential) that is scaling faster than the supplier's own prior backlog.
    **Who pays:** a confidential US aeronautics/defense prime contractor. **Evidence:** L01-034,
    035.
-7. **Pain:** Chinese state research institutes (ASIPP) and defense-industrial buyers (AVIC/
+5. **Pain:** Chinese state research institutes (ASIPP) and defense-industrial buyers (AVIC/
    Xi'an institute) are actively procuring high-voltage/high-current plasma power electronics
    and PECVD equipment via public tenders, but technical specification detail is opaque (PDF
    text extraction failed for the two ASIPP tenders this session) — meaning competitive/pricing
    intelligence on this specific demand is currently poor from open sources. **Who pays:**
    Chinese state research institutes and state-owned aviation-industry buyers. **Evidence:**
    L01-037, 038, 039.
-8. **Pain:** Livestock-slurry and organic-fertilizer plasma-treatment ventures (N2 Applied,
+6. **Pain:** Livestock-slurry and organic-fertilizer plasma-treatment ventures (N2 Applied,
    Nitricity) are reporting real forward customer commitment (sold-out capacity, distribution
    partnerships) years before reaching industrial-average cost parity with Haber-Bosch ammonia —
    suggesting the customer segment (small/regional organic growers, livestock operations) may
    value on-site/low-carbon sourcing enough to pay a premium over pure $/kg-N economics.
    **Who pays:** regional organic growers (Nitricity, California) and livestock/dairy operations
    (N2 Applied, via GEA). **Evidence:** L01-031, 033.
-9. **Pain:** Plasma nitriding of precision tool steels has an actively updated international
+7. **Pain:** Plasma nitriding of precision tool steels has an actively updated international
    standard (ISO 24674:2022) and continuing peer-reviewed materials-science output (L01-022, 023,
    024), suggesting steady industrial tooling demand, but no primary-source pricing, volume, or
    named-buyer procurement evidence was found this session for plasma-nitriding *service* or
    *equipment* purchases specifically (as opposed to general market reports). **Who pays:**
    precision toolmakers/mold-makers (unconfirmed which specific buyers). **Evidence:** L01-022,
    023, 024, 046.
-10. **Pain:** Non-thermal plasma VOC/odor abatement has strong peer-reviewed technical support
+8. **Pain:** Non-thermal plasma VOC/odor abatement has strong peer-reviewed technical support
     (up to 99% removal claimed in some field tests, L01-025) and a plausible Chinese regulatory
     trigger (VOCs emissions standards), but no confirmed primary buyer-tender or company-filing
     evidence of industrial VOC-plasma-abatement purchases was found this session — this is a
@@ -322,3 +270,25 @@ SEC.gov URL also 403'd but was independently fetched via a StockTitan filing-mir
 records
 `accepted: false`, `peer_review_status` left `unverified`/`not_applicable` per top-up
 instructions, pending verifier review.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L01-006, L01-010, L01-026, L01-041, L01-042, L01-051, L01-052, L01-054
+- removed/trimmed claims:
+  - Trimmed the N2-fixation/CO2/VOC literature range citation to exclude L01-006 and L01-010 (Sec. 1).
+  - Deleted the atmospheric-surface-treatment ~73% consultancy market-size-disagreement claim and the ~$5,000-$8,000 unit-price claim (Sec. 1, Sec. 4 pricing paragraph, Sec. 7 contradiction) — needs a re-sourced TAM and unit-price figure from an eligible market-research provider.
+  - Deleted the "repeated commercial failures" clause (Air Products, Thermoselect, Plasco, Pune) from the plasma-torches frontier-state bullet (Sec. 1) — needs re-sourcing from eligible providers if this claim is to be retained.
+  - Deleted the "Feedstock heterogeneity and tar/contamination management" bottleneck bullet in full (Sec. 2) — needs a fresh, eligible source for the gasification-failure/heterogeneity claim.
+  - Deleted the "Market-sizing itself is unreliable" bottleneck bullet in full (Sec. 2).
+  - Deleted the NTPC/NETRA India named-buyer entry in full (Sec. 3).
+  - Deleted the Westinghouse Plasma Company incumbent-table row in full (Sec. 4) — needs a re-sourced legacy-tech reference if retained.
+  - Trimmed InEnTec incumbent-table row to drop the L01-054 citation, keeping only L01-053 (Sec. 4).
+  - Deleted the India National Green Hydrogen Mission trigger bullet in full (Sec. 5).
+  - Deleted the Japan "historical Westinghouse-licensed plasma-gasification plant" bullet in full (Sec. 6, US vs. Asia) — needs re-sourcing if the historical-Japan-plant claim is retained.
+  - Deleted the India government-linked-buyer/Pune-failure bullet in full (Sec. 6, US vs. Asia).
+  - Deleted contradiction item "Market size for plasma surface-treatment equipment" (Growth Market Reports vs. Persistence Market Research) in full (Sec. 7).
+  - Deleted contradiction item "Plasma gasification: vendor optimism vs. graveyard of failures" in full (Sec. 7) — needs re-sourced evidence on both sides (viability and failure) from eligible providers.
+  - Trimmed pain-statement item (numbering-up reactors) evidence list to drop L01-006 (Sec. 8, now item 1).
+  - Deleted pain-statement item "Plasma-gasification waste-to-fuel/hydrogen projects keep failing..." in full (Sec. 8) — needs re-sourced heterogeneity/failure and India-NTPC evidence from eligible providers.
+  - Deleted pain-statement item "Market-size estimates for even a 'mature'... plasma-equipment category" in full (Sec. 8).
+  - Renumbered remaining Sec. 7 contradiction items and Sec. 8 pain-statement items sequentially after deletions.

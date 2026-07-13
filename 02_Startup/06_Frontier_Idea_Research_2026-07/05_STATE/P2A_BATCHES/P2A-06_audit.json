@@ -1,0 +1,840 @@
+{
+ "batch_id": "P2A-06",
+ "audited_at": "2026-07-12T20:00:00Z",
+ "model": "claude-sonnet-5",
+ "effort": "high",
+ "entries": [
+  {
+   "id": "L07-020",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [
+    {"name": "AbbVie", "country": "US"},
+    {"name": "Purdue University (Birck Nanotechnology Center)", "country": "US"},
+    {"name": "Ultragenyx Pharmaceutical Inc.", "country": "US"},
+    {"name": "Baxter Healthcare", "country": "US"},
+    {"name": "Pfizer", "country": "US"},
+    {"name": "Genentech", "country": "US"},
+    {"name": "BMS (Bristol Myers Squibb)", "country": "US"},
+    {"name": "Fresenius Kabi", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 15,
+   "evidence_urls": [
+    "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8575750/"
+   ],
+   "useful_lead": "",
+   "notes": "OpenAlex resolved 13/15 authors to US pharma/university employers; 2 authors (Puneet Sharma, Lavanya Iyer) had no institution in OpenAlex despite Indian-sounding names -- never inferred from name, resolved via direct PMC affiliation list fetch to Genentech (US) and BMS (US) respectively. All 15 authors confirmed US, none India."
+  },
+  {
+   "id": "L07-021",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Center for Drug Evaluation and Research (US FDA)", "country": "US"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors are US FDA/CDER staff."
+  },
+  {
+   "id": "L07-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Xi'an Jiaotong University", "country": "CN"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "Confirms the record's tentative CN geography guess; both authors at Xi'an Jiaotong University."
+  },
+  {
+   "id": "L07-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Joint Research Centre (EU JRC, Ispra site)", "country": "IT"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "OpenAlex resolves all 3 authors to the EU Joint Research Centre, Italy -- supersedes the record's unresolved GB/Belgian-French speculation; not India either way."
+  },
+  {
+   "id": "L07-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Advanced Science Research Center", "country": "JP"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors at a Japanese fusion/tritium research center."
+  },
+  {
+   "id": "L07-025",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [{"name": "Toyo Oxygen Co., Ltd., Cryogenic Research Laboratory", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.jstage.jst.go.jp/article/jcsj1966/28/10/28_10_569/_article/-char/ja/"],
+   "useful_lead": "",
+   "notes": "Sole-author paper; employer named directly in the citation (Toyo Oxygen Co., a Japanese industrial-gas company), not separately resolved via OpenAlex."
+  },
+  {
+   "id": "L07-026",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [{"name": "Nippon Vacuum Technology Co., Ltd.", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.jstage.jst.go.jp/article/oubutsu1932/69/1/69_1_22/_pdf"],
+   "useful_lead": "",
+   "notes": "Sole-author paper; Japanese company employer named directly in citation."
+  },
+  {
+   "id": "L07-027",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [{"name": "Institute of Industrial Science, University of Tokyo", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.jstage.jst.go.jp/article/jvsj1958/24/3/24_3_116/_article/-char/ja/"],
+   "useful_lead": "",
+   "notes": "Sole-author paper; University of Tokyo affiliation named directly in citation."
+  },
+  {
+   "id": "L07-028",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Organization for Standardization (ISO)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iso.org/standard/73312.html"],
+   "useful_lead": "",
+   "notes": "ISO headquartered in Geneva, Switzerland; unambiguous major standards body."
+  },
+  {
+   "id": "L07-029",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ASTM International", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://store.astm.org/e0499_e0499m-11r17.html"],
+   "useful_lead": "",
+   "notes": "ASTM International HQ West Conshohocken, Pennsylvania, USA."
+  },
+  {
+   "id": "L07-030",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "SEMI (Semiconductor Equipment and Materials International)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://store-us.semi.org/products/f01900-semi-f19-specification-for-the-surface-condition-of-the-wetted-surfaces-of-stainless-steel-components"],
+   "useful_lead": "",
+   "notes": "SEMI HQ Milpitas, California, USA."
+  },
+  {
+   "id": "L07-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "SEMI (Semiconductor Equipment and Materials International)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://store-us.semi.org/products/f02000-semi-f20-specification-for-316l-stainless-steel-bar-forgings-extruded-shapes-plate-and-tubing-for-components-used-in-general-purpose-high-purity-and-ultra-high-purity-semiconductor-manufacturing-applications"],
+   "useful_lead": "",
+   "notes": "SEMI HQ Milpitas, California, USA."
+  },
+  {
+   "id": "L07-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "NASA", "country": "US"},
+    {"name": "University of Akron", "country": "US"},
+    {"name": "University of Toledo", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://ntrs.nasa.gov/api/citations/20150004094/downloads/20150004094.pdf"],
+   "useful_lead": "",
+   "notes": "US government technical report (NASA NTRS), authors at US universities."
+  },
+  {
+   "id": "L07-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Fusion for Energy (EU Domestic Agency)", "country": "ES"},
+    {"name": "Japan Atomic Energy Agency (JAEA)", "country": "JP"},
+    {"name": "QST", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://fusionforenergy.europa.eu/news/milestone-progress-on-the-assembly-of-jt-60sa-vacuum-vessel/"],
+   "useful_lead": "",
+   "notes": "F4E HQ Barcelona, Spain (EU agency); JAEA/QST are Japanese national labs."
+  },
+  {
+   "id": "L07-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NASA Glenn Research Center / Neil Armstrong Test Facility", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nasa.gov/centers-and-facilities/glenn/space-environments-complex/"],
+   "useful_lead": "",
+   "notes": "US government facility (.gov domain)."
+  },
+  {
+   "id": "L07-036",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Kurt J. Lesker Company", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.lesker.com/newweb/feedthroughs/power_feedthroughs.cfm?pgid=20kv_cf"],
+   "useful_lead": "",
+   "notes": "Kurt J. Lesker Company HQ Jefferson Hills, Pennsylvania, USA."
+  },
+  {
+   "id": "L07-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "SAES Getters S.p.A.", "country": "IT"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.saesgetters.com/highvacuum/solution/neg-coating/"],
+   "useful_lead": "",
+   "notes": "SAES Getters HQ Lainate (Milan), Italy."
+  },
+  {
+   "id": "L07-038",
+   "verdict": "discovery_only",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Mordor Intelligence", "country": "IN"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": [
+    "https://www.mordorintelligence.com/contact-us",
+    "https://tracxn.com/d/legal-entities/india/mordor-intelligence-private-limited/__ZK5CODUHnn0icsedphbBLAImEPtJDBQAwzCDBYgfmSQ"
+   ],
+   "useful_lead": "Global vacuum pump market size claim (~USD 7.56B 2025 -> USD 10.81B 2030, 7.41% CAGR) originates from Mordor Intelligence, headquartered at Rajapushpa Summit, Financial District, Gachibowli, Hyderabad, Telangana, India (confirmed via the firm's own contact-us page, which lists only the Hyderabad office, and its ROC-Hyderabad company registration). Needs independent confirmation from a non-Indian market-research firm or trade association before use in market sizing.",
+   "notes": "Distributed via researchandmarkets.com (a US/Irish aggregator) but the underlying report author, Mordor Intelligence, is India-headquartered with no non-India office listed on its own contact page -- binding India-origin exclusion applies regardless of the distribution channel's location."
+  },
+  {
+   "id": "L07-039",
+   "verdict": "discovery_only",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Valuates Reports", "country": "IN"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": ["https://reports.valuates.com/contactus/index.html"],
+   "useful_lead": "Semiconductor dry vacuum pump market TAM figures and vendor-concentration claim (Atlas Copco/Edwards, Ebara, Pfeiffer, Kashiyama, ULVAC among ~15 named vendors, informal 'top-6 = 62% share') originate from Valuates Reports/MarketGrowthReports, headquartered at Balaraj's Arcade, Whitefield, Bangalore, Karnataka, India (confirmed via the firm's own contact page, which lists only the Bangalore office and an India phone number alongside a US toll-free forwarding line). Needs independent non-Indian confirmation before use in market sizing or competitive-structure claims; the named-vendor list itself may be separately corroborable from vendor-side sources.",
+   "notes": "India-registered consultancy using a US toll-free number as its only US-facing contact point; no physical non-India office found."
+  },
+  {
+   "id": "L07-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ITER Organization", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iter.org/industry/procurement/overview-tenders/open-tenders"],
+   "useful_lead": "",
+   "notes": "ITER Organization HQ Saint-Paul-lez-Durance, France."
+  },
+  {
+   "id": "L07-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ITER Organization", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iter.org/industry/procurement/overview-tenders/open-tenders"],
+   "useful_lead": "",
+   "notes": "ITER Organization HQ France."
+  },
+  {
+   "id": "L07-043",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ITER Organization", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iter.org/industry/procurement/overview-tenders/open-tenders"],
+   "useful_lead": "",
+   "notes": "ITER Organization HQ France."
+  },
+  {
+   "id": "L07-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "ITER Organization", "country": "FR"},
+    {"name": "MAP Industrial Projects, S.L.", "country": "ES"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.iter.org/industry/procurement/overview-tenders/open-tenders"],
+   "useful_lead": "",
+   "notes": "ITER (France) and named awardee MAP Industrial Projects (Spain)."
+  },
+  {
+   "id": "L07-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Institute of High Energy Physics, Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.ccnta.cn/article/7832.html"],
+   "useful_lead": "",
+   "notes": "IHEP/CAS HQ Beijing, China; tender published on China's official tender platform."
+  },
+  {
+   "id": "L07-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Hansung Clean Tech", "country": "KR"},
+    {"name": "CBC News (cbci.co.kr)", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.cbci.co.kr/news/articleView.html?idxno=582691"],
+   "useful_lead": "",
+   "notes": "Both the disclosing company (Hansung Clean Tech) and the reporting outlet (CBC News, a Korean economic/financial news site) are South Korea-based."
+  },
+  {
+   "id": "L07-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Hansung Clean Tech", "country": "KR"},
+    {"name": "Nate (SK Communications)", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://news.nate.com/view/20260519n18186"],
+   "useful_lead": "",
+   "notes": "Nate is a well-known Korean web portal operated by SK Communications, Seoul."
+  },
+  {
+   "id": "L07-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Ichor Holdings, Ltd.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sec.gov/Archives/edgar/data/1652535/000165253526000012/ichr-20251226.htm"],
+   "useful_lead": "",
+   "notes": "SEC EDGAR filer, principal executive offices Fremont, California, USA."
+  },
+  {
+   "id": "L07-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "MKS Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sec.gov/Archives/edgar/data/1049502/000119312526133426/d101621dars.pdf"],
+   "useful_lead": "",
+   "notes": "SEC EDGAR filer, HQ Andover, Massachusetts, USA."
+  },
+  {
+   "id": "L07-051",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "EBARA Corporation", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://ebara.com/global-en/newsroom/2025/20251217-01/"],
+   "useful_lead": "",
+   "notes": "EBARA Corporation HQ Tokyo, Japan."
+  },
+  {
+   "id": "L07-052",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ULVAC, Inc.", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://data.swcms.net/file/ulvac-ir/dam/jcr:6cbea6e0-1784-4106-8003-fb5973f19310/S100WQX1.pdf"],
+   "useful_lead": "",
+   "notes": "ULVAC HQ Chigasaki, Kanagawa, Japan; mandatory Japanese securities filing."
+  },
+  {
+   "id": "L07-053",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "INFICON Holding AG", "country": "CH"},
+    {"name": "EQS Group AG (distribution channel)", "country": "DE"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": [
+    "https://www.eqs-news.com/news/inside-information-ad-hoc-release/after-strong-fourth-quarter-inficon-closes-2025-at-record-sales-level/7bef46be-c444-4c35-be87-789a1a74b6b1_en",
+    "https://www.eqs.com/en-us/about-eqs/locations/"
+   ],
+   "useful_lead": "",
+   "notes": "INFICON HQ Bad Ragaz, Switzerland (SIX-listed, mandatory ad-hoc disclosure). Distribution via EQS Group, HQ Munich, Germany; EQS lists a Kochi, India office among many global offices but is not India-headquartered."
+  },
+  {
+   "id": "L07-054",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "US Department of Defense, Missile Defense Agency", "country": "US"},
+    {"name": "Sierra Lobo, Inc.", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.sbir.gov/awards/105458", "https://sierralobo.com/"],
+   "useful_lead": "",
+   "notes": "US government award; recipient Sierra Lobo HQ Fremont, Ohio, USA."
+  },
+  {
+   "id": "L08-001",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Institute of Electrical Engineering, Chinese Academy of Sciences / University of Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 5 authors at CAS/UCAS, China."
+  },
+  {
+   "id": "L08-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Zhejiang Medicine", "country": "CN"},
+    {"name": "Western Caspian University", "country": "AZ"},
+    {"name": "University of Tabuk", "country": "SA"},
+    {"name": "University of Lahore", "country": "PK"},
+    {"name": "Universitat Politecnica de Catalunya", "country": "ES"},
+    {"name": "Zhejiang University", "country": "CN"},
+    {"name": "Nanjing University of Aeronautics and Astronautics", "country": "CN"},
+    {"name": "Hawassa University", "country": "ET"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "6 co-authors, affiliations span China, Azerbaijan, Saudi Arabia, Pakistan, Spain, Ethiopia -- none Indian. Author 'Rajkumar Sivanraju' has an Indian-sounding name but is resolved to Hawassa University, Ethiopia; not inferred from name."
+  },
+  {
+   "id": "L08-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Staffordshire", "country": "GB"},
+    {"name": "Tallinn University of Technology", "country": "EE"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors at UK (Staffordshire) or Estonia (Tallinn). Author 'Jashandeep Kaur' has an Indian-sounding name but is affiliated with University of Staffordshire, UK; not inferred from name."
+  },
+  {
+   "id": "L08-005",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Engineering and Technology Lahore", "country": "PK"},
+    {"name": "Huanjiang Laboratory / Zhejiang University", "country": "CN"},
+    {"name": "Nanjing University of Aeronautics and Astronautics", "country": "CN"},
+    {"name": "Western Caspian University", "country": "AZ"},
+    {"name": "Hawassa University", "country": "ET"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "7 co-authors across Pakistan, China, Azerbaijan, Saudi Arabia, Ethiopia -- none Indian."
+  },
+  {
+   "id": "L08-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Aalborg University", "country": "DK"},
+    {"name": "Equinor", "country": "NO"},
+    {"name": "Siemens Gamesa Renewable Energy", "country": "DK"},
+    {"name": "Chinese Academy of Sciences", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors Denmark/Norway/China; none Indian."
+  },
+  {
+   "id": "L08-007",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Staffordshire", "country": "GB"},
+    {"name": "Tallinn University of Technology", "country": "EE"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "7 authors at UK (Staffordshire) and Estonia (Tallinn). Authors 'Akash Sovis' and 'Rana Arslan Qadar' have Indian/Pakistani-sounding names but institutional affiliations are UK/Estonia; not inferred from name."
+  },
+  {
+   "id": "L08-008",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Sultan Qaboos University", "country": "OM"},
+    {"name": "Arab Open University", "country": "OM"},
+    {"name": "Memorial University of Newfoundland", "country": "CA"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors at Oman/Canada institutions; none Indian."
+  },
+  {
+   "id": "L08-009",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Christian-Albrechts-Universitat zu Kiel", "country": "DE"},
+    {"name": "University of Trento", "country": "IT"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors at Germany/Italy institutions."
+  },
+  {
+   "id": "L08-010",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Incheon National University", "country": "KR"}],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 4 authors at Incheon National University, South Korea."
+  },
+  {
+   "id": "L08-011",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "National Laboratory of the Rockies (US)", "country": "US"},
+    {"name": "Universidad Tecnologica del Peru", "country": "PE"},
+    {"name": "CNRS / LAAS", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "3 authors span US/Peru/France; none Indian."
+  },
+  {
+   "id": "L08-012",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Cardiff University", "country": "GB"},
+    {"name": "Tsinghua University", "country": "CN"},
+    {"name": "University of Technology Sydney", "country": "AU"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "3 authors span UK/China/Australia. Author 'Musa Khan' has a Pakistani-sounding name but is affiliated with Cardiff University (GB) and Tsinghua University (CN); not inferred from name."
+  },
+  {
+   "id": "L08-013",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Cardiff University", "country": "GB"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors at Cardiff University, Wales, UK."
+  },
+  {
+   "id": "L08-014",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "China Three Gorges University", "country": "CN"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors at China Three Gorges University; resolves the raw record's 'unconfirmed authors' placeholder."
+  },
+  {
+   "id": "L08-015",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Huaneng Clean Energy Research Institute", "country": "CN"},
+    {"name": "University of Bath", "country": "GB"},
+    {"name": "Beijing Jiaotong University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "7 authors span China and UK (University of Bath); resolves the raw record's 'unconfirmed authors' placeholder."
+  },
+  {
+   "id": "L08-017",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "East China Jiaotong University", "country": "CN"},
+    {"name": "Electric Power Research Institute (EPRI)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "7 authors: 6 at East China Jiaotong University (CN), 1 at EPRI (US); none Indian."
+  },
+  {
+   "id": "L08-018",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Chongqing University", "country": "CN"},
+    {"name": "Chongqing University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors at Chongqing-area universities, China."
+  },
+  {
+   "id": "L08-019",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Science and Technology Beijing", "country": "CN"},
+    {"name": "Yangtze River Pharmaceutical Group", "country": "CN"},
+    {"name": "National Yunlin University of Science and Technology", "country": "TW"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "6 authors span mainland China and Taiwan; none Indian."
+  },
+  {
+   "id": "L08-020",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "North China Electric Power University", "country": "CN"},
+    {"name": "China Electric Power Research Institute", "country": "CN"},
+    {"name": "Hebei University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 5 authors at Chinese institutions despite publication in a Korean (KIPE) journal."
+  },
+  {
+   "id": "L08-021",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Papua New Guinea University of Technology", "country": "PG"},
+    {"name": "Queensland University of Technology", "country": "AU"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "3 authors span Papua New Guinea and Australia (QUT, corrects prior 'Griffith University' guess to QUT). Author 'Yateendra Mishra' has an Indian-sounding name but is affiliated with QUT, Australia; not inferred from name."
+  },
+  {
+   "id": "L08-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Sichuan University", "country": "CN"},
+    {"name": "Nanyang Technological University", "country": "SG"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "7 authors: 5 at Sichuan University (CN), 2 at NTU Singapore (SG); none Indian."
+  },
+  {
+   "id": "L08-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Xi'an Jiaotong University", "country": "CN"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors at Xi'an Jiaotong University, China."
+  },
+  {
+   "id": "L08-025",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "China Electric Power Research Institute / State Grid-affiliated (中国电力 journal)", "country": "CN"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://base4zgdl.xml-journal.net/article/doi/10.11930/j.issn.1004-9649.202006024"],
+   "useful_lead": "",
+   "notes": "Chinese-domestic journal not indexed with structured affiliations in OpenAlex; author names and Chinese State Grid/China Electricity Council-affiliated venue confirmed via direct publisher-page fetch (already performed in the raw ledger session)."
+  },
+  {
+   "id": "L08-026",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of the Ryukyus", "country": "JP"},
+    {"name": "Osaka Institute of Technology", "country": "JP"},
+    {"name": "Fuji Electric", "country": "JP"},
+    {"name": "Aswan University", "country": "EG"}
+   ],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "Confirms record's tentative JP lead-author guess (University of the Ryukyus); 6 authors span Japan and Egypt, none Indian."
+  },
+  {
+   "id": "L08-027",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Georgia Institute of Technology", "country": "US"},
+    {"name": "Oak Ridge National Laboratory", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/iecon.2019.8927420%7C10.1016/j.egyr.2021.11.052%7C10.1016/j.ijepes.2022.107996%7C10.3390/en18143613%7C10.3390/mi10050314%7C10.3390/fire9020084%7C10.1007/s43236-024-00840-2%7C10.1109/jphotov.2020.2998868%7C10.1109/tpel.2024.3510792%7C10.1049/pel2.70104%7C10.1049/rpg2.12991%7C10.3390/su12187771%7C10.1109/tpwrd.2021.3083642&per-page=50&select=doi,title,authorships"],
+   "useful_lead": "",
+   "notes": "4 authors at Georgia Tech (US) and Oak Ridge National Laboratory (US). Author 'Suman Debnath' has an Indian-sounding name but is affiliated with ORNL, USA; not inferred from name."
+  },
+  {
+   "id": "L08-029",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "GE Vernova", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.gevernova.com/news/press-releases/ge-vernova-awarded-major-contract-deliver-hvdc"],
+   "useful_lead": "",
+   "notes": "Publishing organization GE Vernova is US-headquartered (Cambridge, MA); origin verdict is about the publisher, not the content. The record's underlying content concerns an India demand corridor (Adani Khavda-South Olpad); per mission geography rule 15 that content may be out of scope for demand/market claims regardless of this origin verdict -- flagged for the orchestrator's downstream content review, not decided here."
+  },
+  {
+   "id": "L08-030",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Hitachi Energy Ltd", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hitachienergy.com/news-and-events/press-releases/2025/04/hitachi-energy-selected-for-950-km-hvdc-transmission-system-to-deliver-6-gw-of-renewable-energy-in-india"],
+   "useful_lead": "",
+   "notes": "Publishing organization Hitachi Energy is Switzerland-headquartered (Cham/Zurich); origin verdict is about the publisher, not content. Content concerns an India project (Bhadla-Fatehpur) with an Indian consortium partner (BHEL) -- flagged for the orchestrator's downstream content-geography review per mission rule 15, not decided here."
+  },
+  {
+   "id": "L08-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NKT A/S", "country": "DK"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nkt.com/news-press-releases/nkt-awarded-record-orders-for-worlds-first-525-kv-xlpe-hvdc-submarine-cable-projects-for-offshore-wind"],
+   "useful_lead": "",
+   "notes": "NKT HQ Brondby, Denmark."
+  },
+  {
+   "id": "L08-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Technology Systems Corporation (Ocean News & Technology publisher)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://oceannews.com/", "https://oceannews.com/contact/"],
+   "useful_lead": "",
+   "notes": "Ocean News & Technology is published by Technology Systems Corporation, Stuart, Florida, USA."
+  },
+  {
+   "id": "L08-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "The Motley Fool (fool.com)", "country": "US"},
+    {"name": "GE Vernova Inc.", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript/"],
+   "useful_lead": "",
+   "notes": "The Motley Fool HQ Alexandria, Virginia, USA; underlying company GE Vernova also US."
+  },
+  {
+   "id": "L08-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "National Business Daily (每日经济新闻)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nbd.com.cn/articles/2026-05-07/4382365.html"],
+   "useful_lead": "",
+   "notes": "National Business Daily is a Chinese financial newspaper (Chengdu/Shanghai), reporting on a State Grid China procurement disclosure."
+  },
+  {
+   "id": "L08-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Solar Media Ltd (publisher of Energy-Storage.News)", "country": "GB"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.energy-storage.news/contact/", "https://www.solarmedia.co.uk/"],
+   "useful_lead": "",
+   "notes": "Solar Media Ltd HQ London, UK (part of Informa)."
+  },
+  {
+   "id": "L08-036",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Solar Media Ltd (publisher of Energy-Storage.News)", "country": "GB"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.energy-storage.news/contact/", "https://www.solarmedia.co.uk/"],
+   "useful_lead": "",
+   "notes": "Solar Media Ltd HQ London, UK."
+  },
+  {
+   "id": "L08-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Siemens Energy AG", "country": "DE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.siemens-energy.com/global/en/home/press-releases/Siemens-Energy-partners-with-ACEREZ-on-NSW-Renewable-Energy-Zone.html"],
+   "useful_lead": "",
+   "notes": "Siemens Energy AG HQ Munich, Germany."
+  },
+  {
+   "id": "L08-038",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Dealsite.co.kr", "country": "KR"},
+    {"name": "Korea Electric Power Corporation (KEPCO)", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://dealsite.co.kr/articles/150180"],
+   "useful_lead": "",
+   "notes": "Dealsite.co.kr is a Korean business/deal news outlet; reports on KEPCO, a Korean state utility."
+  },
+  {
+   "id": "L08-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "ZDNet Korea", "country": "KR"},
+    {"name": "Korea Electric Power Corporation (KEPCO)", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://zdnet.co.kr/view/?no=20260320123044"],
+   "useful_lead": "",
+   "notes": "ZDNet Korea is a South Korean licensed tech/business news outlet (Seoul)."
+  },
+  {
+   "id": "L08-040",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "SP Group", "country": "SG"},
+    {"name": "EDF Group", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/SP-Partners-EDF-on-Subsea-Cables-to-Facilitate-Green-Energy-Import-from-Indonesia"],
+   "useful_lead": "",
+   "notes": "SP Group HQ Singapore (Temasek-linked utility); EDF Group HQ France."
+  },
+  {
+   "id": "L08-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Pattern Energy", "country": "US"},
+    {"name": "US Department of Energy", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://patternenergy.com/projects/southern-spirit-transmission/"],
+   "useful_lead": "",
+   "notes": "Pattern Energy HQ San Francisco, California, USA; DOE is a US federal agency."
+  },
+  {
+   "id": "L08-043",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "North American Electric Reliability Corporation (NERC)", "country": "US"},
+    {"name": "Federal Energy Regulatory Commission (FERC)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.federalregister.gov/documents/2025/07/29/2025-14304/reliability-standards-for-frequency-and-voltage-protection-settings-and-ride-through-for"],
+   "useful_lead": "",
+   "notes": "NERC HQ Atlanta, Georgia, USA; FERC is a US federal regulatory agency (Washington, DC)."
+  }
+ ]
+}

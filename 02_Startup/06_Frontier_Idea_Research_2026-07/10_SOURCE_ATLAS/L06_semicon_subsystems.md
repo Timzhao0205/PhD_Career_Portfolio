@@ -116,13 +116,6 @@ business. Founder background was not used to select topics within this lane.
 - **SMIC and Yangtze Memory Technologies (YMTC)** -- named as chipmaker partners/customers in
   Hengyunchang's IPO coverage (L06-043), i.e., China's leading-edge fabs are the ultimate
   end-demand pull for the domestic RF-power-supply-chain buildout.
-- **Tata Electronics / Tata Semiconductor Manufacturing (with Taiwan's PSMC)** -- signed a
-  technology-transfer agreement (2024-09-26) for India's first commercial logic fab in Dholera,
-  Gujarat (investment up to INR 91,000 crore / ~US$11 billion, 50,000 wafer-starts/month
-  capacity), with a companion India Semiconductor Mission Fiscal Support Agreement reportedly
-  covering 50% of project cost (L06-047) -- a large, dated, government-linked *future* trigger
-  for etch/deposition/implant/RF/gas-delivery subsystem purchases from AMAT/TEL/Lam/Axcelis-tier
-  suppliers, though no L06-subsystem-level order has yet been placed/disclosed.
 - **A*STAR / Applied Materials (Singapore)** -- launched the APEX joint lab (2024-09-05) across
   five A*STAR institutes to build local semiconductor-equipment-component and supply-chain
   capability targeting ICAPS markets (L06-046) -- a real, dated, government-backed Singapore
@@ -170,11 +163,6 @@ product page could not be fetched this session, 403).
   most likely multi-year catch-up trigger, given China's overall equipment localization target
   trajectory (21-35% by 2025 depending on source, L06-051/052) and two now-public domestic RF-power
   suppliers (Hengyunchang, Injet Electric) with real, growing order books (L06-042/043/044).
-- **India:** Tata-PSMC's Dholera fab (up to INR 91,000 crore, 50,000 WSPM capacity) is a
-  multi-year construction project (technology-transfer agreement signed Sept 2024) that will
-  require substantial future purchases of etch/deposition/implant/RF/gas-delivery subsystems from
-  AMAT/TEL/Lam/Axcelis-tier suppliers once construction completes -- a dated but not-yet-realized
-  L06-subsystem demand trigger for 2026-2029 (L06-047).
 - **Singapore:** The A*STAR-Applied Materials APEX joint lab (announced Sept 2024) is an ongoing
   equipment-component R&D program targeting ICAPS markets, with no disclosed end date or
   investment figure found this session (L06-046) -- a live but under-specified trigger.
@@ -221,10 +209,6 @@ product page could not be fetched this session, 403).
   investment-amount-blind and product-agnostic at this stage -- Singapore's angle in this lane is
   equipment-component R&D capability-building rather than either mature commercial revenue (US) or
   fast-growing domestic-substitution IPOs (China).
-- **India** evidence (Tata-PSMC Dholera) is a large, real, dated fab-construction commitment but
-  is upstream of any L06-subsystem-specific purchase -- India's demand signal in this lane is
-  currently a *future* trigger, not yet a realized subsystem order.
-
 ## 7. Unresolved contradictions
 
 1. **China's semiconductor-equipment localization rate is reported inconsistently by two
@@ -322,15 +306,7 @@ product page could not be fetched this session, 403).
    bearing the cost of power-quality-related tool downtime and scrapped lots (no named buyer
    identified this session). **Evidence:** L06-034 (standard confirmed); downtime-cost claims
    explicitly NOT accepted as sourced this session.
-9. **Pain:** India's first commercial logic fab (Tata-PSMC, Dholera, up to INR 91,000 crore) is
-   under construction with a large government fiscal-support commitment, but no L06-subsystem-level
-   (RF power, ESC, gas delivery, implant) purchase, tender, or supplier relationship has been
-   publicly disclosed yet -- meaning India's L06 demand is currently a well-evidenced *future*
-   trigger rather than a realized commercial opportunity, and the timing/sequencing of subsystem
-   procurement (direct from AMAT/TEL/Lam/Axcelis vs. a local-content requirement favoring new
-   entrants) is unknown. **Who pays:** Tata Electronics / Tata Semiconductor Manufacturing
-   (eventual subsystem buyer, exact suppliers not yet named). **Evidence:** L06-047.
-10. **Pain:** Singapore's A*STAR-Applied Materials APEX joint lab is explicitly framed around
+9. **Pain:** Singapore's A*STAR-Applied Materials APEX joint lab is explicitly framed around
     building local SME capability in semiconductor-equipment components and supply chain, but the
     2024 announcement disclosed no investment figure, product roadmap, or timeline -- making it
     impossible from this session's evidence alone to judge whether this is a well-funded strategic
@@ -368,16 +344,18 @@ product page could not be fetched this session, 403).
   confirmed, but no specific quoted figure from either should be treated as verified until a
   verifier re-extracts the text with a different tool.
 - Market/industry count: 7 records (L06-049 through L06-055 minus the ones double-counted as
-  demand/government), meeting the >=4 floor; one (L06-053, Global Growth Insights) is an
-  unaudited consultancy market-size estimate and is explicitly tiered T3 per SOURCE_STANDARDS.
+  demand/government), meeting the >=4 floor; one of these was an unaudited consultancy
+  market-size estimate now excluded under the 2026-07 India-origin source audit (see repair note
+  below) and no longer counts toward this floor.
 - Asian-market coverage: CN (6 records, 5 of which are Chinese-language: L06-042, 043, 044, 048,
   054), JP (1 Japanese-language: L06-050), KR (2 records, 1 Korean-language: L06-055; plus
   KR-authored English-language academic papers L06-024/025 which add geography but not
   language-count credit), TW (2 records tagged, both indirect -- TrendForce as a TW-headquartered
   research firm, and PSMC as a named Taiwanese company; no TW-domiciled primary source was
-  successfully fetched this session), SG (1 record: L06-046), IN (1 record: L06-047) -- total
-  Asian-geography-tagged records exceed the >=8 floor, and local-language primary sources (CN x5,
-  JP x1, KR x1 = 7) exceed the >=4 floor.
+  successfully fetched this session), SG (1 record: L06-046), IN (0 records -- the sole IN record
+  is now excluded under the 2026-07 India-origin source audit) -- total Asian-geography-tagged
+  records exceed the >=8 floor, and local-language primary sources (CN x5, JP x1, KR x1 = 7)
+  exceed the >=4 floor.
 - **Weakest coverage / follow-up priorities for a future scout wave:** (1) Taiwan -- no
   Taiwan-domiciled vendor or institute (ITRI, or a Taiwan RF-power distributor) was successfully
   fetched this session (Junsun Technology page returned 403); (2) direct primary confirmation of
@@ -388,3 +366,18 @@ product page could not be fetched this session, 403).
   power-quality defect-rate/downtime-cost claim, since several specific-sounding statistics found
   this session could not be traced to a primary study and were deliberately excluded from the
   ledger.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L06-047, L06-053
+- removed/trimmed claims: deleted the "Tata Electronics / Tata Semiconductor Manufacturing
+  (Dholera fab, PSMC technology transfer)" buyer-signal bullet from Section 3 (Named buyers),
+  which rested solely on L06-047; deleted the "**India:**" bullet from Section 5 (2026-2031
+  triggers), same sole-source dependency; deleted the "**India** evidence (Tata-PSMC Dholera)"
+  bullet from Section 6 (US vs. Asia differences), which restated the same L06-047-sourced fact
+  without its own citation; deleted opportunity-shaped pain statement #9 (India/Tata-PSMC
+  future-trigger pain point) from Section 8, renumbering the former #10 (Singapore APEX) to #9;
+  trimmed the Section "Methodology notes" market/industry-count and Asian-market-coverage
+  bookkeeping lines to stop counting L06-053 and L06-047 toward their respective floors. P4 must
+  re-source any India-fab/Tata-PSMC-Dholera demand signal and any RF-power-subsystem market-size
+  estimate from an eligible (non-India-origin) provider before reuse.

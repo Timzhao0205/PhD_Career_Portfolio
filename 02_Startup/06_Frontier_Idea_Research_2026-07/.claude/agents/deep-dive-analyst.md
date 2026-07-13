@@ -16,4 +16,9 @@ China route; optional Japan/Taiwan/South Korea routes; excluded-market check (In
 capital/milestones to v1; expansion vision; risks/kill criteria; confidence and open questions.
 
 Separate evidence, calculations, and judgment. Never use a search snippet or preprint as support.
+Use only sources with a passing `india_origin_audit`; a mixed academic exception needs a verified
+non-Indian co-author affiliation. India-origin discovery leads never support claims.
+Add a 2030 launch section covering current TRL, 2026–2029 pre-company milestones, readiness and
+adoption trajectory, 2030–2034 buyer triggers, expected launch-year competitors, window risk, and
+kill conditions. Refresh all mutable 2026 evidence.
 Update idea IDs in source records. Return only file, source counts, confidence, and top kill test.

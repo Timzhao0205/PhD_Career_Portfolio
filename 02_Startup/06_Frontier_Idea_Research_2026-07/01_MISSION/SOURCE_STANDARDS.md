@@ -17,6 +17,35 @@ The mission must review more than it accepts. Target 720–800 collected records
 Categories may overlap, but one canonical work counts once toward 600. The ledger must report
 overlap transparently.
 
+## Temporal reuse and 2030 refresh rule
+
+The existing source corpus remains valid as a 2026 baseline. Do not discard older peer-reviewed
+technical work merely because the company launches in 2030; foundational physics, validated
+mechanisms, standards history, and durable performance data remain usable when still applicable.
+
+Time-sensitive claims must be refreshed during P4/P6: buyer budgets, tenders, project schedules,
+prices, incumbent offerings, market capacity, regulations, incentives, export controls, and
+supply chains. A final idea needs at least two independent 2030-timing sources, including one
+primary/official source that specifies a 2028–2035 procurement, capacity, regulation, roadmap, or
+customer investment trigger. Label forecasts as scenarios, not facts, and triangulate them against
+present commitments. If a 2026 source's underlying commitment remains active through 2030, record
+that explicit date and it may serve as forward evidence without replacement.
+
+## India source-origin exclusion and multinational exception
+
+Every accepted source must contain `india_origin_audit`. Entirely India-origin material—including
+Indian labs, universities, governments, companies, media, publishers, consultancies, market
+reports, and organizations—is discovery-only. It may suggest a keyword, buyer, or final paper,
+but an independent eligible source must confirm the claim before it enters the evidence atlas.
+
+A peer-reviewed academic paper with one or more Indian-affiliated co-authors is allowed only when
+at least one co-author has a verified non-Indian institutional affiliation. Record all resolved
+institutions and countries and set status `verified_multinational_allowed`. A paper whose resolved
+authors are all India-affiliated is rejected. For accepted sources without Indian affiliations,
+use status `verified_non_india_origin`. Missing or ambiguous affiliation/origin metadata cannot
+pass until publisher pages/PDFs, official organization pages, Crossref, OpenAlex, ROR, or ORCID
+evidence resolves it. Do not infer affiliation from a name or nationality.
+
 ## Academic peer-review rule
 
 arXiv, SSRN, ResearchGate uploads, theses, posters, slide decks, and unreviewed manuscripts are
@@ -52,7 +81,8 @@ Each object in `90_BIBLIOGRAPHY/sources.json` must contain:
 
 `id, title, authors_or_org, year, url, canonical_key, source_type, tier, lane_ids, idea_ids,
 accessed_at, fetched, language, geography, peer_review_status, peer_review_evidence_url, doi,
-demand_evidence_type, claim_supported, locator, accepted, rejection_reason, notes`.
+demand_evidence_type, claim_supported, locator, accepted, rejection_reason, notes,
+india_origin_audit`.
 
 `lane_ids`, `idea_ids`, and `geography` are arrays. Geography uses ISO-like codes (`US`, `CN`,
 `JP`, `TW`, etc.). Technical publications retain objective origin metadata even when their origin

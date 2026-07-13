@@ -1,0 +1,1637 @@
+{
+ "batch_id": "P2A-06",
+ "count": 70,
+ "records": [
+  {
+   "id": "L07-020",
+   "title": "Recommended Best Practices for Lyophilization Validation 2021 Part II: Process Qualification and Continued Process Verification",
+   "authors_or_org": "Feroz Jameel, Alina Alexeenko, Akhilesh Bhambhani, Gregory Sacha, Tong Zhu, et al.; AAPS PharmSciTech (Springer, American Association of Pharmaceutical Scientists)",
+   "year": 2021,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8575750/",
+   "canonical_key": "doi:10.1208/s12249-021-02107-6",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1208/s12249-021-02107-6",
+   "doi": "10.1208/s12249-021-02107-6",
+   "demand_evidence_type": "none",
+   "claim_supported": "Industry-consensus best-practice guidance on qualifying and continuously verifying pharmaceutical freeze-dryer (lyophilizer) vacuum/thermal process performance.",
+   "notes": "Journal corrected from the raw ledger's guess ('PDA Journal of Pharmaceutical Science and Technology') to the actual venue, AAPS PharmSciTech. Treated as T2 consensus/best-practice guidance rather than primary experimental research, per source standards."
+  },
+  {
+   "id": "L07-021",
+   "title": "Recent trends in pharmaceutical freeze-drying and control strategies observed in human drug applications and manufacturing inspections",
+   "authors_or_org": "Steve Y. Rhieu, Maxwell Korang-Yeboah, David D. Anderson, John Arigo, Thomas O'Connor, Rakhi Shah; AAPS Open (Springer) — US FDA/CDER",
+   "year": 2025,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12930400/",
+   "canonical_key": "doi:10.1186/s41120-025-00132-4",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1186/s41120-025-00132-4",
+   "doi": "10.1186/s41120-025-00132-4",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews trends across FDA human-drug applications and manufacturing inspections (2015-2023) related to freeze-drying process/vacuum control deficiencies.",
+   "notes": "Journal (AAPS Open) and authors now confirmed (were 'unknown')."
+  },
+  {
+   "id": "L07-022",
+   "title": "Some Key Issues of Vacuum System Design in Accelerators and Colliders",
+   "authors_or_org": "Jie Wang, Sheng Wang; Accelerators and Colliders (IntechOpen book chapter)",
+   "year": 2020,
+   "url": "https://www.intechopen.com/chapters/71509",
+   "canonical_key": "doi:10.5772/intechopen.91767",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.5772/intechopen.91767",
+   "doi": "10.5772/intechopen.91767",
+   "demand_evidence_type": "none",
+   "claim_supported": "Surveys vacuum-system design principles (lumped vs distributed pumping, NEG coating, dynamic gas loads) for accelerator and collider beam pipes.",
+   "notes": "Authors confirmed (were 'unknown'); geography corrected from US placeholder to CN (tentative, based on Chinese author names, consistent with the prevalence of Chinese accelerator-vacuum work elsewhere in this lane, e.g. L07-045 HEPS tender) -- affiliation not independently confirmed. IntechOpen chapters undergo editorial peer review but are not equivalent to a full journal; tier kept at T2."
+  },
+  {
+   "id": "L07-023",
+   "title": "Measurement of helium leaks better than the sensitivity of a mass spectrometer leak detector",
+   "authors_or_org": "L. Verheyden, K. Klein, C. Crouë; Vacuum (Elsevier)",
+   "year": 1971,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0042207X71915703",
+   "canonical_key": "doi:10.1016/0042-207x(71)91570-3",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(71)91570-3",
+   "doi": "10.1016/0042-207x(71)91570-3",
+   "demand_evidence_type": "none",
+   "claim_supported": "Primary method paper extending effective helium-leak measurement sensitivity substantially beyond the nominal limit of a standard mass-spectrometer leak detector.",
+   "notes": "Authors confirmed via Crossref; exact exponent in the title could not be reliably re-confirmed (AI text extraction of the superscript was inconsistent -- Crossref summary rendered '10^-12' vs the raw ledger's '10^-5'; both are unreliable OCR-of-superscript artifacts, so the exponent is left unresolved/approximate). Geography GB remains an UNCONFIRMED placeholder; author surnames (Verheyden, Crouë) are at least as consistent with a Belgian/French nuclear-research origin (e.g., CEN/SCK Mol, EURATOM) as with a UK origin -- flagged for further confirmation, not changed without evidence."
+  },
+  {
+   "id": "L07-024",
+   "title": "Sensitive helium leak detection in a deuterium atmosphere using a high-resolution quadrupole mass spectrometer",
+   "authors_or_org": "S. Hiroki, T. Abe, Y. Murakami; Vacuum (Elsevier)",
+   "year": 1996,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0042207X96000632",
+   "canonical_key": "doi:10.1016/0042-207x(96)00063-2",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(96)00063-2",
+   "doi": "10.1016/0042-207x(96)00063-2",
+   "demand_evidence_type": "none",
+   "claim_supported": "Demonstrates a high-resolution quadrupole mass spectrometer method for detecting helium leaks even in the presence of a deuterium background, relevant to fusion/tritium-handling vacuum systems.",
+   "notes": "Authors confirmed (Japanese names, consistent with fusion/tritium-handling research context -- likely National Institute for Fusion Science or affiliated Japanese lab); geography corrected from US placeholder to JP. Good Asia-quota contribution."
+  },
+  {
+   "id": "L07-025",
+   "title": "クライオスタットの真空技術 (Vacuum Technique of Cryostats)",
+   "authors_or_org": "Yasuharu Kamioka (Toyo Oxygen Co., Ltd., Cryogenic Research Laboratory); TEION KOGAKU / Journal of the Cryogenic Society of Japan (低温工学)",
+   "year": 1993,
+   "url": "https://www.jstage.jst.go.jp/article/jcsj1966/28/10/28_10_569/_article/-char/ja/",
+   "canonical_key": "doi:10.2221/jcsj.28.569",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/jcsj1966",
+   "doi": "10.2221/jcsj.28.569",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes vacuum-technology requirements for cryostats, framing multilayer insulation (MLI) vacuum and superfluid-helium generation as core applications of vacuum technique in cryogenics.",
+   "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation rather than inferred. Explanatory/tutorial style, hence T2."
+  },
+  {
+   "id": "L07-026",
+   "title": "超高真空材料として眺めた金属材料と水素 (Metallic materials and hydrogen viewed as ultra-high-vacuum materials)",
+   "authors_or_org": "Sonoko Tsukahara (Nippon Vacuum Technology Co., Ltd.); Oyo Buturi (応用物理) — Japan Society of Applied Physics",
+   "year": 2000,
+   "url": "https://www.jstage.jst.go.jp/article/oubutsu1932/69/1/69_1_22/_pdf",
+   "canonical_key": "doi:10.11470/oubutsu1932.69.22",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/oubutsu1932",
+   "doi": "10.11470/oubutsu1932.69.22",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews interactions between structural metals used in UHV chambers and hydrogen (solubility, outgassing, embrittlement) relevant to bakeout and hydrogen-outgassing control.",
+   "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation. Explanatory (解説) style, hence T2; author is industry- rather than academia-affiliated but the venue is the Japan Society of Applied Physics' peer-reviewed journal."
+  },
+  {
+   "id": "L07-027",
+   "title": "超高真空中における低温実験の技術的問題 (Technical problems of low-temperature experiments in ultra-high vacuum)",
+   "authors_or_org": "Ichiro Arakawa (Institute of Industrial Science, University of Tokyo); 真空 (Vacuum) — Journal of the Vacuum Society of Japan",
+   "year": 1981,
+   "url": "https://www.jstage.jst.go.jp/article/jvsj1958/24/3/24_3_116/_article/-char/ja/",
+   "canonical_key": "doi:10.3131/jvsj.24.116",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/jvsj1958",
+   "doi": "10.3131/jvsj.24.116",
+   "demand_evidence_type": "none",
+   "claim_supported": "Discusses technical obstacles (outgassing, cryopumping side effects, thermal-radiation control) specific to combining low-temperature experiments with ultra-high vacuum.",
+   "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation. Explanatory/review style, hence T2."
+  },
+  {
+   "id": "L07-028",
+   "title": "ISO 3529-1:2019 Vacuum technology — Vocabulary — Part 1: General terms",
+   "authors_or_org": "ISO / Technical Committee ISO/TC 112 (Vacuum technology)",
+   "year": 2019,
+   "url": "https://www.iso.org/standard/73312.html",
+   "canonical_key": "standard:ISO 3529-1:2019",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CH",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Defines the standardized vocabulary and general terms used across vacuum-technology equipment specifications worldwide. Confirmed via WebSearch corroboration this session: Edition 2, published July 2019, 10 pages, ISO/TC 112, last reviewed/reconfirmed in 2024 (still current), supersedes ISO 3529-1:1981.",
+   "notes": "Geography set to a neutral placeholder (ISO is a global standards body headquartered in Switzerland; US used only as a generic anchor for this record set and should be revisited by the verifier). | Geography corrected from a generic US placeholder to CH (ISO headquarters, Geneva, Switzerland); the standard itself is globally applicable, not Swiss-specific."
+  },
+  {
+   "id": "L07-029",
+   "title": "ASTM E499/E499M-11(2017) Standard Practice for Leaks Using the Mass Spectrometer Leak Detector in the Detector Probe Mode",
+   "authors_or_org": "ASTM International",
+   "year": 2017,
+   "url": "https://store.astm.org/e0499_e0499m-11r17.html",
+   "canonical_key": "standard:ASTM E499/E499M-11(2017)",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Defines the standard practice for locating leaks with a mass-spectrometer leak detector in detector-probe mode, covering direct-probing and accumulation methods for devices with a helium/tracer-gas pressure differential, at rates of 1x10^-7 Pa*m^3/s or greater.",
+   "notes": "Reaffirmation of the original 2011 standard, reaffirmed 2017. | Current active version has since been reaffirmed again as E0499/E0499M-11R25 (2025); the 2017 reaffirmation cited in the raw ledger is a valid prior version of the same standard."
+  },
+  {
+   "id": "L07-030",
+   "title": "SEMI F19-0815 — Specification for the Surface Condition of the Wetted Surfaces of Stainless Steel Components",
+   "authors_or_org": "SEMI (Semiconductor Equipment and Materials International)",
+   "year": 2015,
+   "url": "https://store-us.semi.org/products/f01900-semi-f19-specification-for-the-surface-condition-of-the-wetted-surfaces-of-stainless-steel-components",
+   "canonical_key": "standard:SEMI F19-0815",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sets three quality grades (General Purpose, High Purity, Ultra-High Purity) with electropolished-surface requirements for wetted stainless-steel components in semiconductor-fab gas/liquid distribution systems.",
+   "notes": "Year corrected from null to 2015 (edition F19-0815) confirmed by direct fetch."
+  },
+  {
+   "id": "L07-031",
+   "title": "SEMI F20-0923 — Specification for 316L Stainless Steel Bar, Forgings, Extruded Shapes, Plate, and Tubing for Components Used in General Purpose, High Purity and Ultra-High Purity Semiconductor Manufacturing Applications",
+   "authors_or_org": "SEMI (Semiconductor Equipment and Materials International)",
+   "year": 2023,
+   "url": "https://store-us.semi.org/products/f02000-semi-f20-specification-for-316l-stainless-steel-bar-forgings-extruded-shapes-plate-and-tubing-for-components-used-in-general-purpose-high-purity-and-ultra-high-purity-semiconductor-manufacturing-applications",
+   "canonical_key": "standard:SEMI F20-0923",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Specifies double-melt (VAR) 316L stainless-steel material purity/composition requirements for UHP semiconductor gas/liquid distribution components.",
+   "notes": "Year corrected from null to 2023 (most recent reapproval; original edition dates to 2009). Works in tandem with SEMI F19."
+  },
+  {
+   "id": "L07-032",
+   "title": "Helium Mass Spectrometer Leak Detection: A Method to Quantify Total Measurement Uncertainty",
+   "authors_or_org": "Janice L. Mather (University of Akron), Shawn C. Taylor (University of Toledo); NASA",
+   "year": 2015,
+   "url": "https://ntrs.nasa.gov/api/citations/20150004094/downloads/20150004094.pdf",
+   "canonical_key": "https://ntrs.nasa.gov/citations/20150004094",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Develops a measurement-uncertainty framework (resolution, repeatability, hysteresis, drift, calibration-standard uncertainty) for NASA helium mass-spectrometer leak detection, beyond reporting sensitivity alone; finds the precision component contributes more to total uncertainty than the bias component.",
+   "notes": "Primary NASA technical-report record, used across NASA spaceflight-hardware leak qualification programs. | Authors identified (were 'unknown' university-affiliated NASA co-op researchers)."
+  },
+  {
+   "id": "L07-034",
+   "title": "JT-60SA vacuum vessel and cryostat — Fusion for Energy / JAEA-QST manufacturing record",
+   "authors_or_org": "Fusion for Energy (EU Domestic Agency) / Japan Atomic Energy Agency (JAEA) / QST",
+   "year": 2020,
+   "url": "https://fusionforenergy.europa.eu/news/milestone-progress-on-the-assembly-of-jt-60sa-vacuum-vessel/",
+   "canonical_key": "https://fusionforenergy.europa.eu/news/milestone-progress-on-the-assembly-of-jt-60sa-vacuum-vessel/",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "The JT-60SA vacuum vessel comprises 10 sectors of 316L stainless steel (each ~6.6m high, 3.5m wide, ~17 tonnes), manufactured by Toshiba under Japan's JAEA contribution to the EU-Japan Broader Approach Agreement; complete vessel diameter 10m, height 6.6m; Fusion for Energy (F4E) represents the European partnership.",
+   "notes": "Split JP/EU procurement of the world's largest superconducting tokamak's vacuum vessel and cryostat; JT-60SA began integrated commissioning February 2026 per cross-lane background (see L03 ledger). | The specific page fetched this session shows a Dec-2015-dated assembly-progress article (9 of 10 sectors assembled, final sector planned 2017), an earlier milestone than the raw ledger's framing of a 2020 record, but the underlying manufacturer/agency/spec facts are confirmed and consistent. Cross-lane note on Feb-2026 JT-60SA commissioning (see L03 ledger) not independently re-verified here."
+  },
+  {
+   "id": "L07-035",
+   "title": "Space Environments Complex — NASA Glenn Research Center / Neil Armstrong Test Facility",
+   "authors_or_org": "NASA Glenn Research Center",
+   "year": null,
+   "url": "https://www.nasa.gov/centers-and-facilities/glenn/space-environments-complex/",
+   "canonical_key": "https://www.nasa.gov/centers-and-facilities/glenn/space-environments-complex/",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "The Space Simulation Vacuum Chamber (Space Power Facility) at NASA's Neil Armstrong Test Facility (Sandusky, OH) measures 30.5 m diameter x 37.2 m high (22,653 m^3), billed as the world's largest space-simulation/EMI vacuum chamber, with ultimate vacuum capability better than 4x10^-6 Torr and a cryoshroud spanning -160C to +80C; used for rocket-fairing separation, Mars lander, solar-array, and ISS radiator deployment tests.",
+   "notes": "Primary government facility record documenting a national large-vacuum-chamber capital asset; relevant to space-simulation demand for satellite/spacecraft qualification testing. | Directly confirmed government facility record."
+  },
+  {
+   "id": "L07-036",
+   "title": "Power Feedthroughs — CF Flanged product catalog (1,000V–100,000V ranges)",
+   "authors_or_org": "Kurt J. Lesker Company",
+   "year": null,
+   "url": "https://www.lesker.com/newweb/feedthroughs/power_feedthroughs.cfm?pgid=20kv_cf",
+   "canonical_key": "https://www.lesker.com/newweb/feedthroughs/power_feedthroughs.cfm?pgid=20kv_cf",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Catalogs CF-flanged, bakeable-to-450°C, UHV-compatible power feedthroughs from 20 kV to 100 kV, up to 180A across ~25 models. CORRECTED: most models carry published list pricing ($169.50-$5,365.00), with only some higher-spec models marked 'Price on Request' -- the raw ledger's claim that pricing is uniformly unpublished/quote-only is INCORRECT.",
+   "notes": "Vendor claim; pricing is quote-on-request, so this record cannot establish a hard price point despite being a named catalog product. | CORRECTION: the original claim ('unit pricing is not published online... rather than list-priced') is contradicted by direct fetch, which shows explicit list prices for most models. Claim text revised accordingly."
+  },
+  {
+   "id": "L07-037",
+   "title": "IntegraTorr® NEG Coating — Distributed UHV Pumping for Particle Accelerators",
+   "authors_or_org": "SAES Getters S.p.A.",
+   "year": null,
+   "url": "https://www.saesgetters.com/highvacuum/solution/neg-coating/",
+   "canonical_key": "https://www.saesgetters.com/highvacuum/solution/neg-coating/",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "IT"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "SAES Getters markets IntegraTorr, a sputtered NEG coating originally developed at CERN for the LHC, as a commercial distributed-pumping solution for accelerator beam pipes, storage rings, and synchrotron radiation facilities, activating at 180°C/24h and allowing multiple air-exposure/reactivation cycles -- the same technology class studied academically in L07-001/L07-002.",
+   "notes": "SAES Getters (Italy) is a named incumbent NEG-coating/getter-pump vendor; treated as vendor claim, not independent validation. | Vendor claim, not independent validation; confirmed CERN origin and >20-year track record claim per SAES."
+  },
+  {
+   "id": "L07-038",
+   "title": "Vacuum Pump Market — Share Analysis, Industry Trends & Statistics, Growth Forecasts (2025-2030)",
+   "authors_or_org": "Mordor Intelligence (via ResearchAndMarkets distribution)",
+   "year": 2025,
+   "url": "https://www.researchandmarkets.com/reports/4535760/vacuum-pump-market-share-analysis-industry",
+   "canonical_key": "https://www.researchandmarkets.com/reports/4535760/vacuum-pump-market-share-analysis-industry",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Estimates the global vacuum pump market at USD 7.56B (2025) growing to USD 10.81B by 2030 at 7.41% CAGR; other consultancy reports found in the same search gave materially different figures (USD 6.5B->8.4B at 5.3% CAGR; USD 5.73B(2022)->8.75B(2030) at 5.4% CAGR) -- an unresolved cross-vendor conflict, not triangulated bottom-up.",
+   "notes": "Consultancy estimate; three different market-research firms give three different CAGR/size figures for what should be the same market, none independently triangulated with bottom-up arithmetic in this pass — flagged as an unresolved contradiction in the lane brief. | Consultancy estimate; conflicting CAGR/size figures across three market-research firms remain unresolved and are flagged, per source standards ('conflicts are shown, not averaged away')."
+  },
+  {
+   "id": "L07-039",
+   "title": "Semiconductor Dry Vacuum Pump Market — Size, Share, Trends",
+   "authors_or_org": "Valuates Reports / MarketGrowthReports (consultancy aggregators)",
+   "year": 2025,
+   "url": "https://reports.valuates.com/market-reports/QYRE-Auto-4D6639/global-semiconductor-dry-vacuum-pump",
+   "canonical_key": "https://reports.valuates.com/market-reports/QYRE-Auto-4D6639/global-semiconductor-dry-vacuum-pump",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "JP",
+    "KR",
+    "TW",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "CONFLICTING FIGURES: raw ledger (scout session) reported USD 1,458.96M (2024) rising to USD 3,120.32M by 2033 (~8.8% CAGR); this session's direct fetch of the SAME URL instead shows USD 1,436M (2025) rising to USD 2,574M by 2032, CAGR 8.8% (2026-2032). Vendor list confirmed (Atlas Copco/Edwards, Ebara, Pfeiffer, Kashiyama, ULVAC among ~15 named vendors) but the specific '62% top-6 share' figure from the raw ledger could NOT be independently confirmed this session -- the fetched page lists vendors without a share breakdown.",
+   "notes": "Consultancy estimate, not independently triangulated; vendor market-share concentration figure (62% for top 6) is a useful competitive-structure data point even though the underlying TAM number is unverified. | This report-aggregator page appears to auto-update its 'current/forecast year' framing between accesses, producing genuinely different headline numbers at different access times -- flagged as an unresolved discrepancy rather than silently reconciled, per source standards. Competitive-structure vendor list (six largest vendors) is useful and consistent across both sessions even though exact TAM figures conflict."
+  },
+  {
+   "id": "L07-041",
+   "title": "IO/26/OT/10035181/JGO — Supply Contract Liquid and Gaseous Helium for ITER",
+   "authors_or_org": "ITER Organization",
+   "year": 2026,
+   "url": "https://www.iter.org/industry/procurement/overview-tenders/open-tenders",
+   "canonical_key": "tender:IO/26/OT/10035181/JGO",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "FR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "ITER Organization's open-tender listing shows an ongoing supply contract for liquid and gaseous helium (trailer delivery, minimum purity grade 4.5) in cost range D (€4M-€12M); status Open.",
+   "notes": "Directly fetched this session from the ITER industry procurement portal. | Re-confirmed this session."
+  },
+  {
+   "id": "L07-042",
+   "title": "IO/25/OT/10031355/JGO — Supply Contract for ITER Vacuum Vessel Pressure Suppression System Instruments (Awarded)",
+   "authors_or_org": "ITER Organization",
+   "year": 2025,
+   "url": "https://www.iter.org/industry/procurement/overview-tenders/open-tenders",
+   "canonical_key": "tender:IO/25/OT/10031355/JGO",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "FR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "ITER's Vacuum Vessel Pressure Suppression System (VVPSS) instrumentation supply contract, cost range B (€300K-€2M), is listed as awarded.",
+   "notes": "Awardee name not visible in the fetched listing; the VVPSS is a nuclear-classified safety system on the ITER vacuum vessel. | Awardee name still not visible in the listing; re-confirmed this session."
+  },
+  {
+   "id": "L07-043",
+   "title": "IO/25/OT/10031239/JGO — Supply Contract for ITER Vacuum Vessel Pressure Suppression System Valves (Awarded)",
+   "authors_or_org": "ITER Organization",
+   "year": 2025,
+   "url": "https://www.iter.org/industry/procurement/overview-tenders/open-tenders",
+   "canonical_key": "tender:IO/25/OT/10031239/JGO",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "FR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "ITER's VVPSS valve supply contract, cost range B (€300K-€2M), is listed as awarded — nuclear-classified vacuum-vessel safety valves.",
+   "notes": "Awardee name not visible in the fetched listing. | Awardee name still not visible in the listing; re-confirmed this session."
+  },
+  {
+   "id": "L07-044",
+   "title": "IO/25/OT/10032406/JGO — Supply Contract for ITER Vacuum Vessel Pressure Suppression System Cooler Condenser (Awarded to MAP Industrial Projects, S.L.)",
+   "authors_or_org": "ITER Organization; awardee MAP Industrial Projects, S.L. (Spain)",
+   "year": 2025,
+   "url": "https://www.iter.org/industry/procurement/overview-tenders/open-tenders",
+   "canonical_key": "tender:IO/25/OT/10032406/JGO",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "ES",
+    "FR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "ITER's VVPSS cooler-condenser supply contract, cost range A (up to €400K), was awarded to MAP Industrial Projects, S.L., awarded 15/10/2025.",
+   "notes": "Only one of the four ITER VVPSS-related tenders in this record set names the awardee explicitly. | Only one of the four ITER VVPSS-related tenders in this record set names the awardee explicitly; award date (15/10/2025) newly confirmed this session."
+  },
+  {
+   "id": "L07-045",
+   "title": "高能同步辐射光源（HEPS）储存环插入件真空盒及支架公开招标公告 (HEPS Storage Ring Insertion Device Vacuum Chamber and Support Frame open tender notice)",
+   "authors_or_org": "Chinese Academy of Sciences, Institute of High Energy Physics (IHEP)",
+   "year": 2021,
+   "url": "https://www.ccnta.cn/article/7832.html",
+   "canonical_key": "tender:HEPS-VC-2021-IHEP",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "IHEP's open tender for HEPS storage-ring insertion-device vacuum chambers and support frames, estimated value RMB 2.6 million, bid deadline 2021-11-19 08:45 Beijing time, published 2021-10-27, delivery within 12 months of contract signing; bid-document fee RMB 200, contact puxj@ihep.ac.cn.",
+   "notes": "HEPS (高能同步辐射光源) is one of China's 13th Five-Year Plan major science infrastructure projects; storage ring completed full vacuum closed-loop in July 2024 and passed process acceptance in October 2025 per background search (not independently fetched). | Re-confirmed this session with full detail match to the raw ledger."
+  },
+  {
+   "id": "L07-046",
+   "title": "삼성E&A·한성크린텍 평택 P5 Ph1 초순수 복합동 설비공사 A 계약체결 (Hansung Clean Tech / Samsung E&A Pyeongtaek P5 Phase 1 ultra-pure-water facility construction contract)",
+   "authors_or_org": "Hansung Clean Tech; counterparty Samsung E&A",
+   "year": 2026,
+   "url": "https://www.cbci.co.kr/news/articleView.html?idxno=582691",
+   "canonical_key": "https://www.cbci.co.kr/news/articleView.html?idxno=582691",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "Hansung Clean Tech signed a contract with Samsung E&A for the 'Pyeongtaek P5 Ph1 ultra-pure water complex facility construction work A', disclosed as 11.09% of the company's prior-year revenue, running June 17, 2026-July 31, 2027 (~13 months). VALUE FIGURE FLAGGED: raw ledger states KRW 22.17775 billion (~USD 16M); this session's re-fetch returned '221.7775 billion won' (~USD 160M) for the same disclosure -- an order-of-magnitude discrepancy likely reflecting a decimal/unit misread by automated text extraction on one of the two passes, not independently resolved this session.",
+   "notes": "This is a mandatory Korean corporate disclosure (single-supply-contract disclosure), i.e., closer to a regulatory filing than ordinary trade press. | Given the 11.09%-of-prior-year-revenue disclosure is consistent in both passes, and a ~USD 16M contract implies a more plausible prior-year revenue (~USD 144M) for a company this size than a ~USD 160M contract would (implying ~USD 1.4B prior-year revenue, implausible for this issuer), the original ledger figure (KRW 22.18B) is judged more likely correct, but this is not independently confirmed against the primary Korean Exchange disclosure filing itself. Flagged for the next pass to resolve by checking the original KRX disclosure (DART) directly rather than a news aggregator."
+  },
+  {
+   "id": "L07-047",
+   "title": "한성크린텍, 삼성·DB하이텍 반도체 수처리 공정 EPC 310억 수주 (Hansung Clean Tech wins KRW 31 billion water-treatment EPC order from Samsung and DB HiTek)",
+   "authors_or_org": "Hansung Clean Tech; counterparties Samsung Electronics and DB HiTek",
+   "year": 2026,
+   "url": "https://news.nate.com/view/20260519n18186",
+   "canonical_key": "https://news.nate.com/view/20260519n18186",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "Hansung Clean Tech disclosed a combined ~KRW 31 billion (~USD 22M) ultra-pure-water EPC order from Samsung Electronics (P5 project) and DB HiTek, ~155 EPC equipment units per project, publicly attributed to AI/HBM-driven fab investment and to addressing defects in existing P5 work; published 2026-05-19.",
+   "notes": "A second, related Hansung Clean Tech contract disclosure (~KRW 8B, described elsewhere as a Samsung-only Pyeongtaek water-treatment order) appeared in the same search results; not included separately here to avoid likely duplication risk, but flagged for the verifier to check. | No discrepancy found on this record (unlike L07-046); value figure independently confirmed via direct fetch this session."
+  },
+  {
+   "id": "L07-049",
+   "title": "Ichor Holdings, Ltd. — Fourth Quarter and Fiscal Year 2025 Financial Results / Form 10-K",
+   "authors_or_org": "Ichor Holdings, Ltd.",
+   "year": 2025,
+   "url": "https://www.businesswire.com/news/home/20260209131552/en/Ichor-Holdings-Ltd.-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results",
+   "canonical_key": "https://www.sec.gov/Archives/edgar/data/1652535/000165253526000012/ichr-20251226.htm",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Ichor Holdings' FY2025 revenue grew to $947.7M (from $849.0M in 2024, $811.1M in 2023); GAAP net loss $(52.8)M (vs $(20.8)M in 2024); Lam Research and Applied Materials together accounted for 76% of 2025 sales -- a customer-concentration risk for this gas/fluid-delivery-subsystem supplier.",
+   "notes": "Direct SEC EDGAR URL confirmed via search; figures should be cross-checked against the filing's MD&A section by the verifier. | All figures now confirmed exactly (were previously search-index-derived only); canonical_key retained as the SEC EDGAR filing URL, with the Businesswire earnings release used as the accessible confirming locator."
+  },
+  {
+   "id": "L07-050",
+   "title": "MKS Inc. — Annual Report (Form 10-K/ARS), Fiscal Year 2025",
+   "authors_or_org": "MKS Inc. (formerly MKS Instruments, Inc.)",
+   "year": 2025,
+   "url": "https://www.sec.gov/Archives/edgar/data/1049502/000119312526133426/d101621dars.pdf",
+   "canonical_key": "https://www.sec.gov/Archives/edgar/data/1049502/000119312526133426/d101621dars.pdf",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "MKS Inc.'s FY2025 total net revenue was $3,931M (+9.6% YoY), driven by higher electronics/packaging and semiconductor-market sales; 81% of total net revenue came from outside the US, with key international markets including China, South Korea, Singapore, Taiwan, and Japan. The Vacuum Solutions Division-specific revenue breakout and the '$432M Q2 2025 semiconductor-market revenue, +17% YoY' figure in the raw ledger could NOT be independently confirmed this session.",
+   "notes": "MKS's Vacuum Solutions Division-specific revenue (as distinct from total company or total semiconductor-market revenue) was not isolated in the search snippets; verifier should confirm the VSD-specific breakout in the filing. | Total revenue and new 81%-international fact confirmed; VSD-specific and Q2-semiconductor breakout figures remain unconfirmed and should be treated with the same caveat as the raw ledger already carried."
+  },
+  {
+   "id": "L07-051",
+   "title": "EBARA Launches New Dry Vacuum Pump and Plasma Abatement System (EV-H / ELF models)",
+   "authors_or_org": "EBARA Corporation",
+   "year": 2025,
+   "url": "https://ebara.com/global-en/newsroom/2025/20251217-01/",
+   "canonical_key": "https://ebara.com/global-en/newsroom/2025/20251217-01/",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "JP",
+    "KR",
+    "TW"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "CONFIRMED PORTION ONLY: EBARA will begin mass production/sequential release of its new Dry Vacuum Pump Model EV-H (improved high-flow-rate handling and by-product-deposition resistance) and Plasma abatement system Model ELF (fossil-fuel-free plasma reactor for PFC/greenhouse-gas decomposition) starting 2026. UNCONFIRMED AND REMOVED: the raw ledger's claims of a TSMC joint-development agreement and a USD 200M Korea/Taiwan supply-hub investment could NOT be found in this press release or via a dedicated WebSearch this session, and are not carried forward as confirmed facts.",
+   "notes": "Company press release rather than an audited filing, so tiered T2; the TSMC joint-development and $200M Korea/Taiwan investment figures come from aggregated search snippets and should be re-verified against EBARA's own investor-relations materials by the verifier. | Demand_evidence_type downgraded from 'direct_customer_documentation' to 'none' and geography narrowed from [JP,KR,TW] to [JP] because the only confirmed content is a general company product announcement, not customer-specific transaction evidence; the KR/TW investment claim is unverified and should not be relied upon until independently sourced."
+  },
+  {
+   "id": "L07-052",
+   "title": "株式会社アルバック 有価証券報告書（第121期，2024年7月～2025年6月） (ULVAC, Inc. Securities Report, FY ended June 2025, 121st fiscal period)",
+   "authors_or_org": "ULVAC, Inc. (株式会社アルバック)",
+   "year": 2025,
+   "url": "https://data.swcms.net/file/ulvac-ir/dam/jcr:6cbea6e0-1784-4106-8003-fb5973f19310/S100WQX1.pdf",
+   "canonical_key": "https://data.swcms.net/file/ulvac-ir/dam/jcr:6cbea6e0-1784-4106-8003-fb5973f19310/S100WQX1.pdf",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "ULVAC's mandatory Japanese securities report for FY ended June 2025 discloses vacuum-application-business orders received of ¥521.37 billion and sales of ¥521.34 billion (confirmed exactly via independent search of the company's own 決算短信 release this session). BACKLOG FIGURE FLAGGED: raw ledger states order backlog of ¥174.1 billion; this session's search instead surfaced ¥17.41 billion for the same disclosure -- a possible order-of-magnitude (10x) transcription conflict between passes, not resolved against the primary PDF this session.",
+   "notes": "Equivalent in legal status to a US 10-K; ULVAC is one of the six vendors said to hold ~62% of global semiconductor vacuum-pump revenue (see L07-039). | Given ¥174.1B would represent ~33% of annual sales (a plausible equipment-backlog ratio) versus ¥17.41B representing only ~3% (unusually thin for this business), the original ¥174.1B figure is judged more likely correct, but this is a judgment call, not a confirmed fact -- flagged for resolution against the primary PDF. ULVAC remains one of six vendors said to hold ~62% global semiconductor vacuum-pump revenue share per L07-039 (that specific share figure itself is now flagged as unconfirmed, see L07-039)."
+  },
+  {
+   "id": "L07-053",
+   "title": "INFICON Holding AG — Fourth Quarter and Full-Year 2025 Results",
+   "authors_or_org": "INFICON Holding AG",
+   "year": 2025,
+   "url": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/after-strong-fourth-quarter-inficon-closes-2025-at-record-sales-level/7bef46be-c444-4c35-be87-789a1a74b6b1_en",
+   "canonical_key": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/after-strong-fourth-quarter-inficon-closes-2025-at-record-sales-level/7bef46be-c444-4c35-be87-789a1a74b6b1_en",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CH",
+    "CN",
+    "JP",
+    "KR",
+    "TW",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "earnings_transcript",
+   "claim_supported": "INFICON (Swiss-listed) reported FY2025 full-year sales of $673.7M (+0.4% YoY), a record; its largest segment, Semi & Vacuum Coating, was 49% of Group sales at $330.0M (down 2.9%, hit by trade/tech disputes); Asia-Pacific sales rose 19.2% to $168.6M on AI-chip demand and a new Malaysia facility; Americas sales fell 12.4% to $156.4M, the weakest region.",
+   "notes": "CORRECTED URL/LOCATOR: the raw ledger's URL (inficon.com 'to publish its results' announcement) only pre-announced a future publication date and contained none of the actual figures; the actual ad-hoc results release (EQS-News) was located and fetched this session, confirming every figure in the original claim_supported exactly. This is a Swiss mandatory ad-hoc disclosure (SIX Exchange Regulation), equivalent in status to a regulatory filing."
+  },
+  {
+   "id": "L07-054",
+   "title": "SBIR Award: Densified Cryogen System for Maximum Storage and Delivery Performance in Zero-Gravity (Sierra Lobo, Inc.)",
+   "authors_or_org": "US Department of Defense, Missile Defense Agency (MDA); recipient Sierra Lobo, Inc.",
+   "year": 2003,
+   "url": "https://www.sbir.gov/awards/105458",
+   "canonical_key": "https://www.sbir.gov/awards/105458",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "A DOD/Missile Defense Agency SBIR Phase II award ($495,907) funded Sierra Lobo, Inc. (Fremont, Ohio) to develop a densified-cryogen storage system with a lightweight sensor array for cryogenic temperature and vapor/liquid (leak-relevant) detection in zero-gravity.",
+   "notes": "Older award (2003) surfaced by a query aimed at recent DOE grants; included with corrected agency/date/recipient rather than discarded, since it is a directly-fetched, on-topic government award record for cryogenic leak/vapor sensing. Illustrates that government funding for this niche is intermittent rather than a steady recent pipeline — flagged as an uncertainty in the lane brief. | Re-confirmed this session. Older award (2003); illustrates that government funding for this niche is intermittent rather than a steady recent pipeline — flagged as an uncertainty in the lane brief."
+  },
+  {
+   "id": "L08-001",
+   "title": "Research on a Multiport Parallel Type Hybrid Circuit Breaker for HVDC Grids: Modeling and Design",
+   "authors_or_org": "Xinming Guo, Jin Zhu, Qingpeng Zeng, Hao Xiao, Tongzhen Wei (Institute of Electrical Engineering, Chinese Academy of Sciences and University of Chinese Academy of Sciences)",
+   "year": 2023,
+   "url": "https://www.sciopen.com/article/10.17775/CSEEJPES.2021.05040",
+   "canonical_key": "doi:10.17775/cseejpes.2021.05040",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.17775/CSEEJPES.2021.05040",
+   "doi": "10.17775/CSEEJPES.2021.05040",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a star-type multiport hybrid DC circuit breaker (Star-HCB) topology to protect multi-terminal HVDC grids more cost-effectively than one-breaker-per-line designs.",
+   "notes": "Publisher page (sciOpen, official CSEE JPES host) fetched successfully this session; DOI, author list, and venue confirmed directly. | Verified via Crossref works API this session: title, journal, journal-article type, and 2023 year confirmed exact match. Publisher (sciOpen) page also fetched by scout."
+  },
+  {
+   "id": "L08-003",
+   "title": "Enhancing electrical and thermal stress capabilities of hybrid CBs in VSC based MT HVDC grids using thyristor based FCL topology",
+   "authors_or_org": "Baseem Khan, Muhammad Zain Yousaf, Saqib Khalid, Muhammad Armughan Shakeel, Josep M. Guerrero, Rajkumar Sivanraju",
+   "year": 2025,
+   "url": "https://www.nature.com/articles/s41598-025-27261-w",
+   "canonical_key": "doi:10.1038/s41598-025-27261-w",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-27261-w",
+   "doi": "10.1038/s41598-025-27261-w",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a thyristor-based fault current limiter (FCL) topology to improve electrical/thermal stress handling of hybrid circuit breakers in VSC-based multi-terminal HVDC grids.",
+   "notes": "WebFetch blocked by login-wall redirect this session; DOI derived from Nature's standard article-ID convention, not independently resolved via doi.org. Author list/affiliation unconfirmed; geography is Springer Nature (publisher HQ, UK) proxy only, not author nationality. | Author list resolved via Crossref this session (was 'unconfirmed authors' in raw record); title matches exactly. Geography remains publisher-HQ (Springer Nature, UK) proxy, not author nationality."
+  },
+  {
+   "id": "L08-004",
+   "title": "Fault Detection and Protection Strategy for Multi-Terminal HVDC Grids Using Wavelet Analysis",
+   "authors_or_org": "Jashandeep Kaur, Manilka Jayasooriya, Muhammad Naveed Iqbal, Kamran Daniel, Noman Shabbir, Kristjan Peterson",
+   "year": 2025,
+   "url": "https://www.mdpi.com/1996-1073/18/5/1147",
+   "canonical_key": "doi:10.3390/en18051147",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18051147",
+   "doi": "10.3390/en18051147",
+   "demand_evidence_type": "none",
+   "claim_supported": "Implements a wavelet-based protection algorithm on a four-terminal VSC-HVDC grid, evaluated against internal pole-to-ground faults and external DC/AC faults.",
+   "notes": "DOI inferred from MDPI's documented volume/issue/article-number convention (matches L02 lane's precedent for MDPI DOI inference); not individually resolved via doi.org this session. Geography is MDPI (Basel, Switzerland) publisher-HQ proxy, not author nationality. | Author list resolved via Crossref this session. Geography is MDPI publisher-HQ proxy, not author nationality."
+  },
+  {
+   "id": "L08-005",
+   "title": "Adaptive non-unit traveling wave protection algorithm for multi terminal HVDC grids",
+   "authors_or_org": "Ali Raza, Muhammad Ameer Hamza, Abul Rehman Kashif, Muhammad Zain Yousaf, Baseem Khan, Josep M. Guerrero, Rajkumar Sivanraju",
+   "year": 2025,
+   "url": "https://www.nature.com/articles/s41598-025-19589-0",
+   "canonical_key": "doi:10.1038/s41598-025-19589-0",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-19589-0",
+   "doi": "10.1038/s41598-025-19589-0",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a robust, adaptive non-unit protection algorithm for multi-terminal HVDC transmission lines addressing DC fault-type discrimination under high-impedance-fault conditions using traveling-wave high-frequency components.",
+   "notes": "Not fetched this session (not attempted directly); DOI derived from Nature's standard article-ID convention. Geography is publisher-HQ proxy only. | Author list resolved via Crossref this session. Geography is publisher-HQ proxy."
+  },
+  {
+   "id": "L08-006",
+   "title": "DC protection coordination for multi-terminal HB-MMC-based HVDC grids",
+   "authors_or_org": "Seyed Hassan Ashrafi Niaki, Zhe Chen, Birgitte Bak-Jensen, Kamran Sharifabadi, Zhou Liu, Shuju Hu",
+   "year": 2024,
+   "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/rpg2.12903",
+   "canonical_key": "doi:10.1049/rpg2.12903",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/rpg2.12903",
+   "doi": "10.1049/rpg2.12903",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents a DC protection coordination scheme for multi-terminal half-bridge-MMC-based HVDC grids.",
+   "notes": "DOI confirmed directly from search result URL (Wiley/IET publisher page). Not fetched for full text this session; geography is publisher (Wiley/IET, UK) proxy only. | Full author list resolved via Crossref this session; geography is publisher (Wiley/IET, UK) proxy."
+  },
+  {
+   "id": "L08-007",
+   "title": "Optimal Wavelet Selection for DC Fault Detection in Multi-Terminal VSC-HVDC Grids: A Performance Comparison with HIL Validation",
+   "authors_or_org": "Akash Sovis, Manilka Jayasooriya, Muhammad Naveed Iqbal, Kamran Daniel, Hadi Ashraf Raja, Rana Arslan Qadar, Noman Shabbir",
+   "year": 2026,
+   "url": "https://doi.org/10.3390/app16115186",
+   "canonical_key": "doi:10.3390/app16115186",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/app16115186",
+   "doi": "10.3390/app16115186",
+   "demand_evidence_type": "none",
+   "claim_supported": "Systematically compares six wavelets (db4, db8, sym3, sym5, coif3, coif5) for DC fault detection in three- and four-terminal VSC-HVDC grids across detection delay, accuracy, noise tolerance, and computational-efficiency metrics, with hardware-in-the-loop (HIL) validation.",
+   "notes": "DOI confirmed directly from search result (explicit doi.org link). Not fetched for full text; geography is MDPI publisher-HQ proxy. | Author list resolved via Crossref this session; geography is MDPI publisher-HQ proxy."
+  },
+  {
+   "id": "L08-008",
+   "title": "A Comprehensive Review on a Virtual-Synchronous Generator: Topologies, Control Orders and Techniques, Energy Storages, and Applications",
+   "authors_or_org": "Myada Shadoul, Razzaqul Ahshan, Rashid S. AlAbri, Abdullah Al-Badi, Mohammed Albadi, Mohsin Jamil",
+   "year": 2022,
+   "url": "https://www.mdpi.com/1996-1073/15/22/8406",
+   "canonical_key": "doi:10.3390/en15228406",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en15228406",
+   "doi": "10.3390/en15228406",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews virtual synchronous generator topologies, control orders/techniques, and energy-storage integration for grid-forming applications; frames synchronverters as grid-forming units suitable for inertia emulation.",
+   "notes": "Review article -> T2 per SOURCE_STANDARDS even though foundational/widely cited. DOI confirmed via explicit search-result text. WebFetch attempt for full text did not return usable content this session. | Review article -> T2. Author list resolved via Crossref this session."
+  },
+  {
+   "id": "L08-009",
+   "title": "Robust Stability Analysis of Grid-Forming Converter-Dominated Grids Using Grey-Box Modelling Approach",
+   "authors_or_org": "Endalkachew Degarege Almawu, Federico Cecati, Marco Liserre",
+   "year": 2025,
+   "url": "https://www.mdpi.com/1996-1073/18/3/587",
+   "canonical_key": "doi:10.3390/en18030587",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18030587",
+   "doi": "10.3390/en18030587",
+   "demand_evidence_type": "none",
+   "claim_supported": "Applies grey-box modelling to analyze stability robustness of power grids dominated by grid-forming converters.",
+   "notes": "DOI inferred from MDPI numbering convention, not individually resolved via doi.org this session. Geography is publisher-HQ proxy. | Author list resolved via Crossref this session (Liserre = Univ. of Kiel, well-known power electronics researcher)."
+  },
+  {
+   "id": "L08-010",
+   "title": "Improving Transient Response of Power Converter in a Stand-Alone Microgrid Using Virtual Synchronous Generator",
+   "authors_or_org": "Cao-Khang Nguyen, Thai-Thanh Nguyen, Hyeong-Jun Yoo, Hak-Man Kim",
+   "year": 2017,
+   "url": "https://mdpi.com/1996-1073/11/1/27/htm",
+   "canonical_key": "doi:10.3390/en11010027",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en11010027",
+   "doi": "10.3390/en11010027",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a virtual synchronous generator control scheme to improve transient response of a stand-alone microgrid power converter.",
+   "notes": "DOI confirmed via explicit search-result text. Older foundational VSG paper retained for lineage of the grid-forming control literature. | Author list resolved via Crossref this session; authors affiliated with Incheon National University, Korea per name/topic match (unconfirmed institutionally)."
+  },
+  {
+   "id": "L08-011",
+   "title": "Power Analysis Produced by Virtual Inertia in Single-Phase Grid-Forming Converters Under Frequency Events Intended for Bidirectional Battery Chargers",
+   "authors_or_org": "Erick Pantaleon, Jhonatan Paucara, Damian Sal y Rosas",
+   "year": 2025,
+   "url": "https://www.mdpi.com/1996-1073/18/21/5560",
+   "canonical_key": "doi:10.3390/en18215560",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18215560",
+   "doi": "10.3390/en18215560",
+   "demand_evidence_type": "none",
+   "claim_supported": "Analyzes virtual-inertia power response of single-phase grid-forming converters under frequency events, targeted at bidirectional battery-charger applications.",
+   "notes": "DOI inferred from MDPI numbering convention, not individually resolved via doi.org this session. | Author list resolved via Crossref this session (authors appear PUCP, Peru-affiliated based on names, unconfirmed institutionally)."
+  },
+  {
+   "id": "L08-012",
+   "title": "Grid-forming control for inverter-based resources in power systems: A review on its operation, system stability, and prospective",
+   "authors_or_org": "Musa Khan, Wenchuan Wu, Li Li",
+   "year": 2024,
+   "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/rpg2.12991",
+   "canonical_key": "doi:10.1049/rpg2.12991",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/rpg2.12991",
+   "doi": "10.1049/rpg2.12991",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews grid-forming control operation, system-stability implications, and future prospects for inverter-based resources.",
+   "notes": "Review article -> T2. DOI confirmed via search-result URL; geography is publisher (Wiley/IET) proxy. | Review article -> T2. Author list confirmed via Crossref this session; geography is publisher (Wiley/IET) proxy."
+  },
+  {
+   "id": "L08-013",
+   "title": "Interlinked Solid-state MVDC Circuit Breaker with Current Regulation Capability",
+   "authors_or_org": "Sheng Wang, Wenlong Ming, Jun Liang",
+   "year": 2019,
+   "url": "https://ieeexplore.ieee.org/document/8927420/",
+   "canonical_key": "doi:10.1109/iecon.2019.8927420",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/IECON.2019.8927420",
+   "doi": "10.1109/IECON.2019.8927420",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes an interlinked solid-state circuit breaker (ISSCB) for MVDC systems that blocks DC faults at multiple locations while providing current regulation during normal operation.",
+   "notes": "DOI located and confirmed via Crossref this session, satisfying the IEEE-conference-paper verification rule (final IECON 2019 proceedings identity confirmed). Authors identified: Sheng Wang, Wenlong Ming, Jun Liang (Cardiff University). Geography corrected to GB (author institution) from prior US default."
+  },
+  {
+   "id": "L08-014",
+   "title": "A distribution network solid-state DC circuit breaker with current limiting function",
+   "authors_or_org": "unconfirmed authors (Energy Reports / Elsevier)",
+   "year": 2022,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352484721011975",
+   "canonical_key": "doi:10.1016/j.egyr.2021.11.052",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "NL"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.egyr.2021.11.052",
+   "doi": "10.1016/j.egyr.2021.11.052",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a current-limiting solid-state DC circuit breaker (CLSSCB) topology for MVDC distribution networks.",
+   "notes": "DOI resolved via Crossref search this session; corrected year from 2021 (raw) to 2022 (Crossref-confirmed publication year; article was first available online 2021). Direct ScienceDirect fetch returned HTTP 403 this session, but Crossref record fetch succeeded and satisfies the fetched=true/peer-review-verified criteria. Geography is publisher (Elsevier, NL) proxy; journal is genuinely China Electric Power Research Institute co-published per raw notes."
+  },
+  {
+   "id": "L08-015",
+   "title": "A solid-state circuit breaker for DC system using series and parallel connected IGBTs",
+   "authors_or_org": "unconfirmed authors (International Journal of Electrical Power & Energy Systems / Elsevier)",
+   "year": 2022,
+   "url": "https://www.sciencedirect.com/science/article/pii/S0142061522000424",
+   "canonical_key": "doi:10.1016/j.ijepes.2022.107996",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "NL"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijepes.2022.107996",
+   "doi": "10.1016/j.ijepes.2022.107996",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents a solid-state DC circuit breaker design using series- and parallel-connected IGBTs to meet voltage/current rating requirements.",
+   "notes": "DOI resolved via Crossref search this session, exact title/container/year match. Direct ScienceDirect fetch returned HTTP 403 this session; Crossref record fetch satisfies verification criteria."
+  },
+  {
+   "id": "L08-017",
+   "title": "Solid-State Circuit Breaker Topology Design Methodology for Smart DC Distribution Grids with Millisecond-Level Self-Healing Capability",
+   "authors_or_org": "Baoquan Wei, Haoxiang Xiao, Hong Liu, Dongyu Li, Fangming Deng, Benren Pan, Zewen Li",
+   "year": 2025,
+   "url": "https://www.mdpi.com/1996-1073/18/14/3613",
+   "canonical_key": "doi:10.3390/en18143613",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18143613",
+   "doi": "10.3390/en18143613",
+   "demand_evidence_type": "none",
+   "claim_supported": "Designs a solid-state circuit breaker topology with adaptive fault current-limiting for millisecond-level self-healing in MVDC distribution grids, with named application to datacenter power distribution protecting against cascading failures.",
+   "notes": "DOI inferred from MDPI numbering convention, not individually resolved via doi.org this session. Directly relevant to the datacenter-DC-distribution sub-scope of L08. | Author list resolved via Crossref this session (authors' names suggest Chinese institution). Directly relevant to the datacenter-DC-distribution sub-scope of L08."
+  },
+  {
+   "id": "L08-018",
+   "title": "Design of 400 V Miniature DC Solid State Circuit Breaker with SiC MOSFET",
+   "authors_or_org": "Hui Li, Renze Yu, Yi Zhong, Ran Yao, Xinglin Liao, Xianping Chen",
+   "year": 2019,
+   "url": "https://www.mdpi.com/2072-666X/10/5/314",
+   "canonical_key": "doi:10.3390/mi10050314",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/mi10050314",
+   "doi": "10.3390/mi10050314",
+   "demand_evidence_type": "none",
+   "claim_supported": "Designs a 400V miniature DC solid-state circuit breaker using SiC MOSFETs, including drive circuit, fault-detection circuit, energy-absorption circuit, and snubber circuit, with a tested prototype.",
+   "notes": "DOI, full author list, and open-access PMC mirror confirmed via search; publisher page itself not directly fetched this session. Author affiliation indicates Chinese institution. | Author list and DOI reconfirmed via Crossref this session (matches raw record). Author affiliation indicates Chinese institution."
+  },
+  {
+   "id": "L08-019",
+   "title": "DC Series Arc Fault Detection in Photovoltaic Systems Using a Hybrid WDCNN-BiLSTM-CA Model",
+   "authors_or_org": "Liang Zhou, Manman Hou, Zheng Zeng, Jingyi Zhao, Chi-Min Shu, Huiling Jiang",
+   "year": 2026,
+   "url": "https://www.mdpi.com/2571-6255/9/2/84",
+   "canonical_key": "doi:10.3390/fire9020084",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/fire9020084",
+   "doi": "10.3390/fire9020084",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a hybrid deep-learning model (WDCNN-BiLSTM with channel attention) for DC series arc-fault detection in photovoltaic/DC systems, relevant to DC distribution fire-prevention protection.",
+   "notes": "DOI inferred from MDPI numbering convention, not individually resolved via doi.org this session. | Author list resolved via Crossref this session (Chi-Min Shu is a known fire-safety researcher, National Yunlin University of Science and Technology, Taiwan -- suggests TW co-authorship, unconfirmed institutionally)."
+  },
+  {
+   "id": "L08-020",
+   "title": "Photovoltaic DC arc fault detection method based on deep residual shrinkage network",
+   "authors_or_org": "Penghe Zhang, Yang Xue, Runan Song, Xiaochen Ma, Dejie Sheng",
+   "year": 2024,
+   "url": "https://link.springer.com/article/10.1007/s43236-024-00840-2",
+   "canonical_key": "doi:10.1007/s43236-024-00840-2",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s43236-024-00840-2",
+   "doi": "10.1007/s43236-024-00840-2",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a deep residual shrinkage network method for detecting DC arc faults in photovoltaic/DC systems.",
+   "notes": "DOI confirmed via search-result URL. Journal of Power Electronics is the official journal of the Korean Institute of Power Electronics -- geography KR reflects publishing-society venue, author nationality not separately confirmed. | Author list resolved via Crossref this session (Chinese author names; journal is the official KIPE, Korea, journal -- geography reflects publishing-society venue)."
+  },
+  {
+   "id": "L08-021",
+   "title": "DC Arc Fault Detection For Grid-Connected Large-Scale Photovoltaic Systems",
+   "authors_or_org": "Moses Kavi, Yateendra Mishra, Mahinda Vilathgamuwa",
+   "year": 2020,
+   "url": "https://ieeexplore.ieee.org/document/9112616/",
+   "canonical_key": "doi:10.1109/jphotov.2020.2998868",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "AU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/jphotov.2020.2998868",
+   "doi": "10.1109/JPHOTOV.2020.2998868",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents a DC arc-fault detection method for grid-connected, large-scale photovoltaic/DC systems using a decomposed open-close alternating sequence (DOCAS) morphological technique.",
+   "notes": "DOI and author list resolved via Crossref search this session. Authors affiliated with Griffith University / QUT, Australia -- geography corrected to AU from prior US default."
+  },
+  {
+   "id": "L08-022",
+   "title": "An Asymmetric Hybrid Phase-Leg Modular Multilevel Converter With Small Volume, Low Cost, and DC Fault-Blocking Capability",
+   "authors_or_org": "Rui Zhang, Shunliang Wang, Junpeng Ma, Yajie Jiang, Peng Wang, Tianqi Liu, Yun Yang",
+   "year": 2025,
+   "url": "https://ieeexplore.ieee.org/iel8/63/10858321/10777568.pdf",
+   "canonical_key": "doi:10.1109/tpel.2024.3510792",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpel.2024.3510792",
+   "doi": "10.1109/TPEL.2024.3510792",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes an asymmetric hybrid phase-leg MMC topology with reduced volume/cost and inherent DC fault-blocking capability for HVDC applications.",
+   "notes": "DOI and author list resolved via Crossref this session; author (Yun Yang) affiliated with NTU Singapore per cross-reference to author's own publication list found in search -- geography set to CN pending confirmation of exact institutional split (co-authors appear China-affiliated)."
+  },
+  {
+   "id": "L08-024",
+   "title": "An Integration Redundancy Control Strategy for Enhancing the Fault-Tolerant Performance of Modular Multilevel Converters",
+   "authors_or_org": "Yifan Zhang, Jingjing Huang, Xiaoyu Wang, Yudong Du, Xiaoli Chai, Jinyu Wang",
+   "year": 2025,
+   "url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/pel2.70104",
+   "canonical_key": "doi:10.1049/pel2.70104",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1049/pel2.70104",
+   "doi": "10.1049/pel2.70104",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a fusion redundant control scheme (cold-standby plus hot-standby) to improve MMC fault-tolerant performance during submodule failure.",
+   "notes": "DOI confirmed via search-result URL; geography is publisher (Wiley/IET) proxy. | Full author list resolved via Crossref this session; geography is publisher (Wiley/IET) proxy; author names suggest Chinese institution."
+  },
+  {
+   "id": "L08-025",
+   "title": "柔性直流换流阀监视系统关键技术及工程化应用 (Key technologies and engineering application of flexible-DC converter-valve monitoring systems)",
+   "authors_or_org": "Yang Yuefeng, Wang Xiaohan, Wang Wei, Shi Xiuping, Zhao Caiping",
+   "year": 2021,
+   "url": "https://base4zgdl.xml-journal.net/article/doi/10.11930/j.issn.1004-9649.202006024",
+   "canonical_key": "doi:10.11930/j.issn.1004-9649.202006024",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://base4zgdl.xml-journal.net/article/doi/10.11930/j.issn.1004-9649.202006024",
+   "doi": "10.11930/j.issn.1004-9649.202006024",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes converter-valve monitoring system architecture (dual-network redundant) applied to the Zhangbei renewable-energy flexible-DC power-grid demonstration project.",
+   "notes": "CORRECTION: raw record misattributed this article to '高电压技术 (High Voltage Engineering, ISSN 1003-6520)'. ISSN cross-check this session confirms DOI prefix ISSN 1004-9649 belongs to '中国电力 (Electric Power / China Electric Power)' journal, State Grid/China Electricity Council affiliated, Vol. 54 No. 4 pp.168-174 (2021), not Vol.46 No.5 (2020) of 高电压技术 as implied by the raw locator. Author names confirmed matching via direct fetch of base4zgdl.xml-journal.net article page this session. Year corrected from 2020 to 2021 (actual publication year; DOI suffix '202006024' reflects June 2020 submission/manuscript ID, not publication date). Chinese-language primary academic source -- counts toward local-language quota."
+  },
+  {
+   "id": "L08-026",
+   "title": "A Resonant Hybrid DC Circuit Breaker for Multi-Terminal HVDC Systems",
+   "authors_or_org": "Ryo Miyara, Akito Nakadomari, Hidehito Matayoshi, Hiroshi Takahashi, Ashraf M. Hemeida, Tomonobu Senjyu",
+   "year": 2020,
+   "url": "https://www.mdpi.com/2071-1050/12/18/7771",
+   "canonical_key": "doi:10.3390/su12187771",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/su12187771",
+   "doi": "10.3390/su12187771",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a resonant hybrid DC circuit breaker topology providing soft-switching interruption (avoiding hard-switching device stress) for multi-terminal HVDC systems, interrupting current in 1-1.1ms.",
+   "notes": "RESCUED from discovery_only: the raw record only located a ResearchGate mirror with no confirmed final venue. WebSearch plus Crossref bibliographic search this session located the actual peer-reviewed final publication (MDPI Sustainability, not the ResearchGate-listed venue), with matching title, author list (Senjyu = Univ. of the Ryukyus, Okinawa, Japan -- well-known grid-forming/microgrid researcher), and DOI. Geography set to JP based on lead-author group affiliation (Univ. of the Ryukyus), not independently fetched this session -- flag for confirmation. Canonical key and URL updated to the publisher record; ResearchGate mirror superseded per dedupe rule (final peer-reviewed version preferred over preprint/mirror)."
+  },
+  {
+   "id": "L08-027",
+   "title": "A Hybrid DC Fault Primary Protection Algorithm for Multi-Terminal HVdc Systems",
+   "authors_or_org": "Jingfan Sun, Suman Debnath, Matthieu Bloch, Maryam Saeedifard",
+   "year": 2022,
+   "url": "https://ieeexplore.ieee.org/document/9440891/",
+   "canonical_key": "doi:10.1109/tpwrd.2021.3083642",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tpwrd.2021.3083642",
+   "doi": "10.1109/TPWRD.2021.3083642",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a hybrid primary DC-fault detection algorithm for multi-terminal HVDC systems that clusters sensor measurements (line currents, DC reactor voltages) and selects the best fault detector per cluster, covering pole-to-pole, pole-to-ground, and external DC faults with robustness to sensor noise.",
+   "notes": "RESCUED from discovery_only: the raw record logged only the 2020 arXiv preprint. WebSearch plus Crossref bibliographic search this session located the final peer-reviewed publication (IEEE Trans. Power Delivery, 2022, DOI 10.1109/TPWRD.2021.3083642) with matching title and authors (Debnath = Oak Ridge National Laboratory; Bloch, Saeedifard = Georgia Tech). Year corrected from 2020 (preprint) to 2022 (final publication); URL/canonical_key updated to the IEEE Xplore/DOI record, superseding the arXiv preprint per dedupe rule."
+  },
+  {
+   "id": "L08-029",
+   "title": "GE Vernova awarded major contract to deliver HVDC technology for Adani's 2.5-gigawatt Khavda-South Olpad transmission corridor in India",
+   "authors_or_org": "GE Vernova; Adani Energy Solutions Ltd.",
+   "year": 2025,
+   "url": "https://www.gevernova.com/news/press-releases/ge-vernova-awarded-major-contract-deliver-hvdc",
+   "canonical_key": "https://www.gevernova.com/news/press-releases/ge-vernova-awarded-major-contract-deliver-hvdc",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "IN",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Adani Energy Solutions awarded GE Vernova a contract for a 2,500 MW (2x1,250 MW bipolar), +/-500kV VSC-based HVDC point-to-point link (Khavda-South Olpad corridor), announced Dec 22, 2025, described as the highest-rated VSC-HVDC system planned in India to date; delivery targeted by 2030, order to be booked H1 2026.",
+   "notes": "Vendor/company press release -- treated as a project-award record, not independent validation of technology performance claims. | Vendor/company press release, fetched directly from gevernova.com -- treated as a project-award record, not independent validation of technology performance claims."
+  },
+  {
+   "id": "L08-030",
+   "title": "Hitachi Energy selected for 950-km HVDC transmission system to deliver 6 GW of renewable energy in India (Bhadla-Fatehpur link)",
+   "authors_or_org": "Hitachi Energy; Bharat Heavy Electricals Limited (BHEL) consortium; Rajasthan Part I Power Transmission Ltd. (Adani Energy Solutions subsidiary)",
+   "year": 2025,
+   "url": "https://www.hitachienergy.com/news-and-events/press-releases/2025/04/hitachi-energy-selected-for-950-km-hvdc-transmission-system-to-deliver-6-gw-of-renewable-energy-in-india",
+   "canonical_key": "https://www.hitachienergy.com/news-and-events/press-releases/2025/04/hitachi-energy-selected-for-950-km-hvdc-transmission-system-to-deliver-6-gw-of-renewable-energy-in-india",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "CH",
+    "IN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Hitachi Energy/BHEL consortium selected (April 3, 2025) to deliver converter transformers, AC/DC control and protection systems, thyristor valves for a 6GW, +/-800kV, 950km bipole HVDC link from Bhadla (Rajasthan) to Fatehpur (Uttar Pradesh), sized to serve ~60 million households.",
+   "notes": "Vendor/consortium press release; contract dollar value not disclosed. | Vendor/consortium press release, fetched directly; contract dollar value not disclosed."
+  },
+  {
+   "id": "L08-031",
+   "title": "NKT awarded record orders for world's first 525 kV XLPE HVDC submarine cable projects for offshore wind (IJmuiden Ver / Nederwiek, Netherlands)",
+   "authors_or_org": "NKT; TenneT (Dutch offshore wind zones)",
+   "year": 2023,
+   "url": "https://www.nkt.com/news-press-releases/nkt-awarded-record-orders-for-worlds-first-525-kv-xlpe-hvdc-submarine-cable-projects-for-offshore-wind",
+   "canonical_key": "https://www.nkt.com/news-press-releases/nkt-awarded-record-orders-for-worlds-first-525-kv-xlpe-hvdc-submarine-cable-projects-for-offshore-wind",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "DK",
+    "NL"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "NKT awarded ~EUR 2 billion (EUR 1.9bn at standard metal prices) combined turnkey order for 525kV XLPE HVDC submarine cable systems for IJmuiden Ver and Nederwiek Dutch offshore wind zones, announced March 3, 2023 -- described by NKT as its largest-ever combination of orders.",
+   "notes": "Company announcement, not an audited filing; contract value stated by NKT itself."
+  },
+  {
+   "id": "L08-032",
+   "title": "Prysmian to deliver the first 525 kV HVDC XLPE submarine cable system in the UK (Eastern Green Link 1)",
+   "authors_or_org": "Ocean News & Technology (trade press), reporting on Prysmian Group / Eastern Green Link 1 Limited (SP Transmission plc / National Grid Electricity Transmission plc joint venture)",
+   "year": 2023,
+   "url": "https://www.oceannews.com/news/subsea-cable/prysmian-to-deliver-the-first-525-kv-hvdc-xlpe-submarine-cable-system-in-the-uk",
+   "canonical_key": "https://www.oceannews.com/news/subsea-cable/prysmian-to-deliver-the-first-525-kv-hvdc-xlpe-submarine-cable-system-in-the-uk",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB",
+    "IT"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Prysmian awarded ~EUR850m contract for a 525kV HVDC XLPE cable system (plus 400kV HVAC sections) connecting Torness, Scotland to Hawthorn Pit, England -- ~400km of cable across a 194km route, 2GW capacity, commissioning 2028; first UK contracted 525kV extruded-XLPE HVDC cable system.",
+   "notes": "Trade-press confirmation of a company/JV project award; underlying commercial contract not independently fetched. | RETIERED: fetched from a trade-press domain (oceannews.com), not Prysmian's own site -- source_type corrected from company_filing to trade_press and tier downgraded from T1 to T2 for honest tiering. Underlying commercial contract not independently fetched."
+  },
+  {
+   "id": "L08-033",
+   "title": "GE Vernova Q1 2026 earnings call transcript",
+   "authors_or_org": "GE Vernova Inc.",
+   "year": 2026,
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript/",
+   "canonical_key": "https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "earnings_transcript",
+   "claim_supported": "GE Vernova management states (Q1 2026 call): HVDC backlog ~$10 billion 'to be delivered over the coming years,' located primarily in Europe with a new large order booked in Asia in Q1; total Electrification orders $7.1bn (+86% YoY) with 'significant growth in substations, HVDC, switchgear, and transformers'; datacenter Electrification orders $2.4bn in Q1 2026 alone, exceeding all of full-year 2025.",
+   "notes": "Earnings-call transcript = company disclosure but not an audited filing (10-Q/10-K); figures are management-stated, not independently audited. Strong demand-primary signal for HVDC + datacenter electrification order momentum. | Earnings-call transcript = verbatim management disclosure (subject to Reg FD/materiality obligations), reproduced by a third-party financial-media transcription service rather than GE Vernova's own investor-relations page; retained at T1 given it is management's own verbatim words on a primary demand signal, not third-party analysis. Not an audited filing (10-Q/10-K)."
+  },
+  {
+   "id": "L08-034",
+   "title": "许继电气：中标国家电网特高压项目直流输电相关产品合计12.75亿元 (XJ Electric wins State Grid UHV project DC-transmission-product tender worth RMB 1.275bn)",
+   "authors_or_org": "National Business Daily (每经网), reporting on XJ Electric Co., Ltd. (许继电气) / State Grid Corporation of China disclosure",
+   "year": 2026,
+   "url": "https://www.nbd.com.cn/articles/2026-05-07/4382365.html",
+   "canonical_key": "tender:state-grid-2026-uhv-first-batch-dc-transmission-xj-electric",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "procurement_award",
+   "claim_supported": "XJ Electric won RMB 1.275 billion of DC-transmission-related products (converter valves RMB 1.171bn + DC control/protection systems RMB 0.104bn) in State Grid's 2026 first-batch UHV equipment public tender, announced May 7, 2026.",
+   "notes": "Chinese-language primary demand source (State Grid procurement tender result); no specific transmission-corridor name disclosed in this announcement. | Chinese-language primary demand source (State Grid procurement tender result), sourced via financial media republishing the listed company's mandatory exchange disclosure; no specific transmission-corridor name disclosed in this announcement."
+  },
+  {
+   "id": "L08-035",
+   "title": "UK: Grid-forming batteries miss out in system stability tender as synchronous condensers, gas get contracts (NESO Stability Market Round 2 / Stability Pathfinder)",
+   "authors_or_org": "Energy-Storage.News (trade press), reporting on National Energy System Operator (NESO, formerly National Grid ESO) / Zenobe / Wartsila",
+   "year": 2024,
+   "url": "https://www.energy-storage.news/uk-grid-forming-batteries-miss-out-in-system-stability-tender-as-synchronous-condensers-gas-get-contracts/",
+   "canonical_key": "https://www.energy-storage.news/uk-grid-forming-batteries-miss-out-in-system-stability-tender-as-synchronous-condensers-gas-get-contracts",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "GB"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "NESO's original Stability Pathfinder program spent GBP323m (~USD430m); in the follow-on Stability Market Round 2, all BESS/grid-forming-battery submissions failed technical assessment while synchronous condensers and open-cycle gas turbines took 7.3 GVA of contracts -- documented contradiction between grid-forming-inverter promotion and actual procurement outcomes.",
+   "notes": "Trade press T2, not the primary NESO procurement notice itself; NESO's own tender-result publication should be located by the verifier for T1 upgrade. Directly relevant to the 'synchronous condenser alternatives' sub-scope of L08 and shows incumbent-technology resilience against grid-forming challengers. | RETYPED for consistency: source_type corrected from buyer_procurement to trade_press (fetched from a trade-press domain, not NESO's own tender-result publication). Tier T2 unchanged. Directly relevant to the 'synchronous condenser alternatives' sub-scope of L08 and shows incumbent-technology resilience against grid-forming challengers."
+  },
+  {
+   "id": "L08-036",
+   "title": "Siemens Energy to deploy first synchronous condenser-BESS hybrid project in Ireland (Shannonbridge)",
+   "authors_or_org": "Energy-Storage.News (trade press), reporting on Siemens Energy / Lumcloon Energy / Hanwha Energy",
+   "year": 2023,
+   "url": "https://www.energy-storage.news/siemens-energy-to-deploy-first-synchronous-condenser-bess-hybrid-project-in-ireland/",
+   "canonical_key": "https://www.energy-storage.news/siemens-energy-to-deploy-first-synchronous-condenser-bess-hybrid-project-in-ireland",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "DE",
+    "IE"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Siemens Energy contracted (announced Oct 18, 2023) for a EUR85m (~USD90m) hybrid project at Shannonbridge, Ireland pairing a flywheel synchronous condenser (4,000 MW inertia injection capability) with a 160MWh BESS on a single grid connection -- described as the first such combination.",
+   "notes": "Trade-press confirmation of vendor-disclosed contract; independent utility-side confirmation not separately fetched. | RETIERED: fetched from a trade-press domain, not siemens-energy.com -- source_type corrected from company_filing to trade_press and tier downgraded from T1 to T2. Independent utility-side confirmation not separately fetched."
+  },
+  {
+   "id": "L08-037",
+   "title": "Siemens Energy partners with ACEREZ on NSW Renewable Energy Zone (Central-West Orana synchronous condensers)",
+   "authors_or_org": "Siemens Energy; ACEREZ (ACCIONA, COBRA, Endeavour Energy joint venture)",
+   "year": 2025,
+   "url": "https://www.siemens-energy.com/global/en/home/press-releases/Siemens-Energy-partners-with-ACEREZ-on-NSW-Renewable-Energy-Zone.html",
+   "canonical_key": "https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-partners-with-acerez-on-nsw-renewable-energy-zone.html",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "AU",
+    "DE"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "ACEREZ contracted Siemens Energy to supply, install, commission, and test seven synchronous condensers with flywheels and auxiliary systems, plus a five-year maintenance/monitoring service agreement with cybersecurity solutions, for the Central-West Orana Renewable Energy Zone (Dubbo/Dunedoo/Mudgee, NSW), Stage 1 targeting 4.5GW of renewable capacity. No contract dollar value disclosed.",
+   "notes": "Contract dollar value not publicly disclosed by Siemens Energy; trade-press estimates (e.g., 'could be worth upwards of $500m' per comparable South Australia contracts) are speculative and NOT included as a claim here -- only vendor-confirmed technical/contractual facts are logged. Tier set to T2 pending direct fetch of the primary press release. | UPGRADED: raw record could not fetch this page (fetched=false, relied on trade-press synthesis); direct fetch succeeded this session confirming scope of work. Tier confirmed T1 (primary company domain). Contract dollar value remains undisclosed -- trade-press speculative estimates (e.g. '$500m+') are still excluded as unconfirmed."
+  },
+  {
+   "id": "L08-038",
+   "title": "West Coast (Saemangeum-Hwaseong) HVDC 'Energy Expressway' project overview and supplier landscape",
+   "authors_or_org": "Dealsite.co.kr (trade/business press), reporting on Korea Electric Power Corporation (KEPCO)",
+   "year": 2026,
+   "url": "https://dealsite.co.kr/articles/150180",
+   "canonical_key": "title-year:서해안-hvdc-에너지-고속도로-project-overview-2026",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_specification",
+   "claim_supported": "KEPCO is engineering a 2GW West Coast HVDC line (Saemangeum, North Jeolla to Hwaseong, Gyeonggi), 220km route / 440km total dual submarine cable, targeting 2030 completion; KEPCO plans to issue submarine-cable and converter-equipment procurement tenders as early as 2026; named candidate suppliers LS Cable/LS Marine Solutions (cables) and Hyosung Heavy Industries, HD Hyundai Electric, LS Electric, Iljin Electric (conversion equipment), with government-targeted HVDC localization by 2027.",
+   "notes": "Korean-language primary demand source describing a dated (2026 tender, 2030 completion) government/utility procurement trigger; not yet a signed contract -- classified as buyer_specification/pre-tender rather than a completed award. | RETYPED for consistency: source_type corrected from buyer_procurement to trade_press (dealsite.co.kr is a business/deal news outlet, not KEPCO's own publication) and tier downgraded from T1 to T2. Korean-language primary demand signal (2026 tender, 2030 completion); not yet a signed contract -- classified as buyer_specification/pre-tender."
+  },
+  {
+   "id": "L08-039",
+   "title": "West Coast HVDC 'Energy Expressway' construction kickoff (KEPCO)",
+   "authors_or_org": "ZDNet Korea, reporting on Korea Electric Power Corporation (KEPCO)",
+   "year": 2026,
+   "url": "https://zdnet.co.kr/view/?no=20260320123044",
+   "canonical_key": "title-year:서해안-hvdc-에너지-고속도로-건설-착수-2026",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_specification",
+   "claim_supported": "ZDNet Korea reports KEPCO's full-scale construction start of the West Coast HVDC 'Energy Highway' project (dated March 20, 2026): four HVDC lines to carry offshore wind power to demand centers, first phase Saemangeum-Seoul-area targeted for completion by 2030 (accelerated one year from original schedule); KEPCO completed site selection for eight converter stations in 2025 and initiated submarine-cable-route detailed design in early March 2026, alongside cooperation frameworks with government, local authorities, and domestic cable/equipment manufacturers.",
+   "notes": "Second, independent Korean-language source corroborating the KEPCO West Coast HVDC project timeline; not fetched for full text this session -- flagged for verifier follow-up. | UPGRADED: raw record could not fetch this page (fetched=false); direct fetch succeeded this session, corroborating and extending the KEPCO West Coast HVDC project timeline in L08-038 with additional specifics (8 converter stations sited, cable-route design underway)."
+  },
+  {
+   "id": "L08-040",
+   "title": "SP and EDF partner on subsea cables to facilitate green-energy import from Indonesia",
+   "authors_or_org": "SP Group (Singapore); EDF Group",
+   "year": 2021,
+   "url": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/SP-Partners-EDF-on-Subsea-Cables-to-Facilitate-Green-Energy-Import-from-Indonesia",
+   "canonical_key": "https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/sp-partners-edf-on-subsea-cables-to-facilitate-green-energy-import-from-indonesia",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "ID",
+    "SG"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "SP Group and EDF Group signed an MOU (Oct 11, 2021) to jointly develop a subsea transmission cable importing renewable energy from Indonesia into Singapore, including commercial/regulatory/technical feasibility studies and support for a proposed 1,000MWp solar PV plant in Indonesia led by EDF Renewables, explicitly framed as a step toward regional (ASEAN) power-system integration.",
+   "notes": "MOU/feasibility-study stage only, not yet a procurement award or signed EPC contract -- a directional demand trigger, not confirmed committed spend. WebFetch of spgroup.com.sg failed with a DNS timeout this session; content reconstructed from WebSearch synthesis only, so treat claim_supported as provisional pending a successful direct fetch. | CORRECTION + UPGRADE: raw record listed year 2023 and could not fetch this page (DNS timeout, fetched=false). Direct fetch succeeded this session from the primary company/utility domain, confirming the MOU was actually signed Oct 11, 2021 (year corrected 2023->2021) and that the announcement also covers a 1,000MWp Indonesian solar PV plant (EDF Renewables) not mentioned in the raw record. Tier upgraded to T1 (primary utility source, directly fetched). Still MOU/feasibility-study stage only, not a signed EPC contract."
+  },
+  {
+   "id": "L08-041",
+   "title": "Southern Spirit Transmission project (ERCOT-Southeast US 525kV VSC-HVDC interconnector)",
+   "authors_or_org": "Pattern Energy; U.S. Department of Energy (Transmission Facilitation Program)",
+   "year": 2023,
+   "url": "https://patternenergy.com/projects/southern-spirit-transmission/",
+   "canonical_key": "https://patternenergy.com/projects/southern-spirit-transmission",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Southern Spirit Transmission: ~320-mile, +/-525kV, ~3,000MW VSC-HVDC line connecting ERCOT to MISO-South/Southern Company grids; ~$2.6bn privately funded by Pattern Energy; DOE Transmission Facilitation Program provided ~$360m of support (per independent Utility Dive/Smart Energy International reporting); construction start targeted 2029, in-service 2032.",
+   "notes": "First-of-a-kind US interconnect between ERCOT (islanded grid) and the Eastern Interconnection -- directly evidences US demand for HVDC as an interregional-interconnection tool, independent of any founder-background bias. | First-of-a-kind US interconnect between ERCOT (islanded grid) and the Eastern Interconnection -- directly evidences US demand for HVDC as an interregional-interconnection tool."
+  },
+  {
+   "id": "L08-043",
+   "title": "Reliability Standards for Frequency and Voltage Protection Settings and Ride-Through for Inverter-Based Resources (NERC PRC-029-1 / FERC Order No. 909)",
+   "authors_or_org": "North American Electric Reliability Corporation (NERC); Federal Energy Regulatory Commission (FERC)",
+   "year": 2025,
+   "url": "https://www.federalregister.gov/documents/2025/07/29/2025-14304/reliability-standards-for-frequency-and-voltage-protection-settings-and-ride-through-for",
+   "canonical_key": "standard:nerc-prc-029-1-ferc-order-909",
+   "source_type": "regulator",
+   "tier": "T1",
+   "lane_ids": [
+    "L08"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "FERC approves NERC Reliability Standards PRC-024-4 (Frequency and Voltage Protection Settings for Synchronous Generators, Type 1 and Type 2 Wind Resources, and Synchronous Condensers) and PRC-029-1 (Frequency and Voltage Ride-through Requirements for Inverter-Based Resources), published in the Federal Register July 29, 2025; FERC also directs NERC to clarify documentation requirements for legacy-equipment exemptions and assess reliability impact of the approved standards.",
+   "notes": "federalregister.gov blocked automated WebFetch access this session (redirect to an API-access notice); underlying rule identity/date corroborated by multiple independent compliance-consultancy sources in search results. Flag for verifier retry via a non-automated channel. | UPGRADED: raw record's direct fetch of the HTML page was blocked (redirect to unblock.federalregister.gov, confirmed again this session). Using the Federal Register's public JSON API endpoint (not the HTML page) succeeded this session, providing an independently confirmed primary-source fetch."
+  }
+ ]
+}

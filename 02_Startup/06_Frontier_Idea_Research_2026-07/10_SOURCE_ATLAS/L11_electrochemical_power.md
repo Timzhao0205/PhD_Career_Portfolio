@@ -89,8 +89,8 @@ loop all session; several other publisher pages returned HTTP 403).
 6. **Green hydrogen demand-side bankability, not electrolyzer supply, is the binding constraint
    in 2025-2026.** The clearest evidence: two of the most bellwether Western electrolyzer OEMs
    (Nel ASA, thyssenkrupp nucera) both reported *shrinking* order backlogs in the same period that
-   government award programs (DOE H2Hubs, EU Hydrogen Bank, India SIGHT, Japan CfD) were actively
-   disbursing money (`L11-032`, `L11-036`, `L11-039`, `L11-047`, `L11-048`, `L11-054`) -- the
+   government award programs (DOE H2Hubs, EU Hydrogen Bank, Japan CfD) were actively
+   disbursing money (`L11-032`, `L11-039`, `L11-047`, `L11-048`, `L11-054`) -- the
    public-subsidy pipeline and the private order book are moving in opposite directions.
 
 ## Named buyers and spending signals
@@ -103,11 +103,6 @@ loop all session; several other publisher pages returned HTTP 403).
   projects (2024, 6 signed grant agreements worth EUR270.6M), EUR992M/15 projects (2025, including 3
   maritime-fuel projects at EUR0.45-1.88/kg premiums), and >EUR1B/9 projects (Dec2025-Feb2026 round)
   (`L11-039`).
-- **India MNRE/SECI SIGHT scheme**: Rs44.4B (~$536M) SIGHT-II incentive tranche for 1,500 MW of
-  electrolyzer manufacturing (2025-26 to 2029-30), following SIGHT-I's Jan-2024 award of 1.5 GW to
-  Reliance, John Cockerill/Greenko, Jindal, Ohmium, Advait, and L&T (`L11-036`); named buyer Ohmium
-  separately won a 400 MW deal from NTPC (majority state-owned utility) and a 137 MW SECI
-  manufacturing contract worth an INR202.76-crore incentive (`L11-053`).
 - **Japan METI/JOGMEC CfD scheme**: JPY3T (~$19-20B) 15-year contract-for-difference support;
   first two awardees named Oct 2025 -- Toyota Tsusho (1,600 t/yr green H2) and Resonac (20,000
   t-NH3/yr), both targeting 2030 first supply (`L11-037`, `L11-054`).
@@ -132,8 +127,7 @@ loop all session; several other publisher pages returned HTTP 403).
 
 - **PEM**: Siemens Energy (Silyzer 300, 17.5 MW/stack-array, >75.5% plant efficiency, vendor claim)
   (`L11-040`); Cummins/Accelera (HyLYZER 500/1000/5000, 1.25 MW-200+ MW range, US-manufactured in
-  Fridley MN) (`L11-041`); Plug Power (GenEco, US, >300 MW cumulative shipped) (`L11-046`); Ohmium
-  (India-manufactured, 2 GW Bengaluru gigafactory expandable to 4 GW) (`L11-053`).
+  Fridley MN) (`L11-041`); Plug Power (GenEco, US, >300 MW cumulative shipped) (`L11-046`).
 - **Alkaline**: LONGi Hydrogen, Peric Hydrogen, and Sungrow Hydrogen collectively hold ~70% of
   China's cumulative electrolyzer tender-win share since 2023 (`L11-051`); John Cockerill (Belgium/
   France, targeting 18 GW/yr global output by 2030 across France/India/China/Middle East/Europe
@@ -158,8 +152,6 @@ loop all session; several other publisher pages returned HTTP 403).
 - **EU Hydrogen Bank** auctions are now an annual, recurring procurement trigger (three rounds in
   2024-2026 identified) (`L11-039`) -- each round is a fresh, dated government-money-moving event
   that resets which projects are actually funded rather than merely announced.
-- **India SIGHT-II** disbursements run **2025-26 through 2029-30** (`L11-036`) -- a multi-year,
-  dated domestic-manufacturing incentive window.
 - **China's manufacturing-capacity overhang** (47.7 GW/yr in 2024, projected >58 GW/yr in 2025 vs.
   ~2 GW/yr global 2024 deployment) (`L11-035`, `L11-051`) implies continued price pressure and
   likely consolidation/shakeout among China's ~dozens of electrolyzer makers through at least 2027,
@@ -182,9 +174,8 @@ loop all session; several other publisher pages returned HTTP 403).
   `L11-046`), ammonia/steel decarbonization (DOE hubs, Japan CfD winners), and CCS-paired hydrogen
   hubs (Gulf Coast) (`L11-032`).
 - **Policy mechanism design differs**: the US uses direct capital-cost-share grants (H2Hubs), the
-  EU uses recurring competitive premium-per-kg auctions (Hydrogen Bank), India uses manufacturing-
-  capacity incentive auctions tied to technical specs (SIGHT), and Japan uses a 15-year
-  contract-for-difference price-gap mechanism (`L11-032`, `L11-036`, `L11-037`, `L11-039`) -- each
+  EU uses recurring competitive premium-per-kg auctions (Hydrogen Bank), and Japan uses a 15-year
+  contract-for-difference price-gap mechanism (`L11-032`, `L11-037`, `L11-039`) -- each
   creates a different bankability profile and a different point of leverage for a hardware vendor
   selling into that market.
 - **Overcapacity risk is asymmetric**: Chinese manufacturers face a severe capacity/demand mismatch
@@ -202,8 +193,8 @@ loop all session; several other publisher pages returned HTTP 403).
    Western order books shrinking as China captures share and FIDs slip) but the mission should not
    accept either framing uncritically.
 2. **Government award announcements vs. realized construction.** Several billion-dollar-scale
-   awards (DOE H2Hubs, EU Hydrogen Bank rounds, India SIGHT, Japan CfD) are confirmed as *awarded*
-   (`L11-032`, `L11-036`, `L11-037`, `L11-039`, `L11-054`) but this session found limited evidence
+   awards (DOE H2Hubs, EU Hydrogen Bank rounds, Japan CfD) are confirmed as *awarded*
+   (`L11-032`, `L11-037`, `L11-039`, `L11-054`) but this session found limited evidence
    of Phase-2/construction-stage disbursement completion for most of them -- the gap between award
    and construction is itself a data point the mission should track, not assume closed.
 3. **Sinopec Kuqa as flagship vs. Sinopec Kuqa as cautionary tale.** The same project is cited in
@@ -307,3 +298,20 @@ loop all session; several other publisher pages returned HTTP 403).
   relabeled T1 per the source standards' "reviews are T2 even in top journals" rule; four
   originally-review placeholders were already swapped for primary-research equivalents to improve
   this ratio before finalizing the set.
+
+## P2A origin-audit repair (2026-07-13)
+
+- removed IDs: L11-036, L11-053
+- removed/trimmed claims: deleted the "India MNRE/SECI SIGHT scheme" buyer-signal bullet from
+  "Named buyers and spending signals" (rested solely on L11-036/L11-053); deleted the "India
+  SIGHT-II" trigger bullet from "2026-2031 triggers" (rested solely on L11-036); trimmed the
+  Ohmium clause out of the PEM incumbent list in "Incumbent map" (rested solely on L11-053);
+  trimmed "India SIGHT"/L11-036 out of the co-supported government-award-programs citation list
+  in Bottlenecks item 6 (claim remains co-supported for DOE H2Hubs/EU Hydrogen Bank/Japan CfD);
+  trimmed the India/SIGHT clause and L11-036 out of the co-supported "Policy mechanism design
+  differs" sentence in "US vs. Asia differences" (US/EU/Japan mechanisms remain, each still
+  co-supported); trimmed "India SIGHT"/L11-036 out of the co-supported awarded-vs-constructed
+  citation list in "Unresolved contradictions" #2 (claim remains co-supported for DOE
+  H2Hubs/EU Hydrogen Bank/Japan CfD). P4 must re-source any India electrolyzer-manufacturing
+  incentive (SIGHT/SIGHT-II) or Ohmium capacity claim from an eligible (non-India-origin)
+  provider before reuse.

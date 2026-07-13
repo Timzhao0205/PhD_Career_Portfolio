@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1038/s41586-022-04473-y",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41586-022-04473-y",
     "doi": "10.1038/s41586-022-04473-y",
@@ -22,7 +26,30 @@
     "locator": "Crossref metadata record (api.crossref.org/works/10.1038/s41586-022-04473-y) confirmed journal-article, container-title Nature, 2022, matching author list; scout also cross-verified full text via PMC9007744 mirror.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified. Foundational TPV efficiency record cited by essentially all subsequent thermal-battery/TPV demand-side coverage (Antora, Fourth Power)."
+    "notes": "Crossref-verified. Foundational TPV efficiency record cited by essentially all subsequent thermal-battery/TPV demand-side coverage (Antora, Fourth Power).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "country": "US"
+        },
+        {
+          "name": "National Renewable Energy Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 13,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 13 authors resolved to MIT or NREL, US. No Indian affiliations."
+    }
   },
   {
     "id": "L04-002",
@@ -33,12 +60,16 @@
     "canonical_key": "doi:10.1016/j.joule.2024.05.002",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.joule.2024.05.002",
     "doi": "10.1016/j.joule.2024.05.002",
@@ -47,7 +78,26 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Joule, Vol 8 Iss 7 pp 2135-2145, July 2024; author list (Roy-Layinde, Lim, Arneson, Forrest, Lenert) matches.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session (scout had not directly fetched)."
+    "notes": "Crossref-verified this session (scout had not directly fetched).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Michigan",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to University of Michigan, US. No Indian affiliations."
+    }
   },
   {
     "id": "L04-003",
@@ -58,12 +108,16 @@
     "canonical_key": "doi:10.3390/en16217367",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en16217367",
     "doi": "10.3390/en16217367",
@@ -72,7 +126,30 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Energies, Vol 16 Iss 21, Oct 31 2023; author list matches.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Tier corrected from scout's T1 to T2: this is explicitly a review article, not a primary technical paper, per source-standards tier definitions. Crossref-verified this session; MDPI page itself still returns 403 on direct fetch, but Crossref record fetch satisfies the fetched-evidence requirement."
+    "notes": "Tier corrected from scout's T1 to T2: this is explicitly a review article, not a primary technical paper, per source-standards tier definitions. Crossref-verified this session; MDPI page itself still returns 403 on direct fetch, but Crossref record fetch satisfies the fetched-evidence requirement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sichuan University",
+          "country": "CN"
+        },
+        {
+          "name": "China General Nuclear Power Corporation",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to Sichuan University / China General Nuclear Power Corp, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-004",
@@ -83,12 +160,16 @@
     "canonical_key": "doi:10.1016/j.applthermaleng.2025.128886",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2025.128886",
     "doi": "10.1016/j.applthermaleng.2025.128886",
@@ -97,7 +178,26 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Applied Thermal Engineering, Vol 283; authors Chen, Wang, Bai.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from scout's 2025 to 2026: Crossref shows Volume 283 assigned to the January 2026 issue (DOI/PII indicate 2025 acceptance/online-first). Full text still paywalled; Crossref record fetch satisfies fetched requirement."
+    "notes": "Year corrected from scout's 2025 to 2026: Crossref shows Volume 283 assigned to the January 2026 issue (DOI/PII indicate 2025 acceptance/online-first). Full text still paywalled; Crossref record fetch satisfies fetched requirement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Xi'an Jiaotong University, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-005",
@@ -108,12 +208,16 @@
     "canonical_key": "doi:10.1080/01457632.2022.2164683",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/01457632.2022.2164683",
     "doi": "10.1080/01457632.2022.2164683",
@@ -122,7 +226,26 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Heat Transfer Engineering; authors Chai, Tassou.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review article -- T2 confirmed correct. Crossref-verified this session."
+    "notes": "Review article -- T2 confirmed correct. Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Brunel University of London",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Chai, Tassou) resolved to Brunel University of London, UK. No Indian affiliations."
+    }
   },
   {
     "id": "L04-006",
@@ -133,12 +256,16 @@
     "canonical_key": "doi:10.1080/01457632.2022.2140640",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/01457632.2022.2140640",
     "doi": "10.1080/01457632.2022.2140640",
@@ -147,7 +274,26 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Heat Transfer Engineering, online Nov 2022 / print Vol 44 Iss 16-18 Oct 2023; authors Chai, Tassou.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session."
+    "notes": "Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Brunel University of London",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Chai, Tassou) resolved to Brunel University of London, UK. No Indian affiliations."
+    }
   },
   {
     "id": "L04-007",
@@ -158,12 +304,16 @@
     "canonical_key": "doi:10.3389/fenrg.2022.843237",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3389/fenrg.2022.843237",
     "doi": "10.3389/fenrg.2022.843237",
@@ -172,7 +322,30 @@
     "locator": "Crossref metadata record confirmed journal-article; open-access, authors Zhu, Han, Yang, Zhang, Yang.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session."
+    "notes": "Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Dalian University of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to Dalian University of Technology / Xi'an Jiaotong University, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-008",
@@ -183,12 +356,16 @@
     "canonical_key": "doi:10.1021/acsaem.0c03201",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1021/acsaem.0c03201",
     "doi": "10.1021/acsaem.0c03201",
@@ -197,7 +374,30 @@
     "locator": "Crossref metadata record confirmed journal-article; authors Zhang, Wang, Zhao.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session."
+    "notes": "Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Engineering Thermophysics, CAS",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Shanghai Jiao Tong University / IET-CAS, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-009",
@@ -208,12 +408,16 @@
     "canonical_key": "doi:10.1021/acsaem.4c02872",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1021/acsaem.4c02872",
     "doi": "10.1021/acsaem.4c02872",
@@ -222,7 +426,26 @@
     "locator": "Crossref metadata record confirmed journal-article; authors Kopper, Leite (UC Davis Materials Science and Engineering).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from scout's 2024 to 2025 per Crossref online-publication date. Crossref-verified this session; companion arXiv preprint (2410.19829) remains discovery-only."
+    "notes": "Year corrected from scout's 2024 to 2025 per Crossref online-publication date. Crossref-verified this session; companion arXiv preprint (2410.19829) remains discovery-only.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of California, Davis",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Kopper, Leite) resolved to University of California system (UC Davis), US. No Indian affiliations."
+    }
   },
   {
     "id": "L04-010",
@@ -233,12 +456,16 @@
     "canonical_key": "doi:10.1038/s44310-024-00044-3",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s44310-024-00044-3",
     "doi": "10.1038/s44310-024-00044-3",
@@ -247,7 +474,26 @@
     "locator": "Crossref metadata record confirmed journal-article; authors Prasad, Naik.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session."
+    "notes": "Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Rice University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Prasad, Naik) resolved to Rice University, US. No Indian affiliations (author surnames are not evidence of affiliation; institution confirmed structurally via OpenAlex as Rice University, Houston TX)."
+    }
   },
   {
     "id": "L04-011",
@@ -258,12 +504,16 @@
     "canonical_key": "doi:10.1016/j.nucengdes.2020.110767",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.nucengdes.2020.110767",
     "doi": "10.1016/j.nucengdes.2020.110767",
@@ -272,7 +522,30 @@
     "locator": "Crossref bibliographic search resolved DOI 10.1016/j.nucengdes.2020.110767 (title/journal/year exact match); confirmed via direct Crossref metadata fetch.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI was missing in raw record; resolved via Crossref bibliographic search this session and confirmed by direct DOI fetch. Review article, tiered T2."
+    "notes": "DOI was missing in raw record; resolved via Crossref bibliographic search this session and confirmed by direct DOI fetch. Review article, tiered T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        },
+        {
+          "name": "China National Nuclear Corporation",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "7 of 9 authors resolved to Xi'an Jiaotong University / CNNC, China; 2 (Dan Zhang, Xu Ran) unresolved by OpenAlex but no Indian institution appears anywhere in the resolved set."
+    }
   },
   {
     "id": "L04-012",
@@ -283,12 +556,16 @@
     "canonical_key": "doi:10.1016/j.ijheatfluidflow.2025.109874",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijheatfluidflow.2025.109874",
     "doi": "10.1016/j.ijheatfluidflow.2025.109874",
@@ -297,7 +574,26 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title International Journal of Heat and Fluid Flow (ISSN 0142-727X, matching the pii prefix S0142727X), not Applied Thermal Engineering as originally guessed by scout.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTED: journal identity was misattributed by scout as \"Applied Thermal Engineering\"; PII prefix S0142727X corresponds to ISSN 0142-727X = International Journal of Heat and Fluid Flow, confirmed via Crossref. DOI added; review article, T2."
+    "notes": "CORRECTED: journal identity was misattributed by scout as \"Applied Thermal Engineering\"; PII prefix S0142727X corresponds to ISSN 0142-727X = International Journal of Heat and Fluid Flow, confirmed via Crossref. DOI added; review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shanghai University of Electric Power",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to Shanghai University of Electric Power, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-013",
@@ -308,12 +604,16 @@
     "canonical_key": "doi:10.1016/j.fuel.2025.137803",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fuel.2025.137803",
     "doi": "10.1016/j.fuel.2025.137803",
@@ -322,7 +622,30 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Fuel (ISSN 0016-2361, matching pii prefix S0016236), not \"Energy\" as originally guessed by scout.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTED: journal identity misattributed by scout as \"Energy\"; confirmed as Fuel via Crossref. Year corrected from 2025 to 2026 (Crossref shows Volume 409, April 2026). Efficiency range figure independently confirmed present in Crossref summary; still recommend a full-text read before using as a standalone load-bearing figure in idea generation."
+    "notes": "CORRECTED: journal identity misattributed by scout as \"Energy\"; confirmed as Fuel via Crossref. Year corrected from 2025 to 2026 (Crossref shows Volume 409, April 2026). Efficiency range figure independently confirmed present in Crossref summary; still recommend a full-text read before using as a standalone load-bearing figure in idea generation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Harbin Institute of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Suzhou Research Institute (HIT)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolved to Harbin Institute of Technology / Suzhou Research Institute, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-014",
@@ -333,12 +656,16 @@
     "canonical_key": "doi:10.1016/j.enconman.2022.115437",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:26:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.enconman.2022.115437",
     "doi": "10.1016/j.enconman.2022.115437",
@@ -347,7 +674,30 @@
     "locator": "Crossref metadata record confirmed journal-article; authors Guo, Li, He, Jiang, Ma, Xu, Cao.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and confirmed via Crossref this session; review article, T2."
+    "notes": "DOI resolved and confirmed via Crossref this session; review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        },
+        {
+          "name": "North China Electric Power University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolved to Xi'an Jiaotong University / North China Electric Power University, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-015",
@@ -358,12 +708,16 @@
     "canonical_key": "doi:10.1016/j.applthermaleng.2020.116447",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2020.116447",
     "doi": "10.1016/j.applthermaleng.2020.116447",
@@ -372,7 +726,30 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Applied Thermal Engineering.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and confirmed via Crossref bibliographic search this session; review article, T2."
+    "notes": "DOI resolved and confirmed via Crossref bibliographic search this session; review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "City, University of London",
+          "country": "GB"
+        },
+        {
+          "name": "Brunel University of London",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2020.116447|10.1021/acs.energyfuels.5c00825|10.1007/s11630-023-1896-6|10.1016/j.net.2015.06.009|10.12096/j.2096-4528.pgt.23170|10.12096/j.2096-4528.pgt.22079|10.3390/en15103555|10.3390/pr8111461|10.9714/psac.2021.23.4.010&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to City, University of London / Brunel University of London, UK. No Indian affiliations."
+    }
   },
   {
     "id": "L04-016",
@@ -383,12 +760,17 @@
     "canonical_key": "doi:10.1021/acs.energyfuels.5c00825",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW", "multinational"],
+    "geography": [
+      "TW",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1021/acs.energyfuels.5c00825",
     "doi": "10.1021/acs.energyfuels.5c00825",
@@ -397,7 +779,30 @@
     "locator": "Crossref metadata record confirmed journal-article; lead author and three of five co-authors affiliated with Dept. of Chemical Engineering and Biotechnology, National Taipei University of Technology (Taiwan).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected/expanded to include TW: four of five authors are Taiwan-affiliated (National Taipei University of Technology), an Asia-geography contribution the scout had tagged only 'multinational'. Review article, T2."
+    "notes": "Geography corrected/expanded to include TW: four of five authors are Taiwan-affiliated (National Taipei University of Technology), an Asia-geography contribution the scout had tagged only 'multinational'. Review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Taipei University of Technology",
+          "country": "TW"
+        },
+        {
+          "name": "Industrial Technology Research Institute",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2020.116447|10.1021/acs.energyfuels.5c00825|10.1007/s11630-023-1896-6|10.1016/j.net.2015.06.009|10.12096/j.2096-4528.pgt.23170|10.12096/j.2096-4528.pgt.22079|10.3390/en15103555|10.3390/pr8111461|10.9714/psac.2021.23.4.010&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to National Taipei University of Technology / Industrial Technology Research Institute, Taiwan. No Indian affiliations."
+    }
   },
   {
     "id": "L04-017",
@@ -408,12 +813,16 @@
     "canonical_key": "doi:10.1007/s11630-023-1896-6",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s11630-023-1896-6",
     "doi": "10.1007/s11630-023-1896-6",
@@ -422,7 +831,26 @@
     "locator": "Crossref metadata record confirmed journal-article; authors Li, Shi, Shao, Zhong.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session."
+    "notes": "Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Southeast University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2020.116447|10.1021/acs.energyfuels.5c00825|10.1007/s11630-023-1896-6|10.1016/j.net.2015.06.009|10.12096/j.2096-4528.pgt.23170|10.12096/j.2096-4528.pgt.22079|10.3390/en15103555|10.3390/pr8111461|10.9714/psac.2021.23.4.010&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved to Southeast University, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-018",
@@ -433,12 +861,16 @@
     "canonical_key": "doi:10.1016/j.net.2015.06.009",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.net.2015.06.009",
     "doi": "10.1016/j.net.2015.06.009",
@@ -447,7 +879,30 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Nuclear Engineering and Technology, ISSN 1738-5733 (matches ISSN embedded in pii S1738573315001606).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and confirmed via Crossref this session. Journal published by the Korean Nuclear Society, retaining KR geography tag even though written in English. Review article, T2."
+    "notes": "DOI resolved and confirmed via Crossref this session. Journal published by the Korean Nuclear Society, retaining KR geography tag even though written in English. Review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Advanced Institute of Science and Technology",
+          "country": "KR"
+        },
+        {
+          "name": "Korea Atomic Energy Research Institute",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2020.116447|10.1021/acs.energyfuels.5c00825|10.1007/s11630-023-1896-6|10.1016/j.net.2015.06.009|10.12096/j.2096-4528.pgt.23170|10.12096/j.2096-4528.pgt.22079|10.3390/en15103555|10.3390/pr8111461|10.9714/psac.2021.23.4.010&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolved to KAIST / KAERI, South Korea. No Indian affiliations."
+    }
   },
   {
     "id": "L04-019",
@@ -458,12 +913,16 @@
     "canonical_key": "title-year:axial-impulse-turbine-development-supercritical-co2-cycle-2018",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:36:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002338260",
     "doi": "",
@@ -472,7 +931,30 @@
     "locator": "KCI (Korean Citation Index) bibliographic record fetched directly this session, confirming \"KCI 등재\" (KCI-listed / peer-reviewed indexing) status; performance figures corroborated via independent Korean-language web search of the same article.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "KCI explicitly designates this journal record as peer-reviewed indexed (KCI 등재); no DOI available but KCI stable record ID serves as the stable publisher identifier per source standards. T1 primary technical paper."
+    "notes": "KCI explicitly designates this journal record as peer-reviewed indexed (KCI 등재); no DOI available but KCI stable record ID serves as the stable publisher identifier per source standards. T1 primary technical paper.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Institute of Energy Research (KIER)",
+          "country": "KR"
+        },
+        {
+          "name": "Korea Aerospace Research Institute (KARI)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 11,
+      "evidence_urls": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002338260"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "No DOI available; KCI (Korea Citation Index) publisher page confirms all 11 authors are KIER (9) or KARI (2), both South Korean government research institutes."
+    }
   },
   {
     "id": "L04-020",
@@ -483,12 +965,16 @@
     "canonical_key": "doi:10.1299/jsmemag.108.1045_904",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:38:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "10.1299/jsmemag.108.1045_904",
@@ -497,7 +983,26 @@
     "locator": "J-STAGE article page fetched directly this session; page explicitly labels the piece 解説誌・一般情報誌 (\"explanatory/general-information magazine\" category), i.e. a magazine feature, not a peer-reviewed research article.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED from academic_peer_reviewed to trade_press per source standards (\"editorials/magazines mistyped as peer-reviewed... must be typed correctly\"): J-STAGE confirms this is an explanatory/magazine feature, not a peer-reviewed paper, despite having a DOI. Does NOT count toward the lane's verified-peer-reviewed quota. Retained as a T2 Japan/ja-language trade-press source for Asia-geography and local-language coverage."
+    "notes": "RETYPED from academic_peer_reviewed to trade_press per source standards (\"editorials/magazines mistyped as peer-reviewed... must be typed correctly\"): J-STAGE confirms this is an explanatory/magazine feature, not a peer-reviewed paper, despite having a DOI. Does NOT count toward the lane's verified-peer-reviewed quota. Retained as a T2 Japan/ja-language trade-press source for Asia-geography and local-language coverage.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Japan Society of Mechanical Engineers (JSME)",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.jstage.jst.go.jp/article/jsmemag/108/1045/108_KJ00004554129/_article/-char/ja/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Non-academic per this ledger's own reclassification (trade_press magazine feature, not peer-reviewed); publishing organization is JSME, a Japanese professional society. No author-affiliation check required under the non-academic org-identity method."
+    }
   },
   {
     "id": "L04-021",
@@ -508,12 +1013,16 @@
     "canonical_key": "doi:10.12096/j.2096-4528.pgt.23170",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:40:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://epjournal.csee.org.cn/zh/article/doi/10.12096/j.2096-4528.pgt.23170/?viewType=HTML",
     "doi": "10.12096/j.2096-4528.pgt.23170",
@@ -522,7 +1031,30 @@
     "locator": "Article fetched directly this session via the China Society for Electrical Engineering (CSEE) mirror epjournal.csee.org.cn, which displays the confirmed DOI, authors, volume/issue/pages; primary pgtjournal.com domain returned 403 both attempts.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI (10.12096/j.2096-4528.pgt.23170) was absent from the raw record and has been added after direct confirmation via the CSEE co-published mirror. Power Generation Technology is a peer-reviewed Chinese-language journal affiliated with China Southern Power Grid / CSEE research bodies. Review article, T2."
+    "notes": "DOI (10.12096/j.2096-4528.pgt.23170) was absent from the raw record and has been added after direct confirmation via the CSEE co-published mirror. Power Generation Technology is a peer-reviewed Chinese-language journal affiliated with China Southern Power Grid / CSEE research bodies. Review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "State Power Investment Corporation Limited",
+          "country": "CN"
+        },
+        {
+          "name": "Tsinghua University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://epjournal.csee.org.cn/zh/article/doi/10.12096/j.2096-4528.pgt.23170/?viewType=HTML"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not indexed in OpenAlex/Crossref (10.12096 prefix, Chinese local registrar); affiliations enumerated directly via the CSEE co-published mirror page. All 5 authors are State Power Investment Corporation or Tsinghua University, China."
+    }
   },
   {
     "id": "L04-022",
@@ -533,12 +1065,16 @@
     "canonical_key": "doi:10.12096/j.2096-4528.pgt.22079",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:42:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.12096/j.2096-4528.pgt.22079",
     "doi": "10.12096/j.2096-4528.pgt.22079",
@@ -547,7 +1083,30 @@
     "locator": "doi.org redirect-detection this session confirmed the DOI resolves (302) to pgtjournal.com/thesisDetails, independent evidence the DOI is genuine and registered to the correct publisher domain; direct fetch of both pgtjournal.com URLs returned 403 (site blocks automated access) and the DOI is not Crossref-registered (Crossref API returned 404 -- Chinese journal DOIs are commonly registered outside Crossref).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Same DOI-redirect verification pattern used for L04-003 in the raw ledger (a documented, standards-consistent approach for confirming a DOI is real when the publisher page itself blocks fetches). Review article, T2."
+    "notes": "Same DOI-redirect verification pattern used for L04-003 in the raw ledger (a documented, standards-consistent approach for confirming a DOI is real when the publisher page itself blocks fetches). Review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University (State Key Laboratory of Multiphase Flow in Power Engineering)",
+          "country": "CN"
+        },
+        {
+          "name": "Nuclear Power Institute of China",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://www.pgtjournal.com/EN/10.12096/j.2096-4528.pgt.22079"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Direct fetch of pgtjournal.com and the doi.org redirect both returned HTTP 403; author list and affiliations obtained via WebSearch synthesis pointing to the journal's own EN-language abstract page. All 8 authors (Tang, Qian, Fang, Li, S. Li, Yi, Chen, Yan) are Xi'an Jiaotong University or Nuclear Power Institute of China, both Chinese. Recommend a follow-up direct fetch by the verifier once the 403 clears."
+    }
   },
   {
     "id": "L04-023",
@@ -558,12 +1117,16 @@
     "canonical_key": "doi:10.3390/en15103555",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:44:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en15103555",
     "doi": "10.3390/en15103555",
@@ -572,32 +1135,79 @@
     "locator": "Crossref metadata record confirmed journal-article; authors Xie, Cheng, Ren, Wang, Che, Zhang.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref-verified this session."
+    "notes": "Crossref-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Harbin Electric Corporation (China)",
+          "country": "CN"
+        },
+        {
+          "name": "Shandong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2020.116447|10.1021/acs.energyfuels.5c00825|10.1007/s11630-023-1896-6|10.1016/j.net.2015.06.009|10.12096/j.2096-4528.pgt.23170|10.12096/j.2096-4528.pgt.22079|10.3390/en15103555|10.3390/pr8111461|10.9714/psac.2021.23.4.010&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to Harbin Electric Corporation / Shandong University, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-024",
     "title": "Brayton Cycle As an Alternate Power Conversion Option for Sodium Cooled Fast Reactor",
-    "authors_or_org": "Joseph, J.; Kumar, S.; Vasal, T.; Theivarajan, N. (ASME GTINDIA2019 Proceedings)",
+    "authors_or_org": "ASME GTINDIA2019 Proceedings authors",
     "year": 2019,
     "url": "https://asmedigitalcollection.asme.org/GTINDIA/proceedings-abstract/GTINDIA2019/83532/V002T08A006/1073899",
-    "canonical_key": "doi:10.1115/gtindia2019-2455",
-    "source_type": "academic_peer_reviewed",
+    "canonical_key": "title-year:brayton-cycle-alternate-power-conversion-sodium-cooled-fast-reactor-gtindia2019",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
-    "accessed_at": "2026-07-12T11:46:00Z",
-    "fetched": true,
+    "accessed_at": "2026-07-12T09:52:00Z",
+    "fetched": false,
     "language": "en",
-    "geography": ["IN"],
-    "peer_review_status": "verified",
-    "peer_review_evidence_url": "https://api.crossref.org/works/10.1115/gtindia2019-2455",
-    "doi": "10.1115/gtindia2019-2455",
+    "geography": [
+      "IN"
+    ],
+    "peer_review_status": "unverified",
+    "peer_review_evidence_url": "https://asmedigitalcollection.asme.org/GTINDIA/proceedings-abstract/GTINDIA2019/83532/V002T08A006/1073899",
+    "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "ASME Turbo Expo India (GTINDIA2019) conference paper on Brayton-cycle power conversion (including sCO2 option) for sodium-cooled fast reactors -- directly connects to India's IGCAR/PFBR fast-reactor program.",
-    "locator": "Crossref metadata record confirmed type 'proceedings-article' (satisfies the IEEE/ASME conference-acceptance rule), container-title ASME GTINDIA2019 proceedings volume, authors Joseph, Kumar, Vasal, Theivarajan. Direct ASME Digital Collection page returned 403; DOI found and confirmed via Crossref bibliographic search + direct DOI fetch this session.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "DOI was missing from raw record; resolved and confirmed via Crossref this session, meeting the proceedings-article acceptance criterion."
+    "locator": "ASME Digital Collection proceedings-abstract page, GTINDIA2019, paper V002T08A006",
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "ASME conference proceedings paper; DOI not captured from listing, canonical key uses title+year+venue. Verifier should confirm final ASME Digital Collection DOI record per IEEE/ASME conference acceptance rule. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T02:30:00+00:00",
+      "methods": [
+        "crossref_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Indira Gandhi Centre for Atomic Research (IGCAR), Kalpakkam",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1115/gtindia2019-2455"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "notes": "Encoded during Fable-5 P2A origin adjudication (2026-07-13): the 2026-07-12 prefilter flipped accepted=false but never recorded the quarantine encoding; origin independently verified by the adjudicator. All 4 authors (Joseph, Kumar, Vasal, Theivarajan) carry the Crossref affiliation string \"IGCAR Kalpakkam, Chennai, India\". DOI 10.1115/gtindia2019-2455 identified via Crossref bibliographic search (record carried no DOI)."
+    }
   },
   {
     "id": "L04-025",
@@ -608,12 +1218,17 @@
     "canonical_key": "doi:10.3390/pr8111461",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:48:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "CN"],
+    "geography": [
+      "multinational",
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/pr8111461",
     "doi": "10.3390/pr8111461",
@@ -622,7 +1237,26 @@
     "locator": "Crossref metadata record confirmed journal-article, container-title Processes; all three authors affiliated with University of Shanghai for Science and Technology, adding a CN-geography academic contribution.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI added (confirmed directly via Crossref this session); geography expanded to include CN given author affiliations. Review article, T2."
+    "notes": "DOI added (confirmed directly via Crossref this session); geography expanded to include CN given author affiliations. Review article, T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Shanghai for Science and Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2020.116447|10.1021/acs.energyfuels.5c00825|10.1007/s11630-023-1896-6|10.1016/j.net.2015.06.009|10.12096/j.2096-4528.pgt.23170|10.12096/j.2096-4528.pgt.22079|10.3390/en15103555|10.3390/pr8111461|10.9714/psac.2021.23.4.010&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to University of Shanghai for Science and Technology, China. No Indian affiliations."
+    }
   },
   {
     "id": "L04-026",
@@ -633,12 +1267,16 @@
     "canonical_key": "https://netl.doe.gov/carbon-management/turbines/sco2",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:50:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -658,12 +1296,16 @@
     "canonical_key": "https://newsreleases.sandia.gov/brayton_power/",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T09:58:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -672,7 +1314,26 @@
     "locator": "Press release body, newsreleases.sandia.gov/brayton_power",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; primary national-lab source. Verifier confirmed no reason to doubt; retained as-is."
+    "notes": "Directly fetched by scout; primary national-lab source. Verifier confirmed no reason to doubt; retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sandia National Laboratories",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://newsreleases.sandia.gov/brayton_power/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sandia is a US DOE national laboratory."
+    }
   },
   {
     "id": "L04-028",
@@ -683,12 +1344,16 @@
     "canonical_key": "https://kaeri.re.kr/board/view?menuId=MENU00326&linkId=12154",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:00:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -697,7 +1362,26 @@
     "locator": "Press release body, kaeri.re.kr board post, menuId MENU00326 linkId 12154",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout via Korean-language query; primary Korean national-lab demonstration record with named industry/academic consortium partners. Retained as-is."
+    "notes": "Directly fetched by scout via Korean-language query; primary Korean national-lab demonstration record with named industry/academic consortium partners. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Atomic Energy Research Institute (KAERI)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://kaeri.re.kr/board/view?menuId=MENU00326&linkId=12154"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "KAERI is a South Korean government national laboratory."
+    }
   },
   {
     "id": "L04-029",
@@ -708,12 +1392,16 @@
     "canonical_key": "https://iet.cas.cn/news/kyjz/202501/t20250126_7523831.html",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:02:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -722,7 +1410,26 @@
     "locator": "News article body, iet.cas.cn/news/kyjz/202501/t20250126_7523831.html",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout via Chinese-language query; primary Chinese national-lab R&D record with named university partners and grant number. Retained as-is."
+    "notes": "Directly fetched by scout via Chinese-language query; primary Chinese national-lab R&D record with named university partners and grant number. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Engineering Thermophysics, Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://iet.cas.cn/news/kyjz/202501/t20250126_7523831.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CAS-IET is a Chinese Academy of Sciences institute."
+    }
   },
   {
     "id": "L04-030",
@@ -733,12 +1440,16 @@
     "canonical_key": "https://www.asme.org/codes-standards/publications-information/performance-test-codes",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1458,26 @@
     "locator": "ASME Codes & Standards -- Performance Test Codes landing page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. The apparent absence of an sCO2-specific PTC is a notable gap worth flagging in the lane brief bottlenecks section, though absence-of-evidence should be treated cautiously (ASME may have newer/draft codes not indexed on this page)."
+    "notes": "Directly fetched by scout. The apparent absence of an sCO2-specific PTC is a notable gap worth flagging in the lane brief bottlenecks section, though absence-of-evidence should be treated cautiously (ASME may have newer/draft codes not indexed on this page).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "American Society of Mechanical Engineers (ASME)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.asme.org/codes-standards/publications-information/performance-test-codes"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ASME is a US-based professional standards organization."
+    }
   },
   {
     "id": "L04-031",
@@ -758,12 +1488,16 @@
     "canonical_key": "https://www.nrc.gov/reactors/new-reactors/advanced/modernizing/rulemaking/part-53",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:52:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1506,26 @@
     "locator": "Direct nrc.gov fetch timed out and federalregister.gov redirected to an unblock/verification page this session; rule content, vote date, and effective date independently confirmed via direct fetch of the American Nuclear Society Nuclear Newswire article (ans.org/news/article-7881/nrc-unveils-part-53-final-rule/).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Effective date corrected from the scout's unverified '2026-04-29' to '~2026-05-03' (30 days after the 2026-04-03 Federal Register publication) per the ANS Nuclear Newswire primary-adjacent confirmation. Recommend a follow-up direct fetch of federalregister.gov or nrc.gov once the unblock/timeout issue clears, to pin the exact effective date precisely."
+    "notes": "Effective date corrected from the scout's unverified '2026-04-29' to '~2026-05-03' (30 days after the 2026-04-03 Federal Register publication) per the ANS Nuclear Newswire primary-adjacent confirmation. Recommend a follow-up direct fetch of federalregister.gov or nrc.gov once the unblock/timeout issue clears, to pin the exact effective date precisely.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Nuclear Regulatory Commission (NRC)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nrc.gov/reactors/new-reactors/advanced/modernizing/rulemaking/part-53"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal regulatory agency, official .gov domain."
+    }
   },
   {
     "id": "L04-032",
@@ -783,12 +1536,16 @@
     "canonical_key": "https://www.eia.gov/todayinenergy/detail.php?id=67204",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:54:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1554,26 @@
     "locator": "Article body, eia.gov/todayinenergy/detail.php?id=67204, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched and confirmed this session (scout had only used WebSearch synthesis)."
+    "notes": "Directly fetched and confirmed this session (scout had only used WebSearch synthesis).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Energy Information Administration (EIA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.eia.gov/todayinenergy/detail.php?id=67204"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal statistical agency, official .gov domain."
+    }
   },
   {
     "id": "L04-033",
@@ -808,12 +1584,16 @@
     "canonical_key": "https://www.energy.gov/nepa/articles/cx-031653-antora-energy-inc-deep-decarbonization-enabled-scale-solid-state-heat",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1602,26 @@
     "locator": "Article body, energy.gov/nepa/articles/cx-031653",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; exact dollar figure not shown on this specific page (Antora's own site cites $14.5M, but that page could not be independently fetched). Retained as-is."
+    "notes": "Directly fetched by scout; exact dollar figure not shown on this specific page (Antora's own site cites $14.5M, but that page could not be independently fetched). Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Department of Energy, Office of NEPA Policy and Compliance",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/nepa/articles/cx-031653-antora-energy-inc-deep-decarbonization-enabled-scale-solid-state-heat"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency, official .gov domain."
+    }
   },
   {
     "id": "L04-034",
@@ -833,12 +1632,16 @@
     "canonical_key": "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/firebrick-resistance-heated-energy-storage-fires",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1650,26 @@
     "locator": "ARPA-E project page body, arpa-e.energy.gov FIRES project listing",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Page fetch returned only a thin excerpt (header/nav) per scout; award amount should be confirmed via the full ARPA-E project PDF or press release before use as a load-bearing dollar figure. Retained as-is (page confirmed live and on-topic)."
+    "notes": "Page fetch returned only a thin excerpt (header/nav) per scout; award amount should be confirmed via the full ARPA-E project PDF or press release before use as a load-bearing dollar figure. Retained as-is (page confirmed live and on-topic).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US DOE ARPA-E",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/firebrick-resistance-heated-energy-storage-fires"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency, official .gov domain."
+    }
   },
   {
     "id": "L04-035",
@@ -858,12 +1680,17 @@
     "canonical_key": "https://www.iea.org/reports/renewables-for-industry/executive-summary",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "CN"],
+    "geography": [
+      "multinational",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1699,26 @@
     "locator": "Executive summary body, iea.org/reports/renewables-for-industry",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Kept as source_type government per scout's original classification (IEA is an intergovernmental agency producing a primary official report, closer to the T1 'government/national-lab primary record' bucket than to 'market_industry' consultancy-style estimates). This means the lane still has a gap against the '>=3 market/industry' mix target -- see verifier's return summary. Figures are load-bearing market/technology-cost data used for triangulation against the China-specific market estimate in L04-051; not independently triangulated against a second body this session."
+    "notes": "Kept as source_type government per scout's original classification (IEA is an intergovernmental agency producing a primary official report, closer to the T1 'government/national-lab primary record' bucket than to 'market_industry' consultancy-style estimates). This means the lane still has a gap against the '>=3 market/industry' mix target -- see verifier's return summary. Figures are load-bearing market/technology-cost data used for triangulation against the China-specific market estimate in L04-051; not independently triangulated against a second body this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Energy Agency (IEA)",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iea.org/reports/renewables-for-industry/executive-summary"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEA is an intergovernmental agency headquartered in Paris, France."
+    }
   },
   {
     "id": "L04-036",
@@ -883,12 +1729,16 @@
     "canonical_key": "https://www.ema.gov.sg/partnerships/research-and-development-engagements/grant-calls/energy-efficiency-grant-call-for-power-generation-companies",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:56:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG"],
+    "geography": [
+      "SG"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1747,26 @@
     "locator": "Grant call page fetched directly this session, ema.gov.sg.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Demand_evidence_type upgraded from scout's 'buyer_specification' to 'official_project_award' since the fetched page names specific awardee companies and a specific dollar figure, i.e. a concluded award rather than an open specification. English is an official administrative language in Singapore, so this does not count toward the zh/ja/ko local-language quota, though it is a genuine Singapore-geography primary government source."
+    "notes": "Demand_evidence_type upgraded from scout's 'buyer_specification' to 'official_project_award' since the fetched page names specific awardee companies and a specific dollar figure, i.e. a concluded award rather than an open specification. English is an official administrative language in Singapore, so this does not count toward the zh/ja/ko local-language quota, though it is a genuine Singapore-geography primary government source.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Energy Market Authority of Singapore (EMA)",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ema.gov.sg/partnerships/research-and-development-engagements/grant-calls/energy-efficiency-grant-call-for-power-generation-companies"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "EMA is a Singapore government statutory board, official .gov.sg domain. Not India-based, so this India-origin audit clears it; any Singapore-geography usage restriction is a separate binding rule handled outside this audit's scope."
+    }
   },
   {
     "id": "L04-037",
@@ -906,23 +1775,36 @@
     "year": 2026,
     "url": "https://www.barc.gov.in/hindi/randd/artnp.html",
     "canonical_key": "https://www.barc.gov.in/hindi/randd/artnp.html",
-    "source_type": "government",
-    "tier": "T1",
-    "lane_ids": ["L04"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T11:58:00Z",
     "fetched": true,
     "language": "hi",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "BARC's R&D pages describe the Indian Molten Salt Breeder Reactor (IMSBR, third stage of India's nuclear program): fuel circulates as a molten fluoride salt enabling online reprocessing; a 5 MW demonstration facility (MSBRDF) is being designed; heat is transferred to a supercritical-CO2-based Brayton cycle (SCBC) via heat exchangers for enhanced power-conversion efficiency. Page also describes the Innovative High-Temperature Reactor (IHTR) for hydrogen production, molten-salt-cooled to ~665C.",
     "locator": "R&D activities page fetched directly this session (Hindi), barc.gov.in/hindi/randd/artnp.html.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Directly fetched and content confirmed this session (scout had only used WebSearch synthesis). Hindi is not one of the zh/ja/ko languages specified for the local-language quota, but this is a genuine India-geography primary government source with SCBC-specific content confirmed on this exact page."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Found via Hindi-language query; not one of the zh/ja/ko languages specified for the local-language quota, but included for India-geography primary-government coverage. Verifier should fetch directly to confirm SCBC-specific content location on the site. | Directly fetched and content confirmed this session (scout had only used WebSearch synthesis). Hindi is not one of the zh/ja/ko languages specified for the local-language quota, but this is a genuine India-geography primary government source with SCBC-specific content confirmed on this exact page. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.009587+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.barc.gov.in/hindi/randd/artnp.html"
+      ],
+      "original_source_type": "government"
+    }
   },
   {
     "id": "L04-038",
@@ -933,12 +1815,16 @@
     "canonical_key": "https://www.powermag.com/supercritical-co2-brayton-power-cycle-pilot-plant-bolstered-with-80m-in-federal-funding/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +1833,26 @@
     "locator": "Article body, powermag.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; corroborates and adds detail to L04-026 (NETL page, ultimately rejected as inaccessible) and is itself corroborated by L04-039 (SwRI). Retained as-is."
+    "notes": "Directly fetched by scout; corroborates and adds detail to L04-026 (NETL page, ultimately rejected as inaccessible) and is itself corroborated by L04-039 (SwRI). Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "POWER Magazine (Access Intelligence)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.powermag.com/supercritical-co2-brayton-power-cycle-pilot-plant-bolstered-with-80m-in-federal-funding/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "POWER Magazine is published by Access Intelligence, a US media company."
+    }
   },
   {
     "id": "L04-039",
@@ -958,12 +1863,16 @@
     "canonical_key": "https://www.swri.org/newsroom/press-releases/step-demo-pilot-plant-achieves-full-operational-conditions-phase-1-of-testing",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1881,26 @@
     "locator": "Press release body, swri.org newsroom",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; SwRI is the operating research institute for the demonstration, making this a primary project-status record rather than pure trade press -- tiered T1. Note: a later independent milestone/ribbon-cutting for the same facility (~$155M cost figure, ~10MW / table-sized framing) is separately corroborated in Chinese-language Taiwan media, see L04-054."
+    "notes": "Directly fetched by scout; SwRI is the operating research institute for the demonstration, making this a primary project-status record rather than pure trade press -- tiered T1. Note: a later independent milestone/ribbon-cutting for the same facility (~$155M cost figure, ~10MW / table-sized framing) is separately corroborated in Chinese-language Taiwan media, see L04-054.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Southwest Research Institute (SwRI)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.swri.org/newsroom/press-releases/step-demo-pilot-plant-achieves-full-operational-conditions-phase-1-of-testing"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SwRI is a US independent, nonprofit research institute headquartered in San Antonio, Texas."
+    }
   },
   {
     "id": "L04-040",
@@ -983,12 +1911,16 @@
     "canonical_key": "https://www.powermag.com/net-powers-first-allam-cycle-300-mw-gas-fired-project-will-be-built-in-texas/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +1929,26 @@
     "locator": "Article body, powermag.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. Retained as-is."
+    "notes": "Directly fetched by scout. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "POWER Magazine (Access Intelligence)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.powermag.com/net-powers-first-allam-cycle-300-mw-gas-fired-project-will-be-built-in-texas/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "POWER Magazine is published by Access Intelligence, a US media company."
+    }
   },
   {
     "id": "L04-041",
@@ -1008,12 +1959,16 @@
     "canonical_key": "https://www.sec.gov/Archives/edgar/data/0001845437/000184543726000019/npwr-20260331.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:00:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1033,12 +1988,16 @@
     "canonical_key": "https://www.energy-storage.news/rondo-energy-deploys-southeast-asias-first-industrial-heat-battery/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TH"],
+    "geography": [
+      "TH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2006,26 @@
     "locator": "Article body, energy-storage.news",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. Thailand is not one of the six core Asian markets (CN/JP/KR/TW/IN/SG) named in the mission's Asia-geography assumption, so this record is not counted toward that specific quota, but it is retained as directly relevant Southeast Asian demand evidence for the heat-to-power lane."
+    "notes": "Directly fetched by scout. Thailand is not one of the six core Asian markets (CN/JP/KR/TW/IN/SG) named in the mission's Asia-geography assumption, so this record is not counted toward that specific quota, but it is retained as directly relevant Southeast Asian demand evidence for the heat-to-power lane.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Solar Media Ltd (publisher of Energy-Storage.News)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy-storage.news/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Energy-Storage.News is published by Solar Media Limited, headquartered at 123 Buckingham Palace Road, London, UK (confirmed via web search of the publisher's registered address)."
+    }
   },
   {
     "id": "L04-043",
@@ -1058,12 +2036,16 @@
     "canonical_key": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2054,26 @@
     "locator": "Company press release fetched directly this session, rondo.com/news-press.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SWAPPED canonical URL from the scout's original canarymedia.com pick (which returned 403 on every attempt this session, both to the verifier and originally to the scout) to Rondo's own primary press release, which was successfully fetched and covers the identical facts. Tier upgraded to T1 to match the convention applied elsewhere in this ledger (L04-045/046/049/050) for a vendor's own primary announcement of a named deployment. The customer facility is described only as \"a fuel production facility in California\" by Rondo itself; a specific customer name (\"Holmes Western Oil Corporation\") appeared only in third-party WebSearch snippets this session and was NOT independently confirmed by direct fetch, so it is omitted from claim_supported pending confirmation."
+    "notes": "SWAPPED canonical URL from the scout's original canarymedia.com pick (which returned 403 on every attempt this session, both to the verifier and originally to the scout) to Rondo's own primary press release, which was successfully fetched and covers the identical facts. Tier upgraded to T1 to match the convention applied elsewhere in this ledger (L04-045/046/049/050) for a vendor's own primary announcement of a named deployment. The customer facility is described only as \"a fuel production facility in California\" by Rondo itself; a specific customer name (\"Holmes Western Oil Corporation\") appeared only in third-party WebSearch snippets this session and was NOT independently confirmed by direct fetch, so it is omitted from claim_supported pending confirmation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Rondo Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Rondo Energy is a US company (Alameda, California); press release on the company's own domain."
+    }
   },
   {
     "id": "L04-044",
@@ -1083,12 +2084,16 @@
     "canonical_key": "https://www.utilitydive.com/news/fervo-turboden-enhanced-geothermal-turbines-vallourec/817096/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2102,27 @@
     "locator": "Article body, utilitydive.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; one of the largest disclosed heat-to-power turbine procurement commitments found this session. Retained as-is."
+    "notes": "Directly fetched by scout; one of the largest disclosed heat-to-power turbine procurement commitments found this session. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Utility Dive / Industry Dive (Informa PLC)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.utilitydive.com/about/",
+        "https://www.industrydive.com/who-we-are/about"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US trade-press publisher (Industry Dive, Washington DC; acquired by Informa PLC 2022)."
+    }
   },
   {
     "id": "L04-045",
@@ -1108,12 +2133,16 @@
     "canonical_key": "https://www.terrapower.com/terrapower-announces-contract-awards-for-natrium-vendors",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2151,26 @@
     "locator": "Press release body, terrapower.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; primary company press release, tiered T1 as an official project-award announcement. Retained as-is."
+    "notes": "Directly fetched by scout; primary company press release, tiered T1 as an official project-award announcement. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "TerraPower LLC",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.terrapower.com/terrapower-announces-contract-awards-for-natrium-vendors"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US advanced-reactor company (Bellevue, WA); primary company source."
+    }
   },
   {
     "id": "L04-046",
@@ -1133,12 +2181,16 @@
     "canonical_key": "https://www.turboden.com/company/media/press/press-releases/4557/turboden-to-design-and-produce-orc-system-for-canadian-oil-and-gas-producer-strathcona-resources-ltd",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2199,27 @@
     "locator": "Press release body, turboden.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; primary vendor/company press release, tiered T1 as an official procurement announcement. Geography tagged 'multinational' because Turboden America is a Mitsubishi Heavy Industries (Japan) subsidiary selling into a Canadian oil-and-gas customer. Retained as-is."
+    "notes": "Directly fetched by scout; primary vendor/company press release, tiered T1 as an official procurement announcement. Geography tagged 'multinational' because Turboden America is a Mitsubishi Heavy Industries (Japan) subsidiary selling into a Canadian oil-and-gas customer. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Turboden S.p.A. (Mitsubishi Heavy Industries Group)",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.turboden.com/company/1058/since-1980",
+        "https://www.mhi.com/company/regions/emea/locations"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Italian company (Brescia HQ), MHI (Japan) group subsidiary. Neither non-Indian parent nor subsidiary is India-based."
+    }
   },
   {
     "id": "L04-047",
@@ -1158,12 +2230,17 @@
     "canonical_key": "https://www.turbomachinerymag.com/view/hanwha-power-systems-tc-energy-commercialize-sco2-power-generation-with-waste-heat-recovery",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR", "US"],
+    "geography": [
+      "KR",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2249,26 @@
     "locator": "Original turbomachinerymag.com URL returned 403 on direct fetch both this session and previously; underlying facts independently confirmed via direct fetch of the primary corporate wire release, prnewswire.com/news-releases/hanwha-power-systems-signs-mou-with-tc-energy-to-accelerate-commercialization-of-sco2-power-generation-302312601.html, which carries Hanwha's own announcement text verbatim.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Tier upgraded from scout's T2 to T1: PR Newswire distributes Hanwha's own primary corporate release verbatim (not independent journalism), giving this the same evidentiary standing as the other own-company-announcement T1 records in this ledger (L04-045/046/049/050). Canonical URL kept as the originally assigned turbomachinerymag.com per the raw record; project location corrected/added (West Virginia compressor station) from the PR Newswire text."
+    "notes": "Tier upgraded from scout's T2 to T1: PR Newswire distributes Hanwha's own primary corporate release verbatim (not independent journalism), giving this the same evidentiary standing as the other own-company-announcement T1 records in this ledger (L04-045/046/049/050). Canonical URL kept as the originally assigned turbomachinerymag.com per the raw record; project location corrected/added (West Virginia compressor station) from the PR Newswire text.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hanwha Power Systems Co., Ltd.",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hanwhapower.com/en/company/location"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "South Korean company (Changwon HQ), Hanwha Group subsidiary; distributed via turbomachinerymag.com (US trade press)."
+    }
   },
   {
     "id": "L04-048",
@@ -1183,12 +2279,16 @@
     "canonical_key": "https://interestingengineering.com/energy/worlds-first-sco2-based-power-generator-china",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2297,26 @@
     "locator": "Article body, interestingengineering.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; corroborated in Chinese by CCTV coverage of the same '超碳一号' project (see L04-051). Retained as-is."
+    "notes": "Directly fetched by scout; corroborated in Chinese by CCTV coverage of the same '超碳一号' project (see L04-051). Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Interesting Engineering, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cbinsights.com/company/interesting-engineering"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Digital media company HQ'd in New York, NY; covers a China-located project but the publisher itself is US-based, not India."
+    }
   },
   {
     "id": "L04-049",
@@ -1208,12 +2327,16 @@
     "canonical_key": "https://maltainc.com/",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:42:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2345,26 @@
     "locator": "Company homepage body, maltainc.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; primary company website with a named customer (Proman) and named customer executive quote, tiered T1 as direct customer documentation. Specific capacity (MW) and installation date not disclosed on this page. Retained as-is."
+    "notes": "Directly fetched by scout; primary company website with a named customer (Proman) and named customer executive quote, tiered T1 as direct customer documentation. Specific capacity (MW) and installation date not disclosed on this page. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Malta Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://maltainc.com/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US thermal-storage company primary website."
+    }
   },
   {
     "id": "L04-050",
@@ -1233,12 +2375,16 @@
     "canonical_key": "https://blog.google/outreach-initiatives/sustainability/google-fervo-geothermal-energy-partnership/",
     "source_type": "trade_press",
     "tier": "T1",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:44:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2393,26 @@
     "locator": "Blog post body, blog.google",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout; primary corporate-buyer source. Capacity (MW) not disclosed in this specific post. Retained as-is."
+    "notes": "Directly fetched by scout; primary corporate-buyer source. Capacity (MW) not disclosed in this specific post. Retained as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Google LLC",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://blog.google/outreach-initiatives/sustainability/google-fervo-geothermal-energy-partnership/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US corporate-buyer primary source."
+    }
   },
   {
     "id": "L04-051",
@@ -1258,12 +2423,16 @@
     "canonical_key": "https://news.cctv.cn/2025/12/21/ARTIOIKxHHqUSt3APo8IVLjd251221.shtml",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:46:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2441,26 @@
     "locator": "Article body, news.cctv.cn",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly fetched by scout. The RMB 100B market-size figure is a single-source vendor/state-media estimate applying only to the steel-sintering retrofit segment; it has not been independently triangulated against a second source and should be treated as a rough order-of-magnitude planning number, not a validated TAM. Flag retained from scout; verifier concurs with this hedge."
+    "notes": "Directly fetched by scout. The RMB 100B market-size figure is a single-source vendor/state-media estimate applying only to the steel-sintering retrofit segment; it has not been independently triangulated against a second source and should be treated as a rough order-of-magnitude planning number, not a validated TAM. Flag retained from scout; verifier concurs with this hedge.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Central Television (CCTV)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://news.cctv.cn/2025/12/21/ARTIOIKxHHqUSt3APo8IVLjd251221.shtml"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Chinese state broadcaster."
+    }
   },
   {
     "id": "L04-052",
@@ -1283,12 +2471,16 @@
     "canonical_key": "https://techcrunch.com/2025/09/16/fourth-powers-sci-fi-thermal-batteries-could-be-cheaper-than-pricey-natural-gas-power-plants/",
     "source_type": "trade_press",
     "tier": "T3",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2489,26 @@
     "locator": "Article body, techcrunch.com, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor cost claims ($25/kWh) are unverified vendor assertions, not independent validation; tiered T3 pending independent techno-economic confirmation. Directly fetched and confirmed this session (scout had only used WebSearch synthesis)."
+    "notes": "Vendor cost claims ($25/kWh) are unverified vendor assertions, not independent validation; tiered T3 pending independent techno-economic confirmation. Directly fetched and confirmed this session (scout had only used WebSearch synthesis).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "TechCrunch (Yahoo/Regent)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://techcrunch.com/2025/09/16/fourth-powers-sci-fi-thermal-batteries-could-be-cheaper-than-pricey-natural-gas-power-plants/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US trade/tech press."
+    }
   },
   {
     "id": "L04-053",
@@ -1308,12 +2519,16 @@
     "canonical_key": "https://www.pv-magazine.com/2022/04/27/mit-nrel-researchers-develop-40-efficient-thermophotovoltaic-cell-for-grid-scale-thermal-batteries/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2537,26 @@
     "locator": "Article body, pv-magazine.com, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Secondary trade-press corroboration of L04-001; useful for establishing the academic-to-commercial link cited throughout thermal-battery demand records. Directly fetched and confirmed this session (scout had only used WebSearch synthesis)."
+    "notes": "Secondary trade-press corroboration of L04-001; useful for establishing the academic-to-commercial link cited throughout thermal-battery demand records. Directly fetched and confirmed this session (scout had only used WebSearch synthesis).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "pv magazine group GmbH & Co. KG",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.pv-magazine.com/about-us/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Berlin, Germany-based publisher (pv magazine also runs a regional India edition, but this record's publisher entity is the Germany-HQ'd group, not India)."
+    }
   },
   {
     "id": "L04-054",
@@ -1333,12 +2567,17 @@
     "canonical_key": "https://www.chinatimes.com/realtimenews/20231102005721-260408",
     "source_type": "trade_press",
     "tier": "T3",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:10:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["TW", "US"],
+    "geography": [
+      "TW",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,7 +2586,26 @@
     "locator": "Article body, chinatimes.com, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CLAIM CORRECTED: the raw scout record mischaracterized this as coverage of \"a supercritical CO2 turbine developed in China\"; direct fetch this session confirms the article is actually Taiwan Chinese-language reporting on the SAME US STEP Demo / SwRI facility already covered in L04-039 (US DOE, SwRI, GTI Energy, GE Vernova consortium, San Antonio location), not a Chinese-developed turbine. Geography corrected from [\"TW\",\"CN\"] to [\"TW\",\"US\"] accordingly (CN removed -- no Chinese entity or facility is involved). Retained for Taiwan-geography, Chinese-language media-coverage diversity of a US facility; the $155M/10MW figures differ somewhat from L04-039's $169M/~4MW figures (likely reflect different project milestones or media rounding) and should not be treated as an independent confirmation of L04-039's numbers."
+    "notes": "CLAIM CORRECTED: the raw scout record mischaracterized this as coverage of \"a supercritical CO2 turbine developed in China\"; direct fetch this session confirms the article is actually Taiwan Chinese-language reporting on the SAME US STEP Demo / SwRI facility already covered in L04-039 (US DOE, SwRI, GTI Energy, GE Vernova consortium, San Antonio location), not a Chinese-developed turbine. Geography corrected from [\"TW\",\"CN\"] to [\"TW\",\"US\"] accordingly (CN removed -- no Chinese entity or facility is involved). Retained for Taiwan-geography, Chinese-language media-coverage diversity of a US facility; the $155M/10MW figures differ somewhat from L04-039's $169M/~4MW figures (likely reflect different project milestones or media rounding) and should not be treated as an independent confirmation of L04-039's numbers.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Times (Want Want China Times Media Group)",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.chinatimes.com/realtimenews/20231102005721-260408"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Taiwan-based Chinese-language media outlet."
+    }
   },
   {
     "id": "L04-055",
@@ -1358,12 +2616,16 @@
     "canonical_key": "https://m.hanwhapower.com/static/data/brochure/sco2_8p_en_final.pdf",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L04"],
+    "lane_ids": [
+      "L04"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1372,6 +2634,25 @@
     "locator": "PDF confirmed live via WebFetch redirect this session (m.hanwhapower.com/static/data/brochure/sCO2_8P_EN_final.pdf, 301 redirect from the original m.hanwhapowersystems.com URL); binary content not machine-readable by the fetch tool.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "URL updated to the redirected working host (hanwhapower.com, not hanwhapowersystems.com) since the original host now forwards there. Kept as a vendor_datasheet lead for the market/industry-adjacent quota; a human or a PDF-text-extraction-capable tool should open the file directly to extract price/spec figures before treating any number from it as confirmed."
+    "notes": "URL updated to the redirected working host (hanwhapower.com, not hanwhapowersystems.com) since the original host now forwards there. Kept as a vendor_datasheet lead for the market/industry-adjacent quota; a human or a PDF-text-extraction-capable tool should open the file directly to extract price/spec figures before treating any number from it as confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hanwha Power Systems Co., Ltd.",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hanwhapower.com/en/company/location"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "South Korean vendor datasheet."
+    }
   }
 ]

@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1088/1361-6668/ada9d2",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1361-6668/ada9d2",
     "doi": "10.1088/1361-6668/ada9d2",
@@ -22,7 +26,34 @@
     "locator": "Crossref metadata record (type journal-article, container-title Superconductor Science and Technology, published 17 Feb 2025); direct IOPscience publisher page still returns HTTP 403 this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list confirmed via Crossref (Li, Ainslie, Song, Yang, Macián-Juan). Geography corrected to GB only (Ainslie is a known Cambridge/UK HTS researcher); the prior US guess is unsupported by any confirmed affiliation data and is dropped rather than asserted."
+    "notes": "Author list confirmed via Crossref (Li, Ainslie, Song, Yang, Macián-Juan). Geography corrected to GB only (Ainslie is a known Cambridge/UK HTS researcher); the prior US guess is unsupported by any confirmed affiliation data and is dropped rather than asserted.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Technical University of Munich",
+          "country": "DE"
+        },
+        {
+          "name": "King's College London",
+          "country": "GB"
+        },
+        {
+          "name": "Beihang University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1361-6668/ada9d2"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to Germany/UK/China institutions via OpenAlex. No India."
+    }
   },
   {
     "id": "L03-002",
@@ -33,12 +64,16 @@
     "canonical_key": "doi:10.1063/5.0162284",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0162284",
     "doi": "10.1063/5.0162284",
@@ -47,7 +82,26 @@
     "locator": "Crossref metadata record (type journal-article, container-title Physics of Plasmas, year 2023, exact title match).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref bibliographic search this session; raw record had left DOI blank rather than invent it, now filled with a confirmed value."
+    "notes": "DOI resolved via Crossref bibliographic search this session; raw record had left DOI blank rather than invent it, now filled with a confirmed value.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "scMetrology SARL",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0162284"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Single author B. Seeber resolved to scMetrology SARL, Switzerland via OpenAlex."
+    }
   },
   {
     "id": "L03-003",
@@ -58,12 +112,17 @@
     "canonical_key": "doi:10.1038/s41598-021-81559-z",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["RU", "US"],
+    "geography": [
+      "RU",
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-021-81559-z",
     "doi": "10.1038/s41598-021-81559-z",
@@ -72,7 +131,42 @@
     "locator": "Crossref metadata record confirms journal-article type, Scientific Reports, Jan 2021, full ~30-author list including SuperOx (RU) and MIT/PSFC (US, Sorbom, Hartwig) co-authors.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author affiliations confirm both RU (SuperOx) and US (MIT) participation, corroborating the tentative geography guess."
+    "notes": "Author affiliations confirm both RU (SuperOx) and US (MIT) participation, corroborating the tentative geography guess.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "SuperOx / Joint Institute for High Temperatures / Lebedev Physical Institute / Russian Academy of Sciences",
+          "country": "RU"
+        },
+        {
+          "name": "Boston Fusion / MIT / National High Magnetic Field Laboratory (Florida State University)",
+          "country": "US"
+        },
+        {
+          "name": "Tohoku University",
+          "country": "JP"
+        },
+        {
+          "name": "University of Geneva",
+          "country": "CH"
+        },
+        {
+          "name": "Victoria University of Wellington",
+          "country": "NZ"
+        }
+      ],
+      "non_indian_affiliation_count": 27,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41598-021-81559-z"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 27 authors resolved to Russia/US/Japan/Switzerland/New Zealand institutions via OpenAlex. No India."
+    }
   },
   {
     "id": "L03-004",
@@ -83,12 +177,16 @@
     "canonical_key": "doi:10.3390/instruments5030027",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/instruments5030027",
     "doi": "10.3390/instruments5030027",
@@ -97,7 +195,26 @@
     "locator": "Crossref metadata record confirms journal-article type, Instruments (MDPI), 5 Aug 2021, single author Maxim Marchevsky, LBNL affiliation confirming US geography.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Upgraded from T2 to T1: confirmed legitimate peer-reviewed venue with a named national-lab-affiliated author, not a predatory or unclear venue."
+    "notes": "Upgraded from T2 to T1: confirmed legitimate peer-reviewed venue with a named national-lab-affiliated author, not a predatory or unclear venue.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/instruments5030027"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Single author M. Marchevsky resolved to LBNL, US."
+    }
   },
   {
     "id": "L03-005",
@@ -108,12 +225,16 @@
     "canonical_key": "doi:10.1109/tasc.2021.3089109",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tasc.2021.3089109",
     "doi": "10.1109/tasc.2021.3089109",
@@ -122,7 +243,50 @@
     "locator": "Crossref metadata record: exact title match, journal-article, IEEE Transactions on Applied Superconductivity, 2021. Direct IEEE Xplore page returned no extractable content (JS-rendered, empty fetch) this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref since IEEE Xplore blocks direct WebFetch rendering; title/venue/year match exactly, satisfying journal-article + container-title confirmation."
+    "notes": "DOI resolved via Crossref since IEEE Xplore blocks direct WebFetch rendering; title/venue/year match exactly, satisfying journal-article + container-title confirmation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Cambridge",
+          "country": "GB"
+        },
+        {
+          "name": "Sichuan Normal University",
+          "country": "CN"
+        },
+        {
+          "name": "Hefei Institutes of Physical Science",
+          "country": "CN"
+        },
+        {
+          "name": "Neusoft Medical System Corporation",
+          "country": "CN"
+        },
+        {
+          "name": "Shanghai Jiao Tong University",
+          "country": "CN"
+        },
+        {
+          "name": "Chengdu University of Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Southwest Jiaotong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 17,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tasc.2021.3089109"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 17 authors resolved to UK/China institutions via OpenAlex. No India."
+    }
   },
   {
     "id": "L03-006",
@@ -133,12 +297,16 @@
     "canonical_key": "doi:10.1109/tasc.2024.3520084",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tasc.2024.3520084",
     "doi": "10.1109/tasc.2024.3520084",
@@ -147,7 +315,26 @@
     "locator": "Crossref metadata record: exact title match, journal-article, IEEE TAS.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from 2024 (raw) to 2025 per Crossref authoritative published-date field (DOI numbering reflects 2024 early-access)."
+    "notes": "Year corrected from 2024 (raw) to 2025 per Crossref authoritative published-date field (DOI numbering reflects 2024 early-access).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Boston Fusion",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tasc.2024.3520084"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Boston Fusion, US."
+    }
   },
   {
     "id": "L03-007",
@@ -158,12 +345,16 @@
     "canonical_key": "doi:10.1109/tasc.2014.2388132",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tasc.2014.2388132",
     "doi": "10.1109/tasc.2014.2388132",
@@ -172,7 +363,30 @@
     "locator": "Crossref metadata record: exact title match, journal-article, IEEE TAS, 2015 (matches raw year exactly).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Huazhong University of Science and Technology",
+          "country": "CN"
+        },
+        {
+          "name": "China Southern Power Grid",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 10,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tasc.2014.2388132"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 10 authors resolved to Chinese institutions via OpenAlex."
+    }
   },
   {
     "id": "L03-008",
@@ -183,12 +397,16 @@
     "canonical_key": "doi:10.1109/tasc.2018.2848229",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tasc.2018.2848229",
     "doi": "10.1109/tasc.2018.2848229",
@@ -197,7 +415,30 @@
     "locator": "Crossref metadata record: exact title match, journal-article, IEEE TAS.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from 2018 (raw) to 2019 per Crossref authoritative published-date field."
+    "notes": "Year corrected from 2018 (raw) to 2019 per Crossref authoritative published-date field.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CERN",
+          "country": "CH"
+        },
+        {
+          "name": "Tampere University",
+          "country": "FI"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tasc.2018.2848229"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolved to CERN (Switzerland) / Tampere University (Finland) via OpenAlex."
+    }
   },
   {
     "id": "L03-009",
@@ -208,12 +449,16 @@
     "canonical_key": "doi:10.1016/j.supcon.2022.100018",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.supcon.2022.100018",
     "doi": "10.1016/j.supcon.2022.100018",
@@ -222,7 +467,34 @@
     "locator": "Crossref metadata record: exact title match, journal-article, Superconductivity (Elsevier), 2022.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Universidade Federal Fluminense",
+          "country": "BR"
+        },
+        {
+          "name": "Electrical Energy Research Center",
+          "country": "BR"
+        },
+        {
+          "name": "Universidade Federal do Rio de Janeiro",
+          "country": "BR"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.supcon.2022.100018"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors resolved to Brazilian institutions via OpenAlex."
+    }
   },
   {
     "id": "L03-010",
@@ -233,12 +505,16 @@
     "canonical_key": "doi:10.1109/icsgsc.2019.00-15",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/icsgsc.2019.00-15",
     "doi": "10.1109/icsgsc.2019.00-15",
@@ -247,7 +523,42 @@
     "locator": "Crossref metadata record: exact title match, type proceedings-article, ICSGSC 2019 (IEEE-organized, peer-reviewed conference).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Upgraded T2->T1: final proceedings identity independently confirmed per SOURCE_STANDARDS conference-paper rule; genuine peer-reviewed IEEE conference proceedings, not merely IEEE-branded."
+    "notes": "Upgraded T2->T1: final proceedings identity independently confirmed per SOURCE_STANDARDS conference-paper rule; genuine peer-reviewed IEEE conference proceedings, not merely IEEE-branded.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shiraz University of Technology",
+          "country": "IR"
+        },
+        {
+          "name": "Louisiana State University",
+          "country": "US"
+        },
+        {
+          "name": "University of Michigan-Dearborn",
+          "country": "US"
+        },
+        {
+          "name": "University of Texas at Dallas",
+          "country": "US"
+        },
+        {
+          "name": "University of Texas at San Antonio",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/icsgsc.2019.00-15"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to Iran/US institutions via OpenAlex. No India."
+    }
   },
   {
     "id": "L03-011",
@@ -258,12 +569,16 @@
     "canonical_key": "doi:10.1109/tia.2024.3477435",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tia.2024.3477435",
     "doi": "10.1109/tia.2024.3477435",
@@ -272,7 +587,34 @@
     "locator": "Crossref metadata record: exact title match, journal-article, 2025.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VENUE CORRECTED: raw record misattributed this to IEEE Transactions on Applied Superconductivity; Crossref confirms the actual venue is IEEE Transactions on Industry Applications (year 2025, not 2024). A different, non-identical IEEE TAS paper with a similar title also exists (DOI 10.1109/tasc.2023.3236873, 'Current Limiting Simulation...', 2023) but is not an exact title match and is not this record."
+    "notes": "VENUE CORRECTED: raw record misattributed this to IEEE Transactions on Applied Superconductivity; Crossref confirms the actual venue is IEEE Transactions on Industry Applications (year 2025, not 2024). A different, non-identical IEEE TAS paper with a similar title also exists (DOI 10.1109/tasc.2023.3236873, 'Current Limiting Simulation...', 2023) but is not an exact title match and is not this record.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "crossref"
+      ],
+      "institutions": [
+        {
+          "name": "China Electric Power Research Institute",
+          "country": "CN"
+        },
+        {
+          "name": "North China Electric Power University",
+          "country": "CN"
+        },
+        {
+          "name": "State Grid Liaoning Electric Power Company",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1109/TIA.2024.3477435"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex left one author (Nan Zheng) unlisted; Crossref record resolves Nan Zheng to State Grid Liaoning Electric Power Company, China. All 6 authors now fully resolved to Chinese institutions."
+    }
   },
   {
     "id": "L03-012",
@@ -283,12 +625,16 @@
     "canonical_key": "doi:10.1016/j.supcon.2022.100008",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.supcon.2022.100008",
     "doi": "10.1016/j.supcon.2022.100008",
@@ -297,7 +643,26 @@
     "locator": "Crossref metadata record: exact title match, journal-article, Superconductivity (Elsevier), 2022.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Shanghai Electric Cable Research Institute",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2772830722000072"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex/Crossref left affiliations empty; ScienceDirect direct fetch blocked (403). WebSearch corroboration independently identifies Zong Xihua as deputy chief engineer of Shanghai Electric Cable Research Institute (SECRI) and Huang Chongqi as a Chinese Academy of Engineering member; third author (Yun Wu Han) presumed same SECRI project team given co-authorship and Shanghai State Grid cable project context. No India signal for any author."
+    }
   },
   {
     "id": "L03-013",
@@ -308,12 +673,16 @@
     "canonical_key": "doi:10.1016/j.cryogenics.2020.103195",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.cryogenics.2020.103195",
     "doi": "10.1016/j.cryogenics.2020.103195",
@@ -322,7 +691,39 @@
     "locator": "Crossref metadata record: exact title match, journal-article, Cryogenics (Elsevier), 2020.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Plasma Physics, Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "North China Electric Power University",
+          "country": "CN"
+        },
+        {
+          "name": "China Electric Power Research Institute",
+          "country": "CN"
+        },
+        {
+          "name": "Tsinghua University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.cryogenics.2020.103195",
+        "https://api.crossref.org/works/10.1016/j.cryogenics.2020.103195"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "9 of 13 authors resolved to Chinese institutions (CAS Institute of Plasma Physics, NCEPU, CEPRI, Tsinghua) via OpenAlex; 4 authors (Defu Wei, Shuai Wang, Jiaxing Liu, Tie Guo) remained unresolved after Crossref and ScienceDirect (blocked 403) and Semantic Scholar checks. Two of the resolved co-authors (Jiahui Zhu, Panpan Chen -- NCEPU/CEPRI) are shared with L03-011, a companion domestic-China State Grid Liaoning SFCL paper by the same group, reinforcing that this is a single-country China collaboration with no India signal anywhere in the resolved majority or in any search result for the unresolved names."
+    }
   },
   {
     "id": "L03-014",
@@ -333,12 +734,16 @@
     "canonical_key": "doi:10.1088/1361-6668/abac1f",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1361-6668/abac1f",
     "doi": "10.1088/1361-6668/abac1f",
@@ -347,7 +752,26 @@
     "locator": "Crossref metadata record confirms journal-article, SUST, Nov 2020, author list matches Chinese institutional authors (IEE-CAS-style names), confirming CN geography.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Direct IOPscience fetch still returns HTTP 403; Crossref record fetch satisfies the verification requirement."
+    "notes": "Direct IOPscience fetch still returns HTTP 403; Crossref record fetch satisfies the verification requirement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Electrical Engineering, Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1361-6668/abac1f"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to CAS Institute of Electrical Engineering, China."
+    }
   },
   {
     "id": "L03-015",
@@ -358,12 +782,17 @@
     "canonical_key": "doi:10.1088/1361-6668/ab48d6",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DK", "DE"],
+    "geography": [
+      "DK",
+      "DE"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1361-6668/ab48d6",
     "doi": "10.1088/1361-6668/ab48d6",
@@ -372,7 +801,59 @@
     "locator": "Crossref metadata record confirms journal-article, SUST, Oct 2019, full 27-author EcoSwing consortium list.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "University of Twente",
+          "country": "NL"
+        },
+        {
+          "name": "Theva Dunnschichttechnik GmbH",
+          "country": "DE"
+        },
+        {
+          "name": "Fraunhofer Institute for Wind Energy Systems",
+          "country": "DE"
+        },
+        {
+          "name": "DNV",
+          "country": "DE"
+        },
+        {
+          "name": "Cryogenic Industries (US entity of Sumitomo Cryogenics)",
+          "country": "US"
+        },
+        {
+          "name": "Envision Energy",
+          "country": "DK"
+        },
+        {
+          "name": "Eco 5 GmbH",
+          "country": "DE"
+        },
+        {
+          "name": "Jeumont Electric SAS",
+          "country": "FR"
+        },
+        {
+          "name": "Delta Energy Systems GmbH",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://cordis.europa.eu/project/id/656024",
+        "https://research.utwente.nl/en/publications/design-and-in-field-testing-of-the-worlds-first-rebco-rotor-for-a/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex/Crossref left most of the 27 EcoSwing authors without institution data; IOPscience direct fetch blocked (403). CORDIS H2020 project record (grant 656024) confirms the EcoSwing consortium comprises exactly 9 named organizational partners (Envision Energy DK, Eco 5 DE, Jeumont Electric FR, Delta Energy Systems DE, Theva DE, Sumitomo Cryogenics of Europe (Sumitomo's European entity), Univ. Twente NL, Fraunhofer IWES DE, DNV DE/NO) -- a closed, fully-enumerated consortium list with no India-based partner. Remaining unresolved individual co-authors are engineers employed by these same 9 partner organizations per the CORDIS fact sheet, not an unbounded set."
+    }
   },
   {
     "id": "L03-016",
@@ -383,12 +864,16 @@
     "canonical_key": "doi:10.1088/1361-6668/ae01e4",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1361-6668/ae01e4",
     "doi": "10.1088/1361-6668/ae01e4",
@@ -397,7 +882,26 @@
     "locator": "Crossref metadata record confirms journal-article, SUST, Sep 2025, authors Shah/Zhang/Mueller.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from an unsupported US guess to GB (Mueller is University of Edinburgh; not independently affiliation-confirmed this session, flagged as best-available inference rather than confirmed fact)."
+    "notes": "Geography corrected from an unsupported US guess to GB (Mueller is University of Edinburgh; not independently affiliation-confirmed this session, flagged as best-available inference rather than confirmed fact).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Edinburgh",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1361-6668/ae01e4"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to University of Edinburgh, UK via OpenAlex."
+    }
   },
   {
     "id": "L03-017",
@@ -408,12 +912,16 @@
     "canonical_key": "doi:10.1088/1361-6668/ae4832",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1361-6668/ae4832",
     "doi": "10.1088/1361-6668/ae4832",
@@ -422,7 +930,26 @@
     "locator": "Crossref metadata record confirms journal-article, SUST, May 2026, authors L. Bottura and B. Bordini (both CERN magnet-group scientists).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography narrowed to CH (CERN's magnet group is administratively Swiss-based); FR dropped as unconfirmed."
+    "notes": "Geography narrowed to CH (CERN's magnet group is administratively Swiss-based); FR dropped as unconfirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CERN",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1361-6668/ae4832"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Bottura, Bordini) resolved to CERN, Switzerland via OpenAlex."
+    }
   },
   {
     "id": "L03-018",
@@ -433,12 +960,18 @@
     "canonical_key": "doi:10.1093/nsr/nwad001",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN", "US", "KR"],
+    "geography": [
+      "CN",
+      "US",
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1093/nsr/nwad001",
     "doi": "10.1093/nsr/nwad001",
@@ -447,7 +980,30 @@
     "locator": "full text, mechanical issues section (previously fetched); Crossref metadata record independently confirms journal-article type, National Science Review, Jan 2023, matching author list.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "peer_review_status corrected from 'unverified' to 'verified': the raw record already had fetched:true and a specific locator but had not updated the status field. Now confirmed via both full-text fetch and Crossref."
+    "notes": "peer_review_status corrected from 'unverified' to 'verified': the raw record already had fetched:true and a specific locator but had not updated the status field. Now confirmed via both full-text fetch and Crossref.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Lanzhou University",
+          "country": "CN"
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1093/nsr/nwad001"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to Lanzhou University (China) and MIT (US) via OpenAlex."
+    }
   },
   {
     "id": "L03-019",
@@ -458,12 +1014,16 @@
     "canonical_key": "doi:10.1016/j.supcon.2025.100188",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.supcon.2025.100188",
     "doi": "10.1016/j.supcon.2025.100188",
@@ -472,7 +1032,38 @@
     "locator": "Crossref metadata record: exact title match, journal-article, Superconductivity (Elsevier), 2025.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "country": "CN"
+        },
+        {
+          "name": "University at Buffalo, SUNY",
+          "country": "US"
+        },
+        {
+          "name": "University of Turku",
+          "country": "FI"
+        },
+        {
+          "name": "Tohoku University",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.supcon.2025.100188"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to China/US/Finland/Japan institutions via OpenAlex. No India."
+    }
   },
   {
     "id": "L03-020",
@@ -483,12 +1074,16 @@
     "canonical_key": "doi:10.1088/1361-6668/ad7f95",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1361-6668/ad7f95",
     "doi": "10.1088/1361-6668/ad7f95",
@@ -497,7 +1092,26 @@
     "locator": "Crossref metadata record confirms journal-article, SUST, Oct 2024, authors Senatore/Bonura/Bagni (University of Geneva group).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from unsupported US guess to CH (Senatore is University of Geneva)."
+    "notes": "Geography corrected from unsupported US guess to CH (Senatore is University of Geneva).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T18:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Geneva",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1361-6668/ad7f95"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors resolved to University of Geneva, Switzerland via OpenAlex."
+    }
   },
   {
     "id": "L03-021",
@@ -508,12 +1122,16 @@
     "canonical_key": "doi:10.1016/j.fusengdes.2023.113523",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2023.113523",
     "doi": "10.1016/j.fusengdes.2023.113523",
@@ -522,7 +1140,34 @@
     "locator": "Crossref metadata record: exact title match, journal-article, 2023.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VENUE CORRECTED: raw record mislabeled this as 'Cryogenics'; the pii (S0920379...) matches the Fusion Engineering and Design ISSN prefix (0920-3796), and Crossref confirms container-title Fusion Engineering and Design, not Cryogenics."
+    "notes": "VENUE CORRECTED: raw record mislabeled this as 'Cryogenics'; the pii (S0920379...) matches the Fusion Engineering and Design ISSN prefix (0920-3796), and Crossref confirms container-title Fusion Engineering and Design, not Cryogenics.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Plasma Physics (ASIPP)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors resolved to USTC/CAS/Institute of Plasma Physics, China. No Indian affiliations."
+    }
   },
   {
     "id": "L03-022",
@@ -533,12 +1178,16 @@
     "canonical_key": "doi:10.1016/j.xinn.2022.100269",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.xinn.2022.100269",
     "doi": "10.1016/j.xinn.2022.100269",
@@ -547,7 +1196,34 @@
     "locator": "Crossref metadata record confirms journal-article, The Innovation, July 2022, full 17-author list (Zheng, Qin, Lu, Xu, Duan et al.).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "peer_review_status corrected from 'unverified' to 'verified' now that Crossref record is independently confirmed this session."
+    "notes": "peer_review_status corrected from 'unverified' to 'verified' now that Crossref record is independently confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Plasma Physics",
+          "country": "CN"
+        },
+        {
+          "name": "Hefei Institutes of Physical Science, CAS",
+          "country": "CN"
+        },
+        {
+          "name": "Southwestern Institute of Physics",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 17,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 17 authors resolved to Chinese institutions (IPP/HFIPS/CAS/SWIP). No Indian affiliations."
+    }
   },
   {
     "id": "L03-023",
@@ -558,12 +1234,16 @@
     "canonical_key": "doi:10.3390/cryo2010003",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.mdpi.com/journal/cryo",
     "doi": "10.3390/cryo2010003",
@@ -572,7 +1252,34 @@
     "locator": "Web search confirmed DOI 10.3390/cryo2010003, published 25 Feb 2026 in Cryo vol 2 issue 1; MDPI states Cryo is 'an international, peer-reviewed, open access journal on cryoengineering and cryogenics.'",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VENUE CORRECTED: this is NOT an MDPI journal called 'Superconductivity' as the raw record stated. ISSN 3042-4860 belongs to MDPI's 'Cryo' journal (launched 2025); the raw journal name was mistyped/misidentified. Authors identified (Liu, Gao, Hong, F. Liu); lead/co-author Fang Liu also appears on L03-029 (ASIPP), consistent with CN/ASIPP affiliation. Kept at T2 given the journal's short track record (launched 2025) despite confirmed peer review."
+    "notes": "VENUE CORRECTED: this is NOT an MDPI journal called 'Superconductivity' as the raw record stated. ISSN 3042-4860 belongs to MDPI's 'Cryo' journal (launched 2025); the raw journal name was mistyped/misidentified. Authors identified (Liu, Gao, Hong, F. Liu); lead/co-author Fang Liu also appears on L03-029 (ASIPP), consistent with CN/ASIPP affiliation. Kept at T2 given the journal's short track record (launched 2025) despite confirmed peer review.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Hefei Institutes of Physical Science",
+          "country": "CN"
+        },
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors resolved to CAS/HFIPS/USTC, China. No Indian affiliations."
+    }
   },
   {
     "id": "L03-024",
@@ -583,12 +1290,16 @@
     "canonical_key": "doi:10.1016/j.fusengdes.2022.113063",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2022.113063",
     "doi": "10.1016/j.fusengdes.2022.113063",
@@ -597,7 +1308,26 @@
     "locator": "Crossref metadata record: exact title match, journal-article, Fusion Engineering and Design, 2022.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": ""
+    "notes": "",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Plasma Physics (ASIPP)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 12,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 12 authors resolved to Institute of Plasma Physics (ASIPP), China. No Indian affiliations."
+    }
   },
   {
     "id": "L03-025",
@@ -608,12 +1338,17 @@
     "canonical_key": "doi:10.1088/1741-4326/ae6352",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "EU"],
+    "geography": [
+      "JP",
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1741-4326/ae6352",
     "doi": "10.1088/1741-4326/ae6352",
@@ -622,7 +1357,30 @@
     "locator": "Crossref metadata record confirms journal-article, Nuclear Fusion, 14 May 2026, full author list incl. JT-60SA Operation Team, S. Davis, M. Wanner, V. Tomarchio, L. Zani (EU/F4E-side authors).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "peer_review_status corrected from 'unverified' to 'verified'."
+    "notes": "peer_review_status corrected from 'unverified' to 'verified'.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Institutes for Quantum Science and Technology (QST)",
+          "country": "JP"
+        },
+        {
+          "name": "Fusion for Energy",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 16,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "11 authors resolved to QST (Japan), 5 to Fusion for Energy (Barcelona, Spain, the EU's ITER domestic agency); a few JT-60SA operation team entries unresolved but consistent with this JP/EU collaboration. No Indian affiliations."
+    }
   },
   {
     "id": "L03-026",
@@ -633,12 +1391,17 @@
     "canonical_key": "doi:10.1016/j.fusengdes.2025.114946",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "EU"],
+    "geography": [
+      "JP",
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2025.114946",
     "doi": "10.1016/j.fusengdes.2025.114946",
@@ -647,7 +1410,30 @@
     "locator": "Crossref metadata record: exact title match resolved via targeted title search, journal-article, Fusion Engineering and Design, 2025. Direct ScienceDirect abstract page returns HTTP 403.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI was previously unresolved (raw record left blank); resolved this session via a title-filtered Crossref query after bibliographic-search variants returned near-miss titles."
+    "notes": "DOI was previously unresolved (raw record left blank); resolved this session via a title-filtered Crossref query after bibliographic-search variants returned near-miss titles.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Institutes for Quantum Science and Technology (QST)",
+          "country": "JP"
+        },
+        {
+          "name": "Fusion for Energy",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 20,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "20 authors resolved to QST, Japan; remaining ~12 unresolved co-authors (Davis, Tomarchio, Wanner, di Pietro, Jokinen, Zani, Phillips, Frello, Novello, Louzguiti, Abe, Hoa) are the same JT-60SA/ITER collaboration team that resolves to Fusion for Energy (Spain) in the companion paper L03-025 (doi 10.1088/1741-4326/ae6352). No Indian names or affiliations anywhere in the author list."
+    }
   },
   {
     "id": "L03-027",
@@ -658,12 +1444,16 @@
     "canonical_key": "doi:10.9714/psac.2021.23.4.010",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.koreascience.or.kr/article/JAKO202108062287172.page",
     "doi": "10.9714/psac.2021.23.4.010",
@@ -672,7 +1462,30 @@
     "locator": "Direct fetch of the Korea Science article page this session; peer-review dates and DOI confirmed on-page.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Korean HTS wire fabrication research relevant to SuNAM-adjacent domestic wire industry."
+    "notes": "Korean HTS wire fabrication research relevant to SuNAM-adjacent domestic wire industry.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Superconductivity Research Center, Korea Electrotechnology Research Institute",
+          "country": "KR"
+        },
+        {
+          "name": "SuNAM Co. Ltd.",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://www.koreascience.or.kr/article/JAKO202108062287172.page"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI (10.9714/psac.2021.23.4.010) not indexed in OpenAlex/Crossref; affiliations enumerated directly from the koreascience.or.kr publisher page. All 6 authors are KERI or SuNAM Co. Ltd., both South Korean."
+    }
   },
   {
     "id": "L03-028",
@@ -683,12 +1496,16 @@
     "canonical_key": "doi:10.20517/ss.2022.10",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.20517/ss.2022.10",
     "doi": "10.20517/ss.2022.10",
@@ -697,7 +1514,34 @@
     "locator": "Crossref metadata record confirms journal-article, Soft Science, 2022, 10-author list (Wang, Dong, Huang et al.).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The raw record's inferred DOI (guessed from OAE Publishing's URL=DOI convention) is CONFIRMED CORRECT by Crossref. Geography updated to CN based on author-name pattern (not independently affiliation-verified). Kept T2 given the smaller/newer publisher."
+    "notes": "The raw record's inferred DOI (guessed from OAE Publishing's URL=DOI convention) is CONFIRMED CORRECT by Crossref. Geography updated to CN based on author-name pattern (not independently affiliation-verified). Kept T2 given the smaller/newer publisher.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Electrical Engineering, CAS",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113523|10.1016/j.xinn.2022.100269|10.3390/cryo2010003|10.1016/j.fusengdes.2022.113063|10.1088/1741-4326/ae6352|10.1016/j.fusengdes.2025.114946|10.9714/psac.2021.23.4.010|10.20517/ss.2022.10|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.1038/s41586-022-04473-y|10.1016/j.joule.2024.05.002|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2164683|10.1080/01457632.2022.2140640&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolved to CAS Institute of Electrical Engineering / UCAS, China. No Indian affiliations."
+    }
   },
   {
     "id": "L03-029",
@@ -708,12 +1552,16 @@
     "canonical_key": "doi:10.1016/j.xinn.2025.101219",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.xinn.2025.101219",
     "doi": "10.1016/j.xinn.2025.101219",
@@ -722,7 +1570,38 @@
     "locator": "full text, results section (previously fetched); Crossref metadata record independently confirms journal-article type and DOI this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "peer_review_status corrected from 'unverified' to 'verified'. Year corrected from 2025 (raw, matching journal cover-issue date) to 2026 per Crossref's authoritative published-date field; both are defensible (online-first vs formal issue date) so the discrepancy is flagged rather than silently overwritten."
+    "notes": "peer_review_status corrected from 'unverified' to 'verified'. Year corrected from 2025 (raw, matching journal cover-issue date) to 2026 per Crossref's authoritative published-date field; both are defensible (online-first vs formal issue date) so the discrepancy is flagged rather than silently overwritten.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Hefei Institutes of Physical Science",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Plasma Physics (ASIPP)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/cryo2010003|10.1088/1741-4326/ae6352|10.9714/psac.2021.23.4.010|10.1016/j.xinn.2025.101219|10.2221/jcsj.39.85|10.3390/en16217367|10.1016/j.applthermaleng.2025.128886|10.1080/01457632.2022.2140640|10.3389/fenrg.2022.843237|10.1021/acsaem.0c03201|10.1021/acsaem.4c02872|10.1038/s44310-024-00044-3|10.1016/j.nucengdes.2020.110767|10.1016/j.ijheatfluidflow.2025.109874|10.1016/j.fuel.2025.137803|10.1016/j.enconman.2022.115437&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved to USTC/CAS/HFIPS/ASIPP, China. No Indian affiliations."
+    }
   },
   {
     "id": "L03-030",
@@ -733,12 +1612,17 @@
     "canonical_key": "https://www.iter.org/node/20687/us-iter-completes-central-solenoid-procurement-package",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "FR"],
+    "geography": [
+      "US",
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1631,30 @@
     "locator": "article body, dated 27 April 2026 (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary official-project-award evidence of a live, funded US superconducting magnet procurement deliverable. Verifier did not re-fetch; scout's fetch is accepted as-is."
+    "notes": "Primary official-project-award evidence of a live, funded US superconducting magnet procurement deliverable. Verifier did not re-fetch; scout's fetch is accepted as-is.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        },
+        {
+          "name": "US ITER / Oak Ridge National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.iter.org/node/20687/us-iter-completes-central-solenoid-procurement-package"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER Organization is headquartered in Saint-Paul-lez-Durance, France; US ITER is an Oak Ridge National Laboratory (US DOE) office. Non-academic government source; no India-based publisher/org."
+    }
   },
   {
     "id": "L03-031",
@@ -758,12 +1665,17 @@
     "canonical_key": "https://www.iter.org/node/20687/china-completes-its-superconducting-strand-program",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN", "FR"],
+    "geography": [
+      "CN",
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1684,26 @@
     "locator": "article body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Confirms a named Chinese industrial supplier (WST) delivering under a binding international procurement arrangement."
+    "notes": "Confirms a named Chinese industrial supplier (WST) delivering under a binding international procurement arrangement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iter.org/node/20687/china-completes-its-superconducting-strand-program"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER Organization is headquartered in France."
+    }
   },
   {
     "id": "L03-032",
@@ -783,12 +1714,16 @@
     "canonical_key": "https://www.energy.gov/articles/us-department-energy-announces-selectees-107-million-fusion-innovation-research-engine",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1732,26 @@
     "locator": "article body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Direct federal cost-share program tied to HTS magnet milestones (e.g., Thea Energy's HTS coil milestone)."
+    "notes": "Direct federal cost-share program tied to HTS magnet milestones (e.g., Thea Energy's HTS coil milestone).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/articles/us-department-energy-announces-selectees-107-million-fusion-innovation-research-engine"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency, official .gov domain."
+    }
   },
   {
     "id": "L03-033",
@@ -808,12 +1762,17 @@
     "canonical_key": "https://www.prnewswire.com/news-releases/tokamak-energy-raises-125m-to-commercialize-transformative-fusion-and-magnet-technologies-302310607.html",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB", "JP"],
+    "geography": [
+      "GB",
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1781,27 @@
     "locator": "press release body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Company self-disclosure of a capital raise, not a customer purchase; classified as company_filing per the controlled demand-evidence taxonomy but flagged that this is investor capital, not buyer demand, and should not be double-counted as customer-demand evidence in downstream synthesis."
+    "notes": "Company self-disclosure of a capital raise, not a customer purchase; classified as company_filing per the controlled demand-evidence taxonomy but flagged that this is investor capital, not buyer demand, and should not be double-counted as customer-demand evidence in downstream synthesis.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Tokamak Energy Ltd",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://find-and-update.company-information.service.gov.uk/company/07054929",
+        "https://www.miltonpark.co.uk/whos-here/tokamak-energy-ltd/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Tokamak Energy Ltd is registered with UK Companies House, HQ at Milton Park, Oxfordshire, UK."
+    }
   },
   {
     "id": "L03-034",
@@ -833,12 +1812,16 @@
     "canonical_key": "https://www.nexans.com/press-releases/supramarine-project-superconducting-power-transmission-for-offshore-wind-farms/",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1830,26 @@
     "locator": "press release body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Named grid operator (RTE) as demand-side partner with a government grant trigger; dated procurement/regulatory-adjacent trigger for 2028 testing."
+    "notes": "Named grid operator (RTE) as demand-side partner with a government grant trigger; dated procurement/regulatory-adjacent trigger for 2028 testing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Nexans",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nexans.com/press-releases/supramarine-project-superconducting-power-transmission-for-offshore-wind-farms/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Nexans is a French multinational cable manufacturer; press release published on the company's own site."
+    }
   },
   {
     "id": "L03-035",
@@ -858,12 +1860,16 @@
     "canonical_key": "https://techcrunch.com/2026/04/02/commonwealth-fusion-systems-leans-on-magnets-for-near-term-revenue/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1878,26 @@
     "locator": "article body, quotes from Rick Needham (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Named-customer commercial transactions (Realta Fusion, University of Wisconsin) reported via direct company-executive quotes; qualifies as direct_customer_documentation since customers are named."
+    "notes": "Named-customer commercial transactions (Realta Fusion, University of Wisconsin) reported via direct company-executive quotes; qualifies as direct_customer_documentation since customers are named.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "TechCrunch (Yahoo)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://techcrunch.com/2026/04/02/commonwealth-fusion-systems-leans-on-magnets-for-near-term-revenue/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "TechCrunch is a US-based technology media outlet."
+    }
   },
   {
     "id": "L03-036",
@@ -883,12 +1908,17 @@
     "canonical_key": "https://www.qst.go.jp/site/news/20260313.html",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "EU"],
+    "geography": [
+      "JP",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1927,26 @@
     "locator": "press release body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Japan/EU Broader Approach satellite tokamak program (QST + EU); operational milestone rather than a new procurement, so demand_evidence_type is none despite national-lab primary status."
+    "notes": "Japan/EU Broader Approach satellite tokamak program (QST + EU); operational milestone rather than a new procurement, so demand_evidence_type is none despite national-lab primary status.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Institutes for Quantum Science and Technology (QST)",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.qst.go.jp/site/news/20260313.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "QST is a Japanese national research institute, official .go.jp domain."
+    }
   },
   {
     "id": "L03-037",
@@ -908,12 +1957,16 @@
     "canonical_key": "https://english.cas.cn/newsroom/cas_media/202509/t20250929_1059028.shtml",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1975,26 @@
     "locator": "press release body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official Chinese Academy of Sciences national-lab announcement corroborating the academic record L03-029."
+    "notes": "Official Chinese Academy of Sciences national-lab announcement corroborating the academic record L03-029.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences / Hefei Institutes of Physical Science",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://english.cas.cn/newsroom/cas_media/202509/t20250929_1059028.shtml"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Chinese Academy of Sciences official media, cas.cn domain."
+    }
   },
   {
     "id": "L03-038",
@@ -933,12 +2005,17 @@
     "canonical_key": "https://www.ornl.gov/news/ornl-superpower-inc-sign-high-temperature-superconducting-wire-agreement",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "JP"],
+    "geography": [
+      "US",
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +2024,26 @@
     "locator": "press release body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Cross-links to DOE $51.8M program (L03-039, rejected as inaccessible this session) and Furukawa/Tokamak Energy supply chain (L03-044)."
+    "notes": "Cross-links to DOE $51.8M program (L03-039, rejected as inaccessible this session) and Furukawa/Tokamak Energy supply chain (L03-044).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Oak Ridge National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ornl.gov/news/ornl-superpower-inc-sign-high-temperature-superconducting-wire-agreement"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ORNL is a US DOE national laboratory, official .gov-affiliated domain."
+    }
   },
   {
     "id": "L03-039",
@@ -958,12 +2054,16 @@
     "canonical_key": "https://www.energy.gov/oe/articles/doe-provides-518-million-modernize-us-electric-grid-system-june-27-2007",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -983,12 +2083,16 @@
     "canonical_key": "https://www.bnl.gov/newsroom/news.php?a=111174",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +2101,26 @@
     "locator": "press release body (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Names a specific federal award and industrial/academic consortium for SMES development."
+    "notes": "Names a specific federal award and industrial/academic consortium for SMES development.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Brookhaven National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.bnl.gov/newsroom/news.php?a=111174"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "BNL is a US DOE national laboratory."
+    }
   },
   {
     "id": "L03-041",
@@ -1008,12 +2131,16 @@
     "canonical_key": "https://www.jiemian.com/article/6938856.html",
     "source_type": "buyer_procurement",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2149,30 @@
     "locator": "article body, Chinese with translation (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "State Grid (a buyer/grid operator) commissioned this cable, satisfying buyer_procurement demand evidence."
+    "notes": "State Grid (a buyer/grid operator) commissioned this cable, satisfying buyer_procurement demand evidence.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "State Grid Shanghai Electric Power Company",
+          "country": "CN"
+        },
+        {
+          "name": "Shanghai International Superconducting Technology Co.",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.jiemian.com/article/6938856.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "State Grid Shanghai is a Chinese state-owned grid operator; Jiemian is a Chinese media outlet."
+    }
   },
   {
     "id": "L03-042",
@@ -1033,12 +2183,16 @@
     "canonical_key": "https://www.electimes.com/news/articleView.html?idxno=212735",
     "source_type": "buyer_procurement",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2201,26 @@
     "locator": "article body, Korean with translation (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "State-owned utility (KEPCO) as named buyer with dated commercialization targets."
+    "notes": "State-owned utility (KEPCO) as named buyer with dated commercialization targets.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Electric Power Corporation (KEPCO)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.electimes.com/news/articleView.html?idxno=212735"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "KEPCO is a South Korean state-owned utility; Electimes is a Korean trade-press outlet."
+    }
   },
   {
     "id": "L03-043",
@@ -1058,12 +2231,16 @@
     "canonical_key": "https://news.lscns.com/ls-electric-han-jeon-data-center-superconducting-power-grid-mou-2025-07-10",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2249,34 @@
     "locator": "press release body, Korean with translation (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "AI/data-center demand trigger explicitly named as the driver; direct three-party industrial MOU."
+    "notes": "AI/data-center demand trigger explicitly named as the driver; direct three-party industrial MOU.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "LS Cable & System",
+          "country": "KR"
+        },
+        {
+          "name": "LS Electric",
+          "country": "KR"
+        },
+        {
+          "name": "KEPCO",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://news.lscns.com/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All three parties are South Korean companies/utility."
+    }
   },
   {
     "id": "L03-044",
@@ -1083,12 +2287,17 @@
     "canonical_key": "https://www.furukawaelectric.com/en/release/2023/kenkai_20230112.html",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "GB"],
+    "geography": [
+      "JP",
+      "GB"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2306,34 @@
     "locator": "press release body, quotes from Chris Kelsall (Tokamak Energy CEO) and Keiichi Kobayashi (Furukawa President) (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "TIER CORRECTED from T1 to T2: this is a company press release, not an audited filing or tender document, so it does not meet the T1 bar ('audited company filing'); T2 ('credible vendor datasheet'/company communication with named customer) is the accurate tier."
+    "notes": "TIER CORRECTED from T1 to T2: this is a company press release, not an audited filing or tender document, so it does not meet the T1 bar ('audited company filing'); T2 ('credible vendor datasheet'/company communication with named customer) is the accurate tier.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Furukawa Electric Co., Ltd.",
+          "country": "JP"
+        },
+        {
+          "name": "Tokamak Energy",
+          "country": "GB"
+        },
+        {
+          "name": "SuperPower Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.furukawaelectric.com/en/release/2023/kenkai_20230112.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Furukawa Electric is a Japanese company; press release on the company's own domain."
+    }
   },
   {
     "id": "L03-045",
@@ -1108,12 +2344,16 @@
     "canonical_key": "https://www.powermag.com/superconductor-motor-for-navy-passes-full-power-test/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2362,34 @@
     "locator": "article body, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "URL SWAPPED: the raw record's eepower.com URL returned HTTP 403 on re-attempt this session; powermag.com was independently fetched and corroborates and refines the same facts (distinguishing March 2007 factory acceptance testing from the January 2009 full-power/load test, both real milestones in the same program). Also corroborated via defensemirror.com and controleng.com headlines seen in search (not independently fetched)."
+    "notes": "URL SWAPPED: the raw record's eepower.com URL returned HTTP 403 on re-attempt this session; powermag.com was independently fetched and corroborates and refines the same facts (distinguishing March 2007 factory acceptance testing from the January 2009 full-power/load test, both real milestones in the same program). Also corroborated via defensemirror.com and controleng.com headlines seen in search (not independently fetched).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "American Superconductor Corp. (AMSC)",
+          "country": "US"
+        },
+        {
+          "name": "Northrop Grumman",
+          "country": "US"
+        },
+        {
+          "name": "POWER Magazine (Access Intelligence)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.powermag.com/superconductor-motor-for-navy-passes-full-power-test/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All named organizations are US-based."
+    }
   },
   {
     "id": "L03-046",
@@ -1133,12 +2400,16 @@
     "canonical_key": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880807&type=10-K",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2418,26 @@
     "locator": "10-K body, Grid/Navy segment discussion, accessed via StockTitan mirror (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "SEC EDGAR re-attempted directly this session (https://www.sec.gov/cgi-bin/browse-edgar?...) and again returned HTTP 403; content verified via the StockTitan mirror of the same audited filing instead, which was successfully fetched. Canonical key retained as the EDGAR filer index since the exact accession-number URL could not be independently confirmed by direct SEC.gov fetch."
+    "notes": "SEC EDGAR re-attempted directly this session (https://www.sec.gov/cgi-bin/browse-edgar?...) and again returned HTTP 403; content verified via the StockTitan mirror of the same audited filing instead, which was successfully fetched. Canonical key retained as the EDGAR filer index since the exact accession-number URL could not be independently confirmed by direct SEC.gov fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "American Superconductor Corporation (AMSC)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880807&type=10-K"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "AMSC is a US-listed (NASDAQ) company filing with the US SEC."
+    }
   },
   {
     "id": "L03-047",
@@ -1156,23 +2446,50 @@
     "year": 2026,
     "url": "https://www.mordorintelligence.com/industry-reports/cryocooler-market",
     "canonical_key": "https://www.mordorintelligence.com/industry-reports/cryocooler-market",
-    "source_type": "market_industry",
+    "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "JP", "CN"],
+    "geography": [
+      "US",
+      "JP",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Global cryocooler market estimated at USD 2.81 billion (2026) growing to USD 5.26 billion by 2031 (13.37% CAGR); 1K-20K segment (quantum/SC-magnet relevant) projected at 15.27% CAGR; leading vendors named as Sumitomo Heavy Industries, Northrop Grumman, Cryomech/Bluefors, Thales, and Sunpower/AMETEK; Asia-Pacific is the fastest-growing region (14.16% CAGR).",
     "locator": "market size and vendor sections (fetched by scout, retained)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Consultancy estimate; treat as context/triangulation only, not independent proof of demand per SOURCE_STANDARDS."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "Consultancy estimate; treat as context/triangulation only, not independent proof of demand per SOURCE_STANDARDS. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Mordor Intelligence",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.mordorintelligence.com/about-us"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "market_industry",
+      "useful_lead": "Global cryocooler market estimated at USD 2.81 billion (2026) growing to USD 5.26 billion by 2031 (13.37% CAGR), with named leading vendors Sumitomo Heavy Industries, Northrop Grumman, Cryomech/Bluefors, Thales, and Sunpower/AMETEK -- worth independently re-sourcing from a non-India market-research firm before use as demand/market evidence.",
+      "notes": "Mordor Intelligence's own About Us page confirms it is headquartered in Hyderabad, Telangana, India, and explicitly describes itself as 'India-based.' Per binding source-origin rule, downgraded to discovery_only."
+    }
   },
   {
     "id": "L03-048",
@@ -1183,12 +2500,16 @@
     "canonical_key": "https://www.fujielectric.co.jp/company/jihou_archives/pdf/72-10/FEJ-72-10-566-1999.pdf",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": false,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1206,23 +2527,50 @@
     "year": 2025,
     "url": "https://www.marketsandmarkets.com/ResearchInsight/superconducting-wire-market.asp",
     "canonical_key": "https://www.marketsandmarkets.com/ResearchInsight/superconducting-wire-market.asp",
-    "source_type": "market_industry",
+    "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "US"],
+    "geography": [
+      "JP",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Global superconducting wire market estimated to grow from USD 1.32 billion (2025) to USD 2.19 billion (2030), a 10.6% CAGR, driven by MRI/NMR, grid, accelerator/fusion, and maglev applications; five named leaders are Sumitomo Electric, Fujikura, Furukawa Electric (all Japan), Bruker, and American Superconductor (both US).",
     "locator": "market overview and vendor list (fetched by scout, retained)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Consultancy estimate; independent triangulation still needed against bottom-up figures per SOURCE_STANDARDS market-size rule."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "Consultancy estimate; independent triangulation still needed against bottom-up figures per SOURCE_STANDARDS market-size rule. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "MarketsandMarkets Research Private Ltd",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.marketsandmarkets.com/contactus.asp",
+        "https://www.marketsandmarkets.com/aboutus.asp"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "market_industry",
+      "useful_lead": "Global superconducting wire market estimated to grow from USD 1.32 billion (2025) to USD 2.19 billion (2030), 10.6% CAGR, with named leaders Sumitomo Electric, Fujikura, Furukawa Electric, Bruker, and American Superconductor -- worth independently re-sourcing from a non-India market-research firm before use as demand/market evidence.",
+      "notes": "MarketsandMarkets' Contact Us page lists its headquarters at Tower B5, Magarpatta SEZ, Pune, India (with secondary India offices in Hyderabad and Bengaluru); the About Us page self-describes the firm as an 'India origin startup.' Per binding source-origin rule, downgraded to discovery_only despite having a Florida/London/Tokyo office presence, since the organization itself is India-based."
+    }
   },
   {
     "id": "L03-050",
@@ -1233,12 +2581,17 @@
     "canonical_key": "https://bluefors.com/products/pulse-tube-cryocoolers/pt205/",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "FI"],
+    "geography": [
+      "US",
+      "FI"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2600,26 @@
     "locator": "product specification page (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor claim, labeled as such; useful as a technical/pricing-adjacent benchmark for small cryocooler capability, no price listed."
+    "notes": "Vendor claim, labeled as such; useful as a technical/pricing-adjacent benchmark for small cryocooler capability, no price listed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Cryomech Inc. (Bluefors Oy)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://bluefors.com/products/pulse-tube-cryocoolers/pt205/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Cryomech Inc. is a US company (Syracuse, NY) owned by Bluefors Oy (Finland); vendor's own product page."
+    }
   },
   {
     "id": "L03-051",
@@ -1258,12 +2630,16 @@
     "canonical_key": "https://www.shi.co.jp/english/products/mechatronics/cold/index.html",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2648,26 @@
     "locator": "product line page, GM Cryocooler / GM-JT Cryocooler sections, fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "fetched updated from false to true: direct fetch succeeded this session (raw record had marked it search-index-only)."
+    "notes": "fetched updated from false to true: direct fetch succeeded this session (raw record had marked it search-index-only).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sumitomo Heavy Industries, Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.shi.co.jp/english/products/mechatronics/cold/index.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sumitomo Heavy Industries is a Japanese company; vendor's own product page."
+    }
   },
   {
     "id": "L03-052",
@@ -1283,12 +2678,16 @@
     "canonical_key": "https://chinacable.com/news/details/3999",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2696,26 @@
     "locator": "article body, Chinese with translation (fetched by scout, retained)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Trade press context tying Shanghai's industrial cluster to the State Grid demonstration project (L03-041)."
+    "notes": "Trade press context tying Shanghai's industrial cluster to the State Grid demonstration project (L03-041).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Cable Network (中国线缆网)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://chinacable.com/news/details/3999"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "China Cable Network is a Chinese trade-press outlet covering the domestic cable industry."
+    }
   },
   {
     "id": "L03-053",
@@ -1308,12 +2726,18 @@
     "canonical_key": "standard:IEC-61788-series-TC90",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["JP", "CN", "CH"],
+    "geography": [
+      "JP",
+      "CN",
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "https://www.iec.ch/dyn/www/f?p=103:23:::::FSP_ORG_ID:1315",
     "doi": "",
@@ -1326,28 +2750,52 @@
   },
   {
     "id": "L03-054",
-    "title": "India's activities in nuclear fusion (SST-1 conductor sourcing and ITER contributions)",
-    "authors_or_org": "Nuclear Engineering International (trade press)",
-    "year": 2026,
-    "url": "https://www.neimagazine.com/advanced-reactorsfusion/indias-activities-in-nuclear-fusion-9640516/",
-    "canonical_key": "https://www.neimagazine.com/advanced-reactorsfusion/indias-activities-in-nuclear-fusion-9640516/",
-    "source_type": "trade_press",
-    "tier": "T2",
-    "lane_ids": ["L03"],
+    "title": "SST-1: The First Indian Superconducting Tokamak",
+    "authors_or_org": "Institute for Plasma Research (IPR) / Variable Energy Cyclotron Centre, India",
+    "year": 2022,
+    "url": "https://www.vecc.gov.in/sites/default/files/2023-06/SST-1_VECC_Jan22_15%20(1).pdf",
+    "canonical_key": "https://www.vecc.gov.in/sites/default/files/2023-06/SST-1_VECC_Jan22_15%20(1).pdf",
+    "source_type": "discovery_only",
+    "tier": "T1",
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
-    "accessed_at": "2026-07-12T18:30:00Z",
-    "fetched": true,
+    "accessed_at": "2026-07-12T16:00:00Z",
+    "fetched": false,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
-    "claim_supported": "SST-1's superconducting magnet conductor was originally imported from Japan in the late 1990s but is now available from domestic Indian sources, part of IPR's broader shift toward domestically sourced components for future systems/upgrades; India's ITER contributions include the cryostat (Larsen & Toubro-built, 3,850-tonne, 30m-tall stainless-steel vessel, installed 2020) and cryogenic distribution/cryolines systems, plus diagnostics, power supplies, gyrotron sources, and optical components via ITER-India.",
-    "locator": "article body, fetched directly this session",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "SOURCE SWAPPED: the raw record's primary source (vecc.gov.in national-lab PDF) exceeded this session's fetchable content-size limit and could not be retrieved; this independently-fetched trade-press article corroborates the same core claims (conductor import history, ITER cryostat/cryogenic contributions), so source_type was reclassified from national_lab to trade_press and tier from T1 to T2 to honestly reflect what was actually fetched and verified this session, rather than asserting national-lab-primary status for content not directly confirmed. The original VECC PDF URL is retained in project notes as a lead for a future direct-fetch attempt with a different tool/approach."
+    "claim_supported": "",
+    "locator": "presentation body (search index only)",
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "SST-1 magnet system (16 D-shaped TF coils, 9 SC PF coils, 3.0T field) originally used Japan-imported conductor in the 1990s; India has since worked to domestically source conductor for upgrade packages, and ITER-India delivers cryostat/cryogenic system packages to ITER. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T02:30:00+00:00",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Institute for Plasma Research / Variable Energy Cyclotron Centre, Department of Atomic Energy, Government of India",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.vecc.gov.in/sites/default/files/2023-06/SST-1_VECC_Jan22_15%20(1).pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "national_lab",
+      "notes": "Encoded during Fable-5 P2A origin adjudication (2026-07-13): the 2026-07-12 prefilter flipped accepted=false but never recorded the quarantine encoding; origin independently verified by the adjudicator. Document is hosted on the Government of India vecc.gov.in domain and is produced by Indian national laboratories (IPR/VECC, DAE) about India's SST-1 tokamak; entirely India-origin on its face."
+    }
   },
   {
     "id": "L03-055",
@@ -1358,12 +2806,16 @@
     "canonical_key": "doi:10.2221/jcsj.39.85",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L03"],
+    "lane_ids": [
+      "L03"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/jcsj",
     "doi": "10.2221/jcsj.39.85",
@@ -1372,6 +2824,25 @@
     "locator": "J-STAGE article HTML page (fetched successfully this session; the direct PDF route returned an unreadable binary stream, same as the scout's prior attempt, but the article's HTML metadata page rendered fully).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Upgraded T2->T1: DOI, authors, and explicit peer-review status ('review article', peer-reviewed journal of the Cryogenic Society of Japan) all confirmed this session via a successful HTML-page fetch, satisfying the full academic acceptance checklist. Adds a 3rd Japanese-language local source alongside L03-041 (zh)/L03-042 (ko)/L03-043 (ko)/L03-052 (zh) for the lane's Asia-geography local-language quota."
+    "notes": "Upgraded T2->T1: DOI, authors, and explicit peer-review status ('review article', peer-reviewed journal of the Cryogenic Society of Japan) all confirmed this session via a successful HTML-page fetch, satisfying the full academic acceptance checklist. Adds a 3rd Japanese-language local source alongside L03-041 (zh)/L03-042 (ko)/L03-043 (ko)/L03-052 (zh) for the lane's Asia-geography local-language quota.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Chubu Electric Power Company, Power Engineering Research Laboratory",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.jstage.jst.go.jp/article/jcsj/39/3/39_3_85/_article/-char/ja/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned all three authors with empty institutions; affiliations enumerated directly from the J-STAGE article page: all three (Hirano, Kashima, Nagaya) are Chubu Electric Power Company, Japan."
+    }
   }
 ]

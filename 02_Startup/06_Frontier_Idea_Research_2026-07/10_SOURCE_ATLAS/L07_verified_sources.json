@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1116/1.5010154",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1116/1.5010154",
     "doi": "10.1116/1.5010154",
@@ -22,7 +26,26 @@
     "locator": "Crossref record confirmed this session (DOI 10.1116/1.5010154; JVST A 36(3):031603, 2018; authors Stutzman, Adderley, Mamun, Poelker)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from CH (CERN guess) to US: authors are Jefferson Lab (Newport News, VA), not CERN. This is the same research group as L07-002. An arXiv preprint mirror (1803.07056) is discovery-only; this AIP JVST A record is the peer-reviewed final."
+    "notes": "Geography corrected from CH (CERN guess) to US: authors are Jefferson Lab (Newport News, VA), not CERN. This is the same research group as L07-002. An arXiv preprint mirror (1803.07056) is discovery-only; this AIP JVST A record is the peer-reviewed final.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Thomas Jefferson National Accelerator Facility",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1116/1.5010154&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All four authors Jefferson Lab, US, confirming the record's own correction from CH to US."
+    }
   },
   {
     "id": "L07-002",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.1088/1742-6596/114/1/012011",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:01:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1742-6596/114/1/012011",
     "doi": "10.1088/1742-6596/114/1/012011",
@@ -47,7 +74,30 @@
     "locator": "Crossref record fetched this session (DOI 10.1088/1742-6596/114/1/012011; JPCS vol 114, 2008; authors Adderley, Myneni). Crossref search on the exact title independently corroborates this author pairing (top-ranked hit).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MAJOR CORRECTION: raw ledger misattributed this paper to P. A. Redhead (National Research Council Canada) and set geography CA. Crossref confirms the actual authors are P. Adderley and G. Myneni (Jefferson Lab, US) -- the same first author as L07-001. Authors and geography corrected accordingly. JPCS is a conference-proceedings journal with lighter editorial review than a full journal, so tier kept at T2 per source standards."
+    "notes": "MAJOR CORRECTION: raw ledger misattributed this paper to P. A. Redhead (National Research Council Canada) and set geography CA. Crossref confirms the actual authors are P. Adderley and G. Myneni (Jefferson Lab, US) -- the same first author as L07-001. Authors and geography corrected accordingly. JPCS is a conference-proceedings journal with lighter editorial review than a full journal, so tier kept at T2 per source standards.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Thomas Jefferson National Accelerator Facility",
+          "country": "US"
+        },
+        {
+          "name": "Weatherford College",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1742-6596/114/1/012011&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Adderley, Myneni) US-affiliated (Jefferson Lab), confirming the record's own correction away from a Redhead/Canada misattribution."
+    }
   },
   {
     "id": "L07-003",
@@ -58,12 +108,16 @@
     "canonical_key": "doi:10.1016/s0042-207x(98)00423-0",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/s0042-207x(98)00423-0",
     "doi": "10.1016/s0042-207x(98)00423-0",
@@ -72,7 +126,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/S0042-207X(98)00423-0, decoded exactly from the original ledger's ScienceDirect PII S0042207X98004230; Vacuum, 1999; author Fumio Watanabe)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MAJOR CORRECTION: raw ledger misattributed this paper to P. A. Redhead and set geography CA (same error pattern as L07-002). Crossref confirms the actual author is Fumio Watanabe. Geography changed to JP as a tentative inference from the author's name only (not an independently confirmed affiliation) -- flagged for further confirmation. A distinct genuine Redhead paper, 'UHV and XHV pressure measurements' (Vacuum, 1993, DOI 10.1016/0042-207x(93)90095-r), was surfaced during this verification but is not part of the raw ledger and is out of scope to add."
+    "notes": "MAJOR CORRECTION: raw ledger misattributed this paper to P. A. Redhead and set geography CA (same error pattern as L07-002). Crossref confirms the actual author is Fumio Watanabe. Geography changed to JP as a tentative inference from the author's name only (not an independently confirmed affiliation) -- flagged for further confirmation. A distinct genuine Redhead paper, 'UHV and XHV pressure measurements' (Vacuum, 1993, DOI 10.1016/0042-207x(93)90095-r), was surfaced during this verification but is not part of the raw ledger and is out of scope to add.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Yokogawa Electric",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/s0042-207x(98)00423-0&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole author Fumio Watanabe resolved to Yokogawa Electric, Japan, confirming the record's tentative JP inference."
+    }
   },
   {
     "id": "L07-004",
@@ -83,12 +156,16 @@
     "canonical_key": "doi:10.1016/j.measurement.2012.08.018",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:03:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT"],
+    "geography": [
+      "IT"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.measurement.2012.08.018",
     "doi": "10.1016/j.measurement.2012.08.018",
@@ -97,7 +174,27 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/j.measurement.2012.08.018; Measurement, 2013; author Anita Calcatelli, INRIM Italy)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author identified (was 'unknown'); geography corrected from US placeholder to IT (Anita Calcatelli, Istituto Nazionale di Ricerca Metrologica, Italy)."
+    "notes": "Author identified (was 'unknown'); geography corrected from US placeholder to IT (Anita Calcatelli, Istituto Nazionale di Ricerca Metrologica, Italy).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Istituto Nazionale di Ricerca Metrologica (INRIM)",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.measurement.2012.08.018&select=doi,ids,authorships",
+        "https://www.euramet.org/contact-search/institutes/detail/inrim-istituto-nazionale-di-ricerca-metrologica/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned no institution for sole author Anita Calcatelli; web search corroborates her affiliation with Istituto Nazionale di Ricerca Metrologica (INRIM), Turin, Italy (formerly IMGC, 1968-2004), matching the record's own IT assignment."
+    }
   },
   {
     "id": "L07-005",
@@ -108,12 +205,16 @@
     "canonical_key": "doi:10.34133/2021/7592858",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.34133/2021/7592858",
     "doi": "10.34133/2021/7592858",
@@ -122,7 +223,26 @@
     "locator": "Crossref record fetched this session (DOI 10.34133/2021/7592858; Space: Science & Technology, 2021; authors and institution confirmed)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors and institutional affiliation now confirmed via Crossref (were 'unknown'); geography CN confirmed directly rather than inferred."
+    "notes": "Authors and institutional affiliation now confirmed via Crossref (were 'unknown'); geography CN confirmed directly rather than inferred.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Lanzhou Institute of Physics (Science and Technology on Vacuum Technology and Physics Laboratory)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.34133/2021/7592858&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex mis-resolved all five authors to a Czech institute (FZU), which is inconsistent with the paper's title/subject and appears to be an author-name-disambiguation error. Web search confirms lead author Detian Li (academician, Chinese Academy of Engineering) is director of the Science and Technology Committee at Lanzhou Institute of Physics, China, matching the record's own institutional note. Neither the OpenAlex result (CZ) nor the corrected result (CN) is India, so the verdict is unaffected either way."
+    }
   },
   {
     "id": "L07-006",
@@ -133,12 +253,16 @@
     "canonical_key": "doi:10.1016/j.vacuum.2015.08.018",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.vacuum.2015.08.018",
     "doi": "10.1016/j.vacuum.2015.08.018",
@@ -147,7 +271,30 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/j.vacuum.2015.08.018; Vacuum, 2015; authors Miarnau Marin, Schneider, Veness, all CERN)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed (CERN vacuum group); geography CH confirmed rather than inferred."
+    "notes": "Authors confirmed (CERN vacuum group); geography CH confirmed rather than inferred.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "European Organization for Nuclear Research (CERN)",
+          "country": "CH"
+        },
+        {
+          "name": "University of Bath",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.vacuum.2015.08.018&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CERN/UK authorship confirmed."
+    }
   },
   {
     "id": "L07-007",
@@ -158,12 +305,16 @@
     "canonical_key": "https://www.researchgate.net/publication/231027144_Reduction_of_stainless-steel_outgassing_in_ultra-high_vacuum",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:06:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["CA"],
+    "geography": [
+      "CA"
+    ],
     "peer_review_status": "unverified",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -183,12 +334,16 @@
     "canonical_key": "doi:10.1016/0042-207x(96)00046-2",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:07:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(96)00046-2",
     "doi": "10.1016/0042-207x(96)00046-2",
@@ -197,7 +352,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/0042-207x(96)00046-2, decoded exactly from the original PII 0042207X96000462; Vacuum, 1996; authors Minato, Itoh)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed (Japanese names); geography corrected from US placeholder to JP."
+    "notes": "Authors confirmed (Japanese names); geography corrected from US placeholder to JP.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Vacuum Metallurgical Co., Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/0042-207x(96)00046-2&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned no institution for either author; web search corroborates Michio Minato and Yoshio Itoh were affiliated with Vacuum Metallurgical Co., Ltd., Chiba, Japan, confirming the record's JP correction."
+    }
   },
   {
     "id": "L07-009",
@@ -208,12 +382,16 @@
     "canonical_key": "doi:10.1116/1.2956625",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1116/1.2956625",
     "doi": "10.1116/1.2956625",
@@ -222,7 +400,34 @@
     "locator": "Crossref record fetched this session (DOI 10.1116/1.2956625; JVST A, 2008; authors Park, Chung, Liu, Li). Title/venue/year corrected from the ResearchGate listing's paraphrased title.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Original ledger entry (year null, title paraphrased from a ResearchGate record, venue unconfirmed) now resolved to the actual published Cornell CESR paper. Title, authors, venue (JVST A), and year (2008) corrected; canonical URL switched from the ResearchGate mirror to the DOI resolver."
+    "notes": "Original ledger entry (year null, title paraphrased from a ResearchGate record, venue unconfirmed) now resolved to the actual published Cornell CESR paper. Title, authors, venue (JVST A), and year (2008) corrected; canonical URL switched from the ResearchGate mirror to the DOI resolver.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Pohang University of Science and Technology",
+          "country": "KR"
+        },
+        {
+          "name": "Pohang Accelerator Laboratory",
+          "country": "KR"
+        },
+        {
+          "name": "Cornell University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1116/1.2956625&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Korea/US authorship confirmed (Cornell CESR group)."
+    }
   },
   {
     "id": "L07-010",
@@ -233,12 +438,16 @@
     "canonical_key": "doi:10.1116/1.576666",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:09:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE"],
+    "geography": [
+      "DE"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1116/1.576666",
     "doi": "10.1116/1.576666",
@@ -247,7 +456,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1116/1.576666; JVST A vol 8(3):2772, 1990; authors Heldner, Kabelitz -- exact match to original title/authors/year)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography DE remains a tentative inference from German turbopump-industry authorship conventions (Kabelitz is linked to Leybold-era magnetic-bearing pump work per L07-013); not an independently confirmed affiliation."
+    "notes": "Geography DE remains a tentative inference from German turbopump-industry authorship conventions (Kabelitz is linked to Leybold-era magnetic-bearing pump work per L07-013); not an independently confirmed affiliation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Leybold AG",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1116/1.576666&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned no institution for either author; web search corroborates H.-P. Kabelitz was affiliated with the Vacuum Components Division of Leybold AG, Cologne, Germany, confirming the record's tentative DE inference."
+    }
   },
   {
     "id": "L07-011",
@@ -258,12 +486,16 @@
     "canonical_key": "doi:10.1016/j.vacuum.2016.12.010",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.vacuum.2016.12.010",
     "doi": "10.1016/j.vacuum.2016.12.010",
@@ -272,7 +504,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/j.vacuum.2016.12.010; Vacuum, print year 2017 vs. ledger's online year 2016; authors Han, Huang, Le)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed (Chinese magnetic-bearing turbopump research group, same lineage as L07-012); geography corrected from US placeholder to CN. Year shown as 2017 per Crossref print date; original 2016 reflects online-first date."
+    "notes": "Authors confirmed (Chinese magnetic-bearing turbopump research group, same lineage as L07-012); geography corrected from US placeholder to CN. Year shown as 2017 per Crossref print date; original 2016 reflects online-first date.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Beihang University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.vacuum.2016.12.010&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All three authors Beihang University, China."
+    }
   },
   {
     "id": "L07-012",
@@ -283,12 +534,16 @@
     "canonical_key": "doi:10.1016/j.isatra.2023.07.045",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:11:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.isatra.2023.07.045",
     "doi": "10.1016/j.isatra.2023.07.045",
@@ -297,7 +552,30 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/j.isatra.2023.07.045; ISA Transactions, 2023; authors Wei, Le, Zhou, Yin, Zhang, Zheng)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed (shares 'Le Yun'/'Zheng Shiqiang' with L07-011, same Chinese magnetic-bearing pump research group); geography CN confirmed rather than a tentative guess."
+    "notes": "Authors confirmed (shares 'Le Yun'/'Zheng Shiqiang' with L07-011, same Chinese magnetic-bearing pump research group); geography CN confirmed rather than a tentative guess.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Beihang University",
+          "country": "CN"
+        },
+        {
+          "name": "Ningbo University of Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.isatra.2023.07.045&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors China-affiliated (Beihang University group, same lineage as L07-011)."
+    }
   },
   {
     "id": "L07-013",
@@ -308,12 +586,16 @@
     "canonical_key": "doi:10.1016/0042-207x(88)90440-x",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE"],
+    "geography": [
+      "DE"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(88)90440-x",
     "doi": "10.1016/0042-207x(88)90440-x",
@@ -322,7 +604,30 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/0042-207x(88)90440-x, decoded exactly from the original PII 0042207X8890440X; Vacuum, 1988; authors Kabelitz, Fremerey)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed; J. K. Fremerey was affiliated with KFA Julich, Germany, supporting the DE geography guess more strongly than before, though affiliation itself was not independently re-confirmed this session."
+    "notes": "Authors confirmed; J. K. Fremerey was affiliated with KFA Julich, Germany, supporting the DE geography guess more strongly than before, though affiliation itself was not independently re-confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Leybold AG",
+          "country": "DE"
+        },
+        {
+          "name": "KFA-Julich (Forschungszentrum Julich)",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/0042-207x(88)90440-x&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned no institution for either author; web search corroborates H.-P. Kabelitz (Leybold AG) and J.K. Fremerey (Institut fur Grenzflachenforschung und Vakuumphysik, KFA-Julich), both Germany, confirming the record's DE inference."
+    }
   },
   {
     "id": "L07-014",
@@ -333,12 +638,16 @@
     "canonical_key": "doi:10.1063/1.5066618",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:13:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["NL"],
+    "geography": [
+      "NL"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.5066618",
     "doi": "10.1063/1.5066618",
@@ -347,7 +656,30 @@
     "locator": "Crossref record fetched this session (DOI 10.1063/1.5066618; RSI, 2019; full author list confirmed, Leiden University -- Oosterkamp group)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from US placeholder to NL (Leiden University, Netherlands)."
+    "notes": "Geography corrected from US placeholder to NL (Leiden University, Netherlands).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Leiden University",
+          "country": "NL"
+        },
+        {
+          "name": "University of California, Santa Barbara",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/1.5066618&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors Netherlands (Leiden) or additionally US (Bouwmeester/UCSB), confirming the record's NL correction."
+    }
   },
   {
     "id": "L07-015",
@@ -358,12 +690,16 @@
     "canonical_key": "doi:10.1063/5.0254561",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0254561",
     "doi": "10.1063/5.0254561",
@@ -372,7 +708,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1063/5.0254561; RSI, 2025; full author list confirmed, e.g. Zehuang Lu, a known Chinese precision-measurement physicist)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vibration figure in Crossref summary (5x10^-7 m/s^2/Hz^1/2) exactly matches the raw ledger's claim, confirming record identity. Geography CN confirmed."
+    "notes": "Vibration figure in Crossref summary (5x10^-7 m/s^2/Hz^1/2) exactly matches the raw ledger's claim, confirming record identity. Geography CN confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Huazhong University of Science and Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 10,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0254561&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All ten authors HUST, China."
+    }
   },
   {
     "id": "L07-016",
@@ -383,12 +738,16 @@
     "canonical_key": "doi:10.1063/5.0294894",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0294894",
     "doi": "10.1063/5.0294894",
@@ -397,7 +756,38 @@
     "locator": "Crossref record fetched this session (DOI 10.1063/5.0294894; RSI, 2025; authors Guan, Wang, Xie, Fan, Ji)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from JP to CN: authors (including Zhong Qing Ji, Jie Fan, who also co-author a related 2022 Chinese Physics B cryogen-free DR paper) are Chinese, not Japanese as the raw ledger guessed."
+    "notes": "Geography corrected from JP to CN: authors (including Zhong Qing Ji, Jie Fan, who also co-author a related 2022 Chinese Physics B cryogen-free DR paper) are Chinese, not Japanese as the raw ledger guessed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Beijing Academy of Quantum Information Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Physics, CAS",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Beijing Zhongke Science and Technology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/5.0294894&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors China-affiliated, confirming the record's own correction from JP to CN."
+    }
   },
   {
     "id": "L07-017",
@@ -408,12 +798,16 @@
     "canonical_key": "doi:10.1063/1.4959153",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.4959153",
     "doi": "10.1063/1.4959153",
@@ -422,7 +816,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1063/1.4959153; RSI, 2016; full author list confirmed -- Morello group, UNSW Sydney)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from US to AU: the OSTI.GOV indexing in the raw ledger was a red herring for 'US DOE-funded origin' -- the actual authors are at the University of New South Wales, Australia (Andrea Morello's group). Canonical URL switched from the OSTI bibliographic record to the DOI resolver."
+    "notes": "Geography corrected from US to AU: the OSTI.GOV indexing in the raw ledger was a red herring for 'US DOE-funded origin' -- the actual authors are at the University of New South Wales, Australia (Andrea Morello's group). Canonical URL switched from the OSTI bibliographic record to the DOI resolver.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Centre for Quantum Computation and Communication Technology",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 8,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/1.4959153&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All eight authors UNSW/Australia (Morello group), confirming the record's own correction from US(OSTI) to AU."
+    }
   },
   {
     "id": "L07-018",
@@ -433,12 +846,16 @@
     "canonical_key": "doi:10.1007/s11630-024-1991-3",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:17:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s11630-024-1991-3",
     "doi": "10.1007/s11630-024-1991-3",
@@ -447,7 +864,34 @@
     "locator": "Crossref record fetched this session (DOI 10.1007/s11630-024-1991-3; Journal of Thermal Science, 2024; full author list confirmed, Chinese Academy of Sciences)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed; geography CN confirmed."
+    "notes": "Authors confirmed; geography CN confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Technical Institute of Physics and Chemistry, CAS",
+          "country": "CN"
+        },
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s11630-024-1991-3&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All five authors CAS/China."
+    }
   },
   {
     "id": "L07-019",
@@ -458,12 +902,16 @@
     "canonical_key": "doi:10.1016/j.applthermaleng.2024.125222",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2024.125222",
     "doi": "10.1016/j.applthermaleng.2024.125222",
@@ -472,7 +920,30 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/j.applthermaleng.2024.125222; Applied Thermal Engineering, Crossref primary year 2025; authors Yang, Liu, Gao, Quan, Liu et al.)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from 2024 (online-first, matching the ledger's PII-derived guess) to 2025 (Crossref primary publication year); authors confirmed, Chinese affiliation consistent with CN geography."
+    "notes": "Year corrected from 2024 (online-first, matching the ledger's PII-derived guess) to 2025 (Crossref primary publication year); authors confirmed, Chinese affiliation consistent with CN geography.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Technical Institute of Physics and Chemistry, CAS",
+          "country": "CN"
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2024.125222&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All nine authors CAS/China."
+    }
   },
   {
     "id": "L07-020",
@@ -483,12 +954,16 @@
     "canonical_key": "doi:10.1208/s12249-021-02107-6",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:19:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1208/s12249-021-02107-6",
     "doi": "10.1208/s12249-021-02107-6",
@@ -497,7 +972,55 @@
     "locator": "Crossref record fetched this session (DOI 10.1208/s12249-021-02107-6; AAPS PharmSciTech, 2021; full author list confirmed)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal corrected from the raw ledger's guess ('PDA Journal of Pharmaceutical Science and Technology') to the actual venue, AAPS PharmSciTech. Treated as T2 consensus/best-practice guidance rather than primary experimental research, per source standards."
+    "notes": "Journal corrected from the raw ledger's guess ('PDA Journal of Pharmaceutical Science and Technology') to the actual venue, AAPS PharmSciTech. Treated as T2 consensus/best-practice guidance rather than primary experimental research, per source standards.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "AbbVie",
+          "country": "US"
+        },
+        {
+          "name": "Purdue University (Birck Nanotechnology Center)",
+          "country": "US"
+        },
+        {
+          "name": "Ultragenyx Pharmaceutical Inc.",
+          "country": "US"
+        },
+        {
+          "name": "Baxter Healthcare",
+          "country": "US"
+        },
+        {
+          "name": "Pfizer",
+          "country": "US"
+        },
+        {
+          "name": "Genentech",
+          "country": "US"
+        },
+        {
+          "name": "BMS (Bristol Myers Squibb)",
+          "country": "US"
+        },
+        {
+          "name": "Fresenius Kabi",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 15,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8575750/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex resolved 13/15 authors to US pharma/university employers; 2 authors (Puneet Sharma, Lavanya Iyer) had no institution in OpenAlex despite Indian-sounding names -- never inferred from name, resolved via direct PMC affiliation list fetch to Genentech (US) and BMS (US) respectively. All 15 authors confirmed US, none India."
+    }
   },
   {
     "id": "L07-021",
@@ -508,12 +1031,16 @@
     "canonical_key": "doi:10.1186/s41120-025-00132-4",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1186/s41120-025-00132-4",
     "doi": "10.1186/s41120-025-00132-4",
@@ -522,7 +1049,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1186/s41120-025-00132-4; AAPS Open, 2025; full author list confirmed, FDA/CDER)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal (AAPS Open) and authors now confirmed (were 'unknown')."
+    "notes": "Journal (AAPS Open) and authors now confirmed (were 'unknown').",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Center for Drug Evaluation and Research (US FDA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors are US FDA/CDER staff."
+    }
   },
   {
     "id": "L07-022",
@@ -533,12 +1079,16 @@
     "canonical_key": "doi:10.5772/intechopen.91767",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:21:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.5772/intechopen.91767",
     "doi": "10.5772/intechopen.91767",
@@ -547,7 +1097,26 @@
     "locator": "Crossref record fetched this session (DOI 10.5772/intechopen.91767; IntechOpen 'Accelerators and Colliders', 2020; authors Jie Wang, Sheng Wang)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed (were 'unknown'); geography corrected from US placeholder to CN (tentative, based on Chinese author names, consistent with the prevalence of Chinese accelerator-vacuum work elsewhere in this lane, e.g. L07-045 HEPS tender) -- affiliation not independently confirmed. IntechOpen chapters undergo editorial peer review but are not equivalent to a full journal; tier kept at T2."
+    "notes": "Authors confirmed (were 'unknown'); geography corrected from US placeholder to CN (tentative, based on Chinese author names, consistent with the prevalence of Chinese accelerator-vacuum work elsewhere in this lane, e.g. L07-045 HEPS tender) -- affiliation not independently confirmed. IntechOpen chapters undergo editorial peer review but are not equivalent to a full journal; tier kept at T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Xi'an Jiaotong University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Confirms the record's tentative CN geography guess; both authors at Xi'an Jiaotong University."
+    }
   },
   {
     "id": "L07-023",
@@ -558,12 +1127,16 @@
     "canonical_key": "doi:10.1016/0042-207x(71)91570-3",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(71)91570-3",
     "doi": "10.1016/0042-207x(71)91570-3",
@@ -572,7 +1145,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/0042-207x(71)91570-3, decoded exactly from the original PII 0042207X71915703; Vacuum, 1971; authors Verheyden, Klein, Crouë)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed via Crossref; exact exponent in the title could not be reliably re-confirmed (AI text extraction of the superscript was inconsistent -- Crossref summary rendered '10^-12' vs the raw ledger's '10^-5'; both are unreliable OCR-of-superscript artifacts, so the exponent is left unresolved/approximate). Geography GB remains an UNCONFIRMED placeholder; author surnames (Verheyden, Crouë) are at least as consistent with a Belgian/French nuclear-research origin (e.g., CEN/SCK Mol, EURATOM) as with a UK origin -- flagged for further confirmation, not changed without evidence."
+    "notes": "Authors confirmed via Crossref; exact exponent in the title could not be reliably re-confirmed (AI text extraction of the superscript was inconsistent -- Crossref summary rendered '10^-12' vs the raw ledger's '10^-5'; both are unreliable OCR-of-superscript artifacts, so the exponent is left unresolved/approximate). Geography GB remains an UNCONFIRMED placeholder; author surnames (Verheyden, Crouë) are at least as consistent with a Belgian/French nuclear-research origin (e.g., CEN/SCK Mol, EURATOM) as with a UK origin -- flagged for further confirmation, not changed without evidence.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Joint Research Centre (EU JRC, Ispra site)",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex resolves all 3 authors to the EU Joint Research Centre, Italy -- supersedes the record's unresolved GB/Belgian-French speculation; not India either way."
+    }
   },
   {
     "id": "L07-024",
@@ -583,12 +1175,16 @@
     "canonical_key": "doi:10.1016/0042-207x(96)00063-2",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:23:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(96)00063-2",
     "doi": "10.1016/0042-207x(96)00063-2",
@@ -597,7 +1193,26 @@
     "locator": "Crossref record fetched this session (DOI 10.1016/0042-207x(96)00063-2, decoded exactly from the original PII 0042207X96000632; Vacuum, 1996; authors Hiroki, Abe, Murakami)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors confirmed (Japanese names, consistent with fusion/tritium-handling research context -- likely National Institute for Fusion Science or affiliated Japanese lab); geography corrected from US placeholder to JP. Good Asia-quota contribution."
+    "notes": "Authors confirmed (Japanese names, consistent with fusion/tritium-handling research context -- likely National Institute for Fusion Science or affiliated Japanese lab); geography corrected from US placeholder to JP. Good Asia-quota contribution.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Advanced Science Research Center",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1208/s12249-021-02107-6%7C10.1186/s41120-025-00132-4%7C10.5772/intechopen.91767%7C10.1016/0042-207x%2871%2991570-3%7C10.1016/0042-207x%2896%2900063-2%7C10.17775/cseejpes.2021.05040%7C10.1038/s41598-025-27261-w%7C10.3390/en18051147%7C10.1038/s41598-025-19589-0%7C10.1049/rpg2.12903%7C10.3390/app16115186%7C10.3390/en15228406%7C10.3390/en18030587%7C10.3390/en11010027%7C10.3390/en18215560&per-page=50&select=doi,title,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors at a Japanese fusion/tritium research center."
+    }
   },
   {
     "id": "L07-025",
@@ -608,12 +1223,16 @@
     "canonical_key": "doi:10.2221/jcsj.28.569",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:24:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/jcsj1966",
     "doi": "10.2221/jcsj.28.569",
@@ -622,7 +1241,26 @@
     "locator": "J-STAGE article page fetched directly this session; DOI 10.2221/jcsj.28.569 confirmed, author Yasuharu Kamioka, affiliation Toyo Oxygen Co., Ltd. Cryogenic Research Laboratory, journal 低温工学 vol 28(10), pp. 569-581, 1993",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation rather than inferred. Explanatory/tutorial style, hence T2."
+    "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation rather than inferred. Explanatory/tutorial style, hence T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Toyo Oxygen Co., Ltd., Cryogenic Research Laboratory",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.jstage.jst.go.jp/article/jcsj1966/28/10/28_10_569/_article/-char/ja/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole-author paper; employer named directly in the citation (Toyo Oxygen Co., a Japanese industrial-gas company), not separately resolved via OpenAlex."
+    }
   },
   {
     "id": "L07-026",
@@ -633,12 +1271,16 @@
     "canonical_key": "doi:10.11470/oubutsu1932.69.22",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:25:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/oubutsu1932",
     "doi": "10.11470/oubutsu1932.69.22",
@@ -647,7 +1289,26 @@
     "locator": "J-STAGE article page fetched directly this session; DOI 10.11470/oubutsu1932.69.22 confirmed, author Sonoko Tsukahara, affiliation Nippon Vacuum Technology Co., Ltd., journal 応用物理 vol 69(1), pp. 22-28, published 2000-01-10",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation. Explanatory (解説) style, hence T2; author is industry- rather than academia-affiliated but the venue is the Japan Society of Applied Physics' peer-reviewed journal."
+    "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation. Explanatory (解説) style, hence T2; author is industry- rather than academia-affiliated but the venue is the Japan Society of Applied Physics' peer-reviewed journal.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Nippon Vacuum Technology Co., Ltd.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.jstage.jst.go.jp/article/oubutsu1932/69/1/69_1_22/_pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole-author paper; Japanese company employer named directly in citation."
+    }
   },
   {
     "id": "L07-027",
@@ -658,12 +1319,16 @@
     "canonical_key": "doi:10.3131/jvsj.24.116",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:26:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.jstage.jst.go.jp/browse/jvsj1958",
     "doi": "10.3131/jvsj.24.116",
@@ -672,7 +1337,26 @@
     "locator": "J-STAGE article page fetched directly this session; DOI 10.3131/jvsj.24.116 confirmed, author Ichiro Arakawa, affiliation Institute of Industrial Science, University of Tokyo, journal 真空 vol 24(3), pp. 116-121, 1981",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation. Explanatory/review style, hence T2."
+    "notes": "Author and affiliation confirmed directly (were 'unknown'); geography JP confirmed via affiliation. Explanatory/review style, hence T2.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "other"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Industrial Science, University of Tokyo",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.jstage.jst.go.jp/article/jvsj1958/24/3/24_3_116/_article/-char/ja/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole-author paper; University of Tokyo affiliation named directly in citation."
+    }
   },
   {
     "id": "L07-028",
@@ -683,12 +1367,16 @@
     "canonical_key": "standard:ISO 3529-1:2019",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:27:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -697,7 +1385,26 @@
     "locator": "Direct ISO.org page fetch returned HTTP 403 this session; corroborated via WebSearch aggregation of the ISO catalog record and third-party standards distributors (PECB, AFNOR, BSI, GlobalSpec) this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography corrected from a generic US placeholder to CH (ISO headquarters, Geneva, Switzerland); the standard itself is globally applicable, not Swiss-specific."
+    "notes": "Geography corrected from a generic US placeholder to CH (ISO headquarters, Geneva, Switzerland); the standard itself is globally applicable, not Swiss-specific.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Organization for Standardization (ISO)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iso.org/standard/73312.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ISO headquartered in Geneva, Switzerland; unambiguous major standards body."
+    }
   },
   {
     "id": "L07-029",
@@ -708,12 +1415,16 @@
     "canonical_key": "standard:ASTM E499/E499M-11(2017)",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -722,7 +1433,26 @@
     "locator": "ASTM store page fetched directly this session; scope text extracted and confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Current active version has since been reaffirmed again as E0499/E0499M-11R25 (2025); the 2017 reaffirmation cited in the raw ledger is a valid prior version of the same standard."
+    "notes": "Current active version has since been reaffirmed again as E0499/E0499M-11R25 (2025); the 2017 reaffirmation cited in the raw ledger is a valid prior version of the same standard.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ASTM International",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://store.astm.org/e0499_e0499m-11r17.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ASTM International HQ West Conshohocken, Pennsylvania, USA."
+    }
   },
   {
     "id": "L07-030",
@@ -733,12 +1463,16 @@
     "canonical_key": "standard:SEMI F19-0815",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:29:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1481,26 @@
     "locator": "SEMI store page fetched directly this session; current edition confirmed as SEMI F19-0815",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from null to 2015 (edition F19-0815) confirmed by direct fetch."
+    "notes": "Year corrected from null to 2015 (edition F19-0815) confirmed by direct fetch.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "SEMI (Semiconductor Equipment and Materials International)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://store-us.semi.org/products/f01900-semi-f19-specification-for-the-surface-condition-of-the-wetted-surfaces-of-stainless-steel-components"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEMI HQ Milpitas, California, USA."
+    }
   },
   {
     "id": "L07-031",
@@ -758,12 +1511,16 @@
     "canonical_key": "standard:SEMI F20-0923",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1529,26 @@
     "locator": "SEMI store page fetched directly this session; current edition confirmed as SEMI F20-0923 (originally issued 2009, reapproved 2023)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Year corrected from null to 2023 (most recent reapproval; original edition dates to 2009). Works in tandem with SEMI F19."
+    "notes": "Year corrected from null to 2023 (most recent reapproval; original edition dates to 2009). Works in tandem with SEMI F19.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "SEMI (Semiconductor Equipment and Materials International)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://store-us.semi.org/products/f02000-semi-f20-specification-for-316l-stainless-steel-bar-forgings-extruded-shapes-plate-and-tubing-for-components-used-in-general-purpose-high-purity-and-ultra-high-purity-semiconductor-manufacturing-applications"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEMI HQ Milpitas, California, USA."
+    }
   },
   {
     "id": "L07-032",
@@ -783,12 +1559,16 @@
     "canonical_key": "https://ntrs.nasa.gov/citations/20150004094",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:31:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1577,34 @@
     "locator": "NASA Technical Reports Server (NTRS) citation page fetched directly this session; authors confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Authors identified (were 'unknown' university-affiliated NASA co-op researchers)."
+    "notes": "Authors identified (were 'unknown' university-affiliated NASA co-op researchers).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA",
+          "country": "US"
+        },
+        {
+          "name": "University of Akron",
+          "country": "US"
+        },
+        {
+          "name": "University of Toledo",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://ntrs.nasa.gov/api/citations/20150004094/downloads/20150004094.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US government technical report (NASA NTRS), authors at US universities."
+    }
   },
   {
     "id": "L07-033",
@@ -806,23 +1613,37 @@
     "year": 2022,
     "url": "https://www.iterindia.in/indias-contribution-iter",
     "canonical_key": "https://www.iterindia.in/indias-contribution-iter",
-    "source_type": "national_lab",
-    "tier": "T1",
-    "lane_ids": ["L07"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN", "FR"],
+    "geography": [
+      "FR",
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "official_project_award",
     "claim_supported": "India's Institute for Plasma Research (ITER-India domestic agency) delivered the ITER cryostat -- a 3,850-tonne, 30 m diameter vessel described as the world's largest high-vacuum pressure chamber -- completed by Larsen & Toubro Heavy Engineering in mid-March 2022, assembled from 54 independent segments averaging 50 tonnes each, ahead of schedule.",
     "locator": "iterindia.in page fetched directly this session (confirms 'world's largest high-vacuum pressure chamber' description); specific tonnage/diameter/manufacturer/date figures corroborated via WebSearch aggregation of iter.org and larsentoubro.com press releases this session",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "All specific figures independently corroborated across iter.org and Larsen & Toubro's own press releases this session."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "India's cryostat procurement package is one of 14 ITER Domestic Agency deliverables; this is a national-lab primary record of a completed multi-hundred-million-dollar-class vacuum vessel. | All specific figures independently corroborated across iter.org and Larsen & Toubro's own press releases this session. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.023354+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.iterindia.in/indias-contribution-iter"
+      ],
+      "original_source_type": "national_lab"
+    }
   },
   {
     "id": "L07-034",
@@ -833,12 +1654,17 @@
     "canonical_key": "https://fusionforenergy.europa.eu/news/milestone-progress-on-the-assembly-of-jt-60sa-vacuum-vessel/",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:33:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "EU"],
+    "geography": [
+      "JP",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1673,34 @@
     "locator": "fusionforenergy.europa.eu page fetched directly this session; confirms manufacturer (Toshiba), sector count/weight, and JAEA/F4E procurement roles",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The specific page fetched this session shows a Dec-2015-dated assembly-progress article (9 of 10 sectors assembled, final sector planned 2017), an earlier milestone than the raw ledger's framing of a 2020 record, but the underlying manufacturer/agency/spec facts are confirmed and consistent. Cross-lane note on Feb-2026 JT-60SA commissioning (see L03 ledger) not independently re-verified here."
+    "notes": "The specific page fetched this session shows a Dec-2015-dated assembly-progress article (9 of 10 sectors assembled, final sector planned 2017), an earlier milestone than the raw ledger's framing of a 2020 record, but the underlying manufacturer/agency/spec facts are confirmed and consistent. Cross-lane note on Feb-2026 JT-60SA commissioning (see L03 ledger) not independently re-verified here.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Fusion for Energy (EU Domestic Agency)",
+          "country": "ES"
+        },
+        {
+          "name": "Japan Atomic Energy Agency (JAEA)",
+          "country": "JP"
+        },
+        {
+          "name": "QST",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://fusionforenergy.europa.eu/news/milestone-progress-on-the-assembly-of-jt-60sa-vacuum-vessel/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "F4E HQ Barcelona, Spain (EU agency); JAEA/QST are Japanese national labs."
+    }
   },
   {
     "id": "L07-035",
@@ -858,12 +1711,16 @@
     "canonical_key": "https://www.nasa.gov/centers-and-facilities/glenn/space-environments-complex/",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1729,26 @@
     "locator": "nasa.gov facility page fetched directly this session; dimensions and capability figures confirmed exactly",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly confirmed government facility record."
+    "notes": "Directly confirmed government facility record.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "NASA Glenn Research Center / Neil Armstrong Test Facility",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nasa.gov/centers-and-facilities/glenn/space-environments-complex/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US government facility (.gov domain)."
+    }
   },
   {
     "id": "L07-036",
@@ -883,12 +1759,16 @@
     "canonical_key": "https://www.lesker.com/newweb/feedthroughs/power_feedthroughs.cfm?pgid=20kv_cf",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1777,26 @@
     "locator": "lesker.com product page fetched directly this session; pricing table and specs confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: the original claim ('unit pricing is not published online... rather than list-priced') is contradicted by direct fetch, which shows explicit list prices for most models. Claim text revised accordingly."
+    "notes": "CORRECTION: the original claim ('unit pricing is not published online... rather than list-priced') is contradicted by direct fetch, which shows explicit list prices for most models. Claim text revised accordingly.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Kurt J. Lesker Company",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.lesker.com/newweb/feedthroughs/power_feedthroughs.cfm?pgid=20kv_cf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Kurt J. Lesker Company HQ Jefferson Hills, Pennsylvania, USA."
+    }
   },
   {
     "id": "L07-037",
@@ -908,12 +1807,16 @@
     "canonical_key": "https://www.saesgetters.com/highvacuum/solution/neg-coating/",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IT"],
+    "geography": [
+      "IT"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1825,26 @@
     "locator": "saesgetters.com page fetched directly this session; product description and performance claims confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor claim, not independent validation; confirmed CERN origin and >20-year track record claim per SAES."
+    "notes": "Vendor claim, not independent validation; confirmed CERN origin and >20-year track record claim per SAES.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "SAES Getters S.p.A.",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.saesgetters.com/highvacuum/solution/neg-coating/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SAES Getters HQ Lainate (Milan), Italy."
+    }
   },
   {
     "id": "L07-038",
@@ -931,23 +1853,49 @@
     "year": 2025,
     "url": "https://www.researchandmarkets.com/reports/4535760/vacuum-pump-market-share-analysis-industry",
     "canonical_key": "https://www.researchandmarkets.com/reports/4535760/vacuum-pump-market-share-analysis-industry",
-    "source_type": "market_industry",
+    "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:37:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Estimates the global vacuum pump market at USD 7.56B (2025) growing to USD 10.81B by 2030 at 7.41% CAGR; other consultancy reports found in the same search gave materially different figures (USD 6.5B->8.4B at 5.3% CAGR; USD 5.73B(2022)->8.75B(2030) at 5.4% CAGR) -- an unresolved cross-vendor conflict, not triangulated bottom-up.",
     "locator": "researchandmarkets.com report landing page fetched directly this session; headline figures confirmed exactly (7.56B, 10.81B, 7.41% CAGR, 2025-2030)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Consultancy estimate; conflicting CAGR/size figures across three market-research firms remain unresolved and are flagged, per source standards ('conflicts are shown, not averaged away')."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "Consultancy estimate; conflicting CAGR/size figures across three market-research firms remain unresolved and are flagged, per source standards ('conflicts are shown, not averaged away'). | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Mordor Intelligence",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.mordorintelligence.com/contact-us",
+        "https://tracxn.com/d/legal-entities/india/mordor-intelligence-private-limited/__ZK5CODUHnn0icsedphbBLAImEPtJDBQAwzCDBYgfmSQ"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "market_industry",
+      "useful_lead": "Global vacuum pump market size claim (~USD 7.56B 2025 -> USD 10.81B 2030, 7.41% CAGR) originates from Mordor Intelligence, headquartered at Rajapushpa Summit, Financial District, Gachibowli, Hyderabad, Telangana, India (confirmed via the firm's own contact-us page, which lists only the Hyderabad office, and its ROC-Hyderabad company registration). Needs independent confirmation from a non-Indian market-research firm or trade association before use in market sizing.",
+      "notes": "Distributed via researchandmarkets.com (a US/Irish aggregator) but the underlying report author, Mordor Intelligence, is India-headquartered with no non-India office listed on its own contact page -- binding India-origin exclusion applies regardless of the distribution channel's location."
+    }
   },
   {
     "id": "L07-039",
@@ -956,23 +1904,52 @@
     "year": 2025,
     "url": "https://reports.valuates.com/market-reports/QYRE-Auto-4D6639/global-semiconductor-dry-vacuum-pump",
     "canonical_key": "https://reports.valuates.com/market-reports/QYRE-Auto-4D6639/global-semiconductor-dry-vacuum-pump",
-    "source_type": "market_industry",
+    "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:38:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "CN", "JP", "KR", "TW"],
+    "geography": [
+      "US",
+      "CN",
+      "JP",
+      "KR",
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "CONFLICTING FIGURES: raw ledger (scout session) reported USD 1,458.96M (2024) rising to USD 3,120.32M by 2033 (~8.8% CAGR); this session's direct fetch of the SAME URL instead shows USD 1,436M (2025) rising to USD 2,574M by 2032, CAGR 8.8% (2026-2032). Vendor list confirmed (Atlas Copco/Edwards, Ebara, Pfeiffer, Kashiyama, ULVAC among ~15 named vendors) but the specific '62% top-6 share' figure from the raw ledger could NOT be independently confirmed this session -- the fetched page lists vendors without a share breakdown.",
     "locator": "reports.valuates.com report page fetched directly this session; figures as stated above, differing from the raw ledger's originally captured numbers",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "This report-aggregator page appears to auto-update its 'current/forecast year' framing between accesses, producing genuinely different headline numbers at different access times -- flagged as an unresolved discrepancy rather than silently reconciled, per source standards. Competitive-structure vendor list (six largest vendors) is useful and consistent across both sessions even though exact TAM figures conflict."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "This report-aggregator page appears to auto-update its 'current/forecast year' framing between accesses, producing genuinely different headline numbers at different access times -- flagged as an unresolved discrepancy rather than silently reconciled, per source standards. Competitive-structure vendor list (six largest vendors) is useful and consistent across both sessions even though exact TAM figures conflict. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Valuates Reports",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://reports.valuates.com/contactus/index.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "market_industry",
+      "useful_lead": "Semiconductor dry vacuum pump market TAM figures and vendor-concentration claim (Atlas Copco/Edwards, Ebara, Pfeiffer, Kashiyama, ULVAC among ~15 named vendors, informal 'top-6 = 62% share') originate from Valuates Reports/MarketGrowthReports, headquartered at Balaraj's Arcade, Whitefield, Bangalore, Karnataka, India (confirmed via the firm's own contact page, which lists only the Bangalore office and an India phone number alongside a US toll-free forwarding line). Needs independent non-Indian confirmation before use in market sizing or competitive-structure claims; the named-vendor list itself may be separately corroborable from vendor-side sources.",
+      "notes": "India-registered consultancy using a US toll-free number as its only US-facing contact point; no physical non-India office found."
+    }
   },
   {
     "id": "L07-040",
@@ -983,12 +1960,16 @@
     "canonical_key": "https://inoxcva.com/pdf/material-contract/B_12_Industry%20Report.pdf",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:39:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1008,12 +1989,16 @@
     "canonical_key": "tender:IO/26/OT/10035181/JGO",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2007,26 @@
     "locator": "ITER open-tenders listing page re-fetched directly this session; tender row IO/26/OT/10035181/JGO confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Re-confirmed this session."
+    "notes": "Re-confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iter.org/industry/procurement/overview-tenders/open-tenders"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER Organization HQ Saint-Paul-lez-Durance, France."
+    }
   },
   {
     "id": "L07-042",
@@ -1033,12 +2037,16 @@
     "canonical_key": "tender:IO/25/OT/10031355/JGO",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:41:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2055,26 @@
     "locator": "ITER open-tenders listing page re-fetched directly this session; tender row IO/25/OT/10031355/JGO confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Awardee name still not visible in the listing; re-confirmed this session."
+    "notes": "Awardee name still not visible in the listing; re-confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iter.org/industry/procurement/overview-tenders/open-tenders"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER Organization HQ France."
+    }
   },
   {
     "id": "L07-043",
@@ -1058,12 +2085,16 @@
     "canonical_key": "tender:IO/25/OT/10031239/JGO",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:42:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2103,26 @@
     "locator": "ITER open-tenders listing page re-fetched directly this session; tender row IO/25/OT/10031239/JGO confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Awardee name still not visible in the listing; re-confirmed this session."
+    "notes": "Awardee name still not visible in the listing; re-confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iter.org/industry/procurement/overview-tenders/open-tenders"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER Organization HQ France."
+    }
   },
   {
     "id": "L07-044",
@@ -1083,12 +2133,17 @@
     "canonical_key": "tender:IO/25/OT/10032406/JGO",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:43:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR", "ES"],
+    "geography": [
+      "FR",
+      "ES"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2152,30 @@
     "locator": "ITER open-tenders listing page re-fetched directly this session; tender row IO/25/OT/10032406/JGO confirmed including award date",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Only one of the four ITER VVPSS-related tenders in this record set names the awardee explicitly; award date (15/10/2025) newly confirmed this session."
+    "notes": "Only one of the four ITER VVPSS-related tenders in this record set names the awardee explicitly; award date (15/10/2025) newly confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        },
+        {
+          "name": "MAP Industrial Projects, S.L.",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.iter.org/industry/procurement/overview-tenders/open-tenders"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER (France) and named awardee MAP Industrial Projects (Spain)."
+    }
   },
   {
     "id": "L07-045",
@@ -1108,12 +2186,16 @@
     "canonical_key": "tender:HEPS-VC-2021-IHEP",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:44:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2204,26 @@
     "locator": "ccnta.cn tender notice fetched directly this session; all details confirmed exactly",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Re-confirmed this session with full detail match to the raw ledger."
+    "notes": "Re-confirmed this session with full detail match to the raw ledger.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of High Energy Physics, Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ccnta.cn/article/7832.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IHEP/CAS HQ Beijing, China; tender published on China's official tender platform."
+    }
   },
   {
     "id": "L07-046",
@@ -1133,12 +2234,16 @@
     "canonical_key": "https://www.cbci.co.kr/news/articleView.html?idxno=582691",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:45:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2252,30 @@
     "locator": "cbci.co.kr disclosure article re-fetched directly this session; project name, percentage-of-revenue, and dates all confirmed exactly; monetary figure conflicts across the two fetch passes",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Given the 11.09%-of-prior-year-revenue disclosure is consistent in both passes, and a ~USD 16M contract implies a more plausible prior-year revenue (~USD 144M) for a company this size than a ~USD 160M contract would (implying ~USD 1.4B prior-year revenue, implausible for this issuer), the original ledger figure (KRW 22.18B) is judged more likely correct, but this is not independently confirmed against the primary Korean Exchange disclosure filing itself. Flagged for the next pass to resolve by checking the original KRX disclosure (DART) directly rather than a news aggregator."
+    "notes": "Given the 11.09%-of-prior-year-revenue disclosure is consistent in both passes, and a ~USD 16M contract implies a more plausible prior-year revenue (~USD 144M) for a company this size than a ~USD 160M contract would (implying ~USD 1.4B prior-year revenue, implausible for this issuer), the original ledger figure (KRW 22.18B) is judged more likely correct, but this is not independently confirmed against the primary Korean Exchange disclosure filing itself. Flagged for the next pass to resolve by checking the original KRX disclosure (DART) directly rather than a news aggregator.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hansung Clean Tech",
+          "country": "KR"
+        },
+        {
+          "name": "CBC News (cbci.co.kr)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.cbci.co.kr/news/articleView.html?idxno=582691"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both the disclosing company (Hansung Clean Tech) and the reporting outlet (CBC News, a Korean economic/financial news site) are South Korea-based."
+    }
   },
   {
     "id": "L07-047",
@@ -1158,12 +2286,16 @@
     "canonical_key": "https://news.nate.com/view/20260519n18186",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:46:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2304,30 @@
     "locator": "news.nate.com article fetched directly this session; KRW 31 billion figure ('310억 원') confirmed exactly, matching the raw ledger",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "No discrepancy found on this record (unlike L07-046); value figure independently confirmed via direct fetch this session."
+    "notes": "No discrepancy found on this record (unlike L07-046); value figure independently confirmed via direct fetch this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Hansung Clean Tech",
+          "country": "KR"
+        },
+        {
+          "name": "Nate (SK Communications)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://news.nate.com/view/20260519n18186"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Nate is a well-known Korean web portal operated by SK Communications, Seoul."
+    }
   },
   {
     "id": "L07-048",
@@ -1181,23 +2336,37 @@
     "year": 2026,
     "url": "https://solarquarter.com/2026/05/13/inox-india-limited-reports-record-fy26-revenue-growth-as-clean-energy-and-lng-infrastructure-orders-drive-global-expansion/",
     "canonical_key": "https://solarquarter.com/2026/05/13/inox-india-limited-reports-record-fy26-revenue-growth-as-clean-energy-and-lng-infrastructure-orders-drive-global-expansion/",
-    "source_type": "trade_press",
-    "tier": "T2",
-    "lane_ids": ["L07"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:47:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["IN", "FR"],
+    "geography": [
+      "FR",
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "procurement_award",
     "claim_supported": "CORRECTED/DOWNGRADED: INOX India (INOXCVA) 'secured a repeat order from ITER, France, related to cryostat panel modification work' during Q4 FY26. The specific value cited in the raw ledger (₹145 crore, ~USD 17M, described as for 'Cryostat Thermal Shield repair') is NOT stated in this article and could not be confirmed this session; that figure appears to originate from a different secondary source not located during this verification pass.",
     "locator": "solarquarter.com article fetched directly this session; only confirms the qualitative fact of a repeat ITER cryostat order, no monetary figure present",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Tier downgraded from T1 to T2 and source_type reclassified from company_filing to trade_press (this is third-party media reporting on INOX India's disclosure, not the disclosure itself). The ₹145 crore figure and 'Thermal Shield repair' specificity are unverified this session -- treat as unconfirmed until checked against INOX India's primary FY25-26 annual report PDF directly."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "INOX India's FY2025-26 annual report (nsearchives.nseindia.com/annual_reports/AR_29318_INOXINDIA_2025_2026...) is the primary underlying filing; this record cites a secondary aggregation of that filing's contents and should be re-verified against the primary PDF directly. | Tier downgraded from T1 to T2 and source_type reclassified from company_filing to trade_press (this is third-party media reporting on INOX India's disclosure, not the disclosure itself). The ₹145 crore figure and 'Thermal Shield repair' specificity are unverified this session -- treat as unconfirmed until checked against INOX India's primary FY25-26 annual report PDF directly. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.024701+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://solarquarter.com/2026/05/13/inox-india-limited-reports-record-fy26-revenue-growth-as-clean-energy-and-lng-infrastructure-orders-drive-global-expansion/"
+      ],
+      "original_source_type": "trade_press"
+    }
   },
   {
     "id": "L07-049",
@@ -1208,12 +2377,16 @@
     "canonical_key": "https://www.sec.gov/Archives/edgar/data/1652535/000165253526000012/ichr-20251226.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:48:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2395,26 @@
     "locator": "Direct SEC EDGAR fetch returned HTTP 403 this session; figures independently confirmed via WebSearch cross-referencing Businesswire's official earnings release and StockTitan's 10-K summary this session, both reporting identical figures",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "All figures now confirmed exactly (were previously search-index-derived only); canonical_key retained as the SEC EDGAR filing URL, with the Businesswire earnings release used as the accessible confirming locator."
+    "notes": "All figures now confirmed exactly (were previously search-index-derived only); canonical_key retained as the SEC EDGAR filing URL, with the Businesswire earnings release used as the accessible confirming locator.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Ichor Holdings, Ltd.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1652535/000165253526000012/ichr-20251226.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEC EDGAR filer, principal executive offices Fremont, California, USA."
+    }
   },
   {
     "id": "L07-050",
@@ -1233,12 +2425,16 @@
     "canonical_key": "https://www.sec.gov/Archives/edgar/data/1049502/000119312526133426/d101621dars.pdf",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:49:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2443,26 @@
     "locator": "Direct SEC EDGAR fetch returned HTTP 403 this session; total-revenue and international-revenue-share figures confirmed via WebSearch cross-referencing multiple financial-news sources this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Total revenue and new 81%-international fact confirmed; VSD-specific and Q2-semiconductor breakout figures remain unconfirmed and should be treated with the same caveat as the raw ledger already carried."
+    "notes": "Total revenue and new 81%-international fact confirmed; VSD-specific and Q2-semiconductor breakout figures remain unconfirmed and should be treated with the same caveat as the raw ledger already carried.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "MKS Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1049502/000119312526133426/d101621dars.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEC EDGAR filer, HQ Andover, Massachusetts, USA."
+    }
   },
   {
     "id": "L07-051",
@@ -1258,12 +2473,16 @@
     "canonical_key": "https://ebara.com/global-en/newsroom/2025/20251217-01/",
     "source_type": "company_filing",
     "tier": "T2",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2491,26 @@
     "locator": "WebSearch this session located and confirmed the EV-H/ELF product-launch content directly from ebara.com; explicitly found NO corroboration for the TSMC/Korea-Taiwan investment claims (direct ebara.com WebFetch still returns HTTP 403)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Demand_evidence_type downgraded from 'direct_customer_documentation' to 'none' and geography narrowed from [JP,KR,TW] to [JP] because the only confirmed content is a general company product announcement, not customer-specific transaction evidence; the KR/TW investment claim is unverified and should not be relied upon until independently sourced."
+    "notes": "Demand_evidence_type downgraded from 'direct_customer_documentation' to 'none' and geography narrowed from [JP,KR,TW] to [JP] because the only confirmed content is a general company product announcement, not customer-specific transaction evidence; the KR/TW investment claim is unverified and should not be relied upon until independently sourced.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "EBARA Corporation",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ebara.com/global-en/newsroom/2025/20251217-01/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "EBARA Corporation HQ Tokyo, Japan."
+    }
   },
   {
     "id": "L07-052",
@@ -1283,12 +2521,16 @@
     "canonical_key": "https://data.swcms.net/file/ulvac-ir/dam/jcr:6cbea6e0-1784-4106-8003-fb5973f19310/S100WQX1.pdf",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:51:00Z",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2539,26 @@
     "locator": "WebSearch this session corroborated orders/sales figures against ULVAC's own IR press release (ir.ulvac.co.jp, 決算短信 dated 2025-08-13); primary EDINET securities-report PDF not itself line-item-fetched",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Given ¥174.1B would represent ~33% of annual sales (a plausible equipment-backlog ratio) versus ¥17.41B representing only ~3% (unusually thin for this business), the original ¥174.1B figure is judged more likely correct, but this is a judgment call, not a confirmed fact -- flagged for resolution against the primary PDF. ULVAC remains one of six vendors said to hold ~62% global semiconductor vacuum-pump revenue share per L07-039 (that specific share figure itself is now flagged as unconfirmed, see L07-039)."
+    "notes": "Given ¥174.1B would represent ~33% of annual sales (a plausible equipment-backlog ratio) versus ¥17.41B representing only ~3% (unusually thin for this business), the original ¥174.1B figure is judged more likely correct, but this is a judgment call, not a confirmed fact -- flagged for resolution against the primary PDF. ULVAC remains one of six vendors said to hold ~62% global semiconductor vacuum-pump revenue share per L07-039 (that specific share figure itself is now flagged as unconfirmed, see L07-039).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ULVAC, Inc.",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://data.swcms.net/file/ulvac-ir/dam/jcr:6cbea6e0-1784-4106-8003-fb5973f19310/S100WQX1.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ULVAC HQ Chigasaki, Kanagawa, Japan; mandatory Japanese securities filing."
+    }
   },
   {
     "id": "L07-053",
@@ -1308,12 +2569,21 @@
     "canonical_key": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/after-strong-fourth-quarter-inficon-closes-2025-at-record-sales-level/7bef46be-c444-4c35-be87-789a1a74b6b1_en",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:52:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH", "CN", "JP", "KR", "TW", "US"],
+    "geography": [
+      "CH",
+      "CN",
+      "JP",
+      "KR",
+      "TW",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2592,31 @@
     "locator": "eqs-news.com ad-hoc disclosure release fetched directly this session (corrected URL from the raw ledger's 'results will be published' placeholder page to the actual results release); all figures confirmed exactly",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTED URL/LOCATOR: the raw ledger's URL (inficon.com 'to publish its results' announcement) only pre-announced a future publication date and contained none of the actual figures; the actual ad-hoc results release (EQS-News) was located and fetched this session, confirming every figure in the original claim_supported exactly. This is a Swiss mandatory ad-hoc disclosure (SIX Exchange Regulation), equivalent in status to a regulatory filing."
+    "notes": "CORRECTED URL/LOCATOR: the raw ledger's URL (inficon.com 'to publish its results' announcement) only pre-announced a future publication date and contained none of the actual figures; the actual ad-hoc results release (EQS-News) was located and fetched this session, confirming every figure in the original claim_supported exactly. This is a Swiss mandatory ad-hoc disclosure (SIX Exchange Regulation), equivalent in status to a regulatory filing.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "INFICON Holding AG",
+          "country": "CH"
+        },
+        {
+          "name": "EQS Group AG (distribution channel)",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.eqs-news.com/news/inside-information-ad-hoc-release/after-strong-fourth-quarter-inficon-closes-2025-at-record-sales-level/7bef46be-c444-4c35-be87-789a1a74b6b1_en",
+        "https://www.eqs.com/en-us/about-eqs/locations/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "INFICON HQ Bad Ragaz, Switzerland (SIX-listed, mandatory ad-hoc disclosure). Distribution via EQS Group, HQ Munich, Germany; EQS lists a Kochi, India office among many global offices but is not India-headquartered."
+    }
   },
   {
     "id": "L07-054",
@@ -1333,12 +2627,16 @@
     "canonical_key": "https://www.sbir.gov/awards/105458",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L07"],
+    "lane_ids": [
+      "L07"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:53:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,6 +2645,30 @@
     "locator": "sbir.gov award record page re-fetched directly this session; title, agency, recipient, amount, phase, and year all confirmed exactly",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Re-confirmed this session. Older award (2003); illustrates that government funding for this niche is intermittent rather than a steady recent pipeline — flagged as an uncertainty in the lane brief."
+    "notes": "Re-confirmed this session. Older award (2003); illustrates that government funding for this niche is intermittent rather than a steady recent pipeline — flagged as an uncertainty in the lane brief.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T20:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Department of Defense, Missile Defense Agency",
+          "country": "US"
+        },
+        {
+          "name": "Sierra Lobo, Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.sbir.gov/awards/105458",
+        "https://sierralobo.com/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US government award; recipient Sierra Lobo HQ Fremont, Ohio, USA."
+    }
   }
 ]

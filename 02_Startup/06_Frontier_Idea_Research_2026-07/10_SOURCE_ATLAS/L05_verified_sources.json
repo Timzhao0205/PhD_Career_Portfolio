@@ -6,23 +6,48 @@
     "year": 2018,
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168900218308726",
     "canonical_key": "doi:10.1016/j.nima.2018.07.037",
-    "source_type": "academic_peer_reviewed",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.nima.2018.07.037",
     "doi": "10.1016/j.nima.2018.07.037",
     "demand_evidence_type": "none",
     "claim_supported": "Describes a 34-section, 100 kV/20 A, 1 ms solid-state Marx modulator prototype for klystron drive, built from IGBT-based 3 kV main modules with a 24-module droop-correction scheme. Authors confirmed as Mahesh Acharya and Purushottam Shrivastava.",
     "locator": "Crossref metadata record (works/10.1016/j.nima.2018.07.037), fetched this session; journal-article type, container-title Nuclear Instruments and Methods in Physics Research Section A confirmed",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "DOI resolved and confirmed via direct Crossref API fetch this session (title/container-title/year exact match). Institutional affiliation not independently confirmed; geography left as multinational rather than guessed."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "DOI resolved and confirmed via direct Crossref API fetch this session (title/container-title/year exact match). Institutional affiliation not independently confirmed; geography left as multinational rather than guessed. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Raja Ramanna Centre for Advanced Technology",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.nima.2018.07.037|10.1109/tps.2010.2045515|10.1063/1.4803189|10.1109/tps.2017.2749504|10.3938/jkps.64.1267|10.1088/1748-0221/11/04/p04003|10.1017/s1759078724000205|10.1016/j.fusengdes.2025.115346|10.1103/physrevaccelbeams.26.112002|10.1007/s40042-025-01322-9|10.1109/ted.2015.2464096|10.1109/ivec56627.2023.10157431|10.1109/ivec63678.2025.11115541&per-page=50&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "useful_lead": "RRCAT (India) reports a 34-section, 100 kV/20 A, 1 ms solid-state Marx modulator prototype for klystron drive using IGBT-based 3 kV main modules with a 24-module droop-correction scheme. If this specific design point is needed, seek an independent non-Indian source (e.g., another lab's citation/replication) before treating it as load-bearing; do not cite this record directly for technical, demand, market, or geography claims.",
+      "notes": "Both authors (Mahesh Acharya, Purushottam Shrivastava) resolved via OpenAlex to Raja Ramanna Centre for Advanced Technology, Indore, India -- only 2 authors, no non-Indian co-author present. Fails the India-origin exclusion (all resolved affiliations are Indian); downgraded from academic support to discovery_only per binding rule."
+    }
   },
   {
     "id": "L05-002",
@@ -33,12 +58,16 @@
     "canonical_key": "doi:10.1109/tps.2010.2045515",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:02:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tps.2010.2045515",
     "doi": "10.1109/tps.2010.2045515",
@@ -47,7 +76,26 @@
     "locator": "Crossref metadata record (works/10.1109/tps.2010.2045515), fetched this session; journal-article type, container-title IEEE Transactions on Plasma Science confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref bibliographic search then confirmed via direct works/<doi> fetch this session. IEEE Xplore page itself still not directly fetchable (JS-rendered/paywall) but Crossref record is independent, sufficient peer-review evidence per mission rules."
+    "notes": "DOI resolved via Crossref bibliographic search then confirmed via direct works/<doi> fetch this session. IEEE Xplore page itself still not directly fetchable (JS-rendered/paywall) but Crossref record is independent, sufficient peer-review evidence per mission rules.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Fudan University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tps.2010.2045515&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 3/3 authors, all Fudan University, China."
+    }
   },
   {
     "id": "L05-003",
@@ -58,12 +106,17 @@
     "canonical_key": "doi:10.1063/1.4803189",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["ES", "US"],
+    "geography": [
+      "ES",
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.4803189",
     "doi": "10.1063/1.4803189",
@@ -72,7 +125,34 @@
     "locator": "Crossref metadata record (works/10.1063/1.4803189), fetched this session; journal-article type, container-title Review of Scientific Instruments confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list confirmed via direct Crossref fetch this session, matching scout's original attribution exactly."
+    "notes": "Full author list confirmed via direct Crossref fetch this session, matching scout's original attribution exactly.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "ESS Bilbao",
+          "country": "ES"
+        },
+        {
+          "name": "University of Castilla-La Mancha",
+          "country": "ES"
+        },
+        {
+          "name": "Oak Ridge National Laboratory / Spallation Neutron Source",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1063/1.4803189&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 of 8 authors resolved (ES/US); remaining 4 unresolved authors (Ganuza, De La Fuente, Zulaika, Perez) attributed per record to JEMA Corporation (Spain), consistent with the resolved Spanish co-authors. No Indian affiliation indicated."
+    }
   },
   {
     "id": "L05-004",
@@ -83,12 +163,16 @@
     "canonical_key": "doi:10.1109/tps.2017.2749504",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:06:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/tps.2017.2749504",
     "doi": "10.1109/tps.2017.2749504",
@@ -97,7 +181,26 @@
     "locator": "Crossref metadata record (works/10.1109/tps.2017.2749504), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography updated to KR (from scout's 'multinational') based on confirmed author-name overlap with L05-006's Korean author group; institutional affiliation itself not independently fetched this session."
+    "notes": "Geography updated to KR (from scout's 'multinational') based on confirmed author-name overlap with L05-006's Korean author group; institutional affiliation itself not independently fetched this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Dongnam Institute of Radiological & Medical Sciences",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/tps.2017.2749504&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 of 4 authors resolved, all Dongnam Institute, South Korea."
+    }
   },
   {
     "id": "L05-005",
@@ -108,12 +211,16 @@
     "canonical_key": "doi:10.3938/jkps.64.1267",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3938/jkps.64.1267",
     "doi": "10.3938/jkps.64.1267",
@@ -122,7 +229,26 @@
     "locator": "Crossref metadata record (works/10.3938/jkps.64.1267), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list confirmed via direct Crossref fetch this session."
+    "notes": "Author list confirmed via direct Crossref fetch this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Electrotechnology Research Institute",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3938/jkps.64.1267&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 4/4 authors, all KERI, South Korea."
+    }
   },
   {
     "id": "L05-006",
@@ -133,12 +259,16 @@
     "canonical_key": "doi:10.1088/1748-0221/11/04/p04003",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1748-0221/11/04/p04003",
     "doi": "10.1088/1748-0221/11/04/p04003",
@@ -147,7 +277,26 @@
     "locator": "Crossref metadata record (works/10.1088/1748-0221/11/04/p04003), fetched this session; journal-article type, container-title Journal of Instrumentation confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI (previously inferred but unverified by scout) confirmed exactly via direct Crossref fetch this session. Geography updated to KR given confirmed Korean author group shared with L05-004."
+    "notes": "DOI (previously inferred but unverified by scout) confirmed exactly via direct Crossref fetch this session. Geography updated to KR given confirmed Korean author group shared with L05-004.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Dongnam Institute of Radiological & Medical Sciences",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1088/1748-0221/11/04/p04003&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "6 of 7 authors resolved, all Dongnam Institute, South Korea."
+    }
   },
   {
     "id": "L05-007",
@@ -158,12 +307,16 @@
     "canonical_key": "doi:10.1017/s1759078724000205",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1017/s1759078724000205",
     "doi": "10.1017/s1759078724000205",
@@ -172,7 +325,26 @@
     "locator": "Crossref metadata record (works/10.1017/s1759078724000205), fetched this session; journal-article type, container-title International Journal of Microwave and Wireless Technologies confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI now confirmed (previously blank). Companion papers in same journal/series: L05-052 (400 kW ESS station design) and L05-051 (title-alike but unrelated 2012 Indus-2 paper -- see L05-051 correction note)."
+    "notes": "DOI now confirmed (previously blank). Companion papers in same journal/series: L05-052 (400 kW ESS station design) and L05-051 (title-alike but unrelated 2012 Indus-2 paper -- see L05-051 correction note).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Uppsala University",
+          "country": "SE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1017/s1759078724000205&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 2/2 authors (Duc, Dancila) to Uppsala University, Sweden. Record's 'European Spallation Source RF group' label refers to the application facility, not the author institution; author-name pattern not used to infer origin -- structured institution data used instead."
+    }
   },
   {
     "id": "L05-008",
@@ -183,12 +355,17 @@
     "canonical_key": "doi:10.1016/j.fusengdes.2025.115346",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["ES", "multinational"],
+    "geography": [
+      "ES",
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2025.115346",
     "doi": "10.1016/j.fusengdes.2025.115346",
@@ -197,7 +374,27 @@
     "locator": "Crossref metadata record (works/10.1016/j.fusengdes.2025.115346), fetched this session; journal-article type confirmed, volume 220",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via bibliographic Crossref search then confirmed via direct works/<doi> fetch. Lead-author name from search summary only, not independently itemized via the direct Crossref record fetch -- flagged as such per no-invention rule."
+    "notes": "DOI resolved via bibliographic Crossref search then confirmed via direct works/<doi> fetch. Lead-author name from search summary only, not independently itemized via the direct Crossref record fetch -- flagged as such per no-invention rule.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "CIEMAT (Centro de Investigaciones Energeticas, Medioambientales y Tecnologicas)",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1016/j.fusengdes.2025.115346",
+        "https://www.fusion.ciemat.es/home/international-projects/ifmif/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex and Crossref return empty affiliation arrays for all 17 authors; ScienceDirect full text returned HTTP 403. Lead author C. de la Morena independently confirmed via web search as CIEMAT (Spain) staff, consistent with IFMIF-DONES being a CIEMAT-led, Granada-Spain-hosted EUROfusion consortium project; no Indian partner institution identified in IFMIF-DONES consortium literature. Full per-author affiliation list not itemized -- flag for future re-verification if specific numeric claims from this paper become load-bearing."
+    }
   },
   {
     "id": "L05-009",
@@ -208,12 +405,16 @@
     "canonical_key": "doi:10.1103/physrevaccelbeams.26.112002",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevAccelBeams.26.112002",
     "doi": "10.1103/PhysRevAccelBeams.26.112002",
@@ -222,7 +423,26 @@
     "locator": "Crossref metadata record (works/10.1103/PhysRevAccelBeams.26.112002), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography updated from 'multinational' to CN based on confirmed Chinese author-name list; institutional affiliation inferred from common domain knowledge (IMP/CiADS), not independently fetched this session. link.aps.org itself still returns HTTP 403 to direct WebFetch, but the Crossref record independently confirms DOI/venue/peer-review."
+    "notes": "Geography updated from 'multinational' to CN based on confirmed Chinese author-name list; institutional affiliation inferred from common domain knowledge (IMP/CiADS), not independently fetched this session. link.aps.org itself still returns HTTP 403 to direct WebFetch, but the Crossref record independently confirms DOI/venue/peer-review.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Modern Physics, Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.26.112002&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 12/12 authors, all IMP/CAS/UCAS, China."
+    }
   },
   {
     "id": "L05-010",
@@ -233,12 +453,16 @@
     "canonical_key": "doi:10.1007/s40042-025-01322-9",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s40042-025-01322-9",
     "doi": "10.1007/s40042-025-01322-9",
@@ -247,7 +471,30 @@
     "locator": "Crossref metadata record (works/10.1007/s40042-025-01322-9), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Confirmed independently via both Crossref and ADS record 2025JKPS...87..909K per scout's prior cross-check."
+    "notes": "Confirmed independently via both Crossref and ADS record 2025JKPS...87..909K per scout's prior cross-check.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Pohang Accelerator Laboratory / Pohang University of Science and Technology",
+          "country": "KR"
+        },
+        {
+          "name": "Chung Cheong University",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s40042-025-01322-9&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 8/8 authors, all South Korea (POSTECH/PAL + Chung Cheong University)."
+    }
   },
   {
     "id": "L05-011",
@@ -258,12 +505,16 @@
     "canonical_key": "doi:10.1109/ted.2015.2464096",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ted.2015.2464096",
     "doi": "10.1109/ted.2015.2464096",
@@ -272,7 +523,34 @@
     "locator": "Crossref metadata record (works/10.1109/ted.2015.2464096), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IMPORTANT CORRECTION: scout's tentative author attribution ('Neilson, Sprehn et al., SLAC') was WRONG. Confirmed Crossref author list is Andrey Yu. Baikov, Chiara Marrelli, Igor Syratchev -- the CERN klystron-efficiency group (Syratchev is CERN's lead klystron-efficiency researcher, widely cited by the IHEP/CEPC efficiency work in L05-012/013). Geography corrected from US to CH (CERN, Switzerland)."
+    "notes": "IMPORTANT CORRECTION: scout's tentative author attribution ('Neilson, Sprehn et al., SLAC') was WRONG. Confirmed Crossref author list is Andrey Yu. Baikov, Chiara Marrelli, Igor Syratchev -- the CERN klystron-efficiency group (Syratchev is CERN's lead klystron-efficiency researcher, widely cited by the IHEP/CEPC efficiency work in L05-012/013). Geography corrected from US to CH (CERN, Switzerland).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Moscow University of Finance and Law",
+          "country": "RU"
+        },
+        {
+          "name": "European Spallation Source",
+          "country": "SE"
+        },
+        {
+          "name": "CERN",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/ted.2015.2464096&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 3/3 authors: RU/SE/CH. No Indian affiliation. Corrects the record's CH-only geography tag informationally (not modified by this audit)."
+    }
   },
   {
     "id": "L05-012",
@@ -283,12 +561,16 @@
     "canonical_key": "doi:10.1109/ivec56627.2023.10157431",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ivec56627.2023.10157431",
     "doi": "10.1109/ivec56627.2023.10157431",
@@ -297,7 +579,26 @@
     "locator": "Crossref metadata record (works/10.1109/ivec56627.2023.10157431), fetched this session; type proceedings-article, container-title '2023 24th International Vacuum Electronics Conference (IVEC)' confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Accepted as academic_peer_reviewed at T2 per mission rule allowing proceedings-article type with confirmed DOI/container-title/fetched Crossref record; IVEC is an IEEE-sponsored peer-reviewed conference. Does not count toward T1 primary-technical-paper quota."
+    "notes": "Accepted as academic_peer_reviewed at T2 per mission rule allowing proceedings-article type with confirmed DOI/container-title/fetched Crossref record; IVEC is an IEEE-sponsored peer-reviewed conference. Does not count toward T1 primary-technical-paper quota.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of High Energy Physics, Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/ivec56627.2023.10157431&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 16/16 authors, all IHEP/CAS, China -- including non-Chinese-sounding co-author names (M. Iqbal, A. Aleem), whose affiliation was determined from structured institution data (China), not inferred from name."
+    }
   },
   {
     "id": "L05-013",
@@ -308,12 +609,16 @@
     "canonical_key": "doi:10.1109/ivec63678.2025.11115541",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/ivec63678.2025.11115541",
     "doi": "10.1109/ivec63678.2025.11115541",
@@ -322,7 +627,34 @@
     "locator": "Crossref metadata record (works/10.1109/ivec63678.2025.11115541), fetched this session; type proceedings-article, container-title confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Accepted at T2 (conference proceeding) per same rule as L05-012. RMB/GWh savings claim remains a lab-asserted estimate, flagged as such, not independently verified."
+    "notes": "Accepted at T2 (conference proceeding) per same rule as L05-012. RMB/GWh savings claim remains a lab-asserted estimate, flagged as such, not independently verified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of High Energy Physics, Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "National Synchrotron Radiation Laboratory",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/ivec63678.2025.11115541&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 9/9 authors, all China-based institutions (including co-author Munawar Iqbal, resolved via institution data to IHEP/CAS China, not inferred from name)."
+    }
   },
   {
     "id": "L05-014",
@@ -333,12 +665,16 @@
     "canonical_key": "doi:10.11884/hplpb202436.240155",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:26:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.11884/HPLPB202436.240155",
     "doi": "10.11884/HPLPB202436.240155",
@@ -347,7 +683,26 @@
     "locator": "Full article HTML fetched directly (hplpb.com.cn) plus DOI resolver redirect confirmed this session (doi.org/10.11884/HPLPB202436.240155 -> hplpb.com.cn)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Journal confirmed peer-reviewed: organized 1989 by China Academy of Engineering Physics/Sichuan Nuclear Society, indexed in CSCD, CSTPCD, CAJ-CD, EI (100%), with stated online submission/review workflow (WebSearch confirmation of journal profile, hplpb.com.cn/news/bkjj_en.htm)."
+    "notes": "Journal confirmed peer-reviewed: organized 1989 by China Academy of Engineering Physics/Sichuan Nuclear Society, indexed in CSCD, CSTPCD, CAJ-CD, EI (100%), with stated online submission/review workflow (WebSearch confirmation of journal profile, hplpb.com.cn/news/bkjj_en.htm).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "High Power Laser and Particle Beams journal (China Academy of Engineering Physics / Sichuan Nuclear Society)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202436.240155"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Not resolvable via OpenAlex/Crossref affiliation data (Chinese domestic journal, not indexed with structured affiliations). Chinese-language journal organized by China Academy of Engineering Physics/Sichuan Nuclear Society, all-Chinese author names, China-based subject matter. No Indian-institution indication."
+    }
   },
   {
     "id": "L05-015",
@@ -358,12 +713,16 @@
     "canonical_key": "doi:10.11884/hplpb202436.240031",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:28:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://doi.org/10.11884/HPLPB202436.240031",
     "doi": "10.11884/HPLPB202436.240031",
@@ -372,7 +731,26 @@
     "locator": "Full article HTML fetched directly this session (hplpb.com.cn/cn/article/doi/10.11884/HPLPB202436.240031) via DOI resolver redirect",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched and confirmed directly this session (previously only located via mirror URL, not fetched). Minor author-name normalization difference vs. scout's record ('Mou Yajie' vs. fetched-page 'Mu Yajie') -- fetched-page spelling used as authoritative."
+    "notes": "Fetched and confirmed directly this session (previously only located via mirror URL, not fetched). Minor author-name normalization difference vs. scout's record ('Mou Yajie' vs. fetched-page 'Mu Yajie') -- fetched-page spelling used as authoritative.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "High Power Laser and Particle Beams journal (China Academy of Engineering Physics / Sichuan Nuclear Society)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202436.240031"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same Chinese domestic journal as L05-014; all-Chinese author names. No Indian-institution indication."
+    }
   },
   {
     "id": "L05-016",
@@ -383,12 +761,16 @@
     "canonical_key": "doi:10.11884/hplpb202032.200226",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:30:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202032.200226?viewType=HTML",
     "doi": "10.11884/HPLPB202032.200226",
@@ -397,7 +779,26 @@
     "locator": "Full article HTML, hplpb.com.cn DOI page (fetched directly by scout, same journal peer-review-status confirmed this session)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Already directly fetched by scout; journal peer-review status independently reconfirmed this session (see L05-014 journal-profile note)."
+    "notes": "Already directly fetched by scout; journal peer-review status independently reconfirmed this session (see L05-014 journal-profile note).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "High Power Laser and Particle Beams journal (China Academy of Engineering Physics / Sichuan Nuclear Society)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202032.200226?viewType=HTML"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same Chinese domestic journal as L05-014/015; all-Chinese author names. No Indian-institution indication."
+    }
   },
   {
     "id": "L05-017",
@@ -408,12 +809,16 @@
     "canonical_key": "doi:10.7538/yzk.2024.youxian.0160",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:32:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://yznkxjs.xml-journal.net/article/doi/10.7538/yzk.2024.youxian.0160?viewType=HTML",
     "doi": "10.7538/yzk.2024.youxian.0160",
@@ -422,7 +827,26 @@
     "locator": "Full article page fetched directly this session (yznkxjs.xml-journal.net); doi.org resolver returned 404 (DOI not yet indexed at Crossref/handle level) but publisher page itself confirms identity and peer-review status",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "doi.org redirect failed (404) -- likely because this DOI-registration-agency (China's CSTR/DOI) record is not yet propagated, or uses a non-Crossref registration agency. Accepted based on direct publisher-page fetch confirming venue identity, full author list, and peer-review workflow, per mission allowance for 'publisher article page' as sufficient evidence."
+    "notes": "doi.org redirect failed (404) -- likely because this DOI-registration-agency (China's CSTR/DOI) record is not yet propagated, or uses a non-Crossref registration agency. Accepted based on direct publisher-page fetch confirming venue identity, full author list, and peer-review workflow, per mission allowance for 'publisher article page' as sufficient evidence.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Atomic Energy Science and Technology journal (China National Nuclear Corporation-affiliated)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://yznkxjs.xml-journal.net/article/doi/10.7538/yzk.2024.youxian.0160?viewType=HTML"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Chinese domestic journal, 17-author all-Chinese author list confirmed via direct publisher-page fetch in prior session. No Indian-institution indication."
+    }
   },
   {
     "id": "L05-018",
@@ -433,12 +857,16 @@
     "canonical_key": "doi:10.1103/physrevaccelbeams.19.030401",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:34:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevAccelBeams.19.030401",
     "doi": "10.1103/PhysRevAccelBeams.19.030401",
@@ -447,7 +875,26 @@
     "locator": "Crossref metadata record (works/10.1103/PhysRevAccelBeams.19.030401), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IMPORTANT CORRECTION: scout attributed this to 'Sandia National Laboratories LTD program' and tagged geography US. Confirmed Crossref author list (Lin Zhou, Zhenghong Li, Zhen Wang, Chuan Liang, Mingjia Li, Jianmin Qi, Yanyun Chu) is entirely Chinese-named and consistent with the China Academy of Engineering Physics (CAEP) pulsed-power/Z-pinch group (Yanyun Chu is a known CAEP LTD researcher), not Sandia. Geography corrected from US to CN. Do not conflate with the genuinely Sandia-authored L05-019."
+    "notes": "IMPORTANT CORRECTION: scout attributed this to 'Sandia National Laboratories LTD program' and tagged geography US. Confirmed Crossref author list (Lin Zhou, Zhenghong Li, Zhen Wang, Chuan Liang, Mingjia Li, Jianmin Qi, Yanyun Chu) is entirely Chinese-named and consistent with the China Academy of Engineering Physics (CAEP) pulsed-power/Z-pinch group (Yanyun Chu is a known CAEP LTD researcher), not Sandia. Geography corrected from US to CN. Do not conflate with the genuinely Sandia-authored L05-019.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "China Academy of Engineering Physics",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.19.030401&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 7/7 authors, all China Academy of Engineering Physics, China (not Sandia -- corrects the record's own prior-session geography correction, reconfirmed)."
+    }
   },
   {
     "id": "L05-019",
@@ -458,12 +905,16 @@
     "canonical_key": "doi:10.1103/physrevstab.12.050401",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevSTAB.12.050401",
     "doi": "10.1103/PhysRevSTAB.12.050401",
@@ -472,7 +923,30 @@
     "locator": "Crossref metadata record (works/10.1103/PhysRevSTAB.12.050401), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "US/Sandia geography attribution confirmed correct (contrast with L05-018, which the scout mistakenly conflated with this Sandia program)."
+    "notes": "US/Sandia geography attribution confirmed correct (contrast with L05-018, which the scout mistakenly conflated with this Sandia program).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Sandia National Laboratories",
+          "country": "US"
+        },
+        {
+          "name": "Institute of High Current Electronics",
+          "country": "RU"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1103/physrevstab.12.050401&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 11/11 authors: Sandia (US) plus two Institute of High Current Electronics (Russia) co-authors. No Indian affiliation."
+    }
   },
   {
     "id": "L05-020",
@@ -483,12 +957,16 @@
     "canonical_key": "doi:10.1103/physrevaccelbeams.19.120401",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:38:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevAccelBeams.19.120401",
     "doi": "10.1103/PhysRevAccelBeams.19.120401",
@@ -497,7 +975,26 @@
     "locator": "Crossref metadata record (works/10.1103/PhysRevAccelBeams.19.120401), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography updated from 'multinational' to FR based on confirmed French author names, consistent with the well-known CEA Gramat LTD program; institutional affiliation inferred from author-name/domain knowledge, not independently fetched."
+    "notes": "Geography updated from 'multinational' to FR based on confirmed French author names, consistent with the well-known CEA Gramat LTD program; institutional affiliation inferred from author-name/domain knowledge, not independently fetched.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CEA Gramat (Commissariat a l'Energie Atomique et aux Energies Alternatives)",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.19.120401&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 7/7 authors, all CEA Gramat, France."
+    }
   },
   {
     "id": "L05-021",
@@ -508,12 +1005,18 @@
     "canonical_key": "doi:10.1103/physrevaccelbeams.20.052001",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH", "CN", "JP"],
+    "geography": [
+      "CH",
+      "CN",
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevAccelBeams.20.052001",
     "doi": "10.1103/PhysRevAccelBeams.20.052001",
@@ -522,7 +1025,34 @@
     "locator": "Crossref metadata record (works/10.1103/PhysRevAccelBeams.20.052001), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Geography refined from 'CH, multinational' to explicit CH/CN/JP based on confirmed author affiliations (Wu/Shi/Chen/Shao = Tsinghua; Abe/Higo/Matsumoto = KEK; Wuensch = CERN)."
+    "notes": "Geography refined from 'CH, multinational' to explicit CH/CN/JP based on confirmed author affiliations (Wu/Shi/Chen/Shao = Tsinghua; Abe/Higo/Matsumoto = KEK; Wuensch = CERN).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Tsinghua University",
+          "country": "CN"
+        },
+        {
+          "name": "High Energy Accelerator Research Organization (KEK)",
+          "country": "JP"
+        },
+        {
+          "name": "CERN",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.20.052001&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 8/8 authors: Tsinghua (CN), KEK (JP), CERN (CH). No Indian affiliation."
+    }
   },
   {
     "id": "L05-022",
@@ -533,12 +1063,16 @@
     "canonical_key": "doi:10.3390/sym16050566",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:42:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/sym16050566",
     "doi": "10.3390/sym16050566",
@@ -547,7 +1081,26 @@
     "locator": "Crossref metadata record (works/10.3390/sym16050566), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MDPI Symmetry is Scopus/Web-of-Science (SCIE) indexed and not on recognized predatory-journal lists; accepted as legitimate peer-reviewed venue. Geography updated to CN based on confirmed all-Chinese author list (institution not independently fetched)."
+    "notes": "MDPI Symmetry is Scopus/Web-of-Science (SCIE) indexed and not on recognized predatory-journal lists; accepted as legitimate peer-reviewed venue. Geography updated to CN based on confirmed all-Chinese author list (institution not independently fetched).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of High Energy Physics, Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/sym16050566&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 10/10 authors, all IHEP/CAS/UCAS, China."
+    }
   },
   {
     "id": "L05-023",
@@ -558,12 +1111,16 @@
     "canonical_key": "doi:10.1002/mp.17653",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:44:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CA"],
+    "geography": [
+      "CA"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/mp.17653",
     "doi": "10.1002/mp.17653",
@@ -572,7 +1129,26 @@
     "locator": "Crossref metadata record (works/10.1002/mp.17653), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Canada geography confirmed correct (scout's inference was accurate)."
+    "notes": "Canada geography confirmed correct (scout's inference was accurate).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Research Council Canada",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1002/mp.17653&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 of 4 authors resolved, all National Research Council Canada."
+    }
   },
   {
     "id": "L05-024",
@@ -583,12 +1159,17 @@
     "canonical_key": "doi:10.1002/mp.17927",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:46:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CA", "FR"],
+    "geography": [
+      "CA",
+      "FR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/mp.17927",
     "doi": "10.1002/mp.17927",
@@ -597,32 +1178,84 @@
     "locator": "Crossref metadata record (works/10.1002/mp.17927), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: scout tagged geography as FR alone based on lead-author name (Bernelin). Confirmed author list shows a majority Quebec/Canada author pattern (Muir, Renaud = NRC Canada; Zerouali, Guillet, Archambault, Lalonde = names consistent with Universite Laval, Quebec) alongside the French lead author -- reclassified as a CA/FR collaboration rather than FR-only."
+    "notes": "CORRECTION: scout tagged geography as FR alone based on lead-author name (Bernelin). Confirmed author list shows a majority Quebec/Canada author pattern (Muir, Renaud = NRC Canada; Zerouali, Guillet, Archambault, Lalonde = names consistent with Universite Laval, Quebec) alongside the French lead author -- reclassified as a CA/FR collaboration rather than FR-only.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Centre Hospitalier de l'Universite de Montreal",
+          "country": "CA"
+        },
+        {
+          "name": "Universite Laval",
+          "country": "CA"
+        },
+        {
+          "name": "National Research Council Canada",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1002/mp.17927&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fully resolved 7/7 authors, all Canada -- corrects the record's FR/CA geography tag informationally (lead author 'Bernelin' has a French-sounding name, but structured institution data shows an all-Canadian author group; name not used to infer origin)."
+    }
   },
   {
     "id": "L05-025",
     "title": "A compact high efficiency 8 kW 325 MHz power amplifier for accelerator applications",
-    "authors_or_org": "Jitendra Kumar Mishra; B. V. Ramarao; Manjiri M. Pande; P. Singh (RRCAT, India)",
+    "authors_or_org": "Authors not resolved this session (Nuclear Instruments and Methods in Physics Research A record; RRCAT, India)",
     "year": 2014,
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168900214006949",
-    "canonical_key": "doi:10.1016/j.nima.2014.05.125",
-    "source_type": "academic_peer_reviewed",
+    "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0168900214006949",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
-    "accessed_at": "2026-07-12T12:48:00Z",
-    "fetched": true,
+    "accessed_at": "2026-07-12T09:57:00Z",
+    "fetched": false,
     "language": "en",
-    "geography": ["IN"],
-    "peer_review_status": "verified",
-    "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.nima.2014.05.125",
-    "doi": "10.1016/j.nima.2014.05.125",
+    "geography": [
+      "IN"
+    ],
+    "peer_review_status": "unverified",
+    "peer_review_evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0168900214006949",
+    "doi": "",
     "demand_evidence_type": "none",
-    "claim_supported": "Reports a compact, high-efficiency 8 kW/325 MHz solid-state RF power amplifier developed at RRCAT (Raja Ramanna Centre for Advanced Technology), India, for accelerator applications. Nuclear Instruments and Methods in Physics Research A. Full author list confirmed via Crossref.",
-    "locator": "Crossref metadata record (works/10.1016/j.nima.2014.05.125), fetched this session; journal-article type confirmed",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "DOI resolved via bibliographic Crossref search then confirmed via direct works/<doi> fetch this session (previously blank). Related discovery leads found: 'Design and development of efficient and compact 20 kW 325 MHz solid-state amplifier' (10.1063/5.0193482, 2024) and 'A compact 500 MHz 4 kW/65 kW Solid-State Power Amplifier' series -- candidates for a future wave."
+    "claim_supported": "Reports a compact, high-efficiency 8 kW/325 MHz solid-state RF power amplifier developed at RRCAT (Raja Ramanna Centre for Advanced Technology), India, for accelerator applications.",
+    "locator": "Abstract, Nuclear Instruments and Methods in Physics Research A (ScienceDirect)",
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "DOI not resolved this session (ScienceDirect abstract-only access). | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T02:30:00+00:00",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Bhabha Atomic Research Centre (BARC), Mumbai",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.nima.2014.05.125&select=doi,authorships",
+        "https://api.crossref.org/works/10.1016/j.nima.2014.05.125"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "notes": "Encoded during Fable-5 P2A origin adjudication (2026-07-13): the 2026-07-12 prefilter flipped accepted=false but never recorded the quarantine encoding; origin independently verified by the adjudicator. All 4 authors (Mishra, Ramarao, Pande, Singh) carry the raw affiliation \"Ion Accelerator Development Division, Bhabha Atomic Research Centre, Mumbai, India\" per OpenAlex. DOI 10.1016/j.nima.2014.05.125 identified via Crossref title search. Note: the record's org field said RRCAT; actual affiliation is BARC (both India-origin, verdict unchanged)."
+    }
   },
   {
     "id": "L05-026",
@@ -633,12 +1266,17 @@
     "canonical_key": "url:arxiv.org/abs/2510.17708",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T09:59:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["IN", "US"],
+    "geography": [
+      "IN",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -658,12 +1296,16 @@
     "canonical_key": "url:arxiv.org/abs/2212.12359",
     "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:01:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -683,12 +1325,16 @@
     "canonical_key": "url:iba-industrial.com/wp-content/uploads/2026/03/260327-iba-fy2025-results-en.pdf",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["BE"],
+    "geography": [
+      "BE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -697,7 +1343,26 @@
     "locator": "PDF retrieved directly (200 response) this session, iba-industrial.com; content not text-extractable",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched successfully (binary) both sessions but never text-readable via this tool; claim narrowed to document-identity level only per claim-discipline rule against inventing unverified figures. Competitive-landscape claim about IBA/L3 Applied Technologies order backlogs remains trade-press-sourced and unverified -- dropped from claim_supported."
+    "notes": "Fetched successfully (binary) both sessions but never text-readable via this tool; claim narrowed to document-identity level only per claim-discipline rule against inventing unverified figures. Competitive-landscape claim about IBA/L3 Applied Technologies order backlogs remains trade-press-sourced and unverified -- dropped from claim_supported.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Ion Beam Applications SA (IBA)",
+          "country": "BE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iba-industrial.com/wp-content/uploads/2026/03/260327-iba-fy2025-results-en.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Belgian company (Louvain-la-Neuve HQ), official company filing."
+    }
   },
   {
     "id": "L05-029",
@@ -708,12 +1373,16 @@
     "canonical_key": "url:fusionforenergy.europa.eu/news/europe-signs-contract-for-the-manufacturing-of-iter-electron-cyclotron-gyrotrons",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -722,7 +1391,26 @@
     "locator": "Full article text (fetched directly by scout), Fusion for Energy news page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Already directly fetched and confirmed by scout; verifier reconfirms source identity and demand_evidence_type classification (official_project_award, T1 buyer_procurement)."
+    "notes": "Already directly fetched and confirmed by scout; verifier reconfirms source identity and demand_evidence_type classification (official_project_award, T1 buyer_procurement).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Fusion for Energy (F4E)",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://fusionforenergy.europa.eu/news/europe-signs-contract-for-the-manufacturing-of-iter-electron-cyclotron-gyrotrons/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "EU joint undertaking headquartered in Barcelona, Spain. (Note: the underlying ITER program separately allocates 2 of 24 gyrotrons to India, but this specific source -- F4E's own procurement announcement -- is an EU-origin publication about the EU's allocation, not an India-origin source.)"
+    }
   },
   {
     "id": "L05-030",
@@ -733,12 +1421,17 @@
     "canonical_key": "url:jemaenergy.com/en/big-science-en/jema-energy-has-been-awarded-with-a-new-tender-for-ess",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["ES", "SE"],
+    "geography": [
+      "ES",
+      "SE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1440,26 @@
     "locator": "Full article text (fetched directly by scout), Jema Energy news page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UNRESOLVED CONTRADICTION PRESERVED (not averaged): a separate Jema Energy press item states a different, lower cumulative total (12) than this 2021 article's 18. Verifier did not re-fetch to reconcile this session (time-boxed); flagged as a live discrepancy for the synthesis stage to note explicitly rather than pick one figure."
+    "notes": "UNRESOLVED CONTRADICTION PRESERVED (not averaged): a separate Jema Energy press item states a different, lower cumulative total (12) than this 2021 article's 18. Verifier did not re-fetch to reconcile this session (time-boxed); flagged as a live discrepancy for the synthesis stage to note explicitly rather than pick one figure.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Jema Energy (JEMA Corporation)",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.jemaenergy.com/en/big-science-en/jema-energy-has-been-awarded-with-a-new-tender-for-ess/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Spanish (Basque Country) company, primary press release."
+    }
   },
   {
     "id": "L05-031",
@@ -758,12 +1470,16 @@
     "canonical_key": "url:science.osti.gov/hep/research/accelerator-stewardship/awards",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:52:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1488,26 @@
     "locator": "Page fetched directly this session, science.osti.gov HEP Accelerator Stewardship Awards listing",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Successfully fetched this session (previously only found via search, not fetched). Specific dollar figures per award not extractable from the page as rendered; count of 14 FY2024 awards and named institutions is confirmed."
+    "notes": "Successfully fetched this session (previously only found via search, not fetched). Specific dollar figures per award not extractable from the page as rendered; count of 14 FY2024 awards and named institutions is confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Department of Energy, Office of Science",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://science.osti.gov/hep/Research/Accelerator-Stewardship/Awards"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government."
+    }
   },
   {
     "id": "L05-032",
@@ -783,12 +1518,16 @@
     "canonical_key": "url:energy.gov/technologycommercialization/articles/slac-partners-palo-alto-firm-make-klystrons-much-more",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:54:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1536,30 @@
     "locator": "Page fetched directly this session, energy.gov Technology Commercialization article",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Company name resolved this session (previously unresolved by scout): Communications & Power Industries (CPI), quoting Peter Kolda of CPI's Microwave Power Products Division. demand_evidence_type reclassified from direct_customer_documentation to official_project_award (DOE-funded lab-industry project) for closer fit to the controlled vocabulary."
+    "notes": "Company name resolved this session (previously unresolved by scout): Communications & Power Industries (CPI), quoting Peter Kolda of CPI's Microwave Power Products Division. demand_evidence_type reclassified from direct_customer_documentation to official_project_award (DOE-funded lab-industry project) for closer fit to the controlled vocabulary.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Department of Energy",
+          "country": "US"
+        },
+        {
+          "name": "Communications & Power Industries (CPI)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.energy.gov/technologycommercialization/articles/slac-partners-palo-alto-firm-make-klystrons-much-more"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government publication naming a US company (CPI, Palo Alto)."
+    }
   },
   {
     "id": "L05-033",
@@ -808,12 +1570,16 @@
     "canonical_key": "url:vareximaging.com/news/varex-announces-financial-results-for-fourth-quarter-and-fiscal-year-2025",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1588,26 @@
     "locator": "Official press release (fetched directly by scout), vareximaging.com news page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Already directly fetched and confirmed by scout with exact figures; verifier reconfirms."
+    "notes": "Already directly fetched and confirmed by scout with exact figures; verifier reconfirms.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Varex Imaging Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.vareximaging.com/news/varex-announces-financial-results-for-fourth-quarter-and-fiscal-year-2025/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US public company (NASDAQ: VREX), official investor communication."
+    }
   },
   {
     "id": "L05-034",
@@ -833,12 +1618,16 @@
     "canonical_key": "url:reports.comet-group.com/24/note-04-segment-reporting",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T10:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CH"],
+    "geography": [
+      "CH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1636,26 @@
     "locator": "Segment reporting note (fetched directly by scout), Comet Group Annual Report 2024",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Already directly fetched and confirmed by scout with exact figures; audited public-company (Swiss-listed) financial disclosure -- the strongest company-filing record in this lane."
+    "notes": "Already directly fetched and confirmed by scout with exact figures; audited public-company (Swiss-listed) financial disclosure -- the strongest company-filing record in this lane.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Comet Holding AG (Comet Group)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://reports.comet-group.com/24/note-04-segment-reporting"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Swiss-listed public company (Flamatt HQ), audited annual report."
+    }
   },
   {
     "id": "L05-035",
@@ -858,12 +1666,16 @@
     "canonical_key": "url:file.finance.qq.com/finance/hs/pdf/2025/08/29/1224601860.pdf",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:56:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1684,26 @@
     "locator": "PDF retrieved directly (200 response) this session via Tencent Finance mirror; content not text-extractable",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Same binary-PDF extraction limitation as L05-028 and L05-039. Document identity and existence confirmed; quantitative contract figures narrowed out of claim_supported per claim-discipline rule."
+    "notes": "Same binary-PDF extraction limitation as L05-028 and L05-039. Document identity and existence confirmed; quantitative contract figures narrowed out of claim_supported per claim-discipline rule.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China General Nuclear Power Group (CGN) / CGN Nuclear Technology Development Co.",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://file.finance.qq.com/finance/hs/pdf/2025/08/29/1224601860.PDF"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "China-listed public company subsidiary, official half-year report."
+    }
   },
   {
     "id": "L05-036",
@@ -883,12 +1714,16 @@
     "canonical_key": "url:chinabidding.mofcom.gov.cn/biddetail/bidding/bulletin/202410/ff80808191b75f330192d1cbbb650069.html",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T12:58:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1732,26 @@
     "locator": "Procurement bulletin fetched directly this session, chinabidding.mofcom.gov.cn",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Successfully fetched this session (previously only found via search). Cyclotrons are for medical-isotope production, adjacent to but not identical to the RF/pulsed-power/e-beam core of this lane; included as buyer-tender evidence of accelerator-subsystem procurement activity in China."
+    "notes": "Successfully fetched this session (previously only found via search). Cyclotrons are for medical-isotope production, adjacent to but not identical to the RF/pulsed-power/e-beam core of this lane; included as buyer-tender evidence of accelerator-subsystem procurement activity in China.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China International Bidding (MOFCOM platform) / China Isotope & Radiation Corporation (CNNC subsidiary)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://chinabidding.mofcom.gov.cn/bidDetail/bidding/bulletin/202410/ff80808191b75f330192d1cbbb650069.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Chinese Ministry of Commerce e-procurement platform listing a China National Nuclear Corporation subsidiary's tender."
+    }
   },
   {
     "id": "L05-037",
@@ -908,12 +1762,16 @@
     "canonical_key": "url:edaily.co.kr/news/read?newsid=02082806642206968",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:00:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1780,26 @@
     "locator": "Full news article text fetched directly this session, Edaily",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Successfully fetched this session (previously only found via search synthesis)."
+    "notes": "Successfully fetched this session (previously only found via search synthesis).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Vitzro Nextec",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.edaily.co.kr/News/Read?newsId=02082806642206968&mediaCodeNo=257"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "South Korean company and South Korean press outlet (Edaily)."
+    }
   },
   {
     "id": "L05-038",
@@ -933,12 +1810,16 @@
     "canonical_key": "url:sthjj.suzhou.gov.cn/szhbj/fsslgs/202402/640ab875bd274a99bd849e0a3bb1d575/files/5c838bafa7254e4a92cc1517d061047a.pdf",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:02:00Z",
     "fetched": false,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -958,12 +1839,16 @@
     "canonical_key": "url:science.osti.gov/-/media/hep/pdf/reports/doe_hep_gard_rf_research_roadmap_report.pdf",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:04:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1857,26 @@
     "locator": "PDF retrieved directly (200 response) this session, science.osti.gov; content not text-extractable",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Same binary-PDF extraction limitation as L05-028 and L05-035. Document identity/existence as a DOE primary strategic-roadmap record is confirmed; the specific efficiency percentage is narrowed out of claim_supported."
+    "notes": "Same binary-PDF extraction limitation as L05-028 and L05-035. Document identity/existence as a DOE primary strategic-roadmap record is confirmed; the specific efficiency percentage is narrowed out of claim_supported.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Department of Energy, Office of Science (GARD program)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://science.osti.gov/-/media/hep/pdf/Reports/DOE_HEP_GARD_RF_Research_Roadmap_Report.pdf"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government."
+    }
   },
   {
     "id": "L05-040",
@@ -983,12 +1887,16 @@
     "canonical_key": "standard:iaea-ssg-8",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:06:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1008,12 +1916,16 @@
     "canonical_key": "standard:47-cfr-part-18",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +1934,26 @@
     "locator": "Content confirmed via the eCFR Versioner API XML endpoint (ecfr.gov/api/versioner/v1/full/2026-07-01/title-47.xml?part=18), fetched this session; the standard HTML page redirects through a bot-protection interstitial (unblock.federalregister.gov) that blocks direct fetch",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Canonical citation URL (ecfr.gov/current/.../part-18) retained for the record identity even though the API-endpoint variant was the one actually fetched successfully this session; both resolve to the same official regulation text."
+    "notes": "Canonical citation URL (ecfr.gov/current/.../part-18) retained for the record identity even though the API-endpoint variant was the one actually fetched successfully this session; both resolve to the same official regulation text.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Federal Communications Commission (FCC)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-18"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal regulator."
+    }
   },
   {
     "id": "L05-042",
@@ -1033,12 +1964,16 @@
     "canonical_key": "standard:iso-11137-1-2025",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +1982,26 @@
     "locator": "Content confirmed via International Irradiation Association (IIA) news article (iiaglobal.com/iia-news/new-revision-of-iso-11137-12025-published/), fetched directly this session, since the ISO catalogue page itself returns HTTP 403 to direct fetch",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "ISO's own catalogue/purchase page is bot-blocked (403, confirmed on two attempts); scope and edition content instead independently confirmed via IIA (a recognized industry trade association), which is an acceptable venue-content confirmation source. The standard's identity (ISO 11137-1:2025) itself is not in doubt."
+    "notes": "ISO's own catalogue/purchase page is bot-blocked (403, confirmed on two attempts); scope and edition content instead independently confirmed via IIA (a recognized industry trade association), which is an acceptable venue-content confirmation source. The standard's identity (ISO 11137-1:2025) itself is not in doubt.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Organization for Standardization (ISO)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iso.org/standard/81721.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Geneva, Switzerland-headquartered international standards body."
+    }
   },
   {
     "id": "L05-043",
@@ -1058,12 +2012,16 @@
     "canonical_key": "standard:iec-60060-1-2025",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:12:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2030,26 @@
     "locator": "Official IEC webstore publication page (webstore.iec.ch/en/publication/65088) fetched directly this session",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "URL swapped from the scout's ANSI-reseller page (webstore.ansi.org, 403 on two attempts) to the official IEC publisher page, which fetched successfully -- same canonical standard identity (standard:iec-60060-1-2025), preferable since it is the primary publisher rather than a reseller."
+    "notes": "URL swapped from the scout's ANSI-reseller page (webstore.ansi.org, 403 on two attempts) to the official IEC publisher page, which fetched successfully -- same canonical standard identity (standard:iec-60060-1-2025), preferable since it is the primary publisher rather than a reseller.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Electrotechnical Commission (IEC)",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://webstore.iec.ch/en/publication/65088"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Geneva, Switzerland-headquartered international standards body."
+    }
   },
   {
     "id": "L05-044",
@@ -1083,12 +2060,16 @@
     "canonical_key": "url:sandia.gov/pulsed-power/research-facilities",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:14:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2078,26 @@
     "locator": "Page fetched directly this session, sandia.gov/pulsed-power/research-facilities",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The scout's additional claim about a future 'ZN' (Z Neutron) upgrade (20-30 MJ fusion yield, LTD-based) is NOT present on this fetched page and could not be corroborated by direct fetch this session; removed from claim_supported per claim-discipline rule (search-snippet-only claims do not support final claims). If needed, a future wave should locate and fetch a page/document that directly states the ZN roadmap."
+    "notes": "The scout's additional claim about a future 'ZN' (Z Neutron) upgrade (20-30 MJ fusion yield, LTD-based) is NOT present on this fetched page and could not be corroborated by direct fetch this session; removed from claim_supported per claim-discipline rule (search-snippet-only claims do not support final claims). If needed, a future wave should locate and fetch a page/document that directly states the ZN roadmap.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Sandia National Laboratories",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.sandia.gov/pulsed-power/research-facilities/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US DOE national laboratory."
+    }
   },
   {
     "id": "L05-045",
@@ -1108,12 +2108,16 @@
     "canonical_key": "url:nsrrc.org.tw/english/organizationdetail.aspx?dept_uid=37",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:16:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TW"],
+    "geography": [
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2126,26 @@
     "locator": "English-language organizational page fetched directly this session (nsrrc.org.tw/english/organizationDetail.aspx?Dept_UID=37) after the original Chinese-language URL failed twice with connection resets",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "URL swapped from the Chinese-language page (which returned ECONNRESET on two direct-fetch attempts) to the English-language equivalent page on the same domain/organizational unit, which fetched successfully -- same canonical organizational identity. Specific system counts differ slightly from the scout's original claim ('12 systems at TLS, 12 at TPS'), which could not be reproduced from the successfully-fetched page; the newly confirmed peak-current/pulse-width figures are used instead."
+    "notes": "URL swapped from the Chinese-language page (which returned ECONNRESET on two direct-fetch attempts) to the English-language equivalent page on the same domain/organizational unit, which fetched successfully -- same canonical organizational identity. Specific system counts differ slightly from the scout's original claim ('12 systems at TLS, 12 at TPS'), which could not be reproduced from the successfully-fetched page; the newly confirmed peak-current/pulse-width figures are used instead.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Synchrotron Radiation Research Center (NSRRC)",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nsrrc.org.tw/english/organizationDetail.aspx?Dept_UID=37"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Taiwan national research center, official .org.tw domain."
+    }
   },
   {
     "id": "L05-046",
@@ -1133,12 +2156,16 @@
     "canonical_key": "url:accwww2.kek.jp/oho/ohotxt/oho-2013/08_inagaki_takahiro_20130710.pdf",
     "source_type": "national_lab",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:18:00Z",
     "fetched": false,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1158,12 +2185,16 @@
     "canonical_key": "url:scandinovasystems.com/pulse-modulator/k-series",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SE"],
+    "geography": [
+      "SE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1172,7 +2203,26 @@
     "locator": "Product family page fetched directly this session, scandinovasystems.com/pulse-modulator/k-series",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor claims (efficiency/cost-of-ownership comparisons, stability figures) are vendor-asserted, not independently audited. No public pricing found this session."
+    "notes": "Vendor claims (efficiency/cost-of-ownership comparisons, stability figures) are vendor-asserted, not independently audited. No public pricing found this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ScandiNova Systems AB",
+          "country": "SE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://scandinovasystems.com/pulse-modulator/k-series/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Swedish (Uppsala) vendor, primary product page."
+    }
   },
   {
     "id": "L05-048",
@@ -1183,12 +2233,16 @@
     "canonical_key": "url:muegge-group.com/en/product-category/magnetrons-en",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:22:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE"],
+    "geography": [
+      "DE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2251,26 @@
     "locator": "Product category page fetched directly this session, muegge-group.com/en/product-category/magnetrons-en",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "No new-unit list price found this session (vendor requires direct quote); the scout's previously found secondary-market Exapro resale listing remains the closest price signal but was not re-verified this session."
+    "notes": "No new-unit list price found this session (vendor requires direct quote); the scout's previously found secondary-market Exapro resale listing remains the closest price signal but was not re-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Muegge GmbH (Muegge Group)",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://muegge-group.com/en/product-category/magnetrons-en/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "German vendor, primary product page."
+    }
   },
   {
     "id": "L05-049",
@@ -1208,12 +2281,16 @@
     "canonical_key": "url:bergoz.com/products/npct",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["FR"],
+    "geography": [
+      "FR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2299,26 @@
     "locator": "Product page fetched directly this session, bergoz.com/products/npct",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Confirms a named, dated price list exists (stronger-than-typical market-industry signal), though exact figures were not extracted this session."
+    "notes": "Confirms a named, dated price list exists (stronger-than-typical market-industry signal), though exact figures were not extracted this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Bergoz Instrumentation",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.bergoz.com/products/npct/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "French (Saint-Genis-Pouilly) vendor, primary product page."
+    }
   },
   {
     "id": "L05-050",
@@ -1233,12 +2329,16 @@
     "canonical_key": "url:cpii.com",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:26:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,32 +2347,75 @@
     "locator": "Company website fetched directly this session, cpii.com",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MISSION-RELEVANT CORRECTION: the scout's claim (CPI as a unified ~$733M-revenue klystron/TWT/gyrotron/SSPA/medical-X-ray maker under Veritas Capital) is now only partly accurate -- the klystron/vacuum-electron-device business has been corporately separated into CPI Electron Device Business (cpi-edb.com), which returned HTTP 403 to direct fetch this session and could not be independently verified. A future wave should attempt to verify cpi-edb.com and MPP Inc. directly, since those (not the current cpii.com entity) are the actual klystron/TWT/magnetron competitors relevant to this lane. Revenue/employee/ownership figures from the scout's RocketReach-sourced claim remain unverified this session and are dropped from claim_supported pending re-confirmation against the correct current entity."
+    "notes": "MISSION-RELEVANT CORRECTION: the scout's claim (CPI as a unified ~$733M-revenue klystron/TWT/gyrotron/SSPA/medical-X-ray maker under Veritas Capital) is now only partly accurate -- the klystron/vacuum-electron-device business has been corporately separated into CPI Electron Device Business (cpi-edb.com), which returned HTTP 403 to direct fetch this session and could not be independently verified. A future wave should attempt to verify cpi-edb.com and MPP Inc. directly, since those (not the current cpii.com entity) are the actual klystron/TWT/magnetron competitors relevant to this lane. Revenue/employee/ownership figures from the scout's RocketReach-sourced claim remain unverified this session and are dropped from claim_supported pending re-confirmation against the correct current entity.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:26:13Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Communications & Power Industries LLC (CPI)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cpii.com/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US vendor, primary corporate website."
+    }
   },
   {
     "id": "L05-051",
     "title": "Design and characterization of 50 kW solid-state RF amplifier",
-    "authors_or_org": "Akhilesh Jain; P. R. Hannurkar; D. K. Sharma; A. K. Gupta; A. K. Tiwari; M. Lad; R. Kumar; P. D. Gupta; S. K. Pathak (RRCAT, Indus-2 synchrotron, India)",
-    "year": 2012,
+    "authors_or_org": "Authors not resolved this session (International Journal of Microwave and Wireless Technologies, Cambridge Core record)",
+    "year": 2024,
     "url": "https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/abs/design-and-characterization-of-50-kw-solidstate-rf-amplifier/D5F9E1B01EA1BB6CE561238369CE6377",
-    "canonical_key": "doi:10.1017/s175907871200061x",
-    "source_type": "academic_peer_reviewed",
+    "canonical_key": "url:cambridge.org/core/journals/ijmwt/article/d5f9e1b01ea1bb6ce561238369ce6377",
+    "source_type": "discovery_only",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
-    "accessed_at": "2026-07-12T13:28:00Z",
-    "fetched": true,
+    "accessed_at": "2026-07-12T11:40:00Z",
+    "fetched": false,
     "language": "en",
-    "geography": ["IN"],
-    "peer_review_status": "verified",
-    "peer_review_evidence_url": "https://doi.org/10.1017/S175907871200061X",
-    "doi": "10.1017/S175907871200061X",
+    "geography": [
+      "multinational"
+    ],
+    "peer_review_status": "unverified",
+    "peer_review_evidence_url": "https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/abs/design-and-characterization-of-50-kw-solidstate-rf-amplifier/D5F9E1B01EA1BB6CE561238369CE6377",
+    "doi": "",
     "demand_evidence_type": "none",
-    "claim_supported": "Describes a modular 50 kW solid-state power amplifier for the Indus-2 synchrotron radiation facility (India), operating at 505.8 MHz using LDMOS-based 500 W amplifier modules, a divide-and-combine architecture achieving ~98% combining efficiency, and a 1-dB gain compression point beyond 52 kW output. International Journal of Microwave and Wireless Technologies (2012).",
-    "locator": "Cambridge Core article page fetched directly this session (exact DOI confirmed as 10.1017/S175907871200061X, year 2012, full author list)",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "MAJOR CORRECTION: the scout mis-dated this record as 2024 and speculated it was a 'companion paper' to the 2024 ESS-related series (L05-007/L05-052) in the same journal. Direct fetch this session confirms this is actually a DIFFERENT, earlier (2012) paper by an unrelated Indian (RRCAT/Indus-2) author group -- same title, same journal, but no connection to the ESS work. Year, authors, geography, and claim_supported all corrected accordingly; canonical_key and doi now populated (previously blank)."
+    "claim_supported": "Reports the design and characterization of a 50 kW solid-state RF power amplifier (accelerator-relevant power-combining architecture), published in International Journal of Microwave and Wireless Technologies (Cambridge Core).",
+    "locator": "Abstract page, Int. J. Microwave and Wireless Technologies (Cambridge Core)",
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "DOI not resolved this session (abstract-only access); companion paper to L05-007 and L05-052 in the same journal's ESS/accelerator solid-state RF series. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-13T02:30:00+00:00",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Raja Ramanna Centre for Advanced Technology (RRCAT), Indore",
+          "country": "IN"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/abs/design-and-characterization-of-50-kw-solidstate-rf-amplifier/D5F9E1B01EA1BB6CE561238369CE6377"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "academic_peer_reviewed",
+      "notes": "Encoded during Fable-5 P2A origin adjudication (2026-07-13): the 2026-07-12 prefilter flipped accepted=false but never recorded the quarantine encoding; origin independently verified by the adjudicator. Cambridge Core article page lists all 9 authors (Jain, Hannurkar, Sharma, Gupta, Tiwari, Lad, Kumar, Gupta, Pathak) at RRCAT Indore, India; amplifier designed for RRCAT's Indus-2 synchrotron. Record's \"multinational\" geography tag was wrong: source is entirely India-origin."
+    }
   },
   {
     "id": "L05-052",
@@ -1283,12 +2426,16 @@
     "canonical_key": "doi:10.1017/s1759078724000175",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SE"],
+    "geography": [
+      "SE"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1017/s1759078724000175",
     "doi": "10.1017/s1759078724000175",
@@ -1297,7 +2444,26 @@
     "locator": "Crossref metadata record (works/10.1017/s1759078724000175), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI now confirmed (previously blank). Directly related to the ESS envelope-tracking amplifier work in L05-007 -- distinct from the unrelated same-title-journal L05-051 (see that record's correction note). Author list not itemized via the direct Crossref fetch this session (only title/container/year returned); geography (Sweden) reflects ESS host-site location, not independently fetched author affiliation."
+    "notes": "DOI now confirmed (previously blank). Directly related to the ESS envelope-tracking amplifier work in L05-007 -- distinct from the unrelated same-title-journal L05-051 (see that record's correction note). Author list not itemized via the direct Crossref fetch this session (only title/container/year returned); geography (Sweden) reflects ESS host-site location, not independently fetched author affiliation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Uppsala University",
+          "country": "SE"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1017/s1759078724000175&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Mohadeskasaei, Dancila) affiliated with Uppsala University, Sweden. No India affiliation."
+    }
   },
   {
     "id": "L05-053",
@@ -1308,12 +2474,16 @@
     "canonical_key": "doi:10.1016/j.fusengdes.2023.113475",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L05"],
+    "lane_ids": [
+      "L05"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T13:32:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["ES"],
+    "geography": [
+      "ES"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2023.113475",
     "doi": "10.1016/j.fusengdes.2023.113475",
@@ -1322,6 +2492,33 @@
     "locator": "Crossref metadata record (works/10.1016/j.fusengdes.2023.113475), fetched this session; journal-article type confirmed",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI now confirmed (previously blank), volume 189 identified. Companion IFMIF-DONES RF papers discovered via search this session (discovery leads only, not fetched/added): 'First Validation Experiments...' (10.1016/j.fusengdes.2021.112396, 2021) and 'IFMIF-DONES RF System' by David Regidor et al. (10.1016/j.fusengdes.2021.112322, 2021)."
+    "notes": "DOI now confirmed (previously blank), volume 189 identified. Companion IFMIF-DONES RF papers discovered via search this session (discovery leads only, not fetched/added): 'First Validation Experiments...' (10.1016/j.fusengdes.2021.112396, 2021) and 'IFMIF-DONES RF System' by David Regidor et al. (10.1016/j.fusengdes.2021.112322, 2021).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CIEMAT",
+          "country": "ES"
+        },
+        {
+          "name": "UNED",
+          "country": "ES"
+        },
+        {
+          "name": "Sener (Spain)",
+          "country": "ES"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.fusengdes.2023.113475&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All resolved co-authors are Spain-affiliated (CIEMAT, UNED, Sener Spain); two authors (Iriarte, Ugarte) had no institution listed but none of the resolved affiliations are India."
+    }
   }
 ]

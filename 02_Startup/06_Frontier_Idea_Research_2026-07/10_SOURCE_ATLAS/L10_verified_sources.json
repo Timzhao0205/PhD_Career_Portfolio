@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1016/j.jclepro.2025.146452",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.jclepro.2025.146452",
     "doi": "10.1016/j.jclepro.2025.146452",
@@ -22,7 +26,26 @@
     "locator": "Journal of Cleaner Production, vol. 524, article 146452 (2025); Crossref confirms journal-article type, exact title, and full author list (Wei, Liu, Liu, Feng) this session -- corrects raw record's 'unconfirmed authors'.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref bibliographic search this session (raw record had no DOI). ScienceDirect article page itself still paywall-gated (not re-fetched), but Crossref works-API record is a successful fetch this session confirming canonical identity, journal-article type, and container-title. Same author trio (Liu Qiang, Liu Bo, Feng Yanbiao) also appears on L10-015 (Wiley Energy Technology) -- likely the same research group publishing related mining-haul-truck sizing work, not a duplicate (different journals/papers)."
+    "notes": "DOI resolved via Crossref bibliographic search this session (raw record had no DOI). ScienceDirect article page itself still paywall-gated (not re-fetched), but Crossref works-API record is a successful fetch this session confirming canonical identity, journal-article type, and container-title. Same author trio (Liu Qiang, Liu Bo, Feng Yanbiao) also appears on L10-015 (Wiley Energy Technology) -- likely the same research group publishing related mining-haul-truck sizing work, not a duplicate (different journals/papers).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.jclepro.2025.146452&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (Wei, Liu Q., Liu B., Feng) resolved to CN-located institutions via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-002",
@@ -33,12 +56,16 @@
     "canonical_key": "doi:10.1109/access.2025.3588871",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/access.2025.3588871",
     "doi": "10.1109/access.2025.3588871",
@@ -47,7 +74,26 @@
     "locator": "IEEE Access (2025), doi 10.1109/ACCESS.2025.3588871; Crossref confirms journal-article type, title, and author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via WebSearch + confirmed via Crossref this session. Author affiliation independently confirmed via WebSearch this session: all four authors (Bao, Knights, Kizil, Nehring) are affiliated with the University of Queensland School of Mechanical & Mining Engineering (Australia) -- geography corrected from raw's 'unspecified' to AU based on direct institutional confirmation, not inference."
+    "notes": "DOI resolved via WebSearch + confirmed via Crossref this session. Author affiliation independently confirmed via WebSearch this session: all four authors (Bao, Knights, Kizil, Nehring) are affiliated with the University of Queensland School of Mechanical & Mining Engineering (Australia) -- geography corrected from raw's 'unspecified' to AU based on direct institutional confirmation, not inference.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Queensland, School of Mechanical & Mining Engineering",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/access.2025.3588871&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (Bao, Knights, Kizil, Nehring) resolved to University of Queensland (AU) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-003",
@@ -58,12 +104,16 @@
     "canonical_key": "doi:10.1080/17480930.2023.2278013",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/17480930.2023.2278013",
     "doi": "10.1080/17480930.2023.2278013",
@@ -72,7 +122,26 @@
     "locator": "International Journal of Mining, Reclamation and Environment (2023); Crossref confirms journal-article type, exact title, and full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: raw record mistitled the venue as 'Mining Technology, Taylor & Francis'; Crossref confirms the actual container-title is 'International Journal of Mining, Reclamation and Environment' (also Taylor & Francis / Informa UK). Author affiliation confirmed via WebSearch this session (same UQ team as L10-002) -- geography corrected from 'unspecified' to AU."
+    "notes": "CORRECTION: raw record mistitled the venue as 'Mining Technology, Taylor & Francis'; Crossref confirms the actual container-title is 'International Journal of Mining, Reclamation and Environment' (also Taylor & Francis / Informa UK). Author affiliation confirmed via WebSearch this session (same UQ team as L10-002) -- geography corrected from 'unspecified' to AU.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Queensland, School of Mechanical & Mining Engineering",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1080/17480930.2023.2278013&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Same UQ author team as L10-002; all 4 authors resolved AU via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-004",
@@ -83,12 +152,16 @@
     "canonical_key": "doi:10.3390/en14217046",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["HR"],
+    "geography": [
+      "HR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en14217046",
     "doi": "10.3390/en14217046",
@@ -97,7 +170,26 @@
     "locator": "Energies, vol. 14, issue 21, article 7046 (2021); Crossref confirms journal-article type, title, authors this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verified via Crossref works API this session (author list matches raw record exactly). Geography (HR) reflects the Croatian case-study setting, not necessarily all authors' institutional country."
+    "notes": "Verified via Crossref works API this session (author list matches raw record exactly). Geography (HR) reflects the Croatian case-study setting, not necessarily all authors' institutional country.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "HR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en14217046&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Perčić, Vladimir, Korićan) resolved Croatia (HR) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-005",
@@ -108,12 +200,16 @@
     "canonical_key": "doi:10.3390/en14175264",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en14175264",
     "doi": "10.3390/en14175264",
@@ -122,7 +218,26 @@
     "locator": "Energies, vol. 14, issue 17, article 5264 (2021); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors' in raw). Author names are Korean; institutional affiliation not independently confirmed this session, so geography left unspecified rather than guessed."
+    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors' in raw). Author names are Korean; institutional affiliation not independently confirmed this session, so geography left unspecified rather than guessed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en14175264&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved South Korea (KR) via OpenAlex; no IN affiliations. Raw record's 'unspecified' geography corrected by this audit."
+    }
   },
   {
     "id": "L10-006",
@@ -133,12 +248,16 @@
     "canonical_key": "doi:10.3390/en15134908",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en15134908",
     "doi": "10.3390/en15134908",
@@ -147,7 +266,27 @@
     "locator": "Energies, vol. 15, issue 13, article 4908 (2022); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session. Several author names (Sætendal, Valøen) are consistent with Norwegian battery/maritime-industry researchers, but institutional affiliation not independently confirmed this session -- geography left unspecified rather than guessed."
+    "notes": "Author list resolved via Crossref this session. Several author names (Sætendal, Valøen) are consistent with Norwegian battery/maritime-industry researchers, but institutional affiliation not independently confirmed this session -- geography left unspecified rather than guessed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Norwegian maritime/battery industry institutions (incl. entities linked to Rem Offshore)",
+          "country": "NO"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en15134908&select=doi,ids,authorships",
+        "https://worldoil.com/news/2024/9/26/norwegian-electric-systems-to-deliver-sustainable-battery-energy-storage-system-to-rem-offshore-vessel/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "6 of 7 authors resolved NO via OpenAlex; 7th (Alfred Remøy) had no OpenAlex institution record but WebSearch corroborates a Norwegian offshore/maritime-industry context consistent with co-authors. No IN affiliations found for any author."
+    }
   },
   {
     "id": "L10-007",
@@ -158,12 +297,16 @@
     "canonical_key": "doi:10.1007/s10098-024-03065-w",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s10098-024-03065-w",
     "doi": "10.1007/s10098-024-03065-w",
@@ -172,7 +315,34 @@
     "locator": "Clean Technologies and Environmental Policy, vol. 27, pp. 3489-3517 (2025 issue; online Nov 2024); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors'). Author names are Turkish; institutional affiliation not independently confirmed -- geography left unspecified."
+    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors'). Author names are Turkish; institutional affiliation not independently confirmed -- geography left unspecified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "TR"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "GB"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1007/s10098-024-03065-w&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 authors resolved to TR (with GB/US secondary co-affiliations for two of them) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-008",
@@ -183,12 +353,16 @@
     "canonical_key": "doi:10.3390/en18205449",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en18205449",
     "doi": "10.3390/en18205449",
@@ -197,7 +371,26 @@
     "locator": "Energies, vol. 18, issue 20, article 5449 (2025); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review article -> T2 per SOURCE_STANDARDS regardless of venue. Author list resolved via Crossref this session (was 'unconfirmed authors'); DOI now independently confirmed via Crossref (was inferred from MDPI numbering in raw record)."
+    "notes": "Review article -> T2 per SOURCE_STANDARDS regardless of venue. Author list resolved via Crossref this session (was 'unconfirmed authors'); DOI now independently confirmed via Crossref (was inferred from MDPI numbering in raw record).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "PT"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en18205449&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (Jesus, Oliveira, Perdigão, Mendes) resolved Portugal (PT) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-009",
@@ -208,12 +401,16 @@
     "canonical_key": "doi:10.1109/mele.2022.3232965",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "10.1109/MELE.2022.3232965",
@@ -222,7 +419,26 @@
     "locator": "IEEE Electrification Magazine, vol. 11, issue 1, pp. 52-60 (2023); Crossref confirms container-title as 'IEEE Electrification Magazine' this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RETYPED per SOURCE_STANDARDS: Crossref confirms this is an IEEE Electrification MAGAZINE piece, not a peer-reviewed research journal article -- 'Editorials, standards, magazines, and Spectrum articles may be useful but must be typed correctly and do not count toward peer-reviewed quota.' Reclassified from academic_peer_reviewed/T1 to trade_press/T2, peer_review_status not_applicable. Content and author list otherwise confirmed via Crossref this session."
+    "notes": "RETYPED per SOURCE_STANDARDS: Crossref confirms this is an IEEE Electrification MAGAZINE piece, not a peer-reviewed research journal article -- 'Editorials, standards, magazines, and Spectrum articles may be useful but must be typed correctly and do not count toward peer-reviewed quota.' Reclassified from academic_peer_reviewed/T1 to trade_press/T2, peer_review_status not_applicable. Content and author list otherwise confirmed via Crossref this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved), consistent with University of Trieste pattern",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/mele.2022.3232965&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (Bosich, Chiandone, Dalle Feste, Sulligoi) resolved Italy (IT) via OpenAlex; no IN affiliations. Record already correctly typed trade_press (IEEE magazine, not peer-reviewed) per ledger notes."
+    }
   },
   {
     "id": "L10-010",
@@ -233,12 +449,16 @@
     "canonical_key": "doi:10.1177/09544097231160613",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["BR"],
+    "geography": [
+      "BR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1177/09544097231160613",
     "doi": "10.1177/09544097231160613",
@@ -247,7 +467,26 @@
     "locator": "Proceedings of the Institution of Mechanical Engineers, Part F: Journal of Rail and Rapid Transit (2023); Crossref confirms journal-article type, title, author this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verified via Crossref works API this session. Year corrected to 2023 (Crossref published_year) vs. raw record's 2024. Geography (BR) based on author being a recognized Brazil-based rail engineering consultant; institutional affiliation not independently re-verified this session."
+    "notes": "Verified via Crossref works API this session. Year corrected to 2023 (Crossref published_year) vs. raw record's 2024. Geography (BR) based on author being a recognized Brazil-based rail engineering consultant; institutional affiliation not independently re-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "crossref"
+      ],
+      "institutions": [
+        {
+          "name": "FCB Research and Consulting, Brasília",
+          "country": "BR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1177/09544097231160613"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Sole author Fábio C. Barbosa affiliated with FCB Research and Consulting, Brasília, Brazil per Crossref author-affiliation metadata (OpenAlex had no institution data for this author)."
+    }
   },
   {
     "id": "L10-011",
@@ -258,12 +497,16 @@
     "canonical_key": "doi:10.1177/03611981241245996",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1177/03611981241245996",
     "doi": "10.1177/03611981241245996",
@@ -272,7 +515,30 @@
     "locator": "Transportation Research Record: Journal of the Transportation Research Board (2024); Crossref confirms journal-article type, title, authors this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verified via Crossref works API this session; author list and container-title match raw record exactly."
+    "notes": "Verified via Crossref works API this session; author list and container-title match raw record exactly.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "crossref"
+      ],
+      "institutions": [
+        {
+          "name": "Independent Transport Researcher, Ossining, NY",
+          "country": "US"
+        },
+        {
+          "name": "Independent Transport Consultant, Chicago, IL",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1177/03611981241245996"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Lu, Allen) listed with US-based independent-researcher/consultant affiliations per Crossref metadata (OpenAlex had no institution data)."
+    }
   },
   {
     "id": "L10-012",
@@ -283,12 +549,16 @@
     "canonical_key": "doi:10.1177/03611981251414676",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1177/03611981251414676",
     "doi": "10.1177/03611981251414676",
@@ -297,7 +567,26 @@
     "locator": "Transportation Research Record (2026); Crossref confirms journal-article type, title, authors this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verified via Crossref works API this session; author list matches raw record exactly. C. Tyler Dick is a recognized US (University of Illinois) rail engineering researcher."
+    "notes": "Verified via Crossref works API this session; author list matches raw record exactly. C. Tyler Dick is a recognized US (University of Illinois) rail engineering researcher.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Illinois and other US institutions",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1177/03611981251414676&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Shi, Copley, Dick) resolved US via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-013",
@@ -308,12 +597,16 @@
     "canonical_key": "doi:10.3389/fcomp.2025.1729185",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3389/fcomp.2025.1729185",
     "doi": "10.3389/fcomp.2025.1729185",
@@ -322,7 +615,26 @@
     "locator": "Frontiers in Computer Science, vol. 7 (2025), article 1729185; Crossref confirms journal-article type, title, full author list. Frontiers' peer-review policy: https://www.frontiersin.org/guidelines/peer-review-guidelines (single-anonymized external review + associate-editor decision).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Publisher page fetched successfully by scout; Crossref record confirmed independently this session. Geography (CN) inferred from author names/topic, not an explicit affiliation line -- kept per raw record's reasoning but flagged as inference."
+    "notes": "Publisher page fetched successfully by scout; Crossref record confirmed independently this session. Geography (CN) inferred from author names/topic, not an explicit affiliation line -- kept per raw record's reasoning but flagged as inference.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3389/fcomp.2025.1729185&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 6 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-014",
@@ -333,12 +645,16 @@
     "canonical_key": "doi:10.36001/phme.2026.v9i1.5024",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:25:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CL"],
+    "geography": [
+      "CL"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://phm-europe.org/instructions-to-authors",
     "doi": "10.36001/phme.2026.v9i1.5024",
@@ -347,7 +663,30 @@
     "locator": "PHM Society European Conference, vol. 9, no. 1 (2026), doi 10.36001/phme.2026.v9i1.5024; publisher page re-confirmed this session (title, full author list, venue). Conference peer-review process confirmed via PHM Society instructions-to-authors page (papers reviewed before acceptance for presentation/proceedings; top submissions forwarded to IJPHM for journal-level peer review).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "This DOI returns HTTP 404 on Crossref's public works API this session (PHM Society's DOI prefix 36001 may not be a Crossref-API-indexed participant, or the specific record is not yet indexed) -- canonical identity instead confirmed via direct publisher-page fetch (title/authors/venue match exactly) plus the PHM Society's documented conference peer-review process. Geography (CL) inferred from author-name/institution patterns typical of Chilean mining-engineering research groups; not an explicit affiliation line."
+    "notes": "This DOI returns HTTP 404 on Crossref's public works API this session (PHM Society's DOI prefix 36001 may not be a Crossref-API-indexed participant, or the specific record is not yet indexed) -- canonical identity instead confirmed via direct publisher-page fetch (title/authors/venue match exactly) plus the PHM Society's documented conference peer-review process. Geography (CL) inferred from author-name/institution patterns typical of Chilean mining-engineering research groups; not an explicit affiliation line.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "University of Chile, Dept. of Electrical Engineering / Dept. of Mining Engineering",
+          "country": "CL"
+        },
+        {
+          "name": "Delft University of Technology, Faculty of Aerospace Engineering",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 14,
+      "evidence_urls": [
+        "https://papers.phmsociety.org/index.php/phme/article/view/5024"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "DOI not indexed in Crossref/OpenAlex (PHM Society prefix); publisher page directly fetched and enumerates all 14 authors under University of Chile (CL) and Delft University of Technology (NL) affiliations. No IN affiliations."
+    }
   },
   {
     "id": "L10-015",
@@ -358,12 +697,16 @@
     "canonical_key": "doi:10.1002/ente.202301123",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/ente.202301123",
     "doi": "10.1002/ente.202301123",
@@ -372,7 +715,30 @@
     "locator": "Energy Technology (Wiley), 2024; Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (was 'Liu et al.'). Shares two authors (Liu Qiang, Liu Bo) and one (Feng Yanbiao) with L10-001, suggesting the same research group publishing related mining-truck sizing work across two journals -- not a duplicate record."
+    "notes": "Author list resolved via Crossref this session (was 'Liu et al.'). Shares two authors (Liu Qiang, Liu Bo) and one (Feng Yanbiao) with L10-001, suggesting the same research group publishing related mining-truck sizing work across two journals -- not a duplicate record.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        },
+        {
+          "name": "co-affiliated institution",
+          "country": "CA"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1002/ente.202301123&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "5 authors resolved CN/CA (Zuomin Dong is Canada-affiliated, Yanbiao Feng co-affiliated CA+CN) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-016",
@@ -383,12 +749,16 @@
     "canonical_key": "doi:10.1038/s41598-025-20517-5",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1038/s41598-025-20517-5",
     "doi": "10.1038/s41598-025-20517-5",
@@ -397,7 +767,26 @@
     "locator": "Scientific Reports, article s41598-025-20517-5 (2025); Crossref confirms journal-article type, title, and full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Original Nature/Springer article page hit a login-wall redirect (idp.nature.com) this session and was not independently re-fetched, but the Crossref works-API record was fetched successfully this session and independently confirms canonical identity (previously the DOI was only inferred from Nature's deterministic article-ID pattern) -- satisfies fetched=true via a successful fetch this session. Author names are Korean (Kongju National University pattern); institutional affiliation not independently confirmed -- geography left unspecified."
+    "notes": "Original Nature/Springer article page hit a login-wall redirect (idp.nature.com) this session and was not independently re-fetched, but the Crossref works-API record was fetched successfully this session and independently confirms canonical identity (previously the DOI was only inferred from Nature's deterministic article-ID pattern) -- satisfies fetched=true via a successful fetch this session. Author names are Korean (Kongju National University pattern); institutional affiliation not independently confirmed -- geography left unspecified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Kongju National University and other South Korean institutions",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 9,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1038/s41598-025-20517-5&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 9 authors resolved to South Korean institutions via OpenAlex (lead author Md. Abu Ayub Siddique's name pattern is South-Asian, but affiliation is independently resolved as a South Korean university, per the binding rule against inferring origin from name). No IN affiliations."
+    }
   },
   {
     "id": "L10-017",
@@ -408,12 +797,16 @@
     "canonical_key": "doi:10.1080/15435075.2025.2460061",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/15435075.2025.2460061",
     "doi": "10.1080/15435075.2025.2460061",
@@ -422,7 +815,26 @@
     "locator": "International Journal of Green Energy, vol. 22, no. 11 (2025); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors'). Author names suggest a Chinese/Australian research collaboration (Nong Zhang is a recognized University of Technology Sydney vehicle-engineering researcher); institutional affiliation not independently confirmed this session -- geography left unspecified."
+    "notes": "Author list resolved via Crossref this session (was 'unconfirmed authors'). Author names suggest a Chinese/Australian research collaboration (Nong Zhang is a recognized University of Technology Sydney vehicle-engineering researcher); institutional affiliation not independently confirmed this session -- geography left unspecified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1080/15435075.2025.2460061&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors (Yang, Zhang W., Zhang N.) resolved CN via OpenAlex for this specific publication; no IN affiliations."
+    }
   },
   {
     "id": "L10-018",
@@ -433,12 +845,16 @@
     "canonical_key": "doi:10.3390/wevj16110601",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/wevj16110601",
     "doi": "10.3390/wevj16110601",
@@ -447,7 +863,26 @@
     "locator": "World Electric Vehicle Journal, vol. 16, issue 11, article 601 (2025), published online 30 Oct 2025; Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI independently confirmed via Crossref this session (was inferred from MDPI's numbering convention in raw record). Author names are Russian (pattern consistent with Novosibirsk/Tomsk technical-university mining-engineering research); institutional affiliation not independently confirmed -- geography left unspecified."
+    "notes": "DOI independently confirmed via Crossref this session (was inferred from MDPI's numbering convention in raw record). Author names are Russian (pattern consistent with Novosibirsk/Tomsk technical-university mining-engineering research); institutional affiliation not independently confirmed -- geography left unspecified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "RU"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/wevj16110601&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolved Russia (RU) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-019",
@@ -458,12 +893,16 @@
     "canonical_key": "doi:10.59717/j.xinn-energy.2024.100064",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:20:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.59717/j.xinn-energy.2024.100064",
     "doi": "10.59717/j.xinn-energy.2024.100064",
@@ -472,7 +911,26 @@
     "locator": "The Innovation Energy, vol. 2, no. 1 (2025); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review article -> T2 per SOURCE_STANDARDS. Publisher page fetched successfully by scout; Crossref record independently confirmed this session. Geography (CN) inferred from author-name conventions, not an explicit affiliation statement."
+    "notes": "Review article -> T2 per SOURCE_STANDARDS. Publisher page fetched successfully by scout; Crossref record independently confirmed this session. Geography (CN) inferred from author-name conventions, not an explicit affiliation statement.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Agricultural University; Xi'an Jiaotong-Liverpool University; Northwest A&F University; Huazhong Agricultural University; Zhongkai University of Agriculture and Engineering; Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 16,
+      "evidence_urls": [
+        "https://www.the-innovation.org/article/doi/10.59717/j.xinn-energy.2024.100064"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "OpenAlex returned no institution data for any of the 16 authors; publisher page (the-innovation.org) directly fetched and enumerates all 16 authors under Chinese institutions. No IN affiliations."
+    }
   },
   {
     "id": "L10-020",
@@ -483,12 +941,16 @@
     "canonical_key": "doi:10.11975/j.issn.1002-6819.202404176",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:25:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "http://www.tcsae.org/cn/article/doi/10.11975/j.issn.1002-6819.202404176",
     "doi": "10.11975/j.issn.1002-6819.202404176",
@@ -497,7 +959,27 @@
     "locator": "Transactions of the Chinese Society of Agricultural Engineering, vol. 40, issue 23 (Dec 2024), pp. 39-51.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Review/survey article -> T2 per SOURCE_STANDARDS. Publisher page (sciOpen) fetched successfully by scout in Chinese. This session, doi.org resolution independently confirmed the DOI redirects correctly to the journal's own tcsae.org platform (direct content fetch on tcsae.org failed with a connection error this session, but the redirect confirms canonical DOI identity). Chinese-language local primary academic source."
+    "notes": "Review/survey article -> T2 per SOURCE_STANDARDS. Publisher page (sciOpen) fetched successfully by scout in Chinese. This session, doi.org resolution independently confirmed the DOI redirects correctly to the journal's own tcsae.org platform (direct content fetch on tcsae.org failed with a connection error this session, but the redirect confirms canonical DOI identity). Chinese-language local primary academic source.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Transactions of the CSAE (China Agricultural Engineering) authors/journal platform",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://www.sciopen.com/article/10.11975/j.issn.1002-6819.202404176",
+        "http://www.tcsae.org/cn/article/doi/10.11975/j.issn.1002-6819.202404176"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Chinese-language domestic academic journal (Transactions of CSAE); publisher page previously fetched directly by scout confirming Chinese authors/venue. No DOI resolution in OpenAlex (expected for this China-domestic-journal DOI prefix); no IN affiliations, no India connection."
+    }
   },
   {
     "id": "L10-021",
@@ -508,12 +990,16 @@
     "canonical_key": "doi:10.3390/en12091771",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en12091771",
     "doi": "10.3390/en12091771",
@@ -522,7 +1008,30 @@
     "locator": "Energies, vol. 12, issue 9, article 1771 (2019); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI independently confirmed via Crossref this session (previously derived only from MDPI's numbering convention). Author list resolved via Crossref (was 'unconfirmed authors')."
+    "notes": "DOI independently confirmed via Crossref this session (previously derived only from MDPI's numbering convention). Author list resolved via Crossref (was 'unconfirmed authors').",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "co-affiliated institution",
+          "country": "JO"
+        },
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en12091771&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "3 of 4 authors resolved (Alasali: JO+GB; Luque: GB; Holderbaum: GB); 1 author (Mayer) had no OpenAlex institution data. No IN affiliations found."
+    }
   },
   {
     "id": "L10-022",
@@ -533,12 +1042,16 @@
     "canonical_key": "doi:10.3390/en16207172",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/en16207172",
     "doi": "10.3390/en16207172",
@@ -547,7 +1060,26 @@
     "locator": "Energies, vol. 16, issue 20, article 7172 (2023); Crossref confirms journal-article type, title, full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI independently confirmed via Crossref this session (previously derived only from MDPI's numbering convention). Author names suggest a South African research group; institutional affiliation not independently confirmed -- geography left unspecified."
+    "notes": "DOI independently confirmed via Crossref this session (previously derived only from MDPI's numbering convention). Author names suggest a South African research group; institutional affiliation not independently confirmed -- geography left unspecified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "ZA"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.3390/en16207172&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Takalani, Masisi) resolved South Africa (ZA) via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-023",
@@ -558,12 +1090,16 @@
     "canonical_key": "doi:10.1080/20464177.2024.2436725",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:10:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1080/20464177.2024.2436725",
     "doi": "10.1080/20464177.2024.2436725",
@@ -572,7 +1108,26 @@
     "locator": "Journal of Marine Engineering & Technology (2024); Crossref confirms journal-article type, title, and full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: raw record listed the venue as 'Ships and Offshore Structures'; Crossref confirms the actual container-title is 'Journal of Marine Engineering & Technology' (also Taylor & Francis / Informa UK). Full Korean author list now confirmed via Crossref, further supporting the raw record's KR geography inference."
+    "notes": "CORRECTION: raw record listed the venue as 'Ships and Offshore Structures'; Crossref confirms the actual container-title is 'Journal of Marine Engineering & Technology' (also Taylor & Francis / Informa UK). Full Korean author list now confirmed via Crossref, further supporting the raw record's KR geography inference.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1080/20464177.2024.2436725&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "4 of 5 authors resolved South Korea (KR) via OpenAlex; 1 (Heemoon Kim) had no institution data. No IN affiliations."
+    }
   },
   {
     "id": "L10-024",
@@ -583,12 +1138,16 @@
     "canonical_key": "doi:10.1016/j.rser.2024.115024",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:15:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.rser.2024.115024",
     "doi": "10.1016/j.rser.2024.115024",
@@ -597,7 +1156,26 @@
     "locator": "Renewable and Sustainable Energy Reviews, vol. 208, article 115024 (2025); Crossref confirms journal-article type, title, and full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI and author list independently confirmed via Crossref + WebSearch this session (raw record had no DOI, 'unconfirmed authors'). TIERING JUDGMENT: although published in a journal branded 'Reviews', WebSearch confirms the paper reports new primary survey data (industry questionnaire of BEV operators, specific unit/respondent counts) rather than a synthesis of prior literature -- tiered T1 (primary technical paper) on content grounds per SOURCE_STANDARDS' distinction between primary and review articles, not T2. Flagged for verifier/idea-architect awareness given the venue's review-journal branding."
+    "notes": "DOI and author list independently confirmed via Crossref + WebSearch this session (raw record had no DOI, 'unconfirmed authors'). TIERING JUDGMENT: although published in a journal branded 'Reviews', WebSearch confirms the paper reports new primary survey data (industry questionnaire of BEV operators, specific unit/respondent counts) rather than a synthesis of prior literature -- tiered T1 (primary technical paper) on content grounds per SOURCE_STANDARDS' distinction between primary and review articles, not T2. Flagged for verifier/idea-architect awareness given the venue's review-journal branding.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "SE"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.rser.2024.115024&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors (Hooli, Halim) resolved Sweden (SE) via OpenAlex; no IN affiliations. Raw record's 'unspecified' geography corrected by this audit."
+    }
   },
   {
     "id": "L10-025",
@@ -608,12 +1186,16 @@
     "canonical_key": "doi:10.1109/itecasia-pacific63159.2024.10738557",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/itecasia-pacific63159.2024.10738557",
     "doi": "10.1109/itecasia-pacific63159.2024.10738557",
@@ -622,7 +1204,26 @@
     "locator": "2024 IEEE Transportation Electrification Conference and Expo, Asia-Pacific (ITEC Asia-Pacific), pp. 1059-1064; Crossref confirms proceedings-article type, event name, and full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved and identity confirmed via Crossref bibliographic search + works API this session (raw record had no DOI, 'unconfirmed authors'). Geography (CN) confirmed via WebSearch describing the Ordos, Inner Mongolia demonstration site, consistent with the all-Chinese author list."
+    "notes": "DOI resolved and identity confirmed via Crossref bibliographic search + works API this session (raw record had no DOI, 'unconfirmed authors'). Geography (CN) confirmed via WebSearch describing the Ordos, Inner Mongolia demonstration site, consistent with the all-Chinese author list.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 7,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1109/itecasia-pacific63159.2024.10738557&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors resolved CN via OpenAlex; no IN affiliations."
+    }
   },
   {
     "id": "L10-026",
@@ -633,12 +1234,16 @@
     "canonical_key": "title-year:large-capacity-battery-based-electric-propulsion-ship-initial-review-2022",
     "source_type": "academic_peer_reviewed",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "ko",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://www.kipe.or.kr/pages/journal.vm",
     "doi": "",
@@ -647,7 +1252,26 @@
     "locator": "전력전자학회지 (Transactions of the Korean Institute of Power Electronics), vol. 27, issue 6, pp. 34-42 (Dec 2022).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DBpia page fetched directly and successfully this session, resolving full author list (Kim Yun-ho, Ahn Chi-young, Park Jeong-hyung, Sung So-young, Shim Hyung-won; KRISO affiliation), exact volume/issue/pages, and correcting the year from raw's 2023 to the confirmed 2022. No DOI displayed on the fetched page or located this session. Explicitly self-titled a preliminary review ('초기 고찰') -> T2. The Korean Institute of Power Electronics (KIPE) states via its own journal-info page that submissions undergo peer review; this is used as the peer_review_evidence_url for KIPE's journal family (KIPE publishes both an English JPE and this Korean-language transactions journal) -- treated as reasonable but not court-grade confirmation specific to this exact journal title. Korean-language local primary academic source."
+    "notes": "DBpia page fetched directly and successfully this session, resolving full author list (Kim Yun-ho, Ahn Chi-young, Park Jeong-hyung, Sung So-young, Shim Hyung-won; KRISO affiliation), exact volume/issue/pages, and correcting the year from raw's 2023 to the confirmed 2022. No DOI displayed on the fetched page or located this session. Explicitly self-titled a preliminary review ('초기 고찰') -> T2. The Korean Institute of Power Electronics (KIPE) states via its own journal-info page that submissions undergo peer review; this is used as the peer_review_evidence_url for KIPE's journal family (KIPE publishes both an English JPE and this Korean-language transactions journal) -- treated as reasonable but not court-grade confirmation specific to this exact journal title. Korean-language local primary academic source.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "publisher_page"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Research Institute of Ships and Ocean Engineering (KRISO)",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11175456"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors affiliated with KRISO (South Korea) per DBpia publisher page fetched directly by scout. No IN affiliations."
+    }
   },
   {
     "id": "L10-027",
@@ -658,12 +1282,16 @@
     "canonical_key": "doi:10.1016/j.cles.2026.100263",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["unspecified"],
+    "geography": [
+      "unspecified"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.cles.2026.100263",
     "doi": "10.1016/j.cles.2026.100263",
@@ -672,7 +1300,26 @@
     "locator": "Cleaner Energy Systems (Elsevier), 2026, article 100263; Crossref confirms journal-article type, title, and full author list this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI resolved via Crossref bibliographic search + confirmed via works API this session (raw record had no DOI). Author names (Sorjamäki, Lassila, Haakana, Kauranen) are consistent with LUT University (Finland) energy-systems researchers and the Finnish case-study site (Port of HaminaKotka); institutional affiliation not independently confirmed on the fetched Crossref record -- geography left unspecified rather than guessed."
+    "notes": "DOI resolved via Crossref bibliographic search + confirmed via works API this session (raw record had no DOI). Author names (Sorjamäki, Lassila, Haakana, Kauranen) are consistent with LUT University (Finland) energy-systems researchers and the Finnish case-study site (Port of HaminaKotka); institutional affiliation not independently confirmed on the fetched Crossref record -- geography left unspecified rather than guessed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "author institutions (OpenAlex-resolved), consistent with LUT University",
+          "country": "FI"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works?filter=doi:10.1016/j.cles.2026.100263&select=doi,ids,authorships"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 authors (Sorjamäki, Lassila, Haakana, Kauranen) resolved Finland (FI) via OpenAlex; no IN affiliations. Raw record's 'unspecified' geography corrected by this audit."
+    }
   },
   {
     "id": "L10-028",
@@ -683,12 +1330,17 @@
     "canonical_key": "https://www.electrive.com/2025/09/26/fortescue-orders-up-to-400-giant-electric-dump-trucks-from-xcmg/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU", "CN"],
+    "geography": [
+      "AU",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -697,7 +1349,34 @@
     "locator": "electrive.com article, 26 September 2025",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Trade-press article fetched successfully by scout; reports on a primary corporate announcement (Fortescue/XCMG) but the primary company press release itself was not independently fetched -> tiered T2 rather than T1 to be conservative. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Trade-press article fetched successfully by scout; reports on a primary corporate announcement (Fortescue/XCMG) but the primary company press release itself was not independently fetched -> tiered T2 rather than T1 to be conservative. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "electrive.com (publisher), Berlin",
+          "country": "DE"
+        },
+        {
+          "name": "Fortescue Metals Group",
+          "country": "AU"
+        },
+        {
+          "name": "XCMG",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://www.electrive.com/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Trade-press outlet electrive.com is Berlin, Germany headquartered; underlying companies (Fortescue AU, XCMG CN) are also non-India. No India connection."
+    }
   },
   {
     "id": "L10-029",
@@ -708,12 +1387,16 @@
     "canonical_key": "https://thedriven.io/2026/05/25/fortescue-fits-out-first-240-tonne-electric-haul-truck-and-rolls-out-first-6-mw-fast-charger/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -722,7 +1405,30 @@
     "locator": "thedriven.io article, 25 May 2026",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Trade-press article fetched successfully by scout with direct quotes; primary Fortescue investor/media release not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Trade-press article fetched successfully by scout with direct quotes; primary Fortescue investor/media release not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "The Driven (thedriven.io), joint venture of RenewEconomy, Byron Bay NSW",
+          "country": "AU"
+        },
+        {
+          "name": "Fortescue",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://thedriven.io/about/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "thedriven.io confirmed Australia-headquartered (Byron Bay, NSW) via its official About page; subject company Fortescue also AU. No India connection."
+    }
   },
   {
     "id": "L10-030",
@@ -733,12 +1439,16 @@
     "canonical_key": "https://www.riotinto.com/en/news/releases/2024/rio-tinto-and-bhp-collaborate-on-battery-electric-haul-truck-trials-in-the-pilbara",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:35:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["AU"],
+    "geography": [
+      "AU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1457,26 @@
     "locator": "riotinto.com press release, 27 May 2024.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "CORRECTION: primary press release fetched directly and successfully this session (raw record was WebSearch-synthesis only). The raw record's claim that 'two Cat 793 XE trucks' were trialed at BHP's Jimblebar mine by both companies is INCORRECT -- the actual fetched page states BHP tests Caterpillar 793 trucks while Rio Tinto separately tests Komatsu 930 trucks (4 trucks total, 2 manufacturers, 2 companies). The raw record's 'Jimblebar' mine name and '100+ operating hours / 200+ test laps by late 2025' figures were NOT present in the content fetched this session and are not re-confirmed -- removed from claim_supported rather than carried forward unverified."
+    "notes": "CORRECTION: primary press release fetched directly and successfully this session (raw record was WebSearch-synthesis only). The raw record's claim that 'two Cat 793 XE trucks' were trialed at BHP's Jimblebar mine by both companies is INCORRECT -- the actual fetched page states BHP tests Caterpillar 793 trucks while Rio Tinto separately tests Komatsu 930 trucks (4 trucks total, 2 manufacturers, 2 companies). The raw record's 'Jimblebar' mine name and '100+ operating hours / 200+ test laps by late 2025' figures were NOT present in the content fetched this session and are not re-confirmed -- removed from claim_supported rather than carried forward unverified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Rio Tinto (dual-listed London/Melbourne); BHP; Caterpillar; Komatsu",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.riotinto.com/en/news/releases/2024/rio-tinto-and-bhp-collaborate-on-battery-electric-haul-truck-trials-in-the-pilbara"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Primary company press release from riotinto.com (Rio Tinto is Anglo-Australian, dual-listed London/Melbourne); BHP is Anglo-Australian; Caterpillar (US) and Komatsu (Japan) also non-India. No India connection."
+    }
   },
   {
     "id": "L10-031",
@@ -758,12 +1487,17 @@
     "canonical_key": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-and-chinas-state-power-investment-corporation-launch-battery-swap-truck-trial-fleet-at-oyu-tolgoi-mine",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:41:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["MN", "CN"],
+    "geography": [
+      "MN",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1506,26 @@
     "locator": "riotinto.com press release, 27 October 2025",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary company press release fetched successfully by scout; all figures confirmed directly from the page. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Primary company press release fetched successfully by scout; all figures confirmed directly from the page. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Rio Tinto; State Power Investment Corporation (SPIC) Qiyuan",
+          "country": "AU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.riotinto.com/en/news/releases/2025/rio-tinto-and-chinas-state-power-investment-corporation-launch-battery-swap-truck-trial-fleet-at-oyu-tolgoi-mine"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Primary Rio Tinto press release (Anglo-Australian); SPIC is a Chinese state-owned enterprise. No India connection."
+    }
   },
   {
     "id": "L10-032",
@@ -783,12 +1536,16 @@
     "canonical_key": "https://www.up.com/press-releases/service/wabtec-battery-electric-nr220128",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:43:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1554,26 @@
     "locator": "up.com press release, 28 January 2022",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary company press release fetched successfully by scout; figures confirmed directly. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Primary company press release fetched successfully by scout; figures confirmed directly. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Union Pacific Railroad",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.up.com/press-releases/service/wabtec-battery-electric-nr220128"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Primary Union Pacific (US railroad) press release. No India connection."
+    }
   },
   {
     "id": "L10-033",
@@ -808,12 +1584,16 @@
     "canonical_key": "https://www.wabteccorp.com/newsroom/press-releases/vale-partners-with-wabtec-on-alternative-fuels-study-and-orders-three-flxdrive-battery-electric-locomotives",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["BR"],
+    "geography": [
+      "BR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1602,26 @@
     "locator": "wabteccorp.com press release, 13 July 2023",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary company press release fetched successfully by scout; figures confirmed directly. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Primary company press release fetched successfully by scout; figures confirmed directly. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Wabtec Corporation (US); Vale S.A. (Brazil)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.wabteccorp.com/newsroom/press-releases/vale-partners-with-wabtec-on-alternative-fuels-study-and-orders-three-flxdrive-battery-electric-locomotives"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Primary Wabtec (US) press release re: Vale (Brazil). No India connection."
+    }
   },
   {
     "id": "L10-034",
@@ -833,12 +1632,16 @@
     "canonical_key": "tender:chinagoldgroup-7cd7cbf4108546bba70c79752ea8f8b6",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:12:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -847,7 +1650,26 @@
     "locator": "China Gold Group e-tender platform, tender document docid 7cd7cbf4108546bba70c79752ea8f8b6",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched directly from the official state-owned-enterprise e-tender portal by scout; content in Chinese. This is a conventional (not explicitly battery-electric) equipment leasing tender -- included as a primary demand/fleet-scale baseline record, not direct electrification-specific demand evidence. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Fetched directly from the official state-owned-enterprise e-tender portal by scout; content in Chinese. This is a conventional (not explicitly battery-electric) equipment leasing tender -- included as a primary demand/fleet-scale baseline record, not direct electrification-specific demand evidence. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Gold Group Construction Co., Ltd. (state-owned enterprise e-tender portal)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://jzcg.chinagoldgroup.com/portal/detail?docid=7cd7cbf4108546bba70c79752ea8f8b6&chnlcode=tender&objtype=7"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official Chinese state-owned-enterprise tender portal. No India connection."
+    }
   },
   {
     "id": "L10-035",
@@ -858,12 +1680,16 @@
     "canonical_key": "tender:nmggcpt-baogang-barun-5g-itemid-1034",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:14:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1698,26 @@
     "locator": "Inner Mongolia government engineering & construction trading platform (nmggcpt.com), bid item 1034",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched directly from the official Inner Mongolia public-tender platform by scout; content in Chinese. Tender is for remote-control retrofit, not battery-electric conversion specifically. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Fetched directly from the official Inner Mongolia public-tender platform by scout; content in Chinese. Tender is for remote-control retrofit, not battery-electric conversion specifically. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Inner Mongolia Baogang Steel Union Co., Ltd. / Inner Mongolia public tender platform",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.nmggcpt.com/bids/show.php?itemid=1034"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official Chinese public-tender platform. No India connection."
+    }
   },
   {
     "id": "L10-036",
@@ -883,12 +1728,17 @@
     "canonical_key": "https://cleantechnica.com/2025/10/15/ports-as-power-plants-inside-the-maersk-catl-alliance-for-maritime-decarbonization/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:18:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DK", "CN"],
+    "geography": [
+      "DK",
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1747,34 @@
     "locator": "CleanTechnica article, 15 October 2025",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Trade-press article fetched successfully by scout; reports on a primary corporate MOU but the primary Maersk/CATL press releases were not independently fetched -> tiered T2. RECLASSIFIED demand_evidence_type from 'direct_customer_documentation' to 'official_project_award' this session -- an announced MOU/partnership is more accurately an official project announcement than direct customer-facing documentation."
+    "notes": "Trade-press article fetched successfully by scout; reports on a primary corporate MOU but the primary Maersk/CATL press releases were not independently fetched -> tiered T2. RECLASSIFIED demand_evidence_type from 'direct_customer_documentation' to 'official_project_award' this session -- an announced MOU/partnership is more accurately an official project announcement than direct customer-facing documentation.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "CleanTechnica, El Cerrito, CA (publisher)",
+          "country": "US"
+        },
+        {
+          "name": "Maersk",
+          "country": "DK"
+        },
+        {
+          "name": "CATL",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://cleantechnica.com/our-team/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CleanTechnica confirmed US-based publisher (California); subject companies Maersk (Denmark) and CATL (China). No India connection."
+    }
   },
   {
     "id": "L10-037",
@@ -908,12 +1785,17 @@
     "canonical_key": "https://www.sec.gov/archives/edgar/data/863064/000162828024026277/ex09d27pilbaratrucksmr.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:40:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["AU", "GB"],
+    "geography": [
+      "AU",
+      "GB"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -933,12 +1815,16 @@
     "canonical_key": "https://www.sec.gov/archives/edgar/data/0000018230/000001823026000017/ex991toformcat1q2026earnin.htm",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:40:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -958,12 +1844,17 @@
     "canonical_key": "https://maritime-executive.com/article/norway-orders-world-s-first-battery-power-autonomous-ferries",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["NO", "TR"],
+    "geography": [
+      "NO",
+      "TR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +1863,34 @@
     "locator": "Maritime Executive article, 28 February 2024",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Trade-press article fetched successfully by scout; reports a government-contracted procurement but the primary Norwegian Public Roads Administration/Fjord1 contract documentation was not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Trade-press article fetched successfully by scout; reports a government-contracted procurement but the primary Norwegian Public Roads Administration/Fjord1 contract documentation was not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "The Maritime Executive, Fort Lauderdale, FL (publisher)",
+          "country": "US"
+        },
+        {
+          "name": "Fjord1; Norwegian Public Roads Administration",
+          "country": "NO"
+        },
+        {
+          "name": "Tersan Shipyard",
+          "country": "TR"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://maritime-executive.com/aboutus"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Maritime Executive confirmed US-based (Fort Lauderdale, FL) publisher; subject entities Norwegian and Turkish. No India connection."
+    }
   },
   {
     "id": "L10-040",
@@ -983,12 +1901,16 @@
     "canonical_key": "https://www.catl.com/en/news/6592.html",
     "source_type": "company_filing",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:08:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +1919,26 @@
     "locator": "catl.com company news release (English), 23 October 2025",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary company (vendor) press release fetched successfully by scout. RECLASSIFIED demand_evidence_type from 'direct_customer_documentation' to 'official_project_award' this session -- the load-bearing 'official' hook is the third-party national-benchmark designation by the China Communications and Transportation Association, not vendor-customer documentation per se."
+    "notes": "Primary company (vendor) press release fetched successfully by scout. RECLASSIFIED demand_evidence_type from 'direct_customer_documentation' to 'official_project_award' this session -- the load-bearing 'official' hook is the third-party national-benchmark designation by the China Communications and Transportation Association, not vendor-customer documentation per se.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "CATL (Contemporary Amperex Technology Co., Limited)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.catl.com/en/news/6592.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Primary CATL (China) company press release. No India connection."
+    }
   },
   {
     "id": "L10-041",
@@ -1008,12 +1949,19 @@
     "canonical_key": "https://container-news.com/yilport-orders-53-konecranes-e-hybrid-rtg-cranes-for-four-terminals/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:28:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["TR", "PT", "SV", "GH"],
+    "geography": [
+      "TR",
+      "PT",
+      "SV",
+      "GH"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +1970,34 @@
     "locator": "Container News article, 5 July 2026",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Trade-press article fetched successfully by scout with full order breakdown by terminal; primary Konecranes/YILPORT press release not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Trade-press article fetched successfully by scout with full order breakdown by terminal; primary Konecranes/YILPORT press release not independently fetched -> tiered T2. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Container News, Piraeus (publisher)",
+          "country": "GR"
+        },
+        {
+          "name": "YILPORT Holding (Yildirim Group)",
+          "country": "TR"
+        },
+        {
+          "name": "Konecranes",
+          "country": "FI"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://container-news.com/about-us/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Container News confirmed Piraeus, Greece headquartered publisher; YILPORT is Turkish (Yildirim Group), Konecranes Finnish. No India connection."
+    }
   },
   {
     "id": "L10-042",
@@ -1033,12 +2008,16 @@
     "canonical_key": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-approves-netzero-regulations.aspx",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:45:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["GB"],
+    "geography": [
+      "GB"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2026,26 @@
     "locator": "IMO press briefing page, MEPC 83 outcome (fetched by scout); second official IMO press briefing 'IMO net-zero shipping talks to resume in 2026' (https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-net-zero-shipping-talks-to-resume-in-2026.aspx) fetched independently this session, confirming the October 2025 adjournment and October 2026 reconvening date directly from IMO's own site.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RESOLVED: the raw record's flagged tension between the April 2025 'approval' framing and the October 2025 adjournment (previously only cross-referenced from non-IMO sources) is now confirmed directly from a second official IMO press page fetched this session, removing the prior reconciliation caveat."
+    "notes": "RESOLVED: the raw record's flagged tension between the April 2025 'approval' framing and the October 2025 adjournment (previously only cross-referenced from non-IMO sources) is now confirmed directly from a second official IMO press page fetched this session, removing the prior reconciliation caveat.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Maritime Organization (IMO), London",
+          "country": "GB"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-approves-netzero-regulations.aspx"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IMO is a UN specialized agency headquartered in London, UK. No India connection."
+    }
   },
   {
     "id": "L10-043",
@@ -1058,12 +2056,16 @@
     "canonical_key": "standard:eu-regulation-2023-1805-fueleu-maritime",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:48:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1072,7 +2074,26 @@
     "locator": "EUR-Lex summary page, Regulation (EU) 2023/1805",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official EUR-Lex summary fetched successfully by scout. Specific penalty rate (EUR1.50/unused kWh, per cross-referenced trade sources) still not independently confirmed on this fetched page -- flagged for idea-architect stage to confirm against full regulation text if load-bearing. Not independently re-verified this session."
+    "notes": "Official EUR-Lex summary fetched successfully by scout. Specific penalty rate (EUR1.50/unused kWh, per cross-referenced trade sources) still not independently confirmed on this fetched page -- flagged for idea-architect stage to confirm against full regulation text if load-bearing. Not independently re-verified this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "European Union (European Parliament and Council)",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://eur-lex.europa.eu/EN/legal-content/summary/renewable-and-low-carbon-fuels-in-maritime-transport.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official EU legislative body/publication (EUR-Lex). No India connection."
+    }
   },
   {
     "id": "L10-044",
@@ -1083,12 +2104,16 @@
     "canonical_key": "https://ca-rta.org/carb-to-repeal-high-priority-and-drayage-fleet-provisions-in-acf/",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:50:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2122,26 @@
     "locator": "California Renewable Transportation Alliance (ca-rta.org) article, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RECLASSIFIED: the primary regulator page (ww2.arb.ca.gov) returned HTTP 405 Method Not Allowed on every fetch attempt across both the scout and this verifier session (2 separate attempts, same and different CARB URLs) -- fetch routes on the official CARB domain are exhausted. Instead, California Renewable Transportation Alliance (a recognized industry trade association per SOURCE_STANDARDS' T2 definition) was fetched successfully this session, providing more precise and more current detail (Sept 25 2025 vote; Jan 1 2027 effective repeal; Jan 2025 EPA waiver withdrawal) than the raw record. Source_type changed from 'regulator' to 'market_industry' and tier confirmed T2 to honestly reflect that the CARB page itself was never independently fetched, only trade-association reporting on the CARB action."
+    "notes": "RECLASSIFIED: the primary regulator page (ww2.arb.ca.gov) returned HTTP 405 Method Not Allowed on every fetch attempt across both the scout and this verifier session (2 separate attempts, same and different CARB URLs) -- fetch routes on the official CARB domain are exhausted. Instead, California Renewable Transportation Alliance (a recognized industry trade association per SOURCE_STANDARDS' T2 definition) was fetched successfully this session, providing more precise and more current detail (Sept 25 2025 vote; Jan 1 2027 effective repeal; Jan 2025 EPA waiver withdrawal) than the raw record. Source_type changed from 'regulator' to 'market_industry' and tier confirmed T2 to honestly reflect that the CARB page itself was never independently fetched, only trade-association reporting on the CARB action.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "California Renewable Transportation Alliance, Sacramento, CA",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://ca-rta.org/about/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CRTA confirmed headquartered at 1201 K Street, Sacramento, California, US, per its own About page. No India connection."
+    }
   },
   {
     "id": "L10-045",
@@ -1108,12 +2152,16 @@
     "canonical_key": "standard:ccs-battery-powered-ship-rules-2025",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:16:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2170,26 @@
     "locator": "CCS official website (ccs.org.cn), rule article page, 2025 edition",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official classification-society (standards-body) page fetched successfully by scout in Chinese. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Official classification-society (standards-body) page fetched successfully by scout in Chinese. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "China Classification Society (CCS)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.ccs.org.cn/ccswz/articleDetail?id=202601060114611630&columnId=201900002000000398"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official Chinese classification-society standards page. No India connection."
+    }
   },
   {
     "id": "L10-046",
@@ -1133,12 +2200,16 @@
     "canonical_key": "standard:gb-t-45926-2025",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:55:00Z",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2218,26 @@
     "locator": "全国标准信息公共服务平台 (National Standards Information Public Service Platform, openstd.samr.gov.cn), GB/T 45926-2025 record.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "MAJOR UPDATE: the raw record's original URL (kass.sacinfo.org.cn) failed with an SSL/protocol error in both the scout and this verifier session (2 independent attempts), and the formal standard number was unconfirmed. This session, a WebSearch located and a WebFetch successfully confirmed the correct official record on openstd.samr.gov.cn (China's national standards public-service platform), resolving the exact standard number (GB/T 45926-2025), publication date (30 June 2025), and effective date (1 January 2026) directly from an authoritative government source. URL and canonical_key updated accordingly."
+    "notes": "MAJOR UPDATE: the raw record's original URL (kass.sacinfo.org.cn) failed with an SSL/protocol error in both the scout and this verifier session (2 independent attempts), and the formal standard number was unconfirmed. This session, a WebSearch located and a WebFetch successfully confirmed the correct official record on openstd.samr.gov.cn (China's national standards public-service platform), resolving the exact standard number (GB/T 45926-2025), publication date (30 June 2025), and effective date (1 January 2026) directly from an authoritative government source. URL and canonical_key updated accordingly.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Standardization Administration of China (SAC)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C86AB4A02E32B53A950DDF9B6E5BAB2F"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official Chinese national-standards government platform (openstd.samr.gov.cn). No India connection."
+    }
   },
   {
     "id": "L10-047",
@@ -1158,12 +2248,16 @@
     "canonical_key": "government:fra-dot-fra-ord-25-01-rail-electrification-options",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:55:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1183,12 +2277,16 @@
     "canonical_key": "https://www.epa.gov/ports-initiative/clean-ports-program",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:36:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2295,26 @@
     "locator": "epa.gov Clean Ports Program page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official EPA page fetched successfully by scout. The specific Port of Oakland $322m figure cited in earlier WebSearch synthesis was NOT independently confirmed on this fetched page and remains excluded from claim_supported. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Official EPA page fetched successfully by scout. The specific Port of Oakland $322m figure cited in earlier WebSearch synthesis was NOT independently confirmed on this fetched page and remains excluded from claim_supported. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "US Environmental Protection Agency (EPA)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.epa.gov/ports-initiative/clean-ports-program"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official US federal government agency page. No India connection."
+    }
   },
   {
     "id": "L10-049",
@@ -1208,12 +2325,16 @@
     "canonical_key": "https://research-hub.nrel.gov/en/publications/a-framework-to-analyze-the-requirements-of-a-multiport-megawatt-l-2/",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:00:00Z",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1233,12 +2354,16 @@
     "canonical_key": "standard:iec-ts-63379-megawatt-charging-system",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T18:30:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE"],
+    "geography": [
+      "DE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1247,7 +2372,26 @@
     "locator": "charin.global MCS technology page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official CharIN consortium page fetched successfully by scout; formally published IEC technical specification, not vendor marketing. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Official CharIN consortium page fetched successfully by scout; formally published IEC technical specification, not vendor marketing. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "CharIN e.V., Berlin; International Electrotechnical Commission (IEC)",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.charin.global/technology/mcs/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CharIN e.V. is a German registered association (Berlin); IEC TS 63379 is a formally published international standard. No India connection."
+    }
   },
   {
     "id": "L10-051",
@@ -1258,12 +2402,16 @@
     "canonical_key": "https://www.wabteccorp.com/locomotive/alternative-fuel-locomotives/flxdrive",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:42:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1272,7 +2420,26 @@
     "locator": "wabteccorp.com FLXdrive product page",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Vendor product page fetched successfully by scout; no price data available (recurring opacity pattern across this lane). Not independently re-verified this session; carried forward unchanged."
+    "notes": "Vendor product page fetched successfully by scout; no price data available (recurring opacity pattern across this lane). Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Wabtec Corporation",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.wabteccorp.com/locomotive/alternative-fuel-locomotives/FLXdrive"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Vendor product page, Wabtec Corporation (US). No India connection."
+    }
   },
   {
     "id": "L10-052",
@@ -1283,12 +2450,16 @@
     "canonical_key": "https://www.liebherr.com/en-int/mining-equipment/equipment/mining-trucks/t264-battery-electric-7508154",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T21:40:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["DE"],
+    "geography": [
+      "DE"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1297,7 +2468,26 @@
     "locator": "liebherr.com T264 Battery Electric product page, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPDATE: fetched directly and successfully this session (raw record was WebSearch-synthesis only, fetched:false). Payload, static-charge claim, Trolley Assist/Power Rail compatibility, and 86% energy-cost-reduction claim all confirmed directly from the live page. Battery-capacity figure (3.2 MWh) and precise 12-58 minute charge-time range from the raw record were not reconfirmed on this specific fetch and are flagged as unconfirmed-this-session rather than re-asserted as fact."
+    "notes": "UPDATE: fetched directly and successfully this session (raw record was WebSearch-synthesis only, fetched:false). Payload, static-charge claim, Trolley Assist/Power Rail compatibility, and 86% energy-cost-reduction claim all confirmed directly from the live page. Battery-capacity figure (3.2 MWh) and precise 12-58 minute charge-time range from the raw record were not reconfirmed on this specific fetch and are flagged as unconfirmed-this-session rather than re-asserted as fact.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Liebherr Mining Equipment",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.liebherr.com/en-int/mining-equipment/equipment/mining-trucks/t264-battery-electric-7508154"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Vendor product page, Liebherr (German/Swiss group). No India connection."
+    }
   },
   {
     "id": "L10-053",
@@ -1308,12 +2498,16 @@
     "canonical_key": "https://www.cat.com/en_us/products/new/equipment/underground-hard-rock/underground-mining-load-haul-dump-lhd-loaders/112700.html",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:00:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1322,7 +2516,26 @@
     "locator": "Blanchard Machinery Company (authorized Caterpillar dealer) mirror of the Cat R1700 XE specification page, fetched successfully this session; cat.com's own page returned a connection-reset error on every direct fetch attempt (2 attempts this session, 1 attempt by scout).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "UPDATE: fetched=true this session via an authorized-dealer mirror (Blanchard Machinery) of Caterpillar's own published specifications, since cat.com itself has been unreachable (connection reset) across all three fetch attempts spanning scout and verifier sessions. Canonical url retained as cat.com's own product page (the authoritative source), with the dealer-mirror locator documented for traceability."
+    "notes": "UPDATE: fetched=true this session via an authorized-dealer mirror (Blanchard Machinery) of Caterpillar's own published specifications, since cat.com itself has been unreachable (connection reset) across all three fetch attempts spanning scout and verifier sessions. Canonical url retained as cat.com's own product page (the authoritative source), with the dealer-mirror locator documented for traceability.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Caterpillar Inc.",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cat.com/en_US/products/new/equipment/underground-hard-rock/underground-mining-load-haul-dump-lhd-loaders/112700.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Vendor product page/specs, Caterpillar Inc. (US), confirmed via authorized-dealer mirror per record notes since cat.com itself was unreachable. No India connection."
+    }
   },
   {
     "id": "L10-054",
@@ -1333,12 +2546,18 @@
     "canonical_key": "https://im-mining.com/2026/04/16/first-quantum-and-hitachi-commission-worlds-first-battery-electric-mining-truck-at-kansanshi-mine-in-zambia/",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T22:05:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "CH", "ZM"],
+    "geography": [
+      "JP",
+      "CH",
+      "ZM"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1347,7 +2566,38 @@
     "locator": "International Mining (im-mining.com) article, 16 April 2026, fetched directly this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "RECLASSIFIED and UPDATED: the primary ABB press release (new.abb.com) failed to fetch (timeout, then socket error) across two attempts in two sessions; a direct Hitachi Construction Machinery press-release page (hitachicm.com) also returned HTTP 403 this session. Instead, International Mining trade-press reporting was fetched successfully this session, providing more current and more precise detail (EH4000 model name, exact trial distance/tonnage, FY2027 commercial-deployment target) than the raw record's ABB-sourced claim. Source_type changed from 'market_industry' to 'trade_press' to honestly reflect the actually-fetched source."
+    "notes": "RECLASSIFIED and UPDATED: the primary ABB press release (new.abb.com) failed to fetch (timeout, then socket error) across two attempts in two sessions; a direct Hitachi Construction Machinery press-release page (hitachicm.com) also returned HTTP 403 this session. Instead, International Mining trade-press reporting was fetched successfully this session, providing more current and more precise detail (EH4000 model name, exact trial distance/tonnage, FY2027 commercial-deployment target) than the raw record's ABB-sourced claim. Source_type changed from 'market_industry' to 'trade_press' to honestly reflect the actually-fetched source.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "International Mining, published by Team Publishing Ltd, Berkhamsted, Hertfordshire",
+          "country": "GB"
+        },
+        {
+          "name": "Hitachi Construction Machinery",
+          "country": "JP"
+        },
+        {
+          "name": "ABB",
+          "country": "CH"
+        },
+        {
+          "name": "First Quantum Minerals",
+          "country": "ZM"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://im-mining.com/2026/04/16/first-quantum-and-hitachi-commission-worlds-first-battery-electric-mining-truck-at-kansanshi-mine-in-zambia/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "International Mining confirmed published by Team Publishing Ltd, UK-headquartered (Berkhamsted, Hertfordshire); subject entities Hitachi (Japan), ABB (Switzerland-HQ multinational), First Quantum (Zambia mine site). No India connection."
+    }
   },
   {
     "id": "L10-055",
@@ -1358,12 +2608,16 @@
     "canonical_key": "standard:sg-tr136-electric-harbour-craft-charging",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L10"],
+    "lane_ids": [
+      "L10"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12T19:24:00Z",
     "fetched": true,
     "language": "en",
-    "geography": ["SG"],
+    "geography": [
+      "SG"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1372,6 +2626,25 @@
     "locator": "MPA media centre release, 25 March 2025 (Technical Reference 136)",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official MPA (Singapore government statutory board) page fetched successfully by scout. Not independently re-verified this session; carried forward unchanged."
+    "notes": "Official MPA (Singapore government statutory board) page fetched successfully by scout. Not independently re-verified this session; carried forward unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-13T00:38:56Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Maritime and Port Authority of Singapore (MPA); Enterprise Singapore",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.mpa.gov.sg/media-centre/details/singapore-introduces-new-standard-for-electric-harbour-craft-(e-hc)-charging-infrastructure"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Official Singapore government statutory board page. No India connection (Singapore's separate exclusion from demand/market scope per Directive 15 is a different, non-India-audit matter, not addressed by this verdict)."
+    }
   }
 ]

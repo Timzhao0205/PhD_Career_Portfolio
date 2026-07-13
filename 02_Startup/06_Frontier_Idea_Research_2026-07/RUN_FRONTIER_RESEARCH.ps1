@@ -21,7 +21,7 @@ if (-not (Get-Command claude -ErrorAction SilentlyContinue)) {
     exit 1
 }
 
-$required = @('CLAUDE.md','KICKOFF_PROMPT.txt','01_MISSION/MISSION_BRIEF.md','tools/validate_mission.py','.claude/agents/idea-elegance-judge.md')
+$required = @('CLAUDE.md','KICKOFF_PROMPT.txt','01_MISSION/MISSION_BRIEF.md','tools/validate_mission.py','.claude/agents/india-origin-auditor.md','.claude/agents/idea-elegance-judge.md')
 foreach ($path in $required) {
     if (-not (Test-Path $path)) { throw "Missing required package file: $path" }
 }
@@ -45,7 +45,7 @@ function Add-RouteLog([string]$phase,[string]$task,[string]$requested,[string]$e
 $sourceAgentFiles = @(
     '.claude/agents/lane-scout.md', '.claude/agents/source-verifier.md',
     '.claude/agents/demand-competitor-analyst.md', '.claude/agents/source-auditor.md',
-    '.claude/agents/geography-analyst.md'
+    '.claude/agents/geography-analyst.md', '.claude/agents/india-origin-auditor.md'
 )
 foreach ($agentFile in $sourceAgentFiles) {
     $body = Get-Content -Raw $agentFile
@@ -92,7 +92,7 @@ $env:CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS = '0'
 $env:CLAUDE_CODE_RETRY_WATCHDOG = '1'
 
 if ($Resume) {
-    $prompt = 'Resume the frontier mission. Read CLAUDE.md, 01_MISSION/MISSION_BRIEF.md, 05_STATE/P3_US_CHINA_WEIGHTING_PATCH_2026-07-12.md, and 05_STATE/MASTER_STATE.json. P0-P2 are complete. Regenerate P3 round 2: preserve SEEDS_A-D as prior drafts, create at least 80 new P3R2 seeds with the US and China heavily dominant, treat Japan/Taiwan/South Korea only as optional side markets, and exclude India/Singapore. Use Fable 5/xhigh for every idea-architecture batch and the independent idea-elegance-judge pass; log routing and do not downgrade. Enforce longlist and final geography quotas. Continue from the first incomplete checkpoint without asking questions. Run until PASS and mission COMPLETE.'
+    $prompt = 'Resume the frontier mission. Read CLAUDE.md, 01_MISSION/MISSION_BRIEF.md, 05_STATE/PRE_P3_INDIA_SOURCE_AUDIT_DIRECTIVE.md, 05_STATE/INDIA_SOURCE_ORIGIN_AUDIT_QUEUE.json, 05_STATE/2030_COMPANY_LAUNCH_PATCH_2026-07-12.md, 05_STATE/P3_US_CHINA_WEIGHTING_PATCH_2026-07-12.md, and 05_STATE/MASTER_STATE.json. P2A blocks P3: complete all 12 origin-audit batches, quarantine India-origin sources, allow mixed academic papers only with a verified non-Indian co-author affiliation, independently confirm derivative claims, repair ATLAS, search eligible replacements if any gate fails, and require machine plus Fable 5/xhigh P2A PASS. Then regenerate >=80 P3R2 seeds using Fable 5/xhigh, US/China dominant and JP/TW/KR optional. Company launch is 2030: every seed needs current TRL, 2026-2029 pre-company preparation, a named 2030-2034 demand trigger, expected 2030 competition, window-risk analysis, and a readiness kill date; reject windows that close before 2030 or mature after 2034. Run the independent Fable 5/xhigh elegance judge. Reuse durable technical sources but refresh mutable market/policy/price/competitor evidence. Preserve SEEDS_A-D only as drafts, log routing, ask no questions, and run until COMPLETE and PASS.'
 } else {
     $prompt = (Get-Content -Raw '.\KICKOFF_PROMPT.txt').Trim()
 }

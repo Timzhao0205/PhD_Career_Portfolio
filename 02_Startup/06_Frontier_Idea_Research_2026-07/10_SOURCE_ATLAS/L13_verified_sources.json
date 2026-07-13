@@ -8,12 +8,16 @@
     "canonical_key": "doi:10.1063/5.0076249",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0076249",
     "doi": "10.1063/5.0076249",
@@ -22,7 +26,42 @@
     "locator": "OSTI biblio record #1833584 (fetched previously); Crossref record for DOI 10.1063/5.0076249 fetched this session, confirming title/journal/volume/issue/publisher (AIP Publishing).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fermilab-led open-source hardware/firmware/software, now being commercialized via a DOE-Qblox CRADA (see L13-032). Verifier: Crossref record fetched and matches; peer_review_status set to verified per the session's academic-acceptance ruling."
+    "notes": "Fermilab-led open-source hardware/firmware/software, now being commercialized via a DOE-Qblox CRADA (see L13-032). Verifier: Crossref record fetched and matches; peer_review_status set to verified per the session's academic-acceptance ruling.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Fermi National Accelerator Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "Princeton University",
+          "country": "US"
+        },
+        {
+          "name": "Argonne National Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "University of Chicago",
+          "country": "US"
+        },
+        {
+          "name": "Balseiro Institute",
+          "country": "AR"
+        }
+      ],
+      "non_indian_affiliation_count": 5,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1063/5.0076249"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "17 authors, all institutions resolved (US national labs/universities + one Argentina institute). No India affiliation."
+    }
   },
   {
     "id": "L13-002",
@@ -33,12 +72,16 @@
     "canonical_key": "doi:10.3390/s22010038",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/s22010038",
     "doi": "10.3390/s22010038",
@@ -47,7 +90,38 @@
     "locator": "PMC full text PMC8747397 (fetched previously); Crossref record for DOI 10.3390/s22010038 fetched this session, confirming MDPI Sensors vol 22, issue 1.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref lists an online-publication year of 2021 for vol 22(1); the cover-date convention (Jan 2022) is retained per the raw record. Minor date-labeling nuance only, not a substantive discrepancy."
+    "notes": "Crossref lists an online-publication year of 2021 for vol 22(1); the cover-date convention (Jan 2022) is retained per the raw record. Minor date-labeling nuance only, not a substantive discrepancy.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Warsaw University of Technology",
+          "country": "PL"
+        },
+        {
+          "name": "National Centre for Nuclear Research",
+          "country": "PL"
+        },
+        {
+          "name": "University of Bologna",
+          "country": "IT"
+        },
+        {
+          "name": "Marconi University",
+          "country": "IT"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3390/s22010038"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors Poland/Italy institutions. No India affiliation."
+    }
   },
   {
     "id": "L13-003",
@@ -58,12 +132,16 @@
     "canonical_key": "doi:10.1103/physrevlett.134.090601",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevLett.134.090601",
     "doi": "10.1103/PhysRevLett.134.090601",
@@ -72,7 +150,42 @@
     "locator": "Crossref record for DOI 10.1103/PhysRevLett.134.090601 fetched this session, confirming title/venue/volume/issue/year; performance figures cross-confirmed via two independently-fetched official Chinese-Academy-of-Sciences/USTC press pages (L13-048, L13-049).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Primary APS/PRL article page itself still not independently fetched, but the Crossref record fetch plus two independently fetched official institutional corroborations satisfy the session's acceptance rule. arXiv preprint 2412.11924 remains discovery-only and is not the basis for this record."
+    "notes": "Primary APS/PRL article page itself still not independently fetched, but the Crossref record fetch plus two independently fetched official institutional corroborations satisfy the session's acceptance rule. arXiv preprint 2412.11924 remains discovery-only and is not the basis for this record.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "QuantumCTek Co., Ltd",
+          "country": "CN"
+        },
+        {
+          "name": "Xidian University",
+          "country": "CN"
+        },
+        {
+          "name": "Jinan Institute of Quantum Technology",
+          "country": "CN"
+        },
+        {
+          "name": "State Key Laboratory of Cryptology",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 229,
+      "evidence_urls": [
+        "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.134.090601"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Verified full authorship list (229 authorships) programmatically -- unique institution country codes are CN only. No India affiliation."
+    }
   },
   {
     "id": "L13-004",
@@ -83,12 +196,16 @@
     "canonical_key": "doi:10.1109/jssc.2017.2737549",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/JSSC.2017.2737549",
     "doi": "10.1109/JSSC.2017.2737549",
@@ -97,7 +214,46 @@
     "locator": "Crossref record for DOI 10.1109/JSSC.2017.2737549 fetched this session, confirming journal/volume/issue/year/publisher.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Foundational, highly-cited cryo-CMOS control paper from the TU Delft group; IEEE Xplore page itself not fetched, but Crossref confirmation is sufficient per the session's acceptance ruling."
+    "notes": "Foundational, highly-cited cryo-CMOS control paper from the TU Delft group; IEEE Xplore page itself not fetched, but Crossref confirmation is sufficient per the session's acceptance ruling.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Delft University of Technology",
+          "country": "NL"
+        },
+        {
+          "name": "University College Dublin",
+          "country": "IE"
+        },
+        {
+          "name": "Institut Superieur d'Electronique de Paris",
+          "country": "FR"
+        },
+        {
+          "name": "UC Berkeley",
+          "country": "US"
+        },
+        {
+          "name": "EPFL",
+          "country": "CH"
+        },
+        {
+          "name": "Intel",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/JSSC.2017.2737549"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "TU Delft-led cryo-CMOS paper; all institutions NL/IE/FR/US/CH. No India affiliation."
+    }
   },
   {
     "id": "L13-005",
@@ -108,12 +264,16 @@
     "canonical_key": "doi:10.1145/3061639.3072948",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1145/3061639.3072948",
     "doi": "10.1145/3061639.3072948",
@@ -122,7 +282,34 @@
     "locator": "Crossref record for DOI 10.1145/3061639.3072948 fetched this session, confirming proceedings-article type, DAC 2017, ACM publisher.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "ACM Digital Library page itself not independently fetched; Crossref confirmation is sufficient per the session's acceptance ruling."
+    "notes": "ACM Digital Library page itself not independently fetched; Crossref confirmation is sufficient per the session's acceptance ruling.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Delft University of Technology",
+          "country": "NL"
+        },
+        {
+          "name": "Intel",
+          "country": "US"
+        },
+        {
+          "name": "EPFL",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1145/3061639.3072948"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors TU Delft/Intel/EPFL. No India affiliation."
+    }
   },
   {
     "id": "L13-006",
@@ -133,12 +320,16 @@
     "canonical_key": "doi:10.23919/snw.2017.8242338",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.23919/SNW.2017.8242338",
     "doi": "10.23919/SNW.2017.8242338",
@@ -147,7 +338,38 @@
     "locator": "Verifier located and fetched the Crossref record for DOI 10.23919/SNW.2017.8242338 this session, confirming title/venue (2017 Silicon Nanoelectronics Workshop)/type/publisher (IEEE); DOI was absent from the raw record and located via WebSearch, then confirmed directly via Crossref (not invented).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI added by verifier after independent confirmation; IEEE Xplore document 8242338 corresponds to this DOI."
+    "notes": "DOI added by verifier after independent confirmation; IEEE Xplore document 8242338 corresponds to this DOI.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CEA Grenoble",
+          "country": "FR"
+        },
+        {
+          "name": "Institut Polytechnique de Grenoble",
+          "country": "FR"
+        },
+        {
+          "name": "Universite Grenoble Alpes",
+          "country": "FR"
+        },
+        {
+          "name": "STMicroelectronics (France)",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.23919/SNW.2017.8242338"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 11 authors France-based (CEA/Grenoble INP/STMicroelectronics France). No India affiliation."
+    }
   },
   {
     "id": "L13-007",
@@ -158,12 +380,16 @@
     "canonical_key": "doi:10.1109/tqe.2023.3238670",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TQE.2023.3238670",
     "doi": "10.1109/TQE.2023.3238670",
@@ -172,7 +398,30 @@
     "locator": "Crossref record for DOI 10.1109/TQE.2023.3238670 fetched this session, confirming journal/volume/year/publisher.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Sandia National Laboratories co-authorship gives this a national-lab-adjacent character; IEEE Xplore page itself not independently fetched, Crossref confirmation is sufficient."
+    "notes": "Sandia National Laboratories co-authorship gives this a national-lab-adjacent character; IEEE Xplore page itself not independently fetched, Crossref confirmation is sufficient.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of New Mexico",
+          "country": "US"
+        },
+        {
+          "name": "Sandia National Laboratories",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/TQE.2023.3238670"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "University of New Mexico + Sandia National Laboratories, both US. No India affiliation."
+    }
   },
   {
     "id": "L13-008",
@@ -183,12 +432,16 @@
     "canonical_key": "doi:10.1007/s10909-024-03126-w",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s10909-024-03126-w",
     "doi": "10.1007/s10909-024-03126-w",
@@ -197,7 +450,46 @@
     "locator": "Crossref record for DOI 10.1007/s10909-024-03126-w fetched this session, confirming full author list and journal/volume/issue.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list now confirmed via Crossref (Groh, Ahmed, Henderson, Hubmayr, Mates, Silva-Feaver, Ullom, Yu), replacing the raw record's unconfirmed placeholder. arXiv companion 2311.05793 remains discovery-only."
+    "notes": "Author list now confirmed via Crossref (Groh, Ahmed, Henderson, Hubmayr, Mates, Silva-Feaver, Ullom, Yu), replacing the raw record's unconfirmed placeholder. arXiv companion 2311.05793 remains discovery-only.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "National Institute of Standards and Technology",
+          "country": "US"
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "SLAC National Accelerator Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "Yale University",
+          "country": "US"
+        },
+        {
+          "name": "University of Colorado Boulder",
+          "country": "US"
+        },
+        {
+          "name": "Stanford University",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 6,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1007/s10909-024-03126-w"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 8 authors US institutions (NIST/LBNL/SLAC/Yale/CU Boulder/Stanford). No India affiliation. Resolves the raw record's previously-unconfirmed author-list flag."
+    }
   },
   {
     "id": "L13-009",
@@ -208,12 +500,18 @@
     "canonical_key": "doi:10.1088/1748-0221/20/03/p03024",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "EU", "US"],
+    "geography": [
+      "multinational",
+      "EU",
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1748-0221/20/03/P03024",
     "doi": "10.1088/1748-0221/20/03/P03024",
@@ -222,7 +520,54 @@
     "locator": "Crossref record for DOI 10.1088/1748-0221/20/03/P03024 fetched this session, confirming journal/volume/issue/year (IOP Publishing). IOPscience article page itself still returns HTTP 403.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Crossref confirmation is sufficient per the session's acceptance ruling despite the publisher page remaining blocked."
+    "notes": "Crossref confirmation is sufficient per the session's acceptance ruling despite the publisher page remaining blocked.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "CERN",
+          "country": "CH"
+        },
+        {
+          "name": "INFN (various sections)",
+          "country": "IT"
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "University of Bonn",
+          "country": "DE"
+        },
+        {
+          "name": "University of Oxford",
+          "country": "GB"
+        },
+        {
+          "name": "CNRS / Aix-Marseille Universite",
+          "country": "FR"
+        },
+        {
+          "name": "Universidad de Sevilla",
+          "country": "ES"
+        },
+        {
+          "name": "Institute of High Energy Physics",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 151,
+      "evidence_urls": [
+        "https://api.openalex.org/works/https://doi.org/10.1088/1748-0221/20/03/P03024"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Verified full authorship list (151 authorships) programmatically -- unique institution country codes: IT, FR, ES, CH, GB, DE, US, NL, GR, NO, CN, CZ. No India affiliation."
+    }
   },
   {
     "id": "L13-010",
@@ -233,12 +578,16 @@
     "canonical_key": "doi:10.1088/1741-4326/ad933e",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1741-4326/ad933e",
     "doi": "10.1088/1741-4326/ad933e",
@@ -247,7 +596,34 @@
     "locator": "Crossref record for DOI 10.1088/1741-4326/ad933e fetched this session, confirming full author list and journal/volume/issue.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list now confirmed via Crossref, replacing the raw record's unconfirmed placeholder. IOPscience page itself remains blocked (HTTP 403); Crossref confirmation is sufficient."
+    "notes": "Author list now confirmed via Crossref, replacing the raw record's unconfirmed placeholder. IOPscience page itself remains blocked (HTTP 403); Crossref confirmation is sufficient.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Hefei Institutes of Physical Science",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1088/1741-4326/ad933e"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 7 authors China (USTC/CAS/Hefei). No India affiliation."
+    }
   },
   {
     "id": "L13-011",
@@ -258,12 +634,16 @@
     "canonical_key": "doi:10.1016/j.fusengdes.2018.02.066",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2018.02.066",
     "doi": "10.1016/j.fusengdes.2018.02.066",
@@ -272,7 +652,30 @@
     "locator": "Verifier located the DOI via WebSearch/Crossref bibliographic search this session, then confirmed it directly via a Crossref DOI-record fetch (title/journal/volume/year match exactly).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI added by verifier; ScienceDirect abstract remains paywalled but Crossref confirmation is sufficient per the session's acceptance ruling."
+    "notes": "DOI added by verifier; ScienceDirect abstract remains paywalled but Crossref confirmation is sufficient per the session's acceptance ruling.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Korea Institute of Fusion Energy",
+          "country": "KR"
+        },
+        {
+          "name": "General Atomics",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1016/j.fusengdes.2018.02.066"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors Korea Institute of Fusion Energy + General Atomics (US). No India affiliation."
+    }
   },
   {
     "id": "L13-012",
@@ -283,12 +686,16 @@
     "canonical_key": "doi:10.3762/bjnano.11.131",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3762/bjnano.11.131",
     "doi": "10.3762/bjnano.11.131",
@@ -297,7 +704,38 @@
     "locator": "Crossref record for DOI 10.3762/bjnano.11.131 fetched this session, confirming journal/volume/publisher (Beilstein Institut).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Open-access journal; Crossref confirmation obtained this session."
+    "notes": "Open-access journal; Crossref confirmation obtained this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Novosibirsk State Technical University",
+          "country": "RU"
+        },
+        {
+          "name": "Bauman Moscow State Technical University",
+          "country": "RU"
+        },
+        {
+          "name": "All Russia Research Institute of Automatics",
+          "country": "RU"
+        },
+        {
+          "name": "Leibniz Institute of Photonic Technology",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 4,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3762/bjnano.11.131"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All authors Russia/Germany institutions. No India affiliation."
+    }
   },
   {
     "id": "L13-013",
@@ -308,12 +746,16 @@
     "canonical_key": "doi:10.1002/pssa.202501018",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/pssa.202501018",
     "doi": "10.1002/pssa.202501018",
@@ -322,7 +764,34 @@
     "locator": "Crossref record for DOI 10.1002/pssa.202501018 fetched this session, confirming full author list, journal, volume/issue, publisher (Wiley).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author list now confirmed via Crossref (institutional affiliations not returned by the Crossref metadata used this session and are left unconfirmed, per the no-fill-from-memory rule). Full text remains paywalled (HTTP 402 previously)."
+    "notes": "Author list now confirmed via Crossref (institutional affiliations not returned by the Crossref metadata used this session and are left unconfirmed, per the no-fill-from-memory rule). Full text remains paywalled (HTTP 402 previously).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "RISE Research Institutes of Sweden",
+          "country": "SE"
+        },
+        {
+          "name": "Nanosc AB",
+          "country": "SE"
+        },
+        {
+          "name": "Chalmers University of Technology",
+          "country": "SE"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1002/pssa.202501018"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 5 authors Sweden institutions (RISE/Nanosc/Chalmers). No India affiliation."
+    }
   },
   {
     "id": "L13-014",
@@ -333,12 +802,16 @@
     "canonical_key": "doi:10.1063/1.5018179",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.5018179",
     "doi": "10.1063/1.5018179",
@@ -347,7 +820,34 @@
     "locator": "Crossref record for DOI 10.1063/1.5018179 fetched this session, confirming journal/volume/issue/publisher (AIP Publishing).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "AIP publisher page itself not independently fetched; Crossref confirmation is sufficient."
+    "notes": "AIP publisher page itself not independently fetched; Crossref confirmation is sufficient.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Duke University",
+          "country": "US"
+        },
+        {
+          "name": "The Ohio State University",
+          "country": "US"
+        },
+        {
+          "name": "IonQ",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1063/1.5018179"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 3 authors US institutions. No India affiliation."
+    }
   },
   {
     "id": "L13-015",
@@ -358,12 +858,16 @@
     "canonical_key": "doi:10.1016/j.nima.2018.11.110",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.nima.2018.11.110",
     "doi": "10.1016/j.nima.2018.11.110",
@@ -372,7 +876,26 @@
     "locator": "Crossref record for DOI 10.1016/j.nima.2018.11.110 fetched this session, confirming journal/volume/publisher (Elsevier).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier correction: Crossref lists the formal publication year as 2019 (vol 936), not 2018 as in the raw record; likely the raw record used the online/submission date. Year field updated to 2019 to match the canonical Crossref record. Brookhaven National Laboratory primary technical work."
+    "notes": "Verifier correction: Crossref lists the formal publication year as 2019 (vol 936), not 2018 as in the raw record; likely the raw record used the online/submission date. Year field updated to 2019 to match the canonical Crossref record. Brookhaven National Laboratory primary technical work.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Brookhaven National Laboratory",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/https://doi.org/10.1016/j.nima.2018.11.110"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 10 authors Brookhaven National Laboratory (US). No India affiliation."
+    }
   },
   {
     "id": "L13-016",
@@ -383,12 +906,16 @@
     "canonical_key": "doi:10.1109/jssc.2025.3530472",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/jssc.2025.3530472",
     "doi": "10.1109/JSSC.2025.3530472",
@@ -397,7 +924,34 @@
     "locator": "Crossref record for DOI 10.1109/jssc.2025.3530472 fetched this session, confirming journal/volume/issue/authors; USTC news-office article (news.ustc.edu.cn/info/1055/90866.htm) fetched in full previously, corroborating the technical figures.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "VERIFIER REPLACEMENT: the raw record was based solely on a USTC news-office article describing an unlocated JSSC paper with no DOI (rated academic_peer_reviewed T1 without a verifiable record). This session located and Crossref-confirmed the actual peer-reviewed paper (DOI 10.1109/jssc.2025.3530472), and title/authors/venue/url/doi/canonical_key were updated to the verified final paper per the preprint/secondary-report-to-final-version replacement rule. Original news-office URL retained only as corroboration in claim_supported/locator."
+    "notes": "VERIFIER REPLACEMENT: the raw record was based solely on a USTC news-office article describing an unlocated JSSC paper with no DOI (rated academic_peer_reviewed T1 without a verifiable record). This session located and Crossref-confirmed the actual peer-reviewed paper (DOI 10.1109/jssc.2025.3530472), and title/authors/venue/url/doi/canonical_key were updated to the verified final paper per the preprint/secondary-report-to-final-version replacement rule. Original news-office URL retained only as corroboration in claim_supported/locator.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "University of Macau",
+          "country": "MO"
+        },
+        {
+          "name": "Institute of Microelectronics",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/jssc.2025.3530472"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "USTC + University of Macau authors. No India affiliation."
+    }
   },
   {
     "id": "L13-017",
@@ -408,12 +962,16 @@
     "canonical_key": "doi:10.1109/lssc.2020.3017705",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/LSSC.2020.3017705",
     "doi": "10.1109/LSSC.2020.3017705",
@@ -422,7 +980,34 @@
     "locator": "Verifier located the DOI via WebSearch this session, then confirmed it directly via a Crossref DOI-record fetch (title matches exactly; IEEE Xplore doc 9170592 corresponds to this DOI).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI, journal (IEEE Solid-State Circuits Letters, not a generic 'IEEE journal') and full author list added/corrected by verifier this session."
+    "notes": "DOI, journal (IEEE Solid-State Circuits Letters, not a generic 'IEEE journal') and full author list added/corrected by verifier this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Delft University of Technology",
+          "country": "NL"
+        },
+        {
+          "name": "EPFL",
+          "country": "CH"
+        },
+        {
+          "name": "University of Neuchatel",
+          "country": "CH"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/LSSC.2020.3017705"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "TU Delft/EPFL authors. No India affiliation."
+    }
   },
   {
     "id": "L13-018",
@@ -433,12 +1018,16 @@
     "canonical_key": "doi:10.1145/3658617.3703141",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1145/3658617.3703141",
     "doi": "10.1145/3658617.3703141",
@@ -447,7 +1036,26 @@
     "locator": "Crossref record for DOI 10.1145/3658617.3703141 fetched this session, confirming venue/year/publisher and at least one confirmed author affiliation (Kobe University, Japan).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier correction: geography updated from 'multinational' to ['JP'] based on the confirmed Kobe University affiliation returned by Crossref; the full multi-author list was not enumerated by the metadata summary used this session, so other possible co-author countries are not ruled out."
+    "notes": "Verifier correction: geography updated from 'multinational' to ['JP'] based on the confirmed Kobe University affiliation returned by Crossref; the full multi-author list was not enumerated by the metadata summary used this session, so other possible co-author countries are not ruled out.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Kobe University",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1145/3658617.3703141"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Lead/confirmed author Kobe University, Japan. No India affiliation found; other co-authors not individually enumerated by OpenAlex metadata but geography correctly narrowed to JP per record's own verifier correction."
+    }
   },
   {
     "id": "L13-019",
@@ -458,12 +1066,16 @@
     "canonical_key": "doi:10.1145/2903150.2906828",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1145/2903150.2906828",
     "doi": "10.1145/2903150.2906828",
@@ -472,7 +1084,26 @@
     "locator": "Crossref record for DOI 10.1145/2903150.2906828 fetched this session, confirming full 9-author list and venue/year/publisher.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref (institutional country split beyond the raw record's 'EU' label not confirmed by the metadata returned this session, so geography is left as originally set rather than asserted from memory). Included to show multi-year continuity (2016-2020) of the TU Delft cryo-CMOS control research program alongside L13-004/005/017."
+    "notes": "Full author list now confirmed via Crossref (institutional country split beyond the raw record's 'EU' label not confirmed by the metadata returned this session, so geography is left as originally set rather than asserted from memory). Included to show multi-year continuity (2016-2020) of the TU Delft cryo-CMOS control research program alongside L13-004/005/017.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Delft University of Technology",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1145/2903150.2906828"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "TU Delft-led continuity paper with L13-004/005/017 team. No India affiliation."
+    }
   },
   {
     "id": "L13-020",
@@ -483,12 +1114,16 @@
     "canonical_key": "doi:10.1063/5.0225000",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0225000",
     "doi": "10.1063/5.0225000",
@@ -497,7 +1132,26 @@
     "locator": "Crossref record for DOI 10.1063/5.0225000 fetched this session, confirming author names and affiliation (Tsinghua Shenzhen International Graduate School), journal/volume/issue.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Institutional affiliation and Chinese geography now independently confirmed via Crossref, resolving the raw record's flagged uncertainty."
+    "notes": "Institutional affiliation and Chinese geography now independently confirmed via Crossref, resolving the raw record's flagged uncertainty.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Tsinghua Shenzhen International Graduate School",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1063/5.0225000"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors Tsinghua Shenzhen International Graduate School (China). No India affiliation."
+    }
   },
   {
     "id": "L13-021",
@@ -508,12 +1162,16 @@
     "canonical_key": "doi:10.1016/j.chip.2025.100146",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.chip.2025.100146",
     "doi": "10.1016/j.chip.2025.100146",
@@ -522,7 +1180,34 @@
     "locator": "Crossref record for DOI 10.1016/j.chip.2025.100146 fetched this session, confirming full 19-author list and journal/volume/issue/publisher.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Full author list now confirmed via Crossref, replacing the raw record's unconfirmed placeholder. arXiv companion 2412.19477 remains discovery-only."
+    "notes": "Full author list now confirmed via Crossref, replacing the raw record's unconfirmed placeholder. arXiv companion 2412.19477 remains discovery-only.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Southern University of Science and Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Beijing Academy of Quantum Information Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Ningxia University",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1016/j.chip.2025.100146"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 19 authors China institutions (SUSTech/BAQIS/Ningxia University). No India affiliation."
+    }
   },
   {
     "id": "L13-022",
@@ -533,12 +1218,16 @@
     "canonical_key": "doi:10.1109/isscc49661.2025.10904579",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/isscc49661.2025.10904579",
     "doi": "10.1109/isscc49661.2025.10904579",
@@ -547,7 +1236,34 @@
     "locator": "Verifier located and confirmed DOI 10.1109/isscc49661.2025.10904579 via Crossref bibliographic search and direct Crossref record fetch this session (title/venue/year match exactly).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI added by verifier. An expanded 2026 IEEE JSSC journal version of this work also exists (DOI 10.1109/jssc.2026.3671795, title 'Xiling: Cryo-CMOS Manipulator Using Dual 18-bit R-2R DACs for Single-Electron Transistor at 60 mK') -- flagged for a future verifier/scout to confirm and potentially prefer as the fuller peer-reviewed journal version. Full co-authorship list still not independently confirmed this session."
+    "notes": "DOI added by verifier. An expanded 2026 IEEE JSSC journal version of this work also exists (DOI 10.1109/jssc.2026.3671795, title 'Xiling: Cryo-CMOS Manipulator Using Dual 18-bit R-2R DACs for Single-Electron Transistor at 60 mK') -- flagged for a future verifier/scout to confirm and potentially prefer as the fuller peer-reviewed journal version. Full co-authorship list still not independently confirmed this session.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Electronic Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "Southern University of Science and Technology",
+          "country": "CN"
+        },
+        {
+          "name": "Chengdu Data Automation System Technologies",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1109/isscc49661.2025.10904579"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "All 4 resolved authors China institutions (UESTC/SUSTech/Chengdu Data Automation). No India affiliation."
+    }
   },
   {
     "id": "L13-023",
@@ -558,12 +1274,16 @@
     "canonical_key": "doi:10.23919/vlsitechnologyandcir65189.2025.11074904",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.23919/vlsitechnologyandcir65189.2025.11074904",
     "doi": "10.23919/vlsitechnologyandcir65189.2025.11074904",
@@ -572,7 +1292,34 @@
     "locator": "Verifier located and confirmed DOI 10.23919/vlsitechnologyandcir65189.2025.11074904 via Crossref bibliographic search and direct Crossref record fetch this session (title/venue/year match exactly).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "DOI added by verifier."
+    "notes": "DOI added by verifier.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Tsinghua University",
+          "country": "CN"
+        },
+        {
+          "name": "Nanyang Technological University",
+          "country": "SG"
+        },
+        {
+          "name": "Beijing Academy of Quantum Information Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.23919/vlsitechnologyandcir65189.2025.11074904"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "11 authors: Tsinghua University (China) + Nanyang Technological University (Singapore) + BAQIS (China). No India affiliation."
+    }
   },
   {
     "id": "L13-024",
@@ -583,12 +1330,16 @@
     "canonical_key": "doi:10.3390/electronics14081572",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/electronics14081572",
     "doi": "10.3390/electronics14081572",
@@ -597,7 +1348,34 @@
     "locator": "Crossref record for DOI 10.3390/electronics14081572 fetched this session, confirming author names and journal/volume/issue/publisher.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Author names confirmed via Crossref; institutional affiliation was not returned by the metadata used this session and is left unconfirmed rather than filled from memory."
+    "notes": "Author names confirmed via Crossref; institutional affiliation was not returned by the metadata used this session and is left unconfirmed rather than filled from memory.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        },
+        {
+          "name": "Xinjiang Astronomical Observatory",
+          "country": "CN"
+        },
+        {
+          "name": "National Space Science Center",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.3390/electronics14081572"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Both authors CAS/Xinjiang Astronomical Observatory/National Space Science Center (China). No India affiliation; raw record's 'multinational' geography narrows to CN."
+    }
   },
   {
     "id": "L13-025",
@@ -608,12 +1386,16 @@
     "canonical_key": "doi:10.1063/5.0085467",
     "source_type": "academic_peer_reviewed",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "verified",
     "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0085467",
     "doi": "10.1063/5.0085467",
@@ -622,7 +1404,30 @@
     "locator": "Crossref record for DOI 10.1063/5.0085467 fetched this session; the full author/affiliation list confirms USTC + Alibaba Group, not LBNL/UC Berkeley.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "IMPORTANT VERIFIER CORRECTION: the raw scout record inferred LBNL/UC Berkeley 'QubiC' authorship from the project-name association alone, without independently confirming authors ('institutional affiliation inferred ... not independently confirmed'). Crossref metadata for this exact DOI lists the actual authors and affiliations as USTC + Alibaba Quantum Laboratory -- a Chinese academic/industry paper unrelated to the real Berkeley QubiC project (which has different DOIs not verified in this session). Geography corrected from US to CN; claim_supported and title framing corrected accordingly. Downstream idea-architects and demand-competitor analysts should NOT cite this record as evidence of DOE/LBNL activity; if 'QubiC' (LBNL) coverage is needed elsewhere in the mission, a fresh source must be independently found and verified."
+    "notes": "IMPORTANT VERIFIER CORRECTION: the raw scout record inferred LBNL/UC Berkeley 'QubiC' authorship from the project-name association alone, without independently confirming authors ('institutional affiliation inferred ... not independently confirmed'). Crossref metadata for this exact DOI lists the actual authors and affiliations as USTC + Alibaba Quantum Laboratory -- a Chinese academic/industry paper unrelated to the real Berkeley QubiC project (which has different DOIs not verified in this session). Geography corrected from US to CN; claim_supported and title framing corrected accordingly. Downstream idea-architects and demand-competitor analysts should NOT cite this record as evidence of DOE/LBNL activity; if 'QubiC' (LBNL) coverage is needed elsewhere in the mission, a fresh source must be independently found and verified.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "openalex_affiliations"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        },
+        {
+          "name": "Alibaba Group",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://api.openalex.org/works/doi:10.1063/5.0085467"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "USTC + Alibaba Quantum Laboratory (China) -- corroborates the record's own verifier correction from an assumed-LBNL geography to CN. No India affiliation."
+    }
   },
   {
     "id": "L13-026",
@@ -633,12 +1438,16 @@
     "canonical_key": "standard:IEEE-1588-2019",
     "source_type": "standard",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -647,7 +1456,26 @@
     "locator": "standards.ieee.org/ieee/1588/6825/ fetched in full this session, confirming official title, approval date, publication date, and scope.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier successfully fetched the official IEEE standards-association overview page this session (the IEEE Xplore document page itself returned no retrievable content); this is sufficient to confirm the standard's identity and scope."
+    "notes": "Verifier successfully fetched the official IEEE standards-association overview page this session (the IEEE Xplore document page itself returned no retrievable content); this is sufficient to confirm the standard's identity and scope.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "IEEE Standards Association",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://standards.ieee.org/ieee/1588/6825/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "IEEE Standards Association HQ Piscataway, NJ (US)."
+    }
   },
   {
     "id": "L13-027",
@@ -658,12 +1486,17 @@
     "canonical_key": "url:white-rabbit.web.cern.ch",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "EU"],
+    "geography": [
+      "multinational",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -672,7 +1505,30 @@
     "locator": "white-rabbit.web.cern.ch homepage, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Fetched successfully. See also L13-035 (China ITER feeder context) and L13-033 (Japan/EU JT-60SA) for downstream facility-timing/control context in this lane."
+    "notes": "Fetched successfully. See also L13-035 (China ITER feeder context) and L13-033 (Japan/EU JT-60SA) for downstream facility-timing/control context in this lane.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "CERN",
+          "country": "CH"
+        },
+        {
+          "name": "GSI Helmholtz Centre for Heavy Ion Research",
+          "country": "DE"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://white-rabbit.web.cern.ch/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CERN (Geneva, Switzerland) / GSI (Darmstadt, Germany) official domain."
+    }
   },
   {
     "id": "L13-028",
@@ -683,12 +1539,16 @@
     "canonical_key": "url:energy.gov/articles/energy-department-announces-625-million-advance-next-phase-national-quantum-information",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -697,7 +1557,26 @@
     "locator": "energy.gov press release, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official primary DOE source, directly load-bearing for US demand-signal claims in this lane."
+    "notes": "Official primary DOE source, directly load-bearing for US demand-signal claims in this lane.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "U.S. Department of Energy",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.energy.gov/articles/energy-department-announces-625-million-advance-next-phase-national-quantum-information"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "US federal government agency, official .gov domain."
+    }
   },
   {
     "id": "L13-029",
@@ -708,12 +1587,16 @@
     "canonical_key": "url:congress.gov/bill/118th-congress/senate-bill/5411",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": false,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -733,12 +1616,17 @@
     "canonical_key": "url:iter.org/industry/procurement/overview-tenders/open-tenders",
     "source_type": "buyer_procurement",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational", "EU"],
+    "geography": [
+      "multinational",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -747,7 +1635,26 @@
     "locator": "iter.org Open Tenders page, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Directly load-bearing procurement evidence. The cryogenic-helium-supply tender is adjacent to (not identical to) control/electronics scope, but ITER facility-hardware procurement is squarely within lane L13's defined scope ('Quantum/big-science classical electronics, timing, control, and facility hardware' per LANE_MAP.md) -- verifier confirms relevance, flags the adjacency for idea-stage precision."
+    "notes": "Directly load-bearing procurement evidence. The cryogenic-helium-supply tender is adjacent to (not identical to) control/electronics scope, but ITER facility-hardware procurement is squarely within lane L13's defined scope ('Quantum/big-science classical electronics, timing, control, and facility hardware' per LANE_MAP.md) -- verifier confirms relevance, flags the adjacency for idea-stage precision.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "ITER Organization",
+          "country": "FR"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.iter.org/industry/procurement/overview-tenders/open-tenders"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ITER Organization headquartered in Saint-Paul-lez-Durance, France."
+    }
   },
   {
     "id": "L13-031",
@@ -758,12 +1665,16 @@
     "canonical_key": "url:quantum.gov/department-of-commerce-releases-export-controls-on-quantum-technologies",
     "source_type": "regulator",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -772,7 +1683,26 @@
     "locator": "quantum.gov page, fetched in full this session; ECCN 4A006 detail remains sourced only from an unfetched secondary search result.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The quantum.gov page itself, as fetched, did not state specific ECCN numbers. Entity List additions targeting PRC quantum-computing-adjacent entities were found via WebSearch, but Federal Register/Commerce.gov pages failed to fetch this session (403/redirect-block) -- documented access gap, not a confirmed absence of the underlying action."
+    "notes": "The quantum.gov page itself, as fetched, did not state specific ECCN numbers. Entity List additions targeting PRC quantum-computing-adjacent entities were found via WebSearch, but Federal Register/Commerce.gov pages failed to fetch this session (403/redirect-block) -- documented access gap, not a confirmed absence of the underlying action.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Quantum Initiative / U.S. Department of Commerce, Bureau of Industry and Security",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.quantum.gov/department-of-commerce-releases-export-controls-on-quantum-technologies/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "quantum.gov is a US federal government site summarizing US Commerce Dept action."
+    }
   },
   {
     "id": "L13-032",
@@ -783,12 +1713,17 @@
     "canonical_key": "url:news.fnal.gov/2025/11/energy-department-announces-partnership-with-fermilab-and-qblox-to-manufacture-foundational-quantum-control-platform-for-u-s-research-and-innovation",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "EU"],
+    "geography": [
+      "US",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -797,7 +1732,34 @@
     "locator": "news.fnal.gov press release, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "A separate June 2026 trade-press report (thequbitreport.com, not independently fetched) reportedly describes the CRADA/licensing agreement being finalized -- unconfirmed; a future verifier should confirm final agreement terms directly from a primary DOE/Fermilab source."
+    "notes": "A separate June 2026 trade-press report (thequbitreport.com, not independently fetched) reportedly describes the CRADA/licensing agreement being finalized -- unconfirmed; a future verifier should confirm final agreement terms directly from a primary DOE/Fermilab source.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Fermi National Accelerator Laboratory",
+          "country": "US"
+        },
+        {
+          "name": "U.S. Department of Energy",
+          "country": "US"
+        },
+        {
+          "name": "Qblox",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 3,
+      "evidence_urls": [
+        "https://news.fnal.gov/2025/11/energy-department-announces-partnership-with-fermilab-and-qblox-to-manufacture-foundational-quantum-control-platform-for-u-s-research-and-innovation/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Fermilab (US) / DOE (US) / Qblox (Netherlands-headquartered). No India."
+    }
   },
   {
     "id": "L13-033",
@@ -808,12 +1770,17 @@
     "canonical_key": "url:fusionforenergy.europa.eu/news/europe-and-japan-complete-jt-60sa-the-most-powerful-tokamak-in-the-world",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "EU"],
+    "geography": [
+      "JP",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -822,7 +1789,30 @@
     "locator": "fusionforenergy.europa.eu news page, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier fetch of the F4E page this session did NOT surface the raw record's specific claims of 'Japan procures 8 of 24 gyrotron systems' or a separate US/Princeton Plasma Physics Laboratory X-ray crystal spectrometer diagnostic supply -- those two specific details remain unconfirmed by this session's fetch and should be treated as unverified until independently sourced. claim_supported rewritten to match only what was directly confirmed."
+    "notes": "Verifier fetch of the F4E page this session did NOT surface the raw record's specific claims of 'Japan procures 8 of 24 gyrotron systems' or a separate US/Princeton Plasma Physics Laboratory X-ray crystal spectrometer diagnostic supply -- those two specific details remain unconfirmed by this session's fetch and should be treated as unverified until independently sourced. claim_supported rewritten to match only what was directly confirmed.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "National Institutes for Quantum Science and Technology (QST)",
+          "country": "JP"
+        },
+        {
+          "name": "Fusion for Energy (F4E)",
+          "country": "EU"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://fusionforenergy.europa.eu/news/europe-and-japan-complete-jt-60sa-the-most-powerful-tokamak-in-the-world/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "QST (Japan) / F4E (EU agency, Barcelona). No India."
+    }
   },
   {
     "id": "L13-034",
@@ -831,23 +1821,36 @@
     "year": 2022,
     "url": "https://www.larsentoubro.com/heavy-engineering/capabilities/the-iter-cryostat",
     "canonical_key": "url:larsentoubro.com/heavy-engineering/capabilities/the-iter-cryostat",
-    "source_type": "buyer_procurement",
-    "tier": "T2",
-    "lane_ids": ["L13"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "procurement_award",
     "claim_supported": "L&T's own capability page confirms ITER-India (the Indian Domestic Agency) selected Larsen & Toubro Heavy Engineering to manufacture and install the ITER cryostat -- described as the world's largest vacuum-application stainless-steel vessel, 29.3m diameter x 29.6m height, finished weight exceeding 3,500 tonnes (individual sections 357-1,060 tonnes), with all forgings made indigenously via L&T Special Steel and Heavy Forgings. The page does not state a completion date; the raw record's '2022 completion' and '3,850-tonne' figures are not confirmed by this specific page and should be treated as coming from an unfetched secondary source until independently verified.",
     "locator": "larsentoubro.com company capabilities page, fetched in full this session.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Verifier tier correction: downgraded T1 -> T2. This is the contractor's (L&T's) own marketing/capability page describing a contract it won, not the buyer's (ITER Organization / ITER-India) own procurement documentation; per SOURCE_STANDARDS, T1 buyer_tender/procurement requires the buyer's own record, not a supplier's self-published account. demand_evidence_type='procurement_award' is retained since the underlying award is real and independently well-known, but the tier now reflects source primariness rather than event authenticity."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Not fetched directly. The cryostat itself is a vessel rather than classical control electronics per se, but the associated cryogenic/diagnostic/neutral-beam systems are facility-hardware-adjacent to this lane's scope -- flagged for verifier judgment on the relevance boundary. | Verifier tier correction: downgraded T1 -> T2. This is the contractor's (L&T's) own marketing/capability page describing a contract it won, not the buyer's (ITER Organization / ITER-India) own procurement documentation; per SOURCE_STANDARDS, T1 buyer_tender/procurement requires the buyer's own record, not a supplier's self-published account. demand_evidence_type='procurement_award' is retained since the underlying award is real and independently well-known, but the tier now reflects source primariness rather than event authenticity. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.053169+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.larsentoubro.com/heavy-engineering/capabilities/the-iter-cryostat"
+      ],
+      "original_source_type": "buyer_procurement"
+    }
   },
   {
     "id": "L13-035",
@@ -858,12 +1861,16 @@
     "canonical_key": "url:cas.cn/cm/202504/t20250414_5063986",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -872,7 +1879,26 @@
     "locator": "www.cas.cn/cm/202504/t20250414_5063986.shtml (official CAS/Xinhua release), fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier URL substitution: the raw record's ipp.cas.cn URL returned a self-signed-certificate error this session and could not be fetched; this cas.cn Xinhua-sourced release on the same institutional domain family (Chinese Academy of Sciences) was located and fetched successfully instead, with matching content (31 feeders, ~1,600 tonnes)."
+    "notes": "Verifier URL substitution: the raw record's ipp.cas.cn URL returned a self-signed-certificate error this session and could not be fetched; this cas.cn Xinhua-sourced release on the same institutional domain family (Chinese Academy of Sciences) was located and fetched successfully instead, with matching content (31 feeders, ~1,600 tonnes).",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Institute of Plasma Physics, Chinese Academy of Sciences (ASIPP)",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cas.cn/cm/202504/t20250414_5063986.shtml"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "ASIPP is a CAS institute in Hefei, China. No India."
+    }
   },
   {
     "id": "L13-036",
@@ -883,12 +1909,16 @@
     "canonical_key": "url:cqt.sg/highlight/2024-05-singapore-national-quantum-strategy",
     "source_type": "government",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["SG"],
+    "geography": [
+      "SG"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -897,7 +1927,26 @@
     "locator": "cqt.sg official highlight page, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The strongest single explicit 'control electronics' funding-call evidence found in this lane for any Asian market."
+    "notes": "The strongest single explicit 'control electronics' funding-call evidence found in this lane for any Asian market.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Centre for Quantum Technologies / National Research Foundation / National Quantum Office",
+          "country": "SG"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cqt.sg/highlight/2024-05-singapore-national-quantum-strategy/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Singapore government/NRF-affiliated body, cqt.sg official domain. No India."
+    }
   },
   {
     "id": "L13-037",
@@ -908,12 +1957,17 @@
     "canonical_key": "url:stocktitan.net/news/KEYS/keysight-installs-world-s-largest-commercial-quantum-control-system-l5s2ihpugjz9",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["JP", "US"],
+    "geography": [
+      "JP",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -922,7 +1976,31 @@
     "locator": "stocktitan.net news republication, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is Keysight's (the vendor's) own press release naming a customer (AIST/G-QuAT), not documentation authored by the customer itself. Per role rule 3, a vendor claim naming a customer does not qualify as direct_customer_documentation -- only a document produced by the buyer/customer itself would. Source_type/tier (trade_press/T2) retained as still-credible, dated, named-deployment evidence; just not counted toward the primary-demand quota."
+    "notes": "Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is Keysight's (the vendor's) own press release naming a customer (AIST/G-QuAT), not documentation authored by the customer itself. Per role rule 3, a vendor claim naming a customer does not qualify as direct_customer_documentation -- only a document produced by the buyer/customer itself would. Source_type/tier (trade_press/T2) retained as still-credible, dated, named-deployment evidence; just not counted toward the primary-demand quota.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Keysight Technologies",
+          "country": "US"
+        },
+        {
+          "name": "Stock Titan (distribution platform)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.stocktitan.net/news/KEYS/keysight-installs-world-s-largest-commercial-quantum-control-system-l5s2ihpugjz9.html",
+        "https://www.stocktitan.net/privacy"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Keysight Technologies HQ Santa Rosa, CA (US); named customer AIST/G-QuAT is Japan. Distribution platform Stock Titan's privacy policy confirms 'primary servers are in the United States' with California CPRA disclosures and no India signal found in any search of the platform's ownership/registration."
+    }
   },
   {
     "id": "L13-038",
@@ -933,12 +2011,17 @@
     "canonical_key": "url:prnewswire.com/news-releases/seeqc-partners-with-itri-to-build-advanced-superconducting-electronic-chip-manufacturing-line-302629459",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["TW", "US"],
+    "geography": [
+      "TW",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -947,7 +2030,30 @@
     "locator": "PR Newswire release, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is a jointly-issued company press release (PR Newswire format, SEEQC as lead announcer); it is not ITRI's own independent primary filing, tender, or award announcement, per role rule 3's instruction to distinguish vendor/company claims from primary buyer/tender/filing documents. ITRI's real institutional co-commitment is noted as context but not counted as a primary-demand type. Source_type/tier (trade_press/T2) unchanged."
+    "notes": "Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is a jointly-issued company press release (PR Newswire format, SEEQC as lead announcer); it is not ITRI's own independent primary filing, tender, or award announcement, per role rule 3's instruction to distinguish vendor/company claims from primary buyer/tender/filing documents. ITRI's real institutional co-commitment is noted as context but not counted as a primary-demand type. Source_type/tier (trade_press/T2) unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "SEEQC, Inc.",
+          "country": "US"
+        },
+        {
+          "name": "Industrial Technology Research Institute (ITRI)",
+          "country": "TW"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.prnewswire.com/news-releases/seeqc-partners-with-itri-to-build-advanced-superconducting-electronic-chip-manufacturing-line-302629459.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "SEEQC HQ Elmsford, NY (US); ITRI is Taiwan's national research institute; distributed via PR Newswire (Cision, US). No India."
+    }
   },
   {
     "id": "L13-039",
@@ -958,12 +2064,17 @@
     "canonical_key": "url:prnewswire.com/news-releases/quantum-machines-forges-strategic-partnerships-with-leading-korean-research-and-investment-groups-301864490",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["KR", "multinational"],
+    "geography": [
+      "KR",
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -972,7 +2083,30 @@
     "locator": "PR Newswire release, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier: fetched=true updated (successfully fetched this session, was false in raw). demand_evidence_type downgraded from 'direct_customer_documentation' to 'none' per role rule 3 -- this is Quantum Machines' (the vendor's) own press release, not documentation authored by KRISS/QCILA/Orientom themselves. Source_type/tier (trade_press/T2) unchanged."
+    "notes": "Verifier: fetched=true updated (successfully fetched this session, was false in raw). demand_evidence_type downgraded from 'direct_customer_documentation' to 'none' per role rule 3 -- this is Quantum Machines' (the vendor's) own press release, not documentation authored by KRISS/QCILA/Orientom themselves. Source_type/tier (trade_press/T2) unchanged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Quantum Machines",
+          "country": "IL"
+        },
+        {
+          "name": "KRISS",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.prnewswire.com/news-releases/quantum-machines-forges-strategic-partnerships-with-leading-korean-research-and-investment-groups-301864490.html"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Quantum Machines HQ Tel Aviv (Israel); KRISS is Korea's national metrology institute; distributed via PR Newswire (US). No India."
+    }
   },
   {
     "id": "L13-040",
@@ -983,12 +2117,16 @@
     "canonical_key": "url:businesskorea.co.kr/news/articleView.html?idxno=237878",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["KR"],
+    "geography": [
+      "KR"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -997,7 +2135,30 @@
     "locator": "businesskorea.co.kr article, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier correction: demand_evidence_type was already 'direct_customer_documentation' in the raw record, but this is third-party trade press (not KRISS's own documentation) and names no control-electronics vendor/purchase -- downgraded to 'none'. Retained as T2 context on Korea's national quantum-computing effort; a more technical Korean-language follow-up source is still needed for control-electronics-specific demand signal, as originally flagged."
+    "notes": "Verifier correction: demand_evidence_type was already 'direct_customer_documentation' in the raw record, but this is third-party trade press (not KRISS's own documentation) and names no control-electronics vendor/purchase -- downgraded to 'none'. Retained as T2 context on Korea's national quantum-computing effort; a more technical Korean-language follow-up source is still needed for control-electronics-specific demand signal, as originally flagged.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Businesskorea",
+          "country": "KR"
+        },
+        {
+          "name": "KRISS",
+          "country": "KR"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://www.businesskorea.co.kr/news/articleView.html?idxno=237878"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Businesskorea HQ confirmed Seoul, South Korea (301 Samdo Building, Yeoido-dong, Yeongdeungpo-gu, Seoul) via web search. No India."
+    }
   },
   {
     "id": "L13-041",
@@ -1008,12 +2169,17 @@
     "canonical_key": "url:bluefors.com/press-releases/bluefors-opens-expanded-u-s-production-facilities-becomes-biggest-producer-of-dilution-refrigerators-in-north-america",
     "source_type": "market_industry",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US", "EU"],
+    "geography": [
+      "US",
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1022,7 +2188,26 @@
     "locator": "bluefors.com press release, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Company's own announcement, not an audited filing -- T2, and functionally a self-published corporate announcement rather than independent market analysis (source_type retained as market_industry per the original classification, closest available fit). No revenue/market-share figures are disclosed in this release; broader market-share figures (e.g. roughly 34% global share) come from unfetched third-party market-research aggregator pages and should be treated as less certain."
+    "notes": "Company's own announcement, not an audited filing -- T2, and functionally a self-published corporate announcement rather than independent market analysis (source_type retained as market_industry per the original classification, closest available fit). No revenue/market-share figures are disclosed in this release; broader market-share figures (e.g. roughly 34% global share) come from unfetched third-party market-research aggregator pages and should be treated as less certain.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Bluefors Oy",
+          "country": "FI"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://bluefors.com/press-releases/bluefors-opens-expanded-u-s-production-facilities-becomes-biggest-producer-of-dilution-refrigerators-in-north-america/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Bluefors Oy headquartered in Helsinki, Finland."
+    }
   },
   {
     "id": "L13-042",
@@ -1033,12 +2218,16 @@
     "canonical_key": "url:delft-circuits.com/delft-circuits-presents-its-i-o-roadmap-for-scaling-quantum-computers-towards-thousands-of-qubits",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["EU"],
+    "geography": [
+      "EU"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1047,7 +2236,26 @@
     "locator": "delft-circuits.com press page, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "All figures are vendor claims, not independently verified -- explicitly labeled as such per claim-discipline rules."
+    "notes": "All figures are vendor claims, not independently verified -- explicitly labeled as such per claim-discipline rules.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Delft Circuits",
+          "country": "NL"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://delft-circuits.com/delft-circuits-presents-its-i-o-roadmap-for-scaling-quantum-computers-towards-thousands-of-qubits/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Delft Circuits is a Netherlands (Delft) company."
+    }
   },
   {
     "id": "L13-043",
@@ -1058,12 +2266,16 @@
     "canonical_key": "url:originqc.com.cn",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": false,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1083,12 +2295,16 @@
     "canonical_key": "url:quel-inc.com/ja/2023/03/27/riken",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "ja",
-    "geography": ["JP"],
+    "geography": [
+      "JP"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1097,7 +2313,30 @@
     "locator": "quel-inc.com Japanese-language page, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is QuEL's (the vendor's) own blog post naming a national-lab deployment, not RIKEN's own documentation, per role rule 3. Retained as valid T2 vendor_datasheet evidence of a real, named, operational Japan deployment -- useful geography/context, just not schema-primary demand."
+    "notes": "Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is QuEL's (the vendor's) own blog post naming a national-lab deployment, not RIKEN's own documentation, per role rule 3. Retained as valid T2 vendor_datasheet evidence of a real, named, operational Japan deployment -- useful geography/context, just not schema-primary demand.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "QuEL, Inc.",
+          "country": "JP"
+        },
+        {
+          "name": "RIKEN",
+          "country": "JP"
+        }
+      ],
+      "non_indian_affiliation_count": 2,
+      "evidence_urls": [
+        "https://quel-inc.com/ja/2023/03/27/riken/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "QuEL, Inc. is an Osaka University spinout, Japan. RIKEN is a Japanese national lab. No India."
+    }
   },
   {
     "id": "L13-045",
@@ -1108,12 +2347,16 @@
     "canonical_key": "url:docs.amd.com/r/en-US/ds926-zynq-ultrascale-plus-rfsoc",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["US"],
+    "geography": [
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1122,7 +2365,26 @@
     "locator": "docs.amd.com/r/en-US/ds926-zynq-ultrascale-plus-rfsoc fetched this session (returned section table-of-contents); specific RF-ADC/RF-DAC figures cross-confirmed via WebSearch of the same official AMD docs.amd.com domain (DS926 DC/AC switching-characteristics subpages).",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "Official AMD vendor documentation; treated as a self-published vendor datasheet (T2), inherently a vendor claim about its own product, consistent with claim-discipline labeling."
+    "notes": "Official AMD vendor documentation; treated as a self-published vendor datasheet (T2), inherently a vendor claim about its own product, consistent with claim-discipline labeling.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "AMD (Xilinx)",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://docs.amd.com/r/en-US/ds926-zynq-ultrascale-plus-rfsoc"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "AMD headquartered in Santa Clara, CA (US); Xilinx is an AMD subsidiary."
+    }
   },
   {
     "id": "L13-046",
@@ -1133,12 +2395,16 @@
     "canonical_key": "url:quantum-machines.co/products/opx1000",
     "source_type": "vendor_datasheet",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1147,7 +2413,26 @@
     "locator": "quantum-machines.co/products/opx1000/ fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "The pricing figure is a third-party estimate (postquantum.com), not vendor-disclosed list pricing -- labeled as such."
+    "notes": "The pricing figure is a third-party estimate (postquantum.com), not vendor-disclosed list pricing -- labeled as such.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Quantum Machines",
+          "country": "IL"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.quantum-machines.co/products/opx1000/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "Quantum Machines HQ Tel Aviv, Israel."
+    }
   },
   {
     "id": "L13-047",
@@ -1158,12 +2443,16 @@
     "canonical_key": "url:eettaiwan.com/20240308nt11-taiwan-reaches-quantum-computer-and-communication-technology-milestone",
     "source_type": "trade_press",
     "tier": "T2",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": false,
     "language": "zh",
-    "geography": ["TW"],
+    "geography": [
+      "TW"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1183,12 +2472,16 @@
     "canonical_key": "url:cas.cn/yw/202503/t20250304_5048593",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1197,7 +2490,26 @@
     "locator": "cas.cn official press release, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "This page did NOT state a '100% domestic localization of cryogenic refrigeration and measurement-control system' claim seen in a separate, unfetched ncsti.gov.cn search snippet -- that specific localization claim should be treated as unconfirmed until independently fetched, despite appearing in multiple secondary Chinese news outlets."
+    "notes": "This page did NOT state a '100% domestic localization of cryogenic refrigeration and measurement-control system' claim seen in a separate, unfetched ncsti.gov.cn search snippet -- that specific localization claim should be treated as unconfirmed until independently fetched, despite appearing in multiple secondary Chinese news outlets.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://www.cas.cn/yw/202503/t20250304_5048593.shtml"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "CAS official domain, Beijing, China."
+    }
   },
   {
     "id": "L13-049",
@@ -1208,12 +2520,16 @@
     "canonical_key": "url:news.ustc.edu.cn/info/1056/90742",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "zh",
-    "geography": ["CN"],
+    "geography": [
+      "CN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
@@ -1222,7 +2538,26 @@
     "locator": "news.ustc.edu.cn official article, fetched in full this session.",
     "accepted": true,
     "rejection_reason": "",
-    "notes": "A distinct institutional source (university, not the CAS umbrella) corroborating L13-003/048 performance figures; this article also did not address measurement-control-system localization specifics."
+    "notes": "A distinct institutional source (university, not the CAS umbrella) corroborating L13-003/048 performance figures; this article also did not address measurement-control-system localization specifics.",
+    "india_origin_audit": {
+      "status": "verified_non_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "University of Science and Technology of China",
+          "country": "CN"
+        }
+      ],
+      "non_indian_affiliation_count": 1,
+      "evidence_urls": [
+        "https://news.ustc.edu.cn/info/1056/90742.htm"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "notes": "USTC official news domain, Hefei, China."
+    }
   },
   {
     "id": "L13-050",
@@ -1231,23 +2566,55 @@
     "year": 2025,
     "url": "https://reports.valuates.com/market-reports/QYRE-Auto-24T19077/global-dilution-refrigerator-for-quantum-computing",
     "canonical_key": "url:reports.valuates.com/market-reports/QYRE-Auto-24T19077/global-dilution-refrigerator-for-quantum-computing",
-    "source_type": "market_industry",
+    "source_type": "discovery_only",
     "tier": "T3",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["multinational"],
+    "geography": [
+      "multinational"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "Estimates the dilution-refrigerator-for-quantum-computing market at roughly US$72.6M (2024) growing to US$193M by 2031 (about 15% CAGR); lists 9 major vendors including Bluefors, ULVAC, Oxford Instruments, Cryoconcept, FormFactor, Maybell Quantum, Zero Point Cryogenics, and two Chinese players (Benyuan Quantum Computing Technology/Hefei, Hefei QuantumCTek). The report landing page states the top-3-vendor combined revenue share as a percentage but the specific figure is blank/redacted on the free teaser page -- the raw record's '>70% Bluefors+Oxford share' and broader '$108M-$178M all-application' figures were NOT independently re-confirmed by this fetch and should be treated as less certain, sourced elsewhere.",
     "locator": "reports.valuates.com report landing page, fetched in full this session.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "Consultancy/market-aggregator estimate with no disclosed bottom-up methodology -- T3, context only. Should NOT be used alone as market-size evidence without independent triangulation per claim-discipline rules. This lane's single T3 record (within the tier cap)."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only source; discovery/search lead only",
+    "notes": "Consultancy/market-aggregator estimate with no disclosed bottom-up methodology -- T3, context only. Should NOT be used alone as market-size evidence without independent triangulation per claim-discipline rules. This lane's single T3 record (within the tier cap). | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T00:00:00Z",
+      "methods": [
+        "org_identity_page"
+      ],
+      "institutions": [
+        {
+          "name": "Valuates Reports",
+          "country": "IN"
+        },
+        {
+          "name": "QYResearch",
+          "country": "US"
+        }
+      ],
+      "non_indian_affiliation_count": 0,
+      "evidence_urls": [
+        "https://reports.valuates.com/market-reports/QYRE-Auto-24T19077/global-dilution-refrigerator-for-quantum-computing",
+        "https://www.facebook.com/valuates/",
+        "https://in.linkedin.com/company/valuatesreports",
+        "https://inc42.com/company/valuates-reports/"
+      ],
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "original_source_type": "market_industry",
+      "useful_lead": "Dilution-refrigerator-for-quantum-computing market estimated at roughly US$72.6M (2024) growing to US$193M by 2031 (~15% CAGR); lists 9 major vendors (Bluefors, ULVAC, Oxford Instruments, Cryoconcept, FormFactor, Maybell Quantum, Zero Point Cryogenics, Benyuan Quantum Computing/Hefei, Hefei QuantumCTek). Independently confirm market-size/vendor-share figures via a non-India-based market-research source (e.g., a QYResearch report published/sold directly by QYResearch's own US entity, or vendor-disclosed figures from Bluefors/Oxford Instruments) before use in demand or market-size claims.",
+      "notes": "The record's accessed/canonical URL (reports.valuates.com) is published by Valuates Reports, confirmed headquartered in Bangalore/Bengaluru, Karnataka, India (per Facebook, LinkedIn, and Inc42 company-profile listings) -- exactly the India-registered market-research-consultancy pattern flagged in the audit brief. Although the underlying research house cited in authors_or_org is 'QYResearch' (confirmed US-headquartered, City of Industry, CA, per qyresearch.com/about-us and multiple business-directory listings), the actual source being cited and fetched (reports.valuates.com) is India-published and therefore excluded from supporting technical/demand/market claims per the binding source-origin rule. Downgraded from verified to discovery_only; record was already T3/context-only per its own notes."
+    }
   },
   {
     "id": "L13-051",
@@ -1256,23 +2623,36 @@
     "year": 2026,
     "url": "https://www.rrcat.gov.in/technology/accel/indus/acs/index.html",
     "canonical_key": "url:rrcat.gov.in/technology/accel/indus/acs/index.html",
-    "source_type": "government",
-    "tier": "T1",
-    "lane_ids": ["L13"],
+    "source_type": "discovery_only",
+    "tier": "discovery",
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": true,
     "language": "en",
-    "geography": ["IN"],
+    "geography": [
+      "IN"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",
     "demand_evidence_type": "none",
     "claim_supported": "RRCAT's Controls, Diagnostics and Beamline Instrumentation Division confirms responsibility for design/development/commissioning/maintenance/upgradation of control systems across RRCAT's accelerator projects, including the Microtron Injector, transfer lines, and Indus-1/Indus-2 storage rings; expertise spans VME-bus hardware, embedded systems, fieldbus controllers, and EPICS/LabVIEW/WinCCOA/Java/C++ software platforms. The page does not state the specific Indus-1 (450 MeV)/Indus-2 (2.5 GeV) energy figures, the 20 MeV microtron/booster detail, or any dated 2026-2031 spending trigger claimed in the raw record -- those remain unconfirmed by this fetch.",
     "locator": "rrcat.gov.in official division page, fetched in full this session.",
-    "accepted": true,
-    "rejection_reason": "",
-    "notes": "A general facility-description page rather than a dated spending/procurement trigger -- thin evidence of a forward-looking 2026-2031 demand trigger specifically, as originally flagged. India's synchrotron-control upgrade plans remain unconfirmed with a specific date/budget."
+    "accepted": false,
+    "rejection_reason": "india_origin_exclusion: confirmed India-origin or India-only underlying technical claim; discovery/search lead only",
+    "notes": "Not fetched directly; a general facility-description page rather than a dated spending/procurement trigger -- flagged as thin evidence of a forward-looking 2026-2031 demand trigger specifically. India's synchrotron-control upgrade plans were not confirmed with a specific date/budget this session. | A general facility-description page rather than a dated spending/procurement trigger -- thin evidence of a forward-looking 2026-2031 demand trigger specifically, as originally flagged. India's synchrotron-control upgrade plans remain unconfirmed with a specific date/budget. | Quarantined by 2026-07 India-origin rule; may be used only to discover an independent eligible source.",
+    "india_origin_audit": {
+      "status": "excluded_india_origin",
+      "audited_at": "2026-07-12T23:53:38.055358+00:00",
+      "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed when a non-Indian affiliation is verified.",
+      "evidence_urls": [
+        "https://www.rrcat.gov.in/technology/accel/indus/acs/index.html"
+      ],
+      "original_source_type": "government"
+    }
   },
   {
     "id": "L13-052",
@@ -1283,12 +2663,18 @@
     "canonical_key": "url:ep-ese.web.cern.ch/content/rd53-designing-next-generation-readout-chips-atlas-and-cms-pixel-detector-upgrades-hl-lhc",
     "source_type": "national_lab",
     "tier": "T1",
-    "lane_ids": ["L13"],
+    "lane_ids": [
+      "L13"
+    ],
     "idea_ids": [],
     "accessed_at": "2026-07-12",
     "fetched": false,
     "language": "en",
-    "geography": ["multinational", "EU", "US"],
+    "geography": [
+      "multinational",
+      "EU",
+      "US"
+    ],
     "peer_review_status": "not_applicable",
     "peer_review_evidence_url": "",
     "doi": "",

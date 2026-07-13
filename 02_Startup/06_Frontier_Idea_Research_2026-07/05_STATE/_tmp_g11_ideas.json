@@ -1,0 +1,323 @@
+[
+  {
+    "idea_id": "P3R2-F-07",
+    "concept": "High-cycle, high-current charging-interface thermal subsystems: liquid-cooled (non-PFAS) megawatt cable/connector assemblies for MCS charging (US) and high-cycle swap-coupler + buffer-battery thermal modules for battery-swap infrastructure (CN)",
+    "primary_lane": "L10",
+    "secondary_lanes": [
+      "L14"
+    ],
+    "sector_cluster": "heavy_electrification",
+    "product_role": "subsystem",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US+CN",
+    "named_buyer_examples": [
+      "MCS charger OEMs serving port/mine fleets (US)",
+      "SPIC Qiyuan/CATL-ecosystem swap-station integrators (CN, via component design-in)"
+    ],
+    "painful_job": "Megawatt-class connectors/cables are shipping ahead of a mature thermal-engineering base - 2023-25 literature is still resolving cable-core and connector cooling (L14-019..022), and the best-tested coolant family (Novec) is discontinued; CN swap stations cycle 800 kWh packs through sub-7-minute swaps continuously (L10-031), a high-cycle contact + thermal duty with a fresh national standard but no specialist supply base (L10-046).",
+    "product": "Thermally engineered interface hardware: water-glycol/low-GWP-cooled MCS cable-connector sets rated for 3,000 A duty with contact-resistance health sensing; swap-coupler thermal/contact modules and buffer-charging cold plates for swap stations; sold to charger and swap-equipment OEMs.",
+    "frontier_vision": "Own the amp-meters-per-minute bottleneck of heavy electrification: whatever wins - conductive MCS or swap - the current must cross a connector that this company thermally masters.",
+    "current_trl": 5,
+    "precompany_plan_2026_2029": "2026-27 thermal test bench replicating IEC TS 63379 3,000 A duty with non-PFAS coolants; 2028 co-development agreement with one charger OEM (NREL emulator ecosystem, L10-049) - BINDING; CN leg BINDING GATE: P4 confirmation that CN swap-equipment component procurement is open to licensed outside suppliers before any CN investment (no eligible source documents CN conductive MW-charging demand); 2029 1e5-cycle contact endurance dataset; sequencing: port/mining applications (funded, L10-048) before trucking (MCS volume risk).",
+    "launch_2030_timing_thesis": "MCS standard published Feb 2026 (L10-050) means volume deployments land 2029-2033; CN swap standardization (L10-045/046) scales the swap architecture in the same window; both need interface thermal hardware that neither EVSE nor connector incumbents have proven at duty.",
+    "demand_trigger_2030_2034": "US: MCS charger rollouts for ports/trucking as EPA-funded equipment enters service life (L10-048) and NREL 20 MW emulator qualification work matures (L10-049); CN: swap-network expansion under national swap standards and SOE mining/marine programs (L10-031/040/046).",
+    "competition_outlook_2030": "Staubli, Phoenix Contact, Huber+Suhner on cooled cables - P4 incumbent map REQUIRED, with the wedge proven by the 10,000-mate-cycle duty dataset, not asserted; CN connector majors and CATL in-house for swap. Wedge is duty-cycle-proven thermal data plus health sensing, not the connector geometry.",
+    "timing_window_risk": "If MCS volumes slip and swap remains vertically integrated inside CATL/SPIC, merchant demand stays thin; B-14-class standards arbitrage may capture the interface layer first (coordinate, not compete).",
+    "commercial_readiness_kill_date": "2034 (kill if no OEM design-in by end-2032)",
+    "extreme_edge": "Contact-health prognostics from thermal/electrical micro-signatures across the fleet - the swap network's insurance layer.",
+    "demand_source_ids": [
+      "L10-050",
+      "L10-049",
+      "L10-048",
+      "L10-031",
+      "L10-046",
+      "L10-040",
+      "L10-045"
+    ],
+    "technical_source_ids": [
+      "L14-019",
+      "L14-020",
+      "L14-021",
+      "L14-022"
+    ],
+    "competitor_source_ids": [
+      "L10-050",
+      "L10-031"
+    ],
+    "first_experiment": "3,000 A/1,250 V cooled cable-connector prototype on a thermal bench: demonstrate steady-state and 10-minute-cycle duty with water-glycol coolant, contact-resistance drift <10% over 10,000 mate cycles (2027-28).",
+    "first_experiment_budget_usd": 450000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      10000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": true,
+    "secondary_markets": [],
+    "asia_beachhead": false,
+    "founder_fit_note": "Low direct fit: liquid-cooled megawatt cable/connector and swap-coupler hardware is thermo-mechanical contact engineering, with founder skills applying mainly to contact-resistance health sensing and telemetry.",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 R2 FIX applied: CN-leg binding gate added (P4 confirmation that CN swap-equipment component procurement is open to licensed outsiders); 2028 charger-OEM co-development made binding; P4 connector-major incumbent map (Staubli/Phoenix Contact/Huber+Suhner) with the 10,000-mate-cycle duty dataset as wedge proof; sequencing fixed - port/mining (funded) before trucking (MCS volume risk).",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 R2 adjudication (FIX, N6/E6/C6/V6/T6): genuine no-man's-land between EVSE OEMs and connector vendors; CN swap evidence country-specific (SPIC, GB/T 45926, CCS); no eligible source documents CN conductive MW-charging demand - CN leg gated.",
+    "longlist_frozen_at": "2026-07-13T10:51:59.806199+00:00"
+  },
+  {
+    "idea_id": "P3R2-F-09",
+    "concept": "Merchant high-power RF vacuum windows and output couplers (brazed-ceramic assemblies with integrated diagnostics) for klystrons, gyrotrons, and solid-state RF chains",
+    "primary_lane": "L05",
+    "secondary_lanes": [
+      "L07"
+    ],
+    "sector_cluster": "pulsed_power_rf",
+    "product_role": "component",
+    "primary_customer_archetype": "government_lab_and_industrial",
+    "primary_market": "US+CN",
+    "named_buyer_examples": [
+      "US tube rebuilders and DOE/ARDAP-funded accelerator suppliers",
+      "gyrotron primes (Thales-class, EU/US programs)",
+      "IHEP/CEPC and CGN Dasheng ecosystems (CN, big-science procurement route)"
+    ],
+    "painful_job": "Output-coupler/window failure is named the most common failure mode in klystrons and vacuum electronic devices at high CW power, and fixes are still research-stage (L05-014); every tube maker and lab treats windows/couplers as an internal art, so operators carry unplanned downtime with no merchant qualified-spares supplier.",
+    "product": "A qualified family of coaxial/waveguide RF windows and couplers (brazed ceramic, multipactor-suppressed coatings) with integrated arc/temperature diagnostics and a published acceptance protocol per IEC 60060-1:2025-referenced HV practice; sold as OEM components and lifetime-extension spares.",
+    "frontier_vision": "The standard RF-vacuum interface company: as solid-state chains and next-generation tubes proliferate (fusion heating, colliders, industrial e-beam), every megawatt crosses a window this company makes or licensed.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27 ceramic-metal joining and multipactor test capability at a university/lab partner; 2028 supply first evaluation windows into one NAMED rebuild program (ARDAP channel, L05-031/032) - BINDING GATE; 2029 lifetime dataset (thermal cycling + RF conditioning) published; P4: evidence on whether tube primes buy reliability-critical components merchant - if negative, re-scope to lab spares/aftermarket and re-size honestly; P4 also evaluates one beam-components portfolio company pairing F-09 with C-09/D-07 adjacency; CN big-science channel scoped through international procurement counsel.",
+    "launch_2030_timing_thesis": "ITER gyrotron deliveries run to ~2029 (L05-029), fusion-heating and CEPC-class programs decide construction in the early 2030s (L05-012/013), and the EtO-replacement e-beam wave keeps industrial accelerators growing - all consuming windows/couplers from an artisanal supply base.",
+    "demand_trigger_2030_2034": "US: DOE ARDAP/stewardship-funded accelerator industrialization and fusion-heating RF procurement post-2030 (L05-031/032); CN: CEPC construction decision and CGN Dasheng accelerator capacity expansion (L05-012/013, L05-035/038) reached via big-science procurement routes.",
+    "competition_outlook_2030": "CPI/Thales/Canon in-house (L05-050, L05-029), Kyocera-class ceramics houses (judgment); CN: CAEP/CAS internal supply. Wedge: merchant qualification + diagnostics that in-house shops do not productize.",
+    "timing_window_risk": "Small TAM and conservative buyers; if tube demand shrinks faster than SSPA-chain window demand grows, the niche stays sub-scale.",
+    "commercial_readiness_kill_date": "2034 (kill if <2 paying lab/OEM customers by end-2032)",
+    "extreme_edge": "Windows with built-in health telemetry - arc precursors and ceramic temperature - turning the most failure-prone RF part into the best-instrumented one.",
+    "demand_source_ids": [
+      "L05-029",
+      "L05-031",
+      "L05-032",
+      "L05-012",
+      "L05-013",
+      "L05-035",
+      "L05-038"
+    ],
+    "technical_source_ids": [
+      "L05-014",
+      "L05-007",
+      "L05-008",
+      "L05-043"
+    ],
+    "competitor_source_ids": [
+      "L05-050",
+      "L05-029",
+      "L05-037"
+    ],
+    "first_experiment": "Fabricate and RF-condition a 1 MW-class pillbox window prototype; demonstrate thermal-cycling life and multipactor margin versus a reference design, with integrated diagnostics (2028).",
+    "first_experiment_budget_usd": 500000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      9000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": true,
+    "secondary_markets": [
+      "KR",
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "Low direct fit: brazed-ceramic vacuum windows and couplers are a materials/joining product, with founder skills applying peripherally to the integrated arc/temperature diagnostics and acceptance-test instrumentation.",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 R2 FIX applied: 2028 evaluation windows inside one named rebuild program (ARDAP channel) made the binding gate; P4 evidence requirement on prime merchant-buy behavior (if negative, re-scope to lab spares/aftermarket and re-size honestly); two-paying-customers-by-2032 kill retained; P4 evaluation of a beam-components portfolio company with C-09/D-07 adjacency added.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 R2 adjudication (FIX, N5/E6/C6/V5/T6): documented failure mode (L05-014), real qualification wedge, honest small-TAM admission; whether tube primes buy reliability-critical 'internal art' merchant is the killer question.",
+    "longlist_frozen_at": "2026-07-13T10:51:59.806202+00:00"
+  },
+  {
+    "idea_id": "P3R2-F-10",
+    "concept": "Laser-ultrasonic non-contact inline weld-inspection subsystems: production-line laser-generated phased-array ultrasound for battery interconnect welds (CN) and pipeline/pressure-vessel welds (US)",
+    "primary_lane": "L16",
+    "secondary_lanes": [
+      "L12"
+    ],
+    "sector_cluster": "industrial_process_tools",
+    "product_role": "subsystem",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US+CN",
+    "named_buyer_examples": [
+      "NDT service majors and pipeline operators (US, ISO 13588/ASTM E2700-governed work)",
+      "Chinese battery-equipment integrators serving CATL/BYD lines"
+    ],
+    "painful_job": "PAUT dominates pipeline weld inspection under standards on ~7-year revision cycles (L16-026/027) but remains couplant-based and offline for high-rate production; EV battery makers weld millions of Al-Cu joints on equipment bought at documented scale (L16-028) with no non-contact volumetric weld QC at line rate - laser-generated phased-array ultrasound exists only as research (L16-029).",
+    "product": "An inline inspection head: fiber-laser ultrasound generation + interferometric/EMAT detection + real-time phased-array reconstruction, packaged as a bolt-on QC subsystem for welding equipment OEMs (battery lines) and crawler/scanner integrators (pipelines), with standards-mapped reporting.",
+    "frontier_vision": "Non-contact volumetric weld QC at production rate everywhere ultrasound gel cannot go - batteries, hydrogen pipelines, shipyards - built on one laser-acoustic engine.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27 lab demonstration on Al-Cu tab welds with destructive-test correlation; 2028 battery-equipment OEM co-development/design-in LOI - BINDING GATE (the CN demand bridge: inline volumetric QC demand is inferential, only the equipment channel is documented); US pipeline leg DE-WEIGHTED until a named operator/NDT-service evaluation exists by 2028 (standards-cycle timing is not a procurement trigger); 2029 standards engagement (ISO 13588 revision cycle) and speed/POD dataset; refresh L16-028 (2022-vintage buyer concentration) with a current filing before final scoring.",
+    "launch_2030_timing_thesis": "Battery line speeds and dissimilar-joint content keep rising while weld QC remains sampling-based; pipeline codes revise on ~7-year cycles putting a new ISO 13588 edition plausibly in 2026-2031 (L16-027) - a 2030 entrant with a proven laser-PAUT head rides both.",
+    "demand_trigger_2030_2034": "US: hydrogen/CO2 pipeline construction waves requiring higher-POD girth-weld inspection under updated ISO/ASTM editions (L16-026/027); CN: next battery-capacity buildout cycles and equipment-replacement waves at CATL/BYD-class lines (L16-028), accessed via equipment-OEM design-in.",
+    "competition_outlook_2030": "Evident/Olympus, Zetec, Baker Hughes production NDT and Tecnar-class industrial laser-UT - P4 incumbent check REQUIRED; CN: SIUI-class NDT makers; in-line vision/resistance monitoring as the cheap substitute. Wedge: volumetric + non-contact at line rate.",
+    "timing_window_risk": "Instrument-shaped wedge; must convert into an OEM-embedded subsystem or it stays a niche scanner business. POD-at-speed is the make-or-break metric.",
+    "commercial_readiness_kill_date": "2034 (BINDING: kill if POD/speed target unmet by end-2029; kill if no OEM design-in by end-2032)",
+    "extreme_edge": "Weld-quality data network across fleets of lines - defect signatures pooled into a process-improvement dataset OEMs cannot build alone.",
+    "demand_source_ids": [
+      "L16-026",
+      "L16-027",
+      "L16-028"
+    ],
+    "technical_source_ids": [
+      "L16-029",
+      "L16-030",
+      "L16-031"
+    ],
+    "competitor_source_ids": [
+      "L16-026",
+      "L16-028"
+    ],
+    "first_experiment": "Laser-UT scan of production Al-Cu tab welds at >=1 weld/s equivalent; correlate with teardown/pull tests to establish POD versus offline PAUT baseline (2027).",
+    "first_experiment_budget_usd": 400000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      9000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": true,
+    "secondary_markets": [
+      "KR"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "Strong transfer: interferometric/EMAT detection, laser-ultrasound signal chains, and real-time phased-array reconstruction combine founder sensors/instrumentation, electromagnetics, signal-processing, and numerical-analysis skills.",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 R2 FIX applied: CN demand bridge made binding (battery-equipment OEM co-development/design-in LOI by 2028); US pipeline leg de-weighted until a named operator/NDT-service evaluation exists by 2028; POD-at-speed end-2029 kill made binding; L16-028 (2022-vintage) refresh required before final scoring (rule 18); P4 incumbent check extended to Tecnar-class industrial laser-UT and Evident/Baker Hughes production NDT.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 R2 adjudication (FIX, N7/E7/C6/V6/T5): highest-novelty dual seed (first NDT play in the pool); physics risk on thin reflective Al-Cu at line rate honestly named; pipeline standards-cycle timing is too soft to carry demand.",
+    "longlist_frozen_at": "2026-07-13T10:51:59.806205+00:00"
+  },
+  {
+    "idea_id": "P3R2-F-11",
+    "concept": "Magnetic-pulse welding (MPW) production machines for aluminum-copper battery interconnects and busbars - solid-state joining without heat-affected zones, positioned as the successor process to ultrasonic tab welding",
+    "primary_lane": "L16",
+    "secondary_lanes": [
+      "L05"
+    ],
+    "sector_cluster": "industrial_process_tools",
+    "product_role": "process_equipment",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "CN",
+    "named_buyer_examples": [
+      "Chinese battery-equipment integrators serving CATL/BYD (the documented equipment buyers, L16-028)",
+      "pack/busbar line builders"
+    ],
+    "painful_job": "EV battery Al-Cu joining is a documented, buyer-concentrated Chinese equipment category (CATL+BYD >50% of one supplier's comparable purchases, L16-028); ultrasonic welding struggles with thick busbars and particle generation, while MPW research shows sound dissimilar Al-steel/Al-Cu joints inside defined weldability windows (L16-030/031) - but no productized, cycle-rated MPW machine serves battery lines.",
+    "product": "A production MPW cell: long-life field-shaper coils (the consumable engineering moat), solid-state pulsed capacitor bank with per-shot energy control and coil-health monitoring, and weld-window process recipes for Al-Cu busbar/tab stacks; sold via co-development with CN battery-equipment integrators (design-in/licensing access path for a foreign founder).",
+    "frontier_vision": "Solid-state joining as the default for dissimilar-metal electrification hardware - batteries, busbars, EV structures - with the coil-lifetime and weldability-window database as the durable asset.",
+    "current_trl": 5,
+    "precompany_plan_2026_2029": "2026-27 university-lab MPW rig: establish Al-Cu weldability windows and coil-life engineering (the known killer); BINDING coil-life gate: >=10,000 shots at spec by end-2028 - the entire engineering thesis; 2028 co-development agreement with one CN equipment integrator with the IP split CONTRACTUALIZED (founder retains pulsed-power hardware + process recipes; integrator sells the machine); 2028 cost-per-joint and line-rate model versus ultrasonic AND laser welding (laser is the real substitute); 2029 pilot cell on a busbar application; refresh L16-028 (2022) with a current filing before final scoring.",
+    "launch_2030_timing_thesis": "EM forming/MPW has had a 15-year 'renaissance' without productization (L16-032) because coil life and process windows were unsolved; battery busbar thickness and throughput demands in the early 2030s create the first application where MPW's advantages are decisive rather than nice-to-have.",
+    "demand_trigger_2030_2034": "CN: battery equipment replacement/expansion cycles at CATL/BYD-class plants and next-generation pack architectures (cell-to-pack busbars) procured through the integrator ecosystem documented in L16-028; secondary trigger: 800 V/high-current platforms thickening interconnects beyond comfortable ultrasonic range.",
+    "competition_outlook_2030": "Jiaocheng Ultrasonic defending the incumbent process (L16-028), laser-welding equipment lines, EU MPW specialists (Bmax/PSTproducts-class, judgment names); Chinese fast-follow on MPW hardware is certain once windows are published - IP and coil-life know-how must stay ahead.",
+    "timing_window_risk": "Process-substitution plays are slow; if ultrasonic + laser cover next-gen interconnects adequately, MPW stays niche. Enthusiasm-zone discipline: demand bridge is the documented equipment-buyer base, not the physics.",
+    "commercial_readiness_kill_date": "2034 (BINDING: kill if coil life <10,000 shots at spec by end-2028; kill if no integrator agreement by end-2030)",
+    "extreme_edge": "Per-shot electromagnetic process signature as built-in weld QC - every joint self-certifying.",
+    "demand_source_ids": [
+      "L16-028"
+    ],
+    "technical_source_ids": [
+      "L16-030",
+      "L16-031",
+      "L16-032",
+      "L16-033"
+    ],
+    "competitor_source_ids": [
+      "L16-028"
+    ],
+    "first_experiment": "Lab MPW rig: demonstrate Al-Cu busbar joints inside a mapped weldability window with >=10,000-shot coil life and pull/conductivity parity versus ultrasonic baseline (2027-28).",
+    "first_experiment_budget_usd": 350000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": false,
+    "china_beachhead": true,
+    "secondary_markets": [
+      "KR"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "Pulsed capacitor-bank electronics, per-shot energy control, and field-shaper coil electromagnetics fit founder circuits and electromagnetics skills, but welding metallurgy, process-window development, and production-line integration are outside the profile.",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 R2 FIX applied: coil-life gate (>=10,000 shots at spec by end-2028) made binding; 2028 CN integrator co-development agreement now requires a contractualized IP split (founder retains pulsed power + recipes; integrator sells); 2028 cost-per-joint and line-rate model vs ultrasonic AND laser welding added (laser is the real substitute); L16-028 (2022) refresh required before final scoring.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 R2 adjudication (FIX, N7/E7/C6/V6/T5): genuinely non-obvious productization of a 15-year non-productized process; correctly identifies coil economics as blocker-turned-wedge; technology-push honestly gated (no battery maker has asked for MPW).",
+    "longlist_frozen_at": "2026-07-13T10:51:59.806208+00:00"
+  },
+  {
+    "idea_id": "P3R2-F-12",
+    "concept": "Classification-certified DC power and protection stacks for battery-electric and battery-swap inland/coastal vessels (CCS Rules-native string protection, insulation monitoring, containerized-pack power interface)",
+    "primary_lane": "L10",
+    "secondary_lanes": [
+      "L08"
+    ],
+    "sector_cluster": "heavy_electrification",
+    "product_role": "subsystem",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "CN",
+    "named_buyer_examples": [
+      "Inland-vessel shipyards and system integrators building Jining '6006'-class swap ships (L10-040)",
+      "non-CATL marine battery integrators needing CCS-rule-compliant electrics"
+    ],
+    "painful_job": "China's CCS Rules for Battery-Powered Ships (2025 edition, effective 2025-12-31, L10-045) impose new requirements - containerized mobile power source inspection, shore-based monitoring, online data exchange - on a fast-growing electric canal/coastal fleet (national-benchmark swap cargo ship, L10-040); shipyards must integrate DC protection, insulation monitoring, and swap-pack interfaces to class rules with no specialist merchant supplier.",
+    "product": "A type-approved marine DC electrical stack: string-level protection and isolation, IMD, containerized-pack power/communication interface per CCS rules, and the shore-monitoring data gateway; sold to shipyards/integrators. Foreign-founder access: JV or licensed manufacturing with a CN marine-electric supplier, with class-society type approval (CCS, plus DNV for export variants) as the wedge a startup can own.",
+    "frontier_vision": "The class-rule-native electrical backbone for electric shipping: as battery vessels spread beyond China, the same certified stack ports to DNV/ABS markets.",
+    "current_trl": 5,
+    "precompany_plan_2026_2029": "2026-27 map CCS 2025-edition electrical requirements into a reference architecture; 2028 partner selection (CN marine-electric JV/license) and begin CCS type-approval of the protection/IMD stack; 2029 first pilot vessel retrofit with an inland operator; DNV variant scoped for export hedge.",
+    "launch_2030_timing_thesis": "CCS rules effective end-2025 create a compliance-driven refit and newbuild wave through the early 2030s; swap-ship architecture (15-minute swaps, L10-040) is scaling on the Grand Canal corridor while the specialist supply base is nascent.",
+    "demand_trigger_2030_2034": "CN: CCS rule enforcement on newbuilds/refits from 2026 plus the next CCS edition (~2027-29 given the 2023-2025 cadence, L10-045) tightening monitoring requirements; canal/coastal electrification programs recognized as national transport benchmarks (L10-040) driving provincial procurement.",
+    "competition_outlook_2030": "CATL-integrated electrics (dominant), CSSC-affiliated suppliers, European marine-electric houses (Danfoss Editron-class, judgment); domestic substitution is fast - the JV/licensing structure must concede manufacturing while retaining protection IP and type-approval ownership.",
+    "timing_window_risk": "Access is the honest risk: if CATL bundles the full electrical stack with packs, the merchant socket closes; the wedge is non-CATL integrators and class-rule complexity.",
+    "commercial_readiness_kill_date": "2034 (kill if no CCS type approval + pilot vessel by end-2031)",
+    "extreme_edge": "Swap-pack electrical passporting: per-container health/interface certification data that classification societies can audit.",
+    "demand_source_ids": [
+      "L10-040",
+      "L10-045",
+      "L10-036",
+      "L10-039"
+    ],
+    "technical_source_ids": [
+      "L10-045",
+      "L08-019",
+      "L08-020",
+      "L08-021"
+    ],
+    "competitor_source_ids": [
+      "L10-040",
+      "L10-036"
+    ],
+    "first_experiment": "Build the string-protection + IMD + pack-interface stack against CCS 2025-edition requirements and pass a class-society design appraisal on paper + bench demonstration (2028).",
+    "first_experiment_budget_usd": 300000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": false,
+    "china_beachhead": true,
+    "secondary_markets": [
+      "KR",
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "String protection, insulation monitoring, and pack-interface electronics fit founder circuits and embedded skills, but classification-society type approval, shipyard integration, and the required CN joint-venture structure are outside the profile.",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "elegance_verdict": "PROMOTE",
+    "adjudication_note": "2026-07-13 R2 adjudication (PROMOTE, N6/E6/C7/V6/T7): best CN-primary seed of the wave - dated country-specific regulatory trigger (CCS Rules 2025 edition effective 2025-12-31, ~2-year revision cadence), national-benchmark vessel class, type-approval-dossier moat, honest JV structure (concede manufacturing, retain protection IP + type approval), $300k class-design-appraisal experiment, named CATL-bundling kill. P4: confirm non-CATL integrator/shipyard share; map CSSC-affiliated suppliers; scope DNV/ABS export hedge.",
+    "longlist_frozen_at": "2026-07-13T10:51:59.806211+00:00"
+  }
+]
