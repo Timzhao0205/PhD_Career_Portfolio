@@ -1,0 +1,37 @@
+﻿{
+    "stage":  "10d_literature_merge",
+    "status":  "complete",
+    "completed_at":  "2026-07-25T01:03:59.3207233-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-fable-5",
+    "reported_models":  "claude-fable-5",
+    "primary_models":  "claude-fable-5",
+    "auxiliary_models":  "",
+    "result_model":  "claude-fable-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "dd72afc0-65e5-48d2-aa54-baceaa3d8a13",
+    "validation":  "231 total rows; final 150-source, metadata, type, access, identity, and uniqueness gates passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\01_SOURCE_LEDGER.csv",
+                        "sha256":  "6e06270c94cab84106357b733fc42d527caab034eb90036903975ce4a2e9ca81"
+                    },
+                    {
+                        "path":  "outputs\\01_LITERATURE_REVIEW.md",
+                        "sha256":  "df9debc9627148f1de2f41c2c9458882c4c8bd76fc30da637034ace5aa7ed054"
+                    },
+                    {
+                        "path":  "outputs\\01_EVIDENCE_MAP.csv",
+                        "sha256":  "3a4d0ffb12870d665e5887db61fb63a7f95740cd7072dd0773b75218d308ce83"
+                    },
+                    {
+                        "path":  "outputs\\01_SOURCE_COVERAGE.md",
+                        "sha256":  "3eb044d2e62cf4f00d36f10aa98d23caa1be76526026f3a7ae89dcd29282a301"
+                    }
+                ]
+}

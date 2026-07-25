@@ -1,0 +1,21 @@
+﻿{
+    "schema_version":  2,
+    "stage":  "10a_literature_gan",
+    "route":  "claude_code_powershell",
+    "attempt":  2,
+    "status":  "CHATGPT_HANDOFF_REQUIRED",
+    "requested_model":  "sonnet",
+    "requested_effort":  "xhigh",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "downgrade_count":  2,
+    "stream_file":  "D:\\timzhao\\Downloads\\01_PhD_Research_Claude_Only_One_Command_ChatGPT_Ready_2026-07-24\\01_PhD_Research\\06_PhD_Strategy_and_HSX_Publication_2026-07\\logs\\run_2026-07-24_170610_693\\10a_literature_gan\\attempt_2_new\\stream.jsonl",
+    "session_id":  "ea311c73-9a26-4c5e-89af-15ea6177c160",
+    "generated_prompt":  "D:\\timzhao\\Downloads\\01_PhD_Research_Claude_Only_One_Command_ChatGPT_Ready_2026-07-24\\01_PhD_Research\\06_PhD_Strategy_and_HSX_Publication_2026-07\\state\\generated_prompts\\10a_literature_gan_attempt_2.md",
+    "chatgpt_windows_equivalent":  {
+                                       "model":  "gpt-5.6-sol",
+                                       "effort":  "Extra High",
+                                       "max_unavailable_fallback":  "Extra High"
+                                   },
+    "note":  "SECOND_CLAUDE_MODEL_DOWNGRADE",
+    "updated_at":  "2026-07-24T17:57:16.2280329-07:00"
+}

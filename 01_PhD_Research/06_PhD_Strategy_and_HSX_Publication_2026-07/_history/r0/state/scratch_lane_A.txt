@@ -1,0 +1,209 @@
+DOI: 10.1109/tmag.2012.2196986
+TITLE: Robust Hall Effect Magnetic Field Sensors for Operation at High Temperatures and in Harsh Radiation Environments
+AUTHORS: Abdelkader Abderrahmane; Shota Koide; Shin-Ichiro Sato; Takeshi Ohshima; Adarsh Sandhu; Hiroshi Okada
+YEAR: 2012
+VENUE: IEEE Transactions on Magnetics
+VOLUME: 48
+ISSUE: 11
+PAGES: 4421-4423
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/tmag.2012.2196986 record retrieved; title, author list, volume/issue/pages, and venue (IEEE Transactions on Magnetics) matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Benchmarks AlGaN/GaN 2DEG Hall sensor robustness (high-temperature, radiation) against competing III-V material platforms, supporting the "comparable III-V Hall-sensor platforms" benchmarking bullet.
+NOTES: Reports AlGaN/GaN sensors stable to at least 400C and after 380 keV proton irradiation; compares favorably to InSb/InAs-based sensors that degrade above ~150C — useful for framing GaN's competitive niche.
+
+DOI: 10.1109/ted.2021.3054360
+TITLE: AlGaN/GaN 2-D Electron Gas for Highly Sensitive and High-Temperature Current Sensing
+AUTHORS: Hong Quan Nguyen; Toan Dinh; Hamid Amini Moghadam; Tuan Khoa Nguyen; Thanh Nguyen; Jisheng Han; Sima Dimitrijev; Yong Zhu; Nam-Trung Nguyen; Dzung Viet Dao
+YEAR: 2021
+VENUE: IEEE Transactions on Electron Devices
+VOLUME: 68
+ISSUE: 4
+PAGES: 1495-1500
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/ted.2021.3054360 record retrieved; title, full author list, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Direct AlGaN/GaN 2DEG Hall device physics paper (current-scaled sensitivity, temperature stability tied to 2DEG sheet density) — supports the core "AlGaN/GaN 2DEG Hall device physics" coverage bullet.
+NOTES: Not the same as the already-covered Mishra 2002 overview or Ambacher 1999 2DEG papers; this is a dedicated device/sensing study.
+
+DOI: 10.1049/cds2.12067
+TITLE: Hall‐effect sensors based on AlGaN/GaN heterojunctions on Si substrates for a wide temperature range
+AUTHORS: Sagnik Kumar; R. Muralidharan; G. Narayanan
+YEAR: 2021
+VENUE: IET Circuits, Devices & Systems
+VOLUME: 15
+ISSUE: 8
+PAGES: 772-786
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1049/cds2.12067 record retrieved; title, authors, volume/issue/pages, and venue matched; abstract text also read from the Crossref record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Directly supports AlGaN/GaN 2DEG Hall device physics coverage — reports transresistance, sheet resistance, and current-related sensitivity vs. temperature (75-500 K) for AlGaN/GaN-on-Si Hall sensors.
+NOTES: Abstract confirms: characterizes temperature dependence of transresistance, sheet resistance, and current-related sensitivity/gain of AlGaN/GaN 2DEG Hall sensors on Si(111); current-related sensitivity reported as reasonably constant across the full temperature range.
+
+DOI: 10.1109/jsen.2018.2794264
+TITLE: AlGaN/GaN Micro-Hall Effect Devices for Simultaneous Current and Temperature Measurements From Line Currents
+AUTHORS: Thomas P. White; Satish Shetty; Morgan E. Ware; H. Alan Mantooth; Gregory J. Salamo
+YEAR: 2018
+VENUE: IEEE Sensors Journal
+VOLUME: 18
+ISSUE: 7
+PAGES: 2944-2951
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2018.2794264 record retrieved; title, authors, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: AlGaN/GaN 2DEG Hall device physics and application design (simultaneous current/temperature sensing via micro-Hall device) — supports core lane coverage.
+NOTES: Same research group (Salamo/Mantooth, Arkansas) as the 2024 AlN/GaN paper below, showing continuity of AlGaN/GaN Hall device physics work relevant to novelty framing.
+
+DOI: 10.1109/tim.2025.3625331
+TITLE: A Portable Gauss Meter With Low Offset Based on AlGaN/GaN Hall Sensor Probe Suitable for High-Temperature Environment
+AUTHORS: Nannan Ding; Kaiming Ma; Huolin Huang; Xu Wang; Guohao Lv; Wenchao Shan; Jianxun Dai
+YEAR: 2025
+VENUE: IEEE Transactions on Instrumentation and Measurement
+VOLUME: 74
+ISSUE:
+PAGES: 1-9
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/tim.2025.3625331 record retrieved; title, authors, volume/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Very recent (2025) AlGaN/GaN Hall device application paper addressing offset reduction and high-temperature operation — directly relevant to the novelty-concern rebuttal by showing active, ongoing publication in this exact device physics space.
+NOTES: Confirms the AlGaN/GaN Hall sensor field remains an active 2025 publication area (recency counters a "not novel" reviewer concern by showing the field is still evolving, not stagnant).
+
+DOI: 10.1063/1.2712962
+TITLE: High temperature scanning Hall probe microscopy using AlGaN∕GaN two dimensional electron gas micro-Hall probes
+AUTHORS: Zaki Primadani; Hirotaka Osawa; Adarsh Sandhu
+YEAR: 2007
+VENUE: Journal of Applied Physics
+VOLUME: 101
+ISSUE: 9
+PAGES:
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1063/1.2712962 record retrieved; title, authors, volume/issue, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Foundational AlGaN/GaN 2DEG micro-Hall probe device physics paper (high-temperature operation, scanning Hall probe microscopy application) supporting the core device-physics coverage bullet.
+NOTES: Distinct from Ambacher 1999 2DEG-formation papers already covered; this is a device/application paper using AlGaN/GaN 2DEG Hall probes.
+
+DOI: 10.1109/ted.2024.3382643
+TITLE: Temperature, Sensitivity, and Frequency Response of AlN/GaN Heterostructure Micro-Hall Effect Sensor
+AUTHORS: Satish Shetty; Savannah R. Eisner; Ayesha Hassan; Anand Lalwani; Dinesh Baral; Yuriy I. Mazur; Debbie G. Senesky; H. O. H. Churchill; Zhong Chen; H. Alan Mantooth; Gregory J. Salamo
+YEAR: 2024
+VENUE: IEEE Transactions on Electron Devices
+VOLUME: 71
+ISSUE: 5
+PAGES: 3175-3182
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/ted.2024.3382643 record retrieved; title, full author list, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Recent (2024) AlN/GaN (polarization-heterostructure variant of AlGaN/GaN) 2DEG Hall device physics paper — directly extends the mission's own PI's (Debbie G. Senesky, co-author) published Hall-sensor device-physics track record, important context for the novelty rebuttal.
+NOTES: Co-authored by Debbie G. Senesky (Tim Zhao's PhD advisor) — flag for the lead researcher: this is prior published work from the same research group/PI, directly relevant to establishing the group's continuing contribution and to addressing the reviewer's novelty concern with precision.
+
+DOI: 10.1016/0924-4247(94)85019-4
+TITLE: Temperature dependence of an InGaAs-2DEG Hall device with large magnetic sensitivity
+AUTHORS: Yoshinobu Sugiyama
+YEAR: 1994
+VENUE: Sensors and Actuators A: Physical
+VOLUME: 40
+ISSUE: 2
+PAGES: 135-140
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/0924-4247(94)85019-4 record retrieved; title, author, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V 2DEG (InGaAs) Hall device physics paper — supports benchmarking GaN's competitive position against other 2DEG Hall-sensor material systems.
+NOTES: Early (1994) foundational InGaAs-2DEG Hall device physics/sensitivity paper; useful historical baseline for comparing GaN 2DEG Hall device performance trends.
+
+DOI: 10.1016/s0924-4247(02)00386-2
+TITLE: Nano-tesla magnetic field magnetometry using an InGaAs–AlGaAs–GaAs 2DEG Hall sensor
+AUTHORS: N. Haned
+YEAR: 2003
+VENUE: Sensors and Actuators A: Physical
+VOLUME: 102
+ISSUE: 3
+PAGES: 216-222
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/s0924-4247(02)00386-2 record retrieved; title, author, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V (InGaAs/AlGaAs/GaAs) 2DEG Hall sensor benchmarking paper reporting nanotesla-level field resolution — relevant for positioning GaN's sensitivity/noise floor against established GaAs-family 2DEG Hall sensors.
+NOTES: Reports nT-level magnetometry using a GaAs-family 2DEG Hall sensor, a common performance benchmark cited when arguing GaN Hall sensors' relative sensitivity/noise trade-offs.
+
+DOI: 10.1109/lsens.2023.3320039
+TITLE: Effect of Geometry on the Frequency Limit of GaAs/AlGaAs 2-D Electron Gas (2DEG) Hall Effect Sensors
+AUTHORS: Anand Lalwani; Miriam Giparakis; Kanika Arora; Avidesh Maharaj; Akash Levy; Gottfried Strasser; Aaron Maxwell Andrews; Helmut Köck; Debbie G. Senesky
+YEAR: 2023
+VENUE: IEEE Sensors Letters
+VOLUME: 7
+ISSUE: 12
+PAGES: 1-4
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/lsens.2023.3320039 record retrieved; title, full author list, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Recent (2023) comparable non-GaN III-V (GaAs/AlGaAs) 2DEG Hall sensor geometry/frequency-response study — directly usable for benchmarking GaN's competitive position, and notably from the same PI (Senesky) and venue (IEEE Sensors Letters) as the manuscript under review.
+NOTES: Co-authored by Debbie G. Senesky — same PI and same journal (IEEE Sensors Letters) as the manuscript under review; important for the novelty discussion since it shows the group's own prior geometry/frequency-response Hall-sensor methodology applied to a different (GaAs/AlGaAs) material system.
+
+DOI: 10.1109/jsen.2014.2368074
+TITLE: Highly Sensitive Nanotesla Quantum-Well Hall-Effect Integrated Circuit Using GaAs–InGaAs–AlGaAs 2DEG
+AUTHORS: Mohammadreza Sadeghi; James Sexton; Chen-Wei Liang; Mohamed Missous
+YEAR: 2015
+VENUE: IEEE Sensors Journal
+VOLUME: 15
+ISSUE: 3
+PAGES: 1817-1824
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2014.2368074 record retrieved; title, authors, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V (GaAs/InGaAs/AlGaAs) 2DEG quantum-well Hall IC, state-of-the-art sensitivity benchmark — supports competitive-positioning claims for GaN Hall sensors.
+NOTES: Reports a highly optimized second-generation GaAs-family quantum-well Hall IC; a strong sensitivity/noise benchmark commonly cited against which GaN Hall sensor performance is compared.
+
+DOI: 10.1016/j.sna.2004.03.029
+TITLE: High quality Hall sensors made of heavily doped n-InSb epitaxial films
+AUTHORS: T. Berus; M. Oszwaldowski; J. Grabowski
+YEAR: 2004
+VENUE: Sensors and Actuators A: Physical
+VOLUME: 116
+ISSUE: 1
+PAGES: 75-78
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/j.sna.2004.03.029 record retrieved; title, authors, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V (InSb) Hall-sensor material platform paper — supports benchmarking GaN's competitive position against the highest-mobility conventional Hall-sensor material.
+NOTES: InSb has much higher room-temperature mobility than GaN 2DEG but poorer thermal/temperature stability — a key comparison point for GaN's high-temperature value proposition.
+
+DOI: 10.1016/s0924-4247(97)01779-2
+TITLE: Hall sensors based on heavily doped n-InSb thin films
+AUTHORS: Maciej Oszwaldowski
+YEAR: 1998
+VENUE: Sensors and Actuators A: Physical
+VOLUME: 68
+ISSUE: 1-3
+PAGES: 234-237
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/s0924-4247(97)01779-2 record retrieved; title, author, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V (InSb) Hall-sensor material platform paper, earlier companion/foundational study to the 2004 Berus et al. paper — supports GaN competitive-benchmarking coverage.
+NOTES: Earlier (1998) foundational paper from related author group on heavily-doped n-InSb thin-film Hall sensors.
+
+DOI: 10.1109/tmag.2005.854789
+TITLE: High-sensitivity InSb thin-film micro-Hall sensor arrays for simultaneous multiple detection of magnetic beads for biomedical applications
+AUTHORS: K. Togawa; H. Sanbonsugi; A. Lapicki; M. Abe; H. Handa; A. Sandhu
+YEAR: 2005
+VENUE: IEEE Transactions on Magnetics
+VOLUME: 41
+ISSUE: 10
+PAGES: 3661-3663
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/tmag.2005.854789 record retrieved; title, authors, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V (InSb) micro-Hall sensor array platform — supports benchmarking GaN's competitive position for sensitivity-critical/array applications.
+NOTES: Journal version preferred over the earlier INTERMAG Asia 2005 conference proceedings paper covering essentially the same work, to avoid near-duplicate reporting.
+
+DOI: 10.1143/jjap.43.l868
+TITLE: High Sensitivity InSb Ultra-Thin Film Micro-Hall Sensors for Bioscreening Applications
+AUTHORS: Adarsh Sandhu; Hideaki Sanbonsugi; Ichiro Shibasaki; Masanori Abe; Hiroshi Handa
+YEAR: 2004
+VENUE: Japanese Journal of Applied Physics
+VOLUME: 43
+ISSUE: 7A
+PAGES: L868
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1143/jjap.43.l868 record retrieved; title, authors, volume/issue/page, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Comparable non-GaN III-V (InSb) ultra-thin-film Hall sensor platform paper — supports benchmarking GaN's competitive position for high-sensitivity Hall sensor applications.
+NOTES: Companion/precursor paper to the 2005 Togawa et al. IEEE Trans. Magn. array paper above, same research group (Sandhu et al.).

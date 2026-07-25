@@ -1,0 +1,33 @@
+﻿{
+    "stage":  "50_patent",
+    "status":  "complete",
+    "completed_at":  "2026-07-25T02:12:08.0466006-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-fable-5",
+    "reported_models":  "claude-fable-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-fable-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-fable-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "25d9ca42-2714-48b2-bfa2-86fda2cc9756",
+    "validation":  "Required files exist and stage-specific checks passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\05_CANDIDATE_PROTECTABLE_CONCEPTS.md",
+                        "sha256":  "4409484874343b94594b1cbc211fd126742392a338c74964cc4208a807ab2bbd"
+                    },
+                    {
+                        "path":  "outputs\\05_PRIOR_ART_LEDGER.csv",
+                        "sha256":  "1574a951b5e6b0504f44d051070a54ade6498ac6a29a4e4126b3010407e13abc"
+                    },
+                    {
+                        "path":  "outputs\\05_DISCLOSURE_HOLD_CHECKLIST.md",
+                        "sha256":  "6b4ae936954c2a7e5abe9f3bff6c0efd268f13f4e2df105d125604cdd9b93f61"
+                    }
+                ]
+}

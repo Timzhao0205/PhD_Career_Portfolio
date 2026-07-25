@@ -1,0 +1,62 @@
+﻿{
+    "schema_version":  2,
+    "updated_at":  "2026-07-24T19:56:12.2990233-07:00",
+    "workflow_status":  "CHATGPT_HANDOFF_REQUIRED",
+    "reason":  "SECOND_CLAUDE_MODEL_DOWNGRADE",
+    "current_stage":  "10a_literature_gan",
+    "stage_attempt":  4,
+    "retry_cycle":  1,
+    "cycle_attempt":  2,
+    "active_route":  "chatgpt_windows_pending",
+    "requested_claude_model":  "sonnet",
+    "requested_claude_effort":  "xhigh",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "downgrade_count":  2,
+    "flags":  {
+                  "downgrade_detected":  true,
+                  "first_model_retry_used":  true,
+                  "chatgpt_handoff_required":  true,
+                  "usage_limit_checked_by_runner":  false,
+                  "inactivity_timeout_enabled":  false,
+                  "manual_stop_supported":  true,
+                  "user_authorized_claude_retry":  true,
+                  "previous_handoff_archived":  true,
+                  "external_agent_runtime_enabled":  false,
+                  "connector_runtime_enabled":  false
+              },
+    "progress":  {
+                     "completed_count":  1,
+                     "total_count":  12,
+                     "completed_stages":  [
+                                              "00_inventory"
+                                          ],
+                     "next_incomplete_stage":  "10a_literature_gan"
+                 },
+    "current_stage_expected_outputs":  [
+                                           "evidence\\10A_GAN_WBG_SOURCES.csv",
+                                           "evidence\\10A_SYNTHESIS.md"
+                                       ],
+    "durable_files":  {
+                          "attempt_state":  "state\\attempts\\10a_literature_gan.json",
+                          "completion_markers":  "state\\markers",
+                          "raw_claude_stream":  "D:\\timzhao\\Downloads\\PHD\\01_PhD_Research\\06_PhD_Strategy_and_HSX_Publication_2026-07\\logs\\run_2026-07-24_185945_717\\10a_literature_gan\\cycle_1_attempt_4_new\\stream.jsonl",
+                          "claude_event_index":  "state\\CLAUDE_EVENT_LOG.jsonl",
+                          "operation_log":  "state\\OPERATION_LOG.csv",
+                          "model_effort_log":  "state\\MODEL_EFFORT_LOG.csv",
+                          "session_index":  "state\\SESSION_INDEX.csv",
+                          "generated_prompt":  "D:\\timzhao\\Downloads\\PHD\\01_PhD_Research\\06_PhD_Strategy_and_HSX_Publication_2026-07\\state\\generated_prompts\\10a_literature_gan_attempt_4_cycle_1_2026-07-24_185945_717.md",
+                          "handoff_history":  "state\\handoff_history\\retry_2026-07-24_185945_717_cycle_1_10a_literature_gan",
+                          "human_snapshot":  "state\\CHATGPT_HANDOFF.md"
+                      },
+    "chatgpt_windows":  {
+                            "model":  "gpt-5.6-sol",
+                            "effort":  "Extra High",
+                            "if_max_is_unavailable":  "Extra High",
+                            "open_as_primary_folder":  "01_PhD_Research",
+                            "instructions":  "AGENTS.md",
+                            "start_prompt":  "CHATGPT_WINDOWS_START_PROMPT.md",
+                            "continuation_guide":  "CHATGPT_WINDOWS_CONTINUE.md"
+                        },
+    "session_id":  "2a299196-9d25-4381-96c9-915dec4a2b3c",
+    "next_action":  "Stop Claude. Open the project in ChatGPT Windows, select the recommended GPT-5.6 Sol effort, and paste CHATGPT_WINDOWS_START_PROMPT.md. If you later explicitly authorize another Claude cycle, rerun with -RetryClaudeAfterHandoff."
+}

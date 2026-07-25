@@ -1,0 +1,265 @@
+DOI: 10.1155/2016/5625607
+TITLE: Hall Effect Devices with Three Terminals: Their Magnetic Sensitivity and Offset Cancellation Scheme
+AUTHORS: Udo Ausserlechner
+YEAR: 2016
+VENUE: Journal of Sensors
+VOLUME: 2016
+ISSUE:
+PAGES: 1-16
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API query.bibliographic search returned this record as exact top match; title/author/venue/page/abstract read directly from JSON.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Analytically computes the Hall-geometry factor for 3- and 4-terminal Hall/vertical-Hall devices and proposes a 6-phase offset-cancellation scheme, directly bearing on geometric design and offset-origin coverage bullets.
+NOTES: Abstract confirms analytic Hall-geometry-factor derivation plus experimental verification of a 6-phase offset-cancellation scheme; residual offset of 3-contact vertical Hall devices found smaller than 5-contact devices.
+
+DOI: 10.1016/s0924-4247(99)00007-2
+TITLE: CMOS versus bipolar Hall plates regarding offset correction
+AUTHORS: Sandra Bellekom
+YEAR: 1999
+VENUE: Sensors and Actuators A: Physical
+VOLUME: 76
+ISSUE: 1-3
+PAGES: 178-182
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API query.bibliographic search returned this record as exact top match; title/author/venue/page/DOI read directly from JSON.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Directly compares CMOS vs. bipolar Hall-plate offset behavior and spinning-current correction, supporting the zero-field offset-origin bullet.
+NOTES: Cites Munter's original spinning-current Hall plate work as foundational context; process-technology-dependent offset comparison.
+
+DOI: 10.1109/icsens.2002.1037202
+TITLE: Thermomagnetic residual offset in integrated Hall plates
+AUTHORS: P. Ruther; U. Schiller; W. Buesser; R. Janke; O. Paul
+YEAR: 2002
+VENUE: Proceedings of IEEE Sensors 2002
+VOLUME: 2
+ISSUE:
+PAGES: 763-766
+SOURCE_TYPE: conference_paper
+VERIFICATION_BASIS: Crossref API query.bibliographic search returned this record; title/author/venue/event/page read directly from JSON (peer-reviewed IEEE Sensors conference proceedings).
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Identifies a residual offset mechanism (thermomagnetic, i.e., Nernst/Ettingshausen-related) that persists after spinning-current cancellation, adding to the offset-origin evidence beyond simple geometric asymmetry.
+NOTES: Complements piezo-Hall/geometric offset literature by isolating a distinct thermal-galvanomagnetic offset contribution.
+
+DOI: 10.3390/s150100672
+TITLE: Performance Comparison of Cross-Like Hall Plates with Different Covering Layers
+AUTHORS: Fei Lyu; et al.
+YEAR: 2015
+VENUE: Sensors
+VOLUME: 15
+ISSUE: 1
+PAGES: 672-686
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API query.title search returned this record as exact top match; title/author/venue/page/abstract read directly from JSON.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Characterizes cross-like (Greek-cross-type) Hall-plate sensitivity and offset for different active-area covering-layer designs, directly relevant to geometric-design and offset-origin bullets.
+NOTES: Abstract confirms current-related sensitivity and offset were measured on a self-built system and correlated with P-type covering-layer design; presents an eight-resistor equivalent-circuit model including offset.
+
+DOI: 10.3390/s19112490
+TITLE: An Analytical Geometry Optimization Model for Current-Mode Cross-Like Hall Plates
+AUTHORS: Yue Xu; Xingxing Hu; Lei Jiang
+YEAR: 2019
+VENUE: Sensors
+VOLUME: 19
+ISSUE: 11
+PAGES: 2490
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API query.title search returned this record as exact top match; title/author/venue/page/abstract read directly from JSON.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Conformal-mapping-based analytical model relating cross-like Hall-plate aspect ratio (L/W) to current-related sensitivity and SNR, core evidence for the geometry-vs-sensitivity optimization bullet.
+NOTES: Abstract states optimal L/W range of 0.4-0.5 for current-mode cross-like Hall plates when thermal noise is included; validated against 3D TCAD simulation.
+
+DOI: 10.1016/0038-1101(79)90061-3
+TITLE: Analysis of the Greek cross, a Van der Pauw structure with finite contacts
+AUTHORS: W. Versnel
+YEAR: 1979
+VENUE: Solid-State Electronics
+VOLUME: 22
+ISSUE: 11
+PAGES: 911-914
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Foundational analytical treatment of the Greek-cross van der Pauw Hall geometry with finite (non-point) contacts, directly supporting the Greek-cross/van der Pauw geometric-design bullet.
+NOTES: Seminal reference cited by nearly all later cross-shaped Hall-plate geometry papers found in this search.
+
+DOI: 10.1063/1.329347
+TITLE: Analysis of symmetrical Hall plates with finite contacts
+AUTHORS: W. Versnel
+YEAR: 1981
+VENUE: Journal of Applied Physics
+VOLUME: 52
+ISSUE: 7
+PAGES: 4659-4666
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Companion foundational paper deriving the geometry (correction) factor for symmetric Hall plates with finite contacts, core theory for rectangular/square aspect-ratio effects on sensitivity.
+NOTES: Frequently cited alongside the 1979 Greek-cross paper as the analytical basis for Hall-plate geometry-factor calculations.
+
+DOI: 10.1016/0038-1101(81)90213-6
+TITLE: Analysis of a circular Hall plate with equal finite contacts
+AUTHORS: W. Versnel
+YEAR: 1981
+VENUE: Solid-State Electronics
+VOLUME: 24
+ISSUE: 1
+PAGES: 63-68
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Extends the finite-contact geometry-factor analysis to circular/octagonal-family Hall-plate geometries, supporting the geometric-design bullet's coverage beyond rectangular/cross shapes.
+NOTES: Part of the Versnel trilogy foundational to Hall-geometry-factor theory used throughout later device-optimization literature.
+
+DOI: 10.1109/ted.2014.2361686
+TITLE: Geometry Optimization of Planar Hall Devices Under Voltage Biasing
+AUTHORS: Guo Zhang; Jinyu Zhang; Zhan Liu; Peng Wu; Huaqiang Wu; He Qian; Yan Wang; Zhiyong Zhang; Zhiping Yu
+YEAR: 2014
+VENUE: IEEE Transactions on Electron Devices
+VOLUME: 61
+ISSUE: 12
+PAGES: 4216-4223
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Directly targets geometry optimization for voltage-biased Hall devices, i.e., voltage-related sensitivity (S_V) optimization, a core sub-topic of this lane.
+NOTES: "Planar Hall devices" here denotes the standard in-plane ordinary-Hall device geometry (not the anisotropic-magnetoresistance planar Hall effect); relevant to S_V-optimized geometric design.
+
+DOI: 10.1016/j.sse.2017.06.007
+TITLE: The signal-to-noise ratio and a hidden symmetry of Hall plates
+AUTHORS: Udo Ausserlechner
+YEAR: 2017
+VENUE: Solid-State Electronics
+VOLUME: 135
+ISSUE:
+PAGES: 14-23
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Theoretical treatment connecting Hall-plate geometry/symmetry to SNR and sensitivity, supporting both the geometric-design and S_I/S_V-optimization bullets.
+NOTES: By a leading Infineon Hall-sensor theorist; frequently cited by later cross-like Hall-plate optimization papers found in this search.
+
+DOI: 10.1109/jeds.2015.2418794
+TITLE: Low Frequency Noise Characterization and Signal-to-Noise Ratio Optimization for Silicon Hall Cross Sensors
+AUTHORS: Dongli Zhang; Mingxiang Wang; Kai Sun
+YEAR: 2015
+VENUE: IEEE Journal of the Electron Devices Society
+VOLUME: 3
+ISSUE: 4
+PAGES: 365-370
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Optimizes cross-shaped silicon Hall-sensor SNR/sensitivity, relevant to geometric design and current/voltage sensitivity optimization bullets.
+NOTES: Cross-geometry-specific SNR/sensitivity tradeoff analysis, complementary to the Xu et al. and Ausserlechner SNR papers above.
+
+DOI: 10.3390/s17040765
+TITLE: Optimum Design Rules for CMOS Hall Sensors
+AUTHORS: Marco Crescentini; Michele Biondi; Aldo Romani; Marco Tartagni; Enrico Sangiorgi
+YEAR: 2017
+VENUE: Sensors
+VOLUME: 17
+ISSUE: 4
+PAGES: 765
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Establishes design rules linking Hall-plate geometry to sensitivity/offset/noise tradeoffs for integrated CMOS Hall sensors.
+NOTES: Complements the analytical geometry-optimization papers with a design-rule-oriented synthesis.
+
+DOI: 10.1109/prime.2015.7251402
+TITLE: Sensitivity characteristics of horizontal and vertical Hall sensors in the voltage- and current-mode
+AUTHORS: Hadi Heidari; Umberto Gatti; Franco Maloberti
+YEAR: 2015
+VENUE: 2015 11th Conference on Ph.D. Research in Microelectronics and Electronics (PRIME)
+VOLUME:
+ISSUE:
+PAGES: 330-333
+SOURCE_TYPE: conference_paper
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/page matched (peer-reviewed IEEE PRIME conference proceedings).
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Directly compares current-related sensitivity (S_I) vs. voltage-related sensitivity (S_V) for horizontal and vertical Hall devices — the clearest match to that specific sub-bullet.
+NOTES: Companion/precursor work to Heidari's TCSI and IEEE Sensors 2015 papers below by the same group.
+
+DOI: 10.3390/s110606284
+TITLE: An Improved Equivalent Simulation Model for CMOS Integrated Hall Plates
+AUTHORS: Yue Xu; Hong-Bin Pan
+YEAR: 2011
+VENUE: Sensors
+VOLUME: 11
+ISSUE: 6
+PAGES: 6284-6296
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Equivalent-circuit modeling of integrated Hall plates incorporating geometry-dependent sensitivity and offset behavior.
+NOTES: Provides circuit-level modeling framework complementary to the analytical/conformal-mapping geometry papers above.
+
+DOI: 10.1109/tcsi.2015.2415173
+TITLE: A CMOS Current-Mode Magnetic Hall Sensor With Integrated Front-End
+AUTHORS: Hadi Heidari; Edoardo Bonizzoni; Umberto Gatti; Franco Maloberti
+YEAR: 2015
+VENUE: IEEE Transactions on Circuits and Systems I: Regular Papers
+VOLUME: 62
+ISSUE: 5
+PAGES: 1270-1278
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/volume/page matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Current-mode Hall-sensor readout design directly tied to current-related sensitivity (S_I) theory and optimization.
+NOTES: By the Pavia group (Heidari/Bonizzoni/Gatti/Maloberti), same authors as the PRIME 2015 S_I/S_V comparison paper.
+
+DOI: 10.1109/icsens.2015.7370365
+TITLE: Optimal geometry of CMOS voltage-mode and current-mode vertical magnetic hall sensors
+AUTHORS: Hadi Heidari; Edoardo Bonizzoni; Umberto Gatti; Franco Maloberti; Ravinder Dahiya
+YEAR: 2015
+VENUE: 2015 IEEE SENSORS
+VOLUME:
+ISSUE:
+PAGES: 1-4
+SOURCE_TYPE: conference_paper
+VERIFICATION_BASIS: Crossref API direct DOI lookup; title/author/venue/page matched (peer-reviewed IEEE Sensors conference proceedings).
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Explicitly optimizes vertical Hall-sensor geometry separately for voltage-mode and current-mode operation, tying geometric design directly to S_I/S_V tradeoffs.
+NOTES: Vertical-Hall-device counterpart to the horizontal cross-plate geometry-optimization literature in this ledger.
+
+DOI: 10.1109/sbmicro.2013.6676127
+TITLE: Octagonal geometry Hall plate designed for the PiezoHall effect measurement
+AUTHORS: J. L. Ramirez; F. Fruett
+YEAR: 2013
+VENUE: 28th Symposium on Microelectronics Technology and Devices (SBMicro 2013)
+VOLUME:
+ISSUE:
+PAGES: 1-4
+SOURCE_TYPE: conference_paper
+VERIFICATION_BASIS: Crossref API query.bibliographic search returned this record as exact top match; title/author/venue/event read directly from JSON (peer-reviewed IEEE-sponsored SBMicro proceedings).
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Uses octagonal Hall-plate geometry specifically to isolate and measure the piezo-Hall effect, directly supporting both the octagonal-geometry and piezo-Hall-offset-origin bullets.
+NOTES: References Munter's spinning-current work (the excluded seed DOI) as background, confirming topical proximity without duplicating it.
+
+DOI: 10.1109/jsen.2020.2997292
+TITLE: Residual Offset in Silicon Hall-Effect Sensor: Analytical Formula, Stress Effects, and Implications for Octagonal Hall Plate Geometry
+AUTHORS: Arup Polley; Srinath M. Ramaswamy; Baher S. Haroun
+YEAR: 2020
+VENUE: IEEE Sensors Journal
+VOLUME: 20
+ISSUE: 19
+PAGES: 11283-11291
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API query.bibliographic search returned this record with full metadata; title/author/venue/volume/issue/page read directly from JSON.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Derives an analytical formula for residual (post-spinning-current) offset from mechanical stress/piezoresistive effects and its implications specifically for octagonal Hall-plate geometry — directly supports both offset-origin and geometry bullets.
+NOTES: Cites the Ausserlechner 2016 three-terminal paper and the Alpert/Dowling AlGaN/GaN geometry paper (both already in the seed/candidate set) as references, confirming strong topical continuity.
+
+DOI: 10.1016/s0924-4247(00)00328-9
+TITLE: Planar Hall effect in the vertical Hall sensor
+AUTHORS: Ch. Schott; P.-A. Besse; R. S. Popovic
+YEAR: 2000
+VENUE: Sensors and Actuators A: Physical
+VOLUME: 85
+ISSUE: 1-3
+PAGES: 111-115
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API query.bibliographic search returned this record as exact top match; title/author/venue/volume/page read directly from JSON.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Core paper directly analyzing the planar Hall effect as a distinct parasitic/cross-axis interference mechanism corrupting the ordinary-Hall-effect signal in vertical Hall sensors — the clearest match to the "planar Hall effect ... cross-axis interference term" sub-bullet.
+NOTES: By Popovic's group (a foundational Hall-sensor research lineage); explicitly distinguishes ordinary Hall response from planar-Hall-induced distortion of the perpendicular-field measurement.

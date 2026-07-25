@@ -1,0 +1,111 @@
+DOI: 10.1109/jsen.2006.874493
+TITLE: Magnetic sensors and their applications
+AUTHORS: J. Lenz; S. Edelstein
+YEAR: 2006
+VENUE: IEEE Sensors Journal
+VOLUME: 6
+ISSUE: 3
+PAGES: 631-649
+SOURCE_TYPE: review_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2006.874493 record retrieved; title, authors, journal, volume/issue/pages confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Seminal, widely-cited review surveying magnetic sensing technologies (Hall, AMR/GMR, fluxgate, SQUID, etc.) — the canonical cross-technology comparison reference the mission's review-article coverage bullet is asking for.
+NOTES: Predates GaN Hall-sensor literature (2006), so does not itself contain a GaN row, but establishes the standard technology-comparison framework (sensitivity/range/bandwidth per sensing principle) that a manuscript comparison table would extend.
+
+DOI: 10.1109/jsen.2010.2043429
+TITLE: Advances in Magnetic Field Sensors
+AUTHORS: Pavel Ripka; Michal Janosek
+YEAR: 2010
+VENUE: IEEE Sensors Journal
+VOLUME: 10
+ISSUE: 6
+PAGES: 1108-1116
+SOURCE_TYPE: review_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2010.2043429 record retrieved; title, authors, journal, volume/issue/pages confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Second major cross-technology review (Hall, fluxgate, magnetoresistive, SQUID, resonant) with quantitative resolution/bandwidth comparisons — supports the mission's "review articles ... comparing sensitivity, offset, noise, bandwidth" coverage bullet.
+NOTES: General magnetic-sensor review, not GaN-specific; useful as the comparison-table backbone into which GaN-specific numbers (from other entries here) would be inserted.
+
+DOI: 10.1109/jsen.2024.3507799
+TITLE: High Field Resolution Hall Sensor Based on AlSb/InAs 2DEG for Magnetic Particle Detection
+AUTHORS: Rongkun Han; Qiqi Wei; Hailong Wang; Gangxu Gu; Dahai Wei; Peng Xiong; Jianhua Zhao
+YEAR: 2025
+VENUE: IEEE Sensors Journal
+VOLUME: 25
+ISSUE: 2
+PAGES: 2487-2493
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2024.3507799 record retrieved; title, authors, journal, volume/issue/pages confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Recent (2025) high-field-resolution 2DEG Hall sensor in a non-GaN III-V material (AlSb/InAs), giving a contemporary non-GaN comparator for the cross-material sensitivity/noise comparison table.
+NOTES: III-V 2DEG Hall sensor family (like AlGaN/GaN) but different heterostructure; useful for showing that 2DEG Hall-sensor high-sensitivity work is an active, multi-material research area, not GaN-exclusive.
+
+DOI: 10.1109/access.2025.3539435
+TITLE: Study of GaN Hall Effect Magnetic Sensors
+AUTHORS: Vlad Marsic; Soroush Faramehr; Isha Maini; David A. J. Moran; Petar Igic
+YEAR: 2025
+VENUE: IEEE Access
+VOLUME: 13
+ISSUE:
+PAGES: 25622-25636
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/access.2025.3539435 record retrieved (title/authors/journal/volume/pages matched); WebSearch surfaced Coventry University pure-portal and ResearchGate abstract summary corroborating content.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Highly novelty-relevant — abstract states this reports "the first three-terminal current sensing GaN Hall sensor reported in literature," tested at room temperature under varying field intensity/polarity, targeted at on-chip condition monitoring of GaN power transistors. Directly bears on whether the manuscript's device/approach is novel relative to the most recent (2025) published GaN Hall-sensor claims.
+NOTES: Different application (on-chip GaN-transistor condition monitoring, not fusion-plasma in-vessel deployment) and different sensor topology (three-terminal, not current-spinning offset-cancelled); no current-spinning or offset-cancellation claim in this abstract, so it does not anticipate the manuscript's specific technique.
+
+DOI: 10.1002/admt.202400046
+TITLE: Very High Temperature Hall Sensors in a Wafer‐Scale 4H‐SiC Technology
+AUTHORS: Hesham Okeil; Tobias Erlbacher; Gerhard Wachutka
+YEAR: 2025
+VENUE: Advanced Materials Technologies
+VOLUME: 10
+ISSUE: 1
+PAGES:
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1002/admt.202400046 record retrieved; title, authors, journal, volume/issue confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Recent wide-bandgap (4H-SiC, not GaN) Hall-sensor performance paper aimed at very-high-temperature operation — gives a competing wide-bandgap-material comparator (SiC vs. GaN) needed for the mission's cross-material comparison table.
+NOTES: SiC rather than GaN; useful specifically for contrasting the two wide-bandgap Hall-sensor material tracks in a comparison table row.
+
+DOI: 10.3390/s110100876
+TITLE: Hall Sensors for Extreme Temperatures
+AUTHORS: Jakub Jankowski; Semir El-Ahmar; Maciej Oszwaldowski
+YEAR: 2011
+VENUE: Sensors
+VOLUME: 11
+ISSUE: 1
+PAGES: 876-885
+SOURCE_TYPE: review_article
+VERIFICATION_BASIS: Crossref API works/10.3390/s110100876 record retrieved; title, authors, journal, volume/issue/pages, and type confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Review of Hall-sensor materials (Si, GaAs, InSb, InAs, and other narrow/wide-gap semiconductors) for extreme-temperature operation — directly supports the mission's requested cross-material performance-review coverage bullet, though it predates the AlGaN/GaN 2DEG Hall-sensor literature.
+NOTES: Published 2011, before AlGaN/GaN 2DEG Hall sensors were mainstream, so no GaN row is expected; still useful as the material-comparison baseline (InSb/GaAs/Si/InAs) that GaN-specific papers in this ledger extend.
+
+DOI: 10.3390/s21030721
+TITLE: Ceramic-Chromium Hall Sensors for Environments with High Temperatures and Neutron Radiation
+AUTHORS: Slavomir Entler; Zbynek Soban; Ivan Duran; Karel Kovarik; Karel Vyborny; Josef Sebek; Stana Tazlaru; Jan Strelecek; Petr Sladek
+YEAR: 2021
+VENUE: Sensors
+VOLUME: 21
+ISSUE: 3
+PAGES: 721
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.3390/s21030721 record retrieved; title, full author list, journal, volume/issue/article number confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Prior published Hall-sensor development explicitly for magnetic-field measurement in a fusion/tokamak-relevant harsh environment (high temperature + neutron flux) — directly relevant application-domain prior art for assessing novelty of "in-vessel fusion-plasma Hall sensor deployment," even though the sensing material is ceramic-chromium rather than GaN.
+NOTES: Cited here strictly as literature evidence of pre-existing fusion-diagnostics Hall-sensor work by a different group (IPP Czech Republic, COMPASS tokamak); this is a literature citation only, not a proposal or claim of neutron/gamma experiments for Tim's own project. Co-author "Ivan Duran" is very likely the same person as "I. Duran" cited in the manuscript's own bibliography (ref3, Fusion Eng. Des. 2019, doi:10.1016/j.fusengdes.2019.03.201, not itself in this ledger) — a recognized IPP Prague fusion-diagnostics researcher; noted for name-consistency, not independently confirmed as the identical individual this session.
+
+DOI: 10.1109/cstic.2015.7153483
+TITLE: A novel Hall dynamic offset cancellation circuit based on four-phase spinning current technique
+AUTHORS: Xiaoqing Chen; Yue Xu; Xiaopeng Xie; YuFeng Guo; Yang Huang
+YEAR: 2015
+VENUE: 2015 China Semiconductor Technology International Conference (CSTIC)
+VOLUME:
+ISSUE:
+PAGES: 1-3
+SOURCE_TYPE: conference_paper
+VERIFICATION_BASIS: Crossref API works/10.1109/cstic.2015.7153483 record retrieved; title, authors, IEEE-published proceedings-article type and container confirmed.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Shows four-phase spinning-current offset-cancellation circuitry for Hall sensors was already published (silicon CMOS) in 2015, supporting the assessment of whether "current-spinning" itself is a novel element of the manuscript under review versus its application to AlGaN/GaN.
+NOTES: Silicon CMOS implementation, not GaN; purely a circuit-technique reference.

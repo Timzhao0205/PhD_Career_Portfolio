@@ -1,0 +1,29 @@
+﻿{
+    "stage":  "10c_literature_methods",
+    "status":  "complete",
+    "completed_at":  "2026-07-25T00:45:38.8090049-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-sonnet-5",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "8a61fcb5-1295-4361-851a-a73099b02968",
+    "validation":  "74 total rows; 74 verified peer-reviewed; metadata and uniqueness gates passed",
+    "outputs":  [
+                    {
+                        "path":  "evidence\\10C_METHODS_SOURCES.csv",
+                        "sha256":  "7fcfd8463552eaaf475eadfacb069ccf2c14ed23febb09faa957e5a354158f3c"
+                    },
+                    {
+                        "path":  "evidence\\10C_SYNTHESIS.md",
+                        "sha256":  "9aea65b11b554a7f551a97126eabf8fe83bc685601d3dae33d14a3c85d73f76a"
+                    }
+                ]
+}

@@ -1,0 +1,25 @@
+﻿{
+    "schema_version":  1,
+    "authorized_at":  "2026-07-24T18:59:47.9877463-07:00",
+    "authorization":  "USER_EXPLICITLY_REQUESTED_ANOTHER_CLAUDE_CODE_RUN",
+    "stage":  "10a_literature_gan",
+    "new_retry_cycle":  1,
+    "previous_status":  "CHATGPT_HANDOFF_REQUIRED",
+    "previous_global_attempt":  2,
+    "previous_retry_cycle":  0,
+    "previous_cycle_attempt":  2,
+    "previous_reason":  "SECOND_CLAUDE_MODEL_DOWNGRADE",
+    "previous_reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "previous_session_id":  "ea311c73-9a26-4c5e-89af-15ea6177c160",
+    "previous_stream_file":  "D:\\timzhao\\Downloads\\01_PhD_Research_Claude_Only_One_Command_ChatGPT_Ready_2026-07-24\\01_PhD_Research\\06_PhD_Strategy_and_HSX_Publication_2026-07\\logs\\run_2026-07-24_170610_693\\10a_literature_gan\\attempt_2_new\\stream.jsonl",
+    "preserved_files":  [
+                            "attempt_state_before_retry.json",
+                            "CHATGPT_HANDOFF_STATE_before_retry.json",
+                            "CHATGPT_HANDOFF_before_retry.md",
+                            "session_id_before_retry.txt",
+                            "generated_prompt_before_retry.md",
+                            "latest_checkpoint_before_retry.md"
+                        ],
+    "new_session_required":  true,
+    "next_action":  "Start the same stage in a fresh Claude session using durable files. Do not resume the rejected session."
+}
