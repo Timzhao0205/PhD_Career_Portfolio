@@ -1,0 +1,49 @@
+﻿{
+    "stage":  "10d_evidence_merge",
+    "status":  "complete",
+    "completed_at":  "2026-07-27T03:00:20.1779463-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-fable-5",
+    "reported_models":  "claude-fable-5",
+    "primary_models":  "claude-fable-5",
+    "auxiliary_models":  "",
+    "result_model":  "claude-fable-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "0f083f68-752e-472a-9e6d-320e5f0e993c",
+    "validation":  "219 total rows; 120-source, topic-quota, new-source, metadata, type, access, identity, and uniqueness gates passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\01_SOURCE_LEDGER.csv",
+                        "sha256":  "13d40ea92d5facd7814e0afbbcd7ac702ccc68dc3eb3e20e157c062b4060748b"
+                    },
+                    {
+                        "path":  "outputs\\01_HYBRID_LITERATURE_REVIEW.md",
+                        "sha256":  "62098f4949313cd9667aa09f13ca19d621a3825469e48d47055beb6dc68d5ae9"
+                    },
+                    {
+                        "path":  "outputs\\01_RADIATION_LITERATURE_REVIEW.md",
+                        "sha256":  "971b597984b73309c28308e5c3b7a545ea44da36c055a5cad62791b3584a3faa"
+                    },
+                    {
+                        "path":  "outputs\\01_APPLICATIONS_ALTERNATIVES_REVIEW.md",
+                        "sha256":  "afc77cf7f51a07557f923e4ba2267bb98be819999439ffcdcae9a6ff2ba29c25"
+                    },
+                    {
+                        "path":  "outputs\\01_EVIDENCE_MAP.csv",
+                        "sha256":  "fbb9428657a8817c1965d936c7a00afea15f1ca2886a622e25c9fde39de0e27d"
+                    },
+                    {
+                        "path":  "outputs\\01_SOURCE_COVERAGE.md",
+                        "sha256":  "9221fb17e031fb8b30a53c61499eca98351845e801e6a7de4d29b24ed64f9340"
+                    },
+                    {
+                        "path":  "outputs\\01_NEW_SOURCE_AUDIT.csv",
+                        "sha256":  "ef3b23782b32d53328a0494da3e2f3c3a3f192aba594733d8b6398f189baa841"
+                    }
+                ]
+}

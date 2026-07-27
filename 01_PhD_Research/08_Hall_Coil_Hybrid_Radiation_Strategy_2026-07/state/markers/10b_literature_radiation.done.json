@@ -1,0 +1,29 @@
+﻿{
+    "stage":  "10b_literature_radiation",
+    "status":  "complete",
+    "completed_at":  "2026-07-27T02:19:02.6153329-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-sonnet-5",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "9356243c-2de3-4f4a-9513-87e214e1e384",
+    "validation":  "79 total rows; 76 verified peer-reviewed; metadata and uniqueness gates passed",
+    "outputs":  [
+                    {
+                        "path":  "evidence\\10B_RADIATION_SOURCES.csv",
+                        "sha256":  "ecf8719d3fa8cc757fdbff6523605adf78531f4caac26f9e6513ebfb4fe22195"
+                    },
+                    {
+                        "path":  "evidence\\10B_RADIATION_SYNTHESIS.md",
+                        "sha256":  "ef5123cd1f6d4771f9bf61d24ebe97268a590b15dfafef498d254467b85b67ce"
+                    }
+                ]
+}

@@ -1,0 +1,79 @@
+﻿{
+    "schema_version":  2,
+    "updated_at":  "2026-07-27T04:50:18.6145607-07:00",
+    "workflow_status":  "MANUAL_CONTINUATION_REQUIRED",
+    "reason":  "CLAUDE_RUNTIME_FAILURE_OR_MANUAL_STOP",
+    "current_stage":  "70_redteam",
+    "stage_attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "active_route":  "manual_continuation_pending",
+    "requested_claude_model":  "fable",
+    "requested_claude_effort":  "xhigh",
+    "reported_models":  "claude-fable-5;\u003csynthetic\u003e;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-fable-5;\u003csynthetic\u003e",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "\u003csynthetic\u003e",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "downgrade_count":  0,
+    "flags":  {
+                  "downgrade_detected":  false,
+                  "first_model_retry_used":  false,
+                  "downgrade_tracking_fable_final_result_only":  true,
+                  "fable_final_result_required":  true,
+                  "auxiliary_model_adjustment_allowed":  true,
+                  "manual_continuation_required":  true,
+                  "alternate_provider_handoff_required":  false,
+                  "usage_limit_checked_by_runner":  false,
+                  "inactivity_timeout_enabled":  false,
+                  "manual_stop_supported":  true,
+                  "user_authorized_claude_retry":  false,
+                  "previous_handoff_archived":  false,
+                  "external_agent_runtime_enabled":  false,
+                  "connector_runtime_enabled":  false
+              },
+    "progress":  {
+                     "completed_count":  10,
+                     "total_count":  12,
+                     "completed_stages":  [
+                                              "00_inventory",
+                                              "10a_literature_hybrid",
+                                              "10b_literature_radiation",
+                                              "10c_literature_applications",
+                                              "10d_evidence_merge",
+                                              "20_observability",
+                                              "30_radiation_compensation",
+                                              "40_applications_collaboration",
+                                              "50_limitations_comparison",
+                                              "60_research_program"
+                                          ],
+                     "next_incomplete_stage":  "70_redteam"
+                 },
+    "current_stage_expected_outputs":  [
+                                           "outputs\\07_RED_TEAM_FINDINGS.md",
+                                           "outputs\\07_SOURCE_AUDIT.csv",
+                                           "outputs\\07_CORRECTION_LOG.md"
+                                       ],
+    "durable_files":  {
+                          "attempt_state":  "state\\attempts\\70_redteam.json",
+                          "completion_markers":  "state\\markers",
+                          "raw_claude_stream":  "D:\\timzhao\\Downloads\\P_FIXED\\P\\01\\08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07\\logs\\run_2026-07-27_005332_821\\70_redteam\\cycle_0_attempt_1_new\\stream.jsonl",
+                          "claude_event_index":  "state\\CLAUDE_EVENT_LOG.jsonl",
+                          "operation_log":  "state\\OPERATION_LOG.csv",
+                          "model_effort_log":  "state\\MODEL_EFFORT_LOG.csv",
+                          "session_index":  "state\\SESSION_INDEX.csv",
+                          "generated_prompt":  "D:\\timzhao\\Downloads\\P_FIXED\\P\\01\\08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07\\state\\generated_prompts\\70_redteam_attempt_1_cycle_0_2026-07-27_005332_821.md",
+                          "handoff_history":  "",
+                          "human_snapshot":  "state\\CHATGPT_HANDOFF.md"
+                      },
+    "manual_continuation":  {
+                                "requested_claude_model":  "fable",
+                                "requested_claude_effort":  "xhigh",
+                                "do_not_auto_route_to_another_provider":  true,
+                                "instructions":  "AGENTS.md",
+                                "continuation_guide":  "RESUME_GUIDE.md"
+                            },
+    "session_id":  "55b0413c-d912-4678-84c1-2a1fe46de6d2",
+    "next_action":  "Repair the named runtime issue or explicitly start a fresh Claude retry with -RetryClaudeAfterHandoff."
+}

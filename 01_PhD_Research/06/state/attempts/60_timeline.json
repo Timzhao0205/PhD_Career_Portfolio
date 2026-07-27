@@ -1,0 +1,29 @@
+﻿{
+    "schema_version":  2,
+    "stage":  "60_timeline",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "status":  "COMPLETE",
+    "requested_model":  "sonnet",
+    "requested_effort":  "high",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "downgrade_count":  0,
+    "stream_file":  "",
+    "session_id":  "e289323f-da56-45ed-b54b-17e2b55db454",
+    "generated_prompt":  "",
+    "handoff_history":  "",
+    "chatgpt_windows_equivalent":  {
+                                       "model":  "gpt-5.6-sol",
+                                       "effort":  "High",
+                                       "max_unavailable_fallback":  "Extra High"
+                                   },
+    "note":  "Required files exist and stage-specific checks passed",
+    "updated_at":  "2026-07-25T02:29:01.6814330-07:00"
+}
