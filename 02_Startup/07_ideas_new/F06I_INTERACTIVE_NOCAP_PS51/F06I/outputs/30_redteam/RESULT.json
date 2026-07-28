@@ -1,0 +1,15 @@
+{
+  "stage": "30_redteam",
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-07-28T10:30:00Z",
+  "outputs": ["REDTEAM.json", "REDTEAM.md"],
+  "checks": {
+    "all_30_survivors_reviewed": true,
+    "decisions_valid_survive_repair_reject": true,
+    "current_competitor_claims_verified_with_opened_sources": true,
+    "kill_tests_defined_per_idea": true,
+    "fact_inference_separation_recorded": true,
+    "no_final_24_selected_in_this_stage": true,
+    "pilot_judgments_not_reused": true
+  }
+}

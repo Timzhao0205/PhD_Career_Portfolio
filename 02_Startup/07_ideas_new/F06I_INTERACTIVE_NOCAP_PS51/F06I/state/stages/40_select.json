@@ -1,0 +1,37 @@
+{
+    "stage":  "40_select",
+    "kind":  "FULL",
+    "status":  "COMPLETE",
+    "validated_at_utc":  "2026-07-28T05:12:35.3680873Z",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "effort_requested":  "xhigh",
+    "claude_code_version":  "2.1.220",
+    "total_cost_usd_telemetry":  119.04034324999998,
+    "total_duration_ms":  5298622,
+    "total_input_tokens":  952209,
+    "total_output_tokens":  154,
+    "output_files":  [
+                         {
+                             "path":  "outputs\\40_select\\PORTFOLIO_CHECKS.json",
+                             "bytes":  4362,
+                             "sha256":  "67A4787B74CA2AA773B88A7949800B1901E86ACEA49F8225AA0B050BF408D919"
+                         },
+                         {
+                             "path":  "outputs\\40_select\\RESULT.json",
+                             "bytes":  594,
+                             "sha256":  "D788E6EF047D93C633EF3412877BDDAABBFD38775962713B3A4F2B3481E9C1D8"
+                         },
+                         {
+                             "path":  "outputs\\40_select\\SELECTION.json",
+                             "bytes":  35490,
+                             "sha256":  "D555B42FD3D430C80CE8AA2B55D9B7B7189E1B436E8DD7467AB6CCE5E5EC16D7"
+                         },
+                         {
+                             "path":  "outputs\\40_select\\SELECTION.md",
+                             "bytes":  3678,
+                             "sha256":  "84EBE0BE6116A43DF3DEB20CBF730C8FD6A06DFD86A392E1D947FA0C78B650F5"
+                         }
+                     ]
+}

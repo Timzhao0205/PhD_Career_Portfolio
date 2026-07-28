@@ -1,0 +1,1626 @@
+{
+ "batch_id": "P2A-05",
+ "count": 70,
+ "records": [
+  {
+   "id": "L05-052",
+   "title": "The conceptual design of the high-efficiency 400 kW solid-state power station at 352 MHz for the European spallation source",
+   "authors_or_org": "Authors not itemized via direct Crossref works fetch this session (International Journal of Microwave and Wireless Technologies; European Spallation Source RF group)",
+   "year": 2024,
+   "url": "https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/conceptual-design-of-the-highefficiency-400-kw-solidstate-power-station-at-352-mhz-for-the-european-spallation-source/937587A6A58F060123D47E38C99F9658",
+   "canonical_key": "doi:10.1017/s1759078724000175",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L05"
+   ],
+   "language": "en",
+   "geography": [
+    "SE"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1017/s1759078724000175",
+   "doi": "10.1017/s1759078724000175",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents the conceptual design of a 400 kW, 352 MHz high-efficiency solid-state RF power station for the European Spallation Source (264 solid-state amplifier modules each producing 1.6 kW output; a single SSPA delivering up to 2 kW at 73% efficiency in Class-C mode), published in International Journal of Microwave and Wireless Technologies (2024).",
+   "notes": "DOI now confirmed (previously blank). Directly related to the ESS envelope-tracking amplifier work in L05-007 -- distinct from the unrelated same-title-journal L05-051 (see that record's correction note). Author list not itemized via the direct Crossref fetch this session (only title/container/year returned); geography (Sweden) reflects ESS host-site location, not independently fetched author affiliation."
+  },
+  {
+   "id": "L05-053",
+   "title": "High power experiments of the Prototype Solid State RF System for IFMIF-DONES",
+   "authors_or_org": "Cristina de la Morena and team (IFMIF-DONES RF group) -- lead author per bibliographic search, not itemized via direct Crossref works fetch this session",
+   "year": 2023,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0920379623000595",
+   "canonical_key": "doi:10.1016/j.fusengdes.2023.113475",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L05"
+   ],
+   "language": "en",
+   "geography": [
+    "ES"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2023.113475",
+   "doi": "10.1016/j.fusengdes.2023.113475",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports high-power test results from a prototype fully solid-state RF system built for IFMIF-DONES (Granada, Spain), an earlier-stage companion result to the 2025 series-production status described in L05-008. Fusion Engineering and Design, volume 189 (April 2023).",
+   "notes": "DOI now confirmed (previously blank), volume 189 identified. Companion IFMIF-DONES RF papers discovered via search this session (discovery leads only, not fetched/added): 'First Validation Experiments...' (10.1016/j.fusengdes.2021.112396, 2021) and 'IFMIF-DONES RF System' by David Regidor et al. (10.1016/j.fusengdes.2021.112322, 2021)."
+  },
+  {
+   "id": "L06-001",
+   "title": "Modeling and control of L-type network impedance matching for semiconductor plasma etch",
+   "authors_or_org": "Rodriguez, Carlos; Viola, Jairo; Chen, YangQuan; Alvarez, Joaquin",
+   "year": 2024,
+   "url": "https://pubs.aip.org/avs/jvb/article/42/2/022212/3277858/Modeling-and-control-of-L-type-network-impedance",
+   "canonical_key": "doi:10.1116/6.0003444",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "MX",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1116/6.0003444",
+   "doi": "10.1116/6.0003444",
+   "demand_evidence_type": "none",
+   "claim_supported": "Develops a control-oriented model of the L-type matching network used in semiconductor plasma etch tools; Journal of Vacuum Science & Technology B, vol 42, issue 2, article 022212, March 2024. Title/authors/journal/volume/issue/date confirmed exactly via Crossref this session.",
+   "notes": "Article page returned HTTP 403 on direct WebFetch; identity and metadata (title/authors/journal/volume) independently confirmed via doi.org redirect resolution to this exact URL and via search-engine indexing. Verifier should attempt an alternate mirror or institutional-access fetch for full text. | Verifier confirmed via Crossref API fetch this session; DOI resolution counts as the required publisher/Crossref fetch. No metadata corrections needed -- scout's record was already accurate."
+  },
+  {
+   "id": "L06-002",
+   "title": "Impedance matching assistance based on frequency modulation for capacitively coupled plasmas",
+   "authors_or_org": "Yu, Shimin; Wang, Yu; Chen, Zhipeng; Wang, Zhijiang; Wang, Lu; Jiang, Wei; Schulze, Julian; Zhang, Ya",
+   "year": 2025,
+   "url": "https://pubs.aip.org/aip/jap/article/137/3/033301/3331468/Impedance-matching-assistance-based-on-frequency",
+   "canonical_key": "doi:10.1063/5.0226790",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L01",
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1063/5.0226790",
+   "doi": "10.1063/5.0226790",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a frequency-modulation-based method to assist real-time impedance matching in capacitively coupled plasma (CCP) reactors, Journal of Applied Physics vol 137 issue 3, article 033301, January 2025.",
+   "notes": "DOI resolved by verifier via Crossref bibliographic search (AIP page itself returned 403). Author affiliations (likely China + Germany, incl. Julian Schulze) not independently confirmed; geography left as scout default. | Corrected: DOI was missing in raw record, now resolved and verified. Author Julian Schulze also co-authors L06-010 and L06-011 in this lane (Ruhr-Universitat Bochum plasma-etch research group is a recurring contributor)."
+  },
+  {
+   "id": "L06-003",
+   "title": "Dual-Frequency RF Impedance Matching Circuits for Semiconductor Plasma Etch Equipment",
+   "authors_or_org": "Lee, Jeongsu; Hong, Sangjeen",
+   "year": 2021,
+   "url": "https://www.mdpi.com/2079-9292/10/17/2074",
+   "canonical_key": "doi:10.3390/electronics10172074",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.3390/electronics10172074",
+   "doi": "10.3390/electronics10172074",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents dual-frequency RF impedance matching circuit designs for semiconductor plasma etch tools; MDPI Electronics journal, vol 10, issue 17, article 2074, published August 27 2021.",
+   "notes": "MDPI page returned 403 on direct fetch this session; DOI inferred from MDPI's standard issue/article numbering convention (electronics + volume + zero-padded issue + article number), consistent with the L01/L04 lane pattern for this same journal -- verifier should confirm via doi.org redirect before treating as fully verified. A ResearchGate mirror of the same title/year also appeared in search results, corroborating existence. | Co-author 'Sangjeen Hong' shares a name with 'Sang Jeen Hong' of Myongji University, Korea, who is Crossref-confirmed as an author on L06-007 and L06-018 in this same lane -- plausibly the same recurring Korean researcher, but affiliation was not independently confirmed for this specific record this session, so geography is left as multinational rather than asserted as KR."
+  },
+  {
+   "id": "L06-004",
+   "title": "Design space of electrostatic chuck in etching chamber",
+   "authors_or_org": "Sun, Yuchun; Cheng, Jia; Lu, Yijia; Hou, Yuemin; Ji, Linhong",
+   "year": 2015,
+   "url": "https://www.jos.ac.cn/article/doi/10.1088/1674-4926/36/8/084004",
+   "canonical_key": "doi:10.1088/1674-4926/36/8/084004",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1088/1674-4926/36/8/084004",
+   "doi": "10.1088/1674-4926/36/8/084004",
+   "demand_evidence_type": "none",
+   "claim_supported": "Establishes a systematic design-space framework for electrostatic chucks (ESCs) in semiconductor etching chambers; Journal of Semiconductors 36(8):084004, accepted 2015-04-02, published 2015-08-01.",
+   "notes": "Directly fetched and confirmed this session, including acceptance/publication dates -- strongest-confirmed record in this lane's ESC cluster. Published by Journal of Semiconductors (Chinese Academy of Sciences / IOP). | Strongest-confirmed ESC-cluster record; double-confirmed via both direct publisher fetch and Crossref this session."
+  },
+  {
+   "id": "L06-005",
+   "title": "Deep-depletion breakdown of Johnsen-Rahbek type electrostatic chuck operation for semiconductor processes",
+   "authors_or_org": "Qin, Shu; McTeer, Allen",
+   "year": 2008,
+   "url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.3006441/15032353/094902_1_online.pdf",
+   "canonical_key": "doi:10.1063/1.3006441",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1063/1.3006441",
+   "doi": "10.1063/1.3006441",
+   "demand_evidence_type": "none",
+   "claim_supported": "Characterizes deep-depletion dielectric breakdown behavior of Johnsen-Rahbek (JR) type electrostatic chucks used to hold wafers during semiconductor plasma processing; Journal of Applied Physics 104(9):094902, published 2008-11-01.",
+   "notes": "Not directly fetched (AIP paywall pattern this session); DOI and bibliographic identity taken from the PDF URL path itself, which encodes the DOI -- independent corroboration but not full-text confirmation. Author names not visible in search snippet; do not invent. | Author names corrected from Crossref metadata: Shu Qin, Allen McTeer."
+  },
+  {
+   "id": "L06-006",
+   "title": "Plasma Effects on Electrostatic Chuck Characteristics on Capacitive RF Discharge",
+   "authors_or_org": "Shim, Gyu Il (Nagoya University); Yamauchi, Takeshi (Toshiba Corporation); Sugai, Hideo (Chubu University)",
+   "year": 2007,
+   "url": "http://www.jstage.jst.go.jp/article/pfr/2/0/2_0_044/_article",
+   "canonical_key": "doi:10.1585/pfr.2.044",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1585/pfr.2.044",
+   "doi": "10.1585/pfr.2.044",
+   "demand_evidence_type": "none",
+   "claim_supported": "Studies how capacitive RF discharge plasma affects electrostatic chuck clamping/charging behavior; Plasma and Fusion Research, vol 2, article 044, 2007, published by the Japan Society of Plasma Science and Nuclear Fusion Research.",
+   "notes": "Upgraded from a ResearchGate-mirror-only record (discovery-only per standards) to a confirmed DOI/publisher record. Two of three authors are Japan-affiliated (Nagoya University, Toshiba), satisfying the JP academic-evidence goal directly."
+  },
+  {
+   "id": "L06-007",
+   "title": "Thermal and Electrical Analysis of the Electrostatic Chuck for the Etch Equipment",
+   "authors_or_org": "Yoon, Tae Woong; Choi, Minsuk; Hong, Sang Jeen (Myongji University, Korea)",
+   "year": 2023,
+   "url": "https://doi.org/10.1109/tsm.2023.3301024",
+   "canonical_key": "doi:10.1109/tsm.2023.3301024",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1109/tsm.2023.3301024",
+   "doi": "10.1109/tsm.2023.3301024",
+   "demand_evidence_type": "none",
+   "claim_supported": "Uses multi-physics simulation to analyze thermal and electrical behavior of electrostatic chucks in etch equipment, targeting wafer temperature uniformity; IEEE Transactions on Semiconductor Manufacturing 36(4):653-665, November 2023.",
+   "notes": "Geography corrected from 'multinational' to KR based on Crossref-listed Myongji University affiliation for all three authors. Sang Jeen Hong recurs as an author across L06-003 (probable), L06-007, and L06-018."
+  },
+  {
+   "id": "L06-008",
+   "title": "Improvement of the plasma uniformity via current amplitudes and phase shifts in dual-coil antenna driven inductively coupled electronegative chlorine discharges",
+   "authors_or_org": "Zhao, Ming-Liang; Wang, Xin-Jie; Wen, De-Qi; Zhang, Yu-Ru; Gao, Fei; Wang, You-Nian",
+   "year": 2026,
+   "url": "https://pubs.aip.org/aip/jap/article/139/4/043301/3377859/Improvement-of-the-plasma-uniformity-via-current",
+   "canonical_key": "doi:10.1063/5.0301391",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1063/5.0301391",
+   "doi": "10.1063/5.0301391",
+   "demand_evidence_type": "none",
+   "claim_supported": "Studies dual-coil antenna current amplitude/phase control to improve etch-relevant plasma uniformity in inductively coupled Cl2 (electronegative) discharges used in semiconductor etch; Journal of Applied Physics 139(4):043301, January 2026.",
+   "notes": "Geography left as multinational; author affiliations not returned in Crossref metadata this session, so not asserted despite author-name conventions suggesting a China-based group."
+  },
+  {
+   "id": "L06-009",
+   "title": "Voltage waveform tailoring for high aspect ratio plasma etching of SiO2 using Ar/CF4/O2 mixtures: Consequences of low fundamental frequency biases",
+   "authors_or_org": "Kruger, Florian; Lee, Hyunjae; Nam, Sang Ki; Kushner, Mark J.",
+   "year": 2024,
+   "url": "https://pubs.aip.org/aip/pop/article/31/3/033508/3279954/Voltage-waveform-tailoring-for-high-aspect-ratio",
+   "canonical_key": "doi:10.1063/5.0189397",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US",
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1063/5.0189397",
+   "doi": "10.1063/5.0189397",
+   "demand_evidence_type": "none",
+   "claim_supported": "Models tailored-voltage-waveform biasing for high-aspect-ratio SiO2 dielectric etch (Ar/CF4/O2), central to advanced 3D NAND/logic etch process control; Physics of Plasmas 31(3):033508, March 2024. Co-author Sang Ki Nam is affiliated with Samsung Electronics (Korea).",
+   "notes": "No corrections needed beyond adding the DOI; scout's metadata was already accurate."
+  },
+  {
+   "id": "L06-010",
+   "title": "Multi-diagnostic characterization of inductively coupled discharges with tailored waveform substrate bias for precise control of plasma etching",
+   "authors_or_org": "Giesekus, Jonas; Pletzer, Anton; Beckfeld, Florian; Noesges, Katharina; Bock, Claudia; Schulze, Julian",
+   "year": 2025,
+   "url": "https://iopscience.iop.org/article/10.1088/1361-6595/ae2158",
+   "canonical_key": "doi:10.1088/1361-6595/ae2158",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1088/1361-6595/ae2158",
+   "doi": "10.1088/1361-6595/ae2158",
+   "demand_evidence_type": "none",
+   "claim_supported": "Applies a low-frequency tailored pulse-shaped bias waveform to the substrate electrode of an inductively coupled plasma (ICP) reactor to control ion energy distributions and etch rate, using multiple simultaneous diagnostics; Plasma Sources Science and Technology 34(11):115015, published online November 28 2025.",
+   "notes": "Fetch returned 403 on the article body but the DOI/article-ID resolved and abstract-level description was corroborated via search synthesis; treat full-text claims as unverified pending direct access. | Volume/issue metadata corrected from the raw record, which lacked these fields."
+  },
+  {
+   "id": "L06-011",
+   "title": "Multiscale Simulation of Capacitively Coupled Ar/CHF3 Discharges Driven by Sawtooth-Tailored Voltage Waveforms",
+   "authors_or_org": "Dong, Wan; Song, Liu-Qin; Zhang, Yi-Fan; Wang, Li; Song, Yuan-Hong; Schulze, Julian",
+   "year": 2025,
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/ppap.70026",
+   "canonical_key": "doi:10.1002/ppap.70026",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1002/ppap.70026",
+   "doi": "10.1002/ppap.70026",
+   "demand_evidence_type": "none",
+   "claim_supported": "Uses a one-dimensional fluid/Monte-Carlo multiscale model to simulate capacitively coupled Ar/CHF3 plasmas driven by sawtooth-tailored voltage waveforms; Plasma Processes and Polymers 22(7), article 70026, April 2025.",
+   "notes": "Not directly fetched this session; author full names and affiliations not visible in the search snippet, so geography left as multinational rather than guessed. Confirms continued 2025 peer-reviewed activity in voltage-waveform-tailored CCP etch modeling, directly relevant to L06's RF power/plasma-source frontier. | Co-author Yuan-Hong Song's group is at Dalian University of Technology (China); co-author Julian Schulze recurs across L06-002 and L06-010. Geography left multinational since affiliations were not directly returned by Crossref."
+  },
+  {
+   "id": "L06-012",
+   "title": "Remote microwave plasma source for cleaning chemical vapor deposition chambers: Technology for reducing global warming gas emissions",
+   "authors_or_org": "Raoux, S.; Tanaka, T.; Bhan, M.; Ponnekanti, H.; Seamons, M.; Deacon, T.; Xia, L.-Q.; Pham, F.; Silvetti, D.; Cheung, D.; Fairbairn, K.; Johnson, A.; Pearce, R.; Langan, J.",
+   "year": 1999,
+   "url": "https://pubs.aip.org/avs/jvb/article-abstract/17/2/477/590379/Remote-microwave-plasma-source-for-cleaning",
+   "canonical_key": "doi:10.1116/1.590580",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1116/1.590580",
+   "doi": "10.1116/1.590580",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports a microwave remote-plasma-source design achieving up to 99.9% utilization/removal efficiency of PFC cleaning gases in CVD chamber cleaning; JVST B 17(2):477-485, March 1999.",
+   "notes": "Foundational (1999) remote-plasma-clean paper, now fully identity-confirmed; directly relevant to PFC-abatement regulatory-adjacent demand context noted by the scout."
+  },
+  {
+   "id": "L06-013",
+   "title": "A 2.4 GHz 20 W 8-channel RF Source Module with Solid-State Power Amplifiers for Plasma Generators",
+   "authors_or_org": "Nam, Hyosung; Sim, Taejoo; Kim, Junghyun",
+   "year": 2020,
+   "url": "https://www.mdpi.com/2079-9292/9/9/1378",
+   "canonical_key": "doi:10.3390/electronics9091378",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.3390/electronics9091378",
+   "doi": "10.3390/electronics9091378",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents an 8-channel 2.45 GHz microwave solid-state RF source module (GaAs HBT driver + GaN HEMT main PA) for plasma generators used in semiconductor CVD/etch, positioned as a solid-state alternative to magnetron-based sources; Electronics 9(9):1378, August 2020.",
+   "notes": "Directly relevant to the GaN-based solid-state RF power trend that is displacing magnetrons in plasma-generator subsystems, a live L06 technical bottleneck. DOI constructed from MDPI's standard numbering; not independently redirect-confirmed this session. | Directly relevant to the GaN-based solid-state RF power trend displacing magnetrons in plasma-generator subsystems."
+  },
+  {
+   "id": "L06-014",
+   "title": "Yttrium-doped aluminum nitride ceramics for dielectric layers in Johnsen-Rahbek (J-R) type electrostatic chucks",
+   "authors_or_org": "Zhou, Nianying; Hu, Liang; Li, Chenhui; Peng, Yuefang; Wang, Yunxuan; Zhou, Zhijian; Zhou, Jiajun; Shi, Yusheng",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272884225045183",
+   "canonical_key": "doi:10.1016/j.ceramint.2025.09.211",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.ceramint.2025.09.211",
+   "doi": "10.1016/j.ceramint.2025.09.211",
+   "demand_evidence_type": "none",
+   "claim_supported": "Develops yttrium-doped AlN ceramics tuned to the resistivity window required for Johnsen-Rahbek electrostatic chucks used in high-clamping-force semiconductor wafer processing; Ceramics International 51(27):54840-54850, November 2025.",
+   "notes": "Geography set to CN based on all eight author names following standard Chinese naming conventions; this is an inference from names, not an explicit affiliation confirmed in fetched metadata (Crossref returned no affiliation strings)."
+  },
+  {
+   "id": "L06-015",
+   "title": "Mechanisms underlying temperature uniformity in electrostatic chucks through experimental and simulation methods",
+   "authors_or_org": "Liu, Chanjuan; Gao, Jiuru; He, Zhiwei; Han, Kang; Yang, Zhen; Xu, Kaidong; Zhuang, Shiwei",
+   "year": 2024,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S1359431123020409",
+   "canonical_key": "doi:10.1016/j.applthermaleng.2023.122011",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.applthermaleng.2023.122011",
+   "doi": "10.1016/j.applthermaleng.2023.122011",
+   "demand_evidence_type": "none",
+   "claim_supported": "Combines experiment and simulation to explain the physical mechanisms controlling wafer temperature uniformity in electrostatic chucks, a key process-control constraint for advanced-node etch; Applied Thermal Engineering 238, article 122011, published issue February 2024 (scout-listed year 2023 was the online-first year).",
+   "notes": "Year corrected to 2024 (formal issue date) from the scout's 2023; geography CN inferred from author names, not an explicitly confirmed affiliation."
+  },
+  {
+   "id": "L06-016",
+   "title": "Temporal pre-pulse shaping in dual pulse laser produced plasma for the optimization of the EUV source in tin microdroplet system",
+   "authors_or_org": "Sizyuk, V.; Sizyuk, T.; Hassanein, A.",
+   "year": 2024,
+   "url": "https://pubs.aip.org/aip/jap/article/135/9/093101/3268014/Temporal-pre-pulse-shaping-in-dual-pulse-laser",
+   "canonical_key": "doi:10.1063/5.0189195",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1063/5.0189195",
+   "doi": "10.1063/5.0189195",
+   "demand_evidence_type": "none",
+   "claim_supported": "Studies dual-pulse-laser pre-pulse timing/shape optimization for tin-microdroplet laser-produced-plasma EUV sources, relevant to EUV source high-voltage/high-power drive-laser subsystems; Journal of Applied Physics 135(9):093101, March 2024. A ramped-square pre-pulse produces a 24% EUV-output gain versus a Gaussian profile.",
+   "notes": "No corrections needed beyond the DOI/author confirmation."
+  },
+  {
+   "id": "L06-017",
+   "title": "Modeling the hundreds-of-nanoseconds-long irradiation of tin droplets with a 2 micrometer-wavelength laser for future EUV lithography",
+   "authors_or_org": "de Lange, S J J; Hemminga, D J; Mostafa, Y; Meijer, R A; Versolato, O O; Sheil, J",
+   "year": 2024,
+   "url": "https://iopscience.iop.org/article/10.1088/1361-6595/ad7c7c",
+   "canonical_key": "doi:10.1088/1361-6595/ad7c7c",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1088/1361-6595/ad7c7c",
+   "doi": "10.1088/1361-6595/ad7c7c",
+   "demand_evidence_type": "none",
+   "claim_supported": "Models tin-droplet irradiation dynamics for a proposed next-generation 2 micrometer drive-laser EUV source architecture; Plasma Sources Science and Technology 33(10):105003, published October 7 2024.",
+   "notes": "Not directly fetched (IOP access pattern); DOI confirmed via IOPscience URL structure/search indexing. | No corrections needed beyond metadata completion."
+  },
+  {
+   "id": "L06-018",
+   "title": "In-Situ Detection Method of Abnormal Plasma Discharge in Plasma-Assisted Deposition Processes",
+   "authors_or_org": "Arshad, Muhammad Zeeshan; Hong, Sang Jeen (Myongji University, Korea)",
+   "year": 2018,
+   "url": "https://link.springer.com/article/10.1007/s42341-018-0013-0",
+   "canonical_key": "doi:10.1007/s42341-018-0013-0",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1007/s42341-018-0013-0",
+   "doi": "10.1007/s42341-018-0013-0",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes an in-situ detection method for abnormal (arcing-type) plasma discharge events during plasma-assisted deposition; Transactions on Electrical and Electronic Materials 19(2):96-100, 2018, published by the Korean Institute of Electrical and Electronic Material Engineers (KIEEME) via Springer.",
+   "notes": "Journal is the official publication of a Korean professional society (KIEEME) -- relevant to the Korea academic-source requirement. Not directly fetched this session (Springer redirect/auth pattern seen for a sibling record); DOI taken from search index. | Journal is the official publication of a Korean professional society; KR geography confirmed."
+  },
+  {
+   "id": "L06-019",
+   "title": "A high-energy, high-current ion implantation system",
+   "authors_or_org": "Rose, Peter H.; Faretra, Ronald; Ryding, Geoffery",
+   "year": 1985,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0168583X85906056",
+   "canonical_key": "doi:10.1016/0168-583x(85)90605-6",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/0168-583x(85)90605-6",
+   "doi": "10.1016/0168-583x(85)90605-6",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes an early high-energy, high-current ion implantation system architecture -- foundational literature underlying the high-voltage beamline/terminal subsystems still used in modern semiconductor implanters; Nuclear Instruments and Methods in Physics Research B 6(1-2):27-34, January 1985.",
+   "notes": "Geography US retained per scout's original assignment (consistent with these authors' known affiliation with US commercial implanter manufacturers, though affiliation strings were not returned by Crossref this session)."
+  },
+  {
+   "id": "L06-020",
+   "title": "The design philosophy for a 200 kV industrial high current ion implanter",
+   "authors_or_org": "Aitken, D.",
+   "year": 1976,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0029554X76906674",
+   "canonical_key": "doi:10.1016/0029-554x(76)90667-4",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/0029-554x(76)90667-4",
+   "doi": "10.1016/0029-554x(76)90667-4",
+   "demand_evidence_type": "none",
+   "claim_supported": "Documents the engineering design philosophy of a 200 kV industrial high-current ion implanter, an early primary reference for high-voltage terminal/beamline design; Nuclear Instruments and Methods 139:125-134, December 1976.",
+   "notes": "Geography downgraded from the scout's unsupported 'US' assumption to 'multinational': a WebSearch this session found D. Aitken co-cited alongside J.H. Freeman of AERE Harwell (UK), suggesting a possible UK affiliation, but this could not be independently confirmed, so no specific country is asserted."
+  },
+  {
+   "id": "L06-021",
+   "title": "Ion implantation for carrier lifetime control in silicon technology",
+   "authors_or_org": "Mogro-Campero, A.",
+   "year": 1987,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0168583X87907038",
+   "canonical_key": "doi:10.1016/0168-583X(87)90703-8",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/0168-583X(87)90703-8",
+   "doi": "10.1016/0168-583X(87)90703-8",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports ion-implantation techniques for controlling minority-carrier lifetime in silicon power devices, a foundational implant-equipment application area; Nuclear Instruments and Methods in Physics Research B 24-25(P1):538-541, April 1987.",
+   "notes": "Related MRS Online Proceedings Library work by the same author on carrier-lifetime ion implantation surfaced during verification but was not separately logged to avoid duplication."
+  },
+  {
+   "id": "L06-022",
+   "title": "High energy ion implantation for semiconductor application at Fraunhofer-AIS, Erlangen",
+   "authors_or_org": "Frey, L.; Bogen, S.; Gong, L.; Jung, W.; Ryssel, H.; Gyulai, J.",
+   "year": 1992,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0168583X9295267U",
+   "canonical_key": "doi:10.1016/0168-583x(92)95267-u",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "DE"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/0168-583x(92)95267-u",
+   "doi": "10.1016/0168-583x(92)95267-u",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes high-energy ion implantation equipment and application work at the Fraunhofer-Institut fur Angewandte Festkorperphysik (Fraunhofer-AIS), Erlangen, Germany; Nuclear Instruments and Methods in Physics Research B 62(3):410-415, January 1992.",
+   "notes": "Germany geography confirmed both by institute name in the title and by author H. Ryssel's well-documented Fraunhofer IISB Erlangen affiliation."
+  },
+  {
+   "id": "L06-023",
+   "title": "Real-time virtual metrology and control for plasma etch",
+   "authors_or_org": "Lynn, Shane A.; MacGearailt, Niall; Ringwood, John V.",
+   "year": 2012,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959152412000157",
+   "canonical_key": "doi:10.1016/j.jprocont.2012.01.012",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.jprocont.2012.01.012",
+   "doi": "10.1016/j.jprocont.2012.01.012",
+   "demand_evidence_type": "none",
+   "claim_supported": "Develops real-time virtual-metrology and control methods for plasma etch processes, relevant to closed-loop control of RF/plasma-source subsystems; Journal of Process Control 22(4):666-676, April 2012.",
+   "notes": "RETYPE CORRECTION: scout guessed the venue as 'Control Engineering Practice' based on ScienceDirect PII prefix pattern -- this was wrong. The actual journal is Journal of Process Control (also Elsevier, similarly numbered PII prefix). Authors are the Ringwood control-engineering group (Maynooth University, Ireland is the well-known home institution, though not independently affiliation-confirmed this session)."
+  },
+  {
+   "id": "L06-024",
+   "title": "Development of Virtual Metrology Using Plasma Information Variables to Predict Si Etch Profile Processed by SF6/O2/Ar Capacitively Coupled Plasma",
+   "authors_or_org": "Kwon, Ji-Won; Ryu, Sangwon; Park, Jihoon; Lee, Haneul; Jang, Yunchang; Park, Seolhye; Kim, Gon-Ho",
+   "year": 2021,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8199536/",
+   "canonical_key": "doi:10.3390/ma14113005",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.3390/ma14113005",
+   "doi": "10.3390/ma14113005",
+   "demand_evidence_type": "none",
+   "claim_supported": "Develops virtual-metrology models from optical-emission-spectroscopy-derived plasma information variables to predict Si etch profile (depth, bowing CD) in SF6/O2/Ar CCP with R^2 up to 0.93; Materials (Basel) 14(11):3005, MDPI, received 2021-03-31, accepted 2021-05-17, published 2021-06-01.",
+   "notes": "Fully fetched and confirmed this session including exact submission/acceptance/publication dates -- one of the two strongest-confirmed academic records in this lane. Korean-affiliated authorship (typical KR semiconductor-research naming/affiliation pattern) supports the KR academic-evidence requirement. | One of the two strongest-confirmed academic records in this lane; Korean-affiliated authorship supports the KR academic-evidence requirement."
+  },
+  {
+   "id": "L06-025",
+   "title": "Correlation of RF impedance with Ar plasma parameters in semiconductor etch equipment using inductively coupled plasma",
+   "authors_or_org": "Lee, Nayeon; Kwon, Ohyung; Chung, Chin-Wook (Hanyang University, Korea)",
+   "year": 2021,
+   "url": "https://scholarworks.bwise.kr/hanyang/bitstream/2021.sw.hanyang/142307/1/6.0000883.pdf",
+   "canonical_key": "doi:10.1063/6.0000883",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1063/6.0000883",
+   "doi": "10.1063/6.0000883",
+   "demand_evidence_type": "none",
+   "claim_supported": "Corrects VI-probe-measured RF impedance for transmission-line/peripheral effects and correlates the corrected plasma resistance with theoretical bulk-plasma resistance (R^2 > 0.9) in an inductively coupled semiconductor etch tool, proposing this as a production-line plasma-health monitoring method; AIP Advances 11(2):025027, published 2021-02-01.",
+   "notes": "Fully fetched via Korean university institutional repository mirror this session; PDF metadata independently confirms DOI and AIP Publishing attribution. Authors are Korean (Hanyang University) -- directly satisfies the KR local-context academic-evidence goal even though the paper itself is in English. | Directly satisfies the KR local-context academic-evidence goal (Hanyang University authors)."
+  },
+  {
+   "id": "L06-026",
+   "title": "Mass flow control using estimated output feedback in semiconductor processes",
+   "authors_or_org": "Takijiri, Kotaro; Nakata, Kazuki; Hayashi, Daisuke",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957415825000297",
+   "canonical_key": "doi:10.1016/j.mechatronics.2025.103320",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.mechatronics.2025.103320",
+   "doi": "10.1016/j.mechatronics.2025.103320",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes an estimated-output-feedback control scheme for mass flow controllers (MFCs) used in semiconductor gas-delivery subsystems, targeting improved transient response for fast process-gas switching; Mechatronics 108, article 103320, June 2025.",
+   "notes": "Geography set to JP based on Japanese author names (Takijiri, Nakata, Hayashi); this is a name-based inference, not an explicit affiliation confirmed in fetched metadata. An earlier SSRN preprint of the same work exists (DOI 10.2139/ssrn.4935882) -- correctly excluded as discovery-only per source standards, superseded by this peer-reviewed final version. Directly relevant to the MFC gas-delivery bottleneck flagged in L06-035 (SEMI E17)."
+  },
+  {
+   "id": "L06-027",
+   "title": "Tailored waveform biasing in atomic and molecular plasmas for atomic scale processing",
+   "authors_or_org": "Faraz, Tahsin; de Jong, Arthur A.; Verstappen, Yuri G. P.; Lopez, Javier E.; Heijdra, Erik; van Gennip, Wouter J. H.; Kessels, Wilhelmus M. M.; Mackus, Adriaan J. M.",
+   "year": 2026,
+   "url": "https://pubs.aip.org/avs/jva/article/44/3/033004/3386409/Tailored-waveform-biasing-in-atomic-and-molecular",
+   "canonical_key": "doi:10.1116/6.0005265",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1116/6.0005265",
+   "doi": "10.1116/6.0005265",
+   "demand_evidence_type": "none",
+   "claim_supported": "A comprehensive review of tailored bias-waveform parameters (ramp rate, pulse amplitude, duty cycle, repetition frequency) and their effect on ion flux-energy distribution functions for atomic-scale semiconductor processing; JVST A 44(3):033004, April 2026.",
+   "notes": "Classified T2 (review article) per SOURCE_STANDARDS regardless of journal prestige -- reviews do not count toward the peer-reviewed PRIMARY research quota. Author group overlaps with the 2020 companion primary paper (DOI 10.1063/5.0028033) by the same TU Eindhoven-associated researchers on precise ion-energy control."
+  },
+  {
+   "id": "L06-028",
+   "title": "Inductively coupled plasma etching of silicon carbide: a review",
+   "authors_or_org": "Yuan, Dengwen; Zhong, Yu; Cheong, Kuan Yew; Luo, Lan; Wang, Tianlu; Han, Jisheng; Xu, Xiangang",
+   "year": 2025,
+   "url": "https://link.springer.com/article/10.1007/s10854-025-16312-7",
+   "canonical_key": "doi:10.1007/s10854-025-16312-7",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1007/s10854-025-16312-7",
+   "doi": "10.1007/s10854-025-16312-7",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews inductively coupled plasma (ICP) etching methods and results for silicon carbide (SiC), a high-volume-manufacturing process central to SiC power-device fabrication; Journal of Materials Science: Materials in Electronics 36(36), article 2264, December 2025.",
+   "notes": "Direct fetch redirected to a Springer login/authorization wall (idp.springer.com), confirming the article exists behind a paywall but not permitting full-text confirmation this session. Explicitly a review -- T2 per standards. | T2 per SOURCE_STANDARDS (explicitly a review). Geography CN set based on author names and corresponding author Xiangang Xu's well-known SiC-crystal-growth affiliation with Shandong University; this is a name-based inference, not explicitly confirmed in fetched metadata."
+  },
+  {
+   "id": "L06-029",
+   "title": "Review of plasma etching processes for III-V semiconductors",
+   "authors_or_org": "Clarke, Alison; Darnon, Maxime; Hinzer, Karin; de Lafontaine, Mathieu",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/pii/S259000722500036X",
+   "canonical_key": "doi:10.1016/j.mne.2025.100330",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.mne.2025.100330",
+   "doi": "10.1016/j.mne.2025.100330",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews plasma etch processes for III-V compound semiconductors, relevant to GaN/GaAs RF-device and power-device manufacturing plasma-etch subsystem requirements; Micro and Nano Engineering 29, article 100330, December 2025.",
+   "notes": "T2 (explicitly a review). Geography left multinational; no affiliation strings were returned in fetched Crossref metadata this session, though authors are plausibly Canada-affiliated (Sherbrooke/Ottawa) based on general knowledge -- not asserted without confirmation."
+  },
+  {
+   "id": "L06-031",
+   "title": "The development of laser-produced plasma EUV light source",
+   "authors_or_org": "Yang, De Kun; Wang, Du; Huang, Qiu Shi; Song, Yi; Wu, Jian; Li, Wen Xue; Wang, Zhan Shan; Tang, Xia Hui; Xu, Hong Xing; Liu, Sheng; Gui, Cheng Qun",
+   "year": 2022,
+   "url": "https://www.sciencedirect.com/science/article/pii/S270947232200017X",
+   "canonical_key": "doi:10.1016/j.chip.2022.100019",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://doi.org/10.1016/j.chip.2022.100019",
+   "doi": "10.1016/j.chip.2022.100019",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews the historical and technical development path of laser-produced-plasma EUV light sources used in commercial EUV lithography scanners, including ASML's NXE:3400B CO2-LPP source system; Chip journal, vol 1, issue 3, article 100019, September 2022.",
+   "notes": "RETYPE CORRECTION: scout misattributed the org as generic 'ScienceDirect' -- actual journal is Chip (Elsevier open-access, ISSN 2709-4723). Review-type article -- T2. Geography CN confirmed via the ECNU-affiliated author institutions."
+  },
+  {
+   "id": "L06-032",
+   "title": "Plasma Process Metrology (program page)",
+   "authors_or_org": "National Institute of Standards and Technology (NIST)",
+   "year": 2025,
+   "url": "https://www.nist.gov/programs-projects/plasma-process-metrology",
+   "canonical_key": "https://www.nist.gov/programs-projects/plasma-process-metrology",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L01",
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "NIST's Plasma Process Metrology program develops measurement techniques for semiconductor plasma etch/deposition, including a wave cut-off probe method (co-developed with Korea's KRISS institute) for electron-density measurement, and a fundamental study of electrical plasma-etch endpoint detection. Project created 2009-04-15, most recently updated 2025-03-26.",
+   "notes": "New gov/national-metrology sub-niche (plasma measurement science/standards infrastructure underpinning semiconductor plasma-etch tool design) distinct from Sandia's diagnostics facility (L01-045) and Korea's KIMM commercialization lab (L01-047) already in the ledger. No named industrial-partner contract stated on this page. | Cross-ledger dedupe check against 90_BIBLIOGRAPHY/sources.json found an exact canonical_key collision: L06-032 ('Plasma Process Metrology (program page)', NIST, https://www.nist.gov/programs-projects/plasma-process-metrology, accepted=true, T1 government) already covers this identical program page under lane L06. Rejected here as a duplicate; not double-counted toward the 600 target. Orchestrator should confirm L06-032's lane_ids array is extended to include L01 if cross-lane relevance is desired, rather than creating a second ledger entry. | Directly fetched and confirmed as an official .gov page this session. Notably documents a US-Korea (NIST-KRISS) government-to-government collaboration relevant to the KR geography requirement. | Documents a US-Korea (NIST-KRISS) government-to-government collaboration relevant to the KR geography requirement."
+  },
+  {
+   "id": "L06-033",
+   "title": "Edwards Vacuum (New York) -- CHIPS Award",
+   "authors_or_org": "U.S. Department of Commerce / NIST CHIPS Program Office",
+   "year": 2025,
+   "url": "https://www.nist.gov/chips/edwards-vacuum-new-york-genesee-county",
+   "canonical_key": "https://www.nist.gov/chips/edwards-vacuum-new-york-genesee-county",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "CHIPS Act final award of up to $18 million in direct federal funding to Edwards Vacuum for a $307.2 million greenfield dry-vacuum-pump manufacturing facility in Genesee County, New York, creating up to 600 jobs, milestone-based disbursement through end of 2028; final award announced January 2025.",
+   "notes": "Directly fetched official US government CHIPS Program Office record -- strongest single confirmed US demand-trigger record in this lane (dry vacuum pumps are a core subfab/gas-delivery-adjacent subsystem). Cross-corroborated via Sen. Schumer's press release and Manufacturing Dive coverage (not separately logged to avoid duplication). | Strongest single confirmed US demand-trigger record in this lane (dry vacuum pumps are a core subfab/gas-delivery-adjacent subsystem)."
+  },
+  {
+   "id": "L06-034",
+   "title": "SEMI F47-0706 (Reapproved 0812)E -- Specification for Semiconductor Processing Equipment Voltage Sag Immunity",
+   "authors_or_org": "SEMI (Semiconductor Equipment and Materials International)",
+   "year": 2007,
+   "url": "https://store-us.semi.org/products/f04700-semi-f47-specification-for-semiconductor-processing-equipment-voltage-sag-immunity",
+   "canonical_key": "standard:SEMI-F47-0706",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "SEMI F47 establishes minimum voltage-sag-immunity requirements for semiconductor processing/metrology/test equipment: tolerate sags to 50% of nominal voltage for up to 200 ms, 70% for up to 0.5 s, and 80% for up to 1.0 s. Current revision F47-0706 (reapproved 0812)E; member price $286, non-member $380.",
+   "notes": "Directly relevant to L06's subfab-power-quality niche -- this is the specific standard that codifies why RF/plasma-tool power electronics must tolerate facility-level voltage sags, a real engineering constraint vendors design against. | Directly relevant to L06's subfab-power-quality niche."
+  },
+  {
+   "id": "L06-035",
+   "title": "SEMI E17-0318 -- Guide for Mass Flow Controller Transient Characteristics Tests",
+   "authors_or_org": "SEMI (Semiconductor Equipment and Materials International)",
+   "year": 2018,
+   "url": "https://store-us.semi.org/products/e01700-semi-e17-guide-for-mass-flow-controller-transient-characteristics-tests",
+   "canonical_key": "standard:SEMI-E17-0318",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "SEMI E17 establishes a common terminology/methodology for testing mass flow controller (MFC) transient (step-response) characteristics for gases used in semiconductor fabrication equipment. Current revision E17-0318 (2018); member price $148, non-member $193.",
+   "notes": "Directly relevant to the gas-delivery/MFC technical bottleneck identified in academic source L06-026 and the NIST MFC workshop lead (L06-038). | Directly relevant to the gas-delivery/MFC technical bottleneck identified in academic sources L06-026 (Mechatronics 2025)."
+  },
+  {
+   "id": "L06-037",
+   "title": "Semiconductors: Information on Projects Funded to Strengthen U.S. Supply Chain",
+   "authors_or_org": "U.S. Government Accountability Office (GAO)",
+   "year": 2026,
+   "url": "https://www.gao.gov/products/gao-26-107882",
+   "canonical_key": "https://www.gao.gov/products/gao-26-107882",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Official GAO report (GAO-26-107882) finds that, as of July 2025, Commerce had distributed $30.9 billion in direct CHIPS Act funding plus $5.5 billion in loans across 40 projects benefiting 19 companies; roughly 40% of funding targets advanced logic chips for AI, with the US share of global leading-edge chip production projected to rise from 0% (2022) to 20% (2030); only 1 of 40 projects (an Arizona leading-edge logic fab) had achieved completion certification as of June 2025, with 24 of 161 planned milestones reported complete; Commerce negotiated profit-sharing/upside-sharing agreements with 27 of 40 projects.",
+   "notes": "WebFetch retrieved the PDF binary successfully but could not extract readable text this session (compressed content stream); no specific claim beyond the report's existence and general subject (per gao.gov/products landing page description) should be treated as confirmed. Verifier should re-fetch with a PDF-text-extraction-capable tool before using any specific figure from this report. | Re-attempt succeeded via the HTML landing page rather than the raw PDF. Report does not itemize L06-specific subsystem-vendor dollar figures, but confirms the program scale and audit status relevant to CHIPS-driven equipment demand context."
+  },
+  {
+   "id": "L06-038",
+   "title": "Report from the Extreme Ultraviolet (EUV) Lithography Working Group Meeting: Current State, Needs, and Path Forward (NIST Special Publication 1500-208)",
+   "authors_or_org": "Rasmussen, Elizabeth; Wilthan, Boris; Simonds, Brian (National Institute of Standards and Technology)",
+   "year": 2023,
+   "url": "https://www.nist.gov/publications/report-extreme-ultraviolet-euv-lithography-working-group-meeting-current-state-needs",
+   "canonical_key": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-208.pdf",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Documents an April 25 2023 hybrid NIST working-group meeting (Boulder, CO) bringing together industry and NIST researchers on EUV lithography R&D and manufacturing; the report outlines the current state of the science, challenges, needs, and opportunities for accelerated EUVL innovation, and where NIST metrology expertise could assist industry. The abstract explicitly notes the report is a discussion starting point, not a complete industry census.",
+   "notes": "WebFetch retrieved the PDF but could not extract readable body text (compressed content stream) -- existence and official NIST identity confirmed via the nvlpubs.nist.gov domain and file naming convention, but no specific quoted finding should be used until a verifier re-extracts the text. | Year corrected from the scout's 2020 to 2023 (both meeting date and publication date). Title corrected to NIST's actual title ('Working Group Meeting', not 'Workshop'). No EUV source-power-specific figures should be treated as confirmed since the PDF body text itself was not extracted."
+  },
+  {
+   "id": "L06-039",
+   "title": "Advanced Energy (AEIS) Q4 2025 Earnings Call Transcript",
+   "authors_or_org": "Advanced Energy Industries, Inc. (NASDAQ: AEIS); transcribed by The Motley Fool",
+   "year": 2026,
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/02/10/advanced-energy-aeis-q4-2025-earnings-transcript/",
+   "canonical_key": "https://www.fool.com/earnings/call-transcripts/2026/02/10/advanced-energy-aeis-q4-2025-earnings-transcript/",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "earnings_transcript",
+   "claim_supported": "Q4 2025 revenue $489 million; full-year 2025 revenue $1.8 billion (+21% YoY); semiconductor segment revenue $840 million full-year (+6% YoY), $212 million in Q4 (+8% sequential). CEO Steve Kelley: 'broad acceptance of EVOS, Everest, and NavX across a broad customer set... customers are encountering problems as they go below two nanometers.' CFO Paul Oldham: new RF/plasma-power products reaching 'double-digit millions of revenue,' still 'largely in early pilot or early production stage.'",
+   "notes": "Directly fetched, quotes attributed to named executives. Third-party-transcribed (not the raw SEC 8-K exhibit) -- classified T2 rather than T1 audited filing, though content is a verbatim record of an official investor call. | Third-party-transcribed (not the raw SEC 8-K exhibit) -- T2. Revenue figures here corroborate the accepted L06-042/043 China-supplier data by establishing the incumbent baseline these Chinese entrants are displacing."
+  },
+  {
+   "id": "L06-041",
+   "title": "Axcelis Announces Shipment of Purion H200 SiC Power Series Implanter to Wolfspeed",
+   "authors_or_org": "Axcelis Technologies, Inc. / Wolfspeed, Inc.",
+   "year": 2023,
+   "url": "https://www.wolfspeed.com/company/news-events/news/axcelis-announces-shipment-of-purion-h200-sic-power-series-implanter-to-wolfspeed/",
+   "canonical_key": "https://www.wolfspeed.com/company/news-events/news/axcelis-announces-shipment-of-purion-h200-sic-power-series-implanter-to-wolfspeed/",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "direct_customer_documentation",
+   "claim_supported": "Axcelis shipped a Purion H200 SiC ion implant evaluation system to Wolfspeed on 2023-07-26 to support production of SiC power devices for EV applications, in the context of Wolfspeed's $6.5 billion capacity-expansion effort. Axcelis CEO Dr. Russell Low: 'The power device market continues to grow rapidly and is a key driver of our growth globally.'",
+   "notes": "Directly fetched joint Axcelis/Wolfspeed press release -- concrete, dated, named-buyer high-voltage-implanter-module demand evidence tied to the SiC power-semiconductor capex cycle. | Concrete, dated, named-buyer high-voltage-implanter-module demand evidence tied to the SiC power-semiconductor capex cycle."
+  },
+  {
+   "id": "L06-042",
+   "title": "Shenzhen CSL Vacuum Science and Technology (Hengyunchang) IPO: customer concentration and financial disclosure",
+   "authors_or_org": "Shenzhen CSL Vacuum Science and Technology Co., Ltd. (Hengyunchang, SSE STAR Market 688785); reported by Caixin/Cailianshe (CLS)",
+   "year": 2026,
+   "url": "https://www.cls.cn/detail/2060122",
+   "canonical_key": "https://www.cls.cn/detail/2060122",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Hengyunchang's IPO prospectus discloses fundraising of RMB 1.55 billion for a Shenyang semiconductor RF-power-system industrialization project and a core-components smart-manufacturing base; top customer/shareholder Piotech (tuo jing ke ji) accounted for 45.23% of revenue (2022), 58.16% (2023), 63.13% (2024); top five customers together 90.62% of 2024 revenue. Named customers: AMEC, NAURA, Wei Dao Nano, ACM Shanghai. 2024 revenue reported as RMB 5.41 yi yuan (~RMB 541 million); net profit RMB 1.43 yi yuan (~RMB 143 million). Ranked #1 among domestic (China) plasma RF-power-system manufacturers in 2023.",
+   "notes": "This is financial-media reporting on Hengyunchang's SSE STAR Market prospectus/audited IPO financials, not the raw SSE-filed prospectus PDF itself (which exists at static.sse.com.cn but was not directly fetched this session). Figures are internally consistent with the company's own IPO-prospectus-derived numbers reported across multiple independent outlets (cls.cn, eastmoney, 21jingji) this session -- treated as T1 company-filing-derived data with the sourcing caveat noted for the verifier. Chinese-language primary demand evidence -- Piotech, a named shareholder-customer, being 45-63% of revenue is itself a notable concentration/conflict-of-interest risk flagged for the red-team phase. | TIER DOWNGRADED from the scout's T1 to T2 for honesty: this is financial-media reporting on Hengyunchang's SSE STAR Market prospectus, not the raw SSE-filed prospectus PDF itself (static.sse.com.cn was not directly fetched this or the prior session). Figures are internally consistent across multiple independent outlets. Piotech being 45-63% of revenue as a named shareholder-customer is a concentration/conflict-of-interest risk flagged for red-team."
+  },
+  {
+   "id": "L06-043",
+   "title": "Hengyunchang lists on SSE STAR Market, shares surge over 300%",
+   "authors_or_org": "Cailianshe (CLS) financial news; reporting on Shenzhen CSL Vacuum Science and Technology Co., Ltd.",
+   "year": 2026,
+   "url": "https://www.cls.cn/detail/2272598",
+   "canonical_key": "https://www.cls.cn/detail/2272598",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Hengyunchang listed on the SSE STAR Market on 2026-01-28, raising RMB 1.469 billion; first-day close +302.8%. Company makes plasma RF power-supply systems for semiconductor manufacturing, ending the 'decades-long monopoly' of US suppliers MKS and Advanced Energy in the segment; supplies domestic equipment makers including Piotech, Sineo Semiconductor, NAURA, and partners with chipmakers SMIC and Yangtze Memory Technologies (YMTC).",
+   "notes": "News reporting (not the primary filing document) on the listing-day event -- classified T2. Complements L06-042 (financial/customer detail) with listing-day market reaction and a broader named-customer list (Sineo, SMIC, YMTC in addition to Piotech/AMEC/NAURA/ACM). | News reporting on the listing-day event -- T2. Complements L06-042 with a broader named-customer list."
+  },
+  {
+   "id": "L06-044",
+   "title": "Sichuan Injet Electric (Yingjie Dianqi) 2024 Annual Report -- semiconductor RF power segment",
+   "authors_or_org": "Sichuan Injet Electric Co., Ltd. (SZSE: 300820); reported by Tencent News and Caizhongshe",
+   "year": 2025,
+   "url": "https://news.qq.com/rain/a/20250425A0341L00",
+   "canonical_key": "title-year:injet-electric-2024-annual-report-semiconductor-rf-power-2025",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Sichuan Injet Electric's FY2024 total operating revenue was RMB 1.78 billion (+0.6% YoY) and net profit attributable to parent RMB 323 million (-25.2% YoY), independently confirmed via two directly fetched financial-media sources this session (Tencent News, Caizhongshe), both matching each other and the scout's original top-line figures exactly. The company's semiconductor/electronic-materials segment is described qualitatively as a growth driver offsetting a photovoltaic-segment downturn.",
+   "notes": "Not directly fetched this session (identified via WebSearch synthesis of the Eastmoney article); figures are from the company's mandatory SZSE-listed annual report (an audited filing) as reported by financial media. Chinese-language primary demand evidence showing a second, independent domestic RF-power supplier (distinct from Hengyunchang) with real, growing PECVD RF-power order volume. | TIER DOWNGRADED from the scout's T1 to T2 (secondary financial-media reporting, not the primary SZSE annual-report PDF, which returned unreadable/binary content on two separate direct-fetch attempts this session). The scout's specific segment-revenue figure (RMB 185.2154 million / 23.24% of revenue) and gross-margin figure (38.50%) could NOT be reproduced from any source fetched this session (a WebSearch-derived alternate figure of RMB 350.6 million / 19.69% also surfaced but was not independently fetch-confirmed) -- both segment-level figures are dropped from the claim as unconfirmed; only the corroborated top-line revenue/profit figures are retained."
+  },
+  {
+   "id": "L06-046",
+   "title": "A*STAR and Applied Materials Announce New Joint Lab for Semiconductor Equipment and Local Supply Chain Development",
+   "authors_or_org": "Singapore Economic Development Board (EDB) / Agency for Science, Technology and Research (A*STAR)",
+   "year": 2024,
+   "url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/astar-and-applied-materials-announce-new-joint-lab-for-semiconductor-equipment-and-local-supply-chain-development.html",
+   "canonical_key": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/astar-and-applied-materials-announce-new-joint-lab-for-semiconductor-equipment-and-local-supply-chain-development.html",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "SG",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "On 2024-09-05, A*STAR and Applied Materials announced the Applied Materials-A*STAR Joint Lab for Applied Process Equipment Accelerator (APEX), involving five A*STAR institutes, to develop semiconductor-equipment components/methods targeting ICAPS markets and to build local SME supply-chain capability. Investment amount not disclosed.",
+   "notes": "Directly fetched official Singapore government-agency (EDB) release -- a real, dated government-backed equipment/supply-chain development trigger for Singapore, though the investment amount is not disclosed (unlike the 2015 predecessor joint lab, which was S$150 million per a separate news search) -- flagged so the verifier does not conflate the two. | Real, dated government-backed equipment/supply-chain development trigger for Singapore."
+  },
+  {
+   "id": "L06-048",
+   "title": "AMEC 2024 revenue exceeds RMB 9 billion, etch equipment leads market",
+   "authors_or_org": "Advanced Micro-Fabrication Equipment Inc. China (AMEC, SSE STAR Market 688012); reported by Securities Times (stcn.com)",
+   "year": 2025,
+   "url": "https://www.stcn.com/article/detail/1673114.html",
+   "canonical_key": "https://www.stcn.com/article/detail/1673114.html",
+   "source_type": "company_filing",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "AMEC's 2024 operating revenue reached approximately RMB 9.065 billion (+44.73% YoY); etch equipment (CCP and ICP plasma etch tools) generated approximately RMB 7.277 billion (+54.73% YoY); R&D spending reached RMB 2.45 billion (+94.3% YoY, ~27% of revenue). AMEC states its etch tools cover over 95% of China's domestic etch-application requirements, with production on 5nm-and-below lines.",
+   "notes": "News reporting quoting AMEC's official 2024 performance disclosure (not the raw SSE-filed annual report itself) -- classified T2 on the sourcing caveat, though the underlying figures are from a mandatory listed-company disclosure. AMEC is China's largest domestic etch-tool maker and a major buyer of L06 subsystems (RF power, ESCs, gas delivery) from suppliers like Hengyunchang (L06-042/043) -- this record anchors the scale of that downstream demand. | AMEC is China's largest domestic etch-tool maker and a major buyer of L06 subsystems (RF power, ESCs, gas delivery) from suppliers like Hengyunchang (L06-042/043)."
+  },
+  {
+   "id": "L06-049",
+   "title": "Comet Group -- RF Power (product/business overview)",
+   "authors_or_org": "Comet Holding AG / Comet Plasma Control Technologies (Switzerland)",
+   "year": 2026,
+   "url": "https://comet.tech/en/what-we-do/rf-power",
+   "canonical_key": "https://comet.tech/en/what-we-do/rf-power",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Comet's RF Power Delivery System -- impedance matching networks, RF generators, and vacuum capacitors -- controls plasma processing of silicon wafers and glass substrates; Comet's Synertia platform (launched July 2022) is positioned as an integrated real-time RF power delivery platform for multi-layer next-generation memory and atomic-scale plasma processes.",
+   "notes": "Directly fetched but this specific page did not contain the $1.6 billion RF-power-subsystem market-size / ~5% CAGR figure that appeared in a separate search-engine summary of Comet's annual report materials -- that figure is NOT included here to avoid citing an unconfirmed number; only claims actually present on the fetched page are used. A follow-up scout/verifier should locate the exact Comet annual-report page containing the market-size figure and log it separately with a direct fetch. | Vendor claim, not independent validation. A separate $1.6B RF-power-subsystem market-size figure that appeared in search summaries was correctly excluded since it was not present on the actually-fetched page."
+  },
+  {
+   "id": "L06-050",
+   "title": "Kyosan Electric Manufacturing -- RF Generator products",
+   "authors_or_org": "Kyosan Electric Manufacturing Co., Ltd. (Japan)",
+   "year": 2026,
+   "url": "https://www.kyosan.co.jp/product/power01_01.html",
+   "canonical_key": "https://www.kyosan.co.jp/product/power01_01.html",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Kyosan offers two catalogued RF generator models for plasma processing: HFK15TP (400 kHz, 1.50 kW, MOS-FET) and RFK35TS (13.56 MHz, 3.5 kW, MOS-FET, water-cooled); both rated at harmonic distortion below -45 dB/dBc; other VHF-band frequencies available on request.",
+   "notes": "Japanese-language primary vendor source with real technical specifications (frequency, power rating, cooling method) -- satisfies the local-language Japan requirement. No pricing disclosed. Company also holds patents in Japan/Germany/US for its Class-D RF amplifier technology per company Wikipedia/product pages (not independently verified this session). | Japanese-language primary vendor source with real technical specifications -- satisfies the local-language Japan requirement."
+  },
+  {
+   "id": "L06-051",
+   "title": "China's Domestic Chip Equipment Adoption Beats 2025 Target at 35%, Led by NAURA, AMEC",
+   "authors_or_org": "TrendForce",
+   "year": 2026,
+   "url": "https://www.trendforce.com/news/2026/01/12/news-chinas-domestic-chip-equipment-adoption-beats-2025-target-at-35-led-by-naura-amec/",
+   "canonical_key": "https://www.trendforce.com/news/2026/01/12/news-chinas-domestic-chip-equipment-adoption-beats-2025-target-at-35-led-by-naura-amec/",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "TW"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "China's domestically manufactured semiconductor equipment share rose from 25% (2024) to 35% (2025), exceeding the 30% target; by category, etching/thin-film deposition >40%, metrology 25%, lithography 18%. NAURA, AMEC, Piotech, and ACM Research achievements named.",
+   "notes": "TrendForce is a Taiwan-headquartered semiconductor research/trade-press firm reporting on Chinese mainland equipment localization -- tagged with both CN and TW geography. Notably conflicts with L06-052's figures (25%->35% here vs. 4%->13%->21% there) for what appears to be a differently scoped metric -- flagged as an unresolved contradiction for the lane brief. | CONFLICT FLAG (unresolved, not averaged): directly contradicts L06-052's 4%->13%->21% trajectory for a nominally similar 'China equipment localization rate' metric. Different scope/methodology likely; both records retained and the conflict must be shown, not reconciled, in the lane brief."
+  },
+  {
+   "id": "L06-052",
+   "title": "China's Semiconductor Equipment Localization Rate Jumps to 21%: Etching Tools Enter TSMC Lines, Lithography Remains the Final Hurdle",
+   "authors_or_org": "BigGo Finance (Tianxia Gongchang / faxiangongchang.com research network)",
+   "year": 2026,
+   "url": "https://finance.biggo.com/news/71354c86-2831-4eed-be01-cc593e5faf88",
+   "canonical_key": "https://finance.biggo.com/news/71354c86-2831-4eed-be01-cc593e5faf88",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "TW"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "China's overall semiconductor equipment localization progressed roughly 4% (2018) -> 13% -> 21% (2025). By category: etching 31%, thin-film deposition ~27%, cleaning >50% in sub-segments; lithography/coating-developing/metrology-inspection below 10%. AMEC tools deployed on TSMC's 5nm lines; SMEE delivered its first 28nm immersion lithography machine in 2025; NAURA H1 2025 revenue ~$2.2 billion.",
+   "notes": "Directly conflicts with L06-051's 25%->35% figure for what is nominally the same 'China equipment localization rate' metric -- an unresolved contradiction (likely different scope/methodology between the two research sources) to be flagged explicitly in the lane brief and not averaged. | CONFLICT FLAG (unresolved, not averaged): directly contradicts L06-051's 25%->35% figure for the same nominal metric. Both retained; conflict to be shown explicitly in the lane brief."
+  },
+  {
+   "id": "L06-053",
+   "title": "Mass Flow Controller (MFC) For Semiconductor Market Size, Share & Trends, 2035",
+   "authors_or_org": "Global Growth Insights (market-research consultancy)",
+   "year": 2026,
+   "url": "https://www.globalgrowthinsights.com/market-reports/mass-flow-controller-mfc-for-semiconductor-market-115614",
+   "canonical_key": "https://www.globalgrowthinsights.com/market-reports/mass-flow-controller-mfc-for-semiconductor-market-115614",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Consultancy estimate: global mass flow controller market for semiconductor applications valued at USD 1.05 billion in 2025, projected to reach USD 2 billion by 2035 (CAGR 6.5%, 2026-2035); report claims '85+ data points across 18 countries' and that ~70% of semiconductor fabs rely on MFC technology (unsourced within the report itself). Top vendors by share: HORIBA (17%), MKS Instruments (14%), plus Fujikin, Sevenstar, Hitachi Metals, Pivotal Systems, Bronkhorst, Brooks, Sensirion, and others.",
+   "notes": "Per SOURCE_STANDARDS, unaudited consultancy market-size estimates are T3/context-only and cannot establish TAM alone. Not directly fetched (landing page only, no bottom-up methodology visible); a competing Fortune Business Insights MFC market report was also found in search but not logged separately to avoid citing two unreconciled consultancy numbers as if independent. | Unaudited single-source consultancy estimate -- T3/context-only per SOURCE_STANDARDS; cannot establish TAM alone and is not independently triangulated against a second consultancy figure in this record."
+  },
+  {
+   "id": "L06-054",
+   "title": "Two major demand drivers boost RF power-supply market growth; domestic manufacturers gaining strength",
+   "authors_or_org": "Yicai (Diyi Caijing) financial media",
+   "year": 2024,
+   "url": "https://www.yicai.com/news/102170278.html",
+   "canonical_key": "https://www.yicai.com/news/102170278.html",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "China's semiconductor RF power-supply market was valued at approximately US$0.97 billion in 2022 (13.31% of the global market), with a low domestic-localization rate and the global market dominated by two US manufacturers (MKS, Advanced Energy) plus Japanese/German competitors. Hengyunchang has a strategic-cooperation agreement with Tuojing Technology, with some RF-power products passing verification/entering mass production. Injet Electric has reportedly achieved 80-90% domestic substitution on 6-inch/8-inch fab lines over five years, targeting 50% coverage on 12-inch lines within five years. Shanghai Yianen Semiconductor, which began in RF-generator repair services, claims 'nearly 95% of wafer fabs' as customers.",
+   "notes": "Not directly fetched (identified via WebSearch synthesis only) -- the specific <12% localization figure should be re-confirmed by direct fetch before load-bearing use, since it is a striking number that sits alongside the higher etch/deposition-tool-level localization figures in L06-051/052 (illustrating that component-level localization lags whole-tool-level localization significantly). | CORRECTION: the actually-fetched article content does not support the scout's original claim of a '<12% localization rate' figure (that specific figure could not be reproduced this session and is dropped); the article's real claims (market size, share, and named-company substitution rates) are used instead. This materially changes and strengthens the record: Injet Electric's claimed 80-90% domestic substitution on legacy nodes is a notable, more specific demand data point than the dropped figure."
+  },
+  {
+   "id": "L06-055",
+   "title": "Wonik IPS -- Business Overview",
+   "authors_or_org": "Wonik IPS Co., Ltd. (Korea, KOSDAQ: 240810)",
+   "year": 2026,
+   "url": "https://wipshosting.gabia.io/ko/business/intro.php",
+   "canonical_key": "https://wipshosting.gabia.io/ko/business/intro.php",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L06"
+   ],
+   "language": "ko",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Wonik IPS states it develops advanced circuit-fabrication process equipment, primarily thin-film deposition equipment; achieved mass production of 3D NAND Flash mold-process equipment in 2014 and entered the 10nm-class High-K DRAM market in 2018. Over 60% of Wonik IPS revenue comes from Samsung Electronics and SK Hynix.",
+   "notes": "Korean-language primary company source; page confirms deposition-equipment business but does not itemize RF power supply or gas-cabinet products specifically (those appear on deeper product pages not fetched this session) -- included as a Korean-language primary vendor source for the L06 equipment-maker ecosystem (Samsung/SK Hynix-anchored), with the specificity limitation noted honestly. | Korean-language primary company source; included as a Korean-language primary vendor source for the L06 equipment-maker ecosystem."
+  },
+  {
+   "id": "L07-001",
+   "title": "Nonevaporable getter coating chambers for extreme high vacuum",
+   "authors_or_org": "Marcy L. Stutzman, Philip A. Adderley, Md Abdullah A. Mamun, Matt Poelker; Journal of Vacuum Science & Technology A (AIP Publishing)",
+   "year": 2018,
+   "url": "https://pubs.aip.org/avs/jva/article/36/3/031603/443057",
+   "canonical_key": "doi:10.1116/1.5010154",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1116/1.5010154",
+   "doi": "10.1116/1.5010154",
+   "demand_evidence_type": "none",
+   "claim_supported": "NEG (Ti-Zr-V) coating turns an accelerator beam-pipe chamber into a distributed pump, reducing thermal and beam-stimulated outgassing enough to reach extreme high vacuum without discrete pumps; work by Jefferson Lab's photoinjector group (Stutzman/Adderley/Mamun/Poelker).",
+   "notes": "Geography corrected from CH (CERN guess) to US: authors are Jefferson Lab (Newport News, VA), not CERN. This is the same research group as L07-002. An arXiv preprint mirror (1803.07056) is discovery-only; this AIP JVST A record is the peer-reviewed final."
+  },
+  {
+   "id": "L07-002",
+   "title": "A road map to extreme high vacuum",
+   "authors_or_org": "P. Adderley, G. Myneni; Journal of Physics: Conference Series (IOP Publishing)",
+   "year": 2008,
+   "url": "https://iopscience.iop.org/article/10.1088/1742-6596/114/1/012011",
+   "canonical_key": "doi:10.1088/1742-6596/114/1/012011",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CA",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1742-6596/114/1/012011",
+   "doi": "10.1088/1742-6596/114/1/012011",
+   "demand_evidence_type": "none",
+   "claim_supported": "Outlines a practical path (helium leak detection, cryosorption, low-cost diffusion barriers, clean assembly) to extend vacuum systems from UHV into the XHV regime, from the Jefferson Lab photoinjector/SRF vacuum group.",
+   "notes": "Perspective/roadmap paper by a named authority (Redhead, National Research Council Canada); treated as T2 review rather than primary data paper. A separate 1999 Vacuum-journal version of similar title exists (see L07-003 for a distinct related Redhead piece) — treated as separate works, not merged, pending verifier check for duplication. | MAJOR CORRECTION: raw ledger misattributed this paper to P. A. Redhead (National Research Council Canada) and set geography CA. Crossref confirms the actual authors are P. Adderley and G. Myneni (Jefferson Lab, US) -- the same first author as L07-001. Authors and geography corrected accordingly. JPCS is a conference-proceedings journal with lighter editorial review than a full journal, so tier kept at T2 per source standards."
+  },
+  {
+   "id": "L07-003",
+   "title": "My never-ending story towards XHV pressure measurements",
+   "authors_or_org": "Fumio Watanabe; Vacuum (Elsevier)",
+   "year": 1999,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0042207X98004230",
+   "canonical_key": "doi:10.1016/s0042-207x(98)00423-0",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/s0042-207x(98)00423-0",
+   "doi": "10.1016/s0042-207x(98)00423-0",
+   "demand_evidence_type": "none",
+   "claim_supported": "First-person historical review of total-pressure gauge development aimed at overcoming the X-ray limit and ESD-ion limit in XHV pressure measurement.",
+   "notes": "MAJOR CORRECTION: raw ledger misattributed this paper to P. A. Redhead and set geography CA (same error pattern as L07-002). Crossref confirms the actual author is Fumio Watanabe. Geography changed to JP as a tentative inference from the author's name only (not an independently confirmed affiliation) -- flagged for further confirmation. A distinct genuine Redhead paper, 'UHV and XHV pressure measurements' (Vacuum, 1993, DOI 10.1016/0042-207x(93)90095-r), was surfaced during this verification but is not part of the raw ledger and is out of scope to add."
+  },
+  {
+   "id": "L07-004",
+   "title": "The development of vacuum measurements down to extremely high vacuum – XHV",
+   "authors_or_org": "Anita Calcatelli; Measurement (Elsevier)",
+   "year": 2013,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263224112003132",
+   "canonical_key": "doi:10.1016/j.measurement.2012.08.018",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T2",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "IT"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.measurement.2012.08.018",
+   "doi": "10.1016/j.measurement.2012.08.018",
+   "demand_evidence_type": "none",
+   "claim_supported": "Surveys ionization-gauge development (including CNT-cathode gauges) for pressure measurement below the UHV/XHV boundary and the remaining open problems; a 107-reference review.",
+   "notes": "Author identified (was 'unknown'); geography corrected from US placeholder to IT (Anita Calcatelli, Istituto Nazionale di Ricerca Metrologica, Italy)."
+  },
+  {
+   "id": "L07-005",
+   "title": "Applications of Vacuum Measurement Technology in China's Space Programs",
+   "authors_or_org": "Detian Li, Yongjun Wang, Huzhong Zhang, Zhenhua Xi, Gang Li; Space: Science & Technology (AAAS/Science Partner Journal)",
+   "year": 2021,
+   "url": "https://spj.science.org/doi/10.34133/2021/7592858",
+   "canonical_key": "doi:10.34133/2021/7592858",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.34133/2021/7592858",
+   "doi": "10.34133/2021/7592858",
+   "demand_evidence_type": "none",
+   "claim_supported": "Describes vacuum gauge calibration and measurement technology used to qualify hardware for China's space simulation and satellite programs; authors from the Science and Technology on Vacuum Technology and Physics Laboratory, Lanzhou Institute of Physics.",
+   "notes": "Space: Science & Technology is an AAAS-affiliated Science Partner Journal (peer reviewed); DOI visible in URL structure. | Authors and institutional affiliation now confirmed via Crossref (were 'unknown'); geography CN confirmed directly rather than inferred."
+  },
+  {
+   "id": "L07-006",
+   "title": "Development and test of a rectangular CERN ConFlat-type flange",
+   "authors_or_org": "Ana Miarnau Marin, Gerhard Schneider, Raymond Veness; Vacuum (Elsevier) — CERN",
+   "year": 2015,
+   "url": "https://www.sciencedirect.com/science/article/pii/S0042207X15300440",
+   "canonical_key": "doi:10.1016/j.vacuum.2015.08.018",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CH"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.vacuum.2015.08.018",
+   "doi": "10.1016/j.vacuum.2015.08.018",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports design, manufacture, and leak/outgassing testing of a rectangular CERN-type ConFlat flange with copper gasket for the CERN Proton Synchrotron Beam Gas Ionisation instrument.",
+   "notes": "Authors confirmed (CERN vacuum group); geography CH confirmed rather than inferred."
+  },
+  {
+   "id": "L07-008",
+   "title": "A comparison between the outgassing process of a titanium chamber and a stainless steel chamber",
+   "authors_or_org": "Michio Minato, Yoshio Itoh; Vacuum (Elsevier)",
+   "year": 1996,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0042207X96000462",
+   "canonical_key": "doi:10.1016/0042-207x(96)00046-2",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(96)00046-2",
+   "doi": "10.1016/0042-207x(96)00046-2",
+   "demand_evidence_type": "none",
+   "claim_supported": "Primary experimental comparison of outgassing rate/time behavior between titanium and stainless-steel UHV chamber materials.",
+   "notes": "Authors confirmed (Japanese names); geography corrected from US placeholder to JP."
+  },
+  {
+   "id": "L07-009",
+   "title": "Reduction in Hydrogen Outgassing from Stainless Steels by a Medium-Temperature Heat Treatment",
+   "authors_or_org": "C. D. Park, S. M. Chung, Xianghong Liu, Yulin Li; Journal of Vacuum Science & Technology A (AIP Publishing) — Cornell University (CESR)",
+   "year": 2008,
+   "url": "https://doi.org/10.1116/1.2956625",
+   "canonical_key": "doi:10.1116/1.2956625",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1116/1.2956625",
+   "doi": "10.1116/1.2956625",
+   "demand_evidence_type": "none",
+   "claim_supported": "A 30-hour, 250°C bakeout is reported to reduce stainless-steel hydrogen outgassing by a factor of over 70,000 versus untreated 300-series steel; electropolishing alone gives roughly a 30x reduction.",
+   "notes": "Original ledger entry (year null, title paraphrased from a ResearchGate record, venue unconfirmed) now resolved to the actual published Cornell CESR paper. Title, authors, venue (JVST A), and year (2008) corrected; canonical URL switched from the ResearchGate mirror to the DOI resolver."
+  },
+  {
+   "id": "L07-010",
+   "title": "Reliability of turbomolecular vacuum pumps: A comparison of rolling element and magnetic bearing systems",
+   "authors_or_org": "M. Heldner, H.-P. Kabelitz; Journal of Vacuum Science & Technology A (AIP Publishing)",
+   "year": 1990,
+   "url": "https://pubs.aip.org/avs/jva/article-abstract/8/3/2772/101047/Reliability-of-turbomolecular-vacuum-pumps-A",
+   "canonical_key": "doi:10.1116/1.576666",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "DE"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1116/1.576666",
+   "doi": "10.1116/1.576666",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares reliability, hydrocarbon contamination, and vibration between oil/grease-lubricated rolling-element and magnetic-bearing turbomolecular pump designs.",
+   "notes": "Geography DE remains a tentative inference from German turbopump-industry authorship conventions (Kabelitz is linked to Leybold-era magnetic-bearing pump work per L07-013); not an independently confirmed affiliation."
+  },
+  {
+   "id": "L07-011",
+   "title": "Design aspects of a large scale turbomolecular pump with active magnetic bearings",
+   "authors_or_org": "Bangcheng Han, Ziyuan Huang, Yun Le; Vacuum (Elsevier)",
+   "year": 2017,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0042207X16307515",
+   "canonical_key": "doi:10.1016/j.vacuum.2016.12.010",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.vacuum.2016.12.010",
+   "doi": "10.1016/j.vacuum.2016.12.010",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents engineering design tradeoffs for a large-diameter turbomolecular pump using active magnetic bearings instead of rolling-element bearings.",
+   "notes": "Authors confirmed (Chinese magnetic-bearing turbopump research group, same lineage as L07-012); geography corrected from US placeholder to CN. Year shown as 2017 per Crossref print date; original 2016 reflects online-first date."
+  },
+  {
+   "id": "L07-012",
+   "title": "Stability control of high-speed magnetic levitation turbomolecular pumps with shock-excited disturbance",
+   "authors_or_org": "Wei Shitong, Le Yun, Zhou Jinxiang, Yin Yifan, Zhang Di, Zheng Shiqiang; ISA Transactions (Elsevier)",
+   "year": 2023,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S001905782300352X",
+   "canonical_key": "doi:10.1016/j.isatra.2023.07.045",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.isatra.2023.07.045",
+   "doi": "10.1016/j.isatra.2023.07.045",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proposes a control scheme to maintain rotor stability of magnetically levitated turbomolecular pumps under shock disturbance (e.g., mechanical vibration/seismic events).",
+   "notes": "Authors confirmed (shares 'Le Yun'/'Zheng Shiqiang' with L07-011, same Chinese magnetic-bearing pump research group); geography CN confirmed rather than a tentative guess."
+  },
+  {
+   "id": "L07-013",
+   "title": "Turbomolecular vacuum pumps with a new magnetic bearing concept",
+   "authors_or_org": "H.-P. Kabelitz, J. K. Fremerey; Vacuum (Elsevier)",
+   "year": 1988,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/0042207X8890440X",
+   "canonical_key": "doi:10.1016/0042-207x(88)90440-x",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "DE"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/0042-207x(88)90440-x",
+   "doi": "10.1016/0042-207x(88)90440-x",
+   "demand_evidence_type": "none",
+   "claim_supported": "Early primary paper on a new magnetic-bearing turbomolecular pump concept, predating the widespread commercial adoption documented in L07-010.",
+   "notes": "Authors confirmed; J. K. Fremerey was affiliated with KFA Julich, Germany, supporting the DE geography guess more strongly than before, though affiliation itself was not independently re-confirmed this session."
+  },
+  {
+   "id": "L07-014",
+   "title": "Vibration isolation with high thermal conductance for a cryogen-free dilution refrigerator",
+   "authors_or_org": "Martin de Wit, Gesa Welker, Kier Heeck, Frank M. Buters, Hedwig J. Eerkens, Gert Koning, Harmen van der Meer, Dirk Bouwmeester, Tjerk H. Oosterkamp; Review of Scientific Instruments (AIP Publishing)",
+   "year": 2019,
+   "url": "https://pubs.aip.org/aip/rsi/article/90/1/015112/367966/Vibration-isolation-with-high-thermal-conductance",
+   "canonical_key": "doi:10.1063/1.5066618",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "NL"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.5066618",
+   "doi": "10.1063/1.5066618",
+   "demand_evidence_type": "none",
+   "claim_supported": "Presents a mechanical low-pass-filter vibration isolation design for a cryogen-free (pulse-tube-backed) dilution refrigerator operating at 10 mK, for scanning-probe use.",
+   "notes": "Geography corrected from US placeholder to NL (Leiden University, Netherlands)."
+  },
+  {
+   "id": "L07-015",
+   "title": "An ultra-low vibration cryostat with split design",
+   "authors_or_org": "Jingxuan Zhang, Zhiyuan Wang, Qiang Wei, Jialu Chang, Qiyue Wu, Xiaoxu Chen, Wenhao Yuan, Ke Deng, Zehuang Lu, Jie Zhang; Review of Scientific Instruments (AIP Publishing)",
+   "year": 2025,
+   "url": "https://pubs.aip.org/aip/rsi/article-abstract/96/5/053002/3345956/An-ultra-low-vibration-cryostat-with-split-design",
+   "canonical_key": "doi:10.1063/5.0254561",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0254561",
+   "doi": "10.1063/5.0254561",
+   "demand_evidence_type": "none",
+   "claim_supported": "A split-design, pulse-tube-cooled ultra-low-vibration cryostat achieves background vibration of 5x10^-7 m/s^2/Hz^1/2 at 1-10 Hz.",
+   "notes": "Vibration figure in Crossref summary (5x10^-7 m/s^2/Hz^1/2) exactly matches the raw ledger's claim, confirming record identity. Geography CN confirmed."
+  },
+  {
+   "id": "L07-016",
+   "title": "Development of a cryogen-free dilution refrigerator with a cooling power of 2000 µW at around 100 mK",
+   "authors_or_org": "Xiang Guan, De Ming Wang, Yong Jie Xie, Jie Fan, Zhong Qing Ji; Review of Scientific Instruments (AIP Publishing)",
+   "year": 2025,
+   "url": "https://pubs.aip.org/aip/rsi/article/96/12/123901/3373711/Development-of-a-cryogen-free-dilution",
+   "canonical_key": "doi:10.1063/5.0294894",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0294894",
+   "doi": "10.1063/5.0294894",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports a cryogen-free dilution refrigerator reaching a base temperature of 6.6 mK and 2000 µW of cooling power at ~102.5 mK, roughly an order of magnitude above conventional commercial units.",
+   "notes": "Geography corrected from JP to CN: authors (including Zhong Qing Ji, Jie Fan, who also co-author a related 2022 Chinese Physics B cryogen-free DR paper) are Chinese, not Japanese as the raw ledger guessed."
+  },
+  {
+   "id": "L07-017",
+   "title": "Vibration-induced electrical noise in a cryogen-free dilution refrigerator: Characterization, mitigation, and impact on qubit coherence",
+   "authors_or_org": "Rachpon Kalra, Arne Laucht, Juan Pablo Dehollain, Daniel Bar, Solomon Freer, Stephanie Simmons, Juha T. Muhonen, Andrea Morello; Review of Scientific Instruments (AIP Publishing) — University of New South Wales",
+   "year": 2016,
+   "url": "https://doi.org/10.1063/1.4959153",
+   "canonical_key": "doi:10.1063/1.4959153",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "AU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.4959153",
+   "doi": "10.1063/1.4959153",
+   "demand_evidence_type": "none",
+   "claim_supported": "Identifies triboelectric effects in wiring as the dominant vibration-induced electrical noise mechanism (5-10 kHz band) in cryogen-free dilution refrigerators and shows cable-jacketing mitigations reduce noise by over an order of magnitude, with direct relevance to superconducting-qubit coherence.",
+   "notes": "Geography corrected from US to AU: the OSTI.GOV indexing in the raw ledger was a red herring for 'US DOE-funded origin' -- the actual authors are at the University of New South Wales, Australia (Andrea Morello's group). Canonical URL switched from the OSTI bibliographic record to the DOI resolver."
+  },
+  {
+   "id": "L07-018",
+   "title": "Thermal Performance of a 4 K High-frequency Pulse Tube Cryocooler with Different Working Fluids",
+   "authors_or_org": "Zhaozhao Gao, Biao Yang, Xiaoyu Fan, Liubiao Chen, Junjie Wang; Journal of Thermal Science (Springer Nature)",
+   "year": 2024,
+   "url": "https://link.springer.com/article/10.1007/s11630-024-1991-3",
+   "canonical_key": "doi:10.1007/s11630-024-1991-3",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s11630-024-1991-3",
+   "doi": "10.1007/s11630-024-1991-3",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares working-fluid options for 4 K high-frequency pulse-tube cryocoolers and their effect on cooling capacity/COP near liquid-helium temperature.",
+   "notes": "DOI visible in URL. | Authors confirmed; geography CN confirmed."
+  },
+  {
+   "id": "L07-019",
+   "title": "Cooling performance improvement of a thermal-coupled two-stage high-frequency pulse tube cryocooler with hybrid Er3Ni/stainless steel screen regenerative material",
+   "authors_or_org": "Bin Yang, Ziyao Liu, Min Gao, Jia Quan, Chenglong Liu, et al.; Applied Thermal Engineering (Elsevier)",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S1359431124028904",
+   "canonical_key": "doi:10.1016/j.applthermaleng.2024.125222",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L07"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2024.125222",
+   "doi": "10.1016/j.applthermaleng.2024.125222",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reports improved cooling capacity/relative COP for a two-stage high-frequency pulse-tube cryocooler using a hybrid Er3Ni/stainless-steel-screen regenerator material at ~20 K.",
+   "notes": "Year corrected from 2024 (online-first, matching the ledger's PII-derived guess) to 2025 (Crossref primary publication year); authors confirmed, Chinese affiliation consistent with CN geography."
+  }
+ ]
+}

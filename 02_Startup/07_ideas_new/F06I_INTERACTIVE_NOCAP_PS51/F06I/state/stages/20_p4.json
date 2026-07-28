@@ -1,0 +1,37 @@
+{
+    "stage":  "20_p4",
+    "kind":  "FULL",
+    "status":  "COMPLETE",
+    "validated_at_utc":  "2026-07-28T04:52:06.9018435Z",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "effort_requested":  "xhigh",
+    "claude_code_version":  "2.1.220",
+    "total_cost_usd_telemetry":  88.18651965,
+    "total_duration_ms":  4069934,
+    "total_input_tokens":  853521,
+    "total_output_tokens":  156,
+    "output_files":  [
+                         {
+                             "path":  "outputs\\20_p4\\P4_REPORT.md",
+                             "bytes":  4376,
+                             "sha256":  "D26A457607E26084B213F0D615ECC26F38278414EFBEBAE3C69291FE53E4375F"
+                         },
+                         {
+                             "path":  "outputs\\20_p4\\RESULT.json",
+                             "bytes":  541,
+                             "sha256":  "07D5D409200FF8F972BD55200D91D08AEE08A1B45E8A8BE7737A631007BA64E4"
+                         },
+                         {
+                             "path":  "outputs\\20_p4\\SCORES.json",
+                             "bytes":  366793,
+                             "sha256":  "834D94CD8DDF6A21FC02FB773F8E0A17B7A90F402AFA7EA9BF8910BFF86242EF"
+                         },
+                         {
+                             "path":  "outputs\\20_p4\\SURVIVORS.json",
+                             "bytes":  10088,
+                             "sha256":  "128BB8910603FC938C49C9F025F3647605C1C465EB59B90E2A30882CADF465F8"
+                         }
+                     ]
+}

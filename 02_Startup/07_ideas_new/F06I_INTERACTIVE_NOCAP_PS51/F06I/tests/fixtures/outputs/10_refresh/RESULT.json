@@ -1,0 +1,12 @@
+{
+  "stage": "10_refresh",
+  "status": "COMPLETE",
+  "outputs": [
+    "REFRESH.json",
+    "SOURCES.json",
+    "REFRESH.md"
+  ],
+  "checks": {
+    "fixture": true
+  }
+}

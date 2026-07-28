@@ -1,0 +1,770 @@
+{
+ "batch_id": "P2A-04",
+ "audited_at": "2026-07-13T00:26:13Z",
+ "model": "claude-sonnet-5",
+ "effort": "high",
+ "entries": [
+  {
+   "id": "L04-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Utility Dive / Industry Dive (Informa PLC)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.utilitydive.com/about/", "https://www.industrydive.com/who-we-are/about"],
+   "useful_lead": "",
+   "notes": "US trade-press publisher (Industry Dive, Washington DC; acquired by Informa PLC 2022)."
+  },
+  {
+   "id": "L04-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "TerraPower LLC", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.terrapower.com/terrapower-announces-contract-awards-for-natrium-vendors"],
+   "useful_lead": "",
+   "notes": "US advanced-reactor company (Bellevue, WA); primary company source."
+  },
+  {
+   "id": "L04-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Turboden S.p.A. (Mitsubishi Heavy Industries Group)", "country": "IT"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.turboden.com/company/1058/since-1980", "https://www.mhi.com/company/regions/emea/locations"],
+   "useful_lead": "",
+   "notes": "Italian company (Brescia HQ), MHI (Japan) group subsidiary. Neither non-Indian parent nor subsidiary is India-based."
+  },
+  {
+   "id": "L04-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Hanwha Power Systems Co., Ltd.", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hanwhapower.com/en/company/location"],
+   "useful_lead": "",
+   "notes": "South Korean company (Changwon HQ), Hanwha Group subsidiary; distributed via turbomachinerymag.com (US trade press)."
+  },
+  {
+   "id": "L04-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Interesting Engineering, Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.cbinsights.com/company/interesting-engineering"],
+   "useful_lead": "",
+   "notes": "Digital media company HQ'd in New York, NY; covers a China-located project but the publisher itself is US-based, not India."
+  },
+  {
+   "id": "L04-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Malta Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://maltainc.com/"],
+   "useful_lead": "",
+   "notes": "US thermal-storage company primary website."
+  },
+  {
+   "id": "L04-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Google LLC", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://blog.google/outreach-initiatives/sustainability/google-fervo-geothermal-energy-partnership/"],
+   "useful_lead": "",
+   "notes": "US corporate-buyer primary source."
+  },
+  {
+   "id": "L04-051",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "China Central Television (CCTV)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://news.cctv.cn/2025/12/21/ARTIOIKxHHqUSt3APo8IVLjd251221.shtml"],
+   "useful_lead": "",
+   "notes": "Chinese state broadcaster."
+  },
+  {
+   "id": "L04-052",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "TechCrunch (Yahoo/Regent)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://techcrunch.com/2025/09/16/fourth-powers-sci-fi-thermal-batteries-could-be-cheaper-than-pricey-natural-gas-power-plants/"],
+   "useful_lead": "",
+   "notes": "US trade/tech press."
+  },
+  {
+   "id": "L04-053",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "pv magazine group GmbH & Co. KG", "country": "DE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.pv-magazine.com/about-us/"],
+   "useful_lead": "",
+   "notes": "Berlin, Germany-based publisher (pv magazine also runs a regional India edition, but this record's publisher entity is the Germany-HQ'd group, not India)."
+  },
+  {
+   "id": "L04-054",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "China Times (Want Want China Times Media Group)", "country": "TW"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.chinatimes.com/realtimenews/20231102005721-260408"],
+   "useful_lead": "",
+   "notes": "Taiwan-based Chinese-language media outlet."
+  },
+  {
+   "id": "L04-055",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Hanwha Power Systems Co., Ltd.", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hanwhapower.com/en/company/location"],
+   "useful_lead": "",
+   "notes": "South Korean vendor datasheet."
+  },
+  {
+   "id": "L04-101",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "North Carolina State University", "country": "US"},
+    {"name": "Georgia Southern University", "country": "US"},
+    {"name": "Ultool, LLC", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": [
+    "https://api.openalex.org/works?filter=doi:10.1115/1.4063326|10.1016/j.energy.2025.135696|10.1016/j.applthermaleng.2022.118310|10.1093/ce/zkad007|10.3390/app13010385|10.2514/1.b37623|10.1016/j.energy.2021.121105|10.1021/acsomega.2c05531|10.1002/adma.202411524|10.1016/j.energy.2022.123630&per-page=50&select=doi,ids,authorships",
+    "https://opengovus.com/sam-entity/DAQRG9PBNTT4"
+   ],
+   "useful_lead": "",
+   "notes": "4 of 6 authors resolved via OpenAlex to NC State/Georgia Southern (US); remaining 2 authors (Xu, Tang) attributed per record to Ultool LLC, independently confirmed US-registered (Duluth, GA) via SAM.gov entity record. No Indian affiliation found."
+  },
+  {
+   "id": "L04-102",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Shanghai Jiao Tong University", "country": "CN"},
+    {"name": "Tianjin University", "country": "CN"},
+    {"name": "Shanghai Marine Diesel Engine Institute (per record)", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.crossref.org/works/10.1016/j.energy.2025.135696"],
+   "useful_lead": "",
+   "notes": "Title-matched Crossref record confirms 13-author list; OpenAlex resolves 4 of 13 to Shanghai Jiao Tong University / Tianjin University (China). Remaining unresolved authors share the same Chinese-naval-institute author group per record metadata; all-Chinese author names. No Indian institution or name present."
+  },
+  {
+   "id": "L04-103",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Korea Atomic Energy Research Institute", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": [
+    "https://api.openalex.org/works?filter=doi:10.1016/j.applthermaleng.2022.118310&select=doi,ids,authorships"
+   ],
+   "useful_lead": "",
+   "notes": "2 of 3 authors resolved to a Korean national institute (OpenAlex shows KAERI vs. record's stated KIER -- both are Korean national labs; discrepancy immaterial to the non-India verdict). No Indian affiliation."
+  },
+  {
+   "id": "L04-104",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Huazhong University of Science and Technology", "country": "CN"},
+    {"name": "China Energy Engineering Corporation", "country": "CN"},
+    {"name": "Dongfeng Motor Group", "country": "CN"},
+    {"name": "Anhui University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1093/ce/zkad007&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "5 of 6 authors resolved, all China-based institutions. No Indian affiliation."
+  },
+  {
+   "id": "L04-106",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Institute of Engineering Thermophysics, Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/app13010385&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 7/7 authors, all IET-CAS, China."
+  },
+  {
+   "id": "L04-107",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Massachusetts Institute of Technology", "country": "US"},
+    {"name": "Tsinghua University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.2514/1.b37623&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 5/5 authors: 3 Tsinghua (CN), 2 MIT (US). No Indian affiliation."
+  },
+  {
+   "id": "L04-108",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Massachusetts Institute of Technology", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.energy.2021.121105&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 5/5 authors, all MIT, US."
+  },
+  {
+   "id": "L04-109",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Institute of Engineering Thermophysics, Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1021/acsomega.2c05531&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 4/4 authors, all IET-CAS, China."
+  },
+  {
+   "id": "L04-110",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "National Renewable Energy Laboratory", "country": "US"},
+    {"name": "University of Wisconsin-Madison", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1002/adma.202411524&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 6/6 authors, all US (NREL + UW-Madison). Author 'Parth Solanki' resolved to a US institution via structured affiliation data, not inferred from surname."
+  },
+  {
+   "id": "L04-111",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Tianjin University", "country": "CN"},
+    {"name": "University of Science and Technology of China", "country": "CN"},
+    {"name": "Marine Design & Research Institute of China", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.energy.2022.123630&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 9/9 authors, all China-based institutions."
+  },
+  {
+   "id": "L04-112",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ASTM International", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://store.astm.org/standards/e139"],
+   "useful_lead": "",
+   "notes": "US standards body (West Conshohocken, PA)."
+  },
+  {
+   "id": "L04-113",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Sandia National Laboratories", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.osti.gov/biblio/1561836"],
+   "useful_lead": "",
+   "notes": "US DOE national laboratory."
+  },
+  {
+   "id": "L04-114",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "US Department of Energy, Office of Energy Dominance Financing", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.energy.gov/edf/articles/lpo-announces-conditional-commitment-long-duration-compressed-air-energy-storage"],
+   "useful_lead": "",
+   "notes": "US federal government."
+  },
+  {
+   "id": "L04-115",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Fervo Energy", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://fervoenergy.com/fervo-energy-secures-421-million-in-non-recourse-project-financing-for-cape-station/"],
+   "useful_lead": "",
+   "notes": "US enhanced-geothermal company."
+  },
+  {
+   "id": "L05-001",
+   "verdict": "discovery_only",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Raja Ramanna Centre for Advanced Technology", "country": "IN"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": [
+    "https://api.openalex.org/works?filter=doi:10.1016/j.nima.2018.07.037|10.1109/tps.2010.2045515|10.1063/1.4803189|10.1109/tps.2017.2749504|10.3938/jkps.64.1267|10.1088/1748-0221/11/04/p04003|10.1017/s1759078724000205|10.1016/j.fusengdes.2025.115346|10.1103/physrevaccelbeams.26.112002|10.1007/s40042-025-01322-9|10.1109/ted.2015.2464096|10.1109/ivec56627.2023.10157431|10.1109/ivec63678.2025.11115541&per-page=50&select=doi,ids,authorships"
+   ],
+   "useful_lead": "RRCAT (India) reports a 34-section, 100 kV/20 A, 1 ms solid-state Marx modulator prototype for klystron drive using IGBT-based 3 kV main modules with a 24-module droop-correction scheme. If this specific design point is needed, seek an independent non-Indian source (e.g., another lab's citation/replication) before treating it as load-bearing; do not cite this record directly for technical, demand, market, or geography claims.",
+   "notes": "Both authors (Mahesh Acharya, Purushottam Shrivastava) resolved via OpenAlex to Raja Ramanna Centre for Advanced Technology, Indore, India -- only 2 authors, no non-Indian co-author present. Fails the India-origin exclusion (all resolved affiliations are Indian); downgraded from academic support to discovery_only per binding rule."
+  },
+  {
+   "id": "L05-002",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Fudan University", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/tps.2010.2045515&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 3/3 authors, all Fudan University, China."
+  },
+  {
+   "id": "L05-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "ESS Bilbao", "country": "ES"},
+    {"name": "University of Castilla-La Mancha", "country": "ES"},
+    {"name": "Oak Ridge National Laboratory / Spallation Neutron Source", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/1.4803189&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "3 of 8 authors resolved (ES/US); remaining 4 unresolved authors (Ganuza, De La Fuente, Zulaika, Perez) attributed per record to JEMA Corporation (Spain), consistent with the resolved Spanish co-authors. No Indian affiliation indicated."
+  },
+  {
+   "id": "L05-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Dongnam Institute of Radiological & Medical Sciences", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/tps.2017.2749504&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "3 of 4 authors resolved, all Dongnam Institute, South Korea."
+  },
+  {
+   "id": "L05-005",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Korea Electrotechnology Research Institute", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3938/jkps.64.1267&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 4/4 authors, all KERI, South Korea."
+  },
+  {
+   "id": "L05-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Dongnam Institute of Radiological & Medical Sciences", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1088/1748-0221/11/04/p04003&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "6 of 7 authors resolved, all Dongnam Institute, South Korea."
+  },
+  {
+   "id": "L05-007",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Uppsala University", "country": "SE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1017/s1759078724000205&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 2/2 authors (Duc, Dancila) to Uppsala University, Sweden. Record's 'European Spallation Source RF group' label refers to the application facility, not the author institution; author-name pattern not used to infer origin -- structured institution data used instead."
+  },
+  {
+   "id": "L05-008",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "CIEMAT (Centro de Investigaciones Energeticas, Medioambientales y Tecnologicas)", "country": "ES"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": [
+    "https://api.crossref.org/works/10.1016/j.fusengdes.2025.115346",
+    "https://www.fusion.ciemat.es/home/international-projects/ifmif/"
+   ],
+   "useful_lead": "",
+   "notes": "OpenAlex and Crossref return empty affiliation arrays for all 17 authors; ScienceDirect full text returned HTTP 403. Lead author C. de la Morena independently confirmed via web search as CIEMAT (Spain) staff, consistent with IFMIF-DONES being a CIEMAT-led, Granada-Spain-hosted EUROfusion consortium project; no Indian partner institution identified in IFMIF-DONES consortium literature. Full per-author affiliation list not itemized -- flag for future re-verification if specific numeric claims from this paper become load-bearing."
+  },
+  {
+   "id": "L05-009",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Institute of Modern Physics, Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.26.112002&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 12/12 authors, all IMP/CAS/UCAS, China."
+  },
+  {
+   "id": "L05-010",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Pohang Accelerator Laboratory / Pohang University of Science and Technology", "country": "KR"},
+    {"name": "Chung Cheong University", "country": "KR"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s40042-025-01322-9&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 8/8 authors, all South Korea (POSTECH/PAL + Chung Cheong University)."
+  },
+  {
+   "id": "L05-011",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Moscow University of Finance and Law", "country": "RU"},
+    {"name": "European Spallation Source", "country": "SE"},
+    {"name": "CERN", "country": "CH"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/ted.2015.2464096&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 3/3 authors: RU/SE/CH. No Indian affiliation. Corrects the record's CH-only geography tag informationally (not modified by this audit)."
+  },
+  {
+   "id": "L05-012",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Institute of High Energy Physics, Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/ivec56627.2023.10157431&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 16/16 authors, all IHEP/CAS, China -- including non-Chinese-sounding co-author names (M. Iqbal, A. Aleem), whose affiliation was determined from structured institution data (China), not inferred from name."
+  },
+  {
+   "id": "L05-013",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Institute of High Energy Physics, Chinese Academy of Sciences", "country": "CN"},
+    {"name": "University of Science and Technology of China", "country": "CN"},
+    {"name": "National Synchrotron Radiation Laboratory", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/ivec63678.2025.11115541&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 9/9 authors, all China-based institutions (including co-author Munawar Iqbal, resolved via institution data to IHEP/CAS China, not inferred from name)."
+  },
+  {
+   "id": "L05-014",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "High Power Laser and Particle Beams journal (China Academy of Engineering Physics / Sichuan Nuclear Society)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202436.240155"],
+   "useful_lead": "",
+   "notes": "Not resolvable via OpenAlex/Crossref affiliation data (Chinese domestic journal, not indexed with structured affiliations). Chinese-language journal organized by China Academy of Engineering Physics/Sichuan Nuclear Society, all-Chinese author names, China-based subject matter. No Indian-institution indication."
+  },
+  {
+   "id": "L05-015",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "High Power Laser and Particle Beams journal (China Academy of Engineering Physics / Sichuan Nuclear Society)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202436.240031"],
+   "useful_lead": "",
+   "notes": "Same Chinese domestic journal as L05-014; all-Chinese author names. No Indian-institution indication."
+  },
+  {
+   "id": "L05-016",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "High Power Laser and Particle Beams journal (China Academy of Engineering Physics / Sichuan Nuclear Society)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202032.200226?viewType=HTML"],
+   "useful_lead": "",
+   "notes": "Same Chinese domestic journal as L05-014/015; all-Chinese author names. No Indian-institution indication."
+  },
+  {
+   "id": "L05-017",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Atomic Energy Science and Technology journal (China National Nuclear Corporation-affiliated)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://yznkxjs.xml-journal.net/article/doi/10.7538/yzk.2024.youxian.0160?viewType=HTML"],
+   "useful_lead": "",
+   "notes": "Chinese domestic journal, 17-author all-Chinese author list confirmed via direct publisher-page fetch in prior session. No Indian-institution indication."
+  },
+  {
+   "id": "L05-018",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "China Academy of Engineering Physics", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.19.030401&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 7/7 authors, all China Academy of Engineering Physics, China (not Sandia -- corrects the record's own prior-session geography correction, reconfirmed)."
+  },
+  {
+   "id": "L05-019",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Sandia National Laboratories", "country": "US"},
+    {"name": "Institute of High Current Electronics", "country": "RU"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1103/physrevstab.12.050401&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 11/11 authors: Sandia (US) plus two Institute of High Current Electronics (Russia) co-authors. No Indian affiliation."
+  },
+  {
+   "id": "L05-020",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "CEA Gramat (Commissariat a l'Energie Atomique et aux Energies Alternatives)", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.19.120401&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 7/7 authors, all CEA Gramat, France."
+  },
+  {
+   "id": "L05-021",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Tsinghua University", "country": "CN"},
+    {"name": "High Energy Accelerator Research Organization (KEK)", "country": "JP"},
+    {"name": "CERN", "country": "CH"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1103/physrevaccelbeams.20.052001&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 8/8 authors: Tsinghua (CN), KEK (JP), CERN (CH). No Indian affiliation."
+  },
+  {
+   "id": "L05-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Institute of High Energy Physics, Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/sym16050566&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 10/10 authors, all IHEP/CAS/UCAS, China."
+  },
+  {
+   "id": "L05-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "National Research Council Canada", "country": "CA"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1002/mp.17653&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "3 of 4 authors resolved, all National Research Council Canada."
+  },
+  {
+   "id": "L05-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Centre Hospitalier de l'Universite de Montreal", "country": "CA"},
+    {"name": "Universite Laval", "country": "CA"},
+    {"name": "National Research Council Canada", "country": "CA"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1002/mp.17927&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Fully resolved 7/7 authors, all Canada -- corrects the record's FR/CA geography tag informationally (lead author 'Bernelin' has a French-sounding name, but structured institution data shows an all-Canadian author group; name not used to infer origin)."
+  },
+  {
+   "id": "L05-028",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Ion Beam Applications SA (IBA)", "country": "BE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iba-industrial.com/wp-content/uploads/2026/03/260327-iba-fy2025-results-en.pdf"],
+   "useful_lead": "",
+   "notes": "Belgian company (Louvain-la-Neuve HQ), official company filing."
+  },
+  {
+   "id": "L05-029",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Fusion for Energy (F4E)", "country": "ES"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://fusionforenergy.europa.eu/news/europe-signs-contract-for-the-manufacturing-of-iter-electron-cyclotron-gyrotrons/"],
+   "useful_lead": "",
+   "notes": "EU joint undertaking headquartered in Barcelona, Spain. (Note: the underlying ITER program separately allocates 2 of 24 gyrotrons to India, but this specific source -- F4E's own procurement announcement -- is an EU-origin publication about the EU's allocation, not an India-origin source.)"
+  },
+  {
+   "id": "L05-030",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Jema Energy (JEMA Corporation)", "country": "ES"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.jemaenergy.com/en/big-science-en/jema-energy-has-been-awarded-with-a-new-tender-for-ess/"],
+   "useful_lead": "",
+   "notes": "Spanish (Basque Country) company, primary press release."
+  },
+  {
+   "id": "L05-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "US Department of Energy, Office of Science", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://science.osti.gov/hep/Research/Accelerator-Stewardship/Awards"],
+   "useful_lead": "",
+   "notes": "US federal government."
+  },
+  {
+   "id": "L05-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "US Department of Energy", "country": "US"},
+    {"name": "Communications & Power Industries (CPI)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.energy.gov/technologycommercialization/articles/slac-partners-palo-alto-firm-make-klystrons-much-more"],
+   "useful_lead": "",
+   "notes": "US federal government publication naming a US company (CPI, Palo Alto)."
+  },
+  {
+   "id": "L05-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Varex Imaging Corporation", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.vareximaging.com/news/varex-announces-financial-results-for-fourth-quarter-and-fiscal-year-2025/"],
+   "useful_lead": "",
+   "notes": "US public company (NASDAQ: VREX), official investor communication."
+  },
+  {
+   "id": "L05-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Comet Holding AG (Comet Group)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://reports.comet-group.com/24/note-04-segment-reporting"],
+   "useful_lead": "",
+   "notes": "Swiss-listed public company (Flamatt HQ), audited annual report."
+  },
+  {
+   "id": "L05-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "China General Nuclear Power Group (CGN) / CGN Nuclear Technology Development Co.", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://file.finance.qq.com/finance/hs/pdf/2025/08/29/1224601860.PDF"],
+   "useful_lead": "",
+   "notes": "China-listed public company subsidiary, official half-year report."
+  },
+  {
+   "id": "L05-036",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "China International Bidding (MOFCOM platform) / China Isotope & Radiation Corporation (CNNC subsidiary)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://chinabidding.mofcom.gov.cn/bidDetail/bidding/bulletin/202410/ff80808191b75f330192d1cbbb650069.html"],
+   "useful_lead": "",
+   "notes": "Chinese Ministry of Commerce e-procurement platform listing a China National Nuclear Corporation subsidiary's tender."
+  },
+  {
+   "id": "L05-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Vitzro Nextec", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.edaily.co.kr/News/Read?newsId=02082806642206968&mediaCodeNo=257"],
+   "useful_lead": "",
+   "notes": "South Korean company and South Korean press outlet (Edaily)."
+  },
+  {
+   "id": "L05-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "US Department of Energy, Office of Science (GARD program)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://science.osti.gov/-/media/hep/pdf/Reports/DOE_HEP_GARD_RF_Research_Roadmap_Report.pdf"],
+   "useful_lead": "",
+   "notes": "US federal government."
+  },
+  {
+   "id": "L05-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "US Federal Communications Commission (FCC)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-18"],
+   "useful_lead": "",
+   "notes": "US federal regulator."
+  },
+  {
+   "id": "L05-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Organization for Standardization (ISO)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iso.org/standard/81721.html"],
+   "useful_lead": "",
+   "notes": "Geneva, Switzerland-headquartered international standards body."
+  },
+  {
+   "id": "L05-043",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Electrotechnical Commission (IEC)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://webstore.iec.ch/en/publication/65088"],
+   "useful_lead": "",
+   "notes": "Geneva, Switzerland-headquartered international standards body."
+  },
+  {
+   "id": "L05-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Sandia National Laboratories", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sandia.gov/pulsed-power/research-facilities/"],
+   "useful_lead": "",
+   "notes": "US DOE national laboratory."
+  },
+  {
+   "id": "L05-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "National Synchrotron Radiation Research Center (NSRRC)", "country": "TW"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nsrrc.org.tw/english/organizationDetail.aspx?Dept_UID=37"],
+   "useful_lead": "",
+   "notes": "Taiwan national research center, official .org.tw domain."
+  },
+  {
+   "id": "L05-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "ScandiNova Systems AB", "country": "SE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://scandinovasystems.com/pulse-modulator/k-series/"],
+   "useful_lead": "",
+   "notes": "Swedish (Uppsala) vendor, primary product page."
+  },
+  {
+   "id": "L05-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Muegge GmbH (Muegge Group)", "country": "DE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://muegge-group.com/en/product-category/magnetrons-en/"],
+   "useful_lead": "",
+   "notes": "German vendor, primary product page."
+  },
+  {
+   "id": "L05-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Bergoz Instrumentation", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.bergoz.com/products/npct/"],
+   "useful_lead": "",
+   "notes": "French (Saint-Genis-Pouilly) vendor, primary product page."
+  },
+  {
+   "id": "L05-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Communications & Power Industries LLC (CPI)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.cpii.com/"],
+   "useful_lead": "",
+   "notes": "US vendor, primary corporate website."
+  }
+ ]
+}

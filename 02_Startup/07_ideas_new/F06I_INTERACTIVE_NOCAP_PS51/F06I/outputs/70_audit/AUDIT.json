@@ -1,0 +1,37 @@
+{
+  "verdict": "PASS",
+  "audited_at_utc": "2026-07-28T07:33:21.3077277Z",
+  "checks": {
+    "cardinality_65_30_24_10": true,
+    "score_arithmetic_all_65_rederived": true,
+    "hard_gate_compliance_final_24": {
+      "pass": true,
+      "note": "A-10 and F-01 G6 recorded fail-as-frozen under advance_with_repair; repairs verified executed in stages 30-60"
+    },
+    "cross_file_id_order_numeric_consistency": true,
+    "deep_dive_word_and_source_quotas": true,
+    "index_word_counts_match_observed": true,
+    "source_pool_eligibility_and_claims_231": true,
+    "citation_resolution_zero_orphans": true,
+    "portfolio_quotas_and_2028_2029_g7_flags": true,
+    "excluded_markets_absent": true,
+    "us_china_claims_sampled_and_supported": true,
+    "competitor_claims_sampled_and_supported": true,
+    "timing_2030_and_experiment_kill_rules": true,
+    "canonical_copies_sha256_identical": true,
+    "final_sources_unique_authoritative": true,
+    "matrix_csv_24_rows": true
+  },
+  "repairs": [],
+  "unresolved_critical": [],
+  "unresolved_major": [],
+  "unresolved_minor": [
+    "IEC 61788 standard text unfetched across all sessions (carried open in D01.md section 12)",
+    "L05-028 and L05-035 headline figures unverified pending text-extractable re-fetch (flagged in pool records and D09.md)",
+    "P3R2-G-03 legacy HVDC penetration figures to be re-sourced or dropped (flagged; not load-bearing)",
+    "EU JRC electrolyzer AST harmonization source is 2024-vintage; annual refresh scheduled (D10.md)"
+  ],
+  "final_24_count": 24,
+  "deep_dive_count": 10,
+  "source_count": 281
+}

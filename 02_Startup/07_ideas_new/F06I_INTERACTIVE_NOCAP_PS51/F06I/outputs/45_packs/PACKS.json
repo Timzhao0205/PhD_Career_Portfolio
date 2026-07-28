@@ -1,0 +1,931 @@
+{
+    "artifact":  "45_packs verified source packs for the ten deep-dive ideas",
+    "ideas":  [
+                  {
+                      "idea_id":  "P3R2-D-02",
+                      "source_ids":  [
+                                         "L03-003",
+                                         "L03-018",
+                                         "L03-019",
+                                         "L03-020",
+                                         "L03-021",
+                                         "L03-024",
+                                         "L03-029",
+                                         "L03-031",
+                                         "L03-032",
+                                         "L03-035",
+                                         "L03-037",
+                                         "L03-041",
+                                         "L03-044",
+                                         "L03-046",
+                                         "L03-050",
+                                         "L03-052",
+                                         "NP45-001",
+                                         "P3R2-D-02-S01",
+                                         "P3R2-D-02-S02",
+                                         "R10-036",
+                                         "R10-037"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L03-003",
+                                                       "L03-018",
+                                                       "L03-019",
+                                                       "L03-020",
+                                                       "L03-021",
+                                                       "L03-024",
+                                                       "L03-029",
+                                                       "R10-036"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L03-031",
+                                                        "L03-032",
+                                                        "L03-035",
+                                                        "L03-041",
+                                                        "L03-044",
+                                                        "L03-046",
+                                                        "P3R2-D-02-S02"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L03-003",
+                                                              "L03-019",
+                                                              "L03-024",
+                                                              "L03-029",
+                                                              "L03-031",
+                                                              "L03-032",
+                                                              "L03-035",
+                                                              "L03-037",
+                                                              "L03-041",
+                                                              "L03-044",
+                                                              "L03-052"
+                                                          ],
+                                               "technical":  [
+                                                                 "L03-018",
+                                                                 "L03-020",
+                                                                 "L03-021",
+                                                                 "L03-050"
+                                                             ],
+                                               "competition":  [
+                                                                   "L03-046",
+                                                                   "L03-052",
+                                                                   "NP45-001"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-036",
+                                                                    "R10-037"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-D-02-S01",
+                                                                       "P3R2-D-02-S02"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "IEC 61788 acceptance-standard text remains unfetched across all sessions; WST/ASIPP Entity-List screening inconclusively negative; no per-line scanner price anchor.",
+                      "quality_notes":  "Strongest pack anchors: the signed Shanghai Superconductor HL-4 contract (P3R2-D-02-S02), the Furukawa/Tokamak wire deal (L03-044), and the datasheet-grade incumbent-capability verification (NP45-001, TapeStar Ic-only). Peer-reviewed depth from L03 quench/screening-current literature."
+                  },
+                  {
+                      "idea_id":  "P3R2-C-01",
+                      "source_ids":  [
+                                         "L02-010",
+                                         "L02-037",
+                                         "L02-043",
+                                         "L02-044",
+                                         "L02-046",
+                                         "L02-047",
+                                         "L02-048",
+                                         "L02-049",
+                                         "L02-050",
+                                         "L02-051",
+                                         "L02-054",
+                                         "L02-112",
+                                         "L08-001",
+                                         "L08-003",
+                                         "L08-004",
+                                         "L08-017",
+                                         "L08-018",
+                                         "L08-019",
+                                         "L08-020",
+                                         "L08-021",
+                                         "L08-033",
+                                         "L08-052",
+                                         "L14-036",
+                                         "P3R2-C-01-S01",
+                                         "P3R2-C-01-S02",
+                                         "P3R2-C-01-S03",
+                                         "P3R2-C-01-S04",
+                                         "P3R2-C-01-S06",
+                                         "R10-019",
+                                         "R10-021"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L02-010",
+                                                       "L08-001",
+                                                       "L08-003",
+                                                       "L08-004",
+                                                       "L08-017",
+                                                       "L08-018",
+                                                       "L08-019",
+                                                       "L08-020",
+                                                       "L08-021"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L02-043",
+                                                        "L02-044",
+                                                        "L02-046",
+                                                        "L02-047",
+                                                        "L02-048",
+                                                        "L02-049",
+                                                        "L02-050",
+                                                        "L08-033",
+                                                        "P3R2-C-01-S01",
+                                                        "P3R2-C-01-S03"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L02-043",
+                                                              "L02-044",
+                                                              "L02-047",
+                                                              "L02-048",
+                                                              "L02-050",
+                                                              "L02-054",
+                                                              "L08-033",
+                                                              "L14-036"
+                                                          ],
+                                               "technical":  [
+                                                                 "L02-010",
+                                                                 "L02-112",
+                                                                 "L08-001",
+                                                                 "L08-003",
+                                                                 "L08-004",
+                                                                 "L08-017",
+                                                                 "L08-018",
+                                                                 "L08-019",
+                                                                 "L08-020",
+                                                                 "L08-021"
+                                                             ],
+                                               "competition":  [
+                                                                   "L02-037",
+                                                                   "L02-043",
+                                                                   "L02-046",
+                                                                   "L02-049",
+                                                                   "L02-050",
+                                                                   "L02-051",
+                                                                   "L08-052"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-019",
+                                                                    "R10-021"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-C-01-S01",
+                                                                       "P3R2-C-01-S02",
+                                                                       "P3R2-C-01-S03",
+                                                                       "P3R2-C-01-S04",
+                                                                       "P3R2-C-01-S06"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "DG Matrix certification/shipping status rests on snippet-grade sources (primary pages resist fetching); no per-unit protection-shelf price exists; CN 800V certification standard still absent by the OAII forum\u0027s own admission.",
+                      "quality_notes":  "Dual-leg primary anchors: NVIDIA\u0027s own 800VDC architecture material (L02-043), the OCP Mount Diablo buyer specification (L02-044), the OAII buyer-co-chaired CN forum (P3R2-C-01-S03), plus GTC-2026 reference-design refresh (R10-047). SSCB technical base from L08 peer-reviewed literature."
+                  },
+                  {
+                      "idea_id":  "P3R2-C-05",
+                      "source_ids":  [
+                                         "L14-001",
+                                         "L14-002",
+                                         "L14-003",
+                                         "L14-006",
+                                         "L14-009",
+                                         "L14-010",
+                                         "L14-022",
+                                         "L14-028",
+                                         "L14-029",
+                                         "L14-030",
+                                         "L14-033",
+                                         "L14-034",
+                                         "L14-035",
+                                         "L14-039",
+                                         "L14-043",
+                                         "L14-044",
+                                         "L14-045",
+                                         "L14-046",
+                                         "L14-048",
+                                         "L14-050",
+                                         "L14-053",
+                                         "P3R2-C-05-S01",
+                                         "P3R2-C-05-S02",
+                                         "R10-023"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L14-001",
+                                                       "L14-002",
+                                                       "L14-003",
+                                                       "L14-006",
+                                                       "L14-009",
+                                                       "L14-010",
+                                                       "L14-022",
+                                                       "L14-028",
+                                                       "L14-029"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L14-030",
+                                                        "L14-043",
+                                                        "L14-045",
+                                                        "L14-046",
+                                                        "L14-048",
+                                                        "L14-050",
+                                                        "P3R2-C-05-S01"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L14-029",
+                                                              "L14-030",
+                                                              "L14-033",
+                                                              "L14-034",
+                                                              "L14-035",
+                                                              "L14-039",
+                                                              "L14-043",
+                                                              "L14-044",
+                                                              "L14-048"
+                                                          ],
+                                               "technical":  [
+                                                                 "L14-001",
+                                                                 "L14-002",
+                                                                 "L14-003",
+                                                                 "L14-006",
+                                                                 "L14-009",
+                                                                 "L14-010",
+                                                                 "L14-022",
+                                                                 "L14-028",
+                                                                 "L14-044"
+                                                             ],
+                                               "competition":  [
+                                                                   "L14-043",
+                                                                   "L14-045",
+                                                                   "L14-046",
+                                                                   "L14-050",
+                                                                   "L14-053"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-023"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-C-05-S01",
+                                                                       "P3R2-C-05-S02"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "OCP primary documents partly unfetchable (403/429) â€” method-status verification rests on one opened secondary; no bench pricing; Taier lab channel unconfirmed as a sales route.",
+                      "quality_notes":  "Buyer-authored spec anchor (Google Deschutes via P3R2-C-05-S01/S02 with eight named vendor implementers), CN mandate stack (L14-035/039), and fresh whitespace verification (R10-023). Thermal-methodology depth from L14 peer-reviewed sources."
+                  },
+                  {
+                      "idea_id":  "P3R2-D-10",
+                      "source_ids":  [
+                                         "L12-001",
+                                         "L12-002",
+                                         "L12-009",
+                                         "L12-010",
+                                         "L12-011",
+                                         "L12-016",
+                                         "L12-017",
+                                         "L12-018",
+                                         "L12-031",
+                                         "L12-032",
+                                         "L12-033",
+                                         "L12-034",
+                                         "L12-040",
+                                         "L12-041",
+                                         "L12-042",
+                                         "L12-045",
+                                         "L12-047",
+                                         "P3R2-D-10-S01",
+                                         "P3R2-D-10-S02",
+                                         "P3R2-D-10-S03",
+                                         "P3R2-D-10-S04",
+                                         "R10-032",
+                                         "R10-041"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L12-001",
+                                                       "L12-002",
+                                                       "L12-009",
+                                                       "L12-010",
+                                                       "L12-011",
+                                                       "L12-016",
+                                                       "L12-017",
+                                                       "L12-018"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L12-031",
+                                                        "L12-032",
+                                                        "L12-033",
+                                                        "L12-034",
+                                                        "L12-040",
+                                                        "L12-041",
+                                                        "L12-042",
+                                                        "L12-047",
+                                                        "P3R2-D-10-S01",
+                                                        "P3R2-D-10-S02",
+                                                        "R10-032"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L12-031",
+                                                              "L12-032",
+                                                              "L12-033",
+                                                              "L12-040",
+                                                              "L12-041",
+                                                              "L12-042",
+                                                              "L12-047"
+                                                          ],
+                                               "technical":  [
+                                                                 "L12-001",
+                                                                 "L12-002",
+                                                                 "L12-009",
+                                                                 "L12-010",
+                                                                 "L12-011",
+                                                                 "L12-016",
+                                                                 "L12-017",
+                                                                 "L12-018"
+                                                             ],
+                                               "competition":  [
+                                                                   "L12-033",
+                                                                   "L12-034",
+                                                                   "L12-041",
+                                                                   "L12-045"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-032",
+                                                                    "R10-041"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-D-10-S01",
+                                                                       "P3R2-D-10-S02",
+                                                                       "P3R2-D-10-S03",
+                                                                       "P3R2-D-10-S04"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "FY2027 DE budget figures partially snippet-grade; DARPA AMPED dollars single-source; JBCS solicitation not yet posted (planned Q4-2026).",
+                      "quality_notes":  "Dollar-denominated demand anchors: the Navy JBCS line item (P3R2-D-10-S01), executed JLWS OTAs (R10-032), and NNSA EYC CD-1 (L12-042). CBC/TMI technical base from L12 peer-reviewed literature."
+                  },
+                  {
+                      "idea_id":  "P3R2-E-14",
+                      "source_ids":  [
+                                         "L08-001",
+                                         "L08-003",
+                                         "L08-004",
+                                         "L08-005",
+                                         "L08-006",
+                                         "L08-007",
+                                         "L08-017",
+                                         "L08-019",
+                                         "L08-020",
+                                         "L08-021",
+                                         "L08-033",
+                                         "L08-034",
+                                         "L08-038",
+                                         "L08-039",
+                                         "L08-041",
+                                         "L08-043",
+                                         "L08-052",
+                                         "P3R2-E-14-S01",
+                                         "P3R2-E-14-S02",
+                                         "P3R2-E-14-S03",
+                                         "P3R2-E-14-S04",
+                                         "P3R2-E-14-S05",
+                                         "P3R2-E-14-S06",
+                                         "R10-053",
+                                         "R10-054"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L08-001",
+                                                       "L08-003",
+                                                       "L08-004",
+                                                       "L08-005",
+                                                       "L08-006",
+                                                       "L08-007",
+                                                       "L08-017",
+                                                       "L08-019",
+                                                       "L08-020",
+                                                       "L08-021"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L08-033",
+                                                        "L08-034",
+                                                        "L08-038",
+                                                        "L08-039",
+                                                        "L08-041",
+                                                        "P3R2-E-14-S01",
+                                                        "P3R2-E-14-S02",
+                                                        "P3R2-E-14-S05",
+                                                        "R10-053"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L08-033",
+                                                              "L08-034",
+                                                              "L08-038",
+                                                              "L08-039",
+                                                              "L08-041",
+                                                              "L08-043"
+                                                          ],
+                                               "technical":  [
+                                                                 "L08-001",
+                                                                 "L08-003",
+                                                                 "L08-004",
+                                                                 "L08-005",
+                                                                 "L08-006",
+                                                                 "L08-007",
+                                                                 "L08-017",
+                                                                 "L08-019",
+                                                                 "L08-020",
+                                                                 "L08-021"
+                                                             ],
+                                               "competition":  [
+                                                                   "L08-033",
+                                                                   "L08-052"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-053",
+                                                                    "R10-054"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-E-14-S01",
+                                                                       "P3R2-E-14-S02",
+                                                                       "P3R2-E-14-S03",
+                                                                       "P3R2-E-14-S04",
+                                                                       "P3R2-E-14-S05",
+                                                                       "P3R2-E-14-S06"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "Grain Belt Express confirmed pre-construction (construction anticipated 2026, not started); Southern Spirit slipped to ~2029 construction; relay-bay pricing assumptions unsourced.",
+                      "quality_notes":  "Three independent developer anchors (L08-041 + P3R2-E-14-S01/S02) plus FERC Order 1920 (P3R2-E-14-S03) and the CN license-only context (NR Electric, P3R2-E-14-S04). Traveling-wave discrimination base from L08 peer-reviewed sources."
+                  },
+                  {
+                      "idea_id":  "P3R2-A-14",
+                      "source_ids":  [
+                                         "L02-001",
+                                         "L15-001",
+                                         "L15-004",
+                                         "L15-005",
+                                         "L15-009",
+                                         "L15-011",
+                                         "L15-025",
+                                         "L15-026",
+                                         "L15-027",
+                                         "L15-028",
+                                         "L15-029",
+                                         "L15-030",
+                                         "L15-031",
+                                         "L15-040",
+                                         "L15-041",
+                                         "L15-043",
+                                         "P3R2-A-14-S01",
+                                         "P3R2-A-14-S02",
+                                         "P3R2-A-14-S03",
+                                         "P3R2-A-14-S04",
+                                         "P3R2-A-14-S05",
+                                         "P3R2-A-14-S06",
+                                         "R10-010",
+                                         "R10-011"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L02-001",
+                                                       "L15-001",
+                                                       "L15-004",
+                                                       "L15-005",
+                                                       "L15-009",
+                                                       "L15-011",
+                                                       "L15-025"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L15-026",
+                                                        "L15-027",
+                                                        "L15-028",
+                                                        "L15-029",
+                                                        "L15-030",
+                                                        "L15-031",
+                                                        "L15-040",
+                                                        "L15-041",
+                                                        "P3R2-A-14-S01",
+                                                        "P3R2-A-14-S04",
+                                                        "P3R2-A-14-S06"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L15-026",
+                                                              "L15-027",
+                                                              "L15-028",
+                                                              "L15-029",
+                                                              "L15-040",
+                                                              "L15-041"
+                                                          ],
+                                               "technical":  [
+                                                                 "L15-001",
+                                                                 "L15-004",
+                                                                 "L15-005",
+                                                                 "L15-009",
+                                                                 "L15-011",
+                                                                 "L15-025",
+                                                                 "L15-030",
+                                                                 "L15-031"
+                                                             ],
+                                               "competition":  [
+                                                                   "L15-031",
+                                                                   "L15-043"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-010",
+                                                                    "R10-011"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-A-14-S01",
+                                                                       "P3R2-A-14-S02",
+                                                                       "P3R2-A-14-S03",
+                                                                       "P3R2-A-14-S04",
+                                                                       "P3R2-A-14-S05",
+                                                                       "P3R2-A-14-S06"
+                                                                   ],
+                                               "lane_topup":  [
+                                                                  "L02-001"
+                                                              ]
+                                           },
+                      "coverage_gaps":  "No commercial 300C module price exists; well-count arithmetic assumption-based; Ozark XNode capability map vs the platform claim still to be drawn.",
+                      "quality_notes":  "Named-buyer commercial anchor (Baker Hughes/XGS 2030 project, P3R2-A-14-S01), program stack (SUPERHOT/FORGE/THERMAL), realized supply-gap evidence (CISSOID HT-line closure, P3R2-A-14-S04), and 2026 superhot capital refresh (R10-010/R10-011). SiC/SOI device literature from L15."
+                  },
+                  {
+                      "idea_id":  "P3R2-D-01",
+                      "source_ids":  [
+                                         "L03-001",
+                                         "L03-004",
+                                         "L03-005",
+                                         "L03-006",
+                                         "L03-007",
+                                         "L03-008",
+                                         "L03-018",
+                                         "L03-020",
+                                         "L03-021",
+                                         "L03-029",
+                                         "L03-030",
+                                         "L03-032",
+                                         "L03-033",
+                                         "L03-035",
+                                         "L03-042",
+                                         "L03-043",
+                                         "L03-044",
+                                         "P3R2-D-01-S01",
+                                         "R10-031",
+                                         "R10-035"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L03-001",
+                                                       "L03-004",
+                                                       "L03-005",
+                                                       "L03-006",
+                                                       "L03-007",
+                                                       "L03-008",
+                                                       "L03-018",
+                                                       "L03-020",
+                                                       "L03-021",
+                                                       "L03-029"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L03-030",
+                                                        "L03-032",
+                                                        "L03-033",
+                                                        "L03-035",
+                                                        "L03-042",
+                                                        "L03-043",
+                                                        "L03-044",
+                                                        "P3R2-D-01-S01",
+                                                        "R10-035"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L03-030",
+                                                              "L03-032",
+                                                              "L03-033",
+                                                              "L03-035",
+                                                              "L03-042",
+                                                              "L03-043",
+                                                              "L03-044"
+                                                          ],
+                                               "technical":  [
+                                                                 "L03-004",
+                                                                 "L03-005",
+                                                                 "L03-006",
+                                                                 "L03-007",
+                                                                 "L03-008",
+                                                                 "L03-018",
+                                                                 "L03-020",
+                                                                 "L03-021",
+                                                                 "L03-029"
+                                                             ],
+                                               "competition":  [
+                                                                   "L03-035",
+                                                                   "L03-044"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-031",
+                                                                    "R10-035"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-D-01-S01"
+                                                                   ],
+                                               "lane_topup":  [
+                                                                  "L03-001"
+                                                              ]
+                                           },
+                      "coverage_gaps":  "No protection-specific RFP exists (demand is ecosystem-level); FY2027 appropriations status needs annual re-verification; per-system pricing unsourced.",
+                      "quality_notes":  "Merchant-magnet-market anchors (CFS-Realta R10-035, CFS sales L03-035, SPARC installation P3R2-D-01-S01) plus the DOE Milestone program (L03-032). Quench-physics depth (MQE/NZPV) from L03 peer-reviewed literature."
+                  },
+                  {
+                      "idea_id":  "P3R2-A-10",
+                      "source_ids":  [
+                                         "L01-049",
+                                         "L01-050",
+                                         "L06-001",
+                                         "L06-002",
+                                         "L06-003",
+                                         "L06-005",
+                                         "L06-006",
+                                         "L06-008",
+                                         "L06-009",
+                                         "L06-010",
+                                         "L06-011",
+                                         "L06-018",
+                                         "L06-024",
+                                         "L06-025",
+                                         "L06-027",
+                                         "L06-039",
+                                         "L06-042",
+                                         "L06-043",
+                                         "L06-044",
+                                         "L06-048",
+                                         "L06-049",
+                                         "L06-050",
+                                         "L06-054",
+                                         "P3R2-A-10-S01",
+                                         "P3R2-A-10-S04",
+                                         "R10-005",
+                                         "R10-006"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L06-001",
+                                                       "L06-002",
+                                                       "L06-003",
+                                                       "L06-005",
+                                                       "L06-006",
+                                                       "L06-008",
+                                                       "L06-009",
+                                                       "L06-010",
+                                                       "L06-011",
+                                                       "L06-018",
+                                                       "L06-024",
+                                                       "L06-025",
+                                                       "L06-027"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L06-039",
+                                                        "L06-042",
+                                                        "L06-043",
+                                                        "L06-044",
+                                                        "L06-048"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L06-039",
+                                                              "L06-042",
+                                                              "L06-043",
+                                                              "L06-044",
+                                                              "L06-048",
+                                                              "L06-054"
+                                                          ],
+                                               "technical":  [
+                                                                 "L06-001",
+                                                                 "L06-002",
+                                                                 "L06-003",
+                                                                 "L06-005",
+                                                                 "L06-006",
+                                                                 "L06-008",
+                                                                 "L06-009",
+                                                                 "L06-010",
+                                                                 "L06-011",
+                                                                 "L06-018",
+                                                                 "L06-024",
+                                                                 "L06-025",
+                                                                 "L06-027"
+                                                             ],
+                                               "competition":  [
+                                                                   "L01-049",
+                                                                   "L01-050",
+                                                                   "L06-039",
+                                                                   "L06-042",
+                                                                   "L06-049",
+                                                                   "L06-050"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-005",
+                                                                    "R10-006"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-A-10-S01",
+                                                                       "P3R2-A-10-S02",
+                                                                       "P3R2-A-10-S03",
+                                                                       "P3R2-A-10-S04"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "CN chapter must be rebuilt off Entity-Listed customers before any CN-facing source work matters; retrofit pricing unsourced; FTO analysis for the event-detection layer unperformed.",
+                      "quality_notes":  "US-leg anchors: Advanced Energy platform-ramp call (L06-039), GAO CHIPS report (L06-037), Impedans measurement-only verification (P3R2-A-10-S04 plus the 2026-07 vendor-page check), and the BIS rule documentation (P3R2-A-10-S01/S02). IEDF/TVW technical base from L06 peer-reviewed sources."
+                  },
+                  {
+                      "idea_id":  "P3R2-C-09",
+                      "source_ids":  [
+                                         "L05-003",
+                                         "L05-004",
+                                         "L05-005",
+                                         "L05-006",
+                                         "L05-007",
+                                         "L05-008",
+                                         "L05-009",
+                                         "L05-010",
+                                         "L05-012",
+                                         "L05-013",
+                                         "L05-014",
+                                         "L05-028",
+                                         "L05-029",
+                                         "L05-030",
+                                         "L05-031",
+                                         "L05-032",
+                                         "L05-033",
+                                         "L05-035",
+                                         "L05-036",
+                                         "L05-037",
+                                         "L05-042",
+                                         "L05-043",
+                                         "L05-044",
+                                         "L05-047",
+                                         "L05-050",
+                                         "L07-045",
+                                         "P3R2-C-09-S01",
+                                         "P3R2-C-09-S03",
+                                         "R10-029"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L05-003",
+                                                       "L05-004",
+                                                       "L05-005",
+                                                       "L05-006",
+                                                       "L05-007",
+                                                       "L05-008",
+                                                       "L05-009",
+                                                       "L05-010",
+                                                       "L05-012",
+                                                       "L05-013",
+                                                       "L05-014"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L05-028",
+                                                        "L05-029",
+                                                        "L05-030",
+                                                        "L05-031",
+                                                        "L05-032",
+                                                        "L05-033",
+                                                        "L05-035",
+                                                        "L05-036",
+                                                        "L05-037",
+                                                        "L07-045",
+                                                        "P3R2-C-09-S03"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L05-012",
+                                                              "L05-013",
+                                                              "L05-028",
+                                                              "L05-031",
+                                                              "L05-032",
+                                                              "L05-033",
+                                                              "L05-035",
+                                                              "L05-036",
+                                                              "L05-042",
+                                                              "L07-045"
+                                                          ],
+                                               "technical":  [
+                                                                 "L05-003",
+                                                                 "L05-004",
+                                                                 "L05-005",
+                                                                 "L05-006",
+                                                                 "L05-007",
+                                                                 "L05-008",
+                                                                 "L05-009",
+                                                                 "L05-010",
+                                                                 "L05-043",
+                                                                 "L05-044"
+                                                             ],
+                                               "competition":  [
+                                                                   "L05-014",
+                                                                   "L05-029",
+                                                                   "L05-030",
+                                                                   "L05-037",
+                                                                   "L05-047",
+                                                                   "L05-050"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-029"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-C-09-S01",
+                                                                       "P3R2-C-09-S02",
+                                                                       "P3R2-C-09-S03"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "CIRC interim-report content non-extractable; CGN Dasheng counterparty requires counsel sign-off; modulator-level pricing unsourced; EtO-driver direction uncertain after the 2026 repeal proposal.",
+                      "quality_notes":  "Dual-leg anchors: Varex/IBA filings (L05-033/028), CGN order-book filing (L05-035), the MOFCOM cyclotron tender (L05-036), ScandiNova cumulative-delivery release (P3R2-C-09-S03), and refresh confirmations (R10-074/R10-064). Modulator topology base from L05 peer-reviewed sources."
+                  },
+                  {
+                      "idea_id":  "P3R2-C-22",
+                      "source_ids":  [
+                                         "L11-001",
+                                         "L11-002",
+                                         "L11-003",
+                                         "L11-004",
+                                         "L11-014",
+                                         "L11-015",
+                                         "L11-021",
+                                         "L11-031",
+                                         "L11-032",
+                                         "L11-040",
+                                         "L11-041",
+                                         "L11-043",
+                                         "L11-044",
+                                         "L11-046",
+                                         "L11-047",
+                                         "L11-048",
+                                         "L11-049",
+                                         "L11-050",
+                                         "L11-051",
+                                         "P3R2-C-22-S01",
+                                         "P3R2-C-22-S02",
+                                         "P3R2-C-22-S03",
+                                         "P3R2-C-22-S04",
+                                         "R10-025"
+                                     ],
+                      "peer_reviewed_source_ids":  [
+                                                       "L11-001",
+                                                       "L11-002",
+                                                       "L11-003",
+                                                       "L11-004",
+                                                       "L11-014",
+                                                       "L11-015",
+                                                       "L11-021",
+                                                       "L11-031"
+                                                   ],
+                      "primary_demand_source_ids":  [
+                                                        "L11-032",
+                                                        "L11-046",
+                                                        "L11-047",
+                                                        "L11-048",
+                                                        "L11-049",
+                                                        "L11-050",
+                                                        "L11-051",
+                                                        "P3R2-C-22-S03",
+                                                        "P3R2-C-22-S04"
+                                                    ],
+                      "claim_source_map":  {
+                                               "demand":  [
+                                                              "L11-032",
+                                                              "L11-046",
+                                                              "L11-047",
+                                                              "L11-048",
+                                                              "L11-049",
+                                                              "L11-050",
+                                                              "L11-051"
+                                                          ],
+                                               "technical":  [
+                                                                 "L11-001",
+                                                                 "L11-002",
+                                                                 "L11-003",
+                                                                 "L11-004",
+                                                                 "L11-014",
+                                                                 "L11-015",
+                                                                 "L11-021",
+                                                                 "L11-031"
+                                                             ],
+                                               "competition":  [
+                                                                   "L11-040",
+                                                                   "L11-041",
+                                                                   "L11-043",
+                                                                   "L11-044"
+                                                               ],
+                                               "refresh_2026":  [
+                                                                    "R10-025"
+                                                                ],
+                                               "p4_verification":  [
+                                                                       "P3R2-C-22-S01",
+                                                                       "P3R2-C-22-S02",
+                                                                       "P3R2-C-22-S03",
+                                                                       "P3R2-C-22-S04"
+                                                                   ]
+                                           },
+                      "coverage_gaps":  "No bench-campaign price anchor; EU JRC standards-gap source is 2024-vintage; hydrogen FID trajectory volatile across sources and dates.",
+                      "quality_notes":  "Dual-leg anchors: surviving-hub cost-share (P3R2-C-22-S03 + L11-032), Plug warranty economics (L11-046), two Chinese-language tender sources (L11-050/051), the EU JRC standards-gap primary (P3R2-C-22-S01), and the Greenlight capability verification (P3R2-C-22-S02 plus the 2026-07 product-page check). Degradation-mechanism depth from L11 peer-reviewed literature."
+                  }
+              ]
+}

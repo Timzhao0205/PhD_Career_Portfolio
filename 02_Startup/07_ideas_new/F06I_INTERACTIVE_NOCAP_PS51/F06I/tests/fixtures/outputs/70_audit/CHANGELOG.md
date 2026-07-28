@@ -1,0 +1,3 @@
+# Fixture changelog
+
+No change.

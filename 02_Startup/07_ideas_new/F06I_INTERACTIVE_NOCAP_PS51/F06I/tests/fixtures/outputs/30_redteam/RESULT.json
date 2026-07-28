@@ -1,0 +1,11 @@
+{
+  "stage": "30_redteam",
+  "status": "COMPLETE",
+  "outputs": [
+    "REDTEAM.json",
+    "REDTEAM.md"
+  ],
+  "checks": {
+    "fixture": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-07-28T06:44:23.7250448Z",
+  "adjudicated_by": "main session, verified via logs/status.jsonl telemetry",
+  "session_id": "2480d1e1-fea1-4bf7-bde5-0be893294604",
+  "event": {
+    "strike_number": 1,
+    "policy": "first_retry_second_pause",
+    "observed_model": "claude-opus-5",
+    "observed_effort": "xhigh",
+    "session_start_source": "compact",
+    "captured_at_utc": "2026-07-28T06:33:59.7571319Z",
+    "retry_flag_created_at_utc": "2026-07-28T06:35:57.7229447Z"
+  },
+  "root_cause": "Context compaction executed under an auxiliary Opus 5 compaction model after two Fable 5 compaction attempts were rejected by Fable safeguards (req_011CdTy1XmySJkxKxeMxYdYu, req_011CdTyEuKPCUHFi8h2KVee7). Organization model restrictions rejected manual selection of claude-opus-5 as a session model; no interactive turn, tool call, or file write executed under the non-Fable model.",
+  "files_written_under_non_fable_model": [],
+  "uncheckpointed_work_at_event_time": {
+    "files": [
+      "outputs/50_deep/DEEP/D01.md"
+    ],
+    "disposition": "Retained as draft only. Written under claude-fable-5 xhigh telemetry before compaction. Must be fully re-verified by the main Fable session against outputs/45_packs and outputs/40_select before acceptance into INDEX.json."
+  },
+  "user_directive_utc_2026_07_28": "Log Opus 5 as an auxiliary compaction model only, not a stage-final model or Fable downgrade. Verify all durable checkpoints and partial outputs, then continue from the next unfinished task. Every Fable-assigned accepted stage result must be produced by Fable 5 xhigh. Do not redo validated work.",
+  "current_telemetry_evidence": {
+    "captured_at_utc": "07/28/2026 06:44:23",
+    "model_id": "claude-fable-5",
+    "effort": "xhigh"
+  },
+  "disposition": {
+    "classification": "auxiliary_compaction_model_only",
+    "fable_downgrade_of_accepted_work": false,
+    "strike_count_in_fable_events": 1,
+    "fable_events_reset": false,
+    "model_retry_flag": "quarantined here and removed from state because the retry condition (verified Fable 5 xhigh main session) was restored in-session by explicit user model and effort commands, confirmed by status telemetry"
+  }
+}

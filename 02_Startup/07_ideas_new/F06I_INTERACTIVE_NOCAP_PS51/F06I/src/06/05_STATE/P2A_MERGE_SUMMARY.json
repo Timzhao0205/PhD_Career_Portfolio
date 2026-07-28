@@ -1,0 +1,47 @@
+{
+  "merged_at": "2026-07-13T00:51:54.866415+00:00",
+  "audited": 833,
+  "verdicts": {
+    "verified_non_india_origin": 818,
+    "discovery_only": 15
+  },
+  "canonical_records_updated": 833,
+  "lane_records_updated": 833,
+  "accepted_after": 818,
+  "lane_counts_after": {
+    "L01": 59,
+    "L02": 61,
+    "L03": 49,
+    "L04": 65,
+    "L05": 45,
+    "L06": 50,
+    "L07": 48,
+    "L08": 46,
+    "L09": 65,
+    "L10": 51,
+    "L11": 52,
+    "L12": 52,
+    "L13": 45,
+    "L14": 44,
+    "L15": 41,
+    "L16": 48
+  },
+  "quarantined_ids": [
+    "L01-051",
+    "L01-052",
+    "L03-047",
+    "L03-049",
+    "L05-001",
+    "L06-053",
+    "L07-038",
+    "L07-039",
+    "L13-050",
+    "L14-011",
+    "L14-017",
+    "L14-023",
+    "L15-045",
+    "L16-008",
+    "L16-012"
+  ],
+  "multinational_ids": []
+}

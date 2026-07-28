@@ -1,0 +1,13 @@
+{
+  "stage": "50_deep",
+  "status": "COMPLETE",
+  "outputs": [
+    "DEEP",
+    "INDEX.json",
+    "GEOGRAPHY.md",
+    "ADD_SOURCES.json"
+  ],
+  "checks": {
+    "fixture": true
+  }
+}

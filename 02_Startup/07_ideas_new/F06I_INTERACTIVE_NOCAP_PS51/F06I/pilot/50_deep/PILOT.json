@@ -1,0 +1,30 @@
+{
+  "stage": "50_deep",
+  "status": "PASS",
+  "run_at_utc": "2026-07-28T13:00:00Z",
+  "sample_ids": ["P3R2-C-04", "P3R2-C-01", "P3R2-F-16"],
+  "paths_tested": [
+    "structured prototype section for a selected idea (P3R2-C-04) with thesis, decisive experiment, budget, thresholds, and kill rule",
+    "fact/inference/hypothesis labels applied explicitly in prose",
+    "citations to pack source IDs (atlas Lxx, P4-session P3R2-*-S##, refresh R10-###) in bracket style",
+    "geography comparison rows for two ideas (P3R2-C-01 dual-market, P3R2-F-16 CN-only) covering independent US/China paths, side markets, and export boundaries",
+    "Windows-safe short filename convention decided and tested (DEEP/D01.md through D10.md)",
+    "word-count measurement method matched to the validator regex for post-write verification",
+    "JSON writing under pilot/50_deep only"
+  ],
+  "checks": {
+    "prototype_covers_thesis_experiment_kill_rule": true,
+    "fact_inference_hypothesis_labels_used": true,
+    "citations_resolve_to_pack_ids": true,
+    "geography_rows_cover_us_china_side_markets_export": true,
+    "windows_safe_filenames": true,
+    "pilot_excluded_from_final_word_count": true
+  },
+  "errors": [],
+  "lessons": [
+    "Reports will cite pack IDs inline and close with a source-ID appendix matching INDEX.json lists exactly",
+    "Word counts will be measured with the validator's own regex after each report and recorded in INDEX.json at the observed value",
+    "GEOGRAPHY.md needs all 24 ideas (not just the ten) — build from SELECTION.json plus per-idea geography findings in REDTEAM.json",
+    "Pilot prose is not reused in the final reports"
+  ]
+}

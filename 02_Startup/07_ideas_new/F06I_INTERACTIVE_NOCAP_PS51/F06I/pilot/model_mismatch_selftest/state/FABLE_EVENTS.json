@@ -1,0 +1,18 @@
+{
+    "count":  2,
+    "policy":  "first_retry_second_pause",
+    "events":  [
+                   {
+                       "captured_at_utc":  "2026-07-28T03:44:12.1340170Z",
+                       "session_id":  "fixture-session",
+                       "model_observed":  "claude-opus-5",
+                       "effort_observed":  "not_exposed_at_session_start"
+                   },
+                   {
+                       "captured_at_utc":  "2026-07-28T03:44:12.7618988Z",
+                       "session_id":  "fixture-session-2",
+                       "model_observed":  "claude-opus-5",
+                       "effort_observed":  "not_exposed_at_session_start"
+                   }
+               ]
+}

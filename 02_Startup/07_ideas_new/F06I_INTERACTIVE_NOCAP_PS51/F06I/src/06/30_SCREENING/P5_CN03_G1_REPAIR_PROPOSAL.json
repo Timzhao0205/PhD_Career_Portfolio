@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "artifact": "P5_CN03_G1_REPAIR_PROPOSAL",
+  "generated_at": "2026-07-14T00:00:00-07:00",
+  "idea_id": "P5R2-CN-03",
+  "scope": "Bounded repair of the fresh-red-team G1 failure; no replacement idea generated.",
+  "overall_repair_verdict": "PASS",
+  "decision": "REINSTATE_ELIGIBLE_LOW_SCORE",
+  "china_beachhead_countable_now": true,
+  "decisive_experiment_under_100k_countable_now": false,
+  "executive_finding": "A genuinely independent primary-buyer record was found. Dongfang Boiler's own 2023 external challenge-project notice solicited an industrial-park heat-pump solution, required its technical indicators to reach an industry-advanced level, required consortium agreements to state funding inputs, and treated bid pricing as a procurement matter. The linked final national-lab record shows that this exact buyer project was completed as a 170 C industrial steam heat-pump demonstrator and accepted after third-party measurement of steam temperature, pressure and flow, heat output, input power and COP. This is not generic host-system spend: performance measurement was an explicit acceptance dependency. Combined with the independent MIIT 2026-2028 actual-load efficiency-evaluation requirement already recorded as P5R2-CN-S13, literal G1 now passes. The buyer project and its outcome are one demand lineage, not two. The prior Tongji record remains excluded from the exact-M&V proof. Public pricing for an adjacent field HVAC energy-efficiency verification procurement exists, but no signed high-temperature steam site-access agreement or project-specific metrology quotation was found; therefore the experiment cannot receive the portfolio's under-100k decisive-experiment credit now.",
+  "prior_redteam_blocker_status": {
+    "g1_blocker_fully_closed": true,
+    "reason": "The new Dongfang Boiler primary-buyer solicitation and linked third-party-tested acceptance outcome prove a paid/budgeted industrial heat-pump project whose acceptance required the exact performance-measurement job. MIIT P5R2-CN-S13 is independent of that project and supplies the second demand source.",
+    "tongji_reinterpreted_as_exact_m_and_v": false,
+    "all_redteam_conditions_fully_closed": false,
+    "remaining_conditions": [
+      "No signed access to a 300 kW-3 MW high-temperature steam heat-pump site was found.",
+      "No project-specific quotation for steam-quality instrumentation, traceable reference calorimetry, travel, safety and seasonal coverage was found.",
+      "The US beachhead still lacks a merchant buyer and must not count.",
+      "A field benchmark against ClimaCheck Onsite, Articae PilotE2 and CVC remains to be executed."
+    ]
+  },
+  "g1_adjudication": {
+    "verdict": "PASS",
+    "counted_independent_demand_lineages": [
+      {
+        "lineage": "Dongfang Boiler buyer solicitation plus completed third-party-tested acceptance",
+        "primary_buyer_source_id": "P5R2-CN03-R01",
+        "linked_outcome_source_id": "P5R2-CN03-R02",
+        "independence_note": "R01 and R02 describe the same project and together count as one demand lineage. R01 is the primary-buyer record; R02 proves that measured performance was actually used in acceptance."
+      },
+      {
+        "lineage": "MIIT 2026-2028 industrial heat-pump and actual-load efficiency-evaluation program",
+        "source_id": "P5R2-CN-S13",
+        "independence_note": "Official national implementation program independent of Dongfang Boiler, GIEC and Tongji."
+      }
+    ],
+    "uncounted_or_supporting_demand_records": [
+      {
+        "source_id": "P5R2-CN-S11",
+        "reason": "Tongji buys a 2,000-hour demonstration site and operating support, not the proposed M&V island; it is not used to close G1."
+      },
+      {
+        "source_id": "P5R2-CN03-R03",
+        "reason": "CQC proves paid field HVAC operating-efficiency verification and provides a public cost comparator, but its published scope does not establish industrial high-temperature steam-heat-pump M&V; it is not used as the exact-category primary proof."
+      }
+    ],
+    "host_spend_test": {
+      "passes": true,
+      "rationale": "Dongfang Boiler did not merely buy a heat-pump host system. Its buyer notice required industry-advanced technical indicators, and the completed acceptance used an independent third party to measure the steam-side and electrical quantities needed to determine heat output and COP. The M&V job was therefore necessary to accept the commissioned industrial-steam heat-pump project."
+    }
+  },
+  "competition_recheck": {
+    "verdict": "PASS_MARGINAL",
+    "competition_whitespace_raw_score": 1,
+    "closest_competitors": [
+      {
+        "name": "ClimaCheck Onsite / PA Pro III",
+        "source_id": "P5R2-CN03-R04",
+        "finding": "A mature portable field analyzer already validates heat-pump performance, calculates COP/capacity/power and supports commissioning, performance inspection and energy audits. It connects in roughly an hour, supports complex templates and third-party sensors, and claims test-rig-level detail."
+      },
+      {
+        "name": "Articae PilotE2 Iceberg",
+        "source_id": "P5R2-CN03-R05",
+        "finding": "Portable hardware already measures and verifies HVAC&R performance and energy savings during commissioning, maintenance and energy audits."
+      },
+      {
+        "name": "CVC field heat-pump-system acceptance",
+        "source_id": "P5R2-CN03-R06",
+        "finding": "A domestic China incumbent already performs on-site heat-pump hot-water system acceptance covering safety, water flow and temperature, heat output, power, energy efficiency and noise."
+      }
+    ],
+    "noncosmetic_wedge_that_remains": "Narrow the product to high-temperature industrial steam and whole-site performance-guarantee acceptance: steam enthalpy and wetness, source and sink boundaries, all auxiliary loads, synchronized transient uncertainty, and an auditable owner/integrator acceptance dossier. This is a physical metrology-and-protocol package, not a dashboard skin.",
+    "window_risk": "The wedge is absorbable. ClimaCheck accepts complex templates and third-party sensors, Articae covers commissioning, and CVC has a domestic field-service route. If the proposed system cannot beat all three on steam-boundary closure, transient uncertainty, installation time and guarantee-grade reporting by 2028, kill it."
+  },
+  "china_route_recheck": {
+    "verdict": "PASS",
+    "base_case": "CN-only beachhead through civilian industrial heat-pump integrators, energy-service firms, industrial owners and domestic testing/calibration partners.",
+    "evidence": "Dongfang Boiler issued and completed the relevant industrial-park heat-pump project with GIEC; CVC and the CQC award identify domestic field-verification capacity; commodity electrical, temperature, pressure and flow instrumentation can be sourced and calibrated locally.",
+    "required_compliance": [
+      "Use China-traceable calibration and preserve raw calibration certificates.",
+      "Obtain owner authorization for site data, electrical panels, pressure ports and steam-line work.",
+      "Use qualified personnel for electrical, pressure-system and refrigerant-adjacent work.",
+      "Keep restricted-party screening and data-security review in the sales checklist even though the base case is civilian and locally sourced."
+    ],
+    "structural_cross_border_block": false,
+    "us_beachhead_countable_now": false
+  },
+  "g7_recheck": {
+    "verdict": "PASS_MARGINAL",
+    "precompany_2026_2029": "2026: freeze high-temperature-steam boundary and uncertainty protocol and quote instrumentation. 2027: benchmark on one authorized 300 kW-3 MW loop against a traceable reference and the named incumbents. 2028: run blinded transient/degradation trials across at least two loads and complete China calibration/safety diligence. 2029: require one paid or budgeted owner/integrator acceptance engagement; kill otherwise.",
+    "named_2030_2034_trigger": "The existing P5R2-CN-S12 national heat-pump action plan reaches 2030, and P5R2-CN-S13 runs through 2028 while explicitly calling for industrial heat pumps and wide-range actual-load efficiency evaluation. Those programs create a validation-to-deployment handoff; the 2030-2034 recurring acceptance market remains a scenario rather than a committed order.",
+    "expected_launch_readiness": "TRL 7 field-validated metrology and dossier workflow by 2030 if an industrial-steam site is secured by 2027 and a paid acceptance engagement begins by 2029.",
+    "window_risk": "The opportunity can be commoditized before 2030 by ClimaCheck, Articae, CVC or heat-pump OEMs. Kill by 2029-12-31 without a paid engagement and a demonstrated whole-boundary steam advantage."
+  },
+  "experiment_recheck": {
+    "g3_verdict": "PASS_MARGINAL",
+    "duration_months": 12,
+    "stated_budget_usd": 68000,
+    "design": "On an authorized 300 kW-3 MW high-temperature steam heat-pump loop, compare the proposed island with traceable reference measurements and the three named competitor/service approaches; introduce blinded operating changes producing about 5% performance degradation and test whole-boundary closure, transient COP uncertainty, detection sensitivity, deployment time and report turnaround.",
+    "success_thresholds": [
+      "Whole-boundary energy-balance closure <=2% at prespecified stable points.",
+      "Transient COP uncertainty <=3% over the prespecified load envelope.",
+      ">=90% sensitivity to the blinded approximately 5% degradation with prespecified false-positive control.",
+      "Installation in <2 site days and signed report within 24 hours of data close.",
+      "Materially better high-temperature steam boundary coverage than ClimaCheck, PilotE2 and CVC."
+    ],
+    "public_cost_evidence": {
+      "source_id": "P5R2-CN03-R03",
+      "finding": "CQC's 2025 field HVAC operating-efficiency verification procurement selected three providers at CNY 150,000-200,000. This is a real field-M&V service-price comparator, not a quote for the proposed high-temperature-steam experiment."
+    },
+    "named_access_paths_but_not_commitments": [
+      "Dongfang Boiler / GIEC 170 C industrial steam heat-pump program",
+      "OYRR prototype and performance-verification factory described in the linked project record",
+      "CVC and the three CQC-selected field-verification providers"
+    ],
+    "signed_site_access_found": false,
+    "project_specific_quote_found": false,
+    "under_100k_portfolio_credit": false,
+    "reason_credit_denied": "The public comparator makes a sub-100k test plausible, but it does not quote steam-quality instrumentation, traceable reference calorimetry, site access, travel/safety or seasonal coverage for this exact experiment."
+  },
+  "revised_gate_results": {
+    "G1": {
+      "verdict": "PASS",
+      "rationale": "Dongfang Boiler is a named primary buyer soliciting an industrial-park heat-pump project with required advanced performance and price/funding terms; linked project acceptance used third-party measurement of exact steam and electrical performance. MIIT P5R2-CN-S13 is an independent second demand source requiring industrial heat pumps and actual-load evaluation."
+    },
+    "G2": {
+      "verdict": "PASS_MARGINAL",
+      "rationale": "The prior final peer-reviewed monitoring paper supports boundary discipline only. No 2-3% industrial-steam accuracy is borrowed from it."
+    },
+    "G3": {
+      "verdict": "PASS_MARGINAL",
+      "rationale": "A bounded 12-month, USD 68,000 falsifier is specified. Lack of signed access and an exact quote prevents under-100k portfolio credit but does not erase the bounded experiment itself."
+    },
+    "G4": {
+      "verdict": "PASS_MARGINAL",
+      "rationale": "ClimaCheck, Articae and CVC are now the named closest incumbents. High-temperature steam whole-boundary acceptance remains non-cosmetic but highly absorbable."
+    },
+    "G5": {
+      "verdict": "PASS",
+      "rationale": "The observables, sensors and uncertainty methods exist; failure modes are measurable and no nonexistent physics is required."
+    },
+    "G6": {
+      "verdict": "PASS",
+      "rationale": "A civilian China route using local instrumentation, calibration and qualified site personnel is plausible without a structurally blocked cross-border dependency."
+    },
+    "G7": {
+      "verdict": "PASS_MARGINAL",
+      "rationale": "The 2026-2029 program is bounded, official 2028/2030 triggers are named, 2030 readiness is conditional, and commoditization is controlled by a 2029 kill date."
+    }
+  },
+  "revised_score": {
+    "criteria": {
+      "demonstrated_demand": {"raw": 3, "weighted": 9.6, "evidence": "Exact paid/budgeted buyer project and independent official evaluation program, but no merchant purchase of the startup island."},
+      "frontier_coolness_vision": {"raw": 2, "weighted": 6.0},
+      "high_end_niche_quality": {"raw": 3, "weighted": 6.0},
+      "competition_whitespace": {"raw": 1, "weighted": 1.8},
+      "reachable_validation_budget": {"raw": 3, "weighted": 5.4},
+      "technical_elegance_controllability": {"raw": 3, "weighted": 6.6},
+      "tenx_technical_edge": {"raw": 1, "weighted": 1.4},
+      "us_china_dual_market_leverage": {"raw": 2, "weighted": 4.0},
+      "launch_window_fit_2030": {"raw": 4, "weighted": 6.4, "evidence": "Official 2028 evaluation and 2030 action-plan dates plus a 2029 kill date."},
+      "expansion_economics": {"raw": 2, "weighted": 1.2},
+      "founder_skill_transfer": {"raw": 4, "weighted": 1.6, "evidence": "Generic EE/CE instrumentation, synchronization and uncertainty software transfer directly but do not solve steam metrology or site access."}
+    },
+    "total": 50.0,
+    "confidence": "medium-low",
+    "score_change_from_redteam": 0.0,
+    "score_change_note": "The repair changes G1 from FAIL to PASS and changes China countability, but demonstrated-demand raw score stays 3 because no buyer has purchased the merchant M&V island itself."
+  },
+  "portfolio_flags": {
+    "primary_lane": "L04",
+    "product_role": "diagnostic_test",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "CN",
+    "us_beachhead": false,
+    "china_beachhead": true,
+    "dual_market": false,
+    "precompany_validation_by_2029": true,
+    "engagement_path_by_2029": true,
+    "engagement_path_is_current_commitment": false,
+    "under_100k_decisive_experiment": false,
+    "hts": false
+  },
+  "ledger_ready_sources": [
+    {
+      "id": "P5R2-CN03-R01",
+      "title": "东方电气集团东方锅炉股份有限公司关于发布2023年对外‘揭榜挂帅’科研项目的公告",
+      "authors_or_org": "东方电气集团东方锅炉股份有限公司 (Dongfang Boiler Group Co., Ltd.)",
+      "year": 2023,
+      "url": "https://q.dbc.com.cn/activityManageAction%21shownr?info.id=900000000000000000000005056",
+      "canonical_key": "dbc:2023-external-challenge-projects:5056",
+      "source_type": "buyer_procurement",
+      "tier": "T1",
+      "lane_ids": ["L04"],
+      "idea_ids": ["P5R2-CN-03"],
+      "accessed_at": "2026-07-14",
+      "fetched": true,
+      "language": "zh-CN",
+      "geography": ["CN"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "named buyer external R&D solicitation with performance, funding and bid-price conditions",
+      "claim_supported": "Dongfang Boiler solicited an externally executed heat-pump solution for industrial-park integrated-energy projects and required industry-advanced technical indicators. Consortium agreements had to state funding inputs, and the notice governed bid pricing, proving a budgeted buyer project rather than generic policy interest.",
+      "locator": "Project list item 4; section II(1)(4) on funding inputs; section II(1)(8) on bid pricing; application deadline 2023-08-25.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Primary buyer record. Read successfully by direct HTTP fetch using the page-declared GBK encoding after the browser text opener reported a decoding error. Count with R02 as one project lineage, not two independent demand sources.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14",
+        "methods": ["Official buyer domain and named PRC company identity inspected"],
+        "institutions": [{"name": "东方电气集团东方锅炉股份有限公司", "country": "CN"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://q.dbc.com.cn/activityManageAction%21shownr?info.id=900000000000000000000005056"]
+      }
+    },
+    {
+      "id": "P5R2-CN03-R02",
+      "title": "广州能源所空气源170℃工业蒸汽热泵机组开发成功并完成验收",
+      "authors_or_org": "中国科学院广州能源研究所 (Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences)",
+      "year": 2024,
+      "url": "https://giec.cas.cn/kxyj2016/kyjz2016/202411/t20241127_7447072.html",
+      "canonical_key": "giec-cas:2024:170c-industrial-steam-heat-pump-acceptance",
+      "source_type": "national_lab",
+      "tier": "T1",
+      "lane_ids": ["L04"],
+      "idea_ids": ["P5R2-CN-03"],
+      "accessed_at": "2026-07-14",
+      "fetched": true,
+      "language": "zh-CN",
+      "geography": ["CN"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "completed buyer-commissioned R&D project with third-party performance acceptance",
+      "claim_supported": "The Dongfang Boiler project was completed as a 170 C industrial steam heat-pump demonstrator and passed acceptance after third-party testing measured steam temperature, pressure and flow, heat output, electrical input and COP.",
+      "locator": "Opening acceptance paragraph and third-party test-results paragraph: 170±1 C steam, 0.77±0.1 bar, 1.034 t/h, 759.89 kW heating, 478.4 kW input and COP 1.58 at 27 C ambient.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Corroborates R01 and proves that performance M&V was used for acceptance. Same project lineage as R01; do not double-count independence.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14",
+        "methods": ["Official Chinese Academy of Sciences institute page inspected"],
+        "institutions": [{"name": "中国科学院广州能源研究所", "country": "CN"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://giec.cas.cn/kxyj2016/kyjz2016/202411/t20241127_7447072.html"]
+      }
+    },
+    {
+      "id": "P5R2-CN03-R03",
+      "title": "认证中心暖通空调系统运行能效现场测试验证项目采购公示",
+      "authors_or_org": "中国质量认证中心有限公司 (China Quality Certification Centre)",
+      "year": 2025,
+      "url": "https://www.cqc.com.cn/www/col65/1570.html",
+      "canonical_key": "cqc:2025:hvac-field-operating-efficiency-verification-award",
+      "source_type": "buyer_procurement",
+      "tier": "T1",
+      "lane_ids": ["L04"],
+      "idea_ids": ["P5R2-CN-03"],
+      "accessed_at": "2026-07-14",
+      "fetched": true,
+      "language": "zh-CN",
+      "geography": ["CN"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "named buyer award for field operating-efficiency verification",
+      "claim_supported": "CQC procured on-site HVAC operating-efficiency verification and named three selected providers at CNY 150,000-200,000, providing a real field-M&V cost comparator.",
+      "locator": "Lines 85-111: project name, inquiry procurement method, and three candidate awards of CNY 200,000, CNY 200,000 and CNY 150,000.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Cost and service comparator only. Published scope is not specific to industrial high-temperature steam heat pumps and is not counted as the exact-category G1 source.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14",
+        "methods": ["Official China Quality Certification Centre procurement page and Beijing address inspected"],
+        "institutions": [{"name": "中国质量认证中心有限公司", "country": "CN"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://www.cqc.com.cn/www/col65/1570.html"]
+      }
+    },
+    {
+      "id": "P5R2-CN03-R04",
+      "title": "ClimaCheck Onsite",
+      "authors_or_org": "ClimaCheck Sweden AB",
+      "year": 2026,
+      "url": "https://home.climacheck.com/solutions/climacheck-onsite/",
+      "canonical_key": "climacheck:onsite-performance-analyser",
+      "source_type": "vendor_datasheet",
+      "tier": "T2",
+      "lane_ids": ["L04"],
+      "idea_ids": ["P5R2-CN-03"],
+      "accessed_at": "2026-07-14",
+      "fetched": true,
+      "language": "en",
+      "geography": ["SE"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "not_demand",
+      "claim_supported": "ClimaCheck already sells a portable heat-pump field analyzer for commissioning, performance validation, troubleshooting and audits, calculating COP, capacity, electrical input and component efficiencies.",
+      "locator": "Page sections 'Key information available in 30 minutes', 'Applications' and 'Portable field measuring unit with software'.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "First-party incumbent claim; use for competition only, not independent demand.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14",
+        "methods": ["Official Swedish vendor page and Sweden company identity inspected"],
+        "institutions": [{"name": "ClimaCheck Sweden AB", "country": "SE"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://home.climacheck.com/solutions/climacheck-onsite/"]
+      }
+    },
+    {
+      "id": "P5R2-CN03-R05",
+      "title": "PilotE²",
+      "authors_or_org": "Articae Smart Technologies S.L.",
+      "year": 2026,
+      "url": "https://articae.com/en/pilote%C2%B2-2/",
+      "canonical_key": "articae:pilote2-iceberg-performance-verification",
+      "source_type": "vendor_datasheet",
+      "tier": "T2",
+      "lane_ids": ["L04"],
+      "idea_ids": ["P5R2-CN-03"],
+      "accessed_at": "2026-07-14",
+      "fetched": true,
+      "language": "en",
+      "geography": ["ES"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "not_demand",
+      "claim_supported": "PilotE2 Iceberg is portable hardware for measuring and verifying HVAC&R energy savings and performance during commissioning, maintenance and energy audits.",
+      "locator": "Lines 51-66, especially the PilotE2 and PilotE2 Iceberg descriptions.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "First-party incumbent claim; use for competition only.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14",
+        "methods": ["Official Spanish company product page and legal entity identity inspected"],
+        "institutions": [{"name": "Articae Smart Technologies S.L.", "country": "ES"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://articae.com/en/pilote%C2%B2-2/"]
+      }
+    },
+    {
+      "id": "P5R2-CN03-R06",
+      "title": "热泵热水系统验收",
+      "authors_or_org": "威凯认证检测有限公司 (CVC Certification & Testing)",
+      "year": 2026,
+      "url": "https://www.cvc.org.cn/service/321",
+      "canonical_key": "cvc:field-heat-pump-hot-water-system-acceptance",
+      "source_type": "vendor_datasheet",
+      "tier": "T2",
+      "lane_ids": ["L04"],
+      "idea_ids": ["P5R2-CN-03"],
+      "accessed_at": "2026-07-14",
+      "fetched": true,
+      "language": "zh-CN",
+      "geography": ["CN"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "not_demand",
+      "claim_supported": "CVC offers on-site China heat-pump-system acceptance measuring safety, water flow and temperature, heat output, power, energy efficiency and noise against GB and enterprise requirements.",
+      "locator": "Lines 53-75, service description, service items and testing standards.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "First-party domestic incumbent claim. It covers hot-water systems, not the proposed industrial-steam whole-boundary dossier.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14",
+        "methods": ["Official CVC China service page and Guangzhou/Jiaxing service contacts inspected"],
+        "institutions": [{"name": "威凯认证检测有限公司", "country": "CN"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://www.cvc.org.cn/service/321"]
+      }
+    }
+  ],
+  "source_integrity": {
+    "web_research_date": "2026-07-14",
+    "new_sources_total": 6,
+    "new_sources_primary_or_official": 3,
+    "new_sources_competitor_primary": 3,
+    "india_origin_exclusions_used": 0,
+    "independence_warning": "R01 and R02 are linked records for one buyer project and must never be counted as two independent demand sources.",
+    "exactness_warning": "R03 is not industrial-steam-specific and must never be used to claim exact high-temperature heat-pump demand or exact experiment pricing.",
+    "unsupported_claims_not_made": [
+      "No claim of a signed field-site access agreement.",
+      "No claim of a project-specific USD 68,000 quote.",
+      "No claim that Tongji bought the M&V island.",
+      "No claim of a current US merchant buyer.",
+      "No claim that the 2030-2034 recurring acceptance market is already committed."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+Execute the complete frontier startup opportunity mission in this folder. Read CLAUDE.md first,
+then every file in 01_MISSION in the order specified by MISSION_BRIEF.md, then MASTER_STATE.json.
+Use the defined subagents and model/effort routes. Search, fetch, verify, and accept at least 600
+unique high-quality sources; an academic/technical source is ineligible unless peer review is
+affirmatively verified. Generate at least 48 diverse candidates and deliver a final portfolio of
+at least 24. Keep the founder profile shallow and never use it to select lanes. Never ask the user
+a question: log assumptions and continue. Checkpoint after every wave. Do not claim completion
+until tools/validate_mission.py passes, the Fable adjudicator fixes all substantive failures,
+99_AUDIT/FINAL_AUDIT.md says PASS, and MASTER_STATE.json says COMPLETE.
+
+Geography is US/China first. P3 must regenerate at least 80 round-2 seeds and independently
+adjudicate them with Fable 5/xhigh before freezing the longlist. Japan, Taiwan, and South Korea are
+optional side markets. India and Singapore are excluded markets.
+
+Before P3, complete P2A source-origin audit. Entirely India-origin sources are discovery-only and
+need independent eligible confirmation. A mixed academic paper with Indian co-authors is allowed
+only with at least one verified non-Indian institutional affiliation. Search replacements if any
+source gate fails, repair the atlas, and obtain machine plus Fable 5/xhigh P2A PASS.
+
+The company launches in 2030. Reuse durable technical sources, refresh mutable evidence, and make
+every P3 seed show a 2026–2029 preparation path, a 2030–2034 demand trigger, expected launch-year
+competition, timing-window risk, and a commercial-readiness kill date.

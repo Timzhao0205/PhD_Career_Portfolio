@@ -1,0 +1,49 @@
+{
+  "stage": "10_refresh",
+  "status": "PASS",
+  "run_at_utc": "2026-07-28T03:55:00Z",
+  "sample_ids": ["P3R2-C-01", "P3R2-A-22", "P3R2-D-16"],
+  "paths_tested": [
+    "read src/06/30_SCREENING/LONGLIST.json and extract idea records",
+    "frozen-source reuse: resolve idea source IDs in src/06/10_SOURCE_ATLAS/L02_verified_sources.json (L02-043, L02-044, L02-048)",
+    "frozen-source reuse across lanes: L01_verified_sources.json (L01-036), L09_verified_sources.json (L09-033)",
+    "canonical ledger read: src/06/90_BIBLIOGRAPHY/sources.json (1289 unique ids)",
+    "current web verification: WebSearch for OCP Mount Diablo / 800 VDC 2026 status, then opened https://www.prnewswire.com/news-releases/realizing-the-open-data-center-ecosystem-vision-302582596.html (full page fetched, not snippet)",
+    "source normalization: produced normalized record R10-PILOT-001 with all SOURCES.json schema fields",
+    "origin eligibility: OCP Foundation (San Jose, US) adjudicated verified_non_india_origin",
+    "JSON writing: wrote pilot/10_refresh/PILOT.json and PILOT.md under pilot/ only"
+  ],
+  "checks": {
+    "longlist_has_65_unique_ideas": true,
+    "atlas_ids_resolve_for_all_three_sample_ideas": true,
+    "web_source_opened_not_snippet": true,
+    "normalized_source_has_all_required_fields": true,
+    "origin_eligibility_recorded": true,
+    "no_writes_outside_pilot_dir": true,
+    "power_electronics_adjacent_idea_included": true
+  },
+  "normalized_source_example": {
+    "id": "R10-PILOT-001",
+    "title": "Realizing the Open Data Center Ecosystem Vision (OCP Open Data Center for AI Strategic Initiative)",
+    "url": "https://www.prnewswire.com/news-releases/realizing-the-open-data-center-ecosystem-vision-302582596.html",
+    "publisher": "Open Compute Project Foundation via PR Newswire",
+    "published_at": "2025-10-13",
+    "accessed_at": "2026-07-28",
+    "source_type": "standard",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": ["US"],
+    "claim_supported": "OCP launched the Open Data Center for AI initiative; the Diablo 400 power-rack sidecar spec (Google/Meta/Microsoft co-authored) is a completed design milestone supporting 100 kW to 1 MW IT racks with +/-400 VDC or 800 VDC options; AWS and AMD participate. Confirms P3R2-C-01's claim that OCP is institutionalizing disaggregated DC power shelves.",
+    "access_level": "full_page",
+    "accepted": true,
+    "india_origin_status": "verified_non_india_origin",
+    "non_indian_affiliation_evidence": "Open Compute Project Foundation is a US 501(c)(6) headquartered in San Jose, CA; release co-authored by Google, Meta, Microsoft (all US)."
+  },
+  "errors": [],
+  "lessons": [
+    "opencompute.org blog pages return HTTP 403 to direct fetch; use the PR Newswire mirror or OCP document PDF endpoints, and record access route in notes",
+    "Longlist source IDs (Lxx-NNN) resolve in per-lane 10_SOURCE_ATLAS/Lxx_verified_sources.json (plus _t1topup_ files), not always in 90_BIBLIOGRAPHY/sources.json; full stage must search both",
+    "Snippets surfaced NVIDIA Vera Rubin Ultra sampling late-2026 and Vertiv 800V portfolio 2H2026; these are refresh-relevant for P3R2-C-01 but must be opened before acceptance in the full stage",
+    "New refresh source IDs will use prefix R10-### to guarantee uniqueness against frozen Lxx-### IDs"
+  ]
+}

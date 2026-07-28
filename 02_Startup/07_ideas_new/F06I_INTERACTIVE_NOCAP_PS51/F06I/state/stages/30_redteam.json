@@ -1,0 +1,32 @@
+{
+    "stage":  "30_redteam",
+    "kind":  "FULL",
+    "status":  "COMPLETE",
+    "validated_at_utc":  "2026-07-28T05:05:10.8368743Z",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "effort_requested":  "xhigh",
+    "claude_code_version":  "2.1.220",
+    "total_cost_usd_telemetry":  107.34698124999996,
+    "total_duration_ms":  4852998,
+    "total_input_tokens":  916454,
+    "total_output_tokens":  305,
+    "output_files":  [
+                         {
+                             "path":  "outputs\\30_redteam\\REDTEAM.json",
+                             "bytes":  69692,
+                             "sha256":  "A4B5396B37E67B0AED5EAB0B5DB9B7A3CDC7C2675FE33652651A46082E48702F"
+                         },
+                         {
+                             "path":  "outputs\\30_redteam\\REDTEAM.md",
+                             "bytes":  4122,
+                             "sha256":  "3894F1D0AC916DDCE7A4159FEFF200BA7D132E7134333262D23E23E45C81F8E1"
+                         },
+                         {
+                             "path":  "outputs\\30_redteam\\RESULT.json",
+                             "bytes":  496,
+                             "sha256":  "56634D8774182BE23E6D7E8F150B792699E2A59BFAE089DE46FBDD79A56D208D"
+                         }
+                     ]
+}

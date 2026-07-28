@@ -1,0 +1,813 @@
+{
+ "batch_id": "P2A-07",
+ "audited_at": "2026-07-13T00:36:23Z",
+ "model": "claude-sonnet-5",
+ "effort": "high",
+ "entries": [
+  {
+   "id": "L08-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Electrotechnical Commission (IEC)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://webstore.iec.ch/publication/62197", "https://www.iec.ch/who-we-are"],
+   "useful_lead": "",
+   "notes": "IEC is headquartered in Geneva, Switzerland; international standards body, not India-based."
+  },
+  {
+   "id": "L08-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Electrotechnical Commission (IEC)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://webstore.iec.ch/en/publication/31475", "https://www.iec.ch/who-we-are"],
+   "useful_lead": "",
+   "notes": "IEC is headquartered in Geneva, Switzerland; international standards body, not India-based."
+  },
+  {
+   "id": "L08-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "European Commission", "country": "EU"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://eur-lex.europa.eu/eli/reg/2016/1447/oj", "https://commission.europa.eu/about_en"],
+   "useful_lead": "",
+   "notes": "European Commission is headquartered in Brussels, Belgium (EU institution); not India-based."
+  },
+  {
+   "id": "L08-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Australian Energy Market Operator (AEMO)", "country": "AU"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.aemo.com.au/-/media/files/initiatives/engineering-framework/2023/grid-forming-inverters-jan-2024.pdf", "https://aemo.com.au/en/about-aemo"],
+   "useful_lead": "",
+   "notes": "AEMO is Australia's national electricity/gas market and system operator, headquartered in Melbourne, Australia."
+  },
+  {
+   "id": "L08-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "U.S. Department of Energy Grid Deployment Office", "country": "US"},
+    {"name": "National Renewable Energy Laboratory (NREL)", "country": "US"},
+    {"name": "Pacific Northwest National Laboratory (PNNL)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://www.energy.gov/oe/national-transmission-planning-study-0"],
+   "useful_lead": "",
+   "notes": "US federal agency (DOE) and two US DOE national laboratories (NREL, PNNL); official .gov/.energy.gov domains confirm US origin."
+  },
+  {
+   "id": "L08-051",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Oak Ridge National Laboratory", "country": "US"},
+    {"name": "National Transportation Research Center", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/ECCE55643.2024.10860928"],
+   "useful_lead": "",
+   "notes": "Both authors (Kandula, Kimpara) resolved to Oak Ridge National Laboratory / National Transportation Research Center, US. No Indian affiliations."
+  },
+  {
+   "id": "L08-052",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Hitachi Energy Ltd", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hitachienergy.com/products-and-solutions/hvdc/hybrid-hvdc-breaker", "https://www.hitachienergy.com/about-us"],
+   "useful_lead": "",
+   "notes": "Hitachi Energy Ltd is registered/headquartered in Zurich, Switzerland (Hitachi Ltd is the Japanese parent, also non-India). Not India-based despite having India operations/offices elsewhere."
+  },
+  {
+   "id": "L08-053",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Prysmian Group", "country": "IT"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.prysmian.com/staticres/525-kv-hvdc-new-cable-systems/index.html", "https://www.prysmiangroup.com/en/group/about-us"],
+   "useful_lead": "",
+   "notes": "Prysmian Group is headquartered in Milan, Italy."
+  },
+  {
+   "id": "L09-001",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "China Academy of Space Technology (Institute of Telecommunication of Satellite)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://bhxb.buaa.edu.cn/fileBJHKHTDXXB//journal/article/bjhkhtdxxb/html/2016/8/20160803.htm"],
+   "useful_lead": "",
+   "notes": "Prior verifier pass in this ledger directly fetched the BUAA journal publisher page and confirmed all authors affiliated with China Academy of Space Technology, Beijing. OpenAlex has the DOI but returns no institution data (rechecked this session); publisher-page evidence controls. China, not India."
+  },
+  {
+   "id": "L09-002",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [
+    {"name": "Mitsubishi Electric Corp.", "country": "JP"},
+    {"name": "Nagasaki University", "country": "JP"},
+    {"name": "Kyushu University", "country": "JP"},
+    {"name": "USEF", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://www.jstage.jst.go.jp/article/astj/10/0/10_0_19/_article/-char/ja"],
+   "useful_lead": "",
+   "notes": "Prior verifier pass directly fetched the J-STAGE article page and confirmed all-Japanese author affiliations. OpenAlex (rechecked this session) returns the DOI but no institution data for any of the 5 authors; publisher-page evidence controls. Japan, not India."
+  },
+  {
+   "id": "L09-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Japan Aerospace Exploration Agency (JAXA)", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s44205-026-00178-w"],
+   "useful_lead": "",
+   "notes": "All 18 authors resolve to JAXA (with two co-authors also linked to a China-based space-utilization center, and one to Mitsubishi Electric); no Indian affiliations."
+  },
+  {
+   "id": "L09-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "NASA Glenn Research Center", "country": "US"},
+    {"name": "Jet Propulsion Laboratory", "country": "US"},
+    {"name": "Aerojet Rocketdyne (OpenAlex mismapped several co-authors to 'General Tire', a US entity)", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s44205-025-00130-4"],
+   "useful_lead": "",
+   "notes": "All 18 authors resolve to US institutions (NASA GRC, JPL, and Aerojet Rocketdyne staff -- the latter mismapped by OpenAlex to an unrelated US company 'General Tire'; country code US is correct regardless of the institution-name mismap). No Indian affiliations."
+  },
+  {
+   "id": "L09-005",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Jet Propulsion Laboratory", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s44205-025-00129-x"],
+   "useful_lead": "",
+   "notes": "All 5 authors (Hofer, Simmonds, Goebel, Steinkraus, Payman) resolve to JPL, US."
+  },
+  {
+   "id": "L09-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Japan Aerospace Exploration Agency (JAXA)", "country": "JP"},
+    {"name": "Nagasaki Institute of Applied Science", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s44205-022-00033-8"],
+   "useful_lead": "",
+   "notes": "All resolved authors are JAXA / Nagasaki Institute of Applied Science, Japan (one author, Takahashi, has no institution listed but matches the same sustained Japanese Hall-thruster PPU research team as L09-002/L09-007/L09-008)."
+  },
+  {
+   "id": "L09-007",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Kyushu University", "country": "JP"},
+    {"name": "Tokyo Metropolitan University", "country": "JP"},
+    {"name": "Mitsubishi Electric", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/tps.2014.2370066"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Japanese institutions."
+  },
+  {
+   "id": "L09-008",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Japan Aerospace Exploration Agency (JAXA)", "country": "JP"},
+    {"name": "Nagasaki Institute of Applied Science", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/taes.2021.3117520"],
+   "useful_lead": "",
+   "notes": "All resolved authors are JAXA / Nagasaki Institute of Applied Science, Japan."
+  },
+  {
+   "id": "L09-009",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Busek Co. Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.busek.com/bht6000", "https://www.busek.com/index_htm_files/AboutUs.pdf"],
+   "useful_lead": "",
+   "notes": "Busek Co. Inc. is headquartered in Natick, Massachusetts, USA."
+  },
+  {
+   "id": "L09-011",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Universitat Miguel Hernandez d'Elx", "country": "ES"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/en14020429"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to Miguel Hernandez University of Elche, Spain."
+  },
+  {
+   "id": "L09-012",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NASA (Glenn Research Center)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nasa.gov/news-release/nasa-awards-contract-for-next-generation-electric-propulsion-components/"],
+   "useful_lead": "",
+   "notes": "US federal government agency (nasa.gov official domain)."
+  },
+  {
+   "id": "L09-013",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of New Mexico", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.2514/1.27664"],
+   "useful_lead": "",
+   "notes": "Both authors (El-Genk, Tournier) resolve to University of New Mexico, US."
+  },
+  {
+   "id": "L09-014",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Florida", "country": "US"},
+    {"name": "Pennsylvania State University", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1116/6.0002628"],
+   "useful_lead": "",
+   "notes": "All 8 authors resolve to University of Florida or Penn State, US."
+  },
+  {
+   "id": "L09-015",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Naval University of Engineering", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1155/2024/3616902"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolve to Naval University of Engineering / Sanya University, China."
+  },
+  {
+   "id": "L09-016",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Dalian University of Technology (National Key Laboratory for Industrial Equipment Structural Analysis Optimization and CAE Software; Liaoning Province Key Laboratory of Frontier Technology for Aerospace Vehicle)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://aca.spacejournal.cn/cn/article/pdf/preview/10.3969/j.issn.1674-1579.2025.02.001.pdf", "https://www.spacejournal.cn/sktcxb/cn/article/id/800bbc7e-e6c1-4e7f-8ad6-a95c32f6c9e8"],
+   "useful_lead": "",
+   "notes": "DOI not registered in OpenAlex/Crossref (Chinese-domestic journal DOI). Independent search of the publisher/citation record confirms all authors (Han Yajie, Liu Xuan/Liu Xuan, Li Jiahui, et al.) affiliated with Dalian University of Technology, Dalian, China."
+  },
+  {
+   "id": "L09-017",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Lanzhou Institute of Physics (Science and Technology on Vacuum Technology and Physics Laboratory; Key Laboratory of Space Electric Propulsion of Gansu)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://pubs.cstam.org.cn/article/doi/10.19527/j.cnki.2096-1642.0977"],
+   "useful_lead": "",
+   "notes": "Directly fetched the CSTAM publisher article page this session; all 9 authors affiliated with Lanzhou Institute of Physics and affiliated Gansu-province key laboratories, Lanzhou, China."
+  },
+  {
+   "id": "L09-018",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [
+    {"name": "China Institute of Atomic Energy", "country": "CN"},
+    {"name": "China Academy of Space Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://yznkxjs.xml-journal.net/cn/article/pdf/preview/10.7538/yzk.2025.youxian.0586.pdf", "https://yznkxjs.xml-journal.net/article/doi/10.7538/yzk.2025.youxian.0586?viewType=HTML"],
+   "useful_lead": "",
+   "notes": "DOI not registered in OpenAlex/Crossref. Independent search of the publisher record confirms authors affiliated with China Institute of Atomic Energy (Beijing) and China Academy of Space Technology (Beijing)."
+  },
+  {
+   "id": "L09-019",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Korea Aerospace Research Institute (KARI)", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11193418", "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=SER000010502"],
+   "useful_lead": "",
+   "notes": "No DOI (record already carries a title-year canonical key). Prior verifier pass directly fetched the DBpia publisher page; authors Choi Jae-Dong and Park Bong-Kyu are explicitly listed as Korea Aerospace Research Institute (KARI), South Korea's national space agency. Not India."
+  },
+  {
+   "id": "L09-020",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Chinese Academy of Sciences / National Space Science Center", "country": "CN"},
+    {"name": "University of Chinese Academy of Sciences", "country": "CN"},
+    {"name": "Yangzhou University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/nano12132126"],
+   "useful_lead": "",
+   "notes": "All 9 authors resolve to Chinese institutions."
+  },
+  {
+   "id": "L09-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Nanyang Technological University", "country": "SG"},
+    {"name": "University of Chinese Academy of Sciences", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/aerospace7060067"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolve to Nanyang Technological University, Singapore (two co-authors dually affiliated with University of Chinese Academy of Sciences). No Indian affiliations."
+  },
+  {
+   "id": "L09-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Nanyang Technological University", "country": "SG"},
+    {"name": "Jet Propulsion Laboratory", "country": "US"},
+    {"name": "SITAEL Space Division", "country": "IT"},
+    {"name": "Airbus Defence & Space", "country": "FR"},
+    {"name": "National Aerospace University / Jozef Stefan Institute", "country": "UA/SI"},
+    {"name": "Technion - Israel Institute of Technology", "country": "IL"},
+    {"name": "Georgia Institute of Technology", "country": "US"},
+    {"name": "Australian National University", "country": "AU"}
+   ],
+   "non_indian_affiliation_count": 8,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.paerosci.2023.100900"],
+   "useful_lead": "",
+   "notes": "IMPORTANT CORRECTION: OpenAlex's disambiguated institution field mislabels co-author Daniela Pedrini as 'Department of Space (IN)' -- an institution-matching error. Her raw_affiliation_string in the same OpenAlex record reads verbatim 'SITAEL Space Division, Pisa, 56121, Italy', matching her affiliation in the companion paper L09-024 (SITAEL, IT). Per the binding rule against inferring from names, the raw affiliation text (not the mismapped institution ID) was used: Pedrini is Italy-affiliated, not India. No genuine Indian co-author on this multinational review. Verdict: verified_non_india_origin (all 10 co-authors resolve to SG/US/IT/FR/UA/SI/IL/AU)."
+  },
+  {
+   "id": "L09-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Nanyang Technological University", "country": "SG"},
+    {"name": "Universite d'Orleans / CNRS / ICARE", "country": "FR"},
+    {"name": "Rafael Advanced Defense Systems", "country": "IL"},
+    {"name": "SITAEL", "country": "IT"},
+    {"name": "Jet Propulsion Laboratory", "country": "US"},
+    {"name": "CNRS / Universite Toulouse III / Laplace", "country": "FR"},
+    {"name": "Institute for the Science and Technology of Plasmas", "country": "IT"}
+   ],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1063/1.5109141"],
+   "useful_lead": "",
+   "notes": "All 9 authors resolve cleanly to SG/FR/IL/IT/US institutions (this record correctly maps Pedrini to SITAEL, IT -- confirming the L09-023 mismap was record-specific). No Indian affiliations."
+  },
+  {
+   "id": "L09-026",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Sichuan University", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1016/j.energy.2025.137978"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Sichuan University, China."
+  },
+  {
+   "id": "L09-027",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Harbin Institute of Technology", "country": "CN"},
+    {"name": "Ministry of Industry and Information Technology", "country": "CN"},
+    {"name": "Beijing Institute of Power Machinery", "country": "CN"},
+    {"name": "Lanzhou University of Technology", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1061/jaeeez.aseng-4949"],
+   "useful_lead": "",
+   "notes": "All 8 authors resolve to Chinese institutions."
+  },
+  {
+   "id": "L09-028",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Lanzhou Institute of Physics (National Key Laboratory of Vacuum and Cryogenic Technology and Physics)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB201729.160485"],
+   "useful_lead": "",
+   "notes": "DOI not registered in OpenAlex/Crossref (Chinese-domestic journal). Search of the publisher record confirms lead authors (Sun Mingming, Zhang Tianping) affiliated with Lanzhou Institute of Physics (China Academy of Space Technology subsidiary), Gansu, China."
+  },
+  {
+   "id": "L09-029",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [
+    {"name": "Institute of Mechanics, Chinese Academy of Sciences", "country": "CN"},
+    {"name": "University of Chinese Academy of Sciences", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://jdse.bit.edu.cn/sktcxb/article/doi/10.15982/j.issn.2096-9287.2024.20230036"],
+   "useful_lead": "",
+   "notes": "DOI not registered in OpenAlex/Crossref. Search of publisher/citation records confirms authors affiliated with the Microgravity Key Laboratory, Institute of Mechanics, Chinese Academy of Sciences (Beijing), and School of Engineering Sciences, University of Chinese Academy of Sciences."
+  },
+  {
+   "id": "L09-030",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [{"name": "National Aeronautics and Space Administration (NASA), assignee", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://patents.google.com/patent/US11815074B1/en"],
+   "useful_lead": "",
+   "notes": "US Patent 11,815,074 B1; assignee NASA (US government agency); named inventors (Benavides, Pinero, Rhodes, Birchenough) are NASA Glenn Research Center engineers per the patent record. Patent, not a peer-reviewed academic work; verified via the Google Patents/USPTO assignee record."
+  },
+  {
+   "id": "L09-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "NASA (Glenn Research Center)", "country": "US"},
+    {"name": "U.S. Department of Energy", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.nasa.gov/news-release/nasa-announces-artemis-concept-awards-for-nuclear-power-on-moon/"],
+   "useful_lead": "",
+   "notes": "US federal agencies (nasa.gov official domain)."
+  },
+  {
+   "id": "L09-032",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Westinghouse Electric Company", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://info.westinghousenuclear.com/news/westinghouse-awarded-nasa-doe-contract-to-continue-development-of-space-microreactor-concept"],
+   "useful_lead": "",
+   "notes": "Westinghouse Electric Company is headquartered in Cranberry Township, Pennsylvania, USA."
+  },
+  {
+   "id": "L09-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "American Nuclear Society (ANS)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.ans.org/news/article-7674/nasa-doe-solidify-collaboration-on-a-lunar-surface-reactor/", "https://www.ans.org/about/"],
+   "useful_lead": "",
+   "notes": "American Nuclear Society is headquartered in La Grange Park, Illinois, USA; trade-press article reporting on a NASA/DOE MOU."
+  },
+  {
+   "id": "L09-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NASA (Glenn Research Center)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nasa.gov/news-release/nasa-works-to-improve-solar-electric-propulsion-for-deep-space-exploration/"],
+   "useful_lead": "",
+   "notes": "US federal government agency (nasa.gov official domain)."
+  },
+  {
+   "id": "L09-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Air & Space Forces Magazine (Air & Space Forces Association)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.airandspaceforces.com/space-force-plans-905m-maneuverable-geo/", "https://www.airandspaceforces.com/about-us/"],
+   "useful_lead": "",
+   "notes": "Air & Space Forces Magazine is published by the Air & Space Forces Association, headquartered in Arlington, Virginia, USA."
+  },
+  {
+   "id": "L09-038",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "SBIR.gov / U.S. Air Force", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sbir.gov/portfolio/1158459"],
+   "useful_lead": "",
+   "notes": "US federal government award database (sbir.gov official domain)."
+  },
+  {
+   "id": "L09-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Air & Space Forces Magazine (Air & Space Forces Association)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.airandspaceforces.com/sda-tranche-3-new-missile-tracking-defense-satellites/"],
+   "useful_lead": "",
+   "notes": "Same publisher as L09-037 (Air & Space Forces Association), Arlington, Virginia, USA."
+  },
+  {
+   "id": "L09-040",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Phase Four, Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.prnewswire.com/news-releases/phase-four-wins-us-space-force-contract-at-spacewerx-pitch-day-301361886.html"],
+   "useful_lead": "",
+   "notes": "Phase Four, Inc. is headquartered in Hawthorne/El Segundo, California, USA; PRNewswire is only the distribution wire service."
+  },
+  {
+   "id": "L09-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "L3Harris Technologies, Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-closes-1b-investment-department-war-missile-solutions"],
+   "useful_lead": "",
+   "notes": "L3Harris Technologies is headquartered in Melbourne, Florida, USA (l3harris.com official domain)."
+  },
+  {
+   "id": "L09-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "Japan Aerospace Exploration Agency (JAXA)", "country": "JP"},
+    {"name": "Furukawa Electric Co., Ltd.", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.jaxa.jp/press/2021/03/20210315-1_j.html"],
+   "useful_lead": "",
+   "notes": "JAXA is Japan's national space agency (jaxa.jp official domain); Furukawa Electric is a Japanese company."
+  },
+  {
+   "id": "L09-043",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "NASA Glenn Research Center", "country": "US"},
+    {"name": "Maxar Technologies", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://ntrs.nasa.gov/citations/20220008636"],
+   "useful_lead": "",
+   "notes": "NASA NTRS (US federal document repository); Maxar Technologies headquartered in Westminster, Colorado, USA."
+  },
+  {
+   "id": "L09-044",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "European Cooperation for Space Standardization (ECSS) / European Space Agency", "country": "EU"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://ecss.nl/standard/ecss-e-st-20c-rev-2-electrical-and-electronic-8-april-2022/"],
+   "useful_lead": "",
+   "notes": "ECSS/ESA is a European standards body (ESA technical secretariat at ESTEC, Noordwijk, Netherlands)."
+  },
+  {
+   "id": "L09-045",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "VPT, Inc.", "country": "US"},
+    {"name": "NASA Johnson Space Center", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://ntrs.nasa.gov/citations/20120016273"],
+   "useful_lead": "",
+   "notes": "VPT, Inc. is a US power-electronics company (Blacksburg, Virginia); NASA JSC is a US federal facility."
+  },
+  {
+   "id": "L09-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "NASA Glenn Research Center", "country": "US"},
+    {"name": "Jet Propulsion Laboratory / Caltech", "country": "US"},
+    {"name": "Vantage Partners, LLC", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://ntrs.nasa.gov/citations/20190033097"],
+   "useful_lead": "",
+   "notes": "All US institutions/companies (NASA GRC, JPL/Caltech, Vantage Partners)."
+  },
+  {
+   "id": "L09-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Idaho National Laboratory (INL)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://inl.gov/fsp/"],
+   "useful_lead": "",
+   "notes": "US DOE national laboratory, Idaho Falls, Idaho, USA."
+  },
+  {
+   "id": "L09-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NASA (Glenn Research Center, presented at NETS-2022)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://ntrs.nasa.gov/citations/20220002293"],
+   "useful_lead": "",
+   "notes": "NASA NTRS US federal document repository; all 11 named authors are US national-lab/NASA-program researchers per the NTRS record."
+  },
+  {
+   "id": "L09-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Surrey Satellite Technology Ltd (SSTL)", "country": "GB"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://ntrs.nasa.gov/citations/20150004055"],
+   "useful_lead": "",
+   "notes": "Document authored by Surrey Satellite Technology Ltd, Guildford, United Kingdom (an Airbus subsidiary), archived in the US NASA NTRS repository. UK, not India."
+  },
+  {
+   "id": "L09-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "European Space Agency (ESA) programme; Snecma Moteurs, ETCA, Alcatel Space, Astrium", "country": "EU"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://resilience.esa.int/projects/electric-thruster-based-plasma-propulsion-including-power-processing-unit"],
+   "useful_lead": "",
+   "notes": "ESA-funded programme with French/European industrial partners (Snecma, ETCA, Alcatel Space, Astrium)."
+  },
+  {
+   "id": "L09-051",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Research and Markets (ResearchAndMarkets.com)", "country": "IE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.globenewswire.com/news-release/2026/07/06/3322229/0/en/Satellite-Propulsion-Market-by-Platform-System-Propulsion-Technology-End-User-and-Region-Global-Forecast-to-2031.html"],
+   "useful_lead": "",
+   "notes": "Directly fetched the GlobeNewswire press release this session. The 'About ResearchAndMarkets.com' boilerplate and dateline confirm the publisher is headquartered in Dublin, Ireland, and that ResearchAndMarkets.com itself (not a hidden India-based sub-contracted analyst firm) produced/aggregates this report. Checked specifically per the audit's market-research-consultancy screening guidance; no India registration found."
+  },
+  {
+   "id": "L09-053",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "VPT, Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.vptpower.com/newsroom/press-releases/vpt-introduces-the-first-100k-rad-hard-point-of-load-dc-dc-converter"],
+   "useful_lead": "",
+   "notes": "VPT, Inc. is headquartered in Blacksburg, Virginia, USA."
+  },
+  {
+   "id": "L09-054",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "EPC Space", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://epc.space/2026/03/exploring-the-epcsc401-a-radiation-hardened-gan-dc-dc-converter-for-space-applications/"],
+   "useful_lead": "",
+   "notes": "EPC Space is headquartered in El Segundo, California, USA (subsidiary of Efficient Power Conversion, Inc.)."
+  },
+  {
+   "id": "L09-055",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "EPC Space", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://epc.space/2025/04/epc-space-launches-a-high-performance-radiation-hardened-dc-dc-controller-with-matching-reference-design/"],
+   "useful_lead": "",
+   "notes": "EPC Space, El Segundo, California, USA (co-development partner CERN is headquartered in Geneva, Switzerland; also non-India)."
+  },
+  {
+   "id": "L09-056",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Zhongtai Securities Research Institute", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://upload.chongnengjihua.com/production/2026/1/23/20/d8e26976b97c68_1769170431083.pdf"],
+   "useful_lead": "",
+   "notes": "Zhongtai Securities is a Chinese securities firm headquartered in Jinan, Shandong, China. China, not India."
+  },
+  {
+   "id": "L09-101",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Jet Propulsion Laboratory", "country": "US"},
+    {"name": "QinetiQ", "country": "GB"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.2514/1.b37938"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to JPL (US) or QinetiQ (UK)."
+  },
+  {
+   "id": "L09-102",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "ThrustMe", "country": "FR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1007/s44205-023-00041-2"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolve to ThrustMe, Massy, France."
+  },
+  {
+   "id": "L09-103",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Stanford University", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1002/pssa.202500589"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to Stanford University, USA."
+  },
+  {
+   "id": "L09-104",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Universite de Caen Normandie / CRISMAT", "country": "FR"},
+    {"name": "Universite de Montpellier / Institut d'Electronique et des Systemes", "country": "FR"},
+    {"name": "University of Jyvaskyla", "country": "FI"},
+    {"name": "Centre National d'Etudes Spatiales (CNES)", "country": "FR"}
+   ],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1109/tns.2025.3561583"],
+   "useful_lead": "",
+   "notes": "All 8 authors resolve to French or Finnish institutions."
+  },
+  {
+   "id": "L09-105",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Los Alamos National Laboratory", "country": "US"},
+    {"name": "NASA Glenn Research Center", "country": "US"},
+    {"name": "Oak Ridge National Laboratory", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1080/00295450.2020.1722554"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to US national laboratories."
+  },
+  {
+   "id": "L09-106",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Japan Aerospace Exploration Agency (JAXA)", "country": "JP"},
+    {"name": "Kanadevia Corporation", "country": "JP"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.3390/aerospace12060514"],
+   "useful_lead": "",
+   "notes": "All 10 authors resolve to JAXA or Kanadevia Corporation (formerly IHI Corporation), Japan."
+  },
+  {
+   "id": "L09-107",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "University of Michigan", "country": "US"},
+    {"name": "University of New South Wales (UNSW Canberra)", "country": "AU"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.2514/1.b39198"],
+   "useful_lead": "",
+   "notes": "Two authors resolve to University of Michigan (US) and UNSW Canberra (AU)."
+  },
+  {
+   "id": "L09-108",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Xi'an University of Technology", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1080/00295639.2025.2568299"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolve to Xi'an University of Technology, China."
+  },
+  {
+   "id": "L09-109",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [
+    {"name": "Beijing Research Institute of Mechanical and Electrical Technology", "country": "CN"},
+    {"name": "Beijing University of Technology", "country": "CN"},
+    {"name": "Space Engineering University", "country": "CN"}
+   ],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works/doi:10.1088/2058-6272/ade421"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolve to Chinese institutions (Crossref/OpenAlex returned no explicit institution IDs but the container venue and author-name pattern were independently corroborated; institution names above are from the WebFetch-summarized affiliation data)."
+  },
+  {
+   "id": "L09-110",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Lanzhou Institute of Space Technology and Physics", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.hplpb.com.cn/cn/article/doi/10.11884/HPLPB202537.250172?viewType=HTML", "https://www.researching.cn/ArticlePdf/m00012/2025/37/9/094005.pdf"],
+   "useful_lead": "",
+   "notes": "DOI not registered in OpenAlex/Crossref. Independent search confirms lead author (Sun Mingming, also author of L09-028) affiliated with Lanzhou Institute of Space Technology and Physics, Gansu, China."
+  },
+  {
+   "id": "L09-111",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "European Cooperation for Space Standardization (ECSS) / European Space Agency", "country": "EU"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://ecss.nl/standard/ecss-e-st-20-20c-space-engineering-electrical-design-and-interface-requirements-for-power-supply-15-april-2016-2/"],
+   "useful_lead": "",
+   "notes": "ECSS/ESA European standards body."
+  },
+  {
+   "id": "L09-112",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [
+    {"name": "CREARE LLC", "country": "US"},
+    {"name": "NASA", "country": "US"}
+   ],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.sbir.gov/awards/204151"],
+   "useful_lead": "",
+   "notes": "CREARE LLC is headquartered in Hanover, New Hampshire, USA; NASA is the awarding US federal agency (sbir.gov official domain)."
+  }
+ ]
+}

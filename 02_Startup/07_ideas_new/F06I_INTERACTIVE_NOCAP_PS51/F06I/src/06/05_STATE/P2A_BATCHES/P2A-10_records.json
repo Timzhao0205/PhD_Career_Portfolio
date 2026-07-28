@@ -1,0 +1,1629 @@
+{
+ "batch_id": "P2A-10",
+ "count": 70,
+ "records": [
+  {
+   "id": "L12-035",
+   "title": "Coherent Corp. Form 10-K FY2025 (Annual Report)",
+   "authors_or_org": "Coherent Corp.",
+   "year": 2025,
+   "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
+   "canonical_key": "https://www.sec.gov/archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Coherent Corp. FY2025 10-K (fiscal year ended June 30, 2025): record total revenue $5.81 billion, up 23% YoY from $4.71 billion; three reporting segments (Networking, Materials, Lasers); Lasers segment revenue $1.435 billion (FY2025) vs $1.395 billion (FY2024), +3% YoY, driven by $73 million higher shipments in the display capital-equipment market partially offset by lower precision-manufacturing shipments; Lasers segment profit $317 million (+53% YoY) vs $207 million prior year; effective FY2026 (July 1, 2025), Coherent realigned into two segments (Datacenter and Communications; Industrial).",
+   "notes": "Not directly fetched this session (WebSearch synthesis only); exact dollar figure for the Lasers segment alone was not surfaced. Verifier must fetch sec.gov directly. | ENRICHED vs. raw record: raw only had 'Lasers segment revenue increased 3%' without a dollar figure; this session's direct fetch adds the exact $1.435B/$1.395B figures and the $317M/$207M segment-profit figures. Direct sec.gov fetch failed (403); Coherent's own investor-relations PDF earnings release also failed to parse (binary/garbled); resolved via stocktitan.net secondary aggregator per mission re-fetch instruction."
+  },
+  {
+   "id": "L12-036",
+   "title": "Coherent Corp. 2025 Analyst and Investor Day",
+   "authors_or_org": "Coherent Corp.",
+   "year": 2025,
+   "url": "https://www.coherent.com/news/press-releases/2025-analyst-investor-day",
+   "canonical_key": "https://www.coherent.com/news/press-releases/2025-analyst-investor-day",
+   "source_type": "market_industry",
+   "tier": "T2",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "earnings_transcript",
+   "claim_supported": "At its May 28, 2025 Analyst and Investor Day (held at the New York Stock Exchange, Saxonburg PA-based Coherent Corp.), CEO Jim Anderson projected FY25 revenue growth of over 22% and EPS growth of 2.8x year-over-year; CTO Dr. Julie Sheridan Eng detailed the company's optical-transceiver/CPO roadmap for AI datacenters (pluggable and CPO transceivers, the optical-switching opportunity, and the DCI roadmap); EVP Lasers Dr. Chris Dorman covered Industrial segment growth drivers across semiconductor capital equipment, display equipment, precision manufacturing, and instrumentation; and CFO Sherri Luther outlined an updated financial target model under new end-market-aligned segmentation.",
+   "notes": "Not directly fetched this session (WebSearch synthesis only). Tiered T2 (investor presentation, not an audited filing). | CLAIM SOFTENED (retained from prior session): the raw record's specific '$4B datacenter-interconnect transceiver market' TAM figure and the '1.6T transceiver ramp on schedule in 2025' detail could NOT be confirmed in the fetched press-release text and remain excluded from claim_supported per the no-invented-figures rule; the full investor-day slide deck PDF was not independently parsed. fetched=true as of this session: direct WebFetch of the coherent.com press-release URL returned full article text (not the prior JS-loaded shell), confirming date/location/executives/segment content above."
+  },
+  {
+   "id": "L12-037",
+   "title": "Han's Laser Technology Industry Group 2025 Annual Report",
+   "authors_or_org": "Han's Laser Technology Industry Group Co., Ltd. (大族激光科技产业集团)",
+   "year": 2025,
+   "url": "https://www.laserfair.com/m/news/202604/21/90443.html",
+   "canonical_key": "https://www.laserfair.com/m/news/202604/21/90443.html",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Han's Laser 2025 annual report: total revenue RMB 18.759 billion (187.59 yi yuan), +27.00% YoY (record high); attributable net profit RMB 1.19 billion, -29.77% YoY; non-GAAP net profit RMB 810 million, +82.28% YoY; high-power laser-equipment segment revenue RMB 3.163 billion, -6.60% YoY despite unit sales of high-power cutting machines up 30.47% to 6,800 units, reflecting price-competition pressure; IT-equipment (AI/PCB) segment RMB 8.245 billion (+50%), PCB equipment specifically RMB 5.773 billion (+72.68%) on AI-server/high-speed-switch demand.",
+   "notes": "Directly fetched and confirmed this session (Chinese-language). NOTE: the '亿' (yi = 100 million) unit was manually converted here (187.59 yi = RMB 18.759 billion); an earlier auto-summarization pass had mis-rendered this as 'RMB 187.59 billion' (a 10x error), corrected via internal consistency check. The underlying official annual-report PDF on hanslaser.com was not independently fetched this session; verifier should locate and fetch it directly for full primary confirmation. | Retained raw scout's unit-conversion correction (187.59 yi = RMB 18.759 billion, not 187.59 billion) -- independently sanity-checked against this session's Raycus figures (see L12-038 notes) which surfaced an ANALOGOUS but distinct 万-unit conversion error, reinforcing that this class of error is systematic across this lane's Chinese-language sources and must always be hand-verified. Official hanslaser.com PDF still not independently fetched this session."
+  },
+  {
+   "id": "L12-038",
+   "title": "Wuhan Raycus Fiber Laser Technologies Co., Ltd. 2025 Annual Report",
+   "authors_or_org": "Wuhan Raycus Fiber Laser Technologies Co., Ltd. (武汉锐科光纤激光技术股份有限公司)",
+   "year": 2025,
+   "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-23/fd0eb7a0-53c8-4ddf-a758-fc5086284917.PDF",
+   "canonical_key": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-23/fd0eb7a0-53c8-4ddf-a758-fc5086284917.pdf",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "Raycus 2025 annual report: total revenue RMB 3.467 billion (+8.43% YoY); operating profit RMB 154 million (+27.77% YoY); net profit attributable to parent RMB 162 million (+20.52% YoY); continuous fiber lasers RMB 2.839 billion (81.90% of revenue, +12.38%); pulsed fiber lasers RMB 329 million; ultrafast lasers RMB 94.95 million (+35.24%); TOTAL LASER UNIT SALES CORRECTED to 186,000 units (+6.47% YoY) [raw record's '1.86 million' was a 10x unit-conversion error -- source Chinese text reads '18.60万台' = 186,000, not 1.86 million]; very-high-power (>10 kW, i.e. 万瓦以上) laser unit sales CORRECTED to 8,561 units (+26% YoY) [raw record's '>1000 W' threshold was a mistranslation of '万瓦' (10,000 W = 10 kW), not 1,000 W]; handheld-welding exports ~51,900 units (+66.22%) [raw's '51,920' is an immaterial rounding difference]; optical fiber production 21,800 km (+36.20%); launched a 220 kW laser (described as a global first) plus radiation-resistant fiber and semiconductor-direct-pump breakthroughs (not independently re-confirmed this session).",
+   "notes": "The official SZSE-hosted PDF (this record's canonical URL) was NOT directly fetched this session (large PDF, not attempted); figures were obtained via WebSearch synthesis of laserfair.com and eastmoney.com financial-media reporting that quotes this exact filing. Tiered T1 as an official exchange-hosted company filing, consistent with prior lane methodology for Chinese-listed companies (source type is inherently a company filing regardless of which mirror was actually read); verifier must fetch the PDF directly for full primary confirmation. | SYSTEMATIC UNIT-CONVERSION ERROR CAUGHT AND CORRECTED (exactly the risk class flagged in this verification task's briefing): (1) raw ledger's '1.86 million' total unit sales is 10x too high -- correct value is 186,000 units (18.60万台, where 万=10,000, not 100,000); (2) raw ledger's '>1000 W' high-power threshold is a mistranslation of '万瓦以上' (>10,000 W = >10 kW) -- an unrelated but compounding error, since 万瓦 literally means '10,000 watts', not '1,000 watts'. NOTABLY, when this verifier's own WebFetch tool was asked to summarize the same laserfair.com page directly, its underlying small model ALSO mis-rendered '34.67亿' as '34.67 billion' (should be RMB 3.467 billion) and repeated the '1.86 million units' and '519,000 handheld exports' errors -- demonstrating the tool itself is prone to this exact 万/亿 conversion failure mode. Final figures above were derived by manually converting the verbatim Chinese numerals quoted in a separate WebSearch pass, not by trusting either automated summary. The official SZSE-hosted PDF (canonical URL) returned unreadable binary content on two direct-fetch attempts this session; verified via an HTML mirror (laserfair.com) instead, consistent with prior lane methodology of treating this as a company filing regardless of which mirror was read."
+  },
+  {
+   "id": "L12-039",
+   "title": "TRUMPF Group FY2024/25 Annual Report -- Laser Technology division revenue",
+   "authors_or_org": "TRUMPF SE + Co. KG",
+   "year": 2025,
+   "url": "https://www.trumpf.com/en_US/newsroom/global-press-releases/",
+   "canonical_key": "title-year:trumpf-group-fy2024-25-annual-report-laser-technology-division-revenue-2025",
+   "source_type": "company_filing",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "DE"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "company_filing",
+   "claim_supported": "TRUMPF FY2024/25 (year ended June 30, 2025): total group sales fell 16-17% to EUR 4,329.0 million (~EUR 4.3 billion), from EUR ~5.2 billion; Machine Tools division EUR 2.4 billion (largest division, down from EUR 2.8 billion); Laser Technology division revenue declined to EUR 1.2 billion, down from an adjusted EUR 1.4 billion the prior year; Electronics division EUR 442 million; order intake declined 7% to EUR 4.2 billion.",
+   "notes": "Not directly fetched this session (WebSearch synthesis of trumpf.com press release and optics.org reporting). TRUMPF is a privately held SE & Co. KG, so 'company_filing' here refers to its own published annual report rather than an SEC filing. | Total-sales and Laser Technology division figures now independently corroborated via two independent trade outlets this session (optics.org, surface-technology.info), both quoting TRUMPF's own announcement; consistent with the raw record. TRUMPF is a privately held SE & Co. KG, so 'company_filing' refers to its own published annual/fiscal-year report rather than an SEC filing."
+  },
+  {
+   "id": "L12-040",
+   "title": "DARPA Area-Multiplied Photonic-crystal Enhanced Devices (AMPED) program solicitation",
+   "authors_or_org": "Defense Advanced Research Projects Agency (DARPA)",
+   "year": 2026,
+   "url": "https://www.darpa.mil/research/programs/amped",
+   "canonical_key": "https://www.darpa.mil/research/programs/amped",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "DARPA's AMPED program develops a new class of high-power, single-mode, diffraction-limited semiconductor lasers by combining novel photonic structures with advanced materials/device designs, in a compact/SWaP-constrained chip-scale form factor for Department of War applications. Solicitation DARPA-PS-26-119 posted May 8/20, 2026, response deadline July 9, 2026, managed by DARPA's Multi X Office (PM David Meyer). Program ceiling/phase dollar figures ($39M Phase 1 / $14M Phase 2 / $53M total, per the raw record) were NOT independently re-confirmed on the official darpa.mil page this session.",
+   "notes": "PARTIAL RE-VERIFICATION: darpa.mil's own program page (fetched directly this session) confirms the program's existence, technical scope, and solicitation timeline, but does NOT show the $39M/$14M/$53M figures the raw record cited from a federal-contracts aggregator (sweetspotgov.com). A follow-up WebSearch this session found multiple aggregators (sam.gov, highergov.com, govtribe.com, bidscopeai.com) listing the same solicitation but none surfaced the specific dollar breakdown in accessible snippets. Flagged: the $39M/$14M/$53M figures should be treated as single-source (sweetspotgov.com) until independently corroborated -- downgrade confidence on the specific dollar amounts while the program's existence and scope remain solidly confirmed."
+  },
+  {
+   "id": "L12-041",
+   "title": "DARPA Modular Efficient Laser Technology (MELT) program",
+   "authors_or_org": "Defense Advanced Research Projects Agency (DARPA), Multi X Office",
+   "year": 2026,
+   "url": "https://www.darpa.mil/research/programs/modular-efficient-laser-technology",
+   "canonical_key": "https://www.darpa.mil/research/programs/modular-efficient-laser-technology",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "DARPA's MELT program (Multi X Office, PM Thomas Schratwieser) develops compact, scalable high-energy-laser (HEL) 'laser tiles' as modular building blocks -- integrated into planar arrays via semiconductor fabrication, coherent beam combining, photonic integration, and 3D packaging -- to counter proliferating unmanned aircraft systems, eliminating the need for large, complex HEL subsystems.",
+   "notes": "Directly fetched this session; the darpa.mil page itself does NOT disclose a contractor name or dollar figure. A separate WebSearch (militaryaerospace.com, 'DARPA asks Northrop Grumman to develop high-power laser weapons technology') reported an $8 million order to Northrop Grumman for MELT, but that specific article was not independently fetched this session -- the $8M/Northrop Grumman claim should be treated as unconfirmed pending direct verifier fetch of militaryaerospace.com. | Retained raw scout's direct fetch; not independently re-fetched this session. The $8M/Northrop Grumman claim from militaryaerospace.com remains UNCONFIRMED (correctly excluded from claim_supported) -- still flagged pending direct verifier fetch."
+  },
+  {
+   "id": "L12-042",
+   "title": "NNSA and Lawrence Livermore National Laboratory advance Enhanced Fusion Yield Capability (EYC) laser upgrade for nuclear stockpile mission",
+   "authors_or_org": "National Nuclear Security Administration (NNSA); Lawrence Livermore National Laboratory (LLNL)",
+   "year": 2026,
+   "url": "https://www.energy.gov/nnsa/articles/nnsa-and-lawrence-livermore-national-laboratory-advance-laser-upgrade-nuclear-0",
+   "canonical_key": "https://www.energy.gov/nnsa/articles/nnsa-and-lawrence-livermore-national-laboratory-advance-laser-upgrade-nuclear-0",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "The Enhanced Fusion Yield Capability (EYC) project at the National Ignition Facility (LLNL) will raise NIF's peak recurring laser energy from 2.2 to 2.6 megajoules (a 20% energy increase projected to yield a 300% increase in fusion output); approved to Critical Decision-1 (project-definition/conceptual-design completion under DOE Order 413.3B) on April 13, 2026; Congress appropriated $26 million in FY2026 to begin the next phase, with LLNL developing a long-lead procurement package. A companion GAO report (GAO-25-107204, L12-046) independently estimates total EYC project cost has grown to a $470 million-$1 billion range (up from an original $200-300 million estimate).",
+   "notes": "Directly fetched and confirmed this session. This is a concrete, dated, appropriated-funding national-lab laser-facility upgrade directly in scope for L12 (high-power laser system procurement). | ENRICHED: added independent GAO cost-estimate corroboration/context this session (does not contradict the $26M FY2026 appropriation, which is a single-year budget line within a much larger multi-year project). No conflict found between the two sources; both retained per the mission's 'show conflicts, don't average' rule (here there is no real conflict, just complementary detail)."
+  },
+  {
+   "id": "L12-044",
+   "title": "GlobalFoundries acquires Advanced Micro Foundry and signs Master Research Collaboration Agreement with A*STAR on silicon photonics",
+   "authors_or_org": "GlobalFoundries; Agency for Science, Technology and Research (A*STAR), Singapore",
+   "year": 2025,
+   "url": "https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/",
+   "canonical_key": "https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/",
+   "source_type": "market_industry",
+   "tier": "T2",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "SG"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "On November 17-18, 2025, GlobalFoundries (GF) announced acquisition of Advanced Micro Foundry (AMF), a Singapore-based silicon photonics foundry (15+ years manufacturing expertise, expanding from 200mm to 300mm wafers), positioning GF as the largest pure-play silicon-photonics foundry by revenue; concurrently, GF and A*STAR signed a Master Research Collaboration Agreement to establish a silicon-photonics R&D Center of Excellence in Singapore focused on next-generation materials for 400 Gbps data-transfer, supporting GF's roadmap for pluggable transceivers and co-packaged optics. No specific investment figure was disclosed.",
+   "notes": "SOURCE_TYPE AND URL CHANGED from the raw record: raw cited an A*STAR government press release (a-star.edu.sg) that returned HTTP 404 on three separate direct-fetch attempts this session (including a Singapore government press-centre mirror, sgpc.gov.sg, whose PDF and HTML both failed to yield readable content). Verified instead via GlobalFoundries' own press release (successfully fetched), reclassified source_type from 'government' to 'market_industry' (company announcement) and demand_evidence_type from 'official_project_award' to 'none' since this is a research/foundry-acquisition partnership announcement, not a specific dollar-denominated demand signal. Flagged for a future session to retry the A*STAR primary government source."
+  },
+  {
+   "id": "L12-045",
+   "title": "GAO-23-105868: Directed Energy Weapons: DOD Should Focus on Transition Planning",
+   "authors_or_org": "U.S. Government Accountability Office (GAO)",
+   "year": 2023,
+   "url": "https://www.gao.gov/products/gao-23-105868",
+   "canonical_key": "gao-23-105868",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "GAO report (published April 17, 2023): DOD allocates approximately $1 billion annually to directed-energy-weapon development; DOD and military departments have developed multiple high-energy-laser and high-power-microwave demonstrators/prototypes that have successfully shot down drones in live-fire demonstrations, but face a persistent 'valley of death' transitioning prototypes to acquisition programs; GAO made four recommendations (Navy and Air Force to establish documented transition agreements and user-feedback processes); as of August 2025 all four recommendations remained open.",
+   "notes": "Directly fetched and confirmed this session. Establishes the ~$1B/year DoD directed-energy budget baseline that contextualizes the JLWS awards (L12-031/032) and DARPA programs (L12-040/041) in this ledger. | Retained raw scout's direct fetch; not independently re-fetched this session. Establishes the ~$1B/year DoD directed-energy budget baseline contextualizing L12-031/032/040/041."
+  },
+  {
+   "id": "L12-046",
+   "title": "GAO-25-107204: National Nuclear Security Administration: Improvements Needed for Managing Recapitalization of Fusion Facilities",
+   "authors_or_org": "U.S. Government Accountability Office (GAO)",
+   "year": 2025,
+   "url": "https://files.gao.gov/reports/GAO-25-107204/index.html",
+   "canonical_key": "gao-25-107204",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "GAO report: NNSA's January 2023 recapitalization plan outlined 110 discrete sustainment activities across three ICF facilities (NIF, Omega, Z) at an estimated $492 million over 6-8 years, but completion is now projected for FY2033; as of March 2025, NIF shows 52% of activities ongoing (none completed), Omega 7% complete/50% ongoing, Z 16% complete; NNSA has not established measures to evaluate progress against baseline. NIF's Enhanced Fusion Yield Capability (EYC, see L12-042) project cost estimate has grown to $470 million-$1 billion, up from an original $200-300 million estimate; the Z-facility upgrade approach has substantially changed since the plan issued. GAO recommends NNSA document Z-upgrade options (scope/cost/mission relevance) and develop performance measures aligned with NNSA program-management guidance; NNSA concurred with both recommendations.",
+   "notes": "Title and existence confirmed via search result only (gao.gov domain); not directly fetched this session. Verifier should fetch to extract specific findings/recommendations. | UPGRADED from fetched=false (raw) to fetched=true this session via direct successful fetch; raw record only had the title/existence confirmed via search. Provides important cost-growth context for the NIF/EYC laser-upgrade demand signal in L12-042."
+  },
+  {
+   "id": "L12-047",
+   "title": "DARPA Persistent Optical Wireless Energy Relay (POWER) program sets distance/power record",
+   "authors_or_org": "Defense Advanced Research Projects Agency (DARPA)",
+   "year": 2025,
+   "url": "https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming",
+   "canonical_key": "https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "In May 2025, DARPA's POWER program demonstrated more than 800 W of optical power delivered over 8.6 km (5.3 miles) during a 30-second transmission, with over 20% optical-to-electrical conversion efficiency at shorter range, in partnership with Teravec Technologies, Packet Digital, RIT, the Naval Research Laboratory, and HELSTF (White Sands Missile Range).",
+   "notes": "Directly fetched and confirmed this session. Directed laser power-beaming is an adjacent beam-control/beam-delivery subsystem application within L12 scope (not a weapon program but a power-relay program using the same high-power laser/beam-control building blocks). | Retained raw scout's direct fetch; not independently re-fetched this session."
+  },
+  {
+   "id": "L12-048",
+   "title": "IEC 60825 series: Safety of laser products (Ed.3.0, 2014 base document; 2025 SER package)",
+   "authors_or_org": "International Electrotechnical Commission (IEC)",
+   "year": 2025,
+   "url": "https://www.lia.org/store/iec-60825-1-ed30-safety-laser-products-part-1",
+   "canonical_key": "standard:iec-60825-1-ed3.0",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEC 60825 is the internationally adopted laser-product-safety standard series (equipment classification, 180 nm-1 mm wavelength range). IEC 60825-1 Ed.3.0 ('Safety of Laser Products - Part 1: Equipment classification, requirements and user's guide'), 220 pages, published 2014, is priced at $665.00 via the Laser Institute of America (LIA) store. A consolidated 2025 SER package was released January 20, 2025, including updated parts (e.g., IEC TS 60825-19:2024, IEC TS 60825-20:2025).",
+   "notes": "Price and edition details CONFIRMED via direct fetch this session (raw record had this only via search snippet). This is the governing safety standard underlying every industrial/medical/defense laser product referenced elsewhere in this ledger."
+  },
+  {
+   "id": "L12-049",
+   "title": "ISO 11553-1:2020 -- Safety of machinery -- Laser processing machines -- Part 1: Laser safety requirements",
+   "authors_or_org": "International Organization for Standardization (ISO)",
+   "year": 2020,
+   "url": "https://genorma.com/en/standards/iso-11553-1-2020",
+   "canonical_key": "standard:iso-11553-1-2020",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "ISO 11553-1:2020 specifies laser-radiation-hazard identification and safety requirements for laser processing machines (the industrial machine-tool class covering cutting/welding/marking laser systems), superseding ISO 11553-1:2005 (withdrawn). Confirmed as a currently valid standard (status: confirmed as of November 7, 2025, ISO stage 90.93); publication date April 2, 2020; originating committee ISO/TC 172/SC 9 (Lasers and electro-optical systems); available in English (22 pages) and French (23 pages); price EUR 163.35 for PDF format.",
+   "notes": "Direct fetch of iso.org returned HTTP 403 this session; scope/edition history confirmed via search-result titles across iso.org, cen (iteh.ai), and BSI listings. Price not confirmed this session. | iso.org's own page (canonical URL in raw record) returned HTTP 403 on three separate direct-fetch attempts this session (iso.org, webstore.ansi.org, and an ANSI preview PDF); confirmed instead via genorma.com, an ISO-standards resale/distribution mirror, which returned full bibliographic detail. URL updated to the successfully-fetched mirror; canonical_key retained as the standard ID."
+  },
+  {
+   "id": "L12-050",
+   "title": "ISO 11553-2:2007 -- Safety of machinery -- Laser processing machines -- Part 2: Safety requirements for hand-held or hand-operated laser processing devices",
+   "authors_or_org": "International Organization for Standardization (ISO)",
+   "year": 2007,
+   "url": "https://webstore.iec.ch/en/publication/9267",
+   "canonical_key": "standard:iso-11553-2-2007",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "ISO 11553-2:2007 specifies safety requirements for hand-held or hand-operated laser processing machines (e.g., handheld laser welding/cleaning tools), a distinct requirement set from fixed laser processing machines (Part 1); confirmed as an active international standard, Edition 1.0, published March 1, 2007, with a stability/review date of 2026 -- directly relevant to the fast-growing handheld-laser-welding export segment noted in Raycus's 2025 results (L12-038).",
+   "notes": "Not directly fetched this session (search-result title/scope only). | Direct fetch succeeded this session (raw record was unfetched, relying on search-result titles only). URL changed from iso.org (403 this session) to the successfully-fetched IEC webstore listing."
+  },
+  {
+   "id": "L12-051",
+   "title": "IPG Photonics YLS Series high-power CW fiber laser product line",
+   "authors_or_org": "IPG Photonics Corporation",
+   "year": 2025,
+   "url": "https://www.ipgphotonics.com/en/products/lasers/high-power-cw-fiber-lasers/1-micron/yls-1-120-kw",
+   "canonical_key": "https://www.ipgphotonics.com/en/products/lasers/high-power-cw-fiber-lasers/1-micron/yls-1-120-kw",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "IPG's YLS/YLR product families span roughly 500 W to 120+ kW CW output (YLS multi-mode up to 125+ kW, single-mode up to 10 kW; YLR multi-mode up to 8 kW, single-mode up to 3 kW), electrical wall-plug efficiency 'over 40%' (over 50% for the YLS-ECO variant), full 10%-100% dynamic power tunability with minimal beam-quality change, wavelength range 1007-1070 nm, and multi-year (>10-year) field-operating lifetimes -- the reference industrial high-power fiber-laser platform against which Chinese competitors (Raycus, Han's Laser, Maxphotonics) are explicitly benchmarked in IPG's own 10-K risk disclosure (L12-034).",
+   "notes": "Not directly fetched this session (WebSearch synthesis of product-page content only). No unit price disclosed; IPG, like other laser OEMs in this lane, does not publish list prices openly -- pricing is opaque and would require direct RFQ, consistent with the pattern also observed in the L06 lane for RF-power subsystem vendors. | Successfully fetched this session (raw record was unfetched). No unit price disclosed; IPG does not publish list prices, consistent with the opaque-pricing pattern noted elsewhere in this lane."
+  },
+  {
+   "id": "L12-053",
+   "title": "Gigaphoton DUV/EUV excimer laser light source product lineup",
+   "authors_or_org": "Gigaphoton Inc. (Komatsu Group)",
+   "year": 2025,
+   "url": "https://www.gigaphoton.com/ja/products",
+   "canonical_key": "https://www.gigaphoton.com/ja/products",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Gigaphoton (a Komatsu Group company) offers ArF immersion (8 models incl. GT80A), ArF dry (4 models), and KrF (7 models incl. G65K, described elsewhere as 'world's first 6 kHz KrF lightsource') excimer laser lines for semiconductor lithography, plus a Fabscape(R) equipment-monitoring software product. At SPIE Advanced Lithography + Patterning 2025 (San Jose, Feb 2025), Gigaphoton presented six papers covering ArFi scanner throughput/yield improvements via a next-generation DUV light source, the G65K KrF lightsource, line-width-roughness improvements, LPP-EUV light sources for mask inspection, repetition-rate scaling above 7 kHz, and DOE-based multi-point glass processing.",
+   "notes": "Located via a Japanese-language query; not directly fetched this session (WebSearch synthesis of Japanese-language page content only). No pricing disclosed. This is the strongest Japan-specific primary vendor evidence found in this lane this session; a follow-up scout could usefully fetch Gigaphoton's SPIE 2025 papers directly for technical detail. | SPIE 2025 presentation content newly confirmed via direct fetch this session (raw record only had this via WebSearch synthesis). The 'nearly 2,000 excimer lasers shipped worldwide' claim from the raw record was NOT found or re-confirmed in this session's searches -- removed from claim_supported as unconfirmed; only the confirmed product-lineup and SPIE-presentation content is retained."
+  },
+  {
+   "id": "L12-054",
+   "title": "China fiber laser market size and localization-penetration data (Huajing Industry Research Institute, via Sina Finance)",
+   "authors_or_org": "Huajing Industry Research Institute (华经产业研究院), reported by Sina Finance (新浪财经)",
+   "year": 2025,
+   "url": "https://finance.sina.com.cn/roll/2025-09-09/doc-infpwvhi3588551.shtml",
+   "canonical_key": "https://finance.sina.com.cn/roll/2025-09-09/doc-infpwvhi3588551.shtml",
+   "source_type": "market_industry",
+   "tier": "T2",
+   "lane_ids": [
+    "L12"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "China's fiber-laser market grew from RMB 7.74 billion (2018) to RMB 12.26 billion (2022), reported by the source as a 9.6% CAGR (self-consistency check on the stated endpoints instead implies roughly 12% CAGR -- an unreconciled internal inconsistency in the source, reported rather than silently corrected); domestic high-power fiber-laser localization penetration rose from 6.56% (2016) to 76.19% (2021), forecast to 90.03% (2022); mid-power localization ~59%, low-power 99.78%; as of year-end 2022 Raycus held 26.8% domestic market share, overtaking IPG domestically for the first time, with the top-3 (Raycus/IPG/Chuangxin-Maxphotonics) holding CR3 >70%.",
+   "notes": "Directly fetched and confirmed this session (Chinese-language). NOTE: the underlying market-share/localization figures cited in this September-2025-published article are dated to 2021-2022, several years stale relative to the publication date -- flagged for verifier; do not treat as current-year (2025) market share without confirming a more recent breakdown. Also flagged: the article's stated 9.6% CAGR does not match the compound growth rate implied by its own stated 2018/2022 endpoints (~12%) -- an unreconciled internal inconsistency in the source, reported here rather than silently corrected. | Retained raw scout's direct fetch and its flag that the cited 2021-2022 market-share/localization figures are stale relative to the September-2025 publication date -- do not treat as current-year (2025) share without a newer breakdown. CAGR inconsistency also retained as flagged, not silently corrected, per the mission's 'conflicts are shown, not averaged away' rule."
+  },
+  {
+   "id": "L13-001",
+   "title": "The QICK (Quantum Instrumentation Control Kit): Readout and control for qubits and detectors",
+   "authors_or_org": "Stefanazzi, L.; Treptow, K.; Wilcer, N.; Stoughton, C.; Bradford, C.; Uemura, S.; Zorzetti, S.; Montella, S.; Cancelo, G.; Sussman, S.; Houck, A.; Saxena, S.; Arnaldi, H.; Agrawal, A.; Zhang, H.; Ding, C.; Schuster, D. I. (Fermi National Accelerator Laboratory / Princeton University / University of Chicago)",
+   "year": 2022,
+   "url": "https://www.osti.gov/biblio/1833584",
+   "canonical_key": "doi:10.1063/5.0076249",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0076249",
+   "doi": "10.1063/5.0076249",
+   "demand_evidence_type": "none",
+   "claim_supported": "Confirms publication in Review of Scientific Instruments vol 93, issue 4, article 044709 (April 2022), DOI 10.1063/5.0076249; Xilinx RFSoC-based open-source qubit controller achieving average gate fidelity 99.93% on transmon qubits.",
+   "notes": "Fermilab-led open-source hardware/firmware/software, now being commercialized via a DOE-Qblox CRADA (see L13-032). The AIP publisher page returned HTTP 403 this session; metadata cross-confirmed via the OSTI.GOV government mirror instead. | Fermilab-led open-source hardware/firmware/software, now being commercialized via a DOE-Qblox CRADA (see L13-032). Verifier: Crossref record fetched and matches; peer_review_status set to verified per the session's academic-acceptance ruling."
+  },
+  {
+   "id": "L13-002",
+   "title": "Experimental Evaluation of Sub-Sampling IQ Detection for Low-Level RF Control in Particle Accelerator Systems",
+   "authors_or_org": "Kowalski, T.; Gibiino, G. P.; Szewinski, J.; Czuba, K.; Rybka, D.; Chmielewski, K.; Wojciechowski, Z.; Sitek, M.",
+   "year": 2022,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8747397/",
+   "canonical_key": "doi:10.3390/s22010038",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/s22010038",
+   "doi": "10.3390/s22010038",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sub-sampling IQ detection for 1.3 GHz low-level RF at Poland's PolFEL linear accelerator achieves amplitude/phase stability below 0.01% / ~0.01 degree, eliminating analog downconversion mixers; clock-signal phase noise identified as the dominant limiting factor.",
+   "notes": "Open-access MDPI Sensors journal; publisher site (mdpi.com) returned HTTP 403 this session, PMC mirror fetched successfully instead. | Crossref lists an online-publication year of 2021 for vol 22(1); the cover-date convention (Jan 2022) is retained per the raw record. Minor date-labeling nuance only, not a substantive discrepancy."
+  },
+  {
+   "id": "L13-003",
+   "title": "Establishing a New Benchmark in Quantum Computational Advantage with the 105-Qubit Zuchongzhi 3.0 Superconducting Processor",
+   "authors_or_org": "Gao et al.; Pan, Jianwei; Zhu, Xiaobo; Peng, Chengzhi (University of Science and Technology of China / Chinese Academy of Sciences)",
+   "year": 2025,
+   "url": "https://doi.org/10.1103/PhysRevLett.134.090601",
+   "canonical_key": "doi:10.1103/physrevlett.134.090601",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1103/PhysRevLett.134.090601",
+   "doi": "10.1103/PhysRevLett.134.090601",
+   "demand_evidence_type": "none",
+   "claim_supported": "105-qubit / 182-coupler superconducting processor; parallel single-qubit gate fidelity 99.90%, two-qubit 99.62%, readout 99.13%, coherence 72 microseconds; published as a Physical Review Letters cover paper, vol 134 issue 9, March 3, 2025.",
+   "notes": "Primary APS/PRL article page not independently fetched this session. DOI and core metrics corroborated by two independently fetched official Chinese-Academy-of-Sciences/USTC press pages, which is stronger corroboration than a single search snippet. The arXiv preprint 2412.11924 is discovery-only and is not the basis for this record. | Primary APS/PRL article page itself still not independently fetched, but the Crossref record fetch plus two independently fetched official institutional corroborations satisfy the session's acceptance rule. arXiv preprint 2412.11924 remains discovery-only and is not the basis for this record."
+  },
+  {
+   "id": "L13-004",
+   "title": "Cryo-CMOS Circuits and Systems for Quantum Computing Applications",
+   "authors_or_org": "Patra, B.; Incandela, R. M.; van Dijk, J. P. G.; Homulle, H. A. R.; Song, L.; Shahmohammadi, M.; Staszewski, R. B.; Vladimirescu, A.; Babaie, M.; Sebastiano, F.; Charbon, E. (TU Delft / Intel)",
+   "year": 2018,
+   "url": "https://doi.org/10.1109/JSSC.2017.2737549",
+   "canonical_key": "doi:10.1109/jssc.2017.2737549",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/JSSC.2017.2737549",
+   "doi": "10.1109/JSSC.2017.2737549",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEEE Journal of Solid-State Circuits vol 53, no. 1, pp. 309-321, Jan 2018; noise-canceling cryo-CMOS LNA for spin-qubit RF-reflectometry readout and a class-F2,3 digitally-controlled oscillator for qubit manipulation, both operating at 4K.",
+   "notes": "DOI and journal citation found via WebSearch snippet quoting the IEEE Xplore record; page not independently fetched this session. Foundational, highly-cited cryo-CMOS control paper from the TU Delft group. | Foundational, highly-cited cryo-CMOS control paper from the TU Delft group; IEEE Xplore page itself not fetched, but Crossref confirmation is sufficient per the session's acceptance ruling."
+  },
+  {
+   "id": "L13-005",
+   "title": "Cryo-CMOS Electronic Control for Scalable Quantum Computing",
+   "authors_or_org": "Sebastiano, F.; Homulle, H.; Patra, B.; Incandela, R.; Song, L.; Charbon, E.; Vladimirescu, A.; Babaie, M. (TU Delft / EPFL)",
+   "year": 2017,
+   "url": "https://dl.acm.org/doi/10.1145/3061639.3072948",
+   "canonical_key": "doi:10.1145/3061639.3072948",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1145/3061639.3072948",
+   "doi": "10.1145/3061639.3072948",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proceedings of the 54th ACM/EDAC/IEEE Design Automation Conference (DAC 2017); argues cryo-CMOS control electronics is required to scale beyond a few thousand qubits, requiring new cryo-CMOS device models and co-simulation infrastructure.",
+   "notes": "Search-confirmed DOI via ACM Digital Library listing; not independently fetched this session. | ACM Digital Library page itself not independently fetched; Crossref confirmation is sufficient per the session's acceptance ruling."
+  },
+  {
+   "id": "L13-006",
+   "title": "28nm Fully-Depleted SOI Technology: Cryogenic Control Electronics for Quantum Computing",
+   "authors_or_org": "Bohuslavskyi, H.; Barraud, S.; Casse, M.; Barral, V.; Bertrand, B.; Hutin, L.; Arnaud, F.; Galy, P.; Sanquer, M.; De Franceschi, S.; Vinet, M. (CEA-LETI / STMicroelectronics)",
+   "year": 2017,
+   "url": "https://ieeexplore.ieee.org/document/8242338/",
+   "canonical_key": "doi:10.23919/snw.2017.8242338",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.23919/SNW.2017.8242338",
+   "doi": "10.23919/SNW.2017.8242338",
+   "demand_evidence_type": "none",
+   "claim_supported": "First cryogenic characterization of 28nm Fully-Depleted-SOI CMOS technology from room temperature to liquid-helium temperature; subthreshold swing reduced to 7 mV/dec at cryogenic temperature; explicitly targets classical control hardware for quantum processors. Presented at the 2017 Silicon Nanoelectronics Workshop (SNW), Kyoto.",
+   "notes": "DOI added by verifier after independent confirmation; IEEE Xplore document 8242338 corresponds to this DOI."
+  },
+  {
+   "id": "L13-007",
+   "title": "Design and Analysis of Digital Communication Within an SoC-Based Control System for Trapped-Ion Quantum Computing",
+   "authors_or_org": "Irtija, N.; Plusquellic, J.; Tsiropoulou, E. E. (University of New Mexico); Goldberg, J.; Lobser, D.; Stick, D. (Sandia National Laboratories)",
+   "year": 2023,
+   "url": "https://ieeexplore.ieee.org/document/10024704/",
+   "canonical_key": "doi:10.1109/tqe.2023.3238670",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/TQE.2023.3238670",
+   "doi": "10.1109/TQE.2023.3238670",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEEE Transactions on Quantum Engineering, vol 4 (2023); evaluates Xilinx multiprocessor SoC data-transfer mechanisms for trapped-ion qubit control, finding DMA between the RPU and programmable logic reaches up to 19.2 GB/s, enabling qubit-gate reconfiguration under 2 microseconds.",
+   "notes": "Sandia National Laboratories co-authorship gives this a national-lab-adjacent character; page not independently fetched this session, found via WebSearch. | Sandia National Laboratories co-authorship gives this a national-lab-adjacent character; IEEE Xplore page itself not independently fetched, Crossref confirmation is sufficient."
+  },
+  {
+   "id": "L13-008",
+   "title": "Crosstalk Effects in Microwave SQUID Multiplexed TES Bolometer Readout",
+   "authors_or_org": "Groh, J. C.; Ahmed, Z.; Henderson, S. W.; Hubmayr, J.; Mates, J. A. B.; Silva-Feaver, M.; Ullom, J.; Yu, C.",
+   "year": 2024,
+   "url": "https://link.springer.com/article/10.1007/s10909-024-03126-w",
+   "canonical_key": "doi:10.1007/s10909-024-03126-w",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s10909-024-03126-w",
+   "doi": "10.1007/s10909-024-03126-w",
+   "demand_evidence_type": "none",
+   "claim_supported": "Peer-reviewed treatment of crosstalk in microwave SQUID-multiplexed transition-edge-sensor bolometer readout, relevant to large cryogenic detector arrays used in CMB/X-ray astrophysics facilities (e.g. Simons Observatory). Journal of Low Temperature Physics vol 216, issue 1-2 (2024), Springer.",
+   "notes": "Author list not independently confirmed this session; found via WebSearch. The arXiv companion 2311.05793 is discovery-only and is not the basis for this record -- the published Springer/JLTP version is cited. | Author list now confirmed via Crossref (Groh, Ahmed, Henderson, Hubmayr, Mates, Silva-Feaver, Ullom, Yu), replacing the raw record's unconfirmed placeholder. arXiv companion 2311.05793 remains discovery-only."
+  },
+  {
+   "id": "L13-009",
+   "title": "RD53 pixel readout integrated circuits for ATLAS and CMS HL-LHC upgrades",
+   "authors_or_org": "RD53 Collaboration (CERN)",
+   "year": 2025,
+   "url": "https://iopscience.iop.org/article/10.1088/1748-0221/20/03/P03024",
+   "canonical_key": "doi:10.1088/1748-0221/20/03/p03024",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "US",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1748-0221/20/03/P03024",
+   "doi": "10.1088/1748-0221/20/03/P03024",
+   "demand_evidence_type": "none",
+   "claim_supported": "Journal of Instrumentation (JINST) vol 20, issue 03 (2025); RD53C-ATLAS (ItkPixV2, submitted March 2023) and RD53C-CMS (CROCv2, submitted Oct 2023) production pixel-readout chips designed for 1 Grad radiation tolerance, 3.5 GHz/cm^2 hit rate, up to 5.12 Gbit/s per-chip readout for HL-LHC Phase-2 upgrades.",
+   "notes": "IOPscience returned HTTP 403 on WebFetch attempt this session; DOI and technical figures taken from WebSearch result snippets summarizing the abstract, not independently fetched full text. | Crossref confirmation is sufficient per the session's acceptance ruling despite the publisher page remaining blocked."
+  },
+  {
+   "id": "L13-010",
+   "title": "Real-time plasma boundary shape reconstruction using visible camera on EAST tokamak",
+   "authors_or_org": "Chen, Ming; Zhang, Qirui; Guo, Bihao; Yang, Jianhua; Chen, Dalong; Huang, Yao; Shen, Biao (EAST team, Institute of Plasma Physics, Chinese Academy of Sciences)",
+   "year": 2024,
+   "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ad933e",
+   "canonical_key": "doi:10.1088/1741-4326/ad933e",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1088/1741-4326/ad933e",
+   "doi": "10.1088/1741-4326/ad933e",
+   "demand_evidence_type": "none",
+   "claim_supported": "Published in Nuclear Fusion vol 65, issue 1 (2024); real-time optical plasma-boundary reconstruction system deployed on the EAST tokamak (Institute of Plasma Physics, CAS, Hefei); reconstruction rate meets EAST's real-time plasma-shape-control-system requirement.",
+   "notes": "IOPscience returned HTTP 403 on WebFetch attempt; author list not independently confirmed. | Author list now confirmed via Crossref, replacing the raw record's unconfirmed placeholder. IOPscience page itself remains blocked (HTTP 403); Crossref confirmation is sufficient."
+  },
+  {
+   "id": "L13-011",
+   "title": "Achievements and lessons learned from the operation of KSTAR plasma control system upgrade",
+   "authors_or_org": "KSTAR PCS team, Korea Institute of Fusion Energy",
+   "year": 2018,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0920379618301674",
+   "canonical_key": "doi:10.1016/j.fusengdes.2018.02.066",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.fusengdes.2018.02.066",
+   "doi": "10.1016/j.fusengdes.2018.02.066",
+   "demand_evidence_type": "none",
+   "claim_supported": "Fusion Engineering and Design vol 130 (2018); documents the KSTAR plasma control system upgrade achieving roughly 48 seconds of 500 kA plasma pulses with full real-time shaping and neutral-beam power control, part of Korea's national superconducting tokamak program.",
+   "notes": "DOI added by verifier; ScienceDirect abstract remains paywalled but Crossref confirmation is sufficient per the session's acceptance ruling."
+  },
+  {
+   "id": "L13-012",
+   "title": "A wideband cryogenic microwave low-noise amplifier",
+   "authors_or_org": "Ivanov, B. I.; Volkhin, D. I.; Novikov, I. L.; Pitsun, D. K.; Moskalev, D. O.; Rodionov, I. A.; Il'ichev, E.; Vostretsov, A. G.",
+   "year": 2020,
+   "url": "https://www.beilstein-journals.org/bjnano/articles/11/131",
+   "canonical_key": "doi:10.3762/bjnano.11.131",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3762/bjnano.11.131",
+   "doi": "10.3762/bjnano.11.131",
+   "demand_evidence_type": "none",
+   "claim_supported": "Beilstein Journal of Nanotechnology vol 11 (2020); 4-stage HEMT LNA in a cryogen-free dilution refrigerator at 3.8K, gain over 30 dB from 6-12 GHz, noise temperature under 6K, under 20 mW dissipation, demonstrated reading out an X-mon superconducting qubit.",
+   "notes": "Open-access journal; DOI confirmed via WebSearch snippet, page not fetched directly. | Open-access journal; Crossref confirmation obtained this session."
+  },
+  {
+   "id": "L13-013",
+   "title": "A Low-Power Cryogenic Low-Noise Amplifier for the Next-Generation Quantum Computers",
+   "authors_or_org": "Rebelo, Nelson; Bergsten, Johan; Pourkabirian, Arsalan; Wadefalk, Niklas; Grahn, Jan",
+   "year": 2026,
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/pssa.202501018",
+   "canonical_key": "doi:10.1002/pssa.202501018",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1002/pssa.202501018",
+   "doi": "10.1002/pssa.202501018",
+   "demand_evidence_type": "none",
+   "claim_supported": "Physica Status Solidi (A) vol 223, issue 11 (2026); low-power cryogenic LNA design targeting next-generation quantum-computer readout chains.",
+   "notes": "Full text paywalled (HTTP 402 encountered this session); details limited to title/venue/DOI from WebSearch snippet. | Author list now confirmed via Crossref (institutional affiliations not returned by the Crossref metadata used this session and are left unconfirmed, per the no-fill-from-memory rule). Full text remains paywalled (HTTP 402 previously)."
+  },
+  {
+   "id": "L13-014",
+   "title": "Scalable cryogenic readout circuit for a superconducting nanowire single-photon detector system",
+   "authors_or_org": "Cahall, C.; Gauthier, D. J.; Kim, J. (Duke University)",
+   "year": 2018,
+   "url": "https://pubs.aip.org/aip/rsi/article/89/6/063117/362564",
+   "canonical_key": "doi:10.1063/1.5018179",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/1.5018179",
+   "doi": "10.1063/1.5018179",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of Scientific Instruments vol 89, issue 6, article 063117 (June 2018); cryogenic SNSPD readout circuit using commercial-off-the-shelf amplifiers achieves 35 ps timing resolution, over 2x10^7 counts/sec, under 3 mW per channel, enabling multichannel scaling.",
+   "notes": "Found via WebSearch; not fetched directly. | AIP publisher page itself not independently fetched; Crossref confirmation is sufficient."
+  },
+  {
+   "id": "L13-015",
+   "title": "Cold electronics readout system for protoDUNE-SP LAr-TPC",
+   "authors_or_org": "Chen, H.; Fried, J.; Gao, S.; Kettell, S.; Radeka, V.; Spanu, M.; Worcester, E.; Worcester, M.; Yu, B.; Zhang, J. (Brookhaven National Laboratory / Fermilab, DUNE collaboration)",
+   "year": 2019,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168900218317601",
+   "canonical_key": "doi:10.1016/j.nima.2018.11.110",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.nima.2018.11.110",
+   "doi": "10.1016/j.nima.2018.11.110",
+   "demand_evidence_type": "none",
+   "claim_supported": "Nuclear Instruments and Methods in Physics Research A, vol 936 (2019); describes DUNE protoDUNE-SP cryogenic (cold) readout electronics: 960 front-end ASICs, 960 ADC ASICs, 120 cold FPGAs across 120 front-end motherboards, achieving 99.7% working-channel yield inside the liquid-argon cryostat.",
+   "notes": "Brookhaven National Laboratory primary technical work; found via WebSearch, not fetched directly. | Verifier correction: Crossref lists the formal publication year as 2019 (vol 936), not 2018 as in the raw record; likely the raw record used the online/submission date. Year field updated to 2019 to match the canonical Crossref record. Brookhaven National Laboratory primary technical work."
+  },
+  {
+   "id": "L13-016",
+   "title": "A 76.9 ppm/K Nano-Watt PVT-Insensitive CMOS Voltage Reference Operating From 4 to 300 K for Integrated Cryogenic Quantum Interface",
+   "authors_or_org": "Wang, Jing; He, Jun; Law, Man-Kay; Wang, Xinzhe; Liang, Futian; Cheng, Lin (University of Science and Technology of China; University of Macau)",
+   "year": 2025,
+   "url": "https://doi.org/10.1109/JSSC.2025.3530472",
+   "canonical_key": "doi:10.1109/jssc.2025.3530472",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/jssc.2025.3530472",
+   "doi": "10.1109/JSSC.2025.3530472",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEEE Journal of Solid-State Circuits, vol 60, issue 9, pp. 3242-3256 (Sept 2025); a 76.9 ppm/K, nanowatt-power, PVT-insensitive CMOS voltage reference operating from 4K to 300K without trimming, for integrated cryogenic quantum interfaces, fabricated in standard 180nm CMOS -- corroborated by the USTC news-office announcement (fetched previously, Feb 12 2025 dateline) describing the same 195-304 nW power, 1.045V average output, 0.72% voltage fluctuation, calibration-free operation across batches.",
+   "notes": "VERIFIER REPLACEMENT: the raw record was based solely on a USTC news-office article describing an unlocated JSSC paper with no DOI (rated academic_peer_reviewed T1 without a verifiable record). This session located and Crossref-confirmed the actual peer-reviewed paper (DOI 10.1109/jssc.2025.3530472), and title/authors/venue/url/doi/canonical_key were updated to the verified final paper per the preprint/secondary-report-to-final-version replacement rule. Original news-office URL retained only as corroboration in claim_supported/locator."
+  },
+  {
+   "id": "L13-017",
+   "title": "A Cryo-CMOS Digital Cell Library for Quantum Computing Applications",
+   "authors_or_org": "Schriek, E.; Sebastiano, F.; Charbon, E. (TU Delft)",
+   "year": 2020,
+   "url": "https://ieeexplore.ieee.org/document/9170592/",
+   "canonical_key": "doi:10.1109/lssc.2020.3017705",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/LSSC.2020.3017705",
+   "doi": "10.1109/LSSC.2020.3017705",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEEE Solid-State Circuits Letters, vol 3, pp. 310-313 (2020); a cryo-CMOS digital standard-cell library optimized for 4.2K operation, used to build the first 4.2K RISC-V processor (minimum supply voltage 590 mV, energy-delay product 37 fJ/MHz, max frequency 740 MHz at 4.2K in continuous operation), implemented on a 40nm CMOS process.",
+   "notes": "DOI, journal (IEEE Solid-State Circuits Letters, not a generic 'IEEE journal') and full author list added/corrected by verifier this session."
+  },
+  {
+   "id": "L13-018",
+   "title": "Cryo-CMOS Analog Circuits for Spin Qubit Control",
+   "authors_or_org": "Miki, Takuji (Kobe University, Japan); additional co-authors not individually enumerated by the Crossref metadata used this session",
+   "year": 2024,
+   "url": "https://dl.acm.org/doi/10.1145/3658617.3703141",
+   "canonical_key": "doi:10.1145/3658617.3703141",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "JP",
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1145/3658617.3703141",
+   "doi": "10.1145/3658617.3703141",
+   "demand_evidence_type": "none",
+   "claim_supported": "Proceedings of the 30th Asia and South Pacific Design Automation Conference (ASP-DAC 2025, Tokyo, Jan 2025); cryo-CMOS analog circuit design specifically for spin-qubit control.",
+   "notes": "Author list and country affiliation not independently confirmed this session. | Verifier correction: geography updated from 'multinational' to ['JP'] based on the confirmed Kobe University affiliation returned by Crossref; the full multi-author list was not enumerated by the metadata summary used this session, so other possible co-author countries are not ruled out."
+  },
+  {
+   "id": "L13-019",
+   "title": "CryoCMOS hardware technology: a classical infrastructure for a scalable quantum computer",
+   "authors_or_org": "Homulle, H.; Visser, S.; Patra, B.; Ferrari, G.; Prati, E.; Almudever, C. G.; Bertels, K.; Sebastiano, F.; Charbon, E.",
+   "year": 2016,
+   "url": "https://dl.acm.org/doi/10.1145/2903150.2906828",
+   "canonical_key": "doi:10.1145/2903150.2906828",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1145/2903150.2906828",
+   "doi": "10.1145/2903150.2906828",
+   "demand_evidence_type": "none",
+   "claim_supported": "ACM International Conference on Computing Frontiers (2016); early foundational proposal of cryo-CMOS as classical control infrastructure for scalable quantum computers, predating the 2017-2018 DAC/JSSC papers (L13-004, L13-005).",
+   "notes": "Included to show multi-year continuity (2016-2020) of the TU Delft cryo-CMOS control research program (L13-004, L13-005, L13-017, L13-019). | Full author list now confirmed via Crossref (institutional country split beyond the raw record's 'EU' label not confirmed by the metadata returned this session, so geography is left as originally set rather than asserted from memory). Included to show multi-year continuity (2016-2020) of the TU Delft cryo-CMOS control research program alongside L13-004/005/017."
+  },
+  {
+   "id": "L13-020",
+   "title": "A quantum computing measurement and control system with an FPGA-based scheduling system",
+   "authors_or_org": "Liu, Yijun; Li, Yi (Tsinghua Shenzhen International Graduate School, Tsinghua University)",
+   "year": 2024,
+   "url": "https://pubs.aip.org/aip/rsi/article-abstract/95/11/114709/3322315",
+   "canonical_key": "doi:10.1063/5.0225000",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0225000",
+   "doi": "10.1063/5.0225000",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of Scientific Instruments vol 95, issue 11, article 114709 (Nov 2024); FPGA-based scheduling architecture for quantum measurement/control hardware generating multi-channel long pulse sequences with minimal on-chip storage via reusable envelope/instruction design.",
+   "notes": "Author institutional affiliation not independently confirmed this session; author names suggest a Chinese research group but this is inferred, not confirmed -- flagged as uncertain for verifier. | Institutional affiliation and Chinese geography now independently confirmed via Crossref, resolving the raw record's flagged uncertainty."
+  },
+  {
+   "id": "L13-021",
+   "title": "A C-Band Cryogenic GaAs MMIC Low-Noise Amplifier for Quantum Applications",
+   "authors_or_org": "Guo, Zechen; Sun, Daxiong; Huang, Peisheng; Sun, Xuandong; Yuan, Yuefeng; Zhang, Jiawei; Huang, Wenhui; Liang, Yongqi; Qiu, Jiawei; Zhang, Jiajian; Chu, Ji; Guo, Weijie; Jiang, Ji; Niu, Jingjing; Ren, Wenhui; Tao, Ziyu; Linpeng, Xiayu; Zhong, Youpeng; Yu, Dapeng",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2709472325000206",
+   "canonical_key": "doi:10.1016/j.chip.2025.100146",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.chip.2025.100146",
+   "doi": "10.1016/j.chip.2025.100146",
+   "demand_evidence_type": "none",
+   "claim_supported": "Published in Chip, vol 4, issue 4 (2025); a 150nm GaAs pHEMT 3-stage cryo-LNA operating at 3.6K, 15 mW power, 4K minimum noise temperature, 40 dB average gain in C-band, targeted at large-scale superconducting-qubit-readout amplifier demand.",
+   "notes": "The arXiv companion (2412.19477) is discovery-only; this record is based on the peer-reviewed Chip journal version per WebSearch snippet, not independently fetched. | Full author list now confirmed via Crossref, replacing the raw record's unconfirmed placeholder. arXiv companion 2412.19477 remains discovery-only."
+  },
+  {
+   "id": "L13-022",
+   "title": "Xiling: Cryo-CMOS 18-bit Dual-DAC Manipulator with 4.6 microvolt Precision and 4.1 nV/sqrt(Hz) Noise Co-Integrated with the Single Electron Transistor at 60mK",
+   "authors_or_org": "University of Electronic Science and Technology of China (UESTC) et al.",
+   "year": 2025,
+   "url": "https://ieeexplore.ieee.org/document/10904579/",
+   "canonical_key": "doi:10.1109/isscc49661.2025.10904579",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1109/isscc49661.2025.10904579",
+   "doi": "10.1109/isscc49661.2025.10904579",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEEE ISSCC 2025 paper 13.4 (San Francisco, Feb 16-20, 2025); a 65nm low-temperature CMOS chip achieving high-precision (4.6 microvolt) manipulation of silicon-based single-electron-transistor qubit devices at 60mK, jointly developed with UESTC.",
+   "notes": "DOI added by verifier. An expanded 2026 IEEE JSSC journal version of this work also exists (DOI 10.1109/jssc.2026.3671795, title 'Xiling: Cryo-CMOS Manipulator Using Dual 18-bit R-2R DACs for Single-Electron Transistor at 60 mK') -- flagged for a future verifier/scout to confirm and potentially prefer as the fuller peer-reviewed journal version. Full co-authorship list still not independently confirmed this session."
+  },
+  {
+   "id": "L13-023",
+   "title": "A Cryogenic 1.08mW/Qubit Fully-Integrated 4-Channel Frequency-Division-Multiplexing Transmon Qubit State Readout ASIC in 28nm Bulk CMOS",
+   "authors_or_org": "Huang, W.; Guo, Y.; Tian, T.; Liu, Q.; Wei, G.; Liu, X.; Li, T.; Jia, W.; Zheng, Y.; Wang, Z.; Jiang, Hanjun (Shanghai Jiao Tong University)",
+   "year": 2025,
+   "url": "https://ieeexplore.ieee.org/document/11074904/",
+   "canonical_key": "doi:10.23919/vlsitechnologyandcir65189.2025.11074904",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.23919/vlsitechnologyandcir65189.2025.11074904",
+   "doi": "10.23919/vlsitechnologyandcir65189.2025.11074904",
+   "demand_evidence_type": "none",
+   "claim_supported": "2025 IEEE Symposium on VLSI Technology and Circuits (Kyoto, June 2025); Shanghai Jiao Tong University-authored 28nm bulk-CMOS ASIC performing 4-channel frequency-division-multiplexed transmon-qubit-state readout at 1.08 mW/qubit (4.32 mW total).",
+   "notes": "DOI added by verifier."
+  },
+  {
+   "id": "L13-024",
+   "title": "Cryogenic MMIC Low-Noise Amplifiers for Radio Telescope Applications",
+   "authors_or_org": "Wang, Haohui; Chen, Maozheng",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2079-9292/14/8/1572",
+   "canonical_key": "doi:10.3390/electronics14081572",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/electronics14081572",
+   "doi": "10.3390/electronics14081572",
+   "demand_evidence_type": "none",
+   "claim_supported": "MDPI Electronics vol 14, issue 8, article 1572 (April 13, 2025); two cryogenic LNAs based on a 0.18 micron gate-length GaAs pHEMT process for radio-telescope (SKA-class) receiver front ends, DC-characterized at 290K and 15K -- a facility-hardware application adjacent to the quantum-readout cryo-LNAs covered elsewhere in this lane (L13-012, 013, 021).",
+   "notes": "Author names confirmed via Crossref; institutional affiliation was not returned by the metadata used this session and is left unconfirmed rather than filled from memory."
+  },
+  {
+   "id": "L13-025",
+   "title": "FPGA-based electronic system for the control and readout of superconducting quantum processors",
+   "authors_or_org": "Yang, Yuchen; Shen, Zhongtao; Zhu, Xing; Wang, Ziqi; Zhang, Gengyan; Zhou, Jingwei; Jiang, Xun; Deng, Chunqing; Liu, Shubin (State Key Laboratory of Particle Detection and Electronics & Dept. of Modern Physics, University of Science and Technology of China; Alibaba Quantum Laboratory, Alibaba Group)",
+   "year": 2022,
+   "url": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0085467/16566645/074701_1_online.pdf",
+   "canonical_key": "doi:10.1063/5.0085467",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "CN",
+    "US"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1063/5.0085467",
+   "doi": "10.1063/5.0085467",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review of Scientific Instruments vol 93, issue 7, article 074701 (2022); FPGA-based control-and-readout electronics for superconducting quantum processors, developed by USTC (State Key Laboratory of Particle Detection and Electronics) in collaboration with Alibaba Quantum Laboratory, China. This is NOT the Lawrence Berkeley National Laboratory 'QubiC' project that the raw record assumed.",
+   "notes": "Institutional affiliation (LBNL) inferred from general knowledge of the QubiC project name, not independently confirmed via a fetched page this session -- flagged as uncertain for verifier. | IMPORTANT VERIFIER CORRECTION: the raw scout record inferred LBNL/UC Berkeley 'QubiC' authorship from the project-name association alone, without independently confirming authors ('institutional affiliation inferred ... not independently confirmed'). Crossref metadata for this exact DOI lists the actual authors and affiliations as USTC + Alibaba Quantum Laboratory -- a Chinese academic/industry paper unrelated to the real Berkeley QubiC project (which has different DOIs not verified in this session). Geography corrected from US to CN; claim_supported and title framing corrected accordingly. Downstream idea-architects and demand-competitor analysts should NOT cite this record as evidence of DOE/LBNL activity; if 'QubiC' (LBNL) coverage is needed elsewhere in the mission, a fresh source must be independently found and verified."
+  },
+  {
+   "id": "L13-026",
+   "title": "IEEE 1588-2019 -- IEEE Standard for a Precision Clock Synchronization Protocol for Networked Measurement and Control Systems",
+   "authors_or_org": "IEEE Standards Association (P1588 Working Group)",
+   "year": 2019,
+   "url": "https://standards.ieee.org/ieee/1588/6825/",
+   "canonical_key": "standard:IEEE-1588-2019",
+   "source_type": "standard",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "IEEE 1588-2019 (PTPv2.1); board-approved Nov 7, 2019, published June 16, 2020; provides sub-microsecond (and, in well-designed networks, sub-nanosecond) clock synchronization across packet-based networked measurement and control systems -- the base protocol underlying White Rabbit's picosecond-level timing distribution used across CERN/GSI/SKA-class facilities (see L13-027).",
+   "notes": "Standard purchase/access not attempted; details from WebSearch summaries of the IEEE 1588 working group's own announcements. | Verifier successfully fetched the official IEEE standards-association overview page this session (the IEEE Xplore document page itself returned no retrievable content); this is sufficient to confirm the standard's identity and scope."
+  },
+  {
+   "id": "L13-027",
+   "title": "White Rabbit -- precision timing and synchronization technology",
+   "authors_or_org": "CERN / GSI Helmholtz Centre for Heavy Ion Research / White Rabbit Collaboration",
+   "year": 2024,
+   "url": "https://white-rabbit.web.cern.ch/",
+   "canonical_key": "url:white-rabbit.web.cern.ch",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "CERN's own official page confirms White Rabbit extends IEEE 1588 PTP to achieve sub-nanosecond accuracy and picosecond-level synchronization precision across thousands of distributed nodes at roughly 10 km spacing; originated as a CERN/GSI timing-system renovation, now an open-hardware collaboration (formally launched 2024) with commercial vendors and adopters worldwide.",
+   "notes": "Fetched successfully. See also L13-035 (China ITER feeder context) and L13-033 (Japan/EU JT-60SA) for downstream facility-timing/control context in this lane."
+  },
+  {
+   "id": "L13-028",
+   "title": "Energy Department Announces $625 Million to Advance the Next Phase of National Quantum Information Science Research Centers",
+   "authors_or_org": "U.S. Department of Energy",
+   "year": 2025,
+   "url": "https://www.energy.gov/articles/energy-department-announces-625-million-advance-next-phase-national-quantum-information",
+   "canonical_key": "url:energy.gov/articles/energy-department-announces-625-million-advance-next-phase-national-quantum-information",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "DOE announcement (Nov 4, 2025) of $625M total ($125M FY2025) for five National QIS Research Centers (Brookhaven C2QA, Fermilab SQMS, Argonne Q-NEXT, LBNL QSA, Oak Ridge QSC), covering instrumentation/equipment including new refrigeration methods and chip components for scaling quantum operations.",
+   "notes": "Fetched successfully; official primary DOE source, directly load-bearing for US demand-signal claims in this lane. | Official primary DOE source, directly load-bearing for US demand-signal claims in this lane."
+  },
+  {
+   "id": "L13-030",
+   "title": "ITER Organization -- Open Tenders (procurement portal)",
+   "authors_or_org": "ITER Organization",
+   "year": 2026,
+   "url": "https://www.iter.org/industry/procurement/overview-tenders/open-tenders",
+   "canonical_key": "url:iter.org/industry/procurement/overview-tenders/open-tenders",
+   "source_type": "buyer_procurement",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "buyer_tender",
+   "claim_supported": "Live ITER tenders as of this session include IO/26/OT/10035181/JGO (liquid/gaseous helium supply, cost range D = EUR 4-12M, PIN deadline 24/07/2026) and IO/26/OT/70001516/KJT (CATIA/ENOVIA engineering-software maintenance); ITER's instrumentation-and-control system splits 'in-fund' central control (CODAC/interlock/safety, procured by IO) from 'in-kind' plant-system I&C procured by 7 domestic agencies across roughly 161 plant systems.",
+   "notes": "Fetched successfully; directly load-bearing procurement evidence. The cryogenic-helium-supply tender is adjacent to (not identical to) control/electronics scope -- flagged for the verifier to distinguish facility-hardware-adjacent procurement from I&C-specific procurement. | Directly load-bearing procurement evidence. The cryogenic-helium-supply tender is adjacent to (not identical to) control/electronics scope, but ITER facility-hardware procurement is squarely within lane L13's defined scope ('Quantum/big-science classical electronics, timing, control, and facility hardware' per LANE_MAP.md) -- verifier confirms relevance, flags the adjacency for idea-stage precision."
+  },
+  {
+   "id": "L13-031",
+   "title": "Department of Commerce Releases Export Controls on Quantum Technologies",
+   "authors_or_org": "National Quantum Initiative (quantum.gov), summarizing U.S. Department of Commerce / Bureau of Industry and Security action",
+   "year": 2024,
+   "url": "https://www.quantum.gov/department-of-commerce-releases-export-controls-on-quantum-technologies/",
+   "canonical_key": "url:quantum.gov/department-of-commerce-releases-export-controls-on-quantum-technologies",
+   "source_type": "regulator",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sept 6, 2024 rule imposes worldwide export controls on quantum computers and related equipment/components/materials/software/technology, per the fetched quantum.gov page. A separate, unfetched search result additionally describes a proposed ECCN 4A006 covering quantum computers, qubit devices/circuits, and quantum control components/measurement devices -- this ECCN detail was not re-confirmed by direct fetch this session and should not be treated as verified regulatory text until a Federal Register/eCFR page is independently fetched.",
+   "notes": "The quantum.gov page itself, as fetched, did not state specific ECCN numbers -- that detail comes from an unfetched secondary search result and should be treated as less certain until a verifier fetches the Federal Register/eCFR text directly. Entity List additions targeting PRC quantum-computing-adjacent entities (initial list 2021; further Chinese cryogenic-equipment and photonics suppliers reportedly added in early 2025) were found via WebSearch, but both the Federal Register and Commerce.gov pages failed to fetch this session (403/redirect-block) -- flagged as a documented access gap, not a confirmed absence of the underlying action. | The quantum.gov page itself, as fetched, did not state specific ECCN numbers. Entity List additions targeting PRC quantum-computing-adjacent entities were found via WebSearch, but Federal Register/Commerce.gov pages failed to fetch this session (403/redirect-block) -- documented access gap, not a confirmed absence of the underlying action."
+  },
+  {
+   "id": "L13-032",
+   "title": "Energy Department announces partnership with Fermilab and Qblox to manufacture foundational quantum control platform for U.S. research and innovation",
+   "authors_or_org": "Fermi National Accelerator Laboratory / U.S. Department of Energy / Qblox",
+   "year": 2025,
+   "url": "https://news.fnal.gov/2025/11/energy-department-announces-partnership-with-fermilab-and-qblox-to-manufacture-foundational-quantum-control-platform-for-u-s-research-and-innovation/",
+   "canonical_key": "url:news.fnal.gov/2025/11/energy-department-announces-partnership-with-fermilab-and-qblox-to-manufacture-foundational-quantum-control-platform-for-u-s-research-and-innovation",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Nov 18, 2025 announcement: DOE Office of Technology Commercialization, Fermilab, and Qblox (Netherlands-headquartered) launch a collaboration (initially via Letter of Intent, with a CRADA and full license to follow) to manufacture/distribute/supply-chain the QICK quantum-control platform (L13-001) in the US; Fermilab retains scientific development, Qblox takes workforce development, training, manufacturing, and distribution.",
+   "notes": "Fetched successfully. Per a separate June 2026 trade-press report (thequbitreport.com, not independently fetched), the CRADA/licensing agreement was subsequently finalized -- flagged for the verifier to confirm the final (not just intent-stage) agreement terms directly from a primary DOE/Fermilab source. | A separate June 2026 trade-press report (thequbitreport.com, not independently fetched) reportedly describes the CRADA/licensing agreement being finalized -- unconfirmed; a future verifier should confirm final agreement terms directly from a primary DOE/Fermilab source."
+  },
+  {
+   "id": "L13-033",
+   "title": "JT-60SA -- construction, assembly, and procurement arrangements (Japan-Europe joint fusion project)",
+   "authors_or_org": "National Institutes for Quantum Science and Technology (QST, Japan) / Fusion for Energy (F4E, EU)",
+   "year": 2024,
+   "url": "https://fusionforenergy.europa.eu/news/europe-and-japan-complete-jt-60sa-the-most-powerful-tokamak-in-the-world/",
+   "canonical_key": "url:fusionforenergy.europa.eu/news/europe-and-japan-complete-jt-60sa-the-most-powerful-tokamak-in-the-world",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Europe (via F4E, designed/contracted through CEA, ENEA, CNR-RFX, KIT, SCK-CEN, and CIEMAT) supplied the 18 toroidal field coils, HTS current leads, the 13m-diameter/250-tonne cryostat (CIEMAT-designed), and the cryoplant; Japan (via QST, with Mitsubishi Electric and Toshiba as manufacturing partners) supplied the poloidal field coils, vacuum vessel, in-vessel components, basic power supplies, thermal shields, cryostat port extensions, and assembly/remote-handling tools.",
+   "notes": "Not fetched directly; details per WebSearch summary of F4E's own site. | Verifier fetch of the F4E page this session did NOT surface the raw record's specific claims of 'Japan procures 8 of 24 gyrotron systems' or a separate US/Princeton Plasma Physics Laboratory X-ray crystal spectrometer diagnostic supply -- those two specific details remain unconfirmed by this session's fetch and should be treated as unverified until independently sourced. claim_supported rewritten to match only what was directly confirmed."
+  },
+  {
+   "id": "L13-035",
+   "title": "ITER magnetic feeder system -- China's procurement package",
+   "authors_or_org": "Institute of Plasma Physics, Chinese Academy of Sciences (ASIPP)",
+   "year": 2025,
+   "url": "https://www.cas.cn/cm/202504/t20250414_5063986.shtml",
+   "canonical_key": "url:cas.cn/cm/202504/t20250414_5063986",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Xinhua/CAS report (April 14, 2025): ASIPP (Hefei) completed and delivered the final component of ITER's magnet feeder system -- 31 feeder sets total, approximately 1,600 tonnes combined, largest units (9 corrector-coil inner feeders) 16m diameter x 3m height; described as the domestically-undertaken ITER procurement package with the highest engineering complexity; ASIPP has collaborated with over 140 institutions across 50+ countries since 2006. A related but distinct WebSearch-sourced figure (85% overall procurement-package completion, ~100% localization of key components, 68kA HTS current leads) was not independently re-confirmed via this specific fetched page and should be treated as a secondary, less-certain detail.",
+   "notes": "Verifier URL substitution: the raw record's ipp.cas.cn URL returned a self-signed-certificate error this session and could not be fetched; this cas.cn Xinhua-sourced release on the same institutional domain family (Chinese Academy of Sciences) was located and fetched successfully instead, with matching content (31 feeders, ~1,600 tonnes)."
+  },
+  {
+   "id": "L13-036",
+   "title": "Singapore's National Quantum Strategy (S$300 million, 2024) and National Quantum Processor Initiative",
+   "authors_or_org": "Centre for Quantum Technologies (CQT) / National Research Foundation / National Quantum Office, Singapore",
+   "year": 2024,
+   "url": "https://www.cqt.sg/highlight/2024-05-singapore-national-quantum-strategy/",
+   "canonical_key": "url:cqt.sg/highlight/2024-05-singapore-national-quantum-strategy",
+   "source_type": "government",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "SG"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "official_project_award",
+   "claim_supported": "Announced 30 May 2024: S$300 million over five years via NRF/RIE2025; the National Quantum Processor Initiative targets trapped-ion and neutral-atom platforms 'with a targeted grant call for photonics and control electronics components' -- an explicit, dated funding trigger naming control electronics as a funded component category.",
+   "notes": "Fetched successfully; the strongest single explicit 'control electronics' funding-call evidence found in this lane for any Asian market. | The strongest single explicit 'control electronics' funding-call evidence found in this lane for any Asian market."
+  },
+  {
+   "id": "L13-037",
+   "title": "Keysight Delivers World's First 1,000-Qubit Quantum Control System (to AIST G-QuAT, Japan)",
+   "authors_or_org": "Keysight Technologies",
+   "year": 2025,
+   "url": "https://www.stocktitan.net/news/KEYS/keysight-installs-world-s-largest-commercial-quantum-control-system-l5s2ihpugjz9.html",
+   "canonical_key": "url:stocktitan.net/news/KEYS/keysight-installs-world-s-largest-commercial-quantum-control-system-l5s2ihpugjz9",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "JP",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "July 29, 2025: Keysight delivered a commercial quantum control system supporting 1,000+ superconducting qubits to Japan's National Institute of Advanced Industrial Science and Technology (AIST), specifically its Global Research and Development Center for Business by Quantum-AI Technology (G-QuAT) in Tsukuba -- the first commercially delivered control system supporting 1,000+ qubits; no price disclosed.",
+   "notes": "Fetched successfully; a republished company press release via a financial-news aggregator, not Keysight's own primary press page nor an audited filing -- rated T2 accordingly. | Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is Keysight's (the vendor's) own press release naming a customer (AIST/G-QuAT), not documentation authored by the customer itself. Per role rule 3, a vendor claim naming a customer does not qualify as direct_customer_documentation -- only a document produced by the buyer/customer itself would. Source_type/tier (trade_press/T2) retained as still-credible, dated, named-deployment evidence; just not counted toward the primary-demand quota."
+  },
+  {
+   "id": "L13-038",
+   "title": "SEEQC Partners with ITRI to Build Advanced Superconducting Electronic Chip Manufacturing Line",
+   "authors_or_org": "SEEQC, Inc. / Industrial Technology Research Institute (ITRI, Taiwan)",
+   "year": 2025,
+   "url": "https://www.prnewswire.com/news-releases/seeqc-partners-with-itri-to-build-advanced-superconducting-electronic-chip-manufacturing-line-302629459.html",
+   "canonical_key": "url:prnewswire.com/news-releases/seeqc-partners-with-itri-to-build-advanced-superconducting-electronic-chip-manufacturing-line-302629459",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "TW",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Dec 1, 2025: SEEQC and Taiwan's ITRI will build a dedicated manufacturing line for SEEQC's Single Flux Quantum (SFQ) superconducting control chips (cryogenic classical control ICs handling timing/readout/multiplexing/error-correction logic); initial phase is technology transfer/process development, with chips shipped to SEEQC's US HQ for qubit integration/testing; Taiwan partners also include Kinpo (room-temperature electronics) and National Taiwan University (CMOS interfaces).",
+   "notes": "Fetched successfully; company press release distributed via PR Newswire, not an audited filing -- T2. | Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is a jointly-issued company press release (PR Newswire format, SEEQC as lead announcer); it is not ITRI's own independent primary filing, tender, or award announcement, per role rule 3's instruction to distinguish vendor/company claims from primary buyer/tender/filing documents. ITRI's real institutional co-commitment is noted as context but not counted as a primary-demand type. Source_type/tier (trade_press/T2) unchanged."
+  },
+  {
+   "id": "L13-039",
+   "title": "Quantum Machines Forges Strategic Partnerships with Leading Korean Research and Investment Groups",
+   "authors_or_org": "Quantum Machines / KRISS / Korea Quantum Computing Industry Leaders' Alliance (QCILA) / Orientom",
+   "year": 2023,
+   "url": "https://www.prnewswire.com/news-releases/quantum-machines-forges-strategic-partnerships-with-leading-korean-research-and-investment-groups-301864490.html",
+   "canonical_key": "url:prnewswire.com/news-releases/quantum-machines-forges-strategic-partnerships-with-leading-korean-research-and-investment-groups-301864490",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "KR",
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "June 27, 2023, at Korea Quantum Week (Seoul): Quantum Machines (Israel) signed three MOUs -- with KRISS (Korea's national metrology institute), QCILA (a consortium including LGE, Samsung, POSCO ICT), and Orientom (quantum finance software, also collaborating with the Korea Meteorological Administration) -- to collaborate on advancing quantum control systems and related technology in Korea.",
+   "notes": "Not fetched directly this session. | Verifier: fetched=true updated (successfully fetched this session, was false in raw). demand_evidence_type downgraded from 'direct_customer_documentation' to 'none' per role rule 3 -- this is Quantum Machines' (the vendor's) own press release, not documentation authored by KRISS/QCILA/Orientom themselves. Source_type/tier (trade_press/T2) unchanged."
+  },
+  {
+   "id": "L13-040",
+   "title": "KRISS Pioneers South Korea's Quantum Ambitions with 20-Qubit Cloud Service",
+   "authors_or_org": "Businesskorea (reporting on KRISS)",
+   "year": 2025,
+   "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=237878",
+   "canonical_key": "url:businesskorea.co.kr/news/articleView.html?idxno=237878",
+   "source_type": "trade_press",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "KR"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "March 12, 2025 demonstration (reported March 20, 2025): KRISS (Korea Research Institute of Standards and Science) demonstrated a cloud service on a 20-qubit quantum computer built with domestically developed technology; roadmap targets 50 qubits and 1,000 qubits by 2032. The article contains no control-electronics/timing-system technical detail and names no control-electronics vendor or transaction.",
+   "notes": "Fetched successfully; a Korean national-metrology-institute-led effort, but this specific article does not itself detail control-electronics hardware -- flagged as a coverage gap needing a more technical Korean-language follow-up source. | Verifier correction: demand_evidence_type was already 'direct_customer_documentation' in the raw record, but this is third-party trade press (not KRISS's own documentation) and names no control-electronics vendor/purchase -- downgraded to 'none'. Retained as T2 context on Korea's national quantum-computing effort; a more technical Korean-language follow-up source is still needed for control-electronics-specific demand signal, as originally flagged."
+  },
+  {
+   "id": "L13-041",
+   "title": "Bluefors Opens Expanded U.S. Production Facilities -- Becomes Biggest Producer of Dilution Refrigerators in North America",
+   "authors_or_org": "Bluefors Oy",
+   "year": 2024,
+   "url": "https://bluefors.com/press-releases/bluefors-opens-expanded-u-s-production-facilities-becomes-biggest-producer-of-dilution-refrigerators-in-north-america/",
+   "canonical_key": "url:bluefors.com/press-releases/bluefors-opens-expanded-u-s-production-facilities-becomes-biggest-producer-of-dilution-refrigerators-in-north-america",
+   "source_type": "market_industry",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU",
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sept 16, 2024: Bluefors (Finland) opened an expanded Syracuse, NY facility (+35,000 sq ft, roughly 45% capacity increase, nearly doubling Cryomech cryocooler capacity), becoming the largest North American dilution-refrigerator producer and enabling first-time US-based dilution-refrigerator manufacturing plus a US/Canada spare-parts hub.",
+   "notes": "Fetched successfully; company's own announcement, not an audited filing -- T2. No revenue/market-share figures are disclosed in this specific release; broader market-share figures (e.g. roughly 34% global share) come from unfetched third-party market-research aggregator pages and should be treated as less certain. | Company's own announcement, not an audited filing -- T2, and functionally a self-published corporate announcement rather than independent market analysis (source_type retained as market_industry per the original classification, closest available fit). No revenue/market-share figures are disclosed in this release; broader market-share figures (e.g. roughly 34% global share) come from unfetched third-party market-research aggregator pages and should be treated as less certain."
+  },
+  {
+   "id": "L13-042",
+   "title": "Delft Circuits Presents its I/O Roadmap for Scaling Quantum Computers towards Thousands of Qubits",
+   "authors_or_org": "Delft Circuits",
+   "year": 2025,
+   "url": "https://delft-circuits.com/delft-circuits-presents-its-i-o-roadmap-for-scaling-quantum-computers-towards-thousands-of-qubits/",
+   "canonical_key": "url:delft-circuits.com/delft-circuits-presents-its-i-o-roadmap-for-scaling-quantum-computers-towards-thousands-of-qubits",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "EU"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Sept 2025 vendor roadmap: Cri/oFlex cryogenic cabling currently delivers 256 channels/loader (vs 168 for HD coax) at roughly double the coax price per channel; density is claimed to increase 4x every two years, targeting 1,024 channels/loader by 2027 and 4,096 by 2029; claims 5-20x fewer failure points than coax/HD-coax.",
+   "notes": "Fetched successfully; all figures are vendor claims, not independently verified -- explicitly labeled as such per claim-discipline rules. | All figures are vendor claims, not independently verified -- explicitly labeled as such per claim-discipline rules."
+  },
+  {
+   "id": "L13-044",
+   "title": "QuEL, Inc. quantum control system deployed at RIKEN",
+   "authors_or_org": "QuEL, Inc. (spun out of Osaka University)",
+   "year": 2023,
+   "url": "https://quel-inc.com/ja/2023/03/27/riken/",
+   "canonical_key": "url:quel-inc.com/ja/2023/03/27/riken",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "ja",
+   "geography": [
+    "JP"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "March 27, 2023: RIKEN's quantum computer, unveiled that day, uses a control device developed at Osaka University and transferred to QuEL, Inc., which states the technology 'is already being sold' -- i.e. a Japanese national-lab deployment of a spun-out commercial control-hardware startup's product.",
+   "notes": "Fetched successfully; company's own Japanese-language blog post, not an independent government confirmation, but names a specific national-lab (RIKEN) deployment. | Verifier correction: demand_evidence_type downgraded from 'direct_customer_documentation' to 'none'. This is QuEL's (the vendor's) own blog post naming a national-lab deployment, not RIKEN's own documentation, per role rule 3. Retained as valid T2 vendor_datasheet evidence of a real, named, operational Japan deployment -- useful geography/context, just not schema-primary demand."
+  },
+  {
+   "id": "L13-045",
+   "title": "Zynq UltraScale+ RFSoC Data Sheet (DS926 / DS889) -- RF-ADC/RF-DAC data converters used in quantum/accelerator control hardware",
+   "authors_or_org": "AMD (Xilinx)",
+   "year": 2024,
+   "url": "https://docs.amd.com/r/en-US/ds926-zynq-ultrascale-plus-rfsoc",
+   "canonical_key": "url:docs.amd.com/r/en-US/ds926-zynq-ultrascale-plus-rfsoc",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "US"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "RFSoC RF-ADC supports up to 4 GSPS sampling / 4 GHz signal bandwidth; RF-DAC up to 6.554 GSPS / over 4 GHz output bandwidth, with built-in digital down/up converters, NCO, and complex mixer (e.g. ZU28DR: 8x 12-bit ADCs at 4.096 GSPS, 8x 14-bit DACs at 6.554 GSPS) -- the underlying commodity silicon platform used by QICK (L13-001), QubiC-class systems (L13-025 is a distinct, unrelated paper -- see its notes), and multiple commercial qubit-control vendors.",
+   "notes": "Not fetched directly; official AMD documentation, high confidence despite not being fetched this session. | Official AMD vendor documentation; treated as a self-published vendor datasheet (T2), inherently a vendor claim about its own product, consistent with claim-discipline labeling."
+  },
+  {
+   "id": "L13-046",
+   "title": "OPX+ / OPX1000 quantum control hardware",
+   "authors_or_org": "Quantum Machines",
+   "year": 2024,
+   "url": "https://www.quantum-machines.co/products/opx1000/",
+   "canonical_key": "url:quantum-machines.co/products/opx1000",
+   "source_type": "vendor_datasheet",
+   "tier": "T2",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Quantum Machines (Israel) markets OPX1000 with 'highest channel density in the industry -- 80 analog channels / 3U,' modular microwave (8x complex I/Q PPU cores, 50 MHz-10.5 GHz, phase noise under -125 dBc/Hz at 6 GHz) and low-frequency (16 PPU cores, DC-750 MHz, voltage noise <30 nV/sqrt(Hz) @ 100 kHz) front-end modules; targets error correction, VQAs, calibration, sensing/networking, and HPC-quantum integration. No public list pricing disclosed on-page; one secondary source estimates full entry-level cryogenic quantum-computing systems bundling either Qblox or QM control electronics cost roughly $1-3M plus $200-400K/year operations.",
+   "notes": "The pricing figure is a third-party estimate (postquantum.com), not vendor-disclosed list pricing -- labeled as such."
+  },
+  {
+   "id": "L13-048",
+   "title": "CAS press release on the Zuchongzhi 3.0 superconducting quantum-computing prototype",
+   "authors_or_org": "Chinese Academy of Sciences (中国科学院)",
+   "year": 2025,
+   "url": "https://www.cas.cn/yw/202503/t20250304_5048593.shtml",
+   "canonical_key": "url:cas.cn/yw/202503/t20250304_5048593",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Confirms the Zuchongzhi 3.0 results (L13-003) were published as a Physical Review Letters cover paper on March 3, 2025 (Beijing time); official CAS press statement, fetched in full.",
+   "notes": "Fetched successfully; this page did NOT state a '100% domestic localization of cryogenic refrigeration and measurement-control system' claim seen in a separate, unfetched ncsti.gov.cn search snippet -- that specific localization claim should be treated as unconfirmed until independently fetched, despite appearing in multiple secondary Chinese news outlets. | This page did NOT state a '100% domestic localization of cryogenic refrigeration and measurement-control system' claim seen in a separate, unfetched ncsti.gov.cn search snippet -- that specific localization claim should be treated as unconfirmed until independently fetched, despite appearing in multiple secondary Chinese news outlets."
+  },
+  {
+   "id": "L13-049",
+   "title": "USTC news office report on Zuchongzhi 3.0",
+   "authors_or_org": "University of Science and Technology of China (中国科学技术大学) news office",
+   "year": 2025,
+   "url": "https://news.ustc.edu.cn/info/1056/90742.htm",
+   "canonical_key": "url:news.ustc.edu.cn/info/1056/90742",
+   "source_type": "national_lab",
+   "tier": "T1",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "zh",
+   "geography": [
+    "CN"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Independently confirms Zuchongzhi 3.0's 105 qubits/182 couplers, 72 microsecond coherence, 99.90%/99.62%/99.13% parallel single-qubit/two-qubit/readout fidelities, and the 83-qubit/32-cycle random-circuit-sampling speed comparison versus classical supercomputers and Google's Willow processor; led by Pan Jianwei, Zhu Xiaobo, Peng Chengzhi.",
+   "notes": "Fetched successfully; a distinct institutional source (university, not the CAS umbrella) corroborating L13-003/048 performance figures; this article also did not address measurement-control-system localization specifics. | A distinct institutional source (university, not the CAS umbrella) corroborating L13-003/048 performance figures; this article also did not address measurement-control-system localization specifics."
+  },
+  {
+   "id": "L13-050",
+   "title": "Dilution Refrigerator for Quantum Computing Market (industry market-size report)",
+   "authors_or_org": "Valuates Reports / QYResearch (secondary market-research aggregator)",
+   "year": 2025,
+   "url": "https://reports.valuates.com/market-reports/QYRE-Auto-24T19077/global-dilution-refrigerator-for-quantum-computing",
+   "canonical_key": "url:reports.valuates.com/market-reports/QYRE-Auto-24T19077/global-dilution-refrigerator-for-quantum-computing",
+   "source_type": "market_industry",
+   "tier": "T3",
+   "lane_ids": [
+    "L13"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "not_applicable",
+   "peer_review_evidence_url": "",
+   "doi": "",
+   "demand_evidence_type": "none",
+   "claim_supported": "Estimates the dilution-refrigerator-for-quantum-computing market at roughly US$72.6M (2024) growing to US$193M by 2031 (about 15% CAGR); lists 9 major vendors including Bluefors, ULVAC, Oxford Instruments, Cryoconcept, FormFactor, Maybell Quantum, Zero Point Cryogenics, and two Chinese players (Benyuan Quantum Computing Technology/Hefei, Hefei QuantumCTek). The report landing page states the top-3-vendor combined revenue share as a percentage but the specific figure is blank/redacted on the free teaser page -- the raw record's '>70% Bluefors+Oxford share' and broader '$108M-$178M all-application' figures were NOT independently re-confirmed by this fetch and should be treated as less certain, sourced elsewhere.",
+   "notes": "Consultancy/market-aggregator estimate with no disclosed bottom-up methodology -- T3, context only, not independently fetched. Should NOT be used alone as market-size evidence without independent triangulation per claim-discipline rules. Included as this lane's single T3 record (within the 2-3 T3 cap). | Consultancy/market-aggregator estimate with no disclosed bottom-up methodology -- T3, context only. Should NOT be used alone as market-size evidence without independent triangulation per claim-discipline rules. This lane's single T3 record (within the tier cap)."
+  },
+  {
+   "id": "L14-001",
+   "title": "Investigations on heat dissipation performance and overall characteristics of two-phase liquid immersion cooling systems for data center",
+   "authors_or_org": "Unconfirmed individual authors (International Journal of Heat and Mass Transfer, Elsevier)",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0017931024014030",
+   "canonical_key": "doi:10.1016/j.ijheatmasstransfer.2024.126575",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L14"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.ijheatmasstransfer.2024.126575",
+   "doi": "10.1016/j.ijheatmasstransfer.2024.126575",
+   "demand_evidence_type": "none",
+   "claim_supported": "Investigates heat dissipation performance and overall system characteristics of two-phase liquid immersion cooling for data centers; published in International Journal of Heat and Mass Transfer, vol. 239, article 126575 (Elsevier, April 2025 issue).",
+   "notes": "Verifier resolved DOI via Crossref this session (title/venue/year match exact); DOI not present in scout's raw record. Per mission ruling on academic acceptance, Crossref-confirmed identity + this-session fetch of the Crossref record satisfies fetched/peer-review criteria despite ScienceDirect blocking direct article-page fetch. Detailed quantitative results (specific heat-flux/COP figures) beyond the title were not independently re-derived from full text this session -- treat any specific number from this paper as scout-summarized, not independently confirmed."
+  },
+  {
+   "id": "L14-002",
+   "title": "Performance improvement of high-density data center via two-phase liquid immersion cooling",
+   "authors_or_org": "Unconfirmed authors (Journal of Thermal Analysis and Calorimetry, Springer Nature)",
+   "year": 2025,
+   "url": "https://link.springer.com/article/10.1007/s10973-025-14006-0",
+   "canonical_key": "doi:10.1007/s10973-025-14006-0",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L14"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1007/s10973-025-14006-0",
+   "doi": "10.1007/s10973-025-14006-0",
+   "demand_evidence_type": "none",
+   "claim_supported": "Compares air-based cooling (hot-aisle containment) against a two-phase liquid immersion system by CFD for a high-density data center up to 1168 kW; reports max server temperature falling to 65C and PUE improving from ~2.0 (air) to 1.01 (liquid) in simulation. Confirmed in Journal of Thermal Analysis and Calorimetry, published Feb 22, 2025.",
+   "notes": "WebFetch redirected to Springer's idp.springer.com authentication gateway (303); full text not retrieved this session. DOI confirmed via Springer URL structure and cross-referenced in search results. Verifier should fetch directly via institutional access to confirm authorship and peer-review status. | Full text not independently re-fetched (Springer authentication gateway); Crossref identity confirmation satisfies acceptance criteria. PUE/temperature figures remain scout-sourced from search snippet, not independently re-verified against full text."
+  },
+  {
+   "id": "L14-003",
+   "title": "Efficient two-phase liquid cooling and optimization technology on the chip side based on high-power data centers: Summary and prospects",
+   "authors_or_org": "Unconfirmed authors (Renewable and Sustainable Energy Reviews, Elsevier)",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364032125006677",
+   "canonical_key": "doi:10.1016/j.rser.2025.115994",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L14"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.rser.2025.115994",
+   "doi": "10.1016/j.rser.2025.115994",
+   "demand_evidence_type": "none",
+   "claim_supported": "Review/summary of chip-side two-phase liquid cooling and optimization technology for high-power data centers; confirmed in Renewable and Sustainable Energy Reviews, vol. 223, article 115994, Nov 2025.",
+   "notes": "DOI not present in raw record; resolved by verifier via Crossref this session. ScienceDirect article page itself remains blocked (403) to automated fetch."
+  },
+  {
+   "id": "L14-004",
+   "title": "A comprehensive review of single-phase immersion cooling in data centres",
+   "authors_or_org": "Zheng, Shuai; Su, Chuansheng; Yang, Xiaoping; Zhang, Yuantong; Duan, Kaiwen; Zhang, Yuan; Huang, Zhandong; Zhang, Yonghai; Liu, Fan; Wei, Jinjia (Applied Thermal Engineering, Elsevier)",
+   "year": 2025,
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S1359431125009779",
+   "canonical_key": "doi:10.1016/j.applthermaleng.2025.126385",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L14"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.1016/j.applthermaleng.2025.126385",
+   "doi": "10.1016/j.applthermaleng.2025.126385",
+   "demand_evidence_type": "none",
+   "claim_supported": "Comprehensive review of single-phase immersion cooling technology for data centers, covering benefits, fluid classes, and deployment challenges. Confirmed: Applied Thermal Engineering, vol. 272, article 126385, Aug 2025, 10 named authors led by Zheng, Shuai.",
+   "notes": "Author list newly confirmed via Crossref this session (raw record had 'unconfirmed authors'). ScienceDirect article page itself remains blocked (403)."
+  },
+  {
+   "id": "L14-005",
+   "title": "Immersion cooling technology development status of data center",
+   "authors_or_org": "Zhou, Kun; Yu, Xiaolin; Xie, Baogang; Xie, Hongxi; Fu, Wei (Hefei General Machinery Research Institute Co., Ltd.) (Science and Technology for Energy Transition, EDP Sciences)",
+   "year": 2024,
+   "url": "https://www.stet-review.org/articles/stet/full_html/2024/01/stet20240005/stet20240005.html",
+   "canonical_key": "doi:10.2516/stet/2024022",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L14"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational",
+    "CN"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://www.stet-review.org/articles/stet/full_html/2024/01/stet20240005/stet20240005.html",
+   "doi": "10.2516/stet/2024022",
+   "demand_evidence_type": "none",
+   "claim_supported": "Reviews development status of immersion cooling technology (single- and two-phase) for data centers; open-access STET article, received Jan 10 2024, accepted Mar 22 2024, published Jul 15 2024, authored by researchers at Hefei General Machinery Research Institute (China).",
+   "notes": "DOI corrected from scout's placeholder (scout had no DOI); actual DOI is 10.2516/stet/2024022, not in the Crossref-registered-agency sense checked but confirmed directly from the publisher's own page along with received/accepted dates evidencing a real review cycle. STET is an EDP Sciences / IFP Energies nouvelles open-access journal."
+  },
+  {
+   "id": "L14-006",
+   "title": "Optimization of Heat Transfer and Flow Performance of Microchannel Liquid-Cooled Plate Based on Orthogonal Test",
+   "authors_or_org": "Unconfirmed authors (Buildings, MDPI)",
+   "year": 2025,
+   "url": "https://www.mdpi.com/2075-5309/15/6/905",
+   "canonical_key": "doi:10.3390/buildings15060905",
+   "source_type": "academic_peer_reviewed",
+   "tier": "T1",
+   "lane_ids": [
+    "L14"
+   ],
+   "language": "en",
+   "geography": [
+    "multinational"
+   ],
+   "peer_review_status": "verified",
+   "peer_review_evidence_url": "https://api.crossref.org/works/10.3390/buildings15060905",
+   "doi": "10.3390/buildings15060905",
+   "demand_evidence_type": "none",
+   "claim_supported": "Investigates a counter-flow rectangular microchannel liquid-cooled plate via orthogonal testing and numerical simulation; finds velocity the dominant performance factor. Confirmed: Buildings (MDPI), published Mar 13 2025.",
+   "notes": "WebFetch returned HTTP 403 on mdpi.com directly; DOI confirmed via search (doi.org/10.3390/buildings15060905) and MDPI URL-to-DOI convention. Full text not independently fetched this session. | Direct MDPI fetch not re-attempted (previously 403); Crossref confirmation this session is sufficient per mission ruling."
+  }
+ ]
+}

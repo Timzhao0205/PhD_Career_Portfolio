@@ -1,0 +1,12 @@
+{
+  "stage": "40_select",
+  "status": "COMPLETE",
+  "outputs": [
+    "SELECTION.json",
+    "PORTFOLIO_CHECKS.json",
+    "SELECTION.md"
+  ],
+  "checks": {
+    "fixture": true
+  }
+}

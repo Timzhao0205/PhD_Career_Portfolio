@@ -1,0 +1,27 @@
+{
+    "stage":  "20_p4",
+    "kind":  "PILOT",
+    "status":  "COMPLETE",
+    "validated_at_utc":  "2026-07-28T04:13:59.8557624Z",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "effort_requested":  "xhigh",
+    "claude_code_version":  "2.1.220",
+    "total_cost_usd_telemetry":  33.520887650000006,
+    "total_duration_ms":  1782292,
+    "total_input_tokens":  339118,
+    "total_output_tokens":  245,
+    "output_files":  [
+                         {
+                             "path":  "pilot\\20_p4\\PILOT.json",
+                             "bytes":  4495,
+                             "sha256":  "01445F411694CA98B5B00F155C0D14C2937A2EFB9A2D9FC1519BFAEFC90A9A2B"
+                         },
+                         {
+                             "path":  "pilot\\20_p4\\PILOT.md",
+                             "bytes":  1769,
+                             "sha256":  "33009112E09A787C56D6C9E9B8C3FB6CEE2781D6CD1CC474251E1F2CE619E72A"
+                         }
+                     ]
+}

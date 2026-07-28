@@ -1,0 +1,12 @@
+{
+  "stage": "45_packs",
+  "status": "COMPLETE",
+  "outputs": [
+    "SOURCES.json",
+    "PACKS.json",
+    "PACKS.md"
+  ],
+  "checks": {
+    "fixture": true
+  }
+}

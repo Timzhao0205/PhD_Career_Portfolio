@@ -1,0 +1,1350 @@
+[
+  {
+    "idea_id": "P3R2-D-01",
+    "concept": "Merchant quench-detection-and-protection subsystem for REBCO/HTS magnets: co-wound distributed fiber-optic sensing plus sub-millisecond active energy extraction, sold with a qualification dossier to fusion companies and national labs.",
+    "primary_lane": "L03",
+    "secondary_lanes": [
+      "L13",
+      "L05"
+    ],
+    "sector_cluster": "fusion/big-science superconducting magnets",
+    "product_role": "safety-critical subsystem",
+    "primary_customer_archetype": "national_lab",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "Commonwealth Fusion Systems (sells magnets to Realta, WHAM)",
+      "Tokamak Energy / TE Magnetics",
+      "DOE milestone-program fusion awardees",
+      "university/national-lab high-field magnet programs",
+      "US-ITER/ORNL magnet operations (from A-04/E-07, L03-030)"
+    ],
+    "painful_job": "HTS coils have very high minimum quench energy and slow normal-zone propagation, so voltage-tap detection fails; builders must choose between no-insulation windings (poor ramp/control) or unproven fast detection, over-engineering every multi-megajoule magnet (L03-004, L03-018, L03-020, L03-021).",
+    "product": "Retrofittable quench detection + protection package: Rayleigh-backscatter fiber co-wound in the coil plus RF/acoustic hotspot channels, fused in a deterministic FPGA trigger driving a qualified multi-kV energy-extraction/CLIQ-class dump circuit; delivered with test data at 10-20 T relevant conditions. Merged extensions: delivered with a published acceptance-test protocol and warranty-support framing for merchant magnet sales (from A-04); the accumulated quench-precursor signature dataset across driven-quench campaigns is the compounding moat (from E-07).",
+    "frontier_vision": "Become the certification-grade 'flight recorder and ejection seat' for every high-field HTS magnet -- fusion, NMR, accelerator, industrial -- the way rad-hard PLCs became mandatory in nuclear I&C.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: university magnet-lab access (e.g., high-field magnet facility) and instrumentation of small REBCO pancakes; publish detection-latency benchmarks. 2027-28: DOE SBIR/INFUSE-class grants with a fusion partner; controlled-quench campaigns on 1-2 T coils. 2029: demonstrate 100 ms-class pre-quench warning plus automated dump on a multi-kA coil at a partner lab; freeze v1 architecture and qualification plan.",
+    "launch_2030_timing_thesis": "SPARC-class results in 2026-27 convert into pilot-plant magnet builds around 2030; every new builder needs protection it cannot buy today, and qualification data accumulated 2027-2029 is the moat at exactly that moment.",
+    "demand_trigger_2030_2034": "Post-SPARC fusion pilot-plant magnet procurement (CFS ARC-class, Tokamak Energy ST80-HTS follow-on) and the DOE Milestone-Based Fusion Development Program renewal decision after its FY2027 authorization window (L03-032, L03-033, L03-035); CFETR magnet procurement if it opens (L03-024) is upside, not baseline. Side market (from E-07): KEPCO + LS Cable/LS Electric superconducting datacenter-grid MOU as a cable-monitoring channel (L03-042/043); US-ITER/ORNL magnet operations as lab-side buyers (L03-030). CN chapter (from C-17): ASIPP/CFETR demand logic exists (L03-024/029/037) but is served only via license-out and ONLY if export counsel clears - quench protection is dual-use-adjacent; no CN beachhead, flags unchanged.",
+    "competition_outlook_2030": "In-house teams at CFS/TE Magnetics (L03-035, L03-044), national-lab solutions (CERN CLIQ lineage, tuned for LTS), instrumentation vendors without protection power electronics. No merchant vendor of an integrated HTS detection+dump product identified in the atlas.",
+    "timing_window_risk": "If no-insulation windings prove fully sufficient at pilot-plant scale, the detection problem shrinks; if a magnet builder open-sources a good solution, differentiation collapses to service/qualification.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "Watching a superconductor start to die in real time -- centimeter-resolved strain/temperature along kilometers of tape at kilohertz rates -- and killing a 100 MJ discharge before it burns the coil.",
+    "demand_source_ids": [
+      "L03-032",
+      "L03-033",
+      "L03-035",
+      "L03-042",
+      "L03-043",
+      "L03-030",
+      "L03-044"
+    ],
+    "technical_source_ids": [
+      "L03-004",
+      "L03-018",
+      "L03-020",
+      "L03-021",
+      "L03-029",
+      "L03-005",
+      "L03-006",
+      "L03-007",
+      "L03-008"
+    ],
+    "competitor_source_ids": [
+      "L03-035",
+      "L03-044"
+    ],
+    "first_experiment": "Co-wind fiber + RF pickup in a 1-2 T REBCO double-pancake, drive controlled quenches, and demonstrate >=100 ms warning before thermal runaway with <1% false-trigger rate (2027, university magnet lab).",
+    "first_experiment_budget_usd": 250000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP: Furukawa/Fujikura REBCO ecosystem as conductor-QA partners (L03-044) [from E-07]",
+      "KR: KEPCO + LS Cable datacenter superconducting-grid MOU as cable-monitoring side market (L03-042, L03-043) [from E-07]"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "merge_import_notes": "2026-07-13: absorbed A-04 (acceptance-test protocol / warranty framing for merchant magnet sales; multi-modal sensing sources L03-005/006/007/008), C-17 (CN ASIPP/CFETR chapter - documented as license-out-only, counsel-gated; china_beachhead stays false), and E-07's protection half (precursor-dataset moat + KEPCO/LS cable-monitoring side market; its QA-bench half went to D-02).",
+    "elegance_verdict": "PROMOTE",
+    "adjudication_note": "2026-07-13 adjudication (PROMOTE): Canonical quench detection/protection. Falsifiable 2027 experiment; honest NI-winding substitution risk. Absorb A-04 protocol framing, E-07 precursor-dataset moat + KEPCO/LS side market; CN only if counsel clears."
+  },
+  {
+    "idea_id": "P3R2-D-02",
+    "concept": "Reel-to-reel contactless REBCO tape quality metrology (Hall-array critical-current mapping + delamination screening) sold to tape vendors and magnet builders as certified acceptance instrumentation.",
+    "primary_lane": "L03",
+    "secondary_lanes": [
+      "L06"
+    ],
+    "sector_cluster": "superconductor manufacturing metrology",
+    "product_role": "inline metrology instrument",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US+CN",
+    "named_buyer_examples": [
+      "Commonwealth Fusion Systems (Devens tape/magnet line)",
+      "Furukawa/SuperPower (several-hundred-km supply deal to Tokamak Energy)",
+      "Shanghai Superconductor / Shanghai Shangchuang (CN domestic capacity buildout)",
+      "Western Superconducting Technologies (CN, ITER strand lineage, L03-031, from B-10)",
+      "ASIPP Hefei high-field magnet program (CN, L03-029/037, from B-10)"
+    ],
+    "painful_job": "Fewer than 10 tape vendors supply the world; a single fusion order absorbs a meaningful share of annual output, yet Ic uniformity, strain/delamination and screening-current degradation force magnet builders to over-specify and re-test tape with bespoke, non-comparable acceptance methods (L03-003, L03-019, L03-018, L03-020, L03-021).",
+    "product": "77 K reel-to-reel scanner: dense Hall-sensor array plus lock-in thermal imaging maps position-resolved Ic and detects buried delamination/dropouts at m/s line speed, with transport-Ic-calibrated reporting and a shared acceptance data format for vendor and buyer. Merged extensions: 10kA-class cable/CICC acceptance stations and financier/insurer-grade data packages (from C-11); per-meter 'conductor passport' reporting framing (from B-10); conductor/joint QA benches with a Furukawa/Fujikura partnership channel (from E-07).",
+    "frontier_vision": "The KLA of superconductors: every kilometer of HTS tape and every finished cable/coil ships with a standardized, instrument-traceable quality map, closing the loop back into deposition process control.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: benchtop magnetscan rig on purchased tape lots; publish correlation of contactless Ic estimate to transport Ic within a few percent. 2027-28: pilot placements with one US magnet builder and one tape vendor under NRE contracts; extend to coil/cable acceptance heads. 2029: inline-speed prototype at a vendor line; draft an open acceptance-report schema with two counterparties.",
+    "launch_2030_timing_thesis": "Tape volume triples-to-10x between 2026 and the early-2030s pilot-plant builds; QC pain scales with volume and with new entrants' unproven lines, peaking exactly at launch.",
+    "demand_trigger_2030_2034": "Fusion pilot-plant tape procurement waves (CFS ARC-class; Tokamak Energy ST80-HTS wire deal as precedent, L03-044), Chinese domestic REBCO capacity expansion for import independence (L03-052), and CFETR magnet procurement if construction starts (L03-024). Additional evidenced demand (merged): DOE milestone-program QA needs and CFS magnet-as-product certification (L03-032/035, from C-11); the State Grid Shanghai 35 kV commercial HTS cable and follow-ons (L03-041, from B-10); ASIPP's high-field program (L03-029/037) and WST's ITER-strand QA lineage (L03-031).",
+    "competition_outlook_2030": "Vendor in-house scanners (THEVA Tapestar-class -- judgment), Lake Shore-style lab instruments, national-lab one-offs. No merchant, buyer-trusted acceptance-metrology vendor in the atlas record set.",
+    "timing_window_risk": "Tape vendors may bundle 'good-enough' in-house QC data; if one instrument maker partners exclusively with the largest vendor, the neutral-referee position is lost.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "Imaging supercurrents through millimeters of steel and silver at highway speed -- a contactless ammeter for a quantum fluid.",
+    "demand_source_ids": [
+      "L03-003",
+      "L03-044",
+      "L03-019",
+      "L03-052",
+      "L03-024",
+      "L03-041",
+      "L03-031",
+      "L03-029",
+      "L03-037",
+      "L03-032",
+      "L03-035"
+    ],
+    "technical_source_ids": [
+      "L03-018",
+      "L03-020",
+      "L03-021",
+      "L03-050"
+    ],
+    "competitor_source_ids": [
+      "L03-052",
+      "L03-046"
+    ],
+    "first_experiment": "Benchtop 77 K reel-to-reel Hall-array scan of 100 m commercial tape; blind-correlate predicted vs transport Ic on 50 cut samples to <5% error (2027).",
+    "first_experiment_budget_usd": 120000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      1500000,
+      4000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": true,
+    "secondary_markets": [
+      "JP",
+      "KR"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "merge_import_notes": "2026-07-13: absorbed C-11 (cable/CICC acceptance stations, financier/insurer data packages), B-10 (conductor-passport framing + CN buyer set: WST, ASIPP), and E-07's QA-bench half (conductor/joint benches, Furukawa/Fujikura JP channel). China leg already primary (US+CN, china_beachhead true) and strengthened with eligible CN evidence (L03-041/029/037/031) - flags unchanged.",
+    "elegance_verdict": "PROMOTE",
+    "adjudication_note": "2026-07-13 adjudication (PROMOTE): Best instrument seed in pool; demand scales with conductor volume not fusion success (low-beta). Absorb C-11 cable acceptance stations + insurer packages, B-10 passport framing + CN buyers, E-07 QA-bench half."
+  },
+  {
+    "idea_id": "P3R2-D-03",
+    "concept": "Modular kW-class 10-20 K turbo-Brayton cryoplant skid for mid-scale HTS systems -- the missing tier between milliwatt lab cryocoolers and bespoke $10M+ helium plants.",
+    "primary_lane": "L03",
+    "secondary_lanes": [
+      "L07",
+      "L14"
+    ],
+    "sector_cluster": "cryogenics for superconducting systems",
+    "product_role": "turnkey subsystem",
+    "primary_customer_archetype": "national_lab",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "mid-scale national-lab and university magnet/accelerator programs",
+      "fusion component test stands (DOE milestone awardees)",
+      "HTS cable demonstrators (Nexans SupraMarine-type consortia)",
+      "KEPCO/LS superconducting datacenter grid (KR side market)"
+    ],
+    "painful_job": "kW-class 4.5-20 K cooling is a different engineering regime from catalog cryocoolers (10 mW at 2.5 K, L03-050); mid-scale magnet and cable projects cannot justify a bespoke helium refrigeration plant like JT-60SA's ~9.5 kW facility (L03-025, L03-026), so projects stall on cryo capex and lead time.",
+    "product": "Containerized turbo-Brayton skid: gas-bearing high-speed turboalternator, neon/helium working gas, 0.5-2 kW at 20 K (option 4.5 K stage), fully automated, catalog-priced with 6-month lead time, sized for HTS cables, mid-scale coils and test stands.",
+    "frontier_vision": "Make 20 K a utility: rack-and-stack cryogenic power that does for HTS deployment what packaged chillers did for air conditioning.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: FEED study and vendor quotes for turboalternator components; secure DOE SBIR + a national-lab CRADA for test infrastructure. 2027-28: subscale 100 W @ 20 K closed loop with gas-bearing spin rig. 2029: 500 W-class engineering unit tested against a borrowed HTS cable/coil load; publish availability data.",
+    "launch_2030_timing_thesis": "HTS deployments (fusion test stands, cable pilots, datacenter feeders) multiply after 2030 while cryoplant supply remains bespoke; a catalog mid-scale product intercepts the buildout.",
+    "demand_trigger_2030_2034": "Fusion pilot-plant component test infrastructure after the DOE milestone program's FY2027 renewal (L03-032); SupraMarine-class HTS cable demonstrators moving to deployment after 2028 testing (L03-034); AI-datacenter superconducting feeder projects of the type KEPCO/LS announced (L03-043, side market).",
+    "competition_outlook_2030": "Air Liquide/Linde turbo-Brayton and helium plants at the large end (judgment), Cryomech/Sumitomo cryocooler clusters at the small end (L03-050), Stirling-cycle vendors; wedge is the unserved 0.5-2 kW @ 20 K price/lead-time point.",
+    "timing_window_risk": "Incumbent industrial-gas majors can productize downward if the segment proves out; capital intensity of turbomachinery development is real.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "A suitcase-sized turbine spinning at ~100,000 rpm on gas bearings, quietly holding a kilometer of superconductor 250 degrees below ambient.",
+    "demand_source_ids": [
+      "L03-034",
+      "L03-043",
+      "L03-032",
+      "L07-041"
+    ],
+    "technical_source_ids": [
+      "L03-050",
+      "L03-025",
+      "L03-026"
+    ],
+    "competitor_source_ids": [
+      "L03-050"
+    ],
+    "first_experiment": "Subscale closed-loop turbo-Brayton demonstrator delivering 100 W at 20 K with gas-bearing turboalternator; measure %Carnot and 1,000 h unattended run (2028).",
+    "first_experiment_budget_usd": 400000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      6000000,
+      15000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "KR",
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "elegance_verdict": "REJECT",
+    "duplicate_of": "P3R2-C-12",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): Import catalog-price/6-month-lead-time product definition into C-12."
+  },
+  {
+    "idea_id": "P3R2-D-04",
+    "concept": "Superconducting fault-current-limiting MVDC feeder ('cryo-busway') for gigawatt AI campuses: the superconductor's own quench physics replaces the unsolved DC circuit breaker.",
+    "primary_lane": "L03",
+    "secondary_lanes": [
+      "L08",
+      "L02",
+      "L14"
+    ],
+    "sector_cluster": "AI datacenter power distribution",
+    "product_role": "power-distribution subsystem",
+    "primary_customer_archetype": "hyperscaler",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "hyperscaler/AI-campus developers standardizing 800VDC racks (NVIDIA ecosystem, OCP Mount Diablo authors)",
+      "datacenter electrification EPCs (GE Vernova-class order flow)",
+      "KEPCO/LS Cable superconducting datacenter grid (KR side precedent)"
+    ],
+    "painful_job": "800VDC racks and GW campuses need MVDC backbone distribution, but DC fault interruption has no natural current zero and hybrid/solid-state breakers remain immature and costly (L08-001, L08-003, L08-004); meanwhile copper busway mass, losses and right-of-way balloon at 100 MW+ corridor ratings (L02-043, L02-044).",
+    "product": "Factory-built 10-50 MW-class cryogenic DC feeder modules: REBCO conductor in a rigid cryostat busway whose engineered quench resistance inherently limits fault current to interruptible levels, integrated 20 K cryo-loop, standard OCP-compatible terminations, delivered as repeatable product not a utility project.",
+    "frontier_vision": "Zero-resistance campus power backbones where protection is a material property, not a switchgear cabinet -- then urban feeders and electrified industry.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: system study against real campus one-lines; partner with a national lab holding SFCL test capability. 2027-28: 10 m, multi-kA 20 K FCL-feeder prototype; controlled DC fault interruption + recovery-under-load characterization. 2029: 100 m pilot corridor with a colo/hyperscaler test site or lab microgrid; reliability/availability dossier.",
+    "launch_2030_timing_thesis": "Rack power roadmaps (600 kW-1 MW racks by ~2027 per L02-043/044) force campus MVDC decisions in 2029-2032 exactly when neither solid-state breakers nor copper scale gracefully; the atlas's negative finding (no repeat third-party HTS cable orders, L03-041 context) is answered by switching the buyer from utilities to private-wire campus owners with different economics.",
+    "demand_trigger_2030_2034": "Gigawatt single-campus AI builds and 800VDC-to-MVDC architecture adoption (L02-043, L02-044); datacenter electrification backlog growth at GE Vernova-class suppliers (L08-033); KEPCO/LS superconducting datacenter grid execution as external validation (L03-043).",
+    "competition_outlook_2030": "LS Cable/KEPCO (KR), Shanghai Superconductor (CN, L03-052), AMSC (L03-046), NKT/conventional cable + Hitachi-class hybrid DC breakers (L08-052); the default competitor is 'more copper at lower voltage'.",
+    "timing_window_risk": "If solid-state DC breakers mature faster than expected, or campuses stay at 800VDC with distributed rectification, the MVDC niche narrows; cryogenic reliability culture clash with datacenter uptime expectations.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "A power line that is also its own circuit breaker: the fault physically un-superconducts the conductor in under a millisecond.",
+    "demand_source_ids": [
+      "L02-043",
+      "L02-044",
+      "L08-033",
+      "L03-043"
+    ],
+    "technical_source_ids": [
+      "L03-041",
+      "L03-011",
+      "L03-013",
+      "L08-001",
+      "L08-003",
+      "L08-004"
+    ],
+    "competitor_source_ids": [
+      "L08-052",
+      "L03-046",
+      "L03-052"
+    ],
+    "first_experiment": "10 m REBCO DC feeder at 20 K: inject prospective 10x fault current, verify self-limiting to <2x rating within 1 ms and recovery under 50% load within 10 s (2028, national-lab HV facility).",
+    "first_experiment_budget_usd": 450000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      15000000,
+      40000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "KR"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "elegance_verdict": "REJECT",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): Elegant science without a credible buyer in-window: uptime-conservative hyperscalers will not adopt cryogenic distribution 2030-2034; atlas negative finding on HTS cable repeat orders applies a fortiori."
+  },
+  {
+    "idea_id": "P3R2-D-05",
+    "concept": "Open-interface solid-state pulsed-power 'Marx brick' platform: a published module/interconnect standard plus qualified 3 kV bricks that stack to 100 kV+ klystron/e-beam modulators.",
+    "primary_lane": "L05",
+    "secondary_lanes": [
+      "L02"
+    ],
+    "sector_cluster": "accelerator and industrial pulsed power",
+    "product_role": "modular power subsystem",
+    "primary_customer_archetype": "national_lab",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "DOE accelerator facilities (SNS/ESS-class modulator buyers)",
+      "industrial e-beam/X-ray OEMs (Varex-class cargo linacs)",
+      "medical-linac and sterilization system integrators"
+    ],
+    "painful_job": "At least five independent, non-interoperable solid-state modulator designs exist across labs and vendors, with no accelerator-specific pulsed-power standard beyond generic IEC 60060 -- every project renegotiates bespoke acceptance tests and re-engineers the same 100 kV stack (L05-003 through L05-009, L05-043, L05-030).",
+    "product": "Catalog 3 kV/1 kA IGBT/SiC Marx bricks with published electrical/mechanical/controls interface spec, active droop correction firmware, and N+2 hot-swap redundancy; stacks configure from 20 kV medical to 120 kV accelerator modulators with a common test protocol offered as a de facto standard.",
+    "frontier_vision": "Become the 'OCP of pulsed power': an open module ecosystem that commoditizes the stack and owns the highest-value bricks, controls and conformance testing.",
+    "current_trl": 5,
+    "precompany_plan_2026_2029": "2026-27: publish draft interface spec with two national-lab collaborators (ARDAP-adjacent, L05-031); build and life-test single bricks. 2027-28: 10-brick 30 kV stack with <0.5% flat-top; third-party acceptance test at a lab test stand. 2029: first paid retrofit of an aging PFN/thyratron modulator at a university accelerator.",
+    "launch_2030_timing_thesis": "The vacuum-tube-to-solid-state conversion is mid-stream; 2030-2034 sees both lab refits and industrial e-beam capacity expansion, and a standard is most adoptable before architectures re-freeze.",
+    "demand_trigger_2030_2034": "EtO-replacement-driven e-beam sterilization capacity build (duopoly backlog precedent, L05-028), cargo-screening linac fleet growth (L05-033), Chinese accelerator vendor expansion as market proof (L05-035), and accelerator-facility modulator refit cycles (L05-030).",
+    "competition_outlook_2030": "ScandiNova (market leader, L05-047), Jema Energy (L05-030), in-house lab designs; incumbents sell closed cabinets and have no incentive to open interfaces until someone forces the issue.",
+    "timing_window_risk": "Modulators could commoditize around a proprietary leader before an open standard lands; mitigation is early lab co-authorship of the spec.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "Lego bricks that add up to a lightning bolt: hot-swappable 3 kV cells synthesizing arbitrarily shaped 100 kV, megawatt pulses.",
+    "demand_source_ids": [
+      "L05-030",
+      "L05-028",
+      "L05-033",
+      "L05-035",
+      "L05-031"
+    ],
+    "technical_source_ids": [
+      "L05-003",
+      "L05-004",
+      "L05-005",
+      "L05-006",
+      "L05-009",
+      "L05-043"
+    ],
+    "competitor_source_ids": [
+      "L05-047",
+      "L05-030"
+    ],
+    "first_experiment": "Life-test one 3 kV/1 kA brick to 10^8 pulses and demonstrate a 10-brick 30 kV stack with <0.5% flat-top ripple and hot-swap under load (2027).",
+    "first_experiment_budget_usd": 200000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "KR",
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "elegance_verdict": "MERGED_INTO_P3R2-C-09",
+    "duplicate_of": "P3R2-C-09",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): The open-interface 'OCP of pulsed power' strategy must survive the merge into C-09; the standalone seed does not."
+  },
+  {
+    "idea_id": "P3R2-D-06",
+    "concept": "Repetition-rated linear-transformer-driver (LTD) bricks with long-life solid-state switching -- pulsed power by the pallet for Z-class science, flash radiography and inertial-fusion-energy drivers.",
+    "primary_lane": "L05",
+    "secondary_lanes": [
+      "L02"
+    ],
+    "sector_cluster": "extreme pulsed power / fusion drivers",
+    "product_role": "modular power subsystem",
+    "primary_customer_archetype": "national_lab",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "NNSA/Sandia pulsed-power programs (Z / next-generation machine studies)",
+      "DOE ARDAP-funded accelerator R&D institutions",
+      "magneto-inertial / IFE developers (judgment: Pacific Fusion-class private programs)"
+    ],
+    "painful_job": "Marx-generator architectures cannot repetition-rate; Sandia's own LTD program targets modular, rep-rated drivers for fusion and flash radiography, but spark-gap switch erosion and bespoke brick engineering keep LTDs lab-built, low-shot-count artifacts (L05-018, L05-019, L05-044, L05-020).",
+    "product": "Standardized 100 kV / 50-100 kA LTD cavity bricks using solid-state or magnetically-assisted switching qualified to >=10^6 shots, with integrated trigger/diagnostics and factory acceptance data, sold by the module to labs and driver integrators.",
+    "frontier_vision": "Make 100-terawatt machines assemble like server racks -- the supply chain for rep-rated pulsed fusion drivers and compact flash-radiography sources.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: switch-lifetime physics program at a university pulsed-power lab (thyristor stacks, magnetic assist, sealed gas switches); DOE/NNSA SBIRs. 2027-28: single brick at 100 kV/50 kA demonstrating 10^5 shots at ~1 Hz without maintenance. 2029: 4-brick series stack with jitter <10 ns and published reliability statistics.",
+    "launch_2030_timing_thesis": "NNSA next-generation pulsed-power planning and private magneto-inertial fusion programs both need rep-rated bricks in the early 2030s; nobody sells them; the switch-life problem is solvable with 2020s semiconductors.",
+    "demand_trigger_2030_2034": "Sandia/NNSA LTD-based next-generation machine studies moving to procurement (L05-018, L05-019, L05-044), flash-radiography recapitalization (L05-020), and DOE accelerator-stewardship industrial base funding (L05-031); private IFE driver purchases are upside (judgment).",
+    "competition_outlook_2030": "Sandia in-house builds, ScandiNova (adjacent modulators, L05-047), CPI-class HV houses (L05-050), and fusion startups' vertical integration; merchant rep-rated LTD bricks remain unserved.",
+    "timing_window_risk": "Buyer base is government-concentrated; if the next-gen Z decision slips past 2034 and private IFE stalls, the market is grants, not products.",
+    "commercial_readiness_kill_date": "2033-06",
+    "extreme_edge": "A filing cabinet that delivers the power of a lightning strike every second, a million times in a row.",
+    "demand_source_ids": [
+      "L05-031",
+      "L05-044",
+      "L05-020"
+    ],
+    "technical_source_ids": [
+      "L05-018",
+      "L05-019",
+      "L05-044"
+    ],
+    "competitor_source_ids": [
+      "L05-047",
+      "L05-050"
+    ],
+    "first_experiment": "Single 100 kV/50 kA LTD brick with solid-state trigger chain: accumulate 10^5 full-energy shots at 0.5-1 Hz, quantify switch degradation and jitter drift (2028, university pulsed-power lab).",
+    "first_experiment_budget_usd": 350000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      5000000,
+      12000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "elegance_verdict": "REJECT",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): Government-concentrated, undated anchor procurement; seed's own line - 'the market is grants, not products' - decides it."
+  },
+  {
+    "idea_id": "P3R2-D-07",
+    "concept": "RF energy recovery for the world's klystron and gyrotron fleets: multi-stage depressed collector (MSDC) modules plus adaptive drive electronics that close the 12-point gap between simulated and hardware RF efficiency.",
+    "primary_lane": "L05",
+    "secondary_lanes": [
+      "L02",
+      "L04"
+    ],
+    "sector_cluster": "accelerator/fusion RF power",
+    "product_role": "retrofit/OEM subsystem",
+    "primary_customer_archetype": "national_lab",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "DOE accelerator labs (SLAC GREEN-RF commercialization precedent)",
+      "fusion ECH system integrators buying ITER-class gyrotrons",
+      "tube OEMs/rebuilders (CPI-class) as channel"
+    ],
+    "painful_job": "Most accelerator RF sources run below 50% wall-plug efficiency (L05-039); the 2015 bunching technique simulated >90% klystron efficiency but funded hardware reached only 78.5% (L05-011, L05-012, L05-013); spent-beam energy is dumped as heat, costing large facilities millions annually in electricity and cooling.",
+    "product": "Retrofit-at-rebuild MSDC collector assemblies plus gun/drive waveform optimization electronics, supplied to tube OEMs and lab rebuild shops, with guaranteed wall-plug efficiency uplift measured on a standard test protocol.",
+    "frontier_vision": "Every megawatt tube ships energy-recovering by default; the same collector/drive stack later powers fusion-plant heating systems where recirculating power directly sets plant economics.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: beam-optics and collector design study anchored on a decommissioned S-band klystron; engage SLAC-lineage GREEN-RF collaborators (L05-032). 2027-28: collector prototype on a lab test stand; measure recovered power vs simulation. 2029: retrofit demonstration on an operating test-stand tube with published before/after wall-plug data. FIX additions: 2026-27 includes fleet-size and $-per-efficiency-point arithmetic from named facilities (SLAC-class linacs, ITER-class gyrotron stations) to bound the retrofit TAM; 2028: OEM/rebuilder channel agreement in principle (CPI-class); 2029 DECISION POINT: license the MSDC IP to tube OEMs or fold the drive-electronics line into P3R2-C-09 - a standalone company only if both the channel agreement and the arithmetic clear.",
+    "launch_2030_timing_thesis": "Facility electricity costs and decarbonization targets make efficiency retrofits fundable; rebuild cycles of aging tube fleets 2030-2034 are the natural insertion point without new-tube qualification risk.",
+    "demand_trigger_2030_2034": "DOE GREEN-RF-style commercialization push (L05-032), fusion ECH procurement following the ITER/Thales gyrotron template as pilot plants order heating systems (L05-029), and collider-class efficiency programs (CEPC's documented ~RMB130M/yr savings case, L05-013 -- China demand logic, access-limited).",
+    "competition_outlook_2030": "CPI (L05-050), Thales (L05-029), Canon (judgment), Vitzro Nextec (KR, L05-037) building their own high-efficiency tubes; labs doing one-off in-house collectors. Merchant retrofit modules with guaranteed uplift are unoccupied.",
+    "timing_window_risk": "Invasive retrofits only work at rebuild; if OEMs internalize MSDC quickly the wedge narrows to drive electronics and test protocols.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "Catching a spent electron beam on a staircase of precisely biased electrodes and pushing its energy back into the wall plug.",
+    "demand_source_ids": [
+      "L05-032",
+      "L05-013",
+      "L05-029",
+      "L05-039"
+    ],
+    "technical_source_ids": [
+      "L05-011",
+      "L05-012",
+      "L05-013",
+      "L05-014",
+      "L05-039"
+    ],
+    "competitor_source_ids": [
+      "L05-050",
+      "L05-029",
+      "L05-037"
+    ],
+    "first_experiment": "MSDC prototype on a decommissioned S-band klystron at a lab test stand: demonstrate >=15-point wall-plug efficiency uplift vs baseline at 50%+ of rated output (2028).",
+    "first_experiment_budget_usd": 300000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      10000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "KR",
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 FIX applied: named-facility fleet/$-per-efficiency-point arithmetic task added; 2028 OEM/rebuilder channel-agreement-in-principle milestone; explicit 2029 license-or-fold-into-C-09 decision. Licensing-shaped structure acknowledged (retrofit-at-rebuild + OEM internalization risk).",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Non-obvious and documented gap, but retrofit-at-rebuild + OEM internalization makes it licensing-shaped."
+  },
+  {
+    "idea_id": "P3R2-D-08",
+    "concept": "Compact solid-state-RF-driven e-beam/X-ray sterilization machine that breaks the IBA/L3 duopoly with a self-shielded, factory-installable unit for the ethylene-oxide phase-out.",
+    "primary_lane": "L05",
+    "secondary_lanes": [
+      "L02"
+    ],
+    "sector_cluster": "industrial electron-beam processing",
+    "product_role": "capital equipment system",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "contract sterilizers (SteriLab-type operators; Sotera/Steris-class -- judgment)",
+      "medical-device manufacturers in-housing sterilization",
+      "food/packaging processors"
+    ],
+    "painful_job": "EtO replacement demand has the two pure-play e-beam accelerator makers (IBA Industrial, L3 Applied Technologies) backlogged for years, leaving medical-device and food producers unable to add sterilization capacity on schedule (L05-028); revised ISO 11137-1:2025 tightens radiation-sterilization validation (L05-042).",
+    "product": "Self-shielded 10 MeV/30 kW-class e-beam (with X-ray conversion option) built on mass-produced GaN/LDMOS solid-state RF pallets instead of klystrons, shippable in standard modules, with dose-mapping automation aligned to ISO 11137-1:2025 out of the box. Deployment options (FIX, absorbing A-09): the same accelerator/RF core ships either as a central contract-sterilization machine or as a compact self-shielded factory-floor cell for device-OEM in-house sterilization (conveyor + integrated shielding + ISO 11137 dosimetry records) - acknowledging that per-site radiation licensing and contract-sterilization industry structure favor the central variant first.",
+    "frontier_vision": "Sterilization as an appliance: distributed, per-factory beam processing replacing centralized gamma/EtO plants, then food-safety and materials-modification markets on the same platform.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: SSPA-driven accelerating-structure design with a university accelerator lab; regulatory mapping (ISO 11137/FDA pathways). 2027-28: 1 MeV/5 kW prototype beamline validating SSPA drive, gun, and dose uniformity. 2029: 10 MeV injector section + shielding/throughput engineering package; LOIs from two contract sterilizers. FIX gates: 2027 backlog-persistence check (kill if IBA/L3 clear backlogs and cut prices); 2028 SSPA-vs-klystron cost-crossover validation with vendor quotes; P4 re-source of the EtO regulatory driver from EPA NESHAP/FDA primaries (the current ledger lacks it).",
+    "launch_2030_timing_thesis": "Working hypothesis with three load-bearing assumptions, each gated (FIX): (1) the EtO forcing function is durable regulatory pressure, not a one-cycle backlog - must be re-sourced from eligible primary documents (EPA NESHAP amendments / FDA sterilization guidance) in P4; (2) solid-state RF cost curves cross klystron economics before 2030 - validate with vendor quotes by 2028; (3) incumbent backlog persists - 2027 check: if IBA/L3 backlogs clear and prices fall, kill.",
+    "demand_trigger_2030_2034": "Continued EtO-replacement capacity build with duopoly backlog precedent (L05-028), ISO 11137-1:2025 revalidation cycles (L05-042), and cargo/industrial linac demand growth signaling accelerator supply tightness (L05-033); China's CGN Dasheng RMB340M order flow proves category economics (L05-035, CN market evidence -- CN treated as competitor territory, not beachhead).",
+    "competition_outlook_2030": "IBA, L3 Applied Technologies (backlogged incumbents), Mevex (judgment), CGN Dasheng expanding from China (L05-035); Co-60 gamma remains substitute with its own supply constraints.",
+    "timing_window_risk": "If incumbent backlogs clear by 2029 and they cut prices, a new entrant faces entrenched service networks; regulatory qualification timelines could push first revenue past 2031.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "A shipping-container linac: thousands of transistor watts phase-summed into a 10 MeV electron broom that sterilizes a pallet in seconds.",
+    "demand_source_ids": [
+      "L05-028",
+      "L05-042",
+      "L05-033"
+    ],
+    "technical_source_ids": [
+      "L05-007",
+      "L05-008",
+      "L05-010",
+      "L05-004",
+      "L05-009",
+      "L05-015",
+      "L05-016"
+    ],
+    "competitor_source_ids": [
+      "L05-028",
+      "L05-035"
+    ],
+    "first_experiment": "SSPA-driven 1 MeV/5 kW CW prototype beamline: demonstrate stable dose rate and RF-chain wall-plug efficiency >55% (2028, university accelerator facility).",
+    "first_experiment_budget_usd": 500000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      10000000,
+      25000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "fix_applied_notes": "2026-07-13 FIX applied: EtO forcing function flagged for P4 re-sourcing from EPA NESHAP/FDA primaries; SSPA-vs-klystron cost crossover to be validated with quotes by 2028; 2027 backlog-persistence kill check added; A-09's self-shielded in-house cell absorbed as a deployment option (with its licensing-friction caveat).",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Canonical sterilization machine; duopoly opening real but three load-bearing assumptions unproven."
+  },
+  {
+    "idea_id": "P3R2-D-09",
+    "concept": "Charge-buildup-immune beam current and dose metrology for ultra-high-dose-rate (FLASH) and industrial electron beams -- the traceable ammeter the field admits it lacks.",
+    "primary_lane": "L05",
+    "secondary_lanes": [
+      "L13"
+    ],
+    "sector_cluster": "beam instrumentation / radiation metrology",
+    "product_role": "precision instrument",
+    "primary_customer_archetype": "oem",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "FLASH radiotherapy device developers (Varian/IBA-class -- judgment)",
+      "industrial e-beam sterilization operators needing ISO 11137 dose traceability",
+      "accelerator labs upgrading diagnostics"
+    ],
+    "painful_job": "Two independent 2024-2025 groups showed beam current transformers are corrupted by electric-field-driven charge buildup at FLASH dose rates -- an unresolved calibration/traceability problem for both clinical and industrial e-beam (L05-023, L05-024); sterilization validation standards meanwhile tighten (L05-042).",
+    "product": "Hybrid non-intercepting monitor: cavity-resonator charge measurement cross-calibrated against an integrated Faraday/calorimetric reference, with metrology-grade uncertainty budget and drop-in form factors replacing legacy BCTs (Bergoz-class footprint). Merged extension (from A-08): a sterilization-QA product tier - per-unit calibration certificates for e-beam/X-ray plants validating under ISO 11137-1:2025 - alongside the clinical FLASH tier.",
+    "frontier_vision": "Own the traceability layer for every high-dose-rate beam on earth -- clinical FLASH, sterilization, cargo scanning, semiconductor e-beam -- then expand into full beam-diagnostics suites.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: uncertainty-budget design and cavity prototype; beam time via university medical-physics collaborations. 2027-28: side-by-side campaign (cavity vs BCT vs Faraday cup) on a FLASH-capable linac, published. 2029: pre-production units at two beta sites (one clinical program, one industrial e-beam plant); NIST-traceable calibration chain drafted.",
+    "launch_2030_timing_thesis": "FLASH clinical translation and e-beam sterilization expansion both hit regulatory dose-traceability walls around 2030; a validated instrument with published uncertainty is ready exactly when device makers must specify one.",
+    "demand_trigger_2030_2034": "FLASH radiotherapy device qualification campaigns (pain documented in L05-023/024), EtO-replacement e-beam capacity requiring ISO 11137-1:2025-compliant dosimetry (L05-028, L05-042).",
+    "competition_outlook_2030": "Bergoz Instrumentation (entrenched, published price list, L05-049), in-house lab diagnostics; incumbents optimized for storage rings, not UHDR transients.",
+    "timing_window_risk": "Niche instrument market; if FLASH stalls clinically, industrial e-beam alone caps the market at tens of millions.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "Weighing 10^11 electrons in a microsecond without touching them, to a certified percent.",
+    "demand_source_ids": [
+      "L05-028",
+      "L05-042",
+      "L05-023",
+      "L05-024",
+      "L05-031"
+    ],
+    "technical_source_ids": [
+      "L05-023",
+      "L05-024"
+    ],
+    "competitor_source_ids": [
+      "L05-049"
+    ],
+    "first_experiment": "Side-by-side cavity monitor vs BCT vs Faraday cup at a FLASH-capable electron linac; quantify BCT error vs dose rate and demonstrate <1% cavity-monitor agreement with calorimetry (2027).",
+    "first_experiment_budget_usd": 150000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      1500000,
+      4000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "merge_import_notes": "2026-07-13: absorbed A-08 (ISO 11137-1:2025 sterilization-QA channel and calibration-certificate product tier). C-10's CN leg NOT imported (mirrored assertion without CN procurement/regulatory evidence - 'fake dual' per adjudication); D-09 remains US-primary.",
+    "elegance_verdict": "PROMOTE",
+    "adjudication_note": "2026-07-13 adjudication (PROMOTE): Canonical UHDR metrology. Documented unresolved failure, cheap decisive experiment, honest small-TAM admission; pairs with C-09/D-08."
+  },
+  {
+    "idea_id": "P3R2-D-10",
+    "concept": "Coherent-beam-combining phase-control engine: a channel-scalable electro-optic 'conductor' (controller ASIC/FPGA + modulator front-ends) sold to directed-energy primes and ultrafast-laser OEMs.",
+    "primary_lane": "L12",
+    "secondary_lanes": [
+      "L13",
+      "L02"
+    ],
+    "sector_cluster": "high-power lasers / directed energy",
+    "product_role": "control subsystem",
+    "primary_customer_archetype": "defense_prime",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "nLIGHT Defense and Lockheed Martin Aculight (JLWS awardees)",
+      "DARPA AMPED/MELT performers",
+      "industrial ultrafast CBC system builders"
+    ],
+    "painful_job": "Transverse mode instability caps single-fiber power, making coherent combining of many channels the only path to 300-500 kW weapons and multi-kW ultrafast tools -- but multi-channel phase-locking, path-length and dispersion management remain bespoke, unsolved engineering rebuilt per program (L12-016, L12-017, L12-018, L12-001, L12-002).",
+    "product": "Scalable phase-control stack: per-channel EO modulator front-ends, deterministic sub-microsecond controller (SPGD + interferometric hybrid) proven from 16 to 1,000+ channels, vibration-hardened, with open telemetry for system integration -- the subsystem every combiner needs and no one sells. Merged extension (from A-17): an environmental-grade deformable-mirror control and turbulence/jitter-compensation tier for 100kW-class systems, extending the phase-control engine from fiber arrays to full beam-control stacks.",
+    "frontier_vision": "Be the Synopsys of coherent light: the standard control layer for laser weapons, ultrafast machining arrays, beamed power, and eventually phased optical apertures for space links.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: 16-channel testbed at a university photonics lab; lock to lambda/30 rms under acoustic disturbance. 2027-28: SBIR/STTR under DEW-adjacent topics; 128-channel demonstration with combining efficiency >90%. 2029: ruggedized brassboard evaluated by one prime under CRADA/sub-contract; ASIC path defined.",
+    "launch_2030_timing_thesis": "JLWS transitions from initial award (2026) to scaled 300-500 kW fielding decisions in the early 2030s; primes under schedule pressure buy proven subsystems rather than rebuild controls, exactly when a 2029-validated brassboard exists.",
+    "demand_trigger_2030_2034": "JLWS production scaling toward its $847M ceiling (L12-031, L12-032), DARPA AMPED/MELT tile architectures maturing into acquisition (L12-040, L12-041), and industrial CBC ultrafast systems entering machining markets (L12-002). Additional demand leg (from A-17): NNSA Expanded Yield Capability (EYC) execution beyond CD-1 (L12-042) and DARPA MELT/POWER follow-ons (L12-047).",
+    "competition_outlook_2030": "Prime in-house control teams (nLIGHT, LM -- L12-033), Civan Lasers' integrated OPA approach (judgment), academic spinouts; no merchant phase-control vendor identified in the atlas.",
+    "timing_window_risk": "Primes may classify and internalize controls; mitigation is dual-use industrial sales and ITAR-segregated product lines.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "A thousand lasers made to march in phase to a thirtieth of a wavelength -- an orchestra conducted at petahertz pitch with microsecond reflexes.",
+    "demand_source_ids": [
+      "L12-031",
+      "L12-032",
+      "L12-040",
+      "L12-041",
+      "L12-033",
+      "L12-042",
+      "L12-047"
+    ],
+    "technical_source_ids": [
+      "L12-001",
+      "L12-002",
+      "L12-016",
+      "L12-017",
+      "L12-018",
+      "L12-009",
+      "L12-010",
+      "L12-011"
+    ],
+    "competitor_source_ids": [
+      "L12-033",
+      "L12-041",
+      "L12-034",
+      "L12-045"
+    ],
+    "first_experiment": "16-channel fiber array phase-locked to lambda/30 rms with >90% combining efficiency under 1 g random vibration (2027).",
+    "first_experiment_budget_usd": 250000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "merge_import_notes": "2026-07-13: absorbed A-17 (ruggedized deformable-mirror/adaptive-optics control tier; NNSA EYC demand leg L12-042 and MELT/POWER follow-ons L12-047; AO sources L12-009/010/011).",
+    "elegance_verdict": "PROMOTE",
+    "adjudication_note": "2026-07-13 adjudication (PROMOTE): Canonical CBC phase control; right abstraction level; dual-use hedge vs prime NIH; realistic channel-count ladder. Absorb A-17 DM-control + NNSA leg."
+  },
+  {
+    "idea_id": "P3R2-D-11",
+    "concept": "2-micron drive-laser modules for next-generation EUV sources: kilowatt-class short-pulse thulium/holmium chains targeting the modeled ~5% conversion-efficiency architecture that could obsolete the CO2 drive chain.",
+    "primary_lane": "L12",
+    "secondary_lanes": [
+      "L06",
+      "L05"
+    ],
+    "sector_cluster": "semiconductor lithography light sources",
+    "product_role": "laser subsystem",
+    "primary_customer_archetype": "oem",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "ASML/Cymer EUV source operations (San Diego)",
+      "Gigaphoton (JP side market)",
+      "national labs running EUV source testbeds"
+    ],
+    "painful_job": "Each EUV power step (250 W to 1,000 W, 2018-2025) required re-engineering the CO2-driven tin-plasma architecture, and peer-reviewed work is already modeling a fundamentally different 2-micron drive achieving ~5% conversion efficiency vs ~2-3% -- source suppliers face architecture-change risk with no merchant 2-micron kilowatt-class drive supplier existing (L12-034, L12-003, L12-006).",
+    "product": "Modular 2-micron picosecond/nanosecond pre-pulse and drive modules (Tm:fiber coherently-combined front ends feeding Ho:YLF/Ho:YAG power amplifiers), plus a droplet-interaction test service quantifying CE and debris for customer-specific pulse formats.",
+    "frontier_vision": "Supply the drive photons for the post-CO2 EUV era and hyper-NA/beyond-EUV scaling -- the highest-leverage kilowatt of laser light in the world economy.",
+    "current_trl": 2,
+    "precompany_plan_2026_2029": "2026-27: 100 W-class 2-micron ps source in a university ultrafast lab; partner with an EUV plasma group for droplet targets. 2028: CE measurement campaign at relevant intensity on tin droplets; publish CE vs pulse-format map. 2029: 300 W engineering module; engage source-OEM technical staff via SPIE-track visibility. FIX capital rule: no capital beyond the consortium-scale droplet experiment until the CE gate passes. Likely exit stated openly: acqui-license to a source incumbent (ASML/Cymer or Gigaphoton) - this is an option purchase, not a company plan.",
+    "launch_2030_timing_thesis": "EUV throughput economics demand >1 kW source power in the early 2030s; if the CO2 chain saturates, the incumbent must buy or build 2-micron capability on exactly our timeline -- a classic option-value wildcard with one deep-pocketed buyer class.",
+    "demand_trigger_2030_2034": "EUV source power roadmap pressure beyond the 1,000 W milestone (L12-034) and Gigaphoton's continued next-generation source R&D creating a second buyer (L12-053). Second-buyer hedge (merged from E-13): Gigaphoton (Komatsu group) as the named second source-developer customer (L12-053), hedging single-customer risk.",
+    "competition_outlook_2030": "TRUMPF (incumbent CO2 drive supplier, L12-039), IPG/Coherent 2-micron fiber programs (judgment), national-lab prototypes; merchant kW-class 2-micron short-pulse modules remain unserved.",
+    "timing_window_risk": "Highest physics risk in this batch: the 5% CE is modeling-only; 2-micron TMI/photodarkening at kW average power is unproven; ASML may double down on CO2 scaling and never switch.",
+    "commercial_readiness_kill_date": "2033-12 (stricter imported gate: kill unless tin-droplet CE >=4% at relevant rep-rate is demonstrated by end-2033)",
+    "extreme_edge": "Hitting a 25-micron molten-tin droplet, fifty thousand times a second, with a wavelength tuned so the plasma itself becomes a better EUV lightbulb.",
+    "demand_source_ids": [
+      "L12-034",
+      "L12-053"
+    ],
+    "technical_source_ids": [
+      "L12-003",
+      "L12-006",
+      "L12-016",
+      "L12-017",
+      "L12-001",
+      "L12-002",
+      "L06-016",
+      "L06-017"
+    ],
+    "competitor_source_ids": [
+      "L12-039",
+      "L12-034"
+    ],
+    "first_experiment": "Measure EUV conversion efficiency on tin droplets driven by a 2-micron ps source at relevant intensities; kill/continue gate at CE >=3% experimental (2028, ~$600k including beam time and target chamber access). Continue/kill ladder (FIX): 2028 experimental CE >=3% to continue; imported E-13 gate: CE >=4% at relevant rep-rate by end-2033 or kill.",
+    "first_experiment_budget_usd": 600000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      8000000,
+      20000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 FIX applied: adopted E-13's stricter kill gate (CE >=4% at relevant rep-rate by end-2033; kill date moved 2032-12 -> 2033-12 with the harder bar); Gigaphoton second-buyer hedge imported; acqui-license stated as the likely exit; capital capped at the consortium experiment until the gate passes. Merged in E-13's amplifier-module framing sources (coherent combining L12-001/002; pre-pulse shaping L06-016/017).",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Best-disciplined moonshot; option purchase, not a company plan."
+  },
+  {
+    "idea_id": "P3R2-D-12",
+    "concept": "Electrohydrodynamically-pumped two-phase cold plates: field-driven, no-moving-parts per-chip flow control for 3-5 kW AI packages, with a non-PFAS working-fluid plan.",
+    "primary_lane": "L14",
+    "secondary_lanes": [
+      "L16",
+      "L02"
+    ],
+    "sector_cluster": "AI datacenter extreme thermal",
+    "product_role": "component/subsystem",
+    "primary_customer_archetype": "hyperscaler",
+    "primary_market": "US+CN",
+    "named_buyer_examples": [
+      "hyperscalers writing OCP cooling specs (Google Deschutes CDU authors)",
+      "cold-plate/CDU vendors as OEM channel (Boyd/Vertiv-class)",
+      "Chinese datacenter cooling vendors under tightening PUE rules (Envicool-class -- judgment)"
+    ],
+    "painful_job": "AI accelerators head toward 3,000-5,000 W and ~1,000 W/cm2 hotspots (L14-010); single-phase cold plates hit flow/approach-temperature walls (Deschutes already demands 3C approach at 2 MW, L14-043), while two-phase adoption is destabilized by the PFAS fluid exit and HFC phasedowns (L14-033, L14-034). Per-channel flow balancing inside plates is an unsolved control problem.",
+    "product": "Two-phase microchannel cold plate with embedded EHD conduction micropumps that actively modulate per-channel flow (+/-20%+) against hotspot maps -- silent, no local moving parts, milliwatt drive power -- qualified on low-GWP HCFO/HFO or non-halogenated dielectric fluids, sold to cold-plate OEMs.",
+    "frontier_vision": "Electric fields as the last-centimeter coolant pump: self-balancing boiling networks inside every high-power package, from GPUs to power electronics to laser diodes.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: EHD conduction-pump cells characterized in candidate non-PFAS fluids; university thermal-lab testbed with 500 W chip emulator. 2027-28: integrated plate demonstrating CHF uplift and hotspot-following flow modulation; ARPA-E COOLERCHIPS-adjacent funding. 2029: OEM evaluation units with reliability (electrode fouling/EMI) data; OCP-aligned spec sheet. FIX gate (2028): a named cold-plate OEM or COOLERCHIPS-lineage co-development agreement - the demand bridge this wildcard currently lacks.",
+    "launch_2030_timing_thesis": "Rubin-class rack roadmaps push per-chip powers past what passive manifolding balances by ~2030; EHD's documented lab maturity plus the field's admitted deployment gap (L16-003, L16-004) means the first credible productization wins the transition window.",
+    "demand_trigger_2030_2034": "Hyperscaler CDU/cold-plate specification cycles beyond Project Deschutes (L14-043, L14-044), COOLERCHIPS-commercialization wave (L14-030), and China's PUE tightening (GB 40879 revision toward <=1.25/1.2, L14-035) plus the 2026 national AI-energy plan's high-efficiency-cooling push (L14-036) driving CN liquid-cooling refresh cycles.",
+    "competition_outlook_2030": "Flex/JetCool microjets (L14-045), ZutaCore waterless two-phase (L14-046), Vertiv-scale integrators (L14-048); all use mechanical pumping -- none offer in-plate field-driven flow control.",
+    "timing_window_risk": "EHD is a documented enthusiasm zone: two 2025 reviews note no industrial-scale deployment (L16-003, L16-004); fluid qualification (dielectric + low-GWP + non-PFAS) may not intersect; hyperscalers may brute-force with bigger CDUs. Hard fluid-intersection gate (FIX): the working fluid must simultaneously be dielectric, non-PFAS, and low-GWP; if no candidate passes qualification, kill regardless of EHD results.",
+    "commercial_readiness_kill_date": "2032-12",
+    "extreme_edge": "A cold plate with no pump: ions dragged by kilovolt fields silently steer boiling refrigerant toward the exact square millimeter that is overheating.",
+    "demand_source_ids": [
+      "L14-043",
+      "L14-044",
+      "L14-030",
+      "L14-035",
+      "L14-036"
+    ],
+    "technical_source_ids": [
+      "L16-001",
+      "L16-002",
+      "L16-003",
+      "L16-004",
+      "L14-006",
+      "L14-009",
+      "L14-010",
+      "L14-033",
+      "L14-034"
+    ],
+    "competitor_source_ids": [
+      "L14-045",
+      "L14-046",
+      "L14-048"
+    ],
+    "first_experiment": "EHD-assisted two-phase microchannel plate on a 500 W emulator: demonstrate >=20% per-channel flow modulation, 1,000 h electrode stability in a non-PFAS dielectric, AND beat the best mechanical-pump cold plate on CHF and hotspot-following at equal pumping power (2027) - parity with mechanical pumping is a kill result.",
+    "first_experiment_budget_usd": 180000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      10000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": true,
+    "secondary_markets": [
+      "TW",
+      "KR"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 FIX applied: 2028 named-OEM/COOLERCHIPS co-development demand-bridge gate added; 2027 experiment upgraded to require beating the best mechanical-pump plate on CHF/hotspot-following (parity = kill); hard dielectric+non-PFAS+low-GWP fluid-intersection gate codified.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Most elegant wildcard; honestly cites the enthusiasm-zone reviews against itself."
+  },
+  {
+    "idea_id": "P3R2-D-13",
+    "concept": "Burst-mode 'thermal magazine' for directed-energy weapons: a two-phase + phase-change thermal capacitor that absorbs megawatt engagement heat and rejects it slowly, shrinking chillers 10x.",
+    "primary_lane": "L14",
+    "secondary_lanes": [
+      "L12"
+    ],
+    "sector_cluster": "defense directed energy / transient thermal",
+    "product_role": "subsystem",
+    "primary_customer_archetype": "defense_prime",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "JLWS integrators (nLIGHT Defense, Lockheed Martin Aculight)",
+      "counter-UAS HEL platform builders",
+      "radar/EW primes with burst thermal duty cycles"
+    ],
+    "painful_job": "A 300-500 kW-class laser at ~1/3 wall-plug efficiency dumps ~1 MW of heat during engagements, but containerized platforms cannot carry megawatt chillers; GAO documents the prototype-to-fielding gap in which SWaP-C of support subsystems is a named obstacle (L12-031, L12-045); defense thermal management has been an open DARPA research thread for three decades (L14-025).",
+    "product": "Containerized thermal capacitor: two-phase spreaders move 100+ W/cm2 from diode/gain modules into tonne-scale engineered PCM banks (300+ MJ absorbed over minutes), with a right-sized trickle chiller recharging between engagements; delivered as a qualified LRU with thermal state-of-charge telemetry.",
+    "frontier_vision": "Thermal energy storage as a standard military LRU -- lasers, railguns, radars and hypersonic test assets all fire from thermal magazines instead of dragging peak-rated chillers.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27: PCM selection/encapsulation trades and two-phase spreader design; SBIR entry under DEW support-equipment topics. 2027-28: 100 kW-for-60 s brassboard with full charge/discharge cycling data. 2029: 300 kW-class pallet demonstrator evaluated by a prime; MIL-E qualification plan.",
+    "launch_2030_timing_thesis": "JLWS moves from 150 kW initial prototypes toward 300-500 kW fielded systems in the early 2030s; every power doubling squeezes platform SWaP and makes the thermal magazine the cheapest enabling subsystem to buy rather than build.",
+    "demand_trigger_2030_2034": "JLWS production/fielding decisions under the $847M ceiling (L12-031), MELT-class modular HEL platforms (per L12-041 program goals), and multi-decade DoD thermal-management program continuity (L14-025).",
+    "competition_outlook_2030": "Prime in-house thermal teams, Advanced Cooling Technologies-class thermal houses (judgment), COTS chiller vendors; no productized burst-mode thermal storage LRU identified in the atlas.",
+    "timing_window_risk": "If fielded lasers plateau at 150 kW, conventional chillers suffice; PCM cycle-life and mass may erode the advantage on mobile platforms.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "Firing a megawatt for five minutes out of a box of engineered wax -- heat stored like ammunition, spent like a battery.",
+    "demand_source_ids": [
+      "L12-031",
+      "L12-045"
+    ],
+    "technical_source_ids": [
+      "L14-001",
+      "L14-024",
+      "L14-025",
+      "L14-027"
+    ],
+    "competitor_source_ids": [
+      "L12-033",
+      "L14-025"
+    ],
+    "first_experiment": "100 kW-for-60 s thermal-capacitor brassboard: verify source-to-PCM flux >=100 W/cm2, <10 K diode-plate excursion, and 500 charge/discharge cycles without capacity fade (2027).",
+    "first_experiment_budget_usd": 220000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "elegance_verdict": "PROMOTE",
+    "adjudication_note": "2026-07-13 adjudication (PROMOTE): Unique in pool; latent-heat magazine vs peak-rated chiller aimed at a GAO-named SWaP gap with dated program ladder; risks named and testable by 2027 brassboard."
+  },
+  {
+    "idea_id": "P3R2-D-14",
+    "concept": "400 C-class downhole instrumentation and control module for superhot geothermal: SiC-JFET front ends and high-temperature packaging productized from the NASA/DARPA technology base the drilling programs are racing ahead of.",
+    "primary_lane": "L15",
+    "secondary_lanes": [
+      "L05",
+      "L14"
+    ],
+    "sector_cluster": "harsh-environment electronics / geothermal",
+    "product_role": "electronics module",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "superhot-geothermal developers (ARPA-E SUPERHOT awardee class)",
+      "oilfield-service majors' geothermal units (SLB-Ormat EGS pilot; Baker Hughes New Energy)",
+      "downhole tool OEMs facing CISSOID/Honeywell part obsolescence"
+    ],
+    "painful_job": "ARPA-E SUPERHOT targets >375 C reservoirs while commercial high-temperature ICs stop at 225 C and the flagship product family (CISSOID CHT) is obsolete/last-time-buy with no successor roadmap -- a live supply gap between funded drilling ambitions and purchasable electronics (L15-029, L15-043, L15-027, L15-028).",
+    "product": "Modular 300-500 C telemetry/control node: NASA-heritage SiC JFET analog front ends and gate drivers, HT-SOI where sufficient, ceramic/HT die-attach packaging, partitioned architecture (hot front-end + insulated conventional DSP), sold as qualified modules with published HPHT life data.",
+    "frontier_vision": "The Honeywell-HTMOS successor for the superhot era: standard electronics platform for geothermal, aero-engine, hypersonic and eventually Venus-surface systems (NASA HOTTech lineage).",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: license/replicate SiC-JFET IC access (NASA Glenn lineage, university SiC fabs); define module architecture with two downhole tool OEMs. 2027-28: 1,000 h at 400 C HPHT autoclave campaign on sensor front-end; DOE/ARPA-E SBIR alignment with SUPERHOT performers. 2029: full telemetry node field-trialed in a FORGE-class well.",
+    "launch_2030_timing_thesis": "SUPERHOT awards (from Nov 2025) put wells in the >375 C regime in the early 2030s; tool electronics is on the critical path and the incumbent supply base has exited rather than roadmapped, so a 2029-validated module launches into a vacuum.",
+    "demand_trigger_2030_2034": "ARPA-E SUPERHOT program wells and follow-on procurement ($30M program, 10-20 GW framing, L15-029), FORGE solicitation continuity (L15-027, L15-028), Baker Hughes' $2.0B New Energy order momentum incl. 300 MW geothermal ORC (L15-040), and the SLB-Ormat commercial EGS pilot pipeline (L15-041).",
+    "competition_outlook_2030": "CISSOID (obsolete line, L15-043), Honeywell (exited/legacy, L15-031 heritage), Ozark IC-class SBIR shops (judgment), DARPA THERMAL spinouts at 800 C (L15-026) -- likely still pre-product at module level.",
+    "timing_window_risk": "The rival strategy is active cooling of conventional electronics (documented competing approach in L15 literature); if dewar-cooled tools prove cheaper, native HT electronics stays niche.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "Circuits that live for a year at temperatures where solder is a liquid and silicon quits -- computing inside the enemy's territory of heat.",
+    "demand_source_ids": [
+      "L15-029",
+      "L15-027",
+      "L15-028",
+      "L15-040",
+      "L15-041"
+    ],
+    "technical_source_ids": [
+      "L15-001",
+      "L15-009",
+      "L15-030",
+      "L15-026",
+      "L15-031",
+      "L15-005"
+    ],
+    "competitor_source_ids": [
+      "L15-043",
+      "L15-026"
+    ],
+    "first_experiment": "SiC-JFET sensor front-end operated 1,000 h at 400 C in an HPHT autoclave with <5% parameter drift; compare against best available 225 C SOI baseline (2027-28).",
+    "first_experiment_budget_usd": 200000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      10000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "elegance_verdict": "MERGED_INTO_P3R2-A-14",
+    "duplicate_of": "P3R2-A-14",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): Import 400C SiC-JFET tier and FORGE field-trial step into A-14 roadmap."
+  },
+  {
+    "idea_id": "P3R2-D-15",
+    "concept": "Radiation-tolerant GaN 'power tile' PPU bricks for electric propulsion: a qualified-once, reused-everywhere modular power stage ending the 50-year non-convergence of Hall-thruster power processing units.",
+    "primary_lane": "L09",
+    "secondary_lanes": [
+      "L02",
+      "L15"
+    ],
+    "sector_cluster": "space power electronics",
+    "product_role": "modular subsystem",
+    "primary_customer_archetype": "oem",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "smallsat/constellation EP suppliers (Busek-class)",
+      "satellite primes on SDA-scale procurements",
+      "NASA EP programs (AEPS/NEXT-C lineage buyers)"
+    ],
+    "painful_job": "PPU topologies have not converged across 50+ years of flight heritage -- every program re-qualifies a bespoke design (L09-001 through L09-008); GaN/SiC promise mass/efficiency gains but heavy-ion single-event failure near ~50% of rated voltage keeps designers derating or reverting to silicon (L09-014, L09-020, L09-103, L09-104).",
+    "product": "Standardized rad-tolerant GaN power bricks (anode supply, heater/keeper, PMAD interfaces) with published SEE/TID characterization, honest derating envelopes, SET-mitigated converter topologies (L09-108), and a modular qualification file that primes can drop into any thruster class from 300 W to 12 kW.",
+    "frontier_vision": "The 'Intel Inside' of spacecraft power: one qualified tile family scaling from cubesat EP to 100 kW-class tugs and lunar surface PMAD.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: university radiation-effects campaigns (heavy-ion beam time) on candidate GaN stages; publish part-level SEE maps. 2027-28: NASA SBIR-funded brick prototype (precedent: cryocooler-control and battery-ASIC awards, L09-112, L09-113); thermal-vac + TID cycles. 2029: engineering-model tile integrated with a commercial thruster on a test stand; qualification dossier drafted to AIAA/ECSS-class standards.",
+    "launch_2030_timing_thesis": "Proliferated constellations and NASA deep-space programs keep buying EP through the 2030s while the incumbent PPU house (Aerojet/L3Harris) is embedded in a missile-focused parent (L09-041 context) -- a supply-diversification buyer motive exactly at launch.",
+    "demand_trigger_2030_2034": "Continued SDA tranche-scale procurements ($3.5B Tranche 3 precedent, L09-039 -- EP content inferred, flagged) and Space Force Maneuverable GEO-class programs (L09-037), plus NASA Gateway/MSR EP hardware lineage (L09-034, L09-012, L09-043).",
+    "competition_outlook_2030": "Aerojet Rocketdyne/L3Harris and Moog incumbency (L09-043), EPC Space parts-level rad-hard GaN (L09-054, L09-055), JAXA/Furukawa GaN PPU commercialization in Japan (L09-042); no merchant modular PPU-brick vendor identified.",
+    "timing_window_risk": "Primes may vertically integrate; SEE derating may erode GaN's mass advantage below significance for some buses.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "Power electronics that shrug off iron nuclei at cosmic-ray energies while chopping kilowatts into a plasma engine.",
+    "demand_source_ids": [
+      "L09-034",
+      "L09-012",
+      "L09-037",
+      "L09-039",
+      "L09-112",
+      "L09-113",
+      "L09-043"
+    ],
+    "technical_source_ids": [
+      "L09-014",
+      "L09-020",
+      "L09-103",
+      "L09-104",
+      "L09-108",
+      "L09-001",
+      "L09-008"
+    ],
+    "competitor_source_ids": [
+      "L09-043",
+      "L09-042",
+      "L09-054",
+      "L09-055"
+    ],
+    "first_experiment": "Heavy-ion SEE characterization of a GaN half-bridge PPU stage at operating voltage across LET spectrum; establish safe-operating-area map and SET-mitigation efficacy (2027, university cyclotron).",
+    "first_experiment_budget_usd": 180000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      4000000,
+      10000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "elegance_verdict": "MERGED_INTO_P3R2-A-13",
+    "duplicate_of": "P3R2-A-13",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): Import SEE-map-first sequencing and qualified-once qualification-file framing into A-13."
+  },
+  {
+    "idea_id": "P3R2-D-16",
+    "concept": "Merchant 100 kWe-class space closed-Brayton power conversion unit and high-voltage PMAD for fission surface power -- the converter layer for the reactor decade.",
+    "primary_lane": "L09",
+    "secondary_lanes": [
+      "L04",
+      "L14"
+    ],
+    "sector_cluster": "space nuclear power conversion",
+    "product_role": "subsystem",
+    "primary_customer_archetype": "government",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "NASA/DOE Fission Surface Power program and its three concept teams (Lockheed/BWXT/Creare; Westinghouse/Aerojet; IX/Maxar/Boeing)",
+      "commercial lunar infrastructure developers (follow-on)"
+    ],
+    "painful_job": "FSP's requirement jumped 40 kWe to >=100 kWe closed-Brayton within one program cycle (L09-031 vs L09-033), stranding Phase 1 baselines; no US merchant supplier of flight-weight 100 kWe-class Brayton converters or kV-class surface PMAD exists -- each team must reinvent it (L09-031, L09-032, L09-033).",
+    "product": "Flight-weight He-Xe closed-Brayton turboalternator module (25-50 kWe unit, paralleled to 100+ kWe) with high-speed alternator, foil bearings, and radiator-matched thermal interfaces, plus kV-class DC PMAD/cabling for kilometer-scale lunar distribution -- sold to all reactor primes rather than one. Fold-down path (FIX): define a terrestrial micro-Brayton variant (remote/microgrid gensets, industrial heat recovery) so the technology base survives an FSP slip.",
+    "frontier_vision": "Own the power-conversion layer of off-world energy: reactors change, the converter standard persists -- lunar bases, Mars ISRU, and high-power nuclear-electric tugs.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "HELD AS OPTION (FIX): studies/SBIR only - no hardware capex until FSP downselect and flight dates are contracted. 2026-27: cycle/mass optimization studies against the 100 kWe RFI spec; NASA SBIR/STTR entries; recruit Brayton heritage (BRU/Kilopower lineage, L09-105); validate the parallel-unit architecture against the RFI spec with >=2 concept teams expressing written subcontract interest. 2028 CHECKPOINT: proceed to the 10 kWe-class turboalternator rig only if downselect/flight dates are contracted; otherwise stay in study mode or kill. 2029 (conditional): vacuum-chamber endurance run (1,000 h) and PMAD brassboard at representative voltage; position as subcontractor to 2+ FSP teams.",
+    "launch_2030_timing_thesis": "NSTM-3 directs a >=100 kWe-class reactor for the 2030s with Q1 FY2030 launch-readiness targeting (L09-033); conversion hardware subcontracts flow 2030-2034 exactly when a validated merchant PCU exists.",
+    "demand_trigger_2030_2034": "NASA/DOE Fission Surface Power downselect and flight procurement per the August 2025 RFI and April 2026 NSTM-3 memorandum (L09-033); Westinghouse eVinci continuation contracts as parallel demand (L09-032, L09-047).",
+    "competition_outlook_2030": "Creare (inside the Lockheed team, L09-031), Brayton Energy (judgment), primes' in-house conversion; merchant multi-team supplier position is open because each team currently builds captive.",
+    "timing_window_risk": "Program risk is the dominant risk: FSP has already re-baselined once; if flight procurement slips past 2034 the market is study contracts only.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "A turbine the size of a fire extinguisher spinning He-Xe at 90,000 rpm above a nuclear core on the Moon, radiating its waste heat to vacuum.",
+    "demand_source_ids": [
+      "L09-031",
+      "L09-032",
+      "L09-033",
+      "L09-047"
+    ],
+    "technical_source_ids": [
+      "L09-105",
+      "L04-107"
+    ],
+    "competitor_source_ids": [
+      "L09-031",
+      "L09-032"
+    ],
+    "first_experiment": "10 kWe-class He-Xe turboalternator on foil bearings with electric heater loop: demonstrate >=20% cycle efficiency at flight-relevant turbine inlet temperature and specific mass model validation (2028). (Conditional on the 2028 FSP-contract checkpoint; until then, studies only.)",
+    "first_experiment_budget_usd": 500000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      10000000,
+      30000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 FIX applied: held as an option - studies/SBIR only with no hardware capex until FSP downselect/flight dates are contracted (2028 checkpoint); parallel-unit architecture to be validated with >=2 concept teams expressing subcontract interest; terrestrial micro-Brayton fold-down path defined.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Clever merchant multi-team position on a program that has already re-baselined once."
+  },
+  {
+    "idea_id": "P3R2-D-17",
+    "concept": "High-density cryogenic interconnect with integrated cold multiplexing: superconducting flex + 4 K CMOS mux that breaks the 256-channel wiring wall between room temperature and millikelvin quantum processors.",
+    "primary_lane": "L13",
+    "secondary_lanes": [
+      "L07",
+      "L03"
+    ],
+    "sector_cluster": "quantum computing infrastructure",
+    "product_role": "component/subsystem",
+    "primary_customer_archetype": "oem",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "superconducting-qubit companies scaling past ~1,000 physical qubits",
+      "DOE QIS centers (Fermilab SQMS-class)",
+      "dilution-refrigerator OEMs as channel (Bluefors-class)"
+    ],
+    "painful_job": "Cryo I/O density is an acknowledged scaling wall: best-in-class is ~256 channels/loader vs thousands needed, with only one vendor's unvalidated roadmap to 4,096 (L13-042); every added line spends the dilution fridge's microwatt-to-milliwatt cooling budget (L07-014 through L07-017), and cryo-CMOS power-per-channel is the binding constraint (L13-004, L13-005, L13-021, L13-023).",
+    "product": "Superconducting-trace flex ribbons with thermally-anchored, frequency-division/time-division cryo-CMOS multiplexers at 4 K (sub-mW/channel budget per L13-023-class design points), delivering 10x lines-per-loader at fixed heat load, sold as loader-compatible modules with certified thermal/microwave specs.",
+    "frontier_vision": "The cryogenic backplane standard for quantum computers, dark-matter detectors and cryo-electronics generally -- whoever owns the wiring owns the scaling roadmap.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: university cleanroom fabrication of superconducting flex; heat-load and crosstalk metrology vs published baselines. 2027-28: integrate a 28 nm-class cryo-CMOS mux die (MPW runs); demonstrate 4:1 mux at 4 K within power budget. 2029: 1,000-line loader-format prototype evaluated by a DOE QIS center or fridge OEM under CRADA.",
+    "launch_2030_timing_thesis": "Error-corrected machines planned for the early 2030s need 10,000+ control lines; the only public roadmap (one vendor, 4x/2yr) is unvalidated, so a second credible supplier launching 2030 meets a procurement-diversification imperative.",
+    "demand_trigger_2030_2034": "DOE QIS center funding continuity ($625M tranche, L13-028) and QICK-platform domestic supply-chain build-out (Fermilab-Qblox, L13-032); 1,000+-qubit-class control-system deliveries beginning (Keysight-AIST precedent, L13-037, JP side market).",
+    "competition_outlook_2030": "Delft Circuits (L13-042), Bluefors vertical integration (L13-041), SEEQC's SFQ single-chip alternative architecture (L13-038) which would reduce wiring demand if it wins -- an honest substitution risk.",
+    "timing_window_risk": "If cryo-CMOS-at-4K control or SFQ co-integration matures faster than expected, external line count stops scaling with qubit count and the market caps early.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "A ribbon cable where information flows through superconductors with zero Johnson noise, and the switchboard operator sits at 4 kelvin spending less power than a firefly.",
+    "demand_source_ids": [
+      "L13-028",
+      "L13-032",
+      "L13-037",
+      "L13-042"
+    ],
+    "technical_source_ids": [
+      "L13-004",
+      "L13-005",
+      "L13-021",
+      "L13-022",
+      "L13-023",
+      "L07-014",
+      "L07-015",
+      "L07-016",
+      "L07-017"
+    ],
+    "competitor_source_ids": [
+      "L13-042",
+      "L13-041",
+      "L13-038"
+    ],
+    "first_experiment": "Superconducting flex ribbon with 4:1 cryo-CMOS mux operating at 4 K: verify per-channel heat load <=25% of coax baseline and qubit-grade signal integrity (2028, university/DOE cryostat).",
+    "first_experiment_budget_usd": 250000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "JP",
+      "TW"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "elegance_verdict": "REJECT",
+    "duplicate_of": "P3R2-E-04",
+    "adjudication_note": "2026-07-13 adjudication (REJECT): Import SFQ/cryo-CMOS substitution-risk framing and roadmap-validation angle into E-04."
+  },
+  {
+    "idea_id": "P3R2-D-18",
+    "concept": "Affordable Ka-band metamaterial electronically-scanned radar tiles: passive/hybrid beam-steering apertures hitting the Army's published $300k-per-unit cost target for test ranges and counter-UAS sensing.",
+    "primary_lane": "L16",
+    "secondary_lanes": [
+      "L13",
+      "L12"
+    ],
+    "sector_cluster": "defense RF / metamaterial hardware",
+    "product_role": "aperture subsystem",
+    "primary_customer_archetype": "defense_prime",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "U.S. Army test/training commands (SBIR topic A254-049 sponsor)",
+      "counter-UAS system integrators",
+      "range-instrumentation providers"
+    ],
+    "painful_job": "The Army's own solicitation says it: Ka-band (30-40 GHz) electronically-scanned radar is unaffordable for test/training use, with a stated $300,000/unit production target that conventional GaAs/GaN AESAs cannot meet (L16-020); meanwhile China's Guangqi demonstrates metamaterial defense hardware is a multi-billion-RMB recurring category (L16-017).",
+    "product": "Metasurface aperture tiles (varactor/liquid-crystal-tuned unit cells) that steer a Ka-band beam from a handful of RF chains instead of thousands of T/R modules, packaged as calibrated tiles + beam-control software with open interfaces to third-party radar back-ends.",
+    "frontier_vision": "Make phased arrays 10x cheaper per steered watt -- radars on every range pole, drone, and eventually 6G/RIS infrastructure sharing the same tile technology.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026: Phase I SBIR under topic A254-049 (opens April 15, 2026, L16-020) via a university-affiliated team. 2027-28: 256-element Ka-band tile with measured steering range, sidelobe and loss budget; Phase II prototype at a range event. 2029: cost-down DFM with a US PCB/LTCC supply chain; draft production unit cost audit against the $300k target. FIX gate (2028): a second named demand anchor - another program office, a prime teaming agreement, or a Phase II award - because one SBIR topic cannot carry the thesis; absent it, kill or fold into a prime-supplier position.",
+    "launch_2030_timing_thesis": "Counter-UAS and range-modernization demand keeps compounding into the 2030s while conventional AESA cost floors persist; SBIR Phase III sole-source rights create a protected on-ramp timed to 2030.",
+    "demand_trigger_2030_2034": "Army test/training radar procurement following the A254-049 SBIR pipeline (L16-020) and the broader funded counter-UAS/DEW sensing complex (JLWS-era, L12-031) needing cheap Ka-band trackers; KRISS-to-KER transfer shows allied-side metamaterial defense demand (L16-018, KR side).",
+    "competition_outlook_2030": "Echodyne (metamaterial ESA incumbent at K/Ku-band -- judgment), conventional AESA primes, Guangqi in the Chinese sphere (L16-017); the Ka-band affordable-tile niche is contested but not closed. P4 requirement: incumbent mapping - Echodyne-class metamaterial ESA vendors and prime GaN AESA cost curves - to confirm the affordability gap still exists at award time.",
+    "timing_window_risk": "Metasurface losses and tuning speed at 35 GHz may cap performance below requirement; GaN AESA costs are also falling -- the cost gap could narrow by 2030. KR allied-variant (merged from E-12: the KRISS-to-KER transfer model, L16-018) is upside only - excluded from the base case.",
+    "commercial_readiness_kill_date": "2033-06",
+    "extreme_edge": "A printed sheet of sub-wavelength resonators that bends a millimeter-wave beam like software-defined refraction -- an aperture that is mostly geometry, not silicon.",
+    "demand_source_ids": [
+      "L16-020",
+      "L16-018",
+      "L12-031"
+    ],
+    "technical_source_ids": [
+      "L16-010",
+      "L16-011",
+      "L16-013",
+      "L16-014"
+    ],
+    "competitor_source_ids": [
+      "L16-017"
+    ],
+    "first_experiment": "64-element Ka-band metasurface tile: measure beam-steering to +/-45 degrees, insertion loss, and switching latency against the A254-049 draft spec (2027).",
+    "first_experiment_budget_usd": 250000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      5000000,
+      12000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "KR"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "fix_applied_notes": "2026-07-13 FIX applied: 2028 second-demand-anchor gate (second program office, prime teaming, or Phase II award); P4 incumbent mapping (Echodyne-class + prime AESA cost curves); E-12's KR allied-variant kept as upside only.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Dated Army cost target is real; demand base thin."
+  },
+  {
+    "idea_id": "P3R2-D-19",
+    "concept": "Distributed composite-flywheel kinetic buffers for off-grid AI power plants: containerized magnetic-bearing flywheel strings that absorb GPU-cluster power swings so gas turbines and grids see smooth load.",
+    "primary_lane": "L16",
+    "secondary_lanes": [
+      "L02",
+      "L08"
+    ],
+    "sector_cluster": "AI datacenter power stabilization",
+    "product_role": "energy-buffer subsystem",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "off-grid AI power-plant developers (the 400 MW East Coast plant that selected Piller SHIELDX)",
+      "datacenter EPCs handling GW campuses",
+      "gas-turbine power-island integrators"
+    ],
+    "painful_job": "A 400 MW off-grid AI datacenter already selected flywheel-based dynamic power stabilization (Piller SHIELDX with Bergen engines) because reciprocating/turbine plants cannot follow AI load steps (L16-052); GE Vernova books $2.4B/quarter of datacenter electrification orders into this same stress (L08-033); 800VDC racks make sub-second DC-side buffering natural (L02-043).",
+    "product": "250-500 kW / 10-25 MJ composite-rotor flywheel modules on active magnetic bearings, inverter-coupled to the 800VDC/MV bus, deployed as parallel strings at PDU/feeder level with millisecond response and >million-cycle life -- a power-quality machine, not an energy-storage play.",
+    "frontier_vision": "Kinetic shock absorbers for the AI grid: every gigawatt campus carries spinning inertia sized to its training-job power spectrum, later extended to grid-forming inertia services.",
+    "current_trl": 4,
+    "precompany_plan_2026_2029": "2026-27 (FIX-hardened): instrumented load-spectrum study with a datacenter partner to MEASURE the buffering niche (microcycle depth/frequency spectra) - the niche must be measured, not asserted - plus quantified cycle-life economics vs Piller-class synchronous machines and vs BESS at the measured microcycle rates; rotor/bearing design and loss modeling in parallel. 2027-28: 50 kW / 2 MJ subscale rotor spin-tested in vacuum with magnetic bearings; cycle-life data. 2029: 250 kW prototype string demonstrated against the measured GPU load profile at a power-island testbed.",
+    "launch_2030_timing_thesis": "Off-grid and weak-grid AI plants proliferate 2030-2034 as interconnect queues bind; engine/turbine vendors need a buffer partner, and the 2025 SHIELDX selection proves the architecture is procurable now with room for a higher-power-density, DC-native entrant.",
+    "demand_trigger_2030_2034": "Off-grid AI power-plant build-outs following the documented 400 MW East Coast SHIELDX/Bergen architecture (L16-052) and the datacenter electrification order supercycle (L08-033); 800VDC rack standardization creating DC-coupled buffer sockets (L02-043, L02-044). CN market (merged from B-18): Dong-Shu-Xi-Suan hub parks and 800VDC rollouts (L02-048, L02-049) are a license-note only - no CN beachhead; the Piller reference architecture is Western.",
+    "competition_outlook_2030": "Piller (incumbent, synchronous-machine-based, L16-052), BESS + grid-forming inverters, synchronous condensers at grid scale (L08-036, L08-037), supercapacitors; wedge is cycle-life economics at millions of daily microcycles where batteries age out.",
+    "timing_window_risk": "If lithium BESS cycle costs fall far enough or NVIDIA smooths load in software/rack capacitance, the buffering niche shrinks to harmonics-scale.",
+    "commercial_readiness_kill_date": "2034-06",
+    "extreme_edge": "A carbon-fiber cylinder at 40,000 rpm on magnetic bearings in vacuum, catching a 100-megawatt training-run heartbeat so a gas turbine never feels it.",
+    "demand_source_ids": [
+      "L16-052",
+      "L08-033",
+      "L02-043",
+      "L02-044",
+      "L02-048",
+      "L02-049"
+    ],
+    "technical_source_ids": [
+      "L16-037",
+      "L16-038",
+      "L16-052"
+    ],
+    "competitor_source_ids": [
+      "L16-052",
+      "L08-036",
+      "L08-037"
+    ],
+    "first_experiment": "50 kW / 2 MJ composite rotor on active magnetic bearings in vacuum: demonstrate 100,000 charge/discharge microcycles with <1% rotor loss growth and millisecond-class response (2028).",
+    "first_experiment_budget_usd": 350000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      8000000,
+      20000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [
+      "KR",
+      "JP"
+    ],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "medium",
+    "fix_applied_notes": "2026-07-13 FIX applied: 2026-27 instrumented load-spectrum study with a datacenter partner made the sizing basis (niche measured, not asserted); quantified cycle-life economics vs Piller synchronous machines and vs BESS at measured microcycle rates; B-18's CN market absorbed as a license-note only.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Fast-follower vs Piller with a real microcycle-aging argument; niche must be measured, not asserted."
+  },
+  {
+    "idea_id": "P3R2-D-20",
+    "concept": "Ultra-high-temperature liquid-metal transport subsystem -- pumps, valves, seals and instrumentation for 1,400-2,400 C molten silicon/tin -- the balance-of-plant layer every TPV thermal battery needs and none can buy.",
+    "primary_lane": "L04",
+    "secondary_lanes": [
+      "L14",
+      "L15"
+    ],
+    "sector_cluster": "thermal energy storage / extreme materials",
+    "product_role": "component/subsystem",
+    "primary_customer_archetype": "industrial",
+    "primary_market": "US",
+    "named_buyer_examples": [
+      "TPV thermal-battery developers (Antora-class ARPA-E SCALEUP awardees; Fourth Power liquid-tin architecture)",
+      "firebrick/molten-media storage developers (Electrified Thermal-class)",
+      "next-gen CSP and process-heat pilots",
+      "solar-thermochemical pilot developers (buyer-hypothesis broadening, FIX)",
+      "metallurgy/process-heat pilot lines handling molten metals (buyer-hypothesis broadening, FIX)"
+    ],
+    "painful_job": "Record TPV efficiency requires 1,900-2,400 C emitters (L04-001, L04-002, L04-009), and liquid-metal thermal batteries must move molten silicon/tin between storage and converter -- but MIT-lineage molten-silicon pumping remains a lab demonstration (L04-108) and every developer hand-builds graphite/ceramic flow hardware with no merchant supplier, while paying industrial buyers already exist for heat batteries (L04-042, L04-043).",
+    "product": "Qualified graphite/SiC/refractory-ceramic pump-and-valve skids with sealed drives, freeze-plug safety valves, level/flow instrumentation and lifetime data at 1,400-2,400 C, sold as the certified 'hot hydraulics' kit to thermal-battery and process-heat integrators.",
+    "frontier_vision": "Own the plumbing of the >1,400 C economy: thermal batteries first, then solar-thermochemical fuels, metallurgy electrification and liquid-metal fission/fusion blankets.",
+    "current_trl": 3,
+    "precompany_plan_2026_2029": "2026-27: materials/seal test rig at a university high-temperature lab; replicate and extend published molten-tin pumping baselines. 2027-28: 1,000 h continuous molten-tin loop at 1,400 C with instrumented pump; ARPA-E-adjacent funding. 2029: molten-silicon (1,600 C+) loop campaign and first paid pilot kit to a thermal-battery developer. FIX gates: 2028 - at least one liquid-metal thermal-battery developer must show a commercial order book, else kill (demand is hostage to the liquid-metal architecture beating solid media); first capital capped at molten-tin-loop scale until that gate passes.",
+    "launch_2030_timing_thesis": "Thermal-battery companies move from ARPA-E demos to commercial multi-unit deployments in the early 2030s (Rondo's cement/fuel installs are the leading indicator); at that scale they outsource non-core hot hydraulics exactly as EV firms outsourced pumps -- to whoever spent 2026-2029 accumulating lifetime data.",
+    "demand_trigger_2030_2034": "Commercial thermal-battery scale-ups following ARPA-E SCALEUP/FIRES cohorts (L04-033, L04-034), heat-battery purchase precedents at industrial sites (L04-042, L04-043), and 24/7 clean-power procurement pulling storage-plus-heat architectures (Google-Fervo template, L04-050).",
+    "competition_outlook_2030": "Vertical in-house builds at Antora/Fourth Power (L04-033, L04-052), graphite component job shops, no merchant qualified supplier; substitutes are solid-media storage architectures (firebrick, L04-034) that avoid liquid metal entirely -- an honest architectural risk.",
+    "timing_window_risk": "If solid-media (firebrick/carbon-block conduction) architectures win the market, liquid-metal transport demand never materializes at product scale.",
+    "commercial_readiness_kill_date": "2033-12",
+    "extreme_edge": "Pumping white-hot liquid silicon -- hotter than lava, glowing like a filament -- through ceramic plumbing that must not dissolve for a decade.",
+    "demand_source_ids": [
+      "L04-033",
+      "L04-034",
+      "L04-042",
+      "L04-043",
+      "L04-050"
+    ],
+    "technical_source_ids": [
+      "L04-108",
+      "L04-001",
+      "L04-002",
+      "L04-009"
+    ],
+    "competitor_source_ids": [
+      "L04-052",
+      "L04-033",
+      "L04-034"
+    ],
+    "first_experiment": "1,000 h molten-tin pumping loop at 1,400 C with ceramic gear/sump pump: measure seal wear, flow stability and materials attack; publish lifetime model (2027-28).",
+    "first_experiment_budget_usd": 300000,
+    "precompany_validation_by_2029": true,
+    "v1_capital_range_usd": [
+      3000000,
+      8000000
+    ],
+    "us_beachhead": true,
+    "china_beachhead": false,
+    "secondary_markets": [],
+    "asia_beachhead": false,
+    "founder_fit_note": "",
+    "gate_results": {},
+    "score_total": null,
+    "confidence": "low",
+    "fix_applied_notes": "2026-07-13 FIX applied: 2028 gate requiring >=1 liquid-metal thermal-battery developer with a commercial order book (else kill); buyer hypothesis broadened beyond one architecture to solar-thermochemical and metallurgy/process-heat pilots; first capital capped at molten-tin-loop scale until the gate passes.",
+    "elegance_verdict": "FIX_APPLIED",
+    "adjudication_note": "2026-07-13 adjudication (FIX): Highest novelty in pool; demand hostage to liquid-metal architecture winning vs solid media."
+  }
+]

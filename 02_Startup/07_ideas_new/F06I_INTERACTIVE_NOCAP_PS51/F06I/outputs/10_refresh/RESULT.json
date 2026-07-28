@@ -1,0 +1,16 @@
+{
+  "stage": "10_refresh",
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-07-28T05:10:00Z",
+  "outputs": ["REFRESH.json", "SOURCES.json", "REFRESH.md"],
+  "checks": {
+    "all_65_longlist_ideas_covered": true,
+    "every_item_has_checked_claim": true,
+    "new_sources_unique_ids": true,
+    "all_accepted_sources_opened_full_page": true,
+    "snippet_only_findings_excluded_and_logged": true,
+    "origin_eligibility_recorded_for_all_sources": true,
+    "contradicting_findings_personally_reverified_by_main_agent": true,
+    "no_ideas_added_deleted_scored_or_ranked": true
+  }
+}

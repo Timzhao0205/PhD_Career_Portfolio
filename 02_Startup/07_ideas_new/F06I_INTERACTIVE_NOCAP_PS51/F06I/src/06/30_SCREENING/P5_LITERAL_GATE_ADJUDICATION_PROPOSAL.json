@@ -1,0 +1,613 @@
+{
+  "artifact": "P5_LITERAL_GATE_ADJUDICATION_PROPOSAL",
+  "status": "independent_proposal",
+  "generated_at": "2026-07-13T23:45:00-07:00",
+  "routing": {
+    "requested_model": "Sol",
+    "requested_effort": "xhigh",
+    "actual_model": "unknown",
+    "actual_effort": "unknown"
+  },
+  "scope": {
+    "reviewed_p4_survivors": 30,
+    "binding_interpretation": "G1 requires two independent demand sources and one primary buyer/procurement/filing; it does not require a purchase order for a startup product that does not yet exist. Host-system demand counts only when the proposed product performs a necessary or tightly coupled job. G4 requires named closest competitors and a non-cosmetic difference, not proof that the difference will win. G6 fails only when a prohibited or structurally blocked route remains the base case. G7 retains the stricter mission/source-standard requirement for two independent timing sources, including one primary or official source specifying a relevant 2028-2035 trigger.",
+    "score_method": "Accepted raw-score changes were applied to the authoritative P4 raw scores and recomputed using the published 100-point weights. Gate passage and raw demonstrated-demand score are intentionally distinct."
+  },
+  "summary": {
+    "overall_gate_pass": 0,
+    "overall_gate_pass_marginal": 12,
+    "overall_gate_fail": 18,
+    "selection_keep": 12,
+    "selection_hold": 7,
+    "selection_kill": 11,
+    "g1_fail": 2,
+    "g4_fail": 2,
+    "g6_fail": 0,
+    "g7_fail": 17,
+    "literal_g1_overrides_of_red_team_failures": 15,
+    "literal_g4_overrides_of_red_team_failures": 6,
+    "strict_g7_new_failures_relative_to_red_team": 7,
+    "solver_candidate_pool_currently_gate_eligible": 10,
+    "final24_feasibility": "FAIL: only 12 of the current 30 survivors clear all hard gates after literal adjudication. Seven more are HOLDs with bounded evidence repairs, but none may count in a final 24 until its failed gate is repaired. The solver's counterfactual 24 is not executable."
+  },
+  "citation_integrity_flags": [
+    {
+      "idea_id": "P3R2-D-02",
+      "source_ids": ["P3R2-D-02-S02", "L03-044", "L03-050"],
+      "finding": "P3R2-D-02-S02 is an Eastmoney Caifuhao T2 retail-stock post, not a Shanghai Superconductor filing or official 2030 trigger. L03-044 documents a several-hundred-kilometer supply agreement but no early-2030 date. L03-050 is not relevant support for REBCO acceptance metrology."
+    },
+    {
+      "idea_id": "P3R2-D-13",
+      "source_ids": ["P3R2-D-13-S02", "P3R2-D-13-S03", "L12-045"],
+      "finding": "The ACT and General Atomics aliases were reversed in narrative use, and L12-045 does not carry the demand case. None of these records supplies a primary or official 2028-2035 trigger."
+    },
+    {
+      "idea_id": "P3R2-F-06",
+      "source_ids": ["P3R2-F-06-S03"],
+      "finding": "PRC-028 concerns a different compliance-measurement job and cannot serve as demand or timing evidence for a merchant wideband HVDC DC sensor."
+    },
+    {
+      "idea_id": "P3R2-A-13",
+      "source_ids": ["P3R2-A-13-S01", "P3R2-A-13-S02"],
+      "finding": "The vehicle solicitation does not itself specify a merchant EP PPU, and the forward tranche is paused/unfunded; it cannot be represented as a durable 2030-2034 PPU procurement trigger."
+    },
+    {
+      "idea_id": "P3R2-C-01",
+      "source_ids": ["L02-044", "P3R2-C-01-S06"],
+      "finding": "L02-044 is trade reporting on OCP rather than a primary buyer specification, and P3R2-C-01-S06 is TrendForce reporting rather than an official plan. They remain useful corroboration but should not be labeled primary or official."
+    },
+    {
+      "idea_id": "P3R2-G-01",
+      "source_ids": ["P3R2-G-01-S03", "P3R2-G-01-S04"],
+      "finding": "S03 is a conditional media interview about a possible 2030-2035 replanning cycle; S04 confirms active BEST construction but does not state a 2030 procurement trigger."
+    },
+    {
+      "idea_id": "P3R2-C-08",
+      "source_ids": ["P3R2-C-08-S02", "L04-051"],
+      "finding": "Both are press/state-media reports of a 2028 project, not the primary official project instrument required by the timing rule."
+    },
+    {
+      "idea_id": "P3R2-E-04",
+      "source_ids": ["P3R2-E-04-S06"],
+      "finding": "S06 is a T2 third-party report of IBM's roadmap, not an IBM primary roadmap, and it is adverse evidence that modular links may remove the loader socket."
+    },
+    {
+      "idea_id": "P3R2-F-23",
+      "source_ids": ["P3R2-F-23-S02"],
+      "finding": "The China timing evidence is alkaline-electrolyzer evidence and cannot carry the frozen PEM controller/logging thesis."
+    },
+    {
+      "idea_id": "P3R2-A-05",
+      "source_ids": ["P3R2-A-05-S01", "P3R2-A-05-S02"],
+      "finding": "Facility awards demonstrate vacuum-system activity, not external merchant NEG-coating procurement; the strongest direct evidence instead shows in-house capability."
+    },
+    {
+      "idea_id": "P3R2-A-22",
+      "source_ids": ["P3R2-A-22-S03", "P3R2-A-22-S05"],
+      "finding": "The 2031 EPA drinking-water compliance delay is not a plasma-destruction procurement, and the cited peer-reviewed records do not support the load-bearing PFAS plasma energy/mass-balance claims."
+    },
+    {
+      "idea_id": "P3R2-F-02",
+      "source_ids": ["P3R2-F-02-S05"],
+      "finding": "An aggregator-level no-hit search is not official restricted-party clearance and must not be described as such."
+    },
+    {
+      "idea_id": "P3R2-F-03",
+      "source_ids": ["P3R2-F-03-S04", "L04-051"],
+      "finding": "Chaotan One is an integrated demonstration and adverse vertical-integration evidence, not merchant electrical-cartridge procurement."
+    }
+  ],
+  "ranked_survivors": [
+    {
+      "rank": 1,
+      "idea_id": "P3R2-C-22",
+      "p4_score": 73.0,
+      "recalculated_total": 64.6,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L11-032", "L11-046", "L11-050", "L11-051"], "rationale": "DOE hub awards, a public-company filing, and independent China tender/supplier records are two-plus relevant demand sources with primary evidence; a paid merchant-bench evaluation is not required by literal G1."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-22-S02", "L11-043"], "rationale": "Greenlight and adjacent electrical-test vendors are named; a cross-OEM degradation-transfer and financier-facing dataset is non-cosmetic but unproved."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "No structural export block exists, but cross-OEM confidentiality, China data rights, and dataset partitioning constrain the proposed moat."},
+        "G7": {"verdict": "pass", "evidence_ids": ["L11-032", "P3R2-C-22-S03", "P3R2-C-22-S04"], "rationale": "US hub commissioning and the official-derived China 2030 renewable-hydrogen target provide independent timing logic, including a relevant 2030 capacity trigger."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 does not demand a startup-product order", "G4": "ACCEPT pass_marginal", "G6": "PARTIAL; downgrade to pass_marginal", "G7": "ACCEPT pass"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [4, 3], "competition_whitespace": [3, 2], "tenx_technical_edge": [3, 2]},
+      "mischaracterized_citations": ["P3R2-C-22-S04 is official-derived T2 reporting, not itself the primary NDRC/NEA plan; canonical use should point to the underlying official plan."]
+    },
+    {
+      "rank": 2,
+      "idea_id": "P3R2-D-02",
+      "p4_score": 76.6,
+      "recalculated_total": 64.0,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-D-02-S01", "L03-035", "L03-041", "L03-044"], "rationale": "The category is actually purchased and used: Tapestar is an exact instrument, while independent tape/magnet transactions establish the buyer job."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-D-02-S01"], "rationale": "THEVA is the exact incumbent; neutral multi-modal acceptance is non-cosmetic but has not beaten the incumbent workflow."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "Ordinary metrology is not blocked, but every China counterparty still requires official screening and an IP/data partition."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-D-02-S02", "L03-044"], "rationale": "Neither record is a compliant primary or official 2028-2035 trigger: S02 is a retail-stock post and L03-044 contains no early-2030 schedule."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass", "G4": "ACCEPT downgrade to pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"frontier_coolness_vision": [4, 3], "competition_whitespace": [2, 1], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 2], "us_china_dual_market_leverage": [4, 3], "launch_window_fit_2030": [4, 3], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["P3R2-D-02-S02 is not company-sourced or procurement-grade.", "L03-044 does not state an early-2030 commercial-plant date."]
+    },
+    {
+      "rank": 3,
+      "idea_id": "P3R2-D-01",
+      "p4_score": 69.6,
+      "recalculated_total": 62.8,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L03-032", "L03-030", "L03-035"], "rationale": "Independent official fusion spending and real external magnet transactions tightly imply a required quench-protection job, although buy-versus-build remains open."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L03-035", "L03-044"], "rationale": "CFS, Tokamak Energy, CLIQ, and no-insulation substitutes are named; distributed fiber sensing plus qualified extraction is non-cosmetic but absorbable."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "A US-only base case is viable; China is excluded absent official screening and current export advice."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-02-S03", "P3R2-F-02-S04", "P3R2-D-01-S01"], "rationale": "A primary CFS-Realta partnership targets mid-2030s plants and DOE's official record targets late-2020s design reviews toward mid-2030s FPPs; the trade report independently corroborates early-2030s ARC timing."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "technical_elegance_controllability": [5, 4], "tenx_technical_edge": [3, 2]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 4,
+      "idea_id": "P3R2-F-01",
+      "p4_score": 69.8,
+      "recalculated_total": 59.8,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L06-039", "L06-042", "L06-043"], "rationale": "Independent audited/filing-grade RF-power spending is tightly coupled to matching, so literal G1 passes without a fast-matcher PO; willingness to buy this implementation remains a score risk."},
+        "G4": {"verdict": "pass", "evidence_ids": ["P3R2-F-01-S03", "L06-039"], "rationale": "Comet, AE, MKS, and DAIHEN are named, and microsecond all-solid-state matching is a measured non-cosmetic difference from electromechanical matching."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-01-S01", "P3R2-F-01-S02"], "rationale": "The gate passes only after making the US-first case the base case and removing Entity-Listed buyers and the HK routing thesis; clean China buyers remain optional upside."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-01-S04", "L06-039"], "rationale": "The official 2026-2030 IC plan supplies a 2030 trigger and AE's filing documents active next-platform qualification; absorption before 2030 remains the binding risk."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; relevant category filings satisfy literal G1", "G4": "ACCEPT pass", "G6": "PARTIAL; accept the blocked-route finding but final is pass_marginal after mandatory US-first rescope", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "reachable_validation_budget": [4, 3], "tenx_technical_edge": [5, 4], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [4, 3]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 5,
+      "idea_id": "P3R2-C-01",
+      "p4_score": 66.2,
+      "recalculated_total": 59.6,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-G-03-S01", "L02-044", "P3R2-C-01-S03"], "rationale": "NVIDIA's primary architecture and independent OCP/China buyer-led records explicitly identify protection, grounding, IMD, and serviceability jobs."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-01-S03", "P3R2-C-01-S04"], "rationale": "Vertiv, Eaton, ABB, DG Matrix, and China shelf vendors are named; integrated protection/sequencing is non-cosmetic but readily absorbed."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-01-S02"], "rationale": "Separate local BOMs and licensed gallium sourcing are plausible, but counterparty, certification, IP, and entity controls must be costed."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-G-03-S01", "P3R2-C-01-S06", "L14-036"], "rationale": "The 2027-2028 architecture roadmap and official 2030 AI-energy plan create an in-window system trigger; the merchant socket must be secured in 2028-2029 before standards absorb it."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass", "G4": "ACCEPT downgrade to pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"competition_whitespace": [2, 1], "reachable_validation_budget": [3, 2], "tenx_technical_edge": [3, 2], "launch_window_fit_2030": [3, 2]},
+      "mischaracterized_citations": ["L02-044 and P3R2-C-01-S06 are secondary reporting, not primary/official records."]
+    },
+    {
+      "rank": 6,
+      "idea_id": "P3R2-E-14",
+      "p4_score": 69.0,
+      "recalculated_total": 56.4,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L08-041", "P3R2-E-14-S01", "L08-043"], "rationale": "Multiple funded HVDC projects and protection obligations are independent and tightly coupled to relay/HIL work; an order for the startup is not required by G1."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-E-14-S04", "L08-052"], "rationale": "OEM protection platforms, SEL, NR Electric, and InterOPERA are named; neutrality is non-cosmetic only where model/interface access exists."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "US-first sale is viable; model confidentiality, cyber controls, protection liability, and any China transfer require explicit controls."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["L08-041", "P3R2-E-14-S01", "P3R2-E-14-S03"], "rationale": "Southern Spirit's 2032 in-service date is a primary in-window project trigger, independently supported by another multi-terminal project and the federal planning regime."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"frontier_coolness_vision": [4, 3], "high_end_niche_quality": [4, 3], "competition_whitespace": [3, 2], "technical_elegance_controllability": [5, 4], "tenx_technical_edge": [2, 1], "launch_window_fit_2030": [4, 3], "expansion_economics": [4, 3]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 7,
+      "idea_id": "P3R2-A-14",
+      "p4_score": 70.4,
+      "recalculated_total": 54.6,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-A-14-S01", "P3R2-A-14-S02", "L15-041"], "rationale": "A named 150 MW buyer collaboration targeting 2030 and independent official superhot programs are multiple relevant demand sources with primary company/government evidence."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-14-S04", "P3R2-A-14-S05"], "rationale": "Existing 300C research chipsets and industrial in-house teams narrow the gap, but a qualified merchant 300C mixed-signal platform remains a non-cosmetic product boundary."},
+        "G6": {"verdict": "pass", "evidence_ids": [], "rationale": "No prohibited cross-border route is required; industrial and dual-use qualification burdens are acknowledged."},
+        "G7": {"verdict": "pass", "evidence_ids": ["P3R2-A-14-S01", "P3R2-A-14-S02", "P3R2-A-14-S03"], "rationale": "The primary Baker Hughes-XGS project targets full operation in 2030 and the independent official three-year SUPERHOT path reaches the 2028 window."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT downgrade; literal G1 is pass", "G4": "ACCEPT downgrade to pass_marginal", "G6": "ACCEPT pass", "G7": "REJECT downgrade; the primary 2030 project and official 2028 program satisfy the published rule"},
+      "accepted_score_adjustments": {"demonstrated_demand": [4, 3], "high_end_niche_quality": [4, 3], "competition_whitespace": [4, 2], "reachable_validation_budget": [2, 1], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 2], "launch_window_fit_2030": [4, 3]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 8,
+      "idea_id": "P3R2-C-13",
+      "p4_score": 63.2,
+      "recalculated_total": 52.6,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-13-S03", "P3R2-C-13-S04", "P3R2-C-13-S05"], "rationale": "Funded laser-system programs and independent public-company volume records are tightly coupled to precision drivers; outsourcing remains unproved but is not a literal G1 failure."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L12-033", "L12-034", "L12-037"], "rationale": "In-house OEM teams are named and a TMI-aware qualified merchant module is non-cosmetic, though readily absorbed."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-13-S01", "P3R2-C-13-S02"], "rationale": "Raycus must be removed; a screened China buyer and strictly separated US defense/commercial line are required."},
+        "G7": {"verdict": "fail", "evidence_ids": ["L12-031", "P3R2-C-13-S03"], "rationale": "The official JLWS award record does not specify a 2028-2035 merchant-driver trigger, while the 2028 date is secondary reporting and design-in may close before launch."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "REJECT pass_marginal; strict timing source is missing"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "reachable_validation_budget": [4, 3], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 2]},
+      "mischaracterized_citations": ["P3R2-C-13-S03 is T2 reporting, not the primary JLWS award instrument."]
+    },
+    {
+      "rank": 9,
+      "idea_id": "P3R2-D-19",
+      "p4_score": 60.4,
+      "recalculated_total": 51.8,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-D-19-S01", "P3R2-D-19-S02"], "rationale": "A named plant bought the exact flywheel-stabilization class and an audited/filing-grade electrification order wave independently corroborates the host buildout."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-D-19-S01", "P3R2-D-19-S03"], "rationale": "Piller and Stornetic are direct incumbents; DC-native distributed composite modules are non-cosmetic but lack a measured residual-load advantage."},
+        "G6": {"verdict": "pass", "evidence_ids": [], "rationale": "Civilian US industrial deployment is not structurally export-blocked; containment and occupied-site safety are ordinary qualification burdens."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-D-19-S01", "P3R2-D-19-S02", "P3R2-G-03-S01"], "rationale": "The exact project delivers in 2025-2027, NVIDIA's primary roadmap starts in 2027, and the GE filing has no 2028-2035 flywheel trigger; strict timing is not met."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT downgrade; exact-class procurement supports pass", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass", "G7": "REJECT pass_marginal; strict in-window source is absent"},
+      "accepted_score_adjustments": {"high_end_niche_quality": [3, 2], "competition_whitespace": [2, 1], "reachable_validation_budget": [2, 1], "tenx_technical_edge": [2, 1], "launch_window_fit_2030": [3, 2]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 10,
+      "idea_id": "P3R2-B-01",
+      "p4_score": 62.8,
+      "recalculated_total": 51.0,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-B-01-S01", "P3R2-B-01-S03", "P3R2-B-01-S04"], "rationale": "Official PUE limits and independent named liquid-cooling procurements are directly relevant to the proposed loop; G1 does not require that a tender already specify negative pressure."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-B-01-S05", "L14-043", "L14-053"], "rationale": "Envicool now sells the same pumped two-phase class; subatmospheric inward-leak control remains non-cosmetic but highly absorbable."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "Cooling hardware is not prohibited, but the China-only licensing/ODM route creates severe IP, service, and partner-dependence risk."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-B-01-S01", "P3R2-B-01-S02"], "rationale": "Two official sources include an explicit 2030 efficiency horizon and a mandatory standard revision covering liquid cooling; incumbent convergence narrows the window."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal category demand is sufficient for pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "competition_whitespace": [3, 1], "tenx_technical_edge": [3, 2], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 2]},
+      "mischaracterized_citations": ["The P4 claim that no domestic pumped two-phase cold-plate product exists is stale after Envicool's 2025 launch."]
+    },
+    {
+      "rank": 11,
+      "idea_id": "P3R2-C-08",
+      "p4_score": 62.2,
+      "recalculated_total": 50.0,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["L04-039", "L04-045", "L04-048", "L04-051"], "rationale": "Independent operating projects and component procurement establish real PCHE-class demand; G1 does not require an RFQ using the startup's rapid-transient label."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-08-S04"], "rationale": "VPE and Heatric are named and already cover sCO2, code, and fatigue work; rapid-transient life qualification is non-cosmetic but the residual gap is unproved."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-C-08-S01"], "rationale": "A separate US nuclear and China non-nuclear product is plausible, but nuclear qualification, technical-data separation, and counterparty diligence must be costed."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-C-08-S02", "L04-051", "L04-031"], "rationale": "The 2028 China project date is carried by press/state-media records rather than the primary official project instrument, while NRC Part 53 is a 2026 rule; the strict primary/official 2028-2035 source is missing."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT downgrade; literal G1 is pass", "G4": "REJECT fail; final is pass_marginal because the stated transient-life difference is non-cosmetic", "G6": "ACCEPT pass_marginal", "G7": "REJECT pass; strict source form is not met"},
+      "accepted_score_adjustments": {"demonstrated_demand": [4, 3], "high_end_niche_quality": [4, 3], "competition_whitespace": [2, 1], "technical_elegance_controllability": [3, 2], "tenx_technical_edge": [2, 1], "launch_window_fit_2030": [4, 3]},
+      "mischaracterized_citations": ["P3R2-C-08-S02 and L04-051 are not primary official project records."]
+    },
+    {
+      "rank": 12,
+      "idea_id": "P3R2-F-02",
+      "p4_score": 57.6,
+      "recalculated_total": 49.4,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-02-S03", "P3R2-F-02-S04", "L03-030"], "rationale": "A primary multi-billion-potential external magnet partnership, official fusion program spending, and laboratory demand tightly imply drive/dump and lead hardware, although no integrated-skid order exists."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-02-S01", "P3R2-F-02-S02"], "rationale": "OCEM and Danfysik are exact deep incumbents; integrated island, acceptance protocol, and catalog lead products are non-cosmetic but thin."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-02-S05"], "rationale": "The US route is viable, but any ASIPP-adjacent sale needs official end-use and restricted-party review; an aggregator no-hit is insufficient."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-02-S03", "P3R2-F-02-S04"], "rationale": "The primary CFS-Realta partnership targets mid-2030s plants and DOE's official program targets late-2020s reviews toward mid-2030s FPP operation."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "PARTIAL; final pass_marginal rather than pass", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"frontier_coolness_vision": [3, 2], "competition_whitespace": [2, 1], "reachable_validation_budget": [3, 2], "launch_window_fit_2030": [3, 2]},
+      "mischaracterized_citations": ["P3R2-F-02-S05 is not official sanctions clearance."]
+    },
+    {
+      "rank": 13,
+      "idea_id": "P3R2-C-04",
+      "p4_score": 61.8,
+      "recalculated_total": 49.0,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["L14-043", "P3R2-C-04-S01", "L14-033", "L14-034"], "rationale": "A primary buyer liquid-cooling specification, an independent named two-phase deployment, and binding fluid rules are directly relevant sources; a PFAS-free-loop PO is not required by G1."},
+        "G4": {"verdict": "pass", "evidence_ids": ["L14-043", "L14-045", "L14-046", "P3R2-C-04-S01"], "rationale": "ZutaCore, Accelsius, LiquidStack, JetCool, Flex, and Envicool are named; a qualified multi-fluid, subatmospheric PFAS-free dossier is non-cosmetic."},
+        "G6": {"verdict": "pass", "evidence_ids": ["L14-033", "L14-034"], "rationale": "The regulatory and ordinary thermal-product paths are acknowledged and no prohibited route is the base case."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["L14-033", "L14-034"], "rationale": "EPA's official 2029-2035 HFC steps and the independent EU F-gas restrictions are explicit in-window regulatory triggers; single-phase water and incumbent convergence remain window risks."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; category demand is close and literal G1 is pass", "G4": "ACCEPT pass", "G6": "ACCEPT pass", "G7": "REJECT fail; official 2029-2035 fluid triggers satisfy the published rule"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "reachable_validation_budget": [2, 1], "technical_elegance_controllability": [4, 3], "us_china_dual_market_leverage": [3, 2], "launch_window_fit_2030": [4, 3]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 14,
+      "idea_id": "P3R2-E-04",
+      "p4_score": 65.4,
+      "recalculated_total": 47.8,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["L13-028", "L13-032"], "rationale": "Two independent official programs explicitly fund scalable quantum instrumentation, refrigeration, and control; the integrated loader is a tightly coupled subsystem even without its own PO."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L13-042", "L13-041", "P3R2-E-04-S05"], "rationale": "Delft, Bluefors, SEEQC, and in-house teams span the boundary; co-packaged channels-per-watt is non-cosmetic but architecture-dependent."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-E-04-S01"], "rationale": "The US base is lawful, while Taiwan/Korea transfers and deemed exports require license-aware planning."},
+        "G7": {"verdict": "fail", "evidence_ids": ["L13-028", "P3R2-E-04-S06"], "rationale": "The DOE funding record does not specify a 2028-2035 loader trigger, S06 is not an IBM primary source, and the cited modular-link roadmap is adverse pre-2030 absorption evidence."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [4, 3], "competition_whitespace": [2, 1], "reachable_validation_budget": [2, 1], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [4, 2], "launch_window_fit_2030": [3, 1], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["P3R2-E-04-S06 is a T2 third-party roadmap report, not an IBM primary source."]
+    },
+    {
+      "rank": 15,
+      "idea_id": "P3R2-A-10",
+      "p4_score": 62.0,
+      "recalculated_total": 47.4,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L06-039", "L06-037"], "rationale": "The AE filing documents waveform-platform commercialization and the GAO record documents a funded 2030 fab ramp; both are tightly relevant to an IEDF control retrofit, though OEM willingness remains unproved."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-10-S04", "L06-039"], "rationale": "Impedans and generator/tool OEMs are named; closed-loop eV-referenced control versus measurement-only products is non-cosmetic but absorbable."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-10-S01"], "rationale": "The gate passes only with a US-primary base and removal of the named Entity-Listed China accounts; no mature-node label cures end-user restrictions."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["L06-037", "L06-039"], "rationale": "GAO supplies a primary official 2030 capacity trigger and AE's filing independently documents platform qualifications; merchant access can still close before launch."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; relevant filings satisfy literal G1", "G4": "ACCEPT pass_marginal", "G6": "PARTIAL; accept the blocked-China finding but final is pass_marginal after a US-only rescope", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "competition_whitespace": [3, 2], "reachable_validation_budget": [3, 2], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 2], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["The frozen China accounts cannot support G6 or a China beachhead."]
+    },
+    {
+      "rank": 16,
+      "idea_id": "P3R2-D-13",
+      "p4_score": 63.0,
+      "recalculated_total": 47.0,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L12-031", "P3R2-D-13-S06", "P3R2-D-13-S03"], "rationale": "Independent funded laser systems plus an existing merchant DEW thermal product establish a tightly coupled category demand case; no 300 MJ LRU order is needed for literal G1."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-D-13-S02", "P3R2-D-13-S03"], "rationale": "General Atomics, ACT, and Honeywell/Rocky are closest competitors; 300 MJ/MW-class scale is non-cosmetic but incumbents are better placed to deliver it."},
+        "G6": {"verdict": "pass", "evidence_ids": ["P3R2-D-13-S03"], "rationale": "A US-only ITAR route is acknowledged and structurally possible."},
+        "G7": {"verdict": "fail", "evidence_ids": ["L12-031", "P3R2-D-13-S06"], "rationale": "The cited official award has no stated 2028-2035 milestone, while E-HEL procurement is FY2027; no compliant in-window primary trigger exists."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass", "G7": "REJECT pass; strict timing evidence is absent"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "competition_whitespace": [2, 1], "reachable_validation_budget": [4, 3], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 1], "launch_window_fit_2030": [4, 3], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["P3R2-D-13-S02 and S03 were reversed in narrative use.", "L12-045 does not establish thermal-LRU demand."]
+    },
+    {
+      "rank": 17,
+      "idea_id": "P3R2-D-12",
+      "p4_score": 57.8,
+      "recalculated_total": 46.8,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L14-043", "L14-030", "L14-033", "L14-034"], "rationale": "A primary buyer cooling specification, an official named technology program, and binding fluid transitions are directly relevant to per-chip two-phase flow; literal G1 does not require EHD to appear in a tender."},
+        "G4": {"verdict": "pass", "evidence_ids": ["L14-045", "L14-046", "P3R2-D-12-S02"], "rationale": "Mechanical-pump competitors are named and field-driven in-plate flow control is plainly non-cosmetic."},
+        "G6": {"verdict": "pass", "evidence_ids": ["L14-033", "L14-034"], "rationale": "No unusual export restriction exists and the fluid regulatory path is acknowledged."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["L14-033", "L14-034"], "rationale": "Official 2029-2035 US HFC steps and independent EU restrictions are relevant in-window triggers; OEM absorption and lack of a 2028 bridge are explicit risks, not an unpublished automatic failure."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "ACCEPT pass", "G6": "ACCEPT pass", "G7": "REJECT fail; official fluid triggers satisfy the published rule"},
+      "accepted_score_adjustments": {"high_end_niche_quality": [3, 2], "competition_whitespace": [3, 2], "technical_elegance_controllability": [3, 2], "tenx_technical_edge": [3, 2], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 2]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 18,
+      "idea_id": "P3R2-G-01",
+      "p4_score": 65.6,
+      "recalculated_total": 46.0,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L07-045", "P3R2-G-01-S02", "P3R2-G-01-S04"], "rationale": "Multiple primary/near-primary chamber procurements and acceptance obligations are tightly coupled to conditioning and acceptance, so no separate startup-product PO is required."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L07-037", "L07-053", "P3R2-G-01-S01"], "rationale": "SAES, INFICON, furnace makers, and institute/fabricator self-performance are named; closed-loop endpoint control plus a traceable dossier is non-cosmetic, though outsourcing is unproved."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-G-01-S05"], "rationale": "A China-local licensed entity is not structurally prohibited, but IP absorption, data access, entity review, and service burden are base-case risks."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-G-01-S02", "P3R2-G-01-S03", "P3R2-G-01-S04"], "rationale": "BEST procurement/delivery is pre-2028, active construction has no 2030 date, and CEPC's 2030-2035 cycle is a conditional media interview rather than a primary official trigger."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "REJECT fail; final is pass_marginal because the product difference is non-cosmetic", "G6": "ACCEPT pass_marginal", "G7": "REJECT pass_marginal; strict timing source is missing"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "frontier_coolness_vision": [4, 3], "high_end_niche_quality": [4, 2], "competition_whitespace": [3, 2], "reachable_validation_budget": [3, 2], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 2], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["P3R2-G-01-S04 contains no 2030 trigger.", "P3R2-G-01-S03 is conditional media reporting, not an official plan."]
+    },
+    {
+      "rank": 19,
+      "idea_id": "P3R2-G-03",
+      "p4_score": 67.0,
+      "recalculated_total": 45.4,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-G-03-S01", "L02-044", "P3R2-G-03-S02"], "rationale": "NVIDIA's primary architecture and independent OCP/China records create a necessary commissioning job; literal G1 does not demand a paid swept-impedance pilot."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-G-03-S03", "P3R2-G-03-S04"], "rationale": "Ampere/load-bank and neutral commissioning alternatives are named; swept impedance plus IT-network acceptance remains non-cosmetic but unbenchmarked."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-G-03-S05"], "rationale": "Commercial instrumentation is not prohibited, but official screening, safety, liability, data, and local certification remain unresolved."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-G-03-S01", "P3R2-G-03-S02", "L14-036"], "rationale": "The primary roadmap starts in 2027, the after-2027/2028 China forecast is secondary, and the official AI-energy plan does not specify DC commissioning; no relevant primary/official 2028-2035 trigger is identified."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "REJECT pass_marginal; strict timing evidence is absent"},
+      "accepted_score_adjustments": {"frontier_coolness_vision": [4, 3], "high_end_niche_quality": [3, 2], "competition_whitespace": [3, 1], "reachable_validation_budget": [3, 2], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 1], "us_china_dual_market_leverage": [4, 2], "launch_window_fit_2030": [4, 3], "expansion_economics": [4, 3]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 20,
+      "idea_id": "P3R2-E-02",
+      "p4_score": 59.6,
+      "recalculated_total": 44.8,
+      "selection_decision": "KEEP",
+      "overall_gate_verdict": "pass_marginal",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L14-048", "L14-033", "L14-034"], "rationale": "A filing-grade liquid-cooling backlog and two binding fluid-transition regimes are tightly relevant to a fluid-agnostic controller; an OEM controller order is not required by literal G1."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L14-046", "L14-051", "P3R2-E-02-S02"], "rationale": "Accelsius, ZutaCore, LiquidStack, Vertiv, and Schneider are named; cross-fluid control is non-cosmetic but can be internalized."},
+        "G6": {"verdict": "pass", "evidence_ids": [], "rationale": "A US-only industrial controller path has no structural export block; ordinary fluid and safety qualification is acknowledged."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["L14-033", "L14-034", "P3R2-E-02-S01"], "rationale": "The official US 2029-2035 HFC schedule and independent EU F-gas regime are explicit in-window triggers; litigation and slow two-phase adoption reduce confidence without nullifying the literal gate."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "REJECT fail; final is pass_marginal", "G6": "ACCEPT pass", "G7": "REJECT fail; the official fluid triggers satisfy the published rule"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "competition_whitespace": [3, 2], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [2, 1], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 21,
+      "idea_id": "P3R2-A-22",
+      "p4_score": 61.0,
+      "recalculated_total": 44.2,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-A-22-S01", "P3R2-A-22-S02", "L01-036"], "rationale": "A paid DoD plasma-destruction contract and an independent USAF/Onvector pilot are exact-category demand evidence; literal G1 is satisfied."},
+        "G2": {"verdict": "fail", "evidence_ids": [], "rationale": "The current packet's peer-reviewed records do not support its load-bearing PFAS plasma energy, destruction, byproduct, and mass-balance claims."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-22-S02", "P3R2-A-22-S04"], "rationale": "Onvector, PyroGenesis, 374Water, and Aquagga are named; on-site modular verified treatment is non-cosmetic, but no supported incumbent advantage remains."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-22-S05"], "rationale": "The regulatory path is acknowledged, but EPA's omission of plasma from recognized large-scale technologies leaves verification acceptance unresolved."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-A-22-S01", "P3R2-A-22-S03"], "rationale": "The primary DoD deadline is 2026 and the 2031 EPA drinking-water delay does not specify plasma-destruction procurement; the 2030-2034 destruction pipeline is inference."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass", "G4": "REJECT fail; final is pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"high_end_niche_quality": [3, 2], "competition_whitespace": [2, 1], "reachable_validation_budget": [3, 1], "technical_elegance_controllability": [3, 2], "tenx_technical_edge": [2, 1], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 1], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["The cited peer-reviewed works are not PFAS-destruction evidence.", "P3R2-A-22-S03 delays drinking-water compliance and does not order plasma systems."]
+    },
+    {
+      "rank": 22,
+      "idea_id": "P3R2-F-12",
+      "p4_score": 56.4,
+      "recalculated_total": 44.2,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-12-S02", "P3R2-F-12-S05", "L10-045"], "rationale": "Official classification rules and an independent government record of a large installed fleet directly create protection, IMD, monitoring, and interface work; a standalone-stack PO is not required by literal G1."},
+        "G4": {"verdict": "fail", "evidence_ids": ["P3R2-F-12-S01", "P3R2-F-12-S05"], "rationale": "CALB, Danfoss, CATL, Racern, Chuangwei, and Dukosi/Yichuan bundle the claimed safety, monitoring, certification, and pack functions; no surviving non-cosmetic merchant boundary is evidenced."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-12-S03", "P3R2-F-12-S04"], "rationale": "Class routes exist, but CSSC ownership screening and US-origin end-use controls can invalidate the preferred China partner."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-F-12-S02", "P3R2-F-12-S05"], "rationale": "The rules are effective in 2025-2026 and the fleet record is current; neither supplies a primary or official product-relevant 2028-2035 trigger, while incumbents are already certified."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "ACCEPT fail", "G6": "ACCEPT pass_marginal", "G7": "REJECT pass; strict timing evidence is absent"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "competition_whitespace": [2, 1], "technical_elegance_controllability": [3, 2], "tenx_technical_edge": [2, 1], "launch_window_fit_2030": [4, 3]},
+      "mischaracterized_citations": ["Current classification rules and installed-fleet growth were overstated as a 2030-2034 trigger."]
+    },
+    {
+      "rank": 23,
+      "idea_id": "P3R2-A-02",
+      "p4_score": 55.2,
+      "recalculated_total": 44.2,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L02-034", "L08-033", "L08-041"], "rationale": "ARPA-E DC-GRIDS and independent DC electrification projects are tightly coupled to the protection showstopper; literal G1 does not require a catalog-breaker order."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L08-052", "P3R2-A-02-S01", "P3R2-A-02-S02"], "rationale": "Hitachi, Siemens, GE, DG Matrix, and Atom Power are named; modular MVDC interruption is non-cosmetic but vulnerable to system bundling."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "No export prohibition is apparent, but the missing certification/acceptance regime is a material route risk."},
+        "G7": {"verdict": "fail", "evidence_ids": ["L08-041", "P3R2-A-02-S04"], "rationale": "Southern Spirit is a 525 kV HVDC project and the other record is 800 V rack/facility DC; neither is a relevant 1-35 kV breaker trigger despite its in-window date."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 2], "technical_elegance_controllability": [3, 2], "tenx_technical_edge": [3, 2], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["L08-041 is not MVDC-breaker procurement.", "P3R2-A-02-S04 concerns a materially different voltage/product boundary."]
+    },
+    {
+      "rank": 24,
+      "idea_id": "P3R2-F-23",
+      "p4_score": 59.0,
+      "recalculated_total": 42.6,
+      "selection_decision": "HOLD",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["L11-032", "P3R2-F-23-S04", "P3R2-F-23-S05"], "rationale": "Official hub spending and a named PEM contract are independent and tightly coupled to protective control and warranty logging; literal G1 passes without a logger PO."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-23-S05"], "rationale": "OEM controls and plant DCS are named; independent tamper-evident warranty evidence is non-cosmetic but absorbable and lacks accepted data rights."},
+        "G6": {"verdict": "pass", "evidence_ids": ["P3R2-F-23-S07", "P3R2-F-23-S08"], "rationale": "No structural export prohibition is the base issue; ordinary safety, cyber, and data governance are acknowledged."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-F-23-S04", "P3R2-F-23-S05", "P3R2-F-23-S02"], "rationale": "No primary or official 2028-2035 trigger specifies the logger/control job, and the China evidence is alkaline rather than the frozen PEM product."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "REJECT fail; final is pass_marginal", "G6": "ACCEPT pass", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"frontier_coolness_vision": [4, 3], "high_end_niche_quality": [3, 2], "competition_whitespace": [3, 2], "reachable_validation_budget": [3, 2], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [2, 1], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["P3R2-F-23-S02 is alkaline evidence and cannot carry a PEM-specific China timing claim."]
+    },
+    {
+      "rank": 25,
+      "idea_id": "P3R2-A-05",
+      "p4_score": 63.2,
+      "recalculated_total": 39.8,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "fail", "evidence_ids": ["P3R2-A-05-S01", "P3R2-A-05-S02", "L13-028"], "rationale": "Facility awards do not establish that NEG coating is required in the cited scope, live vacuum tenders are not shown to be NEG tenders, and direct evidence shows in-house BNL capability; the second relevant demand source is missing."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["L07-037"], "rationale": "SAES and lab self-performance are named; a qualified US merchant second source is non-cosmetic but has not been valued by a buyer."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "No obvious export block exists, but BABA applicability and coating acceptance/cleanliness standards are unresolved."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-A-05-S01", "P3R2-A-05-S02", "L13-028"], "rationale": "PIP-II is pre-launch, EIC chamber/coating procurement likely precedes its 2030 operations date, and QIS funding does not specify a 2028-2035 NEG-coating trigger."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT fail", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [4, 2], "high_end_niche_quality": [4, 2], "competition_whitespace": [3, 1], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 2], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [4, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["EIC, PIP-II, QIS, and general vacuum tenders were treated as merchant NEG-coating procurement without a coating-scope bridge."]
+    },
+    {
+      "rank": 26,
+      "idea_id": "P3R2-A-21",
+      "p4_score": 51.0,
+      "recalculated_total": 39.6,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-A-21-S01", "P3R2-A-21-S07"], "rationale": "Named federal port projects directly include charging infrastructure and an independent rail buyer has ordered battery locomotives; literal demand is sufficient."},
+        "G4": {"verdict": "pass", "evidence_ids": ["L10-051", "L10-053", "P3R2-A-21-S05"], "rationale": "ABB, Siemens, Kempower, Wabtec, Caterpillar, and in-house systems are named; harsh-duty interoperable fleet integration is non-cosmetic though weakly defensible."},
+        "G6": {"verdict": "pass", "evidence_ids": ["L10-050"], "rationale": "An ordinary US industrial standards/listing path is acknowledged and no export route is required."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-A-21-S01", "L10-050"], "rationale": "The grant projects deploy mainly in 2028-2029 and the standard is already published; no named 2030-2034 port, rail, or mine procurement trigger survives for a 2030 entrant."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT pass", "G4": "ACCEPT pass", "G6": "ACCEPT pass", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [4, 3], "high_end_niche_quality": [3, 2], "competition_whitespace": [2, 1], "technical_elegance_controllability": [3, 2], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 27,
+      "idea_id": "P3R2-D-16",
+      "p4_score": 56.2,
+      "recalculated_total": 36.4,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass", "evidence_ids": ["P3R2-D-16-S01", "P3R2-D-16-S02", "P3R2-D-16-S03"], "rationale": "Official program direction, a specific appropriation, and exact closed-Brayton sources-sought records are multiple relevant demand sources; an award is not required by literal G1."},
+        "G4": {"verdict": "fail", "evidence_ids": ["P3R2-D-16-S05", "P3R2-D-16-S06"], "rationale": "Creare, Brayton Energy, and captive prime teams are exact alternatives, while multi-team merchant positioning is not a non-cosmetic technical difference."},
+        "G6": {"verdict": "pass", "evidence_ids": ["P3R2-D-16-S04"], "rationale": "A domestic-only procurement and space/nuclear qualification path is acknowledged and not structurally blocked."},
+        "G7": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-D-16-S01", "P3R2-D-16-S02"], "rationale": "NSTM-3 and the FY2026 appropriation specify a 2030 lunar reactor/2030s program, but downselect, award, and stable architecture remain pending."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT downgrade; literal G1 is pass", "G4": "ACCEPT fail", "G6": "ACCEPT pass", "G7": "ACCEPT pass_marginal"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [3, 1], "competition_whitespace": [2, 0], "reachable_validation_budget": [1, 0], "technical_elegance_controllability": [3, 2], "tenx_technical_edge": [2, 0], "launch_window_fit_2030": [3, 2], "expansion_economics": [2, 1]},
+      "mischaracterized_citations": []
+    },
+    {
+      "rank": 28,
+      "idea_id": "P3R2-F-06",
+      "p4_score": 60.4,
+      "recalculated_total": 36.0,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "fail", "evidence_ids": ["P3R2-F-06-S02", "P3R2-F-06-S03"], "rationale": "Southern Spirit is one relevant host-system source, but PRC-028 addresses a different measurement job and no second independent wideband-sensor demand source exists."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-06-S01", "P3R2-F-06-S04"], "rationale": "LEM, optical-CT vendors, and Chinese incumbents are named; combined wideband DC accuracy is non-cosmetic but unbenchmarked."},
+        "G6": {"verdict": "pass", "evidence_ids": [], "rationale": "The US-only route is possible and China is correctly excluded from the base case."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-F-06-S02", "P3R2-F-06-S03"], "rationale": "Southern Spirit supplies one relevant 2032 system date, but the second cited deadline is for another measurement job; the required two-source product-relevant timing thesis is incomplete."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "ACCEPT fail", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 1], "frontier_coolness_vision": [4, 3], "high_end_niche_quality": [3, 2], "competition_whitespace": [2, 1], "reachable_validation_budget": [3, 2], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [2, 1], "us_china_dual_market_leverage": [2, 1], "launch_window_fit_2030": [3, 1], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["P3R2-F-06-S03 is not evidence for the proposed wideband HVDC sensing job."]
+    },
+    {
+      "rank": 29,
+      "idea_id": "P3R2-F-03",
+      "p4_score": 50.8,
+      "recalculated_total": 35.6,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-03-S01", "P3R2-F-03-S04", "L04-051"], "rationale": "Independent ORC and sCO2 system commitments necessarily include electrical conversion, so host demand is not wholly unrelated; external merchant-cartridge willingness remains weak."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-F-03-S06", "P3R2-F-03-S07", "P3R2-F-03-S08"], "rationale": "Calnetix, Turboden, Ormat, Hanwha, ABB, and Nidec are named; the proposed rating and sCO2 duty are non-cosmetic but offer little whitespace."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": [], "rationale": "No named counterparty is shown as prohibited, but the China sourcing/license/service path remains unevidenced."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-F-03-S01", "P3R2-F-03-S04", "L04-051"], "rationale": "The Fervo framework is a 2026-2028 integrated-OEM supply program and Chaotan One is an in-house current demonstration; no primary 2030-2034 merchant-cartridge trigger exists."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "REJECT fail; final is pass_marginal because rating/duty is non-cosmetic", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "high_end_niche_quality": [2, 1], "competition_whitespace": [2, 1], "reachable_validation_budget": [2, 1], "technical_elegance_controllability": [4, 3], "us_china_dual_market_leverage": [3, 2], "launch_window_fit_2030": [3, 2], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["Chaotan One is integrated-system evidence, not merchant-cartridge procurement."]
+    },
+    {
+      "rank": 30,
+      "idea_id": "P3R2-A-13",
+      "p4_score": 57.2,
+      "recalculated_total": 32.8,
+      "selection_decision": "KILL",
+      "overall_gate_verdict": "fail",
+      "final_gates": {
+        "G1": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-13-S01", "P3R2-A-13-S04", "P3R2-A-13-S05"], "rationale": "A primary spacecraft solicitation and independent realized electric-propulsion deliveries create a necessary PPU job; they support marginal literal demand even though merchant outsourcing is unproved."},
+        "G4": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-13-S03", "L09-114"], "rationale": "Rocket Lab, Rocketdyne, York/Orbion, Busek, and EPC Space are named; modular standardized interfaces are non-cosmetic but face exact integrated GaN competition."},
+        "G6": {"verdict": "pass_marginal", "evidence_ids": ["P3R2-A-13-S06"], "rationale": "A domestic US case is legal, but ITAR/EAR overhead and flight-heritage trust are major access costs; China is excluded."},
+        "G7": {"verdict": "fail", "evidence_ids": ["P3R2-A-13-S01", "P3R2-A-13-S02", "P3R2-A-13-S04"], "rationale": "The forward tranche is paused/unfunded and the independent delivery record is near-term; no durable primary or official 2030-2034 PPU trigger remains."}
+      },
+      "red_team_gate_change_adjudication": {"G1": "REJECT fail; literal G1 is pass_marginal", "G4": "ACCEPT pass_marginal", "G6": "ACCEPT pass_marginal", "G7": "ACCEPT fail"},
+      "accepted_score_adjustments": {"demonstrated_demand": [3, 2], "frontier_coolness_vision": [4, 3], "high_end_niche_quality": [3, 1], "competition_whitespace": [2, 0], "reachable_validation_budget": [2, 1], "technical_elegance_controllability": [4, 3], "tenx_technical_edge": [3, 1], "launch_window_fit_2030": [3, 1], "expansion_economics": [3, 2]},
+      "mischaracterized_citations": ["The SDA solicitation was overstated as a merchant-PPU requirement and a durable funded 2030 trigger."]
+    }
+  ]
+}

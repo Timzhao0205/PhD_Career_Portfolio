@@ -1,0 +1,59 @@
+{
+  "stage": "20_p4",
+  "status": "PASS",
+  "run_at_utc": "2026-07-28T05:30:00Z",
+  "sample_ids": ["P3R2-A-16", "P3R2-C-09", "P3R2-F-15"],
+  "paths_tested": [
+    "read src/06/01_MISSION/SCORING_RUBRIC.md weights and gates",
+    "read full longlist records and EVIDENCE/P3R2-*.md files for three ideas from lanes L14, L05, L11",
+    "used prior-run evidence files for facts and cited sources only; all gate verdicts and scores made fresh by the main Fable agent",
+    "cross-referenced outputs/10_refresh REFRESH.json findings (R10-012 for A-16, R10-067/068 for F-15, EtO-repeal context for C-09)",
+    "applied all G1-G7 hard gates to each idea",
+    "scored all eleven criteria with weights 16/15/10/9/9/11/7/10/8/3/2 and verified weighted_points = score_0_5 * weight / 5",
+    "verified criterion sums equal total_100 within 0.25",
+    "compared the three scores globally for calibration ordering",
+    "JSON writing under pilot/20_p4 only"
+  ],
+  "checks": {
+    "all_seven_gates_evaluated_per_idea": true,
+    "all_eleven_criteria_scored_per_idea": true,
+    "weighted_arithmetic_reconciles": true,
+    "g1_failure_maps_to_elimination_disposition": true,
+    "scores_above_3_carry_cited_evidence": true,
+    "global_ordering_consistent_with_evidence_strength": true
+  },
+  "pilot_scores": [
+    {
+      "idea_id": "P3R2-C-09",
+      "gates": {"G1": true, "G2": true, "G3": true, "G4": true, "G5": true, "G6": true, "G7": true},
+      "criteria_0_5": {"demonstrated_demand": 3.5, "frontier_vision": 3.5, "high_end_niche": 4, "competition_whitespace": 3.5, "reachable_validation_budget": 3.5, "technical_elegance": 4, "ten_x_edge": 3, "us_china_leverage": 4, "launch_2030_fit": 4, "expansion_economics": 4, "founder_skill_transfer": 4},
+      "total_100": 73.7,
+      "disposition": "advance",
+      "note": "Dual-leg primary demand (Varex/IBA/CGN filings, MOFCOM cyclotron tender); whitespace = no cross-OEM standardized module vendor; CGN Dasheng Entity-List-adjacency is a redteam item; EtO NESHAP repeal weakens one US sub-driver only."
+    },
+    {
+      "idea_id": "P3R2-A-16",
+      "gates": {"G1": false, "G2": true, "G3": true, "G4": true, "G5": true, "G6": true, "G7": true},
+      "criteria_0_5": {"demonstrated_demand": 1.5, "frontier_vision": 3.5, "high_end_niche": 3, "competition_whitespace": 2.5, "reachable_validation_budget": 4, "technical_elegance": 3, "ten_x_edge": 2, "us_china_leverage": 2, "launch_2030_fit": 3, "expansion_economics": 3, "founder_skill_transfer": 2},
+      "total_100": 53.8,
+      "disposition": "eliminate_g1",
+      "note": "No named buyer/procurement evidence (structural to mid-supply-chain TIM); R10-012 confirms the thermal envelope but demand stays inferential; gallium export chokepoint (truce expires 2026-11-27) is a first-order supply risk; 2-3x thermal-resistance edge is not 10x."
+    },
+    {
+      "idea_id": "P3R2-F-15",
+      "gates": {"G1": false, "G2": true, "G3": true, "G4": true, "G5": true, "G6": true, "G7": true},
+      "criteria_0_5": {"demonstrated_demand": 1, "frontier_vision": 2.5, "high_end_niche": 3, "competition_whitespace": 3, "reachable_validation_budget": 3, "technical_elegance": 3.5, "ten_x_edge": 2, "us_china_leverage": 1.5, "launch_2030_fit": 2.5, "expansion_economics": 2.5, "founder_skill_transfer": 3.5},
+      "total_100": 47.9,
+      "disposition": "eliminate_g1",
+      "note": "CN-only leg with no primary buyer evidence for the specific skid product; bundled EPC procurement and SOE in-house-control preference are structural headwinds; R10-067/068 show Sungrow closing in on the management layer; 3% utilization gain is not a 10x edge."
+    }
+  ],
+  "errors": [],
+  "lessons": [
+    "EVIDENCE/P3R2-*.md files carry prior-run analyst commentary including gate opinions; use only their facts and cited sources — every gate verdict and score must be made fresh, and the pilot confirmed this separation is workable",
+    "Weighted arithmetic: score*weight/5 with one-decimal scores keeps sums exact; totals recorded to one decimal reconcile within 0.25 tolerance",
+    "G1 failure maps to elimination regardless of total score (A-16 at 53.8 still eliminates); dispositions must encode that",
+    "Refresh outputs materially move scores (H2Hubs, CEPC, EtO, Gateway ideas will shift in the full pass); always join REFRESH.json before scoring",
+    "Full stage will score in seven durable batches under outputs/20_p4/WORKING with calibration anchors recorded first; pilot scores will not be reused"
+  ]
+}
