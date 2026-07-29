@@ -1,0 +1,37 @@
+﻿{
+    "stage":  "80_synthesis",
+    "status":  "complete",
+    "completed_at":  "2026-07-25T03:09:46.4551308-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-fable-5",
+    "reported_models":  "claude-fable-5",
+    "primary_models":  "claude-fable-5",
+    "auxiliary_models":  "",
+    "result_model":  "claude-fable-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "4607ee04-07c9-41fe-8969-12b552782585",
+    "validation":  "Required files exist and stage-specific checks passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\FINAL_EXECUTIVE_STRATEGY.md",
+                        "sha256":  "91e81c5a5217a49d152a74fb22f1bd558eb5c4fb27e54c1145ea73ccc32ccdf9"
+                    },
+                    {
+                        "path":  "outputs\\FINAL_ACTION_PLAN.md",
+                        "sha256":  "a7d92ddc7b3788b77be103d0c3d902a95b20286c06e19fa9c5f965e2f1ee635e"
+                    },
+                    {
+                        "path":  "outputs\\FINAL_DELIVERABLE_INDEX.md",
+                        "sha256":  "1a82988efc6562d9cdf2723baa4629873b61f23040041c55f619c57cebe4f8e6"
+                    },
+                    {
+                        "path":  "outputs\\FINAL_AUDIT.md",
+                        "sha256":  "e17acd2bfe0bb95ff0a5c366a3a4c20050e991234c3987e37000408290d93b49"
+                    }
+                ]
+}

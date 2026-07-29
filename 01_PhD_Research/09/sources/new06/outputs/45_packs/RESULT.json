@@ -1,0 +1,15 @@
+{
+  "stage": "45_packs",
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-07-28T12:45:00Z",
+  "outputs": ["SOURCES.json", "PACKS.json", "PACKS.md"],
+  "checks": {
+    "ten_packs_matching_top_10": true,
+    "every_pack_min_20_sources_7_peer_5_demand": true,
+    "all_sources_accepted_with_eligible_origin": true,
+    "every_source_supports_a_named_claim": true,
+    "peer_and_demand_ids_subsets_of_pack_sources": true,
+    "new_source_opened_in_full": true,
+    "selection_and_ranks_unchanged": true
+  }
+}

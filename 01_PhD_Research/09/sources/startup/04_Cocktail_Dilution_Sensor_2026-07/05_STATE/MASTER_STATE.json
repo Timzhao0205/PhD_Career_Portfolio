@@ -1,0 +1,19 @@
+{
+  "project": "04_Cocktail_Dilution_Sensor_2026-07",
+  "phase": "P0_dipstick",
+  "phase_status": "NOT_STARTED",
+  "gates": {
+    "P0_drift_pass": null,
+    "P0_static_cal_pass": null,
+    "P0_dynamic_tracking_pass": null,
+    "P0_chaos_pass": null
+  },
+  "next_actions": [
+    "Order Phase-0 BOM (20_HARDWARE/BOM.csv) after sourcing-scout price check",
+    "Design IDE coupon panel in KiCad per 20_HARDWARE/electrodes/README.md",
+    "Run P0-E0 drift + parasitics once hardware arrives"
+  ],
+  "budget_spent_usd": 0,
+  "budget_cap_usd": 400,
+  "updated": "2026-07-07"
+}

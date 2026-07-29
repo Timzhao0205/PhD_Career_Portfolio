@@ -1,0 +1,17 @@
+{
+  "stage": "60_synth",
+  "status": "COMPLETE",
+  "outputs": [
+    "PORTFOLIO.json",
+    "00_EXECUTIVE.md",
+    "01_IDEA_CARDS.md",
+    "02_MATRIX.csv",
+    "02_MATRIX.md",
+    "03_MAP.md",
+    "04_ROADMAP.md",
+    "05_MODEL_REPORT.md"
+  ],
+  "checks": {
+    "fixture": true
+  }
+}

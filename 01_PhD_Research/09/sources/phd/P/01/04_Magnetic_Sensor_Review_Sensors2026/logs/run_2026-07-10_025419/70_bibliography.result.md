@@ -1,0 +1,3 @@
+﻿All three Stage 70 outputs are written and verified: `outputs/references.bib`, `outputs/reference_registry.csv` (122 entries + header), and `outputs/70_bibliography_report.md`.
+
+Summary: 122 unique references after merging 2 duplicate sources (the enriched TMR-APL entry and the two Grand View Research market-report scrapes). Breakdown: 80 peer-reviewed journal, 2 peer-reviewed conference, 2 AIAA conference papers flagged non-peer-reviewed, 2 book chapters, 1 monograph, 13 standards, 4 preprints (no version-of-record found for any), 16 vendor datasheets, 2 market reports. One DOI (Tumanski2013modern, a Polish trade journal) couldn't be confirmed via Crossref and was left blank per the no-guessing rule; everything else either verified or was already high-confidence.

@@ -1,0 +1,27 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "stage": "A10_blind",
+  "mode": "PILOT",
+  "attempt": 1,
+  "note": "Pilot rule: exactly the best 3 of the 6 deterministically sampled candidates. In FULL mode this file will contain exactly 10 unique IDs, all contained in the 24-object SELECTION.json. All 3 pilot IDs below are contained in this pilot's SELECTION.json.",
+  "top": [
+    {
+      "rank": 1,
+      "idea_id": "P3R2-A-01",
+      "concept": "UL-certifiable 800VDC rack-inlet protection module: solid-state disconnect + hot-swap precharge + ground-fault/arc-fault detection for AI racks",
+      "reason": "Best combination in the sample: severe, budgeted, category-vacuum pain at the center of hyperscaler capex; feasible TRL-4 path; cheap pre-company falsification (400k USD benchtop interrupter); publishable university-lab pre-company plan; timing squarely in 2030-2033. Dominant risk (reference-design absorption) resolves before major capital."
+    },
+    {
+      "rank": 2,
+      "idea_id": "P3R2-D-19",
+      "concept": "Distributed composite-flywheel kinetic buffers for off-grid AI power plants: containerized magnetic-bearing flywheel strings that absorb GPU-cluster power swings so gas turbines and grids see smooth load.",
+      "reason": "Strongest demand proof in the sample: an actual 400 MW procurement precedent (per the candidate record) shows the function is bought today. Feasible engineering, measure-first falsification design that can kill the thesis for near-zero cost, good Western-market portability. Docked for a contestable edge versus the incumbent and BESS substitutes."
+    },
+    {
+      "rank": 3,
+      "idea_id": "P3R2-B-22",
+      "concept": "DC-link capacitor and converter health prognostics module: embedded ripple/ESR/thermal sensing with physics-based remaining-useful-life models for Chinese HVDC datacenter and industrial converter fleets",
+      "reason": "Cheapest and fastest falsification in the sample (150k USD, 2,000 h aging campaign), sound reliability physics, low regulatory friction, and an ideal PhD-scale pre-company program. Ranked third because the standalone buyer is behaviorally soft (feature-not-product risk) and the primary channel runs through CN vendor access."
+    }
+  ]
+}

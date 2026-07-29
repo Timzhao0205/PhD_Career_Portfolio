@@ -1,0 +1,173 @@
+[L1] H003.access_level
+  BEFORE: abstract_metadata
+  AFTER : full_text
+
+[L1] H003.verification_basis
+  BEFORE: Read abstract on IOPscience publisher page; Crossref metadata confirmed. Stage 10D: DOI record independently re-verified against the live Crossref API (title/year match) 2026-07-27.
+  AFTER : Read abstract on IOPscience publisher page; Crossref metadata confirmed. Stage 10D: DOI record independently re-verified against the live Crossref API (title/year match) 2026-07-27. Stage 70: IOP open-access full text (P
+
+[L1] H003.notes
+  BEFORE: Two claims must be kept separate: (1) OBSERVED -- Hall SENSITIVITY stability verified via same-technology in-situ AC test-field injection (microsolenoid on the same die), not a cross-technology/material-diverse check; (2
+  AFTER : Two claims must be kept separate: (1) OBSERVED -- Hall SENSITIVITY stability verified via same-technology in-situ AC test-field injection (microsolenoid on the same die), not a cross-technology/material-diverse check; (2
+
+[L2] H006.access_level
+  BEFORE: metadata_only
+  AFTER : full_text
+
+[L2] H006.claims_supported
+  BEFORE: Reportedly describes Hall-sensor devices combining a sensing element and a test/actuator element in one primary transducer for self-diagnostic/automatic-correction in fusion-reactor radiation environments.
+  AFTER : FULL-TEXT CONFIRMED (stage 70): discloses an integrated magnetic transducer combining Hall sensor + copper microsolenoid actuator in one 10x10x6 mm package; AC excitation of the winding with DC Hall bias; synchronous (lo
+
+[L2] H006.verification_basis
+  BEFORE: DOI/title/authors/venue/vol/issue/pages confirmed via Crossref (legitimate ASP-registered DOI, not fabricated); original PDF (CTU Golem mirror) password-protected, Ingenta Connect publisher page returned HTTP 403 -- cont
+  AFTER : DOI/title/authors/venue/vol/issue/pages confirmed via Crossref (legitimate ASP-registered DOI, not fabricated); original PDF (CTU Golem mirror) password-protected, Ingenta Connect publisher page returned HTTP 403 -- cont
+
+[L2] H006.notes
+  BEFORE: Downgraded to peer_review_uncertain: Sensor Letters (American Scientific Publishers) has raised venue-quality concerns in the literature-integrity community independent of the DOI's legitimacy; full text could not be obt
+  AFTER : Downgraded to peer_review_uncertain: Sensor Letters (American Scientific Publishers) has raised venue-quality concerns in the literature-integrity community independent of the DOI's legitimacy; full text could not be obt
+
+[L3] H011.access_level
+  BEFORE: metadata_only
+  AFTER : abstract_metadata
+
+[L3] H011.claims_supported
+  BEFORE: Title-level confirmed: long-term stability evaluation of semiconductor (Hall) magnetic sensors under an ITER-relevant radiation environment.
+  AFTER : Stage-70 verified (IOP abstract + partial body via article page): periodic in-situ calibration via copper-wire microsolenoid test field used for continuous sensitivity monitoring; performed DURING fission-reactor irradia
+
+[L3] H011.verification_basis
+  BEFORE: Crossref bibliographic metadata confirmed; abstract not independently read. Stage 10D: DOI record independently re-verified against the live Crossref API (title/year match) 2026-07-27.
+  AFTER : Crossref bibliographic metadata confirmed; abstract not independently read. Stage 10D: DOI record independently re-verified against the live Crossref API (title/year match) 2026-07-27. Stage 70: IOP article page fetched;
+
+[L3] H011.notes
+  BEFORE: Same author network as H003/H006/H007 (Bolshakova, Duran, Murari, Quercia) -- establishes the radiation-hardness baseline the 2022 hybrid-sensor proposal (H003) builds on. NOT itself a Hall+coil hybrid paper; included as
+  AFTER : Same author network as H003/H006/H007. Stage-70 role change: upgraded from lineage/context-only to LOAD-BEARING COUNTEREVIDENCE for any loose 'in-situ radiation-aware Hall recalibration is unreported' claim - it demonstr
+
+[L4] P003.access_level
+  BEFORE: metadata_only
+  AFTER : abstract_metadata
+
+[L4] P003.claims_supported
+  BEFORE: Direct real-machine precedent: ITER's OVSS architecture pairs a DC bismuth-Hall channel with inductive pickup coils, the Hall channel used explicitly to correct/anchor coil drift.
+  AFTER : Stage-70 corrected (abstract retrieved and read this session): high-field (+/-7 T) characterization of bismuth Hall sensors developed for the ITER steady-state magnetic diagnostic; response nonlinear particularly within 
+
+[L4] P003.verification_basis
+  BEFORE: doi_metadata (Crossref). Stage 10D: DOI record independently re-verified against the live Crossref API (title/year match) 2026-07-27.
+  AFTER : doi_metadata (Crossref). Stage 10D: DOI record independently re-verified against the live Crossref API (title/year match) 2026-07-27. Stage 70: Semantic Scholar abstract retrieved and read; content claim corrected accord
+
+[L4] P003.notes
+  BEFORE: Distinct from already-baselined companion RSI 2018 papers (same series, different DOIs).
+  AFTER : Distinct from already-baselined companion RSI 2018 papers (same series, different DOIs). Stage-70 note: the planar-Hall cross-field sensitivity finding newly supports the cross-axis uncertainty discipline (stage-20 secti
+
+[L5] conventions: H003 source_type=journal_article topic_tags=quota_hybrid_coil;quota_calibration_observability;direct_hybrid;calibration_or_o | P013 topic_tags=quota_applications_alternatives;quota_calibration_observability;stellarator_fiel
+
+[L5] ADDED H067: Calibration of the ITER outer vessel steady-state magnetic sensors (2021)
+[L5] ADDED H068: Final design of the ITER outer vessel steady-state magnetic sensors (2017)
+[L5] ADDED P077: Tokamak field error measurements with an electron beam in KSTAR (2011)
+
+[ledger] wrote 222 rows (was 219)
+
+[E1] C02.claim
+  BEFORE: Correcting coil/integrator additive drift b_C with a non-integrating absolute reference (Hall, NMR, or magnet current) is hardware-proven (CERN bench: 59.9-120 ppm/s reduced to 0.02-0.08 ppm/s) and deployed at system level in ITER's outer-vessel steady-state s
+  AFTER : Correcting coil/integrator additive drift b_C with a non-integrating absolute reference (Hall, NMR, or magnet current) is hardware-proven (CERN bench: 59.9-120 ppm/s reduced to 0.02-0.08 ppm/s) and is the published design basis of ITER's outer-vessel steady-st
+
+[E1] C02.source_ids
+  BEFORE: H004;H005;P003
+  AFTER : H004;H005;H067;H068;P003
+
+[E1] C02.limitations
+  BEFORE: None of these estimate or correct Hall sensitivity S_H; P003 is metadata-verified only (content description not independently read).
+  AFTER : None of these estimate or correct Hall sensitivity S_H from passive sensing. Stage-70 correction: P003's abstract contains only bismuth-sensor high-field qualification (no OVSS-pairing description) - the pairing claim now rests on H067/H068; 'system level' is 
+
+[E2] C05.claim
+  BEFORE: JET RHP in-situ same-die microsolenoid AC self-test preserved InSb Hall sensitivity to SD ~0.07% over 11.5 years / >19,000 pulses including a D-T campaign; the same embedded microsolenoids double as inductive pickup coils.
+  AFTER : JET RHP in-situ co-packaged copper-microsolenoid AC self-test/recalibration (known injected field, synchronous detection) preserved InSb Hall sensitivity to SD ~0.07% over 11.5 years / >19,000 pulses including a D-T campaign; the same embedded microsolenoids d
+
+[E2] C05.source_ids
+  BEFORE: H003;H007
+  AFTER : H003;H007;H006;H011
+
+[E2] C05.limitations
+  BEFORE: Same-technology, co-located reference: cannot by construction detect a common-mode (shared radiation/thermal) drift of die and reference coil together.
+  AFTER : Co-located, common-package, common current-reference chain: what the record proves stable is the product S_H*G_cal (die x winding); a common-mode (shared radiation/thermal) drift of die and reference winding together is undetectable by construction (stage-20 C
+
+[E3] C06.claim
+  BEFORE: Existing Hall+coil drift correction does NOT prove in-situ Hall radiation-sensitivity calibration: every fusion-context instance corrects the coil/integrator chain using the Hall channel as reference and assumes S_H known or stable; no source demonstrates coil
+  AFTER : Existing Hall+coil drift correction does NOT prove PASSIVE in-situ Hall radiation-sensitivity calibration: every fusion-context instance either corrects the coil/integrator chain using the Hall channel as reference with S_H assumed known/stable, or recalibrate
+
+[E3] C06.counterevidence_ids
+  BEFORE: H059
+  AFTER : H059;H003;H067;H011
+
+[E3] C06.limitations
+  BEFORE: H059 (counterevidence only in direction, not environment) shows in-situ coil-calibrates-Hall in a non-fusion HTS magnet under a driven, known ramp with no radiation exposure.
+  AFTER : H059 (non-fusion HTS magnet, driven known ramp, no radiation) is the only demonstrated passive instance; H011 demonstrates the ACTIVE (actuator-injection) variant under fission-reactor irradiation to >1e18 n/cm2. The active-vs-passive distinction is load-beari
+
+[E4] C11.claim
+  BEFORE: The reverse correction direction - coil channel calibrating the Hall channel in situ - is abstract-confirmed in exactly one non-fusion case: the Feather-M2 HTS dipole's cryogenic Hall sensors were cross-calibrated in situ against induction-coil sensors during 
+  AFTER : The reverse correction direction - coil channel calibrating the Hall channel in situ from PASSIVELY measured signals - is demonstrated (abstract-confirmed) in exactly one non-fusion case: the Feather-M2 HTS dipole's cryogenic Hall sensors were cross-calibrated
+
+[E4] C11.source_ids
+  BEFORE: H059
+  AFTER : H059;H003;H067
+
+[E4] C11.limitations
+  BEFORE: Non-fusion, no radiation, engineered excitation (known dB/dt from a driven ramp); quantitative accuracy figures not read (abstract-level access).
+  AFTER : H059: non-fusion, no radiation, engineered excitation, quantitative accuracy figures not read (abstract-level). The fusion instances are unrealized plans - no demonstration exists (C06). H067's cross-calibration sentence is search-index body text (abstract ind
+
+[E5] C12.claim
+  BEFORE: InSb Hall sensitivity degrades under a thermal-inclusive fission neutron spectrum (~1e16 n/cm2) but remains stable under a purely fast-neutron spectrum at comparable fluence; the authors attribute the difference to transmutation (In/Sb thermal-neutron capture)
+  AFTER : InSb Hall sensitivity degrades under a thermal-inclusive fission neutron spectrum but remains stable under a purely fast-neutron spectrum at comparable fluence (R001: ~1e16 n/cm2 in both facilities); follow-up thermal-type-reactor irradiation series at 8.7e17 
+
+[E5] C12.limitations
+  BEFORE: Both papers come from the same collaboration (limited independence); numeric degradation magnitudes were not accessible.
+  AFTER : Both papers come from the same collaboration (limited independence); numeric degradation magnitudes were not accessible. Stage-70 precision fix: R001's ~1e16 two-spectrum comparison and R002's ~1e18 thermal-series are different fluence regimes - do not quote a
+
+[E6] C21.claim
+  BEFORE: In-situ (during-irradiation) recalibration of Hall sensitivity against a material-diverse reference is unreported for any Hall material, in any source found by either the radiation or hybrid lane.
+  AFTER : In-situ (during-irradiation) recalibration of Hall sensitivity against a material-diverse PASSIVE field-sensor reference is unreported for any Hall material, in any source found by either the radiation or hybrid lane. Actuator-based in-situ recalibration again
+
+[E6] C21.counterevidence_ids
+  BEFORE: 
+  AFTER : H011
+
+[E6] C21.limitations
+  BEFORE: Bounded by 10A+10B search scope; JET RHP self-test (C05) is same-die, not material-diverse.
+  AFTER : Bounded by 10A+10B search scope. Stage-70 correction: the surviving gap is specifically the passive witness-SENSOR architecture (stage-30 Option D), not 'in-situ recalibration' per se - novelty statements must make this distinction explicitly.
+
+[E7] C27.claim
+  BEFORE: ITER's OVSS is the strongest real-machine precedent for the DC-Hall-corrects-coil-drift half of the proposed hybrid; it is a system-level pairing of separate sensor heads with downstream fusion, not a co-located single-package hybrid, and the reverse direction
+  AFTER : ITER's OVSS is the strongest real-machine-DESIGN precedent for pairing a DC Hall subsystem with the inductive set: 60 bismuth-Hall pair units on the vacuum vessel outer shell (final design published, units manufactured; ITER not yet operating). The published O
+
+[E7] C27.source_ids
+  BEFORE: P003
+  AFTER : H067;H068;P003
+
+[E7] C27.limitations
+  BEFORE: P003 content description is metadata-verified only; H059 demonstrates the reverse direction only in a non-fusion HTS magnet.
+  AFTER : Stage-70 correction: former single-source anchoring on P003 removed (its abstract is sensor qualification only); H067's cross-calibration sentence is body-level search-index text, flagged; 'precedent' is design-stage - there is no operating-tokamak experience 
+
+[E8] C32.counterevidence_ids
+  BEFORE: 
+  AFTER : P077
+
+[E8] C32.limitations
+  BEFORE: The absence cuts both ways: an open niche for the user's HSX context, but zero prior validation to build on.
+  AFTER : The absence cuts both ways: an open niche for the user's HSX context, but zero prior validation to build on. Stage-70 addition: adjacent TOKAMAK commissioning practice exists and must be cited-and-distinguished - KSTAR measured field errors with an e-beam plus
+
+[E9] C36.claim
+  BEFORE: Novelty constraints after direct prior-art analysis: architecture-level 'Hall+coil hybrid' is NOT novel (C01, C29); the credible remaining gaps are (a) a joint gain+bias+state identifiability proof for the Hall+coil pair, (b) hardware-validated bidirectional m
+  AFTER : Novelty constraints after direct prior-art analysis: architecture-level 'Hall+coil hybrid' is NOT novel (C01, C29). The credible remaining gaps, each narrowed at stage 70: (a) a joint gain+bias+state identifiability proof for the Hall+coil pair - no such analy
+
+[E9] C36.source_ids
+  BEFORE: H021;H001;H002;H004;H059;P003;P052;P057;R071;P013
+  AFTER : H021;H001;H002;H004;H059;H003;H067;H068;H011;H006;P077;P052;P057;R071;P013
+
+[E9] C36.limitations
+  BEFORE: Each gap is an absence claim bounded by this mission's search scope; a dedicated prior-art search should precede any publication claim on gaps (a)-(d).
+  AFTER : Each gap is an absence claim bounded by this mission's search scope; a dedicated prior-art search should precede any publication claim on gaps (a)-(d). Stage-70 addition: 2009/2010 patents on combined sensors for in-situ Hall calibration (GB2427700/FR2887991 f
+
+[evidence map] wrote 37 rows
+
+[A1] overlap-row vocabulary sample: S0118 | same normalized DOI as folder-06 row S0118 | reused
+[new-source audit] wrote 222 rows (was 219)
+

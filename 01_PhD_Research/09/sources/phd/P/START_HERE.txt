@@ -1,0 +1,24 @@
+PHD Hall + coil hybrid package -- short-path edition
+===========================================================
+
+The working folder is:
+  P\01
+
+Recommended Windows extraction:
+  1. Put P_FIXED.zip in Downloads.
+  2. Open PowerShell.
+  3. Run:
+       tar -xf "$env:USERPROFILE\Downloads\P_FIXED.zip" -C "$env:USERPROFILE"
+  4. Open:
+       $env:USERPROFILE\P\01
+
+To start or resume the Hall + coil hybrid/radiation analysis:
+  Set-Location "$env:USERPROFILE\P\01"
+  powershell -ExecutionPolicy Bypass -File .\RUN_HYBRID_RADIATION_ANALYSIS.ps1
+
+Windows Explorer's Extract All should also work because the internal paths
+were shortened. If you use it, choose a shallow destination such as your user
+profile rather than a deeply nested OneDrive/SharePoint folder.
+
+Repair details:
+  P\EXTRACTION_FIX_REPORT.md

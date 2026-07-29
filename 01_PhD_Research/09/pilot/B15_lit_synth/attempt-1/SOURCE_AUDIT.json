@@ -1,0 +1,40 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "pilot_scope": "B15_lit_synth PILOT attempt-1. This audit covers ONLY the eight B12 pilot ledger rows P0001-P0008, each independently re-adjudicated this run (2026-07-28) by re-opening its publisher landing page or B12-cited PMC mirror. Every count below is freshly derived from this run's own adjudication, not copied from B12. These counts describe the pilot sample only and say nothing about the remaining 54 corpus rows or the wider literature; the full-corpus audit is reserved for the full run.",
+  "ledger_rows": 8,
+  "accepted_core_count": 8,
+  "peer_review_verified_count": 8,
+  "journal_count": 8,
+  "recent_2020_2026_count": 7,
+  "topic_counts": {
+    "hall_metrology": 2,
+    "hybrid_diagnostics": 2,
+    "hts_quench_current": 2,
+    "power_conversion": 2
+  },
+  "duplicate_dois": 0,
+  "correction_concern_count": 0,
+  "retracted_count": 0,
+  "inaccessible_count": 0,
+  "unresolved_count": 0,
+  "accepted_paper_ids": [
+    "P0001",
+    "P0002",
+    "P0003",
+    "P0004",
+    "P0005",
+    "P0006",
+    "P0007",
+    "P0008"
+  ],
+  "limitations": [
+    "Field definitions used for the fresh derivation: journal_count counts items published in peer-reviewed journals (6 research articles + 2 review articles; all 8 qualify); peer_review_verified_count counts records whose opened page showed direct review evidence (received/revised/accepted dates, stated review model, named academic editor, or an explicit review statement); recent_2020_2026_count counts accepted pilot papers published 2020-2026 (all except P0007, 2016).",
+    "P0005 and P0006 were verified via their PubMed Central mirrors (PMC10673564, PMC7826992) because direct mdpi.com pages returned HTTP 403 to this run's WebFetch — independently re-tested and re-confirmed this run, not carried forward from B12 on trust.",
+    "P0007's full text is paywalled; its metadata, peer-review dates, and abstract-level technical content were adjudicated from the open IOPscience landing-page record. It is counted as accessible (record opened) with this disclosed restriction, hence inaccessible_count remains 0.",
+    "P0006's receipt-to-acceptance interval was 12 days (2020-12-25 to 2021-01-06); flagged as a peer-review-depth caveat. It remains counted as peer-review verified (dated review cycle on an established peer-reviewed journal's record), not as an unresolved status.",
+    "correction_concern_count = 0 means no correction, expression-of-concern, or retraction notice was found on any of the eight opened records this run; absence of a notice on an opened record is evidence of none found, not proof that none exists anywhere.",
+    "P0004's reported fast-neutron tolerance figure (<= 2.3% sensitivity shift at 1.4e20 cm-2) appears on the opened record, but this run did not establish whether that irradiation campaign was performed within P0004 itself or in the authors' earlier work; treated as a limitation in EVIDENCE_MAP row EV02, not as a classification defect.",
+    "This 8-row audit cannot support corpus-level conclusions (e.g. stream balance or the full-run >=48-verified-core requirement); those checks belong to the full run.",
+    "Record contents were extracted via an automated WebFetch summarization layer; load-bearing numbers were quoted as returned, and residual extraction-error risk is disclosed rather than denied."
+  ]
+}

@@ -1,0 +1,17 @@
+HSX Stage-30 cost-down flat-package CAD -- NOT FOR FABRICATION
+hard envelope: radius<=15.875 mm height<=27.500 mm
+physical bbox=(-10.150,10.450)x(-10.150,10.450) z=(0.000,26.250) mm
+physical conservative radial=14.779 mm margin=1.096 mm height_margin=1.250 mm
+assembly plus 3x 3.80-mm square cable keepouts: radial=14.779 mm margin=1.096 mm zmax=26.250 mm
+folded bracket solid count=1; bracket volume=201.374 mm3; intended main bends=2
+folded bracket plus four vented posts volume=324.651 mm3 vs prior connected cage=440.917 mm3; geometric reduction=26.4 percent (not a price estimate)
+unintended physical overlap=0.000000 mm3 (none); physical solid envelopes=20
+nut-to-bracket distances=[0.0, 0.0, 0.0] mm; post-to-bracket distances=[0.0, 0.0, 0.0, 0.0] mm
+feedthrough keepout: post_min_radius=11.578 vs 11.050 mm; lowest central hardware=11.000 vs 10.410 mm; pass=True
+cable-to-folded-bracket maximum overlap=0.000000 mm3
+STEP reimport bound delta=0.000000 mm; assembly STL faces=1; guard STL faces=1
+structural ceramic count=0; custom flat ceramic guard geometry count=1; guard quantity=3; tapped/internal ceramic threads=0
+flat guard nominal=10.90 x 10.90 x 0.635 mm with 6.40-mm window and one open tongue notch; material/process HOLD
+face-retention discrete parts old=21 vs cost-down=9; reduction=12 parts (straps+screws+nuts/keepers basis)
+first-order Ti-minus-alumina expansion 20-to-250C: lateral over 10.90 mm=0.005766 mm; normal over 2.40 mm=0.001270 mm; force not qualified
+release holds: flat-guard material/UHV lot and laser edge quality; formed-bracket bend relief/GD&T; hook/slot strength and insertion; one-screw clamp preload/FEA/coupon; captive nut lance; cartridge internal stack and loop clearance; exact cable/strain hardware; feedthrough datum; magnetic error budget; full hot-UHV qualification

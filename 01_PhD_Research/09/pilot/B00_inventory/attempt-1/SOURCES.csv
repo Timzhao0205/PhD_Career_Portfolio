@@ -1,0 +1,10 @@
+# PILOT SAMPLE — NOT FINAL
+# B00_inventory pilot: no live web research was required or performed.
+# Pilot scope (four roots, one canonical artifact each, old06 dedup relationship)
+# was fully answerable from evidence/SOURCE_MANIFEST.json and the source trees
+# themselves (all pre-existing, immutable, already-dated internal evidence).
+# No primary-source freshness gap was identified that required a current web
+# check in pilot scope; this is recorded honestly rather than fabricating a
+# web source. Columns kept parseable per spec even though no data rows follow.
+claim_id,url,title,publisher,published_date,accessed_date,source_type,stage_file,confidence,limitation
+NONE-001,,No web sources consulted in this pilot,,,,none,INPUT_MAP.json,n/a,Pilot scope was covered entirely by immutable local sources (sources/ trees) and evidence/SOURCE_MANIFEST.json; WebSearch/WebFetch were available but not needed for the four-root/one-canonical-artifact/dedup pilot scope.

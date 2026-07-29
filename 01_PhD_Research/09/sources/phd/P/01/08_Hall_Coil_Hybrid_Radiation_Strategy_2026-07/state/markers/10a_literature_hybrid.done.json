@@ -1,0 +1,29 @@
+﻿{
+    "stage":  "10a_literature_hybrid",
+    "status":  "complete",
+    "completed_at":  "2026-07-27T01:31:35.4509891-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-sonnet-5",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "72ceff64-fdee-4913-8bf2-04649322b30d",
+    "validation":  "66 total rows; 65 verified peer-reviewed; metadata and uniqueness gates passed",
+    "outputs":  [
+                    {
+                        "path":  "evidence\\10A_HYBRID_SOURCES.csv",
+                        "sha256":  "47648842e45c490ef556b488cd8e2600d0dcf58206c07d35b1a47345a26b09c5"
+                    },
+                    {
+                        "path":  "evidence\\10A_HYBRID_SYNTHESIS.md",
+                        "sha256":  "98da8234b9fa2b3a2892056563788cb0578c9fb37a6fc35a806497d9d7b8c400"
+                    }
+                ]
+}

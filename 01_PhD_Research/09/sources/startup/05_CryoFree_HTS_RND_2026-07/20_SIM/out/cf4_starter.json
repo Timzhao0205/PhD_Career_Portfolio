@@ -1,0 +1,33 @@
+{
+  "SIMULATED_prophetic": true,
+  "description": "Static worst-case-limited ramp rate vs a naive fixed-nominal rate vs a dynamic instantaneous-headroom governor, over a duty-cycling/recovering cryocooler headroom curve. Reports total ramp time and headroom-violation counts for each strategy.",
+  "assumed_parameters": {
+    "k_ramp_W_per_rate2": 1.2,
+    "headroom_nominal_W": 4.0,
+    "headroom_dip_W": 2.5,
+    "recover_tau_s": 40.0,
+    "ripple_amp_W": 0.3,
+    "ripple_period_s": 12.0,
+    "D_target": 150.0,
+    "dt_s": 0.1,
+    "horizon_s": 400.0,
+    "note": "illustrative headroom curve shape (transient-recovery + duty ripple), not a vendor load-line measurement"
+  },
+  "headroom_min_W": 1.5,
+  "headroom_mean_W": 3.7518143588503263,
+  "static_worst_case": {
+    "rate": 1.118033988749895,
+    "ramp_time_s": 134.1,
+    "violations": 0
+  },
+  "naive_fixed_nominal": {
+    "rate": 1.7681945497338818,
+    "ramp_time_s": 84.80000000000001,
+    "violations": 784
+  },
+  "dynamic_governor": {
+    "ramp_time_s": 94.7,
+    "violations": 0
+  },
+  "time_saved_vs_static_pct": 29.38
+}

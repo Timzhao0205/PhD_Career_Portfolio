@@ -1,0 +1,46 @@
+#requires -Version 5.1
+[CmdletBinding()]
+param(
+    [switch]$Resume,
+    [switch]$DryRun,
+    [switch]$SelfTest,
+    [string[]]$OnlyStage,
+    [string]$FromStage,
+    [string[]]$ForceStage,
+    [switch]$RetryClaudeAfterHandoff,
+    [ValidateSet('full','guarded')]
+    [string]$Mode = 'full'
+)
+
+Set-StrictMode -Version 2.0
+$ErrorActionPreference = 'Stop'
+$missionRoot = Join-Path $PSScriptRoot '06'
+$runner = Join-Path $missionRoot 'RUN_PHD_RESEARCH.ps1'
+if (-not (Test-Path -LiteralPath $runner -PathType Leaf)) {
+    throw "Mission runner not found: $runner"
+}
+
+$runtimeScripts = @(
+    (Join-Path $PSScriptRoot 'RUN_EVERYTHING.ps1'),
+    $runner,
+    (Join-Path $missionRoot 'TEST_CLAUDE_MODELS.ps1'),
+    (Join-Path $missionRoot 'INVOKE_CLAUDE_CHILD.ps1'),
+    (Join-Path $missionRoot 'VALIDATE_PACKAGE.ps1')
+)
+foreach ($scriptPath in $runtimeScripts) {
+    if (-not (Test-Path -LiteralPath $scriptPath -PathType Leaf)) {
+        throw "Required runtime script not found: $scriptPath"
+    }
+    $tokens = $null
+    $parseErrors = $null
+    [System.Management.Automation.Language.Parser]::ParseFile(
+        $scriptPath,[ref]$tokens,[ref]$parseErrors
+    ) | Out-Null
+    if (@($parseErrors).Count -gt 0) {
+        $detail = @($parseErrors | ForEach-Object { $_.Message }) -join '; '
+        throw "PowerShell parser check failed for $scriptPath : $detail"
+    }
+}
+
+& $runner @PSBoundParameters
+exit $LASTEXITCODE

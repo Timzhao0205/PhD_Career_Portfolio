@@ -1,0 +1,18 @@
+# U_D — Unsolved problems from segment CS-D (coil/tape QC & instrumentation)
+
+Schema: `U-### | lane | problem (<=30 words) | who suffers | evidence | severity 1-5 | why unsolved | small-team-exploitable | linked clusters`
+Local ids U-D-#; orchestrator assigns global U-### at merge. All evidence ids resolve in `10_COMPETITORS/CS_D_sources.json`; all refs marked fetched there.
+
+U-D-1 | C12 | No commercial inline (during-winding) QC instrument for HTS/NI coils exists; winding lines run blind between tape spool and first cold test. | Fusion/lab coil-line managers (HFIPS 44.86 T insert team self-built laser-following winding monitor; second-wave fusion coil fabs) | [CS-D-12][CS-D-01][CS-D-10] + search log in CS_D §Structure | 5 | Rc-tension physics know-how sits in magnet labs, not instrument firms; historical instrument TAM too small to attract THEVA/Lake Shore-class vendors | Y | P04
+
+U-D-2 | C12 | No coil-level post-wind QC station ("TapeStar for coils") is sold; buyers get probes/mappers/sample rigs or build dunk-test stands in-house. | National labs and magnet OEM test engineers (Fermilab built its own Mu2e quench detection/monitoring stack; Cryogenic Ltd tests only its own magnets) | [CS-D-16][CS-D-03][CS-D-02][CS-D-19][CS-D-14] | 4 | Coil-geometry diversity plus ill-posed field-to-current inversion deters productization; component vendors profit without integration risk | Y | P04
+
+U-D-3 | C12 | Producer tape defect maps (Ic vs position) die at the spool: no winding machine or coil-QC product ingests them for defect-aware feed or placement. | Coil fabs winding mapped tape (CFS, Thea, Proxima, OpenStar — named Faraday customers receiving per-tape LN2 Ic QC) | [CS-D-08][CS-D-09][CS-D-01] | 4 | Interface/data-format gap; tape vendor liability ends at spool (incentive), machine vendors LTS-minded (technical) | Y | P04
+
+U-D-4 | C12 | Fiber-optic coil QC/QD channels are DIY: interrogators general-purpose, uncalibrated at cryo, no coil-integration product; flagship vendor in ownership/EOL churn. | Magnet R&D groups (LBNL wired DFOS into its CCT HTS dipole itself: "traditional instrumentation... has become inadequate") | [CS-D-14][CS-D-13][CS-D-05][CS-D-17] | 3 | SC niche too small for aero/medical-focused fiber vendors (economic); cryo calibration hard (technical); Luna delisted then PE-acquired (incentive/continuity) | Y | P04
+
+U-D-5 | C12 | In-process joint nΩ verification is lab craft, not product: record joints (65 nΩ·cm² at 77 K) come from parameter tuning; nothing sold verifies joints during production. | High-field insert and NI-coil builders (HFIPS insert team; BNL-style splice-reject practice per Round-2 corpus DD-C33-07) | [CS-D-12][CS-D-06] | 4 | nV-class metrology inside production fixtures at 77 K is hard; joint recipes treated as in-house IP so no buyer coalition formed | Y | P03
+
+U-D-6 | C12 | No vendor-neutral per-coil 77 K certification service exists; magnet makers certify only their own product; coil-buying startups must trust the seller or build rigs. | Coil-buying fusion startups and OEM customers (Cryogenic Ltd ships maker's-own test reports; tape majors certify tape only) | [CS-D-16][CS-D-02][CS-D-08] | 3 | Certification liability for third-party coils plus thin service economics; incumbents' interest is selling magnets, not grading rivals' | Y | P04
+
+Notes for merge: U-D-1/U-D-2 are the load-bearing pair behind the C12 inline-QC module and C33 station option; U-D-3 links to CS-A/CS-B machine cards (no defect-map-aware feed on any seen machine); U-D-5 feeds P03 scout; U-D-4 overlaps CS-H quench-detection space — keep the QC (manufacturing) framing here, protection framing there.

@@ -1,0 +1,21 @@
+id,item,qty,unit_usd,vendor,phase,notes
+B01,TI FDC2214EVM eval board,1,50,Digi-Key/Mouser,P0,4-ch 28-bit CDC; USB GUI streams CSV
+B02,IDE coupon PCB panel (custom KiCad),1,35,JLCPCB/OSH Park,P0,"150/200/300 um pitch coupons, ENIG, guard rings, + through-glass pad pair"
+B03,10k NTC glass-bead epoxy,4,4,Littelfuse/TDK via Digi-Key,P0,sub-second tau; primary temp channel
+B04,DS18B20 waterproof probe,1,5,generic,P0,slow (750 ms) sanity channel only
+B05,Seeed XIAO nRF52840 Sense,2,17,Seeed/Digi-Key,P0,BLE + onboard LSM6DS3 IMU; carries to spoon
+B06,Precision balance 0.01 g x 500 g,1,90,generic lab,P0,GROUND TRUTH: gravimetric standards + ice weighing
+B07,Everclear 190-proof 750 mL,1,25,BevMo,P0,calibration standards; flammable — see safety
+B08,Proof & Tralle hydrometer + 100 mL cylinder,1,20,generic,P0,endpoint ABV check
+B09,Alcohol refractometer 0-80 %v/v,1,25,generic,P0,binary aliquot check; temp-correct
+B10,Yarai mixing glass 550 mL,1,20,cocktail supply,P0,glass (not tin) — enables through-wall tests
+B11,Barspoon (sacrificial) ,2,8,cocktail supply,P0,Phase-2 host
+B12,Magnetic stirrer w/ bar,1,50,generic lab,P0,repeatable calibration stirring
+B13,MG Chemicals 422B silicone conformal,1,15,Digi-Key,P0,backup passivation (primary: parylene-C at SNF*)
+B14,Adhesive-lined heat shrink assortment 3:1,1,12,generic,P0,probe sealing
+B15,Marine epoxy + Kapton tape,1,15,generic,P0,potting/fixturing
+B16,Shielded twisted pair 26AWG 5 m,1,10,generic,P0,keep sensor-chip run <10 cm
+B17,Ring stand + clamp,1,25,generic lab,P0,reproducible dipstick fixture
+B18,Ice molds (std + clear-ice),2,15,generic,P0,clear ice = bubble-free melt control
+B19,EVAL-AD7746 (CONTINGENCY),1,150,Analog Devices,P0-opt,only if FDC2214 SNR insufficient; +/-4 pF range needs guard scheme
+B20,Rock salt 2 kg (ice-salt bath to -8C),1,6,grocery,P0,temperature sweep without a chiller

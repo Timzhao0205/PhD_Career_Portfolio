@@ -1,0 +1,122 @@
+[
+  {
+    "id": "RT-C13-01",
+    "url": "https://www.hts-110.com/product/cryosaver-current-leads/",
+    "title": "CryoSaver Current Leads",
+    "publisher": "HTS-110 (Scott Technology)",
+    "date": "2026",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "Incumbent catalog product: CryoSaver HTS current leads, 'over a thousand leads in the field' for 10+ years; standard and hermetic variants, 150A-2000A."
+  },
+  {
+    "id": "RT-C13-02",
+    "url": "https://gmw.com/product/hts-110-current-leads/",
+    "title": "HTS-110 Current Leads",
+    "publisher": "GMW Associates",
+    "date": "2026",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "US distribution with published pricing (FCA San Carlos, CA) and quantity discounts — leads are already a catalog-and-distributor commodity."
+  },
+  {
+    "id": "RT-C13-03",
+    "url": "https://reports.valuates.com/market-reports/QYRE-Auto-29K7465/high-temperature-superconducting-hts-current-leads-global",
+    "title": "High Temperature Superconducting (HTS) Current Leads - Global Market",
+    "publisher": "Valuates Reports (QYResearch)",
+    "date": "2025",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "Fetched. Global HTS current leads market US$123M (2024) -> US$164M (2031), 4.2% CAGR. Key players: Hall Scientific, E2P, DABS, Furukawa Electric, Solid Material Solutions, Brookhaven Technology Group, CAN Superconductors."
+  },
+  {
+    "id": "RT-C13-04",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1875389212021694",
+    "title": "Development of ITER HTS Current Lead at ASIPP",
+    "publisher": "Physics Procedia (Elsevier/ScienceDirect)",
+    "date": "2012",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "ASIPP (CAS Institute of Plasma Physics) has designed/fabricated/tested ITER HTS current leads (68/55/10 kA classes) in-house since 2007 — the biggest lead procurements go to state labs, not merchant vendors."
+  },
+  {
+    "id": "RT-C13-05",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0011227521001636",
+    "title": "Splice joint resistances of commercial REBCO-coated conductors and their reduction",
+    "publisher": "Cryogenics (Elsevier)",
+    "date": "2022",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "Splice resistance is dominated by commercial tape architecture (interface/stabilizer); reduction techniques are published openly — thin process moat for a merchant joiner."
+  },
+  {
+    "id": "RT-C13-06",
+    "url": "https://chinacable.com/news/details/3999",
+    "title": "以超导电缆为应用先锋，上海历时18年打造全球最全高温超导产业链",
+    "publisher": "中国线缆网 (China Cable)",
+    "date": "2025",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "Shanghai's 18-year full-chain HTS industrial buildout (上海超导 et al.) — Chinese domestic component self-supply, including leads/terminations, is policy-backed."
+  },
+  {
+    "id": "RT-C13-07",
+    "url": "https://www.asgsuperconductors.com/news/mt27-bscco-geometrical-and-soldering-optimization-for-high-current-lead-applications-",
+    "title": "MT27: BSCCO geometrical and soldering optimization for high current lead applications",
+    "publisher": "ASG Superconductors",
+    "date": "2021",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "Major magnet integrator develops and optimizes its own current leads — integrators make, not buy."
+  },
+  {
+    "id": "RT-C13-08",
+    "url": "https://cryomagnetics.com/products/hts-high-temperature-superconductor/",
+    "title": "HTS (High Temperature Superconductor) Products",
+    "publisher": "Cryomagnetics",
+    "date": "2026",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "US magnet-system builder already bundles HTS leads with its systems — leads captured as an integrator attach, not a merchant component."
+  },
+  {
+    "id": "RT-C13-09",
+    "url": "https://graduate-school.uq.edu.au/project/superconducting-joints-mri-magnet-persistent-mode",
+    "title": "Superconducting joints for MRI magnet in persistent mode",
+    "publisher": "University of Queensland Graduate School",
+    "date": "2025",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "Persistent-current joints (PbBi solder on NbTi/Nb3Sn) are the standard, long-guarded in-house method of the MRI magnet industry — closed to third-party component vendors."
+  },
+  {
+    "id": "RT-C13-10",
+    "url": "https://www.cambridge.org/core/journals/mrs-advances/article/abs/novel-superconducting-joints-for-persistent-mode-magnet-applications/480EEE76F9DBF16B7C791AC9DD49D727",
+    "title": "Novel Superconducting Joints for Persistent Mode Magnet Applications",
+    "publisher": "MRS Advances (Cambridge)",
+    "date": "2019",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C13.md"],
+    "note": "True superconducting REBCO joints 'not realized stably and reproducibly yet' — the high-value version of the product is still a research problem, not a shippable component."
+  }
+]

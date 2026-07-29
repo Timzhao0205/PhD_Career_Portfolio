@@ -1,0 +1,14 @@
+{
+  "package": "PAP06_NATIVE_CLAUDE",
+  "version": "5.0.0",
+  "built_date": "2026-07-28",
+  "minimum_claude_code": "2.1.219",
+  "windows_terminal_compatibility": {
+    "powershell_version": "5.1.26100.8875",
+    "powershell_edition": "Desktop",
+    "note": "PowerShell only hosts the terminal; no PowerShell runtime is used."
+  },
+  "active_runtime": "Claude Code project skill plus custom foreground agents",
+  "one_command": "RUN_ONE_COMMAND.txt",
+  "budget_shutdown": false
+}

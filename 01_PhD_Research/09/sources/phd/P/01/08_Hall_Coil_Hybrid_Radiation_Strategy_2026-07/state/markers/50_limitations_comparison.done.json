@@ -1,0 +1,33 @@
+﻿{
+    "stage":  "50_limitations_comparison",
+    "status":  "complete",
+    "completed_at":  "2026-07-27T04:12:39.0087625-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-fable-5",
+    "reported_models":  "claude-fable-5",
+    "primary_models":  "claude-fable-5",
+    "auxiliary_models":  "",
+    "result_model":  "claude-fable-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "fcab50e1-e226-41a4-ad16-5523e29b0972",
+    "validation":  "Required files exist and stage-specific checks passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\05_LIMITATIONS_AND_FAILURE_MODES.md",
+                        "sha256":  "24c431a360c5aa4484205326a76f8e95d37c8f325ed77645dbd10c030943bb95"
+                    },
+                    {
+                        "path":  "outputs\\05_TECHNOLOGY_COMPARISON.csv",
+                        "sha256":  "856e68894e1915d0d78bd8a157058d88198dfa5f0114c46cb753a26daabd1e67"
+                    },
+                    {
+                        "path":  "outputs\\05_FALSIFICATION_TESTS.md",
+                        "sha256":  "525e86da7e937d8aa6520d75e8557509e81bed19ff8da5a8d94ee8bbed3b35ce"
+                    }
+                ]
+}

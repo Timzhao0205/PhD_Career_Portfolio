@@ -1,0 +1,28 @@
+# ChatGPT Windows continuation contract
+
+The active mission is
+`06`.
+
+Before doing any work:
+
+1. Read this file and the nested mission `AGENTS.md`.
+2. Read `state/CHATGPT_HANDOFF_STATE.json` and
+   `state/CHATGPT_HANDOFF.md`.
+3. Inspect `state/markers`, `state/attempts`, `state/OPERATION_LOG.csv`,
+   `state/MODEL_EFFORT_LOG.csv`, `state/CLAUDE_EVENT_LOG.jsonl`, the latest raw
+   stream, and the saved generated prompt named by the handoff state.
+4. Resume the earliest incomplete stage from durable files. Do not redo a stage
+   with a valid completion marker unless its validation is proven false.
+
+`06/_history/r0` is audit-only from
+the pre-policy run. Its markers, sessions, and outputs are not active progress.
+
+Work only inside the active mission folder except for read-only inspection of
+the supplied research tree. Never alter `inputs`, manuscript source, or raw HSX
+data. Do not send messages, submit papers, file patents, upload data, make
+purchases, or mutate external accounts.
+
+Do not launch Claude Code, another agent CLI, or any MCP server. Continue
+directly in the ChatGPT Windows local project using the model and effort shown
+in the handoff state. Log every meaningful operation and checkpoint before
+moving to the next stage.

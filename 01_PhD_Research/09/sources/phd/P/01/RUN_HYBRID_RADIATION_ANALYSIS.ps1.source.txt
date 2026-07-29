@@ -1,0 +1,61 @@
+#requires -Version 5.1
+<#
+One-command entry point for the Hall + coil hybrid/radiation analysis.
+
+Run from the extracted 01 folder:
+  powershell -ExecutionPolicy Bypass -File .\RUN_HYBRID_RADIATION_ANALYSIS.ps1
+
+The same command resumes from durable files after an ordinary interruption.
+The default full mode gives Claude Code bypassPermissions within the isolated
+08 mission folder. Use -Mode guarded to require edit acceptance instead.
+#>
+[CmdletBinding()]
+param(
+    [ValidateSet('full','guarded')]
+    [string]$Mode = 'full',
+    [switch]$DryRun,
+    [switch]$SkipConnectionTest,
+    [switch]$RetryClaudeAfterHandoff
+)
+
+Set-StrictMode -Version 2.0
+$ErrorActionPreference = 'Continue'
+Set-Location -LiteralPath $PSScriptRoot
+
+$missionRoot = Join-Path $PSScriptRoot `
+    '08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07'
+$launcher = Join-Path $missionRoot 'RUN_HYBRID_RADIATION_ANALYSIS.ps1'
+$modelTest = Join-Path $missionRoot 'TEST_CLAUDE_MODELS.ps1'
+foreach ($required in @($launcher,$modelTest)) {
+    if (-not (Test-Path -LiteralPath $required -PathType Leaf)) {
+        throw "Required launcher file not found: $required"
+    }
+}
+
+$hostExecutable = (Get-Process -Id $PID).Path
+if (-not $DryRun -and -not $SkipConnectionTest) {
+    Write-Host ''
+    Write-Host '==== Live Claude Sonnet 5 and Fable 5 connection tests ====' `
+        -ForegroundColor Cyan
+    & $hostExecutable -NoProfile -NonInteractive -ExecutionPolicy Bypass `
+        -File $modelTest
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning 'A model probe did not pass. The stage runner will still enforce the requested final-result model, log every event, retry Fable once after a first downgrade, and pause after a second.'
+    }
+}
+
+Write-Host ''
+Write-Host '==== Hall + coil hybrid/radiation research run ====' `
+    -ForegroundColor Cyan
+$arguments = @(
+    '-NoProfile','-ExecutionPolicy','Bypass',
+    '-File',$launcher,
+    '-Resume',
+    '-Mode',$Mode
+)
+if ($DryRun) { $arguments += '-DryRun' }
+if ($RetryClaudeAfterHandoff) {
+    $arguments += '-RetryClaudeAfterHandoff'
+}
+& $hostExecutable @arguments
+exit $LASTEXITCODE

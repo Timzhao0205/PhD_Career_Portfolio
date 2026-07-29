@@ -1,0 +1,29 @@
+﻿{
+    "schema_version":  2,
+    "stage":  "10c_literature_applications",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "status":  "COMPLETE",
+    "requested_model":  "sonnet",
+    "requested_effort":  "high",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "downgrade_count":  0,
+    "stream_file":  "",
+    "session_id":  "38f893df-5c38-4c64-afff-c0344432ad11",
+    "generated_prompt":  "",
+    "handoff_history":  "",
+    "manual_review_hint":  {
+                               "requested_claude_model":  "sonnet",
+                               "requested_claude_effort":  "high",
+                               "do_not_auto_route_to_another_provider":  true
+                           },
+    "note":  "76 total rows; 75 verified peer-reviewed; metadata and uniqueness gates passed",
+    "updated_at":  "2026-07-27T02:40:10.3347561-07:00"
+}

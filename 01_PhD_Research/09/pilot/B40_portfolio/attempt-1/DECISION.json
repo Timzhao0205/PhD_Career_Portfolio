@@ -1,0 +1,128 @@
+{
+  "stage": "B40_portfolio",
+  "mode": "PILOT",
+  "attempt": 1,
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "generated": "2026-07-28",
+  "worker": "pap06-fable-xhigh (requested Fable 5 / xhigh)",
+  "sample_selection": {
+    "rationale_type": "deterministic, stated before scoring",
+    "rules": [
+      "Include the unique B20 STRONG: P3R2-D-02 (task-mandated; B20 ALIGNMENT.md §3 lists exactly one STRONG).",
+      "Include the unique B20 ADVERSE: P3R2-D-10 (task-mandated; exactly one ADVERSE exists).",
+      "Include the task-named killed-by-both-baselines idea: P3R2-C-07 (OLD P4-G7 kill 60.0; NEW below survivor cut; the only killed idea whose kill facts A30 verified on opened primaries — DIS-C07 — making it the strongest-evidence kill available).",
+      "WEAK pick: P3R2-C-01 — deterministically the highest cross-run-consensus WEAK (BLIND 1 via SEM-01 / NEW 2 / OLD 5), chosen to maximize the tension the scoring method must survive: commercial consensus vs founder fit are independent axes (B20 finding).",
+      "Two MEDIUMs, one per B25 wedge family, each the member with the strongest A30-verified or triple-intersection evidence: P3R2-C-05 (W1 family; A30 DIS-C05 revival verified on opened primaries; BLIND 2 / NEW 3) and P3R2-D-01 (W2 family anchor; triple intersection BLIND 3 / OLD 3 / NEW 7).",
+      "Result spans STRONG / MEDIUM x2 / WEAK / ADVERSE / killed, both wedge families, an old-kill-new-revival, a consensus-vs-alignment conflict, and a verified blind error — the full stress set the pilot exists to exercise."
+    ],
+    "sample": ["P3R2-D-02", "P3R2-D-01", "P3R2-C-05", "P3R2-C-01", "P3R2-C-07", "P3R2-D-10"],
+    "alternatives_considered_for_sample_slots": "MEDIUM slots: A-10, D-09, F-06, A-14, E-04 were eligible; C-05 and D-01 won on the stated verified-evidence/wedge-anchor rules. These are sample-composition alternatives, not scored rejections; all five must appear in the full 24."
+  },
+  "scoring_method": {
+    "scale": "Coarse ordinal 0-4 per criterion: 0 = blocking/strongly adverse; 1 = weak/unfavorable; 2 = mixed/neutral; 3 = favorable; 4 = strongly favorable. No finer granularity is claimed.",
+    "uncertainty": "Each criterion score carries a half-width band: 0.5 (well-evidenced, incl. A30-verified or demonstrated-ledger facts), 1.0 (record-level/corpus-dated or proposed-only mechanisms), 1.5 (reserved for pool-record-only depth; unused in this sample). Aggregate uncertainty = sum of weight x half-width (conservative linear combination; independence is NOT assumed, which quadrature would require). Overlapping aggregate bands mean adjacent ranks are not separated; dispositions rest on gate logic, not on score decimals.",
+    "aggregation": "score = sum(weight_i x score_i), weights fixed and declared below, reported to one decimal in RANKING.csv (two decimals retained here strictly for ordering audit, not precision).",
+    "weights_declared": {
+      "founder_goal_fit": 0.10,
+      "time_horizon": 0.08,
+      "capital": 0.08,
+      "geography": 0.05,
+      "regulation": 0.07,
+      "technical_proof": 0.12,
+      "phd_leverage": 0.12,
+      "shared_skills": 0.08,
+      "buyer_access": 0.10,
+      "defensibility": 0.10,
+      "downside": 0.10,
+      "sum": 1.00,
+      "design_note": "Commercial-evidence-side weight (technical_proof + buyer_access + defensibility + time_horizon + capital + geography + regulation) = 0.60; founder-side (founder_goal_fit + phd_leverage + shared_skills) = 0.30; downside = 0.10. PhD leverage matters (0.12, tied for largest single criterion) but structurally cannot override commercial evidence — the task's judgment rule implemented as arithmetic, not rhetoric."
+    },
+    "criteria_definitions_and_anti_double_counting": {
+      "founder_goal_fit": "Compatibility with the founder's documented goal state: finish the PhD (P1 revision critical path, G5 gate ~month 12) while preparing an aligned venture, under constraints C42 (international student), C33/C34 (OTL disclosure gates), C49 (zero accepted publications). Distinct from phd_leverage: this asks 'can this coexist with the PhD', not 'does it use PhD assets'.",
+      "time_horizon": "Fit of the venture's decisive windows to the founder's remaining-PhD and post-PhD calendar, and verification status of those windows.",
+      "capital": "First-proof and early-stage capital demands vs a PhD-parallel founder (lower demands score higher).",
+      "geography": "Market/access location friction (US-accessible vs CN-primary etc.). Person-status friction (clearances, deemed export) is scored under regulation, not here — no double count.",
+      "regulation": "Certification/compliance/classification burden of the venture as scoped, including person-status interactions (C42).",
+      "technical_proof": "Evidence state of the venture premise itself: verified demand predicates, incumbency, unproven cores — commercial/technical, founder-independent.",
+      "phd_leverage": "B20's bidirectional mechanism class (STRONG/MEDIUM/WEAK/ADVERSE): does the venture's differentiator run through PhD-demonstrated or PhD-proposed assets, and does anything return to the thesis. Scored from B20's adjudication, not re-derived.",
+      "shared_skills": "B30 stack position of the venture's needed capabilities: founder-acquirable via named bridge gates (higher) vs missing/collaborator-only (lower). Distinct from phd_leverage: C-05 is MEDIUM leverage with a poor domain-skill path; C-01 is WEAK leverage with a real sliver path — the two criteria pull apart exactly there.",
+      "buyer_access": "Reachability of the buyer community for this founder (network overlap, incumbent occupancy of the channel).",
+      "defensibility": "Durable differentiation of the venture as scoped, per record + verified incumbency evidence.",
+      "downside": "Severity if pursued and it fails: opportunity cost against the thesis, irreversibility, conflict mechanisms (publication/classification). Distinct from founder_goal_fit: goal fit scores the plan; downside scores the failure mode."
+    },
+    "semantic_double_counting_guard": "A30's SEM ledger governs: E-01 is consolidated inside C-01 (SEM-01) and appears in origin only; B-01/C-04 (SEM-02), E-10/A-13 (SEM-03), C-15/A-21 (SEM-04) do not touch this sample. No idea appears twice; no criterion is scored twice under two names (definitions above draw the lines)."
+  },
+  "disposition_vocabulary": {
+    "keep": "Commercial and founder evidence both support active pursuit now; no blocking gate; receives primary venture-preparation time.",
+    "bridge": "Retained conditional on named B30 bridge-experiment gates; the ONLY permitted founder spend is executing those gates; gate outcomes promote (toward keep) or demote (to watch/stop).",
+    "watch": "No founder time beyond monitoring named external triggers; re-evaluate at the named trigger or at the full B40 run.",
+    "stop": "No further founder time in any form; leaves active consideration (record retained).",
+    "note": "No idea in this sample earns keep. That is a finding, not a gap: every non-WEAK mechanism in the universe runs through proposed-only capabilities gated by C04 and FT-02 (B30's conclusion), so the portfolio's top is bridge-shaped by construction."
+  },
+  "sample_ranking": [
+    {"rank": 1, "idea_id": "P3R2-D-02", "disposition": "bridge", "score": 3.00, "uncertainty": 0.80,
+     "criterion_scores": {"founder_goal_fit": [4, 0.5], "time_horizon": [3, 1.0], "capital": [3, 0.5], "geography": [3, 0.5], "regulation": [3, 0.5], "technical_proof": [2, 1.0], "phd_leverage": [4, 1.0], "shared_skills": [3, 1.0], "buyer_access": [3, 1.0], "defensibility": [2, 1.0], "downside": [3, 0.5]}},
+    {"rank": 2, "idea_id": "P3R2-D-01", "disposition": "bridge", "score": 2.78, "uncertainty": 0.84,
+     "criterion_scores": {"founder_goal_fit": [3, 0.5], "time_horizon": [3, 1.0], "capital": [3, 1.0], "geography": [3, 0.5], "regulation": [3, 0.5], "technical_proof": [2, 1.0], "phd_leverage": [3, 1.0], "shared_skills": [3, 1.0], "buyer_access": [3, 0.5], "defensibility": [2, 1.0], "downside": [3, 1.0]}},
+    {"rank": 3, "idea_id": "P3R2-C-05", "disposition": "watch", "score": 2.55, "uncertainty": 0.90,
+     "criterion_scores": {"founder_goal_fit": [2, 1.0], "time_horizon": [3, 0.5], "capital": [3, 1.0], "geography": [4, 0.5], "regulation": [3, 0.5], "technical_proof": [3, 1.0], "phd_leverage": [2, 1.0], "shared_skills": [2, 1.0], "buyer_access": [2, 1.0], "defensibility": [3, 1.0], "downside": [2, 1.0]}},
+    {"rank": 4, "idea_id": "P3R2-C-01", "disposition": "watch", "score": 1.57, "uncertainty": 0.65,
+     "criterion_scores": {"founder_goal_fit": [1, 0.5], "time_horizon": [2, 1.0], "capital": [1, 0.5], "geography": [4, 0.5], "regulation": [1, 0.5], "technical_proof": [3, 1.0], "phd_leverage": [1, 0.5], "shared_skills": [1, 0.5], "buyer_access": [1, 0.5], "defensibility": [2, 1.0], "downside": [1, 0.5]}},
+    {"rank": 5, "idea_id": "P3R2-C-07", "disposition": "stop", "score": 1.07, "uncertainty": 0.58,
+     "criterion_scores": {"founder_goal_fit": [1, 0.5], "time_horizon": [0, 0.5], "capital": [2, 1.0], "geography": [3, 0.5], "regulation": [2, 1.0], "technical_proof": [1, 0.5], "phd_leverage": [1, 0.5], "shared_skills": [1, 0.5], "buyer_access": [1, 0.5], "defensibility": [0, 0.5], "downside": [1, 0.5]}},
+    {"rank": 6, "idea_id": "P3R2-D-10", "disposition": "stop", "score": 0.65, "uncertainty": 0.65,
+     "criterion_scores": {"founder_goal_fit": [0, 0.5], "time_horizon": [1, 0.5], "capital": [1, 1.0], "geography": [3, 0.5], "regulation": [0, 0.5], "technical_proof": [2, 1.0], "phd_leverage": [0, 0.5], "shared_skills": [0, 0.5], "buyer_access": [0, 0.5], "defensibility": [1, 1.0], "downside": [0, 0.5]}}
+  ],
+  "sample_top3": [
+    {"idea_id": "P3R2-D-02", "reason": "Only STRONG alignment in the universe plus rank 1 in both baselines; the decisive leg is exactly the WP-C credential the PhD needs anyway — but it is C04-gated, hence bridge, not keep."},
+    {"idea_id": "P3R2-D-01", "reason": "Triple-intersection winner class whose honest founder lane (estimator-honesty detection statistics) is the cheapest gated ladder in B30 (BR-A Phase 0 at $0); demand maturity is its open commercial question."},
+    {"idea_id": "P3R2-C-05", "reason": "A30-verified live demand ecosystem and W1-class method-authority moat, held at watch because the founder's domain path (multi-kW calorimetry) does not exist in the ledger and the OCP conformance-vacuum predicate is still discovery-level."}
+  ],
+  "portfolio_buckets": {
+    "definitions": {
+      "core_bridge": "Ideas whose retention is an explicit bet on named B30 gates; they receive the only active founder work permitted by this pilot — the gates themselves.",
+      "monitored_options": "watch-disposition ideas: zero founder time beyond named triggers; re-scored at the full run or on trigger events.",
+      "closed": "stop-disposition ideas: no founder time; retained as records and family exemplars only."
+    },
+    "membership": {
+      "core_bridge": ["P3R2-D-02", "P3R2-D-01"],
+      "monitored_options": ["P3R2-C-05", "P3R2-C-01"],
+      "closed": ["P3R2-C-07", "P3R2-D-10"]
+    }
+  },
+  "dependencies": {
+    "bridge_gates": [
+      "BR-A Phase 0 (FT-02 estimator honesty, $0 desk): gates D-01's entire founder lane and every estimator-based claim (C31: 'gates every dollar after it'); its FAIL branch demotes D-01 to watch/stop.",
+      "BR-D (WP-C Tier-1 calibration): gates D-02's credential leg; calendar start = 'immediately upon C04 closure'; its C04-kill branch fires B20's D-02 falsifier.",
+      "BR-B (traceable chain + acceptance dossier): rehearses the W1 methodology C-05 and D-02 both cite; dossier failure stops all W1 customer-facing preparation.",
+      "BR-G (PB-3 discrimination statistics): the only founder-relevant lane inside C-01's family; FAIL closes the protection-intelligence sliver at founder scale."
+    ],
+    "c04_block": "The ~109x bench anomaly (C04) blocks all calibration work by the project's own rule; it gates BR-D, hence D-02's decisive leg and the credential both wedges cite. Closure time honestly not estimable (B30).",
+    "publication_gate": "G5 (~month 12): accepted/in-revision first-author paper AND real-die absolute calibration; C49 records zero accepted today. This gate binds ALL venture-preparation time in every disposition above; failure triggers the corpus's own OPT3 pivot logic.",
+    "disclosure_gates": "C33/C34 (advisor + OTL pre-disclosure screen) bind every public artifact from every bridge; FT-01 prior-art kill search precedes any novelty claim."
+  },
+  "sensitivity_cases": [
+    {
+      "case": "phd_leverage weight halved (0.12 -> 0.06) and doubled (0.12 -> 0.24), all other weights renormalized proportionally",
+      "scores_halved": {"P3R2-D-02": 2.93, "P3R2-D-01": 2.77, "P3R2-C-05": 2.59, "P3R2-C-01": 1.61, "P3R2-C-07": 1.07, "P3R2-D-10": 0.69},
+      "scores_doubled": {"P3R2-D-02": 3.14, "P3R2-D-01": 2.81, "P3R2-C-05": 2.48, "P3R2-C-01": 1.49, "P3R2-C-07": 1.06, "P3R2-D-10": 0.56},
+      "rank_flips": "NONE in either direction — the sample ordering 1-6 is identical at w_phd = 0.06, 0.12, and 0.24.",
+      "why_no_flips": "For every adjacent pair, the higher-ranked idea has BOTH a higher non-PhD weighted component and a greater-or-equal phd_leverage score (D-02>D-01: 2.52/2.42 and 4/3; D-01>C-05: 2.42/2.31 and 3/2; C-05>C-01: 2.31/1.45 and 2/1; C-01>C-07: 1.45/0.95 and 1/1; C-07>D-10: 0.95/0.65 and 1/0). Under proportional renormalization the pairwise difference is a positive combination of these two gaps, so the ordering is provably stable for ANY phd_leverage weight in [0,1) — not just the two tested values.",
+      "gap_movement": "D-01 vs C-05 gap: 0.18 (halved) / 0.23 (baseline) / 0.34 (doubled) — the nearest pair tightens when PhD weight falls; D-02 vs D-01: 0.17 / 0.22 / 0.33.",
+      "honest_caveat": "Total stability here is partly an artifact of the sample's deliberately wide class spread: alignment and integrated commercial scores happen to be monotone-aligned across these six. The full 24 will contain adjacent pairs (e.g., WEAK-high-commercial vs MEDIUM-low-commercial: C-22 vs D-09/F-06 territory) where this dominance will NOT hold and flips are expected; the full run must report them, not suppress them."
+    }
+  ],
+  "rejected_alternatives": [
+    {"alternative": "Rank C-01 first on cross-run consensus (BLIND 1 / NEW 2 / OLD 5 — the corpus's strongest)", "rejected_because": "Consensus strength and founder fit are independent axes (B20); B10's ledger contains no power-electronics or certification capability; B25 rules the founder-led breaker a non-wedge; and the window is pressed by live-verified merchant SSCB entries (B40P-01). Evidence-weighted, not prestige- or consensus-weighted."},
+    {"alternative": "Adopt NEW's rank 4 for D-10", "rejected_because": "A30's adjudication on opened primaries: procurement is live but the awardee holds the technology proprietary and vertically integrated — NEW's merchant premise is weakened; plus B20's ADVERSE (classification vs publication gates). Scored 6th, stop."},
+    {"alternative": "Adopt BLIND's rank 10 for C-07 (revive it)", "rejected_because": "A30 verified the kill facts on primary sources (statute + incumbent shipping) — the clearest identified blind error; no alignment mechanism exists to offset it."},
+    {"alternative": "Score D-02 as keep rather than bridge", "rejected_because": "Its decisive leg (calibration credential) is proposed-only and C04-gated, and its named non-demonstrated skills (array instrumentation, thermography) are real gaps (B20 correction 1); an unconditional keep would overstate the founder-side evidence."},
+    {"alternative": "Score C-05 as bridge via BR-B", "rejected_because": "BR-B rehearses the W1 methodology generically, not C-05's thermal domain; B25's own verdict — 'not the founder's first wedge' — plus the missing calorimetry/fluids ledger means no C-05-specific gate exists for a bridge disposition to point at. Watch with named triggers is the honest call."}
+  ],
+  "limitations": [
+    "Six-idea pilot: scores and ranks are method-demonstration outputs, not portfolio decisions; the full 24-ranking supersedes everything here.",
+    "Aggregate uncertainty bands overlap across ranks 1-3 (and 5-6): within those groups the ordering is judgment inside stated bands, not separation.",
+    "Venture-side market facts are corpus-dated except where A30-verified or live-opened this run (B40P-01); the ABB SSCB shipping claim could not be live-verified (two fetch timeouts, disclosed).",
+    "All founder-side mechanism scores inherit B10/B20/B30's ground truth, including the pre-redteam status of folder-08 estimator claims (C40)."
+  ]
+}

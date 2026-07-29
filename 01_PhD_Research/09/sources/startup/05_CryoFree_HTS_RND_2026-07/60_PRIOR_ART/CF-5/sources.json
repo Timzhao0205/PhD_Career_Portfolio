@@ -1,0 +1,274 @@
+{
+  "candidate": "CF-5",
+  "wave": "W1_prior_art_harvest",
+  "model_logged": "sonnet",
+  "captured_date": "2026-07-10",
+  "sources": [
+    {
+      "tier": 1, "id": "T1-01", "number": "US2022/0302816A1 (granted US12506395B2)",
+      "assignee": "Hinetics LLC", "jurisdiction": "US",
+      "priority_date": "2021-03-16", "pub_date": "2022-09-22", "grant_date": "2025-12-23",
+      "status": "granted/active",
+      "title_original": "Superconducting Motor with Spoke-Supported Rotor Windings",
+      "title_en": "Superconducting Motor with Spoke-Supported Rotor Windings",
+      "relevance": "Anchor exemplar's own patent: rotating cryocooler cold end through hollow driveshaft with radial thermally conductive straps to rotor shell.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/US20220302816A1/en"
+    },
+    {
+      "tier": 1, "id": "T1-02", "number": "US12531457",
+      "assignee": "unconfirmed (likely Hinetics, claim language matches T1-01 family)",
+      "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "2026-07-10 (header, unreliable)",
+      "status": "granted (image-PDF, text unverified)",
+      "title_original": "Superconducting motor with reduced coil stress",
+      "title_en": "Superconducting motor with reduced coil stress",
+      "relevance": "Flexible radial thermal straps accommodating cooldown thermal contraction on same rotating radial-strap heat path as T1-01.",
+      "ids_pool": true, "confidence": "low-medium, needs manual re-pull", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12531457"
+    },
+    {
+      "tier": 1, "id": "T1-03", "number": "CN102016461B",
+      "assignee": "American Superconductor Corp", "jurisdiction": "CN",
+      "priority_date": "2008-03-11", "pub_date": "2012-11-14", "status": "expired (fee-related)",
+      "title_original": "旋转参考系中的冷却系统", "title_en": "Cooling system in a rotating reference frame",
+      "relevance": "Mounts cryocooler cold head in the rotating frame itself to avoid cryogenic rotary joints; direct alternate mechanism to CF-5.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/CN102016461B/en"
+    },
+    {
+      "tier": 1, "id": "T1-04", "number": "DE19938986B4 (family EP1206667B1)",
+      "assignee": "unconfirmed", "jurisdiction": "DE/EP/US/JP family",
+      "priority_date": "1999-08-17", "pub_date": "2008-02-14", "status": "expired (fee-related)",
+      "title_original": "Supraleitende Einrichtung mit einer Kuehleinheit fuer eine rotierende supraleitende Wicklung",
+      "title_en": "Superconducting device with a cooling unit for a rotating superconducting coil",
+      "relevance": "Cold head rotates inside rotor, stationary compressor, ferrofluid gas coupling as sole mechanical connection across interface.",
+      "ids_pool": true, "confidence": "medium (assignee unconfirmed)", "url": "https://patents.google.com/patent/DE19938986B4/en"
+    },
+    {
+      "tier": 1, "id": "T1-05", "number": "US2003/0107275A1 / WO2000013296A9 / EP1108281A1 / US6812601B2",
+      "assignee": "American Superconductor Corp / Reliance Electric Co", "jurisdiction": "US/EP/WO",
+      "priority_date": "1998-08-26", "pub_date": "2003-06-12", "status": "granted, expired (~2019)",
+      "title_original": "Superconductor rotor cooling system", "title_en": "Superconductor rotor cooling system",
+      "relevance": "Stationary cryocooler bridged to rotating device via interleaved stationary/rotating copper fins across a gap; no fluid rotary seal.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/US20030107275A1"
+    },
+    {
+      "tier": 1, "id": "T1-06", "number": "US6347522B1",
+      "assignee": "American Superconductor Corp", "jurisdiction": "US",
+      "priority_date": "2000-01-11", "pub_date": "2002-02-19", "status": "granted, expired",
+      "title_original": "Cooling system for HTS machines", "title_en": "Cooling system for HTS machines",
+      "relevance": "High-speed fans (10-30k rpm) circulate helium in rotating frame via density-driven centrifugal circulation, ferrofluidic rotary seals to stationary cryocoolers.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/US6347522B1/en"
+    },
+    {
+      "tier": 1, "id": "T1-07", "number": "US6597082B1",
+      "assignee": "American Superconductor Corp", "jurisdiction": "US",
+      "priority_date": "2000-08-04", "pub_date": "2003-07-22", "status": "granted, expired (2020)",
+      "title_original": "HTS superconducting rotating machine", "title_en": "HTS superconducting rotating machine",
+      "relevance": "Explicitly teaches keeping cryocooler stationary to avoid gravity-heat-transfer problems of a rotating cold head; rotary coupling for closed rotating loop.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/US6597082B1/en"
+    },
+    {
+      "tier": 1, "id": "T1-08", "number": "EP3104100B1",
+      "assignee": "Sumitomo Heavy Industries, Ltd.", "jurisdiction": "EP",
+      "priority_date": "2015-02-27", "pub_date": "2019-07-24", "status": "active (est. expiry 2036-02-23)",
+      "title_original": "Cryocooler and rotary joint", "title_en": "Cryocooler and rotary joint",
+      "relevance": "Compressor stationary/expander rotating with staged intermediate-pressure working-gas seal; applied to superconducting wind-power generator rotor.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/EP3104100B1/en"
+    },
+    {
+      "tier": 1, "id": "T1-09", "number": "US2012/0133126A1",
+      "assignee": "Tokyo University of Marine Science and Technology (NUC) / Kitano Seiki Co., Ltd.", "jurisdiction": "US/JP",
+      "priority_date": "2009-06-02", "pub_date": "2012-05-31", "status": "granted",
+      "title_original": "Cryo-rotary joint", "title_en": "Cryo-rotary joint",
+      "relevance": "Compact cryo-rotary joint with magnetic-fluid seal positioned to minimize parasitic heat leak into refrigerant path.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/US20120133126A1"
+    },
+    {
+      "tier": 1, "id": "T1-10", "number": "US7667358B2",
+      "assignee": "Sumitomo Electric Industries, Ltd.", "jurisdiction": "US",
+      "priority_date": "2004-12-24", "pub_date": "2010-02-23", "status": "expired (fee-related, expires 2026-10-05)",
+      "title_original": "Cooling structure of superconducting motor", "title_en": "Cooling structure of superconducting motor",
+      "relevance": "LN2 grooves cut into outer surface of rotating shaft (not center-drilled) to route coolant closer to coil; cryogen-based not conduction-cooled, but relevant shaft-routing geometry precedent.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/US7667358B2/en"
+    },
+    {
+      "tier": 1, "id": "T1-11", "number": "CN102840708B",
+      "assignee": "Dongfang Electric Co., Ltd.", "jurisdiction": "CN",
+      "priority_date": "2012-09-29", "pub_date": "2016-04-06", "status": "active (est. expiry 2032)",
+      "title_original": "一种基于传导冷却的超导电机的制冷系统",
+      "title_en": "A conduction-cooling-based superconducting motor refrigeration system",
+      "relevance": "Rotating two-stage cold head + copper/aluminum thermal straps to SC magnet, rotary seal for helium supply, targeted at <20rpm wind gen -- near-identical mechanism to a rotating-cold-head embodiment of CF-5. HIGH PRIORITY, hurts candidate.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/CN102840708B/zh"
+    },
+    {
+      "tier": 1, "id": "T1-12", "number": "WO2013133487A1",
+      "assignee": "Hyundai Heavy Industries Co., Ltd. (now HD Hyundai Heavy Industries)", "jurisdiction": "WO/KR",
+      "priority_date": "2012-03-07", "pub_date": "2013-09-12", "status": "ceased (national phase outcome unconfirmed)",
+      "title_original": "전도 냉각 방식 초전도 회전기",
+      "title_en": "Conduction-cooled superconducting rotating machine",
+      "relevance": "3-stage GM cryocooler mounted inside rotor, circumferential shaft holes + copper elements shorten conduction path to SC wire -- near-identical core mechanism to CF-5, filed a decade before Hinetics. HIGH PRIORITY, hurts candidate.",
+      "ids_pool": true, "confidence": "high", "url": "https://patents.google.com/patent/WO2013133487A1/ko"
+    },
+    {
+      "tier": 1, "id": "T1-13", "number": "WO2013111934A1",
+      "assignee": "likely Hyundai Heavy Industries (unconfirmed, companion to T1-12)", "jurisdiction": "WO/KR",
+      "priority_date": "unconfirmed (~2012)", "pub_date": "unconfirmed", "status": "unconfirmed",
+      "title_original": "초전도 회전기용 다단 구조를 갖는 자성유체 실링 장치",
+      "title_en": "Multi-stage magnetic-fluid sealing device for a superconducting rotating machine",
+      "relevance": "Multi-stage ferrofluidic seal for hollow rotating shaft housing a cold rod, adjacent rotary-seal detail to T1-12's mechanism.",
+      "ids_pool": true, "confidence": "medium", "url": "https://patents.google.com/patent/WO2013111934A1"
+    },
+    {
+      "tier": 1, "id": "T1-14", "number": "US6412289",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "unconfirmed", "status": "granted",
+      "title_original": "Synchronous machine having cryogenic gas transfer coupling to rotor with super-conducting coils",
+      "title_en": "same",
+      "relevance": "Cryogenic gas transfer joint from stationary cryorefrigerator through stationary bayonet into rotating tube; alternate transfer-across-interface mechanism.",
+      "ids_pool": true, "confidence": "medium (assignee unconfirmed)", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6412289"
+    },
+    {
+      "tier": 1, "id": "T1-15", "number": "US6351045",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "unconfirmed", "status": "granted",
+      "title_original": "Cryogenic rotary transfer coupling for superconducting electromechanical machine",
+      "title_en": "same",
+      "relevance": "Dedicated cryogenic rotary transfer coupling patent, core rotary-interface hardware in CF-5's problem space.",
+      "ids_pool": true, "confidence": "medium (assignee unconfirmed)", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6351045"
+    },
+    {
+      "tier": 1, "id": "T1-16", "number": "US5548168",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "unconfirmed", "status": "granted, expired",
+      "title_original": "Superconducting rotor for an electrical machine", "title_en": "same",
+      "relevance": "Early-generation superconducting rotor general architecture background art.",
+      "ids_pool": true, "confidence": "low-medium (assignee unconfirmed)", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5548168"
+    },
+    {
+      "tier": 1, "id": "T1-17", "number": "US5482919",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "unconfirmed", "status": "granted, expired",
+      "title_original": "Superconducting rotor", "title_en": "same",
+      "relevance": "General superconducting rotor background art, pre-cryocooler-conduction era.",
+      "ids_pool": true, "confidence": "low-medium (assignee unconfirmed)", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5482919"
+    },
+    {
+      "tier": 2, "id": "T2-01", "number": "US6725683B2 / US2002/0170298A1",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "~2001", "pub_date": "2004-04-27", "status": "granted, expired",
+      "title_original": "Cryogenic cooling system for rotor having a high temperature super-conducting field winding",
+      "title_en": "same",
+      "relevance": "Evaporative cryogen cooling with recondensing cryorefrigerator; hybrid cryogen-bath-plus-cryocooler bracketing background art.",
+      "ids_pool": true, "confidence": "medium (background only)", "url": "https://patents.google.com/patent/US20020170298A1"
+    },
+    {
+      "tier": 2, "id": "T2-02", "number": "US7012347B2",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "unconfirmed", "status": "granted",
+      "title_original": "Superconducting rotor with cooling system", "title_en": "same",
+      "relevance": "Addresses complexity of multi-cylindrical cryogenic flow-channel rotor structures; simplification-adjacent background art.",
+      "ids_pool": true, "confidence": "medium", "url": "https://patents.google.com/patent/US7012347B2/en"
+    },
+    {
+      "tier": 2, "id": "T2-03", "number": "US12494701 (number unconfirmed from snippet)",
+      "assignee": "unconfirmed", "jurisdiction": "US", "priority_date": "unconfirmed", "pub_date": "2026 (recent)", "status": "unconfirmed",
+      "title_original": "High-temperature superconducting rotating machine equipped with fixed-type rotor cryostat for cryogen and stator cooling structure using of vaporized cryogen from rotor",
+      "title_en": "same",
+      "relevance": "Fixed (non-rotating) rotor cryostat using boiled-off cryogen to also cool stator; adjacent but structurally distinct, cryogen-bath-based. Needs manual re-pull (image-PDF blocked parsing).",
+      "ids_pool": true, "confidence": "low, needs manual re-pull", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12494701"
+    },
+    {
+      "tier": 2, "id": "T2-04", "number": "KR101665038B1",
+      "assignee": "unconfirmed", "jurisdiction": "KR", "priority_date": "unconfirmed", "pub_date": "unconfirmed", "status": "granted",
+      "title_original": "도전성 물질로 함침된 무절연 초전도 코일 및 그의 제조장치",
+      "title_en": "No-insulation superconducting coil impregnated with conductive material, and manufacturing apparatus therefor",
+      "relevance": "NI coil thermal/electrical interface engineering; not rotating-frame-specific but touches NI-half of CF-5's compound claim scope.",
+      "ids_pool": true, "confidence": "low priority", "url": "https://patents.google.com/patent/KR101665038B1/ko"
+    },
+    {
+      "tier": 3, "id": "T3-01", "number": "IEEE Xplore doc. 9709844",
+      "assignee": "University of Illinois (academic)", "jurisdiction": "NPL",
+      "pub_date": "2022", "venue": "IEEE Transactions on Magnetics, vol. 58, no. 8",
+      "title_original": "A Spoke-Supported Superconducting Rotor With Rotating Cryocooler", "title_en": "same",
+      "relevance": "Academic parent publication of Hinetics T1-01/T1-02 patent family; useful for enablement and public-disclosure-date checks.",
+      "ids_pool": true, "confidence": "high"
+    },
+    {
+      "tier": 3, "id": "T3-02", "number": "IEEE Xplore doc. 10197681",
+      "jurisdiction": "NPL", "pub_date": "2023",
+      "title_original": "Rotating Cryocooler Performance for Superconducting Rotor", "title_en": "same",
+      "relevance": "Follow-on experimental characterization of rotating-cryocooler performance, same architecture family as T3-01/T1-01.",
+      "ids_pool": true, "confidence": "high"
+    },
+    {
+      "tier": 3, "id": "T3-03", "number": "IEEE Xplore doc. 11329170",
+      "jurisdiction": "NPL",
+      "title_original": "Design and Analysis of Rotor Structure Support for Spoke Type Superconducting Motor", "title_en": "same",
+      "relevance": "Further structural follow-on in spoke-supported rotor family; background/enablement art.",
+      "ids_pool": true, "confidence": "medium"
+    },
+    {
+      "tier": 3, "id": "T3-04", "number": "IEEE Xplore doc. 5677566",
+      "jurisdiction": "NPL",
+      "title_original": "High Temperature Superconducting Motor Cooled by On-Board Cryocooler", "title_en": "same",
+      "relevance": "Earlier-generation on-board rotating cryocooler HTS motor demonstration, predates Hinetics by over a decade.",
+      "ids_pool": true, "confidence": "high"
+    },
+    {
+      "tier": 3, "id": "T3-05", "number": "ResearchGate 234986798 / KAIST PURE record",
+      "assignee": "KAIST (academic)", "jurisdiction": "NPL", "pub_date": "~2006",
+      "title_original": "Rotating Cryocooler for Superconducting Motor", "title_en": "same",
+      "relevance": "Stirling coaxial pulse-tube cryocooler mounted in physical/thermal contact with HTS rotor, rotated together on 1800 rpm mock-up; early demonstrated rotating-cold-head mechanism.",
+      "ids_pool": true, "confidence": "high"
+    },
+    {
+      "tier": 3, "id": "T3-06", "number": "IEEE Xplore doc. 6416012 / ResearchGate 260513796",
+      "jurisdiction": "NPL",
+      "title_original": "Cryogenic Rotary Joints Applied to the Cooling of Superconducting Rotating Machinery", "title_en": "same",
+      "relevance": "Introduces Gas Blow Coupling (GBC), non-contact thermal coupling via fluid medium across narrow gap; strong different-mechanism NPL reference for G-CLAIM design-around.",
+      "ids_pool": true, "confidence": "high"
+    },
+    {
+      "tier": 3, "id": "T3-07", "number": "ResearchGate 291019525",
+      "jurisdiction": "NPL",
+      "title_original": "Noncontact High-Torque Magnetic Coupler for Superconducting Rotating Machines", "title_en": "same",
+      "relevance": "Non-contact torque transfer isolating cold rotating mass from warm shaft; adjacent mechanical-isolation background art.",
+      "ids_pool": true, "confidence": "medium (background)"
+    },
+    {
+      "tier": 3, "id": "T3-08", "number": "DOI 10.3390/aerospace11040317",
+      "jurisdiction": "NPL", "pub_date": "2024", "venue": "Aerospace (MDPI) 11(4):317",
+      "title_original": "Cooling of Superconducting Motors on Aircraft", "title_en": "same",
+      "relevance": "Review-level survey of aviation HTS motor cooling incl. rotor cryocooling; full text blocked (HTTP 403), retried once, captured from snippet only.",
+      "ids_pool": true, "confidence": "low, needs manual re-pull"
+    },
+    {
+      "tier": 3, "id": "T3-09", "number": "DOI 10.1088/1757-899X/1301/1/012008",
+      "jurisdiction": "NPL",
+      "title_original": "Cooling method for the rotor of a superconducting motor", "title_en": "same",
+      "relevance": "Directly on-topic title; full text blocked (HTTP 403), retried once, content unverified.",
+      "ids_pool": true, "confidence": "low, unverified"
+    },
+    {
+      "tier": 3, "id": "T3-10", "number": "DOI 10.1088/1361-6668/acf1d4",
+      "jurisdiction": "NPL",
+      "title_original": "Additive manufacturing materials for structural optimisation and cooling enhancement of superconducting motors in cryo-electric aircraft", "title_en": "same",
+      "relevance": "Adjacent structural/thermal-materials background for cryo-electric aircraft motors, not rotating-interface-specific.",
+      "ids_pool": true, "confidence": "medium (background, lower priority)"
+    },
+    {
+      "tier": 3, "id": "T3-11", "number": "ISBN 978-3-031-71408-5 (Springer, 2024)",
+      "jurisdiction": "NPL",
+      "title_original": "Cooling System Technologies on Superconducting Rotating Machines / Rotating Vacuum Heat Transfer, Rotating Cryocoolers, Slip Rings, Rotating Bearings, Ball Bearings (book chapters)",
+      "title_en": "same",
+      "relevance": "Dedicated 2024 book with chapters titled almost exactly on CF-5's problem statement; likely richest NPL survey source. Not independently pulled past title/TOC (paywalled).",
+      "ids_pool": true, "confidence": "unverified, HIGH PRIORITY follow-up"
+    },
+    {
+      "tier": 4, "id": "T4-01", "number": "CN222654905U",
+      "assignee": "BYD", "jurisdiction": "CN", "priority_date": "~2024-04", "status": "unconfirmed",
+      "title_original": "转子、电机和用电设备", "title_en": "Rotor, motor, and electrical device",
+      "relevance": "Conventional (non-superconducting) EV motor rotor cooling channel patent; keyword-overlap noise hit, excluded from IDS_pool as off-scope.",
+      "ids_pool": false, "confidence": "n/a (excluded)"
+    }
+  ],
+  "gaps_logged": [
+    "No native authenticated queries run against CNIPA, J-PlatPat, KIPRIS, or Espacenet/WIPO PatentScope consoles -- all non-English hits surfaced via Google Patents aggregated mirror + Google web search, cross-checked on Google Patents record pages.",
+    "US12531457 and US12494701 PDFs were image-only OCR content; WebFetch could not parse text -- bibliographic data partial, flagged for manual re-pull.",
+    "Two IOPscience article pages (T3-09, T3-10) returned HTTP 403 on WebFetch; retried once per protocol, still blocked; captured from search-snippet metadata only.",
+    "GE Aviation / GE Global Research assignee-specific rotor-cryocooler filings not independently isolated from AMSC/Reliance Electric family this pass -- dedicated re-run recommended.",
+    "Several patent assignees (T1-04, T1-13 through T1-17, T2-01, T2-02) not independently confirmed via primary assignment records -- flagged low/medium confidence pending verification."
+  ]
+}

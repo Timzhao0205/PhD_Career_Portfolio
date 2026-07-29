@@ -1,0 +1,59 @@
+{
+  "stage": "A10_blind",
+  "mode": "FULL",
+  "attempt": 1,
+  "top10_count": 10,
+  "note": "All 10 IDs are contained in SELECTION.json ranks 1-10; ordering matches the selection ranking.",
+  "top10": [
+    {
+      "rank": 1,
+      "idea_id": "P3R2-E-01",
+      "reason": "800VDC rack power-path protection: the pool's largest named budgeted buildout (NVIDIA/OCP 800VDC, GE Vernova $2.4B/qtr datacenter orders) meets a genuinely unresolved protection layer (no DC current zero, research-grade arc detection), with a $350k university-executable falsification, $3-8M v1 capital, and a defined 2033 design-win kill gate."
+    },
+    {
+      "rank": 2,
+      "idea_id": "P3R2-C-05",
+      "reason": "Liquid-cooling thermal metrology: best picks-and-shovels position - $150k first experiment, TRL 5, US+CN portability with minimal export friction, and demand (documented spec contradictions, $15B cooling backlog, T/CIEP and GB 40879 conformance) that grows regardless of which cooling architecture wins."
+    },
+    {
+      "rank": 3,
+      "idea_id": "P3R2-D-01",
+      "reason": "HTS quench detection and protection: safety-critical unsolved problem with buyers already purchasing merchant magnets (CFS to Realta/WHAM); $250k controlled-quench falsification in a university magnet lab; the accumulated precursor-signature dataset is a compounding moat no in-house team can share."
+    },
+    {
+      "rank": 4,
+      "idea_id": "P3R2-C-09",
+      "reason": "Standardized pulsed-power platform: multiple already-paid demand legs (EtO-replacement duopoly backlog, +25% cargo linacs, CGN RMB340M orders) against five documented incompatible designs; TRL 5 with an open-interface de facto standard wedge and diversified failure modes."
+    },
+    {
+      "rank": 5,
+      "idea_id": "P3R2-D-02",
+      "reason": "REBCO tape acceptance metrology: cheapest decisive falsification in the pool ($120k, v1 $1.5-4M) on a QC pain that scales with conductor volume across every fusion/grid outcome; neutral-referee position with per-meter conductor-passport data format."
+    },
+    {
+      "rank": 6,
+      "idea_id": "P3R2-A-14",
+      "reason": "300C electronics platform: a live supply gap (CISSOID last-time-buy, Honeywell exit) colliding with funded 375C+ programs (SUPERHOT, FORGE) and named buyers (Baker Hughes, SLB); packaging-first qualification data is the moat in a field competitors avoid because it is hard."
+    },
+    {
+      "rank": 7,
+      "idea_id": "P3R2-E-14",
+      "reason": "DC protection relay plus neutral qualification platform: $300k graduate-work-shaped falsification and the strongest moat construction in the pool - publish the open DC-protection benchmark that becomes the acceptance standard - against named HVDC projects (Southern Spirit) and PRC-029 compliance."
+    },
+    {
+      "rank": 8,
+      "idea_id": "P3R2-C-08",
+      "reason": "Cycling-rated PCHE recuperators: the most-cited sCO2 bottleneck component with the only operating commercial anchor (Chaotan One 30 MW) plus US pilot lineage; cycling qualification plus catalog delivery fills a documented standards vacuum; capital-heavy tail priced into rank."
+    },
+    {
+      "rank": 9,
+      "idea_id": "P3R2-A-10",
+      "reason": "Vendor-neutral IEDF metrology and waveform-bias control: owns the measurement-and-closed-loop layer generator incumbents do not, at sub-2nm process-control pain plus an independent CN mature-node localization leg; $450k decisive closed-loop demo with counsel/FTO gates as cheap filters."
+    },
+    {
+      "rank": 10,
+      "idea_id": "P3R2-C-07",
+      "reason": "Electrochemical rectification retrofits: a literature-quantified 5-14% specific-energy lever on electricity-dominated plants, TRL 5, $250k side-by-side falsification, and electrowinning-first sequencing that de-risks hydrogen policy volatility with a defined Sungrow-parity kill trigger."
+    }
+  ]
+}

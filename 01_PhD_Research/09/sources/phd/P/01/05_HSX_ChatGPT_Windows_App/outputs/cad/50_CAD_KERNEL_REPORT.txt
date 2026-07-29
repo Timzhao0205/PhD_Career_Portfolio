@@ -1,0 +1,14 @@
+HSX Stage-50 corrected final-direction CAD — NOT FOR FABRICATION
+hard envelope: radius<=15.875 mm height<=27.500 mm
+physical bbox=(-10.150,10.150)x(-10.150,10.150) z=(0.000,26.750) mm
+physical conservative radial=14.354 mm margin=1.521 mm height_margin=0.750 mm
+with 3x 3.80x3.80 mm harness keepouts: radial=14.354 margin=1.521 mm zmax=26.750 mm
+two-pair cable arithmetic: 2*(1.50+0.15)=3.30 mm; corridor total allowance=0.50 mm
+connected cage solid count=1; cage volume=440.917 mm3
+six nut-to-cage reaction contact distances=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0] mm
+unintended physical overlap=0.000000 mm3 (none)
+feedthrough keepout: post_min_radius=11.578 mm vs 11.050; bridge_z=11.500 vs 10.410; pass=True
+STEP reimport bound delta=0.000000 mm; ceramic STL faces=1
+ceramic geometry count=1 unique repeated seat geometry; quantity=3; tapped/internal ceramic thread count=0
+architectural corrections: connected base/backframe/reaction cage; six open-sided replaceable vented nut-plate envelopes; external keeper envelopes; 3.80-mm cable corridors
+release holds: exact keeper retention, flexure geometry/force, Ti hardware/finish/galling, zirconia DFM/GD&T, delivered cable/lay/bend, feedthrough datum and all hot-vacuum qualification

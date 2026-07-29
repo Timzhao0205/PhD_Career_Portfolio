@@ -1,0 +1,33 @@
+﻿{
+    "stage":  "40_applications_collaboration",
+    "status":  "complete",
+    "completed_at":  "2026-07-27T03:55:24.9312194-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-sonnet-5",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "b5b893b3-20cd-4312-87d3-8f49bfe05548",
+    "validation":  "Required files exist and stage-specific checks passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\04_APPLICATION_SCORECARD.csv",
+                        "sha256":  "1958c1d566eb549f2354ad454d4706f7b94466377f09aa4a4163e5e66d91ffc1"
+                    },
+                    {
+                        "path":  "outputs\\04_COLLABORATION_STRATEGY.md",
+                        "sha256":  "e410b85140929b3dd2c1fb948655665a8f760b9284d5ae248f788d69ef7d0567"
+                    },
+                    {
+                        "path":  "outputs\\04_COLLABORATOR_CANDIDATES.csv",
+                        "sha256":  "09ad1dc7de637422b0fdf98103c900f6d8ad00ee44e6b8cfedc42b50521cf8af"
+                    }
+                ]
+}

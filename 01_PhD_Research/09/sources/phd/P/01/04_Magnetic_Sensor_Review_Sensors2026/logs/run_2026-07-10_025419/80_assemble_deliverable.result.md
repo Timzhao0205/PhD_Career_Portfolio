@@ -1,0 +1,1 @@
+﻿wrote outputs/00_DELIVERABLE_paper_plan.md — title #2 + 4 alternates, A+B hybrid outline in full, 5 section briefs, 15-family gap matrix, 10 sources to add, journal-fit checklist, 5 ordered patches (122-ref registry basis)

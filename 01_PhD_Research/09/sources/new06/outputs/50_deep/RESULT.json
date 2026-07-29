@@ -1,0 +1,32 @@
+{
+  "stage": "50_deep",
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-07-28T07:18:50.9933575Z",
+  "outputs": [
+    "DEEP/D01.md",
+    "DEEP/D02.md",
+    "DEEP/D03.md",
+    "DEEP/D04.md",
+    "DEEP/D05.md",
+    "DEEP/D06.md",
+    "DEEP/D07.md",
+    "DEEP/D08.md",
+    "DEEP/D09.md",
+    "DEEP/D10.md",
+    "INDEX.json",
+    "GEOGRAPHY.md",
+    "ADD_SOURCES.json"
+  ],
+  "checks": {
+    "ten_reports_matching_top_10_order": true,
+    "every_report_2500_to_4000_words_validator_regex": true,
+    "index_word_counts_are_observed_values": true,
+    "every_report_min_20_sources_7_peer_5_demand": true,
+    "all_index_ids_subset_of_45_packs_pool": true,
+    "appendix_equals_index_equals_body_citations": true,
+    "geography_covers_all_24_ideas": true,
+    "no_new_sources_added": true,
+    "redteam_repairs_carried_into_plans": true,
+    "historical_deep_dives_not_read": true
+  }
+}

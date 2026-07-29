@@ -1,0 +1,37 @@
+﻿{
+    "stage":  "60_timeline",
+    "status":  "complete",
+    "completed_at":  "2026-07-25T02:29:01.6814330-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-sonnet-5",
+    "reported_models":  "claude-sonnet-5;claude-haiku-4-5-20251001",
+    "primary_models":  "claude-sonnet-5",
+    "auxiliary_models":  "claude-haiku-4-5-20251001",
+    "result_model":  "claude-sonnet-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "high",
+    "session_id":  "e289323f-da56-45ed-b54b-17e2b55db454",
+    "validation":  "Required files exist and stage-specific checks passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\06_24_MONTH_PHD_ROADMAP.md",
+                        "sha256":  "6a7fc13e08a74bd4b8d992eb84542cd027813c6c4b8674c4a080fa0927f9065c"
+                    },
+                    {
+                        "path":  "outputs\\06_MILESTONES.csv",
+                        "sha256":  "fc7c04135b1ab0380a9fee8e51db170f7c1900a7819a21f1c0006028aaace366"
+                    },
+                    {
+                        "path":  "outputs\\06_STARTUP_READINESS.md",
+                        "sha256":  "f36561da665b90e1ebdf0ae890c17068678216f48cd292c027078eb2d5afaf9a"
+                    },
+                    {
+                        "path":  "outputs\\06_ADVISOR_MEETING_BRIEF.md",
+                        "sha256":  "f71c120be60ff853015306d091b7e17c970b9973ece0e6f5d6ea6e34259c4679"
+                    }
+                ]
+}

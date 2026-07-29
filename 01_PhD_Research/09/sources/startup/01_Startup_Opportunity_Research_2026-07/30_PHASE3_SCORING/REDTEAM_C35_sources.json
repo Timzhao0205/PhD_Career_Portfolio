@@ -1,0 +1,159 @@
+[
+ {
+  "id": "RT-C35-01",
+  "url": "https://www.btesa.com/en/2021/07/amplificador-prototipo-50kw-cern/",
+  "title": "50kW Prototype amplifier validated by CERN (350 kW / 101 MHz SSA tube-replacement contract)",
+  "publisher": "BTESA",
+  "date": "2021-07",
+  "tier": 2,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-02",
+  "url": "https://www.btesa.com/en/aplicacionescientificas/",
+  "title": "Scientific Applications — high-power SSPAs 10 kW to 500 kW, hot-pluggable modules, high redundancy (IFMIF, ALBA, XFEL, CERN, ESS)",
+  "publisher": "BTESA",
+  "date": "2026",
+  "tier": 2,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-03",
+  "url": "https://cornestech.com/randk/",
+  "title": "R&K Limited — narrowband high-power accelerator SSAs, 4-year warranty (US distributor page)",
+  "publisher": "Cornes Technologies",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-04",
+  "url": "https://proceedings.jacow.org/ipac2024/pdf/TUPR24.pdf",
+  "title": "Solid State Amplifier Project at the Advanced Photon Source — commercial 32 kW / 352 MHz SSA purchased from R&K",
+  "publisher": "JACoW / IPAC 2024 proceedings",
+  "date": "2024",
+  "tier": 1,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-05",
+  "url": "https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/conceptual-design-of-the-highefficiency-400-kw-solidstate-power-station-at-352-mhz-for-the-european-spallation-source/937587A6A58F060123D47E38C99F9658",
+  "title": "The conceptual design of the high-efficiency 400 kW solid-state power station at 352 MHz for the European Spallation Source (notes IBA supplies its own SSPA at 176 MHz for MYRRHA)",
+  "publisher": "International Journal of Microwave and Wireless Technologies (Cambridge)",
+  "date": "2024",
+  "tier": 1,
+  "lang": "en",
+  "accessed": "2026-07-04",
+  "used_in": [
+   "REDTEAM_C35"
+  ],
+  "verified": "fetched"
+ },
+ {
+  "id": "RT-C35-06",
+  "url": "https://rfhic.com/news/news-rfhic-signs-contract-to-supply-high-power-sspa-for-multi-purpose-synchrotron-accelerator/",
+  "title": "RFHIC signs contract to supply high-power GaN SSPAs for POSTECH multi-purpose synchrotron accelerator",
+  "publisher": "RFHIC Corporation",
+  "date": "2025",
+  "tier": 2,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-07",
+  "url": "https://www.wattsine.com.cn/productview-14-38.html",
+  "title": "1.3GHz-5.2KW 粒子加速器固态微波功率源 (particle-accelerator solid-state microwave power source)",
+  "publisher": "成都沃特塞恩电子技术有限公司 (Wattsine)",
+  "date": "2026",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-08",
+  "url": "https://www.ccnta.cn/article/13272.html",
+  "title": "合肥中科离子自主研制的240 MeV超导回旋质子加速器成功出束 (CAS Hefei domestic 240 MeV superconducting cyclotron; in-house subsystem localization)",
+  "publisher": "中国核技术网 (China Nuclear Technology Net)",
+  "date": "2023",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-09",
+  "url": "https://www.studocu.com/en-us/document/brighton-school/personal-finance/proton-therapy-centers-face-financial-struggles-a-2025-overview/117802520",
+  "title": "Proton therapy centers' financial challenges 2025 — Maryland Proton Treatment Center $267M bond default; Proton International Arkansas distress (tier-3 corroboration of widely reported defaults)",
+  "publisher": "Studocu (aggregated survey report)",
+  "date": "2025",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-10",
+  "url": "https://www.macom.com/updates/news/2023/macom-announces-definitive-agreement-to-acquire-the-rf-business-",
+  "title": "MACOM announces definitive agreement to acquire the RF business of Wolfspeed (GaN-on-SiC device supply consolidation)",
+  "publisher": "MACOM",
+  "date": "2023-08",
+  "tier": 2,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-11",
+  "url": "https://cds.cern.ch/record/2038626/files/197-216-Jacob.pdf",
+  "title": "Radio Frequency Solid State Amplifiers (J. Jacob, ESRF) — CERN Accelerator School: SSAs deployed at SOLEIL/ESRF since the 2000s",
+  "publisher": "CERN Document Server / CERN Accelerator School",
+  "date": "2015",
+  "tier": 1,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ },
+ {
+  "id": "RT-C35-12",
+  "url": "https://m.hexun.com/stock/2023-09-18/210246479.html",
+  "title": "国睿科技：为上海应用物理研究所同步辐射光源项目提供多套高压脉冲电源产品 (Guorui/CETC-14 supplies accelerator power subsystems to SSRF)",
+  "publisher": "和讯网 (Hexun)",
+  "date": "2023-09-18",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "REDTEAM_C35"
+  ]
+ }
+]

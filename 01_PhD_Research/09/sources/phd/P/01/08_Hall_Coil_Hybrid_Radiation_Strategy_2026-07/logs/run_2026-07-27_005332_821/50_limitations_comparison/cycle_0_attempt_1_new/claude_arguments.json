@@ -1,0 +1,21 @@
+﻿[
+    "-p",
+    "--model",
+    "fable",
+    "--effort",
+    "xhigh",
+    "--max-turns",
+    "125",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--name",
+    "phd-50_limitations_comparison-r0-c1-a1",
+    "--setting-sources",
+    "project",
+    "--disallowedTools",
+    "mcp__*",
+    "--no-chrome",
+    "--permission-mode",
+    "bypassPermissions"
+]

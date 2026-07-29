@@ -1,0 +1,510 @@
+{
+  "note": "FULL B10_phd fact ledger (attempt-1). Extends pilot/B10_phd/attempt-1 (10 claims) to full corpus coverage. C01-C10 are the pilot's original ten claims, kept stable in id and substance per the task card; each has been re-checked against additional evidence found during the full sweep, and any refinement is called out explicitly in that claim's 'limitation' field (never silently). C11-C50 are new claims from the full sweep of sources/phd. Status vocabulary: demonstrated / proposed / inferred / unknown, applied per the hard extraction rule that a document's own proposal is never marked demonstrated. Folder-08 material (sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/) is pre-redteam/pre-synthesis (10/12 stages, 25 output files, no 70_redteam or 80_synthesis outputs, confirmed by direct Glob this run and consistent with outputs/B00_inventory/attempt-2/INVENTORY.md) -- every claim resting on it carries that caveat explicitly. This ledger does not rank Opt2 or the corpus's own internal option scorecards; where a corpus document contains its own numeric scoring (e.g. folder-06's OPT1-4 weighted scores, folder-08's application scorecard), this ledger describes the existence and qualitative outcome of that scoring as a corpus artifact, never repeats or adopts the numbers as this extraction's own judgment, and never uses ranking language of its own.",
+  "opt2_element_key": {
+    "element_1": "calibrate/validate a Hall sensor as an uncertainty-bounded instrument",
+    "element_2": "integrate Hall + inductive coils as a hybrid diagnostic",
+    "element_3": "deliver a reusable module plus simulation/reconstruction package"
+  },
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "A packaged AlGaN/GaN Hall-effect sensor module was fabricated, packaged (LCC package, Al wire bonds, EPO-TEK 353ND, 150C vacuum bake, zirconia holder, graphite shield), and deployed in-vessel near the HSX stellarator plasma edge during the August 2025 campaign, producing shot-resolved voltage transients with clear ignition/discharge dynamics and a qualitative temporal correlation with diamagnetic-loop stored energy across three discharge classes (raw scope traces for representative shots, e.g. main-coil-current logs for shots 65 and 68, plus stored-energy .dat files for shots #18/#19/#20, exist in the raw archive).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element; this is the demonstrated baseline Opt2 would build on)",
+      "source_path": "sources/phd/P/01/07_HSX_august2025_results/hsx_20250821/ (e.g. hsxMainCoilCurrent_shot65.txt, hsxMainCoilCurrent_shot68.txt, 25_8_21_#18_stored_energy.dat, 25_8_21_#19_stored_energy.dat, 25_8_21_#20_stored_energy.dat, test_note.docx)",
+      "page_or_section": "directory-level raw data archive (230 files: 124 .png, 73 .csv, 12 .m, 8 .dat, 7 .fig, 3 .txt, 1 .docx, 1 .log, 1 .svg, 1 .eps, per sources/phd/P/01/06/outputs/00_INPUT_INVENTORY.md Group C, confirmed by fresh Glob this run); claim-level audit corroborated in sources/phd/P/01/06/outputs/03_MANUSCRIPT_DIAGNOSIS.md",
+      "confidence": "high",
+      "limitation": "Unchanged from pilot. The quantitative correlation with diamagnetic-loop stored energy is currently qualitative only; the sensor output is voltage-domain, not a calibrated field measurement (see C06). No temperature log exists for the sensor during these shots. Full-run addition: 00_INPUT_INVENTORY.md's Group C establishes that shot/scope-file mapping exists only in test_note.docx and that no gain/sensitivity/calibration factor of any kind exists anywhere in the archive -- it is sufficient to reproduce the existing qualitative figures, not to derive a new absolute calibration."
+    },
+    {
+      "claim_id": "C02",
+      "claim": "The manuscript \"AlGaN/GaN Hall-Effect Sensor for In-Situ Magnetic Field Monitoring of the HSX Stellarator\" (Manuscript ID SENSL-26-07-RL-1061) was submitted to IEEE Sensors Letters on 2-Jul-2026 and declined on 23-Jul-2026 with an invitation to revise and resubmit under a new Manuscript ID; the researcher currently holds zero accepted first-author publications.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element)",
+      "source_path": "sources/phd/P/01/06/inputs/Decision_Letter_IEEE_2026-07-23.pdf",
+      "page_or_section": "full letter, pp. 1-4 (decision text p.1; AEIC Dr. Giacomo Langfelder comments p.2; Reviewer 1 comments p.3; Reviewer 2 comments p.4); corroborated in sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md lines 14-23",
+      "confidence": "high",
+      "limitation": "REFINEMENT (full run): the pilot read this fact from a corpus synthesis document and explicitly flagged that it had not re-opened the underlying decision-letter PDF. This full run directly opened and read Decision_Letter_IEEE_2026-07-23.pdf in full (all 4 pages), which independently confirms every element of this claim: decision = decline-with-invitation-to-revise (not final reject), Manuscript ID SENSL-26-07-RL-1061, sender sensl-admin@ieee.org, AEIC Dr. Giacomo Langfelder, dated 23-Jul-2026 (email sent 22-Jul-2026 18:13 GMT-7). The prior limitation (not independently re-verified against IEEE's live editorial system) still applies -- this extraction did not contact IEEE."
+    },
+    {
+      "claim_id": "C03",
+      "claim": "On a bench resistor-ring emulator (4x680 Ohm ring + 2.2kOhm across p1-p2, 20 mA bias, 20 kHz current-spinning, gain 100.3), current-spinning demodulation collapsed a 686 mV raw offset to <=5 mV -- a suppression of >=130x (limited by the oscilloscope's 8-bit quantization over 5 cycles). This is explicitly readout-architecture validation on an emulator, not a measurement of the real GaN Hall die's offset.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; also cited by the strategy corpus as the empirical seed for Opt2 Element 1 (absolute calibration), see C06",
+      "source_path": "sources/phd/P/01/02_HSX_Hall_Sensor_Readout/NOTES.md",
+      "page_or_section": "entry dated \"2026-07-08 -- first dynamic spinning run on the emulator (20 kHz, 20 mA)\", bullet beginning \"Offset cancellation works\"; also sources/phd/P/01/02_HSX_Hall_Sensor_Readout/journal/2026-07-08_spinning_emulator_20mA.md",
+      "confidence": "high",
+      "limitation": "Unchanged from pilot. Emulator result only, not sensor evidence; the corpus's own stage-80 synthesis explicitly labels equivalent \"calibrated\" language elsewhere as aspirational."
+    },
+    {
+      "claim_id": "C04",
+      "claim": "The same bench emulator test produced an unresolved ~109x magnitude anomaly: with a 680Ohm+2.2kOhm bridge, 20 mA bias, and gain 100.3 the output should have railed near ~75 V, but a clean 0.686 V was measured instead. Leakage and a missing gain resistor were ruled out; the cause is undetermined. The project's own documented rule is that no calibration work may start before this anomaly closes.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; directly gates Opt2 Element 1 (absolute calibration, C06)",
+      "source_path": "sources/phd/P/01/02_HSX_Hall_Sensor_Readout/NOTES.md",
+      "page_or_section": "entry dated \"2026-07-08 -- first dynamic spinning run on the emulator (20 kHz, 20 mA)\", bullet beginning \"OPEN ANOMALY\"",
+      "confidence": "high",
+      "limitation": "REFINEMENT (full run): the same-class ~109x anomaly is also named as an open release gate for the independent three-board vector-probe design in sources/phd/P/01/05_HSX_ChatGPT_Windows_App/outputs/FINAL_ACCEPTANCE_CHECKLIST.md (\"X/Y/Z approximately 109-times anomaly is root-caused and all three boards pass injected delta-V gain/polarity/linearity/phase tests\" is an unchecked release item), corroborating that this is a standing, cross-project blocker, not a one-off bench note. This is a demonstrated, unresolved measurement discrepancy, not a demonstrated calibration."
+    },
+    {
+      "claim_id": "C05",
+      "claim": "The manuscript states a 1 MHz readout bandwidth twice, but no derivation, measurement, or supporting reference for this figure exists anywhere in the manuscript, its cited references, or the project's own SPECS.md; the reviewer letter explicitly disputes it.",
+      "status": "unknown",
+      "opt2_mapping": "current/recent PhD work; directly precedes Opt2 Element 2's bandwidth-fusion claim (C08)",
+      "source_path": "sources/phd/P/01/06/outputs/03_MANUSCRIPT_DIAGNOSIS.md",
+      "page_or_section": "row M5 (\"Bandwidth 1 MHz -- Requires new evidence\"); directly confirmed this run in the decision letter itself, Reviewer 1 minor point 2 (\"How was the 1 MHz bandwidth established? The amplifiers you listed have frequency capabilities well above 1 MHz\")",
+      "confidence": "high",
+      "limitation": "Unchanged from pilot, now directly corroborated: this run re-opened sources/phd/P/01/06/inputs/Decision_Letter_IEEE_2026-07-23.pdf and confirmed Reviewer 1's minor point 2 verbatim. The true readout bandwidth is not established by any document read; treating it as a fact would overstate the evidence."
+    },
+    {
+      "claim_id": "C06",
+      "claim": "The strategy corpus proposes a bench absolute-calibration program (\"WP-C\") for the deployed Hall channel: a Helmholtz-coil field source with a triangulated coil constant (target u(k)/k <= 2%), bipolar DC calibration (target m +/- ~2% absolute, <0.5% linearity), a GUM/Monte-Carlo uncertainty budget, and Allan-variance drift characterization, gated behind closure of the ~109x anomaly (C04). No calibration attempt of the real device has yet been made.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 1: calibrate/validate a Hall sensor as an uncertainty-bounded instrument",
+      "source_path": "sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md",
+      "page_or_section": "work-package table (WP-C calibration core); corroborated by sources/phd/P/01/06/outputs/04_HSX_EXPERIMENT_PLAN.md Sections 3-4 (bench field-source build C-01, DC calibration C-02, voltage-bias S_v conversion C-03) and 04_UNCERTAINTY_AND_STATISTICS_PLAN.md's worked symbolic budget (coil constant dominates ~92% of the variance)",
+      "confidence": "high",
+      "limitation": "REFINEMENT (full run): 04_HSX_EXPERIMENT_PLAN.md quantifies the total bench/desk effort to a submittable Tier-1 package as ~19-29 bench-days (stage-70 corrected sum) with zero cleanroom steps, and lists nine unresolved inventory gates (I-1..I-9), the most consequential being that the deployed 2025 module's post-campaign location and health are not established anywhere in the corpus (gate I-4). This remains a documented plan, not a performed calibration."
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Mutual/cross-calibration between the Hall and coil channels is direction-dependent and only partly feasible, not a symmetric \"the sensors calibrate each other\" relationship. Hall->coil correction of the coil chain's integrator drift/leakage/initial condition is the only hardware-proven direction (demonstrated outside fusion in a CERN bench context and deployed at ITER's OVSS system). Coil->Hall is only conditionally feasible, and only for gain (via a trusted coil chain plus real field excursions); the coil can never deliver the Hall offset, because a constant Hall offset is observationally identical to a static field shift the coil cannot see -- offset recovery requires zero-field (or known-field) epochs or an external absolute reference. If both Hall and coil parameters drift simultaneously and unreferenced, the pair has a proven two-parameter blind spot: it can detect that the two channels disagree but cannot attribute which channel drifted.",
+      "status": "inferred",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (mutual-consistency claim, kept distinct from absolute calibration C06, bandwidth fusion C08, and radiation compensation C09)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/02_MUTUAL_CALIBRATION_FEASIBILITY.md",
+      "page_or_section": "plain-language verdict and honest scope statement; formalized as Theorem 1 (two-parameter gauge group) in 02_OBSERVABILITY_AND_IDENTIFIABILITY.md Section 3",
+      "confidence": "medium",
+      "limitation": "REFINEMENT (full run, better evidence found): the full sweep located the source document's own formal derivation this plain-language claim summarizes -- 02_OBSERVABILITY_AND_IDENTIFIABILITY.md's \"Theorem 1\" is labeled by the source itself as Derived mathematics (not Inferred): for any unreferenced Hall+coil pair with constant gains/offsets, a two-dimensional symmetry-group transformation (scale factor alpha, offset shift beta) leaves every possible measurement identical, so no excitation whatsoever can break it; this is confirmed numerically by a reproducible Fisher-information rank test (tools/observability_rank_tests.py, CASE A: rank 5 of 7, both null directions matched to the source's stated ~1e-15 residual). The label 'inferred' is kept on this claim per the task's instruction to keep C01-C10 IDs and substance stable; the underlying mathematics is more rigorously supported (Derived, with a numerical structural demonstration) than 'inferred' alone conveys -- see new claim C23 for the formal statement. As before: the source states explicitly \"no hardware demonstration of the coil->Hall direction exists in fusion conditions,\" the one real-world coil->Hall gain-tracking precedent it cites is a single non-fusion, unirradiated, driven-ramp source, and folder 08 (the source mission) has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C08",
+      "claim": "The proposed hybrid architecture treats bandwidth fusion as a distinct design element from calibration: the Hall channel is proposed to supply the DC/low-frequency field content the coil cannot see (the coil measures dB/dt and is blind at steady field), while an embedded calibration-winding injection scheme is proposed to be placed in an \"overlap band\" -- above the drift band, below the Hall sensor's dynamic pole, and inside the coil's flat response -- so that injecting near/above the Hall pole can identify Hall dynamics (pole/delay) that neither channel could establish alone at low frequency.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (bandwidth-fusion claim, kept distinct from absolute calibration C06, mutual consistency C07, and radiation compensation C09)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/02_MUTUAL_CALIBRATION_FEASIBILITY.md",
+      "page_or_section": "\"Hall -> coil\" bullet; frequency-plan detail in 03_RADIATION_COMPENSATION_ARCHITECTURE.md Section 5.2; formal Case 9 (fast transient / overlap band) derivation in 02_OBSERVABILITY_AND_IDENTIFIABILITY.md Section 5.9",
+      "confidence": "medium",
+      "limitation": "REFINEMENT (full run): the full sweep found the Case-9 formal derivation this design claim rests on: with excitation near/above the Hall pole and a trusted coil chain, Hall dynamics (pole, delay) become identifiable (numerical CASE H-broad: rank 5/6); moving all excitation content a decade below the pole collapses the pole-carrying singular value by an order of magnitude (CASE H-narrow), so near-DC operation cannot verify Hall bandwidth at all -- directly reinforcing why C05's unverified 1 MHz figure blocks any bandwidth-fusion design today. No bandwidth-fusion hardware test has been run."
+    },
+    {
+      "claim_id": "C09",
+      "claim": "A layered \"anchored hybrid\" architecture (machine-current/vacuum-field anchor epochs + zero-field offset epochs + optional embedded-winding online gain tracking + a top-tier material-diverse witness Hall die) is proposed to separate temperature-driven from radiation-driven sensor drift and to compensate for it, with radiation qualification work (Phase 4 / tiers T3) explicitly collaborator-led, never on the HSX critical path, and never claimed as an experimental result in first-author work. The corpus states plainly that the GaN/AlGaN radiation-drift magnitude is currently Unknown: no GaN or AlGaN Hall-plate neutron dataset exists in the literature reviewed.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (radiation-compensation claim, kept distinct from absolute calibration C06, mutual consistency C07, and bandwidth fusion C08)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/03_RADIATION_COMPENSATION_ARCHITECTURE.md",
+      "page_or_section": "\"Radiation magnitudes for the user's device family are Unknown\" item; corroborated by 05_LIMITATIONS_AND_FAILURE_MODES.md FM-02/FM-05/FM-14 and the falsification test ladder FT-11/FT-12 (see C27)",
+      "confidence": "medium",
+      "limitation": "Unchanged from pilot. This is an unimplemented architecture specification; folder 08 has no redteam/synthesis pass yet. Full-run corroboration: 05_LIMITATIONS_AND_FAILURE_MODES.md independently states the same fact using a different failure-mode framing (FM-02: \"no GaN/AlGaN Hall-plate neutron dataset exists\"), and the corpus's own falsification-test design (FT-11/FT-12) treats resolving this Unknown as a decision point that could legitimately conclude radiation compensation is unnecessary, not only that it works."
+    },
+    {
+      "claim_id": "C10",
+      "claim": "A reusable simulation/estimator software package (\"T0\") is proposed, with a defined module boundary (model/schema/estimator/faults/scenarios/metrics/report/tests directories), a frozen scientific core (measurement equations, freeze policy, species-vector discipline, pre-registered S1-S12 scenarios) that may not change without a new stage-20-class review, and a regression binding to an existing tool (tools/observability_rank_tests.py). It is proposed to be built incrementally starting from Phase 0 and frozen at manuscript-P2 submission (~Q1-Q2 2027), then released with that publication.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 3: deliver a reusable module plus simulation/reconstruction package",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/03_SIMULATION_AND_VALIDATION_PLAN.md",
+      "page_or_section": "\"Interfaces for the later reusable package\" section; scope/freeze framing corroborated in 06_INTEGRATED_RESEARCH_PROGRAM.md and the advisor brief's sub-decision 5 (\"Freeze the simulation package at P2 submission... it is P2's artifact, not a software project\")",
+      "confidence": "medium",
+      "limitation": "REFINEMENT (full run): the full sweep found a concrete, near-term honesty gate for this package -- Falsification Test FT-02 (see C27) requires the estimator to freeze states and inflate reported covariance on the provably non-identifiable scenarios (Theorem-1 cases) rather than silently converging on a false answer, and the corpus states this test \"gates every dollar after it\" (sources/phd/P/01/08_.../outputs/06_ADVISOR_MEETING_BRIEF.md). No code has been built yet as of the cited documents; the package is explicitly a specification, not a deliverable in hand. Folder 08 (the source mission) has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Multiple corpus files outside the 06/08 strategy missions -- the parent root CLAUDE.md, 01_Folder_Info.md, project 02's own CLAUDE.md, project 03's RSI publication plan, and project 04's Magnetic Sensor Review journal-brief materials -- assert or silently assume that the manuscript was \"published in 2023\" (e.g. \"2023 -- IEEE Sensors Letters (1st author, published)\"; \"Demonstrated in-situ (2023 Letters)\"). This is directly contradicted by the primary submission bundle (IEEE_submission_bundle_2026-07-02.pdf, submitted 2-Jul-2026) and the decision letter (declined 23-Jul-2026); the manuscript's own LaTeX source carries an unedited IEEE class-template copyright boilerplate string (\"1949-307X (c) 2023 IEEE\") near its footer, and a separate copy of the same unpublished PDF is stored under a misleading filename with a \"_2023\" suffix.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); a standing publication-status/provenance constraint that Opt2 planning must not inherit",
+      "source_path": "sources/phd/P/01/06/outputs/00_CONFLICT_LEDGER.md",
+      "page_or_section": "conflict C1 (full evidentiary comparison); corroborated by 01_Publications/tim_ieee_sensors_letters_GaN_Hall_sensor_in_HSX_2023.pdf (filename), 01_Publications/submitted/regular_lsens/regular_lsens.tex (boilerplate line), and sources/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/outputs/00_DELIVERABLE_paper_plan.md (independently flags the same citation as \"[UNVERIFIED] this run\" and instructs the author, not the AI, to insert it manually)",
+      "confidence": "high",
+      "limitation": "The 'contradiction' itself is demonstrated (the conflicting statements exist verbatim, and the primary submission/decision evidence controls); this claim does not itself resolve whether an earlier, unrelated 2023 publication by the same author exists outside the corpus -- no such record was supplied anywhere in sources/phd. This extraction did not attempt to verify publication history against IEEE Xplore or any external database."
+    },
+    {
+      "claim_id": "C12",
+      "claim": "The top-level file 01_Publications/tim_ieee_sensors_letters_GaN_Hall_sensor_in_HSX_2023.pdf is the identical compiled manuscript as the declined submission (same byte size, 1,838,044 bytes, as regular_lsens.pdf per the corpus's own audit, matching title/abstract on text extraction), just copied and renamed with a misleading \"_2023\" suffix -- it is not independent evidence of a 2023 publication.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element)",
+      "source_path": "sources/phd/P/01/06/outputs/00_INPUT_INVENTORY.md",
+      "page_or_section": "Group B table row for tim_ieee_sensors_letters_GaN_Hall_sensor_in_HSX_2023.pdf",
+      "confidence": "high",
+      "limitation": "This extraction did not itself recompute the byte-size/hash match; it relies on the corpus's own stage-00 verification (which is itself internally cross-checked against SHA-256 manifests for the related input files) and on directly confirmed filenames via Glob this run."
+    },
+    {
+      "claim_id": "C13",
+      "claim": "The HSX Hall-sensor readout project (sources/phd/P/01/02_HSX_Hall_Sensor_Readout/) has bench-verified hardware/firmware/analysis assets: cross-checked LTspice and KiCad netlists plus an ordered gerber package (circuit/hsx_setup_v1_Y23.zip); as-built resistor values R9 = R10 = 100 Ohm (DMM-confirmed) and amplifier gain resistor R_G = 60.4 Ohm (reads approximately 59.8 Ohm in-circuit, AD8429 instrumentation amplifier, G approximately 100.3); two operating-mode Pico 2 firmware files (spin+scope mode and a static-bias/Pico-ADC incoming-inspection mode); and analysis scripts (hsx_demod_scope_csv.py, spin_verify_nosync.py).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; reusable hardware/firmware asset base for Opt2 Elements 1 and 2",
+      "source_path": "sources/phd/P/01/02_HSX_Hall_Sensor_Readout/docs/SPECS.md",
+      "page_or_section": "\"System at a glance\" table and \"Spinning phase table\" section; corroborated by sources/phd/P/01/06/outputs/00_INPUT_INVENTORY.md Group D and by direct Glob confirmation of circuit/, firmware/pico2/, analysis/, data/, journal/ subdirectories this run",
+      "confidence": "high",
+      "limitation": "SPECS.md's own 2023-vs-2026 comparison table lists the 2026 system's calibration as \"absolute, Helmholtz + in-situ\", which the corpus's own conflict ledger (C6) flags as aspirational/target-design language, not an achieved fact -- no Helmholtz calibration run, coefficient, or report exists anywhere in the folder as of the cited documents. Firmware Mode 2 (static-bias) is described in the corpus itself as smoke-tested only, with hardware stubbed."
+    },
+    {
+      "claim_id": "C14",
+      "claim": "A 2-3 axis vector Hall probe (project 03, sources/phd/P/01/03_HSX_Vector_Probe_RSI2026/) is planned: individually LCC-packaged AlGaN/GaN dies on orthogonal faces of a machinable ceramic cube, three replicated hsx_2026_v1 readout boards synchronized by one Pico 2 fanning out shared a0/a1/a2/EN lines (zero inter-axis phase skew by construction), a 3x3 matrix calibration model v = M*B + b fit via indexed-orientation Helmholtz sweeps with misalignment extracted by polar decomposition, and an in-situ absolute anchor comparing the calibrated vector output against a UW-computed vacuum field at a surveyed probe pose. Target journal Review of Scientific Instruments, target submission ~March 2027, target campaign #2 November 2026.",
+      "status": "proposed",
+      "opt2_mapping": "current/recent PhD work; the planned successor hardware instrument that Opt2's Element-1/Element-2 calibration and hybrid work would need to integrate with, but distinct from the Opt2 continuation itself as scoped in workflow/stages/B10_phd.md",
+      "source_path": "sources/phd/P/01/03_HSX_Vector_Probe_RSI2026/docs/rsi_experiment_and_publication_plan.md",
+      "page_or_section": "Sections 1-3 (thesis statement, instrument design, calibration plan) and Section 6 (timeline table)",
+      "confidence": "high",
+      "limitation": "This is a fully committed plan, not an accomplished result: no hardware, code, CAD, or data files exist anywhere in the project-03 folder itself (everything built lives in the sibling project-02 folder). Multiple design points are explicitly still open (2-vs-3-axis decision, feedthrough connector, DAQ/scope-memory strategy) and the plan's thesis statement (\"first absolutely calibrated, multi-axis... GaN Hall-effect probe\") depends on resolving the still-open ~109x anomaly (C04) and completing the not-yet-occurred November 2026 campaign #2."
+    },
+    {
+      "claim_id": "C15",
+      "claim": "SPECS.md's own 2023-vs-2026 comparison table asserts the 2026 current-spinning readout achieves calibration \"absolute, Helmholtz + in-situ\" -- this assertion exists in the document, but the corpus's own conflict ledger (item C6) independently flags it as describing a target design, not an accomplished capability, because no Helmholtz-coil calibration run, coefficient, or report exists anywhere in the project-02 folder as of the cited date (2026-07-24), and NOTES.md's own most recent entry (2026-07-08) records only the emulator offset-cancellation result (C03) plus the open ~109x anomaly (C04).",
+      "status": "unknown",
+      "opt2_mapping": "current/recent PhD work; directly bears on Opt2 Element 1's starting point",
+      "source_path": "sources/phd/P/01/06/outputs/00_CONFLICT_LEDGER.md",
+      "page_or_section": "conflict C6 (\"Calibrated readout language (project 02) is aspirational, not achieved\")",
+      "confidence": "high",
+      "limitation": "Marked unknown/aspirational rather than demonstrated deliberately: the phrase exists in a project document but is not itself evidence that calibration occurred. This is a narrower, source-comparison-focused restatement of the same underlying gap already captured by C06's proposed status."
+    },
+    {
+      "claim_id": "C16",
+      "claim": "The completed folder-06 PhD-strategy mission built and independently red-team-audited a 231-row verified peer-reviewed source ledger (sources/phd/P/01/06/outputs/01_SOURCE_LEDGER.csv) spanning GaN/WBG device physics (77 rows), Hall-sensor metrology (117 rows), fusion/plasma magnetic diagnostics (133 rows), stellarator/HSX-relevant work (73 rows), direct-vs-inductive sensing (109 rows), calibration/traceability (59 rows), and low-fabrication-novelty methods (65 rows; categories overlap by design), exceeding the required minimum of 150 by 81 sources (154%). Access depth: 10% full-text, 58% abstract-level, 32% metadata-only.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); the completed evidence base folder 08 builds on",
+      "source_path": "sources/phd/P/01/06/outputs/01_SOURCE_COVERAGE.md",
+      "page_or_section": "Sections 1 (deterministic count statement) and 5 (distributions)",
+      "confidence": "high",
+      "limitation": "This ledger-building work was performed by an autonomous AI-agent research-strategy mission commissioned and directed by the researcher (Claude Code stages, per EXECUTION_PLAN.md), not hand-executed literature review labor by the researcher personally -- an important distinction for any PhD-portfolio skills claim (see C42). The independent red-team audit (07_RED_TEAM.md, see C39) found no critical/high defects in this ledger. 32% of rows are metadata-only and any specific number from them requires primary-PDF confirmation before manuscript use, per the corpus's own stated rule."
+    },
+    {
+      "claim_id": "C17",
+      "claim": "The pre-redteam folder-08 mission built its own 219-row verified peer-reviewed source ledger (215 verified_peer_reviewed, 4 peer_review_uncertain, 0 not_peer_reviewed) with 17 rows reused/cross-checked against folder 06's 231-row ledger and 198+4 new rows meeting a required >=75-new-sources gate; all four topic quotas (hybrid/coil/sensor-fusion; radiation/irradiation; applications/alternatives; calibration/observability/uncertainty) were met with at least 2x margin.",
+      "status": "demonstrated",
+      "opt2_mapping": "Opt2 Element 2 and Element 3 (evidence base underlying the hybrid/radiation architecture proposals)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/01_SOURCE_COVERAGE.md",
+      "page_or_section": "Section 1 (counts table)",
+      "confidence": "high",
+      "limitation": "Pre-redteam/pre-synthesis caveat applies: folder 08 has completed 10/12 stages with no 70_redteam or 80_synthesis output (confirmed by direct Glob this run: 25 files under outputs/, no redteam/synthesis file among them), so this ledger's numbers have not passed the same independent adversarial audit folder-06's ledger received. 99/215 verified rows (46%) are metadata-only, a higher fraction than folder 06's ledger."
+    },
+    {
+      "claim_id": "C18",
+      "claim": "A separate, already-executed 9-stage literature-review pipeline (sources/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/, completed run dated 2026-07-10) targets a magnetic-field-sensing review article for MDPI Sensors, submission target \"before 30 Oct 2026,\" with a recommended title, a full recommended outline, and a 122-row reference registry (16 seed + 108 retrieved; self-reported status breakdown: 80 peer-reviewed journal, 16 vendor-grey, 13 standards, 4 preprint, 2 market-report-grey, 2 book chapter, 2 peer-reviewed conference, 2 non-peer-reviewed conference, 1 monograph). This project's own deliverable plan independently flags the researcher's 2023 IEEE Sensors Letters self-citation as \"[UNVERIFIED] this run\" and instructs that only the author -- not the AI pipeline -- may insert it, because it could not be reconstructed safely.",
+      "status": "proposed",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); a separate, parallel publication track not covered by folder 06/08's roadmap",
+      "source_path": "sources/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/outputs/00_DELIVERABLE_paper_plan.md",
+      "page_or_section": "Sections 1-2 (title/outline) and Section 4 (coverage/gap matrix, \"Top ~10 highest-value sources still worth adding\" item 1)",
+      "confidence": "high",
+      "limitation": "This is a paper plan and a reference registry, not a written or submitted manuscript -- no draft prose exists in this folder beyond outlines and gap analyses. Per folder 06's own gate (claim C021 in 00_CLAIM_BASELINE.csv), this 122-row registry is a candidate seed list only and falls short of a 150-verified-source minimum on its own; any row reused elsewhere requires independent re-verification. Not covered or referenced anywhere in folders 06 or 08's roadmap/milestone planning."
+    },
+    {
+      "claim_id": "C19",
+      "claim": "A separate mechanical/electrical packaging design project (sources/phd/P/01/05_HSX_ChatGPT_Windows_App/, self-described as built for the ChatGPT Windows desktop app rather than Claude Code) produced a die/LCC/fanout architecture, a three-board isolated-readout system design, and three ceramic-cube packaging concepts with CAD (STEP/STL) and drawings. Its own FINAL_ACCEPTANCE_CHECKLIST.md (dated 2026-07-12) declares status COMPLETE_WITH_OPEN_GATES with fabrication/purchase/real-sensor release explicitly FAIL/HOLD, following an independent red team that found 8 BLOCKER, 14 MAJOR, 3 MINOR, and 8 NOTE/PASS findings (each with a stated correction and closure test). A separate state file, PROJECT_STATE.md (dated 2026-07-13, one day later), shows the mission had entered a later, unfinished cost-down revision pass marked IN_PROGRESS -- the two status files disagree with each other, a disagreement the corpus records but does not resolve.",
+      "status": "proposed",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); a candidate hardware-packaging asset for Opt2 Element 2's physical hybrid-head design, not adopted by folders 06/08",
+      "source_path": "sources/phd/P/01/05_HSX_ChatGPT_Windows_App/outputs/FINAL_ACCEPTANCE_CHECKLIST.md",
+      "page_or_section": "full document (sections A-G); status disagreement documented in sources/phd/P/01/06/outputs/00_CONFLICT_LEDGER.md conflict C5",
+      "confidence": "high",
+      "limitation": "Explicitly out of topical scope for the folder-06/08 strategy missions (\"a mechanical/packaging design exercise, not literature, manuscript, or PhD-strategy content\") and not carried forward as load-bearing evidence by either. No fabrication, purchase, or real-sensor connection has occurred per the document's own explicit HOLD language on every unchecked release gate. This extraction did not open the underlying CAD/STEP/STL files, only the design-review and checklist documents."
+    },
+    {
+      "claim_id": "C20",
+      "claim": "A co-authored, simulation-only radiation-sensitivity modeling paper (Van Gorp, Dawes, Zhao, Senesky, \"radiation TCAD sensitivity modeling\") exists as an early, incomplete Word-exported draft: it models neutron displacement-damage and gamma total-ionizing-dose effects on AlGaN/GaN 2DEG Hall sensitivity using Sentaurus TCAD, but its Abstract field still contains unedited IEEE Word-template boilerplate text and the body contains incomplete notes (a stray French comment; \"given by times x?? (formula)\"; \"Need to be done for Ga, Al, N\").",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); the corpus's designated home for radiation-simulation work, kept explicitly separate from Tim's first-author HSX experimental program",
+      "source_path": "sources/phd/P/01/01_Publications/in_preparation/vangorp_dawes_zhao_senesky_radiation_TCAD_sensitivity_modeling_DRAFT.pdf",
+      "page_or_section": "whole document (early draft); characterized in sources/phd/P/01/06/outputs/00_INPUT_INVENTORY.md Group B",
+      "confidence": "medium",
+      "limitation": "This extraction did not itself open the PDF at content level; it relies on the corpus's own stage-00 characterization (00_INPUT_INVENTORY.md), which explicitly states the draft is \"not usable as a citable result, only as evidence that this co-authored project exists and is simulation-only.\" Existence and simulation-only scope are demonstrated; any specific technical result within it is not extracted here and should not be assumed complete."
+    },
+    {
+      "claim_id": "C21",
+      "claim": "The Publications folder (sources/phd/P/01/01_Publications/) contains three distinct document sets: the submitted-and-declined manuscript with full LaTeX source, compiled PDF, graphical abstract, and five figure files (submitted/regular_lsens/); a duplicate compiled copy of the same unpublished manuscript under a misleading \"_2023\"-suffixed filename at the folder root (see C12); and the in-preparation co-authored TCAD draft (see C20). No accepted, published, or otherwise finalized first-author paper exists in this folder.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element)",
+      "source_path": "sources/phd/P/01/01_Publications/",
+      "page_or_section": "directory-level listing (confirmed by direct Glob this run: submitted/regular_lsens/{regular_lsens.tex,.pdf,.aux,.log,.synctex.gz,graphical_abstract.pdf,IEEE_lsens.cls,figures/fig1-5}; in_preparation/vangorp...DRAFT.pdf; tim_ieee_sensors_letters_GaN_Hall_sensor_in_HSX_2023.pdf)",
+      "confidence": "high",
+      "limitation": "Directory-level characterization; the LaTeX source content itself was not re-diffed against the submission-bundle PDF by this extraction (the corpus's own stage-00 process already did this and found them consistent)."
+    },
+    {
+      "claim_id": "C22",
+      "claim": "The decision letter, opened directly and in full by this extraction, documents: the Associate Editor-in-Chief's primary concern is novelty (\"only showing changes in sensing values... not in terms of what it is intended to sense\"), plus specific requests for a GaN-sensor comparison table, repeatability/fabrication-iteration statistics, bench-top calibration at minimum, and Fig. 5 shown in magnetic-field units; Reviewer 1 calls the device \"novel and unique to my knowledge\" and states the paper is \"still worth publishing\" even without added calibration data while requesting a bench calibration or a comparison to a conventional field probe (B-dot/Mirnov) and questioning the unverified 1 MHz bandwidth figure; Reviewer 2 states the paper \"lacks sufficient novelty,\" cites insufficient repetitive testing/calibration and insufficient literature citation, and recommends the version be rejected.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); the direct evidentiary basis for C02, C05, and the publication-route recommendation in C37",
+      "source_path": "sources/phd/P/01/06/inputs/Decision_Letter_IEEE_2026-07-23.pdf",
+      "page_or_section": "pp. 1-4 in full (Associate Editor comments p.2; Reviewer 1 comments p.2-3; Reviewer 2 comments p.4)",
+      "confidence": "high",
+      "limitation": "Directly verified primary-source read by this extraction (not relayed through a corpus synthesis document). No independent re-verification against IEEE's live editorial portal was attempted."
+    },
+    {
+      "claim_id": "C23",
+      "claim": "Folder 08's stage-20 analysis formally derives (labeled Derived, not merely Inferred, by the source) a structural non-identifiability theorem for the unreferenced Hall+coil pair: for constant sensitivities/offsets and any field trajectory, a two-parameter transformation (a scale factor alpha and an offset shift beta applied jointly to the field and the two channels' gains/offsets) produces outputs identical to the original for every instant in time -- so absolute field scale and Hall offset are never identifiable from the pair alone, regardless of excitation. This is numerically confirmed via a reproducible Fisher-information rank test (rank 5 of 7 possible, both analytic null directions matched to a residual of about 1e-15) and nine further identifiability cases are derived for specific reference/excitation conditions (e.g. a known machine-current field model at >=2 field levels yields full 4-parameter identifiability; a quasi-static field yields only 2 of 5 observable lumped quantities and \"no mutual calibration content at all\").",
+      "status": "inferred",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (the formal theoretical basis underlying C07's plain-language mutual-consistency claim)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/02_OBSERVABILITY_AND_IDENTIFIABILITY.md",
+      "page_or_section": "Section 3 (\"Theorem 1\"), Section 5 (nine cases), Section 7 (numerical rank-test results table)",
+      "confidence": "medium",
+      "limitation": "Marked 'inferred' rather than 'demonstrated' per this ledger's hard extraction rule, because the mathematics -- while internally labeled Derived by the source and numerically self-consistent -- has not itself been externally peer-reviewed, and the source explicitly states the numerical results are \"synthetic-structure demonstrations, not experimental validation and not simulations of any specific device.\" Positive (full-rank) identifiability verdicts are conditional on stated excitation/reference assumptions holding; several results rest on an assumed spectral-separation prior between drift and signal bands that the source itself flags as an assumption, not a theorem. Folder 08 has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C24",
+      "claim": "18 named failure modes (FM-01 through FM-18) are catalogued for the proposed hybrid architecture, each with cause, symptom, detectability, consequence, mitigation, residual risk, and an assigned falsification test. Headline items: common-mode gain drift is structurally invisible between anchor epochs with symptom \"none\" (FM-01); Hall offset drift is observationally identical to a static field shift and AC injection is structurally blind to it (FM-03); no measurement of radiation-induced coil effective-area drift exists for any coil in the literature reviewed (FM-06); the calibration winding's self-heating directly feeds the temperature term it is meant to help monitor (FM-11); the broad \"hybridize Hall with coil\" idea has 26 years of direct prior art and is not novel as stated (FM-17); and an estimator handed a non-identifiable parameter set does not fail visibly -- it silently converges on its own prior, a failure mode invisible in simulations initialized near ground truth (FM-18).",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2 and Element 3 (adversarial risk analysis of the hybrid architecture and its simulation/estimator package)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/05_LIMITATIONS_AND_FAILURE_MODES.md",
+      "page_or_section": "Section 2 (failure-mode register, FM-01 through FM-18)",
+      "confidence": "medium",
+      "limitation": "This is a desk-derived, adversarial risk analysis of an unbuilt architecture, not a report of an observed hardware failure (the document itself states this and labels each mode's cause Observed / Derived / Inferred / Unknown per-item, not uniformly). No hybrid hardware has been built to actually exhibit any of these failure modes. Folder 08 has not passed its own redteam/synthesis stages -- this stage-50 document is itself deliberately adversarial to the mission's own working hypothesis but has not itself been independently audited the way folder 06's outputs were."
+    },
+    {
+      "claim_id": "C25",
+      "claim": "A 12-item falsification-test ladder (FT-01 through FT-12) is proposed, ordered cheapest-to-most-expensive (desk search, simulation, bench-day, bench-weeks, bench-soak, machine-piggyback, then two irradiation-facility tests), with explicit pass/fail thresholds and stop/descope decisions at every step. Ten of the twelve tests involve zero radiation exposure; only the final two (FT-11 species-matched component screening and FT-12 representative-spectrum qualification) require an irradiation facility and are explicitly scoped as collaborator-led. The design states \"several branches... are explicitly good outcomes that simplify the architecture rather than embarrass it\" (e.g. if FT-06 or FT-07 fail, the architecture descopes to a simpler anchor-only design, not a failed project).",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2 and Element 3 (the falsification/validation program for the whole hybrid architecture)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/05_FALSIFICATION_TESTS.md",
+      "page_or_section": "FT-01 through FT-12 individually, and the summary table at the end of the document",
+      "confidence": "medium",
+      "limitation": "None of the 12 tests have been executed; this is a test plan, not a result. Folder 08 has not passed its own redteam/synthesis stages. Several tests depend on prior tests passing (e.g. FT-11/FT-12 require gates G0-G3 from a stage-30 architecture document to hold first) so the whole ladder is contingent, not independent evidence."
+    },
+    {
+      "claim_id": "C26",
+      "claim": "The corpus's own stage-50 analysis states plainly that the broad architecture-level idea of combining a Hall/DC channel with an inductive/AC channel is not novel: it identifies 26 years of direct prior art (1999 HOKA Hall+coil current probe; a 2007 fusion self-diagnostic Hall concept with companion 2009/2010 patents; the 2012 and 2022 JET radiation-hard-Hall-probe papers, including a passive coil-to-Hall recalibration proposal in the 2022 paper; 2025 KSTAR and COMPASS-lineage Kalman-fusion papers; ITER's manufactured OVSS Hall+inductive pairing; and decades of routine Hall+rotating-coil+NMR accelerator-magnet metrology). It states that no publishable claim can rest on \"we hybridized a Hall sensor with a coil,\" and instead names four specific, narrower open gaps: (a) a joint gain+offset+state identifiability analysis of the Hall+coil pair with all quantities simultaneously unknown; (b) a hardware demonstration of the reverse (coil-informs-Hall-gain) direction in any fusion or radiation environment (the only precedent is a single non-fusion driven-ramp source); (c) in-situ radiation-aware Hall recalibration against a material-diverse passive witness sensor (unreported for any material); and (d) any Hall+coil work for stellarator field mapping specifically.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (the corpus's own novelty-scoping analysis, directly bounding what Opt2's Element 2 may honestly claim)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/05_LIMITATIONS_AND_FAILURE_MODES.md",
+      "page_or_section": "Section 3.6 (\"The narrowest defensible contribution\")",
+      "confidence": "medium",
+      "limitation": "The four named gaps are absence claims bounded by this mission's own documented, 219-source search scope, not proofs of global nonexistence -- the document says so explicitly. Folder 08 has not passed its own redteam/synthesis stages. This claim describes the corpus's own novelty-scoping conclusion; it is reported here as a fact about what the corpus concluded, not adopted as this extraction's own novelty judgment."
+    },
+    {
+      "claim_id": "C27",
+      "claim": "The corpus's own stage-50 counterexample analysis identifies six application niches where a simpler, single-technology sensor is stated to outright beat the proposed Hall+coil hybrid: fast MHD/fluctuation measurement (a plain B-dot/Mirnov coil wins; a Hall channel adds nothing above its dynamic pole); total plasma/conductor current (Rogowski coils or, where radiation dominates, fiber-optic current sensing win; neither needs a Hall die); z-pinch/pulsed-power (the community already fused two purely inductive sensors and deliberately bypassed Hall); persistent-mode superconducting/HTS magnets (a coil is structurally blind to a static trapped field; NMR is the field's accepted absolute reference, making the coil half of the hybrid dead weight); precision accelerator-magnet metrology (Hall+rotating-coil+NMR is decades-old solved production practice); and gamma-only compact DC-to-broadband sensing (a single TMR channel spans DC-to-broadband and survived 5 Mrad(Si) gamma/X-ray with no key-parameter degradation, where the hybrid needs two channels plus an estimator).",
+      "status": "inferred",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (a documented boundary condition on where the hybrid architecture is competitively justified at all)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/05_LIMITATIONS_AND_FAILURE_MODES.md",
+      "page_or_section": "Section 4 (counterexamples 1-7)",
+      "confidence": "medium",
+      "limitation": "Each counterexample is drawn from the corpus's own 219-source literature ledger (the document labels each 'Observed', not conceded grudgingly), but this extraction did not independently re-verify the cited primary sources for these six comparisons. Folder 08 has not passed its own redteam/synthesis stages. TMR (gamma-only) is flagged by the source itself as \"the sharpest single-channel challenge to the Hall+coil value proposition\" and has no published neutron displacement-damage data either way, so the comparison itself has an acknowledged evidence gap in both directions."
+    },
+    {
+      "claim_id": "C28",
+      "claim": "The corpus's own stage-40 application-and-collaboration analysis produced a scored, veto-aware assessment of six candidate application lanes for the hybrid architecture (tokamak long-pulse, stellarator field mapping, z-pinch/pulsed power, plasma-jet/magneto-inertial fusion, superconducting/HTS magnets, and accelerator magnets) using named technical vetoes (structural infeasibility or mature prior art) that the document states no numeric score can override. It concluded that stellarator field mapping (the researcher's own HSX facility) and tokamak long-pulse were the only two lanes without a hard veto, and that the other four lanes should be monitored for reusable citations only, not pursued as collaboration targets, because of a structural veto (superconducting/HTS magnets: a coil is blind to a static field) or a mature-prior-art novelty veto (accelerator magnets: decades-old solved practice) or a no-credible-advantage veto (z-pinch) or an unevidenced/abandoned-technology veto (magneto-inertial fusion core region).",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2 and Element 3 (application/collaboration scoping for the hybrid architecture and its eventual publication/collaboration targets)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/04_COLLABORATION_STRATEGY.md",
+      "page_or_section": "Sections 2-4 (scoring rubric, ranked recommendation summary, per-application detail)",
+      "confidence": "medium",
+      "limitation": "This claim describes the existence and qualitative outcome of the corpus's own internal scored decision output (a document artifact), not this extraction's own portfolio judgment; the specific numeric scores/weights in the source document are deliberately not repeated here, consistent with this ledger's no-ranking rule. No outreach, contact, or collaboration has actually occurred -- the document itself states \"no contact, submission, or external write occurred in producing this document.\" Folder 08 has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C29",
+      "claim": "No GaN or AlGaN Hall-plate neutron-irradiation dataset of any kind (any particle species, any spectrum) exists in either the 231-source folder-06 ledger or the 219-source folder-08 ledger; this is named as the single largest direct-evidence gap for the researcher's own device family. Separately, cross-species radiation-effect scaling (e.g. extrapolating from proton or gamma results to a neutron environment) has been documented to fail by approximately 14x in one cited comparable III-V material case, meaning a wrong-species radiation-screening campaign would be worse than performing no screening at all.",
+      "status": "unknown",
+      "opt2_mapping": "Opt2 Element 2 (radiation-compensation sub-claim, directly underlying C09's Unknown-magnitude statement)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/01_SOURCE_COVERAGE.md",
+      "page_or_section": "\"Unresolved gaps\" item 1; the ~14x cross-species scaling failure is cited in 05_LIMITATIONS_AND_FAILURE_MODES.md FM-05",
+      "confidence": "high",
+      "limitation": "This is an absence-of-evidence finding bounded by the corpus's own documented search scope (219 sources across three lanes), not a proof that no such dataset exists anywhere in the world literature. Folder 08 has not passed its own redteam/synthesis stages. The magnitude, sign, and even the functional shape of GaN/AlGaN radiation-drift response are all genuinely Unknown per this evidence base -- this claim should not be read as implying the drift is necessarily large or necessarily small."
+    },
+    {
+      "claim_id": "C30",
+      "claim": "Two specific single-source dependencies are explicitly flagged by the corpus as load-bearing but thin: the proposed radiation-null material-diverse witness-channel reference (a metallic-Hall device reported to show no measurable sensitivity change to approximately 1e18 n/cm^2 at 100-250C) rests on exactly one cited source; and the only real-world precedent anywhere in the ledger for the coil-informs-Hall-gain direction (C07's conditional feasibility) is a single non-fusion, unirradiated, driven-magnet-ramp cryogenic-Hall-sensor source.",
+      "status": "unknown",
+      "opt2_mapping": "Opt2 Element 2 (both the radiation-compensation and mutual-consistency sub-claims)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/02_OBSERVABILITY_AND_IDENTIFIABILITY.md",
+      "page_or_section": "Section 8 (assumptions and limitations register), items 7; cross-referenced in 05_LIMITATIONS_AND_FAILURE_MODES.md Section 5",
+      "confidence": "medium",
+      "limitation": "Both dependencies are named and flagged, not hidden, by the source documents themselves -- this claim reports that flagging, and does not itself add independent verification of either single source. Folder 08 has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C31",
+      "claim": "Two specific proposed falsification tests directly decide whether the T0 simulation/estimator package (C10) can be trusted before any hardware money is spent: FT-02 (\"estimator honesty test\") requires that, on scenarios the theory proves are non-identifiable, the estimator must freeze the corresponding states and inflate its own reported uncertainty rather than silently converging on a confident wrong answer, cross-checked by re-running with deliberately wrong priors; and the corpus states this single, zero-hardware, purely desk-based test \"gates every dollar after it.\" FT-04 (offset-anchor validity) is named as the cheapest first hardware test (approximately one bench-day) and, if it fails, the document states \"the offset half of the calibration story is unsupported\" with \"no fallback\" possible, since AC injection can never supply offset per Theorem 1 (C23).",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 1 and Element 3 (the estimator/package's own integrity gate, and the calibration program's offset-recovery gate)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/06_ADVISOR_MEETING_BRIEF.md",
+      "page_or_section": "Section 6 (\"Lowest-cost next experiment\"); full test specifications in 05_FALSIFICATION_TESTS.md FT-02 and FT-04",
+      "confidence": "medium",
+      "limitation": "Neither test has been executed. This is a plan, not a result. Folder 08 has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C32",
+      "claim": "The folder-08 mission's own advisor-meeting brief proposes folding the hybrid Hall+coil work into the existing PhD plan as a \"falsification-gated track\" with minimal disruption: adding approximately 3-6 marginal bench-days (FT-04 offset-anchor test plus FT-05 reverse-direction gain-recovery test) to the already-scheduled WP-C calibration bench block from folder 06's plan, reframing the P2 (second-paper) work-package deliverable as the T0 simulation/estimator package with a pre-registered honesty test on the same existing timeline (Aug-Dec 2026), treating campaign #1/#2 hybrid items as piggyback-only additions requiring no new machine-time request, and explicitly removing radiation work from the first-author critical path entirely, parking it behind four gates as a future Phase-4 collaborator-led, coauthored work package.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 1, Element 2, and Element 3 (the corpus's own integration plan tying all three Opt2 elements back into the existing, folder-06-endorsed PhD roadmap)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/06_ADVISOR_MEETING_BRIEF.md",
+      "page_or_section": "Sections 1 and 4 (\"Decision requested\"; \"What changes in the current plan: almost nothing\")",
+      "confidence": "medium",
+      "limitation": "This is a proposed integration plan awaiting an advisor decision that, per the corpus's own records, has not yet occurred. Folder 08 has not passed its own redteam/synthesis stages, and this brief is explicitly designed to \"ride\" a folder-06 advisor meeting that the corpus's own milestone tracker (06_MILESTONES.csv) records as not_started as of the corpus's latest recorded date."
+    },
+    {
+      "claim_id": "C33",
+      "claim": "A pre-publication IP research screen (folder 06, stage 50) identified six candidate protectable concepts traceable to supplied work -- CC-1 (in-vessel UHV packaging/deployment stack), CC-2 (current-spun external readout chain), CC-3 (orthogonal-face ceramic-cube vector probe), CC-4 (hybrid Hall+inductive drift-corrected architecture), CC-5 (in-situ absolute calibration anchor from coil-only shots + computed vacuum field), and CC-6 (retroactive tesla-conversion of archived uncalibrated 2025 voltage data) -- and screened each against a prior-art ledger of patents and literature. It concludes that, given the documented prior-art density (the advisor group's own 2019 GaN Hall publications; active Infineon and Texas Instruments spinning-current patent families; fresh 2025 Kalman-fusion journal papers), any protectable scope found by counsel is expected to be \"thin and combination-specific, not platform-level\" for every concept, and the document reaches no patentability, ownership, or freedom-to-operate conclusion of its own.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work and Opt2 Element 2/3 (a completed research screen, not itself an Opt2 element, but a governing constraint on any Opt2 disclosure timing)",
+      "source_path": "sources/phd/P/01/06/outputs/05_CANDIDATE_PROTECTABLE_CONCEPTS.md",
+      "page_or_section": "Section 0 (summary rank table) and per-concept sections 1-6",
+      "confidence": "high",
+      "limitation": "This is a completed research screen (demonstrated as an artifact and its own stated conclusion), explicitly not a patentability, ownership, or legal conclusion -- the document repeats this disclaimer throughout and states \"nothing here is a recommendation to file.\" It notes that portions of the concrete method text for CC-4/CC-6 originate in AI-assisted mission outputs, flagging an inventorship question for counsel that this ledger does not resolve."
+    },
+    {
+      "claim_id": "C34",
+      "claim": "A disclosure-hold checklist (folder 06, stage 50) establishes eight named disclosure gates (G-A through G-H, e.g. the planned UW-Madison outreach email, SENSL resubmission, any arXiv posting, conference talks, the RSI manuscript, and public code release), each mapped to what it would disclose and what must clear before it may proceed; the single hardest gate is G-C (any arXiv posting), which the checklist states requires documented advisor + Stanford OTL sign-off and calls \"the single most consequential disclosure event on the board\" because arXiv postings are permanent and irrevocably licensed once made.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; a governing constraint on when any Opt2-related work (all three elements) may be publicly disclosed",
+      "source_path": "sources/phd/P/01/06/outputs/05_DISCLOSURE_HOLD_CHECKLIST.md",
+      "page_or_section": "Section 5 (disclosure gates table, rows G-A through G-H)",
+      "confidence": "high",
+      "limitation": "This is a completed research-screen policy document (demonstrated as an artifact), not evidence that any disclosure has actually occurred or that the advisor/OTL screen has concluded -- per the corpus's own milestone tracker, the advisor + OTL pre-disclosure conversation (M13) is recorded as not_started as of the corpus's latest recorded date."
+    },
+    {
+      "claim_id": "C35",
+      "claim": "The folder-06 mission's stage-30 publication-route decision recommends a specific sequence (\"Route A then Route C\": revise-and-resubmit to IEEE Sensors Letters once the bench evidence package closes, then submit the separate RSI vector-probe instrument paper on the next campaign), with an optional arXiv posting of the revised (not the rejected) manuscript permitted at resubmission time under IEEE's own preprint policy, strictly after the IP screen and advisor sign-off. This recommendation was checked against four officially fetched policy pages (IEEE Sensors Letters author information; IEEE's article-sharing-and-posting-policies PDF; AIP/RSI's sharing-content-online and journal-scope pages; and arXiv's withdrawal/license-help pages), all accessed 2026-07-25.",
+      "status": "proposed",
+      "opt2_mapping": "current/recent PhD work (not itself an Opt2 element, but the venue-route decision Opt2's Element-1 and Element-3 publication plans, C10 and C37, would need to sit alongside)",
+      "source_path": "sources/phd/P/01/06/outputs/03_PUBLICATION_ROUTE_DECISION.md",
+      "page_or_section": "Section 0 (decision summary) and Section 4 (official-policy evidence base table)",
+      "confidence": "high",
+      "limitation": "This is a recommendation, not an executed decision; nothing has been submitted, resubmitted, or posted per the corpus's own explicit statement (\"Nothing was submitted, uploaded, or rewritten in this stage\"). The RSI-specific policy wording was originally verified only via a search-result extraction (a live-page HTTP 403), later upgraded by the corpus's own stage-70 audit to an Internet Archive snapshot dated 2025-11-15 -- approximately 8 months stale at the time of the corpus's own audit -- and the corpus's own audit explicitly recommends re-checking the live page before any actual RSI submission."
+    },
+    {
+      "claim_id": "C36",
+      "claim": "This extraction independently re-fetched the live IEEE Sensors Letters \"Information for Authors\" page (https://ieee-sensorsletters.org/information-for-authors/) on 2026-07-28 and confirmed, matching the corpus's own citation: a 4-page maximum manuscript length that includes at least a single-column reference list (not an additional allowance), a sensor-device-centric scope statement, and a stated \"Submission-to-ePublication = 4.8 weeks, median\" statistic.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); external verification supporting C35 and C37's venue-route context",
+      "source_path": "external: https://ieee-sensorsletters.org/information-for-authors/",
+      "page_or_section": "\"Manuscript preparation\"/\"scope\"/submission-timing statements on the page as fetched 2026-07-28",
+      "confidence": "high",
+      "limitation": "This is this extraction's own directly performed, dated web verification (not relayed from the corpus), performed to ground the SOURCES.csv external-source requirement; it confirms the corpus's own earlier-cited figures were accurate as of this run's access date, but page content can change and should be re-checked again before any actual submission, per the corpus's own repeated warning about this exact figure."
+    },
+    {
+      "claim_id": "C37",
+      "claim": "Per the corpus's own stage-70 audit, the RSI (AIP) editorial-policy page states an additional criterion beyond duplication rules: \"The major criterion for publication is technical novelty. A previously published instrument is not considered to be novel,\" verified against an Internet Archive snapshot (dated 2025-11-15) of the official policy page after the live page returned an HTTP 403 (Cloudflare) block in the corpus's own re-check.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; a constraint the vector-probe/RSI paper (C14) and any Opt2 Element-3 publication plan (C10) would have to satisfy",
+      "source_path": "sources/phd/P/01/06/outputs/07_RED_TEAM.md",
+      "page_or_section": "finding F-7 (\"RSI policy wording was search-extraction confidence\")",
+      "confidence": "medium",
+      "limitation": "This extraction did not itself re-fetch the RSI policy page or the Internet Archive snapshot; it relies on the corpus's own stage-70 verification, which is itself dated (an ~8-month-old archived copy as of the corpus's own audit date, now roughly a year older still as of this run's date of 2026-07-28) and explicitly flagged by the corpus as needing re-verification before any actual submission."
+    },
+    {
+      "claim_id": "C38",
+      "claim": "A 24-month PhD roadmap (folder 06, stage 60) defines 44 dated milestones (M01-M44) from 2026-07-25 to a targeted degree conferral around Q3 2028, structured around a stated minimum-viable-graduation (MVG) plan (two accepted first-author papers, P1 the revised Sensors Letters submission and P2 the hybrid-architecture paper, neither depending on the HSX campaign succeeding) versus a stronger \"upside\" plan (adding P3, the RSI vector-probe paper, contingent on campaign #2 landing near its stated November 2026 target). A named direction gate (G5, targeted ~July 2027, month 12) requires both at least one first-author paper accepted or in revision AND real-die absolute calibration achieved to continue the current direction; failing either condition triggers a named pivot toward a software/reconstruction-methods fallback direction (OPT3) using the same data pipelines.",
+      "status": "proposed",
+      "opt2_mapping": "current/recent PhD work; the scheduling framework Opt2's three elements would be integrated into per C32",
+      "source_path": "sources/phd/P/01/06/outputs/06_24_MONTH_PHD_ROADMAP.md",
+      "page_or_section": "Section 1 (ground truth), Section 7 (MVG vs. upside plans), Section 8 (slip/decision table)",
+      "confidence": "high",
+      "limitation": "This is a plan, independently red-team audited by the corpus's own stage-70 process (which found and corrected one medium-severity milestone-dependency error, F-1, plus several low/informational items -- see C39), not an executed schedule; per the corpus's own milestone-status field, every one of the 44 milestones is recorded as not_started as of the corpus's latest recorded date (2026-07-25)."
+    },
+    {
+      "claim_id": "C39",
+      "claim": "An independent red-team audit of the completed folder-06 mission (stage 70, using different verification tools/samples than the earlier stages) found 11 findings across all 27 prior-stage outputs -- 0 critical, 0 high, 1 medium, 6 low, 4 informational -- and corrected all 9 correctable findings in place with a documented before/after correction log; the two remaining findings (inconsistent internal timestamp labeling; a launcher telemetry flag inconsistency later refuted from raw session data) were documented as observations that no mission-content file could fix. The mission's own final synthesis stage states \"FINAL STATUS: PASS.\"",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); establishes the reliability basis this ledger uses to weight folder-06-sourced claims more heavily than folder-08-sourced claims",
+      "source_path": "sources/phd/P/01/06/outputs/07_RED_TEAM.md",
+      "page_or_section": "Section 0 (verdict) and Section 1 (findings F-1 through F-11); corrections detailed in 07_CORRECTION_LOG.md; completion determination in FINAL_AUDIT.md Section 10",
+      "confidence": "high",
+      "limitation": "The audit itself states explicitly that \"provider-level independence is not claimed\" -- the same underlying Claude model family produced both the audited outputs and the audit, so this is not an independent-organization audit in the ordinary research sense. No mission content was found to contain a fabricated or invented measured value (the audit's own stated finding), which this extraction reports as the audit's conclusion, not as this extraction's own independent verification of every underlying number."
+    },
+    {
+      "claim_id": "C40",
+      "claim": "The folder-08 hybrid/radiation mission has completed 10 of its own 12 planned stages, producing 25 output files under outputs/, and has not produced any 70_redteam or 80_synthesis output -- confirmed by a direct, fresh recursive Glob of the folder-08 outputs directory during this run, which returned exactly 25 files and no file matching a redteam or synthesis naming pattern, matching outputs/B00_inventory/attempt-2/INVENTORY.md's independently corrected count.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); the single most important process-maturity caveat governing every Opt2-related claim in this ledger drawn from folder 08",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/ (directory listing)",
+      "page_or_section": "n/a -- directory-level fact, confirmed by direct Glob this run",
+      "confidence": "high",
+      "limitation": "None material; this is a structural/process fact independently reconfirmed by this extraction's own tool call, not merely relayed from B00's inventory."
+    },
+    {
+      "claim_id": "C41",
+      "claim": "The manuscript's Acknowledgment section credits three funding sources: DOE contract DE-AC02-76SF00515 / SLAC FWP 101264, TomKat Center support, and NSF-supported NNCI fabrication access (ECCS-2026822); the corpus's own IP-screen document flags that Bayh-Dole election, government-license, and march-in obligations tied to this funding mix, plus NSF NNCI facility terms and TomKat gift/grant terms, are all open questions for Stanford OTL and counsel, not resolved anywhere in the corpus.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; a funding/constraint fact bearing on any Opt2 Element that would use the same facility/funding lineage",
+      "source_path": "sources/phd/P/01/06/outputs/05_CANDIDATE_PROTECTABLE_CONCEPTS.md",
+      "page_or_section": "Section 7, item 5 (\"Sponsor rights\")",
+      "confidence": "high",
+      "limitation": "This extraction did not itself re-open the manuscript's acknowledgment section text; it relies on the corpus's own stage-50 citation of that text. No resolution of the open OTL/counsel questions exists anywhere in the corpus."
+    },
+    {
+      "claim_id": "C42",
+      "claim": "International-student status is treated consistently across every corpus document that mentions it (folder 06's roadmap, startup-readiness document, and MISSION.md) purely as a scheduling and career-planning constraint, never as a basis for immigration or legal guidance; the researcher's stated graduation target is approximately two years from 2026-07-25 (roughly summer 2028), and the corpus's own stage-60 roadmap notes this target is close to, not a compression of, Stanford EE's own typical year-4 defense timing per two directly fetched official Stanford pages (accessed 2026-07-25).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; a scheduling constraint governing the pace at which any Opt2 element could realistically be pursued",
+      "source_path": "sources/phd/P/01/06/outputs/06_24_MONTH_PHD_ROADMAP.md",
+      "page_or_section": "Section 1 (\"No immigration or legal claims appear anywhere in this document\" statement) and Section 4 (Q2 2028 entry citing Stanford EE's degree-progress and oral-exam pages)",
+      "confidence": "high",
+      "limitation": "This extraction did not itself re-fetch the two cited Stanford EE pages; it relies on the corpus's own stage-70 audit, which independently re-verified both URLs and found the claims accurate (finding F-4, corrected to add the missing citation links)."
+    },
+    {
+      "claim_id": "C43",
+      "claim": "The alternative-technology review in folder 08 identifies TMR (tunneling magnetoresistance) as the strongest single-channel competitor to any Hall+coil hybrid value proposition: a single TMR channel spans DC-to-broadband and showed no key-parameter degradation to 5 Mrad(Si) of gamma/X-ray exposure under bias in the cited source, while AMR tolerated 200 krad(Si) with front-end electronics as the weaker link. Both figures are gamma/X-ray only -- no neutron displacement-damage data exists for either TMR or AMR in the reviewed literature, a gap the source states \"cuts in both directions\" (it does not prove the hybrid's radiation-tolerance case either).",
+      "status": "inferred",
+      "opt2_mapping": "Opt2 Element 2 (a documented competing-technology risk to the entire hybrid-diagnostic value proposition)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/01_APPLICATIONS_ALTERNATIVES_REVIEW.md",
+      "page_or_section": "Section 3, item 2 (AMR/GMR/TMR/planar Hall) and Section 4 (synthesis)",
+      "confidence": "medium",
+      "limitation": "This extraction did not independently verify the cited gamma/X-ray radiation-tolerance figures against their primary sources. Folder 08 has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C44",
+      "claim": "The corpus enforces an exact, source-pinned facility-identity wording rule and an explicit prohibition: HSX must be described using the exact phrase from its own cited source (\"the first and only stellarator experiment optimized for quasi-helical symmetry\"), and the claim \"first fusion Hall diagnostic\" is explicitly stated to be false and forbidden in any manuscript revision, because a documented non-GaN fusion-Hall-sensor lineage already exists in the ledger (CASTOR, EAST, JET's InSb probes, ITER's bismuth-Hall array, DEMO-class antimony/chromium sensors).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; a novelty-scoping constraint governing how any Opt2-related claim (all three elements) may be worded in future publications",
+      "source_path": "sources/phd/P/01/06/outputs/02_RESEARCH_DIRECTION_DECISION.md",
+      "page_or_section": "Section 5 (\"Novelty versus prior art\"), items 1-2",
+      "confidence": "high",
+      "limitation": "This extraction did not independently re-verify the cited fusion-Hall-sensor prior-art lineage against primary sources; it relies on the corpus's own 231-source ledger and its stage-70 audit, which independently re-verified the exact QHS facility-wording citation."
+    },
+    {
+      "claim_id": "C45",
+      "claim": "The deployed 2025 sensor module's current physical location, custody, and functional health are not documented anywhere in the corpus (inventory gate I-4); the corpus's own stage-40 experiment plan calls this \"this stage's most consequential new inventory question,\" because it gates both the multi-die repeatability study (WP-B) and the retroactive voltage-to-tesla conversion needed to re-plot the manuscript's Figure 5 in field units (C-03/G-01).",
+      "status": "unknown",
+      "opt2_mapping": "current/recent PhD work; directly gates Opt2 Element 1's calibration program (a physical asset whose availability is unverified)",
+      "source_path": "sources/phd/P/01/06/outputs/04_HSX_EXPERIMENT_PLAN.md",
+      "page_or_section": "Section 2.2, gate I-4",
+      "confidence": "high",
+      "limitation": "This is an absence-of-record finding, not evidence that the module is lost or damaged -- it may simply not be documented in the corpus. The corpus's own action plan already lists locating this module as a next-72-hours action item."
+    },
+    {
+      "claim_id": "C46",
+      "claim": "The completed in-vessel UHV packaging process (LCC ceramic package, aluminum wedge bonding, EPO-TEK 353ND encapsulation, 150C vacuum bake for 1 hour, custom zirconia holder, grounded graphite shield specifically added to survive glow-discharge cleaning) has been executed once, for the deployed 2025 sensor module, and is planned to be reused, unmodified in its core steps, for packaging the planned vector-probe cube module's 2-3 individual dies (project 03).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; a demonstrated hardware-packaging skill and reusable process that Opt2's proposed hybrid hardware head (Element 2) would need to extend",
+      "source_path": "sources/phd/P/01/06/outputs/05_CANDIDATE_PROTECTABLE_CONCEPTS.md",
+      "page_or_section": "Section 1 (CC-1 technical feature combination)",
+      "confidence": "high",
+      "limitation": "The single execution (2025 deployment) is demonstrated; its planned reuse for the cube module (project 03) is proposed only -- no cube has been built, and the vector-probe plan itself flags bond-pad-yield-on-vertical-cube-faces as an open, unresolved risk that the single-axis 2025 process has never had to solve."
+    },
+    {
+      "claim_id": "C47",
+      "claim": "The corpus's own PhD-strategy decision (folder 06, stage 20) states, without repeating its internal numeric scorecard, that it recommends continuing the current GaN Hall magnetic-diagnostics research direction with a novelty-recentering adjustment, rather than a genuine change of research direction, and names a specific, best-supported change-of-direction alternative (physics-informed / machine-learning stellarator-magnetics reconstruction methods) as a documented, scored, and retained fallback if the hardware premises of the current direction fail by a named later gate (G5, ~month 12).",
+      "status": "proposed",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); establishes that the corpus treats Opt2 as a continuation, not a fallback, and names the fallback direction explicitly should Opt2 fail",
+      "source_path": "sources/phd/P/01/06/outputs/02_RESEARCH_DIRECTION_DECISION.md",
+      "page_or_section": "Section 1 (executive verdict) and Section 3.3 (change-of-direction option)",
+      "confidence": "medium",
+      "limitation": "This claim reports the existence and qualitative content of the corpus's own scored decision output; per this ledger's no-ranking rule, the specific numeric weighted scores in the source document are deliberately not repeated here. This is a recommendation the corpus itself made, not adopted or endorsed by this extraction, and it has not yet been confirmed by the advisor per the corpus's own milestone tracker."
+    },
+    {
+      "claim_id": "C48",
+      "claim": "Two independent instances in the corpus flag the same underlying epistemic risk from a different angle: the folder-08 mission's stage-50 analysis states that an estimator handed a non-identifiable parameter set does not fail visibly, it silently resolves the ambiguity using its own prior (FM-18, see C24); and the falsification-test design (FT-02, see C31) exists specifically to force that failure mode to be visible (frozen states, inflated uncertainty) before any hardware spending occurs. This is presented by the corpus as the single highest-priority, lowest-cost gate in the entire Opt2 program.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 3: deliver a reusable module plus simulation/reconstruction package (the package's own integrity/honesty requirement)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/06_ADVISOR_MEETING_BRIEF.md",
+      "page_or_section": "Section 6 (\"Zero-hardware: FT-02\")",
+      "confidence": "medium",
+      "limitation": "This is a design requirement for an unbuilt package, not a report of any estimator having actually been built and tested. Folder 08 has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C49",
+      "claim": "As of the corpus's most recent recorded date (2026-07-25) and independently reconfirmed by this extraction's direct read of the primary decision letter (2026-07-28), the researcher holds zero accepted first-author peer-reviewed publications; the single manuscript in hand is a declined-with-invitation-to-revise submission (C02); the co-authored TCAD paper is an early, incomplete simulation-only draft (C20); the magnetic-sensor review paper is at the planning/outline stage only, not drafted (C18); and the vector-probe RSI paper has not been written because its underlying campaign (#2, target November 2026) has not occurred (C14).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; the publication-status constraint that materially shapes the risk posture of every Opt2 planning decision in the corpus",
+      "source_path": "sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md",
+      "page_or_section": "lines stating \"Tim currently has zero accepted first-author publications\" (also repeated in 02_RESEARCH_DIRECTION_DECISION.md and 06_24_MONTH_PHD_ROADMAP.md)",
+      "confidence": "high",
+      "limitation": "This is a synthesis claim drawing together several individually-cited claims above (C02, C14, C18, C20); it is stated as accurate as of the corpus's own most recent recorded date and this extraction's own access date, and could change at any time thereafter (e.g. a resubmission decision or acceptance) without this ledger being aware of it."
+    },
+    {
+      "claim_id": "C50",
+      "claim": "The literature-review, evidence-ledger-construction, direction-scoring, manuscript-diagnosis, experiment-planning, IP-screening, and 24-month-roadmap work products across folders 06 and 08 (450 combined verified-source rows, dozens of narrative documents, multiple independently red-team-audited deliverables) were produced by autonomous, PowerShell-runner-driven Claude Code missions that the researcher commissioned, configured, and directed (per each mission's own EXECUTION_PLAN.md/MODEL_POLICY.md and the researcher's own ORIGINAL_REQUEST.txt), not hand-executed research labor performed personally by the researcher. The corpus itself repeatedly and explicitly flags this distinction for IP-inventorship purposes (e.g. the IP screen's CC-4/CC-6 counsel-question about AI-assisted conception, C33) but does not extend the same explicit flag to every other document type (e.g. the roadmap and startup-readiness documents do not separately re-state it).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element); a cross-cutting provenance fact bearing on how every asset/skill claim in this ledger should be read for a PhD-portfolio or transferable-skills purpose",
+      "source_path": "sources/phd/P/01/06/EXECUTION_PLAN.md",
+      "page_or_section": "stage-to-model/effort table; corroborated by sources/phd/P/01/06/inputs/ORIGINAL_REQUEST.txt (the user's own request establishing this as a commissioned AI-agent mission) and by sources/phd/P/01/06/outputs/05_CANDIDATE_PROTECTABLE_CONCEPTS.md Section 4 (AI-assisted-content flag)",
+      "confidence": "high",
+      "limitation": "This claim is this extraction's own explicit synthesis of a distinction the corpus makes in some places (the IP screen) but not uniformly everywhere; it is included here because the task instructions require honestly separating requested/observed evidence from AI-generated planning artifacts, and because a PhD-portfolio reader should not mistake an AI-agent-produced literature ledger or roadmap for the researcher's own manually executed literature-review or planning labor. The bench/hardware work itself (C01, C03, C04, C13, C46) is a separate category, directly attributed to the researcher's own dated lab notebook entries (NOTES.md, journal/ entries), not to an AI-agent mission."
+    }
+  ]
+}

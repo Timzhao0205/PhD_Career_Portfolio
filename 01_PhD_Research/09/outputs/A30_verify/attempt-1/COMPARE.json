@@ -1,0 +1,319 @@
+{
+  "stage": "A30_verify",
+  "mode": "FULL",
+  "attempt": 1,
+  "generated": "2026-07-28",
+  "set_definitions": {
+    "BLIND": {
+      "final_24_defined_by": "outputs/A10_blind/attempt-1/SELECTION.json (24 ranked objects, ranks 1-24)",
+      "top_10_defined_by": "outputs/A10_blind/attempt-1/TOP10.json (ranks 1-10; verified subset of SELECTION.json with identical ordering)",
+      "method_file": "outputs/A10_blind/attempt-1/METHOD.md",
+      "universe": "126 P3R2 candidate records (evidence/blind POOL_1/2/3), pre-longlist, duplicate clusters unresolved; A10 chose its own cluster representatives; no web access",
+      "notes": "Blind, record-internal 1-5 ordinal component scoring with holistic ranks; no numeric totals."
+    },
+    "OLD": {
+      "final_24_defined_by": "sources/old06/60_FINAL_PORTFOLIO/02_COMPARISON_MATRIX.csv (24 rows, rank + score_total); membership and all 24 ranks verified identical to sources/old06/30_SCREENING/P5_SELECTION.json final_24",
+      "top_10_defined_by": "sources/old06/30_SCREENING/P5_SELECTION.json top_10_deep_dives (verified equal, in order, to matrix ranks 1-10)",
+      "kill_decision_files": [
+        "sources/old06/30_SCREENING/LONGLIST.json (frozen 65-idea longlist; membership enumerated by grep of idea_id values)",
+        "sources/old06/30_SCREENING/SCORECARDS/P4_SCORES_ALL.md (65 scored: 30 survivors / 35 eliminated with gate reasons)",
+        "sources/old06/30_SCREENING/REDTEAM/P5_RT_G01..G06, P5_RT_REVIVALS.md (P5 kill/hold verdicts)",
+        "sources/old06/20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.json (duplicate clusters / canonicalization)"
+      ],
+      "universe": "65 frozen-longlist ideas for P4/P5, plus post-longlist P5 supplemental generation (P5-USSCI*, P5R2-CN-*) of which 3 entered the final 24",
+      "notes": "Matrix score_total is the P5-adjusted authoritative total (e.g. D-02 65.6) and differs from the P4 total (D-02 76.6); both are old06-internal stages, not a transcription error here."
+    },
+    "NEW": {
+      "final_24_defined_by": "sources/new06/outputs/70_audit/FINAL/SELECTION.json final_24 (README.md designates outputs/70_audit/FINAL as 'Canonical audited package'; AUDIT.md verdict PASS with cross-file identity checks)",
+      "top_10_defined_by": "TWO documented variants, reported separately: (a) NEW10-RANKS = final_24 ranks 1-10; (b) NEW10-DEEP = SELECTION.json top_10_deep_dives = ranks 1-8 plus C-09 (rank 12) and C-22 (rank 13), passing over C-13 (9), F-01 (10), A-05 (11) for lane-coverage reasons recorded in sources/new06/outputs/40_select/SELECTION.md 'Deep-dive choices (10)'",
+      "screening_files": [
+        "sources/new06/outputs/20_p4/P4_REPORT.md and SURVIVORS.json (65 scored, 30 survivors, cut at 62.7, first excluded C-07 at 61.6)",
+        "sources/new06/outputs/40_select/SELECTION.md (ranking logic, near-misses, deep-dive choices)"
+      ],
+      "universe": "The same 65 frozen-longlist ideas (rerun consumed the frozen longlist; the three old06 P5 supplementals were never candidates)",
+      "notes": "Ranks reconcile P4 totals with red-team evidence by judgment, so rank order is not strictly score-ordered (e.g. rank 3 C-05 78.3 vs rank 4 D-10 78.7)."
+    }
+  },
+  "membership": {
+    "BLIND24_ranked": ["P3R2-E-01", "P3R2-C-05", "P3R2-D-01", "P3R2-C-09", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-C-08", "P3R2-A-10", "P3R2-C-07", "P3R2-C-04", "P3R2-E-10", "P3R2-C-14", "P3R2-D-10", "P3R2-C-22", "P3R2-F-02", "P3R2-A-05", "P3R2-C-15", "P3R2-A-02", "P3R2-F-01", "P3R2-E-04", "P3R2-C-12", "P3R2-D-09", "P3R2-C-13"],
+    "BLIND10": ["P3R2-E-01", "P3R2-C-05", "P3R2-D-01", "P3R2-C-09", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-C-08", "P3R2-A-10", "P3R2-C-07"],
+    "OLD24_ranked": ["P3R2-D-02", "P3R2-C-22", "P3R2-D-01", "P3R2-F-01", "P3R2-C-01", "P5-USSCI2-S01", "P3R2-E-14", "P5R2-CN-01", "P3R2-A-14", "P3R2-C-13", "P3R2-C-08", "P3R2-B-01", "P3R2-E-04", "P5R2-CN-03", "P3R2-F-02", "P3R2-C-04", "P3R2-F-12", "P3R2-G-01", "P3R2-A-10", "P3R2-G-03", "P3R2-D-12", "P3R2-F-23", "P3R2-F-06", "P3R2-F-03"],
+    "OLD10": ["P3R2-D-02", "P3R2-C-22", "P3R2-D-01", "P3R2-F-01", "P3R2-C-01", "P5-USSCI2-S01", "P3R2-E-14", "P5R2-CN-01", "P3R2-A-14", "P3R2-C-13"],
+    "NEW24_ranked": ["P3R2-D-02", "P3R2-C-01", "P3R2-C-05", "P3R2-D-10", "P3R2-E-14", "P3R2-A-14", "P3R2-D-01", "P3R2-A-10", "P3R2-C-13", "P3R2-F-01", "P3R2-A-05", "P3R2-C-09", "P3R2-C-22", "P3R2-C-08", "P3R2-G-03", "P3R2-E-04", "P3R2-D-09", "P3R2-A-22", "P3R2-C-04", "P3R2-D-19", "P3R2-F-16", "P3R2-F-19", "P3R2-F-23", "P3R2-D-16"],
+    "NEW10_RANKS": ["P3R2-D-02", "P3R2-C-01", "P3R2-C-05", "P3R2-D-10", "P3R2-E-14", "P3R2-A-14", "P3R2-D-01", "P3R2-A-10", "P3R2-C-13", "P3R2-F-01"],
+    "NEW10_DEEP": ["P3R2-D-02", "P3R2-C-01", "P3R2-C-05", "P3R2-D-10", "P3R2-E-14", "P3R2-A-14", "P3R2-D-01", "P3R2-A-10", "P3R2-C-09", "P3R2-C-22"]
+  },
+  "pairwise_metrics_at_24": {
+    "blind_vs_old": {
+      "exact_id_overlap": 12,
+      "shared": ["P3R2-D-01", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-C-08", "P3R2-A-10", "P3R2-C-04", "P3R2-C-22", "P3R2-F-02", "P3R2-F-01", "P3R2-E-04", "P3R2-C-13"],
+      "blind_only": ["P3R2-E-01", "P3R2-C-05", "P3R2-C-09", "P3R2-C-07", "P3R2-E-10", "P3R2-C-14", "P3R2-D-10", "P3R2-A-05", "P3R2-C-15", "P3R2-A-02", "P3R2-C-12", "P3R2-D-09"],
+      "old_only": ["P3R2-C-01", "P5-USSCI2-S01", "P5R2-CN-01", "P3R2-B-01", "P5R2-CN-03", "P3R2-F-12", "P3R2-G-01", "P3R2-G-03", "P3R2-D-12", "P3R2-F-23", "P3R2-F-06", "P3R2-F-03"],
+      "semantic_augmented_overlap": 13,
+      "semantic_additions": ["SEM-01: P3R2-E-01 (blind rank 1) <-> P3R2-C-01 (old rank 5)"]
+    },
+    "blind_vs_new": {
+      "exact_id_overlap": 16,
+      "shared": ["P3R2-C-05", "P3R2-D-01", "P3R2-C-09", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-C-08", "P3R2-A-10", "P3R2-C-04", "P3R2-D-10", "P3R2-C-22", "P3R2-A-05", "P3R2-F-01", "P3R2-E-04", "P3R2-D-09", "P3R2-C-13"],
+      "blind_only": ["P3R2-E-01", "P3R2-C-07", "P3R2-E-10", "P3R2-C-14", "P3R2-F-02", "P3R2-C-15", "P3R2-A-02", "P3R2-C-12"],
+      "new_only": ["P3R2-C-01", "P3R2-G-03", "P3R2-A-22", "P3R2-D-19", "P3R2-F-16", "P3R2-F-19", "P3R2-F-23", "P3R2-D-16"],
+      "semantic_augmented_overlap": 17,
+      "semantic_additions": ["SEM-01: P3R2-E-01 (blind rank 1) <-> P3R2-C-01 (new rank 2)"]
+    },
+    "old_vs_new": {
+      "exact_id_overlap": 14,
+      "shared": ["P3R2-D-02", "P3R2-C-22", "P3R2-D-01", "P3R2-F-01", "P3R2-C-01", "P3R2-E-14", "P3R2-A-14", "P3R2-C-13", "P3R2-C-08", "P3R2-E-04", "P3R2-C-04", "P3R2-A-10", "P3R2-G-03", "P3R2-F-23"],
+      "old_only": ["P5-USSCI2-S01", "P5R2-CN-01", "P3R2-B-01", "P5R2-CN-03", "P3R2-F-02", "P3R2-F-12", "P3R2-G-01", "P3R2-D-12", "P3R2-F-06", "P3R2-F-03"],
+      "new_only": ["P3R2-C-05", "P3R2-D-10", "P3R2-A-05", "P3R2-C-09", "P3R2-D-09", "P3R2-A-22", "P3R2-D-19", "P3R2-F-16", "P3R2-F-19", "P3R2-D-16"],
+      "semantic_augmented_overlap": 14,
+      "semantic_additions": ["none — C-01 is exact in both; no documented cross-final semantic pair changes this pairing"]
+    },
+    "triple_intersection_all_three_finals": {
+      "count": 11,
+      "ids": ["P3R2-D-01", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-C-08", "P3R2-A-10", "P3R2-C-04", "P3R2-C-22", "P3R2-F-01", "P3R2-E-04", "P3R2-C-13"]
+    },
+    "union_check": "unique IDs across the three finals = 41 = 72 - 12 - 16 - 14 + 11 (inclusion-exclusion consistent)"
+  },
+  "pairwise_metrics_at_10": {
+    "blind10_vs_old10": {
+      "exact_id_overlap": 4,
+      "shared": ["P3R2-D-01", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14"],
+      "semantic_augmented_overlap": 5,
+      "semantic_additions": ["SEM-01: E-01 (blind 1) <-> C-01 (old 5)"]
+    },
+    "blind10_vs_new10_ranks": {
+      "exact_id_overlap": 6,
+      "shared": ["P3R2-C-05", "P3R2-D-01", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-A-10"],
+      "semantic_augmented_overlap": 7,
+      "semantic_additions": ["SEM-01: E-01 (blind 1) <-> C-01 (new 2)"]
+    },
+    "blind10_vs_new10_deep": {
+      "exact_id_overlap": 7,
+      "shared": ["P3R2-C-05", "P3R2-D-01", "P3R2-C-09", "P3R2-D-02", "P3R2-A-14", "P3R2-E-14", "P3R2-A-10"],
+      "semantic_augmented_overlap": 8,
+      "semantic_additions": ["SEM-01: E-01 <-> C-01 (C-01 in NEW10_DEEP)"]
+    },
+    "old10_vs_new10_ranks": {
+      "exact_id_overlap": 7,
+      "shared": ["P3R2-D-02", "P3R2-C-01", "P3R2-E-14", "P3R2-A-14", "P3R2-D-01", "P3R2-C-13", "P3R2-F-01"],
+      "semantic_augmented_overlap": 7,
+      "semantic_additions": ["none"]
+    },
+    "old10_vs_new10_deep": {
+      "exact_id_overlap": 6,
+      "shared": ["P3R2-D-02", "P3R2-C-01", "P3R2-D-01", "P3R2-E-14", "P3R2-A-14", "P3R2-C-22"],
+      "semantic_augmented_overlap": 6,
+      "semantic_additions": ["none"]
+    }
+  },
+  "semantic_match_ledger": {
+    "counting_rule": "Only SEM-01 is counted in semantic-augmented overlap. A match is counted only when (a) it is documented in a corpus's own cluster/duplicate/merge records, not name similarity, and (b) exactly one unmatched member on each side pairs one-to-one. Ledger entries SEM-02..SEM-04 are documented relationships that do NOT change any overlap number (counterpart absent from every final set, or exact-ID member already matched); they are recorded to prevent silent concept loss.",
+    "entries": [
+      {
+        "ledger_id": "SEM-01",
+        "pair": "P3R2-E-01 (BLIND rank 1) <-> P3R2-C-01 (OLD rank 5, deep-dived; NEW rank 2, deep-dived)",
+        "documented_evidence": [
+          "sources/old06/20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.json line 95: E-01 verdict REJECT, duplicate_of P3R2-C-01 (re-verified this run)",
+          "same file line 111: duplicate cluster '800VDC rack-inlet protection', canonical P3R2-C-01, members include P3R2-E-01 (re-verified this run)",
+          "outputs/A10_blind/attempt-1/SELECTION.json rank-1 decision: 'Chosen over near-duplicates A-01/B-03/C-01'; METHOD.md tie handling: 'E-01 over C-01 (same concept, lower capital and cleaner export posture)'"
+        ],
+        "counted_in_augmented_overlap": true,
+        "note": "Same concept at the top of all three rankings (BLIND 1 / NEW 2 / OLD 5); only the cluster representative differs. A10 and old06 chose OPPOSITE representatives of the same documented cluster."
+      },
+      {
+        "ledger_id": "SEM-02",
+        "pair": "P3R2-B-01 (OLD rank 12; NEW near-miss) <-> P3R2-C-04 (BLIND 11, OLD 16, NEW 19)",
+        "documented_evidence": [
+          "sources/new06/outputs/70_audit/FINAL/SELECTION.json near_misses: B-01 'the same two-phase-loop thesis as C-04 (its own merge notes say so); ... one slot, C-04 took it'",
+          "sources/new06/outputs/20_p4/SURVIVORS.json C-04 p5_focus: 'Overlap with P3R2-B-01 (its merged variant) needs portfolio-level dedup at selection'",
+          "outputs/A10_blind/attempt-1/SELECTION.json rank-11 decision: 'the merged variant absorbs B-01's negative-pressure leak-safe mechanism as the differentiator'"
+        ],
+        "counted_in_augmented_overlap": false,
+        "note": "C-04 already exact-matches in every pairing; counting B-01 against the same C-04 would double-count one blind idea against two old slots. Old06 carried BOTH as separate finalists; new06 and A10 each collapsed them to one."
+      },
+      {
+        "ledger_id": "SEM-03",
+        "pair": "P3R2-E-10 (BLIND rank 12) <-> P3R2-A-13 (longlist canonical; OLD P4 survivor rank 25, P5 KILL; NEW P4 cut at 59.5)",
+        "documented_evidence": [
+          "P3R2_ELEGANCE_ADJUDICATION.json line 104: E-10 REJECT, duplicate_of P3R2-A-13; line 131: cluster 'Rad-tolerant GaN PPU', canonical A-13, members D-15, E-10"
+        ],
+        "counted_in_augmented_overlap": false,
+        "note": "A-13 is in neither final 24, so this documented match changes no overlap number. It shows the concept was evaluated-and-rejected by both baselines rather than unseen."
+      },
+      {
+        "ledger_id": "SEM-04",
+        "pair": "P3R2-C-15 (BLIND rank 18) <-> P3R2-A-21 (longlist canonical; OLD P4 survivor rank 29, P5 KILL; NEW P4 cut at 58.7)",
+        "documented_evidence": [
+          "P3R2_ELEGANCE_ADJUDICATION.json line 67: C-15 REJECT, duplicate_of P3R2-A-21; line 128: cluster 'Multi-MW heavy-fleet charging', canonical A-21, members C-15, B-14"
+        ],
+        "counted_in_augmented_overlap": false,
+        "note": "A-21 is in neither final 24; no overlap effect. Same evaluated-and-rejected pattern as SEM-03."
+      },
+      {
+        "ledger_id": "NON-MATCH-C14",
+        "pair": "P3R2-C-14 (BLIND rank 13) vs P3R2-A-22 (NEW rank 18)",
+        "documented_evidence": [
+          "P3R2_ELEGANCE_ADJUDICATION.json line 66: C-14 verdict REJECT with duplicate_of null; note says 'A-22 is the better vehicle' (a preference, not a duplicate record)",
+          "outputs/A10_blind/attempt-1/SELECTION.json rank-13 decision explicitly distinguishes C-14 (plasma power supplies) from A-22 (destruction equipment)"
+        ],
+        "counted_in_augmented_overlap": false,
+        "note": "Deliberately recorded as NOT a semantic match: both corpora treat these as different products in the same demand space. Merging them would be name/theme similarity, which the ledger rules forbid."
+      }
+    ]
+  },
+  "rank_delta_table": {
+    "convention": "delta_new_minus_old = NEW rank - OLD rank (negative = rose in NEW). null where the idea lacks a final rank on that side. BLIND ranks given for context.",
+    "rows": [
+      {"idea_id": "P3R2-D-02", "blind": 5, "old": 1, "new": 1, "delta_new_minus_old": 0},
+      {"idea_id": "P3R2-C-22", "blind": 15, "old": 2, "new": 13, "delta_new_minus_old": 11},
+      {"idea_id": "P3R2-D-01", "blind": 3, "old": 3, "new": 7, "delta_new_minus_old": 4},
+      {"idea_id": "P3R2-F-01", "blind": 20, "old": 4, "new": 10, "delta_new_minus_old": 6},
+      {"idea_id": "P3R2-C-01", "blind": null, "old": 5, "new": 2, "delta_new_minus_old": -3, "note": "BLIND covers the concept via SEM-01 at rank 1"},
+      {"idea_id": "P5-USSCI2-S01", "blind": null, "old": 6, "new": null, "delta_new_minus_old": null, "note": "not in BLIND or NEW universe"},
+      {"idea_id": "P3R2-E-14", "blind": 7, "old": 7, "new": 5, "delta_new_minus_old": -2},
+      {"idea_id": "P5R2-CN-01", "blind": null, "old": 8, "new": null, "delta_new_minus_old": null, "note": "not in BLIND or NEW universe"},
+      {"idea_id": "P3R2-A-14", "blind": 6, "old": 9, "new": 6, "delta_new_minus_old": -3},
+      {"idea_id": "P3R2-C-13", "blind": 24, "old": 10, "new": 9, "delta_new_minus_old": -1},
+      {"idea_id": "P3R2-C-08", "blind": 8, "old": 11, "new": 14, "delta_new_minus_old": 3},
+      {"idea_id": "P3R2-B-01", "blind": null, "old": 12, "new": null, "delta_new_minus_old": null, "note": "NEW near-miss (C-04 thesis overlap + L14 lane cap); BLIND absorbed into C-04 (SEM-02)"},
+      {"idea_id": "P3R2-E-04", "blind": 21, "old": 13, "new": 16, "delta_new_minus_old": 3},
+      {"idea_id": "P5R2-CN-03", "blind": null, "old": 14, "new": null, "delta_new_minus_old": null, "note": "not in BLIND or NEW universe"},
+      {"idea_id": "P3R2-F-02", "blind": 16, "old": 15, "new": null, "delta_new_minus_old": null, "note": "NEW P4 score-cut at 59.4"},
+      {"idea_id": "P3R2-C-04", "blind": 11, "old": 16, "new": 19, "delta_new_minus_old": 3},
+      {"idea_id": "P3R2-F-12", "blind": null, "old": 17, "new": null, "delta_new_minus_old": null, "note": "NEW P4 score-cut at 56.0"},
+      {"idea_id": "P3R2-G-01", "blind": null, "old": 18, "new": null, "delta_new_minus_old": null, "note": "NEW P4 G1 kill (CEPC excluded from 15th FYP)"},
+      {"idea_id": "P3R2-A-10", "blind": 9, "old": 19, "new": 8, "delta_new_minus_old": -11},
+      {"idea_id": "P3R2-G-03", "blind": null, "old": 20, "new": 15, "delta_new_minus_old": -5, "note": "BLIND not selected (near-miss, CONTINGENT)"},
+      {"idea_id": "P3R2-D-12", "blind": null, "old": 21, "new": null, "delta_new_minus_old": null, "note": "NEW near-miss (repair-bound, L14 lane cap); BLIND not selected (PHYSICS-OPT)"},
+      {"idea_id": "P3R2-F-23", "blind": null, "old": 22, "new": 23, "delta_new_minus_old": 1, "note": "BLIND not selected (CONTINGENT)"},
+      {"idea_id": "P3R2-F-06", "blind": null, "old": 23, "new": null, "delta_new_minus_old": null, "note": "NEW P4 score-cut at 59.5"},
+      {"idea_id": "P3R2-F-03", "blind": null, "old": 24, "new": null, "delta_new_minus_old": null, "note": "NEW P4 score-cut at 58.3"},
+      {"idea_id": "P3R2-C-05", "blind": 2, "old": null, "new": 3, "delta_new_minus_old": null, "note": "OLD P4 G7 kill at 67.4"},
+      {"idea_id": "P3R2-D-10", "blind": 14, "old": null, "new": 4, "delta_new_minus_old": null, "note": "OLD P4 G7 kill at 73.4 (highest-scored old kill)"},
+      {"idea_id": "P3R2-A-05", "blind": 17, "old": null, "new": 11, "delta_new_minus_old": null, "note": "OLD P4 survivor 63.2, P5 KILL (82% kill prob)"},
+      {"idea_id": "P3R2-C-09", "blind": 4, "old": null, "new": 12, "delta_new_minus_old": null, "note": "OLD P4 G7 kill 64.4; P5 revival re-killed at 52.2"},
+      {"idea_id": "P3R2-D-09", "blind": 23, "old": null, "new": 17, "delta_new_minus_old": null, "note": "OLD P4 G1+G7 kill at 58.2"},
+      {"idea_id": "P3R2-A-22", "blind": null, "old": null, "new": 18, "delta_new_minus_old": null, "note": "OLD P4 survivor 61.0, P5 KILL (90%); BLIND not selected (CONTINGENT, preferred C-14)"},
+      {"idea_id": "P3R2-D-19", "blind": null, "old": null, "new": 20, "delta_new_minus_old": null, "note": "OLD P4 survivor 60.4, P5 HOLD; BLIND not selected (CONTINGENT, near-miss)"},
+      {"idea_id": "P3R2-F-16", "blind": null, "old": null, "new": 21, "delta_new_minus_old": null, "note": "OLD P4 G7 kill 57.4 and P5 near-miss re-kill; BLIND not selected (INCUMBENT)"},
+      {"idea_id": "P3R2-F-19", "blind": null, "old": null, "new": 22, "delta_new_minus_old": null, "note": "OLD P4 G1+G4+G7 kill at 36.6 — the largest single reversal in the corpus"},
+      {"idea_id": "P3R2-D-16", "blind": null, "old": null, "new": 24, "delta_new_minus_old": null, "note": "OLD P4 survivor 56.2, P5 KILL; BLIND not selected (PROGRAM)"},
+      {"idea_id": "P3R2-E-01", "blind": 1, "old": null, "new": null, "delta_new_minus_old": null, "note": "SEM-01; rejected pre-longlist by old06 elegance adjudication, never in NEW universe"},
+      {"idea_id": "P3R2-C-07", "blind": 10, "old": null, "new": null, "delta_new_minus_old": null, "note": "OLD P4 G7 kill at 60.0; NEW gates-clean 61.6 but first excluded below the 30-survivor cut"},
+      {"idea_id": "P3R2-E-10", "blind": 12, "old": null, "new": null, "delta_new_minus_old": null, "note": "SEM-03; not on frozen longlist"},
+      {"idea_id": "P3R2-C-14", "blind": 13, "old": null, "new": null, "delta_new_minus_old": null, "note": "elegance REJECT (no duplicate); not on frozen longlist"},
+      {"idea_id": "P3R2-C-15", "blind": 18, "old": null, "new": null, "delta_new_minus_old": null, "note": "SEM-04; not on frozen longlist"},
+      {"idea_id": "P3R2-A-02", "blind": 19, "old": null, "new": null, "delta_new_minus_old": null, "note": "OLD P4 survivor 55.2, P5 KILL (82%); NEW survivor 64.8 but selection near-miss"},
+      {"idea_id": "P3R2-C-12", "blind": 22, "old": null, "new": null, "delta_new_minus_old": null, "note": "OLD P4 G1+G7 kill 44.4; NEW gates-clean 54.9 but cut — gate verdict flipped, membership did not"}
+    ]
+  },
+  "decision_change_table": {
+    "old_kill_to_new_select": [
+      {"idea_id": "P3R2-C-05", "old": "P4 G7 kill at 67.4 ('qualification gap already active; no primary/official 2028-2035 trigger; credible path for OCP or vendor labs to standardize before 2030')", "new": "rank 3, deep dive D03, score 78.3 (Deschutes buyer-authored OCP spec + 8-vendor ecosystem + no complete conformance method)", "blind": "rank 2", "verified": "DIS-C05"},
+      {"idea_id": "P3R2-D-10", "old": "P4 G7 kill at 73.4 ('procurement and prime buy-vs-build decisions occur 2026-2028; a 2030 company misses the design slot')", "new": "rank 4, deep dive D04, score 78.7 (JLWS awards executed; Navy beam-control line item awarding from Q4-2026)", "blind": "rank 14", "verified": "DIS-D10"},
+      {"idea_id": "P3R2-C-09", "old": "P4 G7 kill 64.4 ('EtO pressure premise moving in the wrong direction; incumbents expanding; CGN Entity-List-adjacency') + P5 revival re-killed at 52.2 (stale CEPC schedule)", "new": "rank 12, deep dive D09, score 72.0 (dated cargo/isotope procurement; ScandiNova moving toward MORE proprietary integration)", "blind": "rank 4", "verified": "DIS-C09"},
+      {"idea_id": "P3R2-D-09", "old": "P4 G1+G7 kill at 58.2 (sole exact-category procurement expired; no official trigger)", "new": "rank 17, score 67.4 (two 2025 BCT-failure papers; NCI contract-vehicle purchase)", "blind": "rank 23", "verified": "not web-verified this run (below top-set criticality)"},
+      {"idea_id": "P3R2-F-16", "old": "P4 G7 kill at 57.4 + P5 near-miss re-kill ('exact incumbent equipment closes both gates')", "new": "rank 21, score 64.8 (two CN tenders in three months; no closed-loop treat-to-spec incumbent)", "blind": "not selected (INCUMBENT)", "verified": "not web-verified this run"},
+      {"idea_id": "P3R2-F-19", "old": "P4 G1+G4+G7 kill at 36.6 (Ecolab/CoolIT acquisition tripped the seed's own kill condition)", "new": "rank 22, score 64.6 (fluid mid-life 2030; incumbent confirms no CDU-failure standard)", "blind": "not selected (WEAK-EV, near-miss)", "verified": "not web-verified this run; the old-vs-new score swing of +28.0 is the corpus's largest"}
+    ],
+    "old_p5_kill_to_new_select": [
+      {"idea_id": "P3R2-A-05", "old": "P4 survivor 63.2; P5 KILL (82% kill probability, suggested 39.8, G1/G7)", "new": "rank 11, score 72.1 (EIC long-lead procurement approved; PIP-II completes 2028; sole-source SAES bottleneck)", "blind": "rank 17"},
+      {"idea_id": "P3R2-A-22", "old": "P4 survivor 61.0; P5 KILL (90%, G2/G4/G7)", "new": "rank 18, score 66.9 (AFFF statutory deadline 2026-10; Success-Memo pathway)", "blind": "not selected (CONTINGENT)"},
+      {"idea_id": "P3R2-D-19", "old": "P4 survivor 60.4; P5 HOLD", "new": "rank 20, score 64.9 (named 400MW off-grid AI plant procured flywheel stabilization)", "blind": "not selected (CONTINGENT, near-miss)"},
+      {"idea_id": "P3R2-D-16", "old": "P4 survivor 56.2; P5 KILL (88%, G4 fail)", "new": "rank 24, score 63.0 (NSTM-3 directs funded multivendor FSP program)", "blind": "not selected (PROGRAM)"}
+    ],
+    "old_select_to_new_absent": [
+      {"idea_id": "P5-USSCI2-S01", "old_rank": 6, "new_fate": "never a candidate — post-longlist P5 supplemental excluded by NEW's frozen-longlist universe", "blind_fate": "never a candidate (not in 126-ID pool)"},
+      {"idea_id": "P5R2-CN-01", "old_rank": 8, "new_fate": "never a candidate (same)", "blind_fate": "never a candidate"},
+      {"idea_id": "P5R2-CN-03", "old_rank": 14, "new_fate": "never a candidate (same)", "blind_fate": "never a candidate"},
+      {"idea_id": "P3R2-B-01", "old_rank": 12, "new_fate": "P4 survivor 64.8; selection near-miss (C-04 thesis overlap, one-slot rule)", "blind_fate": "absorbed into C-04 (SEM-02)"},
+      {"idea_id": "P3R2-F-02", "old_rank": 15, "new_fate": "P4 score-cut at 59.4 (below 62.7 survivor cut)", "blind_fate": "selected rank 16 — BLIND+OLD agree against NEW here"},
+      {"idea_id": "P3R2-F-12", "old_rank": 17, "new_fate": "P4 score-cut at 56.0", "blind_fate": "not selected (ACCESS)"},
+      {"idea_id": "P3R2-G-01", "old_rank": 18, "new_fate": "P4 G1 kill — refresh found CEPC excluded from the 15th Five-Year Plan, negating the anchor trigger", "blind_fate": "not selected (ACCESS + PROGRAM, citing the same CEPC-lumpiness defect)"},
+      {"idea_id": "P3R2-D-12", "old_rank": 21, "new_fate": "P4 survivor 64.9; selection near-miss (EHD research-only; fluid-intersection unsolved; L14 cap)", "blind_fate": "not selected (PHYSICS-OPT)"},
+      {"idea_id": "P3R2-F-06", "old_rank": 23, "new_fate": "P4 score-cut at 59.5", "blind_fate": "not selected (CONTINGENT + INCUMBENT)"},
+      {"idea_id": "P3R2-F-03", "old_rank": 24, "new_fate": "P4 score-cut at 58.3", "blind_fate": "not selected (INCUMBENT)"}
+    ],
+    "gate_verdict_flips_without_membership_change": [
+      {"idea_id": "P3R2-C-07", "old": "G7 kill at 60.0", "new": "gates clean at 61.6, first excluded below the survivor cut; electrowinning fallback recorded for reconsideration", "blind": "rank 10 — the sharpest BLIND-vs-both divergence", "verified": "DIS-C07"},
+      {"idea_id": "P3R2-C-12", "old": "G1+G7 kill at 44.4", "new": "gates clean at 54.9, cut on score", "blind": "rank 22"}
+    ]
+  },
+  "disagreement_register": [
+    {
+      "id": "DIS-C05-OCP-DESCHUTES",
+      "subject": "P3R2-C-05 liquid-cooling conformance metrology: OLD killed at P4 G7 (67.4); NEW selected rank 3 + deep dive; BLIND independently rank 2.",
+      "status": "VERIFIED (deepened re-check of the pilot finding)",
+      "opened_primary_sources": 2,
+      "findings": [
+        "Google contributed the Project Deschutes CDU to OCP and published the spec ('ocp-specification-deschutes-final-2025-09-05') and design collateral; seven suppliers named (Boyd, CoolerMaster, Delta, Envicool, Nidec, nVent, Vertiv) demoing at OCP Global Summit and SC25 — RE-VERIFIED by reopening the Google Cloud blog post of 2025-10-13 in full (C05-DIS-01).",
+        "Nidec's own release confirms a Deschutes-spec-compliant 2 MW-class, 80 PSI prototype CDU with IEEE-519 ULHD VFD, exhibited at SC25 (Nov 2025) — RE-VERIFIED by reopening (C05-DIS-02). Page date remains ambiguous (displayed 03/12/2025; URL news1203 and SC25 content imply 2025-12-03).",
+        "OCP spec PDF re-attempted this run: still HTTP 403 — remains EXISTENCE-ONLY via the hyperlink inside the opened Google post (C05-DIS-03).",
+        "Fresh search surfaced OCP's 'Liquid to Liquid CDU Test Methodology' performance-rating WHITE PAPER and the CDU sub-project page; both returned HTTP 403 on direct fetch (C05-DIS-04, C05-DIS-05). The negative claim ('no complete conformance program with reference hardware') therefore stays PARTIALLY VERIFIED at discovery level: a test-methodology white paper exists, which matches new06 D03's own narrow wording but was not confirmed by opening OCP pages.",
+        "new06's '8 named vendors': Google's own blog names seven; the eighth (Stulz) remains trade-press/discovery-level only (DCD page 403 in pilot; not re-attempted)."
+      ],
+      "adjudication": "New06's factual predicate for the revival is substantively correct on opened primary evidence; old06's kill rested partly on a forecast (OCP/vendor labs closing the gap before 2030) not materialized as of the 2026 refresh and partly on strict gate construction. BLIND rank 2 and NEW rank 3 converge. Confidence: HIGH on Deschutes ecosystem facts; MODERATE on the OCP-vacuum negative claim; MODERATE-TO-HIGH that the old kill was factually wrong.",
+      "source_rows": ["C05-DIS-01", "C05-DIS-02", "C05-DIS-03", "C05-DIS-04", "C05-DIS-05"]
+    },
+    {
+      "id": "DIS-D10-JLWS-BEAMCONTROL",
+      "subject": "P3R2-D-10 coherent-beam-combining phase-control engine: OLD killed at P4 G7 despite its highest kill score (73.4); NEW selected rank 4 + deep dive; BLIND rank 14. Top-set membership flips between OLD (absent) and NEW (rank 4, deep-dived).",
+      "status": "VERIFIED",
+      "opened_primary_sources": 3,
+      "findings": [
+        "JLWS OTAs were awarded 2026-07-09: Lockheed Martin (500 kW containerized JLWS; own release opened, D10-DIS-01) and nLIGHT ($44M initial / $627M ceiling; own release opened, D10-DIS-02). Combined ceiling reported at $847M (announcement coverage).",
+        "nLIGHT's release states initial ~150 kW prototypes scaling to 300-500 kW, operational demonstrations 'as early as 2028', and that nLIGHT will leverage 'proprietary coherent beam combination and atmospheric correction technology' within a 'vertically integrated manufacturing approach' — direct primary evidence that the awardee holds the phase-control layer IN-HOUSE.",
+        "Navy plans $31.7M JBCS (Joint Beam Control System) development awards as soon as Q4 2026 plus ~$30M containerized-hardware procurement by March 2027, per the Navy FY2027 budget request; JLWS R&D roadmap extends through FY2031; the 2028 demo is 'the early stages of a fielding process' (Military Times, opened, citing the budget request — trade press, not the budget book itself; D10-DIS-03)."
+      ],
+      "adjudication": "Both sides' facts verify; the dispute is inference. OLD's claim that decisions concentrate in 2026-2028 is TRUE (awards 2026-07-09; JBCS Q4-2026), but its absolute kill is overstated: the funded roadmap runs through FY2031 with production options, so subsystem demand persists past 2030. NEW's revival is directionally supported, but its rank-4 merchant-socket premise is weakened by the opened primary evidence that JLWS awardee nLIGHT holds coherent beam combining as proprietary vertically-integrated technology — exactly the internalization risk OLD and BLIND both flagged. BLIND's mid-rank 14 (select, with prime-internalization as principal risk and geographic-portability heavily discounted) is the best-calibrated of the three dispositions on current evidence. Confidence: HIGH on facts; MODERATE on the adjudication that 'select mid-rank' is the correct disposition.",
+      "source_rows": ["D10-DIS-01", "D10-DIS-02", "D10-DIS-03"]
+    },
+    {
+      "id": "DIS-C09-ETO-SCANDINOVA-CARGO",
+      "subject": "P3R2-C-09 standardized solid-state pulsed-power platform: OLD double-killed (P4 G7 64.4; P5 revival re-kill 52.2); NEW selected rank 12 + deep dive; BLIND rank 4 (top-set membership flips in all three directions).",
+      "status": "VERIFIED",
+      "opened_primary_sources": 3,
+      "findings": [
+        "EtO regulatory direction: EPA's 2026-03-13 news release (opened, C09-DIS-02) proposes rescinding the risk-based standards of the 2024 EtO NESHAP, removing CEMS requirements and granting flexibility; a July 2025 Presidential proclamation had already exempted 22 facilities for 2 years (search corroboration). This CONFIRMS old06's 'EtO pressure moving in the wrong direction' premise and new06's D-08 kill rationale ('EtO NESHAP repeal proposed').",
+        "ScandiNova integration posture: ScandiNova's own news (opened, C09-DIS-01) documents the Microwave Amps acquisition with CEO quote 'this acquisition perfectly aligns with our strategy of enhancing our position in integrated power systems' — plus search-level 2025 turnkey RF unit with integrated Libera LLRF. Direction ('more proprietary integration') SUPPORTED by manufacturer primary (the specific acquisition is 2023-06-02, so 'moving toward' is a multi-year trend, not a 2026 event).",
+        "Cargo-scanning procurement: OSI Systems/Rapiscan release of 2026-05-14 (opened, C09-DIS-03) — ~$15M U.S. government task order for cargo and vehicle inspection systems with follow-on service; additional 2025-2026 orders ($10M, $19M, $50M) visible at search level (C09-DIS-04 not opened, timeout). Confirms live, dated cargo-NII procurement."
+      ],
+      "adjudication": "The verified record splits the difference. OLD's EtO-direction premise was RIGHT (now confirmed by EPA's own proposal), so BLIND's rank 4 — which leans on the record's EtO-replacement backlog leg — is too high on current facts; blindness to 2025-2026 regulatory reversal is the cause. But OLD's total kill was too absolute: the non-EtO demand legs (cargo NII, isotope/accelerator) are real and dated, and the incumbent's integrated-systems strategy leaves the interoperable-module position open, which is what NEW's rank-12 revival actually claims. NEW's mid-pack selection is the best-supported disposition. Confidence: HIGH on all three verified facts; MODERATE-TO-HIGH on the adjudication (select, mid-rank, non-EtO-led).",
+      "source_rows": ["C09-DIS-01", "C09-DIS-02", "C09-DIS-03", "C09-DIS-04"]
+    },
+    {
+      "id": "DIS-C07-45V-INGETEAM",
+      "subject": "P3R2-C-07 low-ripple AFE rectification retrofits: BLIND top-10 (rank 10) vs OLD P4 G7 kill (60.0) vs NEW gates-clean-but-cut (61.6, first excluded). The only BLIND top-10 member rejected by BOTH baselines — the disagreement most likely to expose a BLIND error.",
+      "status": "VERIFIED",
+      "opened_primary_sources": 2,
+      "findings": [
+        "US hydrogen window: 26 USC 45V(c)(3)(A) as amended now requires qualified clean-hydrogen facilities to begin construction before January 1, 2028 (previously January 1, 2033), amended by Public Law 119-21 section 70511, enacted 2025-07-04 (uscode.house.gov, opened, C07-DIS-01). This is exactly old06's 'window pulled forward to a 2027 construction-start deadline'.",
+        "Incumbent AFE occupancy: Ingeteam's own press item (opened, C07-DIS-02) shows the INGECON H2 FSK E12000 IGBT electrolyser rectifier with harmonic distortion 'less than 3%' (no extra filters/STATCOM needed), 12,000-15,860 Adc, commercial deliveries from September 2023; search-level: >600 MW rectifiers deployed, 36 kA containerized 'Megalyzer' (C07-DIS-03, not opened). The low-ripple transistor-rectification category C-07 targets is already merchant-served by an incumbent."
+      ],
+      "adjudication": "Old06's two load-bearing kill facts verify on primary sources. The hydrogen leg of a 2030-launch retrofit thesis is structurally impaired (new-build credit-eligible plants must be under construction by end-2027), and the 'AFE technology category' is occupied by shipping incumbent product — which A10's own record acknowledged (edge score 3, Sungrow-parity kill trigger) but underweighted. BLIND's electrowinning-first hedge partially anticipates this, but top-10 membership is not supported by current facts; both baselines' rejection (kill or cut) is better calibrated. This is the clearest identified BLIND ranking error, attributable to the web-free protocol operating on record-vintage facts. Confidence: HIGH.",
+      "source_rows": ["C07-DIS-01", "C07-DIS-02", "C07-DIS-03"]
+    }
+  ],
+  "unresolved_issues": [
+    "opencompute.org blocks all direct fetches (HTTP 403 on spec PDF, white paper, community page — retried this run). The OCP-conformance-vacuum negative claim remains discovery-level; Operation B should obtain OCP primary documents via an OCP account or mirror.",
+    "Nidec release date remains ambiguous (displayed 03/12/2025; URL and SC25 content imply 2025-12-03); content claims verified, date recorded as uncertain.",
+    "Lockheed Martin JLWS release URL slug reads '2025-09-07' while the opened page is dated 2026-07-09 (matching independent coverage); recorded as 2026-07-09 with the slug anomaly disclosed.",
+    "The Navy JBCS line item is verified only via trade press quoting the FY2027 budget request; the budget justification book itself was not opened.",
+    "The eighth Deschutes vendor (Stulz) remains trade/discovery-level.",
+    "new06's refresh source R10-023 (sector-signals.net 'OCP Liquid Cooling Standardization') is an unfamiliar outlet backing part of the C-05 OCP-status claim; not independently established, flagged for Operation B replacement with primaries.",
+    "D-09, F-16, F-19, and the four old-P5-kill revivals (A-05, A-22, D-19, D-16) were mapped but not web-verified this run; F-19's +28.0 score swing (36.6 -> 64.6) is the largest unverified reversal.",
+    "new06's own runtime model/effort provenance is unaudited (A20 covered old06 only); all NEW-side agreement is content agreement, not provenance evidence.",
+    "Old06 matrix score_totals are P5-adjusted and differ from P4 totals (e.g., D-02 65.6 vs 76.6); both were transcribed as labeled, but old06's internal adjustment method is itself CONTRADICTED-provenance work."
+  ],
+  "provenance_conditioning": {
+    "per_A20": "outputs/A20_prov/attempt-1/PROVENANCE.md",
+    "old06_decision_layer": "CONTRADICTED — the P4 scores and G7 kills, P5 red teams and revival kills, the final 24/top 10, and all deep dives were produced in the ChatGPT continuation with actual model and effort unknown; any Fable/xhigh label on them is contradicted by the corpus's own logs.",
+    "old06_record_layer": "PARTIAL_PROVENANCE — the idea records and frozen longlist are Fable-5 runtime-model-verified; effort was requested (xhigh) but never observed.",
+    "new06": "Not audited by this package; treated as fresh content only.",
+    "consequences": [
+      "BLIND-vs-OLD disagreements are NOT 'Fable disagreeing with Fable'; the old decision layer has unknown authorship.",
+      "Overlap with OLD confers no provenance on anything and vice versa.",
+      "BLIND-vs-NEW convergence (16/24, 17/24 semantic) is the strongest agreement signal available, but both consumed descendants of the same record base, so it is convergence of judgment given shared inputs plus NEW's fresh web evidence — agreement evidence, never proof of correctness or of historical authorship."
+    ]
+  }
+}

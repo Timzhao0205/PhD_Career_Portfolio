@@ -1,0 +1,502 @@
+[
+  {
+    "id": "TST-S001",
+    "title": "Fixture source 1",
+    "url": "https://example.com/1",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S002",
+    "title": "Fixture source 2",
+    "url": "https://example.com/2",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S003",
+    "title": "Fixture source 3",
+    "url": "https://example.com/3",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S004",
+    "title": "Fixture source 4",
+    "url": "https://example.com/4",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S005",
+    "title": "Fixture source 5",
+    "url": "https://example.com/5",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S006",
+    "title": "Fixture source 6",
+    "url": "https://example.com/6",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S007",
+    "title": "Fixture source 7",
+    "url": "https://example.com/7",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S008",
+    "title": "Fixture source 8",
+    "url": "https://example.com/8",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": true,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S009",
+    "title": "Fixture source 9",
+    "url": "https://example.com/9",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S010",
+    "title": "Fixture source 10",
+    "url": "https://example.com/10",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": true,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S011",
+    "title": "Fixture source 11",
+    "url": "https://example.com/11",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S012",
+    "title": "Fixture source 12",
+    "url": "https://example.com/12",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S013",
+    "title": "Fixture source 13",
+    "url": "https://example.com/13",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S014",
+    "title": "Fixture source 14",
+    "url": "https://example.com/14",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S015",
+    "title": "Fixture source 15",
+    "url": "https://example.com/15",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S016",
+    "title": "Fixture source 16",
+    "url": "https://example.com/16",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S017",
+    "title": "Fixture source 17",
+    "url": "https://example.com/17",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S018",
+    "title": "Fixture source 18",
+    "url": "https://example.com/18",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S019",
+    "title": "Fixture source 19",
+    "url": "https://example.com/19",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S020",
+    "title": "Fixture source 20",
+    "url": "https://example.com/20",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S021",
+    "title": "Fixture source 21",
+    "url": "https://example.com/21",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S022",
+    "title": "Fixture source 22",
+    "url": "https://example.com/22",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S023",
+    "title": "Fixture source 23",
+    "url": "https://example.com/23",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S024",
+    "title": "Fixture source 24",
+    "url": "https://example.com/24",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  },
+  {
+    "id": "TST-S025",
+    "title": "Fixture source 25",
+    "url": "https://example.com/25",
+    "publisher": "Fixture",
+    "published_at": "2026-01-01",
+    "accessed_at": "2026-07-27",
+    "source_type": "fixture",
+    "peer_reviewed": false,
+    "primary_demand": false,
+    "geography": [
+      "US"
+    ],
+    "claim_supported": "fixture",
+    "locator": "fixture",
+    "access_level": "open",
+    "accepted": true,
+    "india_origin_status": "not_applicable_nonacademic",
+    "non_indian_affiliation_evidence": "fixture"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "route_id": "F06_INTERACTIVE_NOCAP_PS51_V1",
+  "execution_surface": "claude_code_interactive",
+  "main_session": {
+    "model": "fable",
+    "required_family": "Fable 5",
+    "effort": "xhigh",
+    "permission_mode": "bypassPermissions",
+    "session_persistence": true,
+    "monetary_stop": null,
+    "turn_limit": null,
+    "time_limit": null
+  },
+  "auxiliary_agents": [
+    {
+      "name": "source-retriever",
+      "model": "sonnet",
+      "effort": "high",
+      "role": "retrieval_and_extraction_only"
+    },
+    {
+      "name": "mechanical-auditor",
+      "model": "sonnet",
+      "effort": "high",
+      "role": "read_only_mechanical_checks_only"
+    }
+  ],
+  "launch_horizon": 2030,
+  "stages": [
+    {
+      "name": "10_refresh",
+      "phase": "P4 evidence refresh",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["source-retriever"],
+      "pilot_required": true,
+      "prompt": "prompts/10_refresh.md"
+    },
+    {
+      "name": "20_p4",
+      "phase": "P4 scoring and calibration",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["mechanical-auditor"],
+      "pilot_required": true,
+      "prompt": "prompts/20_p4.md"
+    },
+    {
+      "name": "30_redteam",
+      "phase": "P5 adversarial review",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["source-retriever"],
+      "pilot_required": true,
+      "prompt": "prompts/30_redteam.md"
+    },
+    {
+      "name": "40_select",
+      "phase": "P5 portfolio adjudication",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["mechanical-auditor"],
+      "pilot_required": true,
+      "prompt": "prompts/40_select.md"
+    },
+    {
+      "name": "45_packs",
+      "phase": "P6 source-pack construction",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["source-retriever", "mechanical-auditor"],
+      "pilot_required": true,
+      "prompt": "prompts/45_packs.md"
+    },
+    {
+      "name": "50_deep",
+      "phase": "P6 deep dives and geography",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["source-retriever", "mechanical-auditor"],
+      "pilot_required": true,
+      "prompt": "prompts/50_deep.md"
+    },
+    {
+      "name": "60_synth",
+      "phase": "P7 portfolio synthesis",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["mechanical-auditor"],
+      "pilot_required": true,
+      "prompt": "prompts/60_synth.md"
+    },
+    {
+      "name": "70_audit",
+      "phase": "P8 independent adjudication",
+      "main_final_model": "fable",
+      "effort": "xhigh",
+      "auxiliary_allowed": ["source-retriever", "mechanical-auditor"],
+      "pilot_required": true,
+      "prompt": "prompts/70_audit.md"
+    }
+  ]
+}
+

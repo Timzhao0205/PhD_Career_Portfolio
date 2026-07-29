@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980">
+  <defs>
+    <style>
+      .title{font:700 28px Arial;fill:#12243a}.h{font:700 18px Arial;fill:#12243a}.t{font:14px Arial;fill:#1f2937}.s{font:12px Arial;fill:#475569}.ti{fill:#cbd5e1;stroke:#334155;stroke-width:2}.zr{fill:#fff7cc;stroke:#8a6d00;stroke-width:2}.cart{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2}.clamp{fill:none;stroke:#475569;stroke-width:7}.nut{fill:#e2e8f0;stroke:#334155;stroke-width:1.5}.keep{fill:#f1f5f9;stroke:#475569;stroke-width:1.5}.env{fill:none;stroke:#dc2626;stroke-width:2;stroke-dasharray:9 6}.corr{fill:#dcfce7;stroke:#15803d;stroke-width:2;stroke-dasharray:5 4}.dim{stroke:#0f766e;stroke-width:1.6;fill:none}.load{stroke:#7c3aed;stroke-width:4;fill:none}.vent{stroke:#0284c7;stroke-width:2;stroke-dasharray:5 4}.hold{fill:#fff7ed;stroke:#c2410c;stroke-width:2}.pass{fill:#ecfdf5;stroke:#047857;stroke-width:2}.axis{stroke:#64748b;stroke-width:2}.thin{stroke:#94a3b8;stroke-width:1.2}
+    </style>
+    <marker id="d" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#0f766e"/></marker>
+    <marker id="l" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#7c3aed"/></marker>
+  </defs>
+  <rect width="1500" height="980" fill="white"/>
+  <text x="45" y="48" class="title">CORRECTED CONCEPT A — IDENTICAL ZIRCONIA SEATS IN CONNECTED CP-Ti CAGE</text>
+  <text x="45" y="76" class="t">Final procurement direction only. CAD is NOT FOR FABRICATION. All dimensions are finished mm.</text>
+
+  <text x="55" y="118" class="h">A. Top envelope / negative-edge hardware</text>
+  <circle cx="310" cy="365" r="244" class="env"/>
+  <text x="310" y="105" class="t" text-anchor="middle">hard Ø31.750 envelope</text>
+  <rect x="194" y="249" width="232" height="232" rx="5" class="ti"/>
+  <rect x="238" y="293" width="144" height="144" class="zr"/>
+  <rect x="220" y="275" width="180" height="180" class="cart" opacity="0.62"/>
+  <rect x="180" y="235" width="260" height="260" class="clamp"/>
+  <rect x="170" y="264" width="34" height="202" class="ti"/>
+  <rect x="264" y="170" width="202" height="34" class="ti"/>
+  <rect x="182" y="302" width="22" height="34" class="nut"/><rect x="182" y="394" width="22" height="34" class="nut"/>
+  <rect x="302" y="182" width="34" height="22" class="nut"/><rect x="394" y="182" width="34" height="22" class="nut"/>
+  <rect x="163" y="299" width="7" height="40" class="keep"/><rect x="163" y="391" width="7" height="40" class="keep"/>
+  <rect x="299" y="163" width="40" height="7" class="keep"/><rect x="391" y="163" width="40" height="7" class="keep"/>
+  <rect x="150" y="440" width="58" height="58" class="corr"/><rect x="412" y="440" width="58" height="58" class="corr"/><rect x="150" y="205" width="58" height="58" class="corr"/>
+  <text x="179" y="472" class="s" text-anchor="middle">3.80</text><text x="441" y="472" class="s" text-anchor="middle">3.80</text><text x="179" y="237" class="s" text-anchor="middle">3.80</text>
+  <line x1="66" y1="365" x2="554" y2="365" class="dim"/><path d="M66 365 L74 361 L74 369 z" fill="#0f766e"/><path d="M554 365 L546 361 L546 369 z" fill="#0f766e"/>
+  <text x="310" y="355" class="t" text-anchor="middle">physical bbox ±10.150; conservative radius 14.354</text>
+  <text x="77" y="532" class="s">Four continuous reaction rails shown schematically; all six face screws remain on unused negative edges.</text>
+
+  <text x="620" y="118" class="h">B. Section through one serviced face</text>
+  <rect x="650" y="170" width="70" height="365" class="ti"/>
+  <text x="684" y="557" class="s" text-anchor="middle">connected cage/backframe</text>
+  <rect x="720" y="215" width="35" height="275" class="zr"/>
+  <text x="737" y="200" class="s" text-anchor="middle">1.00 seat</text>
+  <rect x="755" y="245" width="150" height="215" class="cart"/>
+  <rect x="785" y="285" width="90" height="115" fill="white" stroke="#1d4ed8"/>
+  <text x="830" y="342" class="t" text-anchor="middle">bonded die +</text><text x="830" y="365" class="t" text-anchor="middle">LCC + fanout</text>
+  <path d="M750 225 L910 225 L910 480 L750 480" class="clamp"/>
+  <rect x="690" y="175" width="30" height="42" class="nut"/>
+  <rect x="683" y="167" width="44" height="8" class="keep"/>
+  <line x1="705" y1="196" x2="955" y2="196" stroke="#334155" stroke-width="7"/>
+  <circle cx="955" cy="196" r="17" class="ti"/>
+  <path d="M955 196 L905 196 L905 245 L755 245 L720 245 L690 196 L650 196" class="load" marker-end="url(#l)"/>
+  <text x="960" y="173" class="s">external screw head</text>
+  <text x="780" y="515" class="t">Primary load: head → clamp/hard stop → seat backframe</text>
+  <text x="780" y="538" class="t">→ one-piece cage. Electrical joints are outside this path.</text>
+  <text x="780" y="562" class="s">Nut keeper prevents service drop but carries no clamp reaction.</text>
+  <path d="M690 217 L670 242 L690 267" class="vent"/><text x="628" y="285" class="s">open nut slot / vent</text>
+
+  <text x="620" y="615" class="h">C. Axes, height and service</text>
+  <line x1="690" y1="840" x2="690" y2="655" class="axis"/><line x1="690" y1="840" x2="850" y2="840" class="axis"/><line x1="690" y1="840" x2="610" y2="905" class="axis"/>
+  <text x="700" y="670" class="t">+Z tool</text><text x="820" y="862" class="t">+X tool</text><text x="585" y="928" class="t">+Y tool</text>
+  <rect x="750" y="735" width="90" height="90" class="zr"/><rect x="850" y="735" width="90" height="90" class="cart"/><rect x="750" y="635" width="90" height="85" class="cart"/>
+  <path d="M895 780 L1040 780" class="dim" marker-end="url(#d)"/><text x="930" y="766" class="s">remove X only</text>
+  <path d="M795 675 L795 625" class="dim" marker-end="url(#d)"/><text x="805" y="645" class="s">remove Z only</text>
+  <text x="750" y="873" class="s">One face: remove its two screws and clamp; support cartridge in jig.</text>
+  <text x="750" y="895" class="s">Disconnect its remote pigtail, then withdraw normal to that face.</text>
+  <text x="750" y="917" class="s">Other two axes remain installed and instrumented.</text>
+  <line x1="1090" y1="635" x2="1090" y2="825" class="dim"/><path d="M1090 635 L1086 643 L1094 643 z" fill="#0f766e"/><path d="M1090 825 L1086 817 L1094 817 z" fill="#0f766e"/>
+  <text x="1110" y="700" class="t">26.750 nominal</text><text x="1110" y="725" class="t">27.160 proposed worst</text><text x="1110" y="750" class="t">27.500 hard limit</text>
+
+  <rect x="1160" y="120" width="295" height="390" rx="10" class="pass"/>
+  <text x="1180" y="152" class="h">Controlled design disclosures</text>
+  <text x="1180" y="185" class="t">Tapped ceramic threads: 0</text>
+  <text x="1180" y="214" class="t">Unique ceramic geometries: 1</text>
+  <text x="1180" y="243" class="t">Identical seat quantity: 3</text>
+  <text x="1180" y="272" class="t">Modeled physical solids: 39</text>
+  <text x="1180" y="301" class="t">Connected cage solids: 1</text>
+  <text x="1180" y="330" class="t">Nut reaction contacts: 6 / 6</text>
+  <text x="1180" y="359" class="t">Unintended overlap: 0.000000 mm³</text>
+  <text x="1180" y="388" class="t">Cable stack: 3.30 in 3.80 corridor</text>
+  <text x="1180" y="417" class="t">Post-fire proposal: flat grind/lap,</text>
+  <text x="1180" y="440" class="t">window/notch finish; no tapping</text>
+  <text x="1180" y="472" class="s">Verified by 50_CAD_KERNEL_REPORT.txt.</text>
+  <text x="1180" y="494" class="s">All production tolerances remain gated.</text>
+
+  <rect x="1160" y="540" width="295" height="360" rx="10" class="hold"/>
+  <text x="1180" y="572" class="h">HOLD — DO NOT FABRICATE</text>
+  <text x="1180" y="603" class="t">• exact feedthrough/UW datum</text>
+  <text x="1180" y="632" class="t">• zirconia process, radii and GD&amp;T</text>
+  <text x="1180" y="661" class="t">• exact Ti grade/form/finish</text>
+  <text x="1180" y="690" class="t">• flexure force/contact stress/life</text>
+  <text x="1180" y="719" class="t">• nut-keeper retention and galling</text>
+  <text x="1180" y="748" class="t">• delivered cable, bend and clamp</text>
+  <text x="1180" y="777" class="t">• measured bond-loop guard</text>
+  <text x="1180" y="806" class="t">• pump-down and service trial</text>
+  <text x="1180" y="844" class="s">Use 50A_FINAL_NFF.step only as</text>
+  <text x="1180" y="866" class="s">architecture/clearance evidence.</text>
+  <text x="45" y="955" class="s">Drawing 50_final_corrected_package.svg — corrected topology and disclosure drawing; not a manufacturing drawing.</text>
+</svg>

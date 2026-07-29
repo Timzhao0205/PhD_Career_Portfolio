@@ -1,0 +1,14 @@
+{
+  "stage": "70_audit",
+  "status": "COMPLETE",
+  "outputs": [
+    "FINAL",
+    "AUDIT.json",
+    "AUDIT.md",
+    "CHANGELOG.md"
+  ],
+  "checks": {
+    "fixture": true
+  },
+  "audit_verdict": "PASS"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "agent": "pap06-controller",
+  "model": "fable",
+  "effortLevel": "xhigh",
+  "availableModels": [
+    "fable",
+    "sonnet"
+  ],
+  "enforceAvailableModels": true,
+  "fallbackModel": [],
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "deny": [
+      "Bash",
+      "PowerShell"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": ""
+  },
+  "fileCheckpointingEnabled": true,
+  "awaySummaryEnabled": true,
+  "viewMode": "verbose",
+  "disableAllHooks": true,
+  "disableArtifact": true,
+  "disableWorkflows": true
+}

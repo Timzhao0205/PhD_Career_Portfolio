@@ -1,0 +1,2585 @@
+{
+  "artifact": "P8_SOURCE_ID_DEDUPE",
+  "status": "complete",
+  "rows_before": 1487,
+  "rows_after": 1289,
+  "duplicate_ids_collapsed": 198,
+  "extra_rows_removed": 198,
+  "policy": "Choose the sole accepted row when present; otherwise retain the richest fetched/audited rejected record. No ID had multiple accepted rows.",
+  "collisions": [
+    {
+      "source_id": "L01-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/catal15090846",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.mdpi.com/2073-4344/15/9/846",
+          "title": "Plasma-Assisted CO2 Conversion to Methanol in Energy Systems: Parameter Optimization and Synergistic Effects"
+        }
+      ]
+    },
+    {
+      "source_id": "L01-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1116/1.5056205",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/avs/jva/article/37/2/021303/247270",
+          "title": "Experimental demonstration of multifrequency impedance matching for tailored voltage waveform plasmas"
+        }
+      ]
+    },
+    {
+      "source_id": "L01-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/catal7040113",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.mdpi.com/2073-4344/7/4/113",
+          "title": "Abatement of VOCs Using Packed Bed Non-Thermal Plasma Reactors: A Review"
+        }
+      ]
+    },
+    {
+      "source_id": "L01-022",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/met14091061",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.mdpi.com/2075-4701/14/9/1061",
+          "title": "The Effect of Heat Treatment on the Plasma Nitriding of Hot-Rolled 17-7 PH Stainless Steel"
+        }
+      ]
+    },
+    {
+      "source_id": "L01-025",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3389/fchem.2024.1386055",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pmc.ncbi.nlm.nih.gov/articles/pmc11190333",
+          "title": "Pulsed processing by cold plasma, applied to industrial emission control"
+        }
+      ]
+    },
+    {
+      "source_id": "L01-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1021/jacsau.5c01136",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pmc.ncbi.nlm.nih.gov/articles/pmc12728609",
+          "title": "Electrifying Nitrogen Fixation: Plasma-Driven NOx Synthesis for Sustainable Fertilizer Production"
+        }
+      ]
+    },
+    {
+      "source_id": "L01-030",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://www.energy.gov/nepa/articles/cx-023957-nitricity-inc-non-equilibrium-plasma-energy-efficient-nitrogen-fixation",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/non-equilibrium-plasma-energy-efficient-nitrogen-fixation",
+          "title": "Non-Equilibrium Plasma for Energy-Efficient Nitrogen Fixation"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-010",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tia.2014.2308357",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/6748007",
+          "title": "Reliability of Capacitors for DC-Link Applications in Power Electronic Converters: An Overview"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tpel.2013.2271977",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/6558779",
+          "title": "Trapping and Reliability Assessment in D-Mode GaN-Based MIS-HEMTs for Power Applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.mssp.2017.10.009",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/s1369800117321716",
+          "title": "Trapping phenomena and degradation mechanisms in GaN-based power HEMTs"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-016",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.microrel.2017.10.006",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0026271417304754",
+          "title": "On the origin of dynamic Ron in commercial GaN-on-Si HEMTs"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/apec43580.2023.10131285",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/10131285",
+          "title": "Medium Voltage Solid State Transformer for Extreme Fast Charging Applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-022",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/apec48143.2025.10977131",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:escholarship.org/content/qt67c082zt",
+          "title": "A 48-V-to-1-V Gallium Nitride Switching Bus Converter for AI Data Center Power Delivery"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tpel.2024.3403670",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:escholarship.org/content/qt7sd1g4f0",
+          "title": "A 1500-A/48-V-to-1-V Switching Bus Converter for Next-Generation Data Centers"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-025",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/med.2024.3456301",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/10847627",
+          "title": "Gallium Oxide Power Electronics: The Key Semiconductor for Realizing Energy Sustainable Future"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/access.2023.3277200",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/10128694",
+          "title": "Gallium Nitride Power Devices: A State of the Art Review"
+        }
+      ]
+    },
+    {
+      "source_id": "L02-029",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tte.2024.3462920",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:osti.gov/biblio/2561323",
+          "title": "Design, Control, and Protection of a 13.2 kV, 1 MVA Solid State Transformer for Electric Vehicle Extreme Fast Charging Station"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-002",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0162284",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/aip/pop/article/30/12/120604/2930490",
+          "title": "Prospects of an alternative superconductor technology for fusion reactors"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-005",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tasc.2021.3089109",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/9454326",
+          "title": "Quench Protection Modeling of an HTS Magnet for MRI System"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-006",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tasc.2024.3520084",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/10811977",
+          "title": "Method of Quench Detection in HTS Magnets"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-007",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tasc.2014.2388132",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/7001571",
+          "title": "Quench Detection Design for HTS SMES"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tasc.2018.2848229",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/8387462",
+          "title": "A Fast Quench Protection System for High-Temperature Superconducting Magnets"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-009",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.supcon.2022.100018",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S2772830722000175",
+          "title": "A review of superconducting fault current limiters compared with other proven technologies"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-010",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/icsgsc.2019.00-15",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/8906618",
+          "title": "Superconducting Fault Current Limiter Allocation in Reconfigurable Smart Grids"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-011",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tia.2024.3477435",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/10712652",
+          "title": "Simulation Analysis and Steady-State Operation Tests of Magneto-Biased Superconducting Fault Current Limiter on a 66 kV Power Substation in China"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.supcon.2022.100008",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S2772830722000072",
+          "title": "Introduction of 35-kV kilometer-scale high temperature superconducting cable demonstration project in Shanghai"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.cryogenics.2020.103195",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0011227520301971",
+          "title": "10 kV AC test verification of the high temperature superconducting fault current limiter with bias magnetic field"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-019",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.supcon.2025.100188",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S2772830725000390",
+          "title": "Commercial compact fusion triggered REBCO tape industry: Pulsed laser deposition technology opportunities and challenges"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fusengdes.2023.113523",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0920379623001072",
+          "title": "Critical current degradation behaviour of various REBCO tapes under uniaxial strain"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/cryo2010003",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.mdpi.com/3042-4860/2/1/3",
+          "title": "Overview of China's Fusion Magnet Technology Based on the Superconducting Tokamak Strategy"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-024",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fusengdes.2022.113063",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0920379622000631",
+          "title": "Progress in engineering design of CFETR toroidal field superconducting magnet"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fusengdes.2025.114946",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0920379625001462",
+          "title": "Superconducting magnet operation in JT-60SA integrated commissioning test"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.9714/psac.2021.23.4.010",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.koreascience.or.kr/article/JAKO202108062287172.page",
+          "title": "Fabrication of 6-superconducting layered HTS wire for high engineering critical current density"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-029",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.xinn.2025.101219",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.the-innovation.org/article/id/695a0b800989772a128c5422",
+          "title": "Major breakthrough of fully superconducting magnet technology in China: ASIPP develops 35.1 T steady-state superconducting magnet"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-045",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://www.powermag.com/superconductor-motor-for-navy-passes-full-power-test/",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://eepower.com/news/amcs-to-deliver-49000hp-superconducting-motor-to-the-u-s-navy/",
+          "title": "AMCS to Deliver 49,000HP Superconducting Motor to the U.S. Navy"
+        }
+      ]
+    },
+    {
+      "source_id": "L03-055",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.2221/jcsj.39.85",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.jstage.jst.go.jp/article/jcsj/39/3/39_3_85/_pdf",
+          "title": "SMES用酸化物電流リードの開発 (Development of oxide current leads for SMES)"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-011",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.nucengdes.2020.110767",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S0029549320302612",
+          "title": "A review of research and development of supercritical carbon dioxide Brayton cycle technology in nuclear engineering applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijheatfluidflow.2025.109874",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0142727X25001328",
+          "title": "Research progress of supercritical CO2 power cycle in gas turbine waste heat recovery"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fuel.2025.137803",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S001623612503529X",
+          "title": "Advances in direct-fired sCO2 cycle and sCO2 oxy-fuel combustion"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-014",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.enconman.2022.115437",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0196890422002333",
+          "title": "A systematic review of supercritical carbon dioxide (S-CO2) power cycle for energy industries: Technologies, key issues, and potential prospects"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.applthermaleng.2020.116447",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S1359431120339235",
+          "title": "Review of supercritical CO2 technologies and systems for power generation"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-018",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.net.2015.06.009",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S1738573315001606",
+          "title": "Review of supercritical CO2 power cycle technology and current status of research and development"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-020",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1299/jsmemag.108.1045_904",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:tpv-power-generation-kumano-2005",
+          "title": "熱光起電力(TPV)発電 (Thermophotovoltaic (TPV) Power Generation)"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.12096/j.2096-4528.pgt.23170",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:sco2-mixed-working-fluid-brayton-cycle-review-2025",
+          "title": "超临界二氧化碳混合工质布雷顿循环研究进展 (Research Progress on Supercritical CO2 Mixed-Working-Fluid Brayton Cycles)"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-025",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/pr8111461",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.mdpi.com/2227-9717/8/11/1461",
+          "title": "Supercritical Carbon Dioxide (s-CO2) Power Cycle for Waste Heat Recovery: A Review from Thermodynamic Perspective"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-043",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.canarymedia.com/articles/clean-industry/rondo-first-big-heat-battery-oil-california",
+          "title": "Rondo Energy turns on first major thermal battery — at an oil field"
+        }
+      ]
+    },
+    {
+      "source_id": "L04-055",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://m.hanwhapower.com/static/data/brochure/sco2_8p_en_final.pdf",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://m.hanwhapowersystems.com/static/data/brochure/sco2_8p_en_final.pdf",
+          "title": "sCO2 Turbo Expander Generator (TEG) / sCO2 Engine product brochure"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-002",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tps.2010.2045515",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/5440900",
+          "title": "All-Solid-State Repetitive Pulsed-Power Generator Using IGBT and Magnetic Compression Switches"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-004",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tps.2017.2749504",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/8046141",
+          "title": "Design of a 6-MW Solid-State Pulse Modulator Using Marx Generator for the Medical Linac"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-006",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1088/1748-0221/11/04/p04003",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ui.adsabs.harvard.edu/abs/2016jinst..11p4003l",
+          "title": "Solid-state pulse modulator using Marx generator for a medical linac electron-gun"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-007",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1017/s1759078724000205",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:cambridge.org/core/journals/ijmwt/article/755d76ebb54af6e1f8b26f115759f059",
+          "title": "An advanced solid-state RF power source maximizing energy efficiency for optimal superconducting RF cavity charging"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fusengdes.2025.115346",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/s0920379625005423",
+          "title": "Solid-state radiofrequency amplifier technology for fusion applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-011",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/ted.2015.2464096",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/7194781",
+          "title": "Toward High-Power Klystrons With RF Power Conversion Efficiency on the Order of 90%"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/ivec56627.2023.10157431",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/10157431",
+          "title": "Development of high efficiency klystron at IHEP"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/ivec63678.2025.11115541",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/11115541",
+          "title": "R&D Progress in High Efficiency CW Klystron for CEPC"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-045",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:nsrrc.org.tw/english/organizationdetail.aspx?dept_uid=37",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:nsrrc.org.tw/chinese/organizationdetail.aspx?dept_uid=37",
+          "title": "光源組>線型加速器小組 (Light Source Division > Linear Accelerator Team) -- pulse power systems overview"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-052",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1017/s1759078724000175",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:cambridge.org/core/journals/ijmwt/article/937587a6a58f060123d47e38c99f9658",
+          "title": "The conceptual design of the high-efficiency 400 kW solid-state power station at 352 MHz for the European spallation source"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-053",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fusengdes.2023.113475",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0920379623000595",
+          "title": "High power experiments of the Prototype Solid State RF System for IFMIF-DONES"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-002",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0226790",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:impedance-matching-assistance-based-on-frequency-modulation-for-capacitively-coupled-plasmas-2025",
+          "title": "Impedance matching assistance based on frequency modulation for capacitively coupled plasmas"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-006",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1585/pfr.2.044",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:plasma-effects-on-electrostatic-chuck-characteristics-on-capacitive-rf-discharge-2007",
+          "title": "Plasma Effects on Electrostatic Chuck Characteristics on Capacitive RF Discharge"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-007",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tsm.2023.3301024",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:thermal-and-electrical-analysis-of-the-electrostatic-chuck-for-the-etch-equipment-2023",
+          "title": "Thermal and Electrical Analysis of the Electrostatic Chuck for the Etch Equipment"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0301391",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:improvement-of-the-plasma-uniformity-via-current-amplitudes-and-phase-shifts-in-dual-coil-antenna-driven-inductively-coupled-electronegative-chlorine-discharges-2026",
+          "title": "Improvement of the plasma uniformity via current amplitudes and phase shifts in dual-coil antenna driven inductively coupled electronegative chlorine discharges"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-009",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0189397",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:voltage-waveform-tailoring-for-high-aspect-ratio-plasma-etching-of-sio2-using-ar-cf4-o2-mixtures-2024",
+          "title": "Voltage waveform tailoring for high aspect ratio plasma etching of SiO2 using Ar/CF4/O2 mixtures: Consequences of low fundamental frequency biases"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1116/1.590580",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:remote-microwave-plasma-source-for-cleaning-chemical-vapor-deposition-chambers-1999",
+          "title": "Remote microwave plasma source for cleaning chemical vapor deposition chambers: Technology for reducing global warming gas emissions"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-014",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ceramint.2025.09.211",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:yttrium-doped-aluminum-nitride-ceramics-for-dielectric-layers-in-johnsen-rahbek-electrostatic-chucks-2025",
+          "title": "Yttrium-doped aluminum nitride ceramics for dielectric layers in Johnsen-Rahbek (J-R) type electrostatic chucks"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.applthermaleng.2023.122011",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:mechanisms-underlying-temperature-uniformity-in-electrostatic-chucks-2023",
+          "title": "Mechanisms underlying temperature uniformity in electrostatic chucks through experimental and simulation methods"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-016",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0189195",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:temporal-pre-pulse-shaping-in-dual-pulse-laser-produced-plasma-euv-tin-microdroplet-2024",
+          "title": "Temporal pre-pulse shaping in dual pulse laser produced plasma for the optimization of the EUV source in tin microdroplet system"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-019",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0168-583x(85)90605-6",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:a-high-energy-high-current-ion-implantation-system-1985",
+          "title": "A high-energy, high-current ion implantation system"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-020",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0029-554x(76)90667-4",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:the-design-philosophy-for-a-200kv-industrial-high-current-ion-implanter-1976",
+          "title": "The design philosophy for a 200 kV industrial high current ion implanter"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0168-583X(87)90703-8",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:ion-implantation-for-carrier-lifetime-control-in-silicon-technology-1987",
+          "title": "Ion implantation for carrier lifetime control in silicon technology"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-022",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0168-583x(92)95267-u",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:high-energy-ion-implantation-for-semiconductor-application-fraunhofer-ais-erlangen-1992",
+          "title": "High energy ion implantation for semiconductor application at Fraunhofer-AIS, Erlangen"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.jprocont.2012.01.012",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:real-time-virtual-metrology-and-control-for-plasma-etch-2012",
+          "title": "Real-time virtual metrology and control for plasma etch"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.mechatronics.2025.103320",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:mass-flow-control-using-estimated-output-feedback-in-semiconductor-processes-2025",
+          "title": "Mass flow control using estimated output feedback in semiconductor processes"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1116/6.0005265",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:tailored-waveform-biasing-in-atomic-and-molecular-plasmas-for-atomic-scale-processing-2026",
+          "title": "Tailored waveform biasing in atomic and molecular plasmas for atomic scale processing"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-029",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.mne.2025.100330",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:review-of-plasma-etching-processes-for-iii-v-semiconductors-2025",
+          "title": "Review of plasma etching processes for III-V semiconductors"
+        }
+      ]
+    },
+    {
+      "source_id": "L06-031",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.chip.2022.100019",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:the-development-of-laser-produced-plasma-euv-light-source-2022",
+          "title": "The development of laser-produced plasma EUV light source"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-001",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1116/1.5010154",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/avs/jva/article/36/3/031603/443057",
+          "title": "Nonevaporable getter coating chambers for extreme high vacuum"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-003",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/s0042-207x(98)00423-0",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0042207X98004230",
+          "title": "My never-ending story towards XHV pressure measurements"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-004",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.measurement.2012.08.018",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0263224112003132",
+          "title": "The development of vacuum measurements down to extremely high vacuum – XHV"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-006",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.vacuum.2015.08.018",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/S0042207X15300440",
+          "title": "Development and test of a rectangular CERN ConFlat-type flange"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0042-207x(96)00046-2",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/0042207X96000462",
+          "title": "A comparison between the outgassing process of a titanium chamber and a stainless steel chamber"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-009",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1116/1.2956625",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.researchgate.net/publication/308152848_Reducing_the_hydrogen_outgassing_rate_of_stainless_steel_vacuum_chambers_by_a_medium_temperature_heat_treatment",
+          "title": "Reducing the hydrogen outgassing rate of stainless steel vacuum chambers by a medium temperature heat treatment"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-010",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1116/1.576666",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/avs/jva/article-abstract/8/3/2772/101047",
+          "title": "Reliability of turbomolecular vacuum pumps: A comparison of rolling element and magnetic bearing systems"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-011",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.vacuum.2016.12.010",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0042207X16307515",
+          "title": "Design aspects of a large scale turbomolecular pump with active magnetic bearings"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.isatra.2023.07.045",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S001905782300352X",
+          "title": "Stability control of high-speed magnetic levitation turbomolecular pumps with shock-excited disturbance"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0042-207x(88)90440-x",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/0042207X8890440X",
+          "title": "Turbomolecular vacuum pumps with a new magnetic bearing concept"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-014",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/1.5066618",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/aip/rsi/article/90/1/015112/367966",
+          "title": "Vibration isolation with high thermal conductance for a cryogen-free dilution refrigerator"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0254561",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/aip/rsi/article-abstract/96/5/053002/3345956",
+          "title": "An ultra-low vibration cryostat with split design"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-016",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0294894",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/aip/rsi/article/96/12/123901/3373711",
+          "title": "Development of a cryogen-free dilution refrigerator with a cooling power of 2000 µW at around 100 mK"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-017",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/1.4959153",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.osti.gov/biblio/22597806",
+          "title": "Vibration-induced electrical noise in a cryogen-free dilution refrigerator: Characterization, mitigation, and impact on qubit coherence"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-019",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.applthermaleng.2024.125222",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S1359431124028904",
+          "title": "Cooling performance improvement of a thermal-coupled two-stage high-frequency pulse tube cryocooler with hybrid Er3Ni/stainless steel screen regenerative material"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-020",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1208/s12249-021-02107-6",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8575750/",
+          "title": "Recommended Best Practices for Lyophilization Validation 2021 Part II: Process Qualification and Continued Process Verification"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1186/s41120-025-00132-4",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12930400/",
+          "title": "Recent trends in pharmaceutical freeze-drying and control strategies observed in human drug applications and manufacturing inspections"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-022",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.5772/intechopen.91767",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.intechopen.com/chapters/71509",
+          "title": "Some Key Issues of Vacuum System Design in Accelerators and Colliders"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0042-207x(71)91570-3",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/0042207X71915703",
+          "title": "Measurement of helium leaks 10−5 times better than the sensitivity of a mass spectrometer leak detector"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-024",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/0042-207x(96)00063-2",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/0042207X96000632",
+          "title": "Sensitive helium leak detection in a deuterium atmosphere using a high-resolution quadrupole mass spectrometer"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-025",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.2221/jcsj.28.569",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.jstage.jst.go.jp/article/jcsj1966/28/10/28_10_569/_article/-char/ja/",
+          "title": "クライオスタットの真空技術 (Vacuum technology for cryostats)"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.11470/oubutsu1932.69.22",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.jstage.jst.go.jp/article/oubutsu1932/69/1/69_1_22/_pdf",
+          "title": "超高真空材料として眺めた金属材料と水素 (Metallic materials and hydrogen viewed as ultra-high-vacuum materials)"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3131/jvsj.24.116",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.jstage.jst.go.jp/article/jvsj1958/24/3/24_3_116/_article/-char/ja/",
+          "title": "超高真空中における低温実験の技術的問題 (Technical problems of low-temperature experiments in ultra-high vacuum)"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-030",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "standard:SEMI F19-0815",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "standard:SEMI F19",
+          "title": "SEMI F19 — Specification for the Surface Condition of the Wetted Surfaces of Stainless Steel Components"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-031",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "standard:SEMI F20-0923",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "standard:SEMI F20",
+          "title": "SEMI F20 — Specification for 316L Stainless Steel Bar, Forgings, Extruded Shapes, Plate, and Tubing for Components Used in General Purpose, High Purity and Ultra-High Purity Semiconductor Manufacturing Applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L07-053",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/after-strong-fourth-quarter-inficon-closes-2025-at-record-sales-level/7bef46be-c444-4c35-be87-789a1a74b6b1_en",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.inficon.com/en/news/inficon-to-publish-its-fourth-quarter-and-full-year-2025-results",
+          "title": "INFICON Holding AG — Fourth Quarter and Full-Year 2025 Results"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/iecon.2019.8927420",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/8927420",
+          "title": "Interlinked Solid-state MVDC Circuit Breaker with Current Regulation Capability"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-014",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.egyr.2021.11.052",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/s2352484721011975",
+          "title": "A distribution network solid-state DC circuit breaker with current limiting function"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijepes.2022.107996",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/pii/s0142061522000424",
+          "title": "A solid-state circuit breaker for DC system using series and parallel connected IGBTs"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/jphotov.2020.2998868",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/9112616",
+          "title": "DC Arc Fault Detection For Grid-Connected Large-Scale Photovoltaic Systems"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-022",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tpel.2024.3510792",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/10777568",
+          "title": "An Asymmetric Hybrid Phase-Leg Modular Multilevel Converter With Small Volume, Low Cost, and DC Fault-Blocking Capability"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-025",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.11930/j.issn.1004-9649.202006024",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:柔性直流换流阀监视系统关键技术及工程化应用-2020",
+          "title": "柔性直流换流阀监视系统关键技术及工程化应用 (Key technologies and engineering application of flexible-DC converter-valve monitoring systems)"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/su12187771",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:a-resonant-hybrid-dc-circuit-breaker-for-multi-terminal-hvdc-systems-2020",
+          "title": "A Resonant Hybrid DC Circuit Breaker for Multi-Terminal HVDC Systems"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tpwrd.2021.3083642",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:a-hybrid-dc-fault-primary-protection-algorithm-for-multi-terminal-hvdc-systems-2020",
+          "title": "A Hybrid DC Fault Primary Protection Algorithm for Multi-Terminal HVdc Systems"
+        }
+      ]
+    },
+    {
+      "source_id": "L08-051",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/ecce55643.2024.10860928",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://impact.ornl.gov/en/publications/scr-based-medium-voltage-dc-solid-state-circuit-breaker",
+          "title": "SCR-based Medium Voltage DC Solid-State Circuit Breaker"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/taes.2021.3117520",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ieeexplore.ieee.org/document/9557812/",
+          "title": "Wide-Output Range Power Processing Unit for 6-kW Hall Thruster"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.paerosci.2023.100900",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0376042123000167",
+          "title": "Recent innovations to advance space electric propulsion technologies (review)"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-024",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/1.5109141",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://pubs.aip.org/aip/pop/article/27/2/020601/841896",
+          "title": "Perspectives, frontiers, and new horizons for plasma-based space electric propulsion (review)"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.energy.2025.137978",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sciencedirect.com/science/article/abs/pii/S0360544225036205",
+          "title": "Design of closed Brayton cycle power generation system for megawatt-scale space nuclear reactor"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-030",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "patent:US11815074B1",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "patent:US11815074",
+          "title": "Scalable power processing units for hall-effect thruster propulsion systems and terrestrial systems"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-038",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://www.sbir.gov/portfolio/1158459",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://www.sbir.gov/node/2169577",
+          "title": "Phase Four positions Maxwell RF thruster (solar electric propulsion) for Space Force maneuverable/resilient missions"
+        }
+      ]
+    },
+    {
+      "source_id": "L09-046",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://ntrs.nasa.gov/citations/20190033097",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://nepp.nasa.gov/docs/tasks/281-Wide-Bandgap-Reliability-and-Application-Guidelines/NEPP-BOK-2020--Boomer-Gallium-Nitride-Power-Electronics-20205007412.pdf",
+          "title": "NEPP Body of Knowledge: Gallium Nitride Power Electronics (Wide Bandgap Reliability and Application Guidelines)"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-001",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.jclepro.2025.146452",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:optimal-economic-sizing-of-energy-storage-system-for-trolley-assisted-battery-electric-mining-haul-truck-2025",
+          "title": "Optimal economic sizing of energy storage system for trolley assisted battery electric mining haul truck considering battery degradation"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-002",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/access.2025.3588871",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:performance-evaluation-of-alternative-configurations-of-battery-electric-mining-haul-trucks-2025",
+          "title": "Performance Evaluation of Alternative Configurations of Battery Electric Mining Haul Trucks"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-009",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/mele.2022.3232965",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:cold-ironing-integration-in-city-port-distribution-grids-2023",
+          "title": "Cold Ironing Integration in City Port Distribution Grids: Sustainable electrification of port infrastructures between technical and economic constraints"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-024",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.rser.2024.115024",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:battery-electric-vehicles-in-underground-mines-insights-from-industry-2024",
+          "title": "Battery electric vehicles in underground mines: Insights from industry"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-025",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/itecasia-pacific63159.2024.10738557",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:megawatt-level-charging-for-mining-trucks-operational-demonstration-2024",
+          "title": "Megawatt-Level Charging for Mining Trucks: Operational Demonstration and Effectiveness Evaluation"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-026",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "title-year:large-capacity-battery-based-electric-propulsion-ship-initial-review-2022",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:large-capacity-battery-based-electric-propulsion-ship-initial-review-2023",
+          "title": "대용량 배터리 기반 전기추진선박 현황 및 운용 유의점에 대한 초기 고찰 (Initial review of large-capacity battery-based electric propulsion ship status and operational considerations)"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.cles.2026.100263",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:evaluating-costs-and-potential-emission-reductions-cargo-handling-equipment-seaport-2026",
+          "title": "Evaluating costs and potential emission reductions from electrification of cargo handling equipment in a seaport"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-044",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://ca-rta.org/carb-to-repeal-high-priority-and-drayage-fleet-provisions-in-acf/",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://ww2.arb.ca.gov/new-california-requirements-road-and-road-heavy-duty-vehicles",
+          "title": "Advanced Clean Fleets / zero-emission requirements for drayage trucks and off-road heavy-duty vehicles"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-046",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "standard:gb-t-45926-2025",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "standard:sac-excavator-battery-swap-system-general-requirements",
+          "title": "土方机械纯电动液压挖掘机换电系统通用要求 (General Requirements for Battery-Swap Systems of Pure-Electric Hydraulic Excavators for Earthmoving Machinery)"
+        }
+      ]
+    },
+    {
+      "source_id": "L10-054",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://im-mining.com/2026/04/16/first-quantum-and-hitachi-commission-worlds-first-battery-electric-mining-truck-at-kansanshi-mine-in-zambia/",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "https://new.abb.com/news/detail/111869/hitachi-construction-machinery-completes-prototype-fully-electric-dump-truck-based-on-abbs-innovative-battery-technology",
+          "title": "Pioneering technology to electrify Japan's mining industry (Hitachi Construction Machinery / ABB full-battery dump truck, Kansanshi mine)"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-002",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fuel.2025.137919",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0016236125036452",
+          "title": "Degradation pathways in PEM water electrolyzers: Insights from Nafion N115 membranes with Pt black and Ir-Ru oxide catalysts"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-004",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.rser.2025.116170",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/s1364032125008433",
+          "title": "Dynamic electrical degradation of PEM electrolyzers under renewable energy intermittency: Mechanisms, diagnostics, and mitigation strategies -- A comprehensive review"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.enconman.2023.117955",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0196890423013018",
+          "title": "Size design strategy for scaling up alkaline water electrolysis stack integrated with renewable energy source: A multiphysics modeling approach"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.jpowsour.2023.233222",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0378775323005980",
+          "title": "Channel design optimization of alkaline electrolysis stacks considering the trade-off between current efficiency and pressure drop"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ecmx.2024.100653",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/s2590174524001314",
+          "title": "Degradation modeling in solid oxide electrolysis systems: A comparative analysis of operation modes"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-018",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijhydene.2022.08.073",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0360319922035777",
+          "title": "Power quality improvement for 20 MW PEM water electrolysis system"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-019",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.jpowsour.2020.228075",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0378775320303785",
+          "title": "Power quality and reactive power of water electrolyzers supplied with thyristor converters"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-020",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.jpowsour.2019.227603",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0378775319315964",
+          "title": "Power quality estimation of water electrolyzers based on current and voltage measurements"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/membranes12020109",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:pmc.ncbi.nlm.nih.gov/articles/pmc8877858",
+          "title": "Impact of Power Converter Current Ripple on the Degradation of PEM Electrolyzer Performances"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/ma17061262",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ncbi.nlm.nih.gov/pmc/articles/pmc10972274",
+          "title": "Novel Additives in Copper Electrorefining -- Small Laboratory Scale"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-031",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/membranes13030348",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ncbi.nlm.nih.gov/pmc/articles/pmc10053853",
+          "title": "Analysis of PEM Water Electrolyzer Failure Due to Induced Hydrogen Crossover in Catalyst-Coated PFSA Membranes"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-033",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:osti.gov/biblio/2522763",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:docs.nrel.gov/docs/fy25osti/92558.pdf",
+          "title": "Manufacturing Cost Analysis for PEM Electrolyzers (H2NEW consortium)"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-034",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.enconman.2024.118950",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:osti.gov/biblio/2447439",
+          "title": "Optimal operation of solid-oxide electrolysis cells considering long-term chemical degradation"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-040",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:siemens-energy.com/us/en/home/products-services/product-offerings/hydrogen-solutions",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:assets.siemens-energy.com/siemens/assets/api/uuid-a193b68f-datasheet-silyzer300",
+          "title": "Silyzer 300 PEM electrolyzer datasheet"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-041",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:accelerazero.com/electrolyzers/products/hylyzer-1000",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:mart.cummins.com/imagelibrary/data/assetfiles/0070328.pdf",
+          "title": "HyLYZER 1000 PEM electrolyzer system datasheet"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-044",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:avrionlabs.com/cell-testing-equipment",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:novonixgroup.com/cell-testing-equipment",
+          "title": "UHPC ultra-high-precision battery cycler datasheet"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-047",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:nelhydrogen.com/press-release/nel-asa-fourth-quarter-2025-financial-results",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:nelhydrogen.com/wp-content/uploads/2026/02/q4-report-2025.pdf",
+          "title": "Nel ASA Q4 2025 report (full-year order backlog and segment results)"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-051",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:h2.solarbe.com/news/20241105/4113.html",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:m.bjx.com.cn/mnews/20250225/1428871.shtml",
+          "title": "碱性+PEM！电解槽采购花落谁家？(Alkaline + PEM: who won the electrolyzer procurement? -- China Energy Construction 125-set tender results)"
+        }
+      ]
+    },
+    {
+      "source_id": "L11-054",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:ammoniaenergy.org/articles/first-projects-awarded-funding-under-japanese-cfd-scheme",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:fuelcellsworks.com/2025/10/28/green-investment/japan-picks-first-winners-of-20bn-hydrogen-subsidy-scheme",
+          "title": "Japan picks first winners of $20bn hydrogen subsidy scheme for green steel and clean ammonia"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-003",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0174149",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:production-of-13-5-nm-light-with-5-percent-conversion-efficiency-from-2-micron-laser-driven-tin-microdroplet-plasma-2023",
+          "title": "Production of 13.5 nm light with 5% conversion efficiency from 2 micron laser-driven tin microdroplet plasma"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-010",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.18287/2412-6179-co-1352",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:real-time-adaptive-optics-for-high-power-laser-beam-correction-in-the-strong-turbulence-2024",
+          "title": "Real-time adaptive optics for high-power laser beam correction in the strong turbulence"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-011",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1017/hpl.2025.16",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:apollon-real-time-adaptive-optics-astronomy-inspired-wavefront-stabilization-in-ultraintense-lasers-2024",
+          "title": "Apollon Real-Time Adaptive Optics: astronomy-inspired wavefront stabilization in ultraintense lasers"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1364/ol.507932",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:high-efficiency-second-harmonic-generation-in-a-micro-resonator-on-dual-layered-lithium-niobate-2024",
+          "title": "High-efficiency second harmonic generation in a micro-resonator on dual-layered lithium niobate"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-017",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0206859",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:theory-of-transverse-mode-instability-in-fiber-amplifiers-with-multimode-excitations-2024",
+          "title": "Theory of transverse mode instability in fiber amplifiers with multimode excitations"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-018",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.rinp.2022.106098",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:thermally-induced-transverse-mode-instability-hopf-bifurcation-in-high-power-fiber-laser-2022",
+          "title": "Thermally-induced transverse mode instability: Hopf bifurcation in high-power fiber laser"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-019",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1364/ao.547110",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:laser-induced-damage-thresholds-in-sio2-coated-aluminum-mirrors-under-various-ultrashort-pulse-widths-2025",
+          "title": "Laser-induced damage thresholds in SiO2-coated aluminum mirrors under various ultrashort pulse widths"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-020",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1364/oe.21.014698",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:a-theoretical-investigation-of-the-laser-damage-threshold-of-metal-multi-dielectric-mirrors-for-high-power-ultrashort-applications-2013",
+          "title": "A theoretical investigation of the laser damage threshold of metal multi-dielectric mirrors for high power ultrashort applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-027",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/photonics9090652",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:design-of-high-peak-power-pulsed-laser-diode-driver-2022",
+          "title": "Design of High Peak Power Pulsed Laser Diode Driver"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-029",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1038/s41378-024-00736-y",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:state-of-the-art-micro-and-nano-scale-photonics-research-in-asia-devices-fabrication-manufacturing-and-applications-2024",
+          "title": "State-of-the-art micro- and nano-scale photonics research in Asia: devices, fabrication, manufacturing, and applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-040",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://www.darpa.mil/research/programs/amped",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:darpa-area-multiplied-photonic-crystal-enhanced-devices-amped-program-solicitation-2026",
+          "title": "DARPA Area-Multiplied Photonic-crystal Enhanced Devices (AMPED) program solicitation"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-044",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "title-year:a-star-and-globalfoundries-master-research-collaboration-agreement-on-silicon-photonics-2025",
+          "title": "A*STAR and GlobalFoundries Master Research Collaboration Agreement on silicon photonics"
+        }
+      ]
+    },
+    {
+      "source_id": "L12-048",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "standard:iec-60825-1-ed3.0",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "standard:iec-60825-ser-2025",
+          "title": "IEC 60825 series: Safety of laser products (2025 SER edition)"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-006",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.23919/snw.2017.8242338",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/8242338",
+          "title": "28nm Fully-Depleted SOI Technology: Cryogenic Control Electronics for Quantum Computing"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-011",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.fusengdes.2018.02.066",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0920379618301674",
+          "title": "Achievements and lessons learned from the operation of KSTAR plasma control system upgrade"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-016",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/jssc.2025.3530472",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:news.ustc.edu.cn/info/1055/90866.htm",
+          "title": "Ultra-low-temperature quantum interface benchmark reference chip (超低温量子接口基准芯片)"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-017",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/lssc.2020.3017705",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/9170592",
+          "title": "A Cryo-CMOS Digital Cell Library for Quantum Computing Applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-022",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/isscc49661.2025.10904579",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/10904579",
+          "title": "Xiling: Cryo-CMOS 18-bit Dual-DAC Manipulator with 4.6 microvolt Precision and 4.1 nV/sqrt(Hz) Noise Co-Integrated with the Single Electron Transistor at 60mK"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.23919/vlsitechnologyandcir65189.2025.11074904",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/11074904",
+          "title": "A Cryogenic 1.08mW/Qubit Fully-Integrated 4-Channel Frequency-Division-Multiplexing Transmon Qubit State Readout ASIC in 28nm Bulk CMOS"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-024",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/electronics14081572",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:www.mdpi.com/2079-9292/14/8/1572",
+          "title": "Cryogenic MMIC Low-Noise Amplifiers for Radio Telescope Applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L13-035",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:cas.cn/cm/202504/t20250414_5063986",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ipp.cas.cn/dakexuegongcheng/iter",
+          "title": "ITER magnetic feeder system -- China's procurement package"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-001",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijheatmasstransfer.2024.126575",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0017931024014030",
+          "title": "Investigations on heat dissipation performance and overall characteristics of two-phase liquid immersion cooling systems for data center"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-003",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.rser.2025.115994",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S1364032125006677",
+          "title": "Efficient two-phase liquid cooling and optimization technology on the chip side based on high-power data centers: Summary and prospects"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-004",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.applthermaleng.2025.126385",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S1359431125009779",
+          "title": "A comprehensive review of single-phase immersion cooling in data centres"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-005",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.2516/stet/2024022",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:stet-review.org/articles/stet/pdf/2024/01/stet20240005.pdf",
+          "title": "Immersion cooling technology development status of data center"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-007",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/mi16080908",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:pmc.ncbi.nlm.nih.gov/articles/PMC12388327",
+          "title": "Design and Fabrication of Embedded Microchannel Cooling Solutions for High-Power-Density Semiconductor Devices"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-008",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.icheatmasstransfer.2025.109901",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0735193325013272",
+          "title": "Experimental study of heat dissipation for high-power multi-chips using enhanced microchannel flow boiling"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-009",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijheatmasstransfer.2025.127060",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0017931025004016",
+          "title": "Heat transfer and pressure drop characteristics of microchannel cold plate in commercial CPU-package cooling system"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-010",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.rser.2026.116729",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S1364032126000286",
+          "title": "Microchannel heat sinks for cold plate liquid cooling in data centers: Advances, evaluations and prospects"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-012",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/tpel.2021.3059558",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/9354952",
+          "title": "Jet Impingement Cooling in Power Electronics for Electrified Automotive Transportation: Current Status and Future Trends"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-013",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijft.2023.100312",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/S2666202723000320",
+          "title": "A review of jet impingement cooling"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-015",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.3390/eng6120373",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:mdpi.com/2673-4117/6/12/373",
+          "title": "Thermal Management Challenges in 2.5D and 3D Chiplet Integration: A Review on Architecture-Cooling Co-Design"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-018",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.eurpolymj.2025.114468",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/S0014305725007566",
+          "title": "Advanced polymer-based thermal interface materials: A review on matrix optimization and filler engineering for superior performance"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-019",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.applthermaleng.2025.127680",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S1359431125022720",
+          "title": "Thermal management optimization for high power EV charging connectors: A heat pipe-based design approach"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-020",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.eng.2024.11.035",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/S2095809924007446",
+          "title": "Liquid Metal-Enabled Synergetic Cooling and Charging of Superhigh Current"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-021",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.csite.2023.103821",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/S2214157X23011279",
+          "title": "Optimal design of liquid cooling structures for superfast charging cable cores under a high current load"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-051",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/trane-technologies-completes-acquisition-of-liquidstack",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:tracxn.com/d/companies/liquidstack",
+          "title": "LiquidStack acquired by Trane Technologies"
+        }
+      ]
+    },
+    {
+      "source_id": "L15-039",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "trade_press:ASTAR-SiC-Open-RD-Line-2025",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "government:ASTAR-SiC-Open-RD-Line-2025",
+          "title": "A*STAR launches industry-grade 200mm silicon carbide Open R&D Line (Innovate Together, SEMICON Southeast Asia 2025)"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-004",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.elstat.2025.104151",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0304388625001238",
+          "title": "A review of recent advancements in electrohydrodynamic heat transfer enhancement"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-005",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijheatmasstransfer.2024.125643",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0017931024004745",
+          "title": "Heat transfer performance and electrohydrodynamic characteristics optimization of a dividing-wall-type ionic wind heat exchanger"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-010",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/maes.2025.3526134",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:ieeexplore.ieee.org/document/10829729",
+          "title": "Radar Cross Section Reduction Metamaterials: A Review of Principles, Design Methods, and Applications Beyond"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-023",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1063/5.0221899",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:pubs.aip.org/aip/rsi/article/95/10/103903/3316024",
+          "title": "MightyLev: An acoustic levitator for high-temperature containerless processing of medium- to high-density materials"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-032",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.jmatprotec.2010.12.012",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0924013610003821",
+          "title": "Electromagnetic forming -- A review"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-035",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1109/20.22590",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "doi:none-pre-DOI-era; url:ntrs.nasa.gov/citations/19890044698",
+          "title": "Electromagnetic launchers for space applications"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-036",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:scmp.com/news/china/science/article/3303761",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:orbitaltoday.com/2025-10-14-china-plans-maglev-rocket-launch-system-by-2028",
+          "title": "Ziyang electromagnetic launch test bed first full-system test (Galactic Energy-affiliated)"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-043",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "doi:10.1016/j.ijrefrig.2025.08.007",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/pii/S0140700725003147",
+          "title": "A review of the state of the art of the cryogenic magnetocaloric systems for gas liquefaction"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-053",
+      "rows_before": 2,
+      "chosen_accepted": true,
+      "chosen_canonical_key": "url:amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:amber-kinetics-indian-energy-partnership-oct2025",
+          "title": "Amber Kinetics - Indian Energy flywheel energy-storage partnership for tribal microgrids"
+        }
+      ]
+    },
+    {
+      "source_id": "L05-001",
+      "rows_before": 2,
+      "chosen_accepted": false,
+      "chosen_canonical_key": "doi:10.1016/j.nima.2018.07.037",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/s0168900218308726",
+          "title": "A 100 kV, 20 A, 1 ms long pulse solid-state Marx modulator for klystron"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-011",
+      "rows_before": 2,
+      "chosen_accepted": false,
+      "chosen_canonical_key": "doi:10.1016/j.ijheatfluidflow.2025.110149",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0142727X25004072",
+          "title": "Optimization of nanofluid impinging jet systems for advanced electronic cooling: A critical review"
+        }
+      ]
+    },
+    {
+      "source_id": "L14-017",
+      "rows_before": 2,
+      "chosen_accepted": false,
+      "chosen_canonical_key": "doi:10.1016/j.applthermaleng.2025.129415",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S1359431125040074",
+          "title": "Thermal Interface materials for efficient heat management in electronics"
+        }
+      ]
+    },
+    {
+      "source_id": "L16-012",
+      "rows_before": 2,
+      "chosen_accepted": false,
+      "chosen_canonical_key": "doi:10.1016/j.sna.2023.114283",
+      "discarded": [
+        {
+          "accepted": false,
+          "canonical_key": "url:sciencedirect.com/science/article/abs/pii/S0924424723001322",
+          "title": "A review: Advancement in metamaterial based RF and microwave absorbers"
+        }
+      ]
+    }
+  ]
+}

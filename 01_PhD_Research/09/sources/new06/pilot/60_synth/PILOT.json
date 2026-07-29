@@ -1,0 +1,34 @@
+{
+  "stage": "60_synth",
+  "status": "PASS",
+  "run_at_utc": "2026-07-28T07:21:01.2937463Z",
+  "sample_ids": [
+    "P3R2-D-02",
+    "P3R2-F-16"
+  ],
+  "paths_tested": [
+    "prototype idea cards for one top-10 idea and one CN-primary non-deep-dive idea",
+    "prototype matrix rows written via Export-Csv and re-imported for integrity",
+    "exact rank-vs-position check against SELECTION.json final_24",
+    "numeric score consistency between SELECTION.json and SCORES.json",
+    "source-ID namespace validation for selection source lists",
+    "deep-dive index linkage (present for D-02 with in-band word count; absent for F-16)",
+    "red-team decision/residual join for card fields",
+    "roadmap input checks (positive budgets, 2028/2029 flags)"
+  ],
+  "checks": {
+    "rank_position_consistency": true,
+    "score_numeric_consistency": true,
+    "source_id_namespaces_valid": true,
+    "deep_dive_linkage_correct": true,
+    "redteam_join_valid": true,
+    "csv_roundtrip_verified": true
+  },
+  "errors": [],
+  "lessons": [
+    "PORTFOLIO.json preserves SELECTION.json machine-checkable fields verbatim; synthesis adds, never substitutes",
+    "02_MATRIX.csv gets one header plus exactly 24 rows with Import-Csv as post-write verification",
+    "Repair-verdict ideas (A-10, C-13, F-01) must carry their CN-restructure conditions on the cards",
+    "05_MODEL_REPORT.md reports requested route and telemetry pointers only; identity is never claimed from prompt text"
+  ]
+}

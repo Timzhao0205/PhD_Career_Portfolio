@@ -1,0 +1,105 @@
+{
+  "stage": "A20_prov",
+  "mode": "FULL",
+  "attempt": 1,
+  "audit_question": "Were the old Folder 06 ideas and later artifacts generated with Fable 5 (claude-fable-5) at high or xhigh effort?",
+  "population": {
+    "routing_log_file": "sources/old06/98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl",
+    "routing_log_timestamped_entries": 334,
+    "routing_log_entries_by_source": {"orchestrator": 222, "chatgpt-continuation": 97, "launcher": 12, "patch": 3},
+    "routing_log_requested_model_counts": {"claude-fable-5": 58, "claude-sonnet-5": 178, "GPT-5.6 Sol": 52, "GPT-5.6 Terra": 39, "GPT-5.6 Luna": 6, "claude-sonnet-5 then claude-fable-5": 1},
+    "routing_log_downgrade_true_entries": 0,
+    "session_transcripts": 5,
+    "tasks_total_rows": 165,
+    "rows_mapped_from_routing_log_entries": 157,
+    "rows_not_in_routing_log": 8,
+    "rows_not_in_routing_log_ids": ["ORCH-SESSION-1", "ORCH-SESSION-2", "ORCH-SESSION-3", "ORCH-SESSION-4", "ORCH-SESSION-5", "PATCH-GEOGRAPHY-SCOPE", "P2A-PREFILTER", "CHATGPT-P5P8-VALIDATOR-TOOLING"],
+    "consolidation_rule": "One row per task identity. started/complete routing-log pairs collapse into a single row; failed dispatch attempts, session-interruption redispatches, and bounded retries of the same task identity are consolidated into that task's row with all routing-log line numbers cited in evidence_path. The five launcher configuration events, two launcher probes, and three logged patch-configuration entries get one row each. The five Claude Code session transcripts get one session-record row each. Identifiable tasks absent from the routing log (geography-scope patch application, P2A India prefilter, continuation validator tooling) get rows with absent or narration-only evidence."
+  },
+  "verdict_definitions": {
+    "row_verdict_basis": "Each row verdict judges the task's documented provenance claim (the corpus's own requested route and policy assignment) against the strongest available runtime evidence. CONFIRMED requires runtime confirmation of both model and effort; PARTIAL_PROVENANCE means the model is evidenced but effort is request-side only (or evidence covers only part of the claim); CONTRADICTED means the strongest evidence shows the documented Claude route (Fable 5/xhigh for critical work, Sonnet 5 for support work) was not what executed; UNKNOWN means no runtime evidence exists either way.",
+    "hierarchy": "Runtime transcript per-message model fields > per-dispatch sidechain matching > orchestrator routing-log started/complete records > launcher/patch configuration and agent self-reports > folder notes, filenames, titles, prompts, and style (non-probative of runtime model)."
+  },
+  "counts": {
+    "total_tasks": 165,
+    "by_verdict": {"CONFIRMED": 0, "PARTIAL_PROVENANCE": 105, "CONTRADICTED": 50, "UNKNOWN": 10},
+    "by_category": {
+      "a_raw_idea_generation_core": {"tasks": 15, "CONFIRMED": 0, "PARTIAL_PROVENANCE": 15, "CONTRADICTED": 0, "UNKNOWN": 0},
+      "b_adjudication_screening": {"tasks": 52, "CONFIRMED": 0, "PARTIAL_PROVENANCE": 25, "CONTRADICTED": 27, "UNKNOWN": 0},
+      "c_later_folder06_artifacts": {"tasks": 21, "CONFIRMED": 0, "PARTIAL_PROVENANCE": 0, "CONTRADICTED": 21, "UNKNOWN": 0},
+      "d_support_infra_discovery": {"tasks": 77, "CONFIRMED": 0, "PARTIAL_PROVENANCE": 65, "CONTRADICTED": 2, "UNKNOWN": 10}
+    },
+    "by_evidence_strength": {
+      "strong_runtime_sidechain": 29,
+      "runtime_transcript_aggregate": 7,
+      "orchestrator_log_paired": 67,
+      "config_request_only": 10,
+      "continuation_request_only": 50,
+      "absent": 2
+    }
+  },
+  "category_membership": {
+    "a_raw_idea_generation_core": ["SEEDS-A", "SEEDS-B", "SEEDS-C", "SEEDS-D", "SEEDS-W", "P3R2-A", "P3R2-B", "P3R2-C", "P3R2-D", "P3R2-E", "P3R2-F", "P3R2-G", "P3R2-FIXER", "P3R2-FIXER-2", "P3R2-FIXER-3"],
+    "b_adjudication_screening": ["P2-ATLAS-ADJUDICATION", "P2A-FABLE-ADJUDICATION", "P3R2-ELEGANCE-JUDGE", "P3R2-ELEGANCE-JUDGE-R2", "P3R2-ELEGANCE-JUDGE-R3", "P3R2-FOUNDER-FIT", "P4-G01", "P4-G02", "P4-G03", "P4-G04", "P4-G05", "P4-G06", "P4-G07", "P4-G08", "P4-G09", "P4-G10", "P4-G11", "P4-G12", "P4-G13", "P4-SCORER-A", "P4-SCORER-B", "P4-SCORER-S1", "P4-SCORER-S2", "P4-SCORER-S3", "P4-SCORER-S4", "CHATGPT-P4-S2-REGEN", "CHATGPT-P4-S4-SCORE", "CHATGPT-P4-VALIDATOR", "CHATGPT-P4-GLOBAL-CALIBRATION", "CHATGPT-P4-CITATION-REPAIR-AUDIT", "CHATGPT-P4-CROSSBATCH-AUDIT", "CHATGPT-P4-MAIN-ADJUDICATION", "CHATGPT-P5-REDTEAM-G01", "CHATGPT-P5-REDTEAM-G02", "CHATGPT-P5-REDTEAM-G03", "CHATGPT-P5-REDTEAM-G04", "CHATGPT-P5-REDTEAM-G05", "CHATGPT-P5-REDTEAM-G06", "CHATGPT-P5-CHINA-G7-REPAIR", "CHATGPT-P5-CHEAP-EXPERIMENT-REPAIR", "CHATGPT-P5-PORTFOLIO-CONSTRAINT-SOLVER", "CHATGPT-P5-LITERAL-GATE-ADJUDICATION", "CHATGPT-P5-SOURCE-QUOTA-MAP", "CHATGPT-P5-REVIVAL-REDTEAM", "CHATGPT-P5-G7-CN-REQUIRED-REPAIR", "CHATGPT-P5-G7-NONCN-REPAIR", "CHATGPT-P5-CN-ROUND2-REDTEAM", "CHATGPT-P5-CN-ROUND2-SOURCE-QUOTA", "CHATGPT-P5-CN03-G1-REPAIR", "CHATGPT-P5-US-SCIENTIFIC-REDTEAM", "CHATGPT-P5-US-SCIENTIFIC-FINAL-REDTEAM", "CHATGPT-P5-SELECTION"],
+    "c_later_folder06_artifacts": ["CHATGPT-P5-CN-DEFICIENCY-REGENERATION", "CHATGPT-P5-CN-REGEN-ROUND2", "CHATGPT-P5-US-SCIENTIFIC-SUPPLEMENT", "CHATGPT-P5-US-SCIENTIFIC-REGEN2", "CHATGPT-P5-US-SCIENTIFIC-REGEN3", "CHATGPT-P6-DD-P3R2-D-02", "CHATGPT-P6-DD-P3R2-C-22", "CHATGPT-P6-DD-P3R2-D-01", "CHATGPT-P6-GEOGRAPHY", "CHATGPT-P6-DD-P3R2-F-01", "CHATGPT-P6-DD-P3R2-C-01", "CHATGPT-P6-DD-P5-USSCI2-S01", "CHATGPT-P6-DD-P3R2-E-14", "CHATGPT-P6-DD-P5R2-CN-01", "CHATGPT-P6-DD-P3R2-A-14", "CHATGPT-P6-DD-P3R2-C-13", "CHATGPT-P7-SYNTHESIS", "CHATGPT-P8-INDEPENDENT-AUDIT", "CHATGPT-P8-SOURCE-INTEGRITY-REPAIR", "CHATGPT-P8-MECHANICAL-AUDIT", "CHATGPT-P8-FINAL-COMPLETION"],
+    "d_support_infra_discovery_note": "All remaining 77 rows: launcher configs/probes (7), patch events (4), session records (5), P0 init (1), P1 lane scouts/verifiers/top-ups (40), P2 fetch repair (1), P2A source-origin audit batches (12), P2A atlas repairs (3), P2A prefilter (1), P4 source curation (1), continuation checkpoint diagnosis (1), continuation validator tooling (1). Source-LEVEL screening (P1 verification, P2A origin batches) is counted here as support, not in category (b), which covers idea-level adjudication/screening/scoring and corpus sign-offs; moving source-level screening into (b) would add only PARTIAL_PROVENANCE Sonnet-route rows and would not change any category verdict."
+  },
+  "category_verdicts_fable_question": {
+    "a_raw_idea_generation_core": {
+      "verdict": "PARTIAL_PROVENANCE",
+      "coverage_numerator": 15,
+      "coverage_denominator": 15,
+      "runtime_model_evidence_numerator": 15,
+      "runtime_effort_evidence_numerator": 0,
+      "basis": "All 15 core tasks (P3 round-1 seed batches A-D and W, P3R2 waves A-G, fixers 1-3) were dispatched by a claude-fable-5 orchestrator and every one was verified in this run by per-dispatch sidechain matching: 100% of their sidechain assistant records carry model=claude-fable-5 and 0 carry claude-sonnet-5 (per-task counts in TASKS.csv). Fable 5 as the runtime MODEL is therefore strongly evidenced for the entire core. high/xhigh EFFORT is evidenced only as a request (launcher config, agent frontmatter effort=xhigh, routing entries, agent self-reports); no runtime record anywhere carries an effort field, so effort was never runtime-observed. Caveats: SEEDS-W ran on Fable but never completed and left no artifact; seed batches A-D were later edited by the unlogged geography-scope patch reconciliation; the frozen longlist derives from the P3R2 regeneration."
+    },
+    "b_adjudication_screening": {
+      "verdict": "PARTIAL_PROVENANCE",
+      "coverage_numerator": 52,
+      "coverage_denominator": 52,
+      "runtime_model_evidence_numerator": 25,
+      "runtime_effort_evidence_numerator": 0,
+      "basis": "Split provenance. The idea-level adjudication that shaped the frozen longlist (atlas adjudication, P2A origin adjudication, three elegance-judge rounds, founder-fit) is Fable-5-model-confirmed by transcripts (sidechain-verified; effort request-only), and the 13 P4 demand screens are Sonnet-5 by policy design (model log-supported and spot sidechain-verified; never claimed as Fable). The interrupted Claude scorer attempts (A/B, S1-S4) also ran on Fable 5 (sidechain-verified) but only S1/S3 produced usable output. However, the AUTHORITATIVE P4 scoring calibration and adjudication, all P5 red-teaming, gate adjudication, and the final-24/top-10 selection were executed in the ChatGPT continuation (requested GPT-5.6 Sol/Terra/Luna, actual model unknown, no runtime transcript) - for those 27 tasks the Fable 5 high/xhigh claim is CONTRADICTED. Net: partial Fable provenance for the category, with the decisive later adjudication affirmatively non-Fable."
+    },
+    "c_later_folder06_artifacts": {
+      "verdict": "CONTRADICTED",
+      "coverage_numerator": 21,
+      "coverage_denominator": 21,
+      "runtime_model_evidence_numerator": 0,
+      "runtime_effort_evidence_numerator": 0,
+      "basis": "All 21 later-artifact tasks (10 deep dives, geography brief, P7 synthesis suite, 4 P8 audit/repair/sign-off tasks, and the 5 P5 supplemental idea-generation tasks that produced P5R2-CN-01 and P5-USSCI2-S01) were logged with source=chatgpt-continuation, requested_model GPT-5.6 Sol/Terra, actual_model=unknown, effort=unknown. No runtime transcript of the continuation exists in the corpus and the artifacts carry no model lineage markers. The claim that these artifacts are Fable/xhigh work (40_DEEP_DIVES/_about.md 'Ten Fable/xhigh reports'; the 'Fable adjudication' title of the P8 sign-off) is contradicted by the corpus's own contemporaneous logs; the corpus's honest records (FABLE_ADJUDICATION.md header, P8 proposal header, 05_MODEL_AND_EFFORT_REPORT.md, FINAL_AUDIT.md) themselves state actual model/effort remain unknown. Unknown identity within a ChatGPT continuation does not restore Fable provenance."
+    }
+  },
+  "overall_coverage": {
+    "task_rows_assessed": 165,
+    "task_rows_identified": 165,
+    "routing_log_entries_mapped": 334,
+    "routing_log_entries_total": 334,
+    "transcripts_inspected": 5,
+    "transcripts_total": 5,
+    "per_dispatch_sidechain_verifications": 29,
+    "audit_statements_read": ["99_AUDIT/FABLE_ADJUDICATION.md", "99_AUDIT/FINAL_AUDIT.md", "99_AUDIT/MECHANICAL_AUDIT.md", "99_AUDIT/P2A_FABLE_ORIGIN_ADJUDICATION.md", "99_AUDIT/P8_INDEPENDENT_ADJUDICATION_PROPOSAL.md"],
+    "state_files_read": ["05_STATE/MASTER_STATE.json", "05_STATE/PROGRESS_LOG.md", "05_STATE/GEOGRAPHY_SCOPE_PATCH_2026-07-12.md", "05_STATE/INDIA_SOURCE_ORIGIN_PREFILTER.md"],
+    "config_evidence_read": ["98_RUN_LOGS/LAUNCHER_LOG.md", "01_MISSION/MODEL_EFFORT_POLICY.md", "_claude_source/agents/idea-architect.md", "_claude_source/agents/idea-elegance-judge.md", "_claude_source/settings.json"],
+    "handoff_evidence_read": ["98_RUN_LOGS/CHATGPT_CONTINUATION_LOG.md", "98_RUN_LOGS/CHATGPT_HANDOFF_BACKUP_20260713_220541/ (4 files listed)"],
+    "corroboration_read": ["sources/history/prev_chat.md (section 7)", "evidence/SOURCE_MANIFEST.json"]
+  },
+  "missing_proof": [
+    "No runtime effort record exists for ANY task: zero '\"effort\":' JSON fields in all five transcripts (the only 'effort' strings are slash-command name lists and prose). Every high/xhigh claim in the corpus is request-side (launcher config, agent frontmatter, routing entries, agent self-reports). CONFIRMED is therefore unattainable for every row, and 'Fable 5 at high/xhigh' can at best be half-proven (model yes, effort no).",
+    "No runtime transcript of the ChatGPT continuation exists; actual_model=unknown for all 97 continuation entries. The exact runtime model and effort of every later Folder 06 artifact (P4 authoritative scoring, P5, P6, P7, P8) are unprovable from the corpus.",
+    "P4-SCORER-S1..S4 have started entries but no completion entries (session ended before logging); outcomes are established only via the continuation checkpoint diagnosis and the handoff backup files.",
+    "SEEDS-W has no completion entry and no output artifact; its content, if any, is lost.",
+    "The geography-scope patch application (including edits to seed batches A-D) and the P2A India prefilter (27 quarantines) have no routing entries and no session transcript; the executing model, if any, is unrecorded.",
+    "PROGRESS_LOG.md ends at P4 completion; P5-P8 progress exists only in CHATGPT_CONTINUATION_LOG.md and the routing log.",
+    "60_FINAL_PORTFOLIO/05_MODEL_AND_EFFORT_REPORT.md counts 333 routing records (written between the 02:03:11 and 02:05:02 entries); the final log has 334. Minor internal timing inconsistency, disclosed, not material.",
+    "Launcher probe results (probe-critical/probe-scout passed) are launcher self-reports with no independent runtime record.",
+    "Transcript encoding was not independently re-verified in this run (the accepted pilot reported at least one UTF-16 transcript); all five transcripts were fully searchable in this run, so the encoding question does not affect any count reported here."
+  ],
+  "contradictions_reconciled": [
+    {"claim": "40_DEEP_DIVES/_about.md: 'Ten Fable/xhigh reports'", "resolution": "REJECTED. Routing log lines 308-329 (source=chatgpt-continuation, requested GPT-5.6 Terra, actual unknown) and CHATGPT_CONTINUATION_LOG.md P6 section are the strongest contemporaneous evidence; the folder note is an unsupported label."},
+    {"claim": "99_AUDIT/FABLE_ADJUDICATION.md title implies Fable ran the final sign-off", "resolution": "Title is a role label. The document itself records 'Actual runtime model / effort: unknown / unknown (not exposed; not inferred)', agreeing with the routing log. No contradiction inside the evidence; the title alone is non-probative."},
+    {"claim": "Routing-log completion notes 'agent self-reported fable-5/xhigh'", "resolution": "Self-reports relayed by the orchestrator. The independent transcript per-message model fields are stronger and agree on the MODEL for every checked dispatch; the effort half remains unverified by any runtime record."},
+    {"claim": "LONGLIST.md: 'three independent Fable/xhigh elegance adjudications'", "resolution": "Model half supported by sidechain verification (36/112/80 fable records, 0 sonnet); effort half request-only. Statement is half-evidenced, not false."},
+    {"claim": "sources/history/prev_chat.md section 7 (Fable evidence for 15 completed core tasks; later continuation unexposed)", "resolution": "Secondhand narrative consistent with the primary evidence; used as corroboration only, never as proof."}
+  ]
+}

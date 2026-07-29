@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "package": "PAP06_NATIVE_CLAUDE",
+  "operation_a_gate": "COMPLETE",
+  "run_complete": false,
+  "stages": {
+    "A10_blind": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/A10_blind/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/A10_blind/attempt-1", "verification": "verification/A10_blind/FULL_attempt-1.md"}
+    },
+    "A20_prov": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/A20_prov/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/A20_prov/attempt-1", "verification": "verification/A20_prov/FULL_attempt-1.md"}
+    },
+    "A30_verify": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/A30_verify/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/A30_verify/attempt-1", "verification": "verification/A30_verify/FULL_attempt-1.md"}
+    },
+    "B00_inventory": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B00_inventory/attempt-2", "verification": null},
+      "full": {
+        "status": "ACCEPTED",
+        "candidate": "outputs/B00_inventory/attempt-2",
+        "verification": "verification/B00_inventory/FULL_attempt-2.md",
+        "failed_attempts": [
+          {"candidate": "outputs/B00_inventory/attempt-1", "verification": "verification/B00_inventory/FULL_attempt-1.md", "verdict": "FAIL"}
+        ],
+        "resolution_note": "Post-shutdown resume 2026-07-28: attempt-2 (completed naturally during shutdown checkpointing) passed controller pre-check and fresh independent verification (VERDICT: PASS, 1 minor non-blocking defect). The new verifier's own recount adjudicated the 05_CryoFree tree at 80 files, confirming the candidate and finding the attempt-1 FAIL report's 83 was itself wrong."
+      }
+    },
+    "B10_phd": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B10_phd/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B10_phd/attempt-1", "verification": "verification/B10_phd/FULL_attempt-1.md"}
+    },
+    "B12_lit_search": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B12_lit_search/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B12_lit_search/attempt-1", "verification": "verification/B12_lit_search/FULL_attempt-1.md"}
+    },
+    "B15_lit_synth": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B15_lit_synth/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B15_lit_synth/attempt-1", "verification": "verification/B15_lit_synth/FULL_attempt-1.md"}
+    },
+    "B20_align": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B20_align/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B20_align/attempt-1", "verification": "verification/B20_align/FULL_attempt-1.md"}
+    },
+    "B25_power": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B25_power/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B25_power/attempt-1", "verification": "verification/B25_power/FULL_attempt-1.md"}
+    },
+    "B30_skills": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B30_skills/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B30_skills/attempt-1", "verification": "verification/B30_skills/FULL_attempt-1.md"}
+    },
+    "B40_portfolio": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B40_portfolio/attempt-1", "verification": null},
+      "full": {"status": "ACCEPTED", "candidate": "outputs/B40_portfolio/attempt-1", "verification": "verification/B40_portfolio/FULL_attempt-1.md"}
+    },
+    "B50_execution": {
+      "pilot": {"status": "ACCEPTED", "candidate": "pilot/B50_execution/attempt-1", "verification": null},
+      "full": {
+        "status": "PENDING",
+        "candidate": null,
+        "verification": null,
+        "interrupted_attempts": [
+          {
+            "candidate": "outputs/B50_execution/attempt-1",
+            "verdict": "INCOMPLETE_NOT_ACCEPTED",
+            "reason": "Fable 5 usage-credit exhaustion mid-run 2026-07-29 (harness error: 'You're out of usage credits. Run /usage-credits to keep using Fable 5 or /model to switch models.'). Not a model downgrade, not a research-quality failure. 2 of 6 required files present (ROADMAP.md, IP_COLLAB.md; IP_COLLAB.md possibly mid-write per worker's last action 'Now IP_COLLAB.md.'); no RUN_META.md/SELF_CHECK.md; no verification/B50_execution directory exists. Preserved unmodified.",
+            "checkpoint": "state/SHUTDOWN_CHECKPOINT.md",
+            "error_log": "state/ERROR_LOG.md (2026-07-29 entry)"
+          }
+        ],
+        "next_action": "Delegate a fresh pap06-fable-xhigh worker (requested Fable 5/xhigh) to outputs/B50_execution/attempt-2 once Fable 5 usage is available; do not resume or repair attempt-1 in place; then a fresh independent pap06-verifier (Fable 5/xhigh) -> verification/B50_execution/FULL_attempt-2.md; accept only on VERDICT: PASS."
+      }
+    },
+    "B60_redteam": {
+      "pilot": {"status": "PENDING", "candidate": null, "verification": null},
+      "full": {"status": "PENDING", "candidate": null, "verification": null}
+    },
+    "B70_synth": {
+      "pilot": {"status": "PENDING", "candidate": null, "verification": null},
+      "full": {"status": "PENDING", "candidate": null, "verification": null}
+    },
+    "B80_audit": {
+      "pilot": {"status": "PENDING", "candidate": null, "verification": null},
+      "full": {"status": "PENDING", "candidate": null, "verification": null}
+    }
+  }
+}

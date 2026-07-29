@@ -1,0 +1,22 @@
+{
+  "stage": "10_refresh",
+  "status": "PASS",
+  "sample_ids": [
+    "P3R2-A-02",
+    "P3R2-A-03",
+    "P3R2-A-05"
+  ],
+  "paths_tested": [
+    "read",
+    "write",
+    "validate"
+  ],
+  "checks": {
+    "schema": true,
+    "paths": true
+  },
+  "errors": [],
+  "lessons": [
+    "fixture"
+  ]
+}

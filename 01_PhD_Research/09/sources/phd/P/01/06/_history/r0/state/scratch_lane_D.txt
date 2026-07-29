@@ -1,0 +1,223 @@
+DOI: 10.1016/0038-1101(88)90064-0
+TITLE: Nonlinearity in hall devices and its compensation
+AUTHORS: R.S. Popović; B. Hälg
+YEAR: 1988
+VENUE: Solid-State Electronics
+VOLUME: 31
+ISSUE: 12
+PAGES: 1681-1688
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/0038-1101(88)90064-0 record retrieved; title, authors, year, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Foundational classification of Hall-device nonlinearity (material, geometrical, junction-field-effect) versus applied field, and compensation methods — directly supports the linearity/nonlinearity-of-Hall-response coverage bullet.
+NOTES: Classic Popović/Hälg paper; frequently cited as the origin of the standard nonlinearity taxonomy used in later Hall-sensor characterization work.
+
+DOI: 10.21014/acta_imeko.v6i4.478
+TITLE: Bandwidth Limits in Hall Effect-based Current Sensors
+AUTHORS: Marco Crescentini; Marco Marchesi; Aldo Romani; Marco Tartagni; Pier Andrea Traverso
+YEAR: 2017
+VENUE: Acta IMEKO
+VOLUME: 6
+ISSUE: 4
+PAGES: 17
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.21014/acta_imeko.v6i4.478 record retrieved; title, authors, year, volume/issue, and venue matched; abstract read from the record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Directly targets bandwidth limitations of Hall-effect readout circuits; identifies two upper bandwidth limits — a fundamental one set by Hall-plate intrinsic (transversal charge-accumulation) capacitance and a practical one set by readout-interface input capacitance — supporting both the bandwidth and parasitic-capacitance coverage bullets.
+NOTES: Experimentally derives a measurement technique to isolate intrinsic Hall-probe response time from parasitic dynamic effects and proposes an equivalent electrical model of the parasitic network; explicitly states practical spinning-current Hall implementations are limited to a few hundred kHz.
+
+DOI: 10.3390/s19163537
+TITLE: Low-Frequency Noise of Magnetic Sensors Based on the Anomalous Hall Effect in Fe–Pt Alloys
+AUTHORS: Yiou Zhang; Qiang Hao; Gang Xiao
+YEAR: 2019
+VENUE: Sensors
+VOLUME: 19
+ISSUE: 16
+PAGES: 3537
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.3390/s19163537 record retrieved; title, authors, year, volume/issue, and venue matched; abstract read from the record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Direct 1/f and Johnson (thermal) noise characterization methodology for a Hall-type magnetic sensor, including current-density dependence — supports the 1/f and thermal-noise-characterization coverage bullet.
+NOTES: Reports noise consists of 1/f and Johnson components; large current density increases 1/f noise but not Johnson noise; compares field detectability against a commercial semiconductor Hall sensor. Anomalous-Hall (ferromagnetic alloy) rather than semiconductor 2DEG Hall sensor, so applicable mainly as a noise-methodology comparator.
+
+DOI: 10.1038/s41467-020-18007-5
+TITLE: Magnetic field detection limits for ultraclean graphene Hall sensors
+AUTHORS: Brian T. Schaefer; Lei Wang; Alexander Jarjour; Kenji Watanabe; Takashi Taniguchi; Paul L. McEuen; Katja C. Nowack
+YEAR: 2020
+VENUE: Nature Communications
+VOLUME: 11
+ISSUE: 1
+PAGES: 4163
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1038/s41467-020-18007-5 record retrieved; title, authors, year, volume/article number, and venue matched; abstract read from the record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Establishes a noise-limited magnetic-field detection-limit characterization methodology (spectral-density based) for a 2DEG-type Hall sensor across temperature/field conditions — a benchmark methodology transferable to noise/detectivity claims for AlGaN/GaN 2DEG Hall sensors.
+NOTES: Reports field detection limits of 700 nT Hz^-1/2 at room temperature, 80 nT Hz^-1/2 at 4.2 K, and 3 µT Hz^-1/2 in a 3 T background field at 4.2 K, for hBN-encapsulated graphene Hall devices. Different 2DEG material system (graphene, not AlGaN/GaN) but directly comparable detectivity benchmarking approach.
+
+DOI: 10.1186/1556-276x-7-107
+TITLE: Electrical characterization and nanoscale surface morphology of optimized Ti/Al/Ta/Au ohmic contact for AlGaN/GaN HEMT
+AUTHORS: Cong Wang; Nam-Young Kim
+YEAR: 2012
+VENUE: Nanoscale Research Letters
+VOLUME: 7
+ISSUE: 1
+PAGES: 107
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1186/1556-276x-7-107 record retrieved; title, authors, year, volume/issue, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Ohmic contact technology for AlGaN/GaN devices — electrical/morphological characterization of a Ti/Al/Ta/Au contact scheme directly relevant to the ohmic-contact coverage bullet for AlGaN/GaN Hall-sensor fabrication.
+NOTES: Abstract not independently read this session (publisher access-gate blocked); metadata_only.
+
+DOI: 10.3390/cryst12060826
+TITLE: Process of Au-Free Source/Drain Ohmic Contact to AlGaN/GaN HEMT
+AUTHORS: Lin-Qing Zhang; Xiao-Li Wu; Wan-Qing Miao; Zhi-Yan Wu; Qian Xing; Peng-Fei Wang
+YEAR: 2022
+VENUE: Crystals
+VOLUME: 12
+ISSUE: 6
+PAGES: 826
+SOURCE_TYPE: review_article
+VERIFICATION_BASIS: Crossref API works/10.3390/cryst12060826 record retrieved; title, authors, year, volume/issue, and venue matched; abstract read from the record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Reviews ohmic-contact technology (Au-free, low-temperature, and novel annealing schemes) for AlGaN/GaN HEMTs — supports the ohmic-contact-technology-for-wide-bandgap-devices coverage bullet.
+NOTES: Covers Au-contained RTA schemes plus Au-free alternatives and their effects on surface morphology, gate leakage, and dynamic on-resistance; framed around HEMT power/RF devices rather than Hall sensors specifically, but the underlying AlGaN/GaN ohmic-contact metallurgy is the same technology base used for Hall-sensor contacts.
+
+DOI: 10.1016/j.microrel.2007.07.102
+TITLE: Reliability of wire-bonding and solder joint for high temperature operation of power semiconductor device
+AUTHORS: Y. Yamada; Y. Takaku; Y. Yagi; I. Nakagawa; T. Atsumi; M. Shirai; I. Ohnuma; K. Ishida
+YEAR: 2007
+VENUE: Microelectronics Reliability
+VOLUME: 47
+ISSUE: 12
+PAGES: 2147-2151
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/j.microrel.2007.07.102 record retrieved; title, authors, year, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Wire-bond (and solder-joint) reliability under high-temperature operation for power semiconductor devices — directly supports the wire-bond-reliability-at-high-temperature coverage bullet.
+NOTES: Frequently cited foundational reliability paper on Al/Ag wire-bond and solder-joint failure mechanisms (CTE mismatch, thermal cycling) at elevated operating temperature.
+
+DOI: 10.1016/j.microrel.2023.115304
+TITLE: Reliability evaluation of thick Ag wire bonding on Ni pad for power devices
+AUTHORS: Xing Wei; Di Xin; Isamu Morisako; Junko Takahashi; Kohei Tatsumi
+YEAR: 2024
+VENUE: Microelectronics Reliability
+VOLUME: 152
+ISSUE:
+PAGES: 115304
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/j.microrel.2023.115304 record retrieved; title, authors, year, volume/page, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Recent (2024) wire-bond reliability evaluation (thick Ag wire on Ni pad) for power devices under thermal cycling — supports the wire-bond-reliability coverage bullet with contemporary evidence.
+NOTES: Included as a recent complement to the older Yamada et al. 2007 wire-bond reliability paper above.
+
+DOI: 10.1016/j.measurement.2018.11.065
+TITLE: Calibration algorithm of Hall magnetometer in visible coordinate system
+AUTHORS: A.A. Nevzorov; A.A. Orlov; V.K. Ignatjev; A.A. Bardin
+YEAR: 2019
+VENUE: Measurement
+VOLUME: 134
+ISSUE:
+PAGES: 939-946
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/j.measurement.2018.11.065 record retrieved; title, authors, year, volume/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Calibration methodology for Hall-based magnetometers — supports the calibration-methodology-and-traceability coverage bullet.
+NOTES: Referenced within its own bibliography a "review of magnetic sensors" (Lenz 1990) as background, consistent with a calibration-methods focus.
+
+DOI: 10.1109/jsen.2023.3347687
+TITLE: Sensitivity of Novel Micro-AlN/GaN/AlN Quantum Well Hall Sensors
+AUTHORS: Satish Shetty; Fernando Maia de Oliveira; Yuriy I. Mazur; H. Alan Mantooth; Gregory J. Salamo
+YEAR: 2024
+VENUE: IEEE Sensors Journal
+VOLUME: 24
+ISSUE: 4
+PAGES: 4343-4349
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2023.3347687 record retrieved; title, authors, year, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Sensitivity characterization of an AlN/GaN/AlN quantum-well Hall sensor — prior-art comparator device for the TCS/sensitivity coverage bullet within the AlGaN/GaN-family Hall-sensor literature.
+NOTES: Same University of Arkansas group (Mantooth, Salamo) as several other AlGaN/GaN-family Hall-sensor papers in this ledger; useful for showing breadth of recent competing work on nitride micro-Hall sensitivity.
+
+DOI: 10.1016/j.mseb.2008.11.041
+TITLE: High temperature behaviour of AlGaN/AlN/GaN Hall-FET sensors
+AUTHORS: L. Bouguen; L. Konczewicz; S. Contreras; B. Jouault; J. Camassel; Y. Cordier
+YEAR: 2009
+VENUE: Materials Science and Engineering: B
+VOLUME: 165
+ISSUE: 1-2
+PAGES: 1-4
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1016/j.mseb.2008.11.041 record retrieved; title, authors, year, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: High-temperature behavior (TCS-relevant) characterization of an AlGaN/AlN/GaN Hall-FET sensor — directly on-point prior art for the TCS-characterization coverage bullet.
+NOTES: French group (Montpellier/CRHEA) prior-art device distinct from the Arkansas and Senesky-group papers, adding geographic/institutional diversity to the AlGaN/GaN Hall-sensor prior-art landscape.
+
+DOI: 10.1109/jsen.2018.2794264
+TITLE: AlGaN/GaN Micro-Hall Effect Devices for Simultaneous Current and Temperature Measurements From Line Currents
+AUTHORS: Thomas P. White; Satish Shetty; Morgan E. Ware; H. Alan Mantooth; Gregory J. Salamo
+YEAR: 2018
+VENUE: IEEE Sensors Journal
+VOLUME: 18
+ISSUE: 7
+PAGES: 2944-2951
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/jsen.2018.2794264 record retrieved; title, authors, year, volume/issue/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: AlGaN/GaN micro-Hall device characterization (temperature dependence and sensitivity for simultaneous current/temperature sensing) — directly on-point prior art for the TCS and repeatability coverage bullets.
+NOTES: Earliest (2018) of the Arkansas-group AlGaN/GaN micro-Hall papers in this ledger, useful for establishing the prior-art timeline for the novelty discussion.
+
+DOI: 10.1049/cds2.12067
+TITLE: Hall‐effect sensors based on AlGaN/GaN heterojunctions on Si substrates for a wide temperature range
+AUTHORS: Sagnik Kumar; R. Muralidharan; G. Narayanan
+YEAR: 2021
+VENUE: IET Circuits, Devices & Systems
+VOLUME: 15
+ISSUE: 8
+PAGES: 772-786
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1049/cds2.12067 record retrieved; title, authors, year, volume/issue/pages, and venue matched; abstract read from the record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: TCS and wide-temperature-range calibration/repeatability characterization (75-500 K) of AlGaN/GaN-on-Si Hall sensors, including the geometrical correction factor's temperature/field dependence — supports TCS, calibration-methodology, and repeatability coverage bullets simultaneously.
+NOTES: Reports current-related sensitivity is reasonably constant over 75-500 K with predictable/compensable variation; demonstrates a Hall sensor geometry with correction factor ≈0.97 that varies only ≈2% from 75-500 K and is largely insensitive to applied field.
+
+DOI: 10.1016/j.pquantelec.2025.100578
+TITLE: Advancements in ohmic contact technology for AlGaN/GaN high-electron-mobility transistors
+AUTHORS: Ho-Young Kim; Ray-Hua Horng; Hiroshi Amano; Tae-Yeon Seong
+YEAR: 2025
+VENUE: Progress in Quantum Electronics
+VOLUME: 102
+ISSUE:
+PAGES: 100578
+SOURCE_TYPE: review_article
+VERIFICATION_BASIS: Crossref API works/10.1016/j.pquantelec.2025.100578 record retrieved; title, authors, year, volume, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Recent (2025) comprehensive review of ohmic-contact technology for AlGaN/GaN HEMTs — strong, current review-article support for the ohmic-contact-technology coverage bullet.
+NOTES: Co-authored by Hiroshi Amano (Nobel laureate, GaN pioneer) and Tae-Yeon Seong, established contact-metallurgy researchers.
+
+DOI: 10.3390/s24237731
+TITLE: A Review of SiC Sensor Applications in High-Temperature and Radiation Extreme Environments
+AUTHORS: Quanwei Zhang; Yan Liu; Huafeng Li; Jue Wang; Yuan Wang; Fabin Cheng; Haijun Han; Peng Zhang
+YEAR: 2024
+VENUE: Sensors
+VOLUME: 24
+ISSUE: 23
+PAGES: 7731
+SOURCE_TYPE: review_article
+VERIFICATION_BASIS: Crossref API works/10.3390/s24237731 record retrieved; title, authors, year, volume/issue, and venue matched; abstract read from the record.
+ACCESS_LEVEL: abstract_metadata
+CLAIMS_SUPPORTED: Review of wide-bandgap (SiC) sensor packaging and performance under high-temperature and radiation extreme environments — supports the extreme-environment-packaging coverage bullet as a closely analogous WBG-semiconductor-sensor platform to AlGaN/GaN.
+NOTES: Explicitly identifies radiation-resistance research on SiC sensors as underdeveloped relative to high-temperature performance, and frames future SiC-sensor packaging directions.
+
+DOI: 10.1109/access.2023.3283600
+TITLE: Electrothermal Responses of Bonding Wire Arrays in GaN Power Amplifier
+AUTHORS: Hao Xie; Sichao Du; Bo Pu; Jun Hu; Yu Zhang; Wei Qi; Hong Liu; Shuo Zhang; Duo Xiao
+YEAR: 2023
+VENUE: IEEE Access
+VOLUME: 11
+ISSUE:
+PAGES: 57556-57563
+SOURCE_TYPE: journal_article
+VERIFICATION_BASIS: Crossref API works/10.1109/access.2023.3283600 record retrieved; title, authors, year, volume/pages, and venue matched.
+ACCESS_LEVEL: metadata_only
+CLAIMS_SUPPORTED: Wire-bond electrothermal reliability behavior specifically in a GaN device package — directly supports the wire-bond-reliability-at-high-temperature bullet with a GaN-specific case.
+NOTES: Complements the more generic power-semiconductor wire-bond reliability papers above with a GaN-specific packaging/electrothermal reliability study.

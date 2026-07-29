@@ -1,0 +1,181 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "stage": "B00_inventory",
+  "mode": "PILOT",
+  "attempt": 1,
+  "scope_note": "Factual mapping only per pilot rules: four corpus roots, exactly one canonical artifact per corpus, and the old-06 duplicate relationship. No ranking, scoring, or portfolio judgment performed. All manifest-derived facts are attributed to evidence/SOURCE_MANIFEST.json and were not independently re-verified (no hashing/code execution available to this agent).",
+  "roots": [
+    {
+      "root": "sources/old06",
+      "identity": "Completed prior Folder-06 'Frontier Idea Research' mission tree, imported as an immutable 419-file corpus (per evidence/SOURCE_MANIFEST.json archive entry for source_attachment '06_ideas(9).zip', included_files=419).",
+      "purpose_as_recorded": "Per sources/old06/00_README_START_HERE.md: a one-command Claude Code mission that accepts >=600 sources, creates >=48 candidate concepts, and delivers a final portfolio of 24 startup ideas for company formation/launch in 2030.",
+      "top_level_structure_summary": [
+        "00_README_START_HERE.md, INSTALL_AND_RUN_POWERSHELL.md, KICKOFF_PROMPT.txt, PATCH_AND_RECOVERY.md, CLAUDE.md.source.txt, RUN_FRONTIER_RESEARCH.ps1.source.txt (top-level docs/launcher, executable content renamed to .source.txt per build policy)",
+        "01_MISSION/ - mission brief, scoring rubric, deliverables spec, lane map, templates",
+        "05_STATE/ - MASTER_STATE.json, ASSUMPTIONS.md and other run-state files",
+        "10_SOURCE_ATLAS/ - 16 lane source ledgers (raw + verified, per-lane .md maps)",
+        "20_OPPORTUNITY_POOL/ - candidate idea pool",
+        "30_SCREENING/ - EVIDENCE, REDTEAM, SCORECARDS subfolders",
+        "40_DEEP_DIVES/ - 10 deep-dive reports + source packs",
+        "50_GEOGRAPHY/ - US/China-first geography analysis",
+        "60_FINAL_PORTFOLIO/ - final 24-idea portfolio, comparison matrix, roadmap (see canonical_artifact)",
+        "90_BIBLIOGRAPHY/ - canonical accepted-source ledger",
+        "98_RUN_LOGS/ - raw model output, routing log, handoff backups",
+        "99_AUDIT/ - MECHANICAL_AUDIT.md, FINAL_AUDIT.md, adjudication artifacts",
+        "_claude_source/, tools/ - renamed/inert former .claude agents and Python/JS/PowerShell utilities (executable-looking files renamed to .source.txt per build policy; treated as inert data)"
+      ],
+      "top_level_listing_method": "Glob (recursive, 419 files total per manifest; only first 100 read directly, remainder inferred from evidence/SOURCE_MANIFEST.json 'files' entries via targeted grep for top-level directory prefixes) plus direct reads of README/state/audit files."
+    },
+    {
+      "root": "sources/new06",
+      "identity": "A rerun/current package built on top of the imported old06 corpus (referred to internally as 'src\\06 — immutable 419-file completed Folder 06 corpus'), per sources/new06/MANIFEST.md and sources/new06/INPUT_PROVENANCE.md. Archive entry source_attachment '06_ideas_new(3).zip' (included_files=255; skipped_duplicate_files=419, i.e. the 419 old06 files were recognized as duplicates and not re-included).",
+      "purpose_as_recorded": "Per INPUT_PROVENANCE.md, historical P4-P8 old06 artifacts are preserved for provenance/comparison only; 'the new rerun must not use their conclusions as judgment inputs.' The package runs stages 10_refresh through 70_audit and writes a canonical release under outputs/70_audit/FINAL.",
+      "top_level_structure_summary": [
+        "Root docs: MANIFEST.md, README.md, RUNBOOK.md, ROUTE.json, MODEL_POLICY.md, SOURCE_POLICY.md, SESSION_POLICY.md, INPUT_PROVENANCE.md, SOURCE_SHA256.json, PACKAGE_SHA256.json, NO_BUDGET_STOP.md, BUILD_VALIDATION.md, OFFICIAL_CLI_NOTES.md, POWERSHELL_TARGET.json",
+        "PowerShell launchers renamed to .source.txt (START, CHECK, PILOT, VALIDATE, CHECKPOINT, COMPLETE, AGENTS, CLAUDE) per build policy",
+        "prompts/ - per-stage prompt files (10_refresh.md ... 70_audit.md)",
+        "pilot/ - per-stage pilot outputs and hook self-tests",
+        "outputs/ - per-stage full-run outputs, including outputs/70_audit/FINAL (canonical release; see canonical_artifact)",
+        "state/ - stage completion markers, RUN_COMPLETE.json",
+        "logs/ - events.jsonl",
+        "quarantine/ - rejected model-attempt evidence (package_repair, model_event)",
+        "tests/fixtures/ - deterministic accepted validator examples",
+        "_claude_source/ - renamed agents/hooks"
+      ],
+      "top_level_listing_method": "Glob (direct listing of new06 root files) plus grep across evidence/SOURCE_MANIFEST.json for 'final|FINAL|release|canonical' paths, plus direct reads of MANIFEST.md, INPUT_PROVENANCE.md, state/RUN_COMPLETE.json, outputs/70_audit/AUDIT.md."
+    },
+    {
+      "root": "sources/phd",
+      "identity": "A repaired/renamed PhD-research package. Per sources/phd/P/EXTRACTION_FIX_REPORT.md, the original archive root 'PHD_HYBRID_2026-07-27' was shortened to 'P', research root '01_PhD_Research' to '01', and prior strategy folder '06_PhD_Strategy_and_HSX_Publication_2026-07' to '06' (path-depth repair only; source SHA-256 recorded as 52cdf744aab33c6c2a477c5652461e7881d7af8bf3a0cbd2bc25be1849dd3af1). Corresponds to archive entry source_attachment '01_phd_work(4).zip' (included_files=1145).",
+      "purpose_as_recorded": "Per sources/phd/P/01/01_Folder_Info.md: 'GaN Hall-effect magnetic sensing for fusion diagnostics (HSX stellarator)' research arc, spanning publications, hardware readout builds, and two autonomous Claude Code missions (folder 06 = completed PhD research-strategy mission; folder 08 = newer, in-progress Hall+coil hybrid/radiation-compensation strategy mission that explicitly reads folder 06 as prior 'completed work').",
+      "top_level_structure_summary": [
+        "P/START_HERE.txt, EXTRACTION_FIX_REPORT.md, PATH_RENAMES.csv, TEXT_PATH_PATCHES.csv, FILE_MANIFEST_SHA256.csv - repair/build documentation",
+        "P/01/ - working folder: 01_Folder_Info.md, publications, 02_HSX_Hall_Sensor_Readout, 03_HSX_Vector_Probe_RSI2026, root run/migration/README docs",
+        "P/01/06/ - completed PhD research-strategy mission (12 stages 00-80; canonical artifact — see canonical_artifact); includes _history/r0 (pre-restart historical build log, superseded)",
+        "P/01/07_HSX_august2025_results/ - raw HSX experimental data (matlab/.dat/.png files), not a synthesized deliverable",
+        "P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/ - newer sibling mission; per state/PROJECT_STATE.md, status STAGE_60_COMPLETE, 10 of 12 stages complete, NOT finished at pilot time (recorded in CONFLICTS.md)"
+      ],
+      "top_level_listing_method": "Glob (recursive, 1145 files total per manifest; first 100 read directly) plus direct reads of START_HERE.txt, EXTRACTION_FIX_REPORT.md, 01_Folder_Info.md, README_HYBRID_RADIATION_ANALYSIS.md, 06/PACKAGE_MANIFEST.md, 06/state/PROJECT_STATE.md, 08/.../state/PROJECT_STATE.md."
+    },
+    {
+      "root": "sources/startup",
+      "identity": "A multi-project startup-research corpus. Corresponds to archive entry source_attachment '02_Startup(6).zip' (included_files=524; skipped_duplicate_files=420 — 419 old06 files plus the redundant nested '06_Frontier_Idea_Research_2026-07.zip' transport archive, per the 'deduplicated' section of evidence/SOURCE_MANIFEST.json).",
+      "purpose_as_recorded": "Contains several parallel, independently-staged sub-missions rather than one single research arc: 01_Startup_Opportunity_Research_2026-07 (completed, audited startup-opportunity mission), 03_C12_C10_Strategy_IP_2026-07 (IP/patent strategy mission, in progress), 04_Cocktail_Dilution_Sensor_2026-07 and 05_CryoFree_HTS_RND_2026-07 (hardware R&D projects, early/not started), and 99_Archive (legacy research notes/red-team documents predating the staged missions). 02_Startup_Folder_Info.md exists but is an empty file on disk.",
+      "top_level_structure_summary": [
+        "01_Startup_Opportunity_Research_2026-07/ - phased mission (00 init through 99 audit) plus a later 70_SATURATION_CHECK; canonical artifact — see canonical_artifact",
+        "03_C12_C10_Strategy_IP_2026-07/ - patent/IP strategy mission; 05_STATE/MASTER_STATE.json records mission=IN_PROGRESS, phase4/5/6 pending",
+        "04_Cocktail_Dilution_Sensor_2026-07/ - hardware sensor R&D project; 05_STATE/MASTER_STATE.json records phase_status=NOT_STARTED",
+        "05_CryoFree_HTS_RND_2026-07/ - hardware R&D project (RUN.sh/tools present; not inspected in pilot scope beyond top-level file names)",
+        "99_Archive/ - legacy pre-staged research notes (june25_research.md, frontier_rank_red_team.md, source_evidence_ledger.csv, china_feasibility_deep_dive.md, etc.)",
+        "06_Frontier_Idea_Research_2026-07/ (nested old06 tree + its own .zip) - present in the original archive but OMITTED from this built package as a duplicate of sources/old06 (see duplicate_relationship); confirmed absent on disk by Glob spot check"
+      ],
+      "top_level_listing_method": "Glob (recursive, 524 files total per manifest; partial listing plus targeted Glob on 01_Startup_Opportunity_Research_2026-07 and 03_C12_C10_Strategy_IP_2026-07 subtrees) plus direct reads of 99_AUDIT/FINAL_AUDIT.md, 05_STATE/MASTER_STATE.json files, 70_SATURATION_CHECK/SATURATION_REPORT.md."
+    }
+  ],
+  "canonical_artifacts": [
+    {
+      "corpus": "old06",
+      "path": "sources/old06/60_FINAL_PORTFOLIO/00_EXECUTIVE_PORTFOLIO.md",
+      "sibling_files_in_same_release": [
+        "sources/old06/60_FINAL_PORTFOLIO/01_IDEA_CARDS.md",
+        "sources/old06/60_FINAL_PORTFOLIO/02_COMPARISON_MATRIX.csv",
+        "sources/old06/60_FINAL_PORTFOLIO/02_COMPARISON_MATRIX.md",
+        "sources/old06/60_FINAL_PORTFOLIO/03_FRONTIER_MAP.md",
+        "sources/old06/60_FINAL_PORTFOLIO/04_VALIDATION_ROADMAP_2026_2030.md",
+        "sources/old06/60_FINAL_PORTFOLIO/05_MODEL_AND_EFFORT_REPORT.md"
+      ],
+      "canonicity_evidence": "sources/old06/60_FINAL_PORTFOLIO/_about.md self-describes the folder as 'The user-facing 24-idea portfolio, comparison matrix, frontier map, and validation roadmap.' sources/old06/05_STATE/MASTER_STATE.json records mission='COMPLETE', phase='COMPLETE', all phases P0-P8 complete, final_ideas=24. sources/old06/99_AUDIT/FINAL_AUDIT.md records 'VERDICT: PASS' dated 2026-07-14 across validate_sources.py, validate_p4.py, validate_p5_redteams.py, validate_p5_selection.py, validate_deep_dives.py, validate_final_portfolio.py, MECHANICAL_AUDIT.md, and FABLE_ADJUDICATION.md.",
+      "basic_facts_as_recorded": {
+        "contains": "24 ranked launch-2030 concepts (idea id, concept, lane, archetype, US/China flags, score, evidence posture) plus narrative rationale for the portfolio and how to use the ranking.",
+        "date_markers": "FINAL_AUDIT.md dated 2026-07-14; MASTER_STATE.json last_checkpoint '2026-07-14 MISSION COMPLETE'",
+        "counters_from_master_state": "sources_reviewed=1289, sources_accepted=1182, peer_reviewed=482, primary_demand=298, longlist_ideas=65, p4_survivors=30, final_ideas=24, deep_dives=10"
+      }
+    },
+    {
+      "corpus": "new06",
+      "path": "sources/new06/outputs/70_audit/FINAL/",
+      "primary_file_in_release": "sources/new06/outputs/70_audit/FINAL/PORTFOLIO/PORTFOLIO.json",
+      "sibling_files_in_same_release": [
+        "sources/new06/outputs/70_audit/FINAL/PORTFOLIO/00_EXECUTIVE.md",
+        "sources/new06/outputs/70_audit/FINAL/PORTFOLIO/01_IDEA_CARDS.md",
+        "sources/new06/outputs/70_audit/FINAL/PORTFOLIO/02_MATRIX.md",
+        "sources/new06/outputs/70_audit/FINAL/PORTFOLIO/04_ROADMAP.md",
+        "sources/new06/outputs/70_audit/FINAL/PORTFOLIO/05_MODEL_REPORT.md",
+        "sources/new06/outputs/70_audit/FINAL/DEEP/ (10 deep-dive reports)",
+        "sources/new06/outputs/70_audit/FINAL/GEOGRAPHY.md",
+        "sources/new06/outputs/70_audit/FINAL/SELECTION.json",
+        "sources/new06/outputs/70_audit/FINAL/SOURCES.json"
+      ],
+      "canonicity_evidence": "sources/new06/outputs/70_audit/AUDIT.md states verdict PASS and 'The canonical release under FINAL/ validates,' with all 20 copied FINAL/ files SHA-256-identical to their accepted upstream originals per the audit's own §11. sources/new06/state/RUN_COMPLETE.json records status='COMPLETE', final_output='outputs\\\\70_audit\\\\FINAL', audit_verdict='PASS'.",
+      "basic_facts_as_recorded": {
+        "contains": "Portfolio of 24 selected ideas (PORTFOLIO.json items array with rank, concept, scores, market flags), 10 deep dives, geography, and a deduplicated 281-record source union (per AUDIT.md).",
+        "date_markers": "state/RUN_COMPLETE.json completed_at_utc = 2026-07-28T07:34:04.8424603Z",
+        "model_effort_observed_by_package": "RUN_COMPLETE.json records model_observed='claude-fable-5', effort_observed='xhigh' — this is the source package's own internal telemetry claim, not this pilot agent's observation of its own runtime."
+      }
+    },
+    {
+      "corpus": "phd",
+      "path": "sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md",
+      "sibling_files_in_same_release": [
+        "sources/phd/P/01/06/outputs/FINAL_ACTION_PLAN.md",
+        "sources/phd/P/01/06/outputs/FINAL_DELIVERABLE_INDEX.md",
+        "sources/phd/P/01/06/outputs/FINAL_AUDIT.md"
+      ],
+      "canonicity_evidence": "sources/phd/P/01/06/outputs/FINAL_AUDIT.md (stage 80) records 'FINAL STATUS: PASS' with a full requirement-by-requirement trace (R001-R025 all SATISFIED or documented deviation), 231/231 verified peer-reviewed source rows, and a red-team disposition of 0 critical/0 high findings. FINAL_DELIVERABLE_INDEX.md lists FINAL_EXECUTIVE_STRATEGY.md as 'The primary decision document' and the recommended first read for the mission owner.",
+      "basic_facts_as_recorded": {
+        "contains": "Per FINAL_DELIVERABLE_INDEX.md: verdict, thesis, publication route, next experiment, 24-month strategy, IP hold, and named uncertainties.",
+        "date_markers": "FINAL_AUDIT.md §2 validators 're-run fresh in this stage (2026-07-25, this session)'; launcher run id 'run_2026-07-24_231243_734' referenced in R014",
+        "relationship_to_folder_08": "sources/phd/P/01/README_HYBRID_RADIATION_ANALYSIS.md describes folder 08 as a 'new sibling mission' that 'reads the completed work in folder 06' — folder 06 is treated by the corpus's own documentation as the completed baseline; folder 08 was NOT complete at pilot time (see CONFLICTS.md)."
+      }
+    },
+    {
+      "corpus": "startup",
+      "path": "sources/startup/01_Startup_Opportunity_Research_2026-07/60_PHASE6_SYNTHESIS/00_EXECUTIVE_SUMMARY.md",
+      "sibling_files_in_same_release": [
+        "sources/startup/01_Startup_Opportunity_Research_2026-07/60_PHASE6_SYNTHESIS/01_ROADMAP_2026_2030.md",
+        "sources/startup/01_Startup_Opportunity_Research_2026-07/60_PHASE6_SYNTHESIS/02_FULL_RANKING.md",
+        "sources/startup/01_Startup_Opportunity_Research_2026-07/99_AUDIT/FINAL_AUDIT.md"
+      ],
+      "canonicity_evidence": "sources/startup/01_Startup_Opportunity_Research_2026-07/05_STATE/MASTER_STATE.json records mission='COMPLETE', all 8 phases (phase0_init through phase7_audit) complete. sources/startup/01_Startup_Opportunity_Research_2026-07/99_AUDIT/FINAL_AUDIT.md records 'VERDICT: PASS-WITH-EXCEPTIONS' (documented tier-mix deviation plus 2 newly-found minor gaps; none said to invalidate a deliverable). Chosen over the other four startup sub-projects because, per their own state files, 03_C12_C10_Strategy_IP_2026-07 is mission='IN_PROGRESS' and 04_Cocktail_Dilution_Sensor_2026-07 is phase_status='NOT_STARTED'; 05_CryoFree_HTS_RND_2026-07 and 99_Archive were not inspected for a completion marker in pilot scope.",
+      "basic_facts_as_recorded": {
+        "contains": "Per 05_STATE/MASTER_STATE.json counters: 40 candidates, 12 deep dives, 15 red-teams, 689 unique sources, synthesized into the phase-6 executive summary/ranking/roadmap.",
+        "date_markers": "MASTER_STATE.json 'started': '2026-07-02'; FINAL_AUDIT.md is Phase 7; a later, separately-dated 70_SATURATION_CHECK/SATURATION_REPORT.md is marked 'performed 2026-07-04, external sampler' — this saturation check post-dates the phase-numbered 00-99 mission structure and is recorded as a limitation/conflict, not folded into the phase6 synthesis content in this pilot.",
+        "not_selected_projects_status": "03_C12_C10_Strategy_IP_2026-07 = IN_PROGRESS (round 3, phases 5-6 pending); 04_Cocktail_Dilution_Sensor_2026-07 = NOT_STARTED (phase P0_dipstick, budget_spent_usd=0)"
+      }
+    }
+  ],
+  "old06_duplicate_relationship": {
+    "claim_source": "evidence/SOURCE_MANIFEST.json, top-level 'deduplicated' array (attributed claim, not independently re-verified by this agent — no hashing/code execution available)",
+    "entries": [
+      {
+        "omitted_tree": "new06/src/06",
+        "canonical_tree": "sources/old06",
+        "proof_as_recorded": "419/419 files matched by relative path and SHA-256 before build"
+      },
+      {
+        "omitted_tree": "startup/06_Frontier_Idea_Research_2026-07",
+        "canonical_tree": "sources/old06",
+        "proof_as_recorded": "419/419 files matched by relative path and SHA-256 before build"
+      },
+      {
+        "omitted_member": "startup/06_Frontier_Idea_Research_2026-07.zip",
+        "canonical_tree": "sources/old06",
+        "proof_as_recorded": "redundant nested transport archive; extracted canonical content is present"
+      }
+    ],
+    "archive_counter_cross_check": "evidence/SOURCE_MANIFEST.json 'archives' entries: old06 archive ('06_ideas(9).zip') included_files=419, skipped_duplicate_files=0; new06 archive ('06_ideas_new(3).zip') included_files=255, skipped_duplicate_files=419; startup archive ('02_Startup(6).zip') included_files=524, skipped_duplicate_files=420 (419 old06 files + 1 redundant nested zip member). These three counters are internally consistent with the 'deduplicated' claims above (attributed, not recomputed).",
+    "spot_structure_check_performed": "Glob on this filesystem for sources/new06/src/**, sources/startup/06_Frontier_Idea_Research_2026-07/**, and sources/startup/*.zip all returned no files, consistent with the manifest's statement that these trees/members were omitted from the built package and only sources/old06 holds the 419-file corpus. This is a directory-presence spot check only; it does not independently verify the manifest's SHA-256 matching claim, and it does not recount all 419 files in sources/old06."
+  },
+  "coverage_statement": {
+    "what_the_pilot_did": "Identified the four corpus roots and their top-level structure via Glob and targeted evidence/SOURCE_MANIFEST.json greps; read root-level README/manifest/state/audit files for each corpus; identified and evidenced exactly one canonical/final artifact per corpus; confirmed (via manifest attribution plus an on-disk absence spot check) the old06 duplicate relationship; recorded conflicts actually encountered while reading these specific files.",
+    "what_the_full_run_must_still_add": [
+      "Complete recursive inventory of all four corpus roots (only old06/phd/startup had partial recursive Globs read, capped at 100 results each by the tool; new06 was listed at top level plus targeted grep only)",
+      "Full read-through of evidence/SOURCE_MANIFEST.json's 'files' array (not attempted; file is 814KB and was only sampled via targeted grep patterns)",
+      "Inventory of non-canonical deliverables within each corpus (e.g. old06's 10_SOURCE_ATLAS, 20_OPPORTUNITY_POOL, 30_SCREENING, 40_DEEP_DIVES; new06's pilot/, quarantine/, tests/fixtures; the phd P/01/08 in-progress mission's stage outputs; startup's 03/04/05/99 sub-projects) beyond the single canonical artifact per corpus",
+      "Independent hash verification of any manifest claim (not possible for this agent; no code execution)",
+      "A full recount of the 419-file old06 corpus and the claimed 690/689/691-style unique-source counts cited in various audits",
+      "Formal duplicate/near-duplicate detection across corpora beyond the one documented old06 relationship (e.g. whether old06's P3R2-* idea IDs reappearing in new06's portfolio with different scores, noted in CONFLICTS.md, indicates any further overlap requiring reconciliation)",
+      "Any web-based freshness-gap check (not performed in this pilot; see RUN_META.md)"
+    ]
+  }
+}

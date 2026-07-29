@@ -1,0 +1,168 @@
+{
+  "schema_version": 3,
+  "package": "PAP06_NATIVE_CLAUDE",
+  "no_budget_shutdown": true,
+  "permission_mode": "bypassPermissions",
+  "interactive_main_session": true,
+  "fresh_subagent_per_call": true,
+  "pilot_before_full": true,
+  "command_shell_runtime": false,
+  "full_verifier": {
+    "agent": "pap06-verifier",
+    "model": "fable",
+    "effort": "xhigh",
+    "fresh_context": true
+  },
+  "stages": [
+    {
+      "id": "A10_blind",
+      "operation": "A",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/A10_blind.md",
+      "prerequisites": [],
+      "required": ["SELECTION.json", "TOP10.json", "METHOD.md"]
+    },
+    {
+      "id": "A20_prov",
+      "operation": "A",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/A20_prov.md",
+      "prerequisites": ["A10_blind"],
+      "required": ["PROVENANCE.json", "PROVENANCE.md", "TASKS.csv"]
+    },
+    {
+      "id": "A30_verify",
+      "operation": "A",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/A30_verify.md",
+      "prerequisites": ["A10_blind", "A20_prov"],
+      "required": ["COMPARE.json", "COMPARE.md", "VERDICT.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B00_inventory",
+      "operation": "B",
+      "model": "sonnet",
+      "effort": "high",
+      "role": "support",
+      "prompt": "workflow/stages/B00_inventory.md",
+      "prerequisites": ["A30_verify"],
+      "required": ["INPUT_MAP.json", "CONFLICTS.md", "INVENTORY.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B10_phd",
+      "operation": "B",
+      "model": "sonnet",
+      "effort": "high",
+      "role": "support",
+      "prompt": "workflow/stages/B10_phd.md",
+      "prerequisites": ["B00_inventory"],
+      "required": ["PHD_FACTS.json", "OPT2.md", "PHD_CORE.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B12_lit_search",
+      "operation": "B",
+      "model": "sonnet",
+      "effort": "high",
+      "role": "support",
+      "prompt": "workflow/stages/B12_lit_search.md",
+      "prerequisites": ["B00_inventory", "B10_phd"],
+      "required": ["SEARCH_PROTOCOL.md", "SEARCH_LOG.csv", "PAPER_LEDGER.csv", "EXCLUSIONS.csv", "FLOW.json"]
+    },
+    {
+      "id": "B15_lit_synth",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B15_lit_synth.md",
+      "prerequisites": ["B12_lit_search"],
+      "required": ["EVIDENCE_MAP.csv", "LIT_REVIEW.md", "GAPS.md", "SOURCE_AUDIT.json", "SOURCES.csv"]
+    },
+    {
+      "id": "B20_align",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B20_align.md",
+      "prerequisites": ["B00_inventory", "B10_phd", "B15_lit_synth"],
+      "required": ["ALIGNMENT.csv", "ALIGNMENT.md", "IMPACT_MAP.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B25_power",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B25_power.md",
+      "prerequisites": ["B15_lit_synth", "B20_align"],
+      "required": ["POWER_MAP.csv", "POWER.md", "POWER_SKILLS.md", "BRIDGE_TESTS.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B30_skills",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B30_skills.md",
+      "prerequisites": ["B20_align", "B25_power"],
+      "required": ["SKILLS.csv", "SKILLS.md", "BRIDGES.json", "PREP_PLAN.md"]
+    },
+    {
+      "id": "B40_portfolio",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B40_portfolio.md",
+      "prerequisites": ["A30_verify", "B30_skills"],
+      "required": ["RANKING.csv", "DECISION.json", "PORTFOLIO.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B50_execution",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B50_execution.md",
+      "prerequisites": ["B40_portfolio"],
+      "required": ["ROADMAP.md", "IP_COLLAB.md", "MANUAL_WORK.md", "SOURCES.csv"]
+    },
+    {
+      "id": "B60_redteam",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B60_redteam.md",
+      "prerequisites": ["B50_execution"],
+      "required": ["REDTEAM.json", "REDTEAM.md", "ISSUES.csv", "SOURCES.csv"]
+    },
+    {
+      "id": "B70_synth",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B70_synth.md",
+      "prerequisites": ["B60_redteam"],
+      "required": ["DETAILED.md", "PLAIN.md", "MODEL_REPORT.md", "SOURCE_INDEX.csv", "FINAL_INDEX.md"]
+    },
+    {
+      "id": "B80_audit",
+      "operation": "B",
+      "model": "fable",
+      "effort": "xhigh",
+      "role": "critical",
+      "prompt": "workflow/stages/B80_audit.md",
+      "prerequisites": ["B70_synth"],
+      "required": ["AUDIT.json", "AUDIT.md", "CHANGELOG.md", "FINAL/DETAILED.md", "FINAL/PLAIN.md", "FINAL/MODEL_REPORT.md", "FINAL/RANKING.csv", "FINAL/SOURCE_INDEX.csv", "FINAL/RELEASE.json"]
+    }
+  ]
+}

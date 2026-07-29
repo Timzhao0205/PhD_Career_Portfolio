@@ -1,0 +1,37 @@
+{
+    "stage":  "70_audit",
+    "kind":  "PILOT",
+    "status":  "COMPLETE",
+    "validated_at_utc":  "2026-07-28T07:29:14.0322879Z",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "effort_requested":  "xhigh",
+    "claude_code_version":  "2.1.220",
+    "total_cost_usd_telemetry":  205.73536425000003,
+    "total_duration_ms":  13323078,
+    "total_input_tokens":  411239,
+    "total_output_tokens":  1151,
+    "output_files":  [
+                         {
+                             "path":  "pilot\\70_audit\\FINAL_PROTO\\DEEP\\D03.md",
+                             "bytes":  19207,
+                             "sha256":  "68CB244F42BA3865E67A9AC76F46C0588781A7479CA2A4FF61B8EA6C47680080"
+                         },
+                         {
+                             "path":  "pilot\\70_audit\\PILOT.json",
+                             "bytes":  1758,
+                             "sha256":  "21271414A6ED1BD8BFAD5CC9CE6E381BA6B0EF453025904783F5A1888EE63ABE"
+                         },
+                         {
+                             "path":  "pilot\\70_audit\\PILOT.md",
+                             "bytes":  2145,
+                             "sha256":  "41674653A49924B868072459B667ECF285D4BDBC3FC8837E4C1A45E98087C043"
+                         },
+                         {
+                             "path":  "pilot\\70_audit\\REPAIR_PROTO.json",
+                             "bytes":  245,
+                             "sha256":  "D6C0DBC98F3A19BE3C6916F6BC9E327AE1FD71D3BC8A5EC2AF657DFEB03C53D4"
+                         }
+                     ]
+}

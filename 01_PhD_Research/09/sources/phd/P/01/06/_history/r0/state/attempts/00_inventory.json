@@ -1,0 +1,21 @@
+﻿{
+    "schema_version":  2,
+    "stage":  "00_inventory",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "status":  "COMPLETE",
+    "requested_model":  "sonnet",
+    "requested_effort":  "high",
+    "reported_models":  "claude-sonnet-5",
+    "downgrade_count":  0,
+    "stream_file":  "",
+    "session_id":  "2b8a1366-9088-44df-ab09-7dd2d662e253",
+    "generated_prompt":  "",
+    "chatgpt_windows_equivalent":  {
+                                       "model":  "gpt-5.6-sol",
+                                       "effort":  "High",
+                                       "max_unavailable_fallback":  "Extra High"
+                                   },
+    "note":  "Required files exist and stage-specific checks passed",
+    "updated_at":  "2026-07-24T17:17:42.3398187-07:00"
+}

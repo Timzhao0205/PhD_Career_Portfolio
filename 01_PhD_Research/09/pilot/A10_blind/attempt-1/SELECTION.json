@@ -1,0 +1,365 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "stage": "A10_blind",
+  "mode": "PILOT",
+  "attempt": 1,
+  "sample_definition": "Deterministic pilot sample: the first two entries in stored array order from each of evidence/blind/POOL_1.json (P3R2-A-01, P3R2-A-02), evidence/blind/POOL_2.json (P3R2-B-21, P3R2-B-22), and evidence/blind/POOL_3.json (P3R2-D-19, P3R2-D-20). 6 of 126 candidates evaluated; the remaining 120 are NOT evaluated in this pilot.",
+  "scoring_scale": "Each rubric component is a coarse ordinal judgment on 1-5 (1 = weak/adverse, 5 = strong/favorable). Integer scores only; no weighted numeric total is computed, to avoid false precision. Ranking is a holistic judgment over the components, with tie handling defined in METHOD.md. For regulatory_safety_friction and failure_mode_resilience, a HIGHER score means LESS friction / MORE resilience.",
+  "evidence_note": "This is a blind stage. All evidence_from_candidate items are drawn solely from the candidate's own record in the blind pool shards. Lane source IDs (e.g., L02-043) cited inside candidate records could not be opened or verified in this stage and are treated as unverified claims by the candidate author.",
+  "decision_vocabulary": "advance = pilot top-3 (would carry toward the shortlist on this sample); hold = credible but outranked in this sample, could re-enter on full evaluation; reject = would not carry on current evidence.",
+  "selection": [
+    {
+      "rank": 1,
+      "idea_id": "P3R2-A-01",
+      "concept": "UL-certifiable 800VDC rack-inlet protection module: solid-state disconnect + hot-swap precharge + ground-fault/arc-fault detection for AI racks",
+      "decision": "advance",
+      "evidence_from_candidate": [
+        "painful_job: 800VDC rack inlets have unresolved grounding, hot-plug, inrush, and oscillation behavior; DC arc-fault detection is not commodity even at LV; hyperscalers are deploying 800V racks faster than any listed protection product category exists",
+        "named_buyer_examples include Vertiv, Eaton, Delta (US datacenter business), and Google/Meta/Microsoft via the OCP Mount Diablo ecosystem",
+        "demand_trigger_2030_2034: second-generation OCP Mount Diablo 800VDC deployments and 1MW-rack retrofits in 2030-2033 (candidate cites L02-043/044) plus datacenter electrification capex (candidate cites GE Vernova $2.4B/quarter datacenter orders, L08-033)",
+        "current_trl: 4; first_experiment_budget_usd: 400000; v1_capital_range_usd: 3M-8M; precompany_validation_by_2029: true",
+        "precompany_plan is university-lab publishable work: 800V fault/arcing characterization, benchtop 800V/200A interrupter demo, OCP participation, third-party test campaign",
+        "timing_window_risk (candidate's own words): if NVIDIA/OCP fold full protection into reference PSUs by 2029, the standalone module shrinks to an IP/licensing play; UL/IEC standards may lag and slow procurement"
+      ],
+      "scores": {
+        "pain_severity_budget": {
+          "score": 5,
+          "reason": "Category vacuum at the exact point where hyperscaler capex is largest and safety/serviceability are procurement-gating; buyers are named, budgeted, and already deploying the racks that create the pain. Contingent on the candidate's unverified market claims (blind stage)."
+        },
+        "technical_feasibility": {
+          "score": 4,
+          "reason": "TRL 4; SiC solid-state interruption, active precharge, and DC arc classification at 800V are hard but within demonstrated power-electronics art. The genuinely open part is arc discrimination with low nuisance-trip rates at 1MW-rack transient levels."
+        },
+        "defensible_edge": {
+          "score": 3,
+          "reason": "Proposed moat is a listing path plus a fleet-wide DC arc-signature dataset. Real but contestable: Eaton/Vertiv/Schneider can bundle protection into shelves, and the candidate itself concedes the reference-design absorption scenario."
+        },
+        "founder_phd_adjacency": {
+          "score": 4,
+          "reason": "Scored non-circularly on the candidate's own 2026-2029 plan: fault characterization, arc-signature work, and a 400k USD benchtop interrupter are publishable, fundable, standard university power-electronics-lab work requiring no company and no exotic facility."
+        },
+        "capital_time_to_falsification": {
+          "score": 4,
+          "reason": "400k USD first experiment by 2027-2028 gives a clean technical falsifier pre-company; the market-side falsifier (reference-design absorption) also resolves by ~2029, before major capital."
+        },
+        "timing_2030_2034": {
+          "score": 4,
+          "reason": "Second-generation 800VDC deployments and retrofits land squarely in 2030-2033 per the candidate's trigger; window is credible but can be closed early by OEM bundling, hence not 5."
+        },
+        "geographic_portability": {
+          "score": 4,
+          "reason": "US beachhead with JP/TW secondaries riding a standards-defined (OCP/UL/IEC) ecosystem; the listed-product framing travels across the whole Western hyperscaler supply chain. No CN exposure by design."
+        },
+        "regulatory_safety_friction": {
+          "score": 3,
+          "reason": "UL/IEC listing is simultaneously the moat and the drag: no listed category exists yet, and the candidate itself flags standards lag as a procurement risk. Friction is material but is the kind a well-prepared entrant can convert into advantage."
+        },
+        "failure_mode_resilience": {
+          "score": 3,
+          "reason": "Main failure modes (absorption into reference PSUs, standards lag, incumbent bundling) are identified and partially hedged by an IP/licensing fallback; the absorption scenario would still gut venture-scale value."
+        }
+      },
+      "overall_band": "strong",
+      "uncertainty": {
+        "level": "medium",
+        "note": "Technical path is comparatively well understood; dominant uncertainty is structural (whether a merchant protection module survives as a product category vs being absorbed into OEM/NVIDIA reference designs). All market claims are candidate-internal and unverified in this blind stage."
+      },
+      "principal_risk": "Category absorption: NVIDIA/OCP or shelf OEMs fold listed protection into reference power shelves by ~2029, collapsing the standalone module into an IP/licensing play.",
+      "falsifier": "By 2028: the 800V/200A benchtop interrupter fails to clear bolted and arcing faults in <10 us with an acceptable nuisance-trip rate against a recorded rack-inlet transient library; or by 2029 an OCP/NVIDIA reference design ships integrated listed protection, eliminating the merchant socket."
+    },
+    {
+      "rank": 2,
+      "idea_id": "P3R2-D-19",
+      "concept": "Distributed composite-flywheel kinetic buffers for off-grid AI power plants: containerized magnetic-bearing flywheel strings that absorb GPU-cluster power swings so gas turbines and grids see smooth load.",
+      "decision": "advance",
+      "evidence_from_candidate": [
+        "painful_job: a 400 MW off-grid AI datacenter already selected flywheel-based dynamic power stabilization (Piller SHIELDX with Bergen engines) because reciprocating/turbine plants cannot follow AI load steps (candidate cites L16-052)",
+        "product: 250-500 kW / 10-25 MJ composite-rotor flywheel modules on active magnetic bearings, millisecond response, >million-cycle life - a power-quality machine, not an energy-storage play",
+        "precompany_plan (FIX-hardened): instrumented load-spectrum study with a datacenter partner to MEASURE the buffering niche - the niche must be measured, not asserted - plus quantified cycle-life economics vs Piller-class machines and vs BESS",
+        "first_experiment: 50 kW / 2 MJ composite rotor on active magnetic bearings in vacuum, 100,000 microcycles with <1% rotor loss growth; first_experiment_budget_usd: 350000; v1_capital_range_usd: 8M-20M",
+        "timing_window_risk (candidate's own words): if lithium BESS cycle costs fall far enough or NVIDIA smooths load in software/rack capacitance, the buffering niche shrinks to harmonics-scale",
+        "us_beachhead true, china_beachhead false, secondary_markets KR/JP; CN treated as license-note only"
+      ],
+      "scores": {
+        "pain_severity_budget": {
+          "score": 4,
+          "reason": "Strongest demand evidence in this sample: per the candidate, a real 400 MW buyer already procured this exact function (SHIELDX), proving budget and severity. Docked one point because the pain is therefore already partially served by an incumbent architecture."
+        },
+        "technical_feasibility": {
+          "score": 4,
+          "reason": "TRL 4; composite rotors on active magnetic bearings in vacuum are established engineering with an existing industrial base. Risk concentrates in cost/power-density targets and microcycle rotor-loss behavior, both testable at subscale."
+        },
+        "defensible_edge": {
+          "score": 3,
+          "reason": "Wedge is cycle-life economics at millions of daily microcycles (where batteries age out) plus DC-native higher power density vs Piller's synchronous machines. Plausible but not proprietary physics; incumbent and BESS substitutes are strong."
+        },
+        "founder_phd_adjacency": {
+          "score": 3,
+          "reason": "Non-circular reading of the plan: load-spectrum measurement, rotor/bearing loss modeling, and a 50 kW vacuum spin test are feasible academic-lab work, but rotor-dynamics/magnetic-bearing test infrastructure is less generic than a power-electronics bench, and the publishable surface is narrower."
+        },
+        "capital_time_to_falsification": {
+          "score": 4,
+          "reason": "Excellent falsification design: the cheap step (measuring the microcycle spectrum and running the comparative economics) can kill the thesis before any hardware; the 350k USD subscale spin test then retires the main technical risk."
+        },
+        "timing_2030_2034": {
+          "score": 4,
+          "reason": "Off-grid/weak-grid AI plants proliferating 2030-2034 as interconnect queues bind is a coherent trigger, and the 2025 SHIELDX selection (per the candidate) shows the architecture is procurable now, leaving room for a second-generation entrant."
+        },
+        "geographic_portability": {
+          "score": 4,
+          "reason": "US beachhead with KR/JP secondaries; deliberately no CN dependence; the buffer sits behind the meter in off-grid plants, largely bypassing regional interconnection regimes."
+        },
+        "regulatory_safety_friction": {
+          "score": 3,
+          "reason": "Burst containment and rotating-machinery safety at 40,000 rpm are serious but well-understood engineering-certification problems; no novel listing category must be created, unlike DC protection."
+        },
+        "failure_mode_resilience": {
+          "score": 3,
+          "reason": "Two honest, candidate-acknowledged niche-killers (BESS cost decline; NVIDIA-side software/capacitive smoothing). Partially hedged by the measure-first plan and by extension into grid-forming inertia services."
+        }
+      },
+      "overall_band": "strong",
+      "uncertainty": {
+        "level": "medium",
+        "note": "Demand evidence is unusually concrete for this pool (an actual procurement precedent, per the candidate), but the size and durability of the buffering niche between cheap batteries and software smoothing is unmeasured - which the candidate itself concedes and plans to measure first."
+      },
+      "principal_risk": "Niche compression: falling BESS cycle costs or NVIDIA-side load smoothing (software or rack capacitance) shrinks the kinetic-buffer niche to harmonics scale before the entrant reaches product.",
+      "falsifier": "The 2026-27 instrumented load-spectrum study shows microcycle depth/frequency at which BESS or existing synchronous-machine solutions are economically superior; or the 50 kW / 2 MJ rotor fails the 100,000-microcycle test with >1% loss growth."
+    },
+    {
+      "rank": 3,
+      "idea_id": "P3R2-B-22",
+      "concept": "DC-link capacitor and converter health prognostics module: embedded ripple/ESR/thermal sensing with physics-based remaining-useful-life models for Chinese HVDC datacenter and industrial converter fleets",
+      "decision": "advance",
+      "evidence_from_candidate": [
+        "painful_job: DC-link capacitors are a leading converter failure mechanism and higher power density compresses their thermal margin (candidate cites canonical reliability physics, L02-010); fleet operators discover failures reactively",
+        "product: retrofit/embedded module using synchronous demodulation of existing switching ripple (no injected signals) for in-situ ESR/capacitance tracking plus physics-of-failure RUL models; defined as a retrofit SKU with a cross-vendor failure database as the compounding moat",
+        "first_experiment (2027-Q1): excitation-free ESR tracking within 5% of LCR ground truth across a 2,000 h accelerated-aging run on 20 capacitors in an operating 10 kW converter; first_experiment_budget_usd: 150000",
+        "FIX gate (2028): LOI from one named design-win path - a PSU/UPS vendor or third-party maintenance operator; absent it, treat as a feature (sell/license the IP) rather than a company",
+        "launch thesis: China's HVDC/800V fleet installed 2026-2029 hits capacitor mid-life exactly at 2030-2034; candidate cites NVIDIA-spec maintenance-cost framing (up to 70% reduction claims, L02-043) as proof operators buy on maintenance economics",
+        "timing_window_risk (candidate's own words): risk of being a feature, not a product; keep the US secondary market active from day one so the business is not hostage to CN vendor access"
+      ],
+      "scores": {
+        "pain_severity_budget": {
+          "score": 3,
+          "reason": "Failure pain is real and reliability physics is canonical, but the budgeted buyer for a standalone prognostics module is soft: vendors default to in-house telemetry, and the candidate itself gates the company on a design-win LOI."
+        },
+        "technical_feasibility": {
+          "score": 4,
+          "reason": "TRL 4; excitation-free ESR tracking via synchronous demodulation of existing ripple is well-grounded, benchtop-verifiable physics; the RUL modeling layer is standard physics-of-failure practice."
+        },
+        "defensible_edge": {
+          "score": 3,
+          "reason": "Excitation-free retrofit capability plus a cross-vendor failure database is a plausible compounding moat, but the database only compounds after fleet access is won - exactly the step the feature-risk threatens."
+        },
+        "founder_phd_adjacency": {
+          "score": 4,
+          "reason": "Non-circular: an accelerated capacitor-aging lab with LCR ground truth and a live 30 kW converter prototype is an almost ideal PhD-scale, publishable power-electronics-reliability program at trivial cost."
+        },
+        "capital_time_to_falsification": {
+          "score": 5,
+          "reason": "Cheapest falsification in this sample: 150k USD and one 2,000 h aging campaign resolves the core technical claim by 2027; the 2028 LOI gate resolves the commercial claim before any scale capital."
+        },
+        "timing_2030_2034": {
+          "score": 3,
+          "reason": "Fleet-mid-life arithmetic landing in 2030-2034 is coherent, but the trigger depends on operators choosing to buy a third-party layer rather than waiting for vendor telemetry - a behavioral, not structural, trigger."
+        },
+        "geographic_portability": {
+          "score": 3,
+          "reason": "CN beachhead with an explicitly maintained US secondary; the retrofit SKU is technically portable, but the primary go-to-market runs through CN vendor design-ins, which carries access risk the candidate only partially hedges."
+        },
+        "regulatory_safety_friction": {
+          "score": 4,
+          "reason": "Monitoring hardware, not protection or conversion: no listing-category vacuum, modest safety exposure, and the candidate assesses export separability as workable (conventional industrial sensing)."
+        },
+        "failure_mode_resilience": {
+          "score": 3,
+          "reason": "Principal failure mode (feature-not-product) is named and hedged twice: third-party maintenance operators as alternate channel, and an explicit fallback to selling/licensing the IP. Residual risk is that both channels stall."
+        }
+      },
+      "overall_band": "moderate-strong",
+      "uncertainty": {
+        "level": "medium",
+        "note": "Technical uncertainty is low (verifiable at benchtop); commercial uncertainty is the dominant term - whether prognostics is purchasable standalone. The candidate's own 2028 kill/downgrade gate is the correct instrument for that uncertainty."
+      },
+      "principal_risk": "Feature-not-product: converter vendors ship in-house telemetry as default, leaving no standalone socket; the CN design-in channel additionally exposes the plan to vendor-access and geopolitical friction.",
+      "falsifier": "The 2027-Q1 experiment fails (excitation-free ESR tracking drifts >5% from LCR ground truth or mis-ranks end-of-life across the 2,000 h / 20-capacitor aging run); or no PSU/UPS-vendor or maintenance-operator LOI exists by end-2028."
+    },
+    {
+      "rank": 4,
+      "idea_id": "P3R2-A-02",
+      "concept": "Modular medium-voltage DC (1-35kV) hybrid solid-state circuit breaker productized for datacenter campuses, microgrids, and MVDC collection",
+      "decision": "hold",
+      "evidence_from_candidate": [
+        "painful_job: DC fault interruption is the documented showstopper for MVDC - no converged breaker topology, no product category, forcing point-to-point architectures and over-engineered protection",
+        "current_trl: 3; first_experiment: 2028 10kV/2kA hybrid module interrupting a simulated pole-to-pole fault in <2 ms with >=100 operations, at a national-lab or university high-power facility; first_experiment_budget_usd: 1500000",
+        "v1_capital_range_usd: 10M-25M; demand trigger is US MVDC campus pilots and DC-GRIDS-seeded utility demonstrations reaching procurement 2030-2033 (candidate cites ARPA-E DC-GRIDS 2026 awards, L02-034)",
+        "timing_window_risk (candidate's own words): MVDC adoption could stay point-to-point (breaker-avoiding) longer than expected; per-project incumbents may bundle protection into converter stations",
+        "extreme_edge: millisecond-to-microsecond staged interruption with no natural current zero at tens of kV - the hardest unsolved switching problem in power delivery"
+      ],
+      "scores": {
+        "pain_severity_budget": {
+          "score": 3,
+          "reason": "The engineering pain is genuine and documented as the MVDC showstopper, but the budgeted buyer in the window is speculative: MVDC campuses are pilot programs, not an existing procurement category with allocated spend."
+        },
+        "technical_feasibility": {
+          "score": 3,
+          "reason": "TRL 3 on, in the candidate's own words, the hardest unsolved switching problem in power delivery; academic topologies are non-converged. Staged hybrid interruption is demonstrated in research, but productized multi-kV frames with relay coordination is a long climb."
+        },
+        "defensible_edge": {
+          "score": 3,
+          "reason": "Productization discipline against non-converged academic topologies is a credible wedge, and catalogued frames vs per-project engineering is a real differentiator - but Hitachi/ABB hybrid-breaker heritage can be mobilized quickly if the market forms."
+        },
+        "founder_phd_adjacency": {
+          "score": 3,
+          "reason": "Non-circular: the comparative topology study and SiC interruption-duty die characterization are excellent publishable academic work, but the decisive 10kV/2kA demo needs national-lab-class high-power facilities and 1.5M USD - beyond a routine PhD program's control."
+        },
+        "capital_time_to_falsification": {
+          "score": 2,
+          "reason": "Slowest and most expensive falsification in this sample: 1.5M USD and specialized facilities before the core technical claim is retired, and the market-formation question cannot be resolved by the founder at all - only observed."
+        },
+        "timing_2030_2034": {
+          "score": 2,
+          "reason": "Demand in 2030-2033 requires MVDC campus architecture to win against breaker-avoiding point-to-point designs first; the candidate itself flags this may not happen inside the window."
+        },
+        "geographic_portability": {
+          "score": 3,
+          "reason": "US beachhead with JP/KR secondaries, but MV utility and campus procurement is conservative and region-specific; each geography adds its own certification and interconnection burden."
+        },
+        "regulatory_safety_friction": {
+          "score": 2,
+          "reason": "Utility-grade MV switchgear certification with no existing MVDC breaker standard framework: heavy friction, long qualification cycles, and buyers who require field history that a startup by definition lacks."
+        },
+        "failure_mode_resilience": {
+          "score": 2,
+          "reason": "Two compounding existential modes: the market may never form in the window (architecture bypass), and incumbents may bundle protection into converter stations if it does. Few hedges beyond IP from the device-characterization workstream."
+        }
+      },
+      "overall_band": "moderate",
+      "uncertainty": {
+        "level": "high",
+        "note": "Highest structural uncertainty in the sample: both the technology convergence and the existence of the buying category are open. The strategic prize if both resolve favorably is large, which justifies hold rather than reject pending full-pool comparison."
+      },
+      "principal_risk": "Market non-formation within the window: MVDC distribution stays point-to-point and breaker-avoiding through 2034, so no catalogued-breaker procurement category exists to sell into.",
+      "falsifier": "By 2029 no US MVDC campus pilot or DC-GRIDS-seeded demonstration issues a procurement or requirements signal for catalogued MVDC breakers; or the 2028 10kV/2kA module cannot achieve <2 ms interruption with >=100 operations without refurbishment."
+    },
+    {
+      "rank": 5,
+      "idea_id": "P3R2-B-21",
+      "concept": "Plasma-chamber arc and ESC-discharge event detection module with wafer-protection interlock for Chinese etch/deposition tool OEMs",
+      "decision": "hold",
+      "evidence_from_candidate": [
+        "painful_job: arc/micro-arc events in RF chambers damage wafers and chucks; the field is patent-dominated with only thin open literature; incumbent detection ships bundled inside AE/MKS generators; Chinese OEMs localizing RF stacks lack an independent qualified arc-protection layer",
+        "product: generator-agnostic multi-physics fusion detection (RF reflected-power + optical emission + ESC leakage transient) with <10 microsecond latency, tool-level interlock, and event forensics",
+        "first_experiment (2027-Q3): >=99% detection of seeded micro-arc events, <10 us latency, <0.1% false-trip rate over 72 h plasma-on; first_experiment_budget_usd: 200000; v1_capital_range_usd: 1.5M-4M",
+        "competition_outlook (candidate's own words): FTO risk is the primary gate; freedom-to-operate analysis against incumbent patents flagged as critical - patent-dense field",
+        "timing_window_risk (candidate's own words): same export-control caution as B-05; small ASP means it may need to bundle with B-05/B-06 - candidate for merge at longlist stage",
+        "china_beachhead true, us_beachhead false, secondary market KR"
+      ],
+      "scores": {
+        "pain_severity_budget": {
+          "score": 3,
+          "reason": "Wafer/chuck damage is expensive and the CN localization programs are budgeted buyers, but the standalone ASP is small by the candidate's own admission and the pain is already served (bundled) in incumbent Western RF stacks."
+        },
+        "technical_feasibility": {
+          "score": 4,
+          "reason": "TRL 4; multi-sensor fusion with FPGA-class microsecond latency is tractable engineering, and the validation experiment is well specified and cheap."
+        },
+        "defensible_edge": {
+          "score": 2,
+          "reason": "The proposed moat (multi-physics fusion plus forensics) sits inside a patent thicket the candidate itself calls the primary gate; thin open literature cuts both ways - little prior art to build on and dense proprietary claims to avoid."
+        },
+        "founder_phd_adjacency": {
+          "score": 3,
+          "reason": "Non-circular: an arc-injection testbed on a lab reactor with a multi-sensor dataset is credible university plasma-lab work at 200k USD, though it presumes access to a plasma-processing lab rather than a generic electronics bench."
+        },
+        "capital_time_to_falsification": {
+          "score": 4,
+          "reason": "Cheap and fast on the technical side (200k USD, 2027 testbed milestone); the FTO gate is also an early, inexpensive falsifier - but its outcome is binary and outside the founder's control."
+        },
+        "timing_2030_2034": {
+          "score": 3,
+          "reason": "Attach-rate thesis to domestic RF generators in the 15th FYP window is plausible, but the window closes from two sides: domestic RF vendors adding basic arc detection and export-control disruptions."
+        },
+        "geographic_portability": {
+          "score": 2,
+          "reason": "CN-only beachhead (US blocked by incumbent bundling), KR secondary; the business is structurally concentrated in one geography whose access carries elevated geopolitical risk for a US-trained founder."
+        },
+        "regulatory_safety_friction": {
+          "score": 2,
+          "reason": "Low classic safety-certification friction, but the operative frictions - export-control caution (candidate's own flag) and a documented patent thicket - are severe and only partially controllable."
+        },
+        "failure_mode_resilience": {
+          "score": 2,
+          "reason": "Three stacked modes: FTO block, feature absorption by domestic RF vendors, and small-ASP economics forcing a merge (the candidate itself labels it a merge candidate). Hedges are limited."
+        }
+      },
+      "overall_band": "moderate",
+      "uncertainty": {
+        "level": "high",
+        "note": "Technical claims are cheap to verify; the dominant uncertainties (FTO outcome, CN market access, standalone-vs-merge economics) are external and unresolvable from a lab. The candidate's own record already positions it as a probable merge into a larger RF-stack play."
+      },
+      "principal_risk": "Freedom-to-operate block in a patent-dense field, compounded by small standalone ASP that pushes the idea toward being a bundled feature rather than a company.",
+      "falsifier": "FTO analysis (2027-2028) finds blocking incumbent patents without a design-around; or the 2027-Q3 testbed cannot reach >=99% detection at <0.1% false trips over 72 h; or no Chinese OEM evaluation slot by mid-2033 (candidate's own kill date)."
+    },
+    {
+      "rank": 6,
+      "idea_id": "P3R2-D-20",
+      "concept": "Ultra-high-temperature liquid-metal transport subsystem -- pumps, valves, seals and instrumentation for 1,400-2,400 C molten silicon/tin -- the balance-of-plant layer every TPV thermal battery needs and none can buy.",
+      "decision": "reject",
+      "evidence_from_candidate": [
+        "painful_job: liquid-metal thermal batteries must move molten silicon/tin between storage and converter, but MIT-lineage molten-silicon pumping remains a lab demonstration and every developer hand-builds flow hardware with no merchant supplier",
+        "current_trl: 3; first_experiment: 1,000 h molten-tin pumping loop at 1,400 C with ceramic gear/sump pump; first_experiment_budget_usd: 300000; v1_capital_range_usd: 3M-8M",
+        "FIX gates (candidate's own words): 2028 - at least one liquid-metal thermal-battery developer must show a commercial order book, else kill (demand is hostage to the liquid-metal architecture beating solid media)",
+        "competition_outlook: vertical in-house builds at Antora/Fourth Power-class developers; substitutes are solid-media storage architectures (firebrick) that avoid liquid metal entirely - an honest architectural risk",
+        "timing_window_risk (candidate's own words): if solid-media architectures win the market, liquid-metal transport demand never materializes at product scale",
+        "us_beachhead true; secondary_markets: [] (none listed)"
+      ],
+      "scores": {
+        "pain_severity_budget": {
+          "score": 2,
+          "reason": "The pain is acute but confined to a handful of pre-commercial developers with no order books yet; the candidate concedes demand is hostage to one storage architecture beating another. No budgeted merchant procurement exists today."
+        },
+        "technical_feasibility": {
+          "score": 2,
+          "reason": "TRL 3 at the outer edge of materials engineering: seals, drives, and instrumentation surviving years in 1,400-2,400 C molten silicon/tin, where the best prior art is a lab-scale pumping demo. Decade-lifetime claims are far from demonstrable in the window."
+        },
+        "defensible_edge": {
+          "score": 4,
+          "reason": "IF the market forms, the moat is genuinely strong: accumulated lifetime/materials data as the only merchant qualified supplier of hot hydraulics, exactly the hard-won dataset incumbents and job shops lack."
+        },
+        "founder_phd_adjacency": {
+          "score": 3,
+          "reason": "Non-circular: a university high-temperature materials/seal rig and a 300k USD molten-tin loop are plausible, publishable academic work - but this presumes refractory-materials lab capability, a comparatively specialized academic niche."
+        },
+        "capital_time_to_falsification": {
+          "score": 4,
+          "reason": "Well-designed cheap falsification: the 2028 order-book gate costs nothing and kills cleanly; the 1,000 h molten-tin loop at 300k USD retires the first materials claims. Capital is capped at tin-loop scale until the demand gate passes."
+        },
+        "timing_2030_2034": {
+          "score": 2,
+          "reason": "Double conditionality: thermal batteries must reach commercial multi-unit scale in the early 2030s AND the liquid-metal architecture must beat solid media. Either failing voids the window; the second is entirely outside the founder's influence."
+        },
+        "geographic_portability": {
+          "score": 2,
+          "reason": "US-only with no secondary markets listed; the customer set is a short, named list of US ARPA-E-lineage developers. Maximum geographic and customer concentration in this sample."
+        },
+        "regulatory_safety_friction": {
+          "score": 3,
+          "reason": "No certification-category vacuum or utility-grade listing burden; molten-metal industrial safety is serious but handled under established industrial-hygiene and pressure/thermal codes."
+        },
+        "failure_mode_resilience": {
+          "score": 2,
+          "reason": "A single unhedged existential mode dominates: solid-media storage wins and the merchant liquid-metal market never exists. The candidate's broadened buyer hypotheses (solar-thermochemical, metallurgy) are labeled hypotheses, not evidence."
+        }
+      },
+      "overall_band": "weak-moderate",
+      "uncertainty": {
+        "level": "high",
+        "note": "The venture is a leveraged bet on someone else's architecture choice. Its internal kill-gate design is exemplary, but on current candidate-internal evidence the demand leg is the weakest of the six, and feasibility at 1,600 C+ silicon remains unproven beyond lab demos."
+      },
+      "principal_risk": "Architecture dependence: solid-media (firebrick/carbon-block) thermal storage wins commercially, so merchant demand for extreme-temperature liquid-metal transport never materializes at product scale.",
+      "falsifier": "By end-2028 no liquid-metal thermal-battery developer shows a commercial order book (candidate's own kill gate); or the 1,000 h molten-tin loop at 1,400 C shows seal wear/materials attack rates incompatible with a multi-year service life."
+    }
+  ]
+}

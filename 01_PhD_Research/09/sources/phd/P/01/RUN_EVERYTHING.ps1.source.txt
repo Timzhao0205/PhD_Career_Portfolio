@@ -1,0 +1,61 @@
+#requires -Version 5.1
+<#
+One-command entry point for the Claude-only PhD/HSX package.
+
+Run from the extracted 01 folder:
+  powershell -ExecutionPolicy Bypass -File .\RUN_EVERYTHING.ps1
+
+The same command resumes from durable files after an interruption.
+
+If a stage is already checkpointed for ChatGPT Windows handoff and the user
+explicitly wants another Claude-only retry cycle:
+  powershell -ExecutionPolicy Bypass -File .\RUN_EVERYTHING.ps1 -RetryClaudeAfterHandoff
+#>
+[CmdletBinding()]
+param(
+    [ValidateSet('full','guarded')]
+    [string]$Mode = 'full',
+    [switch]$DryRun,
+    [switch]$SkipConnectionTest,
+    [switch]$RetryClaudeAfterHandoff
+)
+
+Set-StrictMode -Version 2.0
+$ErrorActionPreference = 'Continue'
+Set-Location -LiteralPath $PSScriptRoot
+
+$launcher = Join-Path $PSScriptRoot 'RUN_PHD_RESEARCH.ps1'
+$claudeModelTest = Join-Path $PSScriptRoot `
+    '06\TEST_CLAUDE_MODELS.ps1'
+foreach ($required in @($launcher,$claudeModelTest)) {
+    if (-not (Test-Path -LiteralPath $required -PathType Leaf)) {
+        throw "Required launcher file not found: $required"
+    }
+}
+
+$hostExecutable = (Get-Process -Id $PID).Path
+if (-not $DryRun -and -not $SkipConnectionTest) {
+    Write-Host ''
+    Write-Host '==== Live Claude Sonnet 5 and Fable 5 connection tests ====' -ForegroundColor Cyan
+    $probeArguments = @(
+        '-NoProfile','-NonInteractive','-ExecutionPolicy','Bypass',
+        '-File',$claudeModelTest
+    )
+    & $hostExecutable @probeArguments
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warning 'One or more Claude model probes did not pass. The stage runner will still require Fable 5 to produce every Fable-assigned final result, allow/log temporary and auxiliary models, and never route to another provider.'
+    }
+}
+
+Write-Host ''
+Write-Host '==== Claude-only autonomous research run (automatic durable resume) ====' -ForegroundColor Cyan
+$runArguments = @(
+    '-NoProfile','-ExecutionPolicy','Bypass',
+    '-File',$launcher,
+    '-Resume',
+    '-Mode',$Mode
+)
+if ($DryRun) { $runArguments += '-DryRun' }
+if ($RetryClaudeAfterHandoff) { $runArguments += '-RetryClaudeAfterHandoff' }
+& $hostExecutable @runArguments
+exit $LASTEXITCODE

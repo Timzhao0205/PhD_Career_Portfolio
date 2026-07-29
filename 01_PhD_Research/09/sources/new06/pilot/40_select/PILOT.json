@@ -1,0 +1,32 @@
+{
+  "stage": "40_select",
+  "status": "PASS",
+  "run_at_utc": "2026-07-28T10:50:00Z",
+  "sample_ids": ["P3R2-D-02", "P3R2-C-04", "P3R2-B-01", "P3R2-D-18", "P3R2-F-23"],
+  "paths_tested": [
+    "read outputs/20_p4 (SCORES, SURVIVORS) and outputs/30_redteam (REDTEAM) and reconciled scores with red-team decisions per idea",
+    "Boolean field construction tested on P3R2-D-02 (us_beachhead true, china_beachhead true, dual_market = AND = true) and P3R2-B-01 (us false, china true, dual false) and P3R2-D-16-style US-only shape",
+    "overlap adjudication: P3R2-C-04 vs P3R2-B-01 — one two-phase-loop thesis; C-04 (66.6, survive, dual-market, chemistry-forced US/EU legs) retained over B-01 (64.8, repair, CN-only, mechanism decomposed by Sugon/Chuanrun) with B-01 recorded as a near miss",
+    "cut-line pair adjudication: P3R2-D-18 (66.7, US-only, single-threaded SBIR with no award across two cycles) vs P3R2-F-23 (63.4, dual-market, reduced-but-real hub + CN tender demand with binding repairs) — geography balance and demand breadth outweigh the 3.3-point score gap; F-23 in, D-18 near miss",
+    "lane quota test: six L14 survivors against the max-3-per-lane cap forces three L14 drops (kept C-05/C-04/F-19; dropped B-01/D-12/D-13)",
+    "customer-class quota test: scientific >=4 satisfied by A-05/D-01/D-09/E-04/D-16; infrastructure >=4 by E-14/D-19/G-03/F-23",
+    "unsatisfiable-constraint discovery: zero of the 65 frozen ideas has a <$100k first experiment (longlist minimum is $120k) and the gate-clean pool contains only 17 CN-beachhead ideas (<18 target) — both constraints require documented adjudication with true observed counts in PORTFOLIO_CHECKS.json, never fabricated numbers",
+    "near-miss recording exercised with reasons per drop",
+    "JSON writing under pilot/40_select only"
+  ],
+  "checks": {
+    "boolean_fields_constructed_and_and_rule_verified": true,
+    "lane_and_customer_quotas_computed": true,
+    "close_cut_line_pair_adjudicated": true,
+    "independent_us_china_evidence_weighed": true,
+    "near_misses_recorded_with_reasons": true,
+    "unsatisfiable_frozen_constraints_identified_for_transparent_adjudication": true
+  },
+  "errors": [],
+  "lessons": [
+    "Two frozen portfolio constraints are unsatisfiable by construction from the frozen longlist (sub-$100k experiments: zero exist; CN beachheads >=18: pool maximum is 17). PORTFOLIO_CHECKS.json will record the original target, the TRUE observed count, and the documented operative adjudication — transparency over fabrication",
+    "Reconciliation is judgment, not averaging: repair-decision ideas rank below clean-survive ideas at equal score; dual-market breadth can outweigh small score gaps at the cut line",
+    "Deep-dive selection should balance rank with lane coverage: doubling both L06 and L12 in the top 10 crowds out verified-whitespace lanes (L05/L11)",
+    "Pilot adjudications are previews; the full pass re-decides all ranks"
+  ]
+}

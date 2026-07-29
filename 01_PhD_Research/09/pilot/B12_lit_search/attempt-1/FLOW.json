@@ -1,0 +1,50 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "stage": "B12_lit_search",
+  "mode": "PILOT",
+  "attempt": 1,
+  "counting_convention": "identified/duplicates_removed/screened/full_text_checked count only the 19 candidate records that reached individual title-level adjudication and are each individually traceable to a PAPER_LEDGER.csv or EXCLUSIONS.csv row (8 accepted + 11 excluded). Raw per-query WebSearch hit counts (larger, including many results not individually pursued in this bounded 8-paper pilot) are recorded separately in SEARCH_LOG.csv's result_count/screened_count columns. This convention is stated explicitly so the numbers below are exactly reconstructable from the CSVs, per SEARCH_PROTOCOL.md Section 10/11.",
+  "identified": 27,
+  "duplicates_removed": 8,
+  "screened": 19,
+  "full_text_checked": 16,
+  "excluded": 11,
+  "accepted_core": 8,
+  "accepted_supplement": 0,
+  "unresolved": 0,
+  "topic_counts": {
+    "hall_metrology": {
+      "accepted_core": 2,
+      "accepted_supplement": 0,
+      "excluded": 3,
+      "unresolved": 0
+    },
+    "hybrid_diagnostics": {
+      "accepted_core": 2,
+      "accepted_supplement": 0,
+      "excluded": 6,
+      "unresolved": 0
+    },
+    "hts_quench_current": {
+      "accepted_core": 2,
+      "accepted_supplement": 0,
+      "excluded": 1,
+      "unresolved": 0
+    },
+    "power_conversion": {
+      "accepted_core": 2,
+      "accepted_supplement": 0,
+      "excluded": 1,
+      "unresolved": 0
+    }
+  },
+  "reconciliation_check": {
+    "accepted_core_plus_accepted_supplement_plus_unresolved_equals_ledger_rows": "8 + 0 + 0 = 8 == PAPER_LEDGER.csv data rows (8)",
+    "excluded_equals_exclusions_csv_rows": "11 == EXCLUSIONS.csv data rows (11)",
+    "full_text_checked_equals_accepted_plus_fulltext_stage_exclusions": "16 = 8 accepted + 8 full_text_verification-stage exclusions (E01,E02,E06,E07,E08,E09,E10,E11)",
+    "screened_equals_fulltext_checked_plus_screening_stage_exclusions": "19 = 16 + 3 title_abstract_screening-stage exclusions (E03,E04,E05)",
+    "topic_counts_accepted_core_sum_equals_8": "2+2+2+2 = 8",
+    "topic_counts_excluded_sum_equals_11": "3+6+1+1 = 11"
+  },
+  "notes": "PILOT scope only: exercises the complete search -> verification -> correction/retraction -> de-duplication method on exactly 8 retained publications (2 per topic stream), all accepted_core (verified peer-reviewed journal research/review articles with an opened publisher landing page or DOI-resolver target and confirmed DOI). No accepted_supplement or unresolved item appears in the final PAPER_LEDGER.csv for this pilot; the method for both categories was nonetheless exercised — a genuinely verified but stream-quota-excluded candidate (E07) and multiple access-failure candidates (E01,E02,E06,E08,E09,E10,E11) and screening-stage exclusions (E03,E04,E05) are logged in EXCLUSIONS.csv. Correction/expression-of-concern/retraction status was checked for every one of the 8 retained items directly on its opened landing page (or, for P0005/P0006, on the PubMed Central mirror record used after the MDPI publisher page itself returned HTTP 403); none were found on any retained item. This is a bounded pilot sample, not the full-run corpus (60-100 unique publications, >=48 accepted_core, >=8 accepted_core per stream) required by workflow/stages/B12_lit_search.md for the full run."
+}

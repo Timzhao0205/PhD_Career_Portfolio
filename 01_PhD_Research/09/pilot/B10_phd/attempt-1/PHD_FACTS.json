@@ -1,0 +1,111 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "note": "This is a PILOT extraction of exactly 10 representative claims. It does not cover the full sources/phd corpus and must not be treated as complete. Claims C01–C05 span current/recent demonstrated PhD work. Claims C06–C10 span all three Opt2 elements: Element 1 (calibrate/validate a Hall sensor as an uncertainty-bounded instrument) = C06; Element 2 (integrate Hall + inductive coils as a hybrid diagnostic, kept as distinct sub-claims: absolute calibration, mutual consistency, bandwidth fusion, radiation compensation) = C06 (absolute calibration is Element 1's own claim, shared boundary noted below), C07 (mutual consistency), C08 (bandwidth fusion), C09 (radiation compensation); Element 3 (reusable module + simulation/reconstruction package) = C10. Status vocabulary is demonstrated / proposed / inferred / unknown per the hard extraction rules; what a document proposes is never marked demonstrated.",
+  "opt2_element_key": {
+    "element_1": "calibrate/validate a Hall sensor as an uncertainty-bounded instrument",
+    "element_2": "integrate Hall + inductive coils as a hybrid diagnostic",
+    "element_3": "deliver a reusable module plus simulation/reconstruction package"
+  },
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "A packaged AlGaN/GaN Hall-effect sensor module was fabricated, packaged (LCC package, Al wire bonds, EPO-TEK 353ND, 150°C vacuum bake, zirconia holder, graphite shield), and deployed in-vessel near the HSX stellarator plasma edge during the August 2025 campaign, producing shot-resolved voltage transients with clear ignition/discharge dynamics and a qualitative temporal correlation with diamagnetic-loop stored energy across three discharge classes (raw scope traces for representative shots, e.g. main-coil-current logs for shots 65 and 68, plus stored-energy .dat files for shots #18/#19/#20, exist in the raw archive).",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element; this is the demonstrated baseline Opt2 would build on)",
+      "source_path": "sources/phd/P/01/07_HSX_august2025_results/hsx_20250821/ (e.g. hsxMainCoilCurrent_shot65.txt, hsxMainCoilCurrent_shot68.txt, 25_8_21_#18_stored_energy.dat, 25_8_21_#19_stored_energy.dat, 25_8_21_#20_stored_energy.dat, test_note.docx)",
+      "page_or_section": "directory-level raw data archive; claim-level audit corroborated in sources/phd/P/01/06/outputs/03_MANUSCRIPT_DIAGNOSIS.md §1.2 rows A4/A6/A7/A8 and §1.5 rows R-2/R-4",
+      "confidence": "high",
+      "limitation": "The quantitative correlation with diamagnetic-loop stored energy is currently qualitative only (no correlation coefficient computed as of the cited audit); the sensor output is voltage-domain, not a calibrated field measurement (see C06). No temperature log exists for the sensor during these shots."
+    },
+    {
+      "claim_id": "C02",
+      "claim": "The manuscript \"AlGaN/GaN Hall-Effect Sensor for In-Situ Magnetic Field Monitoring of the HSX Stellarator\" (Manuscript ID SENSL-26-07-RL-1061) was submitted to IEEE Sensors Letters on 2-Jul-2026 and declined on 23-Jul-2026, with an invitation to revise and resubmit under a new Manuscript ID; the researcher currently holds zero accepted first-author publications.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work (not an Opt2 element)",
+      "source_path": "sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md",
+      "page_or_section": "lines 14–23 (\"Standing corrections this document honors… unpublished … submitted 2-Jul-2026, declined 23-Jul-2026 … Tim currently has zero accepted first-author publications\")",
+      "confidence": "high",
+      "limitation": "This status is as documented within the corpus at its most recent recorded date (mission run 2026-07-25); it has not been independently re-verified against IEEE's live editorial system by this pilot extraction."
+    },
+    {
+      "claim_id": "C03",
+      "claim": "On a bench resistor-ring emulator (4×680Ω ring + 2.2kΩ across p1–p2, 20 mA bias, 20 kHz current-spinning, gain 100.3), current-spinning demodulation collapsed a 686 mV raw offset to ≤ 5 mV — a suppression of ≥130× (limited by the oscilloscope's 8-bit quantization over 5 cycles). This is explicitly readout-architecture validation on an emulator, not a measurement of the real GaN Hall die's offset.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; also cited by the strategy corpus as the empirical seed for Opt2 Element 1 (absolute calibration), see C06",
+      "source_path": "sources/phd/P/01/02_HSX_Hall_Sensor_Readout/NOTES.md",
+      "page_or_section": "entry dated \"2026-07-08 — first dynamic spinning run on the emulator (20 kHz, 20 mA)\", bullet beginning \"Offset cancellation works\"",
+      "confidence": "high",
+      "limitation": "Emulator result only, not sensor evidence; the corpus's own stage-80 synthesis explicitly labels the equivalent \"calibrated\" language elsewhere as aspirational and states this bench result is emulator-based, not a die calibration (sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md, lines 20–22; sources/phd/P/01/06/outputs/03_MANUSCRIPT_DIAGNOSIS.md §5 item 4)."
+    },
+    {
+      "claim_id": "C04",
+      "claim": "The same bench emulator test produced an unresolved ~109× magnitude anomaly: with a 680Ω+2.2kΩ bridge, 20 mA bias, and gain 100.3 the output should have railed near ~75 V, but a clean 0.686 V was measured instead. Leakage and a missing gain resistor were ruled out; the cause is undetermined. The project's own documented rule is that no calibration work may start before this anomaly closes.",
+      "status": "demonstrated",
+      "opt2_mapping": "current/recent PhD work; directly gates Opt2 Element 1 (absolute calibration, C06)",
+      "source_path": "sources/phd/P/01/02_HSX_Hall_Sensor_Readout/NOTES.md",
+      "page_or_section": "entry dated \"2026-07-08 — first dynamic spinning run on the emulator (20 kHz, 20 mA)\", bullet beginning \"OPEN ANOMALY\"",
+      "confidence": "high",
+      "limitation": "This is a demonstrated, unresolved measurement discrepancy, not a demonstrated calibration; the strategy corpus names its resolution (a ΔV gain check) as the single highest-priority next bench task (sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md §4 item 1)."
+    },
+    {
+      "claim_id": "C05",
+      "claim": "The manuscript states a 1 MHz readout bandwidth twice, but no derivation, measurement, or supporting reference for this figure exists anywhere in the manuscript, its cited references, or the project's own SPECS.md; the reviewer letter explicitly disputes it.",
+      "status": "unknown",
+      "opt2_mapping": "current/recent PhD work; directly precedes Opt2 Element 2's bandwidth-fusion claim (C08), since a fused Hall+coil bandwidth architecture cannot be designed against an unverified figure",
+      "source_path": "sources/phd/P/01/06/outputs/03_MANUSCRIPT_DIAGNOSIS.md",
+      "page_or_section": "§1.4 row M5 (\"Bandwidth 1 MHz — Requires new evidence\") and §6 (\"Bandwidth and parasitic evidence gap\")",
+      "confidence": "high",
+      "limitation": "The true readout bandwidth is not established by any document read in this pilot; treating it as a fact would overstate the evidence. The manuscript's own text is the source of the unverified assertion, not this extraction's inference."
+    },
+    {
+      "claim_id": "C06",
+      "claim": "The strategy corpus proposes a bench absolute-calibration program (\"WP-C\") for the deployed Hall channel: a Helmholtz-coil field source with a triangulated coil constant (target u(k)/k ≤ 2%), bipolar DC calibration (target m ± ~2% absolute, <0.5% linearity), a GUM/Monte-Carlo uncertainty budget, and Allan-variance drift characterization, gated behind closure of the ~109× anomaly (C04). No calibration attempt of the real device has yet been made.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 1: calibrate/validate a Hall sensor as an uncertainty-bounded instrument (this is also the program's own \"absolute calibration\" claim, kept distinct from mutual consistency C07, bandwidth fusion C08, and radiation compensation C09 per the extraction rules)",
+      "source_path": "sources/phd/P/01/06/outputs/FINAL_EXECUTIVE_STRATEGY.md",
+      "page_or_section": "§4 item 3 (WP-C calibration core); corroborated by sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/06_INTEGRATED_RESEARCH_PROGRAM.md §3.2 (Phase 1); and sources/phd/P/01/06/outputs/03_MANUSCRIPT_DIAGNOSIS.md §5 item 1 (\"No calibration attempt exists\")",
+      "confidence": "high",
+      "limitation": "This is a documented plan, not a performed calibration; it is explicitly gated behind an external, unresolved bench anomaly (C04) with the corpus's own rule \"no calibration work starts before this.\" The 08-folder synthesis document (06_INTEGRATED_RESEARCH_PROGRAM.md) is itself flagged by the B00 inventory as pre-redteam/pre-synthesis (folder 08 has no 70_redteam or 80_synthesis output), so its framing has not passed the corpus's own adversarial review step."
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Mutual/cross-calibration between the Hall and coil channels is direction-dependent and only partly feasible, not a symmetric \"the sensors calibrate each other\" relationship. Hall→coil correction of the coil chain's integrator drift/leakage/initial condition is the only hardware-proven direction (demonstrated outside fusion in a CERN bench context and deployed at ITER's OVSS system, per the corpus's cited sources). Coil→Hall is only conditionally feasible, and only for gain (via a trusted coil chain plus real field excursions); the coil can never deliver the Hall offset, because a constant Hall offset is observationally identical to a static field shift the coil cannot see — offset recovery requires zero-field (or known-field) epochs or an external absolute reference. If both Hall and coil parameters drift simultaneously and unreferenced, the pair has a proven two-parameter blind spot: it can detect that the two channels disagree but cannot attribute which channel drifted.",
+      "status": "inferred",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (mutual-consistency claim, kept distinct from absolute calibration C06, bandwidth fusion C08, and radiation compensation C09)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/02_MUTUAL_CALIBRATION_FEASIBILITY.md",
+      "page_or_section": "§1 (\"Plain-language verdict\") and §5 (\"Honest scope statement\")",
+      "confidence": "medium",
+      "limitation": "This is a structural-identifiability derivation (a proof-style result, labeled Derived/Inferred by the source document itself), not an experimental result; the source states explicitly \"no hardware demonstration of the coil→Hall direction exists in fusion conditions,\" and the one real-world coil→Hall gain-tracking precedent it cites is a single non-fusion, unirradiated, driven-ramp source. Mutual agreement between the two channels is explicitly NOT automatic absolute calibration per this source; it can at most indicate that the channels have drifted apart, without identifying which one moved. Folder 08 (the source mission) has not passed its own redteam/synthesis stages."
+    },
+    {
+      "claim_id": "C08",
+      "claim": "The proposed hybrid architecture treats bandwidth fusion as a distinct design element from calibration: the Hall channel is proposed to supply the DC/low-frequency field content the coil cannot see (the coil measures dB/dt and is blind at steady field), while an embedded calibration-winding injection scheme is proposed to be placed in an \"overlap band\" — above the drift band, below the Hall sensor's dynamic pole, and inside the coil's flat response — so that injecting near/above the Hall pole can identify Hall dynamics (pole/delay) that neither channel could establish alone at low frequency.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (bandwidth-fusion claim, kept distinct from absolute calibration C06, mutual consistency C07, and radiation compensation C09)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/02_MUTUAL_CALIBRATION_FEASIBILITY.md",
+      "page_or_section": "§1 (\"Hall → coil\" bullet, \"it supplies the DC/low-frequency field the coil cannot see\"); frequency-plan detail in sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/03_RADIATION_COMPENSATION_ARCHITECTURE.md §5.2 (\"Frequency plan and lock-in detection\")",
+      "confidence": "medium",
+      "limitation": "No bandwidth-fusion hardware test has been run; the design depends on an as-yet-unverified Hall readout bandwidth (see C05 — the manuscript's own 1 MHz figure is undocumented) and on a machine-EMI survey that has not been performed. The source document labels every item in this section \"Derived\" design rules, not observed results."
+    },
+    {
+      "claim_id": "C09",
+      "claim": "A layered \"anchored hybrid\" architecture (machine-current/vacuum-field anchor epochs + zero-field offset epochs + optional embedded-winding online gain tracking + a top-tier material-diverse witness Hall die) is proposed to separate temperature-driven from radiation-driven sensor drift and to compensate for it, with radiation qualification work (Phase 4 / tiers T3) explicitly collaborator-led, never on the HSX critical path, and never claimed as an experimental result in first-author work. The corpus states plainly that the GaN/AlGaN radiation-drift magnitude is currently Unknown: no GaN or AlGaN Hall-plate neutron dataset exists in the literature reviewed.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 2: integrate Hall + inductive coils as a hybrid diagnostic (radiation-compensation claim, kept distinct from absolute calibration C06, mutual consistency C07, and bandwidth fusion C08)",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/03_RADIATION_COMPENSATION_ARCHITECTURE.md",
+      "page_or_section": "§1 item 5 (\"Radiation magnitudes for the user's device family are Unknown\"), §3 Option H, and §9.4 (\"HSX-paper decoupling\")",
+      "confidence": "medium",
+      "limitation": "This is an unimplemented architecture specification; the source itself flags the top-tier witness channel as resting on a single, unreplicated null-result source, and states no radiation experiment has been performed by the researcher and none is required for current first-author HSX work. Folder 08 has no redteam/synthesis pass yet (per the B00 inventory handoff note), so this framing is pre-adversarial-review within the corpus's own process."
+    },
+    {
+      "claim_id": "C10",
+      "claim": "A reusable simulation/estimator software package (\"T0\") is proposed, with a defined module boundary (model/schema/estimator/faults/scenarios/metrics/report/tests directories), a frozen scientific core (measurement equations, freeze policy, species-vector discipline, pre-registered S1–S12 scenarios) that may not change without a new stage-20-class review, and a regression binding to an existing tool (tools/observability_rank_tests.py). It is proposed to be built incrementally starting from Phase 0 and frozen at manuscript-P2 submission (~Q1–Q2 2027), then released with that publication.",
+      "status": "proposed",
+      "opt2_mapping": "Opt2 Element 3: deliver a reusable module plus simulation/reconstruction package",
+      "source_path": "sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/03_SIMULATION_AND_VALIDATION_PLAN.md",
+      "page_or_section": "§11 (\"Interfaces for the later reusable package\"), lines 350–369; scope/freeze framing corroborated in sources/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/outputs/06_INTEGRATED_RESEARCH_PROGRAM.md §3.7–§3.8 (Phase 6 and \"Why the module deliverable is bounded\")",
+      "confidence": "medium",
+      "limitation": "No code has been built yet as of the cited documents; the package is explicitly a specification, not a deliverable in hand. The source itself lists standing limitations: every radiation-response curve in the package is a labeled placeholder until later validation rungs, and the plan assumes no specific facility, price, or schedule exists. Folder 08 (the source mission) has not passed its own redteam/synthesis stages."
+    }
+  ]
+}

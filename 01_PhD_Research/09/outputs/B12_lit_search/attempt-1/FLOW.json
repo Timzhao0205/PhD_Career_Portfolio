@@ -1,0 +1,53 @@
+{
+  "stage": "B12_lit_search",
+  "mode": "FULL",
+  "attempt": 1,
+  "counting_convention": "identified = raw candidate-record mentions before merging duplicate re-surfacings across different queries. duplicates_removed = documented instances where the same underlying paper was independently re-surfaced by more than one query and merged into a single record (see SEARCH_LOG.csv notes for each instance; this is a conservative, explicitly-documented count, not a claim of exhaustive detection of every silent duplicate across 62 total queries). screened = identified - duplicates_removed = the count of unique individually-adjudicated candidate records, which equals PAPER_LEDGER.csv data rows (accepted_core + accepted_supplement + unresolved) plus EXCLUSIONS.csv data rows (excluded). full_text_checked = screened minus the title/abstract-only-stage exclusions that were screened out before any WebFetch attempt (E03, E04, E05 — two USPTO patents and one repository-only item with no publisher/DOI, carried from the pilot); equivalently, full_text_checked = accepted_core + accepted_supplement + unresolved + the exclusions reached at the full_text_verification stage. This convention extends the pilot's FLOW.json method to the full run's cumulative totals; the pilot's own 8 accepted + 11 excluded records are carried unchanged into PAPER_LEDGER.csv and EXCLUSIONS.csv and are therefore already included in the totals below (not double-counted separately). One disclosed cross-run exception: EXCLUSIONS.csv row E10 and PAPER_LEDGER.csv row P0031 refer to the same underlying paper (10.3390/s24186071) — excluded in the pilot for an HTTP 403 access failure, now accepted this run via a PubMed Central mirror not previously located. Both records are retained for audit continuity; E10's row is annotated as superseded rather than deleted, and P0031 is counted once in accepted_core (E10 is not separately re-counted as a new duplicate in duplicates_removed).",
+  "identified": 88,
+  "duplicates_removed": 6,
+  "screened": 82,
+  "full_text_checked": 79,
+  "excluded": 20,
+  "accepted_core": 62,
+  "accepted_supplement": 0,
+  "unresolved": 0,
+  "topic_counts": {
+    "hall_metrology": {
+      "accepted_core": 13,
+      "accepted_supplement": 0,
+      "excluded": 7,
+      "unresolved": 0
+    },
+    "hybrid_diagnostics": {
+      "accepted_core": 14,
+      "accepted_supplement": 0,
+      "excluded": 6,
+      "unresolved": 0
+    },
+    "hts_quench_current": {
+      "accepted_core": 17,
+      "accepted_supplement": 0,
+      "excluded": 2,
+      "unresolved": 0
+    },
+    "power_conversion": {
+      "accepted_core": 18,
+      "accepted_supplement": 0,
+      "excluded": 5,
+      "unresolved": 0
+    }
+  },
+  "reconciliation_check": {
+    "screened_equals_ledger_plus_exclusions": "82 = 62 (PAPER_LEDGER.csv data rows) + 20 (EXCLUSIONS.csv data rows)",
+    "identified_equals_screened_plus_duplicates_removed": "88 = 82 + 6",
+    "full_text_checked_equals_screened_minus_title_abstract_only_exclusions": "79 = 82 - 3 (E03, E04, E05)",
+    "full_text_checked_equals_accepted_plus_fulltext_stage_exclusions": "79 = 62 (accepted_core) + 17 (full_text_verification-stage exclusions: E01,E02,E06,E07,E08,E09,E10,E11,E12,E13,E14,E15,E16,E17,E18,E19,E20)",
+    "accepted_core_topic_counts_sum_equals_62": "13 + 14 + 17 + 18 = 62",
+    "excluded_topic_counts_sum_equals_20": "7 + 6 + 2 + 5 = 20",
+    "hard_gate_60_to_100_unique_retained": "62 unique publications retained (accepted_core 62 + accepted_supplement 0 + unresolved 0), within the required 60-100 band",
+    "hard_gate_accepted_core_at_least_48": "62 >= 48",
+    "hard_gate_at_least_8_accepted_core_per_stream": "hall_metrology 13, hybrid_diagnostics 14, hts_quench_current 17, power_conversion 18 — all >= 8",
+    "hard_gate_p0001_p0008_stable": "P0001-P0008 carried unchanged from the accepted pilot (only publisher_url cleaned per the repair note for P0005/P0006; all other fields, including doi/title/authors/year/evidence_status, unchanged)"
+  },
+  "notes": "FULL-RUN corpus for B12_lit_search. 62 unique publications retained in PAPER_LEDGER.csv (P0001-P0062), all accepted_core (verified peer-reviewed journal research or review articles with an opened publisher landing page or authoritative open-access mirror when the publisher domain blocked access, and a confirmed DOI); no accepted_supplement or unresolved item was retained this run (no conference-proceedings candidate had its venue's specific peer-review process independently confirmed to the standard required for accepted_supplement, so none were promoted). Every accepted or supplementary item was checked for correction/expression-of-concern/retraction status directly on its opened landing page or PMC mirror record; one correction (not a retraction) was found and disclosed on P0012 (Nat Commun 12:554, 18 Jan 2021), item retained as accepted_core per LIT_POLICY (a correction is not a retraction). Recency: 42 of the 62 accepted_core items were published 2020-2026 (hall_metrology 7, hybrid_diagnostics 10, hts_quench_current 10, power_conversion 15), exceeding the >=16-overall and >=2-per-stream gates. Seminal older items are present in every stream (hall_metrology 1996; hybrid_diagnostics 2001; hts_quench_current 2013/2015/2016; power_conversion 2019). This is a support-stage evidence corpus: no startup ranking, novelty claim, or synthesis is made anywhere in these outputs; that is reserved for B15_lit_synth (Fable/xhigh)."
+}

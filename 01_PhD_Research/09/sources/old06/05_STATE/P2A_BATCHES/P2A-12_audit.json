@@ -1,0 +1,643 @@
+{
+ "batch_id": "P2A-12",
+ "audited_at": "2026-07-12T20:00:00Z",
+ "model": "claude-sonnet-5",
+ "effort": "high",
+ "entries": [
+  {
+   "id": "L15-030",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NASA Glenn Research Center / NASA Science Mission Directorate", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://science.nasa.gov/science-research/science-enabling-technology/hottech-attempts-to-tackle-venus/"],
+   "useful_lead": "",
+   "notes": "Official NASA (science.nasa.gov) domain; unambiguous US federal agency."
+  },
+  {
+   "id": "L15-031",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. DOE / National Energy Technology Laboratory; Honeywell International Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://netl.doe.gov/files/oil-gas/NT41834_FinalReport.pdf"],
+   "useful_lead": "",
+   "notes": "Official DOE/NETL domain (netl.doe.gov); Honeywell Aerospace D&S, Plymouth MN. Unambiguous US origin."
+  },
+  {
+   "id": "L15-033",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "American Petroleum Institute", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.api.org/~/media/files/publications/whats%20new/17f%20e3%20pa.pdf"],
+   "useful_lead": "",
+   "notes": "API is headquartered in Washington, DC; official api.org-hosted PDF. Unambiguous."
+  },
+  {
+   "id": "L15-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Electrotechnical Commission (IEC)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://webstore.iec.ch/en/publication/63753"],
+   "useful_lead": "",
+   "notes": "IEC headquartered Geneva, Switzerland; official webstore.iec.ch domain. Unambiguous."
+  },
+  {
+   "id": "L15-035",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. Department of Defense / Defense Logistics Agency (DLA)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36028"],
+   "useful_lead": "",
+   "notes": "Official DLA ASSIST-QuickSearch (dla.mil) domain. Unambiguous US DoD."
+  },
+  {
+   "id": "L15-037",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "National Institute of Standards and Technology (NIST)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.nist.gov/publications/status-darpa-wbst-high-power-electronics-program-sic-device-development-and-technology"],
+   "useful_lead": "",
+   "notes": "Official nist.gov domain; authors Hefner and Beermann-Curtin are NIST staff. Unambiguous."
+  },
+  {
+   "id": "L15-038",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Chungbuk National University; Korea Science and Engineering Foundation / KISTI repository", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO200800068965"],
+   "useful_lead": "",
+   "notes": "Official South Korean government science-report repository (kisti.re.kr) domain. Unambiguous KR origin."
+  },
+  {
+   "id": "L15-039",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Juno Publishing and Media Solutions Ltd. (Semiconductor Today)", "country": "GB"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.semiconductor-today.com/about.shtml", "https://www.semiconductor-today.com/news_items/2025/may/a-star-230525.shtml"],
+   "useful_lead": "",
+   "notes": "Semiconductor Today is published by Juno Publishing and Media Solutions Ltd, registered address Suite 133, 20 Winchcombe Street, Cheltenham, UK. Subject matter is Singapore (A*STAR) but publisher origin is UK; not India either way."
+  },
+  {
+   "id": "L15-040",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Baker Hughes Company", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.bakerhughes.com/company/digital-annual-report"],
+   "useful_lead": "",
+   "notes": "Baker Hughes HQ Houston, TX. Official company domain. Unambiguous."
+  },
+  {
+   "id": "L15-041",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "SLB; Ormat Technologies, Inc.", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.globenewswire.com/news-release/2025/10/27/3174636/0/en/SLB-and-Ormat-Partner-to-Accelerate-Integrated-Geothermal-Asset-Development-and-Enhanced-Geothermal-Systems.html"],
+   "useful_lead": "",
+   "notes": "SLB (Houston) and Ormat Technologies (Reno, NV) are both US-headquartered issuers of this joint press release. Unambiguous."
+  },
+  {
+   "id": "L15-042",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "GlobalData Plc (mining-technology.com)", "country": "GB"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.mining-technology.com/news/caterpillar-to-provide-autonomous-machinery-to-rio-tinto/", "https://www.verdict.co.uk/verdict-parent-company-globaldata-moves-to-main-market-of-lse/"],
+   "useful_lead": "",
+   "notes": "mining-technology.com is a Verdict Media / GlobalData Plc title, HQ John Carpenter House, London, UK. Not India."
+  },
+  {
+   "id": "L15-043",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "CISSOID SA", "country": "BE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.cissoid.com/products/high-temperature-products"],
+   "useful_lead": "",
+   "notes": "CISSOID SA is Belgium-headquartered (Mont-Saint-Guibert). Unambiguous EU origin."
+  },
+  {
+   "id": "L15-045",
+   "verdict": "discovery_only",
+   "method": "org_identity_page",
+   "institutions": [{"name": "TBRC Business Research Private Limited (trading as 'The Business Research Company', publisher of record on researchandmarkets.com)", "country": "IN"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": [
+    "https://www.researchandmarkets.com/reports/5767011/downhole-tools-market-report",
+    "https://www.thebusinessresearchcompany.com/about-the-business-research-company",
+    "https://www.thecompanycheck.com/company/tbrc-business-research-private-limited/U93000TG2014PTC093061",
+    "https://www.cphi-online.com/company/tbrc-business-research-private-limited/"
+   ],
+   "useful_lead": "Global downhole tools market claimed at $5.79B (2025) rising to $6.07B (2026) and $7.33B by 2030 (4.7-4.8% CAGR); independently confirm via a non-Indian-origin market-research firm, oilfield-services trade association, or public-company investor materials before citing any downhole-tools market-size figure.",
+   "notes": "The distribution marketplace (researchandmarkets.com) is Dublin, Ireland-based, but the report's actual producing/authoring firm attributed on the listing page is 'The Business Research Company.' That brand's UK (Canary Wharf) and US (Media, PA) addresses are marketing offices; the controlling legal entity per the site's own copyright notice and CPHI/company-registry records is TBRC Business Research Private Limited, CIN U93000TG2014PTC093061, incorporated 19-Feb-2014, registered office Jubilee Hills, Hyderabad, Telangana, India (ROC Hyderabad). No matching 'The Business Research Company Ltd' entity was found in UK Companies House. This matches the audit directive's flagged pattern of India-registered consultancies using US/UK virtual-office branding; the source is downgraded to discovery_only regardless of the marketplace's own Irish domicile."
+  },
+  {
+   "id": "L16-001",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Worcester Polytechnic Institute", "country": "US"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1115/1.4064442&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors (O'Connor, Talmor, Yagoobi) resolved to Worcester Polytechnic Institute, US. No IN affiliation."
+  },
+  {
+   "id": "L16-002",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "National Pingtung University of Science and Technology", "country": "TW"}, {"name": "University of Oklahoma", "country": "US"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.2514/1.T6931&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Authors Cheng, Leong (Taiwan) and Lai (University of Oklahoma, US). No IN affiliation."
+  },
+  {
+   "id": "L16-003",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Harbin Institute of Technology", "country": "CN"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.rser.2025.116032&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolved to Harbin Institute of Technology, China. No IN affiliation."
+  },
+  {
+   "id": "L16-004",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of Guilan", "country": "IR"}, {"name": "University of Science and Technology of Mazandaran", "country": "IR"}],
+   "non_indian_affiliation_count": 4,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.elstat.2025.104151&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 4 authors resolved to Iranian universities. No IN affiliation."
+  },
+  {
+   "id": "L16-005",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Jiangsu University", "country": "CN"}],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.ijheatmasstransfer.2024.125643&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All authors resolved to Jiangsu University, China. No IN affiliation."
+  },
+  {
+   "id": "L16-006",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Sungkyunkwan University", "country": "KR"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s12206-024-2101-x&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolved to Sungkyunkwan University, South Korea. No IN affiliation."
+  },
+  {
+   "id": "L16-007",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Massachusetts Institute of Technology", "country": "US"}, {"name": "MIT Lincoln Laboratory", "country": "US"}],
+   "non_indian_affiliation_count": 10,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41586-018-0707-9&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 10 authors resolved to MIT / MIT Lincoln Laboratory, US. No IN affiliation."
+  },
+  {
+   "id": "L16-008",
+   "verdict": "discovery_only",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Indian Institute of Technology Kharagpur", "country": "IN"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s12046-021-01687-0&select=doi,ids,authorships"],
+   "useful_lead": "Review of ionic-wind (corona-discharge EHD) thermal-management research through 2020; if this survey's technical summary is useful, independently confirm the underlying claims via the primary papers it cites or an equivalent non-Indian-authored review.",
+   "notes": "All 4 authors (Venkatesh, Kumar, Bhattacharya, Pramanik) resolved to Indian Institute of Technology Kharagpur, India. No non-Indian affiliation found; the record's own notes already flagged Sadhana as an Indian Academy of Sciences venue but this now confirms author-level Indian origin too. Downgraded to discovery_only per binding rule."
+  },
+  {
+   "id": "L16-009",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. Environmental Protection Agency (EPA)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.epa.gov/air-emissions-monitoring-knowledge-base/monitoring-control-technique-electrostatic-precipitators"],
+   "useful_lead": "",
+   "notes": "Official epa.gov domain. Unambiguous US federal agency."
+  },
+  {
+   "id": "L16-010",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Khalifa University of Science and Technology", "country": "AE"}, {"name": "Universidade Estadual de Campinas (UNICAMP)", "country": "BR"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/maes.2025.3526134&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "4 authors (Shittu, Abou-Khousa, Viegas, Elfadel) resolved to Khalifa University, UAE; 1 author (Hernandez-Figueroa) to UNICAMP, Brazil. No IN affiliation; names were not used to infer origin."
+  },
+  {
+   "id": "L16-011",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Nanjing University", "country": "CN"}, {"name": "Suzhou Research Institute", "country": "CN"}, {"name": "Composite Components (Czechia) [likely OpenAlex disambiguation artifact]", "country": "CZ"}],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/5.0258293&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Predominantly Nanjing University, China; one author's institution resolved to a Czech entity, possibly an OpenAlex disambiguation error, but not IN regardless. No IN affiliation."
+  },
+  {
+   "id": "L16-012",
+   "verdict": "discovery_only",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Motilal Nehru National Institute of Technology", "country": "IN"}, {"name": "Defence Materials and Stores Research and Development Establishment", "country": "IN"}],
+   "non_indian_affiliation_count": 0,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.sna.2023.114283&select=doi,ids,authorships"],
+   "useful_lead": "Review of metamaterial-based RF/microwave absorber design approaches; if useful for the RCS/stealth-metamaterials thread, cross-check its claims against the batch's other already-accepted non-Indian metamaterial-RCS academic sources (e.g., L16-010, L16-011) rather than citing this record directly.",
+   "notes": "All 4 authors (Jorwal, Dubey, Gupta, Agarwal) resolved to Motilal Nehru National Institute of Technology and a DRDO establishment (Defence Materials and Stores R&D Establishment), both India. No non-Indian affiliation found. Downgraded to discovery_only."
+  },
+  {
+   "id": "L16-013",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Army Engineering University of PLA", "country": "CN"}, {"name": "Rocket Force University of Engineering", "country": "CN"}, {"name": "Southeast University", "country": "CN"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://jeit.ac.cn/cn/article/doi/10.11999/JEIT240601"],
+   "useful_lead": "",
+   "notes": "DOI not indexed in Crossref/OpenAlex (Chinese DOI registration agency not mirrored); fetched publisher page (jeit.ac.cn) directly, confirming all 6 authors at PLA/Chinese-military-affiliated and Southeast University institutions in Nanjing/Xi'an, China. No IN affiliation."
+  },
+  {
+   "id": "L16-014",
+   "verdict": "verified_non_india_origin",
+   "method": "publisher_page",
+   "institutions": [{"name": "Air Force Engineering University", "country": "CN"}],
+   "non_indian_affiliation_count": 8,
+   "evidence_urls": ["https://radars.ac.cn/cn/article/doi/10.12000/JR24259"],
+   "useful_lead": "",
+   "notes": "DOI not indexed in Crossref/OpenAlex; fetched publisher page (radars.ac.cn) directly, confirming all 8 authors at Air Force Engineering University, Xi'an, China. No IN affiliation."
+  },
+  {
+   "id": "L16-015",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Xiamen University", "country": "CN"}, {"name": "Jiangsu University", "country": "CN"}, {"name": "Massachusetts Institute of Technology", "country": "US"}, {"name": "University of Hong Kong", "country": "HK"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1093/nsr/nwac246&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Mixed CN/US/HK affiliations, including MIT (Nicholas Fang). No IN affiliation."
+  },
+  {
+   "id": "L16-016",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Sahand University of Technology", "country": "IR"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1038/s41598-025-11501-0&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors (Ahmadzadeh, Bahrami, Zaremanesh) resolved to Sahand University of Technology, Iran. No IN affiliation."
+  },
+  {
+   "id": "L16-017",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Shenzhen Securities Times Co., Ltd. (stcn.com)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://stcn.com/article/detail/3375883.html"],
+   "useful_lead": "",
+   "notes": "Securities Times / stcn.com is published by Shenzhen Securities Times Co., Ltd., China. Unambiguous CN origin."
+  },
+  {
+   "id": "L16-018",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Korea Research Institute of Standards and Science (KRISS); ScienceTimes / Korea Foundation for the Advancement of Science and Creativity", "country": "KR"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.sciencetimes.co.kr/nscvrg/view/menu/250?searchCategory=222&nscvrgSn=260690"],
+   "useful_lead": "",
+   "notes": "ScienceTimes (sciencetimes.co.kr) is operated by the Korea Foundation for the Advancement of Science and Creativity, Seoul. Unambiguous KR origin."
+  },
+  {
+   "id": "L16-019",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "NTT / NTT DOCOMO", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.docomo.ne.jp/english/info/media_center/pr/2021/1112_00.html"],
+   "useful_lead": "",
+   "notes": "Official docomo.ne.jp domain. Unambiguous Japan origin."
+  },
+  {
+   "id": "L16-020",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. Department of the Army (Army SBIR/STTR Program)", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://armysbir.army.mil/topics/affordable-ka-band-metamaterial-based-electronically-scanned-array-radar-test-training/"],
+   "useful_lead": "",
+   "notes": "Official armysbir.army.mil domain. Unambiguous US federal agency."
+  },
+  {
+   "id": "L16-022",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University College London", "country": "GB"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/5.0271688&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors, including Sriram Subramanian (name superficially India-associated but affiliation NOT inferred from name), resolved to University College London, UK. No IN affiliation."
+  },
+  {
+   "id": "L16-023",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of Bristol", "country": "GB"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1063/5.0221899&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 5 authors resolved to University of Bristol, UK. No IN affiliation."
+  },
+  {
+   "id": "L16-024",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Leibniz University Hannover", "country": "DE"}, {"name": "Laser Zentrum Hannover", "country": "DE"}, {"name": "Technische Universitat Braunschweig", "country": "DE"}, {"name": "Purdue University", "country": "US"}],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1115/1.4066335&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "7 of 8 authors resolved to German institutions (Leibniz Univ Hannover, Laser Zentrum Hannover, TU Braunschweig); OpenAlex left co-author Ajay P. Malshe's institution blank, so a targeted web search was run and confirmed Malshe is affiliated with Purdue University, West Lafayette, Indiana, USA (US state 'Indiana', not the country India) -- no IN affiliation."
+  },
+  {
+   "id": "L16-025",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of Milan", "country": "IT"}, {"name": "University of Melbourne", "country": "AU"}, {"name": "Polytechnique Montreal", "country": "CA"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1021/acs.chemrev.1c00438&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Authors at Univ Milan (IT), Univ Melbourne (AU) -- including Muthupandian Ashokkumar, an India-associated name whose resolved institution is Melbourne, Australia, not inferred from name -- and Polytechnique Montreal (CA). No IN affiliation."
+  },
+  {
+   "id": "L16-027",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "International Organization for Standardization (ISO)", "country": "CH"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.iso.org/standard/72747.html"],
+   "useful_lead": "",
+   "notes": "ISO headquartered Geneva, Switzerland. Unambiguous."
+  },
+  {
+   "id": "L16-028",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Shenzhen Securities Times Co., Ltd. (stcn.com)", "country": "CN"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.stcn.com/stock/djjd/202209/t20220916_4862188.html"],
+   "useful_lead": "",
+   "notes": "Same publisher as L16-017: Shenzhen Securities Times Co., Ltd., China. Unambiguous CN origin."
+  },
+  {
+   "id": "L16-030",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of the Basque Country", "country": "ES"}, {"name": "Universite de Bordeaux", "country": "FR"}, {"name": "Ikerbasque", "country": "ES"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/met15060619&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All authors at Spanish (Univ Basque Country, Ikerbasque) and French (Univ Bordeaux group) institutions. No IN affiliation."
+  },
+  {
+   "id": "L16-031",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of Jijel", "country": "DZ"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s00161-025-01409-5&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Sole resolved author (Boutana) at University of Jijel, Algeria. No IN affiliation."
+  },
+  {
+   "id": "L16-032",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "TU Dortmund University", "country": "DE"}, {"name": "University of New Hampshire", "country": "US"}],
+   "non_indian_affiliation_count": 5,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.jmatprotec.2010.12.012&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Predominantly TU Dortmund (DE); co-author Kinsey at University of New Hampshire (US). No IN affiliation."
+  },
+  {
+   "id": "L16-033",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "TU Dortmund University", "country": "DE"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1007/s42154-020-00103-3&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolved to TU Dortmund University, Germany, despite the journal's China Society of Automotive Engineers editorial affiliation. No IN affiliation."
+  },
+  {
+   "id": "L16-034",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "European Commission (CORDIS); Volvo Cars Body Components AB", "country": "EU"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://cordis.europa.eu/article/id/84246-electromagnetic-forming-shapes-ecofriendly-vehicles"],
+   "useful_lead": "",
+   "notes": "Official cordis.europa.eu domain; project coordinator Volvo Cars Body Components AB, Sweden. Unambiguous EU origin."
+  },
+  {
+   "id": "L16-035",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of Texas at Austin", "country": "US"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/20.22590&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolved to University of Texas at Austin, US. No IN affiliation."
+  },
+  {
+   "id": "L16-036",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "South China Morning Post", "country": "HK"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.scmp.com/news/china/science/article/3303761/china-bid-challenge-giant-spacex-deploying-maglev-rocket-launch-pad-2028"],
+   "useful_lead": "",
+   "notes": "SCMP is a Hong Kong-headquartered newspaper. Unambiguous, not India."
+  },
+  {
+   "id": "L16-037",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of Wisconsin-Madison", "country": "US"}, {"name": "UCLouvain", "country": "BE"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/tia.2023.3258933&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Lead author's OpenAlex-listed given name is 'FNU Nishanth' (surname Gadiyar per Crossref correction elsewhere in the ledger) at University of Wisconsin-Madison, US; co-author Van Verdeghem at UCLouvain, Belgium; Severson also Univ Wisconsin-Madison. Affiliation resolved from institution records, not inferred from the surname's apparent origin. No IN affiliation."
+  },
+  {
+   "id": "L16-038",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "McMaster University", "country": "CA"}],
+   "non_indian_affiliation_count": 7,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1109/TTE.2023.3242698&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 7 authors resolved to McMaster University, Canada. No IN affiliation."
+  },
+  {
+   "id": "L16-039",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Democritus University of Thrace", "country": "GR"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/app15116275&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 3 authors resolved to Democritus University of Thrace, Greece. No IN affiliation."
+  },
+  {
+   "id": "L16-040",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Budapest University of Technology and Economics", "country": "HU"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.fraope.2025.100474&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Both authors (Oloo, Szamel) resolved to Budapest University of Technology and Economics, Hungary; first author's name not used to infer origin. No IN affiliation."
+  },
+  {
+   "id": "L16-041",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Gedik University", "country": "TR"}, {"name": "Marmara University", "country": "TR"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.3390/app15105759&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Both authors resolved to Turkish universities. No IN affiliation."
+  },
+  {
+   "id": "L16-042",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "University of South Florida", "country": "US"}, {"name": "University of Da Nang", "country": "VN"}, {"name": "VinUniversity", "country": "VN"}],
+   "non_indian_affiliation_count": 3,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1080/14686996.2025.2546287&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "Co-author 'H. Srikanth' (name superficially India-associated) resolved via institution records to University of South Florida, US -- affiliation not inferred from name. Other authors at Univ South Florida (US) and Vietnamese institutions (Univ Da Nang, VinUniversity). No IN affiliation."
+  },
+  {
+   "id": "L16-043",
+   "verdict": "verified_non_india_origin",
+   "method": "other",
+   "institutions": [{"name": "University of Naples Federico II", "country": "IT"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1016/j.ijrefrig.2025.08.007&select=doi,ids,authorships", "https://www.researchgate.net/profile/Claudia-Masselli", "https://www.researchgate.net/profile/Luca-Cirillo-3"],
+   "useful_lead": "",
+   "notes": "OpenAlex returned all 6 authors (Cirillo, Gargiulo, Greco, Masselli, Orabona, Verneau) with empty institution lists; a targeted web search independently confirmed the group (Masselli, Cirillo, and the wider magnetocaloric-cooling research group they publish with) is based at the University of Naples Federico II, Italy. No IN affiliation found."
+  },
+  {
+   "id": "L16-044",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "Shandong University", "country": "CN"}, {"name": "University of Jinan", "country": "CN"}, {"name": "City University of Hong Kong, Shenzhen Research Institute", "country": "CN"}, {"name": "Institute of Engineering Thermophysics, CAS", "country": "CN"}, {"name": "University of Chinese Academy of Sciences", "country": "CN"}],
+   "non_indian_affiliation_count": 6,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1039/D5TC02482J&select=doi,ids,authorships"],
+   "useful_lead": "",
+   "notes": "All 6 authors resolved to Chinese institutions. No IN affiliation."
+  },
+  {
+   "id": "L16-045",
+   "verdict": "verified_non_india_origin",
+   "method": "openalex_affiliations",
+   "institutions": [{"name": "PARC, A Xerox Company", "country": "US"}, {"name": "Murata Manufacturing Co., Ltd.", "country": "JP"}],
+   "non_indian_affiliation_count": 8,
+   "evidence_urls": ["https://api.openalex.org/works?filter=doi:10.1126/science.aba2648&select=doi,ids,authorships", "https://api.crossref.org/works/10.1126/science.aba2648"],
+   "useful_lead": "",
+   "notes": "DATA-QUALITY FLAG (not an origin issue): both OpenAlex and Crossref register this DOI's title as 'A high-performance solid-state electrocaloric cooling system' with all 8 authors at PARC/Xerox (Palo Alto, US) and Murata Manufacturing (Kyoto, Japan) -- this does not match the ledger's listed authorship 'Qian, Suxin et al.; UCLA-affiliated.' Flagging for the orchestrator to reconcile the authorship field separately; the origin verdict is unaffected either way, since neither the Crossref-registered authors (US/Japan) nor a UCLA-based author set would be Indian."
+  },
+  {
+   "id": "L16-046",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "U.S. DOE / Advanced Research Projects Agency-Energy (ARPA-E); performer UCLA", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/compact-solid-state-cooling-systems"],
+   "useful_lead": "",
+   "notes": "Official arpa-e.energy.gov domain. Unambiguous US federal agency."
+  },
+  {
+   "id": "L16-047",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Oak Ridge National Laboratory; General Electric; U.S. Department of Energy", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.energy.gov/cmei/buildings/articles/magnetocaloric-refrigeratorfreezer"],
+   "useful_lead": "",
+   "notes": "Official energy.gov domain. Unambiguous US federal/national-lab origin."
+  },
+  {
+   "id": "L16-048",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Hitachi Astemo, Ltd.", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.astemo.com/en/news/20251027-01/"],
+   "useful_lead": "",
+   "notes": "Official astemo.com domain. Unambiguous Japan origin."
+  },
+  {
+   "id": "L16-049",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Enedym Inc.", "country": "CA"}, {"name": "Honda Motor Co., Ltd.", "country": "JP"}],
+   "non_indian_affiliation_count": 2,
+   "evidence_urls": ["https://www.businesswire.com/news/home/20251020765704/en/Enedym-Inc.-Secures-Investment-from-Honda-Motor-Co.-Ltd."],
+   "useful_lead": "",
+   "notes": "Enedym Inc. is based at McMaster Innovation Park, Hamilton, Ontario, Canada; Honda Motor Co. is Japan-headquartered. Distributed via BusinessWire (US newswire) but the reporting organizations are Canadian/Japanese. No IN affiliation."
+  },
+  {
+   "id": "L16-050",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Sumitomo Electric Industries, Ltd.", "country": "JP"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://sumitomoelectric.com/jp/products/powdermagneticcore/axialgapmotor"],
+   "useful_lead": "",
+   "notes": "Official sumitomoelectric.com domain. Unambiguous Japan origin."
+  },
+  {
+   "id": "L16-052",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Piller Power Systems (Langley Holdings Plc); Bergen Engines", "country": "DE"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://www.piller.com/bergen-engines-secures-400mw-contract-for-us-ai-data-center-power-plant/", "https://www.piller.com/about/", "https://www.langleyholdings.com/news/2026/06/29/langley-hosts-third-global-power-solutions-symposium-at-piller-headquarters/"],
+   "useful_lead": "",
+   "notes": "Piller Power Systems is headquartered in Osterode am Harz, Germany, a wholly-owned subsidiary of Langley Holdings Plc (UK); Bergen Engines is Norwegian. No IN affiliation regardless of which entity is treated as primary."
+  },
+  {
+   "id": "L16-053",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "Amber Kinetics, Inc.; Indian Energy, LLC", "country": "US"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://amberkinetics.com/pr/amber-kinetics-receives-letter-of-support-from-indian-energy-for-its-above-ground-solution/"],
+   "useful_lead": "",
+   "notes": "Both organizations are US-based: Amber Kinetics (California) and 'Indian Energy, LLC' (a Native American tribal-owned microgrid developer -- the name refers to Native American identity, not the country India; not misclassified based on the name). No IN-country affiliation."
+  },
+  {
+   "id": "L16-054",
+   "verdict": "verified_non_india_origin",
+   "method": "org_identity_page",
+   "institutions": [{"name": "HIWIN Mikrosystem Corp.", "country": "TW"}],
+   "non_indian_affiliation_count": 1,
+   "evidence_urls": ["https://hiwin.com/linear-motors/"],
+   "useful_lead": "",
+   "notes": "HIWIN Mikrosystem Corp. is Taiwan-headquartered. Unambiguous, not India."
+  }
+ ]
+}

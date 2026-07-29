@@ -1,0 +1,143 @@
+[
+ {
+  "id": "RT-C12-01",
+  "url": "https://www.broomfieldusa.com/fusion-energy/tokamak-superconducting-coils/",
+  "title": "Tokamak Superconducting Coil Winding | Broomfield Fusion Coil Solutions",
+  "publisher": "Broomfield",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "Fetched. Incumbent US vendor selling winding machines for tokamak superconducting coils: adjustable mandrels/tooling, automation, tension/alignment monitoring. HTS/REBCO not explicitly named."
+ },
+ {
+  "id": "RT-C12-02",
+  "url": "https://www.broomfieldusa.com/wire-winding/mri/",
+  "title": "MRI Winding Machines | Superconducting Magnetic Resonance Imaging",
+  "publisher": "Broomfield",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "Broomfield's existing superconducting MRI magnet winding machine product line."
+ },
+ {
+  "id": "RT-C12-03",
+  "url": "https://www.ridgwayeng.com/superconductor-cable-coil-machinery/",
+  "title": "Superconductor Cable & Coil Machinery | Ridgway Machines",
+  "publisher": "Ridgway Machines",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "UK vendor; has delivered complete HTS conductor production lines (winding, taping machines, PLC control)."
+ },
+ {
+  "id": "RT-C12-04",
+  "url": "https://www.winding-technology.com/eu-en/HTS-Cable-Winding-Machines",
+  "title": "HTS Cable Winding Machines",
+  "publisher": "BOW / Winding-Technology",
+  "date": "2026",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "German vendor with catalog HTS cable winding machines: automatic layer control, programmable winding patterns."
+ },
+ {
+  "id": "RT-C12-05",
+  "url": "https://cfs.energy/news-and-media/commonwealth-fusion-systems-selects-47-acre-site-in/",
+  "title": "Commonwealth Fusion Systems Selects 47-Acre Site in Devens, Mass., for Historic Commercial Fusion Energy Campus",
+  "publisher": "Commonwealth Fusion Systems",
+  "date": "2021-03",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-04",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "CFS official: 47-acre Devens campus incl. 160,000 sq ft HTS-magnet manufacturing facility; vertical integration of winding. Replaces Wikipedia entry per audit fix #1.",
+  "verified": "fetched"
+ },
+ {
+  "id": "RT-C12-06",
+  "url": "https://blog.cfs.energy/cfs-flexes-magnet-manufacturing-muscle-to-build-the-fusion-ecosystem/",
+  "title": "CFS flexes magnet-manufacturing muscle to build the fusion ecosystem",
+  "publisher": "Commonwealth Fusion Systems (The Tokamak Times)",
+  "date": "2025",
+  "tier": 3,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "CFS sells finished HTS magnets (e.g., WHAM) to the ecosystem — magnet supply, not machine demand."
+ },
+ {
+  "id": "RT-C12-07",
+  "url": "https://spectrum.ieee.org/stellarator",
+  "title": "Stellarator Showdown: Proxima Fusion vs. Type One Energy",
+  "publisher": "IEEE Spectrum",
+  "date": "2025",
+  "tier": 2,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "Proxima built its own in-house HTS cable manufacturing line; stellarator entrants vertically integrating non-planar coil fabrication."
+ },
+ {
+  "id": "RT-C12-08",
+  "url": "https://brain.lighttech.cc/static/nodes/h/7d2daa25-efc4-4772-8263-f227774ad819.html",
+  "title": "核聚变用铠装高温超导线圈精密绕制设备 - 产业节点详情",
+  "publisher": "产业智脑 (Industry Brain, lighttech.cc)",
+  "date": "2026",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "Chinese supply-chain mapping already treats precision HTS fusion-coil winding equipment (multi-axis motion, constant tension, deformation monitoring, D-shape/racetrack 3D trajectories) as a defined industry node — domestic entrants expected."
+ },
+ {
+  "id": "RT-C12-09",
+  "url": "https://www.jiemian.com/article/11301569.html",
+  "title": "全球首台！中国公司建成运行全高温超导核聚变装置",
+  "publisher": "界面新闻 (Jiemian)",
+  "date": "2024",
+  "tier": 3,
+  "lang": "zh",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "上海电气/能量奇点 built the world's first all-HTS tokamak (洪荒70) — Chinese heavy-equipment incumbents already possess HTS coil winding/assembly capability in-house."
+ },
+ {
+  "id": "RT-C12-10",
+  "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11581134",
+  "title": "US11581134 — Bifilar winding system for manufacture of poloidal field superconducting magnets for nuclear fusion",
+  "publisher": "USPTO",
+  "date": "2023",
+  "tier": 2,
+  "lang": "en",
+  "accessed": "2026-07-03",
+  "used_in": [
+   "30_PHASE3_SCORING/REDTEAM_C12.md"
+  ],
+  "note": "Granted patent covering a complete superconducting PF-coil winding production line (unwinding, straightening, cleaning, bending, inter-turn taping) — prior art/IP thicket around 'turnkey winding line' claims."
+ }
+]

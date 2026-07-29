@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .title{font:700 26px Arial,sans-serif;fill:#12202b}.sub{font:15px Arial,sans-serif;fill:#344751}
+      .label{font:700 14px Arial,sans-serif;fill:#12202b}.small{font:12px Arial,sans-serif;fill:#344751}
+      .box{fill:#f6f9fa;stroke:#49616d;stroke-width:2}.hot{fill:#fff4dd;stroke:#b56b00;stroke-width:2}
+      .board{fill:#e8f3ff;stroke:#3164a8;stroke-width:2}.ctrl{fill:#e8f6ea;stroke:#367b48;stroke-width:2}
+      .daq{fill:#f2eafa;stroke:#75499c;stroke-width:2}.hold{fill:#fff2d2;stroke:#ad6a00;stroke-width:2}
+      .sig{stroke:#2367b1;stroke-width:5;fill:none}.pair{stroke:#2a8a58;stroke-width:5;fill:none}
+      .logic{stroke:#31804a;stroke-width:4;fill:none}.analog{stroke:#8a4eb0;stroke-width:5;fill:none}
+      .sync{stroke:#cf5c36;stroke-width:4;fill:none;stroke-dasharray:8 5}.boundary{stroke:#b56b00;stroke-width:4;stroke-dasharray:12 8}
+    </style>
+    <marker id="arrB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2367b1"/></marker>
+    <marker id="arrG" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#31804a"/></marker>
+    <marker id="arrP" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8a4eb0"/></marker>
+  </defs>
+  <rect width="1400" height="900" fill="#fff"/>
+  <text x="35" y="42" class="title">HSX three-axis end-to-end signal and control architecture</text>
+  <text x="35" y="68" class="sub">Three independent four-terminal sensors and analog boards; one shared phase controller; simultaneous three-channel acquisition + sync</text>
+
+  <line x1="555" y1="95" x2="555" y2="765" class="boundary"/>
+  <text x="305" y="105" class="label">250°C UHV — IN VESSEL</text>
+  <text x="585" y="105" class="label">AMBIENT — OUTSIDE VESSEL</text>
+
+  <!-- Cartridges -->
+  <g>
+    <rect x="45" y="145" width="235" height="155" class="hot" rx="10"/>
+    <text x="162" y="174" text-anchor="middle" class="label">X removable cartridge</text>
+    <text x="162" y="198" text-anchor="middle" class="small">die → LCC → signed P(q)</text>
+    <text x="162" y="219" text-anchor="middle" class="small">p1/p3 pair XA; p2/p4 pair XB</text>
+    <text x="162" y="240" text-anchor="middle" class="small">physical q→8/3/19/14 only after traveler</text>
+    <text x="162" y="270" text-anchor="middle" class="small">vented guard + fanout + strain relief</text>
+    <rect x="45" y="350" width="235" height="155" class="hot" rx="10"/>
+    <text x="162" y="379" text-anchor="middle" class="label">Y removable cartridge</text>
+    <text x="162" y="403" text-anchor="middle" class="small">p1/p3 pair YA; p2/p4 pair YB</text>
+    <text x="162" y="424" text-anchor="middle" class="small">same independent four-terminal stack</text>
+    <text x="162" y="455" text-anchor="middle" class="small">no shared return / no shield at die</text>
+    <rect x="45" y="555" width="235" height="155" class="hot" rx="10"/>
+    <text x="162" y="584" text-anchor="middle" class="label">Z removable cartridge</text>
+    <text x="162" y="608" text-anchor="middle" class="small">p1/p3 pair ZA; p2/p4 pair ZB</text>
+    <text x="162" y="629" text-anchor="middle" class="small">same independent four-terminal stack</text>
+    <text x="162" y="660" text-anchor="middle" class="small">screens float at cartridge</text>
+  </g>
+
+  <!-- Feedthrough -->
+  <rect x="335" y="160" width="180" height="535" class="box" rx="12"/>
+  <text x="425" y="192" text-anchor="middle" class="label">19C-275 feedthrough</text>
+  <text x="425" y="214" text-anchor="middle" class="small">vacuum-reference circuits</text>
+  <text x="425" y="240" text-anchor="middle" class="small">X: V1 p1, V2 p3</text>
+  <text x="425" y="259" text-anchor="middle" class="small">V3 p2, V4 p4</text>
+  <text x="425" y="302" text-anchor="middle" class="small">Y: V5 p1, V6 p3</text>
+  <text x="425" y="321" text-anchor="middle" class="small">V7 p2, V8 p4</text>
+  <text x="425" y="364" text-anchor="middle" class="small">Z: V9 p1, V10 p3</text>
+  <text x="425" y="383" text-anchor="middle" class="small">V11 p2, V12 p4</text>
+  <text x="425" y="430" text-anchor="middle" class="small">V13–V19 SPARE / CAPPED</text>
+  <text x="425" y="472" text-anchor="middle" class="small">male↔male mirror:</text>
+  <text x="425" y="492" text-anchor="middle" class="small">air A1/A12/A11/A10…</text>
+  <text x="425" y="530" text-anchor="middle" class="small">six pair screens → CF flange</text>
+  <text x="425" y="550" text-anchor="middle" class="small">NO shield/GND signal pin</text>
+  <rect x="360" y="585" width="130" height="76" class="hold" rx="6"/>
+  <text x="425" y="610" text-anchor="middle" class="small">HOLD: continuity-</text>
+  <text x="425" y="628" text-anchor="middle" class="small">prove full mirror before</text>
+  <text x="425" y="646" text-anchor="middle" class="small">contact insertion release</text>
+
+  <!-- Pair lines -->
+  <path d="M280 215 H335" class="pair"/><path d="M280 260 H335" class="pair"/>
+  <path d="M280 418 H335" class="pair"/><path d="M280 463 H335" class="pair"/>
+  <path d="M280 623 H335" class="pair"/><path d="M280 668 H335" class="pair"/>
+
+  <!-- Boards -->
+  <rect x="625" y="145" width="270" height="155" class="board" rx="10"/>
+  <text x="760" y="174" text-anchor="middle" class="label">Board X — hsx_2026_v2</text>
+  <text x="760" y="198" text-anchor="middle" class="small">J1: p1=1, p3=2, p2=6, p4=7</text>
+  <text x="760" y="220" text-anchor="middle" class="small">independent floating 100 µA source at J2/J7</text>
+  <text x="760" y="242" text-anchor="middle" class="small">U1/U2/U3 spinning → U4 gain → J4 Vx</text>
+  <text x="760" y="270" text-anchor="middle" class="small">RS6_X isolated ±15 V; per-board fault branch</text>
+
+  <rect x="625" y="350" width="270" height="155" class="board" rx="10"/>
+  <text x="760" y="379" text-anchor="middle" class="label">Board Y — identical</text>
+  <text x="760" y="403" text-anchor="middle" class="small">unique J1 sensor nets; floating 100 µA Y</text>
+  <text x="760" y="425" text-anchor="middle" class="small">J4 Vy; RS6_Y; independent analog chain</text>
+
+  <rect x="625" y="555" width="270" height="155" class="board" rx="10"/>
+  <text x="760" y="584" text-anchor="middle" class="label">Board Z — identical</text>
+  <text x="760" y="608" text-anchor="middle" class="small">unique J1 sensor nets; floating 100 µA Z</text>
+  <text x="760" y="630" text-anchor="middle" class="small">J4 Vz; RS6_Z; independent analog chain</text>
+
+  <!-- Feedthrough to boards -->
+  <path d="M515 230 H625" class="sig" marker-end="url(#arrB)"/><text x="570" y="220" text-anchor="middle" class="small">V1–V4</text>
+  <path d="M515 425 H625" class="sig" marker-end="url(#arrB)"/><text x="570" y="415" text-anchor="middle" class="small">V5–V8</text>
+  <path d="M515 630 H625" class="sig" marker-end="url(#arrB)"/><text x="570" y="620" text-anchor="middle" class="small">V9–V12</text>
+
+  <!-- Junction/Pico -->
+  <rect x="965" y="120" width="240" height="190" class="ctrl" rx="10"/>
+  <text x="1085" y="150" text-anchor="middle" class="label">Ambient interface junction</text>
+  <text x="1085" y="175" text-anchor="middle" class="small">Pico 2: GP16 a0 / GP17 a1</text>
+  <text x="1085" y="195" text-anchor="middle" class="small">GP18 a2 / GP20 EN / GP19 sync</text>
+  <text x="1085" y="220" text-anchor="middle" class="small">3 × SN74LVC125A branches</text>
+  <text x="1085" y="241" text-anchor="middle" class="small">12 series-R/test points + safe OE</text>
+  <text x="1085" y="263" text-anchor="middle" class="small">mirror test panel + AGND_STAR + power branches</text>
+  <text x="1085" y="288" text-anchor="middle" class="small">one buffer package/branch contains faults</text>
+
+  <!-- Logic fanout lines -->
+  <path d="M965 190 H925 V185 H895" class="logic" marker-end="url(#arrG)"/>
+  <path d="M965 215 H925 V410 H895" class="logic" marker-end="url(#arrG)"/>
+  <path d="M965 240 H925 V615 H895" class="logic" marker-end="url(#arrG)"/>
+  <text x="915" y="735" text-anchor="end" class="small">buffered a0/a1/a2/EN — one independent branch per board</text>
+
+  <!-- DAQ -->
+  <rect x="1010" y="400" width="340" height="265" class="daq" rx="12"/>
+  <text x="1180" y="433" text-anchor="middle" class="label">Simultaneous 4-channel acquisition</text>
+  <text x="1180" y="461" text-anchor="middle" class="small">CH1 = Vx   CH2 = Vy   CH3 = Vz   CH4 = sync</text>
+  <text x="1180" y="486" text-anchor="middle" class="small">DSOX1204G current path; verify active-channel mode/skew</text>
+  <text x="1180" y="514" text-anchor="middle" class="small">raw phase capture → common phase windows</text>
+  <text x="1180" y="536" text-anchor="middle" class="small">8-phase demod → digital low-pass/decimation</text>
+  <text x="1180" y="564" text-anchor="middle" class="small">No Pico ADC simultaneity assumption</text>
+  <rect x="1060" y="590" width="240" height="50" class="hold" rx="6"/>
+  <text x="1180" y="612" text-anchor="middle" class="small">HOLD: 40–100 kHz phase vs</text>
+  <text x="1180" y="630" text-anchor="middle" class="small">10–20 kHz recombined target validation</text>
+
+  <!-- Analog and sync -->
+  <path d="M895 250 H940 V460 H1010" class="analog" marker-end="url(#arrP)"/>
+  <path d="M895 430 H965 V485 H1010" class="analog" marker-end="url(#arrP)"/>
+  <path d="M895 635 H980 V510 H1010" class="analog" marker-end="url(#arrP)"/>
+  <path d="M1085 310 V400" class="sync" marker-end="url(#arrP)"/>
+  <text x="1098" y="360" class="small">GP19 sync → CH4</text>
+
+  <!-- Explicit no relay -->
+  <rect x="45" y="775" width="1305" height="82" class="hold" rx="8"/>
+  <text x="65" y="806" class="label">NO BOARD-TO-BOARD DATA RELAY:</text>
+  <text x="320" y="806" class="small">the three analog boards operate in parallel. Pico broadcasts state; DAQ receives X/Y/Z simultaneously.</text>
+  <text x="65" y="833" class="small">Twelve sensor nets remain unique end-to-end. Shared timing never authorizes a shared Hall return, bias source, feedthrough circuit, or calibration coefficient.</text>
+</svg>

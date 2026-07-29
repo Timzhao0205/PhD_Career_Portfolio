@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#172033"/></marker>
+  <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c94141"/></marker>
+  <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#b7c0cf" stroke-width="2"/></pattern>
+  <style>
+    text { font-family: Segoe UI, Arial, sans-serif; fill:#172033; }
+    .t { font-size:22px; font-weight:700; } .s { font-size:12px; fill:#5c667a; }
+    .l { font-size:13px; } .sm { font-size:11px; } .dim { font-size:11px; fill:#5c667a; }
+    .outline { stroke:#172033; stroke-width:1.5; fill:none; }
+    .thin { stroke:#5c667a; stroke-width:1; fill:none; }
+    .dash { stroke:#c94141; stroke-width:1.5; stroke-dasharray:7 5; fill:none; }
+    .axis { stroke:#172033; stroke-width:1.5; marker-end:url(#arrow); fill:none; }
+  </style>
+</defs>
+<rect width="800" height="560" fill="#fbfcfe"/>
+<text x="32" y="38" class="t">Concept C — axial section</text>
+<text x="32" y="59" class="s">Flange datum z = 0; full height includes feedthrough keep-out, hardware, and retention projection</text>
+<rect x="621" y="22" width="147" height="28" rx="5" fill="#fff0d6" stroke="#d8841c"/>
+<text x="694.5" y="41" class="sm" text-anchor="middle" fill="#8b4d00">NOT FOR FABRICATION</text>
+<line x1="32" y1="72" x2="768" y2="72" stroke="#d8dee9"/>
+<rect x="105" y="368.0" width="269.6" height="127.0" fill="#f8dddd" stroke="#c94141" stroke-dasharray="6 4"/>
+<text x="115" y="434.0" class="sm" fill="#c94141">conservative 19C keep-out</text>
+<rect x="188.5" y="342.5" width="183.0" height="12.2" fill="#d7a85e" stroke="#8a5d20"/>
+<rect x="156.2" y="354.7" width="28.1" height="140.3" fill="#d7a85e" stroke="#8a5d20"/>
+<rect x="375.8" y="354.7" width="28.1" height="140.3" fill="#d7a85e" stroke="#8a5d20"/>
+<rect x="215.9" y="214.4" width="128.1" height="128.1" fill="#6dc5c1" stroke="#277d7a"/>
+<rect x="240.3" y="251.0" width="79.3" height="91.5" fill="url(#hatch)" stroke="#277d7a"/>
+<rect x="220.2" y="202.2" width="119.6" height="12.2" fill="#6dc5c1" stroke="#277d7a"/>
+<rect x="225.8" y="182.1" width="108.5" height="20.1" fill="#d97745" stroke="#8e3f1d"/>
+<rect x="220.2" y="174.8" width="119.6" height="6.1" fill="#d7a85e" stroke="#8a5d20"/><line x1="595" y1="495.0" x2="595" y2="171.1" class="axis"/>
+<text x="611" y="333.0" class="l">26.55 nominal</text>
+<line x1="635" y1="159.5" x2="635" y2="495.0" class="dash"/>
+<text x="650" y="163.5" class="sm" fill="#c94141">27.50 limit</text>
+<text x="535" y="405" class="l">Stack</text><text x="535" y="426" class="sm">10.50 core + 3.25 cassette</text><text x="535" y="444" class="sm">+ 0.30 pin projection</text>
+<text x="535" y="466" class="sm">Worst-case height remains ≤27.36</text><text x="535" y="484" class="sm">using proposed tolerance ledger.</text>
+<text x="535" y="498" class="sm" fill="#c94141">HOLD: verify true mated 19C height.</text><line x1="32" y1="526" x2="768" y2="526" stroke="#d8dee9"/>
+<text x="32" y="546" class="s">All dimensions mm. Geometry is conceptual pending Stage-40 red team and vendor DFM.</text></svg>

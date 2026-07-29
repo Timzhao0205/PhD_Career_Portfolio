@@ -1,0 +1,110 @@
+[
+  {
+    "id": "RT-C33-01",
+    "url": "https://iopscience.iop.org/article/10.1088/1361-6668/abdba8",
+    "title": "Fiber optic quench detection for large-scale HTS magnets demonstrated on VIPER cable during high-fidelity testing at the SULTAN facility",
+    "publisher": "Superconductor Science and Technology (IOP)",
+    "date": "2021",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "MIT PSFC/CFS-lineage fiber-optic QD; 2-3x SNR vs voltage taps; co-wound at manufacture."
+  },
+  {
+    "id": "RT-C33-02",
+    "url": "https://ieeexplore.ieee.org/document/10411027/",
+    "title": "Fiber-Optics Quench Detection Schemes in HTS Cables for Fusion Magnets",
+    "publisher": "IEEE Transactions on Applied Superconductivity",
+    "date": "2024",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "FBG/ULFBG quench detection architectures for fusion HTS cables — competing modality."
+  },
+  {
+    "id": "RT-C33-03",
+    "url": "https://iopscience.iop.org/article/10.1088/1361-6668/ae6984",
+    "title": "Experimental study on quench detection of fiber-optic sensors for high-temperature superconducting model conductors of China's next-generation fusion magnets",
+    "publisher": "Superconductor Science and Technology (IOP)",
+    "date": "2025",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Chinese fusion program adopting fiber-optic QD in-house (CFETR-class conductors)."
+  },
+  {
+    "id": "RT-C33-04",
+    "url": "https://www.sohu.com/a/1036847153_114984",
+    "title": "星环聚能申请用于超导磁体的失超检测系统及方法专利 (Startorus Fusion files patent for superconducting-magnet quench detection system and method)",
+    "publisher": "Sohu (搜狐)",
+    "date": "2025",
+    "tier": 3,
+    "lang": "zh",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Chinese fusion startup patenting its own quench detection — buyers build QC as process IP."
+  },
+  {
+    "id": "RT-C33-05",
+    "url": "https://patents.google.com/patent/US11101059B2/en",
+    "title": "US11101059B2 — Quench detection in superconducting magnets (assignee: Tokamak Energy Ltd)",
+    "publisher": "Google Patents / USPTO",
+    "date": "2021-08-24",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Tokamak Energy granted patent (HTS tape-strip sensing); expires 2038."
+  },
+  {
+    "id": "RT-C33-06",
+    "url": "https://www.theva.com/products/",
+    "title": "THEVA Products — TAPESTAR non-contact critical-current inspection for superconducting tape",
+    "publisher": "THEVA Duennschichttechnik GmbH",
+    "date": "2026",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Incumbent HTS QC instrument at tape level, used by all major tape producers."
+  },
+  {
+    "id": "RT-C33-07",
+    "url": "https://www.lakeshore.com/products/categories/magnetic-products/hall-probes",
+    "title": "Hall probes — Lake Shore Cryotronics",
+    "publisher": "Lake Shore Cryotronics",
+    "date": "2026",
+    "tier": 2,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Incumbent cryogenic Hall sensor/instrument vendor already serving magnet manufacturers."
+  },
+  {
+    "id": "RT-C33-08",
+    "url": "https://www.canyonmagnet.energy/fusion-systems",
+    "title": "HTS Magnet Factory — Canyon Magnet Energy",
+    "publisher": "Canyon Magnet Energy",
+    "date": "2026",
+    "tier": 3,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Example of small HTS magnet factory with in-house winding/qualification — countable TAM."
+  },
+  {
+    "id": "RT-C33-09",
+    "url": "https://patents.google.com/patent/US11749434B2/en",
+    "title": "US11749434B2 — Strain- or magnetic field-based quench detection (assignee: Tokamak Energy Ltd)",
+    "publisher": "Google Patents / USPTO",
+    "date": "2023-09-05",
+    "tier": 1,
+    "lang": "en",
+    "accessed": "2026-07-03",
+    "used_in": ["30_PHASE3_SCORING/REDTEAM_C33.md"],
+    "note": "Granted patent covering magnetic-field-based quench detection — direct FTO threat to Hall-array concept."
+  }
+]

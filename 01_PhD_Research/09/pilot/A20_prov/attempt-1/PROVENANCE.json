@@ -1,0 +1,102 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "stage": "A20_prov",
+  "mode": "PILOT",
+  "attempt": 1,
+  "audited_claim": "The old Folder 06 ideas and later artifacts were generated with Fable 5 at high or xhigh effort.",
+  "sampling_rule": "Deterministic. Core tasks: within sources/old06/98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl, restrict to tasks with requested_model=claude-fable-5, a matched started+complete entry pair, surviving output artifacts in the corpus, and a locatable Agent dispatch plus subagent sidechain in a Claude Code session transcript; take the first idea-architect (idea-generation) dispatch of the P3R2 regeneration round in file order (P3R2-A, line 173) and the first idea-elegance-judge (adjudication) dispatch in file order (P3R2-ELEGANCE-JUDGE, line 183). Later artifacts: take the first two completion entries in file order among the ten P6 deep-dive tasks (line 311 = DD_P3R2_C_22, line 313 = DD_P3R2_D_02) and audit the corresponding files in sources/old06/40_DEEP_DIVES/.",
+  "sample": [
+    {
+      "task_id": "P3R2-A",
+      "category": "raw_idea_generation_core",
+      "verdict": "PARTIAL_PROVENANCE",
+      "requested_model": "claude-fable-5",
+      "requested_effort": "xhigh",
+      "observed_model": "claude-fable-5",
+      "observed_effort": "NOT_RECORDED",
+      "evidence_strength": "strong_runtime_log (model); config_request_only (effort)",
+      "evidence_paths": [
+        "sources/old06/98_RUN_LOGS/claude_20260712_171240.jsonl",
+        "sources/old06/98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl",
+        "sources/old06/20_OPPORTUNITY_POOL/P3R2_A_us_pain.json"
+      ]
+    },
+    {
+      "task_id": "P3R2-ELEGANCE-JUDGE",
+      "category": "adjudication_screening",
+      "verdict": "PARTIAL_PROVENANCE",
+      "requested_model": "claude-fable-5",
+      "requested_effort": "xhigh",
+      "observed_model": "claude-fable-5",
+      "observed_effort": "NOT_RECORDED",
+      "evidence_strength": "strong_runtime_log (model); config_request_only (effort)",
+      "evidence_paths": [
+        "sources/old06/98_RUN_LOGS/claude_20260712_171240.jsonl",
+        "sources/old06/98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl",
+        "sources/old06/20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.md"
+      ]
+    },
+    {
+      "task_id": "CHATGPT-P6-DD-P3R2-C-22",
+      "category": "later_artifacts",
+      "verdict": "CONTRADICTED",
+      "requested_model": "GPT-5.6 Terra (non-Claude; ChatGPT continuation)",
+      "requested_effort": "not logged (routing entry: unknown)",
+      "observed_model": "UNKNOWN (actual_model=unknown in the continuation's own log; affirmatively not logged as Fable 5)",
+      "observed_effort": "UNKNOWN",
+      "evidence_strength": "config_request_only",
+      "evidence_paths": [
+        "sources/old06/98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl",
+        "sources/old06/98_RUN_LOGS/CHATGPT_CONTINUATION_LOG.md",
+        "sources/old06/40_DEEP_DIVES/DD_P3R2_C_22.md",
+        "sources/old06/40_DEEP_DIVES/_about.md"
+      ]
+    },
+    {
+      "task_id": "CHATGPT-P6-DD-P3R2-D-02",
+      "category": "later_artifacts",
+      "verdict": "CONTRADICTED",
+      "requested_model": "GPT-5.6 Terra (non-Claude; ChatGPT continuation)",
+      "requested_effort": "not logged (routing entry: unknown)",
+      "observed_model": "UNKNOWN (actual_model=unknown in the continuation's own log; affirmatively not logged as Fable 5)",
+      "observed_effort": "UNKNOWN",
+      "evidence_strength": "config_request_only",
+      "evidence_paths": [
+        "sources/old06/98_RUN_LOGS/MODEL_ROUTING_LOG.jsonl",
+        "sources/old06/98_RUN_LOGS/CHATGPT_CONTINUATION_LOG.md",
+        "sources/old06/40_DEEP_DIVES/DD_P3R2_D_02.md",
+        "sources/old06/40_DEEP_DIVES/_about.md"
+      ]
+    }
+  ],
+  "category_verdicts_pilot_scope_only": {
+    "raw_idea_generation_core": {
+      "verdict": "PARTIAL_PROVENANCE",
+      "coverage": "1/1 sampled core idea-generation task audited",
+      "basis": "Runtime session transcript claude_20260712_171240.jsonl records model=claude-fable-5 on the orchestrator dispatch message (line 3184) and on all 44 sidechain assistant records of the P3R2-A idea-architect subagent (parent_tool_use_id toolu_01JQ5s1KCavFy5efSKCUyVcg), with zero sonnet records in that sidechain. MODEL_ROUTING_LOG.jsonl lines 173/177 match.",
+      "missing_proof": "Runtime effort was never recorded anywhere in the transcripts; xhigh is evidenced only as a request (launcher configuration in LAUNCHER_LOG.md, agent frontmatter effort=xhigh quoted in routing entries, 01_MISSION/MODEL_EFFORT_POLICY.md). Therefore the 'at high or xhigh effort' half of the claim cannot be confirmed from runtime observation."
+    },
+    "adjudication_screening": {
+      "verdict": "PARTIAL_PROVENANCE",
+      "coverage": "1/1 sampled adjudication task audited",
+      "basis": "Same transcript records model=claude-fable-5 on the elegance-judge dispatch (line 4214) and on all 36 sidechain assistant records of that subagent (parent_tool_use_id toolu_015FAZtwrecqPweTB9zApGvq), with zero sonnet records. MODEL_ROUTING_LOG.jsonl lines 183/184 match.",
+      "missing_proof": "Same effort gap: observed effort is absent from every runtime record; only requested xhigh is evidenced."
+    },
+    "later_artifacts": {
+      "verdict": "CONTRADICTED",
+      "coverage": "2/2 sampled later artifacts audited",
+      "basis": "Both sampled deep dives were generated during the documented ChatGPT continuation (MODEL_ROUTING_LOG.jsonl lines 308-313, source=chatgpt-continuation, requested_model='GPT-5.6 Terra', actual_model=unknown; CHATGPT_CONTINUATION_LOG.md P6 section). The strongest contemporaneous logs therefore affirmatively place generation on a requested non-Claude route, contradicting Fable-5 provenance for these artifacts. The folder note 40_DEEP_DIVES/_about.md ('Ten Fable/xhigh reports') conflicts with these logs and is rejected as unsupported; the corpus's own final audit 99_AUDIT/FABLE_ADJUDICATION.md likewise records 'Actual runtime model / effort: unknown / unknown (not exposed; not inferred)'.",
+      "missing_proof": "Which exact GPT-family model and effort actually ran is unknown (no continuation runtime transcript exists in the corpus). Unknown identity does not rescue Fable provenance: no evidence anywhere logs these artifacts as Fable-generated."
+    }
+  },
+  "pilot_coverage": {
+    "core_tasks_sampled": "2/2 required by the pilot rule",
+    "later_artifacts_sampled": "2/2 required by the pilot rule",
+    "population_context_not_yet_audited": "MODEL_ROUTING_LOG.jsonl contains 334 timestamped entries (97 with source=chatgpt-continuation; 0 with downgrade=true). The full run must inventory all of them, including P3 round-1 seed batches, P3R2 waves B-G, judge rounds R2/R3, fixers, founder-fit, P2A adjudication, P4 scorers S1-S4 (partly Claude sessions, partly ChatGPT regeneration), all P5/P7/P8 continuation tasks, all five claude_*.jsonl session transcripts, LAUNCHER_LOG.md, CHATGPT_HANDOFF_BACKUP files, state files, and audit statements."
+  },
+  "notes": [
+    "Historical provenance only; this pilot makes no claim about fresh agreement with the old conclusions.",
+    "Requested vs observed evidence kept strictly separate per row; filename text, prompt wording, and folder notes were treated as non-probative of runtime model.",
+    "prev_chat.md (sources/history/prev_chat.md, section 7) corroborates this split as secondhand narrative: Fable evidence for seeds/P3R2/adjudications, and explicitly states later ChatGPT continuation records did not expose exact model and effort. It was used only as corroboration, never as primary proof."
+  ]
+}

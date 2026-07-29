@@ -1,0 +1,371 @@
+{
+  "stage": "B30_skills",
+  "mode": "FULL",
+  "attempt": 1,
+  "note": "UNIFIED ranked bridge-experiment ladder: the complete deduplicated merge of B15's bridge tests (BT-1..BT-8 as published in GAPS.md §5; the task card names BT-1..BT-6 and BT-7/BT-8 are additionally placed so no BT ID is orphaned — disclosed in SELF_CHECK) and B25's ladder (PB-1..PB-7), with BR-A and BR-B carried exactly as the accepted pilot defined them (content preserved; BR-B's pilot-era 'BT-8 deferred desk obligation' lineage pointer is now discharged by BR-F, which owns BT-8). Every entry carries traceable lineage IDs (B15 BT-x, B25 PB-x, B10-cited corpus falsification tests FT-x); no experiment is invented fresh. Ranking criteria per the stage spec: information gain, reusability, time, cost, safety, publication value, commercial evidence, dependency. All cost/time figures are EST order-of-magnitude planning labels carried from the cited B25/B15/B10 records, not quotes or measurements; 'not estimable' is used where the record supplies no figure. Safety paragraphs are research planning, not safety approvals (SOURCE_POLICY). Idea IDs are verbatim from the A30/B20 universe; W1/W2 are B25 POWER.md §9 wedges; S1-S20 are this run's SKILLS.csv rows in file order. This ladder ranks EXPERIMENTS by decision value; it ranks no startup idea (that is B40's job). FT-01 (the pre-publication prior-art kill search) is deliberately not a ladder entry: it is a named precondition inside the success gates of every publication-facing entry, owned by the publication track (B15 honesty rule; S13).",
+  "lineage_coverage": {
+    "BT-1": "BR-A", "BT-2": "BR-C", "BT-3": "BR-A", "BT-4": "BR-D", "BT-5": "BR-H", "BT-6": "BR-B", "BT-7": "BR-I", "BT-8": "BR-F",
+    "PB-1": "BR-B", "PB-2": "BR-B", "PB-3": "BR-G", "PB-4": "BR-E", "PB-5": "BR-A", "PB-6": "BR-F", "PB-7": "BR-H",
+    "FT-02": "BR-A", "FT-05": "BR-A", "FT-04": "BR-D", "FT-08/FT-09": "BR-C (feeds; machine-piggyback execution stays on the PhD's own campaign calendar)", "FT-11": "BR-H", "FT-12": "BR-H (pointer; strictly after FT-11)", "FT-01": "precondition in publication-facing success gates (not a ladder entry; see note)"
+  },
+  "ranking_rationale_summary": "The ordering follows the shared B15 §5 / B25 criterion — decision leverage x novelty / cost, i.e. cheapest decisive gate first — applied across all eight stage-spec criteria. BR-A ranks 1 (carried from the pilot): Phase 0 is $0, dependency-free, and epistemically upstream (C31/C48: FT-02 gates every dollar after it). BR-B ranks 2 (carried): highest commercial evidence (merges B25's own ranks 1 and 2), held below BR-A by cost ($11-35K EST), the S3 dependency, and the ladder's highest safety burden. BR-C ranks 3: B15's own #2 (BT-2), $0 desk, converts the architecture's core quantitative claim from synthetic to real data; it sits below BR-B only because it depends on BR-A Phase 0 passing and on archive assembly, and produces no commercial-evidence datum. BR-D ranks 4: the highest PhD value on the ladder (the G5 credential itself) and low cost, but hard-gated by C04 and C45 — dependency, not value, sets its rank; its calendar position is 'immediately upon C04 closure' regardless of rank. BR-E ranks 5 and BR-G ranks 6, preserving B25's own relative order (PB-4 above PB-3); both are low-cost extensions of BR-B's bed. BR-F ranks 7 despite $0 cost, matching B25's own placement of PB-6 below PB-3/PB-4: its leverage is hygiene, not decision value — and because it is free it is nonetheless scheduled in days 0-30. BR-H ranks 8 (collaborator-led by design, C09 — never critical path, dependent on a host materializing). BR-I ranks 9: B15's BT-7 carried so the ID is not orphaned, but B25's accepted analysis gave it no slot and no current thesis or wedge depends on it — it is retained strictly as an unscheduled collaborator option. Deviations from source orderings (BT-6 promoted from B15's #6 to rank 2 by B25's merged PB-1/PB-2 evidence and reusability; BT-8 demoted from nothing-to-something into rank 7 per B25's own PB-6 placement) are stated here rather than smoothed over.",
+  "bridges": [
+    {
+      "id": "BR-A",
+      "rank": 1,
+      "name": "Estimator-honesty-gated reverse-direction ladder: desk FT-02 honesty test, then bench coil-referenced Hall-gain recovery",
+      "lineage": ["B15 BT-1", "B15 BT-3", "B25 PB-5", "B10-cited FT-02 (C31)", "B10-cited FT-05 (C32)"],
+      "rank_rationale": "Highest decision leverage per dollar on the unified ladder: Phase 0 costs $0, has no dependencies, and per the corpus's own rule (C31/C48: FT-02 'gates every dollar after it') must pass before any estimator-based claim — PhD Element 3, W2 detection statistics, or any other entry's frozen-analysis discipline — is credible. Phase 1 then buys the corpus-documented first bench test of the reverse direction (EV32/M2) for $1-5K EST. Against the eight criteria: information gain maximal (a single desk result gates the whole estimator program), reusability maximal (its honesty discipline is imported by BR-B/BR-C/BR-G), time short, cost minimal, safety nil in Phase 0, publication value high either way (positive first-test or clean negative), commercial evidence indirect (W2 methodology), dependency none. B15 ranked its two components 1st (BT-1) and 3rd (BT-3) of eight; unifying them preserves that ordering logic while making the desk gate an explicit stop/continue gate for the bench spend.",
+      "hypothesis": "(a) An estimator built to the T0 specification (C10) can be made provably honest: on Theorem-1 non-identifiable scenarios (C23) it freezes the affected states and inflates its reported covariance instead of silently converging on its prior (the FM-18 failure mode, C24); and (b) given a trusted coil/current excursion chain, Hall GAIN is recoverable within the Fisher-predicted interval while offset recovery is structurally refused — the reverse (coil-informs-Hall) direction that the B15 corpus shows has never been tested even at bench level (EV32/M2; C26 gap b; single non-fusion precedent per C30).",
+      "protocol": [
+        "Phase 0, step 1 (desk): build a minimal T0 estimator skeleton per the C10 module boundary (model/schema/estimator/scenarios/metrics only; no scope growth).",
+        "Phase 0, step 2: implement the Theorem-1 non-identifiable scenarios (C23 CASE-A class: unreferenced Hall+coil pair, constant gains/offsets) and at least one identifiable control case (known machine-current field model at >=2 field levels, per C23's full-rank case).",
+        "Phase 0, step 3: pre-register pass criteria and freeze the analysis configuration before any run (FT-02 discipline).",
+        "Phase 0, step 4: run and record — the estimator must freeze the non-identifiable states and inflate reported covariance on the Theorem-1 scenarios while converging normally on the identifiable control case.",
+        "Phase 0, step 5: wrong-prior cross-check — rerun the non-identifiable scenarios with deliberately wrong priors and verify the estimator visibly flags non-identifiability rather than confidently tracking whichever prior it was handed.",
+        "GATE (stop/continue): Phase 1 starts only on a Phase 0 pass (see stop_continue_gate).",
+        "Phase 1, step 6 (bench): establish a trusted excursion chain — programmed current ramps through a calibrated field coil driving a known field excursion at a co-mounted Hall/coil sensor pair; reference the coil chain against the best available certificated DC chain (BR-B's reference chain if available; a calibrated coil chain alone at reduced, disclosed grade otherwise).",
+        "Phase 1, step 7: vary excursion profiles (rate, amplitude, dwell) per the C23 identifiability case structure to test its predictions, not just a single operating point.",
+        "Phase 1, step 8: recover Hall gain via the FT-05 protocol with the frozen, pre-registered analysis; compare the recovered gain against the Fisher-predicted interval (C23).",
+        "Phase 1, step 9: swap the reference between certificated and uncertificated chains and verify that recovery quality tracks reference trust as predicted (the point of the C23/EV32 discipline).",
+        "Phase 1, step 10: verify the estimator REFUSES offset recovery throughout (Theorem-1 discipline — offset is never claimed recoverable from the pair alone).",
+        "Device honesty note: Phase 1's gain-recovery target is a commercial Hall sensor by default; the PhD's GaN die is optional and included ONLY if the C04 anomaly has closed — the experiment is decision-grade without it (same non-gating design as B25 PB-1)."
+      ],
+      "metrics": [
+        "Phase 0: state-freeze and covariance-inflation behavior on each non-identifiable scenario (binary per scenario, plus reported-covariance ratio vs the near-truth-initialized run); convergence error on the identifiable control case; wrong-prior divergence visibility flag.",
+        "Phase 1: recovered-gain error vs the Fisher-predicted interval (inside/outside, and margin); degradation ratio of recovery quality between certificated and uncertificated reference chains vs prediction; offset-refusal check (binary); excursion-profile dependence of recovery quality vs C23 case predictions."
+      ],
+      "controls": [
+        "Identifiable control scenarios run alongside every non-identifiable scenario (the estimator must not be trivially inert).",
+        "Wrong-prior reruns (Phase 0 step 5) to expose silent prior-tracking — the specific failure mode FM-18 names as invisible in near-truth-initialized simulations (C24).",
+        "Analysis configuration and pass criteria frozen and pre-registered before data/runs in both phases.",
+        "Reference-chain swap (certificated vs uncertificated) as a positive control that the method detects reference quality.",
+        "Excursion-profile variation as a structural control against single-point luck.",
+        "Mutual Hall/coil consistency used as consistency ONLY; every absolute statement routes through the referenced chain (C23/C07 discipline; EV32)."
+      ],
+      "success_gate": "Phase 0: the estimator passes FT-02 verbatim — frozen states plus inflated covariance on all Theorem-1 scenarios, normal convergence on identifiable controls, and wrong-prior runs visibly flagged. Phase 1: recovered gain lands inside the Fisher-predicted interval with the trusted chain, degrades as predicted with the untrusted chain, and offset recovery is refused throughout — a clean first bench test of the reverse direction (corpus-bounded claim; FT-01 kill search still required before any publication novelty claim, per B15's honesty rule).",
+      "kill_gate": "Phase 0 kill: if after one documented redesign attempt the estimator still converges confidently on non-identifiable scenarios, ALL estimator-based claims stop — Opt2 Element 3's integrity premise, the W2 detection-statistics lane, and every other entry's analysis discipline are unsupported until fixed; per C31 this single desk result gates every dollar after it. Phase 1 kill: if gain recovery fails WITH the trusted chain, the C26 gap (b) reverse-direction claims retire and the architecture collapses to the proven forward direction — itself a clean, publishable negative result (B15 BT-3's own framing).",
+      "dependencies": "Phase 0: none — desk-only, $0, independent of C04, C45, HSX machine time, and all purchases. Phase 1: field coil + programmable current source (bench tier); benefits from BR-B's certificated reference chain but can run without it at reduced, disclosed grade; GaN-die inclusion (optional, non-gating) requires C04 closure; partner-tier variant (magnet-lab drive) is a collaboration ask, not a purchase.",
+      "time": "Phase 0: desk-days-to-weeks EST. Phase 1: 2-4 bench-weeks EST (B25 PB-5).",
+      "cost_range": "$0 (Phase 0) + $1-5K EST incremental at bench tier (Phase 1, B25 PB-5: field coil, fixtures); partner tier adds no purchase cost.",
+      "safety": "Phase 0: none (desk). Phase 1: low-voltage bench practice; if hosted on BR-B's converter-driven bed, BR-B's full safety regime applies (interlocks, capacitor-discharge verification, staged escalation, supervision per S3); partner tier inherits the host lab's stored-energy safety regime — the founder does not run magnet hardware. Research planning, not a safety approval.",
+      "phd_value": "Executes B15's #1-ranked (BT-1) and #3-ranked (BT-3) tests in one ladder; FT-02 is the corpus's own highest-priority, lowest-cost gate for the whole Opt2 program (C31/C48); Phase 1 is, per the corpus, the first bench test of the reverse direction (EV32/M2 — corpus-bounded) and directly tests C23's predictions; converts S5 from literature_backed_near_transfer to current_demonstrated; fully independent of HSX scheduling; either Phase 1 outcome is publishable (positive first-test or clean negative); feeds P2's content (identifiability theory + honesty-tested estimator + bench validation, per OPT2.md deliverables).",
+      "startup_value": "De-risks the W2 detection/estimator lane: P3R2-D-01 and ST01-C11's shared false-trigger methodology is exactly this honesty discipline; F-02's reverse sliver and F-06's magnet leg (trusted excursion capture) get their method evidence; ST01-C10's test-stand lane gains a demonstrated qualification competence; keeps the OPT3 fallback (C47) and the CN-01-class far-domain reconstruction market live as options. A Phase 0 kill is equally decisive commercially: it retires every W2 estimator claim before any customer conversation.",
+      "dual_use_rationale": "One methodology — identifiability-aware estimation with pre-registered honesty tests — is simultaneously Opt2 Element 3's integrity gate (PhD) and the qualification-statistics core of W2 detection products (startup). It is option-preserving: it serves the current thesis, the OPT3 fallback direction, multiple startup rows (D-01, ST01-C11, F-02, F-06), and transfers to far domains per the CN-01 record, while committing zero dollars until its own desk gate passes.",
+      "stop_continue_gate": "G-BR-A-0 (after Phase 0): PASS → proceed to Phase 1, unblock estimator-based claims elsewhere (BR-C, BR-G), and continue. FAIL → one documented redesign attempt allowed; second FAIL → durable stop on all estimator claims and descope to the anchor-only architecture (the corpus's own good-outcome descope pattern, C25) — startup-preparation consequence: the W2 detection lane's founder-side premise stops. G-BR-A-1 (after Phase 1): PASS → carry the credential to W2 and to the publication route (subject to disclosure gates C34 and the FT-01 kill search); FAIL with trusted chain → stop all reverse-direction claims, keep the forward direction, write up the negative result."
+    },
+    {
+      "id": "BR-B",
+      "rank": 2,
+      "name": "Traceable DC current-channel benchmark under WBG switching EMI, closed with an uncertainty-budgeted acceptance dossier",
+      "lineage": ["B15 BT-6", "B25 PB-1", "B25 PB-2", "B15 BT-8 (pilot-era deferred desk-obligation pointer — now owned and discharged by BR-F)"],
+      "rank_rationale": "The highest commercial-evidence item on the unified ladder — it merges B25's own ranks 1 and 2 (PB-1, PB-2) and B15's BT-6, producing the decisive datum for the competing-channel question (C43/M6/G5-gap) AND the W1 wedge's producibility test in one campaign. It ranks 2 rather than 1 because it costs $11-35K EST combined, requires the missing skill S3 to reach supervised competence first, needs reference-chain access (borrow/rent/buy), and carries the ladder's highest safety burden — every one of which BR-A Phase 0 avoids. Reusability is the counterweight: its bed, reference chain, and GUM template are reused by BR-A Phase 1, BR-E, BR-G, and the WP-C field-measurand version (BR-D acceleration).",
+      "hypothesis": "(a) A traceable reference chain (certificated zero-flux/fluxgate transducer + wideband coaxial shunt) whose combined uncertainty demonstrably closes below the inter-technology differences can decide whether Hall-class DC-capable channels meet, miss, or tie the TMR class against P0050-derived requirement classes inside an operating WBG switching cell — the head-to-head the corpus shows nobody has published (M6/G5; decisive for C43); and (b) the founder can personally produce a signed, uncertainty-budgeted acceptance dossier on purchased instruments at a quality a third party could re-execute — the W1 wedge's commercial premise (EV01 shows the skill is scarce; EV35/G3/M3).",
+      "protocol": [
+        "Step 1 (pre-flight): commission one WBG half-bridge evaluation cell (SiC or GaN) at 48-100 V bus under supervision (S3 path); interlock checklist, capacitor-discharge verification, staged escalation only with qualified supervision; 400 V-class explicitly deferred.",
+        "Step 2: assemble the reference chain — zero-flux/fluxgate transducer of merchant calibration grade with calibration certificate (borrowed/rented preferred; the S-B25-02 vendor class exists) plus wideband coaxial shunt for edge fidelity (P0048/P0056 class); construct the reference chain's OWN GUM budget per the EV01/P0008 template — a direct small-scale exercise of WP-C methodology (C06) on a current measurand, not gated by C04.",
+        "Step 3: pre-register pass/fail thresholds against P0050-derived requirement classes and freeze all analysis scripts BEFORE data taking (FT-02-style discipline imported from BR-A Phase 0).",
+        "Step 4: static DC sweeps over rated range vs the zero-flux reference — gain/offset with uncertainty budget, for commercial Hall head(s) and commercial TMR head (EV28's incumbent class).",
+        "Step 5: small-signal frequency response via injected ripple at fixed DC bias.",
+        "Step 6: double-pulse edge capture vs the coaxial shunt (amplitude/settling/delay).",
+        "Step 7: EMI susceptibility — error vs switching state at MEASURED (not assumed) dV/dt and dI/dt, fixed distances/orientations; repeated at zero sensed current (pure pickup); position/orientation swaps.",
+        "Step 8: temperature drift over a stated chamber-limited range plus an 8-24 h soak at constant conditions; switching-disabled DC-only runs at matched dissipation to separate thermal from EMI effects.",
+        "Step 9 (dossier phase, PB-2): full GUM budget of the complete purchased chain with every component named; repeat-measurement campaign (>=3 full re-setups) testing the budget's reproducibility term; deliberately perturbed setup (cable swap, position shift) to test whether the budget catches its own stated sensitivities; second-analyst pass or interval re-derivation on the raw data; written acceptance dossier in the G-03 artifact format (protocol, results, budget, pass/fail against a pre-stated spec class).",
+        "Device honesty note: the PhD's GaN die with the C13 readout chain is OPTIONAL and non-gating, included only if C04 has closed; the experiment is decision-grade with commercial sensors alone (B25 PB-1 design carried verbatim)."
+      ],
+      "metrics": [
+        "Reference-chain combined uncertainty vs the inter-technology differences being resolved (the decision-grade criterion).",
+        "Per-channel table: DC transfer accuracy (gain/offset with budget), usable small-signal bandwidth, transient fidelity vs shunt, EMI-induced error vs switching state at measured edge rates, temperature/soak drift.",
+        "Dossier phase: repeat-campaign results vs the pre-stated budget at stated coverage; perturbation-detection outcome; dossier completeness/reproducibility assessment (could a third party re-execute)."
+      ],
+      "controls": [
+        "Reference channels shielded and cross-checked in the overlap band; mutual consistency treated as consistency ONLY — absoluteness enters solely through the certificated chain (C23/Theorem-1 discipline).",
+        "Sensor-absent and current-absent runs for noise/pickup floors.",
+        "Position/orientation swaps to separate conductor-geometry sensitivity (EV17 class) from technology-intrinsic error.",
+        "Switching-disabled DC-only runs at matched dissipation (thermal vs EMI separation).",
+        "Pass/fail thresholds pre-registered against P0050's requirement synthesis (EV27) before data taking; analysis scripts frozen first.",
+        "Dossier phase: budget frozen BEFORE the repeat campaign; deliberate setup perturbations; independent second pass on raw data."
+      ],
+      "success_gate": "A defensible, uncertainty-budgeted comparison table in which the combined reference uncertainty is demonstrably smaller than the inter-technology differences resolved, yielding a clear verdict on Hall-class vs TMR-class channels against P0050-derived requirement classes under switching EMI (closing M6/G5 for this evidence base); AND the repeat campaign lands inside the pre-stated budget at the stated coverage with a dossier complete enough for third-party re-execution (the W1 producibility premise held).",
+      "kill_gate": "Methodological kill: the reference chain's achieved uncertainty cannot close below the Hall-vs-TMR differences — the benchmark is not decision-grade; stop, report, fix the chain before any claim. Wedge kill: BOTH channel classes' EMI-induced error under realistic switching exceeds their claimed accuracy class by margins no bolt-on calibration repairs — the calibrated-telemetry slivers of P3R2-C-01/C-13 die as differentiators and F-06's magnetics-adjacent modality option dies with them (B20's stated falsifier); the zero-flux/FOCS incumbent path stands. Dossier kill: repeats fall outside the budget and the discrepancy cannot be attributed within the budget's own terms — the C06-class methodology claim is not credible at even bench scale; no W1 customer conversation until fixed. GaN-die kill (only if included): die performance uncompetitive with commercial Hall confirms any GaN-sensor power story is packaging/environment-based, not performance-based (EV11).",
+      "dependencies": "S3 (missing skill) trained to supervised test-bed competence — a hard pre-flight gate; qualified supervision or power-electronics-lab partnership arranged (part of the design, not optional — S16); reference-transducer access with calibration certificate (borrow/rent/buy; dominant cost item — S10); temperature chamber or controlled enclosure for drift runs; BR-A Phase 0's frozen-analysis discipline (soft dependency — imported, and independently required by the corpus's own rule); explicitly NOT gated by C04, C45, or HSX machine time.",
+      "time": "3-6 bench-weeks EST (benchmark, B25 PB-1) + 2-3 bench-weeks EST (dossier phase, B25 PB-2), plus analysis; calendar placement on PREP_PLAN days 91-365.",
+      "cost_range": "$8-25K EST (PB-1 breakdown: WBG cell/gate drive ~$1-3K, commercial Hall/TMR heads hundreds, coaxial shunt ~$1-2K, zero-flux reference the dominant item at $5-15K purchase EST or much less borrowed/rented, fixtures ~$1-2K) + $3-10K EST incremental for the dossier phase (PB-2). All EST, carried from B25's records.",
+      "safety": "Bench power-electronics practice per B25 PB-1: interlocked/enclosed DUT, capacitor-discharge verification before touching, rated differential/isolated probes, no live probing at elevated bus, staged voltage escalation, thermal monitoring. Honest note carried verbatim: safe practice at elevated DC bus is a competence NOT evidenced in B10's ledger — supervision or partnership with a power-electronics lab is part of the design. The 48-100 V start and deferred 400 V-class are deliberate safety boundaries. Research planning, not a safety approval.",
+      "phd_value": "Closes B15 gaps M6/G5 (a head-to-head the corpus's own review layer calls for and nobody has published); informs C43 (TMR as the sharpest single-channel challenger to the PhD's value proposition); exercises WP-C-class uncertainty budgeting (C06) on a bench current measurand independent of C04; produces a worked GUM template directly transferable to the WP-C field-measurand version (S2/BR-D acceleration); plausible instrumentation-comparison publication regardless of any venture; converts S1's extension target, S10, and part of S2's target into evidence.",
+      "startup_value": "W1's product motion rehearsed end-to-end: G-03 (the dossier IS its product), F-06 (modality question answered in both directions — B20's named falsifier), C-05 (method-authority class shown to generalize), D-09 (traceability rehearsal); W2's measurement chain: ST01-C10 and ST03-ID_08/ID_12 (whether magnetics-adjacent channels belong in the precision chain at all); the C-01/C-13 calibrated-telemetry slivers' explicit upgrade-or-die condition; feeds B40 the decisive datum B15's BT-6 anticipated. Kill outcomes are equally decision-grade for B40.",
+      "dual_use_rationale": "The same traceable GUM discipline is Opt2 Element 1's credential (PhD) and W1's sellable artifact class (startup); the same benchmark dataset serves an instrumentation publication and wedge collateral; the bed, reference chain, and frozen-analysis templates are reused by BR-A Phase 1, BR-E, and BR-G. Option-preserving: it advances the PhD's calibration program sideways (not gated by C04), keeps both wedges testable, and its wedge-kill outcome cleanly retires two idea families before any capital is committed to them.",
+      "stop_continue_gate": "G-BR-B-pre (pre-flight): supervised-competence sign-off (S3) AND certificated reference access in hand → start; either missing → do NOT start (no unsupervised elevated-bus work; no uncertificated 'benchmark'). G-BR-B-mid (methodological): reference uncertainty fails to close below inter-technology differences → pause, fix the chain, publish nothing. G-BR-B-exit: benchmark + dossier both pass → continue W1 preparation (and carry the modality verdict to B40); dossier fails → stop all W1 customer-facing steps until the methodology is credible at bench scale; wedge kill fires → retire the calibrated-telemetry slivers and the F-06 magnetics-adjacent option, report the negative result to B40 — informative either way."
+    },
+    {
+      "id": "BR-C",
+      "rank": 3,
+      "name": "Real-data replay validation of a Hall+coil fusion estimator on archived machine records",
+      "lineage": ["B15 BT-2", "closes B15 G2/M4", "feeds B10-cited FT-08/FT-09 (machine-piggyback planning)"],
+      "rank_rationale": "B15's own #2-ranked test, carried into the unified ladder at rank 3. Information gain is high: it converts the architecture's core quantitative claim (P0003's synthetic ~30x SNR and drift-resolution results) from idealized simulation to real archived data — or breaks it early, which is equally decisive for P2 and the W2 estimator lane. Cost is $0 (desk; no machine time, no hardware) and safety nil; publication value moderate-to-high (the corpus shows no real-data replay exists, M4). It sits below BR-B because it depends on BR-A Phase 0 passing (an untrusted estimator's replay proves nothing) and on archive assembly, and because it produces methodology evidence rather than BR-B's commercial-evidence datum. Reusability is strong: the replay harness is the T0 skeleton itself (S5) and the honesty flags carry to BR-G.",
+      "hypothesis": "A P0003-class Kalman Hall+coil fusion estimator, honesty-gated by BR-A Phase 0, retains a measurable benefit (drift suppression relative to a coil-only integration baseline, with honest covariance) when run on REAL archived machine records rather than white-Gaussian synthetic data — closing the idealized-simulation vs real-installation regime gap the corpus documents (G2: P0003's 'completely resolved' drift and ~30x SNR vs P0001's ~19% pulse loss and suboptimal coils; M4: no real-data replay exists in the corpus).",
+      "protocol": [
+        "Step 1 (desk): assemble the archived record set — the HSX campaign-#1 raw archive is documented and in hand (C01: shot-resolved scope transients, main-coil-current logs, stored-energy files); P0001-class published long-pulse records are a secondary source only where actually accessible; document the provenance and limitations of every record used (the C01 archive is voltage-domain and uncalibrated — C06/C15 — which the replay design must state, not hide).",
+        "Step 2: build the replay harness on the BR-A Phase 0 T0 skeleton (same module boundary, C10; no scope growth); the estimator configuration used is the one that passed FT-02, unchanged.",
+        "Step 3: pre-register the evaluation metrics and freeze the analysis configuration before any replay run (FT-02 discipline): drift error vs a coil-only integration baseline over the record duration; fused-residual statistics; frequency and handling of estimator-flagged non-identifiable epochs.",
+        "Step 4: construct a synthetic twin for each replayed record (same excitation profile, idealized noise) so the synthetic-to-real degradation is isolated and quantified rather than anecdotal.",
+        "Step 5: run replays on identifiable configurations only (per C23's case structure — e.g. machine-current-anchored epochs); the estimator must flag, not silently absorb, any epoch that is structurally non-identifiable.",
+        "Step 6: hold out a subset of records until the analysis is frozen; unblind last.",
+        "Step 7: compare achieved benefit against P0003's synthetic claims and write the divergence analysis (the point of the test is the gap, not a pass/fail on the literature's numbers)."
+      ],
+      "metrics": [
+        "Drift error of the fused estimate vs the coil-only baseline over each record (with reported covariance honesty checked against the BR-A flags).",
+        "Synthetic-twin vs real-record degradation ratio per record class.",
+        "Fraction of record time flagged non-identifiable, and estimator behavior there (freeze/inflate vs silent convergence).",
+        "Held-out-set performance vs development-set performance (overfitting check)."
+      ],
+      "controls": [
+        "Coil-only integration baseline run on every record (the fusion must beat something real, not a strawman).",
+        "Synthetic twins per record (regime-gap isolation).",
+        "Frozen, pre-registered analysis with a held-out record subset.",
+        "BR-A honesty flags active throughout — any confident estimate inside a Theorem-1 non-identifiable epoch is itself a fail (FM-18/C24 discipline).",
+        "Record-provenance table distinguishing calibrated from uncalibrated channels (C01's archive is uncalibrated; no tesla-denominated claim is made from it, per the C04/C06 rule)."
+      ],
+      "success_gate": "On real archived records, the honesty-gated fusion measurably outperforms the coil-only baseline with honest covariance, the synthetic-to-real degradation is quantified, and non-identifiable epochs are visibly flagged — converting the architecture's core quantitative claim from synthetic to real evidence (closes G2/M4 for this evidence base) and giving P2's estimator content a real-data leg.",
+      "kill_gate": "If the fusion cannot beat the coil-only baseline on real records, or its apparent benefit appears only in configurations Theorem-1 marks non-identifiable (i.e. the benefit is prior-driven — the FM-18 signature), the architecture's quantitative value claim is unsupported on real evidence: P2's fusion-benefit claims descope to identifiability theory plus bench results, and the W2 estimator lane loses its real-data support. This is a clean, reportable negative (B15's framing).",
+      "dependencies": "Hard: BR-A Phase 0 pass (an estimator that fails FT-02 proves nothing by replaying data). Data: HSX campaign-#1 archive access (documented in-corpus, C01 — data files, not the physical module; C45 is NOT a dependency); P0001-class external records only if actually accessible, never assumed. No hardware, no machine time, no purchases. Disclosure: any public artifact passes C34 gates; novelty claims need FT-01 first.",
+      "time": "Desk-weeks EST (harness + replays + analysis); no record-stated figure — labeled EST on that basis.",
+      "cost_range": "$0 (desk-only).",
+      "safety": "None (desk work on archived data).",
+      "phd_value": "Closes G2/M4 for this evidence base; gives P2 a real-data leg the corpus shows no one has published (M4); directly informs the design of the machine-piggyback tests FT-08/FT-09 before any machine-time request (C32's piggyback-only rule); exercises S5 on real records; independent of C04, C45, and campaign scheduling.",
+      "startup_value": "The W2 detection/estimator lane's realism evidence: replay-on-real-records is exactly the validation class quench-detection qualification needs (D-01/ST01-C11 methodology); demonstrates the reusable harness the OPT3 fallback and CN-01-class reconstruction work would rest on. A kill outcome retires W2 estimator claims before customer conversations, at zero cost.",
+      "dual_use_rationale": "One replay harness = P2's real-data validation (PhD) + the false-trigger/qualification statistics rehearsal (W2 startup) + the OPT3/CN-01 fallback skillbase — all on the same T0 skeleton, at $0, option-preserving by construction.",
+      "stop_continue_gate": "G-BR-C: PASS → carry real-data evidence into P2 and W2 collateral; plan FT-08/FT-09 piggyback items on campaign #2 with evidence in hand. FAIL → descope P2's fusion-benefit claims to theory + bench; W2 estimator-lane preparation stops pending a documented redesign; the forward-direction and anchor-only content are unaffected (C25's good-outcome descope pattern)."
+    },
+    {
+      "id": "BR-D",
+      "rank": 4,
+      "name": "WP-C traceable absolute calibration of the real GaN die (Helmholtz bench, GUM/Monte-Carlo budget, Allan drift) — the G5 credential, with the FT-04 offset-anchor test folded in",
+      "lineage": ["B15 BT-4", "B10 WP-C plan (C06)", "B10-cited FT-04 (C31)", "B10-cited C32 integration (FT-04/FT-05 ride the WP-C bench block)", "closes B15 G3/M3"],
+      "rank_rationale": "The highest PhD value on the entire ladder — it IS half of the G5 gate condition ('real-die absolute calibration achieved', C38) and the credential every B25 wedge bets on (POWER_SKILLS §5). Information gain high (G3/M3: tesla-scale + traceable budget + harsh-candidate sensor never co-occur in the corpus), cost low (bench build, zero cleanroom, ~19-29 bench-days record EST), safety low, publication value high (P1's revision explicitly needs bench calibration per C22). It ranks 4 rather than higher for one reason only: dependency — it is hard-gated by C04 (the project's own rule: no calibration work before the anomaly closes) and by C45 (the module must be found). Rank reflects schedulability; its calendar position is 'immediately upon C04 closure', ahead of everything except in-flight desk work.",
+      "hypothesis": "Element-1 hypothesis carried verbatim from the corpus (OPT2.md): the real (non-emulator) GaN Hall die can be calibrated to a stable coefficient with u(k)/k <= 2% coil-constant uncertainty, m +/- ~2% absolute gain, <0.5% linearity, under a full GUM/Monte-Carlo budget with Allan-variance drift characterization, once the ~109x anomaly (C04) is understood and closed; and (FT-04) zero-field/flip epochs recover Hall offset at the architecture's booked accuracy — the offset half that Theorem 1 proves no AC injection can ever supply (C23).",
+      "protocol": [
+        "Step 0 (preconditions, not part of the bench block): C04 root-cause closed and documented (S1); deployed 2025 module located with custody and health established (C45 gate I-4) — both are day-0-30 PREP_PLAN items.",
+        "Step 1: build the bench field source per the corpus plan (C06/04_HSX_EXPERIMENT_PLAN C-01 item): Helmholtz-class coil with coil constant triangulated by independent methods to u(k)/k <= 2%.",
+        "Step 2: bipolar DC calibration of the real die through the C13 readout chain (C-02 item): gain and linearity against the field source over the stated range.",
+        "Step 3: construct the full GUM/Monte-Carlo uncertainty budget (the corpus's own symbolic budget predicts the coil constant dominates ~92% of variance — verify or correct that prediction with the real data).",
+        "Step 4: Allan-variance drift characterization at fixed conditions (drift knee and floor).",
+        "Step 5 (FT-04, folded in per C32's ~3-6 marginal bench-days): zero-field (shielded) and flip-orientation offset-anchor epochs; pre-registered repeatability criterion; the offset-anchor validity verdict is its own gate.",
+        "Step 6: assemble the Tier-1 calibration report (submittable package per C06's definition), including the voltage-bias S_v conversion (C-03 item) that lets the archived 2025 Fig.-5 data be re-plotted in field units (the C22 reviewer ask) — possible only if step 0's module recovery succeeded.",
+        "Step 7: freeze the budget before any confirmation reruns; document every departure."
+      ],
+      "metrics": [
+        "Coil-constant relative uncertainty u(k)/k vs the <=2% target.",
+        "Absolute gain uncertainty and linearity vs the ~2% / <0.5% targets.",
+        "Offset-anchor repeatability vs the pre-registered FT-04 criterion.",
+        "Allan-variance drift knee/floor; budget-dominance ordering vs the corpus's ~92% coil-constant prediction.",
+        "Tier-1 report completeness (could a third party re-derive every number)."
+      ],
+      "controls": [
+        "Coil constant triangulated by >=2 independent methods (C06's own design), never taken from a single measurement.",
+        "Budget frozen before validation reruns (FT-02-style discipline imported from BR-A).",
+        "A commercial Hall reference run alongside at disclosed grade as a sanity witness (not part of the traceability chain).",
+        "FT-04 pass criteria pre-registered before the offset epochs are run.",
+        "Zero-field epochs physically verified (shielding checked), not assumed."
+      ],
+      "success_gate": "A submittable Tier-1 calibration package: real-die absolute calibration at (or honestly bounding) the stated targets, full GUM/Monte-Carlo budget, Allan drift record, and FT-04 offset-anchor repeatability — satisfying the calibration half of G5 (C38), supplying P1's revision evidence (C22's bench-calibration ask and Fig.-5 field units), and occupying the under-published G3/M3 niche (corpus-bounded claim; FT-01 kill search before any publication novelty claim).",
+      "kill_gate": "C04 kill (upstream): if the anomaly traces to a die/packaging design-level fault that resists closure, the 'finished calibrated instrument' premise fails — P1 is rescoped around non-calibration content (the corpus's own fallback) and the B20 D-02 falsifier fires (S1's readout-competence claim downgrades; OPT3 logic enters the G5 conversation early). Drift kill: if drift/temperature instability exceeds any honest budget, the calibrated-instrument claim fails at the same gate. FT-04 kill: if zero-field/flip offset reads do not repeat at the predicted accuracy, 'the offset half of the calibration story is unsupported' with NO fallback (C31) — since AC injection can structurally never supply offset (Theorem 1, C23); every downstream budget assuming offset recovery is struck.",
+      "dependencies": "Hard: C04 closure (the project's own documented rule — no calibration work before it); C45/I-4 module location and health for the real-die leg and the Fig.-5 conversion. Soft: BR-A Phase 0 pass for any estimator-based analysis layer (the raw calibration itself does not need the estimator); BR-B's GUM template accelerates but does not gate. Bench-only; zero cleanroom (C06); no machine time.",
+      "time": "~19-29 bench-days record EST to a submittable Tier-1 package (C06, stage-70-corrected sum), plus ~3-6 marginal bench-days for the folded-in FT-04/FT-05 items (C32); calendar start gated by C04/C45 — start date honestly not estimable until C04 closes.",
+      "cost_range": "Not estimable in dollars from the record: C06 sizes the work in bench-days and states zero cleanroom steps but gives no dollar figure for the field-source build; treated as bench-scale materials, disclosed as unsized rather than invented.",
+      "safety": "Low-voltage bench practice; no new hazard class beyond S1's existing bench discipline. Research planning, not a safety approval.",
+      "phd_value": "The single highest-leverage PhD item in this plan: half of G5's own gate condition (C38); P1's revision evidence (C22: bench calibration at minimum, Fig. 5 in field units); converts S2 — the load-bearing conversion of the whole shared stack — from literature_backed_near_transfer to current_demonstrated; fills the corpus's G3/M3 under-published niche; the C-03 conversion retroactively upgrades the 2025 campaign dataset (C01).",
+      "startup_value": "The credential every wedge bets on (B25 POWER_SKILLS §5: close C04 → execute WP-C → pass FT-02 → exercise on current measurands): W1's method authority (G-03/C-05/D-09/F-06) and W2's chain qualification all cite this exact capability; P3R2-D-02's decisive calibrated-Ic leg is this methodology applied at 77 K. No customer-facing claim exists without it — which is why its kill gates are also startup-preparation stop gates.",
+      "dual_use_rationale": "One Tier-1 calibration package is simultaneously the PhD's G5 credential and publication evidence, and the demonstrable-methodology artifact the W1/W2 wedges sell. Option-preserving in both directions: if G5 fails anyway, the uncertainty-budget discipline transfers to the OPT3 fallback and the far-domain method market (CN-01 record); if the venture path dies, it remains the thesis's core credential.",
+      "stop_continue_gate": "G-BR-D-pre (= PREP_PLAN G-30/G-90 C04 review): C04 closed → start WP-C; credible-path → keep root-causing, WP-C waits; no-path → the B20 falsifier consequence fires and OPT3 logic enters early; startup-preparation consequence: W1/W2 credential-dependent preparation pauses (BR-B may still run — it is deliberately not C04-gated). G-BR-D-exit: Tier-1 package + FT-04 pass → G5 calibration condition met; carry to P1 revision and wedge collateral. FT-04 fail → strike all offset-recovery assumptions program-wide (no fallback, C31); calibration claims reduce to gain/linearity only, disclosed as such."
+    },
+    {
+      "id": "BR-E",
+      "rank": 5,
+      "name": "Fluxgate excitation-band aliasing under switching EMI: locked vs free-running demodulation (instrument-only test of the ST03-ID_08 mechanism)",
+      "lineage": ["B25 PB-4"],
+      "rank_rationale": "B25's own #3, carried at unified rank 5 (below the two $0 desk gates it now follows). Information gain: decides whether the startup corpus's claimed inventive mechanism (excitation-band aliasing as a drifting false DC) is real physics or negligible — either verdict is decisive for the W2 measurement-chain thesis and publishable (the EV27/EV28 gap family). Cost is low ($1-4K EST incremental) and time short (2-4 bench-weeks EST), but it depends on BR-B's commissioned bed and BR-B's safety regime, so it cannot lead the ladder. Reusability moderate (alias map informs every zero-flux deployment in BR-B/BR-D-class chains). Commercial evidence direct (ID_08's non-obviousness or its kill).",
+      "hypothesis": "Unsynchronized WBG switching-edge fields alias into a fluxgate-principle transducer's second-harmonic detection band as a drifting false-DC error of practically relevant magnitude, and phase-locking the excitation to the PWM clock reduces that error by a stated factor (the record's own gate: >20 dB) — the mechanism ST03-ID_08's record asserts, charts no prior art teaching, and has never demonstrated (B25 PB-4 thesis, carried; a pure measurement-physics question requiring no converter product).",
+      "protocol": [
+        "Step 1: build a fluxgate-principle head with ACCESSIBLE excitation — hand-wound nanocrystalline toroid with its own excitation/demodulation AFE (the record's own ~$800 BOM line; built as an instrument, not a converter) — and mount it on BR-B's switching cell.",
+        "Step 2: measure the in-band residue spectrum near the excitation second harmonic vs switching state.",
+        "Step 3: measure DC-output error with free-running excitation vs excitation phase-locked to the PWM clock.",
+        "Step 4: map the alias structure by deliberate excitation/PWM frequency-ratio detuning.",
+        "Step 5: zero-current runs (pure pickup) at both settings.",
+        "Step 6: vary edge rates via gate-resistor swaps to test the claimed edge-rate dependence.",
+        "Step 7: run a commercial sealed head alongside as the it-cannot-be-fixed-in-package baseline."
+      ],
+      "metrics": [
+        "In-band residue magnitude vs switching state and detuning ratio (the alias map).",
+        "DC-output error, free-running vs locked, at measured edge rates (dB reduction vs the record's >20 dB gate).",
+        "Zero-current pickup floor at both settings.",
+        "Commercial-head baseline error under identical conditions."
+      ],
+      "controls": [
+        "Same cell, same position, lock on/off as the ONLY variable.",
+        "Sham-lock control (locked to an unrelated clock) to separate locking per se from the specific phase relation.",
+        "Edge-rate variation via gate-resistor swaps.",
+        "Commercial sealed head as package-limit baseline.",
+        "Pre-registered thresholds and frozen analysis (BR-A discipline)."
+      ],
+      "success_gate": "A quantified alias map: reproducible in-band residue converting to a DC error of stated magnitude at realistic edge rates, reduced by the stated factor under lock — the mechanism demonstrated as an instrument-physics result (ID_08's non-obviousness evidence, and a publishable instrumentation-noise mechanism study in the EV27/EV28 gap family).",
+      "kill_gate": "Free-running residue at realistic edge rates is negligible or trivially filterable — ID_08's core mechanism (and part of ID_12's premise) loses value; BR-B's DC channels are cleaner than feared; report the negative result (publishable either way, and it simplifies the W2 chain story).",
+      "dependencies": "BR-B's commissioned bed and safety regime (hard); S3 supervised competence (inherited); toroid/AFE build (S1-class bench skill, demonstrated); no C04/C45/HSX dependency.",
+      "time": "2-4 bench-weeks EST (B25 PB-4).",
+      "cost_range": "$1-4K EST incremental over BR-B (toroids, AFE PCB, clock hardware — B25 PB-4).",
+      "safety": "As BR-B; no new hazard class (B25 PB-4). Research planning, not a safety approval.",
+      "phd_value": "A novel, publishable instrumentation-noise mechanism study squarely in the EV27/EV28 gap family; exercises exactly the weak-signal-under-EMI discipline (C03 class) the PhD claims; zero dependence on C04 or HSX; strengthens the P1-adjacent instrumentation publication lane.",
+      "startup_value": "ST03-ID_08 (its non-obviousness evidence or its kill); ST03-ID_12 (whether in-operation chains need divergence protection against this mechanism); ST01-C10 (whether the measurement-chain moat is real physics or packaging); F-06 (modality robustness under converter EMI). Feeds B40 either way.",
+      "dual_use_rationale": "One instrument-physics dataset serves a PhD-lane publication and the W2 chain thesis simultaneously; the accessible-excitation head is a reusable lab asset for every later zero-flux chain question; option-preserving because it extracts the startup record's measurement-physics core without building any converter product (B25 §8's deliberate separation).",
+      "stop_continue_gate": "G-BR-E: mechanism confirmed → carry to W2 collateral and publication (C34 gates; FT-01 before novelty claims); mechanism negligible → record the negative, simplify the W2 chain story, and strike the ID_08-derived differentiation from any future collateral — startup-preparation continues on the remaining evidence, honestly re-based."
+    },
+    {
+      "id": "BR-G",
+      "rank": 6,
+      "name": "Pre-registered DC series-arc / ground-fault discrimination statistics at low-voltage bench scale",
+      "lineage": ["B25 PB-3"],
+      "rank_rationale": "B25's own #4, carried at unified rank 6. Information gain: founder-scale evidence for the one sliver two corpora independently converged on (C-01's condition-monitoring layer; ST01-C06P's entire product) — a detection-statistics claim testable with honesty-test discipline at low voltage. Cost moderate ($2-8K EST), time 3-5 bench-weeks EST, safety real but bounded (arc fixture at <=100 V by design). It sits below BR-E because its startup-facing scope is narrower (one sliver family vs the whole chain thesis), its scale honesty is stricter (48-100 V results do NOT transfer to 800 VDC arc physics or certification), and it depends on both BR-A Phase 0 (frozen-detector discipline) and BR-B's bed (realistic load noise). Publication value moderate (methodology class shared with quench-detection false-trigger statistics, EV06/EV23).",
+      "hypothesis": "Series-arc and ground-fault signatures on a 48-100 VDC bench bus with realistic switching-converter load noise can be discriminated from load-transient confounders by a PRE-REGISTERED detector with stated false-alarm and missed-detection rates on held-out events, and leakage steps can be attributed between bus segments better than chance from distributed current measurements (EV16-class inverse reasoning at toy scale) — the founder-scale technical premise of the C-01/ST01-C06P sliver (B25 PB-3, carried).",
+      "protocol": [
+        "Step 1: build the labeled signature library — series-arc events from a controlled opening-contact arc-generator fixture, plus ground-leakage steps via switched resistor paths to a grounded plane, on the 48-100 VDC bench bus with BR-B's cell as the realistic noise source.",
+        "Step 2: record spectral/temporal feature statistics of events vs load-transient confounders (converter start/stop, load steps).",
+        "Step 3: freeze detector features and thresholds BEFORE the held-out event set is unblinded (FT-02/C31 discipline applied to a detection product).",
+        "Step 4: evaluate ROC-style false-alarm vs detection rates on the held-out set.",
+        "Step 5: localization trial — leakage-step attribution between two bus segments from distributed current measurements.",
+        "Step 6: repeat on separate days to expose signature-library drift; log arc-fixture electrode conditioning throughout (arc statistics are condition-dependent).",
+        "Step 7: write the honest transferability statement (what 48-100 V evidence does and does not say about 800 VDC or certification)."
+      ],
+      "metrics": [
+        "Held-out false-alarm and detection rates of the pre-registered detector vs a trivial threshold baseline.",
+        "Localization attribution accuracy between segments vs chance.",
+        "Day-to-day signature drift statistics.",
+        "Confounder-only run false-trigger rate."
+      ],
+      "controls": [
+        "Thresholds/features frozen before unblinding (the estimator-honesty test applied to detection).",
+        "Confounder-only runs.",
+        "Trivial-detector baseline (the pre-registered detector must beat it, or the premise fails).",
+        "Electrode-conditioning log; repeat-day runs.",
+        "Ground-fault injections only on the isolated bench bus."
+      ],
+      "success_gate": "A pre-registered detector achieving stated false-alarm and detection rates on held-out events, beating the trivial baseline, with localization better than chance and an honest transferability statement — founder-scale methodology evidence for the detection-statistics lane (explicitly NOT an 800 V or certification claim).",
+      "kill_gate": "Discrimination statistics cannot beat trivial threshold detectors on held-out data — the protection-intelligence sliver (C-01/ST01-C06P) has no technical premise at founder scale; report the negative to B40; the W2 detection lane's arc/fault leg closes (the quench-statistics leg stands or falls on its own evidence).",
+      "dependencies": "BR-A Phase 0 pass (frozen-detector discipline — hard); BR-B's bed as noise source (hard for realism; a signal-generator-only variant would be disclosed as reduced grade); S3 supervised competence for bus operation; arc-fixture build; no C04/C45/HSX dependency.",
+      "time": "3-5 bench-weeks EST (B25 PB-3).",
+      "cost_range": "$2-8K EST (B25 PB-3: arc fixture, contactors, resistor networks, DAQ reuse).",
+      "safety": "DC arcs are an ignition and eye hazard even at low voltage: enclosed arc fixture, fume handling, eye protection, current limiting, no flammables, interlocked supply; ground-fault injections only on the isolated bench bus; staying at <=100 V is a deliberate safety boundary of the design (B25 PB-3, carried). Research planning, not a safety approval.",
+      "phd_value": "A real detection-statistics dataset under converter EMI for the estimator-honesty methodology (C23/C31 practice, BT-1-adjacent); weak-signal discrimination is the same problem class as quench-detection false-trigger statistics (EV06/EV23) — one methodology, two applications; converts S11 to current_demonstrated.",
+      "startup_value": "ST01-C06P (its founder-scale technical premise); C-01 (the sliver's upgrade-condition evidence — B20's named falsifier direction); D-01/ST01-C11 (the shared false-trigger methodology); F-12/A-02 family context. Feeds B40 the sliver's live-or-dead verdict.",
+      "dual_use_rationale": "The same pre-registered detection-statistics discipline is Opt2 Element 3's methodology exercised on a second signal class (PhD) and the qualification core of every W2 detection product (startup); the signature library and honesty-test template are reusable; option-preserving because it buys the statistics methodology and a bench-truth dataset without any protection-product build (B25's explicit scale honesty carried).",
+      "stop_continue_gate": "G-BR-G: PASS → detection-statistics credential exists at founder scale; carry to W2 preparation and (via C34/FT-01 gates) to a methods write-up. FAIL → the C-01/ST01-C06P sliver preparation stops permanently at founder scale (venture-scale re-tests are a company decision, not this plan's); estimator-lane work continues only where BR-A/BR-C support it."
+    },
+    {
+      "id": "BR-F",
+      "rank": 7,
+      "name": "Desk audits: BT-8 primary tracing of the review-layer WBG headline figures + certification-scope mapping for the product rows",
+      "lineage": ["B25 PB-6", "B15 BT-8"],
+      "rank_rationale": "Carried from B25's own #6 placement (below PB-3/PB-4 despite $0 cost — its leverage is hygiene, not decision value; B15 likewise ranked BT-8 last of eight as 'required hygiene'). Against the criteria: information gain low-to-moderate (traced-or-struck verdicts on reused figures; scope-verified certification cells), reusability high (all downstream planning), time 1-3 desk-days, cost $0, safety nil, publication value low, commercial evidence indirect (keeps W1/W2 collateral honest), dependency none. Because it is free and discharges an inherited, explicitly-undischarged obligation (no EV07/EV08 headline figure may be reused until it closes), it is scheduled in PREP_PLAN days 0-30 even though it ranks 7 — rank orders decision value, the calendar orders spend.",
+      "hypothesis": "Not a physical hypothesis: two inherited desk obligations are discharged. (1) BT-8: the review-layer WBG headline figures (~99% efficiency, ~100x frequency, 200-300C SiC — EV07/EV08) either trace to at least one verified primary study each or are struck from all downstream use. (2) PB-6's certification-scope mapping: each product row's certification surface (IEC 62477-1 class, NRTL UL 61010 class, the record-level unverified ECCN 3A226 flag, marine class, space qualification) is mapped to which regime binds which row, with official scope documents opened where accessible.",
+      "protocol": [
+        "Step 1 (BT-8): retrieve primary sources for each EV07/EV08 headline figure; record match/mismatch per figure; strike any figure that fails tracing from all downstream documents.",
+        "Step 2 (certification mapping): open official scope pages for the named standards where accessible; the IEC full text is paywalled — scope-level honesty is maintained (no paraphrase presented as text); record access failures honestly (the NERC official-PDF 403 pattern from B25 is the template).",
+        "Step 3: write the row-by-row certification-scope table for the product-row families (C-01, ST01-C10, F-12, E-10/D-16 class), each cell either scope-verified or explicitly flagged unverified.",
+        "Step 4: file the ECCN 3A226 snippet-level flag as unresolved unless the CCL text was actually opened (no export-control determination is made — SOURCE_POLICY).",
+        "Step 5: deliver the audit memo to the S4 decision-memo file and to any B40 use of certification claims."
+      ],
+      "metrics": [
+        "Per-figure verdict: traced (with primary identified) / struck.",
+        "Per-row certification cell: scope-verified / flagged-unverified.",
+        "Access-failure log completeness."
+      ],
+      "controls": [
+        "Primary-or-struck rule enforced (no figure survives on review-layer citation alone).",
+        "Paywall/access failures recorded, never paraphrased around.",
+        "No legal, safety, or export determination made — mapping only (SOURCE_POLICY)."
+      ],
+      "success_gate": "Every reused headline figure either traced to a verified primary or struck; every product-row certification cell either scope-verified or explicitly flagged; the audit memo exists and downstream documents cite it.",
+      "kill_gate": "Kill applies to CLAIMS, not the test: any figure that fails tracing is removed from all downstream use (B25 PB-6's own rule); any certification cell that cannot be scope-verified is flagged and may not appear in W1/W2 collateral as established.",
+      "dependencies": "None — desk-only, $0; web access for primary retrieval (failures logged, not worked around).",
+      "time": "1-3 desk-days EST (B25 PB-6).",
+      "cost_range": "$0 (desk).",
+      "safety": "None (desk).",
+      "phd_value": "Citation hygiene for any power-adjacent publication; discharges the inherited BT-8 obligation so BR-B/BR-E write-ups can cite converter-context figures honestly.",
+      "startup_value": "Prevents building W1/W2 collateral on untraced review numbers; keeps certification planning honest; feeds the S4 decision memo the scope facts it needs. (B25 PB-6, carried.)",
+      "dual_use_rationale": "One desk audit protects both the publication lane (citation integrity) and the venture-preparation lane (collateral integrity) at zero cost; option-preserving because it removes a latent honesty liability from every downstream path.",
+      "stop_continue_gate": "G-BR-F: audit complete → downstream reuse of EV07/EV08 figures and certification scopes unblocked (traced items only); audit incomplete → the reuse prohibition stays in force (the current state, carried); there is no fail-and-stop branch — only discharged or not-yet-discharged."
+    },
+    {
+      "id": "BR-H",
+      "rank": 8,
+      "name": "Irradiation piggyback: AlGaN/GaN Hall-plate coupons + material-diverse witness on a collaborator's campaign",
+      "lineage": ["B25 PB-7", "B15 BT-5", "B10-cited FT-11 (C25)", "B10-cited FT-12 (pointer; strictly after FT-11)"],
+      "rank_rationale": "Carried from B25's #7 and B15's #5. Information gain is genuinely high per datum (even a single-fluence-point dataset converts M1/EV09/C29 from Unknown to bounded, and decides whether C09's compensation architecture is needed at all — with 'unnecessary' explicitly named a good outcome), and founder-side cost is low. It ranks 8 because its schedule is entirely outside founder control (a host campaign must materialize), it is collaborator-led by the corpus's own design (C09: never on the HSX critical path, never first-author experimental work), and its dependency profile (host, species match, facility regime) is the ladder's least schedulable. Safety burden founder-side is nil (bench pre/post only). Publication value: coauthored capstone class only (C09/C32).",
+      "hypothesis": "A collaborator's irradiation campaign (space-power qualification or similar — the E-10/D-16 reverse channel) can host packaged AlGaN/GaN Hall-plate coupons plus a material-diverse metallic-Hall witness coupon, producing the first species-matched GaN/AlGaN Hall-plate radiation dataset in either corpus ledger (M1/C29) and directly testing the single-source witness-material dependency (C30) — at low founder-side cost, reusing the demonstrated C46 packaging process.",
+      "protocol": [
+        "Step 1 (option maintenance): scout host campaigns through existing communities (S16); no founder funding, no founder-led campaign; the channel stays a documented option until a host materializes (B25 PB-7's own rule).",
+        "Step 2: package coupon lots from the same wafer/packaging lineage via the C46 process, plus a metallic-Hall witness coupon per C30's single-source reference class.",
+        "Step 3: pre-characterize on the founder's bench (S1/S2 discipline): Hall sensitivity, offset, mobility-proxy parameters, with temperature logging.",
+        "Step 4: host campaign executes exposure at stated, species-matched fluence points (host's regime and dosimetry; the founder does not perform facility work).",
+        "Step 5: post-characterize identically; blind parameter extraction before dose labels are attached.",
+        "Step 6: separate thermal from radiation drift using unirradiated same-lot controls and the temperature logs (the C09 separation; this test must not be conflated with SET/SEB device testing on the same campaign — B25 PB-7's control carried).",
+        "Step 7: report at stated fluence points; FT-12 (mixed-field composition) is a strictly-later pointer, only after FT-11-class results exist."
+      ],
+      "metrics": [
+        "Pre/post (and in-situ where possible) Hall sensitivity, offset, and mobility-proxy shifts at stated fluence points.",
+        "Witness-coupon response vs its single-source literature reference (C30 dependency test).",
+        "Thermal-vs-radiation attribution quality (control-coupon and temperature-log based)."
+      ],
+      "controls": [
+        "Unirradiated control coupons from the same wafer/packaging lot.",
+        "Temperature logging on all coupons (thermal/radiation separation, C09).",
+        "Blind parameter extraction before dose labels attach.",
+        "Species matching to the host spectrum enforced (C29's ~14x cross-species failure forbids substitution)."
+      ],
+      "success_gate": "Any bounded dataset at stated, species-matched fluence points: converts M1/EV09/C29 from Unknown to bounded and decides whether C09's architecture is needed — including the explicitly-good outcome 'radiation compensation unnecessary' (B10's own framing). Witness-coupon replication (or refutation) of the C30 single-source reference is a success either way.",
+      "kill_gate": "None at the idea level — any outcome is informative (B25 PB-7, carried). The channel itself dies only if no host campaign materializes, in which case it remains a documented option, not a plan; it is never promoted to the critical path (C09's rule is itself a standing kill on any such promotion).",
+      "dependencies": "A host campaign materializing (outside founder control — S16 scouting only); coupon supply from the existing wafer/packaging lineage (S6/C46); founder-side bench characterization capacity (S1/S2); explicitly NOT on the PhD critical path (C09) and NOT gated by C04 for the coupon work (pre/post characterization is not absolute calibration).",
+      "time": "Host-schedule-dependent — not estimable; founder-side packaging/characterization effort is bench-days-to-weeks class per lot (no record figure — labeled EST on that basis).",
+      "cost_range": "Founder-side low-$K EST (coupon packaging and characterization, reusing the C46 process — B25 PB-7); campaign costs are the host's.",
+      "safety": "Radiological safety is entirely the host facility's regime; founder-side work is pre/post bench characterization only (B25 PB-7, carried). Research planning, not a safety approval.",
+      "phd_value": "Closes M1 (the single largest direct-evidence gap for the device family, C29); decides whether C09's architecture is needed at all; tests the C30 witness single-source dependency; coupons reuse the demonstrated packaging process (C46); feeds the Phase-4 coauthored capstone (C32) without touching the first-author critical path.",
+      "startup_value": "E-10/D-16 record closure (the one genuine channel B20 found in that family); any future radiation-environment instrument variant of F-06/D-09 inherits the dataset; converts a standing Unknown that currently caps every radiation-adjacent claim in both corpora.",
+      "dual_use_rationale": "One coupon campaign serves the PhD's radiation question (FT-11, C09) and the startup universe's radiation-instrument options simultaneously, at low founder-side cost and zero critical-path risk; option-preserving by construction — it is maintained as an option precisely so that either a PhD or a venture path can exercise it if a host appears.",
+      "stop_continue_gate": "G-BR-H: host materializes AND coupon lots ready → execute as collaborator-led piggyback (C09 rules binding). No host by day 365 → remains a documented option in the S4/B40 handoff; no escalation, no founder funding, no critical-path promotion — the corpus's own rule is the gate."
+    },
+    {
+      "id": "BR-I",
+      "rank": 9,
+      "name": "Instrumented NI-coil quench redistribution experiment at >=2 contact resistivities (independent-group replication) — retained as an unscheduled collaborator option",
+      "lineage": ["B15 BT-7", "closes B15 M5, tests B15 G6"],
+      "rank_rationale": "B15's #7, placed last on the unified ladder. Information gain is real but off-axis: it tests the NI self-protection boundary (G6/M5 — P0007's 70 uOhm-cm2 mechanism vs the harder 27 uOhm-cm2 case, largely one research lineage), which matters greatly for an HTS-monitoring instrumentation thesis but is NOT the current thesis, and B25's accepted full-set analysis gave it no ladder slot (its §8 keeps converter/protection builds off the ladder; B15 itself scored it 'moderate for the PhD'). Cost/safety sit at facility scale (stored-energy magnet quench work — never founder bench work). It is retained: (a) so BT-7 is not orphaned; (b) because the W2/D-01 lane would revalue it sharply upward IF B40 selects an HTS-monitoring direction. Dependency: a partner magnet lab and a B40 decision — both absent today.",
+      "hypothesis": "Direct measurement of turn-current redistribution and terminal-voltage signatures during quench in no-insulation REBCO coils at two or more contact resistivities, by a group independent of the originating research lineage, either confirms the P0007/P0032 redistribution mechanism across the resistivity range or exposes its boundary — resolving M5 (single-lineage corroboration) and sharpening G6 (the conditional 'self-protecting' boundary the corpus documents at >=350 A / 4.2 K, P0043).",
+      "protocol": [
+        "Step 1 (option status): no execution in this plan; this entry activates ONLY if B40 selects an HTS-monitoring-facing direction AND a partner magnet lab agrees to host and lead.",
+        "Step 2 (if activated): partner lab winds/instruments small NI test coils at >=2 documented contact resistivities (the record's 70 vs ~27 uOhm-cm2 contrast as the design axis).",
+        "Step 3: instrument turn-current redistribution (distributed voltage taps/Hall probes per the host's practice) and terminal-voltage signatures during controlled quench events at the host's facility.",
+        "Step 4: compare measured redistribution/signatures against P0007/P0032 predictions; pre-registered analysis (BR-A discipline imported).",
+        "Step 5: founder-side role is bounded to instrumentation/analysis contribution (S1/S5 class) — never magnet operation, never stored-energy work."
+      ],
+      "metrics": [
+        "Turn-current redistribution time-profiles vs prediction at each contact resistivity.",
+        "Terminal-voltage quench signatures vs the P0043-class fault-mode boundary.",
+        "Cross-resistivity scaling vs the mechanism's stated dependence."
+      ],
+      "controls": [
+        "Two or more contact resistivities as the designed contrast (M5's own requirement).",
+        "Independent-group execution (the point of the replication).",
+        "Pre-registered analysis; instrumentation cross-checks per host practice."
+      ],
+      "success_gate": "An independent-group, multi-resistivity redistribution dataset that confirms or bounds the P0007/P0032 mechanism — closing M5 and giving any future HTS-monitoring instrumentation thesis (M7/EV26 territory) a solid mechanism base.",
+      "kill_gate": "For this plan there is no execution to kill — the standing kill is on ACTIVATION: it may not activate without both a B40 HTS-facing decision and a host lab; any drift toward founder-led stored-energy work is refused by construction (B25 §8's boundary and S3/S4's limits).",
+      "dependencies": "B40 selecting an HTS-monitoring-facing direction (absent today); a partner magnet lab willing to lead (S16; S-B20-02 community); founder-side S9 (cryo bench practice) for any hands-on instrumentation role; entirely outside the PhD critical path.",
+      "time": "Not estimable (unscheduled option; host-dependent).",
+      "cost_range": "$0 committed by this plan; if activated, costs are the host program's (founder-side instrumentation contribution low-$K class EST — no record figure).",
+      "safety": "Stored-energy superconducting-magnet quench work is entirely the host facility's regime; the founder's role is bounded to instrumentation/analysis. Research planning, not a safety approval.",
+      "phd_value": "Moderate and indirect for the current thesis (context stream, B15's own scoring); would become directly relevant only under an OPT3-adjacent or HTS-instrumentation re-scoping; the methodology contribution (pre-registered analysis, distributed sensing) exercises S5/S11 classes.",
+      "startup_value": "High ONLY for an HTS-monitoring direction (D-01/M7/EV26 lane): mechanism ground truth for quench-detection product claims. Recorded so B40 can weigh it; worthless to W1 and to most of W2 — stated plainly.",
+      "dual_use_rationale": "Retained, not scheduled: the option costs nothing to keep and preserves a decision B40 has not yet made — the exact option-preserving logic of this stage applied at the ladder's edge. Activating it early would violate the cheapest-decisive-gate ordering and the PhD-critical-path rule, so the gate structure forbids that.",
+      "stop_continue_gate": "G-BR-I (activation gate, not an execution gate): activate ONLY on (B40 HTS-facing selection) AND (host lab secured) AND (PhD critical path unaffected — C09-class rule applied); otherwise it remains a documented option in the B40 handoff. There is no other branch."
+    }
+  ]
+}

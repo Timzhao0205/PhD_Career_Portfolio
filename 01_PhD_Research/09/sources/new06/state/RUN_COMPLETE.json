@@ -1,0 +1,53 @@
+{
+    "status":  "COMPLETE",
+    "completed_at_utc":  "2026-07-28T07:34:04.8424603Z",
+    "route_id":  "F06_INTERACTIVE_NOCAP_PS51_V1",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "audit_verdict":  "PASS",
+    "final_output":  "outputs\\70_audit\\FINAL",
+    "package_defined_budget_stop":  false,
+    "stage_markers":  [
+                          {
+                              "stage":  "10_refresh",
+                              "path":  "state\\stages\\10_refresh.json",
+                              "sha256":  "DA9DC9FFE77E706FD93CD752D67990651F6E73BA4A1C54681AAC7505BDF3AA2B"
+                          },
+                          {
+                              "stage":  "20_p4",
+                              "path":  "state\\stages\\20_p4.json",
+                              "sha256":  "EFE3CB421E71AF1B979974C5D2ECE52B250C3F192BB9112FE53D564BA9FC0FC7"
+                          },
+                          {
+                              "stage":  "30_redteam",
+                              "path":  "state\\stages\\30_redteam.json",
+                              "sha256":  "FDDCAC6C75E24A8FA3F3F7E8CA014963BA1B04D5C4DDC0401A156076BE47DC22"
+                          },
+                          {
+                              "stage":  "40_select",
+                              "path":  "state\\stages\\40_select.json",
+                              "sha256":  "F99331815017A53D64D7A65D7DA68BC88334B6A3B5C57F855E1FD3349B544078"
+                          },
+                          {
+                              "stage":  "45_packs",
+                              "path":  "state\\stages\\45_packs.json",
+                              "sha256":  "37E0EEC8E098339A4CC11AF7A3374CCE7B360A1CCCCA50372ED0E83370A44C64"
+                          },
+                          {
+                              "stage":  "50_deep",
+                              "path":  "state\\stages\\50_deep.json",
+                              "sha256":  "B676ED76B0386E5D5050442A024AC972D40EE5CA79CF4DD41AE5131841DB273C"
+                          },
+                          {
+                              "stage":  "60_synth",
+                              "path":  "state\\stages\\60_synth.json",
+                              "sha256":  "3D0F5DD445A329D2E15D552895DFBDCD339BD664BCE06317618EF9FD502B63B9"
+                          },
+                          {
+                              "stage":  "70_audit",
+                              "path":  "state\\stages\\70_audit.json",
+                              "sha256":  "01DEEEA9835837B5625EF133EA94031C0F6DCC6487162916E44643DD46077DFA"
+                          }
+                      ]
+}

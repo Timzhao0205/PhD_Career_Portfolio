@@ -1,0 +1,32 @@
+{
+    "stage":  "60_synth",
+    "kind":  "PILOT",
+    "status":  "COMPLETE",
+    "validated_at_utc":  "2026-07-28T07:21:03.3110758Z",
+    "session_id":  "2480d1e1-fea1-4bf7-bde5-0be893294604",
+    "model_observed":  "claude-fable-5",
+    "effort_observed":  "xhigh",
+    "effort_requested":  "xhigh",
+    "claude_code_version":  "2.1.220",
+    "total_cost_usd_telemetry":  197.78921325,
+    "total_duration_ms":  12831600,
+    "total_input_tokens":  372004,
+    "total_output_tokens":  1062,
+    "output_files":  [
+                         {
+                             "path":  "pilot\\60_synth\\MATRIX_PROTO.csv",
+                             "bytes":  490,
+                             "sha256":  "6A55A111849E1BC0586F19DE01FF509E3A60C4DEE1AFFB1EA27680C1A25F2C46"
+                         },
+                         {
+                             "path":  "pilot\\60_synth\\PILOT.json",
+                             "bytes":  1511,
+                             "sha256":  "24AA6B670984C9191749C75C7F2343C84AC75B44E4A2EC45B6DF6E9983E52F32"
+                         },
+                         {
+                             "path":  "pilot\\60_synth\\PILOT.md",
+                             "bytes":  2847,
+                             "sha256":  "C96B55136B3AF965332D803162509A0387A8B15342A50AB12E3A5A2DCDAD6BE2"
+                         }
+                     ]
+}

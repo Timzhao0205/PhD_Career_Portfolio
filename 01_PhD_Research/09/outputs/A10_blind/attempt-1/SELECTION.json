@@ -1,0 +1,513 @@
+{
+  "stage": "A10_blind",
+  "mode": "FULL",
+  "attempt": 1,
+  "selection_count": 24,
+  "score_scale": "Integer 1-5 per component. Higher is always better: for regulatory_safety_friction 5 = minimal friction, for failure_modes 5 = diffuse/mitigated failure modes with defined kill gates. Ranks are holistic ordinal judgments informed by component scores; no numeric totals are computed to avoid false precision.",
+  "selection": [
+    {
+      "rank": 1,
+      "idea_id": "P3R2-E-01",
+      "concept": "Solid-state 800VDC rack power-path protection and hot-swap module (microsecond SSCB + series-arc-signature detection + precharge/inrush + insulation monitoring) in OCP form factor for AI datacenter racks and power sidecars.",
+      "decision": "SELECT - strongest pain-to-executability combination in the pool: the largest named budgeted buildout (NVIDIA/OCP 800VDC racks) meets a genuinely unresolved protection layer, with a cheap, university-executable falsification path. Chosen over near-duplicates A-01/B-03/C-01 for focus, lower capital, and cleaner export posture.",
+      "evidence_from_candidate": "Record states 800VDC racks at 600kW-1MW have no mature DC protection (DC faults lack current zero-crossings; series-arc detection research-grade even at LV) citing L02-043/044, L08-017/019/020/021, L02-010; demand trigger is second-generation OCP Mount Diablo / NVIDIA 800VDC fleet deployments plus GE Vernova $2.4B/quarter datacenter orders (L08-033); first experiment is an 800V/50kW SSCB + arcing testbed at $350k; v1 capital $3-8M; TW/JP secondary markets named.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "Named hyperscaler capex wave already flowing; protection and hot-swap serviceability described as gating buying criteria for fleet-scale 800VDC."},
+        "technical_feasibility": {"score": 4, "reason": "1200V SiC devices and the constituent techniques exist; SSCB and arc discrimination are research-grade but demonstrated piecewise (record TRL 4); integration, not new physics."},
+        "defensible_edge": {"score": 4, "reason": "Published 800VDC arc-signature ROC dataset plus selectivity/arc-discrimination patents; record notes no merchant rack-scale SSCB+arc-analytics vendor exists as of 2026."},
+        "founder_phd_adjacency": {"score": 5, "reason": "The record's own 2026-29 plan (university arc-physics testbed, published ROC curves, OCP individual-contributor participation, patents via university) is fully executable in a university lab with no company."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$350k brassboard in 2027 decisively tests clearing time, selectivity, and false-positive rate; v1 capital $3-8M is bottom-quartile for the pool."},
+        "timing_2030_2034": {"score": 5, "reason": "First deployments 2027, fleet-wide second-generation buildouts by 2030 - a 2030 entrant arrives exactly when qualification of a third-party module becomes possible."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead with named TW ODM co-design and JP SiC co-qualification secondaries; concept ports to any allied DC-datacenter market."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Industrial product-safety path (IEC 62477-1-aligned); UL/IEC listing timeline is real but ordinary friction, no dual-use or clinical burden."},
+        "failure_modes": {"score": 3, "reason": "Main modes are hyperscalers accepting fuse+contactor as good enough or incumbents bundling protection into PSU sidecars; record sets an explicit mid-2033 design-win kill gate."}
+      },
+      "uncertainty": "Whether the protection function is bought as a merchant module or absorbed into incumbent power shelves; also whether the 800VDC transition stalls at +/-400V.",
+      "principal_risk": "Vertical integration/bundling by Eaton/Vertiv/Schneider-class shelf incumbents forecloses the merchant socket before certification is complete.",
+      "falsifier": "2027 brassboard fails <10 microsecond clearing with two-tier selectivity and a quantified acceptable false-positive arc-detection rate on an OCP busbar mockup; or no hyperscaler/ODM design win by mid-2033."
+    },
+    {
+      "rank": 2,
+      "idea_id": "P3R2-C-05",
+      "concept": "Standards-grade thermal emulation and conformance metrology: programmable multi-kW chip-scale thermal test vehicles and rack-scale load emulators for liquid-cooling qualification",
+      "decision": "SELECT - the pool's best picks-and-shovels position: tiny capital, immediate university executability, and a demand base that grows with liquid-cooling spend regardless of which cooling architecture wins. Chosen as the merged best of the A-15/B-02/C-05 cluster.",
+      "evidence_from_candidate": "Record documents that cooling vendors design against inconsistent secondary-source thermal specs (GB200-class TDP/flow figures conflict, L14-044), 7+ vendors build CDUs to Google's Deschutes spec (L14-043), Vertiv liquid-cooling orders +50% with $15B backlog (L14-048), and CN conformance demand under T/CIEP 0263-2025 and GB 40879 (L14-039/035); first experiment $150k; v1 capital $3-8M; export separability described as excellent.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "Warranty and PUE-compliance stakes on a record-level order book; vendors currently self-certify with incomparable data - a directly budgeted qualification bottleneck."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 5; calorimetry, programmable test vehicles, and protocol engineering are established art - execution risk, not physics risk."},
+        "defensible_edge": {"score": 4, "reason": "Method authority plus the reference dataset feeding US/CN/OCP standards bodies; no neutral standards-grade merchant vendor exists today per the record."},
+        "founder_phd_adjacency": {"score": 5, "reason": "First 1.2kW test vehicle and a published cross-vendor round-robin are explicitly university-lab tasks in the record's own 2026-27 plan."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$150k first experiment - the cheapest decisive test among top-tier candidates; pre-orders/LOIs targeted before incorporation."},
+        "timing_2030_2034": {"score": 5, "reason": "Test methodology lags chips by two generations; qualification demand peaks exactly as 4-5kW chips and fluid transitions land 2030-2033."},
+        "geographic_portability": {"score": 5, "reason": "US+CN primary with TW/JP/KR secondaries; test equipment faces minimal export friction (record: dual-entity trivial)."},
+        "regulatory_safety_friction": {"score": 5, "reason": "Metrology equipment; no listing, clinical, or dual-use burden."},
+        "failure_modes": {"score": 3, "reason": "Honest ceiling: instrumentation TAM, and OCP/JEDEC could standardize around hyperscaler in-house methods; mitigations are consumables/protocol licensing and standards participation."}
+      },
+      "uncertainty": "Size of the merchant instrumentation market versus in-house lab substitution.",
+      "principal_risk": "A standards body ships a complete method plus reference hardware without the company, collapsing differentiation.",
+      "falsifier": "The 2026-27 blind round-robin of three commercial cold plates fails to expose meaningful cross-vendor measurement variance, removing the founding premise that neutral metrology is needed."
+    },
+    {
+      "rank": 3,
+      "idea_id": "P3R2-D-01",
+      "concept": "Merchant quench-detection-and-protection subsystem for REBCO/HTS magnets: co-wound distributed fiber-optic sensing plus sub-millisecond active energy extraction, sold with a qualification dossier to fusion companies and national labs.",
+      "decision": "SELECT - safety-critical unsolved problem with named buyers already purchasing merchant magnets; the merged definitive version of the A-04/C-17/E-07 cluster with the accumulated precursor-signature dataset as a compounding moat.",
+      "evidence_from_candidate": "Record: HTS coils have very high minimum quench energy and slow normal-zone propagation so voltage-tap detection fails, forcing no-insulation windings or unproven detection (L03-004/018/020/021); CFS already sells magnets to Realta and WHAM (L03-035); DOE milestone-program renewal at FY2027 boundary (L03-032); first experiment $250k co-wound fiber campaign; v1 $3-8M; no merchant vendor of an integrated HTS detection+dump product identified in the atlas.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "Protection is a warranty item on every merchant magnet sale; builders currently over-engineer or accept degraded control on multi-megajoule assets."},
+        "technical_feasibility": {"score": 4, "reason": "Rayleigh fiber, RF/acoustic channels, FPGA triggering and dump circuits are individually demonstrated; integration at 10-20 T conditions is the work (record TRL 3)."},
+        "defensible_edge": {"score": 4, "reason": "Qualification dossier plus the cross-campaign quench-precursor dataset - reference data in-house teams cannot share, per the record."},
+        "founder_phd_adjacency": {"score": 5, "reason": "Instrumenting small REBCO pancakes at a university magnet lab and publishing detection-latency benchmarks is exactly a doctoral-scale program per the record's own plan."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$250k controlled-quench campaign on a 1-2 T coil gives a decisive early answer; v1 capital $3-8M."},
+        "timing_2030_2034": {"score": 4, "reason": "SPARC-class results 2026-27 convert to pilot-plant magnet builds around 2030; fusion schedule slip is the timing hazard."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead with named JP conductor-ecosystem and KR cable-monitoring side markets; CN only via license-out if counsel clears."},
+        "regulatory_safety_friction": {"score": 4, "reason": "US/allied sales are ordinary industrial; only the optional CN leg is dual-use-adjacent and gated."},
+        "failure_modes": {"score": 3, "reason": "If no-insulation windings prove sufficient at pilot-plant scale, or a builder open-sources a good solution, differentiation shrinks to service/qualification; kill date 2033-12 defined."}
+      },
+      "uncertainty": "Fusion magnet-fleet schedule and whether insulated windings (which need fast detection) win over no-insulation practice.",
+      "principal_risk": "No-insulation magnet designs prove fully sufficient at scale, shrinking the detection problem.",
+      "falsifier": "2027 campaign fails to demonstrate >=100 ms warning before thermal runaway with <1% false-trigger rate on a driven-quench REBCO double-pancake."
+    },
+    {
+      "rank": 4,
+      "idea_id": "P3R2-C-09",
+      "concept": "Standardized solid-state pulsed-power platform: stackable Marx/modulator modules with digital droop control for industrial e-beam, X-ray, and accelerator RF drive",
+      "decision": "SELECT - the definitive merged pulsed-power platform (absorbs A-07/B-09/D-05/E-05/C-20): multiple already-paid demand legs in both markets, TRL 5, and a standardization wedge into a documented fragmented field.",
+      "evidence_from_candidate": "Record: at least five incompatible solid-state modulator designs documented (L05-003/005/006/007/008) with no dedicated acceptance standard beyond IEC 60060 (L05-043); cargo-screening linacs +25% YoY with >$55M new orders (L05-033); EtO-replacement e-beam duopoly backlogged (L05-028); CGN Dasheng RMB340M H1-2025 orders (L05-035); open module/interconnect interface spec offered as de facto standard; first experiment $500k two-module 50kV/500A stack; v1 $6-15M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Every project re-engineers the drive chain; sterilization capacity is bottlenecked by a backlogged duopoly - paid demand exists on several independent legs."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 5; solid-state Marx bricks and droop correction are established; the product is standardization and reliability engineering."},
+        "defensible_edge": {"score": 4, "reason": "Published open interface spec plus acceptance protocol ('OCP of pulsed power') and per-cell health telemetry; incumbents sell closed cabinets with no incentive to open interfaces first."},
+        "founder_phd_adjacency": {"score": 4, "reason": "Reference design, interoperability spec, and a multi-module stack are executable in a university high-voltage lab, though the $500k demo is mid-weight for a pre-company phase."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$500k decisive demo; v1 $6-15M; falsification also comes cheaply from OEM design-in discovery."},
+        "timing_2030_2034": {"score": 4, "reason": "EtO regulatory pressure and screening demand compound through the decade; a standard is most adoptable before architectures re-freeze - but security/medical procurement is slow."},
+        "geographic_portability": {"score": 4, "reason": "US+CN (partitioned industrial-class modules) plus named KR manufacturing/validation channel and JP secondary."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Dual-use adjacent (radiography/EMP): high-energy variants must stay US-only, and sterilization/medical certification is heavy - manageable but real."},
+        "failure_modes": {"score": 4, "reason": "Diversified demand legs mean no single kill; the dominant mode (OEM in-house insistence) is testable early and the record sets an end-2033 design-in kill."}
+      },
+      "uncertainty": "Whether beam-system OEMs will adopt an outside module standard rather than protecting in-house drive chains.",
+      "principal_risk": "OEM vertical integration keeps modulators bespoke, leaving only the lab-refit niche.",
+      "falsifier": "2027 two-module stack fails 1%-droop/hot-swap interoperability, or no OEM design-in by end-2033."
+    },
+    {
+      "rank": 5,
+      "idea_id": "P3R2-D-02",
+      "concept": "Reel-to-reel contactless REBCO tape quality metrology (Hall-array critical-current mapping + delamination screening) sold to tape vendors and magnet builders as certified acceptance instrumentation.",
+      "decision": "SELECT - cheapest decisive falsification in the pool ($120k) on a QC pain that scales with conductor volume regardless of which fusion or grid players win; merged best of the B-10/C-11/D-02 cluster.",
+      "evidence_from_candidate": "Record: fewer than 10 tape vendors supply the world and a single fusion order absorbs a meaningful share of annual output (L03-003, L03-019); Ic uniformity, strain/delamination and screening-current degradation force over-specification and bespoke re-testing (L03-018/020/021); named buyers CFS, Furukawa/SuperPower, Shanghai Superconductor, WST, ASIPP; first experiment $120k benchtop 77 K scan with blind correlation to transport Ic; v1 $1.5-4M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "QC throughput gates magnet factories and every meter must be certified; pain is real and paid, though per-unit instrument revenue is moderate."},
+        "technical_feasibility": {"score": 4, "reason": "Hall-array magnetscan and lock-in thermal imaging are established physics; the open question is correlation accuracy at line speed (record TRL 4)."},
+        "defensible_edge": {"score": 4, "reason": "Neutral-referee position with a shared acceptance data format ('KLA of superconductors'); extended to 10kA cable/CICC stations and per-meter conductor passports via merged variants."},
+        "founder_phd_adjacency": {"score": 5, "reason": "Benchtop rig on purchased tape lots with published correlation study - ideal university-scale first program per the record."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$120k first experiment and $1.5-4M v1 - the lowest-capital serious candidate in the pool."},
+        "timing_2030_2034": {"score": 4, "reason": "Tape volume triples-to-10x into early-2030s pilot-plant builds; demand scales with volume, not with any single project's success."},
+        "geographic_portability": {"score": 5, "reason": "US+CN primary plus JP/KR; instrumentation with low export sensitivity and buyers on every continent that makes or uses HTS."},
+        "regulatory_safety_friction": {"score": 5, "reason": "Pure metrology; no meaningful regulatory burden."},
+        "failure_modes": {"score": 4, "reason": "Robust to fusion outcome dispersion; the named modes (vendor in-house bundling, exclusive incumbent partnership) erode rather than kill the position."}
+      },
+      "uncertainty": "Whether contactless Ic estimates can hit <5% error against transport measurements at production line speed.",
+      "principal_risk": "Tape vendors bundle good-enough in-house QC data, removing the neutral-referee socket.",
+      "falsifier": "2027 blind correlation on 50 cut samples misses the <5% error target against transport Ic."
+    },
+    {
+      "rank": 6,
+      "idea_id": "P3R2-A-14",
+      "concept": "300C-class mixed-signal instrumentation electronics platform (SiC/SOI) for superhot geothermal, downhole, and turbine environments",
+      "decision": "SELECT - a live, documented supply-gap (incumbent obsolescence with no successor) colliding with funded demand programs; the merged definitive version absorbing E-09's packaging-first strategy and D-14's 400C tier.",
+      "evidence_from_candidate": "Record: commercial high-temp ICs top out at 225C while CISSOID CHT is last-time-buy and Honeywell legacy exits, as funded US programs target 375C+ reservoirs (SUPERHOT awards from Nov 2025, L15-029; FORGE cohorts L15-027/028); named buyers Baker Hughes ($2.0B New Energy context via L15-040), SLB, FORGE awardees; packaging/die-attach documented as the true bottleneck (L15-005, L15-025); first experiment $850k 300C/1,000-hour 8-channel front-end soak; v1 $8-18M; CN chapter explicitly excluded for lack of named evidence.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "Existing buyers face a sourcing discontinuity between what they can buy (225C, dying lines) and where funded programs must operate (375C+)."},
+        "technical_feasibility": {"score": 3, "reason": "300C mixed-signal on SiC/SOI is achievable but hard; packaging is the documented bottleneck and 1,000h powered soak is a long, unforgiving qualification bar."},
+        "defensible_edge": {"score": 4, "reason": "Qualification data is the moat in a field competitors avoid precisely because it is hard; record notes nobody sells a qualified 300C platform."},
+        "founder_phd_adjacency": {"score": 4, "reason": "University SiC/SOI runs (Arkansas/NASA-Glenn lineage methods) and packaging cycling studies are university-executable, though the flagship soak artifact is resource-heavy."},
+        "capital_time_to_falsification": {"score": 3, "reason": "$850k first experiment and multi-year qualification timelines; falsification is slower and costlier than the pool median."},
+        "timing_2030_2034": {"score": 4, "reason": "SUPERHOT/FORGE wells hotter than purchasable electronics by ~2030 exactly as the incumbent exit completes; slip keeps the market program-funded."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead; oilfield/geothermal demand is global; JP decommissioning-robotics named as a side market."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Industrial qualification (long cycles) rather than regulatory approval; no dual-use burden in the base plan."},
+        "failure_modes": {"score": 3, "reason": "Superhot slip leaves a program-funded niche; oilfield in-house teams may capture the segment for their own tools; kill date 2034 with staged roadmap."}
+      },
+      "uncertainty": "Superhot/EGS drilling schedule and the size of the merchant (vs in-house) socket at service majors.",
+      "principal_risk": "Drilling programs slip, keeping 300C demand grant-funded rather than product-scale.",
+      "falsifier": "2028 flagship experiment fails: 8-channel SiC/SOI acquisition front-end cannot complete 300C/1,000h with <1% drift, or packaging fails 500 thermal cycles."
+    },
+    {
+      "rank": 7,
+      "idea_id": "P3R2-E-14",
+      "concept": "Multi-terminal DC fault-discrimination protection relay plus vendor-neutral hardware-in-the-loop qualification platform for MVDC datacenter distribution and HVDC converter stations - the 'SEL of DC grids.'",
+      "decision": "SELECT - category-defining low-capital play: owns the qualification test everyone must pass in a field where no merchant DC relay exists; complements rather than duplicates the selected breaker (A-02) and rack-protection (E-01) picks.",
+      "evidence_from_candidate": "Record: DC faults must clear in single-digit milliseconds without zero-crossings; discrimination algorithms still re-derived paper-by-paper (L08-004/005/006/007) and no merchant DC protection relay or neutral qualification suite exists; named demand Southern Spirit ($2.6B private + $360M DOE, construction 2029, L08-041), GE Vernova ~$10B HVDC backlog (L08-033), NERC PRC-029-1 compliance (L08-043); KR localization side market named (L08-038/039); first experiment $300k open RTDS/HIL benchmark + <1ms relay prototype; v1 $3-8M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Meshed DC cannot be built with confidence today; named multi-billion-dollar projects and a compliance regime create budgeted qualification demand."},
+        "technical_feasibility": {"score": 4, "reason": "Traveling-wave/non-unit algorithms are published; <1ms FPGA decisions are demanding but within known art (record TRL 3)."},
+        "defensible_edge": {"score": 5, "reason": "The open published benchmark that becomes the de facto acceptance standard - the strongest moat construction in the pool ('the startup owns the test everyone must pass')."},
+        "founder_phd_adjacency": {"score": 5, "reason": "The record's plan is literally graduate work: benchmark published algorithms on a 4-terminal RTDS model, then a relay prototype - $300k, publishable."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$300k decisive experiment; HIL studies are sellable as engagements before any company exists."},
+        "timing_2030_2034": {"score": 4, "reason": "US interregional HVDC construction and first meshed MVDC designs hit qualification needs 2030-2033; deferral risk if DC stays point-to-point."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead, named KR HVDC-localization side market, CN served license-only via test-suite packages (flags unchanged in record)."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Compliance tooling benefits from regulation (PRC-029); the friction is commercial (vendor acceptance), not governmental."},
+        "failure_modes": {"score": 3, "reason": "If DC stays point-to-point through 2034 fast discrimination demand defers, and converter vendors may refuse third-party protection in their stations; 2033 engagement kill gate set."}
+      },
+      "uncertainty": "Pace of multi-terminal/meshed DC adoption versus point-to-point persistence.",
+      "principal_risk": "Converter vendors keep protection vertically bundled, confining the company to test tooling.",
+      "falsifier": "Relay prototype cannot achieve reliable <1ms trip decisions on the published 4-terminal benchmark, or no multi-terminal project/vendor engagement materializes by 2033."
+    },
+    {
+      "rank": 8,
+      "idea_id": "P3R2-C-08",
+      "concept": "Thermal-shock-tolerant printed-circuit heat exchangers (PCHE): merchant diffusion-bonded recuperators for sCO2 power, heat pumps, and hydrogen precooling",
+      "decision": "SELECT - the choke-point component of an emerging cycle class, with the only operating commercial anchor (China's Chaotan One) plus US pilot lineage; merged best of A-12/B-07/E-08 with catalog-delivery and graded-channel extensions.",
+      "evidence_from_candidate": "Record: PCHE recuperators are the most-cited sCO2 bottleneck; thermal-cycling durability unresolved and every integrator builds bespoke cores (L04-029, L04-004/005/006, L04-113); CN commercialized waste-heat sCO2 first (Chaotan One 30 MW, L04-048/051 - retrofit TAM single-source flagged); US demand via STEP lineage, NRC Part 53 (effective 2026-04, L04-031), TerraPower vendor-pool precedent (L04-045); first experiment $600k 1,000-cycle rapid-transient rig; v1 $15-35M; structural pairing with C-19 noted.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "The costliest component of the cycle, negotiated one-off per project with no acceptance standard - documented as the field's most-cited bottleneck."},
+        "technical_feasibility": {"score": 4, "reason": "Diffusion bonding is established manufacturing; the >20 C/min cycling-tolerance target is a real but bounded materials/design problem."},
+        "defensible_edge": {"score": 4, "reason": "Published cycling qualification per ASTM E139 plus catalog delivery times - a de facto standard filling a documented standards vacuum; incumbents could respond if signaled early."},
+        "founder_phd_adjacency": {"score": 4, "reason": "Materials/bonding research and a subscale cycling campaign fit a university + national-lab user-facility program per the record's plan."},
+        "capital_time_to_falsification": {"score": 3, "reason": "$600k rig campaign is affordable, but v1 at $15-35M is manufacturing-heavy - the capital tail is the pool's steepest among selections."},
+        "timing_2030_2034": {"score": 4, "reason": "US pilots and CN first-set rollouts both reach equipment-ordering 2030-2034; Western sCO2 slip is the counter-case and is kill-gated."},
+        "geographic_portability": {"score": 5, "reason": "US+CN (licensed entity) with named KR consortium and JP ORC channels; heat exchangers for non-nuclear retrofits are low export sensitivity."},
+        "regulatory_safety_friction": {"score": 3, "reason": "ASME code cases and nuclear-line separation are heavy but chartable engineering-governance work, not approvals lotteries."},
+        "failure_modes": {"score": 3, "reason": "Category-slip and CN institute verticalization are the live modes; record kill: no >=10MW-class merchant order by end-2033."}
+      },
+      "uncertainty": "Pace of sCO2 commercialization outside China and the true size of the CN retrofit fleet (single-source figure flagged in-record).",
+      "principal_risk": "Integrators keep building bespoke cores in-house while the commercial category slips past 2034.",
+      "falsifier": "2028 subscale core fails 1,000 rapid transients at >=20 C/min (550 C peaks) without channel cracking or >2-5% effectiveness loss."
+    },
+    {
+      "rank": 9,
+      "idea_id": "P3R2-A-10",
+      "concept": "Vendor-neutral ion-energy-distribution metrology + tailored-waveform bias control retrofit for plasma etch chambers",
+      "decision": "SELECT - the sharpest wedge in the semiconductor RF cluster: own the measurement-and-closed-loop layer generator incumbents do not, rather than fight AE/MKS head-on with another generator (which is why near-duplicates C-06/E-03/B-05 are not selected).",
+      "evidence_from_candidate": "Record: tailored-voltage-waveform biasing is an unsettled 2024-26 research frontier and fabs/OEMs lack independent IEDF measurement and closed-loop control - 'they tune blind against drifting sheaths at sub-2nm nodes' (L06-009/010/011/027); demand legs: CHIPS-funded US fab ramps plus AMEC/NAURA/Piotech localization with <12% RF component localization (L06-054), served via a two-entity >=28nm export partition with a 2027 counsel gate; first experiment $450k closed-loop IEDF demo holding +/-2 eV; v1 $4-9M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Process-control blindness at the most valuable nodes plus a second, independent CN mature-node localization leg; pain is frontier-real though adoption runs through slow OEM qualification."},
+        "technical_feasibility": {"score": 4, "reason": "IEDF estimation and waveform control are demonstrated in the literature the record cites; RF-immune in-chamber sensing is hard engineering, not new physics (TRL 4)."},
+        "defensible_edge": {"score": 4, "reason": "Vendor-neutral measurement layer 'incumbent generator vendors do not own', sensor+control coupling patents, SEMI standards engagement; FTO gate on the arc-forensics layer is acknowledged."},
+        "founder_phd_adjacency": {"score": 5, "reason": "Building IEDF estimators on a university ICP/CCP reactor and benchmarking against gridded analyzers is squarely a university plasma-lab program."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$450k decisive closed-loop demo; v1 $4-9M; export-counsel and FTO gates are cheap early filters."},
+        "timing_2030_2034": {"score": 4, "reason": "Waveform-capable generator installed base built 2026-29 needs independent metrology by 2030; incumbent integration of good-enough inference is the clock."},
+        "geographic_portability": {"score": 4, "reason": "US+CN (partitioned mature-node entity) with JP/KR/TW secondaries and a named KR validation channel."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Export-control partition burden on the CN leg and a patent-dense arc-detection field; both explicitly gated in-record."},
+        "failure_modes": {"score": 3, "reason": "OEMs may lock chamber data behind proprietary interfaces; if generator vendors integrate adequate IEDF inference by 2030 the retrofit market narrows to process-development labs."}
+      },
+      "uncertainty": "Whether closed-loop ion-energy control demonstrably improves etch outcomes enough to force OEM/fab adoption over incumbent roadmaps.",
+      "principal_risk": "Advanced Energy/MKS-class incumbents integrate good-enough IEDF inference into their generators before design-ins occur.",
+      "falsifier": "2027-28 demo cannot hold a programmed bimodal ion-energy peak within +/-2 eV across pressure/chemistry drift, or shows no correlated etch-profile improvement."
+    },
+    {
+      "rank": 10,
+      "idea_id": "P3R2-C-07",
+      "concept": "Low-ripple active-front-end rectification retrofits for electrochemical plants: IGBT/MMC power-quality upgrades that recover the documented 5-14% specific-energy penalty of thyristor supplies",
+      "decision": "SELECT - a quantified, literature-documented energy lever sold into energy-price-exposed plants, with the electrowinning-first sequencing de-risking hydrogen policy fragility; merged best of A-19/B-13 with M&V and degradation-aware scheduling extensions.",
+      "evidence_from_candidate": "Record: literature documents up to ~14% specific-energy and ~13% loss penalties for six-pulse thyristor supplies vs transistor conversion (L11-016/017/019/020/021), the same lever in electrowinning (L11-045, L11-026/027); Kuqa flagship reportedly ran at a fraction of nameplate (L11-049); stack overcapacity makes electricity the cost driver (L11-035/051); beachhead sequencing: US copper electrowinning first, H2Hubs second; first experiment $250k side-by-side SEC measurement; v1 $8-18M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "A 5-14% verified energy lever on facilities whose dominant cost is electricity - directly bankable pain with 15-20-year opex exposure."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 5; AFE/MMC rectification is mature; the novel part (electrochemistry-aware ripple control and M&V) is control engineering."},
+        "defensible_edge": {"score": 3, "reason": "Stack-vendor-neutral performance contracts plus degradation-aware scheduling IP; the hardware itself is replicable by ABB/Siemens/Sungrow-class incumbents."},
+        "founder_phd_adjacency": {"score": 4, "reason": "Instrumented ripple-vs-degradation studies on pilot cells with a university/RTO partner are executable pre-company per the record's plan."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$250k side-by-side pilot decisively tests the claimed savings band; MW-scale pilots follow via MOUs."},
+        "timing_2030_2034": {"score": 4, "reason": "By 2030 both an installed thyristor base to retrofit and new builds to spec-in exist; hydrogen policy volatility is hedged by the electrowinning-first beachhead."},
+        "geographic_portability": {"score": 4, "reason": "US+CN with JP/KR secondaries; industrial rectifiers are uncontrolled exports per the record."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Ordinary industrial electrical and utility-harmonics compliance; no approvals lottery."},
+        "failure_modes": {"score": 4, "reason": "Two independent beachheads and an explicit Sungrow-parity kill trigger; conservative-buyer slowness degrades rather than kills."}
+      },
+      "uncertainty": "Whether verified savings convert conservative plant operators into paid retrofits on venture timelines.",
+      "principal_risk": "Incumbent power-electronics giants (Sungrow named in-record) bundle equivalent low-ripple supplies before a pilot PO lands.",
+      "falsifier": "2027 side-by-side pilot fails to verify a specific-energy improvement in the literature-claimed band (>=5-8%) under representative load profiles."
+    },
+    {
+      "rank": 11,
+      "idea_id": "P3R2-C-04",
+      "concept": "PFAS-free pumped two-phase direct-to-chip cooling loop: hermetic, fluid-agnostic evaporator/condenser subsystem co-qualified with low-GWP non-PFAS working fluids",
+      "decision": "SELECT - regulatory clock (AIM Act step-down, PFAS exit) colliding with >2kW chips is one of the pool's crispest timing theses; the merged variant absorbs B-01's negative-pressure leak-safe mechanism as the differentiator. Ranked below the metrology plays because of the binding fluid-availability risk.",
+      "evidence_from_candidate": "Record: two-phase is the path past single-phase for 3-5kW chips (L14-010, L14-001/002/003) but 3M's PFAS exit removed the qualified fluid family while the AIM Act steps HFCs down to 30% of baseline 2029-2033 (L14-033); primary variant is the sealed negative-pressure loop (air leaks in, coolant never leaks out; ITRI-class low-pressure results L14-053); second moat is the fluid-menu qualification dataset; first experiment $400k 2kW loop on two candidate non-PFAS fluids; v1 $10-25M; 2031 fluid-availability kill trigger retained.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Vendors have no fluid-plus-loop combination they can bank while chip TDP and regulation both escalate; pain is real but its onset depends on single-phase exhaustion."},
+        "technical_feasibility": {"score": 3, "reason": "Two-phase loops are demonstrated (2.4 kW/chip class cited), but co-qualifying a menu of non-PFAS fluids - the actual product - is the unresolved core."},
+        "defensible_edge": {"score": 4, "reason": "Fluid-agnostic qualification dataset plus the physics-based leak-safety mechanism (vacuum-decay detected inward leaks) - differentiated against proprietary-fluid rivals named in-record."},
+        "founder_phd_adjacency": {"score": 4, "reason": "Fluid screening matrices and a 2kW loop with degradation assays are university-lab work per the record's 2026-27 plan."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$400k decisive experiment; v1 $10-25M is mid-heavy but staged behind ODM design-ins."},
+        "timing_2030_2034": {"score": 4, "reason": "AIM Act 2029 step-down and 4kW+ platforms intersect exactly at launch; the counter-case (single-phase stretches another cycle) is explicitly possible."},
+        "geographic_portability": {"score": 5, "reason": "US+CN with KR/JP/TW secondaries; thermal hardware is uncontrolled and CN manufacturing localizable per the record."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Regulation is the tailwind; the friction is fluid qualification, which is engineering plus chemistry-partner work."},
+        "failure_modes": {"score": 2, "reason": "One binding external dependency: if no non-PFAS two-phase fluid reaches datacenter-scale qualification by 2031, single-phase water wins the cycle - an honest kill trigger the company cannot fully control."}
+      },
+      "uncertainty": "Availability and qualification timeline of a dielectric, non-PFAS, low-GWP working fluid (or acceptance of subatmospheric water) at datacenter scale.",
+      "principal_risk": "Single-phase water plus microchannels stretches to 5kW/chip, deferring two-phase adoption past the window.",
+      "falsifier": "2027 2kW loop cannot match Novec-era published baselines on any candidate non-PFAS fluid, or the 1,000h sealed-loop degradation assay fails."
+    },
+    {
+      "rank": 12,
+      "idea_id": "P3R2-E-10",
+      "concept": "Standardized rad-tolerant GaN power processing unit (PPU) platform for 1-6kW smallsat electric propulsion - one modular anode/magnet/keeper power stack with a common digital interface across thruster vendors.",
+      "decision": "SELECT - a 50-year documented non-convergence plus a supply-concentration gap (incumbent inside a missile-focused parent) creates a merchant socket; the leanest, most university-executable version of the A-13/D-15/E-10 cluster.",
+      "evidence_from_candidate": "Record: PPU topology has not converged after 50+ years (L09-001/003/006/008); flagship US PPU supplier sits inside a missile-focused parent (L09-041); GaN/SiC space qualification unresolved with SEE at ~50% rated voltage (L09-014/020/103/104); named demand AEPS $67M / NEXT-C $18.4M lineage (L09-034/012), SDA tranche cadence with EP content honestly flagged as inferred (L09-039); first experiment $400k 3kW GaN anode-supply breadboard + university-cyclotron heavy-ion test; v1 $4-9M; JP/KR channels named.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Every program re-pays PPU NRE and the incumbent base consolidated into a distracted parent; NASA lineage demand is documented, SDA EP content flagged inferred."},
+        "technical_feasibility": {"score": 3, "reason": "The core bet - GaN surviving heavy-ion strikes at operating voltage with acceptable derating - is exactly the unresolved question the record cites."},
+        "defensible_edge": {"score": 4, "reason": "Published third-party heavy-ion data on SET-mitigated topologies plus a qualified-once-reused-everywhere dossier (ECSS/AIAA-aligned) - independent evidence vendor parts lack."},
+        "founder_phd_adjacency": {"score": 5, "reason": "Graduate research on SEE mitigation with university cyclotron campaigns and a university Hall-thruster integration test is the record's own plan."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$400k experiment answers the decisive SEE question early; v1 $4-9M."},
+        "timing_2030_2034": {"score": 4, "reason": "Constellation replenishment and NASA SEP cycles peak early 2030s while supply concentrates - good alignment, subject to program budgets."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead with named JP validation-pattern partner and KR emergent buyer; space market is allied-global."},
+        "regulatory_safety_friction": {"score": 3, "reason": "ITAR/space-qualification burden and long flight-qual cycles; ordinary for the sector but heavy for a startup."},
+        "failure_modes": {"score": 3, "reason": "Prime vertical integration and a forced SiC fallback (mass penalty) are the live modes; 2033 flight-qualification kill gate set."}
+      },
+      "uncertainty": "Whether GaN SEE qualification closes at bus voltage with derating small enough to preserve the mass/efficiency case.",
+      "principal_risk": "Primes vertically integrate PPUs, shrinking the merchant socket to small thruster OEMs.",
+      "falsifier": "Heavy-ion campaign shows destructive single-event effects at mission-representative LET forcing derating that erases the platform's advantage."
+    },
+    {
+      "rank": 13,
+      "idea_id": "P3R2-C-14",
+      "concept": "Modular megawatt-class industrial plasma power supplies: torch-agnostic arc/RF hybrid power with numbering-up fleet control for PFAS destruction, plasma chemistry, and materials processing",
+      "decision": "SELECT - shovels-to-every-plasma-gold-rush positioning anchored on already-paid DoD demand; preferred over the destruction-equipment play (A-22) because it does not bet on which destruction chemistry wins.",
+      "evidence_from_candidate": "Record: DoD is paying for MW-class torches and PFAS destruction now (CAD$4.1M + $27M torches; $2.25M PFAS delivered >300t - L01-034/035/036); plasma-chemistry ventures scale by numbering-up dozens of reactors each needing supply and match (L01-014/015/016; Nitricity sold out through 2028, L01-031); CN institute tenders documented (ASIPP, L01-037/038); the 100kW-2MW merchant band is thin; first experiment $350k 250kW demo with arc-stabilization and 4-module orchestration; v1 $6-15M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Anchor demand is already paid (DoD PFAS and torch contracts) and every numbering-up plasma venture re-buys bespoke supplies."},
+        "technical_feasibility": {"score": 4, "reason": "TRL 5 platform; millisecond arc-restrike control across paralleled modules is the hard, but bounded, novel element."},
+        "defensible_edge": {"score": 3, "reason": "Torch-agnostic qualification and fleet orchestration differentiate, but incumbents exist below 100kW and torch OEMs build in-house at MW - the band must be verified against the 2029 landscape (record's own caveat)."},
+        "founder_phd_adjacency": {"score": 4, "reason": "Arc-instability control research on a university torch stand with publication and patents is the stated pre-company path."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$350k decisive demo on a partner torch; v1 $6-15M."},
+        "timing_2030_2034": {"score": 4, "reason": "PFAS liability and defense torch demand harden through the decade; plasma-chemistry upside is optional, not load-bearing (record anchors on paid demand)."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead plus CN institute channel via licensee and JP/KR secondaries."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Defense-adjacent variants and CN institute sales need export review; civilian industrial core is low-friction."},
+        "failure_modes": {"score": 4, "reason": "Demand is spread across remediation, defense, chemistry, and institutes; the main mode (torch OEM in-house) is testable through the 2028 field trial, kill end-2033."}
+      },
+      "uncertainty": "Whether the 100kW-2MW merchant band stays thin through 2029 (record requires re-verification).",
+      "principal_risk": "Torch OEMs and institutes keep MW-class supplies in-house, compressing the merchant market.",
+      "falsifier": "2027 250kW demo fails to cut arc-restrike events versus a baseline supply, or no OEM/operator contract by end-2033."
+    },
+    {
+      "rank": 14,
+      "idea_id": "P3R2-D-10",
+      "concept": "Coherent-beam-combining phase-control engine: a channel-scalable electro-optic 'conductor' (controller ASIC/FPGA + modulator front-ends) sold to directed-energy primes and ultrafast-laser OEMs.",
+      "decision": "SELECT - the physics (TMI caps single-fiber power) makes combining the only scaling path, and no merchant phase-control vendor exists; low-capital falsification. Ranked mid-pack because portability and classification friction are the pool's worst among strong candidates.",
+      "evidence_from_candidate": "Record: transverse mode instability caps single-fiber power so combining many channels is the only path to 300-500 kW weapons and multi-kW ultrafast tools, yet phase-locking/path-length/dispersion management is rebuilt per program (L12-016/017/018, L12-001/002); demand JLWS $847M ceiling (L12-031/032), DARPA AMPED/MELT (L12-040/041), NNSA EYC (L12-042); merged A-17 extension adds deformable-mirror/turbulence tier; first experiment $250k 16-channel lambda/30 lock under vibration; v1 $3-8M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Schedule-pressured primes face a hard channel-count scaling wall with funded programs behind it."},
+        "technical_feasibility": {"score": 4, "reason": "SPGD/interferometric hybrid control demonstrated at lab scale; scaling to 1,000+ channels ruggedized is the open engineering climb."},
+        "defensible_edge": {"score": 4, "reason": "No merchant phase-control vendor identified in the record; ASIC path and 16-to-1,000-channel scalability proof would be a durable subsystem moat."},
+        "founder_phd_adjacency": {"score": 5, "reason": "A 16-channel university photonics testbed with published jitter/bandwidth benchmarks is precisely the stated pre-company program."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$250k first experiment; v1 $3-8M."},
+        "timing_2030_2034": {"score": 4, "reason": "JLWS moves from initial award to 300-500 kW fielding decisions in the early 2030s - subsystem purchases peak then."},
+        "geographic_portability": {"score": 2, "reason": "Effectively US-only (no secondary markets listed); dual-use industrial sales are the partial hedge."},
+        "regulatory_safety_friction": {"score": 2, "reason": "Classification barriers and ITAR segregation raise sales friction; primes may classify the problem away from merchants."},
+        "failure_modes": {"score": 3, "reason": "Prime internalization is the dominant mode; industrial CBC and ITAR-segregated lines are stated mitigations; 2033 kill gate."}
+      },
+      "uncertainty": "Prime buy-vs-build behavior for core beam control under schedule pressure.",
+      "principal_risk": "Primes classify and internalize phase control, closing the merchant lane.",
+      "falsifier": "16-channel testbed cannot hold lambda/30 rms with >90% combining efficiency under 1 g random vibration, or the 128-channel scale-up loses efficiency."
+    },
+    {
+      "rank": 15,
+      "idea_id": "P3R2-C-22",
+      "concept": "Electrolyzer stack degradation-emulation and bankability test systems: programmable ripple/intermittency benches that turn stack warranties into measurable engineering",
+      "decision": "SELECT - deliberately anti-fragile position on a volatile industry: boom needs acceptance testing, consolidation needs warranty credibility; low capital, high portability, minimal regulatory friction.",
+      "evidence_from_candidate": "Record: stack warranties are written before the industry knows which stress drives which degradation mode (L11-001/003/004/021/031) - a direct bankability problem for H2Hubs-financed projects (L11-032) and OEMs with shrinking order books (L11-047/048); CN 100+-unit tenders and flagship underperformance (Kuqa, L11-049) create buyer-side acceptance-test demand; 'the Chroma of electrolysis'; first experiment $250k 50kW bench with 90-day correlation campaign; v1 $4-10M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Lenders price degradation ignorance into project debt; both OEMs and buyers need the missing dataset - though hydrogen capex volatility caps urgency."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 5; programmable ripple synthesis, OCV cycling and impedance diagnostics are established bench engineering."},
+        "defensible_edge": {"score": 4, "reason": "Degradation-science depth plus financier-facing datasets - a data moat generic test-stand vendors and battery-test majors lack per the record."},
+        "founder_phd_adjacency": {"score": 5, "reason": "Replicating published degradation stressors on a 10kW university bench and publishing the correlation study is the stated first step."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$250k decisive bench campaign; paid pilot campaigns can run through a lab before incorporation."},
+        "timing_2030_2034": {"score": 4, "reason": "Either industry outcome (boom or consolidation) generates qualification demand in the window - the record's explicit hedge thesis."},
+        "geographic_portability": {"score": 5, "reason": "US+CN with JP/KR; export separability described as excellent."},
+        "regulatory_safety_friction": {"score": 5, "reason": "Test equipment; negligible regulatory burden."},
+        "failure_modes": {"score": 4, "reason": "Worst case is a slow niche, not a zero (record's own framing); incumbent sideways entry (Chroma/Hioki) is the watch item."}
+      },
+      "uncertainty": "Volume of hydrogen FIDs and thus the ceiling of the test/qualification market.",
+      "principal_risk": "Sector contraction shrinks bench sales and paid campaigns to a lifestyle-scale niche.",
+      "falsifier": "The 90-day accelerated campaign fails to reproduce literature degradation signatures with per-mechanism attribution, breaking the bankability-dataset premise."
+    },
+    {
+      "rank": 16,
+      "idea_id": "P3R2-F-02",
+      "concept": "Superconducting-magnet electrical balance-of-plant platform: standardized precision drive-and-dump skids (10 ppm-class high-current DC converters + energy-extraction/dump units + current leads + busbars)",
+      "decision": "SELECT - TRL 6 catalog-ization of a recurring integration burden with hedged demand (fusion plus research/industrial magnets); complements the selected D-01 protection play; the F-21 leads line folds in as the low-capital entry SKU.",
+      "evidence_from_candidate": "Record: every merchant HTS magnet sale (L03-035) and every fusion/big-science coil (L01-037/038) needs a bespoke drive converter, dump circuit, leads and busbars with no standardized product line; TRL 6; entry SKU of catalog binary current leads with certified heat-load datasheets (from F-21); hedge stated: research/industrial magnet and accelerator PSU demand exists regardless of fusion outcomes; first experiment $400k 25kA-class converter + dump on a university HTS coil; v1 $5-12M; OCEM/Danfysik-class incumbency map flagged as pre-promotion requirement.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Recurring per-project re-engineering of the electrical island; magnet-as-product sales make integration time a buyer cost."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 6; precision converters are catalog art - the product is integration, sequencing, and acceptance protocol."},
+        "defensible_edge": {"score": 3, "reason": "The integrated island + acceptance protocol is the white space, but the record itself warns precision magnet PSUs are catalog items and requires an incumbency map."},
+        "founder_phd_adjacency": {"score": 4, "reason": "Architecture study, acceptance-protocol drafting, and a scaled 5kA lab demo with a university magnet lab are stated pre-company steps."},
+        "capital_time_to_falsification": {"score": 4, "reason": "$400k experiment plus a cheap entry SKU (5kA lead prototype ~$200k class in the folded F-21 line) with an orders-based gate."},
+        "timing_2030_2034": {"score": 4, "reason": "Serial magnet builds post-SPARC land in-window; slip is hedged by non-fusion magnet demand."},
+        "geographic_portability": {"score": 4, "reason": "US+CN big-science routes plus JP/KR; export counsel gate for CN in 2027."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Industrial equipment; only CN-facing sales carry review burden."},
+        "failure_modes": {"score": 4, "reason": "Demand hedged across buyers; failure modes (CFS bundling ceiling, incumbent occupancy) degrade share rather than kill; explicit fold-down of entry SKU defined."}
+      },
+      "uncertainty": "Whether the integrated island is genuinely unoccupied once the OCEM/Danfysik-class incumbency map is done.",
+      "principal_risk": "Incumbent magnet-PSU specialists or CFS-style vertical bundling already cover the island, leaving only the small leads/feedthrough line.",
+      "falsifier": "25kA-class prototype fails 10 ppm stability with clean extraction at simulated quench; or the entry SKU misses >=$1M cumulative lead/feedthrough orders by end-2031."
+    },
+    {
+      "rank": 17,
+      "idea_id": "P3R2-A-05",
+      "concept": "US merchant NEG-coating and low-outgassing surface engineering line for UHV/XHV chambers (accelerators, quantum, EUV, space simulation)",
+      "decision": "SELECT - a clean second-source play against a documented global single source, with low capital, TRL 5, and DOE domestic-preference tailwind; niche scale accepted and priced into the rank.",
+      "evidence_from_candidate": "Record: NEG coating is effectively single-sourced globally (SAES, L07-037) and hydrogen-outgassing control requires 30-hour 250C bakeouts baked into every chamber schedule; buyers named: DOE accelerator labs, US-ITER/ORNL, quantum chamber builders, NASA facilities; demand from DOE $625M QIS centers (L13-028) and ITER-class vacuum tenders (L07-041/042/043/044); first experiment $250k TiZrV replication with independent outgassing verification; v1 $2-6M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Single-point-of-supply and schedule risk on the pumping architecture accelerators specify - procurement offices feel this directly."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 5; published recipes replicable on a university sputter rig; process discipline, not discovery."},
+        "defensible_edge": {"score": 3, "reason": "Second-source-with-US-preference plus process know-how; SAES could add US capacity and close the sovereignty gap (record's own risk)."},
+        "founder_phd_adjacency": {"score": 5, "reason": "Recipe replication and pumping-speed validation against literature is a textbook university vacuum-lab program."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$250k first experiment, $2-6M v1 - among the cheapest full paths in the pool."},
+        "timing_2030_2034": {"score": 3, "reason": "Accelerator-upgrade and QIS demand rise into the 2030s but big-science budgets are lumpy and cyclical."},
+        "geographic_portability": {"score": 3, "reason": "US labs plus JP secondary; other big-science markets have domestic-manufacturer preferences that limit reach."},
+        "regulatory_safety_friction": {"score": 4, "reason": "Low; quality certification to lab standards is the only bar."},
+        "failure_modes": {"score": 3, "reason": "Niche size stalls if accelerator budgets stall; incumbent response is the second mode; both degrade rather than instantly kill."}
+      },
+      "uncertainty": "Whether the merchant niche is large enough to carry a company versus a specialty line.",
+      "principal_risk": "SAES adds US capacity, removing the sovereignty wedge.",
+      "falsifier": "2027 TiZrV pipes fail activation at <=200C or sticking coefficients fall outside 20% of published SAES-class performance on an independent bench."
+    },
+    {
+      "rank": 18,
+      "idea_id": "P3R2-C-15",
+      "concept": "Megawatt charge/swap DC power infrastructure for mines and ports: dual-standard (IEC MCS + Chinese swap) 1.5-3.75 MW power cabinets and station DC backbones",
+      "decision": "SELECT - the merged best of the heavy-charging cluster (absorbs A-21/B-14): appropriated US funding plus a fresh international standard, with standard-agnostic positioning monetizing architecture non-convergence rather than betting on a winner.",
+      "evidence_from_candidate": "Record: ~$3B of EPA Clean Ports zero-emission equipment grants (L10-048) and battery locomotive/haul-truck pilots (L10-032/030) hit a missing megawatt-charging layer standardized only Feb 2026 (IEC TS 63379, L10-050); CN SOE mines tender fleet-scale equipment (L10-034/035) under a swap-standard ecosystem (L10-046/040/031); three concurrent charging approaches at major miners documented; first experiment $500k 1.5MW dual-interface demo; v1 $10-25M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Funded fleets arriving 2027-2030 ahead of charging infrastructure; miners already build chargers in-house out of necessity."},
+        "technical_feasibility": {"score": 5, "reason": "TRL 5; SiC conversion, liquid-cooled dispensing, and protocol stacks are established engineering."},
+        "defensible_edge": {"score": 3, "reason": "Neutral multi-standard positioning differentiates, but OEM-bundled chargers (Cat/Wabtec) and vertically integrated CN stacks compete hard."},
+        "founder_phd_adjacency": {"score": 3, "reason": "Architecture/load studies are university-feasible, but the 1.5MW dual-interface demo needs a test yard and partner hardware - heavier than a lab program."},
+        "capital_time_to_falsification": {"score": 3, "reason": "$500k experiment and $10-25M v1; falsification of the merchant thesis also depends on slow site-procurement signals."},
+        "timing_2030_2034": {"score": 4, "reason": "Clean Ports deliveries through 2030 and fleet scaling in the early 2030s align well; policy reversals (CARB repeal precedent) are the drag."},
+        "geographic_portability": {"score": 4, "reason": "US+CN+JP; industrial charging hardware with dual-entity manufacturing described as straightforward."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Site interconnection, harsh-duty certification, and policy volatility create meaningful but conventional friction."},
+        "failure_modes": {"score": 3, "reason": "OEM-bundled charging could foreclose the merchant niche; kill set at 2033 without a paid site deployment."}
+      },
+      "uncertainty": "Whether harsh-duty sites buy merchant charging systems or accept OEM-bundled/in-house builds.",
+      "principal_risk": "Vehicle OEMs bundle charging with fleets, closing the neutral-vendor lane.",
+      "falsifier": "2028 dual-standard cabinet demo fails back-to-back MCS/swap-profile operation, or no paid site deployment in either market by 2033."
+    },
+    {
+      "rank": 19,
+      "idea_id": "P3R2-A-02",
+      "concept": "Modular medium-voltage DC (1-35kV) hybrid solid-state circuit breaker productized for datacenter campuses, microgrids, and MVDC collection",
+      "decision": "SELECT - the pool's highest-ceiling hard-tech bet on the documented MVDC 'showstopper'; ranked below the leaner protection plays because falsification is expensive and adoption timing is the least controllable.",
+      "evidence_from_candidate": "Record: DC fault interruption is the documented showstopper for MVDC - no converged breaker topology, no product category (L08-001/003/004/017); ARPA-E DC-GRIDS cohort (L02-034) and datacenter electrification orders (L08-033) as demand context; ORNL SSCB lineage test path (L08-051); first experiment $1.5M 10kV/2kA module interrupting a pole-to-pole fault in <2 ms with >=100 operations; v1 $10-25M; kill date 2034.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 5, "reason": "The absence of a breaker product class forces point-to-point architectures and over-engineered protection - a structural constraint on the whole DC buildout."},
+        "technical_feasibility": {"score": 3, "reason": "Staged microsecond interruption at tens of kV with no current zero is, in the record's own words, the hardest unsolved switching problem in power delivery; TRL 3."},
+        "defensible_edge": {"score": 4, "reason": "Productization discipline (catalogued frames, coordinated relaying) in a field of non-converged academic topologies; module-scaling IP."},
+        "founder_phd_adjacency": {"score": 3, "reason": "Comparative topology studies and scaled kV-class prototypes are university-feasible, but the decisive 10kV national-lab demo is a heavy pre-company lift."},
+        "capital_time_to_falsification": {"score": 2, "reason": "$1.5M first experiment and $10-25M v1 - the most expensive falsification among selections."},
+        "timing_2030_2034": {"score": 3, "reason": "First US MVDC campus pilots needing catalogued breakers plausibly land 2030-2033, but MVDC may stay breaker-avoiding longer (record's stated risk)."},
+        "geographic_portability": {"score": 4, "reason": "US beachhead with JP/KR secondaries; utility and campus markets worldwide eventually."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Utility-grade certification and witnessed short-circuit testing are heavy but conventional."},
+        "failure_modes": {"score": 3, "reason": "Point-to-point persistence and incumbent per-project bundling are real; the seed's device-characterization workstream (F-08 lineage) keeps value even if the breaker market slips."}
+      },
+      "uncertainty": "Whether meshed/multi-feeder MVDC adoption arrives inside the window at all.",
+      "principal_risk": "Breaker-avoiding architectures persist and incumbents bundle protection into converter stations.",
+      "falsifier": "2028 10kV/2kA module cannot clear a simulated pole-to-pole fault in <2 ms for >=100 operations without refurbishment at a national-lab facility."
+    },
+    {
+      "rank": 20,
+      "idea_id": "P3R2-F-01",
+      "concept": "Solid-state microsecond impedance-matching engines (switched SiC/PIN capacitor arrays replacing motorized vacuum-capacitor matchboxes) for pulsed and tailored-waveform RF plasma tools",
+      "decision": "SELECT - a crisp physics-backed latency wedge (microseconds vs >100 ms) with cheap falsification; the second semiconductor pick, complementary to A-10 (matching hardware vs metrology/control layer).",
+      "evidence_from_candidate": "Record: pulsed and TVW processes change impedance faster than motorized vacuum-capacitor networks can follow; matching remains an active research problem (L06-001/002/003, L01-012/013) while CN RF-component localization sits under ~12% (L06-054); demand: AE Everest/EVOS-class platform ramps (L06-039/040) and CN localization programs; licensing-with-golden-reference CN model absorbed from F-14; first experiment $250k 13.56 MHz/5 kW matcher with <10 us re-match vs >100 ms baseline; v1 $3-8M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Every pulsed-plasma tool carries the electromechanical matching bottleneck; two independent buyer sets (US OEM qualification cycles, CN localization)."},
+        "technical_feasibility": {"score": 4, "reason": "Switched-capacitor arrays are demonstrated in literature; switching loss, linearity, and 1e9-event reliability at RF power are the honest engineering bar."},
+        "defensible_edge": {"score": 3, "reason": "Merchant module ahead of incumbent absorption plus golden-reference licensing; but the incumbents (Comet/AE/MKS/DAIHEN) can integrate the same function."},
+        "founder_phd_adjacency": {"score": 5, "reason": "A 13.56 MHz/5 kW university-lab prototype with loss characterization is exactly the stated 2026-27 plan."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$250k decisive experiment; v1 $3-8M."},
+        "timing_2030_2034": {"score": 4, "reason": "Design-in window 2030-2034 before incumbents fully absorb solid-state matching - the record's own clock."},
+        "geographic_portability": {"score": 4, "reason": "US+CN (mature-node licensing, counsel-gated) with KR secondary."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Export-counsel gate on CN scope; otherwise ordinary industrial."},
+        "failure_modes": {"score": 2, "reason": "Concentrated single failure mode: incumbents shipping integrated solid-state matching as a standard feature closes the socket; mitigation (sell to incumbents and CN OEMs) is partial."}
+      },
+      "uncertainty": "Speed at which AE/MKS/Comet productize integrated solid-state matching.",
+      "principal_risk": "Incumbent absorption closes the merchant socket before a design win lands.",
+      "falsifier": "Prototype misses <10 microsecond re-match across a pulsed recipe or fails 1e9-switch-event reliability."
+    },
+    {
+      "rank": 21,
+      "idea_id": "P3R2-E-04",
+      "concept": "High-density cryogenic interconnect loader with co-packaged 4K readout front-end (superconducting flex harness + cryo-CMOS multiplexing + cryo-LNA), breaking the 256-channel-per-loader wall for quantum computers.",
+      "decision": "SELECT - an acknowledged scaling wall with DOE supply-chain pull and a systems-integration (not cable-catalog) moat; ranked low in the selection because substitution vectors are numerous and quantum capex is cyclical. Merged best of A-06/D-17.",
+      "evidence_from_candidate": "Record: cryo wiring density is an acknowledged bottleneck (256 channels/loader vs thousands needed, only one vendor's unvalidated roadmap - L13-042) and cryo-electronics power budgets collide with milliwatt fridge cooling (L07-014..017, L13-004/005/022/023); demand: DOE $625M QIS centers (L13-028), Fermilab-Qblox domestic supply chain (L13-032); sold on channels-per-watt economics; substitution risks (on-chip mux, SFQ, cryo-CMOS cold control, optical links) kept on record; first experiment $500k 256-channel segment with 4K 64:1 mux; v1 $4-10M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "The wall is acknowledged by the field and the sole roadmap is unvalidated - buyers need a second credible supplier."},
+        "technical_feasibility": {"score": 3, "reason": "Superconducting flex plus 4K cryo-CMOS mux co-packaging at TRL 3, dependent on MPW cycles and fridge access."},
+        "defensible_edge": {"score": 4, "reason": "Co-engineering against the fridge's hard heat budget is a systems moat; independent validated density data is itself a wedge (record)."},
+        "founder_phd_adjacency": {"score": 4, "reason": "University cryolab flex fabrication and MPW mux tapeouts are executable, though fridge time is a scarce dependency."},
+        "capital_time_to_falsification": {"score": 3, "reason": "$500k experiment with specialized facility needs; slower iteration loop than bench-top candidates."},
+        "timing_2030_2034": {"score": 3, "reason": "Multi-thousand-qubit machines 2029-2032 align, but the window depends on government funding continuity."},
+        "geographic_portability": {"score": 3, "reason": "US beachhead with TW/JP/KR channels; quantum export controls constrain broader reach."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Quantum-adjacent export controls loom over the category."},
+        "failure_modes": {"score": 2, "reason": "Four named substitution vectors could each cap external harness demand; honest but unhedgeable beyond speed."}
+      },
+      "uncertainty": "Which interconnect/readout architecture the field converges on as machines scale.",
+      "principal_risk": "On-chip multiplexing, SFQ readout, or optical links leapfrog external harness density.",
+      "falsifier": "256-channel segment fails <1% crosstalk with per-channel heat load <=20-25% of coax baseline and readout-fidelity parity; or no fridge-OEM/QIS-center integration by 2033."
+    },
+    {
+      "rank": 22,
+      "idea_id": "P3R2-C-12",
+      "concept": "kW-class 20-80 K turbo-Brayton cryocoolers: gas-bearing modular cryogenic engines filling the gap between lab cryocoolers and bespoke helium plants",
+      "decision": "SELECT - the mid-band cryogenic gap is documented across three converging demand streams (fusion, HTS grid, quantum), and the record's staged-capex FIX discipline makes the heavy engineering bet survivable; ranked low because the competitor map is admittedly thin and export separability is the batch's weakest.",
+      "evidence_from_candidate": "Record: commercial catalogs top out at mW-W scale (L03-050) vs ~9.5kW-class bespoke plants (L03-025 context); dilution-refrigerator cooling power separately documented as a quantum constraint (L07-014..017); product is 200W-2kW at 20-80K sealed turbo-Brayton skids, catalog-priced with N+1 redundancy; FIX: capex staged, no full-skid build before a named buyer LOI; CN license-only; P4 competitor map of the 100W-2kW @ 20K band is a stated pre-promotion requirement; first experiment $900k cold-head demo (>=200W at 50K equivalent, 1,000h endurance); v1 $12-30M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Every mid-scale HTS/fusion/quantum deployment hits the same cryo capex/lead-time wall; three demand streams converge on it."},
+        "technical_feasibility": {"score": 3, "reason": "Gas-bearing turboalternators >100 krpm with maintenance-free targets are serious turbomachinery; TRL 4."},
+        "defensible_edge": {"score": 3, "reason": "Mid-band product-class thinness is plausible but rests on one vendor-spec evidence class (record's own flag); reliability track record would be the eventual moat."},
+        "founder_phd_adjacency": {"score": 3, "reason": "Turboalternator/gas-bearing research fits a university turbomachinery lab, but the $900k cold-head demo strains a pre-company phase."},
+        "capital_time_to_falsification": {"score": 2, "reason": "$900k first experiment and $12-30M v1; iteration on rotating cryo machinery is slow."},
+        "timing_2030_2034": {"score": 4, "reason": "Fusion magnet factories, HTS pilots, and quantum buildouts cross to plant scale 2030-2034 simultaneously."},
+        "geographic_portability": {"score": 3, "reason": "US/allied with JP/KR; CN strictly license-only; quantum-entangled export controls restrict the east leg."},
+        "regulatory_safety_friction": {"score": 3, "reason": "Export-control entanglement with quantum rules (record: weakest separability in its batch)."},
+        "failure_modes": {"score": 3, "reason": "Staged capex plus multiple demand streams mitigate; incumbent downward productization (Air Liquide/Linde) is the main mode."}
+      },
+      "uncertainty": "The true competitive occupancy of the 100W-2kW @ 20K band (mandated pre-promotion map not yet done).",
+      "principal_risk": "Incumbent industrial-gas majors or Stirling/CN vendors already serve or quickly close the mid-band.",
+      "falsifier": "2028 single-stage cold head fails >=200W at 50K equivalent with credible loss budget and 1,000h endurance; or the competitor map shows shipping mid-band products."
+    },
+    {
+      "rank": 23,
+      "idea_id": "P3R2-D-09",
+      "concept": "Charge-buildup-immune beam current and dose metrology for ultra-high-dose-rate (FLASH) and industrial electron beams -- the traceable ammeter the field admits it lacks.",
+      "decision": "SELECT - a documented, published measurement failure with a cheap decisive experiment and metrology-grade moat; ranked near the bottom of the selection because the record itself caps the market at instrument scale if FLASH stalls. Chosen over near-duplicates A-08/C-10.",
+      "evidence_from_candidate": "Record: two independent 2024-2025 groups showed beam current transformers are corrupted by field-driven charge buildup at FLASH dose rates - an unresolved calibration/traceability problem (L05-023/024) - while ISO 11137-1:2025 tightens sterilization validation (L05-042); product adds a sterilization-QA calibration-certificate tier (merged from A-08); incumbents optimized for storage rings (Bergoz, L05-049); first experiment $150k side-by-side campaign vs Faraday cup/calorimetry; v1 $1.5-4M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 4, "reason": "Regulators will not accept uncorrected dosimetry; device makers and sterilization operators lack traceable evidence exactly where it is demanded."},
+        "technical_feasibility": {"score": 4, "reason": "Cavity charge measurement cross-calibrated to Faraday/calorimetric references is established metrology art applied to a new regime."},
+        "defensible_edge": {"score": 4, "reason": "Published uncertainty budget and NIST-traceable chain in a regime incumbent catalog parts demonstrably fail."},
+        "founder_phd_adjacency": {"score": 5, "reason": "$150k side-by-side campaign via university medical-physics collaborations is the stated first step - ideal doctoral-scale work."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$150k experiment, $1.5-4M v1 - near the cheapest in the pool."},
+        "timing_2030_2034": {"score": 3, "reason": "FLASH clinical translation timing is uncertain; the industrial sterilization leg alone is steady but small."},
+        "geographic_portability": {"score": 4, "reason": "US+JP; metrology instruments travel well."},
+        "regulatory_safety_friction": {"score": 4, "reason": "The instrument itself is not a regulated device; customers' regulatory needs are the demand driver."},
+        "failure_modes": {"score": 2, "reason": "The record concedes the honest cap: if FLASH stalls, industrial e-beam alone limits the market to tens of millions - a ceiling, not a kill."}
+      },
+      "uncertainty": "FLASH radiotherapy's clinical and regulatory timeline.",
+      "principal_risk": "Market stays instrument-scale; the company is a fine niche, not a venture-scale outcome.",
+      "falsifier": "Side-by-side campaign fails to demonstrate <1-2% cavity-monitor agreement with calorimetry across three orders of dose-rate magnitude where BCTs show the published errors."
+    },
+    {
+      "rank": 24,
+      "idea_id": "P3R2-C-13",
+      "concept": "Precision GaN pump-driver and laser-power modules: nanosecond-class programmable current drive as a merchant subsystem for industrial and defense-adjacent laser OEMs",
+      "decision": "SELECT - closes the shortlist with a cross-market component play on documented driver-NRE pain and named A&D demand; the two-entity export partition and OEM insourcing risk hold it at rank 24. Merged best of A-18/B-19 with diode-health telemetry and TMI-aware firmware.",
+      "evidence_from_candidate": "Record: laser-diode drive remains an active research area (GaN pulsed drivers, LLC modulation, ps-resolution control - L12-025/026/027) so every OEM carries driver NRE while A&D demand accelerates (nLIGHT A&D $175.3M, L12-033); CN price war (Han's high-power revenue -6.6% on +30% units, L12-037) forces outsourcing; FIX gate 2028: two PAID evaluations (one US, one CN commercial) else fold into D-10; first experiment $180k 8-channel 1kA-aggregate driver with TMI trial; v1 $5-12M.",
+      "scores": {
+        "severity_and_budgeted_buyer_pain": {"score": 3, "reason": "Driver NRE is real and margin pressure documented, but OEM not-invented-here culture (record's own flag) makes the pain's purchasability uncertain."},
+        "technical_feasibility": {"score": 4, "reason": "GaN driver performance targets replicate published results; TMI-aware pump-modulation firmware is the novel, plausible layer."},
+        "defensible_edge": {"score": 3, "reason": "Qualified reliability data plus TMI firmware and telemetry; in-house teams and analog-semi reference designs compress the moat."},
+        "founder_phd_adjacency": {"score": 4, "reason": "University fiber-laser lab TMI-mitigation demonstration and driver benchmarking are the stated pre-company steps."},
+        "capital_time_to_falsification": {"score": 5, "reason": "$180k first experiment and a hard 2028 paid-evaluation gate give fast, cheap truth."},
+        "timing_2030_2034": {"score": 4, "reason": "DEW scaling and CN up-market shift both land by 2030; cross-market volume is the economic logic."},
+        "geographic_portability": {"score": 3, "reason": "US+CN+JP, but the mandatory day-one US(DEW)/commercial two-entity partition may force dropping one market (record's own warning)."},
+        "regulatory_safety_friction": {"score": 3, "reason": "ITAR segregation for the DEW line; commercial drivers low-sensitivity."},
+        "failure_modes": {"score": 3, "reason": "OEM insourcing is the dominant mode; the pre-agreed fold-into-D-10 path bounds the downside."}
+      },
+      "uncertainty": "OEM buy-versus-build appetite for drive electronics on both sides of the market.",
+      "principal_risk": "Laser OEMs (IPG/Raycus/Han's in-house teams named in-record) refuse external drivers.",
+      "falsifier": "2028 gate fails: fewer than two paid evaluations (one US, one CN commercial) after the 2027 8-channel/1kA TMI demonstration."
+    }
+  ]
+}

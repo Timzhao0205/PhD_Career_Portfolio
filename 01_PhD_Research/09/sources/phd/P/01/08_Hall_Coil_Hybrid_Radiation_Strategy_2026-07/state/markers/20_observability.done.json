@@ -1,0 +1,33 @@
+﻿{
+    "stage":  "20_observability",
+    "status":  "complete",
+    "completed_at":  "2026-07-27T03:20:27.7365072-07:00",
+    "route":  "claude_code_powershell",
+    "attempt":  1,
+    "retry_cycle":  0,
+    "cycle_attempt":  1,
+    "model":  "claude-fable-5",
+    "reported_models":  "claude-fable-5",
+    "primary_models":  "claude-fable-5",
+    "auxiliary_models":  "",
+    "result_model":  "claude-fable-5",
+    "model_policy_scope":  "fable_final_result_only",
+    "security_fallback_flag":  false,
+    "effort":  "xhigh",
+    "session_id":  "e9602ddc-6ad7-456d-941d-06f070b6e6fc",
+    "validation":  "Required files exist and stage-specific checks passed",
+    "outputs":  [
+                    {
+                        "path":  "outputs\\02_OBSERVABILITY_AND_IDENTIFIABILITY.md",
+                        "sha256":  "ef30538058ba35ccb0c471bd9de813f403d17de7ce6f71e2710e56173bb4b0db"
+                    },
+                    {
+                        "path":  "outputs\\02_MUTUAL_CALIBRATION_FEASIBILITY.md",
+                        "sha256":  "cd90b3e3e69d079059c68ae67ef803833b931a0b8e83a6d8c7cee57124def29b"
+                    },
+                    {
+                        "path":  "outputs\\02_ESTIMATOR_REQUIREMENTS.csv",
+                        "sha256":  "9b1d2e6b15a6f09b240aa1c088110022b5bb0c3af18839691529a3cd2332dbe4"
+                    }
+                ]
+}

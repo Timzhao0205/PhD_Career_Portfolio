@@ -1,0 +1,217 @@
+{
+  "pilot_label": "PILOT SAMPLE — NOT FINAL",
+  "stage": "A30_verify",
+  "mode": "PILOT",
+  "attempt": 1,
+  "scope": "Exactly six deterministic IDs: ranks 1-6 of accepted outputs/A10_blind/attempt-1/SELECTION.json",
+  "comparison_targets": {
+    "old06_final": "sources/old06/60_FINAL_PORTFOLIO/02_COMPARISON_MATRIX.csv (final 24 with ranks and score_total) cross-checked against sources/old06/30_SCREENING/P5_SELECTION.json (top_10_deep_dives, near_misses)",
+    "old06_intermediate": "sources/old06/30_SCREENING/LONGLIST.json (frozen 65-idea longlist), sources/old06/30_SCREENING/SCORECARDS/P4_SCORES_ALL.md (G7 elimination table), sources/old06/20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.json (duplicate clusters), sources/old06/30_SCREENING/REDTEAM/P5_RT_REVIVALS.md",
+    "new06_canonical": "sources/new06/outputs/70_audit/FINAL/SELECTION.json (final_24 + top_10_deep_dives; README.md designates outputs/70_audit/FINAL as 'Canonical audited package'; AUDIT.md records zero repairs to canonical copies)"
+  },
+  "rank_delta_convention": "delta_new_minus_old = new06_final_rank - old06_final_rank (positive = moved down in new06). Null when either side has no final rank.",
+  "ids": [
+    {
+      "a10_rank": 1,
+      "idea_id": "P3R2-E-01",
+      "concept_short": "800VDC rack power-path protection module (SSCB + arc detection + precharge + insulation monitoring, OCP form factor)",
+      "old06_exact_id": {
+        "present_in_final_24": false,
+        "final_rank": null,
+        "status": "REJECTED_PRE_LONGLIST",
+        "detail": "Elegance adjudication verdict REJECT, duplicate_of P3R2-C-01 (sources/old06/20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.json line 95); member of duplicate cluster '800VDC rack-inlet protection' with canonical P3R2-C-01 (line 111); listed only under 'alternates_if_canonical_fails'; NOT on the frozen 65-idea longlist (grep of sources/old06/30_SCREENING/LONGLIST.json found no P3R2-E-01 idea_id entry)."
+      },
+      "new06_exact_id": {
+        "present_in_final_24": false,
+        "final_rank": null,
+        "status": "NOT_A_CANDIDATE",
+        "detail": "grep of sources/new06/** for P3R2-E-01 found zero files; the rerun consumed the frozen longlist, which excludes E-01."
+      },
+      "semantic_match_ref": "SEM-01",
+      "delta_new_minus_old": null,
+      "decision_change_old_to_new": "none at exact-ID level (absent from both finals)",
+      "a10_vs_old_new": "Concept-level agreement is strong (old rank 5 / new rank 2 via documented semantic match C-01) but A10 chose the opposite cluster representative: A10 selected E-01 and marked C-01 DUP-UNSEL; old06 canonicalized C-01 and rejected E-01 as its duplicate."
+    },
+    {
+      "a10_rank": 2,
+      "idea_id": "P3R2-C-05",
+      "concept_short": "Standards-grade liquid-cooling thermal emulation and conformance metrology (TTVs + rack load emulators)",
+      "old06_exact_id": {
+        "present_in_final_24": false,
+        "final_rank": null,
+        "status": "KILLED_P4_G7",
+        "detail": "Frozen-longlist member (PROMOTE) and in longlist 'strongest_ten_diversity_weighted'; P4 score 67.4 but failed gate G7: 'a good, buildable metrology product is chasing a qualification gap that is already active, while the local evidence lacks the required primary/official 2028-2035 trigger and shows a credible path for OCP or vendor labs to standardize it before a 2030 launch' (sources/old06/30_SCREENING/SCORECARDS/P4_SCORES_ALL.md line 48). Not in old final 24, not deep-dived, no P5 revival attempted (absent from REDTEAM files and P5_SELECTION near_misses)."
+      },
+      "new06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 3,
+        "status": "SELECTED",
+        "detail": "score_total 78.3; top_10_deep_dives member (DEEP/D03.md)."
+      },
+      "semantic_match_ref": null,
+      "delta_new_minus_old": null,
+      "decision_change_old_to_new": "KILL (P4 G7) -> SELECT rank 3 + deep dive",
+      "a10_vs_old_new": "A10 blind rank 2 independently agrees with new06 (rank 3) against old06's kill. This is the pilot's verified material disagreement (DIS-C05-OCP-DESCHUTES)."
+    },
+    {
+      "a10_rank": 3,
+      "idea_id": "P3R2-D-01",
+      "concept_short": "Merchant HTS/REBCO quench detection and protection subsystem",
+      "old06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 3,
+        "status": "SELECTED",
+        "detail": "score_total 62.8, confidence low; old top_10_deep_dives position 3."
+      },
+      "new06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 7,
+        "status": "SELECTED",
+        "detail": "score_total 72.9; top_10_deep_dives member (DEEP/D07.md)."
+      },
+      "semantic_match_ref": null,
+      "delta_new_minus_old": 4,
+      "decision_change_old_to_new": "none (selected in both; moved down 4 ranks in new06)",
+      "a10_vs_old_new": "Three-way agreement on selection and deep-dive status; A10 rank 3 sits between old (3) and new (7)."
+    },
+    {
+      "a10_rank": 4,
+      "idea_id": "P3R2-C-09",
+      "concept_short": "Standardized solid-state pulsed-power platform (stackable Marx/modulator modules)",
+      "old06_exact_id": {
+        "present_in_final_24": false,
+        "final_rank": null,
+        "status": "KILLED_P4_G7_AND_REVIVAL_KILLED",
+        "detail": "Frozen-longlist member (PROMOTE); P4 score 64.4, G7 fail: 'demand exists today, but no eligible official 2028-2035 trigger supports an open 2030 entry window; the EtO pressure premise is moving in the wrong direction, current incumbents are expanding now, and the largest named China counterparty carries Entity-List-adjacency risk' (P4_SCORES_ALL.md line 51). A P5 revival was proposed and killed by fresh red team: 52.2/100, G7 FAIL, 'the load-bearing CEPC schedule in the repair was stale' (sources/old06/30_SCREENING/REDTEAM/P5_RT_REVIVALS.md); recorded as near-miss 'Killed: the facility schedule moved beyond the required launch window' (P5_SELECTION.json)."
+      },
+      "new06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 12,
+        "status": "SELECTED",
+        "detail": "score_total 72.0; top_10_deep_dives member (DEEP/D09.md); new why_now cites dated cargo-scanning/isotope procurement and ScandiNova moving toward more proprietary integration."
+      },
+      "semantic_match_ref": null,
+      "delta_new_minus_old": null,
+      "decision_change_old_to_new": "KILL (P4 G7; revival re-killed at P5) -> SELECT rank 12 + deep dive",
+      "a10_vs_old_new": "A10 blind rank 4 is more bullish than both; directionally agrees with new06's revival, disagrees with old06's double kill."
+    },
+    {
+      "a10_rank": 5,
+      "idea_id": "P3R2-D-02",
+      "concept_short": "Reel-to-reel contactless REBCO tape acceptance metrology",
+      "old06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 1,
+        "status": "SELECTED",
+        "detail": "score_total 65.6; old top_10_deep_dives position 1."
+      },
+      "new06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 1,
+        "status": "SELECTED",
+        "detail": "score_total 81.9; top_10_deep_dives member (DEEP/D01.md)."
+      },
+      "semantic_match_ref": null,
+      "delta_new_minus_old": 0,
+      "decision_change_old_to_new": "none (rank 1 in both)",
+      "a10_vs_old_new": "Old and new both rank it 1; A10 ranks it 5 (still top-quartile). Mild ordering disagreement only; A10's METHOD notes adjacent ranks are close calls."
+    },
+    {
+      "a10_rank": 6,
+      "idea_id": "P3R2-A-14",
+      "concept_short": "300C-class mixed-signal SiC/SOI instrumentation electronics platform",
+      "old06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 9,
+        "status": "SELECTED",
+        "detail": "score_total 54.6, confidence high; old top_10_deep_dives position 9."
+      },
+      "new06_exact_id": {
+        "present_in_final_24": true,
+        "final_rank": 6,
+        "status": "SELECTED",
+        "detail": "score_total 74.8; top_10_deep_dives member (DEEP/D06.md)."
+      },
+      "semantic_match_ref": null,
+      "delta_new_minus_old": -3,
+      "decision_change_old_to_new": "none (selected in both; moved up 3 ranks in new06)",
+      "a10_vs_old_new": "Three-way agreement; A10 rank 6 exactly matches new06 rank 6."
+    }
+  ],
+  "semantic_match_ledger": [
+    {
+      "ledger_id": "SEM-01",
+      "a10_id": "P3R2-E-01",
+      "matched_id": "P3R2-C-01",
+      "matched_old06_final_rank": 5,
+      "matched_old06_deep_dive": true,
+      "matched_new06_final_rank": 2,
+      "matched_new06_deep_dive": true,
+      "documented_evidence": [
+        "old06 elegance adjudication: E-01 verdict REJECT with duplicate_of='P3R2-C-01' and duplicate cluster '800VDC rack-inlet protection' canonical=C-01, members include E-01 (sources/old06/20_OPPORTUNITY_POOL/P3R2_ELEGANCE_ADJUDICATION.json lines 95, 111)",
+        "A10 side: SELECTION.json rank-1 decision text 'Chosen over near-duplicates A-01/B-03/C-01'; METHOD.md tie-handling 'E-01 over C-01 (same concept, lower capital and cleaner export posture)'"
+      ],
+      "note": "Documented same-concept cluster match in BOTH corpora's own records, not name similarity. Kept strictly separate from exact-ID overlap."
+    }
+  ],
+  "pairwise_overlap_pilot_scope": {
+    "note": "Counts are within the six-ID pilot scope only; they are NOT estimates of full 24/10 overlap.",
+    "exact_id": {
+      "a10_six_in_old06_final_24": {"count": 3, "ids": ["P3R2-D-01", "P3R2-D-02", "P3R2-A-14"]},
+      "a10_six_in_old06_top10_deep_dives": {"count": 3, "ids": ["P3R2-D-01", "P3R2-D-02", "P3R2-A-14"]},
+      "a10_six_in_new06_final_24": {"count": 5, "ids": ["P3R2-C-05", "P3R2-D-01", "P3R2-C-09", "P3R2-D-02", "P3R2-A-14"]},
+      "a10_six_in_new06_top10_deep_dives": {"count": 5, "ids": ["P3R2-C-05", "P3R2-D-01", "P3R2-C-09", "P3R2-D-02", "P3R2-A-14"]},
+      "of_the_six_in_both_old_and_new_final_24": {"count": 3, "ids": ["P3R2-D-01", "P3R2-D-02", "P3R2-A-14"]}
+    },
+    "with_documented_semantic_matches": {
+      "a10_six_matched_in_old06_final_24": {"count": 4, "added": ["P3R2-E-01 via SEM-01 -> P3R2-C-01 old rank 5"]},
+      "a10_six_matched_in_new06_final_24": {"count": 6, "added": ["P3R2-E-01 via SEM-01 -> P3R2-C-01 new rank 2"]}
+    }
+  },
+  "decision_changes_old_to_new_within_scope": [
+    {"idea_id": "P3R2-C-05", "change": "KILL(P4 G7) -> SELECT rank 3 + deep dive"},
+    {"idea_id": "P3R2-C-09", "change": "KILL(P4 G7, revival re-killed) -> SELECT rank 12 + deep dive"},
+    {"idea_id": "P3R2-D-01", "change": "rank 3 -> rank 7 (delta +4)"},
+    {"idea_id": "P3R2-A-14", "change": "rank 9 -> rank 6 (delta -3)"},
+    {"idea_id": "P3R2-D-02", "change": "rank 1 -> rank 1 (delta 0)"},
+    {"idea_id": "P3R2-E-01 (semantic C-01)", "change": "rank 5 -> rank 2 (delta -3)"}
+  ],
+  "verified_disagreement": {
+    "disagreement_id": "DIS-C05-OCP-DESCHUTES",
+    "subject": "P3R2-C-05 (A10 rank 2): old06 killed it at P4 gate G7; new06 selected it at rank 3; A10 independently blind-ranked it 2.",
+    "old06_position": "G7 fail at 67.4: qualification gap 'already active', no primary/official 2028-2035 trigger, and 'a credible path for OCP or vendor labs to standardize it before a 2030 launch'.",
+    "new06_position": "Rank 3 on the factual predicate that Google published its Project Deschutes 2MW CDU specification (3C approach temperature difference, ~80 PSI) via OCP with eight named vendors building to it, while OCP cooling standardization 'remains partial — draft coolant guidelines, a quick-disconnect spec still in revision, and no complete conformance test method with reference hardware' (sources/new06/outputs/50_deep/DEEP/D03.md).",
+    "verification": [
+      {
+        "claim": "Google contributed the fifth-generation Project Deschutes CDU specification to OCP and published the specification and design collateral.",
+        "result": "VERIFIED",
+        "evidence": "Google Cloud Blog post dated 2025-10-13 (opened in full): 'we announced Project Deschutes, a state-of-the-art liquid cooling solution that we contributed to the Open Compute community, and have since published the specification and design collateral', linking to opencompute.org spec document 'ocp-specification-deschutes-final-2025-09-05'.",
+        "source_rows": ["C05-DIS-01"]
+      },
+      {
+        "claim": "A multi-vendor ecosystem builds/demonstrates Deschutes-compliant CDUs.",
+        "result": "VERIFIED for 7 vendors; the 8th (Stulz) only at trade/search level",
+        "evidence": "Google's own blog names Boyd, CoolerMaster, Delta, Envicool, Nidec, nVent, Vertiv showcasing demos at OCP Global Summit and SuperComputing 2025. Nidec's official release (opened) confirms a compliant prototype at 2MW-class, 80 PSI, IEEE-519 ULHD VFD, exhibited at SC25. Stulz appears in the DCD headline and search summaries only; the DCD page returned HTTP 403 to fetch.",
+        "source_rows": ["C05-DIS-01", "C05-DIS-02", "C05-DIS-05"]
+      },
+      {
+        "claim": "OCP's cooling standardization is guideline/white-paper class with no complete conformance/qualification program with reference hardware.",
+        "result": "PARTIALLY_VERIFIED (direction supported; negative claim not fully confirmable)",
+        "evidence": "Search-level listing of opencompute.org documents shows guideline/requirements/white-paper titles (Cold Plate Development and Qualification white paper; Guidelines for water-based fluids; TCS row-manifold pre-commission guidelines; ACS Cold Plate Requirements; an 'L2L CDU Test Methodology performance rating' white paper). No OCP conformance/certification program with reference hardware surfaced. However, opencompute.org returned HTTP 403 to every direct fetch (blog, wiki, spec PDF), so the OCP pages themselves could not be opened; the existence of a CDU test-methodology WHITE PAPER means the vacuum claim must be read narrowly as 'no certification program with reference hardware', which matches D03.md's own wording but was not confirmed by opening OCP pages.",
+        "source_rows": ["C05-DIS-03", "C05-DIS-04"]
+      }
+    ],
+    "adjudication": "New06's factual predicate is substantively correct on opened primary evidence: a buyer-authored, OCP-published 2MW CDU specification with a real multi-vendor implementation ecosystem existed by late 2025, and no OCP conformance program was found. Old06's kill relied partly on a forecast (OCP/vendor labs standardizing the qualification layer before 2030) that had not materialized at the new06 refresh and partly on a strict gate-construction (dated official 2028-2035 trigger) that is methodological rather than factual. A10's independent blind rank 2 aligns directionally with new06. Whether C-05 belongs at rank 2-3 versus merely 'selected' remains a judgment call not settled by these facts.",
+    "confidence": "HIGH on the Deschutes ecosystem facts (two independent primary/official sources opened); MODERATE on the OCP-vacuum negative claim (discovery-level only, OCP fetch-blocked); MODERATE on the overall adjudication that the kill was wrong, because the G7 gate difference is partly methodological."
+  },
+  "unresolved_issues": [
+    "Full-run must compute exact-ID and semantic overlap for all 24/10, not just these six.",
+    "P3R2-D-10 shows the same old-kill(G7 at 73.4)/new-select(rank 4) reversal pattern as C-05/C-09 but is outside the pilot six (A10 rank 14); full run should verify at least one fact in that reversal.",
+    "opencompute.org blocks WebFetch (HTTP 403); full run should re-attempt OCP primary documents by another route before treating the 'no conformance method' negative claim as fully verified.",
+    "new06's source R10-023 (sector-signals.net, 'Sector Signals') backing the OCP-partial-standardization claim is an unfamiliar outlet; its reliability was not independently established and it could not be substituted for OCP primary pages in this pilot.",
+    "Nidec release date is ambiguous (page extraction displayed 2025-03-12; URL pattern news1203 and SC25 content imply on/after 2025-11); content claims verified, date recorded as uncertain.",
+    "new06's own model/effort provenance was not audited (A20 covered old06 only); new06 agreement is content agreement, not provenance evidence.",
+    "Old06 final ranks taken from 60_FINAL_PORTFOLIO/02_COMPARISON_MATRIX.csv and cross-checked only against P5_SELECTION.json top_10_deep_dives; a full re-derivation of old ranks 11-24 from P5 records was not performed in the pilot."
+  ],
+  "provenance_conditioning_summary": "Per accepted A20: old06's P4 scoring/G7 kills, P5 red-teams/revival kills, final 24/top 10, and all deep dives are CONTRADICTED provenance (ChatGPT-continuation, actual model unknown); only the underlying idea records/longlist are Fable-5-model-verified (effort request-only). Therefore old-vs-A10 disagreements are not 'Fable disagreeing with Fable', and overlap with old06 finals is agreement with an unknown-model selection. High overlap anywhere is agreement evidence only, never proof of historical authorship or correctness."
+}

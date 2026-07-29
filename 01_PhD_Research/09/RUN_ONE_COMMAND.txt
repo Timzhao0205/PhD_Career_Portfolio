@@ -1,0 +1,1 @@
+claude --agent pap06-controller --model fable --effort xhigh --permission-mode bypassPermissions --strict-mcp-config --no-chrome --name PAP06-NATIVE --debug-file "logs/claude-native-debug.log"

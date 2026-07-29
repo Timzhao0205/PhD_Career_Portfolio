@@ -1,0 +1,818 @@
+{
+  "artifact": "30_redteam adversarial review of the 30 P4 survivors",
+  "method": "Each survivor attacked by the main Fable 5/xhigh agent across buyer willingness to outsource, closest substitutes, 10x-edge measurability, experiment realism, capital path, timing, US/China beachheads, export control, and source quality. Two bounded source-retriever verification batches (18 targeted checks, opened sources) refreshed the most load-bearing competitor and program claims on 2026-07-28; the main agent personally adjudicated every decision. Decisions: survive 23, repair 7 (binding repair requirements recorded), reject 0 — the realized kill events had already eliminated 21 ideas at P4.",
+  "ideas": [
+    {
+      "idea_id": "P3R2-D-02",
+      "decision": "survive",
+      "failure_modes": [
+        "Tape vendors' TapeStar data accepted as-is by magnet builders — no neutral-referee premium",
+        "THEVA adds delamination/thermal channels to TapeStar",
+        "Fusion tape volume disappoints (low-beta thesis still assumes volume growth)",
+        "Exclusive vendor-instrument partnership forecloses the neutral position"
+      ],
+      "strongest_counterargument": "The market already has a de facto standard instrument (TapeStar, sold openly and used by all well-known producers); buyers may standardize on comparing TapeStar maps rather than paying a startup to referee them.",
+      "demand_separability": "US (CFS/Furukawa-Tokamak transactions) and CN (Shanghai Superconductor RMB1.6B HL-4 contract) legs independently contracted; cable/grid QA is a third leg.",
+      "competition_test": "2026-07 verification: THEVA's own product page documents TapeStar as Ic-mapping only — no delamination detection, no lock-in thermography channel. The pilot finding (TapeStar sold openly via distributors) corrects the P4 'captive-only' frame, but the capability gap the product targets is real and vendor-page-verified.",
+      "technical_kill_test": "2027 benchtop failing blind Ic correlation <5% on 50 cut samples, or failing to demonstrate delamination/dropout detection beyond TapeStar's documented capability, kills the differentiation.",
+      "commercial_kill_test": "A THEVA delamination-channel product release, or magnet builders publicly accepting vendor self-QC in purchase specs, removes the neutral-acceptance premium.",
+      "geography_findings": "Both legs verified; WST/ASIPP Entity-List status must be conclusively resolved before CN transactions (inconclusive negative searches only); IEC 61788 text remains unfetched.",
+      "source_defects": "P4 record framed TapeStar as captive — corrected: it is a merchant instrument; scanner pricing assumptions unsourced; IEC 61788 acceptance-standard text unverified across all sessions.",
+      "repair_requirements": "Correct the competitor framing in all records; fetch IEC 61788 and resolve WST/ASIPP screening conclusively before P6 packs.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-D-02-S01",
+        "P3R2-D-02-S02",
+        "L03-044",
+        "R10-036",
+        "L03-020"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-01",
+      "decision": "survive",
+      "failure_modes": [
+        "NVIDIA/OCP spec absorption: DG Matrix Interport SST already shipping into the MGX ecosystem with UL cert targeted Q2-2026",
+        "Hyperscaler vertical integration of protection",
+        "UL/IEC certification timeline for a novel 800V hybrid breaker shelf exceeds the window",
+        "ABB extends SACE Infinitus from maritime into the datacenter socket"
+      ],
+      "strongest_counterargument": "The reference-architecture owner is already seeding merchant power blocks inside its ecosystem (DG Matrix shipping Q1-2026, UL cert imminent), and ABB holds the world's first IEC-certified SSCB — the protection layer may be claimed by better-capitalized players two to three years before this venture's brassboard exists.",
+      "demand_separability": "US (NVIDIA/OCP documented gap) and CN (OAII buyer-co-chaired forum; missing CN 800V certification standard) are independently evidenced and separable.",
+      "competition_test": "2026-07 verification: DG Matrix shipping with pre-certification units and MGX inclusion (snippet-grade, needs direct confirmation); ABB SACE Infinitus certified for maritime and positioned-but-not-yet-qualified for 800VDC datacenter — the merchant protection-shelf socket is contested but not yet taken.",
+      "technical_kill_test": "Q2-2027 brassboard failing <100us bidirectional clearing at 800V/250A, 10,000 hot-swap cycles, or arc discrimination without nuisance trips at 1MW-rack transients kills the technical claim.",
+      "commercial_kill_test": "An OCP-published reference protection design shipped integrated by Delta/Vertiv, or DG Matrix/ABB certification landing the socket, before this venture's UL/IEC path completes.",
+      "geography_findings": "Dual legs stand; CN Ga/Ge licensing regime is a supply-chain gate; the missing CN 800V safety standard is both signal and risk.",
+      "source_defects": "DG Matrix status rests on snippet-grade sources (BusinessWire fetch failed) — must be re-verified directly; rack/campus count arithmetic unvalidated.",
+      "repair_requirements": "Direct-verify DG Matrix certification/shipping status and ABB's datacenter qualification quarterly; pull the certification-path planning forward (file the UL/IEC pre-submission in 2027, not 2028).",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "L02-043",
+        "L02-044",
+        "P3R2-C-01-S03",
+        "P3R2-C-01-S04",
+        "R10-047"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-10",
+      "decision": "survive",
+      "failure_modes": [
+        "Primes classify and internalize beam control",
+        "The design-win window resolves 2026-2028, before the 2030 launch",
+        "ITAR overhead and clearance timelines for a components startup",
+        "Civan-class integrated CBC approaches bypass the merchant controller"
+      ],
+      "strongest_counterargument": "Beam control is the crown-jewel software/hardware layer of a laser weapon; primes under classification pressure will no more outsource it than flight-control laws, and the Navy's beam-control line item will be awarded to the primes themselves.",
+      "demand_separability": "DEW (JLWS/JBCS) and industrial ultrafast CBC legs are independent; NNSA EYC adds a third non-weapons government leg.",
+      "competition_test": "2026-07 verification: Navy JBCS remains a planned Q4-2026 award (budgeted, not solicited) — the subsystem-specific procurement is real and imminent; no merchant phase-control vendor emerged; prime in-house teams remain the competition.",
+      "technical_kill_test": "2027 16-channel array failing lambda/30 rms lock or >90% combining efficiency under 1g vibration kills the scalability claim.",
+      "commercial_kill_test": "JBCS awards going exclusively to JLWS primes with no subsystem carve-out, plus no industrial CBC design win by 2029, confines the venture to component sales.",
+      "geography_findings": "US-only; ITAR structuring from day one; Korea's fielded system is context, not a market.",
+      "source_defects": "FY2027 DE budget figures partially snippet-grade; DARPA AMPED dollar figures single-source.",
+      "repair_requirements": "Track the JBCS solicitation and secure a prime teaming or SBIR position inside it during 2026-2027 — the window is now, ahead of the nominal 2030 launch.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-D-10-S01",
+        "R10-032",
+        "R10-041",
+        "L12-001",
+        "L12-033"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-05",
+      "decision": "survive",
+      "failure_modes": [
+        "OCP publishes a complete qualification methodology with reference hardware, collapsing differentiation",
+        "Instrumentation TAM ceiling; licensing/consumables economics unproven",
+        "In-house dummy-load rigs remain good enough for most vendors",
+        "CN certification-lab channel (CAICT/Taier) never converts to sales"
+      ],
+      "strongest_counterargument": "The OCP community is the natural owner of any qualification standard; a merchant metrology vendor betting against the consortium's publishing cadence is betting against the very body its customers govern.",
+      "demand_separability": "US (Deschutes-spec vendor ecosystem) and CN (GB 40879/T-CIEP acceptance regimes) are independent; fluid-qualification rigs add a third buyer class.",
+      "competition_test": "2026-07 verification: OCP artifacts remain guidelines/white-papers/requirements docs (cold-plate white paper 2022+comments; coolant guidelines 2024-2025; UQD v2.0 still in revision) — no complete methodology with reference hardware exists; the kill trigger is untripped and freshly re-verified.",
+      "technical_kill_test": "2026-27 TTV failing 16-zone programmable hotspot control or the blind cold-plate round-robin producing non-discriminating variance kills the method-authority claim.",
+      "commercial_kill_test": "An OCP full-methodology release with reference hardware before the venture's method becomes the industry habit.",
+      "geography_findings": "Both legs verified; export trivial; Taier channel plausible but unconfirmed as a sales route.",
+      "source_defects": "OCP primary documents partly unfetchable (403/429) — secondary-source dependence flagged; bench pricing assumptions unsourced.",
+      "repair_requirements": "Join the OCP Cooling Environments workstream immediately (shape the method rather than race it); convert one Deschutes-ecosystem vendor into a paid round-robin participant by 2027.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-C-05-S01",
+        "P3R2-C-05-S02",
+        "R10-023",
+        "L14-039"
+      ]
+    },
+    {
+      "idea_id": "P3R2-E-14",
+      "decision": "survive",
+      "failure_modes": [
+        "US multi-terminal HVDC slips: Grain Belt Express still pre-construction; Southern Spirit slipped to ~2029 construction",
+        "Converter vendors refuse third-party protection in their stations",
+        "SEL wakes up (SEL-9L 'coming soon') and extends its trust advantage to DC",
+        "Siemens's new DC protection portfolio bundles the layer"
+      ],
+      "strongest_counterargument": "Every HVDC station is sold as an integrated vendor package including protection; the neutral-relay premise requires developers to unbundle a safety-critical layer from the vendor who warranties the converter — something no US HVDC buyer has ever done.",
+      "demand_separability": "Three independent developers (Pattern, Invenergy, Grid United) plus FERC 1920 structure; the qualification-suite product line is separable from the relay product and sells even to vendor-integrated projects.",
+      "competition_test": "2026-07 verification: SEL lists no DC-specific relay beyond T401L (SEL-9L unspecified 'coming soon'); Siemens launched a DC protection/switching portfolio (vendor-integrated); GBX confirmed pre-construction with $1.7B contractors and the Illinois Supreme Court clearance (Jan 2026) — demand real, timeline honest.",
+      "technical_kill_test": "2027 HIL benchmark failing <1ms trip decisions on the 4-terminal model, or the three published algorithms proving non-discriminating, kills the relay claim.",
+      "commercial_kill_test": "All named projects awarding protection inside converter-vendor packages with no neutral qualification scope by 2029.",
+      "geography_findings": "US primary verified; CN license-only channel legally viable (State Grid/XJ not listed) but domestic-only procurement confirmed; KR localization side market real.",
+      "source_defects": "Southern Spirit schedule conflict across sources resolved to the developer's own page (~2029/~2032); relay-bay pricing assumptions unsourced.",
+      "repair_requirements": "Reposition the near-term revenue on the HIL qualification suite (sellable to vendor-integrated projects) with the relay as the 2030 product; secure one developer or ISO/RTO study engagement by 2028.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-E-14-S01",
+        "P3R2-E-14-S03",
+        "R10-053",
+        "L08-005",
+        "L08-052"
+      ]
+    },
+    {
+      "idea_id": "P3R2-A-14",
+      "decision": "survive",
+      "failure_modes": [
+        "Superhot drilling slips and the 300C market stays program-funded",
+        "High-temperature packaging/die-attach (the true gate) fails or stays bespoke",
+        "Oilfield in-house teams capture their own tool electronics",
+        "DARPA THERMAL performers emerge as funded rivals above 300C"
+      ],
+      "strongest_counterargument": "The buyers with money (SLB/Halliburton/Baker Hughes) already run 200C in-house electronics teams and will extend them to 300C for their own tools the moment the market matters, leaving the merchant platform with academic programs and the fringe.",
+      "demand_separability": "Geothermal, downhole oil-and-gas, aero-engine instrumentation, and (later) space are genuinely independent demand legs sharing one platform; the thesis survives a slip in any single leg.",
+      "competition_test": "Precision restatement required from the 2026-07 verification pass: CISSOID the company remains active (SiC automotive power, Edag partnership May 2025) — it is specifically the HT mixed-signal CHT line that closed with the X-FAB process; and Ozark IC is an ACTIVE merchant competitor with a $1.15M DOE Geothermal Technologies award (through Sept 2026) and -180C-to-800C XNode instrumentation shown at Paris Air Show 2025 — the geothermal-instrumentation beachhead is not empty. TI remains capped at 175-210C; DARPA THERMAL is the funded future rival to co-opt.",
+      "technical_kill_test": "2028 experiment failing 300C/1,000h with <1% drift on the 8-channel front-end, or the packaging stack failing 500 thermal cycles, kills the qualification claim.",
+      "commercial_kill_test": "An SLB/BH internal 300C platform announcement, Ozark XNode winning the named superhot programs first, or Quaise/Mazama/FORGE collectively slipping past 2030, guts the merchant window.",
+      "geography_findings": "US-only verified; CN absence re-confirmed by direct bilingual search; Fukushima robotics remains a JP side channel.",
+      "source_defects": "The 'CISSOID exit' shorthand overstates — restate as HT-line closure everywhere it appears; well-count and module-price arithmetic assumption-based; the $10k Dewar cost anchor is soft.",
+      "repair_requirements": "Map Ozark's XNode capability against the 300C mixed-signal platform claim (SBC/instrument vs qualified chipset+module distinction); restate the CISSOID status precisely in all records; convert one named program (Quaise/Mazama/FORGE awardee) into a paid instrumentation pilot by 2028.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-A-14-S01",
+        "P3R2-A-14-S02",
+        "P3R2-A-14-S04",
+        "P3R2-A-14-S05",
+        "R10-010",
+        "R10-011"
+      ]
+    },
+    {
+      "idea_id": "P3R2-A-10",
+      "decision": "repair",
+      "failure_modes": [
+        "CN leg as frozen is structurally blocked (NAURA/Piotech Entity-Listed, AMEC VEU-lapsed)",
+        "OEMs lock chamber data behind proprietary interfaces",
+        "Generator vendors integrate good-enough IEDF inference",
+        "Patent-dense event-detection adjacency (FTO unperformed)"
+      ],
+      "strongest_counterargument": "The tool OEMs own the chamber, the data, and the qualification path; a vendor-neutral sensor that requires their cooperation to install is not vendor-neutral in any commercially meaningful sense, and the incumbent generator vendors can bundle inference cheaper than a startup can sell measurement.",
+      "demand_separability": "US leg (AE installed base + CHIPS fabs) stands alone; the CN leg must be rebuilt around non-listed counterparties or dropped — separability is the repair, not an assumption.",
+      "competition_test": "2026-07 verification: Impedans' own page confirms Semion is measurement-only with operator-driven adjustment — no closed-loop product exists; the closed-loop wedge is fresh and real. Quantemol/Oxford Instruments TWB work is adjacent R&D, not a product.",
+      "technical_kill_test": "2027-28 demo failing +/-2 eV closed-loop IEDF hold under drift, or failing correlation to etch-profile metrics, kills the control claim.",
+      "commercial_kill_test": "An AE/MKS integrated IEDF-inference release, or OEM interface lockdown policies, forecloses the retrofit channel.",
+      "geography_findings": "US strong; CN restructure required: mature-node scope via non-listed channels only, with the 2027 counsel gate treated as a hard go/no-go.",
+      "source_defects": "CN leg's named customers were all compliance-blocked at freeze — the record must be rewritten; retrofit-kit pricing assumptions unsourced.",
+      "repair_requirements": "Rewrite the CN chapter off Entity-Listed customers (or US-primary), complete the FTO analysis for the event-detection layer, and obtain one fab process-group evaluation LOI by 2028.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-A-10-S01",
+        "P3R2-A-10-S04",
+        "L06-039",
+        "L06-037",
+        "R10-005"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-13",
+      "decision": "repair",
+      "failure_modes": [
+        "Named CN buyer (Raycus) BIS Entity-Listed — CN leg as written is unshippable for US-origin content",
+        "OEM NIH culture: laser OEMs have always built drivers in-house",
+        "DEW line demands strict US-entity separation whose overhead consumes the margin",
+        "TMI-aware firmware moat may be replicable by OEM research groups"
+      ],
+      "strongest_counterargument": "Laser OEMs treat drive electronics as core IP precisely because pump control shapes beam quality; the outsourcing thesis mistakes cost-down pressure for willingness to externalize the most differentiating subsystem.",
+      "demand_separability": "US DEW demand (JLWS executed awards) is fully separable from the CN commercial leg; each stands on its own evidence, though the CN leg needs counterparty repair.",
+      "competition_test": "In-house teams at IPG/Raycus/Han's confirmed as the real competitive set; no merchant driver vendor emerged in any 2026 check; TI/ADI reference designs remain the DIY substrate.",
+      "technical_kill_test": "2027 8-channel 1kA driver failing ns-edge control or the closed-loop TMI stability gain on a 1kW amplifier kills the technical premium.",
+      "commercial_kill_test": "The seed's own 2028 gate: fewer than two paid evaluations (one US, one CN commercial) by 2028 folds the idea into D-10.",
+      "geography_findings": "US leg strong; CN leg must re-target Han's Laser (screens clean on available checks) or fully CN-domestic content; Raycus is blocked. Two-entity partition day-one.",
+      "source_defects": "$847M vs $627M ceiling discrepancy reconciled ($627M nLIGHT ceiling within $847M combined program); Han's Q1-2026 figures unfetched (404).",
+      "repair_requirements": "Re-screen the entire CN counterparty list against the Entity List and the 50% Affiliates Rule; name Han's-class replacements in the record; reconcile ceiling figures in all downstream documents.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-C-13-S01",
+        "P3R2-C-13-S03",
+        "P3R2-C-13-S04",
+        "R10-032",
+        "L12-034"
+      ]
+    },
+    {
+      "idea_id": "P3R2-F-01",
+      "decision": "repair",
+      "failure_modes": [
+        "HK golden-reference licensing structure is evasion-adjacent under the strict-liability 50% Affiliates Rule",
+        "Two of three named CN buyers Entity-Listed (NAURA, Piotech)",
+        "AE/MKS integrate solid-state matching as a platform feature before a merchant design win",
+        "Sub-10us product-generation demand never separates from category demand"
+      ],
+      "strongest_counterargument": "The incumbents own both the generator and the tool relationship; when solid-state matching matters they will ship it inside their platforms, and a merchant module company becomes a licensing target at best — the window is theirs to close at will.",
+      "demand_separability": "US and CN legs rest on independent evidence (AE platform ramps; AMEC growth + localization policy) — separable, but the CN leg only via AMEC after repair.",
+      "competition_test": "Comet's flagship Synertia verified electromechanical at <500ms on its own product page — the technical whitespace is real and freshly confirmed; no merchant fast matcher exists as of 2026-07 (refresh).",
+      "technical_kill_test": "2027 matcher failing <10us re-match on a pulsed load, or reflected-power/lifetime data at 5kW, kills the core claim.",
+      "commercial_kill_test": "An AE or MKS integrated solid-state matching announcement before a first design win collapses the merchant socket to CN-only.",
+      "geography_findings": "US leg clean; CN chapter must be restructured: AMEC-direct (not Entity-Listed) with counsel-cleared licensing, dropping the HK jurisdiction-routing scheme; mature-node scope retained.",
+      "source_defects": "CN RF-component localization figure uncertain (<12% vs ~20% unresolved); no unit-price source for matching modules.",
+      "repair_requirements": "Replace the HK structure with a counsel-designed compliant licensing architecture; re-source the localization rate; document AE/MKS roadmap checks quarterly.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-F-01-S01",
+        "P3R2-F-01-S02",
+        "P3R2-F-01-S03",
+        "R10-055",
+        "L06-048"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-01",
+      "decision": "survive",
+      "failure_modes": [
+        "No-insulation windings prove sufficient at pilot-plant scale, shrinking the detection problem",
+        "CFS builds in-house protection and sets the de facto standard",
+        "DOE Milestone Program appropriations gap starves the buyer cohort",
+        "Product-specific demand must be created — no protection RFP exists"
+      ],
+      "strongest_counterargument": "The magnet builders most likely to buy are the ones best equipped to build: quench protection is inseparable from magnet design, and CFS/TE Magnetics will no more outsource it than they outsource winding — the merchant analogy to SEL fails because relays protect other people's assets, not the vendor's own core product.",
+      "demand_separability": "US fusion cohort demand (8 milestone companies + US ITER + merchant magnet buyers like Realta/WHAM) spans multiple independent programs; NMR/accelerator/cable side markets hedge fusion schedule risk.",
+      "competition_test": "No merchant integrated HTS detection+dump vendor exists (verified across P4 and refresh); CERN CLIQ is LTS-tuned prior art; in-house approaches and NI windings are the true competition.",
+      "technical_kill_test": "2027 campaign failing >=100ms warning before thermal runaway or <1% false-trigger on driven quenches kills the sensing-fusion claim.",
+      "commercial_kill_test": "A CFS-published open protection solution, or ARC-class builds standardizing on NI windings, removes the merchant socket before 2030.",
+      "geography_findings": "US-only; ASIPP/CFETR strictly license-out and counsel-gated — correctly excluded; KEPCO/LS cable channel is side-market upside.",
+      "source_defects": "TAM arithmetic rests on unsourced per-system pricing; FY2027 appropriations status needs annual re-verification.",
+      "repair_requirements": "Secure one magnet-builder co-test agreement (WHAM-class academic magnet acceptable) by 2028 to convert ecosystem demand into product demand.",
+      "residual_risk": "medium",
+      "confidence": "medium",
+      "source_ids": [
+        "L03-032",
+        "L03-035",
+        "R10-035",
+        "P3R2-D-01-S01",
+        "L03-004",
+        "L03-018"
+      ]
+    },
+    {
+      "idea_id": "P3R2-A-05",
+      "decision": "survive",
+      "failure_modes": [
+        "SAES adds US coating capacity and closes the sovereignty gap",
+        "Big-science budgets slip (EIC/PIP-II schedule risk) making demand lumpy",
+        "Niche ceiling: coating-service revenue may stay sub-venture-scale",
+        "Founder profile far from surface-chemistry core — key-person hiring risk"
+      ],
+      "strongest_counterargument": "This is a process-services niche whose entire premium rests on one incumbent's absence from the US; the incumbent can erase the thesis with one capacity decision, and the founder brings no process-chemistry advantage to defend against that.",
+      "demand_separability": "US-only by design; demand is multi-program federal (EIC CD-3B, PIP-II, QIS centers) plus ITER tenders — separable from any single program, but all correlated to DOE budget cycles.",
+      "competition_test": "Fresh checks (refresh R10-004) confirm SAES still lists only Italy facilities and no second merchant NEG vendor surfaced; in-house coating exists only at CERN-affiliated labs. Whitespace verified as of 2026-07.",
+      "technical_kill_test": "2027 pilot: TiZrV on 1-m pipes failing activation <=200C or sticking coefficients >20% off SAES-class performance on an independent bench kills the technical parity claim.",
+      "commercial_kill_test": "A SAES US-line announcement, or DOE labs declining domestic-preference procurement leverage, kills the second-source premium before launch.",
+      "geography_findings": "US federal-lab demand verified; CN chapter correctly absent (IP-leakage rejection stands); no India-origin exposure.",
+      "source_defects": "No per-meter coating price exists anywhere in the corpus — TAM remains unquantified; BABA applicability to lab component procurement is unverified tailwind, not fact.",
+      "repair_requirements": "Before P6: obtain one lab-procurement price anchor (quote or FOIA-able award) and a written domestic-sourcing-preference statement from at least one program office.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-A-05-S01",
+        "P3R2-A-05-S02",
+        "L13-028",
+        "L07-037",
+        "R10-003",
+        "R10-004"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-09",
+      "decision": "survive",
+      "failure_modes": [
+        "OEMs insist on in-house drive chains (NIH)",
+        "CGN Dasheng counterparty risk (Entity-Listed parent) on the CN leg",
+        "EtO-repeal softens one US sub-driver",
+        "ScandiNova extends its integrated dominance"
+      ],
+      "strongest_counterargument": "Thirty years of pulsed-power history shows every serious beam-system OEM builds its own modulator; the interoperable-module vision has been possible for a decade and no buyer has asked for it.",
+      "demand_separability": "US (cargo/NDT + sterilization capacity) and CN (CGN order flow + isotope tenders) legs independent; the RF-drive line adds a third application family.",
+      "competition_test": "2026-07 verification: ScandiNova's current motion is MORE proprietary (integrated Libera LLRF, turnkey units) — the open-module position remains structurally vacant, and the incumbent is moving away from it rather than toward it.",
+      "technical_kill_test": "2027 two-module stack failing 1% droop at 50kV/500A or the mid-campaign module-swap interoperability demo kills the platform claim.",
+      "commercial_kill_test": "No OEM design-in by end-2033 (the seed's own kill); or a major OEM open-sourcing its modulator interface first.",
+      "geography_findings": "US clean; CN civilian-buyer path (CIRC-class) screens clean, CGN Dasheng requires counsel sign-off; high-energy variants US-only.",
+      "source_defects": "Modulator-level pricing unsourced; CGN half-year order figure needs annualization caution.",
+      "repair_requirements": "Secure one OEM paid evaluation by 2028; publish the open interface spec early to create the category before incumbents define it.",
+      "residual_risk": "medium",
+      "confidence": "medium",
+      "source_ids": [
+        "L05-033",
+        "L05-035",
+        "L05-036",
+        "P3R2-C-09-S03",
+        "R10-039"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-22",
+      "decision": "survive",
+      "failure_modes": [
+        "Hydrogen FID depression caps bench demand",
+        "Greenlight adds ripple synthesis to its established platform",
+        "OEM in-house labs keep qualification internal",
+        "Attribution science fails (accelerated-vs-field correlation)"
+      ],
+      "strongest_counterargument": "Test-equipment ventures scale with their industry's capex; hydrogen's order books are shrinking and the surviving hub cohort could stall, leaving a beautifully-instrumented bench with no queue of stacks to test.",
+      "demand_separability": "US (5/7 surviving hubs + Plug warranty economics) and CN (multi-vendor tender acceptance testing) legs independent; the anti-fragile framing (boom needs acceptance, consolidation needs warranty credibility) holds on either branch.",
+      "competition_test": "2026-07 verification: Greenlight's E400 page documents constant current/voltage supplies only — no programmable ripple synthesis or renewable-profile playback anywhere in the current product line; the stress-synthesis + financier-dataset wedge is fresh-verified.",
+      "technical_kill_test": "2027 90-day campaign failing to reproduce literature degradation signatures with per-mechanism attribution kills the data-product premise.",
+      "commercial_kill_test": "No bench sale or paid campaign in either market by end-2033 (the seed's own kill); or an EU JRC-led harmonized protocol emerging with free reference implementations.",
+      "geography_findings": "Both legs verified; CN suppliers screen clean; export trivial.",
+      "source_defects": "Bench-campaign pricing unsourced; EU JRC standards-gap source is 2024-vintage and should be refreshed.",
+      "repair_requirements": "Refresh the EU harmonization status annually; convert one lender or hub developer into a paid pilot campaign by 2028.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-C-22-S01",
+        "P3R2-C-22-S02",
+        "P3R2-C-22-S03",
+        "L11-050",
+        "L11-046"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-08",
+      "decision": "survive",
+      "failure_modes": [
+        "CNNC verticalization: the operating CN reference plant may never buy merchant cores",
+        "Heatric/VPE add rapid-transient qualified lines once the segment proves",
+        "CN RMB100bn TAM remains single-source scenario",
+        "$15-35M v1 manufacturing capex misfits the founder capital path"
+      ],
+      "strongest_counterargument": "This is a materials-and-manufacturing business squarely outside the founder's profile, whose wedge (transient-qualified cores) two established diffusion-bonding incumbents could replicate faster than a startup can build a bonding line.",
+      "demand_separability": "US (Part 53 + STEP lineage + reactor BOP) and CN (operating Chaotan One + Xinjiang 2028) are independently evidenced and separable.",
+      "competition_test": "Heatric/VPE confirmed active with no published rapid-transient product line (P4 fetch-level check); the differentiation claim survives but was never tested against their unpublished capabilities — flagged as the key P6 verification.",
+      "technical_kill_test": "2028 subscale core failing the 1,000-cycle >=20C/min rig at 550C peaks, or post-test creep data off ASTM E139 expectations, kills the qualification wedge.",
+      "commercial_kill_test": "No >=10MW-class merchant sCO2 order by end-2033 (the seed's own kill); or Heatric publishing transient-qualified spec sheets before the startup's dataset exists.",
+      "geography_findings": "CN demand real but CNNC-internal sourcing unproven either way; nuclear-qualified line US-only; CNNC 1260H/NS-CMIC listing matters for investors, not component sales.",
+      "source_defects": "Longlist citation mismatch (L04-051 cited for the Xinjiang project but is the Guizhou CCTV piece) — corrected in P4 evidence; single-source TAM flag persists.",
+      "repair_requirements": "P6 must verify Heatric/VPE transient specs directly and triangulate the CN sintering-retrofit fleet count from an eligible source; pair with C-19 as one company at selection or drop the pairing claim.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-C-08-S01",
+        "P3R2-C-08-S03",
+        "P3R2-C-08-S04",
+        "L04-039",
+        "L04-113"
+      ]
+    },
+    {
+      "idea_id": "P3R2-E-04",
+      "decision": "repair",
+      "failure_modes": [
+        "Delft Circuits + Bluefors already ship a funded density roadmap (256 to 1,024 by 2027, 4,096 by 2029; 1,536 lines in XLDsl today)",
+        "IBM's modular chip-to-chip scaling path reduces external wiring per qubit",
+        "Ally-license requirements (Sept-2024 cryo ECCNs) tax the TW/KR partner plan",
+        "Quantum capex cyclicality"
+      ],
+      "strongest_counterargument": "The density wall the thesis targets is being dismantled by the incumbent cabling vendor and the dominant fridge maker acting together: Bluefors-integrated Cri/oFlex at 1,536 lines is shipping now with a published path to 4,096, so the 256-channel premise of the painful job is already stale.",
+      "demand_separability": "DOE QIS centers, commercial superconducting-qubit companies, and big-science readout are separable buyer classes; the co-packaged cold-electronics differentiator applies across all three.",
+      "competition_test": "2026-07 verification: Delft's roadmap (2025-09-17) and the Bluefors partnership (2025-09-30) are dated, funded, and shipping — but explicitly cabling-only: no co-packaged active cold electronics (4K mux/LNA) was announced. The wedge survives ONLY as harness+cold-electronics co-design; density-alone is lost.",
+      "technical_kill_test": "2027 256-channel flex + 4K 64:1 mux failing <1% crosstalk or the <20%-of-coax heat-load budget kills the channels-per-watt claim.",
+      "commercial_kill_test": "Delft/Bluefors adding cold multiplexing to their integrated stack, or IBM-style modular links becoming the industry scaling norm, removes the remaining wedge.",
+      "geography_findings": "US-only appropriate; TW/KR partner plan needs case-by-case licenses (schedule tax); CN validated as excluded.",
+      "source_defects": "The P4 record's 'only public density roadmap is a single vendor's unvalidated claim' framing is now stale — Delft's roadmap is partnered and shipping; restate everywhere.",
+      "repair_requirements": "Rewrite the thesis around co-packaged cold electronics (channels-per-watt with active mux) explicitly against the Delft/Bluefors passive-cabling baseline; re-baseline the painful job at 1,536 passive lines, not 256.",
+      "residual_risk": "high",
+      "confidence": "high",
+      "source_ids": [
+        "L13-042",
+        "L13-028",
+        "R10-003",
+        "P3R2-E-04-S01",
+        "P3R2-E-04-S06"
+      ]
+    },
+    {
+      "idea_id": "P3R2-G-03",
+      "decision": "survive",
+      "failure_modes": [
+        "Operators accept vendor self-certification (no third-party acceptance market)",
+        "Instrument majors add DC-acceptance options once volume appears",
+        "CN installed-base penetration figure remains unsourced",
+        "Architecture convergence reduces the heterogeneity the product monetizes"
+      ],
+      "strongest_counterargument": "Commissioning agents already exist (the five-level commissioning industry) and will simply buy generic instruments (Hioki/Fluke) plus vendor test procedures; a bespoke 800VDC acceptance island answers a problem the commissioning market prices at consulting rates, not instrument premiums.",
+      "demand_separability": "US (OCP/NVIDIA commissioning chains) and CN (conversion of the verified Panama/Autrans installed base) are independent; EV-plaza and 1500VDC extensions are follow-ons.",
+      "competition_test": "2026-07 verification across the three named instrument majors: Chroma's 8000 HVDC system is component/subsystem-level (PSU/shelf/rack test), Keysight's 2026 datacenter releases are interconnect-validation only, Hioki's commissioning page is generic with zero 800VDC content — no purpose-built system-level 800VDC acceptance solution exists. The whitespace is fresh-verified at the strongest level in this review.",
+      "technical_kill_test": "2027 injector/analyzer failing to predict instability from measured impedance overlap across >=20 configurations kills the measurement-science claim.",
+      "commercial_kill_test": "The seed's own 2029 frame-agreement gate: no commissioning-chain or vendor frame agreement by 2029 means self-certification won.",
+      "geography_findings": "US clean; CN via licensed entity serving commercial operators/integrators with State-Grid work out of scope; the ~12%/78% penetration figure must be re-sourced or dropped.",
+      "source_defects": "CN installed-base figure unverified (flagged in the frozen record itself); testbed-access assumption (loaner hardware) declared but unsecured.",
+      "repair_requirements": "Secure the 100kW testbed partner (OCP-member lab) in 2026-27; re-source the CN penetration figure from an eligible primary; monitor Chroma/Keysight quarterly for system-level moves.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "L02-054",
+        "L02-044",
+        "L02-048",
+        "L02-049",
+        "R10-047"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-09",
+      "decision": "survive",
+      "failure_modes": [
+        "Market ceiling in the tens of millions caps venture outcomes",
+        "FLASH clinical translation stalls, halving the demand base",
+        "Bergoz or PTW responds with a UHDR-optimized instrument",
+        "NCI SBIR topic does not recur"
+      ],
+      "strongest_counterargument": "This is an excellent instrument business and a questionable venture: even full success yields a niche metrology company, and the founder's 2030 launch meets a market whose clinical half may still be pre-commercial.",
+      "demand_separability": "Clinical FLASH and industrial sterilization QA legs are independent; the industrial leg survives a FLASH stall at reduced scale.",
+      "competition_test": "Bergoz confirmed storage-ring-optimized; PTW flashDiamond research-only; the 2025 Medical Physics papers (two independent groups) confirm the unsolved problem; refresh found only academic prototypes.",
+      "technical_kill_test": "2027 side-by-side failing <1% cavity-vs-calorimetry agreement, or failing to quantify BCT error cleanly, kills the metrology claim.",
+      "commercial_kill_test": "PTW converting flashDiamond to a traceable commercial reference product before 2029 removes the first-mover position.",
+      "geography_findings": "US-only appropriate; no CN claim; EU competitors (Bergoz, PTW) are suppliers into the US market, not beachhead conflicts.",
+      "source_defects": "NCI SBIR instance found is the expired 2023 cycle — recurrence must be verified; Bergoz pricing is dated resale listing.",
+      "repair_requirements": "Verify a live NCI/NIH topic recurrence and PTW's product status before P6 pack construction.",
+      "residual_risk": "medium",
+      "confidence": "high",
+      "source_ids": [
+        "P3R2-D-09-S01",
+        "P3R2-D-09-S02",
+        "L05-023",
+        "L05-024",
+        "L05-049"
+      ]
+    },
+    {
+      "idea_id": "P3R2-A-22",
+      "decision": "survive",
+      "failure_modes": [
+        "EPA interim guidance recognizes only incineration/landfill/injection at scale — plasma stays outside the approved list",
+        "374Water's SCWO commercial traction compounds ahead of plasma",
+        "Energy economics miss (<=50 kWh/kg-PFAS unproven on real AFFF concentrate)",
+        "Utility leg delayed to 2031+ by EPA's own proposal"
+      ],
+      "strongest_counterargument": "The modality race may already be decided: SCWO has diversified paying customers today while plasma has one completed defense pilot; DoD's technology-neutral Success Memo pathway will simply crown SCWO.",
+      "demand_separability": "DoD statutory-mandate leg (AFFF transition, ~700 sites) is independent of the delayed utility leg — the thesis survives on DoD alone at reduced scale.",
+      "competition_test": "374Water's revenue traction and multi-site contracts verified in P4 evidence; PyroGenesis remains the only plasma vendor with a paid DoD destruction contract; Aquagga/General Atomics demonstrations unverified leads.",
+      "technical_kill_test": "2027-28 skid failing >=99.99% DRE with closed fluorine mass balance at <=50 kWh/kg on real AFFF concentrate kills the economics claim.",
+      "commercial_kill_test": "A DoD Success Memo issued to an SCWO vendor for concentrated-stream destruction before the plasma demonstration completes forecloses the beachhead.",
+      "geography_findings": "US-only verified; CN absence confirmed by direct bilingual search in P4 evidence.",
+      "source_defects": "The ~$7,500/tonne PyroGenesis figure conflates NRE with variable cost; DoD site-fraction assumptions (10-30%) are unsourced.",
+      "repair_requirements": "Track the EPA guidance annual update and DIU demonstration cohort; secure a defense-remediation prime teaming letter by 2028 or downgrade.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-A-22-S01",
+        "P3R2-A-22-S02",
+        "P3R2-A-22-S04",
+        "P3R2-A-22-S05",
+        "R10-014"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-18",
+      "decision": "survive",
+      "failure_modes": [
+        "Second demand anchor never materializes (2028 gate)",
+        "No Phase I award announced across two solicitation cycles",
+        "Echodyne extends from K-band to Ka-band with 30,000-unit/yr capacity",
+        "35GHz metasurface loss/tuning-speed physics caps performance below spec"
+      ],
+      "strongest_counterargument": "The demand evidence is one SBIR topic that has now run two cycles without a published award; if the Army wanted this radar it would have selected someone, and the best-capitalized metamaterial-ESA company in the world sits one band below with a $490M IDIQ and idle capacity.",
+      "demand_separability": "Army T&E ranges and counter-UAS integrator channels are distinct; the RIS/6G tile adjacency is a civilian hedge outside the base case.",
+      "competition_test": "2026-07 verification: no A254-049 Phase I award is documented (two cycles visible: late-2025 close and 2026-04/05 close; awards sections empty); Echodyne remains K-band in fielded products. Single-threaded status confirmed, not worsened.",
+      "technical_kill_test": "2027 64-element tile failing +/-45-degree steering, insertion-loss, or switching-latency targets against the A254-049 spec kills the physics claim.",
+      "commercial_kill_test": "The seed's own 2028 gate: no second program office, prime teaming, or Phase II award by 2028 folds the idea into a prime-supplier position.",
+      "geography_findings": "US defense-only; Guangqi context confirms the metamaterial defense category is real in the CN sphere without being a market.",
+      "source_defects": "Solicitation-cycle records conflict across the Army page and aggregators — the award status must be re-checked Q4-2026; incumbent AESA pricing is inference.",
+      "repair_requirements": "Verify the A254-049 award outcome by Q4-2026; open a second-anchor conversation (counter-UAS integrator or PEO STRI) in 2027.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-D-18-S01",
+        "P3R2-D-18-S03",
+        "P3R2-D-18-S04",
+        "R10-045"
+      ]
+    },
+    {
+      "idea_id": "P3R2-C-04",
+      "decision": "survive",
+      "failure_modes": [
+        "No non-PFAS two-phase fluid reaches datacenter-scale qualification by 2031 (binding kill trigger)",
+        "Single-phase water + microchannels stretches to 5kW/chip and wins another cycle",
+        "ZutaCore/Accelsius capital advantage converts to fluid-qualification leadership",
+        "CN leg is efficiency-driven only — the PFAS wedge has no CN regulatory force"
+      ],
+      "strongest_counterargument": "The wedge is a bet that chemistry regulation outruns single-phase engineering; every prior cooling generation resolved in favor of the simpler architecture, and the EPA's Technology-Transitions relaxation just gave single-phase more runway.",
+      "demand_separability": "US/EU chemistry-forced demand (AIM Act allowance phasedown intact; EU F-gas 2030 ban) is separable from the CN efficiency-driven leg; the idea survives on US/EU alone.",
+      "competition_test": "P4 evidence verified none of ZutaCore/Accelsius/LiquidStack/JetCool makes an explicit PFAS-free qualification-dataset claim; the 2026-07 verification pass adds that Chemours' Opteon 2P50 (an HFO, low-GWP but fluorinated) completed qualification with 2CRSi (JDA 2026-02-24, commercialized 8xH200 1U servers) and with Samsung SSDs (2025-08) — the two-phase fluid vacuum is being partially filled by the HFO path, which narrows the crisis wedge to the REACH-era PFAS-free (non-fluorinated) scenario.",
+      "technical_kill_test": "2027 two-fluid loop failing the heat-flux/stability envelope vs Novec-era baselines, or the 1,000h sealed-loop degradation assay, kills the fluid-menu premise.",
+      "commercial_kill_test": "A qualified non-PFAS fluid winning outright (single-fluid standard) removes the fluid-agnostic premium; ODMs buying vertically integrated two-phase systems removes the subsystem socket.",
+      "geography_findings": "US/EU legs regulation-anchored; CN leg real but weaker (PUE-driven); overlap with P3R2-B-01 must be resolved at selection (one two-phase-loop company, not two).",
+      "source_defects": "Two-phase adoption-share forecasts are analyst-grade; module pricing assumptions unsourced.",
+      "repair_requirements": "At selection, merge or explicitly differentiate B-01 (CN subatmospheric variant) and C-04 (US/EU fluid-agnostic variant) — carrying both as separate final-24 slots double-counts one thesis.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "L14-033",
+        "L14-034",
+        "R10-022",
+        "R10-049",
+        "P3R2-C-04-S01",
+        "L14-046"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-12",
+      "decision": "repair",
+      "failure_modes": [
+        "EHD remains research-only (fresh-verified: EPFL proof-of-concept April 2026, zero industrial deployments)",
+        "Fluid-intersection gate has no qualified candidate",
+        "Consolidated OEMs (Eaton/Boyd $9.5B, Ecolab/CoolIT) out-resource an outside licensor",
+        "Must beat, not match, mechanical pumping in 2027"
+      ],
+      "strongest_counterargument": "Two decades of EHD literature have produced zero shipped products while mechanical pumping got quietly better every year; the 2027 experiment is more likely to confirm parity than superiority, and parity is death by the seed's own rule.",
+      "demand_separability": "US (Deschutes-spec capacity pressure + fluid crisis) and CN (PUE mandates) legs independent at the category level; EHD-specific demand exists on neither leg yet.",
+      "competition_test": "2026-07 verification: the newest EHD publication (EPFL, 2026-04-08) is explicitly proof-of-concept with prospective applications — research-only status confirmed; all commercial cold-plate players remain mechanical-pump.",
+      "technical_kill_test": "The seed's own 2027 gate: >=20% per-channel modulation, 1,000h electrode stability in a non-PFAS dielectric, AND beating the best mechanical plate on CHF and hotspot-following at equal pumping power — parity kills.",
+      "commercial_kill_test": "The 2028 named-OEM/COOLERCHIPS co-development bridge failing to materialize kills the licensing path regardless of physics.",
+      "geography_findings": "US buyer-spec demand real; CN directional with entrenched mechanical incumbents; no export constraints.",
+      "source_defects": "Fluid-intersection candidate list (dielectric + non-PFAS + low-GWP) remains empty in the record — the Opteon HFO path is fluorinated and may fail the non-PFAS test under REACH definitions.",
+      "repair_requirements": "Name at least one candidate fluid passing the triple intersection before committing the 2027 experiment budget; open the OEM co-development conversation now (Eaton/Boyd class), accepting acquisition as a legitimate outcome.",
+      "residual_risk": "high",
+      "confidence": "high",
+      "source_ids": [
+        "L16-003",
+        "L16-004",
+        "L14-043",
+        "P3R2-D-12-S01",
+        "P3R2-D-12-S02"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-19",
+      "decision": "survive",
+      "failure_modes": [
+        "Piller leverages flagship incumbency into category ownership",
+        "BESS cycle-cost decline shrinks the kinetic niche to harmonics scale",
+        "NVIDIA smooths load in software/rack capacitance, cutting the buffering requirement",
+        "Composite rotor manufacturing outside founder profile"
+      ],
+      "strongest_counterargument": "The flagship buyer already chose the incumbent (Piller SHIELDX), whose synchronous-machine approach is proven, serviceable, and bundled with the engine vendor — a higher-power-density DC-native entrant answers a question the buyer did not ask while batteries keep getting cheaper.",
+      "demand_separability": "US off-grid/weak-grid AI plants are the beachhead; grid-forming inertia services are a distinct follow-on; CN is a license note only.",
+      "competition_test": "Piller (incl. Active Power US lineage) and Stornetic verified; Beacon/VYCON/Amber Kinetics adjacent; no DC-native microcycle-optimized entrant exists — whitespace narrow and incumbent-adjacent.",
+      "technical_kill_test": "2028 rotor rig failing 100k microcycles with <1% loss growth or millisecond-class response kills the cycle-economics claim.",
+      "commercial_kill_test": "The FIX-mandated instrumented load-spectrum study showing rack-level capacitance + software smoothing suffices (no feeder-level buffer needed) kills the niche.",
+      "geography_findings": "US-only; the 800VDC socket (Kyber 2027) is the DC-native entry point; CN hub-parks noted as licensing only.",
+      "source_defects": "No AMB-flywheel price point; microcycle spectrum of real AI training loads is not publicly characterized — the study is the evidence gap.",
+      "repair_requirements": "Complete the measure-not-assert load-spectrum study with a datacenter partner by 2027; benchmark explicitly vs Piller and Stornetic.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-D-19-S01",
+        "P3R2-D-19-S02",
+        "P3R2-D-19-S03",
+        "P3R2-D-19-S05",
+        "R10-046"
+      ]
+    },
+    {
+      "idea_id": "P3R2-A-02",
+      "decision": "survive",
+      "failure_modes": [
+        "MVDC adoption stays point-to-point (breaker-avoiding architectures)",
+        "SST entrants (DG Matrix/Amperesand-class) capture the customer budget line then extend into protection",
+        "No MVDC breaker certification standard exists — timeline risk",
+        "$1.5M experiment and $10-25M v1 exceed the founder-reachable band"
+      ],
+      "strongest_counterargument": "The market may never buy a standalone MVDC breaker: converter-integrated protection and point-to-point topologies both avoid it, and the funded SST startups own the customer conversations in which that architecture choice is being made right now.",
+      "demand_separability": "US-only; demand spans datacenter campuses, DC-GRIDS-seeded utility demos, and HVDC-adjacent buildout — separable across buyer classes but all pre-line-item.",
+      "competition_test": "DG Matrix ($60M, ABB-backed, in NVIDIA MGX reference) and Hitachi heritage verified in P4; no productized catalogued MVDC breaker line exists as of 2026-07 — whitespace real but adjacently crowded.",
+      "technical_kill_test": "2028 10kV/2kA module failing <2ms clearing or 100-operation endurance at a national-lab facility kills the productization claim.",
+      "commercial_kill_test": "An SST vendor bundling certified protection into its power blocks before the startup's certification path completes forecloses the merchant socket.",
+      "geography_findings": "US-only correct; CN DC protection domestically tendered at scale (XJ Electric) — no CN leg.",
+      "source_defects": "Breaker-count and unit-price arithmetic entirely assumption-based; certification-standard gap is a genuine unknown timeline.",
+      "repair_requirements": "Secure a national-lab test partnership and a standards-body seat (IEEE/IEC MVDC protection) by 2028 to de-risk the certification-path unknown.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "L08-033",
+        "L08-041",
+        "R10-001",
+        "P3R2-A-02-S01",
+        "P3R2-A-02-S04",
+        "L08-052"
+      ]
+    },
+    {
+      "idea_id": "P3R2-B-01",
+      "decision": "repair",
+      "failure_modes": [
+        "Sugon ships two-phase cold-plate lines (>15% over single-phase) and Chuanrun ships negative-pressure CDUs — the two halves of the mechanism exist separately in CN today",
+        "Mechanism-specific demand has no named buyer document",
+        "Foreign-founder access only via licensing/ODM",
+        "Single-phase incumbents entrench at falling prices during the qualification years"
+      ],
+      "strongest_counterargument": "Chinese vendors have already decomposed the idea's claimed novelty: Sugon sells the two-phase thermal advantage and Chuanrun sells the negative-pressure leak-safety advantage; a foreign licensor offering the combination arrives with neither a cost edge nor a relationship edge in a market that buys on tender.",
+      "demand_separability": "CN-only by design; the PUE-regulatory leg and the >2kW/chip thermal leg are distinct drivers, both real at category level.",
+      "competition_test": "2026-07 verification: Sugon's phase-change cold-plate line (claimed >15% over single-phase; pressure regime unstated) and Chuanrun's negative-pressure CDU (single-phase, Vertiv-supplying, GB300-validated cold plates) confirmed via CN financial/research sources — the exact negative-pressure two-phase combination remains unshipped, but both components are commercialized separately.",
+      "technical_kill_test": "2027-Q2 side-by-side failing >=30% junction-to-coolant resistance improvement at equal pump power, or the inward-leak fail-safe demo, kills the mechanism claim.",
+      "commercial_kill_test": "No named CN pilot/LOI (Envicool-class licensing or ODM design-in) by 2028 leaves the mechanism a lab result; Sugon adding a subatmospheric variant closes the window outright.",
+      "geography_findings": "CN category demand tender-verified; access structure (licensing/ODM/JV) confirmed as the only route; overlap with C-04's merged variant must be resolved at selection.",
+      "source_defects": "Sugon's cold-plate pressure regime unstated in available sources — direct verification needed; CDU price anchor is forum-grade.",
+      "repair_requirements": "Verify Sugon's two-phase cold-plate operating regime directly; restate differentiation against the decomposed competitors; secure a named licensing/pilot counterparty by 2028; resolve the B-01/C-04 portfolio overlap at selection.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-B-01-S01",
+        "P3R2-B-01-S02",
+        "P3R2-B-01-S05",
+        "R10-043",
+        "R10-071"
+      ]
+    },
+    {
+      "idea_id": "P3R2-F-16",
+      "decision": "survive",
+      "failure_modes": [
+        "Metrology premium never realizes (>=30% premium untested)",
+        "Commodity knife-fight drags pricing before the premium tier establishes",
+        "ACM Research or Nordson fast-follows once the category is proven",
+        "Foreign-founder CN direct-sales operation underestimated"
+      ],
+      "strongest_counterargument": "Chinese equipment buyers procure plasma cleaners by lowest-conforming-bid tender; a premium 'treat-to-spec' machine answers a question procurement is not asking, and the incumbent (Nordson) plus the best-capitalized adjacent (ACM) can add sensing the moment a tender asks for it.",
+      "demand_separability": "CN-only but across two independent buyer classes (PCB makers, packaging-substrate makers) — two dated tenders from different buyers verified.",
+      "competition_test": "Fetch-level clearance of Nordson/Samco/ACM/CN-domestic on closed-loop capability stands as of 2026-07; ACM flagged as fastest follower.",
+      "technical_kill_test": "2027 cell failing surface-energy-proxy robustness at production line rate, or bond-strength correlation, kills the metrology premise.",
+      "commercial_kill_test": "The seed's own 2028 gate: no paid premium-commitment beta by 2028 shelves the premium thesis.",
+      "geography_findings": "CN access unusually open (international open-competitive tenders verified twice); TW/KR secondary; no US leg claimed.",
+      "source_defects": "No baseline CN tool price found; premium arithmetic entirely assumption.",
+      "repair_requirements": "Obtain one tender's technical annex (does any spec ask for verification/traceability?) and a baseline price anchor before P6.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "L01-114",
+        "R10-069",
+        "P3R2-F-16-S01",
+        "P3R2-F-16-S02",
+        "P3R2-F-16-S03"
+      ]
+    },
+    {
+      "idea_id": "P3R2-F-19",
+      "decision": "survive",
+      "failure_modes": [
+        "CDU vendors bundle sensing/maintenance before a merchant skid establishes",
+        "Water-treatment majors (Nalco/Veolia) enter with existing service fleets",
+        "The catalyzing coolant-failure incidents stay private/unpublicized",
+        "Chemistry/consumables science outside founder profile"
+      ],
+      "strongest_counterargument": "Vertiv already samples fluid and is moving to condition-based maintenance; the operations layer will be absorbed into CDU service contracts (the vendor owns the loop) before a third-party skid vendor can install anything.",
+      "demand_separability": "US (fleet-aging + OCP specs) and CN (GB 40879 revision + T/CIEP audits) are independent regimes; either sustains a reduced business.",
+      "competition_test": "Vertiv's own materials confirm both the shift to sensor-driven maintenance AND the absence of any industry standard for CDU failure handling — the gap is incumbent-confirmed but incumbent-adjacent.",
+      "technical_kill_test": "2027-28 aging loop failing to produce a discriminating failure-signature library, or side-stream correction proving ineffective, kills the product premise.",
+      "commercial_kill_test": "OCP publishing an operations/fluid-health standard with vendor-embedded implementation, or two major CDU vendors launching branded coolant-health services, closes the merchant window.",
+      "geography_findings": "Both legs real; CN via spec-audit regimes; no export constraints.",
+      "source_defects": "No public coolant-failure incident data yet — the demand catalyst is anticipated, not observed.",
+      "repair_requirements": "Secure one operator LOI or pilot placement by 2028; monitor OCP fluid-property workstream for standard absorption.",
+      "residual_risk": "medium",
+      "confidence": "medium",
+      "source_ids": [
+        "R10-071",
+        "R10-072",
+        "L14-048",
+        "L14-041",
+        "L14-039"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-13",
+      "decision": "survive",
+      "failure_modes": [
+        "GA/ACT (and possibly Honeywell/Rocky Research) hold qualified positions at lower tiers and scale up first",
+        "PCM cycle-life/mass at 300+MJ class fails on mobile platforms",
+        "Program concentration: JLWS/HELSI slips strand the LRU market",
+        "ITAR overhead for a components startup"
+      ],
+      "strongest_counterargument": "The incumbents already inside DEW thermal programs (GA in-house since 2010, ACT ITAR-registered and selling) will simply scale their qualified PCM products alongside the power roadmap — a new entrant brings no unique physics, only a bigger version of what they already ship.",
+      "demand_separability": "US defense only by design; demand concentrated in JLWS/HELSI plus adjacent burst-duty platforms (radar/EW) — partially separable across programs.",
+      "competition_test": "GA's 3MJ/230kW module and ACT's 30kW+ PCM lines verified via fetched primary pages in P4 evidence; the Honeywell/Rocky Research DE M-SHORAD claim remains an unverified lead that must be resolved before P6.",
+      "technical_kill_test": "2027 brassboard failing >=100 W/cm2 into PCM, <10K excursion, or 500 cycles without fade kills the scale-up claim.",
+      "commercial_kill_test": "A prime selecting GA/ACT for the 300-500kW thermal subsystem before the startup's qualification data exists closes the socket.",
+      "geography_findings": "US-only; ITAR-controlled category confirmed.",
+      "source_defects": "The seed's GAO citation mischaracterized (transition-planning report, not SWaP findings) — corrected; defense-grade PCM $/kg absent.",
+      "repair_requirements": "Resolve the Honeywell/Rocky Research lead; restate competition_outlook naming GA and ACT; obtain one prime letter of interest by 2028.",
+      "residual_risk": "medium",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-D-13-S01",
+        "P3R2-D-13-S02",
+        "P3R2-D-13-S03",
+        "R10-032"
+      ]
+    },
+    {
+      "idea_id": "P3R2-F-23",
+      "decision": "repair",
+      "failure_modes": [
+        "A/B existence proof fails (no measurable degradation-rate reduction)",
+        "Lenders accept OEM warranties + DCS logs — no third-party evidence market",
+        "OEM BMS feature absorption",
+        "Hydrogen FID depression starves volume"
+      ],
+      "strongest_counterargument": "The product monetizes a financing friction that financiers have cheaper ways to resolve (bigger warranty reserves, insurance pricing); hardware in the plant is the most expensive possible answer to a paperwork problem.",
+      "demand_separability": "US (5/7 surviving hubs, ~$5B) and CN (Kuqa-class retrofits, multi-set tenders) are independent; the battery/fuel-cell retarget is a real fallback that preserves the technology if hydrogen stalls.",
+      "competition_test": "OEM in-house BMS-equivalents confirmed the default; no third-party envelope-evidence vendor exists; C-22-class testers are complements extending into monitoring — coordination, not collision, if both survive.",
+      "technical_kill_test": "The binding 2028 A/B: 2,000h protected-vs-naive showing no statistically significant degradation-rate reduction kills the product.",
+      "commercial_kill_test": "No lender/insurer LOI or OEM co-development by 2028 leaves the evidence layer without a paying customer class.",
+      "geography_findings": "US envelope reduced but real (5/7 hubs restored per the April-2026 DOE list; ARCHES/PNWH2 terminated in litigation — personally verified); CN via OEM design-in with clean counterparties.",
+      "source_defects": "H2Hubs evidence is turbulent across sources and dates — the reconciled state (2 terminated, 5 restored) must be restated wherever the stale 'all seven terminated' or 'all healthy' frames appear.",
+      "repair_requirements": "Obtain a named lender/insurer letter of interest (the demand instrument) by 2028 alongside the A/B result; restate the US demand envelope at 5/7 hubs in all records.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "L11-031",
+        "L11-032",
+        "P3R2-C-22-S03",
+        "R10-076",
+        "R10-078",
+        "L11-049"
+      ]
+    },
+    {
+      "idea_id": "P3R2-D-16",
+      "decision": "survive",
+      "failure_modes": [
+        "Program re-baseline or slip past 2034 (already re-baselined once)",
+        "Brayton Energy/Creare hold the merchant/captive positions",
+        "Downselect (~April 2027) and subcontract interest not yet in hand",
+        "Subcontract-revenue economics may never justify the v1 capital"
+      ],
+      "strongest_counterargument": "This is a government program bet dressed as a company: one customer class, three captive teams, an existing merchant turbomachinery house, and a requirement that has already moved once — the startup's product may be defined and re-defined by NASA faster than it can be built.",
+      "demand_separability": "FSP flight units, follow-on lunar/Mars infrastructure, and the terrestrial micro-Brayton fold-down are the separable legs; only the first is funded.",
+      "competition_test": "2026-07 verification: NASA's cadence is real and accelerating — RFI (Aug 2025), industry day (Sept 2025), two draft partnership announcements (Aug/Dec 2025), NSTM-3 (April 2026), and a NASA official stating the solicitation opens July 2026 with a draft Lunar Enabling Infrastructure Accelerator out for comment. No awards yet; the HELD-AS-OPTION posture remains correct and the checkpoint is near-term.",
+      "technical_kill_test": "2028 10kWe He-Xe turboalternator rig failing >=20% cycle efficiency at flight-relevant inlet temperature (conditional on the checkpoint) kills the technical basis.",
+      "commercial_kill_test": "The seed's own gate: downselect passing without >=2 concept teams expressing written subcontract interest keeps this studies-only permanently.",
+      "geography_findings": "US-only by law (domestic-firm restriction confirmed); no CN dimension.",
+      "source_defects": "PCU-subcontract value arithmetic assumption-based; program dates from trade press pending the actual solicitation text.",
+      "repair_requirements": "Respond to the July-2026 solicitation cycle with a PCU-layer white paper now; obtain written subcontract interest from >=2 teams at downselect (~April 2027) or hold as option indefinitely.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "P3R2-D-16-S01",
+        "P3R2-D-16-S02",
+        "R10-044",
+        "P3R2-D-16-S05",
+        "P3R2-D-16-S06"
+      ]
+    },
+    {
+      "idea_id": "P3R2-F-10",
+      "decision": "survive",
+      "failure_modes": [
+        "POD-at-line-rate fails on Al-Cu welds (SNR physics)",
+        "US H2 pipeline wave delayed (documented — 4% under construction)",
+        "OEM design-in never happens; stays a niche scanner business",
+        "Cheap in-line vision/resistance monitoring is good enough for battery QC"
+      ],
+      "strongest_counterargument": "Battery lines already accept statistical process control with cheap sensors; a laser-UT head that costs orders of magnitude more must prove defects escape current QC at rates that matter — evidence that does not yet exist.",
+      "demand_separability": "CN battery-equipment leg and US pipeline-code leg are fully independent; CCUS/CO2 pipelines partially substitute for the delayed H2 leg.",
+      "competition_test": "PAUT incumbents (Evident/Zetec/Baker Hughes) confirmed couplant-based/offline; Tecnar-class industrial laser-UT exists in adjacent metallurgy applications — the named-incumbent map remains a required P6 check.",
+      "technical_kill_test": "2027 experiment failing POD parity with offline PAUT at >=1 weld/s, or teardown correlation below usefulness, kills the line-rate claim.",
+      "commercial_kill_test": "No battery-equipment OEM co-development by 2029, or ISO 13588 revision landing without non-contact provisions, keeps it a scanner niche.",
+      "geography_findings": "CN access via equipment-OEM design-in plausible (buyers are equipment integrators, not restricted entities); US codes regime open.",
+      "source_defects": "H2 pipeline market shares from an unnamed-publisher report (scenario-grade); no laser-UT-at-rate benchmark exists publicly.",
+      "repair_requirements": "Deliver the Tecnar-class incumbent map and a battery-line defect-escape-rate estimate from an eligible source before P6.",
+      "residual_risk": "high",
+      "confidence": "medium",
+      "source_ids": [
+        "L16-028",
+        "L16-029",
+        "L16-026",
+        "R10-065"
+      ]
+    }
+  ]
+}

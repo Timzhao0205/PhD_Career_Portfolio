@@ -1,0 +1,16 @@
+{
+  "stage": "40_select",
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-07-28T11:30:00Z",
+  "outputs": ["SELECTION.json", "PORTFOLIO_CHECKS.json", "SELECTION.md"],
+  "checks": {
+    "exactly_24_ranked_1_to_24": true,
+    "all_from_survivor_set_and_pass_g1_g7": true,
+    "booleans_valid_and_dual_market_is_and": true,
+    "markets_restricted_to_allowed_set": true,
+    "top_10_unique_subset_of_final_24": true,
+    "near_misses_recorded_with_reasons": true,
+    "portfolio_constraints_recorded_with_true_observed_counts": true,
+    "scores_and_redteam_reconciled_by_judgment": true
+  }
+}

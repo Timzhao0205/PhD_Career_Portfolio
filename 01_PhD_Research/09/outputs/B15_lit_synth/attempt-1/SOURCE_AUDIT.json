@@ -1,0 +1,39 @@
+{
+  "scope": "B15_lit_synth FULL attempt-1 audit over the ENTIRE B12 accepted ledger (outputs/B12_lit_search/attempt-1/PAPER_LEDGER.csv, rows P0001-P0062). Every count below is this run's own recount from a full read of the ledger, cross-checked against the B12 verifier's independent recounts (verification/B12_lit_search/FULL_attempt-1.md) and against the 39 records opened across the accepted pilot (8), the B12 verification (20), and this run's fresh spot-audit (14; overlaps removed). Audit date 2026-07-28.",
+  "ledger_rows": 62,
+  "accepted_core_count": 62,
+  "peer_review_verified_count": 62,
+  "journal_count": 62,
+  "recent_2020_2026_count": 43,
+  "topic_counts": {
+    "hall_metrology": 13,
+    "hybrid_diagnostics": 14,
+    "hts_quench_current": 17,
+    "power_conversion": 18
+  },
+  "duplicate_dois": [],
+  "correction_concern_count": 1,
+  "retracted_count": 0,
+  "inaccessible_count": 0,
+  "unresolved_count": 0,
+  "accepted_paper_ids": [
+    "P0001", "P0002", "P0003", "P0004", "P0005", "P0006", "P0007", "P0008",
+    "P0009", "P0010", "P0011", "P0012", "P0013", "P0014", "P0015", "P0016",
+    "P0017", "P0018", "P0019", "P0020", "P0021", "P0022", "P0023", "P0024",
+    "P0025", "P0026", "P0027", "P0028", "P0029", "P0030", "P0031", "P0032",
+    "P0033", "P0034", "P0035", "P0036", "P0037", "P0038", "P0039", "P0040",
+    "P0041", "P0042", "P0043", "P0044", "P0045", "P0046", "P0047", "P0048",
+    "P0049", "P0050", "P0051", "P0052", "P0053", "P0054", "P0055", "P0056",
+    "P0057", "P0058", "P0059", "P0060", "P0061", "P0062"
+  ],
+  "limitations": [
+    "Field definitions used for this recount: ledger_rows and accepted_core_count are direct row counts (all 62 rows carry evidence_status accepted_core). peer_review_verified_count counts rows whose B12 peer_review_status field is 'verified' (all 62); this run independently re-confirmed direct review evidence (received/revised/accepted dates, stated review model, named editor, or explicit review statement) only on the 39 opened rows, and relies on B12's verified field plus the B12 verifier's zero-materially-wrong-rows finding for the remaining 23. journal_count counts rows published in peer-reviewed journals (52 journal_article + 10 review_article per B12's typing; all 62 qualify). recent_2020_2026_count counts accepted-core rows with year 2020-2026 (my recount: hall 7, hybrid 10, hts 11, power 15 = 43, confirming the B12 verifier's corrected figure over B12's own stated 42).",
+    "correction_concern_count = 1 refers to P0012's disclosed published correction (Nat Commun 12:554, 18 Jan 2021), verified live by the B12 verifier; a correction is not a retraction and does not bar acceptance under LIT_POLICY. In this synthesis P0012 is cited only at metadata level (EV11) with no load-bearing number drawn from it.",
+    "retracted_count = 0 means no retraction or expression-of-concern notice was found on any record opened by the pilot (8), the B12 verifier (20), or this run (14), and B12 recorded none on the rest; absence of a notice on opened records is evidence of none found, not proof none exists. No second-source retraction screening (Retraction Watch/Crossref) was performed by B12, its verifier, or this run — a shared, disclosed limitation.",
+    "inaccessible_count = 0: every row has an opened publisher landing page or authoritative PMC mirror on record. P0007's full text is paywalled (open landing-page record used; disclosed, not counted inaccessible). P0037/P0040/P0041/P0042/P0043 are PMC author-manuscript or PMC mirrors of IEEE/AIP versions, as disclosed by B12; this run's open of P0043 returned a published-article PMC presentation, a minor presentational discrepancy with B12's author-manuscript label, disclosed in SOURCES.csv S10.",
+    "unresolved_count = 0: no ledger row has unresolved peer-review or correction status. Two disclosed caveats short of unresolved status: P0006's 12-day receipt-to-acceptance interval (review-depth caveat, carried from the pilot) and the two publication-type adjudications this run made (P0017 primary-not-review; P0050 review-not-primary), which affect evidence weighting only, not acceptance.",
+    "23 of 62 rows (P0011, P0014, P0015, P0019, P0023, P0025, P0026, P0027, P0029, P0035, P0036, P0042, P0044, P0047, P0052, P0053, P0054, P0055, P0058, P0059, P0060, P0061, P0062) were never content-opened by pilot, verifier, or this run; the synthesis uses them only at ledger-metadata level with per-row provenance tags in EVIDENCE_MAP.csv, and no quantitative figure is drawn from them.",
+    "duplicate_dois = [] is this run's scan of the full ledger read, consistent with the B12 verifier's manual comparison of all 62 normalized DOIs; a programmatic normalization pass was not run (this stage executes no code by contract).",
+    "Record contents were extracted via an automated WebFetch summarization layer; load-bearing numbers were quoted as returned and residual extraction-error risk is disclosed rather than denied."
+  ]
+}

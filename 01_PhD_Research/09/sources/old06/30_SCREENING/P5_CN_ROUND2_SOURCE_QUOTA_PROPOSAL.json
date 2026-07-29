@@ -1,0 +1,435 @@
+{
+  "schema_version": "p5_cn_round2_source_quota.v1",
+  "artifact": "P5_CN_ROUND2_SOURCE_QUOTA_PROPOSAL",
+  "status": "proposal_only_not_merged",
+  "generated_at": "2026-07-14T00:39:56-07:00",
+  "scope": "Exactly four candidates from P5_CN_REGEN_ROUND2_PROPOSAL.json. This artifact proposes quota mappings only and does not modify the canonical ledger, selection, P4, routing, or state.",
+  "validator_count_basis": {
+    "total_minimum": 12,
+    "peer_minimum": 5,
+    "primary_demand_minimum": 3,
+    "peer_rule": "source_type == academic_peer_reviewed",
+    "primary_demand_types": [
+      "buyer_tender",
+      "buyer_specification",
+      "procurement_award",
+      "company_filing",
+      "earnings_transcript",
+      "official_project_award",
+      "direct_customer_documentation"
+    ],
+    "counting_note": "Counts assume the explicit canonical normalizations below are applied before selection validation. Proposed records with noncanonical source_type or demand_evidence_type strings must not be merged verbatim."
+  },
+  "canonicalization_findings": {
+    "selected_proposed_records": 23,
+    "selected_existing_accepted_records": 25,
+    "duplicate_not_selected": {
+      "proposed_source_id": "P5R2-CN-S06",
+      "existing_source_id": "P3R2-F-01-S04",
+      "reason": "Both are official mirrors of the same PRC 15th Five-Year Plan Outline (2026-2030). Keep one canonical work; do not count the mirror as a second source."
+    },
+    "schema_repairs_required_for_every_selected_proposed_record": [
+      "Replace proposed source_type labels with a SOURCE_STANDARDS.md canonical type.",
+      "Replace descriptive demand_evidence_type labels with the exact validator taxonomy or none.",
+      "Represent geography as an array.",
+      "Populate all canonical ledger fields, using empty values where not applicable, without inventing metadata.",
+      "Use peer_review_status verified only for P5R2-CN-S04 and P5R2-CN-S14; use not_applicable for nonacademic records."
+    ]
+  },
+  "candidates": [
+    {
+      "idea_id": "P5R2-CN-01",
+      "concept": "Retrofit X-ray computed-laminography kit for advanced-packaging failure analysis",
+      "source_ids": [
+        "P5R2-CN-S01",
+        "P5R2-CN-S02",
+        "P5R2-CN-S03",
+        "P5R2-CN-S04",
+        "L15-001",
+        "L15-005",
+        "L15-017",
+        "L15-025",
+        "P5-CNREGEN-S07",
+        "L05-034",
+        "L05-033",
+        "P3R2-F-01-S04"
+      ],
+      "recount_after_normalization": {
+        "unique_total": 12,
+        "academic_peer_reviewed": 5,
+        "validator_primary_demand": 6,
+        "peer_source_ids": [
+          "P5R2-CN-S04",
+          "L15-001",
+          "L15-005",
+          "L15-017",
+          "L15-025"
+        ],
+        "primary_demand_source_ids": [
+          "P5R2-CN-S01",
+          "P5R2-CN-S02",
+          "P5R2-CN-S03",
+          "L05-034",
+          "L05-033",
+          "P3R2-F-01-S04"
+        ],
+        "competitor_primary_source_ids": [
+          "P5R2-CN-S03",
+          "L05-034",
+          "L05-033"
+        ],
+        "geography_or_policy_source_ids": [
+          "P5-CNREGEN-S07",
+          "P3R2-F-01-S04"
+        ],
+        "quota_status": "PASS"
+      },
+      "proposed_new_source_normalizations": [
+        {
+          "source_id": "P5R2-CN-S01",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S02",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S03",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S04",
+          "source_type": "academic_peer_reviewed",
+          "demand_evidence_type": "none",
+          "peer_review_status": "verified"
+        }
+      ],
+      "existing_source_association_rationales": {
+        "L15-001": "Defines packaging maturity as a limiting factor in high-temperature SiC power electronics, supporting the target package-failure context without claiming X-ray performance.",
+        "L15-005": "Catalogues mechanical and thermal-cycling characterization of sintered-silver die attach, supplying concrete package-defect and ground-truth targets for the blinded imaging study.",
+        "L15-017": "Covers nano-silver die-attach reliability in SiC power modules, adding a distinct advanced-package interface and failure family for classifier validation.",
+        "L15-025": "Reviews power-cycling reliability of SiC power devices, supporting recurring thermomechanical failure-analysis jobs in power packaging.",
+        "P5-CNREGEN-S07": "A primary JCET filing places advanced-packaging equipment completion in H2 2028, directly supporting the proposed post-installation yield-learning window.",
+        "L05-034": "Comet's filing reports material X-ray-system and module revenue and names an incumbent system family relevant to cabinet replacement and retrofit competition.",
+        "L05-033": "Varex's filing establishes active industrial X-ray/NDT module orders and shipments, supporting the installed-equipment ecosystem while not proving packaging-specific retrofit demand.",
+        "P3R2-F-01-S04": "The accepted official 2026-2030 plan provides the China integrated-circuit policy/timing source and replaces the duplicate proposed mirror P5R2-CN-S06."
+      },
+      "quota_deficits": [],
+      "residual_evidence_deficits": [
+        "Only P5R2-CN-S04 is directly about X-ray tomography for advanced-packaging failure analysis; the other four peer sources support package failure modes and qualification context, not laminography reconstruction or retrofit accuracy.",
+        "Before a P6 deep dive, add direct peer-reviewed evidence on limited-angle/computed laminography, sparse-view reconstruction, and cabinet-geometry calibration; do not infer the proposed sensitivity or throughput from the current five-paper quota set."
+      ]
+    },
+    {
+      "idea_id": "P5R2-CN-02",
+      "concept": "Vendor-neutral dirty-return helium purification and custody-mass-balance skid for cryogenic facilities",
+      "source_ids": [
+        "P5R2-CN-S07",
+        "P5R2-CN-S08",
+        "P5R2-CN-S09",
+        "P5R2-CN-S10",
+        "P5R2-CN-S24",
+        "L07-002",
+        "L07-018",
+        "L07-023",
+        "L07-024",
+        "L03-026",
+        "L07-041",
+        "L13-028"
+      ],
+      "recount_after_normalization": {
+        "unique_total": 12,
+        "academic_peer_reviewed": 5,
+        "validator_primary_demand": 4,
+        "peer_source_ids": [
+          "L07-002",
+          "L07-018",
+          "L07-023",
+          "L07-024",
+          "L03-026"
+        ],
+        "primary_demand_source_ids": [
+          "P5R2-CN-S07",
+          "P5R2-CN-S08",
+          "L07-041",
+          "L13-028"
+        ],
+        "competitor_primary_source_ids": [
+          "P5R2-CN-S09",
+          "P5R2-CN-S24"
+        ],
+        "geography_or_policy_source_ids": [
+          "P5R2-CN-S10",
+          "L13-028"
+        ],
+        "quota_status": "PASS"
+      },
+      "proposed_new_source_normalizations": [
+        {
+          "source_id": "P5R2-CN-S07",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable",
+          "acceptance_note": "The official government procurement-intention notice names the buyer, system category, and budget; treat it as a buyer procurement notice, not an award."
+        },
+        {
+          "source_id": "P5R2-CN-S08",
+          "source_type": "company_filing",
+          "demand_evidence_type": "company_filing",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S09",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S10",
+          "source_type": "standard",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S24",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        }
+      ],
+      "existing_source_association_rationales": {
+        "L07-002": "Directly covers helium leak detection, cryosorption, diffusion barriers, and clean assembly at extreme vacuum, relevant to the skid's contamination and loss-accounting boundary.",
+        "L07-018": "Shows that working-fluid choice affects 4 K cryocooler capacity and COP, supporting the operational value of helium quality without proving the proposed purifier's performance.",
+        "L07-023": "Provides a helium-leak measurement method relevant to closing the custody mass balance and separating physical loss from inventory-accounting error.",
+        "L07-024": "Demonstrates helium detection under a difficult gas background, relevant to contaminated-return diagnostics and leak localization.",
+        "L03-026": "Documents a large superconducting-magnet system using 4.5 K supercritical-helium cooling, providing a concrete host-system boundary and commissioning context.",
+        "L07-041": "ITER's open tender specifies liquid/gaseous helium, minimum purity, and a EUR4M-EUR12M range, establishing current buyer spend and the economic importance of helium custody.",
+        "L13-028": "DOE's QIS-center award funds instrumentation and new refrigeration methods, supporting an independent US cryogenic-facility validation route and counting as an official project award."
+      },
+      "quota_deficits": [],
+      "residual_evidence_deficits": [
+        "The peer quota is substantively tied to helium detection, cryogenic working-fluid sensitivity, and host-system operation, but it contains no direct paper on mixed dirty-return helium purification, impurity breakthrough, or custody-grade mass-balance uncertainty.",
+        "Before P6, add direct separation-science and metrology papers for oil/moisture/nitrogen/oxygen removal, adsorbent breakthrough, analyzer calibration, and recovery-loss accounting."
+      ]
+    },
+    {
+      "idea_id": "P5R2-CN-03",
+      "concept": "Field-deployable industrial high-temperature heat-pump commissioning and measurement-and-verification island",
+      "source_ids": [
+        "P5R2-CN-S11",
+        "P5R2-CN-S12",
+        "P5R2-CN-S13",
+        "P5R2-CN-S14",
+        "P5R2-CN-S15",
+        "P5R2-CN-S16",
+        "P5R2-CN-S17",
+        "L04-007",
+        "L04-103",
+        "L04-111",
+        "L14-028",
+        "L04-049"
+      ],
+      "recount_after_normalization": {
+        "unique_total": 12,
+        "academic_peer_reviewed": 5,
+        "validator_primary_demand": 3,
+        "peer_source_ids": [
+          "P5R2-CN-S14",
+          "L04-007",
+          "L04-103",
+          "L04-111",
+          "L14-028"
+        ],
+        "primary_demand_source_ids": [
+          "P5R2-CN-S11",
+          "P5R2-CN-S15",
+          "L04-049"
+        ],
+        "competitor_primary_source_ids": [
+          "P5R2-CN-S16",
+          "P5R2-CN-S17"
+        ],
+        "geography_or_policy_source_ids": [
+          "P5R2-CN-S12",
+          "P5R2-CN-S13",
+          "P5R2-CN-S15"
+        ],
+        "quota_status": "PASS"
+      },
+      "proposed_new_source_normalizations": [
+        {
+          "source_id": "P5R2-CN-S11",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S12",
+          "source_type": "government",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S13",
+          "source_type": "government",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S14",
+          "source_type": "academic_peer_reviewed",
+          "demand_evidence_type": "none",
+          "peer_review_status": "verified"
+        },
+        {
+          "source_id": "P5R2-CN-S15",
+          "source_type": "government",
+          "demand_evidence_type": "official_project_award",
+          "peer_review_status": "not_applicable",
+          "acceptance_note": "DOE's official funded project record supports a field-validation route; it is not evidence of a commercial purchase order."
+        },
+        {
+          "source_id": "P5R2-CN-S16",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S17",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        }
+      ],
+      "existing_source_association_rationales": {
+        "L04-007": "Models transient behavior in a complete thermodynamic cycle, supporting the need for synchronized boundary measurements under ramps rather than steady-state snapshots.",
+        "L04-103": "Reports an experimental performance test of a 150 kW compressor in a waste-heat-recovery cycle, relevant to traceable compressor/system performance testing at the proposed power scale.",
+        "L04-111": "Evaluates control-valve effects on load-following dynamics, supporting the product's focus on variable-load transient M&V and auxiliary/boundary definition.",
+        "L14-028": "An experimental liquid-cooling system reports COP across measured flow conditions, providing an adjacent Chinese full-system instrumentation and COP-calculation precedent.",
+        "L04-049": "Documents a 300-550 C industrial advanced-heat-pump deployment at a named methanol plant and provides direct customer commentary, supporting current industrial high-temperature-heat demand."
+      },
+      "quota_deficits": [],
+      "residual_evidence_deficits": [
+        "Only P5R2-CN-S14 directly addresses heat-pump monitoring; the other four peer sources are adjacent thermodynamic-cycle, compressor-test, transient-control, and COP-measurement precedents.",
+        "Before P6, add direct industrial high-temperature heat-pump field-M&V papers covering steam enthalpy, auxiliary loads, uncertainty propagation, seasonal fouling, and acceptance-boundary conventions."
+      ]
+    },
+    {
+      "idea_id": "P5R2-CN-04",
+      "concept": "China-local dry point-of-use arsine-abatement cartridge platform for compound- and power-semiconductor exhaust",
+      "source_ids": [
+        "P5R2-CN-S05",
+        "P5R2-CN-S18",
+        "P5R2-CN-S19",
+        "P5R2-CN-S20",
+        "P5R2-CN-S21",
+        "P5R2-CN-S22",
+        "P5R2-CN-S23",
+        "L06-012",
+        "L01-017",
+        "L01-018",
+        "L01-019",
+        "L01-021"
+      ],
+      "recount_after_normalization": {
+        "unique_total": 12,
+        "academic_peer_reviewed": 5,
+        "validator_primary_demand": 3,
+        "peer_source_ids": [
+          "L06-012",
+          "L01-017",
+          "L01-018",
+          "L01-019",
+          "L01-021"
+        ],
+        "primary_demand_source_ids": [
+          "P5R2-CN-S18",
+          "P5R2-CN-S19",
+          "P5R2-CN-S23"
+        ],
+        "competitor_primary_source_ids": [
+          "P5R2-CN-S05",
+          "P5R2-CN-S21",
+          "P5R2-CN-S22"
+        ],
+        "geography_or_policy_source_ids": [
+          "P5R2-CN-S20",
+          "P5R2-CN-S23"
+        ],
+        "quota_status": "PASS"
+      },
+      "proposed_new_source_normalizations": [
+        {
+          "source_id": "P5R2-CN-S05",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S18",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S19",
+          "source_type": "buyer_procurement",
+          "demand_evidence_type": "buyer_tender",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S20",
+          "source_type": "government",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable",
+          "acceptance_note": "Use as an official customer-system capacity/geography record, not as a procurement award."
+        },
+        {
+          "source_id": "P5R2-CN-S21",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S22",
+          "source_type": "vendor_datasheet",
+          "demand_evidence_type": "none",
+          "peer_review_status": "not_applicable"
+        },
+        {
+          "source_id": "P5R2-CN-S23",
+          "source_type": "company_filing",
+          "demand_evidence_type": "company_filing",
+          "peer_review_status": "not_applicable"
+        }
+      ],
+      "existing_source_association_rationales": {
+        "L06-012": "Demonstrates high-removal point-of-use-style semiconductor CVD exhaust abatement using a different mechanism, supporting the exact semiconductor-exhaust job and an incumbent technical alternative.",
+        "L01-017": "Reviews nonthermal-plasma VOC abatement as an alternative industrial-gas treatment route, useful for mechanism and competitor comparison rather than dry-arsine performance.",
+        "L01-018": "Includes field work on decomposition of industrial-exhaust VOCs, supporting real-site abatement boundary conditions and measurement practice.",
+        "L01-019": "Provides a current review of industrial VOC removal mechanisms and catalyst design, relevant to competing abatement architectures and scale-up risks.",
+        "L01-021": "Reviews packed-bed plasma reactors, relevant to pressure-drop, bed/reactor configuration, and alternative packed-bed abatement, while not validating arsine chemisorption."
+      },
+      "quota_deficits": [],
+      "residual_evidence_deficits": [
+        "None of the five accepted peer sources directly tests dry AsH3 chemisorption media, guard-bed breakthrough, endpoint sensing, spent-media stability, or semiconductor-fab cartridge qualification.",
+        "The quota is numerically valid because the peer sources substantively cover semiconductor/industrial exhaust abatement and alternative packed-bed mechanisms, but P6 must add direct hydride-gas sorbent and hazardous-waste evidence before any safety or cartridge-life claim is made."
+      ]
+    }
+  ],
+  "global_recount": {
+    "candidate_count": 4,
+    "all_candidates_exactly_12_unique": true,
+    "all_candidates_peer_at_least_5": true,
+    "all_candidates_primary_demand_at_least_3": true,
+    "quota_pass_count": 4,
+    "quota_fail_count": 0,
+    "note": "This is a selection-quota mapping, not a claim that every product-specific P6 evidence gap is closed. Residual directness deficits are explicit per candidate."
+  }
+}

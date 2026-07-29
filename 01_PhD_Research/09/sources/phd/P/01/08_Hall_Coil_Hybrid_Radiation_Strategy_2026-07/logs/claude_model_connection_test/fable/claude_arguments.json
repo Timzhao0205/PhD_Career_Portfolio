@@ -1,0 +1,20 @@
+﻿[
+    "-p",
+    "--model",
+    "fable",
+    "--effort",
+    "low",
+    "--max-turns",
+    "1",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--permission-mode",
+    "plan",
+    "--setting-sources",
+    "project",
+    "--disallowedTools",
+    "mcp__*",
+    "--no-chrome",
+    "--no-session-persistence"
+]
