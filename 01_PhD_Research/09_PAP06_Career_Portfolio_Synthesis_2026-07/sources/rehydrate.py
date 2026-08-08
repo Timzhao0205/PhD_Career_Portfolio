@@ -42,10 +42,19 @@ PATH_RULES = SNAPSHOT_ROOT / "SNAPSHOT_PATH_RULES.json"
 
 
 def find_repo_root(start: Path) -> Path:
+    """Walk up to the portfolio root.
+
+    Prefer the git checkout, but fall back to the folder layout so the script
+    also works on a plain copy of the portfolio that was never a git clone.
+    """
     for parent in [start, *start.parents]:
         if (parent / ".git").exists():
             return parent
-    raise SystemExit("could not locate the repository root (no .git found above this file)")
+        if (parent / "01_PhD_Research").is_dir() and (parent / "02_Startup").is_dir():
+            return parent
+    raise SystemExit(
+        "could not locate the portfolio root above this file — expected a .git "
+        "directory, or a folder holding both 01_PhD_Research and 02_Startup")
 
 
 def load_rules() -> list[tuple[bytes, bytes]]:
