@@ -9,12 +9,16 @@ specification was touched.
 | Before | After |
 |---|---|
 | `01_PhD_Research/09/` | `01_PhD_Research/09_PAP06_Career_Portfolio_Synthesis_2026-07/` |
-| `sources/` held 2 344 files, 366 MB | `sources/` holds 39 files, 1.7 MB, plus a manifest and `rehydrate.py` |
+| `sources/` held 2 344 files, 366 MB | `sources/` holds 98 files, 1.6 MB, plus a manifest and `rehydrate.py` |
 
-2 293 of the 2 344 snapshot files were copies of material that still lives in
+2 236 of the 2 344 snapshot files were copies of material that still lives in
 its own project folder in this repository. They were removed and recorded in
 `sources/SNAPSHOT_MANIFEST.csv`. Run `python3 sources/rehydrate.py` to restore
 them; the round trip is hash-verified.
+
+The 98 files left behind are the 41 with no canonical twin anywhere else, plus
+57 empty placeholders — every zero-byte file hashes alike, so deduplicating
+those would have pinned them to an arbitrary unrelated empty file.
 
 ## Why the rename
 

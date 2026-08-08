@@ -62,7 +62,7 @@ this repository those copies were pure duplication.
 
 | Snapshot | Was | Now |
 |---|---|---|
-| `01_PhD_Research/09_…/sources/` | 2,344 files, 366 MB | 39 files, 1.7 MB — 2,293 removed, 36 genuinely unique kept |
+| `01_PhD_Research/09_…/sources/` | 2,344 files, 366 MB | 98 files, 1.6 MB — 2,236 removed; 41 genuinely unique files and 57 empty placeholders kept |
 | `02_Startup/07_…/src/06/` | 405 files, 164 MB | manifest + tooling only — all 405 were byte-identical to `06_Frontier_Idea_Research_2026-07` |
 
 Each snapshot root now carries:
@@ -82,9 +82,9 @@ python3 02_Startup/07_Frontier_Ideas_Interactive_2026-07/src/06/rehydrate.py
 ```
 
 **Round trip verified.** Both snapshots were fully restored and every one of the
-2,698 files matched its recorded LF-normalised SHA-256, then removed again.
+2,641 files matched its recorded LF-normalised SHA-256, then removed again.
 
-60 of the 2,293 rows are `path_variant`: they came from `01/06/`, the pre-rename
+60 of the 2,236 rows are `path_variant`: they came from `01/06/`, the pre-rename
 name of `06_PhD_Strategy_and_HSX_Publication_2026-07`. They are the same run —
 identical session ids and timestamps — recorded under the old folder names, and
 `rehydrate.py` reproduces them byte-for-byte from the surviving folder.
