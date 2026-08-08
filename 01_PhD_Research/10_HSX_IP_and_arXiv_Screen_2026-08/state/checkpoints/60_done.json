@@ -1,0 +1,30 @@
+{
+  "run_id": "HSXIP-20260805T071311Z",
+  "stage": "60_red_team",
+  "agent": "s60-red-team",
+  "requested_model": "fable (Claude Fable 5)",
+  "requested_effort": "xhigh",
+  "observed_model": "not_exposed",
+  "observed_effort": "not_exposed",
+  "fable_integrity": "no flag, refusal, or substitution event reported; flag count remains 0. Output self-reports claude-fable-5; parent records observed as not_exposed per MODEL_EVIDENCE rules.",
+  "status": "accepted",
+  "accepted_utc": "2026-08-05T08:44:22Z",
+  "outputs": ["outputs/60_RED_TEAM.md"],
+  "gate": "PASS",
+  "key_findings": [
+    "C3 does not withstand the best adversarial case on the current record: scissors argument (broad enough to be supported -> obvious under KSR with every element+motivation cited; narrow enough to argue -> unsupported by the one-sentence disclosure); inherent-result attack strips the functional language; inventorship-origin attack (passive voice, plausible facility-staff conception outside author list) threatens ownership and clean grace-period reliance; evidence-quality attack (~3.4 s cumulative plasma exposure; GDC exposure never narrated).",
+    "Screened-out groups: no premature kills; C2's 'medium novelty' flagged as functionally inert; three mild over-generosities identified, all in C3's favor (bounded-search absence load-bearing, saturated-gap cosmetics, G4 lifeline struck from weighing).",
+    "Confirmation-bias audit: five shared assumptions treated (search-absence weight; untested journal-confidentiality premise; implicit GDC exposure - benefit of doubt withdrawn; G4 struck; inheritance momentum named - stage 70 must not inherit the hold as substance).",
+    "HOLD_ARXIV_FOR_OTL survives challenge but only as a short, TIME-BOXED checkpoint (decision date ~1-2 weeks chosen by PI; release condition (b) exercised by default) justified by irrevocability, unresolved ownership, and patentability-independent sponsor duties - not C3's prospects. Modal outcome: documented 'no filing - clear to post' in days.",
+    "Steelman: sacrificial-grounded-low-Z-cover-over-commodity-epoxy-packaging economic insight; requires ~6 contingencies (G1+G2+G3 minimum, G4/G5 reinforcing, G8/G9/G10 negative); even fully steelmanned obviousness only drops to medium, enforceability ~zero.",
+    "Filing economics: full prosecution not justified on any evidenced scenario; defensive provisional only if G1+G2+G3 surface within the checkpoint window.",
+    "Plain statement: genuine scientific first with no useful patent position; scientific priority protected by publishing promptly.",
+    "Handoff: recommend stage-70 lead NO_PUBLICATION_SPECIFIC_FILING_CASE_IDENTIFIED unless G1+G2+G3 produced, retaining the time-boxed checkpoint on ownership/sponsor rationale."
+  ],
+  "telemetry": {
+    "subagent_tokens_total": 153903,
+    "tool_uses": 13,
+    "duration_ms": 443424,
+    "source": "Claude Code task-notification usage metadata"
+  }
+}

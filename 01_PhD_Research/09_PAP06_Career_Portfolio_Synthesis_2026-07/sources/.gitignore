@@ -1,0 +1,42 @@
+# Generated during the 2026-08 reorganisation. Do not hand-edit.
+#
+# Every path below is rehydratable: it appears in SNAPSHOT_MANIFEST.csv
+# alongside the canonical file it was copied from. Running rehydrate.py
+# recreates them, and this file keeps the restored copies out of git so
+# `git status` stays clean afterwards. See README.md.
+
+/new06/
+/old06/
+/startup/
+/phd/P/01/01_Publications/
+/phd/P/01/05_HSX_ChatGPT_Windows_App/
+/phd/P/01/06/
+/phd/P/01/08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/
+/phd/P/01/02_HSX_Hall_Sensor_Readout/_claude_source/
+/phd/P/01/02_HSX_Hall_Sensor_Readout/analysis/
+/phd/P/01/02_HSX_Hall_Sensor_Readout/circuit/
+/phd/P/01/02_HSX_Hall_Sensor_Readout/data/
+/phd/P/01/03_HSX_Vector_Probe_RSI2026/_claude_source/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/.state/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/docs/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/logs/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/outputs/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/prompts/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/refs_raw/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/seed/
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/tools/
+/phd/P/01/07_HSX_august2025_results/hsx_20250821/
+/phd/P/01/_claude_source/agents/
+/phd/P/01/_claude_source/commands/
+/phd/P/01/02_HSX_Hall_Sensor_Readout/firmware/pico2/
+
+/phd/P/01/02_HSX_Hall_Sensor_Readout/CLAUDE.md.source.txt
+/phd/P/01/02_HSX_Hall_Sensor_Readout/docs/SPECS.md
+/phd/P/01/02_HSX_Hall_Sensor_Readout/docs/hsx_readout_bringup_and_calibration_plan.md
+/phd/P/01/02_HSX_Hall_Sensor_Readout/docs/second_test_setup_static_bias.md
+/phd/P/01/02_HSX_Hall_Sensor_Readout/journal/2026-07-08_spinning_emulator_20mA.md
+/phd/P/01/03_HSX_Vector_Probe_RSI2026/CLAUDE.md.source.txt
+/phd/P/01/03_HSX_Vector_Probe_RSI2026/NOTES.md
+/phd/P/01/03_HSX_Vector_Probe_RSI2026/docs/rsi_experiment_and_publication_plan.md
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/NOTES.md
+/phd/P/01/04_Magnetic_Sensor_Review_Sensors2026/run.ps1.source.txt

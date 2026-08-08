@@ -28,11 +28,29 @@ first-author work it may be cited as complementary or mentioned as
 outlook, never claimed experimentally.
 
 ## Folder map
-- `01_Publications/` — published PDFs; `in_preparation/` for drafts.
+Full index with per-folder detail: `01_PhD_Research_Folder_Info.md`.
+
+Experimental line:
+- `01_Publications/` — published PDFs; `submitted/regular_lsens/` is the
+  LaTeX project submitted 2026-07-02; `in_preparation/` for drafts.
 - `02_HSX_Hall_Sensor_Readout/` — single-axis readout. Technical memory
   in its own `CLAUDE.md`; quick numbers in `docs/SPECS.md`.
 - `03_HSX_Vector_Probe_RSI2026/` — vector probe + RSI paper. Plan in
   `docs/rsi_experiment_and_publication_plan.md`.
+- `07_HSX_august2025_results/` — August 2025 HSX campaign data and plots.
+
+Analysis/strategy packages — each has its own binding `CLAUDE.md`; launch
+`claude` from the package folder when working inside one:
+- `04_Magnetic_Sensor_Review_Sensors2026/` — *Sensors* review-paper pipeline.
+- `05_HSX_ChatGPT_Windows_App/` — UHV/250 °C package + 3-board readout study.
+- `06_PhD_Strategy_and_HSX_Publication_2026-07/` — PhD direction and
+  publication strategy (earlier attempt under `_history/r0/`).
+- `08_Hall_Coil_Hybrid_Radiation_Strategy_2026-07/` — Hall+coil hybrid under
+  radiation. Analysis only; see the scope rule above.
+- `09_PAP06_Career_Portfolio_Synthesis_2026-07/` — PAP06 career/portfolio
+  synthesis over the PhD + startup corpora. Paused at B50.
+- `10_HSX_IP_and_arXiv_Screen_2026-08/` — IP/arXiv triage for the submitted
+  manuscript. Start at `outputs/70_EXEC_SUMMARY.md`.
 
 ## Session workflow
 - Launch `claude` from THIS folder so `.claude/commands` and

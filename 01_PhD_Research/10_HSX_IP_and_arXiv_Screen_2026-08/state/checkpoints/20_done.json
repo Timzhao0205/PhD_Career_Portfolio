@@ -1,0 +1,33 @@
+{
+  "run_id": "HSXIP-20260805T071311Z",
+  "stage": "20_prior_art",
+  "agent": "s20-prior-art",
+  "requested_model": "claude-sonnet-5",
+  "requested_effort": "xhigh",
+  "observed_model": "not_exposed",
+  "observed_effort": "not_exposed",
+  "status": "accepted",
+  "accepted_utc": "2026-08-05T08:03:17Z",
+  "outputs": ["outputs/20_PRIOR_ART.csv", "outputs/20_SEARCH_LOG.md"],
+  "gate": "PASS",
+  "key_findings": [
+    "22/22 seeds verified; 18 new sources N001-N018; 40 rows; all six coverage areas saturated with explicit statements.",
+    "Concept 1 (device): closest independent patent S009 US11137310B2 (U. Arkansas Little Rock) - same AlGaN/GaN bias/Hall-terminal arrangement but requires simultaneous temperature measurement the manuscript device lacks. Octagon/regular-polygon Hall geometry independently patented in Si CMOS since 1999 (N013 US10809318B2, N014 US6639290B1) - geometry is cross-material generic and is the group's own prior publication (ref10) anyway. No Stanford/Senesky patent found (gap).",
+    "Concept 2 (fusion new use): no GaN/AlGaN Hall sensor found in any fusion deployment (JET=InSb, ITER=bismuth, DEMO=gold, N018=antimony 2026-06-05 pre-date). Closest analog N016: 2014 GaAs Hall array deployed in-vessel at CTH (stellarator-class torsatron/tokamak hybrid) - does not literally anticipate 'first GaN in a stellarator' but materially narrows it.",
+    "Concept 3 (UHV/GDC module): central finding - no source combines grounded + graphite shield + protecting epoxy-encapsulated sensor + against GDC arcing/epoxy degradation. Ranked analogs: N017 (W7-X Mirnov coils under graphite panels, thermal purpose, grounding unconfirmed), N015 (1985 DOE graphite armor over flux loop), N005 (1989 DOE graphite-ceramic RF shield), N006 (grounded-shield-stops-arcing general principle, 1993), N008 (SST-1 GDC ceramic covers; also notes opposite float-vs-ground philosophy). EPO-TEK 353ND 150C/1h bake = manufacturer's standard cure (S022, N007 LIGO qualification); ceramic-LCC UHV packaging routine (N009).",
+    "Concept 4 (validation): three-part combination not found as named methodology; each part routine commissioning practice (N011 JT-60SA example).",
+    "Doctrine: MPEP 2112.02 (In re Hack / In re May new-use fork) and MPEP 2141/2143 (KSR combination) read directly. OTL/arXiv: arXiv post = irrevocable public disclosure; OTL will not file after public disclosure; Bayh-Dole reporting regardless of patentability; arXiv rules prohibit .log/.aux/.synctex.gz artifacts (confirms stage-00 hazard).",
+    "S009/N002 cross-reference: Senesky co-authored 2024 arXiv paper with three of S009's five inventors - flagged for inventorship/awareness questions.",
+    "lead_only rows N004 (date unresolved) and N012 (readout, unsearched) firewalled from conclusions. Readout chain not searched to saturation (documented limitation)."
+  ],
+  "process_notes": [
+    "Stage agent dispatched six coverage-area forks; two hit context compaction, lost scope, and wrote drafts directly to outputs. Stage agent treated those as unverified draft, cross-checked against clean forks, added N016/N017/N018 with its own re-verification, and re-validated the CSV schema programmatically. Documented in 20_SEARCH_LOG.md section 0.",
+    "Parent-noted minor tension: S015 material ID (InSb) rests on the pass claiming a successful AIP fetch while the dedicated fork could only verify metadata; immaterial (either way non-III-nitride) but stage 30 should not lean on S015 material identity beyond that."
+  ],
+  "telemetry": {
+    "subagent_tokens_total": 228381,
+    "tool_uses": 72,
+    "duration_ms": 2018507,
+    "source": "Claude Code task-notification usage metadata"
+  }
+}

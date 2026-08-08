@@ -1,0 +1,29 @@
+{
+  "run_id": "HSXIP-20260805T071311Z",
+  "stage": "30_ip_screen",
+  "agent": "s30-ip-screen",
+  "requested_model": "fable (Claude Fable 5)",
+  "requested_effort": "xhigh",
+  "observed_model": "not_exposed",
+  "observed_effort": "not_exposed",
+  "fable_integrity": "no flag, refusal, or substitution event reported; flag count remains 0",
+  "status": "accepted",
+  "accepted_utc": "2026-08-05T08:13:38Z",
+  "outputs": ["outputs/30_IP_SCREEN.md", "outputs/30_CLAIM_CHART.csv"],
+  "gate": "PASS",
+  "key_findings": [
+    "C1 device/fabrication: screen_out, confidence high - every element purchased, group-published (ref10/ref11 prior art against manuscript), or routine; octagon geometry cross-material generic.",
+    "C2 fusion new use: screen_out standalone, confidence high on doctrine - In re May side of MPEP 2112.02 fork (known device, known published properties, inherent response in new location); narrow GaN-in-fusion pairing literal novelty survives (medium risk) but KSR simple-substitution obviousness risk high; 'first' claims cover-letter-only; record tension flagged: intro's 'cannot be deployed' premise vs verified InSb/GaAs in-vessel deployments (removes teaching-away, stage-50 accuracy note).",
+    "C3 UHV/GDC module: conditional_hold - single strongest surviving candidate, confidence medium. Delta concentrates entirely in grounded graphite shield (F16); novelty risk medium (documented absence, not proof), obviousness risk high on current record (N017/N015/N005/N006/N008 supply all building blocks with motivation; no unexpected result, no verified teaching away); enablement thin (one sentence, F40-F43).",
+    "C4 readout: screen_out, confidence medium (search-depth limitation honestly carried; manuscript-intrinsic: off-the-shelf ICs as intended).",
+    "C5 validation method: screen_out, confidence high; commercial value ~zero.",
+    "Decisive gaps ranked: (1) shield conception records F40/F41/F44; (2) without-shield failure/comparison F42 (only plausible unexpected-result evidence); (3) float-vs-ground verification + W7-X panel grounding; (4) UHV acceptance criterion F43; (5) UW-Madison contribution F44.",
+    "FTO separation note records S009 and N013 as third-party patents without analysis."
+  ],
+  "telemetry": {
+    "subagent_tokens_total": 136124,
+    "tool_uses": 13,
+    "duration_ms": 521615,
+    "source": "Claude Code task-notification usage metadata"
+  }
+}

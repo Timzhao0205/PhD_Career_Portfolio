@@ -1,0 +1,29 @@
+{
+  "run_id": "HSXIP-20260805T071311Z",
+  "stage": "50_arxiv",
+  "agent": "s50-arxiv",
+  "requested_model": "claude-sonnet-5",
+  "requested_effort": "high",
+  "observed_model": "not_exposed",
+  "observed_effort": "not_exposed",
+  "status": "accepted",
+  "accepted_utc": "2026-08-05T08:35:37Z",
+  "outputs": ["outputs/50_ARXIV_RISK.md", "outputs/50_SOURCE_SCRUB.md", "outputs/50_OTL_INTAKE.md"],
+  "gate": "PASS",
+  "key_findings": [
+    "Gate label: HOLD_ARXIV_FOR_OTL, scoped only to C3. Release conditions (any one): (a) OTL intake completed and cleared or provisional filed; (b) documented informed PI/author decision to proceed without filing; (c) confirmation shield concept already public via earlier channel (G10).",
+    "Timeline: figures 2026-06-11..26; final TeX edit+compile 2026-07-02 14:03-14:04 local; submission.pdf (Aspose, journal portal) 2026-07-02; cover letter affirms no preprint posted as of that date. Biggest unknowns: G10 earliest shield disclosure; current IEEE review status.",
+    "Key analysis: arXiv adds no NEW technical disclosure beyond the journal submission (shield concept is the same one sentence in both) - the arXiv decision is about acceleration and irrevocability of the public-disclosure trigger, not about new content. Journal publication will eventually start the same clock.",
+    "MPEP 2153.01(a) authorship/inventorship nuance flagged: six authors vs potentially narrower inventor list could complicate reliance on the US grace period ('additional evidence' scenario).",
+    "IEEE policy verified (direct fetch): arXiv posting permitted before/during/after submission, not prior publication; at acceptance must replace with DOI citation or copyright-noticed accepted version. IEEE side is NOT a reason to hold.",
+    "Source scrub: ZIP not upload-ready - strip .aux/.log/.synctex.gz/.pdf (path leak resolved by exclusion); graphical abstract inclusion is a decision; .eps/-eps-converted-to.pdf duplication flagged as compile risk (new finding); cover letter (F49-F51 unsupported claims) must never reach arXiv.",
+    "OTL intake draft: C3-only, candid on conventional pieces and high obviousness risk, G1-G11 ask table with flip thresholds, sponsor fields (DOE/SLAC/TomKat/NSF + unnamed UW/HSX terms), Bayh-Dole reporting separate from patentability, explicit not-transmitted disclaimer.",
+    "OTL turnaround: no published number; doresearch.stanford.edu says contact 'shortly after' submission; researcher should ask directly."
+  ],
+  "telemetry": {
+    "subagent_tokens_total": 143718,
+    "tool_uses": 38,
+    "duration_ms": 554721,
+    "source": "Claude Code task-notification usage metadata"
+  }
+}

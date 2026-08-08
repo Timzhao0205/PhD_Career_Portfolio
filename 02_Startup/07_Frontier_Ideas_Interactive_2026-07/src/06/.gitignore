@@ -1,0 +1,27 @@
+# Generated during the 2026-08 reorganisation. Do not hand-edit.
+#
+# Every path below is rehydratable: it appears in SNAPSHOT_MANIFEST.csv
+# alongside the canonical file it was copied from. Running rehydrate.py
+# recreates them, and this file keeps the restored copies out of git so
+# `git status` stays clean afterwards. See README.md.
+
+/.claude/
+/01_MISSION/
+/05_STATE/
+/10_SOURCE_ATLAS/
+/20_OPPORTUNITY_POOL/
+/30_SCREENING/
+/40_DEEP_DIVES/
+/50_GEOGRAPHY/
+/60_FINAL_PORTFOLIO/
+/90_BIBLIOGRAPHY/
+/98_RUN_LOGS/
+/99_AUDIT/
+/tools/
+
+/00_README_START_HERE.md
+/CLAUDE.md
+/INSTALL_AND_RUN_POWERSHELL.md
+/KICKOFF_PROMPT.txt
+/PATCH_AND_RECOVERY.md
+/RUN_FRONTIER_RESEARCH.ps1
