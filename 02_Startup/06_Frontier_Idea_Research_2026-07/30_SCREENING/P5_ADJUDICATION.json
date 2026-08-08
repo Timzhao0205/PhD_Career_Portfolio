@@ -1,0 +1,80 @@
+{
+  "artifact": "P5_ADJUDICATION",
+  "status": "complete",
+  "final_ids": [
+    "P3R2-D-02",
+    "P3R2-C-22",
+    "P3R2-D-01",
+    "P3R2-F-01",
+    "P3R2-C-01",
+    "P5-USSCI2-S01",
+    "P3R2-E-14",
+    "P5R2-CN-01",
+    "P3R2-A-14",
+    "P3R2-C-13",
+    "P3R2-C-08",
+    "P3R2-B-01",
+    "P3R2-E-04",
+    "P5R2-CN-03",
+    "P3R2-F-02",
+    "P3R2-C-04",
+    "P3R2-F-12",
+    "P3R2-G-01",
+    "P3R2-A-10",
+    "P3R2-G-03",
+    "P3R2-D-12",
+    "P3R2-F-23",
+    "P3R2-F-06",
+    "P3R2-F-03"
+  ],
+  "top_10_ids": [
+    "P3R2-D-02",
+    "P3R2-C-22",
+    "P3R2-D-01",
+    "P3R2-F-01",
+    "P3R2-C-01",
+    "P5-USSCI2-S01",
+    "P3R2-E-14",
+    "P5R2-CN-01",
+    "P3R2-A-14",
+    "P3R2-C-13"
+  ],
+  "near_misses": [
+    {
+      "idea_id": "P5-USSCI-S01",
+      "reason": "Killed: the buyer collaboration and a global facility already built the exact timing endpoint class."
+    },
+    {
+      "idea_id": "P5-USSCI-S02",
+      "reason": "Held: buyer laboratories own the adaptive control functions and no merchant evaluation interface is evidenced."
+    },
+    {
+      "idea_id": "P5R2-CN-02",
+      "reason": "Killed: exact purification incumbents and helium-free substitution erase the proposed wedge."
+    },
+    {
+      "idea_id": "P5R2-CN-04",
+      "reason": "Killed: exact domestic incumbents and no defensible 2028-2035 entry trigger."
+    },
+    {
+      "idea_id": "P3R2-C-09",
+      "reason": "Killed: the facility schedule moved beyond the required launch window."
+    },
+    {
+      "idea_id": "P3R2-F-16",
+      "reason": "Killed: exact incumbent equipment closes both competition and timing gates."
+    }
+  ],
+  "constraint_counts": {
+    "final": 24,
+    "lanes": 12,
+    "lane_max": 3,
+    "cheap": 11,
+    "us": 20,
+    "china": 18,
+    "dual": 14,
+    "industrial": 12,
+    "scientific_big_physics": 4,
+    "infrastructure_utility_transport": 8
+  }
+}

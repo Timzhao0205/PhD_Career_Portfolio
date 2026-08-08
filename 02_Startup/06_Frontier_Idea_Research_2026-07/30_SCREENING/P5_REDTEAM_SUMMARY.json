@@ -1,0 +1,32 @@
+{
+  "artifact": "P5_REDTEAM_SUMMARY",
+  "status": "complete",
+  "base_survivors_reviewed": 30,
+  "base_dispositions": {
+    "KEEP": 1,
+    "HOLD": 10,
+    "KILL": 19
+  },
+  "main_literal_adjudication": {
+    "KEEP": 12,
+    "HOLD": 7,
+    "KILL": 11
+  },
+  "supplemental_reviews": {
+    "first_us_scientific_pair": {
+      "KILL": 1,
+      "HOLD": 1
+    },
+    "china_round_two": {
+      "REINSTATE": 2,
+      "KILL": 2
+    },
+    "selected_us_scientific": "P5-USSCI2-S01"
+  },
+  "load_bearing_findings": [
+    "Host-system spending was never treated as product demand unless the proposed job was necessary to acceptance.",
+    "Exact incumbent and in-house substitutes caused kills even when the underlying physics was attractive.",
+    "A named primary or official 2028-2035 trigger plus an independent timing source was required for every selected concept.",
+    "Sub-$100k credit was limited to immediately executable decisive tests; access-dependent designs were excluded from the count."
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "artifact": "P5_G7_NONCN_REPAIR_PROPOSAL",
+  "status": "independent_proposal_only_not_applied",
+  "generated_at": "2026-07-14T07:17:26Z",
+  "scope": {
+    "expected_idea_ids": [
+      "P3R2-D-19",
+      "P3R2-E-04",
+      "P3R2-A-02",
+      "P3R2-A-22",
+      "P3R2-A-21"
+    ],
+    "covered_idea_count": 5,
+    "primary_question": "Can the prior P5 G7 failure be repaired with two independent timing sources, including a primary or official product-linked 2028-2035 trigger, without substituting generic host-system growth for the product job?"
+  },
+  "binding_interpretation": {
+    "g7": "A source dated in the 2028-2035 interval is necessary but not sufficient. The record must also support a named 2030-2034 product-category demand, procurement, regulation, capacity, roadmap, or customer-investment trigger; a generic host buildout or an R&D possibility is not a trigger.",
+    "g1": "Two independent demand sources are sufficient when one is a primary buyer, procurement, filing, or direct-customer record; an order for the proposed startup itself is not required.",
+    "source_independence": "A company press release and SEC filing about the same purchase are one underlying demand event even when they are separate canonical works.",
+    "truthfulness_rule": "A failed repair remains failed even if passing it would help portfolio quotas."
+  },
+  "summary": {
+    "g7_pass": 0,
+    "g7_pass_marginal": 1,
+    "g7_fail": 4,
+    "only_repaired_idea_id": "P3R2-E-04",
+    "proposed_selection_effect": {
+      "P3R2-E-04": "HOLD after gate repair; still architecture-sensitive and only 51.0/100 proposed.",
+      "P3R2-D-19": "KILL for final-gate purposes; preserve as a strong-demand near miss.",
+      "P3R2-A-02": "KILL; no named post-launch MVDC-breaker socket.",
+      "P3R2-A-22": "KILL; G7 and the existing G2 defect both remain fatal.",
+      "P3R2-A-21": "KILL; the port records buy lower-power distributed charging, not the preserved 1.5-6 MW MCS product."
+    }
+  },
+  "records": [
+    {
+      "idea_id": "P3R2-D-19",
+      "concept_short": "Distributed composite-flywheel kinetic buffers for off-grid AI power plants",
+      "prior_p4_score": 60.4,
+      "prior_literal_p5_score": 51.8,
+      "timing_source_assessment": [
+        {
+          "source_id": "P5G7-D19-S01",
+          "source_role": "primary customer filing",
+          "primary_or_official": true,
+          "independent_event": "Liberty Energy 2026 Bergen supply contracts",
+          "window_date": "deliveries, testing, and takeover from H2 2027 through 2028",
+          "product_job_linkage": "The SEC filing proves $505M of generation equipment for data-center and distributed-power projects but does not name SHIELDX or flywheel buffering.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "The 2028 date is in range, but the filing alone is host-equipment procurement and ends before the 2030 launch."
+        },
+        {
+          "source_id": "P5G7-D19-S02",
+          "source_role": "direct customer announcement",
+          "primary_or_official": true,
+          "independent_event": "Liberty Energy 2026 Bergen supply contracts",
+          "window_date": "deliveries commence H2 2027; installed architecture has a 20+ year operating lifecycle",
+          "product_job_linkage": "Exact: the Liberty release says Piller SHIELDX flywheel architecture absorbs sub-second AI load steps up to 30 percent.",
+          "qualifies_as_2028_2035_trigger": true,
+          "reason": "It supplies exact product linkage and a 2028 delivery when read with the filing, but it is the same transaction and does not name a new 2030-2034 purchase."
+        },
+        {
+          "source_id": "P5G7-D19-S03",
+          "source_role": "independent standards-body problem record",
+          "primary_or_official": true,
+          "independent_event": "NERC emerging-large-load reliability work",
+          "window_date": "2025 measurement baseline; no 2028-2035 procurement date",
+          "product_job_linkage": "NERC records a 50 MW block within a 200 MW AI training center changing at 1.9 per-unit per second for about 250 ms, directly validating the transient job.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "It proves present pain but provides no dated post-launch flywheel requirement."
+        }
+      ],
+      "two_independent_2030_timing_sources_met": false,
+      "primary_or_official_2028_2035_source_present": true,
+      "g7_verdict": "FAIL",
+      "g7_rationale": "Two exact named buyers have now bought Piller-linked flywheel stabilization, but both equipment waves deliver by 2028. The 20+ year lifecycle preserves installed demand while also entrenching Piller. No independent named 2030-2034 customer procurement, regulation, or capacity event creates a startup entry socket at launch.",
+      "window_risk": "The category is being vertically bundled now by Bergen, Piller, and Liberty's Forte/Tempo platform; rack-level supercapacitors, batteries, and software smoothing may remove the residual niche before 2030.",
+      "gate_recheck": {
+        "G1": {
+          "verdict": "PASS",
+          "rationale": "Existing E-Finity/Piller procurement plus the independent Liberty purchase are two exact named-buyer demand events."
+        },
+        "G4": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "Piller/Active Power, Stornetic, Liberty Tempo, BESS, and supercapacitors are named. A DC-native composite rotor optimized for residual microcycles is non-cosmetic, but it is unproved and the incumbent is already bundled."
+        },
+        "G6": {
+          "verdict": "PASS",
+          "rationale": "US civilian industrial base case; rotating-machinery containment, UL/IEEE interconnection, and facility safety need qualification, with no prohibited cross-border route required."
+        }
+      },
+      "exact_competitors": [
+        "Piller SHIELDX / Active Power",
+        "Stornetic EnWheel",
+        "Liberty Tempo power-quality system",
+        "rack-level supercapacitors and BESS-plus-supercapacitor hybrids"
+      ],
+      "market_route": "Only credible route is paid measurement followed by an OEM/EPC co-development or white-label agreement with an off-grid power-plant integrator; direct displacement of the incumbent is not a base case.",
+      "decisive_experiment": {
+        "title": "Measured residual AI-power spectrum and substitution economics",
+        "budget_usd": 90000,
+        "duration_months": 6,
+        "classification": "CONDITIONAL",
+        "dependency": "Signed synchronized access to an AI rack or power shelf and its generator or islanded test bus.",
+        "pass_bar": "At least 1,000 representative transitions; rack controls leave a residual spectrum; modeled lifetime cost at least 30 percent below Piller or BESS-supercap; at least 100 modules per year addressable.",
+        "kill_bar": "Shelf controls erase the niche, cost advantage is below 30 percent, or no site grants access."
+      },
+      "proposed_score_change": {
+        "from": 51.8,
+        "to": 51.8,
+        "raw_changes": [],
+        "reason": "The new exact order strengthens confidence in already-high demonstrated demand but does not repair launch timing or whitespace."
+      },
+      "proposed_disposition": "KILL_GATE_FAIL_NEAR_MISS"
+    },
+    {
+      "idea_id": "P3R2-E-04",
+      "concept_short": "High-density cryogenic interconnect loader with co-packaged 4 K readout front-end",
+      "prior_p4_score": 65.4,
+      "prior_literal_p5_score": 47.8,
+      "timing_source_assessment": [
+        {
+          "source_id": "L13-028",
+          "source_role": "reused official DOE award renewal",
+          "primary_or_official": true,
+          "independent_event": "DOE National QIS Research Centers second phase",
+          "window_date": "November 2025 award selection for up to five years, extending through approximately 2030",
+          "product_job_linkage": "DOE assigns SQMS to new refrigeration methods and technologies for connecting many quantum processors, explicitly to lay groundwork for quantum data centers.",
+          "qualifies_as_2028_2035_trigger": true,
+          "reason": "Named official program, exact cryogenic/interconnect work, and an award period reaching 2030; outyear funding remains contingent on appropriations and negotiations."
+        },
+        {
+          "source_id": "P5G7-E04-S01",
+          "source_role": "independent customer technology roadmap",
+          "primary_or_official": true,
+          "independent_event": "IBM fault-tolerant quantum roadmap",
+          "window_date": "Starling client availability 2029; Blue Jay 2033+",
+          "product_job_linkage": "IBM explicitly states Blue Jay requires new control-electronics and cryogenics infrastructure, the same hard systems boundary addressed by the loader.",
+          "qualifies_as_2028_2035_trigger": true,
+          "reason": "Primary customer roadmap with exact 2029 and 2033 milestones and explicit control/cryogenic infrastructure demand."
+        }
+      ],
+      "two_independent_2030_timing_sources_met": true,
+      "primary_or_official_2028_2035_source_present": true,
+      "g7_verdict": "PASS_MARGINAL",
+      "g7_rationale": "DOE's renewed SQMS mission reaches about 2030 and explicitly funds refrigeration and processor connection, while IBM's primary roadmap makes client systems available in 2029 and says its 2033+ system requires new control electronics and cryogenics. These are independent, product-linked triggers. Marginality remains because IBM's modular architecture could reduce external channels and both roadmaps are contingent.",
+      "repaired_launch_thesis": "Use 2026-2028 to validate a modular 4 K interconnect/control segment and obtain a refrigerator-OEM interface; use 2029 DOE/IBM-class integration evidence to launch in 2030 into funded national-lab systems and post-Starling builders. Preserve a loader product only if customer roadmaps retain at least a 1,000-channel external socket; otherwise pivot the same cold-electronics package to modular quantum-compute interconnects or kill.",
+      "window_risk": "On-chip multiplexing, optical cryo-links, SFQ control, or IBM-style modular links may internalize the I/O problem before 2030; export licensing constrains Taiwan/Korea work.",
+      "gate_recheck": {
+        "G1": {
+          "verdict": "PASS",
+          "rationale": "DOE's named five-center $625M renewal is a primary official instrument with exact cryogenic/interconnect work; Fermilab-Qblox QICK and IBM's roadmap are independent category evidence. No loader order is claimed."
+        },
+        "G4": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "Delft Circuits, Bluefors, SEEQC, IBM in-house architectures, and room-temperature control vendors are named. Co-qualified harness, mux, and LNA performance per refrigerator heat budget is non-cosmetic but architecturally vulnerable."
+        },
+        "G6": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "The US-first base case is viable. BIS quantum/cryo controls and deemed-export screening must be completed before Taiwan/Korea transfers; those routes cannot be assumed."
+        }
+      },
+      "exact_competitors": [
+        "Delft Circuits",
+        "Bluefors integrated wiring",
+        "SEEQC cryogenic control",
+        "IBM and other in-house modular-link or cold-control architectures",
+        "Keysight and Quantum Machines room-temperature control stacks"
+      ],
+      "market_route": "US-first paid co-development with SQMS or another DOE QIS center plus a refrigerator OEM; TW/KR manufacturing or test work is optional and license-gated, not the base case.",
+      "decisive_experiment": {
+        "title": "Post-2029 external-I/O architecture socket test",
+        "budget_usd": 60000,
+        "duration_months": 3,
+        "classification": "QUALIFIES",
+        "dependency": "No assumed partner access; confidential roadmap disclosure and paid co-development are required outcomes.",
+        "pass_bar": "One written post-2029 external loader socket of at least 1,000 channels, one buyer funds at least 20 percent of the later demo, and a refrigerator OEM accepts the interface.",
+        "kill_bar": "All roadmaps internalize I/O into cold electronics or modular links, no buyer funding, or no refrigerator interface."
+      },
+      "proposed_score_change": {
+        "from": 47.8,
+        "to": 51.0,
+        "raw_changes": [
+          {
+            "criterion": "launch_window_fit_2030",
+            "from_raw": 1,
+            "to_raw": 3,
+            "weighted_delta": 3.2
+          }
+        ],
+        "reason": "The two new primary timing records repair the timing-source defect but do not restore demand, competition, budget, elegance, or 10x deductions."
+      },
+      "proposed_disposition": "HOLD_GATE_REPAIRED"
+    },
+    {
+      "idea_id": "P3R2-A-02",
+      "concept_short": "Modular 1-35 kV hybrid solid-state circuit breaker for MVDC campuses and microgrids",
+      "prior_p4_score": 55.2,
+      "prior_literal_p5_score": 44.2,
+      "timing_source_assessment": [
+        {
+          "source_id": "P5G7-A02-S01",
+          "source_role": "official national-lab architecture assessment",
+          "primary_or_official": true,
+          "independent_event": "PNNL large-data-center EMT model roadmap",
+          "window_date": "December 2025 report labels MVDC distribution Future greater than 5 years, implying after 2030",
+          "product_job_linkage": "Exact: PNNL says the future MVDC design requires cables, busbars, switchgear, and circuit breakers.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "This is an unnamed research architecture and maturity warning, not a customer roadmap, project, purchase, or deployment commitment."
+        },
+        {
+          "source_id": "P5G7-A02-S02",
+          "source_role": "independent industry capacity outlook",
+          "primary_or_official": false,
+          "independent_event": "EPRI 2030 US data-center capacity scenarios",
+          "window_date": "2030",
+          "product_job_linkage": "EPRI projects data centers at 9-17 percent of US electricity by 2030 but does not specify MVDC distribution or standalone breakers.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "Generic host-system growth cannot repair a product-specific protection gate."
+        }
+      ],
+      "two_independent_2030_timing_sources_met": false,
+      "primary_or_official_2028_2035_source_present": false,
+      "g7_verdict": "FAIL",
+      "g7_rationale": "PNNL newly provides excellent product linkage and places MVDC data centers after 2030, but explicitly as a distant architecture with no named buyer or field deployment. EPRI's 2030 data-center buildout is generic. No named 2030-2034 standalone-breaker design-in survives.",
+      "window_risk": "Point-to-point LVDC or MV solid-state-transformer architectures may defer or remove a standalone MVDC breaker; Hitachi, Eaton, Siemens, GE, DG Matrix, and Atom Power can bundle protection before the architecture becomes commercial.",
+      "gate_recheck": {
+        "G1": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "ARPA-E BREAKERS/DC work and PNNL's exact architecture establish category need, but no named hyperscaler has committed to buying a standalone 1-35 kV breaker."
+        },
+        "G4": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "Hitachi Energy, Eaton, Siemens, GE, DG Matrix, and Atom Power are named; modular hybrid interruption is non-cosmetic, but protection may be bundled inside converters."
+        },
+        "G6": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "No export prohibition is apparent. The unresolved US certification, arc/energy containment, selective coordination, and system-acceptance regime is a material route risk."
+        }
+      },
+      "exact_competitors": [
+        "Hitachi Energy hybrid DC breaker",
+        "Eaton ARPA-E MVDC breaker lineage",
+        "Siemens and GE project-integrated DC protection",
+        "DG Matrix and Atom Power solid-state power platforms"
+      ],
+      "market_route": "A DC-GRIDS performer or hyperscaler owner's engineer must first specify a standalone breaker and sponsor high-energy testing; otherwise there is no merchant product route.",
+      "decisive_experiment": {
+        "title": "MVDC architecture and sponsored-breaker-socket gate",
+        "budget_usd": 70000,
+        "duration_months": 4,
+        "classification": "QUALIFIES",
+        "dependency": "None assumed; the sponsor and design-in socket must emerge from the study.",
+        "pass_bar": "Two system architects document a standalone breaker; one covers at least 80 percent of the 10 kV test; one breaker-specific 2030-2033 pilot requirement exists.",
+        "kill_bar": "Architects select converter blocking or point-to-point topology, no standalone socket, or no sponsor funds testing."
+      },
+      "proposed_score_change": {
+        "from": 44.2,
+        "to": 44.2,
+        "raw_changes": [],
+        "reason": "The official report improves problem definition but confirms maturity and customer-commitment gaps."
+      },
+      "proposed_disposition": "KILL_GATE_FAIL"
+    },
+    {
+      "idea_id": "P3R2-A-22",
+      "concept_short": "Modular plasma destruction units for concentrated PFAS waste streams",
+      "prior_p4_score": 61.0,
+      "prior_literal_p5_score": 44.2,
+      "timing_source_assessment": [
+        {
+          "source_id": "P3R2-A-22-S05",
+          "source_role": "reused EPA regulatory guidance",
+          "primary_or_official": true,
+          "independent_event": "EPA 2026 PFAS destruction and disposal guidance",
+          "window_date": "annual update cadence can reach 2028 and later",
+          "product_job_linkage": "The guidance covers AFFF and treatment wastes but recognizes only thermal destruction, landfill, and underground injection as large-scale capacity options.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "An annual review cadence is not plasma approval or procurement; it is adverse regulatory-maturity evidence."
+        },
+        {
+          "source_id": "P5G7-A22-S01",
+          "source_role": "official DoD field-validation project",
+          "primary_or_official": true,
+          "independent_event": "SERDP/ESTCP ER24-8956",
+          "window_date": "anticipated completion 2027",
+          "product_job_linkage": "Exact plasma-vortex validation on undiluted AFFF, with greater than 99.99 percent destruction/mineralization, closed-loop, polishing, cost, and transition-to-DoD objectives.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "The exact project completes before the window and promises only transition work if successful, not a post-2030 procurement."
+        }
+      ],
+      "two_independent_2030_timing_sources_met": false,
+      "primary_or_official_2028_2035_source_present": false,
+      "g7_verdict": "FAIL",
+      "g7_rationale": "A new exact DoD field project validates the technical category, but it ends in 2027. EPA's recurring guidance does not recognize plasma as a large-scale option. The 2031 drinking-water deadline creates residuals but does not order plasma systems, so no product-specific 2030-2034 trigger exists.",
+      "window_risk": "Onvector already holds the exact plasma-vortex program; EPA may continue preferring thermal destruction, landfill, underground injection, or competing SCWO/electrochemical routes.",
+      "gate_recheck": {
+        "G1": {
+          "verdict": "PASS",
+          "rationale": "Paid DoD plasma work, the USAF/Onvector pilot, and ER24-8956 are direct exact-category demand events."
+        },
+        "G2": {
+          "verdict": "FAIL",
+          "rationale": "The current packet still lacks sufficient eligible peer-reviewed support for load-bearing plasma energy, byproduct, and complete fluorine-mass-balance claims; the official project page is not peer review."
+        },
+        "G4": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "Onvector, PyroGenesis, 374Water, Aquagga, and electrochemical routes are named. Modular verified treatment is non-cosmetic, but Onvector is already the closest exact incumbent."
+        },
+        "G6": {
+          "verdict": "PASS_MARGINAL",
+          "rationale": "EPA's 2026 guidance does not recognize plasma among three large-scale options, so destruction verification, emissions/byproducts, fluoride capture, waste handling, and regulator acceptance remain unresolved."
+        }
+      },
+      "exact_competitors": [
+        "Onvector plasma vortex",
+        "PyroGenesis plasma systems",
+        "374Water and Aquagga SCWO",
+        "electrochemical oxidation vendors",
+        "permitted thermal destruction and disposal routes"
+      ],
+      "market_route": "Only through a DoD remediation prime or SERDP/ESTCP transition program with regulator-accepted mass balance; municipal utilities are not a base case until the method is recognized.",
+      "decisive_experiment": {
+        "title": "Minimum honest real-feed plasma campaign",
+        "budget_usd": 210000,
+        "duration_months": "9-12",
+        "classification": "DOES_NOT_QUALIFY_UNDER_100K",
+        "dependency": "Existing plasma laboratory, DoD or prime observer, and accredited analytical subcontractor.",
+        "pass_bar": "Greater than 99.99 percent destruction, at least 95 percent fluorine closure, below 50 kWh per kg-PFAS, five consecutive eight-hour runs, and a follow-on buyer letter.",
+        "kill_bar": "Mass-balance gap over 5 percent, persistent byproducts, energy above threshold, material failure, or no buyer observer."
+      },
+      "proposed_score_change": {
+        "from": 44.2,
+        "to": 44.2,
+        "raw_changes": [],
+        "reason": "New exact technical-program evidence does not cure G2, G7, regulatory acceptance, or incumbent capture."
+      },
+      "proposed_disposition": "KILL_MULTIPLE_GATE_FAIL"
+    },
+    {
+      "idea_id": "P3R2-A-21",
+      "concept_short": "Ruggedized 1.5-6 MW MCS-aligned charging systems for US ports, rail yards, and mines",
+      "prior_p4_score": 51.0,
+      "prior_literal_p5_score": 39.6,
+      "timing_source_assessment": [
+        {
+          "source_id": "P5G7-A21-S01",
+          "source_role": "official state/port transition blueprint",
+          "primary_or_official": true,
+          "independent_event": "Port of Hueneme 2030 zero-emission transition",
+          "window_date": "commercial deployment 2025-2030 and full cargo-equipment transition goal in 2030",
+          "product_job_linkage": "The plan requires charging and utility upgrades, but its quantitative design uses 50 kW DC chargers and recommends port ownership.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "Real charging demand, wrong power/interface/product boundary and adverse to a merchant 1.5-6 MW MCS cabinet."
+        },
+        {
+          "source_id": "P5G7-A21-S02",
+          "source_role": "independent official project permit",
+          "primary_or_official": true,
+          "independent_event": "Port of Long Beach Pier A charging project",
+          "window_date": "permit posted May 2026; approximately 28 months of construction, reaching 2028",
+          "product_job_linkage": "Exact port charging infrastructure, but 166 Level-2/Level-3 chargers and dedicated substations rather than MCS or a 1.5-6 MW rugged dispenser.",
+          "qualifies_as_2028_2035_trigger": false,
+          "reason": "The project is in-window and named but purchases a materially different distributed charging architecture."
+        }
+      ],
+      "two_independent_2030_timing_sources_met": false,
+      "primary_or_official_2028_2035_source_present": false,
+      "g7_verdict": "FAIL",
+      "g7_rationale": "Fresh official records prove port electrification through 2030 but also disprove the preserved product mapping: the named ports plan dozens to hundreds of 50 kW/Level-2/Level-3 chargers with port-owned substations, not a merchant 1.5-6 MW MCS system. Counting these sources would silently replace the product. No named post-launch US rail or mine MCS procurement was found.",
+      "window_risk": "Port grants deploy before launch; ABB, Siemens, Kempower, Wabtec, Caterpillar, utilities, EPCs, and vehicle OEMs can bundle the charging stack, interconnection, warranty, and service.",
+      "gate_recheck": {
+        "G1": {
+          "verdict": "PASS",
+          "rationale": "Current EPA Clean Ports awards and Union Pacific orders prove real charging/equipment demand, though they do not prove this exact merchant product."
+        },
+        "G4": {
+          "verdict": "PASS",
+          "rationale": "ABB, Siemens, Kempower, Wabtec, Caterpillar, utilities, EPCs, and in-house builds are named; rugged fleet integration is non-cosmetic but weakly defensible."
+        },
+        "G6": {
+          "verdict": "PASS",
+          "rationale": "US industrial base case with NEC/UL/NFPA, interconnection, cable thermal, and IEC TS 63379 work; no export route is required."
+        }
+      },
+      "exact_competitors": [
+        "ABB",
+        "Siemens",
+        "Kempower",
+        "Wabtec locomotive charging bundles",
+        "Caterpillar charging and dealer network",
+        "port-owned and EPC-integrated distributed chargers"
+      ],
+      "market_route": "Paid FEED through a port, railroad, or mine with an explicit merchant-prime boundary; do not count generic port electrification or OEM-owned systems as a product route.",
+      "decisive_experiment": {
+        "title": "Paid multi-segment FEED and merchant-channel gate",
+        "budget_usd": 72000,
+        "duration_months": 5,
+        "classification": "QUALIFIES",
+        "dependency": "No assumed partner access; counterparty data and payment are outcomes.",
+        "pass_bar": "Two counterparties each pay at least $20,000 or sign funded pilots; one pilot begins by 2029; service-adjusted gross margin exceeds 25 percent; vehicle OEM accepts merchant-prime boundary.",
+        "kill_bar": "No payer, every prospect requires OEM prime, margin below 25 percent, or no prelaunch pilot."
+      },
+      "proposed_score_change": {
+        "from": 39.6,
+        "to": 39.6,
+        "raw_changes": [],
+        "reason": "The new sources reinforce current infrastructure demand but worsen exact-product and merchant-channel confidence; no additional numeric deduction is needed beyond the literal P5 score."
+      },
+      "proposed_disposition": "KILL_GATE_FAIL"
+    }
+  ],
+  "reused_sources": [
+    {
+      "source_id": "L13-028",
+      "idea_id": "P3R2-E-04",
+      "action_requested": "Associate with the idea if selected; do not duplicate the canonical work.",
+      "new_locator_note": "DOE page lines 177-184: SQMS refrigeration and processor-connection mission; awards up to five years with contingent outyear funds."
+    },
+    {
+      "source_id": "P3R2-A-22-S05",
+      "idea_id": "P3R2-A-22",
+      "action_requested": "Reuse as adverse G6/G7 evidence; do not duplicate.",
+      "new_locator_note": "EPA page lines 70-75: only three large-scale options; annual guidance-update commitment."
+    }
+  ],
+  "ledger_ready_new_sources": [
+    {
+      "id": "P5G7-D19-S01",
+      "title": "Liberty Energy Inc. Form 8-K: Supply Contracts for Power Generation Equipment",
+      "authors_or_org": "Liberty Energy Inc.; U.S. Securities and Exchange Commission",
+      "year": 2026,
+      "url": "https://www.sec.gov/Archives/edgar/data/1694028/000169402826000027/lbrt-20260501.htm",
+      "canonical_key": "sec:0001694028-26-000027",
+      "source_type": "company_filing",
+      "tier": "T1",
+      "lane_ids": ["L16", "L08"],
+      "idea_ids": ["P3R2-D-19"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US", "NO"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "audited_company_filing_material_contract",
+      "claim_supported": "Liberty subsidiary signed two Bergen supply contracts totaling $505M for power-generation equipment for prospective data-center and distributed-power projects; delivery, testing, and takeover are expected from H2 2027 through 2028.",
+      "locator": "Form 8-K Item 1.01, Supply Contracts for Power Generation Equipment; filed 2026-05-07.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Primary customer filing. Does not itself name SHIELDX; pair with the direct Liberty release for product linkage, while treating both as one underlying event.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["sec_filer_identity", "official_company_release"],
+        "institutions": [
+          {"name": "Liberty Energy Inc.", "country": "US"},
+          {"name": "Bergen Engines AS", "country": "NO"},
+          {"name": "U.S. Securities and Exchange Commission", "country": "US"}
+        ],
+        "non_indian_affiliation_count": 3,
+        "evidence_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1694028/0001694028-26-000027-index.html",
+          "https://libertypowerinnovations.com/posts/press-release/bergen-generation-data-center-developments-usa/"
+        ],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "US filer and regulator; Norwegian contract counterparty; no India-origin organization."
+      }
+    },
+    {
+      "id": "P5G7-D19-S02",
+      "title": "Liberty Selects Bergen Engines to Deliver Over 500MW of On-Site Generation Capacity",
+      "authors_or_org": "Liberty Power Innovations / Liberty Energy Inc.",
+      "year": 2026,
+      "url": "https://libertypowerinnovations.com/posts/press-release/bergen-generation-data-center-developments-usa/",
+      "canonical_key": "url:libertypowerinnovations.com/posts/press-release/bergen-generation-data-center-developments-usa",
+      "source_type": "company_filing",
+      "tier": "T1",
+      "lane_ids": ["L16", "L08"],
+      "idea_ids": ["P3R2-D-19"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US", "NO", "GB"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "direct_customer_project_award",
+      "claim_supported": "Liberty's initial 500MW-plus order integrates Piller SHIELDX flywheel stabilization to absorb sub-second AI load steps up to 30 percent; deliveries start H2 2027 and the architecture is described as having a 20-plus-year operating lifecycle.",
+      "locator": "Release lines 64-79: award, exact architecture, load-step job, lifecycle, and delivery start.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Exact product/job source; same underlying contract event as P5G7-D19-S01, so it cannot supply a second independent timing event.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_company_identity", "sec_filer_identity"],
+        "institutions": [
+          {"name": "Liberty Energy Inc.", "country": "US"},
+          {"name": "Bergen Engines AS", "country": "NO"},
+          {"name": "Piller Power Systems GmbH / Langley Holdings plc", "country": "GB"}
+        ],
+        "non_indian_affiliation_count": 3,
+        "evidence_urls": [
+          "https://libertypowerinnovations.com/posts/press-release/bergen-generation-data-center-developments-usa/",
+          "https://www.sec.gov/Archives/edgar/data/1694028/0001694028-26-000027-index.html"
+        ],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "US customer, Norwegian OEM, and UK/German product group; no India-origin organization."
+      }
+    },
+    {
+      "id": "P5G7-D19-S03",
+      "title": "Characteristics and Risks of Emerging Large Loads",
+      "authors_or_org": "North American Electric Reliability Corporation",
+      "year": 2025,
+      "url": "https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/whitepaper-characteristics-and-risks-of-emerging-large-loads.pdf",
+      "canonical_key": "url:nerc.com/globalassets/who-we-are/standing-committees/rstc/whitepaper-characteristics-and-risks-of-emerging-large-loads.pdf",
+      "source_type": "standard",
+      "tier": "T1",
+      "lane_ids": ["L16", "L08"],
+      "idea_ids": ["P3R2-D-19"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US", "CA"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "standards_body_reliability_problem_record",
+      "claim_supported": "A measured 50MW block of a 200MW AI training data center changed load at 1.9 per-unit per second for about 250ms and showed continuing jitter during training.",
+      "locator": "Chapter 2, PDF page 6, lines 320-335 in fetched text.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Strong independent current-pain evidence; no post-2030 flywheel procurement date.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_standards_body_domain"],
+        "institutions": [{"name": "North American Electric Reliability Corporation", "country": "US"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://www.nerc.com/"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "North American standards/reliability body; no India-origin organization."
+      }
+    },
+    {
+      "id": "P5G7-E04-S01",
+      "title": "Quantum 2030 - IBM Technology Atlas",
+      "authors_or_org": "IBM Corporation",
+      "year": 2026,
+      "url": "https://www.ibm.com/roadmaps/quantum/2030/",
+      "canonical_key": "url:ibm.com/roadmaps/quantum/2030",
+      "source_type": "company_filing",
+      "tier": "T1",
+      "lane_ids": ["L13", "L07"],
+      "idea_ids": ["P3R2-E-04"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "primary_customer_technology_roadmap",
+      "claim_supported": "IBM plans Starling client availability in 2029 and Blue Jay at 2033-plus; IBM says the latter requires new control-electronics and cryogenics infrastructure.",
+      "locator": "Roadmap lines 21-27; page updated March 2026.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Company roadmap, explicitly subject to change. Direct primary replacement for the third-party P3R2-E-04-S06 roadmap summary.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_company_domain", "corporate_identity"],
+        "institutions": [{"name": "IBM Corporation", "country": "US"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://www.ibm.com/roadmaps/quantum/2030/"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "US company primary roadmap; no India-origin organization."
+      }
+    },
+    {
+      "id": "P5G7-A02-S01",
+      "title": "Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies: Alpha Release, December 2025",
+      "authors_or_org": "Brett A. Ross; Jim Follum; Pacific Northwest National Laboratory",
+      "year": 2025,
+      "url": "https://www.energy.gov/sites/default/files/2026-01/Data_Center_EMT_Models.pdf",
+      "canonical_key": "report:pnnl-38817",
+      "source_type": "national_lab",
+      "tier": "T1",
+      "lane_ids": ["L08", "L02"],
+      "idea_ids": ["P3R2-A-02"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "official_architecture_roadmap_assessment",
+      "claim_supported": "PNNL identifies MVDC data-center distribution as a Future greater-than-five-year architecture and says it requires cables, busbars, switchgear, and circuit breakers; LVDC/MV-SST field deployment is expected earlier.",
+      "locator": "PNNL-38817 PDF pages 15-18, especially lines 550-575 in fetched text.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Exact product-job and maturity evidence, but not a named customer deployment commitment.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_national_lab_report", "energy_gov_host"],
+        "institutions": [{"name": "Pacific Northwest National Laboratory", "country": "US"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://www.pnnl.gov/", "https://www.energy.gov/sites/default/files/2026-01/Data_Center_EMT_Models.pdf"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "US DOE national laboratory report; no India-origin institution."
+      }
+    },
+    {
+      "id": "P5G7-A02-S02",
+      "title": "Powering Intelligence 2026 - Executive Summary",
+      "authors_or_org": "Electric Power Research Institute",
+      "year": 2026,
+      "url": "https://powering-intelligence.epri.com/executive-summary.html",
+      "canonical_key": "url:powering-intelligence.epri.com/executive-summary.html",
+      "source_type": "market_industry",
+      "tier": "T2",
+      "lane_ids": ["L08", "L02"],
+      "idea_ids": ["P3R2-A-02"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "industry_capacity_scenario",
+      "claim_supported": "EPRI scenarios place US data-center electricity demand at 9-17 percent of total electricity in 2030, based partly on commercial projects under construction and in planning.",
+      "locator": "Executive Summary key messages and 2030 scenario description.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Useful independent 2030 host-capacity triangulation; cannot support an MVDC-breaker trigger by itself.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_org_domain", "organization_identity"],
+        "institutions": [{"name": "Electric Power Research Institute", "country": "US"}],
+        "non_indian_affiliation_count": 1,
+        "evidence_urls": ["https://www.epri.com/", "https://powering-intelligence.epri.com/executive-summary.html"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "US nonprofit research organization; no India-origin organization."
+      }
+    },
+    {
+      "id": "P5G7-A22-S01",
+      "title": "Field Validation of Plasma Vortex Technology for AFFF Destruction",
+      "authors_or_org": "SERDP/ESTCP; Onvector; NAVFAC EXWC",
+      "year": 2024,
+      "url": "https://serdp-estcp.mil/projects/details/ca2a7ba5-4cf8-4be7-bf4d-126d8ccad70e/field-validation-of-plasma-vortex-technology-for-afff-destruction",
+      "canonical_key": "project:serdp-er24-8956",
+      "source_type": "government",
+      "tier": "T1",
+      "lane_ids": ["L01", "L05"],
+      "idea_ids": ["P3R2-A-22"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "official_demonstration_project",
+      "claim_supported": "DoD project ER24-8956 targets field validation on undiluted AFFF with greater than 99.99 percent destruction/mineralization, closed-loop operation, RO polishing, cost comparison, and transition to DoD; anticipated completion is 2027.",
+      "locator": "Project page lines 38-58: identifier, objectives, tasks, benefits, and completion date.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Exact category technical-demand evidence, but completion is pre-window and the page is not peer-reviewed academic evidence.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_mil_domain", "project_org_identity"],
+        "institutions": [
+          {"name": "SERDP/ESTCP, U.S. Department of Defense", "country": "US"},
+          {"name": "Onvector", "country": "US"},
+          {"name": "NAVFAC EXWC", "country": "US"}
+        ],
+        "non_indian_affiliation_count": 3,
+        "evidence_urls": ["https://serdp-estcp.mil/", "https://serdp-estcp.mil/projects/details/ca2a7ba5-4cf8-4be7-bf4d-126d8ccad70e/field-validation-of-plasma-vortex-technology-for-afff-destruction"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "US DoD project and US implementation organizations; no India-origin source organization."
+      }
+    },
+    {
+      "id": "P5G7-A21-S01",
+      "title": "The Sustainable Power Advancement and Resiliency for Our Community Blueprint Project",
+      "authors_or_org": "California Energy Commission; Jorden Kemper; Christopher Hussey",
+      "year": 2026,
+      "url": "https://www.energy.ca.gov/publications/2026/sustainable-power-advancement-and-resiliency-our-community-blueprint-project",
+      "canonical_key": "report:cec-600-2026-010",
+      "source_type": "government",
+      "tier": "T1",
+      "lane_ids": ["L10", "L02"],
+      "idea_ids": ["P3R2-A-21"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "official_customer_transition_plan",
+      "claim_supported": "Port of Hueneme's official blueprint calls commercial-scale zero-emission equipment and charging deployment in 2025-2030, utility expansion, and port ownership; its quantitative design uses 50 kW DC chargers.",
+      "locator": "CEC-600-2026-010 PDF pages 3, 6, 23, and 26; fetched lines 73-87, 156-171, 642-647, and 687-725.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Strong 2030 port-charging demand but adverse exact-product evidence for a 1.5-6 MW merchant MCS system.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_state_report", "publisher_identity"],
+        "institutions": [
+          {"name": "California Energy Commission", "country": "US"},
+          {"name": "Port of Hueneme", "country": "US"}
+        ],
+        "non_indian_affiliation_count": 2,
+        "evidence_urls": ["https://www.energy.ca.gov/publications/2026/sustainable-power-advancement-and-resiliency-our-community-blueprint-project"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "California state publication and US port; no India-origin organization."
+      }
+    },
+    {
+      "id": "P5G7-A21-S02",
+      "title": "Pier A Zero Emissions Infrastructure Project - Harbor Development Permit No. 26-004",
+      "authors_or_org": "Port of Long Beach; California State Clearinghouse",
+      "year": 2026,
+      "url": "https://ceqanet.lci.ca.gov/2026051021",
+      "canonical_key": "project:sch-2026051021",
+      "source_type": "government",
+      "tier": "T1",
+      "lane_ids": ["L10", "L02"],
+      "idea_ids": ["P3R2-A-21"],
+      "accessed_at": "2026-07-14T07:17:26Z",
+      "fetched": true,
+      "language": "en",
+      "geography": ["US"],
+      "peer_review_status": "not_applicable",
+      "peer_review_evidence_url": "",
+      "doi": "",
+      "demand_evidence_type": "official_project_permit",
+      "claim_supported": "Named Port of Long Beach project permits 166 Level-2/Level-3/forklift chargers, substations, distribution, and cargo-equipment lots; construction is expected to take about 28 months from the May 2026 posting.",
+      "locator": "CEQAnet project lines 38-75, especially description, charger counts, electrical works, and schedule.",
+      "accepted": true,
+      "rejection_reason": "",
+      "notes": "Exact named port-infrastructure project and 2028 timing; materially different charging architecture from the proposed MCS product.",
+      "india_origin_audit": {
+        "status": "verified_non_india_origin",
+        "audited_at": "2026-07-14T07:17:26Z",
+        "methods": ["official_state_clearinghouse", "public_agency_identity"],
+        "institutions": [
+          {"name": "Port of Long Beach", "country": "US"},
+          {"name": "California State Clearinghouse", "country": "US"}
+        ],
+        "non_indian_affiliation_count": 2,
+        "evidence_urls": ["https://ceqanet.lci.ca.gov/2026051021"],
+        "rule": "Entirely India-origin sources are ineligible; multinational academic coauthorship is allowed only with a verified non-Indian affiliation.",
+        "notes": "California public agencies; no India-origin organization."
+      }
+    }
+  ],
+  "research_limits": [
+    "No ledger, state, P4, selection, or routing file was edited.",
+    "Search snippets were used only for discovery; all proposed new sources were opened or fetched from the canonical official page or PDF.",
+    "No source from India or an India-based organization was used.",
+    "Only E-04 has a truthful gate repair; the other four remain quota-inconvenient failures."
+  ]
+}
