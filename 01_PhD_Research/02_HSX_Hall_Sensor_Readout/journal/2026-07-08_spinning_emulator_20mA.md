@@ -1,5 +1,14 @@
 # Research Journal — 2026-07-08
 
+> **Added 2026-08-09 — the §3 anomaly in this entry is CLOSED.** The bias sweep
+> of 2026-07-15 showed the readout tracking the bridge model to 7.4 %
+> (3.46 vs 3.74 V/mA), and the 686 mV recorded below turns out to be the
+> *unamplified* bridge differential (745 mV predicted) — the chain was running
+> at gain ≈ 1 rather than 100.3, and 100.3/0.92 = 109.0. That is candidate 1 in
+> §3. See `journal/2026-07-15_bias_sweep_gain_resolved.md`. **Nothing below has
+> been edited** — it is the record as written on the day, and its magnitudes
+> are still not usable for calibration.
+
 ## HSX Hall-sensor readout — first dynamic spinning run on the bridge emulator (20 kHz, 20 mA)
 
 **Owner:** Y. "Tim" Zhao · **Project:** 02_HSX_Hall_Sensor_Readout ·

@@ -40,7 +40,10 @@ DOCS = [
      "Vector Hall probe, second HSX campaign, and the Review of Scientific Instruments paper plan (~Mar 2027)."),
     ("02_HSX_Hall_Sensor_Readout/journal/2026-07-08_spinning_emulator_20mA.md",
      "Journal 2026-07-08",
-     "First dynamic spinning run on the emulator (20 kHz, 20 mA): offset cancellation works; absolute-magnitude anomaly open; plan comparison."),
+     "First dynamic spinning run on the emulator (20 kHz, 20 mA): offset cancellation works; absolute-magnitude anomaly open (closed 2026-07-15); plan comparison."),
+    ("02_HSX_Hall_Sensor_Readout/journal/2026-07-15_bias_sweep_gain_resolved.md",
+     "Journal 2026-07-15",
+     "Bias-current sweep on the emulator: the 109× magnitude anomaly is closed (3.46 vs 3.74 V/mA), gain confirmed by rail clipping, linear range and headroom fixed."),
 ]
 
 INDEX = "reports_index.html"

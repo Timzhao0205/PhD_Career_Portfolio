@@ -99,15 +99,25 @@ blockquote{margin:14px 0;padding:8px 18px;border-left:3px solid var(--accent);
 <nav class="side">
   <div class="brand">01_PhD_Research · HSX GaN Hall sensing</div>
   <div class="doctitle">Journal 2026-07-08</div>
-  <div class="siblings"><b>Reports</b><a href="../../reports_index.html">Report index</a><a href="../docs/hsx_readout_bringup_and_calibration_plan.html">Summer research plan</a><a href="../docs/second_test_setup_static_bias.html">Second test setup</a><a href="../../03_HSX_Vector_Probe_RSI2026/docs/rsi_experiment_and_publication_plan.html">RSI preparation</a><a class="current">Journal 2026-07-08 (this doc)</a></div>
+  <div class="siblings"><b>Reports</b><a href="../../reports_index.html">Report index</a><a href="../docs/hsx_readout_bringup_and_calibration_plan.html">Summer research plan</a><a href="../docs/second_test_setup_static_bias.html">Second test setup</a><a href="../../03_HSX_Vector_Probe_RSI2026/docs/rsi_experiment_and_publication_plan.html">RSI preparation</a><a class="current">Journal 2026-07-08 (this doc)</a><a href="2026-07-15_bias_sweep_gain_resolved.html">Journal 2026-07-15</a></div>
   <div class="toc-head">On this page</div>
   <ul><li class="lvl2"><a href="#hsx-hall-sensor-readout-first-dynamic-spinning-run-on-the-bridge-emulator-20-khz-20-ma">HSX Hall-sensor readout — first dynamic spinning run on the bridge emulator (20 kHz, 20 mA)</a></li><li class="lvl2"><a href="#1-configuration-as-run">1. Configuration (as-run)</a></li><li class="lvl2"><a href="#2-observations">2. Observations</a></li><li class="lvl2"><a href="#3-analysis">3. Analysis</a></li><li class="lvl2"><a href="#4-verdict">4. Verdict</a></li><li class="lvl2"><a href="#5-plan-comparison-this-week-jul-612-4-61-sensorless-verification">5. Plan comparison — This Week (Jul 6–12), §4 / §6.1 sensorless verification</a></li><li class="lvl2"><a href="#6-next-session-priorities">6. Next session — priorities</a></li><li class="lvl2"><a href="#7-artifacts-this-session">7. Artifacts (this session)</a></li></ul>
 </nav>
 <main>
-  <div class="meta">Reader view generated 2026-07-08 from
+  <div class="meta">Reader view generated 2026-08-09 from
   <code>2026-07-08_spinning_emulator_20mA.md</code> — the markdown is the source of truth
   (regenerate with <code>python3 tools/md2html.py</code>).</div>
   <h1 id="research-journal-2026-07-08">Research Journal — 2026-07-08</h1>
+<blockquote>
+<p><strong>Added 2026-08-09 — the §3 anomaly in this entry is CLOSED.</strong> The bias sweep
+of 2026-07-15 showed the readout tracking the bridge model to 7.4 %
+(3.46 vs 3.74 V/mA), and the 686 mV recorded below turns out to be the
+<em>unamplified</em> bridge differential (745 mV predicted) — the chain was running
+at gain ≈ 1 rather than 100.3, and 100.3/0.92 = 109.0. That is candidate 1 in
+§3. See <code>journal/2026-07-15_bias_sweep_gain_resolved.md</code>. <strong>Nothing below has
+been edited</strong> — it is the record as written on the day, and its magnitudes
+are still not usable for calibration.</p>
+</blockquote>
 <h2 id="hsx-hall-sensor-readout-first-dynamic-spinning-run-on-the-bridge-emulator-20-khz-20-ma">HSX Hall-sensor readout — first dynamic spinning run on the bridge emulator (20 kHz, 20 mA)</h2>
 <p><strong>Owner:</strong> Y. "Tim" Zhao · <strong>Project:</strong> 02_HSX_Hall_Sensor_Readout ·
 <strong>Session type:</strong> sensorless (emulator) bring-up, plan §4 / §6.1.</p>

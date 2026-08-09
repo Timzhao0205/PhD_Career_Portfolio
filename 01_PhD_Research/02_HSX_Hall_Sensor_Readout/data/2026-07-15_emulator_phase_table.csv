@@ -1,0 +1,25 @@
+# Emulator per-state model — 8-state spinning phase table
+# Session 2026-07-15. Source: 2026-07-15 deck, slide 5 ("Resistor bridge").
+#
+# v_state is the DIFFERENTIAL AT THE AMPLIFIER INPUT, expressed as an effective
+# source resistance times the bias current: v_state = +/- 37.26 ohm * I.
+# Multiply by G = 100.3 for the expected output. The demod sign is +1 when
+# a0 == a2, matching docs/SPECS.md.
+#
+# The signed products sum to zero across the eight states — that is the
+# emulator's offset cancelling, which is what the demod is supposed to remove.
+#
+# NOTE (open, see the 2026-07-15 journal): 37.26 ohm is the deck's figure. The
+# ideal schematic on the same slide (four 680 ohm arms, 2.2 kohm across one)
+# gives 42.66 ohm. The 12.7% gap is unexplained and is why the absolute
+# calibration is not locked yet.
+#
+state,a2,a1,a0,bias,sense_in_plus_minus_in_minus,v_state_ohm_x_I,demod_sign,product_ohm_x_I
+0,0,0,0,p1->p3,p2-p4,+37.26,+,+37.26
+1,0,0,1,p1->p3,p4-p2,-37.26,-,+37.26
+2,0,1,0,p2->p4,p3-p1,-37.26,+,-37.26
+3,0,1,1,p2->p4,p1-p3,+37.26,-,-37.26
+4,1,0,0,p3->p1,p2-p4,-37.26,-,+37.26
+5,1,0,1,p3->p1,p4-p2,+37.26,+,+37.26
+6,1,1,0,p4->p2,p3-p1,+37.26,-,-37.26
+7,1,1,1,p4->p2,p1-p3,-37.26,+,-37.26

@@ -6,6 +6,36 @@ the current status without you re-explaining it.
 
 ---
 
+## 2026-07-15 — bias sweep: **the 109× magnitude anomaly is CLOSED**
+Full write-up: `journal/2026-07-15_bias_sweep_gain_resolved.md`.
+Derived from the 2026-07-15 group-meeting deck (slides 4–6) — raw captures not
+yet in the repo. Extracted: `data/2026-07-15_bias_sweep.csv`,
+`data/2026-07-15_emulator_phase_table.csv`;
+figures in `analysis/figures/2026-07-15_*.png`.
+- Same emulator (4×680 Ω + 2.2 kΩ), bias swept instead of parked at 20 mA.
+  Amplitude is **linear to ~2 mA and clipped at the ±13.7 V rail by 5 mA**:
+  0.1 mA→0.55 V, 0.5→1.95, 1→3.70, 2→7.10, then 5 and 10 mA at the rail.
+- ✓ **Measured 3.46 V/mA vs predicted 3.74 V/mA — 7.4 % low.** The prediction
+  is the same model that gave "~75 V @ 20 mA" (37.26 Ω × 100.3 = 3.737 V/mA),
+  so this is a like-for-like comparison. **Discrepancy went 109× → 1.08×.**
+- ✓ **Gain confirmed without any fit**: at 5 mA the amp input is only 186 mV
+  yet the output is at the ±13.7 V rail — that needs G ≥ 74. G ≈ 100 is real
+  in operation.
+- **Root cause of the old 109×**: bridge differential @20 mA = 745 mV; the
+  686 mV measured on 07-08 is 0.92× that, i.e. gain ≈ **1**, not 100.3 —
+  and 100.3/0.92 = **109.0** exactly. That is candidate 1 from the 07-08
+  entry (in-operation gain not ~100×); candidate 2 (2.2 kΩ not unbalancing
+  the bridge) is ruled out by the scaling and the clipping.
+  ⚠️ The *repair* is not recorded anywhere — the deck shows the result, not
+  what was changed. **Write down what was actually fixed** while it's fresh.
+- ◑ **NEW OPEN (second-order)**: the effective bridge imbalance is ambiguous —
+  measured implies 34.5 Ω, the deck models 37.26 Ω, the ideal schematic gives
+  42.66 Ω (19 % above measured). Suspect mux R_on in the sensed arms.
+  **Don't lock the absolute V/T calibration until this is reconciled.**
+- Operating window for the real die: ≤ 1 mA sits well inside the linear range
+  (≈ 3.7 V, ~27 % of full scale). 20 mA is past clipping — do not reuse the
+  07-08 magnitudes for anything.
+
 ## 2026-07-08 — first dynamic spinning run on the emulator (20 kHz, 20 mA)
 Full session write-up: `journal/2026-07-08_spinning_emulator_20mA.md`.
 - Config: 20 mA bias, 20 kHz spin, emulator = 4×680 Ω ring + 2.2 kΩ across
@@ -17,12 +47,12 @@ Full session write-up: `journal/2026-07-08_spinning_emulator_20mA.md`.
 - ✓ **Offset cancellation works**: demod collapses the 686 mV raw offset
   to ≤ 5 mV (≥130×, limited by the scope's 8-bit quantization over 5
   cycles), reconstructing phase from f since sync wasn't captured.
-- ◑ **OPEN ANOMALY**: with 680 Ω + 2.2 kΩ + 20 mA + gain 100.3 the output
-  should rail (~75 V); measured a clean 0.686 V — ~109× too small. R9=R10
-  rules out leakage; R_G present rules out a missing gain resistor. Left:
-  in-operation gain not ~100×, OR the 2.2 kΩ not electrically unbalancing
-  the bridge. **Resolve with the ΔV gain check (plan §4 Day 3–4) next
-  session — top priority.** Don't calibrate to these magnitudes yet.
+- ~~◑ **OPEN ANOMALY**~~ → **CLOSED 2026-07-15, see the entry above.** With
+  680 Ω + 2.2 kΩ + 20 mA + gain 100.3 the output should rail (~75 V); measured
+  a clean 0.686 V — ~109× too small. R9=R10 rules out leakage; R_G present
+  rules out a missing gain resistor. Left: in-operation gain not ~100×, OR the
+  2.2 kΩ not electrically unbalancing the bridge. *Resolution: the first —
+  the chain was running at gain ≈ 1 that day.*
 - New reusable tool: `analysis/spin_verify_nosync.py` (fold/demod/bridge-
   consistency when only v_meas was captured).
 - Plan status (This Week §4/§6.1): done — logic bring-up, emulator+current

@@ -19,6 +19,29 @@ looking things up fast (or via `/specs` in Claude Code).
 | Output | J4 (SMA), R4 = 10 kΩ shunt to GND1 | 2-ch capture: v_meas + sync only |
 | Logic | 3.3 V from Pico 2 is sufficient | mux V_INH ≈ 2 V |
 
+## Measured readout transfer — emulator, 2026-07-15
+
+Bench-measured on the resistor emulator (4 × 680 Ω ring + 2.2 kΩ across one
+arm), AD8429 at G = 100.3. Source: `journal/2026-07-15_bias_sweep_gain_resolved.md`.
+
+| Quantity | Value | Notes |
+|---|---|---|
+| Output per bias current | **3.46 V/mA** measured | vs 3.74 V/mA predicted (37.26 Ω × 100.3) — 7.4 % low |
+| Linear range | **≤ 2 mA** | 2 mA → ≈ 7.1 V |
+| Clipping | **≥ 5 mA** | hard at the rail; 5 and 10 mA both clipped |
+| Supply rail | **±13.7 V** | measured, vs ±15 V nominal from the RS6-2415D |
+| Max differential at the amp input | **≈ 137 mV** | = 13.7 V / 100.3 |
+| Gain in operation | **≥ 74, consistent with 100.3** | 186 mV input clips the rail at 5 mA |
+
+At the intended ≤ 1 mA die operating point the emulator gives ≈ 3.7 V, about
+27 % of full scale — good headroom. **20 mA is past clipping**; the 2026-07-08
+magnitudes must not be used.
+
+⚠️ **Do not lock an absolute V/T calibration to these numbers yet.** The
+effective bridge imbalance is unresolved: measured implies 34.5 Ω, the deck
+models 37.26 Ω, the ideal schematic gives 42.66 Ω. See §4 of the 2026-07-15
+journal.
+
 ## Sensor & package
 
 | Item | 2023 die (Letters) | Gen-2 die (2026, for vector probe) |
