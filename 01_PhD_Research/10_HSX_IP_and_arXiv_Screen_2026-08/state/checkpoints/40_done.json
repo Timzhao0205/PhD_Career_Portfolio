@@ -1,0 +1,30 @@
+{
+  "run_id": "HSXIP-20260805T071311Z",
+  "stage": "40_uhv",
+  "agent": "s40-uhv",
+  "requested_model": "fable (Claude Fable 5)",
+  "requested_effort": "xhigh",
+  "observed_model": "not_exposed",
+  "observed_effort": "not_exposed",
+  "fable_integrity": "no flag, refusal, or substitution event reported; flag count remains 0. Output file self-reports 'claude-fable-5 as reported by the harness'; parent records observed as not_exposed per MODEL_EVIDENCE rules (self-report is not platform evidence).",
+  "status": "accepted",
+  "accepted_utc": "2026-08-05T08:24:48Z",
+  "outputs": ["outputs/40_UHV_PACKAGE_VERDICT.md", "outputs/40_EVIDENCE_GAPS.md"],
+  "gate": "PASS",
+  "key_findings": [
+    "Verdict: on the current public record the UHV/GDC module is NOT established as more than routine packaging. C3 stays conditional_hold but narrowed - hold rests almost entirely on inventor-held evidence. Confidence medium-high. Calibrated expectation: absent the minimum evidence bundle, stages 60/70 will likely find no publication-specific filing case.",
+    "Epoxy+bake affirmed routine: 150C/1h exactly matches vendor cure (S022); LIGO pre-qualified epoxy (N007); no acceptance criterion disclosed (F43).",
+    "Shield: no documented unexpected result per attribute (material/geometry/grounding/placement/interaction). New primary source V40-A (Dylla et al., PPPL 1979, OSTI 5515925, verified_full): GDC arcing hazard, 100-200 V floating potentials, grounded-vs-floating coupling, protect-sensitive-hardware motivation all documented since 1979 - completes the KSR chain and weakens the float-vs-ground teaching-away lead (N008 snippet uncorroborated).",
+    "W7-X: N017 re-read confirmed Mirnov coil center tap grounded to vessel (obviousness-supporting); panel grounding still open (G8); 2013 companion paper paywalled - evidence limitation, stage-30 weaken-trigger not fired.",
+    "Latent delta identified (inference, G4): conductivity/thickness/bandwidth trade-off of a cover conductive enough to arc-suppress yet transparent at 1 MHz (skin depth ~1.6-5 mm) - entirely undocumented in the paper.",
+    "Narrowest supported combination stated (concept-level element 4 only; narrower requires unpublished inventor material - stage 50 timing consequence flagged).",
+    "Design-around: easy (six documented routes; N016 CTH is an existence proof); detection difficulty extreme; commercial value modest/defensive.",
+    "Minimum inventor evidence ranked G1-G11 with flip thresholds both directions: strengthen needs G1+G2+G3; screen-out fires on G9 pre-existing practice, G8 grounded panels, G5 no-actual-GDC-exposure, or G2 copied design."
+  ],
+  "telemetry": {
+    "subagent_tokens_total": 151868,
+    "tool_uses": 26,
+    "duration_ms": 593887,
+    "source": "Claude Code task-notification usage metadata"
+  }
+}

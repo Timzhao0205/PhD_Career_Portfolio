@@ -1,0 +1,17 @@
+{
+  "note": "Applied in order to the canonical file's LF-normalised bytes to reproduce a path_variant snapshot file. These folders were renamed after the snapshot was taken; only the embedded path strings differ.",
+  "rules": [
+    [
+      "06_PhD_Strategy_and_HSX_Publication_2026-07",
+      "06"
+    ],
+    [
+      "01_PhD_Research_Folder_Info.md",
+      "01_Folder_Info.md"
+    ],
+    [
+      "01_PhD_Research",
+      "01"
+    ]
+  ]
+}

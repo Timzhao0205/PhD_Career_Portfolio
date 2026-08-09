@@ -1,0 +1,29 @@
+{
+  "run_id": "HSXIP-20260805T071311Z",
+  "stage": "70_final",
+  "agent": "s70-final",
+  "requested_model": "fable (Claude Fable 5)",
+  "requested_effort": "xhigh",
+  "observed_model": "not_exposed",
+  "observed_effort": "not_exposed",
+  "fable_integrity": "no flag, refusal, fallback, availability, or substitution event at any point in the stage; cumulative run flag count 0; two-strike policy never invoked. Parent had no platform telemetry at acceptance; observed stays not_exposed per docs/MODEL_EVIDENCE.md.",
+  "status": "accepted",
+  "accepted_utc": "2026-08-05T08:53:55Z",
+  "outputs": ["outputs/70_FINAL_OTL_BRIEF.md", "outputs/70_EXEC_SUMMARY.md", "outputs/70_MODEL_REPORT.md"],
+  "gate": "PASS",
+  "key_findings": [
+    "Decision label: NO_PUBLICATION_SPECIFIC_FILING_CASE_IDENTIFIED, led first with one-paragraph rationale.",
+    "Label vs arXiv gate made explicit: no filing case identified AND a short time-boxed pre-posting checkpoint retained on irrevocability / unresolved-ownership / sponsor-duty grounds (release condition (b) default at a PI-set decision date; conditions (a)/(c) early exits).",
+    "Three questions answered: (1) device - no (group's own published prior art + purchased/routine inputs, high confidence); (2) fusion new use - no standalone case (In re May known-property problem, KSR substitution; publish promptly to protect scientific priority); (3) UHV/GDC module - too routine/thin as a filing candidate but included candidly in the checkpoint intake because Bayh-Dole reporting and ownership questions are patentability-independent.",
+    "Rankings: strong none; conditional C3 (contingent on G1+G2+G3, ~6 contingencies); weak C1/C2/C4/C5; excluded per IP_SCOPE.",
+    "Conflict-resolution record: 6 items resolved (not averaged), incl. inheritance momentum demotion, G4 struck from weighing, GDC-exposure benefit of doubt withdrawn.",
+    "Limitations stated: bounded English-language indexed search; G8/G10 open; readout non-saturation; S015 depth caveat; norm-based journal-confidentiality premise.",
+    "Model report reconciles all 8 stages: requested per plan/frontmatter (no divergence); observed not_exposed everywhere; task-notification totals reproduced without invention; self-reports recorded but not accepted; FALLBACK_LOG.md quoted verbatim (zero events); stage-20 fork compaction classified as process event."
+  ],
+  "telemetry": {
+    "subagent_tokens_total": 196279,
+    "tool_uses": 25,
+    "duration_ms": 484648,
+    "source": "Claude Code task-notification usage metadata"
+  }
+}

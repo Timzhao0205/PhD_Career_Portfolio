@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Claude Code per-machine overrides (project settings.json stays tracked)
+.claude/settings.local.json
+
+# Re-derivable snapshot trees are ignored by a generated .gitignore inside each
+# snapshot root, next to its SNAPSHOT_MANIFEST.csv and rehydrate.py:
+#   01_PhD_Research/09_PAP06_Career_Portfolio_Synthesis_2026-07/sources/
+#   02_Startup/07_Frontier_Ideas_Interactive_2026-07/src/06/

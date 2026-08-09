@@ -1,0 +1,911 @@
+{
+ "generated_utc": "2026-08-08T03:11:35+00:00",
+ "files_read": 177,
+ "raw_records": 14543,
+ "files": [
+  {
+   "file": "07_Frontier_Ideas_Interactive_2026-07/outputs/70_audit/FINAL/SOURCES.json",
+   "records": 281
+  },
+  {
+   "file": "07_Frontier_Ideas_Interactive_2026-07/outputs/10_refresh/SOURCES.json",
+   "records": 79
+  },
+  {
+   "file": "07_Frontier_Ideas_Interactive_2026-07/outputs/45_packs/SOURCES.json",
+   "records": 231
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C01_sources.json",
+   "records": 12
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C06_sources.json",
+   "records": 11
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C08_sources.json",
+   "records": 11
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C10_sources.json",
+   "records": 10
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C11_sources.json",
+   "records": 10
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C12_sources.json",
+   "records": 10
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C13_sources.json",
+   "records": 10
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C15_sources.json",
+   "records": 12
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C20_sources.json",
+   "records": 11
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C21_sources.json",
+   "records": 14
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C23_sources.json",
+   "records": 13
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C27_sources.json",
+   "records": 19
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C30_sources.json",
+   "records": 10
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C33_sources.json",
+   "records": 9
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/30_PHASE3_SCORING/REDTEAM_C35_sources.json",
+   "records": 12
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C01_sources.json",
+   "records": 25
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C06_sources.json",
+   "records": 23
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C08_sources.json",
+   "records": 31
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C10_sources.json",
+   "records": 28
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C11_sources.json",
+   "records": 24
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C12_sources.json",
+   "records": 31
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C15_sources.json",
+   "records": 23
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C21_sources.json",
+   "records": 27
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C23_sources.json",
+   "records": 26
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C27_sources.json",
+   "records": 31
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C33_sources.json",
+   "records": 18
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/40_PHASE4_DEEPDIVES/DD_C35_sources.json",
+   "records": 23
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/50_PHASE5_POLICY/policy_sources.json",
+   "records": 43
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/90_BIBLIOGRAPHY/sources.json",
+   "records": 689
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D01_sources.json",
+   "records": 23
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D02_sources.json",
+   "records": 22
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D03_sources.json",
+   "records": 25
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D04_sources.json",
+   "records": 25
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D05_sources.json",
+   "records": 25
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D06_sources.json",
+   "records": 24
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D07_sources.json",
+   "records": 21
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D08_sources.json",
+   "records": 23
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D09_sources.json",
+   "records": 23
+  },
+  {
+   "file": "01_Startup_Opportunity_Research_2026-07/10_PHASE1_LANDSCAPE/D10_sources.json",
+   "records": 23
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G01_sources.json",
+   "records": 19
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G02_sources.json",
+   "records": 31
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G03_sources.json",
+   "records": 19
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G04_sources.json",
+   "records": 14
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G05_sources.json",
+   "records": 19
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G06_sources.json",
+   "records": 13
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G07_sources.json",
+   "records": 16
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G08_sources.json",
+   "records": 26
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G09_sources.json",
+   "records": 27
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G10_sources.json",
+   "records": 34
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G11_sources.json",
+   "records": 22
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G12_sources.json",
+   "records": 30
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/30_SCREENING/EVIDENCE/P4-G13_sources.json",
+   "records": 36
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/98_RUN_LOGS/P5_PRE_CNREGEN_SOURCE_MERGE_sources.json",
+   "records": 1417
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/98_RUN_LOGS/P5_PRE_PROPOSAL_SOURCE_MERGE_sources.json",
+   "records": 1428
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/98_RUN_LOGS/P8_PRE_SOURCE_ID_DEDUPE_sources.json",
+   "records": 1487
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/90_BIBLIOGRAPHY/sources.json",
+   "records": 1289
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L01_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L01_t1topup_raw_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L01_t1topup_verified_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L01_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L02_raw_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L02_t1topup_raw_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L02_t1topup_verified_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L02_verified_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L03_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L03_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L04_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L04_t1topup_raw_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L04_t1topup_verified_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L04_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L05_raw_sources.json",
+   "records": 53
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L05_verified_sources.json",
+   "records": 53
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L06_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L06_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L07_raw_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L07_verified_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L08_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L08_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L09_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L09_t1topup_raw_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L09_t1topup_verified_sources.json",
+   "records": 15
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L09_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L10_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L10_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L11_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L11_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L12_raw_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L12_verified_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L13_raw_sources.json",
+   "records": 52
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L13_verified_sources.json",
+   "records": 52
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L14_raw_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L14_verified_sources.json",
+   "records": 55
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L15_raw_sources.json",
+   "records": 46
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L15_verified_sources.json",
+   "records": 46
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L16_raw_sources.json",
+   "records": 54
+  },
+  {
+   "file": "06_Frontier_Idea_Research_2026-07/10_SOURCE_ATLAS/L16_verified_sources.json",
+   "records": 54
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/50_POLICY_DELTA/policy_delta_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G01_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G02_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G03_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G04_sources.json",
+   "records": 17
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G05_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G06_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G07_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/10_GAP_LANDSCAPE/G08_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN1_GEN2/source_evidence_ledger.csv",
+   "records": 456
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN1_GEN2/source_evidence_ledger_v1.csv",
+   "records": 424
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/gen3_sources.json",
+   "records": 689
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/policy_sources.json",
+   "records": 43
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C01_sources.json",
+   "records": 25
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C06_sources.json",
+   "records": 23
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C08_sources.json",
+   "records": 31
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C10_sources.json",
+   "records": 28
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C11_sources.json",
+   "records": 24
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C12_sources.json",
+   "records": 31
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C15_sources.json",
+   "records": 23
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C21_sources.json",
+   "records": 27
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C23_sources.json",
+   "records": 26
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C27_sources.json",
+   "records": 31
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C33_sources.json",
+   "records": 18
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/00_PRIOR_CORPUS/GEN3/DEEPDIVES/DD_C35_sources.json",
+   "records": 23
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/40_DEEPDIVES/DD_V01_sources.json",
+   "records": 28
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/40_DEEPDIVES/DD_V08_sources.json",
+   "records": 28
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/40_DEEPDIVES/DD_V09_sources.json",
+   "records": 27
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/40_DEEPDIVES/DD_V11_sources.json",
+   "records": 25
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/40_DEEPDIVES/DD_V12_sources.json",
+   "records": 30
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/90_BIBLIOGRAPHY/sources.json",
+   "records": 1217
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V01_sources.json",
+   "records": 20
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V02_sources.json",
+   "records": 25
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V03_sources.json",
+   "records": 11
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V04_sources.json",
+   "records": 17
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V05_sources.json",
+   "records": 21
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V06_sources.json",
+   "records": 16
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V07_sources.json",
+   "records": 21
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V08_sources.json",
+   "records": 14
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V09_sources.json",
+   "records": 17
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V10_sources.json",
+   "records": 19
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V11_sources.json",
+   "records": 16
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V12_sources.json",
+   "records": 15
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V13_sources.json",
+   "records": 21
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V14_sources.json",
+   "records": 22
+  },
+  {
+   "file": "02_Novel_Lanes_Research_2026-07/30_SCORING/REDTEAM_V15_sources.json",
+   "records": 25
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P01_patents.json",
+   "records": 25
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P02_patents.json",
+   "records": 18
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P03_patents.json",
+   "records": 20
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P04_patents.json",
+   "records": 22
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P05_patents.json",
+   "records": 22
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P06_patents.json",
+   "records": 22
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P07_patents.json",
+   "records": 25
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P08_patents.json",
+   "records": 23
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P09_patents.json",
+   "records": 24
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/PL_P10_patents.json",
+   "records": 22
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/30_PATENTS/patent_ledger.json",
+   "records": 216
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/00_PRIOR_CORPUS/DEEPDIVES/DD_C10_sources.json",
+   "records": 28
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/00_PRIOR_CORPUS/DEEPDIVES/DD_C11_sources.json",
+   "records": 24
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/00_PRIOR_CORPUS/DEEPDIVES/DD_C12_sources.json",
+   "records": 31
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/00_PRIOR_CORPUS/DEEPDIVES/DD_C33_sources.json",
+   "records": 18
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_A_sources.json",
+   "records": 16
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_B_sources.json",
+   "records": 18
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_C_sources.json",
+   "records": 21
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_D_sources.json",
+   "records": 20
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_E_sources.json",
+   "records": 27
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_F_sources.json",
+   "records": 26
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_G_sources.json",
+   "records": 17
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/10_COMPETITORS/CS_H_sources.json",
+   "records": 22
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-4/sources.json",
+   "records": 20
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-3/sources.json",
+   "records": 19
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-5/sources.json",
+   "records": 33
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-2/sources.json",
+   "records": 21
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-1/sources.json",
+   "records": 24
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-7/sources.json",
+   "records": 44
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/60_PRIOR_ART/CF-6/sources.json",
+   "records": 29
+  },
+  {
+   "file": "05_CryoFree_HTS_RND_2026-07/90_SOURCES/sources.json",
+   "records": 112
+  },
+  {
+   "file": "04_Cocktail_Dilution_Sensor_2026-07/90_REFERENCES/SOURCES.md",
+   "records": 4
+  }
+ ],
+ "skipped": [
+  {
+   "file": "07_Frontier_Ideas_Interactive_2026-07/outputs/50_deep/ADD_SOURCES.json",
+   "reason": "no records"
+  },
+  {
+   "file": "03_C12_C10_Strategy_IP_2026-07/90_BIBLIOGRAPHY/sources.json",
+   "reason": "no records"
+  }
+ ],
+ "errors": [],
+ "unique_sources": 3432,
+ "blocked_merges": [
+  {
+   "evidence": "url=patents.google.com/patent/us20190088391a1/en",
+   "left": {
+    "patent_number": [
+     "US20190088391"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US11094438"
+    ]
+   }
+  },
+  {
+   "evidence": "title=solid state transformer based fast charging station for various categories of el",
+   "left": {
+    "doi": [
+     "10.1109/tie.2020.3038091"
+    ]
+   },
+   "right": {
+    "doi": [
+     "10.1109/tte.2024.3462920"
+    ]
+   }
+  },
+  {
+   "evidence": "title=apparatus for quality control of a superconducting tape",
+   "left": {
+    "patent_number": [
+     "US20210208217"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US12050254"
+    ]
+   }
+  },
+  {
+   "evidence": "title=feedback control for no insulation high temperature superconducting magnet",
+   "left": {
+    "patent_number": [
+     "US20190088391"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US11551840"
+    ]
+   }
+  },
+  {
+   "evidence": "title=quench protection in high temperature superconducting magnets",
+   "left": {
+    "patent_number": [
+     "US11776721"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US12562298"
+    ]
+   }
+  },
+  {
+   "evidence": "title=quench protection in superconducting magnets",
+   "left": {
+    "patent_number": [
+     "US11557893"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US11190006"
+    ]
+   }
+  },
+  {
+   "evidence": "title=feedback control for no insulation high temperature superconducting magnet",
+   "left": {
+    "patent_number": [
+     "US20190088391"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US11094438"
+    ]
+   }
+  },
+  {
+   "evidence": "title=no insulation multi width winding for high temperature superconducting magnets",
+   "left": {
+    "patent_number": [
+     "US9117578"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "WO2013180802"
+    ]
+   }
+  },
+  {
+   "evidence": "title=high temperature superconducting coil having smart insulation high temperature s",
+   "left": {
+    "patent_number": [
+     "WO2017039299"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US20190074118"
+    ]
+   }
+  },
+  {
+   "evidence": "title=hts linked partial insulation for hts field coils",
+   "left": {
+    "patent_number": [
+     "WO2021122522"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "EP4078630"
+    ]
+   }
+  },
+  {
+   "evidence": "title=frequency loss induced quench protection system for high temperature superconduc",
+   "left": {
+    "patent_number": [
+     "US11217373"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US10515749"
+    ]
+   }
+  },
+  {
+   "evidence": "title=cryocooler system and superconducting magnet apparatus having the same",
+   "left": {
+    "patent_number": [
+     "US9014769"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "EP2624262"
+    ]
+   }
+  },
+  {
+   "evidence": "title=high temperature superconductor field coil",
+   "left": {
+    "patent_number": [
+     "CN115485868"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "EP4233081"
+    ]
+   }
+  },
+  {
+   "evidence": "title=high temperature superconducting current lead assembly for cryogenic apparatus",
+   "left": {
+    "patent_number": [
+     "US11961662"
+    ]
+   },
+   "right": {
+    "patent_number": [
+     "US12537121"
+    ]
+   }
+  }
+ ]
+}
