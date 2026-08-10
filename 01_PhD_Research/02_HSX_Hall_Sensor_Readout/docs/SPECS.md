@@ -41,17 +41,41 @@ arm), AD8429 at G = 100.3, spinning at 10 kHz. Primary captures in
 At the intended ≤ 1 mA die operating point the emulator gives 3.44 V, ~25 % of
 full scale. **20 mA is past clipping**; the 2026-07-08 magnitudes must not be used.
 
-### Spin rate vs demodulated bandwidth (8 states/cycle: update = f/8, BW ≤ f/16)
+### Spin rate: what it costs and what it buys
 
-| f | Phase | Settling / phase | Update | Signal BW |
-|---|---|---|---|---|
-| 10 kHz | 100 µs | 4 % | 1.25 kHz | ≤ 0.6 kHz |
-| **40 kHz** (nominal) | 25 µs | 14 % | 5 kHz | ≤ 2.5 kHz |
-| 80 kHz | 12.5 µs | 28 % | 10 kHz | ≤ 5 kHz |
-| 100 kHz (ceiling) | 10 µs | 35 % | 12.5 kHz | ≤ 6.25 kHz |
-| 160 kHz | 6.25 µs | 56 % — not viable | 20 kHz | 10 kHz |
+8 states per cycle → update = f/8, demodulated BW ≤ f/16. Blanking the leading
+4.6 µs of every phase (measured 3.8 µs settling × 1.2 margin) sets the duty
+actually integrated; at equal averaging time the noise penalty is
+√(duty_ref/duty).
 
-A demodulated 10 kHz bandwidth is **not** reachable with 8-state spinning. For
+| f | Phase | Duty after blanking | Update | BW | Noise vs 10 kHz | Samples/phase @1 MSa/s |
+|---|---|---|---|---|---|---|
+| 10 kHz | 100 µs | 95 % | 1.25 kHz | 0.62 kHz | 1.00× | 100 |
+| 20 kHz | 50 µs | 91 % | 2.5 kHz | 1.25 kHz | 1.02× | 50 |
+| **40 kHz** (nominal, recommended) | 25 µs | **82 %** | 5 kHz | **2.5 kHz** | **1.08×** | 25 |
+| 60 kHz | 16.7 µs | 73 % | 7.5 kHz | 3.75 kHz | 1.15× | 17 |
+| 80 kHz | 12.5 µs | 64 % | 10 kHz | 5 kHz | 1.23× | 13 |
+| 100 kHz (ceiling) | 10 µs | 54 % | 12.5 kHz | 6.25 kHz | 1.32× | 10 |
+| 160 kHz | 6.25 µs | 27 % | 20 kHz | 10 kHz | 1.88× | 6 |
+
+**Run at 40 kHz.** The physics needs ~1 kHz (stored-energy tracking on ms
+timescales; the coil ramp is 800 ms) — 10 kHz gives only 0.62 kHz, *below*
+requirement, while 40 kHz gives 2.5 kHz for an 8 % noise penalty and no
+measured amplitude loss. It is also the SPECS nominal, and 18 % blanking sits
+inside the 30 % the demod already assumes.
+
+Go to 80 kHz only if >2.5 kHz turns out to be needed. Before using 100 kHz,
+take the outstanding DC/DC rail-ripple spectrum — the RS6-2415D switching
+spurs live in that decade and spin harmonics must not land on them.
+
+**DAQ floor:** ≥10 samples/phase means ≥400 kSa/s at 40 kHz, ~1 MSa/s to be
+comfortable. The 2026-07-10 sweep was taken at 195.5 kSa/s, which gives only
+4.9 samples/phase at 40 kHz — that is very likely why it was run at 10 kHz.
+The `_v2` captures solved it with 3.9 MSa/s but only 0.5 ms of record (2.5
+cycles). At 40 kHz aim for ~1 MSa/s and as deep a record as the scope allows.
+
+A demodulated 10 kHz bandwidth is **not** reachable with 8-state spinning: it
+needs f = 160 kHz, where duty collapses to 27 % and noise nearly doubles. For
 fast events use the raw chain (record v_meas, demodulate offline) or the
 static-phase mode-2 firmware.
 

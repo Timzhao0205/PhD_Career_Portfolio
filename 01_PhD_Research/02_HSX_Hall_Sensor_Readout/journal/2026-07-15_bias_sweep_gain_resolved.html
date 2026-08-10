@@ -341,55 +341,87 @@ is the scope's ~167 mV quantization, so the true settling is at least this
 fast). Against a 25 µs phase that is 14 %; against 100 µs, 4 %. Both are
 comfortable — 10 kHz just wastes the margin.</p>
 <p>What the spin rate buys, given 8 states per cycle (update = f/8, signal
-bandwidth ≤ f/16):</p>
+bandwidth ≤ f/16). Blanking the leading 4.6 µs of every phase (3.8 µs measured
+settling × 1.2 margin) sets the duty actually integrated; at equal averaging
+time the noise penalty is √(duty_ref/duty):</p>
 <div class="tablewrap"><table>
 <thead>
 <tr>
 <th>f</th>
 <th>Phase</th>
-<th>Settling as % of phase</th>
+<th>Duty</th>
 <th>Update</th>
 <th>Signal BW</th>
+<th>Noise vs 10 kHz</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>10 kHz</td>
 <td>100 µs</td>
-<td>4 %</td>
+<td>95 %</td>
 <td>1.25 kHz</td>
-<td>≤ 0.6 kHz</td>
+<td>≤ 0.62 kHz</td>
+<td>1.00×</td>
 </tr>
 <tr>
-<td><strong>40 kHz</strong> (SPECS nominal)</td>
+<td>20 kHz</td>
+<td>50 µs</td>
+<td>91 %</td>
+<td>2.5 kHz</td>
+<td>≤ 1.25 kHz</td>
+<td>1.02×</td>
+</tr>
+<tr>
+<td><strong>40 kHz</strong> (nominal)</td>
 <td>25 µs</td>
-<td>14 %</td>
+<td>82 %</td>
 <td>5 kHz</td>
 <td>≤ 2.5 kHz</td>
+<td>1.08×</td>
+</tr>
+<tr>
+<td>60 kHz</td>
+<td>16.7 µs</td>
+<td>73 %</td>
+<td>7.5 kHz</td>
+<td>≤ 3.75 kHz</td>
+<td>1.15×</td>
 </tr>
 <tr>
 <td>80 kHz</td>
 <td>12.5 µs</td>
-<td>28 %</td>
+<td>64 %</td>
 <td>10 kHz</td>
 <td>≤ 5 kHz</td>
+<td>1.23×</td>
 </tr>
 <tr>
-<td>100 kHz (SPECS ceiling)</td>
+<td>100 kHz (ceiling)</td>
 <td>10 µs</td>
-<td>35 %</td>
+<td>54 %</td>
 <td>12.5 kHz</td>
 <td>≤ 6.25 kHz</td>
+<td>1.32×</td>
 </tr>
 <tr>
 <td>160 kHz</td>
 <td>6.25 µs</td>
-<td><strong>56 %</strong></td>
+<td>27 %</td>
 <td>20 kHz</td>
 <td>10 kHz</td>
+<td>1.88×</td>
 </tr>
 </tbody>
 </table></div>
+<p>The physics target is ~1 kHz (stored-energy tracking on ms timescales; the coil
+ramp is 800 ms). <strong>10 kHz delivers 0.62 kHz — below requirement.</strong> 40 kHz
+delivers 2.5 kHz for an 8 % noise penalty and no measured amplitude loss.</p>
+<p><strong>Why 10 kHz was probably chosen:</strong> the sweep was captured at 195.5 kSa/s, which
+is only 4.9 samples per phase at 40 kHz — too few to resolve the settled level.
+The <code>_v2</code> set fixed that with 3.9 MSa/s but bought only 0.5 ms of record (2.5
+cycles). At 40 kHz plan for ~1 MSa/s and the deepest record the scope allows;
+that is a DAQ constraint, not a circuit one.</p>
 <p><strong>Recommendation: run at 40 kHz.</strong> It is the SPECS nominal, it costs nothing in
 amplitude, it gives 4× the demodulated bandwidth, and it keeps the blanking
 window generous. 80 kHz is available if bandwidth is the binding constraint;

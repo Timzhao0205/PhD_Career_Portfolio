@@ -169,15 +169,29 @@ fast). Against a 25 µs phase that is 14 %; against 100 µs, 4 %. Both are
 comfortable — 10 kHz just wastes the margin.
 
 What the spin rate buys, given 8 states per cycle (update = f/8, signal
-bandwidth ≤ f/16):
+bandwidth ≤ f/16). Blanking the leading 4.6 µs of every phase (3.8 µs measured
+settling × 1.2 margin) sets the duty actually integrated; at equal averaging
+time the noise penalty is √(duty_ref/duty):
 
-| f | Phase | Settling as % of phase | Update | Signal BW |
-|---|---|---|---|---|
-| 10 kHz | 100 µs | 4 % | 1.25 kHz | ≤ 0.6 kHz |
-| **40 kHz** (SPECS nominal) | 25 µs | 14 % | 5 kHz | ≤ 2.5 kHz |
-| 80 kHz | 12.5 µs | 28 % | 10 kHz | ≤ 5 kHz |
-| 100 kHz (SPECS ceiling) | 10 µs | 35 % | 12.5 kHz | ≤ 6.25 kHz |
-| 160 kHz | 6.25 µs | **56 %** | 20 kHz | 10 kHz |
+| f | Phase | Duty | Update | Signal BW | Noise vs 10 kHz |
+|---|---|---|---|---|---|
+| 10 kHz | 100 µs | 95 % | 1.25 kHz | ≤ 0.62 kHz | 1.00× |
+| 20 kHz | 50 µs | 91 % | 2.5 kHz | ≤ 1.25 kHz | 1.02× |
+| **40 kHz** (nominal) | 25 µs | 82 % | 5 kHz | ≤ 2.5 kHz | 1.08× |
+| 60 kHz | 16.7 µs | 73 % | 7.5 kHz | ≤ 3.75 kHz | 1.15× |
+| 80 kHz | 12.5 µs | 64 % | 10 kHz | ≤ 5 kHz | 1.23× |
+| 100 kHz (ceiling) | 10 µs | 54 % | 12.5 kHz | ≤ 6.25 kHz | 1.32× |
+| 160 kHz | 6.25 µs | 27 % | 20 kHz | 10 kHz | 1.88× |
+
+The physics target is ~1 kHz (stored-energy tracking on ms timescales; the coil
+ramp is 800 ms). **10 kHz delivers 0.62 kHz — below requirement.** 40 kHz
+delivers 2.5 kHz for an 8 % noise penalty and no measured amplitude loss.
+
+**Why 10 kHz was probably chosen:** the sweep was captured at 195.5 kSa/s, which
+is only 4.9 samples per phase at 40 kHz — too few to resolve the settled level.
+The `_v2` set fixed that with 3.9 MSa/s but bought only 0.5 ms of record (2.5
+cycles). At 40 kHz plan for ~1 MSa/s and the deepest record the scope allows;
+that is a DAQ constraint, not a circuit one.
 
 **Recommendation: run at 40 kHz.** It is the SPECS nominal, it costs nothing in
 amplitude, it gives 4× the demodulated bandwidth, and it keeps the blanking
