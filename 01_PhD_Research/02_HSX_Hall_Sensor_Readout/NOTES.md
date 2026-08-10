@@ -6,35 +6,33 @@ the current status without you re-explaining it.
 
 ---
 
-## 2026-07-15 — bias sweep: **the 109× magnitude anomaly is CLOSED**
+## 2026-07-10 bench session (shown 2026-07-15) — **109× anomaly CLOSED**; spin rate is too low
 Full write-up: `journal/2026-07-15_bias_sweep_gain_resolved.md`.
-Derived from the 2026-07-15 group-meeting deck (slides 4–6) — raw captures not
-yet in the repo. Extracted: `data/2026-07-15_bias_sweep.csv`,
-`data/2026-07-15_emulator_phase_table.csv`;
-figures in `analysis/figures/2026-07-15_*.png`.
-- Same emulator (4×680 Ω + 2.2 kΩ), bias swept instead of parked at 20 mA.
-  Amplitude is **linear to ~2 mA and clipped at the ±13.7 V rail by 5 mA**:
-  0.1 mA→0.55 V, 0.5→1.95, 1→3.70, 2→7.10, then 5 and 10 mA at the rail.
-- ✓ **Measured 3.46 V/mA vs predicted 3.74 V/mA — 7.4 % low.** The prediction
-  is the same model that gave "~75 V @ 20 mA" (37.26 Ω × 100.3 = 3.737 V/mA),
-  so this is a like-for-like comparison. **Discrepancy went 109× → 1.08×.**
-- ✓ **Gain confirmed without any fit**: at 5 mA the amp input is only 186 mV
-  yet the output is at the ±13.7 V rail — that needs G ≥ 74. G ≈ 100 is real
-  in operation.
-- **Root cause of the old 109×**: bridge differential @20 mA = 745 mV; the
-  686 mV measured on 07-08 is 0.92× that, i.e. gain ≈ **1**, not 100.3 —
-  and 100.3/0.92 = **109.0** exactly. That is candidate 1 from the 07-08
-  entry (in-operation gain not ~100×); candidate 2 (2.2 kΩ not unbalancing
-  the bridge) is ruled out by the scaling and the clipping.
-  ⚠️ The *repair* is not recorded anywhere — the deck shows the result, not
-  what was changed. **Write down what was actually fixed** while it's fresh.
-- ◑ **NEW OPEN (second-order)**: the effective bridge imbalance is ambiguous —
-  measured implies 34.5 Ω, the deck models 37.26 Ω, the ideal schematic gives
-  42.66 Ω (19 % above measured). Suspect mux R_on in the sensed arms.
-  **Don't lock the absolute V/T calibration until this is reconciled.**
-- Operating window for the real die: ≤ 1 mA sits well inside the linear range
-  (≈ 3.7 V, ~27 % of full scale). 20 mA is past clipping — do not reuse the
-  07-08 magnitudes for anything.
+**Primary captures now in the repo**: `data/2026-07-10_bias_sweep/` (9 DSO-X CSVs);
+analysis `analysis/bias_sweep_analysis.py`; summary
+`data/2026-07-10_bias_sweep_summary.csv`; figures `analysis/figures/2026-07-10_*.png`.
+- Measured amplitudes (fold + 45 % edge blanking): 0.1 mA→0.330 V, 0.5→1.694,
+  1→3.436, 2→6.915; 5 and 10 mA **clipped at the ±13.7 V rail**.
+- ✓ **Fit 3.469 V/mA vs predicted 3.737 V/mA — 7.2 % low** (the slide's 3.46 is
+  reproduced to 0.3 %). Prediction is the same 37.26 Ω × 100.3 model that gave
+  "~75 V @ 20 mA", so it is like-for-like. **Discrepancy 109× → 1.08×.**
+- ✓ **Gain confirmed without any fit**: 186 mV at the amp input at 5 mA drives
+  the output to the ±13.7 V rail — that needs G ≥ 74.
+- **Root cause of the old 109×**: differential @20 mA = 745 mV; the 686 mV
+  measured on 07-08 is 0.92× that, i.e. gain ≈ **1**; 100.3/0.92 = **109.0**.
+  Candidate 1 from the 07-08 entry. ⚠️ The *repair* is still unrecorded —
+  write down what was actually changed.
+- **SPIN RATE**: the slide's sweep was taken at **10 kHz**, not the 40 kHz SPECS
+  nominal (recovered by folding; only 2 of 6 folders were labelled). The three
+  `_v2` captures at **40 kHz** (sync-confirmed 40.013 kHz) give the *same*
+  amplitude to ≤2.1 % — quadrupling the spin rate costs nothing. Settling after
+  a phase edge is **3.6 µs to 5 %**, i.e. 14 % of a 25 µs phase.
+  **→ move to 40 kHz; 80–100 kHz is available if bandwidth binds.**
+- ⚠️ **Slide 2's "10 kHz bandwidth" is not reachable** with 8-state spinning:
+  update = f/8, BW ≤ f/16, so 10 kHz BW needs f = 160 kHz where settling is 56 %
+  of the phase. Restate it as raw-chain BW, quote demodulated BW separately.
+- ◑ **OPEN (second-order)**: bridge imbalance ambiguous — 34.59 Ω measured,
+  37.26 Ω deck, 42.66 Ω ideal schematic. **Don't lock absolute V/T yet.**
 
 ## 2026-07-08 — first dynamic spinning run on the emulator (20 kHz, 20 mA)
 Full session write-up: `journal/2026-07-08_spinning_emulator_20mA.md`.

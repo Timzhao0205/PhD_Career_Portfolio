@@ -1,0 +1,28 @@
+# HSX readout - per-phase output amplitude vs bias current (MEASURED)
+#
+# Bench session 2026-07-10, presented in the 2026-07-15 group meeting.
+# Emulator bridge (4 x 680 ohm ring + 2.2 kohm across one arm), AD8429 G = 100.3.
+#
+# Derived from the primary DSO-X 4022A captures in data/2026-07-10_bias_sweep/
+# by analysis/bias_sweep_analysis.py. Amplitude = mean |per-state mean - pedestal|
+# after folding on the recovered phase rate and discarding 45% of each phase at
+# its edges. This replaces the earlier figure-digitized estimates.
+#
+#   spin rate, 10 kHz set  : 10.00 kHz phase rate (100 us/phase), 195.5 kSa/s
+#   spin rate, 40 kHz set  : 40.0 kHz (25 us/phase), 3.906 MSa/s, sync on CH1
+#   fit over the unclipped points, 10 kHz set:
+#       least squares      3.469 V/mA, intercept -29 mV
+#       through the origin 3.450 V/mA
+#       deck predicts      3.737 V/mA (37.26 ohm x 100.3) -> measured 7.2% low
+#   supply rail            +/-13.7 V
+#
+bias_mA,amplitude_V,V_per_mA,regime,spin_kHz,capture,note
+0.1,0.33,3.303,linear,10.0,100uA,
+0.5,1.694,3.388,linear,10.0,500uA,
+1.0,3.436,3.436,linear,10.0,1mA,
+2.0,6.915,3.457,linear,10.0,2mA,largest unclipped point
+5.0,13.754,,clipped,10.0,5mA_10khz,at the +/-13.7 V rail
+10.0,13.766,,clipped,10.0,10mA_10khz,at the +/-13.7 V rail
+0.5,1.729,3.458,linear,40.0,500uA_v2,40 kHz cross-check; sync captured on CH1
+1.0,3.437,3.437,linear,40.0,1mA_v2,40 kHz cross-check; sync captured on CH1
+2.0,6.908,3.454,linear,40.0,2mA_v2,40 kHz cross-check; sync captured on CH1

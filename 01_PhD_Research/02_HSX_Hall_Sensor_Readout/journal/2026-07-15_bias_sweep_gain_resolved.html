@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Research Journal - 2026-07-15</title>
+<title>Research Journal - 2026-07-10 bench session (presented 2026-07-15)</title>
 <style>
 :root{
   --bg:#f7f8fa; --panel:#ffffff; --ink:#1c2430; --muted:#5b6673;
@@ -101,191 +101,318 @@ blockquote{margin:14px 0;padding:8px 18px;border-left:3px solid var(--accent);
   <div class="doctitle">Journal 2026-07-15</div>
   <div class="siblings"><b>Reports</b><a href="../../reports_index.html">Report index</a><a href="../docs/hsx_readout_bringup_and_calibration_plan.html">Summer research plan</a><a href="../docs/second_test_setup_static_bias.html">Second test setup</a><a href="../../03_HSX_Vector_Probe_RSI2026/docs/rsi_experiment_and_publication_plan.html">RSI preparation</a><a href="2026-07-08_spinning_emulator_20mA.html">Journal 2026-07-08</a><a class="current">Journal 2026-07-15 (this doc)</a></div>
   <div class="toc-head">On this page</div>
-  <ul><li class="lvl2"><a href="#bias-current-sweep-on-the-emulator-the-109-magnitude-anomaly-is-closed">Bias-current sweep on the emulator — the 109× magnitude anomaly is closed</a></li><li class="lvl2"><a href="#1-what-was-measured">1. What was measured</a></li><li class="lvl2"><a href="#2-verification-is-the-anomaly-actually-resolved">2. Verification — is the anomaly actually resolved?</a></li><li class="lvl3"><a href="#21-the-prediction-line-is-the-same-model-that-produced-75-v">2.1 The prediction line is the same model that produced &quot;~75 V&quot;</a></li><li class="lvl3"><a href="#22-the-discrepancy-collapsed-from-109-to-108">2.2 The discrepancy collapsed from 109× to 1.08×</a></li><li class="lvl3"><a href="#23-the-clipping-proves-the-gain-independently-of-any-fit">2.3 The clipping proves the gain independently of any fit</a></li><li class="lvl2"><a href="#3-what-the-original-fault-was">3. What the original fault was</a></li><li class="lvl2"><a href="#4-newly-open-the-effective-bridge-imbalance">4. Newly open — the effective bridge imbalance</a></li><li class="lvl2"><a href="#5-consequences-for-the-real-sensor">5. Consequences for the real sensor</a></li><li class="lvl2"><a href="#6-plan-status-change-4-day-34">6. Plan status change (§4 Day 3–4)</a></li><li class="lvl2"><a href="#7-next-session">7. Next session</a></li><li class="lvl2"><a href="#8-also-in-the-deck-not-readout-data">8. Also in the deck (not readout data)</a></li></ul>
+  <ul><li class="lvl2"><a href="#bias-current-sweep-on-the-emulator-the-109-magnitude-anomaly-is-closed">Bias-current sweep on the emulator — the 109× magnitude anomaly is closed</a></li><li class="lvl2"><a href="#1-what-was-measured">1. What was measured</a></li><li class="lvl3"><a href="#spin-rate-not-stated-on-the-slide-recovered-from-the-data">Spin rate — not stated on the slide, recovered from the data</a></li><li class="lvl2"><a href="#2-verification-is-the-anomaly-actually-resolved">2. Verification — is the anomaly actually resolved?</a></li><li class="lvl3"><a href="#21-the-prediction-line-is-the-same-model-that-produced-75-v">2.1 The prediction line is the same model that produced &quot;~75 V&quot;</a></li><li class="lvl3"><a href="#22-the-discrepancy-collapsed-from-109-to-108">2.2 The discrepancy collapsed from 109× to 1.08×</a></li><li class="lvl3"><a href="#23-the-clipping-proves-the-gain-independently-of-any-fit">2.3 The clipping proves the gain independently of any fit</a></li><li class="lvl2"><a href="#3-what-the-original-fault-was">3. What the original fault was</a></li><li class="lvl2"><a href="#4-open-the-effective-bridge-imbalance">4. Open — the effective bridge imbalance</a></li><li class="lvl2"><a href="#5-spin-rate-10-khz-is-too-slow-40-khz-costs-nothing">5. Spin rate — 10 kHz is too slow, 40 kHz costs nothing</a></li><li class="lvl2"><a href="#6-consequences-for-the-real-sensor">6. Consequences for the real sensor</a></li><li class="lvl2"><a href="#7-plan-status-change-4-day-34">7. Plan status change (§4 Day 3–4)</a></li><li class="lvl2"><a href="#8-next-session">8. Next session</a></li><li class="lvl2"><a href="#9-also-in-the-deck-not-readout-data">9. Also in the deck (not readout data)</a></li></ul>
 </nav>
 <main>
-  <div class="meta">Reader view generated 2026-08-09 from
+  <div class="meta">Reader view generated 2026-08-10 from
   <code>2026-07-15_bias_sweep_gain_resolved.md</code> — the markdown is the source of truth
   (regenerate with <code>python3 tools/md2html.py</code>).</div>
-  <h1 id="research-journal-2026-07-15">Research Journal — 2026-07-15</h1>
+  <h1 id="research-journal-2026-07-10-bench-session-presented-2026-07-15">Research Journal — 2026-07-10 bench session (presented 2026-07-15)</h1>
 <h2 id="bias-current-sweep-on-the-emulator-the-109-magnitude-anomaly-is-closed">Bias-current sweep on the emulator — the 109× magnitude anomaly is closed</h2>
 <p><strong>Owner:</strong> Y. "Tim" Zhao · <strong>Project:</strong> 02_HSX_Hall_Sensor_Readout ·
 <strong>Session type:</strong> sensorless (emulator) bring-up, plan §4 Day 3–4.</p>
-<p><strong>Source of this entry:</strong> the 2026-07-15 group-meeting deck, slides 4–6. This
-is a <em>derived</em> record — the raw scope captures behind slide 6 are not in the
-repository. Extracted numbers live in <code>data/2026-07-15_bias_sweep.csv</code> and
-<code>data/2026-07-15_emulator_phase_table.csv</code>; the figures are mirrored in
-<code>analysis/figures/</code>. Replace the digitized points with the primary captures
-when they turn up.</p>
-<p><strong>Headline: the ~109× shortfall from 2026-07-08 is resolved.</strong> The readout now
-tracks the bridge model to within ~8 %, and the amplifier is demonstrably
-running at its design gain. One second-order discrepancy (the effective bridge
-imbalance) is newly open and is why absolute calibration is still not locked.</p>
+<p><strong>Captures:</strong> 2026-07-10, 18:32–18:42 (10 kHz set) and 19:08–19:10 (40 kHz set
+with sync), DSO-X 4022A. Presented in the 2026-07-15 group meeting, slides 4–6.</p>
+<p><strong>Primary data is in the repository</strong>: <code>data/2026-07-10_bias_sweep/</code> (nine
+DSO-X CSV exports). Everything below is computed from it by
+<code>analysis/bias_sweep_analysis.py</code>; summary in
+<code>data/2026-07-10_bias_sweep_summary.csv</code>, figures in <code>analysis/figures/</code>.
+<em>This entry originally quoted points digitized off the slide; those have been
+replaced by the measured values, which shifted the small-current points by up
+to 40 % and the fitted slope by 0.3 %.</em></p>
+<p><strong>Headline: the ~109× shortfall from 2026-07-08 is resolved.</strong> The readout
+tracks the bridge model to ~7 %, and the amplifier is demonstrably running at
+its design gain. Two things are newly open: the effective bridge imbalance, and
+the choice of spin rate (§5).</p>
 <hr />
 <h2 id="1-what-was-measured">1. What was measured</h2>
-<p>Same emulator as 2026-07-08 — four 680 Ω arms with 2.2 kΩ across one of them
-(<code>analysis/figures/2026-07-15_emulator_bridge_schematic.png</code>) — with the bias
-current swept instead of parked at 20 mA.</p>
+<p>Same emulator as 2026-07-08 — four 680 Ω arms with 2.2 kΩ across one of them —
+with the bias current swept instead of parked at 20 mA.</p>
+<p>Amplitude is the mean |per-state mean − pedestal| after folding on the recovered
+phase rate and discarding 45 % of each phase at its edges.</p>
 <div class="tablewrap"><table>
 <thead>
 <tr>
-<th>Bias current</th>
-<th>Per-phase output amplitude</th>
+<th>Bias</th>
+<th>Amplitude</th>
+<th>V/mA</th>
 <th>Regime</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>100 µA</td>
-<td>≈ 0.55 V</td>
+<td>0.330 V</td>
+<td>3.30</td>
 <td>linear</td>
 </tr>
 <tr>
 <td>500 µA</td>
-<td>≈ 1.95 V</td>
+<td>1.694 V</td>
+<td>3.39</td>
 <td>linear</td>
 </tr>
 <tr>
 <td>1 mA</td>
-<td>≈ 3.70 V</td>
+<td>3.436 V</td>
+<td>3.44</td>
 <td>linear</td>
 </tr>
 <tr>
 <td>2 mA</td>
-<td>≈ 7.10 V</td>
+<td>6.915 V</td>
+<td>3.46</td>
 <td>linear</td>
 </tr>
 <tr>
 <td>5 mA</td>
-<td>≈ 13.9 V</td>
+<td>13.754 V</td>
+<td>—</td>
 <td><strong>clipped at the rail</strong></td>
 </tr>
 <tr>
 <td>10 mA</td>
-<td>≈ 14.2 V</td>
+<td>13.766 V</td>
+<td>—</td>
 <td><strong>clipped at the rail</strong></td>
 </tr>
 </tbody>
 </table></div>
-<p>Printed on the figure, and exact as quoted:</p>
-<ul>
-<li>measured linear fit <strong>3.46 V/mA</strong></li>
-<li>predicted <strong>3.74 V/mA</strong></li>
-<li>supply rail <strong>±13.7 V</strong></li>
-</ul>
-<p>Slide 5 also gives the per-state model behind that prediction: the differential
-at the amplifier input is <strong>±37.26 Ω · I</strong>, and the eight signed products sum to
-zero — i.e. the emulator offset cancels, as designed.</p>
+<p>Fit over the unclipped points: <strong>3.469 V/mA</strong> least-squares (intercept −29 mV),
+<strong>3.450 V/mA</strong> through the origin. The slide prints 3.46 V/mA — <strong>reproduced to
+0.3 %</strong>. Supply rail <strong>±13.7 V</strong>.</p>
+<p>The per-state model on slide 5 gives the differential at the amplifier input as
+<strong>±37.26 Ω · I</strong>, with the eight signed products summing to zero
+(<code>data/2026-07-15_emulator_phase_table.csv</code>).</p>
+<h3 id="spin-rate-not-stated-on-the-slide-recovered-from-the-data">Spin rate — not stated on the slide, recovered from the data</h3>
+<p>The captures do not record the phase rate, so it was recovered by folding
+(grid-search the phase duration, score the residual about the eight per-state
+means) and cross-checked against sync where available:</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Set</th>
+<th>Phase</th>
+<th>Phase rate</th>
+<th>Sampling</th>
+<th>Fold score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100 µA, 500 µA, 1 mA, 2 mA, 5 mA, 10 mA</td>
+<td>100.0 µs</td>
+<td><strong>10.0 kHz</strong></td>
+<td>195.5 kSa/s</td>
+<td>0.98–1.00</td>
+</tr>
+<tr>
+<td>500 µA, 1 mA, 2 mA <code>_v2</code></td>
+<td>25.0 µs</td>
+<td><strong>40.0 kHz</strong></td>
+<td>3.906 MSa/s</td>
+<td>0.99–1.00</td>
+</tr>
+</tbody>
+</table></div>
+<p>The <code>_v2</code> captures recorded sync on CH1; its period gives 40.013 kHz,
+agreeing with the folded 39.5–40.4 kHz to better than 2 %. Only two of the six
+10 kHz folders were labelled <code>_10khz</code>; <strong>all six are at 10 kHz.</strong></p>
+<p><strong>Slide 6 is therefore the 10 kHz set</strong> — a quarter of the 40 kHz SPECS nominal.
+The 40 kHz <code>_v2</code> set is later, better instrumented, and is not on the slide.</p>
 <hr />
 <h2 id="2-verification-is-the-anomaly-actually-resolved">2. Verification — is the anomaly actually resolved?</h2>
 <p><strong>Yes. Three independent checks agree.</strong></p>
 <h3 id="21-the-prediction-line-is-the-same-model-that-produced-75-v">2.1 The prediction line is the same model that produced "~75 V"</h3>
 <p>37.26 Ω × 100.3 = <strong>3.737 V/mA</strong>, which is the "predict 3.74 V/mA" printed on
-slide 6. Extrapolated to the old operating point: 3.737 V/mA × 20 mA =
-<strong>74.7 V</strong>, matching the "~75 V" in the 2026-07-08 entry. So this sweep is
-being compared against <em>exactly</em> the model that the anomaly was defined
-against — not a re-derived or softened one.</p>
+slide 6. Extrapolated to the old operating point: × 20 mA = <strong>74.7 V</strong>, matching
+the "~75 V" in the 2026-07-08 entry. So this sweep is compared against <em>exactly</em>
+the model the anomaly was defined against.</p>
 <h3 id="22-the-discrepancy-collapsed-from-109-to-108">2.2 The discrepancy collapsed from 109× to 1.08×</h3>
 <div class="tablewrap"><table>
 <thead>
 <tr>
 <th></th>
 <th>2026-07-08</th>
-<th>2026-07-15</th>
+<th>2026-07-10</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Predicted</td>
 <td>74.7 V @ 20 mA</td>
-<td>3.74 V/mA</td>
+<td>3.737 V/mA</td>
 </tr>
 <tr>
 <td>Measured</td>
 <td>0.686 V</td>
-<td>3.46 V/mA</td>
+<td>3.469 V/mA</td>
 </tr>
 <tr>
 <td>Ratio</td>
 <td><strong>109× low</strong></td>
-<td><strong>1.08× low (7.4 %)</strong></td>
+<td><strong>1.08× low (7.2 %)</strong></td>
 </tr>
 </tbody>
 </table></div>
 <h3 id="23-the-clipping-proves-the-gain-independently-of-any-fit">2.3 The clipping proves the gain independently of any fit</h3>
 <p>At 5 mA the differential into the amplifier is only 37.26 Ω × 5 mA = <strong>186 mV</strong>,
 yet the output is hard against the ±13.7 V rail. Reaching that rail from 186 mV
-requires a gain of <strong>at least 74</strong>. You cannot clip a ±13.7 V supply from a
-sub-200 mV differential without roughly the design gain — so G ≈ 100 is real,
-in operation, and no curve-fitting is involved in that conclusion.</p>
-<p>Under the failed-gain hypothesis (G ≈ 1) the 10 mA point would have produced
-0.373 V. It produced a clipped ~14 V.</p>
+requires a gain of <strong>at least 74</strong>. No curve-fitting is involved. Under the
+failed-gain hypothesis (G ≈ 1) the 10 mA point would have produced 0.373 V; it
+produced a clipped 13.77 V.</p>
 <hr />
 <h2 id="3-what-the-original-fault-was">3. What the original fault was</h2>
-<p>The 2026-07-08 entry listed two candidates and the test that would tell them
-apart: <em>differential ≈ 0.75 V ⇒ candidate 1 (gain is not ~100× in operation);
-differential ≈ 7 mV ⇒ candidate 2 (the 2.2 kΩ imbalance is ineffective).</em></p>
-<p>The arithmetic now settles it:</p>
+<p>The 2026-07-08 entry listed two candidates and the test that would separate
+them: <em>differential ≈ 0.75 V ⇒ candidate 1 (gain is not ~100× in operation);
+≈ 7 mV ⇒ candidate 2 (the 2.2 kΩ imbalance is ineffective).</em></p>
 <ul>
 <li>Bridge differential at 20 mA = 37.26 Ω × 20 mA = <strong>745 mV</strong>.</li>
 <li>Measured on 2026-07-08 = <strong>686 mV</strong>.</li>
-<li>686 / 745 = <strong>0.92</strong> — i.e. the signal chain that day had a gain of ~0.92,
-  essentially <strong>unity</strong>, not 100.3.</li>
+<li>686 / 745 = <strong>0.92</strong> — a signal chain running at ~unity gain, not 100.3.</li>
 <li>100.3 / 0.92 = <strong>109.0</strong> — the anomaly factor, exactly.</li>
 </ul>
 <p>So on 2026-07-08 the scope was reading the bridge differential essentially
-<strong>unamplified</strong>. That is <strong>candidate 1</strong>, precisely as the ΔV gain check was
-designed to detect, and it explains the factor to three significant figures
-rather than approximately.</p>
-<p><strong>Candidate 2 is ruled out.</strong> If the 2.2 kΩ were not unbalancing the bridge,
-the output would not scale as ~37 Ω · I · G and could not clip at 5 mA.</p>
-<p>⚠️ <strong>Inference, not a recorded fact.</strong> The deck shows the <em>result</em>, not the
-repair. Nothing in it states what was changed between 08 and 15 July — an
-R_G/in-amp contact, a probe on the wrong node, a scope attenuation setting.
-The magnitude evidence for "the amplifier was not amplifying that day" is
-strong and self-consistent, but the physical root cause should be written down
-from bench memory while it is still fresh. <strong>Until that is recorded, treat the
-mechanism as probable and the resolution as demonstrated.</strong></p>
+<strong>unamplified</strong>: <strong>candidate 1</strong>, to three significant figures.</p>
+<p><strong>Candidate 2 is ruled out.</strong> If the 2.2 kΩ were not unbalancing the bridge, the
+output could not scale as ~37 Ω · I · G, nor clip at 5 mA.</p>
+<p>⚠️ <strong>Inference, not a recorded fact.</strong> Nothing in the deck or the captures states
+what changed between 08 and 10 July — an R_G/in-amp contact, a probe on the
+wrong node, a scope setting. The magnitude evidence is strong and
+self-consistent, but <strong>the physical root cause should be written down from bench
+memory.</strong></p>
 <hr />
-<h2 id="4-newly-open-the-effective-bridge-imbalance">4. Newly open — the effective bridge imbalance</h2>
-<p>The deck's model uses <strong>37.26 Ω</strong>. Computing the same quantity from the ideal
-schematic on slide 5 (four 680 Ω arms, 2.2 kΩ across one, current in at the top
-node, sense across the two mid-nodes) gives:</p>
+<h2 id="4-open-the-effective-bridge-imbalance">4. Open — the effective bridge imbalance</h2>
+<p>The deck models <strong>37.26 Ω</strong>. From the ideal schematic on slide 5 (four 680 Ω
+arms, 2.2 kΩ across one, current in at the top node, sense across the two
+mid-nodes):</p>
 <pre><code>R2 ∥ R5 = 680·2200/2880       = 519.4 Ω
 branches: 1360 Ω  and  1199.4 Ω
 |V(L) − V(R)| per amp of bias  = 42.66 Ω
 </code></pre>
-<p><strong>42.66 Ω, not 37.26 Ω — a 12.7 % gap</strong>, and the measured slope implies
-3.46 V/mA ÷ 100.3 = <strong>34.5 Ω</strong>, which is 19 % below the ideal-schematic value.</p>
-<p>So the "7.4 % low" headline is measured against the deck's own 37.26 Ω. Against
-the schematic it is 19 % low. Candidate explanations, none verified:</p>
-<ol>
-<li>mux on-resistance inside the sensed arms (ADG1209/ADG5236) shifting the
-   effective divider — plausible and checkable from the datasheets plus a DMM;</li>
-<li>resistor tolerance — the imbalance is a <em>difference</em> of near-equal
-   quantities, so 1 % parts can move it several percent, though 19 % is a
-   stretch;</li>
-<li>the deck's 37.26 Ω already includes a correction not written on the slide.</li>
-</ol>
-<p>This is a second-order modelling question, not a repeat of the anomaly. It does
-not affect the verdict in §2 — but it does mean <strong>the absolute V/T calibration
-must not be locked to the emulator until the imbalance model is reconciled.</strong></p>
+<p>Three values disagree: <strong>34.59 Ω</strong> measured (3.469 V/mA ÷ 100.3), <strong>37.26 Ω</strong>
+deck, <strong>42.66 Ω</strong> ideal schematic. Against the schematic the measurement is 19 %
+low, not 7 %.</p>
+<p>Candidates, none verified: mux on-resistance inside the sensed arms shifting the
+divider; resistor tolerance (the imbalance is a <em>difference</em> of near-equal
+quantities, so 1 % parts move it several percent — but 19 % is a stretch); or a
+correction already folded into the deck's 37.26 Ω that isn't written down.</p>
+<p>Second-order, and it does not affect §2 — but <strong>the absolute V/T calibration
+must not be locked to the emulator until this is reconciled.</strong></p>
 <hr />
-<h2 id="5-consequences-for-the-real-sensor">5. Consequences for the real sensor</h2>
-<p>The sweep also fixes the usable operating window, which matters because the
-2026-07-08 entry flagged 20 mA as ~20× above the intended die current:</p>
+<h2 id="5-spin-rate-10-khz-is-too-slow-40-khz-costs-nothing">5. Spin rate — 10 kHz is too slow, 40 kHz costs nothing</h2>
+<p>The <code>_v2</code> set repeats three bias points at 40 kHz, which makes this a controlled
+comparison:</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>Bias</th>
+<th>10 kHz</th>
+<th>40 kHz</th>
+<th>Δ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500 µA</td>
+<td>1.694 V</td>
+<td>1.729 V</td>
+<td>+2.1 %</td>
+</tr>
+<tr>
+<td>1 mA</td>
+<td>3.436 V</td>
+<td>3.437 V</td>
+<td>+0.1 %</td>
+</tr>
+<tr>
+<td>2 mA</td>
+<td>6.915 V</td>
+<td>6.908 V</td>
+<td>−0.1 %</td>
+</tr>
+</tbody>
+</table></div>
+<p>Slope 3.450 V/mA at 10 kHz vs 3.451 V/mA at 40 kHz. <strong>Quadrupling the spin rate
+costs no amplitude.</strong> The +2.1 % at 500 µA is the noisiest point, not a trend.</p>
+<p><strong>Why:</strong> settling after a phase edge, ensemble-averaged over the 3.9 MSa/s
+captures, reaches 5 % of the step at <strong>3.6 µs</strong> and 1 % at <strong>3.8 µs</strong> (the floor
+is the scope's ~167 mV quantization, so the true settling is at least this
+fast). Against a 25 µs phase that is 14 %; against 100 µs, 4 %. Both are
+comfortable — 10 kHz just wastes the margin.</p>
+<p>What the spin rate buys, given 8 states per cycle (update = f/8, signal
+bandwidth ≤ f/16):</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+<th>f</th>
+<th>Phase</th>
+<th>Settling as % of phase</th>
+<th>Update</th>
+<th>Signal BW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 kHz</td>
+<td>100 µs</td>
+<td>4 %</td>
+<td>1.25 kHz</td>
+<td>≤ 0.6 kHz</td>
+</tr>
+<tr>
+<td><strong>40 kHz</strong> (SPECS nominal)</td>
+<td>25 µs</td>
+<td>14 %</td>
+<td>5 kHz</td>
+<td>≤ 2.5 kHz</td>
+</tr>
+<tr>
+<td>80 kHz</td>
+<td>12.5 µs</td>
+<td>28 %</td>
+<td>10 kHz</td>
+<td>≤ 5 kHz</td>
+</tr>
+<tr>
+<td>100 kHz (SPECS ceiling)</td>
+<td>10 µs</td>
+<td>35 %</td>
+<td>12.5 kHz</td>
+<td>≤ 6.25 kHz</td>
+</tr>
+<tr>
+<td>160 kHz</td>
+<td>6.25 µs</td>
+<td><strong>56 %</strong></td>
+<td>20 kHz</td>
+<td>10 kHz</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Recommendation: run at 40 kHz.</strong> It is the SPECS nominal, it costs nothing in
+amplitude, it gives 4× the demodulated bandwidth, and it keeps the blanking
+window generous. 80 kHz is available if bandwidth is the binding constraint;
+100 kHz is the practical ceiling.</p>
+<p><strong>The 10 kHz bandwidth on slide 2 is not reachable with 8-state spinning.</strong> It
+needs f = 160 kHz, where settling eats 56 % of every phase — above the SPECS
+"10k–100k usable" range and with no usable settled window left. The plan already
+anticipates this (§8 of the bring-up plan): record raw v_meas and demodulate
+offline, or use the static-phase "fast mode" (mode-2 firmware) for fast events.
+<strong>Slide 2's claim should be restated</strong> as the raw-chain bandwidth, with the
+demodulated bandwidth quoted separately.</p>
+<hr />
+<h2 id="6-consequences-for-the-real-sensor">6. Consequences for the real sensor</h2>
 <ul>
 <li><strong>Linear to ~2 mA, clipped by 5 mA</strong> on this emulator at G = 100.3.</li>
-<li>Rail-limited maximum differential ≈ 13.7 V / 100.3 = <strong>137 mV</strong> at the
-  amplifier input.</li>
-<li>The intended ≤ 1 mA operating point for the real GaN die sits comfortably
-  inside the linear range — at 1 mA the emulator gave ≈ 3.7 V, about 27 % of
-  full scale. Good headroom without self-heating the die.</li>
-<li>20 mA is now understood to be <em>past clipping</em> on this emulator, so the
-  2026-07-08 capture should not be re-used for any magnitude work.</li>
+<li>Rail-limited maximum differential ≈ 13.7 V / 100.3 = <strong>137 mV</strong>.</li>
+<li>The intended ≤ 1 mA die operating point sits inside the linear range — at
+  1 mA the emulator gave 3.44 V, ~25 % of full scale. Good headroom without
+  self-heating the die.</li>
+<li>20 mA is <em>past clipping</em>; the 2026-07-08 magnitudes must not be re-used.</li>
 </ul>
 <hr />
-<h2 id="6-plan-status-change-4-day-34">6. Plan status change (§4 Day 3–4)</h2>
+<h2 id="7-plan-status-change-4-day-34">7. Plan status change (§4 Day 3–4)</h2>
 <div class="tablewrap"><table>
 <thead>
 <tr>
@@ -297,8 +424,8 @@ must not be locked to the emulator until the imbalance model is reconciled.</str
 <tbody>
 <tr>
 <td><strong>ΔV gain verification, G = 100.3 ±1 %</strong></td>
-<td>✗ not done — TOP PRIORITY</td>
-<td><strong>✓ done in effect</strong> — gain confirmed ≥74 by rail clipping and 92.5 % of prediction by slope. Not yet a formal ±1 % ΔV measurement.</td>
+<td>✗ TOP PRIORITY</td>
+<td><strong>✓ in effect</strong> — ≥74 from rail clipping, 92.8 % of prediction by slope. Not yet a formal ±1 % ΔV measurement.</td>
 </tr>
 <tr>
 <td>Absolute-magnitude anomaly</td>
@@ -306,41 +433,49 @@ must not be locked to the emulator until the imbalance model is reconciled.</str
 <td><strong>✓ closed</strong></td>
 </tr>
 <tr>
+<td>Sync-channel capture</td>
+<td>✗ not done</td>
+<td><strong>✓ done</strong> (the three <code>_v2</code> captures)</td>
+</tr>
+<tr>
 <td>Bias-current linearity / headroom</td>
 <td>not on the plan</td>
-<td><strong>✓ done</strong> — linear ≤ 2 mA, clipped ≥ 5 mA</td>
+<td><strong>✓ done</strong></td>
+</tr>
+<tr>
+<td>Frequency study</td>
+<td>◑ partial</td>
+<td><strong>◑ two points</strong> (10 and 40 kHz, identical amplitude); 100 k still untested</td>
 </tr>
 <tr>
 <td>Effective bridge imbalance model</td>
 <td>not on the plan</td>
-<td>◑ <strong>new open item</strong> — 34.5 / 37.26 / 42.66 Ω disagree</td>
+<td>◑ <strong>new open item</strong></td>
 </tr>
 </tbody>
 </table></div>
-<p>Everything else from the 2026-07-08 "next session" list is still outstanding:
-static 8-state DMM survey, sync-channel capture, noise-floor PSD, frequency
-sweep, rail-ripple spectrum, board log.</p>
+<p>Still outstanding: static 8-state DMM survey, noise-floor PSD, rail-ripple
+spectrum, board log.</p>
 <hr />
-<h2 id="7-next-session">7. Next session</h2>
+<h2 id="8-next-session">8. Next session</h2>
 <ol>
-<li><strong>Write down what was actually fixed</strong> between 08 and 15 July (§3). One
-   sentence in <code>NOTES.md</code> closes the loop properly.</li>
-<li><strong>Reconcile the bridge imbalance</strong> (§4): DMM the four arms and the 2.2 kΩ
-   in-circuit, measure the amp-input differential directly at a held state, and
-   compare against 34.5 / 37.26 / 42.66 Ω.</li>
-<li>Get the <strong>raw captures</strong> for the 2026-07-15 sweep into <code>data/</code> so the
-   digitized CSV can be replaced with primary data.</li>
-<li>Then resume the outstanding §6.1 items — sync capture first, since the noise
-   floor is still quantization-limited without it.</li>
-<li>Only after (2): set the emulator operating point and start absolute
-   calibration.</li>
+<li><strong>Move the spin rate to 40 kHz</strong> and re-take the sweep (§5).</li>
+<li><strong>Write down what was actually fixed</strong> between 08 and 10 July (§3).</li>
+<li><strong>Reconcile the bridge imbalance</strong> (§4): DMM the arms in-circuit and measure
+   the amp-input differential directly at a held state; compare against
+   34.59 / 37.26 / 42.66 Ω.</li>
+<li>Extend the frequency study to 80 and 100 kHz — settling says both should
+   work; confirm the amplitude holds and watch the blanking fraction.</li>
+<li>Noise-floor PSD, now that sync capture works and the record isn't
+   quantization-limited.</li>
+<li>Only after (3): set the operating point and start absolute calibration.</li>
 </ol>
 <hr />
-<h2 id="8-also-in-the-deck-not-readout-data">8. Also in the deck (not readout data)</h2>
-<p>Slide 3 shows a 3-axis package concept — three sensor bodies on a CF flange
-with a multipin feedthrough, ~1.250 in diagonal envelope. That belongs to
-<code>03_HSX_Vector_Probe_RSI2026</code>, not here, and is recorded only as a pointer.
-Slide 7 (Magnify) is out of scope by request and was not read.</p>
+<h2 id="9-also-in-the-deck-not-readout-data">9. Also in the deck (not readout data)</h2>
+<p>Slide 3 shows a 3-axis package concept — three sensor bodies on a CF flange with
+a multipin feedthrough, ~1.250 in diagonal envelope. That belongs to
+<code>03_HSX_Vector_Probe_RSI2026</code>. Slide 8 (Magnify) is out of scope by request and
+was not read.</p>
 </main>
 </div>
 <a class="backtop" href="#top">&uarr; top</a>
