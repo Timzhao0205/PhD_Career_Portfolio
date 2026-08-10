@@ -31,6 +31,17 @@ analysis `analysis/bias_sweep_analysis.py`; summary
 - ⚠️ **Slide 2's "10 kHz bandwidth" is not reachable** with 8-state spinning:
   update = f/8, BW ≤ f/16, so 10 kHz BW needs f = 160 kHz where settling is 56 %
   of the phase. Restate it as raw-chain BW, quote demodulated BW separately.
+- ◑ **OPEN — possible 40 kHz interference** (raised 2026-08-10 from bench
+  recollection). **Not answerable from these captures**: 40 kHz is degenerate
+  with spin content in both sets (it *is* the phase rate in `_v2`; the 32nd
+  cycle harmonic at 10 kHz), and there is no spin-off baseline. What the data
+  does show is **no penalty at 40 kHz** — demod cancels to 0.01–0.29 % of
+  amplitude at both rates with no systematic difference. Two spectral features
+  found, neither at 40 kHz: 71–92 kHz lines in the 195.5 kSa/s set (**aliases**,
+  gone when oversampled) and a ~174 kHz line that scales with amplitude (likely
+  edge ringing; sits in the RS6-2415D decade). **Settle it with (a) a spin-off
+  baseline capture at ≥1 MSa/s and (b) the outstanding rail-ripple spectrum.**
+  If real, move to **48 kHz** — exact PIO divider, +20 % bandwidth, no reflash.
 - ◑ **OPEN (second-order)**: bridge imbalance ambiguous — 34.59 Ω measured,
   37.26 Ω deck, 42.66 Ω ideal schematic. **Don't lock absolute V/T yet.**
 

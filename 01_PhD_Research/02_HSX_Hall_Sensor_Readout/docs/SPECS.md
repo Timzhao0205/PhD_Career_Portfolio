@@ -79,6 +79,63 @@ needs f = 160 kHz, where duty collapses to 27 % and noise nearly doubles. For
 fast events use the raw chain (record v_meas, demodulate offline) or the
 static-phase mode-2 firmware.
 
+### Is there interference at 40 kHz? — OPEN, not answerable from this data
+
+Raised 2026-08-10 from bench recollection. **Neither confirmed nor refuted by
+the 2026-07-10 captures**, because 40 kHz is degenerate with spin content in
+both sets: in the `_v2` captures it *is* the phase rate, and in the 10 kHz set
+it is the 32nd harmonic of the 1.25 kHz cycle rate. There is no spin-off
+baseline record to compare against.
+
+What the captures *do* establish — no operational penalty at 40 kHz:
+
+| | 10 kHz | 40 kHz |
+|---|---|---|
+| Amplitude (0.5/1/2 mA) | 1.694 / 3.436 / 6.915 V | 1.729 / 3.437 / 6.908 V |
+| Demod residual, aligned | 4.9 / 2.2 / 0.7 mV | 0.8 / 8.5 / 3.1 mV |
+| …as % of amplitude | 0.29 / 0.06 / 0.01 % | 0.05 / 0.25 / 0.05 % |
+
+Cancellation is 0.01–0.29 % of amplitude at both rates with no systematic
+difference; the ordering flips between bias points, i.e. it is scatter near the
+scope's quantisation floor, not a trend.
+
+Two spectral features found on the way, neither at 40 kHz:
+
+- **71–92 kHz lines in the 195.5 kSa/s set** — scale with signal amplitude and
+  do not survive oversampling. These are **aliases**: a 100 µs-phase square wave
+  has energy well above the 97.75 kHz Nyquist of that capture setting. A
+  measurement artifact, not circuit noise. Another reason to capture at ≥1 MSa/s.
+- **A repeatable line near 174 kHz** in the 3.9 MSa/s captures, also scaling with
+  amplitude — consistent with edge ringing rather than an external source, but it
+  sits in the decade where the RS6-2415D spurs are expected (plan §2.5). The
+  0.5 ms record gives only 2 kHz bins, too coarse to characterise it.
+
+**The two measurements that would settle it:**
+
+1. **Spin-off baseline.** Park the muxes in one state (mode-2 static bias), EN
+   high, capture v_meas at ≥1 MSa/s over the deepest record available, FFT.
+   Nothing in the circuit switches at 40 kHz in that condition, so *any* line
+   there is a genuine external interferer.
+2. **Rail-ripple spectrum** (plan §2.5, still outstanding). AC-couple the ±15 V
+   rails and FFT. Locates the RS6-2415D fundamental and harmonics so no spin
+   rate or harmonic is chosen on top of them.
+
+**If a 40 kHz interferer is confirmed, it costs nothing to avoid.** Nothing in
+the design needs exactly 40 kHz. Achievable neighbours on the 16.8 fixed-point
+PIO divider, all within 0.03 % of target and none needing a reflash:
+
+| Target | Achieved | Exact divider? |
+|---|---|---|
+| 37 kHz | 36.9999 kHz | no (0.0002 % off) |
+| 44 kHz | 44.0000 kHz | no (0.0001 % off) |
+| **48 kHz** | 48.0000 kHz | **yes** |
+| **50 kHz** | 50.0000 kHz | **yes** |
+
+48 kHz is the natural fallback: an exact divider, 20 % more bandwidth than
+40 kHz, and 78 % duty after blanking. The demod recovers phase from sync rather
+than an assumed frequency, so a non-round rate costs nothing analytically.
+
+
 ⚠️ **Do not lock an absolute V/T calibration to these numbers yet.** The
 effective bridge imbalance is unresolved: 34.59 Ω measured, 37.26 Ω deck model,
 42.66 Ω ideal schematic. See §4 of the journal.
